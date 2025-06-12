@@ -138,18 +138,18 @@ ChatSessionEntity  updated.
 PATCH /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "qui",
+    "path": "est",
     "value": {}
   },
   {
     "op": "add",
-    "path": "qui",
+    "path": "est",
     "value": {}
   }
 ]
@@ -162,29 +162,29 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 282,
-  "TopicId": 126,
+  "ChatSessionId": 844,
+  "TopicId": 498,
   "User": null,
   "Person": null,
-  "CustomerAlias": "magni",
-  "CustomerHost": "sed",
-  "CustomerName": "Zboncak-Berge",
-  "CustomerEmail": "modesta@toy.ca",
-  "CustomerPhone": "1-923-276-1260",
+  "CustomerAlias": "dicta",
+  "CustomerHost": "rerum",
+  "CustomerName": "Leffler, Lemke and Pfannerstill",
+  "CustomerEmail": "greta@mcclureleffler.com",
+  "CustomerPhone": "(311)163-3014 x529",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Altenwerth-Kovacek",
+  "CustomerCompanyName": "Upton Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "et",
-  "LastMessage": "fugiat",
-  "WhenRequested": "2019-02-22T16:32:47.1648994+01:00",
-  "WhenStarted": "2015-08-23T16:32:47.1648994+02:00",
-  "WhenEnded": "2006-12-02T16:32:47.1648994+01:00",
-  "WhenIdle": "2001-06-02T16:32:47.1648994+02:00",
-  "WhenFetched": "2007-12-07T16:32:47.1648994+01:00",
-  "SessionKey": "sunt",
-  "InitialQueuePos": 470,
-  "AlertLevel": 660,
-  "Rank": 825,
+  "FirstMessage": "qui",
+  "LastMessage": "atque",
+  "WhenRequested": "2011-01-11T17:54:08.0074687+01:00",
+  "WhenStarted": "2024-04-15T17:54:08.0074687+02:00",
+  "WhenEnded": "2020-01-05T17:54:08.0074687+01:00",
+  "WhenIdle": "2022-01-01T17:54:08.0074687+01:00",
+  "WhenFetched": "2020-10-14T17:54:08.0074687+02:00",
+  "SessionKey": "voluptates",
+  "InitialQueuePos": 48,
+  "AlertLevel": 420,
+  "Rank": 301,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -192,13 +192,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 119,
+  "Rating": 546,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 481
+      "FieldLength": 9
     }
   },
   "_Links": {

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 405,
-    "Name": "Hintz, Ortiz and Dare",
-    "ToolTip": "Laborum sed maxime pariatur eligendi qui nisi possimus.",
-    "Deleted": true,
-    "Rank": 123,
-    "Type": "non",
-    "ColorBlock": 322,
-    "IconHint": "dolorem",
+    "Id": 735,
+    "Name": "Mosciski Inc and Sons",
+    "ToolTip": "Error voluptatem et quos ut facere.",
+    "Deleted": false,
+    "Rank": 348,
+    "Type": "consectetur",
+    "ColorBlock": 109,
+    "IconHint": "quae",
     "Selected": false,
-    "LastChanged": "2013-09-14T16:32:48.9932021+02:00",
+    "LastChanged": "2024-07-22T17:54:09.1324271+02:00",
     "ChildItems": [
       {
-        "Id": 82,
-        "Name": "Schmeler-Rohan",
-        "ToolTip": "A voluptatem corporis cumque eos voluptatem iusto.",
-        "Deleted": true,
-        "Rank": 613,
-        "Type": "laborum",
-        "ColorBlock": 783,
-        "IconHint": "assumenda",
+        "Id": 248,
+        "Name": "VonRueden, White and Braun",
+        "ToolTip": "Laboriosam ab quia provident consequatur laudantium provident saepe.",
+        "Deleted": false,
+        "Rank": 394,
+        "Type": "minima",
+        "ColorBlock": 83,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2022-03-15T16:32:48.9932021+01:00",
+        "LastChanged": "2000-03-04T17:54:09.1324271+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Luisa Rutherford",
+        "ExtraInfo": "optio",
+        "StyleHint": "voluptatum",
+        "Hidden": true,
+        "FullName": "Miss Davin Adell Langosh V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 675
+            "FieldType": "System.String",
+            "FieldLength": 146
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "velit",
-    "Hidden": false,
-    "FullName": "Thurman Dooley",
+    "ExtraInfo": "iusto",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Gabriella Schuppe III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 859
+        "FieldLength": 172
       }
     }
   }

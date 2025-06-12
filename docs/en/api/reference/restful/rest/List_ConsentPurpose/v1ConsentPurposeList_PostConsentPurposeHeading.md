@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 490,
-  "Name": "Kirlin, Watsica and Reinger",
-  "Tooltip": "cumque",
-  "Deleted": true,
-  "Rank": 488,
-  "UdListDefinitionId": 783
+  "HeadingId": 33,
+  "Name": "Marks Group",
+  "Tooltip": "neque",
+  "Deleted": false,
+  "Rank": 70,
+  "UdListDefinitionId": 664
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 336,
-  "Name": "Armstrong-Kovacek",
-  "Tooltip": "nam",
+  "HeadingId": 591,
+  "Name": "Bashirian Group",
+  "Tooltip": "veritatis",
   "Deleted": false,
-  "Rank": 8,
-  "UdListDefinitionId": 701,
+  "Rank": 969,
+  "UdListDefinitionId": 905,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 931
+      "FieldLength": 790
     }
   }
 }

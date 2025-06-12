@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProjectType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 118,
-  "Name": "Funk Group",
-  "Tooltip": "iure",
-  "Deleted": true,
-  "UdListDefinitionId": 185,
-  "Rank": 325,
+  "Id": 761,
+  "Name": "Medhurst, Fritsch and Farrell",
+  "Tooltip": "at",
+  "Deleted": false,
+  "UdListDefinitionId": 240,
+  "Rank": 556,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldType": "System.String",
+      "FieldLength": 337
     }
   }
 }

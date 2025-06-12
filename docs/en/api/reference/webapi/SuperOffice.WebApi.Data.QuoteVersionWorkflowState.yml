@@ -17,18 +17,17 @@ items:
   nameWithType: QuoteVersionWorkflowState
   fullName: SuperOffice.WebApi.Data.QuoteVersionWorkflowState
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for QuoteVersionWorkflowState.\nInformation about possible button actions for the quote version dialog.    \n"
+  summary: >-
+    Carrier object for QuoteVersionWorkflowState.
+
+    Information about possible button actions for the quote version dialog.
+  example: []
   syntax:
     content: 'public class QuoteVersionWorkflowState : Carrier'
-    content.vb: >-
-      Public Class QuoteVersionWorkflowState
-          Inherits Carrier
+    content.vb: Public Class QuoteVersionWorkflowState Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.QuoteAgent
     commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
@@ -38,12 +37,13 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.#ctor
   commentId: M:SuperOffice.WebApi.Data.QuoteVersionWorkflowState.#ctor
   id: '#ctor'
@@ -55,21 +55,18 @@ items:
   nameWithType: QuoteVersionWorkflowState.QuoteVersionWorkflowState()
   fullName: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.QuoteVersionWorkflowState()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public QuoteVersionWorkflowState()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: QuoteVersionWorkflowState.New()
+  fullName.vb: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.ActionButtons
   commentId: P:SuperOffice.WebApi.Data.QuoteVersionWorkflowState.ActionButtons
   id: ActionButtons
@@ -81,13 +78,11 @@ items:
   nameWithType: QuoteVersionWorkflowState.ActionButtons
   fullName: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.ActionButtons
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nArray of visible buttons with defined actions in the quote verson dialog.\n"
+  summary: Array of visible buttons with defined actions in the quote verson dialog.
+  example: []
   syntax:
     content: public virtual QuoteVersionButtonState[] ActionButtons { get; set; }
     parameters: []
@@ -95,14 +90,6 @@ items:
       type: SuperOffice.WebApi.Data.QuoteVersionButtonState[]
     content.vb: Public Overridable Property ActionButtons As QuoteVersionButtonState()
   overload: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.ActionButtons*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.StateImage
   commentId: P:SuperOffice.WebApi.Data.QuoteVersionWorkflowState.StateImage
   id: StateImage
@@ -114,13 +101,11 @@ items:
   nameWithType: QuoteVersionWorkflowState.StateImage
   fullName: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.StateImage
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nInformation about the state image for the current quote version.\n"
+  summary: Information about the state image for the current quote version.
+  example: []
   syntax:
     content: public virtual QuoteVersionButtonState StateImage { get; set; }
     parameters: []
@@ -128,14 +113,6 @@ items:
       type: SuperOffice.WebApi.Data.QuoteVersionButtonState
     content.vb: Public Overridable Property StateImage As QuoteVersionButtonState
   overload: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.StateImage*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.UpdatePricesButton
   commentId: P:SuperOffice.WebApi.Data.QuoteVersionWorkflowState.UpdatePricesButton
   id: UpdatePricesButton
@@ -147,13 +124,11 @@ items:
   nameWithType: QuoteVersionWorkflowState.UpdatePricesButton
   fullName: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.UpdatePricesButton
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nInformation about the action for the update prices button.\n"
+  summary: Information about the action for the update prices button.
+  example: []
   syntax:
     content: public virtual QuoteVersionButtonState UpdatePricesButton { get; set; }
     parameters: []
@@ -161,14 +136,6 @@ items:
       type: SuperOffice.WebApi.Data.QuoteVersionButtonState
     content.vb: Public Overridable Property UpdatePricesButton As QuoteVersionButtonState
   overload: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.UpdatePricesButton*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.Status
   commentId: P:SuperOffice.WebApi.Data.QuoteVersionWorkflowState.Status
   id: Status
@@ -180,13 +147,11 @@ items:
   nameWithType: QuoteVersionWorkflowState.Status
   fullName: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.Status
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nStatus information for the Quote Version.\n"
+  summary: Status information for the Quote Version.
+  example: []
   syntax:
     content: public virtual QuoteVersionStatusInformation Status { get; set; }
     parameters: []
@@ -194,32 +159,67 @@ items:
       type: SuperOffice.WebApi.Data.QuoteVersionStatusInformation
     content.vb: Public Overridable Property Status As QuoteVersionStatusInformation
   overload: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.Status*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
+- uid: SuperOffice.WebApi.Agents.QuoteAgent
+  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.QuoteAgent.html
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.WebApi.Agents.QuoteAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -227,6 +227,7 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -234,35 +235,256 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: SuperOffice.WebApi.Agents.QuoteAgent
-  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: QuoteAgent
-  nameWithType: QuoteAgent
-  fullName: SuperOffice.WebApi.Agents.QuoteAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionWorkflowState.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.html#SuperOffice_WebApi_Data_QuoteVersionWorkflowState__ctor
   name: QuoteVersionWorkflowState
   nameWithType: QuoteVersionWorkflowState.QuoteVersionWorkflowState
   fullName: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.QuoteVersionWorkflowState
+  nameWithType.vb: QuoteVersionWorkflowState.New
+  fullName.vb: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.ActionButtons*
   commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionWorkflowState.ActionButtons
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.html#SuperOffice_WebApi_Data_QuoteVersionWorkflowState_ActionButtons
   name: ActionButtons
   nameWithType: QuoteVersionWorkflowState.ActionButtons
   fullName: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.ActionButtons
 - uid: SuperOffice.WebApi.Data.QuoteVersionButtonState[]
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteVersionButtonState.html
   name: QuoteVersionButtonState[]
   nameWithType: QuoteVersionButtonState[]
   fullName: SuperOffice.WebApi.Data.QuoteVersionButtonState[]
@@ -272,24 +494,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.QuoteVersionButtonState
     name: QuoteVersionButtonState
-    nameWithType: QuoteVersionButtonState
-    fullName: SuperOffice.WebApi.Data.QuoteVersionButtonState
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.QuoteVersionButtonState.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.QuoteVersionButtonState
     name: QuoteVersionButtonState
-    nameWithType: QuoteVersionButtonState
-    fullName: SuperOffice.WebApi.Data.QuoteVersionButtonState
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.QuoteVersionButtonState.html
+  - name: (
+  - name: )
 - uid: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.StateImage*
   commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionWorkflowState.StateImage
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.html#SuperOffice_WebApi_Data_QuoteVersionWorkflowState_StateImage
   name: StateImage
   nameWithType: QuoteVersionWorkflowState.StateImage
   fullName: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.StateImage
@@ -297,18 +516,21 @@ references:
   commentId: T:SuperOffice.WebApi.Data.QuoteVersionButtonState
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteVersionButtonState.html
   name: QuoteVersionButtonState
   nameWithType: QuoteVersionButtonState
   fullName: SuperOffice.WebApi.Data.QuoteVersionButtonState
 - uid: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.UpdatePricesButton*
   commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionWorkflowState.UpdatePricesButton
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.html#SuperOffice_WebApi_Data_QuoteVersionWorkflowState_UpdatePricesButton
   name: UpdatePricesButton
   nameWithType: QuoteVersionWorkflowState.UpdatePricesButton
   fullName: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.UpdatePricesButton
 - uid: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.Status*
   commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionWorkflowState.Status
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.html#SuperOffice_WebApi_Data_QuoteVersionWorkflowState_Status
   name: Status
   nameWithType: QuoteVersionWorkflowState.Status
   fullName: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.Status
@@ -316,6 +538,7 @@ references:
   commentId: T:SuperOffice.WebApi.Data.QuoteVersionStatusInformation
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.html
   name: QuoteVersionStatusInformation
   nameWithType: QuoteVersionStatusInformation
   fullName: SuperOffice.WebApi.Data.QuoteVersionStatusInformation

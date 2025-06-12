@@ -5,15 +5,16 @@ items:
   id: AssociateAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.AssociateAgent.#ctor
-  - SuperOffice.CRM.Services.AssociateAgent.GetAssociate(System.Int32)
-  - SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonId(System.Int32)
-  - SuperOffice.CRM.Services.AssociateAgent.GetAssociateList(System.Int32[])
-  - SuperOffice.CRM.Services.AssociateAgent.GetAssociatesByGroup(System.Int32,System.Int32)
-  - SuperOffice.CRM.Services.AssociateAgent.GetEncryptionKey
-  - SuperOffice.CRM.Services.AssociateAgent.GetNote(System.Int32)
-  - SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsers(System.Int32[])
-  - SuperOffice.CRM.Services.AssociateAgent.SaveNote(System.Int32,System.String[])
+  - SuperOffice.CRM.Services.AssociateAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  - SuperOffice.CRM.Services.AssociateAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.AssociateAgent.GetAssociateAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.AssociateAgent.GetAssociateListAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.AssociateAgent.GetAssociatesByGroupAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.AssociateAgent.GetEncryptionKeyAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.AssociateAgent.GetNoteAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsersAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.AssociateAgent.SaveNoteAsync(System.Int32,System.String[],System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -21,162 +22,214 @@ items:
   nameWithType: AssociateAgent
   fullName: SuperOffice.CRM.Services.AssociateAgent
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nFacade for the Associate Agent\nAssociate utilities, notes, not user admininstration\n"
-  example:
-  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (AssociateAgent agent = new AssociateAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  summary: >-
+    Proxy class for the Associate Agent
+
+    Used when communicating remote using WebServices.
+
+    Avoid using directly. Use the AgentFactory to create the proxy instead.
+  example: []
   syntax:
-    content: 'public class AssociateAgent : AgentBase<IAssociateAgent>, IDisposable, IAssociateAgent, IAgent'
-    content.vb: >-
-      Public Class AssociateAgent
-          Inherits AgentBase(Of IAssociateAgent)
-          Implements IDisposable, IAssociateAgent, IAgent
+    content: 'public class AssociateAgent : IAssociateAgent, IAgent'
+    content.vb: Public Class AssociateAgent Implements IAssociateAgent, IAgent
   inheritance:
   - System.Object
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAssociateAgent}
   implements:
-  - System.IDisposable
   - SuperOffice.CRM.Services.IAssociateAgent
   - SuperOffice.CRM.Services.IAgent
   inheritedMembers:
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAssociateAgent}.Dispose
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAssociateAgent}.InnerAgent
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociate(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.AssociateAgent.GetAssociate(System.Int32)
-  id: GetAssociate(System.Int32)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Services.AssociateAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  commentId: M:SuperOffice.CRM.Services.AssociateAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
   parent: SuperOffice.CRM.Services.AssociateAgent
   langs:
   - csharp
   - vb
-  name: GetAssociate(Int32)
-  nameWithType: AssociateAgent.GetAssociate(Int32)
-  fullName: SuperOffice.CRM.Services.AssociateAgent.GetAssociate(System.Int32)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
+  name: AssociateAgent(IAssociateImplementation, IAssociateListImplementation, ISoRequestItemsAccessor)
+  nameWithType: AssociateAgent.AssociateAgent(IAssociateImplementation, IAssociateListImplementation, ISoRequestItemsAccessor)
+  fullName: SuperOffice.CRM.Services.AssociateAgent.AssociateAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  type: Constructor
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets a Associate object.                        \n"
   syntax:
-    content: public Associate GetAssociate(int associateId)
+    content: public AssociateAgent(IAssociateImplementation associateImplementation, IAssociateListImplementation associateListImplementation, ISoRequestItemsAccessor accessor)
+    parameters:
+    - id: associateImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation
+    - id: associateListImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    content.vb: Public Sub New(associateImplementation As IAssociateImplementation, associateListImplementation As IAssociateListImplementation, accessor As ISoRequestItemsAccessor)
+  overload: SuperOffice.CRM.Services.AssociateAgent.#ctor*
+  nameWithType.vb: AssociateAgent.New(IAssociateImplementation, IAssociateListImplementation, ISoRequestItemsAccessor)
+  fullName.vb: SuperOffice.CRM.Services.AssociateAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name.vb: New(IAssociateImplementation, IAssociateListImplementation, ISoRequestItemsAccessor)
+- uid: SuperOffice.CRM.Services.AssociateAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.AssociateAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+  parent: SuperOffice.CRM.Services.AssociateAgent
+  langs:
+  - csharp
+  - vb
+  name: AssociateAgent(IAssociateImplementation, IAssociateListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: AssociateAgent.AssociateAgent(IAssociateImplementation, IAssociateListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.AssociateAgent.AssociateAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public AssociateAgent(IAssociateImplementation associateImplementation, IAssociateListImplementation associateListImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    parameters:
+    - id: associateImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation
+    - id: associateListImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    - id: debugUser
+      type: SuperOffice.Data.IDebugUser
+    - id: serviceCallsRepository
+      type: SuperOffice.Diagnostics.IServiceCallsRepository
+    content.vb: Public Sub New(associateImplementation As IAssociateImplementation, associateListImplementation As IAssociateListImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+  overload: SuperOffice.CRM.Services.AssociateAgent.#ctor*
+  nameWithType.vb: AssociateAgent.New(IAssociateImplementation, IAssociateListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.AssociateAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(IAssociateImplementation, IAssociateListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+- uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociateAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.AssociateAgent.GetAssociateAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetAssociateAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.AssociateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAssociateAsync(int, CancellationToken)
+  nameWithType: AssociateAgent.GetAssociateAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.AssociateAgent.GetAssociateAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Gets a Associate object.
+  example: []
+  syntax:
+    content: public Task<Associate> GetAssociateAsync(int associateId, CancellationToken cancellationToken = default)
     parameters:
     - id: associateId
       type: System.Int32
       description: The identifier of the Associate object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Associate
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Associate}
       description: Associate
-    content.vb: Public Function GetAssociate(associateId As Integer) As Associate
-  overload: SuperOffice.CRM.Services.AssociateAgent.GetAssociate*
+    content.vb: Public Function GetAssociateAsync(associateId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Associate)
+  overload: SuperOffice.CRM.Services.AssociateAgent.GetAssociateAsync*
   implements:
-  - SuperOffice.CRM.Services.IAssociateAgent.GetAssociate(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonId(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonId(System.Int32)
-  id: GetAssociateByPersonId(System.Int32)
+  - SuperOffice.CRM.Services.IAssociateAgent.GetAssociateAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: AssociateAgent.GetAssociateAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.AssociateAgent.GetAssociateAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetAssociateAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetAssociateByPersonIdAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.AssociateAgent
   langs:
   - csharp
   - vb
-  name: GetAssociateByPersonId(Int32)
-  nameWithType: AssociateAgent.GetAssociateByPersonId(Int32)
-  fullName: SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonId(System.Int32)
+  name: GetAssociateByPersonIdAsync(int, CancellationToken)
+  nameWithType: AssociateAgent.GetAssociateByPersonIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonIdAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the associate that belongs to this person if the person is an associate.\n"
+  summary: Returns the associate that belongs to this person if the person is an associate.
+  example: []
   syntax:
-    content: public Associate GetAssociateByPersonId(int personId)
+    content: public Task<Associate> GetAssociateByPersonIdAsync(int personId, CancellationToken cancellationToken = default)
     parameters:
     - id: personId
       type: System.Int32
       description: The person id
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.Associate
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Associate}
       description: Associate if person is associate
-    content.vb: Public Function GetAssociateByPersonId(personId As Integer) As Associate
-  overload: SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonId*
+    content.vb: Public Function GetAssociateByPersonIdAsync(personId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Associate)
+  overload: SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonIdAsync*
   implements:
-  - SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.AssociateAgent.GetNote(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.AssociateAgent.GetNote(System.Int32)
-  id: GetNote(System.Int32)
+  - SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonIdAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: AssociateAgent.GetAssociateByPersonIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetAssociateByPersonIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.AssociateAgent.GetNoteAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.AssociateAgent.GetNoteAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetNoteAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.AssociateAgent
   langs:
   - csharp
   - vb
-  name: GetNote(Int32)
-  nameWithType: AssociateAgent.GetNote(Int32)
-  fullName: SuperOffice.CRM.Services.AssociateAgent.GetNote(System.Int32)
+  name: GetNoteAsync(int, CancellationToken)
+  nameWithType: AssociateAgent.GetNoteAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.AssociateAgent.GetNoteAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns an array of strings(notepad pages).\n"
+  summary: Returns an array of strings(notepad pages).
+  example: []
   syntax:
-    content: public string[] GetNote(int associateId)
+    content: public Task<string[]> GetNoteAsync(int associateId, CancellationToken cancellationToken = default)
     parameters:
     - id: associateId
       type: System.Int32
       description: The associate id
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.String[]
+      type: System.Threading.Tasks.Task{System.String[]}
       description: Returns an array of strings(notepad pages).
-    content.vb: Public Function GetNote(associateId As Integer) As String()
-  overload: SuperOffice.CRM.Services.AssociateAgent.GetNote*
+    content.vb: Public Function GetNoteAsync(associateId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String())
+  overload: SuperOffice.CRM.Services.AssociateAgent.GetNoteAsync*
   implements:
-  - SuperOffice.CRM.Services.IAssociateAgent.GetNote(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.AssociateAgent.SaveNote(System.Int32,System.String[])
-  commentId: M:SuperOffice.CRM.Services.AssociateAgent.SaveNote(System.Int32,System.String[])
-  id: SaveNote(System.Int32,System.String[])
+  - SuperOffice.CRM.Services.IAssociateAgent.GetNoteAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: AssociateAgent.GetNoteAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.AssociateAgent.GetNoteAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetNoteAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.AssociateAgent.SaveNoteAsync(System.Int32,System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.AssociateAgent.SaveNoteAsync(System.Int32,System.String[],System.Threading.CancellationToken)
+  id: SaveNoteAsync(System.Int32,System.String[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.AssociateAgent
   langs:
   - csharp
   - vb
-  name: SaveNote(Int32, String[])
-  nameWithType: AssociateAgent.SaveNote(Int32, String[])
-  fullName: SuperOffice.CRM.Services.AssociateAgent.SaveNote(System.Int32, System.String[])
+  name: SaveNoteAsync(int, string[], CancellationToken)
+  nameWithType: AssociateAgent.SaveNoteAsync(int, string[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.AssociateAgent.SaveNoteAsync(int, string[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nSaves an array of strings(notepad pages).\n"
+  summary: Saves an array of strings(notepad pages).
+  example: []
   syntax:
-    content: public void SaveNote(int associateId, string[] note)
+    content: public Task SaveNoteAsync(int associateId, string[] note, CancellationToken cancellationToken = default)
     parameters:
     - id: associateId
       type: System.Int32
@@ -184,106 +237,100 @@ items:
     - id: note
       type: System.String[]
       description: The array of strings(notepad pages).
-    content.vb: Public Sub SaveNote(associateId As Integer, note As String())
-  overload: SuperOffice.CRM.Services.AssociateAgent.SaveNote*
-  implements:
-  - SuperOffice.CRM.Services.IAssociateAgent.SaveNote(System.Int32,System.String[])
-  nameWithType.vb: AssociateAgent.SaveNote(Int32, String())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.AssociateAgent.SaveNote(System.Int32, System.String())
-  name.vb: SaveNote(Int32, String())
-- uid: SuperOffice.CRM.Services.AssociateAgent.GetEncryptionKey
-  commentId: M:SuperOffice.CRM.Services.AssociateAgent.GetEncryptionKey
-  id: GetEncryptionKey
-  parent: SuperOffice.CRM.Services.AssociateAgent
-  langs:
-  - csharp
-  - vb
-  name: GetEncryptionKey()
-  nameWithType: AssociateAgent.GetEncryptionKey()
-  fullName: SuperOffice.CRM.Services.AssociateAgent.GetEncryptionKey()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nGet unique key made from AssociateId and dbTag used for local storage encryption operations.\n"
-  syntax:
-    content: public string GetEncryptionKey()
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.String
-      description: encryptionKey
-    content.vb: Public Function GetEncryptionKey As String
-  overload: SuperOffice.CRM.Services.AssociateAgent.GetEncryptionKey*
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function SaveNoteAsync(associateId As Integer, note As String(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.AssociateAgent.SaveNoteAsync*
   implements:
-  - SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKey
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociateList(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.AssociateAgent.GetAssociateList(System.Int32[])
-  id: GetAssociateList(System.Int32[])
+  - SuperOffice.CRM.Services.IAssociateAgent.SaveNoteAsync(System.Int32,System.String[],System.Threading.CancellationToken)
+  nameWithType.vb: AssociateAgent.SaveNoteAsync(Integer, String(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.AssociateAgent.SaveNoteAsync(Integer, String(), System.Threading.CancellationToken)
+  name.vb: SaveNoteAsync(Integer, String(), CancellationToken)
+- uid: SuperOffice.CRM.Services.AssociateAgent.GetEncryptionKeyAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.AssociateAgent.GetEncryptionKeyAsync(System.Threading.CancellationToken)
+  id: GetEncryptionKeyAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.AssociateAgent
   langs:
   - csharp
   - vb
-  name: GetAssociateList(Int32[])
-  nameWithType: AssociateAgent.GetAssociateList(Int32[])
-  fullName: SuperOffice.CRM.Services.AssociateAgent.GetAssociateList(System.Int32[])
+  name: GetEncryptionKeyAsync(CancellationToken)
+  nameWithType: AssociateAgent.GetEncryptionKeyAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.AssociateAgent.GetEncryptionKeyAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets an array of Associate objects.                        \n"
+  summary: Get unique key made from AssociateId and dbTag used for local storage encryption operations.
+  example: []
   syntax:
-    content: public Associate[] GetAssociateList(int[] associateIds)
+    content: public Task<string> GetEncryptionKeyAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: encryptionKey
+    content.vb: Public Function GetEncryptionKeyAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.AssociateAgent.GetEncryptionKeyAsync*
+  implements:
+  - SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKeyAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociateListAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.AssociateAgent.GetAssociateListAsync(System.Int32[],System.Threading.CancellationToken)
+  id: GetAssociateListAsync(System.Int32[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.AssociateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAssociateListAsync(int[], CancellationToken)
+  nameWithType: AssociateAgent.GetAssociateListAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.AssociateAgent.GetAssociateListAsync(int[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Gets an array of Associate objects.
+  example: []
+  syntax:
+    content: public Task<Associate[]> GetAssociateListAsync(int[] associateIds, CancellationToken cancellationToken = default)
     parameters:
     - id: associateIds
       type: System.Int32[]
       description: The identifiers of the Associate object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Associate[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Associate[]}
       description: Array of Associate objects
-    content.vb: Public Function GetAssociateList(associateIds As Integer()) As Associate()
-  overload: SuperOffice.CRM.Services.AssociateAgent.GetAssociateList*
+    content.vb: Public Function GetAssociateListAsync(associateIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of Associate())
+  overload: SuperOffice.CRM.Services.AssociateAgent.GetAssociateListAsync*
   implements:
-  - SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList(System.Int32[])
-  nameWithType.vb: AssociateAgent.GetAssociateList(Int32())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.AssociateAgent.GetAssociateList(System.Int32())
-  name.vb: GetAssociateList(Int32())
-- uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociatesByGroup(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.AssociateAgent.GetAssociatesByGroup(System.Int32,System.Int32)
-  id: GetAssociatesByGroup(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.IAssociateAgent.GetAssociateListAsync(System.Int32[],System.Threading.CancellationToken)
+  nameWithType.vb: AssociateAgent.GetAssociateListAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.AssociateAgent.GetAssociateListAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: GetAssociateListAsync(Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociatesByGroupAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.AssociateAgent.GetAssociatesByGroupAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetAssociatesByGroupAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.AssociateAgent
   langs:
   - csharp
   - vb
-  name: GetAssociatesByGroup(Int32, Int32)
-  nameWithType: AssociateAgent.GetAssociatesByGroup(Int32, Int32)
-  fullName: SuperOffice.CRM.Services.AssociateAgent.GetAssociatesByGroup(System.Int32, System.Int32)
+  name: GetAssociatesByGroupAsync(int, int, CancellationToken)
+  nameWithType: AssociateAgent.GetAssociatesByGroupAsync(int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.AssociateAgent.GetAssociatesByGroupAsync(int, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nMethod that returns a array of associate , based on DiaryGroupType and groupId. The differernt types are, Userdefined, Usergroup and ResourceHeadings\n"
+  summary: Method that returns a array of associate , based on DiaryGroupType and groupId. The differernt types are, Userdefined, Usergroup and ResourceHeadings
+  example: []
   syntax:
-    content: public Associate[] GetAssociatesByGroup(int groupId, int type)
+    content: public Task<Associate[]> GetAssociatesByGroupAsync(int groupId, int type, CancellationToken cancellationToken = default)
     parameters:
     - id: groupId
       type: System.Int32
@@ -291,137 +338,108 @@ items:
     - id: type
       type: System.Int32
       description: The type of group. See DiaryGroupType
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.Associate[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Associate[]}
       description: Array of associate
-    content.vb: Public Function GetAssociatesByGroup(groupId As Integer, type As Integer) As Associate()
-  overload: SuperOffice.CRM.Services.AssociateAgent.GetAssociatesByGroup*
+    content.vb: Public Function GetAssociatesByGroupAsync(groupId As Integer, type As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Associate())
+  overload: SuperOffice.CRM.Services.AssociateAgent.GetAssociatesByGroupAsync*
   implements:
-  - SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup(System.Int32,System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsers(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsers(System.Int32[])
-  id: LogOffWindowsUsers(System.Int32[])
+  - SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroupAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: AssociateAgent.GetAssociatesByGroupAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.AssociateAgent.GetAssociatesByGroupAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetAssociatesByGroupAsync(Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsersAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsersAsync(System.Int32[],System.Threading.CancellationToken)
+  id: LogOffWindowsUsersAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.AssociateAgent
   langs:
   - csharp
   - vb
-  name: LogOffWindowsUsers(Int32[])
-  nameWithType: AssociateAgent.LogOffWindowsUsers(Int32[])
-  fullName: SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsers(System.Int32[])
+  name: LogOffWindowsUsersAsync(int[], CancellationToken)
+  nameWithType: AssociateAgent.LogOffWindowsUsersAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsersAsync(int[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nMethod that logs off associates that are logged on to the win client\n"
+  summary: Method that logs off associates that are logged on to the win client
+  example: []
   syntax:
-    content: public void LogOffWindowsUsers(int[] associateIds)
+    content: public Task LogOffWindowsUsersAsync(int[] associateIds, CancellationToken cancellationToken = default)
     parameters:
     - id: associateIds
       type: System.Int32[]
       description: The ids of the associates that shall be logged off
-    content.vb: Public Sub LogOffWindowsUsers(associateIds As Integer())
-  overload: SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsers*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: A void return
+    content.vb: Public Function LogOffWindowsUsersAsync(associateIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsersAsync*
   implements:
-  - SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers(System.Int32[])
-  nameWithType.vb: AssociateAgent.LogOffWindowsUsers(Int32())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsers(System.Int32())
-  name.vb: LogOffWindowsUsers(Int32())
-- uid: SuperOffice.CRM.Services.AssociateAgent.#ctor
-  commentId: M:SuperOffice.CRM.Services.AssociateAgent.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.Services.AssociateAgent
-  langs:
-  - csharp
-  - vb
-  name: AssociateAgent()
-  nameWithType: AssociateAgent.AssociateAgent()
-  fullName: SuperOffice.CRM.Services.AssociateAgent.AssociateAgent()
-  type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  syntax:
-    content: public AssociateAgent()
-    content.vb: Public Sub New
-  overload: SuperOffice.CRM.Services.AssociateAgent.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32[],System.Threading.CancellationToken)
+  nameWithType.vb: AssociateAgent.LogOffWindowsUsersAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsersAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: LogOffWindowsUsersAsync(Integer(), CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAssociateAgent}
-  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAssociateAgent}
-  parent: SuperOffice.CRM.Services
-  definition: SuperOffice.CRM.Services.AgentBase`1
-  name: AgentBase<IAssociateAgent>
-  nameWithType: AgentBase<IAssociateAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IAssociateAgent>
-  nameWithType.vb: AgentBase(Of IAssociateAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IAssociateAgent)
-  name.vb: AgentBase(Of IAssociateAgent)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.Services.IAssociateAgent
-    name: IAssociateAgent
-    nameWithType: IAssociateAgent
-    fullName: SuperOffice.CRM.Services.IAssociateAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.CRM.Services.IAssociateAgent
-    name: IAssociateAgent
-    nameWithType: IAssociateAgent
-    fullName: SuperOffice.CRM.Services.IAssociateAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IDisposable
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Services.IAssociateAgent
   commentId: T:SuperOffice.CRM.Services.IAssociateAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IAssociateAgent.html
   name: IAssociateAgent
   nameWithType: IAssociateAgent
   fullName: SuperOffice.CRM.Services.IAssociateAgent
@@ -429,663 +447,1075 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IAgent.html
   name: IAgent
   nameWithType: IAgent
   fullName: SuperOffice.CRM.Services.IAgent
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAssociateAgent}.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAssociateAgent}.Dispose
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAssociateAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  name: Dispose()
-  nameWithType: AgentBase<IAssociateAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IAssociateAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of IAssociateAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IAssociateAgent).Dispose()
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<IAssociateAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IAssociateAgent>.Dispose
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of IAssociateAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IAssociateAgent).Dispose
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAssociateAgent}.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAssociateAgent}.InnerAgent
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAssociateAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  name: InnerAgent
-  nameWithType: AgentBase<IAssociateAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IAssociateAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of IAssociateAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IAssociateAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.AgentBase`1
-  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
   isExternal: true
-  name: AgentBase<TAgent>
-  nameWithType: AgentBase<TAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
-  nameWithType.vb: AgentBase(Of TAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
-  name.vb: AgentBase(Of TAgent)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: Dispose()
-  nameWithType: AgentBase<TAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of TAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<TAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of TAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: InnerAgent
-  nameWithType: AgentBase<TAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociate*
-  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.GetAssociate
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
   isExternal: true
-  name: GetAssociate
-  nameWithType: AssociateAgent.GetAssociate
-  fullName: SuperOffice.CRM.Services.AssociateAgent.GetAssociate
-- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociate(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetAssociate(System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AssociateAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.AssociateAgent.html#SuperOffice_CRM_Services_AssociateAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_IAssociateImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IAssociateListImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
+  name: AssociateAgent
+  nameWithType: AssociateAgent.AssociateAgent
+  fullName: SuperOffice.CRM.Services.AssociateAgent.AssociateAgent
+  nameWithType.vb: AssociateAgent.New
+  fullName.vb: SuperOffice.CRM.Services.AssociateAgent.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation.html
+  name: IAssociateImplementation
+  nameWithType: IAssociateImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation.html
+  name: IAssociateListImplementation
+  nameWithType: IAssociateListImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation
+- uid: SuperOffice.Factory.ISoRequestItemsAccessor
+  isExternal: true
+  name: ISoRequestItemsAccessor
+  nameWithType: ISoRequestItemsAccessor
+  fullName: SuperOffice.Factory.ISoRequestItemsAccessor
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  commentId: N:SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  nameWithType: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+- uid: SuperOffice.Data.IDebugUser
+  isExternal: true
+  name: IDebugUser
+  nameWithType: IDebugUser
+  fullName: SuperOffice.Data.IDebugUser
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository
+  isExternal: true
+  name: IServiceCallsRepository
+  nameWithType: IServiceCallsRepository
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociateAsync*
+  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.GetAssociateAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.AssociateAgent.html#SuperOffice_CRM_Services_AssociateAgent_GetAssociateAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetAssociateAsync
+  nameWithType: AssociateAgent.GetAssociateAsync
+  fullName: SuperOffice.CRM.Services.AssociateAgent.GetAssociateAsync
+- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetAssociateAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAssociateAgent
   isExternal: true
-  name: GetAssociate(Int32)
-  nameWithType: IAssociateAgent.GetAssociate(Int32)
-  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociate(System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetAssociateAsync(int, CancellationToken)
+  nameWithType: IAssociateAgent.GetAssociateAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IAssociateAgent.GetAssociateAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetAssociateAsync(Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociate(System.Int32)
-    name: GetAssociate
-    nameWithType: IAssociateAgent.GetAssociate
-    fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociate
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetAssociateAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociate(System.Int32)
-    name: GetAssociate
-    nameWithType: IAssociateAgent.GetAssociate
-    fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociate
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetAssociateAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.CRM.Services.Associate
-  commentId: T:SuperOffice.CRM.Services.Associate
-  parent: SuperOffice.CRM.Services
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: Associate
-  nameWithType: Associate
-  fullName: SuperOffice.CRM.Services.Associate
-- uid: System
-  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Associate}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Associate}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Associate>
+  nameWithType: Task<Associate>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Associate>
+  nameWithType.vb: Task(Of Associate)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Associate)
+  name.vb: Task(Of Associate)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.Associate
+    name: Associate
+    isExternal: true
+    href: SuperOffice.CRM.Services.Associate.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.Associate
+    name: Associate
+    isExternal: true
+    href: SuperOffice.CRM.Services.Associate.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonId*
-  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonId
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: GetAssociateByPersonId
-  nameWithType: AssociateAgent.GetAssociateByPersonId
-  fullName: SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonId
-- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId(System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonIdAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.AssociateAgent.html#SuperOffice_CRM_Services_AssociateAgent_GetAssociateByPersonIdAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetAssociateByPersonIdAsync
+  nameWithType: AssociateAgent.GetAssociateByPersonIdAsync
+  fullName: SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonIdAsync
+- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonIdAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAssociateAgent
   isExternal: true
-  name: GetAssociateByPersonId(Int32)
-  nameWithType: IAssociateAgent.GetAssociateByPersonId(Int32)
-  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId(System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetAssociateByPersonIdAsync(int, CancellationToken)
+  nameWithType: IAssociateAgent.GetAssociateByPersonIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonIdAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IAssociateAgent.GetAssociateByPersonIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetAssociateByPersonIdAsync(Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId(System.Int32)
-    name: GetAssociateByPersonId
-    nameWithType: IAssociateAgent.GetAssociateByPersonId
-    fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonIdAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetAssociateByPersonIdAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId(System.Int32)
-    name: GetAssociateByPersonId
-    nameWithType: IAssociateAgent.GetAssociateByPersonId
-    fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonIdAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetAssociateByPersonIdAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AssociateAgent.GetNote*
-  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.GetNote
+- uid: SuperOffice.CRM.Services.AssociateAgent.GetNoteAsync*
+  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.GetNoteAsync
   isExternal: true
-  name: GetNote
-  nameWithType: AssociateAgent.GetNote
-  fullName: SuperOffice.CRM.Services.AssociateAgent.GetNote
-- uid: SuperOffice.CRM.Services.IAssociateAgent.GetNote(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetNote(System.Int32)
+  href: SuperOffice.CRM.Services.AssociateAgent.html#SuperOffice_CRM_Services_AssociateAgent_GetNoteAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetNoteAsync
+  nameWithType: AssociateAgent.GetNoteAsync
+  fullName: SuperOffice.CRM.Services.AssociateAgent.GetNoteAsync
+- uid: SuperOffice.CRM.Services.IAssociateAgent.GetNoteAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetNoteAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAssociateAgent
   isExternal: true
-  name: GetNote(Int32)
-  nameWithType: IAssociateAgent.GetNote(Int32)
-  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetNote(System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetNoteAsync(int, CancellationToken)
+  nameWithType: IAssociateAgent.GetNoteAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetNoteAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IAssociateAgent.GetNoteAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IAssociateAgent.GetNoteAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetNoteAsync(Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetNote(System.Int32)
-    name: GetNote
-    nameWithType: IAssociateAgent.GetNote
-    fullName: SuperOffice.CRM.Services.IAssociateAgent.GetNote
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetNoteAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetNoteAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetNote(System.Int32)
-    name: GetNote
-    nameWithType: IAssociateAgent.GetNote
-    fullName: SuperOffice.CRM.Services.IAssociateAgent.GetNote
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetNoteAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetNoteAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Threading.Tasks.Task{System.String[]}
+  commentId: T:System.Threading.Tasks.Task{System.String[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string[]>
+  nameWithType: Task<string[]>
+  fullName: System.Threading.Tasks.Task<string[]>
+  nameWithType.vb: Task(Of String())
+  fullName.vb: System.Threading.Tasks.Task(Of String())
+  name.vb: Task(Of String())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.AssociateAgent.SaveNoteAsync*
+  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.SaveNoteAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.AssociateAgent.html#SuperOffice_CRM_Services_AssociateAgent_SaveNoteAsync_System_Int32_System_String___System_Threading_CancellationToken_
+  name: SaveNoteAsync
+  nameWithType: AssociateAgent.SaveNoteAsync
+  fullName: SuperOffice.CRM.Services.AssociateAgent.SaveNoteAsync
+- uid: SuperOffice.CRM.Services.IAssociateAgent.SaveNoteAsync(System.Int32,System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.SaveNoteAsync(System.Int32,System.String[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAssociateAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: SaveNoteAsync(int, string[], CancellationToken)
+  nameWithType: IAssociateAgent.SaveNoteAsync(int, string[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.SaveNoteAsync(int, string[], System.Threading.CancellationToken)
+  nameWithType.vb: IAssociateAgent.SaveNoteAsync(Integer, String(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IAssociateAgent.SaveNoteAsync(Integer, String(), System.Threading.CancellationToken)
+  name.vb: SaveNoteAsync(Integer, String(), CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.SaveNoteAsync(System.Int32,System.String[],System.Threading.CancellationToken)
+    name: SaveNoteAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.SaveNoteAsync(System.Int32,System.String[],System.Threading.CancellationToken)
+    name: SaveNoteAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: System.String[]
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
   nameWithType.vb: String()
-  fullName.vb: System.String()
+  fullName.vb: String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.AssociateAgent.SaveNote*
-  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.SaveNote
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
-  name: SaveNote
-  nameWithType: AssociateAgent.SaveNote
-  fullName: SuperOffice.CRM.Services.AssociateAgent.SaveNote
-- uid: SuperOffice.CRM.Services.IAssociateAgent.SaveNote(System.Int32,System.String[])
-  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.SaveNote(System.Int32,System.String[])
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Services.AssociateAgent.GetEncryptionKeyAsync*
+  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.GetEncryptionKeyAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.AssociateAgent.html#SuperOffice_CRM_Services_AssociateAgent_GetEncryptionKeyAsync_System_Threading_CancellationToken_
+  name: GetEncryptionKeyAsync
+  nameWithType: AssociateAgent.GetEncryptionKeyAsync
+  fullName: SuperOffice.CRM.Services.AssociateAgent.GetEncryptionKeyAsync
+- uid: SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKeyAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKeyAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAssociateAgent
   isExternal: true
-  name: SaveNote(Int32, String[])
-  nameWithType: IAssociateAgent.SaveNote(Int32, String[])
-  fullName: SuperOffice.CRM.Services.IAssociateAgent.SaveNote(System.Int32, System.String[])
-  nameWithType.vb: IAssociateAgent.SaveNote(Int32, String())
-  fullName.vb: SuperOffice.CRM.Services.IAssociateAgent.SaveNote(System.Int32, System.String())
-  name.vb: SaveNote(Int32, String())
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetEncryptionKeyAsync(CancellationToken)
+  nameWithType: IAssociateAgent.GetEncryptionKeyAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKeyAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IAssociateAgent.SaveNote(System.Int32,System.String[])
-    name: SaveNote
-    nameWithType: IAssociateAgent.SaveNote
-    fullName: SuperOffice.CRM.Services.IAssociateAgent.SaveNote
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKeyAsync(System.Threading.CancellationToken)
+    name: GetEncryptionKeyAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKeyAsync(System.Threading.CancellationToken)
+    name: GetEncryptionKeyAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IAssociateAgent.SaveNote(System.Int32,System.String[])
-    name: SaveNote
-    nameWithType: IAssociateAgent.SaveNote
-    fullName: SuperOffice.CRM.Services.IAssociateAgent.SaveNote
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AssociateAgent.GetEncryptionKey*
-  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.GetEncryptionKey
+- uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociateListAsync*
+  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.GetAssociateListAsync
   isExternal: true
-  name: GetEncryptionKey
-  nameWithType: AssociateAgent.GetEncryptionKey
-  fullName: SuperOffice.CRM.Services.AssociateAgent.GetEncryptionKey
-- uid: SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKey
-  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKey
+  href: SuperOffice.CRM.Services.AssociateAgent.html#SuperOffice_CRM_Services_AssociateAgent_GetAssociateListAsync_System_Int32___System_Threading_CancellationToken_
+  name: GetAssociateListAsync
+  nameWithType: AssociateAgent.GetAssociateListAsync
+  fullName: SuperOffice.CRM.Services.AssociateAgent.GetAssociateListAsync
+- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateListAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetAssociateListAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAssociateAgent
   isExternal: true
-  name: GetEncryptionKey()
-  nameWithType: IAssociateAgent.GetEncryptionKey()
-  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKey()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetAssociateListAsync(int[], CancellationToken)
+  nameWithType: IAssociateAgent.GetAssociateListAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateListAsync(int[], System.Threading.CancellationToken)
+  nameWithType.vb: IAssociateAgent.GetAssociateListAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateListAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: GetAssociateListAsync(Integer(), CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKey
-    name: GetEncryptionKey
-    nameWithType: IAssociateAgent.GetEncryptionKey
-    fullName: SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKey
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateListAsync(System.Int32[],System.Threading.CancellationToken)
+    name: GetAssociateListAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKey
-    name: GetEncryptionKey
-    nameWithType: IAssociateAgent.GetEncryptionKey
-    fullName: SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKey
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociateList*
-  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.GetAssociateList
-  isExternal: true
-  name: GetAssociateList
-  nameWithType: AssociateAgent.GetAssociateList
-  fullName: SuperOffice.CRM.Services.AssociateAgent.GetAssociateList
-- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList(System.Int32[])
-  parent: SuperOffice.CRM.Services.IAssociateAgent
-  isExternal: true
-  name: GetAssociateList(Int32[])
-  nameWithType: IAssociateAgent.GetAssociateList(Int32[])
-  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList(System.Int32[])
-  nameWithType.vb: IAssociateAgent.GetAssociateList(Int32())
-  fullName.vb: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList(System.Int32())
-  name.vb: GetAssociateList(Int32())
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList(System.Int32[])
-    name: GetAssociateList
-    nameWithType: IAssociateAgent.GetAssociateList
-    fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList(System.Int32[])
-    name: GetAssociateList
-    nameWithType: IAssociateAgent.GetAssociateList
-    fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateListAsync(System.Int32[],System.Threading.CancellationToken)
+    name: GetAssociateListAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: System.Int32[]
   isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
   spec.csharp:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.Associate[]
-  isExternal: true
-  name: Associate[]
-  nameWithType: Associate[]
-  fullName: SuperOffice.CRM.Services.Associate[]
-  nameWithType.vb: Associate()
-  fullName.vb: SuperOffice.CRM.Services.Associate()
-  name.vb: Associate()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Associate[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Associate[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Associate[]>
+  nameWithType: Task<Associate[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Associate[]>
+  nameWithType.vb: Task(Of Associate())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Associate())
+  name.vb: Task(Of Associate())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
   - uid: SuperOffice.CRM.Services.Associate
     name: Associate
-    nameWithType: Associate
-    fullName: SuperOffice.CRM.Services.Associate
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.Associate.html
+  - name: '['
+  - name: ']'
+  - name: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Services.Associate
     name: Associate
-    nameWithType: Associate
-    fullName: SuperOffice.CRM.Services.Associate
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociatesByGroup*
-  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.GetAssociatesByGroup
+    href: SuperOffice.CRM.Services.Associate.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociatesByGroupAsync*
+  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.GetAssociatesByGroupAsync
   isExternal: true
-  name: GetAssociatesByGroup
-  nameWithType: AssociateAgent.GetAssociatesByGroup
-  fullName: SuperOffice.CRM.Services.AssociateAgent.GetAssociatesByGroup
-- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup(System.Int32,System.Int32)
+  href: SuperOffice.CRM.Services.AssociateAgent.html#SuperOffice_CRM_Services_AssociateAgent_GetAssociatesByGroupAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: GetAssociatesByGroupAsync
+  nameWithType: AssociateAgent.GetAssociatesByGroupAsync
+  fullName: SuperOffice.CRM.Services.AssociateAgent.GetAssociatesByGroupAsync
+- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroupAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroupAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAssociateAgent
   isExternal: true
-  name: GetAssociatesByGroup(Int32, Int32)
-  nameWithType: IAssociateAgent.GetAssociatesByGroup(Int32, Int32)
-  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup(System.Int32, System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetAssociatesByGroupAsync(int, int, CancellationToken)
+  nameWithType: IAssociateAgent.GetAssociatesByGroupAsync(int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroupAsync(int, int, System.Threading.CancellationToken)
+  nameWithType.vb: IAssociateAgent.GetAssociatesByGroupAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroupAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetAssociatesByGroupAsync(Integer, Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup(System.Int32,System.Int32)
-    name: GetAssociatesByGroup
-    nameWithType: IAssociateAgent.GetAssociatesByGroup
-    fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroupAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: GetAssociatesByGroupAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup(System.Int32,System.Int32)
-    name: GetAssociatesByGroup
-    nameWithType: IAssociateAgent.GetAssociatesByGroup
-    fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroupAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: GetAssociatesByGroupAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsers*
-  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsers
+- uid: SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsersAsync*
+  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsersAsync
   isExternal: true
-  name: LogOffWindowsUsers
-  nameWithType: AssociateAgent.LogOffWindowsUsers
-  fullName: SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsers
-- uid: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers(System.Int32[])
+  href: SuperOffice.CRM.Services.AssociateAgent.html#SuperOffice_CRM_Services_AssociateAgent_LogOffWindowsUsersAsync_System_Int32___System_Threading_CancellationToken_
+  name: LogOffWindowsUsersAsync
+  nameWithType: AssociateAgent.LogOffWindowsUsersAsync
+  fullName: SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsersAsync
+- uid: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAssociateAgent
   isExternal: true
-  name: LogOffWindowsUsers(Int32[])
-  nameWithType: IAssociateAgent.LogOffWindowsUsers(Int32[])
-  fullName: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers(System.Int32[])
-  nameWithType.vb: IAssociateAgent.LogOffWindowsUsers(Int32())
-  fullName.vb: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers(System.Int32())
-  name.vb: LogOffWindowsUsers(Int32())
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: LogOffWindowsUsersAsync(int[], CancellationToken)
+  nameWithType: IAssociateAgent.LogOffWindowsUsersAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsersAsync(int[], System.Threading.CancellationToken)
+  nameWithType.vb: IAssociateAgent.LogOffWindowsUsersAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsersAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: LogOffWindowsUsersAsync(Integer(), CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers(System.Int32[])
-    name: LogOffWindowsUsers
-    nameWithType: IAssociateAgent.LogOffWindowsUsers
-    fullName: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32[],System.Threading.CancellationToken)
+    name: LogOffWindowsUsersAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers(System.Int32[])
-    name: LogOffWindowsUsers
-    nameWithType: IAssociateAgent.LogOffWindowsUsers
-    fullName: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32[],System.Threading.CancellationToken)
+    name: LogOffWindowsUsersAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AssociateAgent.#ctor*
-  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.#ctor
-  isExternal: true
-  name: AssociateAgent
-  nameWithType: AssociateAgent.AssociateAgent
-  fullName: SuperOffice.CRM.Services.AssociateAgent.AssociateAgent
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )

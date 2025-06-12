@@ -66,6 +66,7 @@ Download [WSDL file for Services88/Person](../Services88-Person.md) if you need 
 * [SaveConsentPerson](SaveConsentPerson.md)
 * [SavePersonEntity](SavePersonEntity.md)
 * [SendConsentConfirmationEmail](SendConsentConfirmationEmail.md)
+* [SendCustomerCentrePasswordEmail](SendCustomerCentrePasswordEmail.md)
 * [SendEmail](SendEmail.md)
 * [SendEmailWithEventName](SendEmailWithEventName.md)
 * [SetConsent](SetConsent.md)

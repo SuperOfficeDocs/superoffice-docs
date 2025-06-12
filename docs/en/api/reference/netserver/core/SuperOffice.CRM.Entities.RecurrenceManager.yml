@@ -9,13 +9,12 @@ items:
   - SuperOffice.CRM.Entities.RecurrenceManager.#ctor(SuperOffice.CRM.Entities.Appointment,System.Collections.Generic.IEnumerable{SuperOffice.CRM.Entities.Appointment})
   - SuperOffice.CRM.Entities.RecurrenceManager.#ctor(SuperOffice.CRM.Services.RecurrenceInfo)
   - SuperOffice.CRM.Entities.RecurrenceManager.#ctor(System.DateTime)
-  - SuperOffice.CRM.Entities.RecurrenceManager.ApplyLinks(SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Entities.ActivityLinksHelper)
-  - SuperOffice.CRM.Entities.RecurrenceManager.ApplyUdefValues(SuperOffice.CRM.Entities.EntityUdefHelper,SuperOffice.CRM.Entities.EntityUdefHelper)
-  - SuperOffice.CRM.Entities.RecurrenceManager.BreakRecurrence
+  - SuperOffice.CRM.Entities.RecurrenceManager.ApplyUdefValuesAsync(SuperOffice.CRM.Entities.EntityUdefHelper,SuperOffice.CRM.Entities.EntityUdefHelper)
+  - SuperOffice.CRM.Entities.RecurrenceManager.BreakRecurrenceAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.RecurrenceManager.ConvertDayOfWeekToWeekday(System.DayOfWeek)
   - SuperOffice.CRM.Entities.RecurrenceManager.ConvertFromTimeZone(System.DateTime,System.Int32)
   - SuperOffice.CRM.Entities.RecurrenceManager.ConvertWeekdayToInteger(SuperOffice.Data.Weekday)
-  - SuperOffice.CRM.Entities.RecurrenceManager.CreateAppointmentForDate(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Services.RecurrenceDate)
+  - SuperOffice.CRM.Entities.RecurrenceManager.CreateAppointmentForDateAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Services.RecurrenceDate,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.RecurrenceManager.Dates
   - SuperOffice.CRM.Entities.RecurrenceManager.GetDayInMonth(System.Int32,System.DateTime)
   - SuperOffice.CRM.Entities.RecurrenceManager.GetDaysToMatchInPattern(System.DateTime)
@@ -38,17 +37,17 @@ items:
   - SuperOffice.CRM.Entities.RecurrenceManager.OnAppointmentRowValueChanged(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Rows.TableRowBase,SuperOffice.Data.SQL.FieldInfo,System.Object,System.Object,System.Object)
   - SuperOffice.CRM.Entities.RecurrenceManager.OnInternalNotesHtmlTextChange(SuperOffice.CRM.Entities.Appointment,System.String,System.String,System.String)
   - SuperOffice.CRM.Entities.RecurrenceManager.OnInternalNotesTextChange(SuperOffice.CRM.Entities.Appointment,System.String,System.String,System.String)
-  - SuperOffice.CRM.Entities.RecurrenceManager.OnLinksAdded(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow)
-  - SuperOffice.CRM.Entities.RecurrenceManager.OnLinksEdited(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow)
-  - SuperOffice.CRM.Entities.RecurrenceManager.OnLinksRemoved(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow)
-  - SuperOffice.CRM.Entities.RecurrenceManager.OnSaved(System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Entities.RecurrenceManager.OnLinksAddedAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.RecurrenceManager.OnLinksEditedAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.RecurrenceManager.OnLinksRemovedAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.RecurrenceManager.OnSavedAsync(System.Boolean,System.Boolean)
   - SuperOffice.CRM.Entities.RecurrenceManager.OnTextChange(SuperOffice.CRM.Entities.Appointment,System.String,System.String,System.String)
-  - SuperOffice.CRM.Entities.RecurrenceManager.OnUdefValueChange(SuperOffice.CRM.Entities.Appointment,System.String,System.Object,System.Object)
+  - SuperOffice.CRM.Entities.RecurrenceManager.OnUdefValueChangeAsync(SuperOffice.CRM.Entities.Appointment,System.String,System.Object,System.Object,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.RecurrenceManager.PrepareForSave(System.Boolean,System.Boolean)
   - SuperOffice.CRM.Entities.RecurrenceManager.RecalculateDays
   - SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceInfo
   - SuperOffice.CRM.Entities.RecurrenceManager.UpdateAppointmentWithDate(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Services.RecurrenceDate)
-  - SuperOffice.CRM.Entities.RecurrenceManager.UpdateConflicts(System.Int32,System.Int32,System.TimeSpan,System.TimeSpan,SuperOffice.CRM.Services.ParticipantInfo[])
+  - SuperOffice.CRM.Entities.RecurrenceManager.UpdateConflictsAsync(System.Int32,System.Int32,System.TimeSpan,System.TimeSpan,System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
   langs:
   - csharp
   - vb
@@ -56,31 +55,34 @@ items:
   nameWithType: RecurrenceManager
   fullName: SuperOffice.CRM.Entities.RecurrenceManager
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
-  summary: "\nThe recurrence manager is used by the <xref href=\"SuperOffice.CRM.Entities.AppointmentMatrix\" data-throw-if-not-resolved=\"false\"></xref> to calculate \nrecurrence patterns, modify appointment records and to maintain an \nencapsulated <xref href=\"SuperOffice.CRM.Rows.RecurrenceRuleRow\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    The recurrence manager is used by the <xref href="SuperOffice.CRM.Entities.AppointmentMatrix" data-throw-if-not-resolved="false"></xref> to calculate 
+
+    recurrence patterns, modify appointment records and to maintain an 
+
+    encapsulated <xref href="SuperOffice.CRM.Rows.RecurrenceRuleRow" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class RecurrenceManager : Object'
-    content.vb: >-
-      Public Class RecurrenceManager
-          Inherits Object
+    content: public class RecurrenceManager
+    content.vb: Public Class RecurrenceManager
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Entities.RecurrenceManager.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.RecurrenceManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Entities.RecurrenceManager.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.RecurrenceManager)
   - SuperOffice.CRM.Entities.RecurrenceManager.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Entities.RecurrenceManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.#ctor(SuperOffice.CRM.Entities.Appointment,System.Collections.Generic.IEnumerable{SuperOffice.CRM.Entities.Appointment})
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.#ctor(SuperOffice.CRM.Entities.Appointment,System.Collections.Generic.IEnumerable{SuperOffice.CRM.Entities.Appointment})
   id: '#ctor(SuperOffice.CRM.Entities.Appointment,System.Collections.Generic.IEnumerable{SuperOffice.CRM.Entities.Appointment})'
@@ -92,13 +94,11 @@ items:
   nameWithType: RecurrenceManager.RecurrenceManager(Appointment, IEnumerable<Appointment>)
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceManager(SuperOffice.CRM.Entities.Appointment, System.Collections.Generic.IEnumerable<SuperOffice.CRM.Entities.Appointment>)
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
-  summary: "\nInstantiate the recurrence manager with an existing <xref href=\"SuperOffice.CRM.Rows.RecurrenceRuleRow\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Instantiate the recurrence manager with an existing <xref href="SuperOffice.CRM.Rows.RecurrenceRuleRow" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public RecurrenceManager(Appointment bookingMaster, IEnumerable<Appointment> repetitions)
     parameters:
@@ -110,13 +110,9 @@ items:
       description: Dates of recurring appointments.
     content.vb: Public Sub New(bookingMaster As Appointment, repetitions As IEnumerable(Of Appointment))
   overload: SuperOffice.CRM.Entities.RecurrenceManager.#ctor*
-  nameWithType.vb: RecurrenceManager.RecurrenceManager(Appointment, IEnumerable(Of Appointment))
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceManager(SuperOffice.CRM.Entities.Appointment, System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Entities.Appointment))
-  name.vb: RecurrenceManager(Appointment, IEnumerable(Of Appointment))
+  nameWithType.vb: RecurrenceManager.New(Appointment, IEnumerable(Of Appointment))
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.New(SuperOffice.CRM.Entities.Appointment, System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Entities.Appointment))
+  name.vb: New(Appointment, IEnumerable(Of Appointment))
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.#ctor(SuperOffice.CRM.Services.RecurrenceInfo)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.#ctor(SuperOffice.CRM.Services.RecurrenceInfo)
   id: '#ctor(SuperOffice.CRM.Services.RecurrenceInfo)'
@@ -128,13 +124,11 @@ items:
   nameWithType: RecurrenceManager.RecurrenceManager(RecurrenceInfo)
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceManager(SuperOffice.CRM.Services.RecurrenceInfo)
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
-  summary: "\nInstantiate a RecurrenceManager providing a new recurrence pattern.\n"
+  summary: Instantiate a RecurrenceManager providing a new recurrence pattern.
+  example: []
   syntax:
     content: public RecurrenceManager(RecurrenceInfo recurrenceInfo)
     parameters:
@@ -143,10 +137,9 @@ items:
       description: Information about the recurrence pattern.
     content.vb: Public Sub New(recurrenceInfo As RecurrenceInfo)
   overload: SuperOffice.CRM.Entities.RecurrenceManager.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: RecurrenceManager.New(RecurrenceInfo)
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.New(SuperOffice.CRM.Services.RecurrenceInfo)
+  name.vb: New(RecurrenceInfo)
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.#ctor
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.#ctor
   id: '#ctor'
@@ -158,20 +151,16 @@ items:
   nameWithType: RecurrenceManager.RecurrenceManager()
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceManager()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
     content: public RecurrenceManager()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Entities.RecurrenceManager.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: RecurrenceManager.New()
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.#ctor(System.DateTime)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.#ctor(System.DateTime)
   id: '#ctor(System.DateTime)'
@@ -183,23 +172,19 @@ items:
   nameWithType: RecurrenceManager.RecurrenceManager(DateTime)
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceManager(System.DateTime)
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
     content: public RecurrenceManager(DateTime date)
     parameters:
     - id: date
       type: System.DateTime
-    content.vb: Public Sub New(date As DateTime)
+    content.vb: Public Sub New([date] As Date)
   overload: SuperOffice.CRM.Entities.RecurrenceManager.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: RecurrenceManager.New(Date)
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.New(Date)
+  name.vb: New(Date)
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetDefaultRecurrenceInfo
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.GetDefaultRecurrenceInfo
   id: GetDefaultRecurrenceInfo
@@ -211,24 +196,15 @@ items:
   nameWithType: RecurrenceManager.GetDefaultRecurrenceInfo()
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetDefaultRecurrenceInfo()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
     content: public static RecurrenceInfo GetDefaultRecurrenceInfo()
     return:
       type: SuperOffice.CRM.Services.RecurrenceInfo
-    content.vb: Public Shared Function GetDefaultRecurrenceInfo As RecurrenceInfo
+    content.vb: Public Shared Function GetDefaultRecurrenceInfo() As RecurrenceInfo
   overload: SuperOffice.CRM.Entities.RecurrenceManager.GetDefaultRecurrenceInfo*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetDefaultRecurrenceInfo(System.DateTime)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.GetDefaultRecurrenceInfo(System.DateTime)
   id: GetDefaultRecurrenceInfo(System.DateTime)
@@ -240,11 +216,8 @@ items:
   nameWithType: RecurrenceManager.GetDefaultRecurrenceInfo(DateTime)
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetDefaultRecurrenceInfo(System.DateTime)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
     content: public static RecurrenceInfo GetDefaultRecurrenceInfo(DateTime date)
@@ -253,34 +226,29 @@ items:
       type: System.DateTime
     return:
       type: SuperOffice.CRM.Services.RecurrenceInfo
-    content.vb: Public Shared Function GetDefaultRecurrenceInfo(date As DateTime) As RecurrenceInfo
+    content.vb: Public Shared Function GetDefaultRecurrenceInfo([date] As Date) As RecurrenceInfo
   overload: SuperOffice.CRM.Entities.RecurrenceManager.GetDefaultRecurrenceInfo*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.RecurrenceManager.UpdateConflicts(System.Int32,System.Int32,System.TimeSpan,System.TimeSpan,SuperOffice.CRM.Services.ParticipantInfo[])
-  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.UpdateConflicts(System.Int32,System.Int32,System.TimeSpan,System.TimeSpan,SuperOffice.CRM.Services.ParticipantInfo[])
-  id: UpdateConflicts(System.Int32,System.Int32,System.TimeSpan,System.TimeSpan,SuperOffice.CRM.Services.ParticipantInfo[])
+  nameWithType.vb: RecurrenceManager.GetDefaultRecurrenceInfo(Date)
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.GetDefaultRecurrenceInfo(Date)
+  name.vb: GetDefaultRecurrenceInfo(Date)
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.UpdateConflictsAsync(System.Int32,System.Int32,System.TimeSpan,System.TimeSpan,System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
+  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.UpdateConflictsAsync(System.Int32,System.Int32,System.TimeSpan,System.TimeSpan,System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
+  id: UpdateConflictsAsync(System.Int32,System.Int32,System.TimeSpan,System.TimeSpan,System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
   parent: SuperOffice.CRM.Entities.RecurrenceManager
   langs:
   - csharp
   - vb
-  name: UpdateConflicts(Int32, Int32, TimeSpan, TimeSpan, ParticipantInfo[])
-  nameWithType: RecurrenceManager.UpdateConflicts(Int32, Int32, TimeSpan, TimeSpan, ParticipantInfo[])
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.UpdateConflicts(System.Int32, System.Int32, System.TimeSpan, System.TimeSpan, SuperOffice.CRM.Services.ParticipantInfo[])
+  name: UpdateConflictsAsync(int, int, TimeSpan, TimeSpan, CancellationToken, params ParticipantInfo[])
+  nameWithType: RecurrenceManager.UpdateConflictsAsync(int, int, TimeSpan, TimeSpan, CancellationToken, params ParticipantInfo[])
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.UpdateConflictsAsync(int, int, System.TimeSpan, System.TimeSpan, System.Threading.CancellationToken, params SuperOffice.CRM.Services.ParticipantInfo[])
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
-  summary: "\nUpdate the recurrence dates with conflict and letter day information, based on a list of participants.\n"
+  summary: Update the recurrence dates with conflict and letter day information, based on a list of participants.
+  example: []
   syntax:
-    content: public void UpdateConflicts(int excludedAppointmentId, int excludedRecurrenceRuleId, TimeSpan startTime, TimeSpan endTime, params ParticipantInfo[] participants)
+    content: public Task UpdateConflictsAsync(int excludedAppointmentId, int excludedRecurrenceRuleId, TimeSpan startTime, TimeSpan endTime, CancellationToken cancellationToken = default, params ParticipantInfo[] participants)
     parameters:
     - id: excludedAppointmentId
       type: System.Int32
@@ -290,42 +258,41 @@ items:
       type: System.TimeSpan
     - id: endTime
       type: System.TimeSpan
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     - id: participants
       type: SuperOffice.CRM.Services.ParticipantInfo[]
-    content.vb: Public Sub UpdateConflicts(excludedAppointmentId As Integer, excludedRecurrenceRuleId As Integer, startTime As TimeSpan, endTime As TimeSpan, ParamArray participants As ParticipantInfo())
-  overload: SuperOffice.CRM.Entities.RecurrenceManager.UpdateConflicts*
-  nameWithType.vb: RecurrenceManager.UpdateConflicts(Int32, Int32, TimeSpan, TimeSpan, ParticipantInfo())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.UpdateConflicts(System.Int32, System.Int32, System.TimeSpan, System.TimeSpan, SuperOffice.CRM.Services.ParticipantInfo())
-  name.vb: UpdateConflicts(Int32, Int32, TimeSpan, TimeSpan, ParticipantInfo())
-- uid: SuperOffice.CRM.Entities.RecurrenceManager.BreakRecurrence
-  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.BreakRecurrence
-  id: BreakRecurrence
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function UpdateConflictsAsync(excludedAppointmentId As Integer, excludedRecurrenceRuleId As Integer, startTime As TimeSpan, endTime As TimeSpan, cancellationToken As CancellationToken = Nothing, ParamArray participants As ParticipantInfo()) As Task
+  overload: SuperOffice.CRM.Entities.RecurrenceManager.UpdateConflictsAsync*
+  nameWithType.vb: RecurrenceManager.UpdateConflictsAsync(Integer, Integer, TimeSpan, TimeSpan, CancellationToken, ParamArray ParticipantInfo())
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.UpdateConflictsAsync(Integer, Integer, System.TimeSpan, System.TimeSpan, System.Threading.CancellationToken, ParamArray SuperOffice.CRM.Services.ParticipantInfo())
+  name.vb: UpdateConflictsAsync(Integer, Integer, TimeSpan, TimeSpan, CancellationToken, ParamArray ParticipantInfo())
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.BreakRecurrenceAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.BreakRecurrenceAsync(System.Threading.CancellationToken)
+  id: BreakRecurrenceAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.RecurrenceManager
   langs:
   - csharp
   - vb
-  name: BreakRecurrence()
-  nameWithType: RecurrenceManager.BreakRecurrence()
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.BreakRecurrence()
+  name: BreakRecurrenceAsync(CancellationToken)
+  nameWithType: RecurrenceManager.BreakRecurrenceAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.BreakRecurrenceAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public void BreakRecurrence()
-    content.vb: Public Sub BreakRecurrence
-  overload: SuperOffice.CRM.Entities.RecurrenceManager.BreakRecurrence*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public Task BreakRecurrenceAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function BreakRecurrenceAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.RecurrenceManager.BreakRecurrenceAsync*
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.RecalculateDays
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.RecalculateDays
   id: RecalculateDays
@@ -337,23 +304,21 @@ items:
   nameWithType: RecurrenceManager.RecalculateDays()
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.RecalculateDays()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
-  summary: "\nRe-calculate the days in the containing <xref href=\"SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Re-calculate the days in the containing <xref href="SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceInfo" data-throw-if-not-resolved="false"></xref>.
   example:
-  - "\n<pre><code>// Make some modifications to the <xref href=\"SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceInfo\" data-throw-if-not-resolved=\"false\"></xref> object.\nrecurrenceManager.RecalculateDays();\nRecurrenceDate[] newDates = recurrenceManager.Days;</code></pre>\n"
+  - >-
+    <pre><code class="lang-csharp">// Make some modifications to the  object.
+
+    recurrenceManager.RecalculateDays();
+
+    RecurrenceDate[] newDates = recurrenceManager.Days;</code></pre>
   syntax:
     content: public void RecalculateDays()
-    content.vb: Public Sub RecalculateDays
+    content.vb: Public Sub RecalculateDays()
   overload: SuperOffice.CRM.Entities.RecurrenceManager.RecalculateDays*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetEstimatedCount
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.GetEstimatedCount
   id: GetEstimatedCount
@@ -365,22 +330,15 @@ items:
   nameWithType: RecurrenceManager.GetEstimatedCount()
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetEstimatedCount()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
     content: public int GetEstimatedCount()
     return:
       type: System.Int32
-    content.vb: Public Function GetEstimatedCount As Integer
+    content.vb: Public Function GetEstimatedCount() As Integer
   overload: SuperOffice.CRM.Entities.RecurrenceManager.GetEstimatedCount*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetFirstDate(System.DateTime)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.GetFirstDate(System.DateTime)
   id: GetFirstDate(System.DateTime)
@@ -392,13 +350,11 @@ items:
   nameWithType: RecurrenceManager.GetFirstDate(DateTime)
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetFirstDate(System.DateTime)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
-  summary: "\nGet the first date of a recurrence.  The first date can be the same as the date provided.\n"
+  summary: Get the first date of a recurrence.  The first date can be the same as the date provided.
+  example: []
   syntax:
     content: public DateTime GetFirstDate(DateTime date)
     parameters:
@@ -408,12 +364,11 @@ items:
     return:
       type: System.DateTime
       description: First valid date in a recurrence
-    content.vb: Public Function GetFirstDate(date As DateTime) As DateTime
+    content.vb: Public Function GetFirstDate([date] As Date) As Date
   overload: SuperOffice.CRM.Entities.RecurrenceManager.GetFirstDate*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: RecurrenceManager.GetFirstDate(Date)
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.GetFirstDate(Date)
+  name.vb: GetFirstDate(Date)
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetNextDate(System.DateTime)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.GetNextDate(System.DateTime)
   id: GetNextDate(System.DateTime)
@@ -425,13 +380,11 @@ items:
   nameWithType: RecurrenceManager.GetNextDate(DateTime)
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetNextDate(System.DateTime)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
-  summary: "\nGet the next date in a recurrence.  Use <xref href=\"SuperOffice.CRM.Entities.RecurrenceManager.GetFirstDate(System.DateTime)\" data-throw-if-not-resolved=\"false\"></xref> to get the initial date.\n"
+  summary: Get the next date in a recurrence.  Use <xref href="SuperOffice.CRM.Entities.RecurrenceManager.GetFirstDate(System.DateTime)" data-throw-if-not-resolved="false"></xref> to get the initial date.
+  example: []
   syntax:
     content: public DateTime GetNextDate(DateTime date)
     parameters:
@@ -441,12 +394,11 @@ items:
     return:
       type: System.DateTime
       description: The next date.  The day after the provided date is the earliest date that will be returned.
-    content.vb: Public Function GetNextDate(date As DateTime) As DateTime
+    content.vb: Public Function GetNextDate([date] As Date) As Date
   overload: SuperOffice.CRM.Entities.RecurrenceManager.GetNextDate*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: RecurrenceManager.GetNextDate(Date)
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.GetNextDate(Date)
+  name.vb: GetNextDate(Date)
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetDaysToMatchInPattern(System.DateTime)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.GetDaysToMatchInPattern(System.DateTime)
   id: GetDaysToMatchInPattern(System.DateTime)
@@ -458,11 +410,8 @@ items:
   nameWithType: RecurrenceManager.GetDaysToMatchInPattern(DateTime)
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetDaysToMatchInPattern(System.DateTime)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
     content: public int GetDaysToMatchInPattern(DateTime date)
@@ -471,12 +420,11 @@ items:
       type: System.DateTime
     return:
       type: System.Int32
-    content.vb: Public Function GetDaysToMatchInPattern(date As DateTime) As Integer
+    content.vb: Public Function GetDaysToMatchInPattern([date] As Date) As Integer
   overload: SuperOffice.CRM.Entities.RecurrenceManager.GetDaysToMatchInPattern*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: RecurrenceManager.GetDaysToMatchInPattern(Date)
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.GetDaysToMatchInPattern(Date)
+  name.vb: GetDaysToMatchInPattern(Date)
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetDaysToMatchInPattern(System.DayOfWeek)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.GetDaysToMatchInPattern(System.DayOfWeek)
   id: GetDaysToMatchInPattern(System.DayOfWeek)
@@ -488,11 +436,8 @@ items:
   nameWithType: RecurrenceManager.GetDaysToMatchInPattern(DayOfWeek)
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetDaysToMatchInPattern(System.DayOfWeek)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
     content: public int GetDaysToMatchInPattern(DayOfWeek dayOfWeek)
@@ -503,10 +448,6 @@ items:
       type: System.Int32
     content.vb: Public Function GetDaysToMatchInPattern(dayOfWeek As DayOfWeek) As Integer
   overload: SuperOffice.CRM.Entities.RecurrenceManager.GetDaysToMatchInPattern*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetDaysToMatchInPattern(System.DayOfWeek,SuperOffice.Data.Weekday)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.GetDaysToMatchInPattern(System.DayOfWeek,SuperOffice.Data.Weekday)
   id: GetDaysToMatchInPattern(System.DayOfWeek,SuperOffice.Data.Weekday)
@@ -518,13 +459,11 @@ items:
   nameWithType: RecurrenceManager.GetDaysToMatchInPattern(DayOfWeek, Weekday)
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetDaysToMatchInPattern(System.DayOfWeek, SuperOffice.Data.Weekday)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
-  summary: "\nGet Number of days until a match in the week pattern.  Matching today is &apos;0&apos;.\n"
+  summary: Get Number of days until a match in the week pattern.  Matching today is '0'.
+  example: []
   syntax:
     content: public static int GetDaysToMatchInPattern(DayOfWeek dayOfWeek, Weekday weekPattern)
     parameters:
@@ -539,12 +478,6 @@ items:
       description: Number of days until Match [0-6].  Today is 0.
     content.vb: Public Shared Function GetDaysToMatchInPattern(dayOfWeek As DayOfWeek, weekPattern As Weekday) As Integer
   overload: SuperOffice.CRM.Entities.RecurrenceManager.GetDaysToMatchInPattern*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetDayInMonth(System.Int32,System.DateTime)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.GetDayInMonth(System.Int32,System.DateTime)
   id: GetDayInMonth(System.Int32,System.DateTime)
@@ -552,17 +485,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDayInMonth(Int32, DateTime)
-  nameWithType: RecurrenceManager.GetDayInMonth(Int32, DateTime)
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetDayInMonth(System.Int32, System.DateTime)
+  name: GetDayInMonth(int, DateTime)
+  nameWithType: RecurrenceManager.GetDayInMonth(int, DateTime)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetDayInMonth(int, System.DateTime)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
-  summary: "\nGet the date for a day in a month.\n"
+  summary: Get the date for a day in a month.
+  example: []
   syntax:
     content: public static DateTime GetDayInMonth(int day, DateTime month)
     parameters:
@@ -575,14 +506,11 @@ items:
     return:
       type: System.DateTime
       description: Date of the day in the month.
-    content.vb: Public Shared Function GetDayInMonth(day As Integer, month As DateTime) As DateTime
+    content.vb: Public Shared Function GetDayInMonth(day As Integer, month As Date) As Date
   overload: SuperOffice.CRM.Entities.RecurrenceManager.GetDayInMonth*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: RecurrenceManager.GetDayInMonth(Integer, Date)
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.GetDayInMonth(Integer, Date)
+  name.vb: GetDayInMonth(Integer, Date)
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetWeekDayInMonth(SuperOffice.Data.Weekday,System.Int32,System.DateTime)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.GetWeekDayInMonth(SuperOffice.Data.Weekday,System.Int32,System.DateTime)
   id: GetWeekDayInMonth(SuperOffice.Data.Weekday,System.Int32,System.DateTime)
@@ -590,15 +518,12 @@ items:
   langs:
   - csharp
   - vb
-  name: GetWeekDayInMonth(Weekday, Int32, DateTime)
-  nameWithType: RecurrenceManager.GetWeekDayInMonth(Weekday, Int32, DateTime)
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetWeekDayInMonth(SuperOffice.Data.Weekday, System.Int32, System.DateTime)
+  name: GetWeekDayInMonth(Weekday, int, DateTime)
+  nameWithType: RecurrenceManager.GetWeekDayInMonth(Weekday, int, DateTime)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetWeekDayInMonth(SuperOffice.Data.Weekday, int, System.DateTime)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
     content: public static DateTime GetWeekDayInMonth(Weekday weekday, int week, DateTime month)
@@ -611,14 +536,11 @@ items:
       type: System.DateTime
     return:
       type: System.DateTime
-    content.vb: Public Shared Function GetWeekDayInMonth(weekday As Weekday, week As Integer, month As DateTime) As DateTime
+    content.vb: Public Shared Function GetWeekDayInMonth(weekday As Weekday, week As Integer, month As Date) As Date
   overload: SuperOffice.CRM.Entities.RecurrenceManager.GetWeekDayInMonth*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: RecurrenceManager.GetWeekDayInMonth(Weekday, Integer, Date)
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.GetWeekDayInMonth(SuperOffice.Data.Weekday, Integer, Date)
+  name.vb: GetWeekDayInMonth(Weekday, Integer, Date)
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.ConvertFromTimeZone(System.DateTime,System.Int32)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.ConvertFromTimeZone(System.DateTime,System.Int32)
   id: ConvertFromTimeZone(System.DateTime,System.Int32)
@@ -626,15 +548,12 @@ items:
   langs:
   - csharp
   - vb
-  name: ConvertFromTimeZone(DateTime, Int32)
-  nameWithType: RecurrenceManager.ConvertFromTimeZone(DateTime, Int32)
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.ConvertFromTimeZone(System.DateTime, System.Int32)
+  name: ConvertFromTimeZone(DateTime, int)
+  nameWithType: RecurrenceManager.ConvertFromTimeZone(DateTime, int)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.ConvertFromTimeZone(System.DateTime, int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
     content: public static DateTime ConvertFromTimeZone(DateTime date, int timeZoneID)
@@ -645,35 +564,33 @@ items:
       type: System.Int32
     return:
       type: System.DateTime
-    content.vb: Public Shared Function ConvertFromTimeZone(date As DateTime, timeZoneID As Integer) As DateTime
+    content.vb: Public Shared Function ConvertFromTimeZone([date] As Date, timeZoneID As Integer) As Date
   overload: SuperOffice.CRM.Entities.RecurrenceManager.ConvertFromTimeZone*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.RecurrenceManager.CreateAppointmentForDate(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Services.RecurrenceDate)
-  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.CreateAppointmentForDate(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Services.RecurrenceDate)
-  id: CreateAppointmentForDate(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Services.RecurrenceDate)
+  nameWithType.vb: RecurrenceManager.ConvertFromTimeZone(Date, Integer)
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.ConvertFromTimeZone(Date, Integer)
+  name.vb: ConvertFromTimeZone(Date, Integer)
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.CreateAppointmentForDateAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Services.RecurrenceDate,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.CreateAppointmentForDateAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Services.RecurrenceDate,System.Threading.CancellationToken)
+  id: CreateAppointmentForDateAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Services.RecurrenceDate,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.RecurrenceManager
   langs:
   - csharp
   - vb
-  name: CreateAppointmentForDate(Appointment, RecurrenceDate)
-  nameWithType: RecurrenceManager.CreateAppointmentForDate(Appointment, RecurrenceDate)
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.CreateAppointmentForDate(SuperOffice.CRM.Entities.Appointment, SuperOffice.CRM.Services.RecurrenceDate)
+  name: CreateAppointmentForDateAsync(Appointment, RecurrenceDate, CancellationToken)
+  nameWithType: RecurrenceManager.CreateAppointmentForDateAsync(Appointment, RecurrenceDate, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.CreateAppointmentForDateAsync(SuperOffice.CRM.Entities.Appointment, SuperOffice.CRM.Services.RecurrenceDate, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
-  summary: "\nCreate a new <xref href=\"SuperOffice.CRM.Entities.Appointment\" data-throw-if-not-resolved=\"false\"></xref> with new date information based on \nan existing instance of an <xref href=\"SuperOffice.CRM.Entities.Appointment\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Create a new <xref href="SuperOffice.CRM.Entities.Appointment" data-throw-if-not-resolved="false"></xref> with new date information based on 
+
+    an existing instance of an <xref href="SuperOffice.CRM.Entities.Appointment" data-throw-if-not-resolved="false"></xref>.
   remarks: The appointment is cloned and modified using the <xref href="SuperOffice.CRM.Entities.RecurrenceManager.UpdateAppointmentWithDate(SuperOffice.CRM.Entities.Appointment%2cSuperOffice.CRM.Services.RecurrenceDate)" data-throw-if-not-resolved="false"></xref> method.
+  example: []
   syntax:
-    content: public static Appointment CreateAppointmentForDate(Appointment originalAppointment, RecurrenceDate date)
+    content: public static Task<Appointment> CreateAppointmentForDateAsync(Appointment originalAppointment, RecurrenceDate date, CancellationToken cancellationToken)
     parameters:
     - id: originalAppointment
       type: SuperOffice.CRM.Entities.Appointment
@@ -681,80 +598,38 @@ items:
     - id: date
       type: SuperOffice.CRM.Services.RecurrenceDate
       description: New date information to apply on the newly created appointment record.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.Appointment
-    content.vb: Public Shared Function CreateAppointmentForDate(originalAppointment As Appointment, date As RecurrenceDate) As Appointment
-  overload: SuperOffice.CRM.Entities.RecurrenceManager.CreateAppointmentForDate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.RecurrenceManager.ApplyUdefValues(SuperOffice.CRM.Entities.EntityUdefHelper,SuperOffice.CRM.Entities.EntityUdefHelper)
-  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.ApplyUdefValues(SuperOffice.CRM.Entities.EntityUdefHelper,SuperOffice.CRM.Entities.EntityUdefHelper)
-  id: ApplyUdefValues(SuperOffice.CRM.Entities.EntityUdefHelper,SuperOffice.CRM.Entities.EntityUdefHelper)
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.Appointment}
+      description: ''
+    content.vb: Public Shared Function CreateAppointmentForDateAsync(originalAppointment As Appointment, [date] As RecurrenceDate, cancellationToken As CancellationToken) As Task(Of Appointment)
+  overload: SuperOffice.CRM.Entities.RecurrenceManager.CreateAppointmentForDateAsync*
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.ApplyUdefValuesAsync(SuperOffice.CRM.Entities.EntityUdefHelper,SuperOffice.CRM.Entities.EntityUdefHelper)
+  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.ApplyUdefValuesAsync(SuperOffice.CRM.Entities.EntityUdefHelper,SuperOffice.CRM.Entities.EntityUdefHelper)
+  id: ApplyUdefValuesAsync(SuperOffice.CRM.Entities.EntityUdefHelper,SuperOffice.CRM.Entities.EntityUdefHelper)
   parent: SuperOffice.CRM.Entities.RecurrenceManager
   langs:
   - csharp
   - vb
-  name: ApplyUdefValues(EntityUdefHelper, EntityUdefHelper)
-  nameWithType: RecurrenceManager.ApplyUdefValues(EntityUdefHelper, EntityUdefHelper)
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.ApplyUdefValues(SuperOffice.CRM.Entities.EntityUdefHelper, SuperOffice.CRM.Entities.EntityUdefHelper)
+  name: ApplyUdefValuesAsync(EntityUdefHelper, EntityUdefHelper)
+  nameWithType: RecurrenceManager.ApplyUdefValuesAsync(EntityUdefHelper, EntityUdefHelper)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.ApplyUdefValuesAsync(SuperOffice.CRM.Entities.EntityUdefHelper, SuperOffice.CRM.Entities.EntityUdefHelper)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public static void ApplyUdefValues(EntityUdefHelper source, EntityUdefHelper target)
+    content: public static Task ApplyUdefValuesAsync(EntityUdefHelper source, EntityUdefHelper target)
     parameters:
     - id: source
       type: SuperOffice.CRM.Entities.EntityUdefHelper
     - id: target
       type: SuperOffice.CRM.Entities.EntityUdefHelper
-    content.vb: Public Shared Sub ApplyUdefValues(source As EntityUdefHelper, target As EntityUdefHelper)
-  overload: SuperOffice.CRM.Entities.RecurrenceManager.ApplyUdefValues*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.RecurrenceManager.ApplyLinks(SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Entities.ActivityLinksHelper)
-  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.ApplyLinks(SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Entities.ActivityLinksHelper)
-  id: ApplyLinks(SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Entities.ActivityLinksHelper)
-  parent: SuperOffice.CRM.Entities.RecurrenceManager
-  langs:
-  - csharp
-  - vb
-  name: ApplyLinks(ActivityLinksHelper, ActivityLinksHelper)
-  nameWithType: RecurrenceManager.ApplyLinks(ActivityLinksHelper, ActivityLinksHelper)
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.ApplyLinks(SuperOffice.CRM.Entities.ActivityLinksHelper, SuperOffice.CRM.Entities.ActivityLinksHelper)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Entities
-  syntax:
-    content: public static void ApplyLinks(ActivityLinksHelper source, ActivityLinksHelper target)
-    parameters:
-    - id: source
-      type: SuperOffice.CRM.Entities.ActivityLinksHelper
-    - id: target
-      type: SuperOffice.CRM.Entities.ActivityLinksHelper
-    content.vb: Public Shared Sub ApplyLinks(source As ActivityLinksHelper, target As ActivityLinksHelper)
-  overload: SuperOffice.CRM.Entities.RecurrenceManager.ApplyLinks*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function ApplyUdefValuesAsync(source As EntityUdefHelper, target As EntityUdefHelper) As Task
+  overload: SuperOffice.CRM.Entities.RecurrenceManager.ApplyUdefValuesAsync*
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.OnAppointmentRowValueChanged(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Rows.TableRowBase,SuperOffice.Data.SQL.FieldInfo,System.Object,System.Object,System.Object)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.OnAppointmentRowValueChanged(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Rows.TableRowBase,SuperOffice.Data.SQL.FieldInfo,System.Object,System.Object,System.Object)
   id: OnAppointmentRowValueChanged(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Rows.TableRowBase,SuperOffice.Data.SQL.FieldInfo,System.Object,System.Object,System.Object)
@@ -762,15 +637,12 @@ items:
   langs:
   - csharp
   - vb
-  name: OnAppointmentRowValueChanged(Appointment, TableRowBase, FieldInfo, Object, Object, Object)
-  nameWithType: RecurrenceManager.OnAppointmentRowValueChanged(Appointment, TableRowBase, FieldInfo, Object, Object, Object)
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnAppointmentRowValueChanged(SuperOffice.CRM.Entities.Appointment, SuperOffice.CRM.Rows.TableRowBase, SuperOffice.Data.SQL.FieldInfo, System.Object, System.Object, System.Object)
+  name: OnAppointmentRowValueChanged(Appointment, TableRowBase, FieldInfo, object, object, object)
+  nameWithType: RecurrenceManager.OnAppointmentRowValueChanged(Appointment, TableRowBase, FieldInfo, object, object, object)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnAppointmentRowValueChanged(SuperOffice.CRM.Entities.Appointment, SuperOffice.CRM.Rows.TableRowBase, SuperOffice.Data.SQL.FieldInfo, object, object, object)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
     content: public void OnAppointmentRowValueChanged(Appointment app, TableRowBase fieldOwner, FieldInfo field, object persistedValue, object currentValue, object newValue)
@@ -789,10 +661,9 @@ items:
       type: System.Object
     content.vb: Public Sub OnAppointmentRowValueChanged(app As Appointment, fieldOwner As TableRowBase, field As FieldInfo, persistedValue As Object, currentValue As Object, newValue As Object)
   overload: SuperOffice.CRM.Entities.RecurrenceManager.OnAppointmentRowValueChanged*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: RecurrenceManager.OnAppointmentRowValueChanged(Appointment, TableRowBase, FieldInfo, Object, Object, Object)
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.OnAppointmentRowValueChanged(SuperOffice.CRM.Entities.Appointment, SuperOffice.CRM.Rows.TableRowBase, SuperOffice.Data.SQL.FieldInfo, Object, Object, Object)
+  name.vb: OnAppointmentRowValueChanged(Appointment, TableRowBase, FieldInfo, Object, Object, Object)
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.OnTextChange(SuperOffice.CRM.Entities.Appointment,System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.OnTextChange(SuperOffice.CRM.Entities.Appointment,System.String,System.String,System.String)
   id: OnTextChange(SuperOffice.CRM.Entities.Appointment,System.String,System.String,System.String)
@@ -800,15 +671,12 @@ items:
   langs:
   - csharp
   - vb
-  name: OnTextChange(Appointment, String, String, String)
-  nameWithType: RecurrenceManager.OnTextChange(Appointment, String, String, String)
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnTextChange(SuperOffice.CRM.Entities.Appointment, System.String, System.String, System.String)
+  name: OnTextChange(Appointment, string, string, string)
+  nameWithType: RecurrenceManager.OnTextChange(Appointment, string, string, string)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnTextChange(SuperOffice.CRM.Entities.Appointment, string, string, string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
     content: public void OnTextChange(Appointment app, string persistedValue, string currentValue, string newValue)
@@ -823,10 +691,9 @@ items:
       type: System.String
     content.vb: Public Sub OnTextChange(app As Appointment, persistedValue As String, currentValue As String, newValue As String)
   overload: SuperOffice.CRM.Entities.RecurrenceManager.OnTextChange*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: RecurrenceManager.OnTextChange(Appointment, String, String, String)
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.OnTextChange(SuperOffice.CRM.Entities.Appointment, String, String, String)
+  name.vb: OnTextChange(Appointment, String, String, String)
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.OnAgendaTextChange(SuperOffice.CRM.Entities.Appointment,System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.OnAgendaTextChange(SuperOffice.CRM.Entities.Appointment,System.String,System.String,System.String)
   id: OnAgendaTextChange(SuperOffice.CRM.Entities.Appointment,System.String,System.String,System.String)
@@ -834,15 +701,12 @@ items:
   langs:
   - csharp
   - vb
-  name: OnAgendaTextChange(Appointment, String, String, String)
-  nameWithType: RecurrenceManager.OnAgendaTextChange(Appointment, String, String, String)
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnAgendaTextChange(SuperOffice.CRM.Entities.Appointment, System.String, System.String, System.String)
+  name: OnAgendaTextChange(Appointment, string, string, string)
+  nameWithType: RecurrenceManager.OnAgendaTextChange(Appointment, string, string, string)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnAgendaTextChange(SuperOffice.CRM.Entities.Appointment, string, string, string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
     content: public void OnAgendaTextChange(Appointment app, string persistedValue, string currentValue, string newValue)
@@ -857,10 +721,9 @@ items:
       type: System.String
     content.vb: Public Sub OnAgendaTextChange(app As Appointment, persistedValue As String, currentValue As String, newValue As String)
   overload: SuperOffice.CRM.Entities.RecurrenceManager.OnAgendaTextChange*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: RecurrenceManager.OnAgendaTextChange(Appointment, String, String, String)
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.OnAgendaTextChange(SuperOffice.CRM.Entities.Appointment, String, String, String)
+  name.vb: OnAgendaTextChange(Appointment, String, String, String)
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.OnAgendaHTMLTextChange(SuperOffice.CRM.Entities.Appointment,System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.OnAgendaHTMLTextChange(SuperOffice.CRM.Entities.Appointment,System.String,System.String,System.String)
   id: OnAgendaHTMLTextChange(SuperOffice.CRM.Entities.Appointment,System.String,System.String,System.String)
@@ -868,15 +731,12 @@ items:
   langs:
   - csharp
   - vb
-  name: OnAgendaHTMLTextChange(Appointment, String, String, String)
-  nameWithType: RecurrenceManager.OnAgendaHTMLTextChange(Appointment, String, String, String)
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnAgendaHTMLTextChange(SuperOffice.CRM.Entities.Appointment, System.String, System.String, System.String)
+  name: OnAgendaHTMLTextChange(Appointment, string, string, string)
+  nameWithType: RecurrenceManager.OnAgendaHTMLTextChange(Appointment, string, string, string)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnAgendaHTMLTextChange(SuperOffice.CRM.Entities.Appointment, string, string, string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
     content: public void OnAgendaHTMLTextChange(Appointment app, string persistedValue, string currentValue, string newValue)
@@ -891,10 +751,9 @@ items:
       type: System.String
     content.vb: Public Sub OnAgendaHTMLTextChange(app As Appointment, persistedValue As String, currentValue As String, newValue As String)
   overload: SuperOffice.CRM.Entities.RecurrenceManager.OnAgendaHTMLTextChange*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: RecurrenceManager.OnAgendaHTMLTextChange(Appointment, String, String, String)
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.OnAgendaHTMLTextChange(SuperOffice.CRM.Entities.Appointment, String, String, String)
+  name.vb: OnAgendaHTMLTextChange(Appointment, String, String, String)
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.OnInternalNotesTextChange(SuperOffice.CRM.Entities.Appointment,System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.OnInternalNotesTextChange(SuperOffice.CRM.Entities.Appointment,System.String,System.String,System.String)
   id: OnInternalNotesTextChange(SuperOffice.CRM.Entities.Appointment,System.String,System.String,System.String)
@@ -902,15 +761,12 @@ items:
   langs:
   - csharp
   - vb
-  name: OnInternalNotesTextChange(Appointment, String, String, String)
-  nameWithType: RecurrenceManager.OnInternalNotesTextChange(Appointment, String, String, String)
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnInternalNotesTextChange(SuperOffice.CRM.Entities.Appointment, System.String, System.String, System.String)
+  name: OnInternalNotesTextChange(Appointment, string, string, string)
+  nameWithType: RecurrenceManager.OnInternalNotesTextChange(Appointment, string, string, string)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnInternalNotesTextChange(SuperOffice.CRM.Entities.Appointment, string, string, string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
     content: public void OnInternalNotesTextChange(Appointment app, string persistedValue, string currentValue, string newValue)
@@ -925,10 +781,9 @@ items:
       type: System.String
     content.vb: Public Sub OnInternalNotesTextChange(app As Appointment, persistedValue As String, currentValue As String, newValue As String)
   overload: SuperOffice.CRM.Entities.RecurrenceManager.OnInternalNotesTextChange*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: RecurrenceManager.OnInternalNotesTextChange(Appointment, String, String, String)
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.OnInternalNotesTextChange(SuperOffice.CRM.Entities.Appointment, String, String, String)
+  name.vb: OnInternalNotesTextChange(Appointment, String, String, String)
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.OnInternalNotesHtmlTextChange(SuperOffice.CRM.Entities.Appointment,System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.OnInternalNotesHtmlTextChange(SuperOffice.CRM.Entities.Appointment,System.String,System.String,System.String)
   id: OnInternalNotesHtmlTextChange(SuperOffice.CRM.Entities.Appointment,System.String,System.String,System.String)
@@ -936,15 +791,12 @@ items:
   langs:
   - csharp
   - vb
-  name: OnInternalNotesHtmlTextChange(Appointment, String, String, String)
-  nameWithType: RecurrenceManager.OnInternalNotesHtmlTextChange(Appointment, String, String, String)
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnInternalNotesHtmlTextChange(SuperOffice.CRM.Entities.Appointment, System.String, System.String, System.String)
+  name: OnInternalNotesHtmlTextChange(Appointment, string, string, string)
+  nameWithType: RecurrenceManager.OnInternalNotesHtmlTextChange(Appointment, string, string, string)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnInternalNotesHtmlTextChange(SuperOffice.CRM.Entities.Appointment, string, string, string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
     content: public void OnInternalNotesHtmlTextChange(Appointment app, string persistedValue, string currentValue, string newValue)
@@ -959,29 +811,25 @@ items:
       type: System.String
     content.vb: Public Sub OnInternalNotesHtmlTextChange(app As Appointment, persistedValue As String, currentValue As String, newValue As String)
   overload: SuperOffice.CRM.Entities.RecurrenceManager.OnInternalNotesHtmlTextChange*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Entities.RecurrenceManager.OnUdefValueChange(SuperOffice.CRM.Entities.Appointment,System.String,System.Object,System.Object)
-  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.OnUdefValueChange(SuperOffice.CRM.Entities.Appointment,System.String,System.Object,System.Object)
-  id: OnUdefValueChange(SuperOffice.CRM.Entities.Appointment,System.String,System.Object,System.Object)
+  nameWithType.vb: RecurrenceManager.OnInternalNotesHtmlTextChange(Appointment, String, String, String)
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.OnInternalNotesHtmlTextChange(SuperOffice.CRM.Entities.Appointment, String, String, String)
+  name.vb: OnInternalNotesHtmlTextChange(Appointment, String, String, String)
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.OnUdefValueChangeAsync(SuperOffice.CRM.Entities.Appointment,System.String,System.Object,System.Object,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.OnUdefValueChangeAsync(SuperOffice.CRM.Entities.Appointment,System.String,System.Object,System.Object,System.Threading.CancellationToken)
+  id: OnUdefValueChangeAsync(SuperOffice.CRM.Entities.Appointment,System.String,System.Object,System.Object,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.RecurrenceManager
   langs:
   - csharp
   - vb
-  name: OnUdefValueChange(Appointment, String, Object, Object)
-  nameWithType: RecurrenceManager.OnUdefValueChange(Appointment, String, Object, Object)
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnUdefValueChange(SuperOffice.CRM.Entities.Appointment, System.String, System.Object, System.Object)
+  name: OnUdefValueChangeAsync(Appointment, string, object, object, CancellationToken)
+  nameWithType: RecurrenceManager.OnUdefValueChangeAsync(Appointment, string, object, object, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnUdefValueChangeAsync(SuperOffice.CRM.Entities.Appointment, string, object, object, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public void OnUdefValueChange(Appointment app, string progId, object oldValue, object newValue)
+    content: public Task OnUdefValueChangeAsync(Appointment app, string progId, object oldValue, object newValue, CancellationToken cancellationToken = default)
     parameters:
     - id: app
       type: SuperOffice.CRM.Entities.Appointment
@@ -991,116 +839,108 @@ items:
       type: System.Object
     - id: newValue
       type: System.Object
-    content.vb: Public Sub OnUdefValueChange(app As Appointment, progId As String, oldValue As Object, newValue As Object)
-  overload: SuperOffice.CRM.Entities.RecurrenceManager.OnUdefValueChange*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksAdded(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow)
-  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.OnLinksAdded(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow)
-  id: OnLinksAdded(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow)
-  parent: SuperOffice.CRM.Entities.RecurrenceManager
-  langs:
-  - csharp
-  - vb
-  name: OnLinksAdded(Appointment, ActivityLinksHelper, AppointmentRow, RelationsRow)
-  nameWithType: RecurrenceManager.OnLinksAdded(Appointment, ActivityLinksHelper, AppointmentRow, RelationsRow)
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksAdded(SuperOffice.CRM.Entities.Appointment, SuperOffice.CRM.Entities.ActivityLinksHelper, SuperOffice.CRM.Rows.AppointmentRow, SuperOffice.CRM.Rows.RelationsRow)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Entities
-  syntax:
-    content: public void OnLinksAdded(Appointment app, ActivityLinksHelper linksHelper, AppointmentRow parent, RelationsRow item)
-    parameters:
-    - id: app
-      type: SuperOffice.CRM.Entities.Appointment
-    - id: linksHelper
-      type: SuperOffice.CRM.Entities.ActivityLinksHelper
-    - id: parent
-      type: SuperOffice.CRM.Rows.AppointmentRow
-    - id: item
-      type: SuperOffice.CRM.Rows.RelationsRow
-    content.vb: Public Sub OnLinksAdded(app As Appointment, linksHelper As ActivityLinksHelper, parent As AppointmentRow, item As RelationsRow)
-  overload: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksAdded*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksRemoved(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow)
-  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.OnLinksRemoved(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow)
-  id: OnLinksRemoved(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow)
-  parent: SuperOffice.CRM.Entities.RecurrenceManager
-  langs:
-  - csharp
-  - vb
-  name: OnLinksRemoved(Appointment, ActivityLinksHelper, AppointmentRow, RelationsRow)
-  nameWithType: RecurrenceManager.OnLinksRemoved(Appointment, ActivityLinksHelper, AppointmentRow, RelationsRow)
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksRemoved(SuperOffice.CRM.Entities.Appointment, SuperOffice.CRM.Entities.ActivityLinksHelper, SuperOffice.CRM.Rows.AppointmentRow, SuperOffice.CRM.Rows.RelationsRow)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Entities
-  syntax:
-    content: public void OnLinksRemoved(Appointment app, ActivityLinksHelper linksHelper, AppointmentRow parent, RelationsRow item)
-    parameters:
-    - id: app
-      type: SuperOffice.CRM.Entities.Appointment
-    - id: linksHelper
-      type: SuperOffice.CRM.Entities.ActivityLinksHelper
-    - id: parent
-      type: SuperOffice.CRM.Rows.AppointmentRow
-    - id: item
-      type: SuperOffice.CRM.Rows.RelationsRow
-    content.vb: Public Sub OnLinksRemoved(app As Appointment, linksHelper As ActivityLinksHelper, parent As AppointmentRow, item As RelationsRow)
-  overload: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksRemoved*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksEdited(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow)
-  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.OnLinksEdited(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow)
-  id: OnLinksEdited(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow)
-  parent: SuperOffice.CRM.Entities.RecurrenceManager
-  langs:
-  - csharp
-  - vb
-  name: OnLinksEdited(Appointment, ActivityLinksHelper, AppointmentRow, RelationsRow)
-  nameWithType: RecurrenceManager.OnLinksEdited(Appointment, ActivityLinksHelper, AppointmentRow, RelationsRow)
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksEdited(SuperOffice.CRM.Entities.Appointment, SuperOffice.CRM.Entities.ActivityLinksHelper, SuperOffice.CRM.Rows.AppointmentRow, SuperOffice.CRM.Rows.RelationsRow)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Entities
-  syntax:
-    content: public RelationsRow OnLinksEdited(Appointment app, ActivityLinksHelper linksHelper, AppointmentRow parent, RelationsRow item)
-    parameters:
-    - id: app
-      type: SuperOffice.CRM.Entities.Appointment
-    - id: linksHelper
-      type: SuperOffice.CRM.Entities.ActivityLinksHelper
-    - id: parent
-      type: SuperOffice.CRM.Rows.AppointmentRow
-    - id: item
-      type: SuperOffice.CRM.Rows.RelationsRow
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function OnUdefValueChangeAsync(app As Appointment, progId As String, oldValue As Object, newValue As Object, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.RecurrenceManager.OnUdefValueChangeAsync*
+  nameWithType.vb: RecurrenceManager.OnUdefValueChangeAsync(Appointment, String, Object, Object, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.OnUdefValueChangeAsync(SuperOffice.CRM.Entities.Appointment, String, Object, Object, System.Threading.CancellationToken)
+  name.vb: OnUdefValueChangeAsync(Appointment, String, Object, Object, CancellationToken)
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksAddedAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.OnLinksAddedAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+  id: OnLinksAddedAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.RecurrenceManager
+  langs:
+  - csharp
+  - vb
+  name: OnLinksAddedAsync(Appointment, ActivityLinksHelper, AppointmentRow, RelationsRow, CancellationToken)
+  nameWithType: RecurrenceManager.OnLinksAddedAsync(Appointment, ActivityLinksHelper, AppointmentRow, RelationsRow, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksAddedAsync(SuperOffice.CRM.Entities.Appointment, SuperOffice.CRM.Entities.ActivityLinksHelper, SuperOffice.CRM.Rows.AppointmentRow, SuperOffice.CRM.Rows.RelationsRow, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public Task OnLinksAddedAsync(Appointment app, ActivityLinksHelper linksHelper, AppointmentRow parent, RelationsRow item, CancellationToken cancellationToken = default)
+    parameters:
+    - id: app
+      type: SuperOffice.CRM.Entities.Appointment
+    - id: linksHelper
+      type: SuperOffice.CRM.Entities.ActivityLinksHelper
+    - id: parent
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    - id: item
       type: SuperOffice.CRM.Rows.RelationsRow
-    content.vb: Public Function OnLinksEdited(app As Appointment, linksHelper As ActivityLinksHelper, parent As AppointmentRow, item As RelationsRow) As RelationsRow
-  overload: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksEdited*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function OnLinksAddedAsync(app As Appointment, linksHelper As ActivityLinksHelper, parent As AppointmentRow, item As RelationsRow, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksAddedAsync*
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksRemovedAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.OnLinksRemovedAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+  id: OnLinksRemovedAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.RecurrenceManager
+  langs:
+  - csharp
+  - vb
+  name: OnLinksRemovedAsync(Appointment, ActivityLinksHelper, AppointmentRow, RelationsRow, CancellationToken)
+  nameWithType: RecurrenceManager.OnLinksRemovedAsync(Appointment, ActivityLinksHelper, AppointmentRow, RelationsRow, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksRemovedAsync(SuperOffice.CRM.Entities.Appointment, SuperOffice.CRM.Entities.ActivityLinksHelper, SuperOffice.CRM.Rows.AppointmentRow, SuperOffice.CRM.Rows.RelationsRow, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public Task OnLinksRemovedAsync(Appointment app, ActivityLinksHelper linksHelper, AppointmentRow parent, RelationsRow item, CancellationToken cancellationToken = default)
+    parameters:
+    - id: app
+      type: SuperOffice.CRM.Entities.Appointment
+    - id: linksHelper
+      type: SuperOffice.CRM.Entities.ActivityLinksHelper
+    - id: parent
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    - id: item
+      type: SuperOffice.CRM.Rows.RelationsRow
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function OnLinksRemovedAsync(app As Appointment, linksHelper As ActivityLinksHelper, parent As AppointmentRow, item As RelationsRow, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksRemovedAsync*
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksEditedAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.OnLinksEditedAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+  id: OnLinksEditedAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.RecurrenceManager
+  langs:
+  - csharp
+  - vb
+  name: OnLinksEditedAsync(Appointment, ActivityLinksHelper, AppointmentRow, RelationsRow, CancellationToken)
+  nameWithType: RecurrenceManager.OnLinksEditedAsync(Appointment, ActivityLinksHelper, AppointmentRow, RelationsRow, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksEditedAsync(SuperOffice.CRM.Entities.Appointment, SuperOffice.CRM.Entities.ActivityLinksHelper, SuperOffice.CRM.Rows.AppointmentRow, SuperOffice.CRM.Rows.RelationsRow, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public Task<RelationsRow> OnLinksEditedAsync(Appointment app, ActivityLinksHelper linksHelper, AppointmentRow parent, RelationsRow item, CancellationToken cancellationToken = default)
+    parameters:
+    - id: app
+      type: SuperOffice.CRM.Entities.Appointment
+    - id: linksHelper
+      type: SuperOffice.CRM.Entities.ActivityLinksHelper
+    - id: parent
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    - id: item
+      type: SuperOffice.CRM.Rows.RelationsRow
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.RelationsRow}
+    content.vb: Public Function OnLinksEditedAsync(app As Appointment, linksHelper As ActivityLinksHelper, parent As AppointmentRow, item As RelationsRow, cancellationToken As CancellationToken = Nothing) As Task(Of RelationsRow)
+  overload: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksEditedAsync*
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.UpdateAppointmentWithDate(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Services.RecurrenceDate)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.UpdateAppointmentWithDate(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Services.RecurrenceDate)
   id: UpdateAppointmentWithDate(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Services.RecurrenceDate)
@@ -1112,13 +952,11 @@ items:
   nameWithType: RecurrenceManager.UpdateAppointmentWithDate(Appointment, RecurrenceDate)
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.UpdateAppointmentWithDate(SuperOffice.CRM.Entities.Appointment, SuperOffice.CRM.Services.RecurrenceDate)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
-  summary: "\nApply new date information on an appointment based on the provided date information.\n"
+  summary: Apply new date information on an appointment based on the provided date information.
+  example: []
   syntax:
     content: public static void UpdateAppointmentWithDate(Appointment appointment, RecurrenceDate date)
     parameters:
@@ -1128,14 +966,8 @@ items:
     - id: date
       type: SuperOffice.CRM.Services.RecurrenceDate
       description: Date information to apply on the appointment record.
-    content.vb: Public Shared Sub UpdateAppointmentWithDate(appointment As Appointment, date As RecurrenceDate)
+    content.vb: Public Shared Sub UpdateAppointmentWithDate(appointment As Appointment, [date] As RecurrenceDate)
   overload: SuperOffice.CRM.Entities.RecurrenceManager.UpdateAppointmentWithDate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceDate(SuperOffice.CRM.Entities.Appointment)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceDate(SuperOffice.CRM.Entities.Appointment)
   id: GetRecurrenceDate(SuperOffice.CRM.Entities.Appointment)
@@ -1147,11 +979,8 @@ items:
   nameWithType: RecurrenceManager.GetRecurrenceDate(Appointment)
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceDate(SuperOffice.CRM.Entities.Appointment)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
     content: public static RecurrenceDate GetRecurrenceDate(Appointment appointment)
@@ -1162,12 +991,6 @@ items:
       type: SuperOffice.CRM.Services.RecurrenceDate
     content.vb: Public Shared Function GetRecurrenceDate(appointment As Appointment) As RecurrenceDate
   overload: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceDate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceDate(SuperOffice.CRM.Rows.AppointmentRow)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceDate(SuperOffice.CRM.Rows.AppointmentRow)
   id: GetRecurrenceDate(SuperOffice.CRM.Rows.AppointmentRow)
@@ -1179,11 +1002,8 @@ items:
   nameWithType: RecurrenceManager.GetRecurrenceDate(AppointmentRow)
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceDate(SuperOffice.CRM.Rows.AppointmentRow)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
     content: public static RecurrenceDate GetRecurrenceDate(AppointmentRow appointment)
@@ -1194,12 +1014,6 @@ items:
       type: SuperOffice.CRM.Services.RecurrenceDate
     content.vb: Public Shared Function GetRecurrenceDate(appointment As AppointmentRow) As RecurrenceDate
   overload: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceDate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceDate(System.DateTime)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceDate(System.DateTime)
   id: GetRecurrenceDate(System.DateTime)
@@ -1211,11 +1025,8 @@ items:
   nameWithType: RecurrenceManager.GetRecurrenceDate(DateTime)
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceDate(System.DateTime)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
     content: public static RecurrenceDate GetRecurrenceDate(DateTime date)
@@ -1224,14 +1035,11 @@ items:
       type: System.DateTime
     return:
       type: SuperOffice.CRM.Services.RecurrenceDate
-    content.vb: Public Shared Function GetRecurrenceDate(date As DateTime) As RecurrenceDate
+    content.vb: Public Shared Function GetRecurrenceDate([date] As Date) As RecurrenceDate
   overload: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceDate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: RecurrenceManager.GetRecurrenceDate(Date)
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceDate(Date)
+  name.vb: GetRecurrenceDate(Date)
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.PrepareForSave(System.Boolean,System.Boolean)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.PrepareForSave(System.Boolean,System.Boolean)
   id: PrepareForSave(System.Boolean,System.Boolean)
@@ -1239,15 +1047,12 @@ items:
   langs:
   - csharp
   - vb
-  name: PrepareForSave(Boolean, Boolean)
-  nameWithType: RecurrenceManager.PrepareForSave(Boolean, Boolean)
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.PrepareForSave(System.Boolean, System.Boolean)
+  name: PrepareForSave(bool, bool)
+  nameWithType: RecurrenceManager.PrepareForSave(bool, bool)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.PrepareForSave(bool, bool)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
     content: public void PrepareForSave(bool isRecurring, bool updateStartDate)
@@ -1258,40 +1063,37 @@ items:
       type: System.Boolean
     content.vb: Public Sub PrepareForSave(isRecurring As Boolean, updateStartDate As Boolean)
   overload: SuperOffice.CRM.Entities.RecurrenceManager.PrepareForSave*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Entities.RecurrenceManager.OnSaved(System.Boolean,System.Boolean)
-  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.OnSaved(System.Boolean,System.Boolean)
-  id: OnSaved(System.Boolean,System.Boolean)
+  nameWithType.vb: RecurrenceManager.PrepareForSave(Boolean, Boolean)
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.PrepareForSave(Boolean, Boolean)
+  name.vb: PrepareForSave(Boolean, Boolean)
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.OnSavedAsync(System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.OnSavedAsync(System.Boolean,System.Boolean)
+  id: OnSavedAsync(System.Boolean,System.Boolean)
   parent: SuperOffice.CRM.Entities.RecurrenceManager
   langs:
   - csharp
   - vb
-  name: OnSaved(Boolean, Boolean)
-  nameWithType: RecurrenceManager.OnSaved(Boolean, Boolean)
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnSaved(System.Boolean, System.Boolean)
+  name: OnSavedAsync(bool, bool)
+  nameWithType: RecurrenceManager.OnSavedAsync(bool, bool)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnSavedAsync(bool, bool)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public void OnSaved(bool bSucceeded, bool isRecurring)
+    content: public Task OnSavedAsync(bool bSucceeded, bool isRecurring)
     parameters:
     - id: bSucceeded
       type: System.Boolean
     - id: isRecurring
       type: System.Boolean
-    content.vb: Public Sub OnSaved(bSucceeded As Boolean, isRecurring As Boolean)
-  overload: SuperOffice.CRM.Entities.RecurrenceManager.OnSaved*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function OnSavedAsync(bSucceeded As Boolean, isRecurring As Boolean) As Task
+  overload: SuperOffice.CRM.Entities.RecurrenceManager.OnSavedAsync*
+  nameWithType.vb: RecurrenceManager.OnSavedAsync(Boolean, Boolean)
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.OnSavedAsync(Boolean, Boolean)
+  name.vb: OnSavedAsync(Boolean, Boolean)
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceInfo(SuperOffice.CRM.Entities.Appointment)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceInfo(SuperOffice.CRM.Entities.Appointment)
   id: GetRecurrenceInfo(SuperOffice.CRM.Entities.Appointment)
@@ -1303,28 +1105,22 @@ items:
   nameWithType: RecurrenceManager.GetRecurrenceInfo(Appointment)
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceInfo(SuperOffice.CRM.Entities.Appointment)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
-  summary: "\nGet RecurrenceInfo from an appointment.\n"
+  summary: Get RecurrenceInfo from an appointment.
+  example: []
   syntax:
     content: public static RecurrenceInfo GetRecurrenceInfo(Appointment bookingMaster)
     parameters:
     - id: bookingMaster
       type: SuperOffice.CRM.Entities.Appointment
+      description: ''
     return:
       type: SuperOffice.CRM.Services.RecurrenceInfo
+      description: ''
     content.vb: Public Shared Function GetRecurrenceInfo(bookingMaster As Appointment) As RecurrenceInfo
   overload: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceInfo*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceInfo(SuperOffice.CRM.Rows.RecurrenceRuleRow,System.DateTime)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceInfo(SuperOffice.CRM.Rows.RecurrenceRuleRow,System.DateTime)
   id: GetRecurrenceInfo(SuperOffice.CRM.Rows.RecurrenceRuleRow,System.DateTime)
@@ -1336,30 +1132,28 @@ items:
   nameWithType: RecurrenceManager.GetRecurrenceInfo(RecurrenceRuleRow, DateTime)
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceInfo(SuperOffice.CRM.Rows.RecurrenceRuleRow, System.DateTime)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
-  summary: "\nGet a recurrence info from a recurrence rule row in the database with corresponding doby\n"
+  summary: Get a recurrence info from a recurrence rule row in the database with corresponding doby
+  example: []
   syntax:
     content: public static RecurrenceInfo GetRecurrenceInfo(RecurrenceRuleRow ruleRow, DateTime doBy)
     parameters:
     - id: ruleRow
       type: SuperOffice.CRM.Rows.RecurrenceRuleRow
+      description: ''
     - id: doBy
       type: System.DateTime
+      description: ''
     return:
       type: SuperOffice.CRM.Services.RecurrenceInfo
-    content.vb: Public Shared Function GetRecurrenceInfo(ruleRow As RecurrenceRuleRow, doBy As DateTime) As RecurrenceInfo
+      description: ''
+    content.vb: Public Shared Function GetRecurrenceInfo(ruleRow As RecurrenceRuleRow, doBy As Date) As RecurrenceInfo
   overload: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceInfo*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: RecurrenceManager.GetRecurrenceInfo(RecurrenceRuleRow, Date)
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceInfo(SuperOffice.CRM.Rows.RecurrenceRuleRow, Date)
+  name.vb: GetRecurrenceInfo(RecurrenceRuleRow, Date)
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.ConvertWeekdayToInteger(SuperOffice.Data.Weekday)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.ConvertWeekdayToInteger(SuperOffice.Data.Weekday)
   id: ConvertWeekdayToInteger(SuperOffice.Data.Weekday)
@@ -1371,13 +1165,11 @@ items:
   nameWithType: RecurrenceManager.ConvertWeekdayToInteger(Weekday)
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.ConvertWeekdayToInteger(SuperOffice.Data.Weekday)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
-  summary: "\nConverts the Weekday enum to its corresponding integer representation.\n"
+  summary: Converts the Weekday enum to its corresponding integer representation.
+  example: []
   syntax:
     content: public static int ConvertWeekdayToInteger(Weekday weekday)
     parameters:
@@ -1386,15 +1178,12 @@ items:
       description: The Weekday enum value to convert.
     return:
       type: System.Int32
-      description: "\nReturns an integer from 1-7 representing Monday-Sunday respectively. \nIf the input does not match any known Weekday, it returns 0.\n"
+      description: >-
+        Returns an integer from 1-7 representing Monday-Sunday respectively. 
+
+        If the input does not match any known Weekday, it returns 0.
     content.vb: Public Shared Function ConvertWeekdayToInteger(weekday As Weekday) As Integer
   overload: SuperOffice.CRM.Entities.RecurrenceManager.ConvertWeekdayToInteger*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.ConvertDayOfWeekToWeekday(System.DayOfWeek)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.ConvertDayOfWeekToWeekday(System.DayOfWeek)
   id: ConvertDayOfWeekToWeekday(System.DayOfWeek)
@@ -1406,13 +1195,11 @@ items:
   nameWithType: RecurrenceManager.ConvertDayOfWeekToWeekday(DayOfWeek)
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.ConvertDayOfWeekToWeekday(System.DayOfWeek)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
-  summary: "\nConverts the given integer to the corresponding Weekday enum (bit flag).\n"
+  summary: Converts the given integer to the corresponding Weekday enum (bit flag).
+  example: []
   syntax:
     content: public static Weekday ConvertDayOfWeekToWeekday(DayOfWeek day)
     parameters:
@@ -1420,15 +1207,12 @@ items:
       type: System.DayOfWeek
     return:
       type: SuperOffice.Data.Weekday
-      description: "\nReturns an integer from 1-7 representing Monday-Sunday respectively. \nIf the input does not match any known Weekday, it returns 0.\n"
+      description: >-
+        Returns an integer from 1-7 representing Monday-Sunday respectively. 
+
+        If the input does not match any known Weekday, it returns 0.
     content.vb: Public Shared Function ConvertDayOfWeekToWeekday(day As DayOfWeek) As Weekday
   overload: SuperOffice.CRM.Entities.RecurrenceManager.ConvertDayOfWeekToWeekday*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceInfo
   commentId: P:SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceInfo
   id: RecurrenceInfo
@@ -1440,13 +1224,11 @@ items:
   nameWithType: RecurrenceManager.RecurrenceInfo
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceInfo
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
-  summary: "\nGet or set the current recurrence pattern.\n"
+  summary: Get or set the current recurrence pattern.
+  example: []
   syntax:
     content: public RecurrenceInfo RecurrenceInfo { get; set; }
     parameters: []
@@ -1454,12 +1236,6 @@ items:
       type: SuperOffice.CRM.Services.RecurrenceInfo
     content.vb: Public Property RecurrenceInfo As RecurrenceInfo
   overload: SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceInfo*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.Dates
   commentId: P:SuperOffice.CRM.Entities.RecurrenceManager.Dates
   id: Dates
@@ -1471,13 +1247,11 @@ items:
   nameWithType: RecurrenceManager.Dates
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.Dates
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
-  summary: "\nGet or set the dates of the recurring appointments.\n"
+  summary: Get or set the dates of the recurring appointments.
+  example: []
   syntax:
     content: public RecurrenceDate[] Dates { get; set; }
     parameters: []
@@ -1485,12 +1259,6 @@ items:
       type: SuperOffice.CRM.Services.RecurrenceDate[]
     content.vb: Public Property Dates As RecurrenceDate()
   overload: SuperOffice.CRM.Entities.RecurrenceManager.Dates*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.IsRecurrencePatternChanged
   commentId: P:SuperOffice.CRM.Entities.RecurrenceManager.IsRecurrencePatternChanged
   id: IsRecurrencePatternChanged
@@ -1502,13 +1270,16 @@ items:
   nameWithType: RecurrenceManager.IsRecurrencePatternChanged
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.IsRecurrencePatternChanged
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
-  summary: "\nGet if the recurrence pattern has been changed from the currently saved pattern.  \nThis value will allways be false if the recurrence pattern has not yet been \ninsterted in the database.\n"
+  summary: >-
+    Get if the recurrence pattern has been changed from the currently saved pattern.  
+
+    This value will allways be false if the recurrence pattern has not yet been 
+
+    insterted in the database.
+  example: []
   syntax:
     content: public bool IsRecurrencePatternChanged { get; }
     parameters: []
@@ -1516,181 +1287,549 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property IsRecurrencePatternChanged As Boolean
   overload: SuperOffice.CRM.Entities.RecurrenceManager.IsRecurrencePatternChanged*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 references:
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix
+  commentId: T:SuperOffice.CRM.Entities.AppointmentMatrix
+  isExternal: true
+  href: SuperOffice.CRM.Entities.AppointmentMatrix.html
+  name: AppointmentMatrix
+  nameWithType: AppointmentMatrix
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRow
+  commentId: T:SuperOffice.CRM.Rows.RecurrenceRuleRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.RecurrenceRuleRow.html
+  name: RecurrenceRuleRow
+  nameWithType: RecurrenceRuleRow
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRow
 - uid: SuperOffice.CRM.Entities
   commentId: N:SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Entities
   nameWithType: SuperOffice.CRM.Entities
   fullName: SuperOffice.CRM.Entities
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<RecurrenceManager, To>()
-  nameWithType: EnumUtil.MapEnums<RecurrenceManager, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.RecurrenceManager, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of RecurrenceManager, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.RecurrenceManager, To)()
-  name.vb: MapEnums(Of RecurrenceManager, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<RecurrenceManager, To>(RecurrenceManager)
+  nameWithType: EnumUtil.MapEnums<RecurrenceManager, To>(RecurrenceManager)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.RecurrenceManager, To>(SuperOffice.CRM.Entities.RecurrenceManager)
+  nameWithType.vb: EnumUtil.MapEnums(Of RecurrenceManager, To)(RecurrenceManager)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.RecurrenceManager, To)(SuperOffice.CRM.Entities.RecurrenceManager)
+  name.vb: MapEnums(Of RecurrenceManager, To)(RecurrenceManager)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<RecurrenceManager, To>
-    nameWithType: EnumUtil.MapEnums<RecurrenceManager, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.RecurrenceManager, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.RecurrenceManager)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of RecurrenceManager, To)
-    nameWithType: EnumUtil.MapEnums(Of RecurrenceManager, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.RecurrenceManager, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Entities.RecurrenceManager.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.RecurrenceManager)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<RecurrenceManager>(RecurrenceManager)
-  nameWithType: ObjectExtensions.AssignByReflection<RecurrenceManager>(RecurrenceManager)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.RecurrenceManager>(SuperOffice.CRM.Entities.RecurrenceManager)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of RecurrenceManager)(RecurrenceManager)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.RecurrenceManager)(SuperOffice.CRM.Entities.RecurrenceManager)
-  name.vb: AssignByReflection(Of RecurrenceManager)(RecurrenceManager)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<RecurrenceManager>
-    nameWithType: ObjectExtensions.AssignByReflection<RecurrenceManager>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.RecurrenceManager>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.Entities.RecurrenceManager
     name: RecurrenceManager
-    nameWithType: RecurrenceManager
-    fullName: SuperOffice.CRM.Entities.RecurrenceManager
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of RecurrenceManager)
-    nameWithType: ObjectExtensions.AssignByReflection(Of RecurrenceManager)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.RecurrenceManager)
-    isExternal: true
+    href: SuperOffice.CRM.Entities.RecurrenceManager.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Entities.RecurrenceManager
     name: RecurrenceManager
-    nameWithType: RecurrenceManager
-    fullName: SuperOffice.CRM.Entities.RecurrenceManager
     isExternal: true
+    href: SuperOffice.CRM.Entities.RecurrenceManager.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Entities.RecurrenceManager.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<RecurrenceManager>()
-  nameWithType: ObjectExtensions.GraphCopy<RecurrenceManager>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.RecurrenceManager>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of RecurrenceManager)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.RecurrenceManager)()
-  name.vb: GraphCopy(Of RecurrenceManager)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<RecurrenceManager>
-    nameWithType: ObjectExtensions.GraphCopy<RecurrenceManager>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.RecurrenceManager>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of RecurrenceManager)
-    nameWithType: ObjectExtensions.GraphCopy(Of RecurrenceManager)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.RecurrenceManager)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.RecurrenceManager)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.RecurrenceManager
+    name: RecurrenceManager
+    isExternal: true
+    href: SuperOffice.CRM.Entities.RecurrenceManager.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.RecurrenceManager
+    name: RecurrenceManager
+    isExternal: true
+    href: SuperOffice.CRM.Entities.RecurrenceManager.html
+  - name: )
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<RecurrenceManager, To>()
-  nameWithType: Converters.MapEnums<RecurrenceManager, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.RecurrenceManager, To>()
-  nameWithType.vb: Converters.MapEnums(Of RecurrenceManager, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.RecurrenceManager, To)()
-  name.vb: MapEnums(Of RecurrenceManager, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<RecurrenceManager, To>(RecurrenceManager)
+  nameWithType: Converters.MapEnums<RecurrenceManager, To>(RecurrenceManager)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.RecurrenceManager, To>(SuperOffice.CRM.Entities.RecurrenceManager)
+  nameWithType.vb: Converters.MapEnums(Of RecurrenceManager, To)(RecurrenceManager)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.RecurrenceManager, To)(SuperOffice.CRM.Entities.RecurrenceManager)
+  name.vb: MapEnums(Of RecurrenceManager, To)(RecurrenceManager)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<RecurrenceManager, To>
-    nameWithType: Converters.MapEnums<RecurrenceManager, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.RecurrenceManager, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.RecurrenceManager)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.RecurrenceManager
+    name: RecurrenceManager
+    isExternal: true
+    href: SuperOffice.CRM.Entities.RecurrenceManager.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Entities.RecurrenceManager
+    name: RecurrenceManager
+    isExternal: true
+    href: SuperOffice.CRM.Entities.RecurrenceManager.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of RecurrenceManager, To)
-    nameWithType: Converters.MapEnums(Of RecurrenceManager, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.RecurrenceManager, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.RecurrenceManager)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.RecurrenceManager
+    name: RecurrenceManager
+    isExternal: true
+    href: SuperOffice.CRM.Entities.RecurrenceManager.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.RecurrenceManager
+    name: RecurrenceManager
+    isExternal: true
+    href: SuperOffice.CRM.Entities.RecurrenceManager.html
+  - name: )
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.RecurrenceManager)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<RecurrenceManager>(RecurrenceManager, RecurrenceManager)
+  nameWithType: ObjectExtensions.AssignByReflection<RecurrenceManager>(RecurrenceManager, RecurrenceManager)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.RecurrenceManager>(SuperOffice.CRM.Entities.RecurrenceManager, SuperOffice.CRM.Entities.RecurrenceManager)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of RecurrenceManager)(RecurrenceManager, RecurrenceManager)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.RecurrenceManager)(SuperOffice.CRM.Entities.RecurrenceManager, SuperOffice.CRM.Entities.RecurrenceManager)
+  name.vb: AssignByReflection(Of RecurrenceManager)(RecurrenceManager, RecurrenceManager)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.RecurrenceManager,SuperOffice.CRM.Entities.RecurrenceManager)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.RecurrenceManager
+    name: RecurrenceManager
+    isExternal: true
+    href: SuperOffice.CRM.Entities.RecurrenceManager.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Entities.RecurrenceManager
+    name: RecurrenceManager
+    isExternal: true
+    href: SuperOffice.CRM.Entities.RecurrenceManager.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.RecurrenceManager
+    name: RecurrenceManager
+    isExternal: true
+    href: SuperOffice.CRM.Entities.RecurrenceManager.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.RecurrenceManager,SuperOffice.CRM.Entities.RecurrenceManager)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.RecurrenceManager
+    name: RecurrenceManager
+    isExternal: true
+    href: SuperOffice.CRM.Entities.RecurrenceManager.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.RecurrenceManager
+    name: RecurrenceManager
+    isExternal: true
+    href: SuperOffice.CRM.Entities.RecurrenceManager.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.RecurrenceManager
+    name: RecurrenceManager
+    isExternal: true
+    href: SuperOffice.CRM.Entities.RecurrenceManager.html
+  - name: )
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<RecurrenceManager>(RecurrenceManager)
+  nameWithType: ObjectExtensions.GraphCopy<RecurrenceManager>(RecurrenceManager)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.RecurrenceManager>(SuperOffice.CRM.Entities.RecurrenceManager)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of RecurrenceManager)(RecurrenceManager)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.RecurrenceManager)(SuperOffice.CRM.Entities.RecurrenceManager)
+  name.vb: GraphCopy(Of RecurrenceManager)(RecurrenceManager)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Entities.RecurrenceManager)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.RecurrenceManager
+    name: RecurrenceManager
+    isExternal: true
+    href: SuperOffice.CRM.Entities.RecurrenceManager.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Entities.RecurrenceManager
+    name: RecurrenceManager
+    isExternal: true
+    href: SuperOffice.CRM.Entities.RecurrenceManager.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Entities.RecurrenceManager)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.RecurrenceManager
+    name: RecurrenceManager
+    isExternal: true
+    href: SuperOffice.CRM.Entities.RecurrenceManager.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.RecurrenceManager
+    name: RecurrenceManager
+    isExternal: true
+    href: SuperOffice.CRM.Entities.RecurrenceManager.html
+  - name: )
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1699,140 +1838,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1841,69 +1885,211 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.#ctor*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager__ctor_SuperOffice_CRM_Entities_Appointment_System_Collections_Generic_IEnumerable_SuperOffice_CRM_Entities_Appointment__
   name: RecurrenceManager
   nameWithType: RecurrenceManager.RecurrenceManager
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceManager
+  nameWithType.vb: RecurrenceManager.New
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.New
+  name.vb: New
 - uid: SuperOffice.CRM.Entities.Appointment
   commentId: T:SuperOffice.CRM.Entities.Appointment
   parent: SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.CRM.Entities.Appointment.html
   name: Appointment
   nameWithType: Appointment
   fullName: SuperOffice.CRM.Entities.Appointment
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Entities.Appointment}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Entities.Appointment}'
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Entities.Appointment}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<Appointment>
   nameWithType: IEnumerable<Appointment>
   fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Entities.Appointment>
@@ -1913,117 +2099,187 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Entities.Appointment
     name: Appointment
-    nameWithType: Appointment
-    fullName: SuperOffice.CRM.Entities.Appointment
     isExternal: true
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Entities.Appointment
     name: Appointment
-    nameWithType: Appointment
-    fullName: SuperOffice.CRM.Entities.Appointment
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.CRM.Services.RecurrenceInfo
   commentId: T:SuperOffice.CRM.Services.RecurrenceInfo
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.RecurrenceInfo.html
   name: RecurrenceInfo
   nameWithType: RecurrenceInfo
   fullName: SuperOffice.CRM.Services.RecurrenceInfo
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetDefaultRecurrenceInfo*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.GetDefaultRecurrenceInfo
   isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_GetDefaultRecurrenceInfo
   name: GetDefaultRecurrenceInfo
   nameWithType: RecurrenceManager.GetDefaultRecurrenceInfo
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetDefaultRecurrenceInfo
-- uid: SuperOffice.CRM.Entities.RecurrenceManager.UpdateConflicts*
-  commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.UpdateConflicts
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.UpdateConflictsAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.UpdateConflictsAsync
   isExternal: true
-  name: UpdateConflicts
-  nameWithType: RecurrenceManager.UpdateConflicts
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.UpdateConflicts
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_UpdateConflictsAsync_System_Int32_System_Int32_System_TimeSpan_System_TimeSpan_System_Threading_CancellationToken_SuperOffice_CRM_Services_ParticipantInfo___
+  name: UpdateConflictsAsync
+  nameWithType: RecurrenceManager.UpdateConflictsAsync
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.UpdateConflictsAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
   name: TimeSpan
   nameWithType: TimeSpan
   fullName: System.TimeSpan
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
 - uid: SuperOffice.CRM.Services.ParticipantInfo[]
   isExternal: true
   name: ParticipantInfo[]
@@ -2035,59 +2291,173 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.ParticipantInfo
     name: ParticipantInfo
-    nameWithType: ParticipantInfo
-    fullName: SuperOffice.CRM.Services.ParticipantInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.ParticipantInfo
     name: ParticipantInfo
-    nameWithType: ParticipantInfo
-    fullName: SuperOffice.CRM.Services.ParticipantInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Entities.RecurrenceManager.BreakRecurrence*
-  commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.BreakRecurrence
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
-  name: BreakRecurrence
-  nameWithType: RecurrenceManager.BreakRecurrence
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.BreakRecurrence
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.BreakRecurrenceAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.BreakRecurrenceAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_BreakRecurrenceAsync_System_Threading_CancellationToken_
+  name: BreakRecurrenceAsync
+  nameWithType: RecurrenceManager.BreakRecurrenceAsync
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.BreakRecurrenceAsync
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceInfo
+  commentId: P:SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceInfo
+  isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_RecurrenceInfo
+  name: RecurrenceInfo
+  nameWithType: RecurrenceManager.RecurrenceInfo
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceInfo
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.RecalculateDays*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.RecalculateDays
   isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_RecalculateDays
   name: RecalculateDays
   nameWithType: RecurrenceManager.RecalculateDays
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.RecalculateDays
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetEstimatedCount*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.GetEstimatedCount
   isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_GetEstimatedCount
   name: GetEstimatedCount
   nameWithType: RecurrenceManager.GetEstimatedCount
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetEstimatedCount
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetFirstDate*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.GetFirstDate
   isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_GetFirstDate_System_DateTime_
   name: GetFirstDate
   nameWithType: RecurrenceManager.GetFirstDate
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetFirstDate
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.GetFirstDate(System.DateTime)
+  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.GetFirstDate(System.DateTime)
+  isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_GetFirstDate_System_DateTime_
+  name: GetFirstDate(DateTime)
+  nameWithType: RecurrenceManager.GetFirstDate(DateTime)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetFirstDate(System.DateTime)
+  nameWithType.vb: RecurrenceManager.GetFirstDate(Date)
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.GetFirstDate(Date)
+  name.vb: GetFirstDate(Date)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetFirstDate(System.DateTime)
+    name: GetFirstDate
+    isExternal: true
+    href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_GetFirstDate_System_DateTime_
+  - name: (
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetFirstDate(System.DateTime)
+    name: GetFirstDate
+    isExternal: true
+    href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_GetFirstDate_System_DateTime_
+  - name: (
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: )
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetNextDate*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.GetNextDate
   isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_GetNextDate_System_DateTime_
   name: GetNextDate
   nameWithType: RecurrenceManager.GetNextDate
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetNextDate
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetDaysToMatchInPattern*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.GetDaysToMatchInPattern
   isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_GetDaysToMatchInPattern_System_DateTime_
   name: GetDaysToMatchInPattern
   nameWithType: RecurrenceManager.GetDaysToMatchInPattern
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetDaysToMatchInPattern
 - uid: System.DayOfWeek
+  commentId: T:System.DayOfWeek
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.dayofweek
   name: DayOfWeek
   nameWithType: DayOfWeek
   fullName: System.DayOfWeek
@@ -2095,75 +2465,192 @@ references:
   commentId: T:SuperOffice.Data.Weekday
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.Weekday.html
   name: Weekday
   nameWithType: Weekday
   fullName: SuperOffice.Data.Weekday
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetDayInMonth*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.GetDayInMonth
   isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_GetDayInMonth_System_Int32_System_DateTime_
   name: GetDayInMonth
   nameWithType: RecurrenceManager.GetDayInMonth
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetDayInMonth
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetWeekDayInMonth*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.GetWeekDayInMonth
   isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_GetWeekDayInMonth_SuperOffice_Data_Weekday_System_Int32_System_DateTime_
   name: GetWeekDayInMonth
   nameWithType: RecurrenceManager.GetWeekDayInMonth
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetWeekDayInMonth
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.ConvertFromTimeZone*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.ConvertFromTimeZone
   isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_ConvertFromTimeZone_System_DateTime_System_Int32_
   name: ConvertFromTimeZone
   nameWithType: RecurrenceManager.ConvertFromTimeZone
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.ConvertFromTimeZone
-- uid: SuperOffice.CRM.Entities.RecurrenceManager.CreateAppointmentForDate*
-  commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.CreateAppointmentForDate
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.UpdateAppointmentWithDate(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Services.RecurrenceDate)
+  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.UpdateAppointmentWithDate(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Services.RecurrenceDate)
   isExternal: true
-  name: CreateAppointmentForDate
-  nameWithType: RecurrenceManager.CreateAppointmentForDate
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.CreateAppointmentForDate
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_UpdateAppointmentWithDate_SuperOffice_CRM_Entities_Appointment_SuperOffice_CRM_Services_RecurrenceDate_
+  name: UpdateAppointmentWithDate(Appointment, RecurrenceDate)
+  nameWithType: RecurrenceManager.UpdateAppointmentWithDate(Appointment, RecurrenceDate)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.UpdateAppointmentWithDate(SuperOffice.CRM.Entities.Appointment, SuperOffice.CRM.Services.RecurrenceDate)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.RecurrenceManager.UpdateAppointmentWithDate(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Services.RecurrenceDate)
+    name: UpdateAppointmentWithDate
+    isExternal: true
+    href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_UpdateAppointmentWithDate_SuperOffice_CRM_Entities_Appointment_SuperOffice_CRM_Services_RecurrenceDate_
+  - name: (
+  - uid: SuperOffice.CRM.Entities.Appointment
+    name: Appointment
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Services.RecurrenceDate
+    name: RecurrenceDate
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.RecurrenceManager.UpdateAppointmentWithDate(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Services.RecurrenceDate)
+    name: UpdateAppointmentWithDate
+    isExternal: true
+    href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_UpdateAppointmentWithDate_SuperOffice_CRM_Entities_Appointment_SuperOffice_CRM_Services_RecurrenceDate_
+  - name: (
+  - uid: SuperOffice.CRM.Entities.Appointment
+    name: Appointment
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Services.RecurrenceDate
+    name: RecurrenceDate
+    isExternal: true
+  - name: )
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.CreateAppointmentForDateAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.CreateAppointmentForDateAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_CreateAppointmentForDateAsync_SuperOffice_CRM_Entities_Appointment_SuperOffice_CRM_Services_RecurrenceDate_System_Threading_CancellationToken_
+  name: CreateAppointmentForDateAsync
+  nameWithType: RecurrenceManager.CreateAppointmentForDateAsync
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.CreateAppointmentForDateAsync
 - uid: SuperOffice.CRM.Services.RecurrenceDate
   commentId: T:SuperOffice.CRM.Services.RecurrenceDate
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.RecurrenceDate.html
   name: RecurrenceDate
   nameWithType: RecurrenceDate
   fullName: SuperOffice.CRM.Services.RecurrenceDate
-- uid: SuperOffice.CRM.Entities.RecurrenceManager.ApplyUdefValues*
-  commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.ApplyUdefValues
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.Appointment}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Entities.Appointment}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Appointment>
+  nameWithType: Task<Appointment>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Entities.Appointment>
+  nameWithType.vb: Task(Of Appointment)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Entities.Appointment)
+  name.vb: Task(Of Appointment)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Entities.Appointment
+    name: Appointment
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Appointment.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.Appointment
+    name: Appointment
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Appointment.html
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: ApplyUdefValues
-  nameWithType: RecurrenceManager.ApplyUdefValues
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.ApplyUdefValues
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.ApplyUdefValuesAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.ApplyUdefValuesAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_ApplyUdefValuesAsync_SuperOffice_CRM_Entities_EntityUdefHelper_SuperOffice_CRM_Entities_EntityUdefHelper_
+  name: ApplyUdefValuesAsync
+  nameWithType: RecurrenceManager.ApplyUdefValuesAsync
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.ApplyUdefValuesAsync
 - uid: SuperOffice.CRM.Entities.EntityUdefHelper
   commentId: T:SuperOffice.CRM.Entities.EntityUdefHelper
   parent: SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.CRM.Entities.EntityUdefHelper.html
   name: EntityUdefHelper
   nameWithType: EntityUdefHelper
   fullName: SuperOffice.CRM.Entities.EntityUdefHelper
-- uid: SuperOffice.CRM.Entities.RecurrenceManager.ApplyLinks*
-  commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.ApplyLinks
-  isExternal: true
-  name: ApplyLinks
-  nameWithType: RecurrenceManager.ApplyLinks
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.ApplyLinks
-- uid: SuperOffice.CRM.Entities.ActivityLinksHelper
-  commentId: T:SuperOffice.CRM.Entities.ActivityLinksHelper
-  parent: SuperOffice.CRM.Entities
-  isExternal: true
-  name: ActivityLinksHelper
-  nameWithType: ActivityLinksHelper
-  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.OnAppointmentRowValueChanged*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.OnAppointmentRowValueChanged
   isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_OnAppointmentRowValueChanged_SuperOffice_CRM_Entities_Appointment_SuperOffice_CRM_Rows_TableRowBase_SuperOffice_Data_SQL_FieldInfo_System_Object_System_Object_System_Object_
   name: OnAppointmentRowValueChanged
   nameWithType: RecurrenceManager.OnAppointmentRowValueChanged
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnAppointmentRowValueChanged
@@ -2171,6 +2658,7 @@ references:
   commentId: T:SuperOffice.CRM.Rows.TableRowBase
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.TableRowBase.html
   name: TableRowBase
   nameWithType: TableRowBase
   fullName: SuperOffice.CRM.Rows.TableRowBase
@@ -2178,24 +2666,51 @@ references:
   commentId: T:SuperOffice.Data.SQL.FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.FieldInfo.html
   name: FieldInfo
   nameWithType: FieldInfo
   fullName: SuperOffice.Data.SQL.FieldInfo
-- uid: SuperOffice.CRM.Rows
-  commentId: N:SuperOffice.CRM.Rows
-  isExternal: true
-  name: SuperOffice.CRM.Rows
-  nameWithType: SuperOffice.CRM.Rows
-  fullName: SuperOffice.CRM.Rows
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.OnTextChange*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.OnTextChange
   isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_OnTextChange_SuperOffice_CRM_Entities_Appointment_System_String_System_String_System_String_
   name: OnTextChange
   nameWithType: RecurrenceManager.OnTextChange
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnTextChange
@@ -2203,49 +2718,68 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.OnAgendaTextChange*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.OnAgendaTextChange
   isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_OnAgendaTextChange_SuperOffice_CRM_Entities_Appointment_System_String_System_String_System_String_
   name: OnAgendaTextChange
   nameWithType: RecurrenceManager.OnAgendaTextChange
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnAgendaTextChange
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.OnAgendaHTMLTextChange*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.OnAgendaHTMLTextChange
   isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_OnAgendaHTMLTextChange_SuperOffice_CRM_Entities_Appointment_System_String_System_String_System_String_
   name: OnAgendaHTMLTextChange
   nameWithType: RecurrenceManager.OnAgendaHTMLTextChange
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnAgendaHTMLTextChange
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.OnInternalNotesTextChange*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.OnInternalNotesTextChange
   isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_OnInternalNotesTextChange_SuperOffice_CRM_Entities_Appointment_System_String_System_String_System_String_
   name: OnInternalNotesTextChange
   nameWithType: RecurrenceManager.OnInternalNotesTextChange
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnInternalNotesTextChange
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.OnInternalNotesHtmlTextChange*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.OnInternalNotesHtmlTextChange
   isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_OnInternalNotesHtmlTextChange_SuperOffice_CRM_Entities_Appointment_System_String_System_String_System_String_
   name: OnInternalNotesHtmlTextChange
   nameWithType: RecurrenceManager.OnInternalNotesHtmlTextChange
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnInternalNotesHtmlTextChange
-- uid: SuperOffice.CRM.Entities.RecurrenceManager.OnUdefValueChange*
-  commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.OnUdefValueChange
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.OnUdefValueChangeAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.OnUdefValueChangeAsync
   isExternal: true
-  name: OnUdefValueChange
-  nameWithType: RecurrenceManager.OnUdefValueChange
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnUdefValueChange
-- uid: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksAdded*
-  commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.OnLinksAdded
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_OnUdefValueChangeAsync_SuperOffice_CRM_Entities_Appointment_System_String_System_Object_System_Object_System_Threading_CancellationToken_
+  name: OnUdefValueChangeAsync
+  nameWithType: RecurrenceManager.OnUdefValueChangeAsync
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnUdefValueChangeAsync
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksAddedAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.OnLinksAddedAsync
   isExternal: true
-  name: OnLinksAdded
-  nameWithType: RecurrenceManager.OnLinksAdded
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksAdded
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_OnLinksAddedAsync_SuperOffice_CRM_Entities_Appointment_SuperOffice_CRM_Entities_ActivityLinksHelper_SuperOffice_CRM_Rows_AppointmentRow_SuperOffice_CRM_Rows_RelationsRow_System_Threading_CancellationToken_
+  name: OnLinksAddedAsync
+  nameWithType: RecurrenceManager.OnLinksAddedAsync
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksAddedAsync
+- uid: SuperOffice.CRM.Entities.ActivityLinksHelper
+  commentId: T:SuperOffice.CRM.Entities.ActivityLinksHelper
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  href: SuperOffice.CRM.Entities.ActivityLinksHelper.html
+  name: ActivityLinksHelper
+  nameWithType: ActivityLinksHelper
+  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper
 - uid: SuperOffice.CRM.Rows.AppointmentRow
   commentId: T:SuperOffice.CRM.Rows.AppointmentRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.AppointmentRow.html
   name: AppointmentRow
   nameWithType: AppointmentRow
   fullName: SuperOffice.CRM.Rows.AppointmentRow
@@ -2253,36 +2787,77 @@ references:
   commentId: T:SuperOffice.CRM.Rows.RelationsRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.RelationsRow.html
   name: RelationsRow
   nameWithType: RelationsRow
   fullName: SuperOffice.CRM.Rows.RelationsRow
-- uid: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksRemoved*
-  commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.OnLinksRemoved
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksRemovedAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.OnLinksRemovedAsync
   isExternal: true
-  name: OnLinksRemoved
-  nameWithType: RecurrenceManager.OnLinksRemoved
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksRemoved
-- uid: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksEdited*
-  commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.OnLinksEdited
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_OnLinksRemovedAsync_SuperOffice_CRM_Entities_Appointment_SuperOffice_CRM_Entities_ActivityLinksHelper_SuperOffice_CRM_Rows_AppointmentRow_SuperOffice_CRM_Rows_RelationsRow_System_Threading_CancellationToken_
+  name: OnLinksRemovedAsync
+  nameWithType: RecurrenceManager.OnLinksRemovedAsync
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksRemovedAsync
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksEditedAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.OnLinksEditedAsync
   isExternal: true
-  name: OnLinksEdited
-  nameWithType: RecurrenceManager.OnLinksEdited
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksEdited
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_OnLinksEditedAsync_SuperOffice_CRM_Entities_Appointment_SuperOffice_CRM_Entities_ActivityLinksHelper_SuperOffice_CRM_Rows_AppointmentRow_SuperOffice_CRM_Rows_RelationsRow_System_Threading_CancellationToken_
+  name: OnLinksEditedAsync
+  nameWithType: RecurrenceManager.OnLinksEditedAsync
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksEditedAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.RelationsRow}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.RelationsRow}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<RelationsRow>
+  nameWithType: Task<RelationsRow>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.RelationsRow>
+  nameWithType.vb: Task(Of RelationsRow)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.RelationsRow)
+  name.vb: Task(Of RelationsRow)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.RelationsRow
+    name: RelationsRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RelationsRow.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.RelationsRow
+    name: RelationsRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RelationsRow.html
+  - name: )
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.UpdateAppointmentWithDate*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.UpdateAppointmentWithDate
   isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_UpdateAppointmentWithDate_SuperOffice_CRM_Entities_Appointment_SuperOffice_CRM_Services_RecurrenceDate_
   name: UpdateAppointmentWithDate
   nameWithType: RecurrenceManager.UpdateAppointmentWithDate
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.UpdateAppointmentWithDate
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceDate*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceDate
   isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_GetRecurrenceDate_SuperOffice_CRM_Entities_Appointment_
   name: GetRecurrenceDate
   nameWithType: RecurrenceManager.GetRecurrenceDate
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceDate
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.PrepareForSave*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.PrepareForSave
   isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_PrepareForSave_System_Boolean_System_Boolean_
   name: PrepareForSave
   nameWithType: RecurrenceManager.PrepareForSave
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.PrepareForSave
@@ -2290,54 +2865,58 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: SuperOffice.CRM.Entities.RecurrenceManager.OnSaved*
-  commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.OnSaved
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.OnSavedAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.OnSavedAsync
   isExternal: true
-  name: OnSaved
-  nameWithType: RecurrenceManager.OnSaved
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnSaved
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_OnSavedAsync_System_Boolean_System_Boolean_
+  name: OnSavedAsync
+  nameWithType: RecurrenceManager.OnSavedAsync
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnSavedAsync
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceInfo*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceInfo
   isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_GetRecurrenceInfo_SuperOffice_CRM_Entities_Appointment_
   name: GetRecurrenceInfo
   nameWithType: RecurrenceManager.GetRecurrenceInfo
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceInfo
-- uid: SuperOffice.CRM.Rows.RecurrenceRuleRow
-  commentId: T:SuperOffice.CRM.Rows.RecurrenceRuleRow
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  name: RecurrenceRuleRow
-  nameWithType: RecurrenceRuleRow
-  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRow
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.ConvertWeekdayToInteger*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.ConvertWeekdayToInteger
   isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_ConvertWeekdayToInteger_SuperOffice_Data_Weekday_
   name: ConvertWeekdayToInteger
   nameWithType: RecurrenceManager.ConvertWeekdayToInteger
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.ConvertWeekdayToInteger
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.ConvertDayOfWeekToWeekday*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.ConvertDayOfWeekToWeekday
   isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_ConvertDayOfWeekToWeekday_System_DayOfWeek_
   name: ConvertDayOfWeekToWeekday
   nameWithType: RecurrenceManager.ConvertDayOfWeekToWeekday
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.ConvertDayOfWeekToWeekday
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceInfo*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceInfo
   isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_RecurrenceInfo
   name: RecurrenceInfo
   nameWithType: RecurrenceManager.RecurrenceInfo
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceInfo
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.Dates*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.Dates
   isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_Dates
   name: Dates
   nameWithType: RecurrenceManager.Dates
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.Dates
 - uid: SuperOffice.CRM.Services.RecurrenceDate[]
   isExternal: true
+  href: SuperOffice.CRM.Services.RecurrenceDate.html
   name: RecurrenceDate[]
   nameWithType: RecurrenceDate[]
   fullName: SuperOffice.CRM.Services.RecurrenceDate[]
@@ -2347,24 +2926,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.RecurrenceDate
     name: RecurrenceDate
-    nameWithType: RecurrenceDate
-    fullName: SuperOffice.CRM.Services.RecurrenceDate
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.RecurrenceDate.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.RecurrenceDate
     name: RecurrenceDate
-    nameWithType: RecurrenceDate
-    fullName: SuperOffice.CRM.Services.RecurrenceDate
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.Services.RecurrenceDate.html
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.IsRecurrencePatternChanged*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.IsRecurrencePatternChanged
   isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_IsRecurrencePatternChanged
   name: IsRecurrencePatternChanged
   nameWithType: RecurrenceManager.IsRecurrencePatternChanged
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.IsRecurrencePatternChanged

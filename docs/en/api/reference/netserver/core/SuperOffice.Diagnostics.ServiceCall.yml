@@ -1,0 +1,935 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Diagnostics.ServiceCall
+  commentId: T:SuperOffice.Diagnostics.ServiceCall
+  id: ServiceCall
+  parent: SuperOffice.Diagnostics
+  children:
+  - SuperOffice.Diagnostics.ServiceCall.#ctor(System.String,System.String,System.String,System.String,System.DateTimeOffset,System.ValueTuple{System.String,System.Object}[])
+  - SuperOffice.Diagnostics.ServiceCall.Agent
+  - SuperOffice.Diagnostics.ServiceCall.ContextIdentifier
+  - SuperOffice.Diagnostics.ServiceCall.DatabaseCalls
+  - SuperOffice.Diagnostics.ServiceCall.DatabaseMilliseconds
+  - SuperOffice.Diagnostics.ServiceCall.DatabaseRows
+  - SuperOffice.Diagnostics.ServiceCall.Method
+  - SuperOffice.Diagnostics.ServiceCall.Parameters
+  - SuperOffice.Diagnostics.ServiceCall.Started
+  - SuperOffice.Diagnostics.ServiceCall.User
+  langs:
+  - csharp
+  - vb
+  name: ServiceCall
+  nameWithType: ServiceCall
+  fullName: SuperOffice.Diagnostics.ServiceCall
+  type: Class
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public class ServiceCall
+    content.vb: Public Class ServiceCall
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Diagnostics.ServiceCall.EnumUtil.MapEnums``2
+  - SuperOffice.Diagnostics.ServiceCall.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Diagnostics.ServiceCall.#ctor(System.String,System.String,System.String,System.String,System.DateTimeOffset,System.ValueTuple{System.String,System.Object}[])
+  commentId: M:SuperOffice.Diagnostics.ServiceCall.#ctor(System.String,System.String,System.String,System.String,System.DateTimeOffset,System.ValueTuple{System.String,System.Object}[])
+  id: '#ctor(System.String,System.String,System.String,System.String,System.DateTimeOffset,System.ValueTuple{System.String,System.Object}[])'
+  parent: SuperOffice.Diagnostics.ServiceCall
+  langs:
+  - csharp
+  - vb
+  name: ServiceCall(string, string, string, string, DateTimeOffset, params (string parameter, object argument)[])
+  nameWithType: ServiceCall.ServiceCall(string, string, string, string, DateTimeOffset, params (string parameter, object argument)[])
+  fullName: SuperOffice.Diagnostics.ServiceCall.ServiceCall(string, string, string, string, System.DateTimeOffset, params (string parameter, object argument)[])
+  type: Constructor
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public ServiceCall(string agent, string method, string databaseContext, string user, DateTimeOffset started, params (string parameter, object argument)[] parameters)
+    parameters:
+    - id: agent
+      type: System.String
+    - id: method
+      type: System.String
+    - id: databaseContext
+      type: System.String
+    - id: user
+      type: System.String
+    - id: started
+      type: System.DateTimeOffset
+    - id: parameters
+      type: System.ValueTuple{System.String,System.Object}[]
+    content.vb: Public Sub New(agent As String, method As String, databaseContext As String, user As String, started As DateTimeOffset, ParamArray parameters As (parameter As String, argument As Object)())
+  overload: SuperOffice.Diagnostics.ServiceCall.#ctor*
+  nameWithType.vb: ServiceCall.New(String, String, String, String, DateTimeOffset, ParamArray (parameter As String, argument As Object)())
+  fullName.vb: SuperOffice.Diagnostics.ServiceCall.New(String, String, String, String, System.DateTimeOffset, ParamArray (parameter As String, argument As Object)())
+  name.vb: New(String, String, String, String, DateTimeOffset, ParamArray (parameter As String, argument As Object)())
+- uid: SuperOffice.Diagnostics.ServiceCall.ContextIdentifier
+  commentId: P:SuperOffice.Diagnostics.ServiceCall.ContextIdentifier
+  id: ContextIdentifier
+  parent: SuperOffice.Diagnostics.ServiceCall
+  langs:
+  - csharp
+  - vb
+  name: ContextIdentifier
+  nameWithType: ServiceCall.ContextIdentifier
+  fullName: SuperOffice.Diagnostics.ServiceCall.ContextIdentifier
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public string ContextIdentifier { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ContextIdentifier As String
+  overload: SuperOffice.Diagnostics.ServiceCall.ContextIdentifier*
+- uid: SuperOffice.Diagnostics.ServiceCall.User
+  commentId: P:SuperOffice.Diagnostics.ServiceCall.User
+  id: User
+  parent: SuperOffice.Diagnostics.ServiceCall
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: ServiceCall.User
+  fullName: SuperOffice.Diagnostics.ServiceCall.User
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public string User { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property User As String
+  overload: SuperOffice.Diagnostics.ServiceCall.User*
+- uid: SuperOffice.Diagnostics.ServiceCall.Agent
+  commentId: P:SuperOffice.Diagnostics.ServiceCall.Agent
+  id: Agent
+  parent: SuperOffice.Diagnostics.ServiceCall
+  langs:
+  - csharp
+  - vb
+  name: Agent
+  nameWithType: ServiceCall.Agent
+  fullName: SuperOffice.Diagnostics.ServiceCall.Agent
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public string Agent { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Agent As String
+  overload: SuperOffice.Diagnostics.ServiceCall.Agent*
+- uid: SuperOffice.Diagnostics.ServiceCall.Method
+  commentId: P:SuperOffice.Diagnostics.ServiceCall.Method
+  id: Method
+  parent: SuperOffice.Diagnostics.ServiceCall
+  langs:
+  - csharp
+  - vb
+  name: Method
+  nameWithType: ServiceCall.Method
+  fullName: SuperOffice.Diagnostics.ServiceCall.Method
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public string Method { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Method As String
+  overload: SuperOffice.Diagnostics.ServiceCall.Method*
+- uid: SuperOffice.Diagnostics.ServiceCall.Started
+  commentId: P:SuperOffice.Diagnostics.ServiceCall.Started
+  id: Started
+  parent: SuperOffice.Diagnostics.ServiceCall
+  langs:
+  - csharp
+  - vb
+  name: Started
+  nameWithType: ServiceCall.Started
+  fullName: SuperOffice.Diagnostics.ServiceCall.Started
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public DateTimeOffset Started { get; }
+    parameters: []
+    return:
+      type: System.DateTimeOffset
+    content.vb: Public ReadOnly Property Started As DateTimeOffset
+  overload: SuperOffice.Diagnostics.ServiceCall.Started*
+- uid: SuperOffice.Diagnostics.ServiceCall.Parameters
+  commentId: P:SuperOffice.Diagnostics.ServiceCall.Parameters
+  id: Parameters
+  parent: SuperOffice.Diagnostics.ServiceCall
+  langs:
+  - csharp
+  - vb
+  name: Parameters
+  nameWithType: ServiceCall.Parameters
+  fullName: SuperOffice.Diagnostics.ServiceCall.Parameters
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public (string parameter, object argument)[] Parameters { get; }
+    parameters: []
+    return:
+      type: System.ValueTuple{System.String,System.Object}[]
+    content.vb: Public ReadOnly Property Parameters As (parameter As String, argument As Object)()
+  overload: SuperOffice.Diagnostics.ServiceCall.Parameters*
+- uid: SuperOffice.Diagnostics.ServiceCall.DatabaseCalls
+  commentId: P:SuperOffice.Diagnostics.ServiceCall.DatabaseCalls
+  id: DatabaseCalls
+  parent: SuperOffice.Diagnostics.ServiceCall
+  langs:
+  - csharp
+  - vb
+  name: DatabaseCalls
+  nameWithType: ServiceCall.DatabaseCalls
+  fullName: SuperOffice.Diagnostics.ServiceCall.DatabaseCalls
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public int DatabaseCalls { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DatabaseCalls As Integer
+  overload: SuperOffice.Diagnostics.ServiceCall.DatabaseCalls*
+- uid: SuperOffice.Diagnostics.ServiceCall.DatabaseRows
+  commentId: P:SuperOffice.Diagnostics.ServiceCall.DatabaseRows
+  id: DatabaseRows
+  parent: SuperOffice.Diagnostics.ServiceCall
+  langs:
+  - csharp
+  - vb
+  name: DatabaseRows
+  nameWithType: ServiceCall.DatabaseRows
+  fullName: SuperOffice.Diagnostics.ServiceCall.DatabaseRows
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public int DatabaseRows { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DatabaseRows As Integer
+  overload: SuperOffice.Diagnostics.ServiceCall.DatabaseRows*
+- uid: SuperOffice.Diagnostics.ServiceCall.DatabaseMilliseconds
+  commentId: P:SuperOffice.Diagnostics.ServiceCall.DatabaseMilliseconds
+  id: DatabaseMilliseconds
+  parent: SuperOffice.Diagnostics.ServiceCall
+  langs:
+  - csharp
+  - vb
+  name: DatabaseMilliseconds
+  nameWithType: ServiceCall.DatabaseMilliseconds
+  fullName: SuperOffice.Diagnostics.ServiceCall.DatabaseMilliseconds
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public int DatabaseMilliseconds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DatabaseMilliseconds As Integer
+  overload: SuperOffice.Diagnostics.ServiceCall.DatabaseMilliseconds*
+references:
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: SuperOffice.Diagnostics.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: SuperOffice.Diagnostics.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.Diagnostics.ServiceCall.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ServiceCall, To>(ServiceCall)
+  nameWithType: EnumUtil.MapEnums<ServiceCall, To>(ServiceCall)
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.ServiceCall, To>(SuperOffice.Diagnostics.ServiceCall)
+  nameWithType.vb: EnumUtil.MapEnums(Of ServiceCall, To)(ServiceCall)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.ServiceCall, To)(SuperOffice.Diagnostics.ServiceCall)
+  name.vb: MapEnums(Of ServiceCall, To)(ServiceCall)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Diagnostics.ServiceCall)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Diagnostics.ServiceCall
+    name: ServiceCall
+    isExternal: true
+    href: SuperOffice.Diagnostics.ServiceCall.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Diagnostics.ServiceCall
+    name: ServiceCall
+    isExternal: true
+    href: SuperOffice.Diagnostics.ServiceCall.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Diagnostics.ServiceCall)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Diagnostics.ServiceCall
+    name: ServiceCall
+    isExternal: true
+    href: SuperOffice.Diagnostics.ServiceCall.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Diagnostics.ServiceCall
+    name: ServiceCall
+    isExternal: true
+    href: SuperOffice.Diagnostics.ServiceCall.html
+  - name: )
+- uid: SuperOffice.Diagnostics.ServiceCall.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ServiceCall, To>(ServiceCall)
+  nameWithType: Converters.MapEnums<ServiceCall, To>(ServiceCall)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.ServiceCall, To>(SuperOffice.Diagnostics.ServiceCall)
+  nameWithType.vb: Converters.MapEnums(Of ServiceCall, To)(ServiceCall)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.ServiceCall, To)(SuperOffice.Diagnostics.ServiceCall)
+  name.vb: MapEnums(Of ServiceCall, To)(ServiceCall)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Diagnostics.ServiceCall)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Diagnostics.ServiceCall
+    name: ServiceCall
+    isExternal: true
+    href: SuperOffice.Diagnostics.ServiceCall.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Diagnostics.ServiceCall
+    name: ServiceCall
+    isExternal: true
+    href: SuperOffice.Diagnostics.ServiceCall.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Diagnostics.ServiceCall)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Diagnostics.ServiceCall
+    name: ServiceCall
+    isExternal: true
+    href: SuperOffice.Diagnostics.ServiceCall.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Diagnostics.ServiceCall
+    name: ServiceCall
+    isExternal: true
+    href: SuperOffice.Diagnostics.ServiceCall.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Diagnostics.ServiceCall.#ctor*
+  commentId: Overload:SuperOffice.Diagnostics.ServiceCall.#ctor
+  isExternal: true
+  href: SuperOffice.Diagnostics.ServiceCall.html#SuperOffice_Diagnostics_ServiceCall__ctor_System_String_System_String_System_String_System_String_System_DateTimeOffset_System_ValueTuple_System_String_System_Object____
+  name: ServiceCall
+  nameWithType: ServiceCall.ServiceCall
+  fullName: SuperOffice.Diagnostics.ServiceCall.ServiceCall
+  nameWithType.vb: ServiceCall.New
+  fullName.vb: SuperOffice.Diagnostics.ServiceCall.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.DateTimeOffset
+  commentId: T:System.DateTimeOffset
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetimeoffset
+  name: DateTimeOffset
+  nameWithType: DateTimeOffset
+  fullName: System.DateTimeOffset
+- uid: System.ValueTuple{System.String,System.Object}[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: (string parameter, object argument)[]
+  nameWithType: (string parameter, object argument)[]
+  fullName: (string parameter, object argument)[]
+  nameWithType.vb: (parameter As String, argument As Object)()
+  fullName.vb: (parameter As String, argument As Object)()
+  name.vb: (parameter As String, argument As Object)()
+  spec.csharp:
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.Object}.parameter
+    name: parameter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.object-.parameter
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.Object}.argument
+    name: argument
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.object-.argument
+  - name: )
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - name: (
+  - uid: System.ValueTuple{System.String,System.Object}.parameter
+    name: parameter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.object-.parameter
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.Object}.argument
+    name: argument
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.object-.argument
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: (
+  - name: )
+- uid: SuperOffice.Diagnostics.ServiceCall.ContextIdentifier*
+  commentId: Overload:SuperOffice.Diagnostics.ServiceCall.ContextIdentifier
+  isExternal: true
+  href: SuperOffice.Diagnostics.ServiceCall.html#SuperOffice_Diagnostics_ServiceCall_ContextIdentifier
+  name: ContextIdentifier
+  nameWithType: ServiceCall.ContextIdentifier
+  fullName: SuperOffice.Diagnostics.ServiceCall.ContextIdentifier
+- uid: SuperOffice.Diagnostics.ServiceCall.User*
+  commentId: Overload:SuperOffice.Diagnostics.ServiceCall.User
+  isExternal: true
+  href: SuperOffice.Diagnostics.ServiceCall.html#SuperOffice_Diagnostics_ServiceCall_User
+  name: User
+  nameWithType: ServiceCall.User
+  fullName: SuperOffice.Diagnostics.ServiceCall.User
+- uid: SuperOffice.Diagnostics.ServiceCall.Agent*
+  commentId: Overload:SuperOffice.Diagnostics.ServiceCall.Agent
+  isExternal: true
+  href: SuperOffice.Diagnostics.ServiceCall.html#SuperOffice_Diagnostics_ServiceCall_Agent
+  name: Agent
+  nameWithType: ServiceCall.Agent
+  fullName: SuperOffice.Diagnostics.ServiceCall.Agent
+- uid: SuperOffice.Diagnostics.ServiceCall.Method*
+  commentId: Overload:SuperOffice.Diagnostics.ServiceCall.Method
+  isExternal: true
+  href: SuperOffice.Diagnostics.ServiceCall.html#SuperOffice_Diagnostics_ServiceCall_Method
+  name: Method
+  nameWithType: ServiceCall.Method
+  fullName: SuperOffice.Diagnostics.ServiceCall.Method
+- uid: SuperOffice.Diagnostics.ServiceCall.Started*
+  commentId: Overload:SuperOffice.Diagnostics.ServiceCall.Started
+  isExternal: true
+  href: SuperOffice.Diagnostics.ServiceCall.html#SuperOffice_Diagnostics_ServiceCall_Started
+  name: Started
+  nameWithType: ServiceCall.Started
+  fullName: SuperOffice.Diagnostics.ServiceCall.Started
+- uid: SuperOffice.Diagnostics.ServiceCall.Parameters*
+  commentId: Overload:SuperOffice.Diagnostics.ServiceCall.Parameters
+  isExternal: true
+  href: SuperOffice.Diagnostics.ServiceCall.html#SuperOffice_Diagnostics_ServiceCall_Parameters
+  name: Parameters
+  nameWithType: ServiceCall.Parameters
+  fullName: SuperOffice.Diagnostics.ServiceCall.Parameters
+- uid: SuperOffice.Diagnostics.ServiceCall.DatabaseCalls*
+  commentId: Overload:SuperOffice.Diagnostics.ServiceCall.DatabaseCalls
+  isExternal: true
+  href: SuperOffice.Diagnostics.ServiceCall.html#SuperOffice_Diagnostics_ServiceCall_DatabaseCalls
+  name: DatabaseCalls
+  nameWithType: ServiceCall.DatabaseCalls
+  fullName: SuperOffice.Diagnostics.ServiceCall.DatabaseCalls
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.Diagnostics.ServiceCall.DatabaseRows*
+  commentId: Overload:SuperOffice.Diagnostics.ServiceCall.DatabaseRows
+  isExternal: true
+  href: SuperOffice.Diagnostics.ServiceCall.html#SuperOffice_Diagnostics_ServiceCall_DatabaseRows
+  name: DatabaseRows
+  nameWithType: ServiceCall.DatabaseRows
+  fullName: SuperOffice.Diagnostics.ServiceCall.DatabaseRows
+- uid: SuperOffice.Diagnostics.ServiceCall.DatabaseMilliseconds*
+  commentId: Overload:SuperOffice.Diagnostics.ServiceCall.DatabaseMilliseconds
+  isExternal: true
+  href: SuperOffice.Diagnostics.ServiceCall.html#SuperOffice_Diagnostics_ServiceCall_DatabaseMilliseconds
+  name: DatabaseMilliseconds
+  nameWithType: ServiceCall.DatabaseMilliseconds
+  fullName: SuperOffice.Diagnostics.ServiceCall.DatabaseMilliseconds

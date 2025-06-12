@@ -92,7 +92,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 723,
-  "ERPProductKey": "suscipit",
-  "ERPPriceListKey": "est",
-  "Name": "Hayes, Padberg and Kohler",
-  "Description": "Synergized coherent superstructure",
-  "Code": "enim",
-  "PriceUnit": "nam",
-  "QuantityUnit": "nihil",
+  "ProductId": 44,
+  "ERPProductKey": "dolore",
+  "ERPPriceListKey": "eum",
+  "Name": "Bartell Group",
+  "Description": "Ergonomic discrete workforce",
+  "Code": "et",
+  "PriceUnit": "autem",
+  "QuantityUnit": "eum",
   "IsSubscription": true,
-  "SubscriptionUnit": "veritatis",
-  "DefaultSubscriptionQuantity": 7029.562,
-  "ItemNumber": "737307",
+  "SubscriptionUnit": "est",
+  "DefaultSubscriptionQuantity": 3140.268,
+  "ItemNumber": "1073917",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ut",
-  "ProductTypeKey": "eos",
-  "VAT": 22292.142,
-  "VATInfo": "iure",
-  "UnitCost": 12974.76,
-  "UnitMinimumPrice": 21765.63,
-  "UnitListPrice": 3347.112,
+  "ProductFamilyKey": "ab",
+  "ProductTypeKey": "voluptatem",
+  "VAT": 19067.255999999998,
+  "VATInfo": "distinctio",
+  "UnitCost": 29738.525999999998,
+  "UnitMinimumPrice": 24279.097999999998,
+  "UnitListPrice": 3152.804,
   "InAssortment": false,
-  "Supplier": "odio",
-  "SupplierCode": "voluptas",
-  "Rights": "voluptatibus",
-  "Rule": "earum",
+  "Supplier": "officiis",
+  "SupplierCode": "qui",
+  "Rights": "ducimus",
+  "Rule": "molestiae",
   "ExtraInfo": [
     {
-      "Name": "Pacocha-McLaughlin",
-      "Value": "dolor",
+      "Name": "Flatley Group",
+      "Value": "tempore",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 30
+          "FieldLength": 341
         }
       }
     },
     {
-      "Name": "Pacocha-McLaughlin",
-      "Value": "dolor",
+      "Name": "Flatley Group",
+      "Value": "tempore",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 30
+          "FieldLength": 341
         }
       }
     }
   ],
-  "RawExtraInfo": "fuga",
-  "ExtraField1": "fugiat",
-  "ExtraField2": "doloremque",
-  "ExtraField3": "nihil",
-  "ExtraField4": "nihil",
-  "ExtraField5": "aut",
-  "InStock": 7233.272,
+  "RawExtraInfo": "ea",
+  "ExtraField1": "est",
+  "ExtraField2": "voluptatem",
+  "ExtraField3": "necessitatibus",
+  "ExtraField4": "neque",
+  "ExtraField5": "sequi",
+  "InStock": 266.39,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 315
+      "FieldLength": 215
     }
   }
 }

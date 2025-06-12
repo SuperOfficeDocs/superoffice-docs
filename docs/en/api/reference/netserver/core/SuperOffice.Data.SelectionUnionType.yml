@@ -10,7 +10,6 @@ items:
   - SuperOffice.Data.SelectionUnionType.SubtractRightFromLeft
   - SuperOffice.Data.SelectionUnionType.Union
   - SuperOffice.Data.SelectionUnionType.Unknown
-  - SuperOffice.Data.SelectionUnionType.value__
   - SuperOffice.Data.SelectionUnionType.XOR
   langs:
   - csharp
@@ -18,60 +17,38 @@ items:
   name: SelectionUnionType
   nameWithType: SelectionUnionType
   fullName: SuperOffice.Data.SelectionUnionType
-  type: Class
-  source:
-    path: SoCore
-    isExternal: true
+  type: Enum
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\nHow the selections in a combined selections should be put together\nThis Enum is used by:  selection.combinationType\n"
-  syntax:
-    content: 'public sealed class SelectionUnionType : Enum'
-    content.vb: >-
-      Public NotInheritable Class SelectionUnionType
-          Inherits
+  summary: >-
+    How the selections in a combined selections should be put together
 
-           Enum
-  inheritance:
-  - System.Object
+    This Enum is used by:  selection.combinationType
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public enum SelectionUnionType : short
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Enum SelectionUnionType As Short
   extensionMethods:
   - SuperOffice.Data.SelectionUnionType.EnumUtil.MapEnums``2
   - SuperOffice.Data.SelectionUnionType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.Data.SelectionUnionType.value__
-  commentId: F:SuperOffice.Data.SelectionUnionType.value__
-  id: value__
-  parent: SuperOffice.Data.SelectionUnionType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: SelectionUnionType.value__
-  fullName: SuperOffice.Data.SelectionUnionType.value__
-  type: Field
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Data
-  syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.Data.SelectionUnionType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SelectionUnionType)
+  - SuperOffice.Data.SelectionUnionType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - System.Enum.EnumUtil.GetDescription
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.Data.SelectionUnionType.Unknown
   commentId: F:SuperOffice.Data.SelectionUnionType.Unknown
   id: Unknown
@@ -83,24 +60,26 @@ items:
   nameWithType: SelectionUnionType.Unknown
   fullName: SuperOffice.Data.SelectionUnionType.Unknown
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n0: Combination type is unknown/indefined\n"
+  summary: '0: Combination type is unknown/indefined'
+  example: []
   syntax:
-    content: public const SelectionUnionType Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.Data.SelectionUnionType
-    content.vb: Public Const Unknown As SelectionUnionType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.SelectionUnionType.SubtractRightFromLeft
   commentId: F:SuperOffice.Data.SelectionUnionType.SubtractRightFromLeft
   id: SubtractRightFromLeft
@@ -112,24 +91,26 @@ items:
   nameWithType: SelectionUnionType.SubtractRightFromLeft
   fullName: SuperOffice.Data.SelectionUnionType.SubtractRightFromLeft
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1: All of left, except where it overlaps with right\n"
+  summary: '1: All of left, except where it overlaps with right'
+  example: []
   syntax:
-    content: public const SelectionUnionType SubtractRightFromLeft
+    content: >-
+      [EnumMember]
+
+      SubtractRightFromLeft = 1
     return:
       type: SuperOffice.Data.SelectionUnionType
-    content.vb: Public Const SubtractRightFromLeft As SelectionUnionType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SubtractRightFromLeft = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.SelectionUnionType.SubtractLeftFromRight
   commentId: F:SuperOffice.Data.SelectionUnionType.SubtractLeftFromRight
   id: SubtractLeftFromRight
@@ -141,24 +122,26 @@ items:
   nameWithType: SelectionUnionType.SubtractLeftFromRight
   fullName: SuperOffice.Data.SelectionUnionType.SubtractLeftFromRight
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n2: All of right, except where it overlaps with left\n"
+  summary: '2: All of right, except where it overlaps with left'
+  example: []
   syntax:
-    content: public const SelectionUnionType SubtractLeftFromRight
+    content: >-
+      [EnumMember]
+
+      SubtractLeftFromRight = 2
     return:
       type: SuperOffice.Data.SelectionUnionType
-    content.vb: Public Const SubtractLeftFromRight As SelectionUnionType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SubtractLeftFromRight = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.SelectionUnionType.Intersect
   commentId: F:SuperOffice.Data.SelectionUnionType.Intersect
   id: Intersect
@@ -170,24 +153,26 @@ items:
   nameWithType: SelectionUnionType.Intersect
   fullName: SuperOffice.Data.SelectionUnionType.Intersect
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n3: Those present in left AND right only\n"
+  summary: '3: Those present in left AND right only'
+  example: []
   syntax:
-    content: public const SelectionUnionType Intersect
+    content: >-
+      [EnumMember]
+
+      Intersect = 3
     return:
       type: SuperOffice.Data.SelectionUnionType
-    content.vb: Public Const Intersect As SelectionUnionType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Intersect = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.SelectionUnionType.XOR
   commentId: F:SuperOffice.Data.SelectionUnionType.XOR
   id: XOR
@@ -199,24 +184,26 @@ items:
   nameWithType: SelectionUnionType.XOR
   fullName: SuperOffice.Data.SelectionUnionType.XOR
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n4: Those present in left or right, but not both\n"
+  summary: '4: Those present in left or right, but not both'
+  example: []
   syntax:
-    content: public const SelectionUnionType XOR
+    content: >-
+      [EnumMember]
+
+      XOR = 4
     return:
       type: SuperOffice.Data.SelectionUnionType
-    content.vb: Public Const XOR As SelectionUnionType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      XOR = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.SelectionUnionType.Union
   commentId: F:SuperOffice.Data.SelectionUnionType.Union
   id: Union
@@ -228,115 +215,300 @@ items:
   nameWithType: SelectionUnionType.Union
   fullName: SuperOffice.Data.SelectionUnionType.Union
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n5: All, but no duplicates for those present in left and right\n"
+  summary: '5: All, but no duplicates for those present in left and right'
+  example: []
   syntax:
-    content: public const SelectionUnionType Union
+    content: >-
+      [EnumMember]
+
+      Union = 5
     return:
       type: SuperOffice.Data.SelectionUnionType
-    content.vb: Public Const Union As SelectionUnionType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Union = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.SelectionUnionType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<SelectionUnionType, To>()
-  nameWithType: EnumUtil.MapEnums<SelectionUnionType, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.SelectionUnionType, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of SelectionUnionType, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SelectionUnionType, To)()
-  name.vb: MapEnums(Of SelectionUnionType, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<SelectionUnionType, To>(SelectionUnionType)
+  nameWithType: EnumUtil.MapEnums<SelectionUnionType, To>(SelectionUnionType)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SelectionUnionType, To>(SuperOffice.Data.SelectionUnionType)
+  nameWithType.vb: EnumUtil.MapEnums(Of SelectionUnionType, To)(SelectionUnionType)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SelectionUnionType, To)(SuperOffice.Data.SelectionUnionType)
+  name.vb: MapEnums(Of SelectionUnionType, To)(SelectionUnionType)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<SelectionUnionType, To>
-    nameWithType: EnumUtil.MapEnums<SelectionUnionType, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.SelectionUnionType, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SelectionUnionType)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.SelectionUnionType
+    name: SelectionUnionType
+    isExternal: true
+    href: SuperOffice.Data.SelectionUnionType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.SelectionUnionType
+    name: SelectionUnionType
+    isExternal: true
+    href: SuperOffice.Data.SelectionUnionType.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of SelectionUnionType, To)
-    nameWithType: EnumUtil.MapEnums(Of SelectionUnionType, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SelectionUnionType, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SelectionUnionType)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SelectionUnionType
+    name: SelectionUnionType
+    isExternal: true
+    href: SuperOffice.Data.SelectionUnionType.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.SelectionUnionType
+    name: SelectionUnionType
+    isExternal: true
+    href: SuperOffice.Data.SelectionUnionType.html
+  - name: )
 - uid: SuperOffice.Data.SelectionUnionType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<SelectionUnionType, To>()
-  nameWithType: Converters.MapEnums<SelectionUnionType, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SelectionUnionType, To>()
-  nameWithType.vb: Converters.MapEnums(Of SelectionUnionType, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SelectionUnionType, To)()
-  name.vb: MapEnums(Of SelectionUnionType, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<SelectionUnionType, To>(SelectionUnionType)
+  nameWithType: Converters.MapEnums<SelectionUnionType, To>(SelectionUnionType)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SelectionUnionType, To>(SuperOffice.Data.SelectionUnionType)
+  nameWithType.vb: Converters.MapEnums(Of SelectionUnionType, To)(SelectionUnionType)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SelectionUnionType, To)(SuperOffice.Data.SelectionUnionType)
+  name.vb: MapEnums(Of SelectionUnionType, To)(SelectionUnionType)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<SelectionUnionType, To>
-    nameWithType: Converters.MapEnums<SelectionUnionType, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SelectionUnionType, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SelectionUnionType)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.SelectionUnionType
+    name: SelectionUnionType
+    isExternal: true
+    href: SuperOffice.Data.SelectionUnionType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.SelectionUnionType
+    name: SelectionUnionType
+    isExternal: true
+    href: SuperOffice.Data.SelectionUnionType.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of SelectionUnionType, To)
-    nameWithType: Converters.MapEnums(Of SelectionUnionType, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SelectionUnionType, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SelectionUnionType)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SelectionUnionType
+    name: SelectionUnionType
+    isExternal: true
+    href: SuperOffice.Data.SelectionUnionType.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  - name: (
+  - uid: SuperOffice.Data.SelectionUnionType
+    name: SelectionUnionType
+    isExternal: true
+    href: SuperOffice.Data.SelectionUnionType.html
+  - name: )
+- uid: SuperOffice.Data.SelectionUnionType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SelectionUnionType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<SelectionUnionType>(SelectionUnionType, SelectionUnionType)
+  nameWithType: ObjectExtensions.AssignByReflection<SelectionUnionType>(SelectionUnionType, SelectionUnionType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SelectionUnionType>(SuperOffice.Data.SelectionUnionType, SuperOffice.Data.SelectionUnionType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SelectionUnionType)(SelectionUnionType, SelectionUnionType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SelectionUnionType)(SuperOffice.Data.SelectionUnionType, SuperOffice.Data.SelectionUnionType)
+  name.vb: AssignByReflection(Of SelectionUnionType)(SelectionUnionType, SelectionUnionType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SelectionUnionType,SuperOffice.Data.SelectionUnionType)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.SelectionUnionType
+    name: SelectionUnionType
+    isExternal: true
+    href: SuperOffice.Data.SelectionUnionType.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SelectionUnionType
+    name: SelectionUnionType
+    isExternal: true
+    href: SuperOffice.Data.SelectionUnionType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.SelectionUnionType
+    name: SelectionUnionType
+    isExternal: true
+    href: SuperOffice.Data.SelectionUnionType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SelectionUnionType,SuperOffice.Data.SelectionUnionType)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SelectionUnionType
+    name: SelectionUnionType
+    isExternal: true
+    href: SuperOffice.Data.SelectionUnionType.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SelectionUnionType
+    name: SelectionUnionType
+    isExternal: true
+    href: SuperOffice.Data.SelectionUnionType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.SelectionUnionType
+    name: SelectionUnionType
+    isExternal: true
+    href: SuperOffice.Data.SelectionUnionType.html
+  - name: )
+- uid: SuperOffice.Data.SelectionUnionType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<SelectionUnionType>(SelectionUnionType)
+  nameWithType: ObjectExtensions.GraphCopy<SelectionUnionType>(SelectionUnionType)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SelectionUnionType>(SuperOffice.Data.SelectionUnionType)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SelectionUnionType)(SelectionUnionType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SelectionUnionType)(SuperOffice.Data.SelectionUnionType)
+  name.vb: GraphCopy(Of SelectionUnionType)(SelectionUnionType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.SelectionUnionType)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.SelectionUnionType
+    name: SelectionUnionType
+    isExternal: true
+    href: SuperOffice.Data.SelectionUnionType.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SelectionUnionType
+    name: SelectionUnionType
+    isExternal: true
+    href: SuperOffice.Data.SelectionUnionType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.SelectionUnionType)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SelectionUnionType
+    name: SelectionUnionType
+    isExternal: true
+    href: SuperOffice.Data.SelectionUnionType.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SelectionUnionType
+    name: SelectionUnionType
+    isExternal: true
+    href: SuperOffice.Data.SelectionUnionType.html
+  - name: )
+- uid: System.Enum.EnumUtil.GetDescription
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  parent: EnumUtil
+  definition: EnumUtil.GetDescription(System.Enum)
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -345,43 +517,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -390,58 +564,222 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: EnumUtil.GetDescription(System.Enum)
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.Data.SelectionUnionType
   commentId: T:SuperOffice.Data.SelectionUnionType
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.SelectionUnionType.html
   name: SelectionUnionType
   nameWithType: SelectionUnionType
   fullName: SuperOffice.Data.SelectionUnionType

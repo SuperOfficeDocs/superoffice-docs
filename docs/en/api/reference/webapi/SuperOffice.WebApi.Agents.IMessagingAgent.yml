@@ -18,24 +18,21 @@ items:
   nameWithType: IMessagingAgent
   fullName: SuperOffice.WebApi.Agents.IMessagingAgent
   type: Interface
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSMS and other external messaging systems\n<p></p>\n<strong>Online Restricted:</strong> This agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: >-
+    SMS and other external messaging systems
+
+    <p></p>
+
+    <b>Online Restricted:</b> This agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
   syntax:
     content: 'public interface IMessagingAgent : IDisposable'
-    content.vb: >-
-      Public Interface IMessagingAgent
-          Inherits IDisposable
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+    content.vb: Public Interface IMessagingAgent Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
 - uid: SuperOffice.WebApi.Agents.IMessagingAgent.CreateMessageAsync(SuperOffice.WebApi.Data.IncomingMessage,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IMessagingAgent.CreateMessageAsync(SuperOffice.WebApi.Data.IncomingMessage,SuperOffice.WebApi.RequestOptions)
   id: CreateMessageAsync(SuperOffice.WebApi.Data.IncomingMessage,SuperOffice.WebApi.RequestOptions)
@@ -47,23 +44,28 @@ items:
   nameWithType: IMessagingAgent.CreateMessageAsync(IncomingMessage, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IMessagingAgent.CreateMessageAsync(SuperOffice.WebApi.Data.IncomingMessage, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nCreate a new message and insert it in the message queue. (inbox)\n<p></p>\n<strong>Online Restricted:</strong> The Messaging agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: >-
+    Create a new message and insert it in the message queue. (inbox)
+
+    <p></p>
+
+    <b>Online Restricted:</b> The Messaging agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
   syntax:
     content: Task CreateMessageAsync(IncomingMessage incomingMessage, RequestOptions requestOptions = null)
     parameters:
     - id: incomingMessage
       type: SuperOffice.WebApi.Data.IncomingMessage
+      description: ''
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
+      description: ''
     content.vb: Function CreateMessageAsync(incomingMessage As IncomingMessage, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IMessagingAgent.CreateMessageAsync*
 - uid: SuperOffice.WebApi.Agents.IMessagingAgent.GetDeliveryStatusAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -73,17 +75,20 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDeliveryStatusAsync(Int32[], RequestOptions)
-  nameWithType: IMessagingAgent.GetDeliveryStatusAsync(Int32[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IMessagingAgent.GetDeliveryStatusAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  name: GetDeliveryStatusAsync(int[], RequestOptions)
+  nameWithType: IMessagingAgent.GetDeliveryStatusAsync(int[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMessagingAgent.GetDeliveryStatusAsync(int[], SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet delivery status\n<p></p>\n<strong>Online Restricted:</strong> The Messaging agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: >-
+    Get delivery status
+
+    <p></p>
+
+    <b>Online Restricted:</b> The Messaging agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
   syntax:
     content: Task<MessageDeliveryStatus[]> GetDeliveryStatusAsync(int[] messagingIds, RequestOptions requestOptions = null)
     parameters:
@@ -92,14 +97,15 @@ items:
       description: Array of messaging ids.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MessageDeliveryStatus[]}
+      description: ''
     content.vb: Function GetDeliveryStatusAsync(messagingIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of MessageDeliveryStatus())
   overload: SuperOffice.WebApi.Agents.IMessagingAgent.GetDeliveryStatusAsync*
-  nameWithType.vb: IMessagingAgent.GetDeliveryStatusAsync(Int32(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IMessagingAgent.GetDeliveryStatusAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
-  name.vb: GetDeliveryStatusAsync(Int32(), RequestOptions)
+  nameWithType.vb: IMessagingAgent.GetDeliveryStatusAsync(Integer(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IMessagingAgent.GetDeliveryStatusAsync(Integer(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetDeliveryStatusAsync(Integer(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IMessagingAgent.SetDeliveryStatusAsync(System.String,System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IMessagingAgent.SetDeliveryStatusAsync(System.String,System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   id: SetDeliveryStatusAsync(System.String,System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -107,17 +113,20 @@ items:
   langs:
   - csharp
   - vb
-  name: SetDeliveryStatusAsync(String, String, Int32, String, RequestOptions)
-  nameWithType: IMessagingAgent.SetDeliveryStatusAsync(String, String, Int32, String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IMessagingAgent.SetDeliveryStatusAsync(System.String, System.String, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  name: SetDeliveryStatusAsync(string, string, int, string, RequestOptions)
+  nameWithType: IMessagingAgent.SetDeliveryStatusAsync(string, string, int, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMessagingAgent.SetDeliveryStatusAsync(string, string, int, string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSet or change the delivery status on an outgoing messsage.\n<p></p>\n<strong>Online Restricted:</strong> The Messaging agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: >-
+    Set or change the delivery status on an outgoing messsage.
+
+    <p></p>
+
+    <b>Online Restricted:</b> The Messaging agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
   syntax:
     content: Task SetDeliveryStatusAsync(string plugin, string externalMessageId, int status, string statusDescription, RequestOptions requestOptions = null)
     parameters:
@@ -135,11 +144,15 @@ items:
       description: String describing delivery status.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
+      description: ''
     content.vb: Function SetDeliveryStatusAsync(plugin As String, externalMessageId As String, status As Integer, statusDescription As String, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IMessagingAgent.SetDeliveryStatusAsync*
+  nameWithType.vb: IMessagingAgent.SetDeliveryStatusAsync(String, String, Integer, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IMessagingAgent.SetDeliveryStatusAsync(String, String, Integer, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: SetDeliveryStatusAsync(String, String, Integer, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IMessagingAgent.SendMessagesAsync(System.String,SuperOffice.WebApi.Data.OutgoingMessage[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IMessagingAgent.SendMessagesAsync(System.String,SuperOffice.WebApi.Data.OutgoingMessage[],SuperOffice.WebApi.RequestOptions)
   id: SendMessagesAsync(System.String,SuperOffice.WebApi.Data.OutgoingMessage[],SuperOffice.WebApi.RequestOptions)
@@ -147,17 +160,20 @@ items:
   langs:
   - csharp
   - vb
-  name: SendMessagesAsync(String, OutgoingMessage[], RequestOptions)
-  nameWithType: IMessagingAgent.SendMessagesAsync(String, OutgoingMessage[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IMessagingAgent.SendMessagesAsync(System.String, SuperOffice.WebApi.Data.OutgoingMessage[], SuperOffice.WebApi.RequestOptions)
+  name: SendMessagesAsync(string, OutgoingMessage[], RequestOptions)
+  nameWithType: IMessagingAgent.SendMessagesAsync(string, OutgoingMessage[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMessagingAgent.SendMessagesAsync(string, SuperOffice.WebApi.Data.OutgoingMessage[], SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSend an array of messages\n<p></p>\n<strong>Online Restricted:</strong> The Messaging agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: >-
+    Send an array of messages
+
+    <p></p>
+
+    <b>Online Restricted:</b> The Messaging agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
   syntax:
     content: Task<MessageDeliveryStatus[]> SendMessagesAsync(string plugin, OutgoingMessage[] outgoingMessages, RequestOptions requestOptions = null)
     parameters:
@@ -169,14 +185,14 @@ items:
       description: Array of outgoing messages you want to send.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MessageDeliveryStatus[]}
       description: Array of MessageDeliveryStatus. Length of the array is equal to the number of outgoing messages.
     content.vb: Function SendMessagesAsync(plugin As String, outgoingMessages As OutgoingMessage(), requestOptions As RequestOptions = Nothing) As Task(Of MessageDeliveryStatus())
   overload: SuperOffice.WebApi.Agents.IMessagingAgent.SendMessagesAsync*
   nameWithType.vb: IMessagingAgent.SendMessagesAsync(String, OutgoingMessage(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IMessagingAgent.SendMessagesAsync(System.String, SuperOffice.WebApi.Data.OutgoingMessage(), SuperOffice.WebApi.RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IMessagingAgent.SendMessagesAsync(String, SuperOffice.WebApi.Data.OutgoingMessage(), SuperOffice.WebApi.RequestOptions)
   name.vb: SendMessagesAsync(String, OutgoingMessage(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IMessagingAgent.SendMessagesWithConfigAsync(System.String,SuperOffice.WebApi.Data.OutgoingMessage[],SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IMessagingAgent.SendMessagesWithConfigAsync(System.String,SuperOffice.WebApi.Data.OutgoingMessage[],SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
@@ -185,17 +201,20 @@ items:
   langs:
   - csharp
   - vb
-  name: SendMessagesWithConfigAsync(String, OutgoingMessage[], StringDictionary, RequestOptions)
-  nameWithType: IMessagingAgent.SendMessagesWithConfigAsync(String, OutgoingMessage[], StringDictionary, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IMessagingAgent.SendMessagesWithConfigAsync(System.String, SuperOffice.WebApi.Data.OutgoingMessage[], SuperOffice.WebApi.Data.StringDictionary, SuperOffice.WebApi.RequestOptions)
+  name: SendMessagesWithConfigAsync(string, OutgoingMessage[], StringDictionary, RequestOptions)
+  nameWithType: IMessagingAgent.SendMessagesWithConfigAsync(string, OutgoingMessage[], StringDictionary, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMessagingAgent.SendMessagesWithConfigAsync(string, SuperOffice.WebApi.Data.OutgoingMessage[], SuperOffice.WebApi.Data.StringDictionary, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSend an array of messages using given config\n<p></p>\n<strong>Online Restricted:</strong> The Messaging agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: >-
+    Send an array of messages using given config
+
+    <p></p>
+
+    <b>Online Restricted:</b> The Messaging agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
   syntax:
     content: Task<MessageDeliveryStatus[]> SendMessagesWithConfigAsync(string plugin, OutgoingMessage[] outgoingMessages, StringDictionary config, RequestOptions requestOptions = null)
     parameters:
@@ -210,14 +229,14 @@ items:
       description: Config values used by the plugin.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MessageDeliveryStatus[]}
       description: Array of MessageDeliveryStatus. Length of the array is equal to the number of outgoing messages.
     content.vb: Function SendMessagesWithConfigAsync(plugin As String, outgoingMessages As OutgoingMessage(), config As StringDictionary, requestOptions As RequestOptions = Nothing) As Task(Of MessageDeliveryStatus())
   overload: SuperOffice.WebApi.Agents.IMessagingAgent.SendMessagesWithConfigAsync*
   nameWithType.vb: IMessagingAgent.SendMessagesWithConfigAsync(String, OutgoingMessage(), StringDictionary, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IMessagingAgent.SendMessagesWithConfigAsync(System.String, SuperOffice.WebApi.Data.OutgoingMessage(), SuperOffice.WebApi.Data.StringDictionary, SuperOffice.WebApi.RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IMessagingAgent.SendMessagesWithConfigAsync(String, SuperOffice.WebApi.Data.OutgoingMessage(), SuperOffice.WebApi.Data.StringDictionary, SuperOffice.WebApi.RequestOptions)
   name.vb: SendMessagesWithConfigAsync(String, OutgoingMessage(), StringDictionary, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IMessagingAgent.GetPluginsAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IMessagingAgent.GetPluginsAsync(SuperOffice.WebApi.RequestOptions)
@@ -230,33 +249,104 @@ items:
   nameWithType: IMessagingAgent.GetPluginsAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IMessagingAgent.GetPluginsAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\n\n<p></p>\n<strong>Online Restricted:</strong> The Messaging agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: >-
+    <p></p>
+
+    <b>Online Restricted:</b> The Messaging agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
   syntax:
     content: Task<ProviderInfo[]> GetPluginsAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProviderInfo[]}
+      description: ''
     content.vb: Function GetPluginsAsync(requestOptions As RequestOptions = Nothing) As Task(Of ProviderInfo())
   overload: SuperOffice.WebApi.Agents.IMessagingAgent.GetPluginsAsync*
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Agents
   nameWithType: SuperOffice.WebApi.Agents
   fullName: SuperOffice.WebApi.Agents
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.WebApi.Agents.IMessagingAgent.CreateMessageAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IMessagingAgent.CreateMessageAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IMessagingAgent.html#SuperOffice_WebApi_Agents_IMessagingAgent_CreateMessageAsync_SuperOffice_WebApi_Data_IncomingMessage_SuperOffice_WebApi_RequestOptions_
   name: CreateMessageAsync
   nameWithType: IMessagingAgent.CreateMessageAsync
   fullName: SuperOffice.WebApi.Agents.IMessagingAgent.CreateMessageAsync
@@ -264,6 +354,7 @@ references:
   commentId: T:SuperOffice.WebApi.Data.IncomingMessage
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.IncomingMessage.html
   name: IncomingMessage
   nameWithType: IncomingMessage
   fullName: SuperOffice.WebApi.Data.IncomingMessage
@@ -271,61 +362,154 @@ references:
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.WebApi.RequestOptions.html
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: SuperOffice.WebApi.RequestOptions
 - uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.WebApi.Agents.IMessagingAgent.GetDeliveryStatusAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IMessagingAgent.GetDeliveryStatusAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IMessagingAgent.html#SuperOffice_WebApi_Agents_IMessagingAgent_GetDeliveryStatusAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
   name: GetDeliveryStatusAsync
   nameWithType: IMessagingAgent.GetDeliveryStatusAsync
   fullName: SuperOffice.WebApi.Agents.IMessagingAgent.GetDeliveryStatusAsync
 - uid: System.Int32[]
   isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
   spec.csharp:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MessageDeliveryStatus[]}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MessageDeliveryStatus[]}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MessageDeliveryStatus[]}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<MessageDeliveryStatus[]>
   nameWithType: Task<MessageDeliveryStatus[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.MessageDeliveryStatus[]>
@@ -335,84 +519,63 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.MessageDeliveryStatus
     name: MessageDeliveryStatus
-    nameWithType: MessageDeliveryStatus
-    fullName: SuperOffice.WebApi.Data.MessageDeliveryStatus
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.MessageDeliveryStatus.html
+  - name: '['
+  - name: ']'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.MessageDeliveryStatus
     name: MessageDeliveryStatus
-    nameWithType: MessageDeliveryStatus
-    fullName: SuperOffice.WebApi.Data.MessageDeliveryStatus
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.MessageDeliveryStatus.html
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: Task<>
-  nameWithType: Task<>
-  fullName: System.Threading.Tasks.Task<>
-  nameWithType.vb: Task(Of )
-  fullName.vb: System.Threading.Tasks.Task(Of )
-  name.vb: Task(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.IMessagingAgent.SetDeliveryStatusAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IMessagingAgent.SetDeliveryStatusAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IMessagingAgent.html#SuperOffice_WebApi_Agents_IMessagingAgent_SetDeliveryStatusAsync_System_String_System_String_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
   name: SetDeliveryStatusAsync
   nameWithType: IMessagingAgent.SetDeliveryStatusAsync
   fullName: SuperOffice.WebApi.Agents.IMessagingAgent.SetDeliveryStatusAsync
@@ -420,30 +583,34 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.WebApi.Agents.IMessagingAgent.SendMessagesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IMessagingAgent.SendMessagesAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IMessagingAgent.html#SuperOffice_WebApi_Agents_IMessagingAgent_SendMessagesAsync_System_String_SuperOffice_WebApi_Data_OutgoingMessage___SuperOffice_WebApi_RequestOptions_
   name: SendMessagesAsync
   nameWithType: IMessagingAgent.SendMessagesAsync
   fullName: SuperOffice.WebApi.Agents.IMessagingAgent.SendMessagesAsync
 - uid: SuperOffice.WebApi.Data.OutgoingMessage[]
   isExternal: true
+  href: SuperOffice.WebApi.Data.OutgoingMessage.html
   name: OutgoingMessage[]
   nameWithType: OutgoingMessage[]
   fullName: SuperOffice.WebApi.Data.OutgoingMessage[]
@@ -453,24 +620,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.OutgoingMessage
     name: OutgoingMessage
-    nameWithType: OutgoingMessage
-    fullName: SuperOffice.WebApi.Data.OutgoingMessage
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.OutgoingMessage.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.OutgoingMessage
     name: OutgoingMessage
-    nameWithType: OutgoingMessage
-    fullName: SuperOffice.WebApi.Data.OutgoingMessage
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.OutgoingMessage.html
+  - name: (
+  - name: )
 - uid: SuperOffice.WebApi.Agents.IMessagingAgent.SendMessagesWithConfigAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IMessagingAgent.SendMessagesWithConfigAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IMessagingAgent.html#SuperOffice_WebApi_Agents_IMessagingAgent_SendMessagesWithConfigAsync_System_String_SuperOffice_WebApi_Data_OutgoingMessage___SuperOffice_WebApi_Data_StringDictionary_SuperOffice_WebApi_RequestOptions_
   name: SendMessagesWithConfigAsync
   nameWithType: IMessagingAgent.SendMessagesWithConfigAsync
   fullName: SuperOffice.WebApi.Agents.IMessagingAgent.SendMessagesWithConfigAsync
@@ -478,18 +642,22 @@ references:
   commentId: T:SuperOffice.WebApi.Data.StringDictionary
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.StringDictionary.html
   name: StringDictionary
   nameWithType: StringDictionary
   fullName: SuperOffice.WebApi.Data.StringDictionary
 - uid: SuperOffice.WebApi.Agents.IMessagingAgent.GetPluginsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IMessagingAgent.GetPluginsAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IMessagingAgent.html#SuperOffice_WebApi_Agents_IMessagingAgent_GetPluginsAsync_SuperOffice_WebApi_RequestOptions_
   name: GetPluginsAsync
   nameWithType: IMessagingAgent.GetPluginsAsync
   fullName: SuperOffice.WebApi.Agents.IMessagingAgent.GetPluginsAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProviderInfo[]}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProviderInfo[]}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProviderInfo[]}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<ProviderInfo[]>
   nameWithType: Task<ProviderInfo[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ProviderInfo[]>
@@ -499,40 +667,28 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.ProviderInfo
     name: ProviderInfo
-    nameWithType: ProviderInfo
-    fullName: SuperOffice.WebApi.Data.ProviderInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.ProviderInfo.html
+  - name: '['
+  - name: ']'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.ProviderInfo
     name: ProviderInfo
-    nameWithType: ProviderInfo
-    fullName: SuperOffice.WebApi.Data.ProviderInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.ProviderInfo.html
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )

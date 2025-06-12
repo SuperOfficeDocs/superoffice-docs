@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 324,
-  "IncludeNonInlineAttachmentsInfo": true
+  "TicketMessageEntityId": 874,
+  "IncludeNonInlineAttachmentsInfo": false
 }
 ```
 
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 398,
+  "EjMessageId": 545,
   "Ticket": null,
-  "CreatedAt": "2007-01-15T16:32:40.1645256+01:00",
+  "CreatedAt": "2019-08-12T17:54:03.7264456+02:00",
   "CreatedBy": null,
-  "Author": "eligendi",
+  "Author": "ut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "voluptatem",
-  "TimeSpent": 449,
-  "Body": "sed",
-  "HtmlBody": "laboriosam",
-  "EmailHeader": "alvera.renner@manncartwright.ca",
-  "DebugInfo": "non",
-  "MailSorter": "nostrum",
+  "MessageId": "nobis",
+  "TimeSpent": 366,
+  "Body": "voluptas",
+  "HtmlBody": "quia",
+  "EmailHeader": "willy@wehner.co.uk",
+  "DebugInfo": "sunt",
+  "MailSorter": "neque",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ipsum",
+  "SearchTitle": "sint",
   "MessageHeaders": [
     {
-      "Id": 496,
-      "Name": "Kilback, Ziemann and Spinka",
-      "Value": "aut",
+      "Id": 696,
+      "Name": "McKenzie-Zemlak",
+      "Value": "sunt",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,50 +144,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 578
+          "FieldLength": 496
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "cupiditate",
-  "Sentiment": 401,
-  "SentimentConfidence": 389,
+  "Important": true,
+  "Language": "at",
+  "Sentiment": 939,
+  "SentimentConfidence": 49,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 578,
-      "Name": "Murazik LLC",
-      "ContentType": "ut",
-      "AttSize": 723,
+      "AttachmentId": 71,
+      "Name": "Muller-McClure",
+      "ContentType": "iure",
+      "AttSize": 612,
       "InlineImage": true,
-      "ContentId": "laborum",
-      "AuthKey": "ut",
+      "ContentId": "architecto",
+      "AuthKey": "et",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 827
+          "FieldType": "System.Int32",
+          "FieldLength": 892
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "non"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "nemo"
   },
   "CustomFields": {
-    "CustomFields1": "neque",
-    "CustomFields2": "fugiat"
+    "CustomFields1": "et",
+    "CustomFields2": "aliquam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 823
+      "FieldType": "System.Int32",
+      "FieldLength": 609
     }
   }
 }

@@ -28,7 +28,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=966
+POST /api/v1/Agents/User/GetUser?userId=446
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/User/GetUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,14 +103,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 290,
-  "Name": "Hermann-Bogisich",
-  "Rank": 227,
-  "Tooltip": "consequatur",
+  "AssociateId": 897,
+  "Name": "Goyette LLC",
+  "Rank": 549,
+  "Tooltip": "eos",
   "LicenseOwners": [
     {
-      "Name": "Marks Inc and Sons",
-      "Description": "Multi-layered secondary open architecture",
+      "Name": "Doyle-Romaguera",
+      "Description": "Fundamental system-worthy collaboration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -124,13 +124,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 674
+          "FieldLength": 275
         }
       }
     },
     {
-      "Name": "Marks Inc and Sons",
-      "Description": "Multi-layered secondary open architecture",
+      "Name": "Doyle-Romaguera",
+      "Description": "Fundamental system-worthy collaboration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 674
+          "FieldLength": 275
         }
       }
     }
@@ -153,104 +153,48 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "natus",
-      "Tooltip": "repudiandae",
-      "Id": 743,
-      "Rank": 204,
+      "Value": "aliquam",
+      "Tooltip": "repellat",
+      "Id": 778,
+      "Rank": 659,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 269
+          "FieldType": "System.Int32",
+          "FieldLength": 506
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2023-03-13T16:32:40.4613345+01:00",
-  "Lastlogout": "2007-01-07T16:32:40.4613345+01:00",
-  "EjUserId": 10,
-  "RequestSignature": "sed",
+  "Lastlogin": "2002-05-14T17:54:03.8826694+02:00",
+  "Lastlogout": "2007-05-12T17:54:03.8826694+02:00",
+  "EjUserId": 363,
+  "RequestSignature": "repellat",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "impedit",
+      "Value": "consequatur",
       "DisplayValue": "hic",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 879
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "impedit",
-      "DisplayValue": "hic",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 879
-        }
-      }
-    }
-  ],
-  "UserName": "Brown LLC",
-  "TicketCategories": [
-    {
-      "Id": 980,
-      "Name": "Larson Inc and Sons",
-      "ToolTip": "Unde sunt.",
-      "Deleted": true,
-      "Rank": 978,
-      "Type": "culpa",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "dolorum",
-      "ColorBlock": 476,
-      "ExtraInfo": "laborum",
-      "StyleHint": "asperiores",
-      "FullName": "Roosevelt Schmidt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 720
+          "FieldLength": 321
         }
       }
-    }
-  ],
-  "NickName": "Herman, Schiller and Labadie",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "animi",
-    "ExtraFields2": "et"
-  },
-  "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "aut"
-  },
-  "PostSaveCommands": [
+    },
     {
-      "Name": "Rath Group",
-      "DisplayName": "Harber LLC",
-      "Description": "Optimized composite access",
-      "ToolTip": "Ad ipsam vero velit blanditiis voluptatem nobis.",
-      "Actions": "Implicit",
-      "ActionData": "ut",
+      "Type": null,
+      "Value": "consequatur",
+      "DisplayValue": "hic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -261,12 +205,68 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
+  "UserName": "Kiehn-Jacobi",
+  "TicketCategories": [
+    {
+      "Id": 767,
+      "Name": "Conroy-Doyle",
+      "ToolTip": "Debitis reiciendis aliquam dolorem dignissimos quam et distinctio.",
+      "Deleted": false,
+      "Rank": 277,
+      "Type": "autem",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "nam",
+      "ColorBlock": 702,
+      "ExtraInfo": "commodi",
+      "StyleHint": "repellat",
+      "FullName": "Mrs. Eudora Miles Turcotte V",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 918
+        }
+      }
+    }
+  ],
+  "NickName": "Oberbrunner, Cartwright and Veum",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "hic",
+    "ExtraFields2": "sequi"
+  },
+  "CustomFields": {
+    "CustomFields1": "illum",
+    "CustomFields2": "in"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Balistreri, Gulgowski and Oberbrunner",
+      "DisplayName": "Jacobi-Terry",
+      "Description": "Intuitive web-enabled secured line",
+      "ToolTip": "Rerum et in.",
+      "Actions": "Implicit",
+      "ActionData": "aspernatur",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 387
+        }
+      }
+    }
+  ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 231
+      "FieldType": "System.String",
+      "FieldLength": 321
     }
   }
 }

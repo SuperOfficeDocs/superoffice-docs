@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 83,
+  "EjMessageId": 150,
   "Ticket": null,
-  "CreatedAt": "2002-11-26T16:32:40.3832248+01:00",
+  "CreatedAt": "2010-07-03T17:54:03.8357967+02:00",
   "CreatedBy": null,
-  "Author": "qui",
+  "Author": "culpa",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "qui",
-  "TimeSpent": 184,
-  "Body": "adipisci",
-  "HtmlBody": "praesentium",
-  "EmailHeader": "sylvan.zemlak@schimmel.ca",
-  "DebugInfo": "necessitatibus",
-  "MailSorter": "inventore",
+  "MessageId": "enim",
+  "TimeSpent": 329,
+  "Body": "ipsam",
+  "HtmlBody": "culpa",
+  "EmailHeader": "nelda@jerdedoyle.uk",
+  "DebugInfo": "commodi",
+  "MailSorter": "modi",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "sed",
+  "SearchTitle": "aut",
   "MessageHeaders": [
     {
-      "Id": 91,
-      "Name": "Franecki, Simonis and Roob",
-      "Value": "iure",
+      "Id": 607,
+      "Name": "Weimann Group",
+      "Value": "itaque",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,50 +144,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 236
+          "FieldLength": 120
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "sed",
-  "Sentiment": 237,
-  "SentimentConfidence": 925,
+  "Important": true,
+  "Language": "hic",
+  "Sentiment": 462,
+  "SentimentConfidence": 464,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 716,
-      "Name": "Schmitt-Rutherford",
-      "ContentType": "et",
-      "AttSize": 344,
-      "InlineImage": true,
-      "ContentId": "molestiae",
-      "AuthKey": "minima",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 480,
+      "Name": "Anderson-Gaylord",
+      "ContentType": "voluptatum",
+      "AttSize": 796,
+      "InlineImage": false,
+      "ContentId": "fuga",
+      "AuthKey": "cupiditate",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 999
+          "FieldType": "System.String",
+          "FieldLength": 829
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dignissimos",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "commodi",
+    "ExtraFields2": "eius"
   },
   "CustomFields": {
-    "CustomFields1": "dignissimos",
-    "CustomFields2": "quos"
+    "CustomFields1": "asperiores",
+    "CustomFields2": "nobis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 702
+      "FieldType": "System.String",
+      "FieldLength": 471
     }
   }
 }

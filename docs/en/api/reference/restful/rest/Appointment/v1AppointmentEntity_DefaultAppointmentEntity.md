@@ -116,7 +116,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -124,128 +124,128 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 17 Nov 2018 16:32:46 G11T
+Last-Modified: Mon, 05 Feb 2007 17:54:07 G2T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2020-10-30T16:32:46.9930655+01:00",
-  "AppointmentId": 196,
-  "Description": "Profit-focused value-added budgetary management",
-  "Title": "voluptas",
-  "Agenda": "blanditiis",
-  "InternalNotes": "cum",
-  "StartDate": "2002-03-11T16:32:46.9930655+01:00",
-  "EndDate": "2004-05-06T16:32:46.9930655+02:00",
+  "CreatedDate": "1998-02-24T17:54:07.9137227+01:00",
+  "AppointmentId": 277,
+  "Description": "Total static open architecture",
+  "Title": "occaecati",
+  "Agenda": "ipsam",
+  "InternalNotes": "voluptas",
+  "StartDate": "2016-06-09T17:54:07.9137227+02:00",
+  "EndDate": "2006-12-12T17:54:07.9137227+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 685,
+  "MotherId": 11,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2018-11-17T16:32:46.9930655+01:00",
+  "UpdatedDate": "2007-02-05T17:54:07.9137227+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 834,
+  "ActiveLinks": 726,
   "Links": [
     {
-      "EntityName": "Rempel Group",
-      "Id": 356,
-      "Description": "Robust transitional open system",
-      "ExtraInfo": "quae",
-      "LinkId": 998,
+      "EntityName": "Lynch, Bayer and Miller",
+      "Id": 562,
+      "Description": "Reactive bi-directional definition",
+      "ExtraInfo": "neque",
+      "LinkId": 51,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 873
+          "FieldType": "System.Int32",
+          "FieldLength": 54
         }
       }
     }
   ],
-  "AlarmLeadTime": "sequi",
-  "HasAlarm": false,
-  "ColorIndex": 671,
-  "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "consequatur",
-  "LeadTime": "omnis",
-  "Location": "ut",
-  "RejectCounter": 642,
+  "AlarmLeadTime": "praesentium",
+  "HasAlarm": true,
+  "ColorIndex": 652,
+  "IsFree": true,
+  "IsAlldayEvent": true,
+  "LagTime": "quia",
+  "LeadTime": "eum",
+  "Location": "et",
+  "RejectCounter": 493,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 739,
-      "PersonId": 619,
-      "ContactId": 859,
-      "EmailId": 274,
+      "AssociateId": 753,
+      "PersonId": 502,
+      "ContactId": 494,
+      "EmailId": 768,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "nelle.bruen@lindveum.uk",
-      "Description": "Front-line mobile leverage"
+      "EmailAddress": "victoria_cole@kubrodriguez.us",
+      "Description": "Distributed fresh-thinking internet solution"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2008-09-07T16:32:46.9930655+02:00",
+  "ActiveDate": "2023-10-04T17:54:07.9137227+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 814,
+  "PreferredTZLocation": 579,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 265,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 149,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quos",
+  "CentralserviceVideomeetId": "id",
   "UserDefinedFields": {
-    "SuperOffice:1": "1674127546",
-    "SuperOffice:2": "Eliane Wilderman"
+    "SuperOffice:1": "1172088199",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "incidunt",
-    "ExtraFields2": "non"
+    "ExtraFields1": "velit",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "ducimus"
+    "CustomFields1": "esse",
+    "CustomFields2": "nulla"
   },
-  "PublishEventDate": "1999-07-14T16:32:46.9930655+02:00",
-  "PublishTo": "2018-10-25T16:32:46.9930655+02:00",
-  "PublishFrom": "2009-02-18T16:32:46.9930655+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2004-10-14T17:54:07.9137227+02:00",
+  "PublishTo": "2020-03-13T17:54:07.9137227+01:00",
+  "PublishFrom": "2017-08-23T17:54:07.9137227+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 47,
+      "VisibleId": 387,
       "Visibility": "All",
-      "DisplayValue": "beatae",
+      "DisplayValue": "distinctio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 566
+          "FieldLength": 18
         }
       }
     },
     {
-      "VisibleId": 47,
+      "VisibleId": 387,
       "Visibility": "All",
-      "DisplayValue": "beatae",
+      "DisplayValue": "distinctio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 566
+          "FieldLength": 18
         }
       }
     }
@@ -255,7 +255,7 @@ Last-Modified: Sat, 17 Nov 2018 16:32:46 G11T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 587
+      "FieldLength": 675
     }
   }
 }

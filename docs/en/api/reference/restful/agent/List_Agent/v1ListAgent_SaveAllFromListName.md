@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Mante, Schroeder and Goyette",
+  "UdListDefinitionName": "Hickle Inc and Sons",
   "Items": [
     {
-      "Id": 663,
-      "Name": "Mertz, Russel and Funk",
-      "Tooltip": "consequatur",
+      "Id": 457,
+      "Name": "Fritsch-Kerluke",
+      "Tooltip": "id",
       "Deleted": false,
-      "UdListDefinitionId": 731,
-      "Rank": 659
+      "UdListDefinitionId": 152,
+      "Rank": 694
     },
     {
-      "Id": 663,
-      "Name": "Mertz, Russel and Funk",
-      "Tooltip": "consequatur",
+      "Id": 457,
+      "Name": "Fritsch-Kerluke",
+      "Tooltip": "id",
       "Deleted": false,
-      "UdListDefinitionId": 731,
-      "Rank": 659
+      "UdListDefinitionId": 152,
+      "Rank": 694
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 269,
-    "Name": "Sauer, Kilback and Conn",
-    "Tooltip": "officia",
+    "Id": 276,
+    "Name": "Runolfsdottir, Purdy and Mueller",
+    "Tooltip": "itaque",
     "Deleted": false,
-    "UdListDefinitionId": 316,
-    "Rank": 749,
+    "UdListDefinitionId": 139,
+    "Rank": 295,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 208
+        "FieldType": "System.String",
+        "FieldLength": 966
       }
     }
   }

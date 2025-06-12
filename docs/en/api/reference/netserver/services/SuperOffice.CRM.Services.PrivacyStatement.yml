@@ -18,26 +18,33 @@ items:
   nameWithType: PrivacyStatement
   fullName: SuperOffice.CRM.Services.PrivacyStatement
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCarrier object for PrivacyStatement.\nServices for the PrivacyStatement Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IListAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Carrier object for PrivacyStatement.
+
+    Services for the PrivacyStatement Carrier is available from the <xref href="SuperOffice.CRM.Services.IListAgent?text=List+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class PrivacyStatement : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class PrivacyStatement : Carrier
     content.vb: >-
-      Public Class PrivacyStatement
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class PrivacyStatement Inherits Carrier
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.PrivacyStatement.#ctor
   commentId: M:SuperOffice.CRM.Services.PrivacyStatement.#ctor
   id: '#ctor'
@@ -49,21 +56,18 @@ items:
   nameWithType: PrivacyStatement.PrivacyStatement()
   fullName: SuperOffice.CRM.Services.PrivacyStatement.PrivacyStatement()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public PrivacyStatement()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.PrivacyStatement.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: PrivacyStatement.New()
+  fullName.vb: SuperOffice.CRM.Services.PrivacyStatement.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.PrivacyStatement.ToString
   commentId: M:SuperOffice.CRM.Services.PrivacyStatement.ToString
   id: ToString
@@ -75,26 +79,18 @@ items:
   nameWithType: PrivacyStatement.ToString()
   fullName: SuperOffice.CRM.Services.PrivacyStatement.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.PrivacyStatement.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.PrivacyStatement.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.PrivacyStatement.ToString(System.String)
   id: ToString(System.String)
@@ -102,17 +98,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: PrivacyStatement.ToString(String)
-  fullName: SuperOffice.CRM.Services.PrivacyStatement.ToString(System.String)
+  name: ToString(string)
+  nameWithType: PrivacyStatement.ToString(string)
+  fullName: SuperOffice.CRM.Services.PrivacyStatement.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -124,10 +121,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.PrivacyStatement.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: PrivacyStatement.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.PrivacyStatement.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.PrivacyStatement.PrivacyStatementId
   commentId: P:SuperOffice.CRM.Services.PrivacyStatement.PrivacyStatementId
   id: PrivacyStatementId
@@ -139,28 +135,28 @@ items:
   nameWithType: PrivacyStatement.PrivacyStatementId
   fullName: SuperOffice.CRM.Services.PrivacyStatement.PrivacyStatementId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
-    content: public virtual int PrivacyStatementId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int PrivacyStatementId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property PrivacyStatementId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PrivacyStatementId As Integer
   overload: SuperOffice.CRM.Services.PrivacyStatement.PrivacyStatementId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.PrivacyStatement.Name
   commentId: P:SuperOffice.CRM.Services.PrivacyStatement.Name
   id: Name
@@ -172,28 +168,28 @@ items:
   nameWithType: PrivacyStatement.Name
   fullName: SuperOffice.CRM.Services.PrivacyStatement.Name
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nName of privacy statement \n"
+  summary: Name of privacy statement
+  example: []
   syntax:
-    content: public virtual string Name { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Name As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Name As String
   overload: SuperOffice.CRM.Services.PrivacyStatement.Name*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.PrivacyStatement.Description
   commentId: P:SuperOffice.CRM.Services.PrivacyStatement.Description
   id: Description
@@ -205,44 +201,106 @@ items:
   nameWithType: PrivacyStatement.Description
   fullName: SuperOffice.CRM.Services.PrivacyStatement.Description
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDescription of privacy statement \n"
+  summary: Description of privacy statement
+  example: []
   syntax:
-    content: public virtual string Description { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Description { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Description As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Description As String
   overload: SuperOffice.CRM.Services.PrivacyStatement.Description*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
+- uid: SuperOffice.CRM.Services.IListAgent
+  commentId: T:SuperOffice.CRM.Services.IListAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IListAgent.html
+  name: IListAgent
+  nameWithType: IListAgent
+  fullName: SuperOffice.CRM.Services.IListAgent
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.PrivacyStatement.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.PrivacyStatement.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.PrivacyStatement.html#SuperOffice_CRM_Services_PrivacyStatement__ctor
   name: PrivacyStatement
   nameWithType: PrivacyStatement.PrivacyStatement
   fullName: SuperOffice.CRM.Services.PrivacyStatement.PrivacyStatement
+  nameWithType.vb: PrivacyStatement.New
+  fullName.vb: SuperOffice.CRM.Services.PrivacyStatement.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.PrivacyStatement.ToString*
   commentId: Overload:SuperOffice.CRM.Services.PrivacyStatement.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.PrivacyStatement.html#SuperOffice_CRM_Services_PrivacyStatement_ToString
   name: ToString
   nameWithType: PrivacyStatement.ToString
   fullName: SuperOffice.CRM.Services.PrivacyStatement.ToString
@@ -250,18 +308,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.PrivacyStatement.PrivacyStatementId*
   commentId: Overload:SuperOffice.CRM.Services.PrivacyStatement.PrivacyStatementId
   isExternal: true
+  href: SuperOffice.CRM.Services.PrivacyStatement.html#SuperOffice_CRM_Services_PrivacyStatement_PrivacyStatementId
   name: PrivacyStatementId
   nameWithType: PrivacyStatement.PrivacyStatementId
   fullName: SuperOffice.CRM.Services.PrivacyStatement.PrivacyStatementId
@@ -269,18 +326,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.PrivacyStatement.Name*
   commentId: Overload:SuperOffice.CRM.Services.PrivacyStatement.Name
   isExternal: true
+  href: SuperOffice.CRM.Services.PrivacyStatement.html#SuperOffice_CRM_Services_PrivacyStatement_Name
   name: Name
   nameWithType: PrivacyStatement.Name
   fullName: SuperOffice.CRM.Services.PrivacyStatement.Name
 - uid: SuperOffice.CRM.Services.PrivacyStatement.Description*
   commentId: Overload:SuperOffice.CRM.Services.PrivacyStatement.Description
   isExternal: true
+  href: SuperOffice.CRM.Services.PrivacyStatement.html#SuperOffice_CRM_Services_PrivacyStatement_Description
   name: Description
   nameWithType: PrivacyStatement.Description
   fullName: SuperOffice.CRM.Services.PrivacyStatement.Description

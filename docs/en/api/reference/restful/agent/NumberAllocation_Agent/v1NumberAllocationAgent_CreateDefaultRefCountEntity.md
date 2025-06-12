@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 333,
-  "Field": "est",
-  "RecordId": 157,
+  "RefCountsId": 603,
+  "Field": "qui",
+  "RecordId": 229,
   "SuggestedRecords": [
     {
-      "Id": 951,
-      "Name": "Armstrong Group",
-      "ToolTip": "At architecto cupiditate libero perspiciatis quam accusamus.",
+      "Id": 639,
+      "Name": "Graham, Treutel and Schneider",
+      "ToolTip": "Odio non reiciendis voluptas voluptates voluptatem facere.",
       "Deleted": false,
-      "Rank": 15,
-      "Type": "facere",
+      "Rank": 222,
+      "Type": "ut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "corrupti",
-      "ColorBlock": 494,
-      "ExtraInfo": "et",
-      "StyleHint": "nihil",
-      "FullName": "Emil Dooley",
+      "IconHint": "distinctio",
+      "ColorBlock": 634,
+      "ExtraInfo": "dolores",
+      "StyleHint": "porro",
+      "FullName": "Zola Strosin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 722
+          "FieldType": "System.Int32",
+          "FieldLength": 814
         }
       }
     }
   ],
-  "CurrentValue": 990,
-  "TravelPrefix": 132,
-  "SatPrefix": 17,
+  "CurrentValue": 500,
+  "TravelPrefix": 508,
+  "SatPrefix": 631,
   "Allocate": false,
-  "Unique": false,
+  "Unique": true,
   "ReadOnly": true,
-  "AllowBlank": true,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 782
+      "FieldType": "System.Int32",
+      "FieldLength": 936
     }
   }
 }

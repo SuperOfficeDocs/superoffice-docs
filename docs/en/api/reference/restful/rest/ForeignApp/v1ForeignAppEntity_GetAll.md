@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ForeignApp?$select=name,department,category/id
 GET /api/v1/ForeignApp?$filter=name begins 'S'
 GET /api/v1/ForeignApp?$orderBy=name asc
-GET /api/v1/ForeignApp?$entities=deleniti
-GET /api/v1/ForeignApp?$top=309
-GET /api/v1/ForeignApp?$skip=518
+GET /api/v1/ForeignApp?$entities=similique
+GET /api/v1/ForeignApp?$top=994
+GET /api/v1/ForeignApp?$skip=570
 GET /api/v1/ForeignApp?$mode=Full
 GET /api/v1/ForeignApp?$options=GrandTotal=true
-GET /api/v1/ForeignApp?$context=mollitia
+GET /api/v1/ForeignApp?$context=ratione
 GET /api/v1/ForeignApp?$format=JSON
 GET /api/v1/ForeignApp?$jsonSafe=False
 GET /api/v1/ForeignApp?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "officia",
+  "odata.nextLink": "blanditiis",
   "value": [
     {
-      "PrimaryKey": 8196,
-      "EntityName": "person",
-      "personId": 8196,
-      "fullName": "Vaughn Muller"
+      "PrimaryKey": 8792,
+      "EntityName": "sale",
+      "saleId": 8792,
+      "contactId": 5514,
+      "name": "Schmitt-Kerluke"
     },
     {
-      "PrimaryKey": 6707,
-      "EntityName": "person",
-      "personId": 6707,
-      "fullName": "Josiane Schaden"
+      "PrimaryKey": 3201,
+      "EntityName": "sale",
+      "saleId": 3201,
+      "contactId": 2533,
+      "name": "Lueilwitz-Ruecker"
     }
   ]
 }

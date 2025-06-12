@@ -12,7 +12,6 @@ items:
   - SuperOffice.Data.ChatTopicFlag.PopupAlert
   - SuperOffice.Data.ChatTopicFlag.UseCustomQueueMessage
   - SuperOffice.Data.ChatTopicFlag.UseQueueOfflineForm
-  - SuperOffice.Data.ChatTopicFlag.value__
   - SuperOffice.Data.ChatTopicFlag.WidgetSizeLarge
   langs:
   - csharp
@@ -20,60 +19,36 @@ items:
   name: ChatTopicFlag
   nameWithType: ChatTopicFlag
   fullName: SuperOffice.Data.ChatTopicFlag
-  type: Class
-  source:
-    path: SoCore
-    isExternal: true
+  type: Enum
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\nChat Topic flags\nThis Enum is used by:  chat_topic.flags\nThis Enum consists of flag values that can be combined.\n"
-  syntax:
-    content: 'public sealed class ChatTopicFlag : Enum'
-    content.vb: >-
-      Public NotInheritable Class ChatTopicFlag
-          Inherits
+  summary: >-
+    Chat Topic flags
 
-           Enum
-  inheritance:
-  - System.Object
+    This Enum is used by:  chat_topic.flags
+
+    This Enum consists of flag values that can be combined.
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum ChatTopicFlag
+    content.vb: >-
+      <Flags>
+
+      Public Enum ChatTopicFlag
   extensionMethods:
   - SuperOffice.Data.ChatTopicFlag.EnumUtil.MapEnums``2
   - SuperOffice.Data.ChatTopicFlag.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.Data.ChatTopicFlag.value__
-  commentId: F:SuperOffice.Data.ChatTopicFlag.value__
-  id: value__
-  parent: SuperOffice.Data.ChatTopicFlag
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: ChatTopicFlag.value__
-  fullName: SuperOffice.Data.ChatTopicFlag.value__
-  type: Field
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.Data.ChatTopicFlag.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ChatTopicFlag)
+  - SuperOffice.Data.ChatTopicFlag.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - System.Enum.EnumUtil.GetDescription
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ChatTopicFlag.None
   commentId: F:SuperOffice.Data.ChatTopicFlag.None
   id: None
@@ -85,24 +60,15 @@ items:
   nameWithType: ChatTopicFlag.None
   fullName: SuperOffice.Data.ChatTopicFlag.None
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n0: Nothing\n"
+  summary: '0: Nothing'
+  example: []
   syntax:
-    content: public const ChatTopicFlag None
+    content: None = 0
     return:
       type: SuperOffice.Data.ChatTopicFlag
-    content.vb: Public Const None As ChatTopicFlag
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ChatTopicFlag.PopupAlert
   commentId: F:SuperOffice.Data.ChatTopicFlag.PopupAlert
   id: PopupAlert
@@ -114,24 +80,15 @@ items:
   nameWithType: ChatTopicFlag.PopupAlert
   fullName: SuperOffice.Data.ChatTopicFlag.PopupAlert
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1: Alert using Popup\n"
+  summary: '1: Alert using Popup'
+  example: []
   syntax:
-    content: public const ChatTopicFlag PopupAlert
+    content: PopupAlert = 1
     return:
       type: SuperOffice.Data.ChatTopicFlag
-    content.vb: Public Const PopupAlert As ChatTopicFlag
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ChatTopicFlag.EmailAlert
   commentId: F:SuperOffice.Data.ChatTopicFlag.EmailAlert
   id: EmailAlert
@@ -143,24 +100,15 @@ items:
   nameWithType: ChatTopicFlag.EmailAlert
   fullName: SuperOffice.Data.ChatTopicFlag.EmailAlert
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n2: Alert using E-mail\n"
+  summary: '2: Alert using E-mail'
+  example: []
   syntax:
-    content: public const ChatTopicFlag EmailAlert
+    content: EmailAlert = 2
     return:
       type: SuperOffice.Data.ChatTopicFlag
-    content.vb: Public Const EmailAlert As ChatTopicFlag
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ChatTopicFlag.CollectConsent
   commentId: F:SuperOffice.Data.ChatTopicFlag.CollectConsent
   id: CollectConsent
@@ -172,24 +120,15 @@ items:
   nameWithType: ChatTopicFlag.CollectConsent
   fullName: SuperOffice.Data.ChatTopicFlag.CollectConsent
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n4: Collect GDPR consent before chat\n"
+  summary: '4: Collect GDPR consent before chat'
+  example: []
   syntax:
-    content: public const ChatTopicFlag CollectConsent
+    content: CollectConsent = 4
     return:
       type: SuperOffice.Data.ChatTopicFlag
-    content.vb: Public Const CollectConsent As ChatTopicFlag
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ChatTopicFlag.UseCustomQueueMessage
   commentId: F:SuperOffice.Data.ChatTopicFlag.UseCustomQueueMessage
   id: UseCustomQueueMessage
@@ -201,24 +140,15 @@ items:
   nameWithType: ChatTopicFlag.UseCustomQueueMessage
   fullName: SuperOffice.Data.ChatTopicFlag.UseCustomQueueMessage
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n8: Use custom queue message\n"
+  summary: '8: Use custom queue message'
+  example: []
   syntax:
-    content: public const ChatTopicFlag UseCustomQueueMessage
+    content: UseCustomQueueMessage = 8
     return:
       type: SuperOffice.Data.ChatTopicFlag
-    content.vb: Public Const UseCustomQueueMessage As ChatTopicFlag
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ChatTopicFlag.WidgetSizeLarge
   commentId: F:SuperOffice.Data.ChatTopicFlag.WidgetSizeLarge
   id: WidgetSizeLarge
@@ -230,24 +160,15 @@ items:
   nameWithType: ChatTopicFlag.WidgetSizeLarge
   fullName: SuperOffice.Data.ChatTopicFlag.WidgetSizeLarge
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n16: Show large widget\n"
+  summary: '16: Show large widget'
+  example: []
   syntax:
-    content: public const ChatTopicFlag WidgetSizeLarge
+    content: WidgetSizeLarge = 16
     return:
       type: SuperOffice.Data.ChatTopicFlag
-    content.vb: Public Const WidgetSizeLarge As ChatTopicFlag
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ChatTopicFlag.OfflineCollectConsent
   commentId: F:SuperOffice.Data.ChatTopicFlag.OfflineCollectConsent
   id: OfflineCollectConsent
@@ -259,24 +180,15 @@ items:
   nameWithType: ChatTopicFlag.OfflineCollectConsent
   fullName: SuperOffice.Data.ChatTopicFlag.OfflineCollectConsent
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n32: Collect GDPR consent on offline chat form\n"
+  summary: '32: Collect GDPR consent on offline chat form'
+  example: []
   syntax:
-    content: public const ChatTopicFlag OfflineCollectConsent
+    content: OfflineCollectConsent = 32
     return:
       type: SuperOffice.Data.ChatTopicFlag
-    content.vb: Public Const OfflineCollectConsent As ChatTopicFlag
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ChatTopicFlag.UseQueueOfflineForm
   commentId: F:SuperOffice.Data.ChatTopicFlag.UseQueueOfflineForm
   id: UseQueueOfflineForm
@@ -288,115 +200,289 @@ items:
   nameWithType: ChatTopicFlag.UseQueueOfflineForm
   fullName: SuperOffice.Data.ChatTopicFlag.UseQueueOfflineForm
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n64: Use offline form capability from queue\n"
+  summary: '64: Use offline form capability from queue'
+  example: []
   syntax:
-    content: public const ChatTopicFlag UseQueueOfflineForm
+    content: UseQueueOfflineForm = 64
     return:
       type: SuperOffice.Data.ChatTopicFlag
-    content.vb: Public Const UseQueueOfflineForm As ChatTopicFlag
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.ChatTopicFlag.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ChatTopicFlag, To>()
-  nameWithType: EnumUtil.MapEnums<ChatTopicFlag, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.ChatTopicFlag, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ChatTopicFlag, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ChatTopicFlag, To)()
-  name.vb: MapEnums(Of ChatTopicFlag, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ChatTopicFlag, To>(ChatTopicFlag)
+  nameWithType: EnumUtil.MapEnums<ChatTopicFlag, To>(ChatTopicFlag)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ChatTopicFlag, To>(SuperOffice.Data.ChatTopicFlag)
+  nameWithType.vb: EnumUtil.MapEnums(Of ChatTopicFlag, To)(ChatTopicFlag)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ChatTopicFlag, To)(SuperOffice.Data.ChatTopicFlag)
+  name.vb: MapEnums(Of ChatTopicFlag, To)(ChatTopicFlag)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ChatTopicFlag, To>
-    nameWithType: EnumUtil.MapEnums<ChatTopicFlag, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.ChatTopicFlag, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ChatTopicFlag)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.ChatTopicFlag
+    name: ChatTopicFlag
+    isExternal: true
+    href: SuperOffice.Data.ChatTopicFlag.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.ChatTopicFlag
+    name: ChatTopicFlag
+    isExternal: true
+    href: SuperOffice.Data.ChatTopicFlag.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ChatTopicFlag, To)
-    nameWithType: EnumUtil.MapEnums(Of ChatTopicFlag, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ChatTopicFlag, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ChatTopicFlag)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ChatTopicFlag
+    name: ChatTopicFlag
+    isExternal: true
+    href: SuperOffice.Data.ChatTopicFlag.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.ChatTopicFlag
+    name: ChatTopicFlag
+    isExternal: true
+    href: SuperOffice.Data.ChatTopicFlag.html
+  - name: )
 - uid: SuperOffice.Data.ChatTopicFlag.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ChatTopicFlag, To>()
-  nameWithType: Converters.MapEnums<ChatTopicFlag, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ChatTopicFlag, To>()
-  nameWithType.vb: Converters.MapEnums(Of ChatTopicFlag, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ChatTopicFlag, To)()
-  name.vb: MapEnums(Of ChatTopicFlag, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ChatTopicFlag, To>(ChatTopicFlag)
+  nameWithType: Converters.MapEnums<ChatTopicFlag, To>(ChatTopicFlag)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ChatTopicFlag, To>(SuperOffice.Data.ChatTopicFlag)
+  nameWithType.vb: Converters.MapEnums(Of ChatTopicFlag, To)(ChatTopicFlag)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ChatTopicFlag, To)(SuperOffice.Data.ChatTopicFlag)
+  name.vb: MapEnums(Of ChatTopicFlag, To)(ChatTopicFlag)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ChatTopicFlag, To>
-    nameWithType: Converters.MapEnums<ChatTopicFlag, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ChatTopicFlag, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ChatTopicFlag)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.ChatTopicFlag
+    name: ChatTopicFlag
+    isExternal: true
+    href: SuperOffice.Data.ChatTopicFlag.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.ChatTopicFlag
+    name: ChatTopicFlag
+    isExternal: true
+    href: SuperOffice.Data.ChatTopicFlag.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ChatTopicFlag, To)
-    nameWithType: Converters.MapEnums(Of ChatTopicFlag, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ChatTopicFlag, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ChatTopicFlag)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ChatTopicFlag
+    name: ChatTopicFlag
+    isExternal: true
+    href: SuperOffice.Data.ChatTopicFlag.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  - name: (
+  - uid: SuperOffice.Data.ChatTopicFlag
+    name: ChatTopicFlag
+    isExternal: true
+    href: SuperOffice.Data.ChatTopicFlag.html
+  - name: )
+- uid: SuperOffice.Data.ChatTopicFlag.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ChatTopicFlag)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<ChatTopicFlag>(ChatTopicFlag, ChatTopicFlag)
+  nameWithType: ObjectExtensions.AssignByReflection<ChatTopicFlag>(ChatTopicFlag, ChatTopicFlag)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ChatTopicFlag>(SuperOffice.Data.ChatTopicFlag, SuperOffice.Data.ChatTopicFlag)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ChatTopicFlag)(ChatTopicFlag, ChatTopicFlag)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ChatTopicFlag)(SuperOffice.Data.ChatTopicFlag, SuperOffice.Data.ChatTopicFlag)
+  name.vb: AssignByReflection(Of ChatTopicFlag)(ChatTopicFlag, ChatTopicFlag)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ChatTopicFlag,SuperOffice.Data.ChatTopicFlag)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.ChatTopicFlag
+    name: ChatTopicFlag
+    isExternal: true
+    href: SuperOffice.Data.ChatTopicFlag.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.ChatTopicFlag
+    name: ChatTopicFlag
+    isExternal: true
+    href: SuperOffice.Data.ChatTopicFlag.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.ChatTopicFlag
+    name: ChatTopicFlag
+    isExternal: true
+    href: SuperOffice.Data.ChatTopicFlag.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ChatTopicFlag,SuperOffice.Data.ChatTopicFlag)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ChatTopicFlag
+    name: ChatTopicFlag
+    isExternal: true
+    href: SuperOffice.Data.ChatTopicFlag.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.ChatTopicFlag
+    name: ChatTopicFlag
+    isExternal: true
+    href: SuperOffice.Data.ChatTopicFlag.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.ChatTopicFlag
+    name: ChatTopicFlag
+    isExternal: true
+    href: SuperOffice.Data.ChatTopicFlag.html
+  - name: )
+- uid: SuperOffice.Data.ChatTopicFlag.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<ChatTopicFlag>(ChatTopicFlag)
+  nameWithType: ObjectExtensions.GraphCopy<ChatTopicFlag>(ChatTopicFlag)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ChatTopicFlag>(SuperOffice.Data.ChatTopicFlag)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ChatTopicFlag)(ChatTopicFlag)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ChatTopicFlag)(SuperOffice.Data.ChatTopicFlag)
+  name.vb: GraphCopy(Of ChatTopicFlag)(ChatTopicFlag)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ChatTopicFlag)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.ChatTopicFlag
+    name: ChatTopicFlag
+    isExternal: true
+    href: SuperOffice.Data.ChatTopicFlag.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.ChatTopicFlag
+    name: ChatTopicFlag
+    isExternal: true
+    href: SuperOffice.Data.ChatTopicFlag.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ChatTopicFlag)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ChatTopicFlag
+    name: ChatTopicFlag
+    isExternal: true
+    href: SuperOffice.Data.ChatTopicFlag.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.ChatTopicFlag
+    name: ChatTopicFlag
+    isExternal: true
+    href: SuperOffice.Data.ChatTopicFlag.html
+  - name: )
+- uid: System.Enum.EnumUtil.GetDescription
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  parent: EnumUtil
+  definition: EnumUtil.GetDescription(System.Enum)
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -405,43 +491,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -450,58 +538,222 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: EnumUtil.GetDescription(System.Enum)
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.Data.ChatTopicFlag
   commentId: T:SuperOffice.Data.ChatTopicFlag
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.ChatTopicFlag.html
   name: ChatTopicFlag
   nameWithType: ChatTopicFlag
   fullName: SuperOffice.Data.ChatTopicFlag

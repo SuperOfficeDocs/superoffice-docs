@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 45,
-    "Name": "Lockman-Conroy",
-    "ToolTip": "Et sed pariatur illo nesciunt nulla consequatur velit.",
-    "Deleted": false,
-    "Rank": 842,
-    "Type": "quas",
-    "ColorBlock": 593,
-    "IconHint": "illum",
+    "Id": 191,
+    "Name": "Stiedemann-Corwin",
+    "ToolTip": "Nostrum ad eos.",
+    "Deleted": true,
+    "Rank": 111,
+    "Type": "et",
+    "ColorBlock": 617,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2025-02-10T16:32:48.6026679+01:00",
+    "LastChanged": "2023-05-15T17:54:08.8824262+02:00",
     "ChildItems": [
       {
-        "Id": 565,
-        "Name": "Skiles-Grant",
-        "ToolTip": "Et provident non voluptatum totam voluptas.",
+        "Id": 749,
+        "Name": "Cormier-Hessel",
+        "ToolTip": "Cumque assumenda id animi aliquid quis molestiae.",
         "Deleted": false,
-        "Rank": 687,
-        "Type": "quia",
-        "ColorBlock": 622,
-        "IconHint": "maiores",
+        "Rank": 818,
+        "Type": "repellat",
+        "ColorBlock": 536,
+        "IconHint": "cumque",
         "Selected": false,
-        "LastChanged": "2015-11-14T16:32:48.6026679+01:00",
+        "LastChanged": "2016-12-19T17:54:08.8824262+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "commodi",
-        "Hidden": true,
-        "FullName": "Mrs. Amina Hilpert Sr.",
+        "ExtraInfo": "ut",
+        "StyleHint": "iste",
+        "Hidden": false,
+        "FullName": "Kaylee Kessler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 333
+            "FieldType": "System.Int32",
+            "FieldLength": 204
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "sint",
-    "Hidden": false,
-    "FullName": "Ms. Christine Howe",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "minus",
+    "Hidden": true,
+    "FullName": "Georgianna Kirlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 151
+        "FieldLength": 298
       }
     }
   }

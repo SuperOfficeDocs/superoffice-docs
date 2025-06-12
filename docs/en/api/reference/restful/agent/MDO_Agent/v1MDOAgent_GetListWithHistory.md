@@ -92,14 +92,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Powlowski-Schiller",
+  "Name": "Schiller, Hand and Ankunding",
   "ForceFlatList": false,
-  "AdditionalInfo": "dolor",
+  "AdditionalInfo": "accusamus",
   "HistoryItems": [
-    187,
-    71
+    585,
+    800
   ],
-  "OnlyHistory": true
+  "OnlyHistory": false
 }
 ```
 
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 453,
-    "Name": "Toy LLC",
-    "ToolTip": "Qui ea aperiam.",
-    "Deleted": false,
-    "Rank": 179,
-    "Type": "et",
+    "Id": 22,
+    "Name": "Johns Inc and Sons",
+    "ToolTip": "Ducimus voluptatem illum quia inventore et non.",
+    "Deleted": true,
+    "Rank": 753,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 999,
-        "Name": "McLaughlin, Hyatt and Kozey",
-        "ToolTip": "Eaque vel cupiditate quis.",
-        "Deleted": false,
-        "Rank": 13,
-        "Type": "perspiciatis",
+        "Id": 414,
+        "Name": "Rowe, Ankunding and Witting",
+        "ToolTip": "Labore ratione culpa et voluptates quia quae illum.",
+        "Deleted": true,
+        "Rank": 623,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 411,
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "autem",
-        "FullName": "Julius Rowe",
+        "IconHint": "est",
+        "ColorBlock": 242,
+        "ExtraInfo": "voluptas",
+        "StyleHint": "consectetur",
+        "FullName": "Dr. Destiney Otho Wehner III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 993
+            "FieldType": "System.String",
+            "FieldLength": 884
           }
         }
       }
     ],
-    "IconHint": "adipisci",
-    "ColorBlock": 172,
-    "ExtraInfo": "a",
-    "StyleHint": "facere",
-    "FullName": "Edwina Lesch",
+    "IconHint": "fugiat",
+    "ColorBlock": 24,
+    "ExtraInfo": "fugiat",
+    "StyleHint": "quasi",
+    "FullName": "Prof. Kelvin Philip Wolff I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 156
+        "FieldLength": 849
       }
     }
   }

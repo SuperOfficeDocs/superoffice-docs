@@ -86,9 +86,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Marks Inc and Sons",
-  "DeviceName": "Daugherty, Heller and Terry",
-  "DeviceIdentifier": "facilis"
+  "ApplicationName": "Adams-Hayes",
+  "DeviceName": "Zemlak, Stokes and Huel",
+  "DeviceIdentifier": "asperiores"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "asperiores",
-    "Value": "perferendis",
-    "RecordId": 449,
-    "CreatedDate": "1999-09-25T16:32:39.180141+02:00",
-    "UpdatedDate": "2009-07-31T16:32:39.180141+02:00",
-    "UpdatedBy": "iusto",
-    "CreatedBy": "maiores",
-    "TableName": "Gaylord-Jerde",
+    "Key": "aliquid",
+    "Value": "odit",
+    "RecordId": 774,
+    "CreatedDate": "2021-09-29T17:54:03.1795788+02:00",
+    "UpdatedDate": "2000-02-04T17:54:03.1795788+01:00",
+    "UpdatedBy": "voluptatibus",
+    "CreatedBy": "sit",
+    "TableName": "Parker-Hand",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 148
+        "FieldType": "System.Int32",
+        "FieldLength": 213
       }
     }
   }

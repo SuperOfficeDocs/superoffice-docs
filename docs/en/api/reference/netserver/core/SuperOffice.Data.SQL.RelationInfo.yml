@@ -23,29 +23,26 @@ items:
   nameWithType: RelationInfo
   fullName: SuperOffice.Data.SQL.RelationInfo
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nInformation about a relation in a query (e.g. <xref href=\"SuperOffice.Data.SQL.Select\" data-throw-if-not-resolved=\"false\"></xref> statement).\n"
+  summary: Information about a relation in a query (e.g. <xref href="SuperOffice.Data.SQL.Select" data-throw-if-not-resolved="false"></xref> statement).
+  example: []
   syntax:
-    content: 'public class RelationInfo : Object'
-    content.vb: >-
-      Public Class RelationInfo
-          Inherits Object
+    content: public class RelationInfo
+    content.vb: Public Class RelationInfo
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Data.SQL.RelationInfo.EnumUtil.MapEnums``2
   - SuperOffice.Data.SQL.RelationInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.Data.SQL.RelationInfo.AdditionalRestrictionAnd(SuperOffice.Data.SQL.Restriction)
   commentId: M:SuperOffice.Data.SQL.RelationInfo.AdditionalRestrictionAnd(SuperOffice.Data.SQL.Restriction)
   id: AdditionalRestrictionAnd(SuperOffice.Data.SQL.Restriction)
@@ -57,13 +54,11 @@ items:
   nameWithType: RelationInfo.AdditionalRestrictionAnd(Restriction)
   fullName: SuperOffice.Data.SQL.RelationInfo.AdditionalRestrictionAnd(SuperOffice.Data.SQL.Restriction)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nOn a RelationInfo derived from a JoinCompare, you can extend the additionalRestriction (AND operator implied)\n"
+  summary: On a RelationInfo derived from a JoinCompare, you can extend the additionalRestriction (AND operator implied)
+  example: []
   syntax:
     content: public void AdditionalRestrictionAnd(Restriction addition)
     parameters:
@@ -72,10 +67,6 @@ items:
       description: The restriction to AND with any existing additionalRestriction in the join
     content.vb: Public Sub AdditionalRestrictionAnd(addition As Restriction)
   overload: SuperOffice.Data.SQL.RelationInfo.AdditionalRestrictionAnd*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SQL.RelationInfo.AdditionalRestrictionOr(SuperOffice.Data.SQL.Restriction)
   commentId: M:SuperOffice.Data.SQL.RelationInfo.AdditionalRestrictionOr(SuperOffice.Data.SQL.Restriction)
   id: AdditionalRestrictionOr(SuperOffice.Data.SQL.Restriction)
@@ -87,13 +78,11 @@ items:
   nameWithType: RelationInfo.AdditionalRestrictionOr(Restriction)
   fullName: SuperOffice.Data.SQL.RelationInfo.AdditionalRestrictionOr(SuperOffice.Data.SQL.Restriction)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nOn a RelationInfo derived from a JoinCompare, you can extend the additionalRestriction (OR operator implied)\n"
+  summary: On a RelationInfo derived from a JoinCompare, you can extend the additionalRestriction (OR operator implied)
+  example: []
   syntax:
     content: public void AdditionalRestrictionOr(Restriction addition)
     parameters:
@@ -102,10 +91,6 @@ items:
       description: The restriction to OR with any existing additionalRestriction in the join
     content.vb: Public Sub AdditionalRestrictionOr(addition As Restriction)
   overload: SuperOffice.Data.SQL.RelationInfo.AdditionalRestrictionOr*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SQL.RelationInfo.ToString
   commentId: M:SuperOffice.Data.SQL.RelationInfo.ToString
   id: ToString
@@ -117,24 +102,17 @@ items:
   nameWithType: RelationInfo.ToString()
   fullName: SuperOffice.Data.SQL.RelationInfo.ToString()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
   overload: SuperOffice.Data.SQL.RelationInfo.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.Data.SQL.RelationInfo.Type
   commentId: P:SuperOffice.Data.SQL.RelationInfo.Type
   id: Type
@@ -146,13 +124,11 @@ items:
   nameWithType: RelationInfo.Type
   fullName: SuperOffice.Data.SQL.RelationInfo.Type
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nHow is the relation expressed.\n"
+  summary: How is the relation expressed.
+  example: []
   syntax:
     content: public RelationType Type { get; }
     parameters: []
@@ -161,12 +137,6 @@ items:
       description: Relation type
     content.vb: Public ReadOnly Property Type As RelationType
   overload: SuperOffice.Data.SQL.RelationInfo.Type*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.Data.SQL.RelationInfo.MainTable
   commentId: P:SuperOffice.Data.SQL.RelationInfo.MainTable
   id: MainTable
@@ -178,13 +148,11 @@ items:
   nameWithType: RelationInfo.MainTable
   fullName: SuperOffice.Data.SQL.RelationInfo.MainTable
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nMain table of focus.\n"
+  summary: Main table of focus.
+  example: []
   syntax:
     content: public TableInfo MainTable { get; set; }
     parameters: []
@@ -193,12 +161,6 @@ items:
       description: table information
     content.vb: Public Property MainTable As TableInfo
   overload: SuperOffice.Data.SQL.RelationInfo.MainTable*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SQL.RelationInfo.RelatedTable
   commentId: P:SuperOffice.Data.SQL.RelationInfo.RelatedTable
   id: RelatedTable
@@ -210,13 +172,11 @@ items:
   nameWithType: RelationInfo.RelatedTable
   fullName: SuperOffice.Data.SQL.RelationInfo.RelatedTable
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nGets or sets table related to the <xref href=\"SuperOffice.Data.SQL.RelationInfo.MainTable\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  summary: Gets or sets table related to the <xref href="SuperOffice.Data.SQL.RelationInfo.MainTable" data-throw-if-not-resolved="false"></xref>
+  example: []
   syntax:
     content: public TableInfo RelatedTable { get; set; }
     parameters: []
@@ -225,12 +185,6 @@ items:
       description: table information
     content.vb: Public Property RelatedTable As TableInfo
   overload: SuperOffice.Data.SQL.RelationInfo.RelatedTable*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SQL.RelationInfo.MainRestriction
   commentId: P:SuperOffice.Data.SQL.RelationInfo.MainRestriction
   id: MainRestriction
@@ -242,13 +196,11 @@ items:
   nameWithType: RelationInfo.MainRestriction
   fullName: SuperOffice.Data.SQL.RelationInfo.MainRestriction
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nGets main restriction specifying the relation.\n"
+  summary: Gets main restriction specifying the relation.
+  example: []
   syntax:
     content: public Equal MainRestriction { get; }
     parameters: []
@@ -257,12 +209,6 @@ items:
       description: The main restriction.
     content.vb: Public ReadOnly Property MainRestriction As Equal
   overload: SuperOffice.Data.SQL.RelationInfo.MainRestriction*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.Data.SQL.RelationInfo.AdditionalRestriction
   commentId: P:SuperOffice.Data.SQL.RelationInfo.AdditionalRestriction
   id: AdditionalRestriction
@@ -274,13 +220,11 @@ items:
   nameWithType: RelationInfo.AdditionalRestriction
   fullName: SuperOffice.Data.SQL.RelationInfo.AdditionalRestriction
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nGet the additional restriction, if any; on a RelationInfo derived from a join, you can also Set it; otherwise it is null and read-only.\n"
+  summary: Get the additional restriction, if any; on a RelationInfo derived from a join, you can also Set it; otherwise it is null and read-only.
+  example: []
   syntax:
     content: public Restriction AdditionalRestriction { get; set; }
     parameters: []
@@ -288,12 +232,6 @@ items:
       type: SuperOffice.Data.SQL.Restriction
     content.vb: Public Property AdditionalRestriction As Restriction
   overload: SuperOffice.Data.SQL.RelationInfo.AdditionalRestriction*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SQL.RelationInfo.OriginalJoin
   commentId: P:SuperOffice.Data.SQL.RelationInfo.OriginalJoin
   id: OriginalJoin
@@ -305,13 +243,11 @@ items:
   nameWithType: RelationInfo.OriginalJoin
   fullName: SuperOffice.Data.SQL.RelationInfo.OriginalJoin
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nGet the original join, if it exists (it does so only if this relationinfo is derived from an actual join instance)\n"
+  summary: Get the original join, if it exists (it does so only if this relationinfo is derived from an actual join instance)
+  example: []
   syntax:
     content: public JoinCompare OriginalJoin { get; }
     parameters: []
@@ -319,12 +255,6 @@ items:
       type: SuperOffice.Data.SQL.JoinCompare
     content.vb: Public ReadOnly Property OriginalJoin As JoinCompare
   overload: SuperOffice.Data.SQL.RelationInfo.OriginalJoin*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.Data.SQL.RelationInfo.PrimaryKey
   commentId: P:SuperOffice.Data.SQL.RelationInfo.PrimaryKey
   id: PrimaryKey
@@ -336,13 +266,11 @@ items:
   nameWithType: RelationInfo.PrimaryKey
   fullName: SuperOffice.Data.SQL.RelationInfo.PrimaryKey
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nGets primary key in the relation.\n"
+  summary: Gets primary key in the relation.
+  example: []
   syntax:
     content: public FieldInfo PrimaryKey { get; }
     parameters: []
@@ -351,12 +279,6 @@ items:
       description: The primary key.
     content.vb: Public ReadOnly Property PrimaryKey As FieldInfo
   overload: SuperOffice.Data.SQL.RelationInfo.PrimaryKey*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.Data.SQL.RelationInfo.ForeignKey
   commentId: P:SuperOffice.Data.SQL.RelationInfo.ForeignKey
   id: ForeignKey
@@ -368,13 +290,11 @@ items:
   nameWithType: RelationInfo.ForeignKey
   fullName: SuperOffice.Data.SQL.RelationInfo.ForeignKey
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nGets foreign key in the relation.\n"
+  summary: Gets foreign key in the relation.
+  example: []
   syntax:
     content: public FieldInfo ForeignKey { get; }
     parameters: []
@@ -383,103 +303,375 @@ items:
       description: The foreign key.
     content.vb: Public ReadOnly Property ForeignKey As FieldInfo
   overload: SuperOffice.Data.SQL.RelationInfo.ForeignKey*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 references:
+- uid: SuperOffice.Data.SQL.Select
+  commentId: T:SuperOffice.Data.SQL.Select
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.Select.html
+  name: Select
+  nameWithType: Select
+  fullName: SuperOffice.Data.SQL.Select
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.SQL.RelationInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<RelationInfo, To>()
-  nameWithType: EnumUtil.MapEnums<RelationInfo, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.RelationInfo, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of RelationInfo, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.RelationInfo, To)()
-  name.vb: MapEnums(Of RelationInfo, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<RelationInfo, To>(RelationInfo)
+  nameWithType: EnumUtil.MapEnums<RelationInfo, To>(RelationInfo)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.RelationInfo, To>(SuperOffice.Data.SQL.RelationInfo)
+  nameWithType.vb: EnumUtil.MapEnums(Of RelationInfo, To)(RelationInfo)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.RelationInfo, To)(SuperOffice.Data.SQL.RelationInfo)
+  name.vb: MapEnums(Of RelationInfo, To)(RelationInfo)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<RelationInfo, To>
-    nameWithType: EnumUtil.MapEnums<RelationInfo, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.RelationInfo, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SQL.RelationInfo)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.SQL.RelationInfo
+    name: RelationInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.RelationInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.SQL.RelationInfo
+    name: RelationInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.RelationInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of RelationInfo, To)
-    nameWithType: EnumUtil.MapEnums(Of RelationInfo, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.RelationInfo, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SQL.RelationInfo)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.RelationInfo
+    name: RelationInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.RelationInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.RelationInfo
+    name: RelationInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.RelationInfo.html
+  - name: )
 - uid: SuperOffice.Data.SQL.RelationInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<RelationInfo, To>()
-  nameWithType: Converters.MapEnums<RelationInfo, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.RelationInfo, To>()
-  nameWithType.vb: Converters.MapEnums(Of RelationInfo, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.RelationInfo, To)()
-  name.vb: MapEnums(Of RelationInfo, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<RelationInfo, To>(RelationInfo)
+  nameWithType: Converters.MapEnums<RelationInfo, To>(RelationInfo)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.RelationInfo, To>(SuperOffice.Data.SQL.RelationInfo)
+  nameWithType.vb: Converters.MapEnums(Of RelationInfo, To)(RelationInfo)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.RelationInfo, To)(SuperOffice.Data.SQL.RelationInfo)
+  name.vb: MapEnums(Of RelationInfo, To)(RelationInfo)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<RelationInfo, To>
-    nameWithType: Converters.MapEnums<RelationInfo, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.RelationInfo, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SQL.RelationInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.SQL.RelationInfo
+    name: RelationInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.RelationInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.SQL.RelationInfo
+    name: RelationInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.RelationInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of RelationInfo, To)
-    nameWithType: Converters.MapEnums(Of RelationInfo, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.RelationInfo, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SQL.RelationInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.RelationInfo
+    name: RelationInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.RelationInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.RelationInfo
+    name: RelationInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.RelationInfo.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -488,43 +680,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -533,50 +727,83 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Data.SQL.RelationInfo.AdditionalRestrictionAnd*
   commentId: Overload:SuperOffice.Data.SQL.RelationInfo.AdditionalRestrictionAnd
   isExternal: true
+  href: SuperOffice.Data.SQL.RelationInfo.html#SuperOffice_Data_SQL_RelationInfo_AdditionalRestrictionAnd_SuperOffice_Data_SQL_Restriction_
   name: AdditionalRestrictionAnd
   nameWithType: RelationInfo.AdditionalRestrictionAnd
   fullName: SuperOffice.Data.SQL.RelationInfo.AdditionalRestrictionAnd
@@ -584,18 +811,45 @@ references:
   commentId: T:SuperOffice.Data.SQL.Restriction
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.Restriction.html
   name: Restriction
   nameWithType: Restriction
   fullName: SuperOffice.Data.SQL.Restriction
 - uid: SuperOffice.Data.SQL.RelationInfo.AdditionalRestrictionOr*
   commentId: Overload:SuperOffice.Data.SQL.RelationInfo.AdditionalRestrictionOr
   isExternal: true
+  href: SuperOffice.Data.SQL.RelationInfo.html#SuperOffice_Data_SQL_RelationInfo_AdditionalRestrictionOr_SuperOffice_Data_SQL_Restriction_
   name: AdditionalRestrictionOr
   nameWithType: RelationInfo.AdditionalRestrictionOr
   fullName: SuperOffice.Data.SQL.RelationInfo.AdditionalRestrictionOr
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.SQL.RelationInfo.ToString*
   commentId: Overload:SuperOffice.Data.SQL.RelationInfo.ToString
   isExternal: true
+  href: SuperOffice.Data.SQL.RelationInfo.html#SuperOffice_Data_SQL_RelationInfo_ToString
   name: ToString
   nameWithType: RelationInfo.ToString
   fullName: SuperOffice.Data.SQL.RelationInfo.ToString
@@ -603,12 +857,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.Data.SQL.RelationInfo.Type*
   commentId: Overload:SuperOffice.Data.SQL.RelationInfo.Type
   isExternal: true
+  href: SuperOffice.Data.SQL.RelationInfo.html#SuperOffice_Data_SQL_RelationInfo_Type
   name: Type
   nameWithType: RelationInfo.Type
   fullName: SuperOffice.Data.SQL.RelationInfo.Type
@@ -616,12 +875,14 @@ references:
   commentId: T:SuperOffice.Data.SQL.RelationType
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.RelationType.html
   name: RelationType
   nameWithType: RelationType
   fullName: SuperOffice.Data.SQL.RelationType
 - uid: SuperOffice.Data.SQL.RelationInfo.MainTable*
   commentId: Overload:SuperOffice.Data.SQL.RelationInfo.MainTable
   isExternal: true
+  href: SuperOffice.Data.SQL.RelationInfo.html#SuperOffice_Data_SQL_RelationInfo_MainTable
   name: MainTable
   nameWithType: RelationInfo.MainTable
   fullName: SuperOffice.Data.SQL.RelationInfo.MainTable
@@ -629,18 +890,28 @@ references:
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
+- uid: SuperOffice.Data.SQL.RelationInfo.MainTable
+  commentId: P:SuperOffice.Data.SQL.RelationInfo.MainTable
+  isExternal: true
+  href: SuperOffice.Data.SQL.RelationInfo.html#SuperOffice_Data_SQL_RelationInfo_MainTable
+  name: MainTable
+  nameWithType: RelationInfo.MainTable
+  fullName: SuperOffice.Data.SQL.RelationInfo.MainTable
 - uid: SuperOffice.Data.SQL.RelationInfo.RelatedTable*
   commentId: Overload:SuperOffice.Data.SQL.RelationInfo.RelatedTable
   isExternal: true
+  href: SuperOffice.Data.SQL.RelationInfo.html#SuperOffice_Data_SQL_RelationInfo_RelatedTable
   name: RelatedTable
   nameWithType: RelationInfo.RelatedTable
   fullName: SuperOffice.Data.SQL.RelationInfo.RelatedTable
 - uid: SuperOffice.Data.SQL.RelationInfo.MainRestriction*
   commentId: Overload:SuperOffice.Data.SQL.RelationInfo.MainRestriction
   isExternal: true
+  href: SuperOffice.Data.SQL.RelationInfo.html#SuperOffice_Data_SQL_RelationInfo_MainRestriction
   name: MainRestriction
   nameWithType: RelationInfo.MainRestriction
   fullName: SuperOffice.Data.SQL.RelationInfo.MainRestriction
@@ -648,18 +919,21 @@ references:
   commentId: T:SuperOffice.Data.SQL.Equal
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.Equal.html
   name: Equal
   nameWithType: Equal
   fullName: SuperOffice.Data.SQL.Equal
 - uid: SuperOffice.Data.SQL.RelationInfo.AdditionalRestriction*
   commentId: Overload:SuperOffice.Data.SQL.RelationInfo.AdditionalRestriction
   isExternal: true
+  href: SuperOffice.Data.SQL.RelationInfo.html#SuperOffice_Data_SQL_RelationInfo_AdditionalRestriction
   name: AdditionalRestriction
   nameWithType: RelationInfo.AdditionalRestriction
   fullName: SuperOffice.Data.SQL.RelationInfo.AdditionalRestriction
 - uid: SuperOffice.Data.SQL.RelationInfo.OriginalJoin*
   commentId: Overload:SuperOffice.Data.SQL.RelationInfo.OriginalJoin
   isExternal: true
+  href: SuperOffice.Data.SQL.RelationInfo.html#SuperOffice_Data_SQL_RelationInfo_OriginalJoin
   name: OriginalJoin
   nameWithType: RelationInfo.OriginalJoin
   fullName: SuperOffice.Data.SQL.RelationInfo.OriginalJoin
@@ -667,12 +941,14 @@ references:
   commentId: T:SuperOffice.Data.SQL.JoinCompare
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.JoinCompare.html
   name: JoinCompare
   nameWithType: JoinCompare
   fullName: SuperOffice.Data.SQL.JoinCompare
 - uid: SuperOffice.Data.SQL.RelationInfo.PrimaryKey*
   commentId: Overload:SuperOffice.Data.SQL.RelationInfo.PrimaryKey
   isExternal: true
+  href: SuperOffice.Data.SQL.RelationInfo.html#SuperOffice_Data_SQL_RelationInfo_PrimaryKey
   name: PrimaryKey
   nameWithType: RelationInfo.PrimaryKey
   fullName: SuperOffice.Data.SQL.RelationInfo.PrimaryKey
@@ -680,12 +956,14 @@ references:
   commentId: T:SuperOffice.Data.SQL.FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.FieldInfo.html
   name: FieldInfo
   nameWithType: FieldInfo
   fullName: SuperOffice.Data.SQL.FieldInfo
 - uid: SuperOffice.Data.SQL.RelationInfo.ForeignKey*
   commentId: Overload:SuperOffice.Data.SQL.RelationInfo.ForeignKey
   isExternal: true
+  href: SuperOffice.Data.SQL.RelationInfo.html#SuperOffice_Data_SQL_RelationInfo_ForeignKey
   name: ForeignKey
   nameWithType: RelationInfo.ForeignKey
   fullName: SuperOffice.Data.SQL.RelationInfo.ForeignKey

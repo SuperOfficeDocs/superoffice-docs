@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 381,
-    "Name": "Dickens, Gibson and Hamill",
-    "CurrencyId": 289,
-    "EnglishName": "Schimmel, Kertzmann and Waters",
+    "CountryId": 674,
+    "Name": "Koss, Kovacek and Daugherty",
+    "CurrencyId": 953,
+    "EnglishName": "Johns Group",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Function-based exuding pricing structure",
-    "OrgNrText": "1314927",
-    "InterAreaPrefix": "cupiditate",
-    "DialInPrefix": "magnam",
-    "ZipPrefix": "ut",
-    "DomainName": "Abbott-Kris",
-    "AddressLayoutId": 180,
-    "DomesticAddressLayoutId": 733,
-    "ForeignAddressLayoutId": 753,
-    "Rank": 539,
-    "Tooltip": "temporibus",
+    "ImageDescription": "Synergistic directional challenge",
+    "OrgNrText": "334422",
+    "InterAreaPrefix": "in",
+    "DialInPrefix": "laborum",
+    "ZipPrefix": "reiciendis",
+    "DomainName": "Kihn-Baumbach",
+    "AddressLayoutId": 420,
+    "DomesticAddressLayoutId": 894,
+    "ForeignAddressLayoutId": 924,
+    "Rank": 351,
+    "Tooltip": "autem",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 187
+        "FieldLength": 163
       }
     }
   }

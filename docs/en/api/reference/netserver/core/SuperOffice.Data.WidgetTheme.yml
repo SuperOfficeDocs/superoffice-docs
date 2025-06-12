@@ -7,67 +7,44 @@ items:
   children:
   - SuperOffice.Data.WidgetTheme.Classic
   - SuperOffice.Data.WidgetTheme.Modern
-  - SuperOffice.Data.WidgetTheme.value__
   langs:
   - csharp
   - vb
   name: WidgetTheme
   nameWithType: WidgetTheme
   fullName: SuperOffice.Data.WidgetTheme
-  type: Class
-  source:
-    path: SoCore
-    isExternal: true
+  type: Enum
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\nChat Topic widget_theme: classic(0) or modern(1).\nThis Enum is used by:  chat_topic.widget_theme\n"
-  syntax:
-    content: 'public sealed class WidgetTheme : Enum'
-    content.vb: >-
-      Public NotInheritable Class WidgetTheme
-          Inherits
+  summary: >-
+    Chat Topic widget_theme: classic(0) or modern(1).
 
-           Enum
-  inheritance:
-  - System.Object
+    This Enum is used by:  chat_topic.widget_theme
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public enum WidgetTheme : short
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Enum WidgetTheme As Short
   extensionMethods:
   - SuperOffice.Data.WidgetTheme.EnumUtil.MapEnums``2
   - SuperOffice.Data.WidgetTheme.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.Data.WidgetTheme.value__
-  commentId: F:SuperOffice.Data.WidgetTheme.value__
-  id: value__
-  parent: SuperOffice.Data.WidgetTheme
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: WidgetTheme.value__
-  fullName: SuperOffice.Data.WidgetTheme.value__
-  type: Field
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Data
-  syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.Data.WidgetTheme.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.WidgetTheme)
+  - SuperOffice.Data.WidgetTheme.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - System.Enum.EnumUtil.GetDescription
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.Data.WidgetTheme.Classic
   commentId: F:SuperOffice.Data.WidgetTheme.Classic
   id: Classic
@@ -79,24 +56,26 @@ items:
   nameWithType: WidgetTheme.Classic
   fullName: SuperOffice.Data.WidgetTheme.Classic
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n0: Set widget theme to classic\n"
+  summary: '0: Set widget theme to classic'
+  example: []
   syntax:
-    content: public const WidgetTheme Classic
+    content: >-
+      [EnumMember]
+
+      Classic = 0
     return:
       type: SuperOffice.Data.WidgetTheme
-    content.vb: Public Const Classic As WidgetTheme
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Classic = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.WidgetTheme.Modern
   commentId: F:SuperOffice.Data.WidgetTheme.Modern
   id: Modern
@@ -108,115 +87,300 @@ items:
   nameWithType: WidgetTheme.Modern
   fullName: SuperOffice.Data.WidgetTheme.Modern
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1: Set widget theme to modern\n"
+  summary: '1: Set widget theme to modern'
+  example: []
   syntax:
-    content: public const WidgetTheme Modern
+    content: >-
+      [EnumMember]
+
+      Modern = 1
     return:
       type: SuperOffice.Data.WidgetTheme
-    content.vb: Public Const Modern As WidgetTheme
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Modern = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.WidgetTheme.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<WidgetTheme, To>()
-  nameWithType: EnumUtil.MapEnums<WidgetTheme, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.WidgetTheme, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of WidgetTheme, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.WidgetTheme, To)()
-  name.vb: MapEnums(Of WidgetTheme, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<WidgetTheme, To>(WidgetTheme)
+  nameWithType: EnumUtil.MapEnums<WidgetTheme, To>(WidgetTheme)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.WidgetTheme, To>(SuperOffice.Data.WidgetTheme)
+  nameWithType.vb: EnumUtil.MapEnums(Of WidgetTheme, To)(WidgetTheme)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.WidgetTheme, To)(SuperOffice.Data.WidgetTheme)
+  name.vb: MapEnums(Of WidgetTheme, To)(WidgetTheme)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<WidgetTheme, To>
-    nameWithType: EnumUtil.MapEnums<WidgetTheme, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.WidgetTheme, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.WidgetTheme)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.WidgetTheme
+    name: WidgetTheme
+    isExternal: true
+    href: SuperOffice.Data.WidgetTheme.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.WidgetTheme
+    name: WidgetTheme
+    isExternal: true
+    href: SuperOffice.Data.WidgetTheme.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of WidgetTheme, To)
-    nameWithType: EnumUtil.MapEnums(Of WidgetTheme, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.WidgetTheme, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.WidgetTheme)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.WidgetTheme
+    name: WidgetTheme
+    isExternal: true
+    href: SuperOffice.Data.WidgetTheme.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.WidgetTheme
+    name: WidgetTheme
+    isExternal: true
+    href: SuperOffice.Data.WidgetTheme.html
+  - name: )
 - uid: SuperOffice.Data.WidgetTheme.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<WidgetTheme, To>()
-  nameWithType: Converters.MapEnums<WidgetTheme, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.WidgetTheme, To>()
-  nameWithType.vb: Converters.MapEnums(Of WidgetTheme, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.WidgetTheme, To)()
-  name.vb: MapEnums(Of WidgetTheme, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<WidgetTheme, To>(WidgetTheme)
+  nameWithType: Converters.MapEnums<WidgetTheme, To>(WidgetTheme)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.WidgetTheme, To>(SuperOffice.Data.WidgetTheme)
+  nameWithType.vb: Converters.MapEnums(Of WidgetTheme, To)(WidgetTheme)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.WidgetTheme, To)(SuperOffice.Data.WidgetTheme)
+  name.vb: MapEnums(Of WidgetTheme, To)(WidgetTheme)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<WidgetTheme, To>
-    nameWithType: Converters.MapEnums<WidgetTheme, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.WidgetTheme, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.WidgetTheme)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.WidgetTheme
+    name: WidgetTheme
+    isExternal: true
+    href: SuperOffice.Data.WidgetTheme.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.WidgetTheme
+    name: WidgetTheme
+    isExternal: true
+    href: SuperOffice.Data.WidgetTheme.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of WidgetTheme, To)
-    nameWithType: Converters.MapEnums(Of WidgetTheme, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.WidgetTheme, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.WidgetTheme)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.WidgetTheme
+    name: WidgetTheme
+    isExternal: true
+    href: SuperOffice.Data.WidgetTheme.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  - name: (
+  - uid: SuperOffice.Data.WidgetTheme
+    name: WidgetTheme
+    isExternal: true
+    href: SuperOffice.Data.WidgetTheme.html
+  - name: )
+- uid: SuperOffice.Data.WidgetTheme.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.WidgetTheme)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<WidgetTheme>(WidgetTheme, WidgetTheme)
+  nameWithType: ObjectExtensions.AssignByReflection<WidgetTheme>(WidgetTheme, WidgetTheme)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.WidgetTheme>(SuperOffice.Data.WidgetTheme, SuperOffice.Data.WidgetTheme)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of WidgetTheme)(WidgetTheme, WidgetTheme)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.WidgetTheme)(SuperOffice.Data.WidgetTheme, SuperOffice.Data.WidgetTheme)
+  name.vb: AssignByReflection(Of WidgetTheme)(WidgetTheme, WidgetTheme)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.WidgetTheme,SuperOffice.Data.WidgetTheme)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.WidgetTheme
+    name: WidgetTheme
+    isExternal: true
+    href: SuperOffice.Data.WidgetTheme.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.WidgetTheme
+    name: WidgetTheme
+    isExternal: true
+    href: SuperOffice.Data.WidgetTheme.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.WidgetTheme
+    name: WidgetTheme
+    isExternal: true
+    href: SuperOffice.Data.WidgetTheme.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.WidgetTheme,SuperOffice.Data.WidgetTheme)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.WidgetTheme
+    name: WidgetTheme
+    isExternal: true
+    href: SuperOffice.Data.WidgetTheme.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.WidgetTheme
+    name: WidgetTheme
+    isExternal: true
+    href: SuperOffice.Data.WidgetTheme.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.WidgetTheme
+    name: WidgetTheme
+    isExternal: true
+    href: SuperOffice.Data.WidgetTheme.html
+  - name: )
+- uid: SuperOffice.Data.WidgetTheme.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<WidgetTheme>(WidgetTheme)
+  nameWithType: ObjectExtensions.GraphCopy<WidgetTheme>(WidgetTheme)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.WidgetTheme>(SuperOffice.Data.WidgetTheme)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of WidgetTheme)(WidgetTheme)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.WidgetTheme)(SuperOffice.Data.WidgetTheme)
+  name.vb: GraphCopy(Of WidgetTheme)(WidgetTheme)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.WidgetTheme)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.WidgetTheme
+    name: WidgetTheme
+    isExternal: true
+    href: SuperOffice.Data.WidgetTheme.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.WidgetTheme
+    name: WidgetTheme
+    isExternal: true
+    href: SuperOffice.Data.WidgetTheme.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.WidgetTheme)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.WidgetTheme
+    name: WidgetTheme
+    isExternal: true
+    href: SuperOffice.Data.WidgetTheme.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.WidgetTheme
+    name: WidgetTheme
+    isExternal: true
+    href: SuperOffice.Data.WidgetTheme.html
+  - name: )
+- uid: System.Enum.EnumUtil.GetDescription
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  parent: EnumUtil
+  definition: EnumUtil.GetDescription(System.Enum)
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -225,43 +389,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -270,58 +436,222 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: EnumUtil.GetDescription(System.Enum)
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.Data.WidgetTheme
   commentId: T:SuperOffice.Data.WidgetTheme
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.WidgetTheme.html
   name: WidgetTheme
   nameWithType: WidgetTheme
   fullName: SuperOffice.Data.WidgetTheme

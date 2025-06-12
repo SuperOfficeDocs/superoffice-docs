@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetCrediteds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 732,
-    "Value": "commodi",
-    "Tooltip": "quos",
+    "Id": 230,
+    "Value": "quis",
+    "Tooltip": "animi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 181
+        "FieldType": "System.Int32",
+        "FieldLength": 278
       }
     }
   },
   {
-    "Id": 732,
-    "Value": "commodi",
-    "Tooltip": "quos",
+    "Id": 230,
+    "Value": "quis",
+    "Tooltip": "animi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 181
+        "FieldType": "System.Int32",
+        "FieldLength": 278
       }
     }
   }

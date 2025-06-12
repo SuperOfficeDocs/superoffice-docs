@@ -11,64 +11,24 @@ items:
   - SuperOffice.WebApi.Data.AddressType.QuoteBillingAddress
   - SuperOffice.WebApi.Data.AddressType.QuoteShippingAddress
   - SuperOffice.WebApi.Data.AddressType.Unknown
-  - SuperOffice.WebApi.Data.AddressType.value__
   langs:
   - csharp
   - vb
   name: AddressType
   nameWithType: AddressType
   fullName: SuperOffice.WebApi.Data.AddressType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe type of Address\nThis Enum is used by:  address.atype_idx\n"
-  syntax:
-    content: 'public sealed class AddressType : Enum'
-    content.vb: >-
-      Public NotInheritable Class AddressType
-          Inherits
+  summary: >-
+    The type of Address
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.AddressType.value__
-  commentId: F:SuperOffice.WebApi.Data.AddressType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.AddressType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: AddressType.value__
-  fullName: SuperOffice.WebApi.Data.AddressType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  address.atype_idx
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: 'public enum AddressType : short'
+    content.vb: Public Enum AddressType As Short
 - uid: SuperOffice.WebApi.Data.AddressType.Unknown
   commentId: F:SuperOffice.WebApi.Data.AddressType.Unknown
   id: Unknown
@@ -80,24 +40,26 @@ items:
   nameWithType: AddressType.Unknown
   fullName: SuperOffice.WebApi.Data.AddressType.Unknown
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Unknown - used when initializing \n"
+  summary: '0: Unknown - used when initializing'
+  example: []
   syntax:
-    content: public const AddressType Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.WebApi.Data.AddressType
-    content.vb: Public Const Unknown As AddressType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.AddressType.ContactPostalAddress
   commentId: F:SuperOffice.WebApi.Data.AddressType.ContactPostalAddress
   id: ContactPostalAddress
@@ -109,24 +71,26 @@ items:
   nameWithType: AddressType.ContactPostalAddress
   fullName: SuperOffice.WebApi.Data.AddressType.ContactPostalAddress
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: The address is a contact&apos;s postal address\n"
+  summary: "1: The address is a contact's postal address"
+  example: []
   syntax:
-    content: public const AddressType ContactPostalAddress
+    content: >-
+      [EnumMember]
+
+      ContactPostalAddress = 1
     return:
       type: SuperOffice.WebApi.Data.AddressType
-    content.vb: Public Const ContactPostalAddress As AddressType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ContactPostalAddress = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.AddressType.ContactStreetAddress
   commentId: F:SuperOffice.WebApi.Data.AddressType.ContactStreetAddress
   id: ContactStreetAddress
@@ -138,24 +102,26 @@ items:
   nameWithType: AddressType.ContactStreetAddress
   fullName: SuperOffice.WebApi.Data.AddressType.ContactStreetAddress
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: The address is a contact&apos;s street address\n"
+  summary: "2: The address is a contact's street address"
+  example: []
   syntax:
-    content: public const AddressType ContactStreetAddress
+    content: >-
+      [EnumMember]
+
+      ContactStreetAddress = 2
     return:
       type: SuperOffice.WebApi.Data.AddressType
-    content.vb: Public Const ContactStreetAddress As AddressType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ContactStreetAddress = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.AddressType.PersonPrivateAddress
   commentId: F:SuperOffice.WebApi.Data.AddressType.PersonPrivateAddress
   id: PersonPrivateAddress
@@ -167,24 +133,26 @@ items:
   nameWithType: AddressType.PersonPrivateAddress
   fullName: SuperOffice.WebApi.Data.AddressType.PersonPrivateAddress
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n16387: The address is a person&apos;s private address\n"
+  summary: "16387: The address is a person's private address"
+  example: []
   syntax:
-    content: public const AddressType PersonPrivateAddress
+    content: >-
+      [EnumMember]
+
+      PersonPrivateAddress = 16387
     return:
       type: SuperOffice.WebApi.Data.AddressType
-    content.vb: Public Const PersonPrivateAddress As AddressType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      PersonPrivateAddress = 16387
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.AddressType.QuoteBillingAddress
   commentId: F:SuperOffice.WebApi.Data.AddressType.QuoteBillingAddress
   id: QuoteBillingAddress
@@ -196,24 +164,26 @@ items:
   nameWithType: AddressType.QuoteBillingAddress
   fullName: SuperOffice.WebApi.Data.AddressType.QuoteBillingAddress
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n8196: The address is the shipping address for a quote\n"
+  summary: '8196: The address is the shipping address for a quote'
+  example: []
   syntax:
-    content: public const AddressType QuoteBillingAddress
+    content: >-
+      [EnumMember]
+
+      QuoteBillingAddress = 8196
     return:
       type: SuperOffice.WebApi.Data.AddressType
-    content.vb: Public Const QuoteBillingAddress As AddressType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      QuoteBillingAddress = 8196
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.AddressType.QuoteShippingAddress
   commentId: F:SuperOffice.WebApi.Data.AddressType.QuoteShippingAddress
   id: QuoteShippingAddress
@@ -225,55 +195,69 @@ items:
   nameWithType: AddressType.QuoteShippingAddress
   fullName: SuperOffice.WebApi.Data.AddressType.QuoteShippingAddress
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n8197: The address is the shipping address for a quote\n"
+  summary: '8197: The address is the shipping address for a quote'
+  example: []
   syntax:
-    content: public const AddressType QuoteShippingAddress
+    content: >-
+      [EnumMember]
+
+      QuoteShippingAddress = 8197
     return:
       type: SuperOffice.WebApi.Data.AddressType
-    content.vb: Public Const QuoteShippingAddress As AddressType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      QuoteShippingAddress = 8197
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.AddressType
   commentId: T:SuperOffice.WebApi.Data.AddressType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.AddressType.html
   name: AddressType
   nameWithType: AddressType
   fullName: SuperOffice.WebApi.Data.AddressType

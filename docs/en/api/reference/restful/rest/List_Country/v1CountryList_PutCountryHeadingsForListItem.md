@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 409,
-    "Name": "Marquardt-Stehr",
-    "ToolTip": "Nesciunt nihil praesentium tempora iusto velit.",
-    "Deleted": false,
-    "Rank": 748,
-    "Type": "dolore",
-    "ColorBlock": 270,
-    "IconHint": "animi",
+    "Id": 336,
+    "Name": "Krajcik Group",
+    "ToolTip": "Et necessitatibus.",
+    "Deleted": true,
+    "Rank": 585,
+    "Type": "ipsa",
+    "ColorBlock": 785,
+    "IconHint": "nemo",
     "Selected": true,
-    "LastChanged": "2015-11-18T16:32:48.6026679+01:00",
+    "LastChanged": "2004-12-20T17:54:08.8824262+01:00",
     "ChildItems": [
       {
-        "Id": 570,
-        "Name": "Ernser LLC",
-        "ToolTip": "Aut est.",
+        "Id": 269,
+        "Name": "Rolfson LLC",
+        "ToolTip": "Ab eos earum eaque voluptatem illo nulla qui.",
         "Deleted": false,
-        "Rank": 983,
-        "Type": "praesentium",
-        "ColorBlock": 130,
-        "IconHint": "aut",
+        "Rank": 77,
+        "Type": "consequatur",
+        "ColorBlock": 658,
+        "IconHint": "possimus",
         "Selected": true,
-        "LastChanged": "2011-12-24T16:32:48.6026679+01:00",
+        "LastChanged": "2019-06-04T17:54:08.8824262+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "iusto",
-        "Hidden": false,
-        "FullName": "Kailyn Yost"
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "tempora",
+        "Hidden": true,
+        "FullName": "Gust Cronin"
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "quidem",
-    "Hidden": false,
-    "FullName": "Rico Flatley"
+    "ExtraInfo": "adipisci",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Mrs. Buford Reyna Waters V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 372,
-    "Name": "Cruickshank LLC",
-    "ToolTip": "Ut id occaecati voluptatibus.",
+    "Id": 389,
+    "Name": "Auer, Schaden and Balistreri",
+    "ToolTip": "Dolor voluptatem delectus magnam.",
     "Deleted": false,
-    "Rank": 510,
-    "Type": "qui",
-    "ColorBlock": 903,
-    "IconHint": "blanditiis",
+    "Rank": 241,
+    "Type": "vel",
+    "ColorBlock": 855,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "2024-05-06T16:32:48.6182885+02:00",
+    "LastChanged": "2008-08-16T17:54:08.8824262+02:00",
     "ChildItems": [
       {
-        "Id": 24,
-        "Name": "Kutch, Schaden and Beer",
-        "ToolTip": "Ea alias rerum illum nihil hic sunt ad.",
+        "Id": 155,
+        "Name": "Schiller-Koepp",
+        "ToolTip": "Reprehenderit et.",
         "Deleted": false,
-        "Rank": 680,
-        "Type": "velit",
-        "ColorBlock": 720,
-        "IconHint": "optio",
+        "Rank": 677,
+        "Type": "et",
+        "ColorBlock": 990,
+        "IconHint": "dicta",
         "Selected": true,
-        "LastChanged": "2001-03-23T16:32:48.6182885+01:00",
+        "LastChanged": "2018-07-20T17:54:08.8824262+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "necessitatibus",
+        "ExtraInfo": "non",
+        "StyleHint": "quaerat",
         "Hidden": false,
-        "FullName": "Dr. Jaunita Ratke",
+        "FullName": "Mrs. Syble Ruby Morissette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 259
+            "FieldLength": 7
           }
         }
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "expedita",
+    "ExtraInfo": "velit",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Mrs. Briana Macy Thiel",
+    "FullName": "Kailey Flatley IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 816
+        "FieldType": "System.Int32",
+        "FieldLength": 444
       }
     }
   }

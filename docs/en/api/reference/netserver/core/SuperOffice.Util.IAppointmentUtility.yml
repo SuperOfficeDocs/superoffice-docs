@@ -1,0 +1,3038 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.IAppointmentUtility
+  commentId: T:SuperOffice.Util.IAppointmentUtility
+  id: IAppointmentUtility
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.IAppointmentUtility.AcceptAsync(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.CleanSynchronizerValuesFromDescription(System.String)
+  - SuperOffice.Util.IAppointmentUtility.DeleteCancelledAsync(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.GetAgenda(System.String,System.Boolean)
+  - SuperOffice.Util.IAppointmentUtility.GetAgendaHtml(System.String,System.Boolean)
+  - SuperOffice.Util.IAppointmentUtility.GetAllAppointmentRowsOfRecurrenceRuleIDAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.GetAppointmentIdFromRecurringIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.GetAppointmentIdFromUIDAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.GetConnectionInfoAsync
+  - SuperOffice.Util.IAppointmentUtility.GetDescription(System.String,System.String)
+  - SuperOffice.Util.IAppointmentUtility.GetExistingInvitationIdFromUIDAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.GetInvitationRecordDataAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.GetInvitationRecordDataFromUidAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.GetInvitationRowFromUidAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.GetLastModifiedDateOfAppointment(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.Util.IAppointmentUtility.GetOrCreateInvitationIdFromUIDAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.GetOrCreateUidOfAppointmentAsync(System.Int32,System.String,System.DateTime,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.GetOrganizerEmailAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.GetOrganizerInfoAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.GetParticipantAsync(System.Int32,System.Int32,System.Int32,System.Int32,SuperOffice.Data.AppointmentStatus,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.GetRecurrenceRuleIdOfAppointmentIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesForInvitedEmailAttendeeAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesForInvitedPersonAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesOnlyMotherAppointmentsAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.GetTemplateLanguageAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.GetTitle(System.String,System.Boolean)
+  - SuperOffice.Util.IAppointmentUtility.HasCalendarAccessAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.HaveChanged(System.String,System.String)
+  - SuperOffice.Util.IAppointmentUtility.ModifyOnRowsAsync(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,SuperOffice.Util.RowModification,SuperOffice.Util.RowModification,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.RejectAsync(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,System.String,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.SetSeenAsync(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.TryGetNearestUidOfAppointmentIdAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.TryGetOfAppointmentIdFromRecurrenceIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.TryGetRelatedUidOfAppointmentIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.TryGetUidFromRecurringAppointmentChildAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.TryGetUidOfAppointmentIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.TryGetUidOfRecurrenceIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceAsync(System.Int32,System.DateTime,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfRowAsync(SuperOffice.CRM.Rows.InvitationRow,System.DateTime,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfUidAsync(System.String,System.DateTime,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  - SuperOffice.Util.IAppointmentUtility.ValidateParticipantAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
+  langs:
+  - csharp
+  - vb
+  name: IAppointmentUtility
+  nameWithType: IAppointmentUtility
+  fullName: SuperOffice.Util.IAppointmentUtility
+  type: Interface
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public interface IAppointmentUtility
+    content.vb: Public Interface IAppointmentUtility
+  extensionMethods:
+  - SuperOffice.Util.IAppointmentUtility.EnumUtil.MapEnums``2
+  - SuperOffice.Util.IAppointmentUtility.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Util.IAppointmentUtility.AcceptAsync(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.AcceptAsync(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,System.Threading.CancellationToken)
+  id: AcceptAsync(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: AcceptAsync(int, RecurrenceUpdateMode, CancellationToken)
+  nameWithType: IAppointmentUtility.AcceptAsync(int, RecurrenceUpdateMode, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.AcceptAsync(int, SuperOffice.Data.RecurrenceUpdateMode, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: Task AcceptAsync(int appointmentId, RecurrenceUpdateMode recurrenceUpdateMode, CancellationToken cancellationToken = default)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    - id: recurrenceUpdateMode
+      type: SuperOffice.Data.RecurrenceUpdateMode
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AcceptAsync(appointmentId As Integer, recurrenceUpdateMode As RecurrenceUpdateMode, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Util.IAppointmentUtility.AcceptAsync*
+  nameWithType.vb: IAppointmentUtility.AcceptAsync(Integer, RecurrenceUpdateMode, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.AcceptAsync(Integer, SuperOffice.Data.RecurrenceUpdateMode, System.Threading.CancellationToken)
+  name.vb: AcceptAsync(Integer, RecurrenceUpdateMode, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.CleanSynchronizerValuesFromDescription(System.String)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.CleanSynchronizerValuesFromDescription(System.String)
+  id: CleanSynchronizerValuesFromDescription(System.String)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: CleanSynchronizerValuesFromDescription(string)
+  nameWithType: IAppointmentUtility.CleanSynchronizerValuesFromDescription(string)
+  fullName: SuperOffice.Util.IAppointmentUtility.CleanSynchronizerValuesFromDescription(string)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: Cleaning function for stripping out prefix and dividing line InfoBridge added to their appointments
+  example: []
+  syntax:
+    content: string CleanSynchronizerValuesFromDescription(string description)
+    parameters:
+    - id: description
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function CleanSynchronizerValuesFromDescription(description As String) As String
+  overload: SuperOffice.Util.IAppointmentUtility.CleanSynchronizerValuesFromDescription*
+  nameWithType.vb: IAppointmentUtility.CleanSynchronizerValuesFromDescription(String)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.CleanSynchronizerValuesFromDescription(String)
+  name.vb: CleanSynchronizerValuesFromDescription(String)
+- uid: SuperOffice.Util.IAppointmentUtility.DeleteCancelledAsync(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.DeleteCancelledAsync(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,System.Threading.CancellationToken)
+  id: DeleteCancelledAsync(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: DeleteCancelledAsync(int, RecurrenceUpdateMode, CancellationToken)
+  nameWithType: IAppointmentUtility.DeleteCancelledAsync(int, RecurrenceUpdateMode, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.DeleteCancelledAsync(int, SuperOffice.Data.RecurrenceUpdateMode, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: Deletes appointment if it is cancelled.
+  example: []
+  syntax:
+    content: Task DeleteCancelledAsync(int appointmentId, RecurrenceUpdateMode recurrenceUpdateMode, CancellationToken cancellationToken = default)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+      description: .
+    - id: recurrenceUpdateMode
+      type: SuperOffice.Data.RecurrenceUpdateMode
+      description: How recurrence updates should be handled
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteCancelledAsync(appointmentId As Integer, recurrenceUpdateMode As RecurrenceUpdateMode, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Util.IAppointmentUtility.DeleteCancelledAsync*
+  nameWithType.vb: IAppointmentUtility.DeleteCancelledAsync(Integer, RecurrenceUpdateMode, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.DeleteCancelledAsync(Integer, SuperOffice.Data.RecurrenceUpdateMode, System.Threading.CancellationToken)
+  name.vb: DeleteCancelledAsync(Integer, RecurrenceUpdateMode, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.GetAgenda(System.String,System.Boolean)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.GetAgenda(System.String,System.Boolean)
+  id: GetAgenda(System.String,System.Boolean)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetAgenda(string, bool)
+  nameWithType: IAppointmentUtility.GetAgenda(string, bool)
+  fullName: SuperOffice.Util.IAppointmentUtility.GetAgenda(string, bool)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: string GetAgenda(string description, bool cleanDescription = false)
+    parameters:
+    - id: description
+      type: System.String
+    - id: cleanDescription
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Function GetAgenda(description As String, cleanDescription As Boolean = False) As String
+  overload: SuperOffice.Util.IAppointmentUtility.GetAgenda*
+  nameWithType.vb: IAppointmentUtility.GetAgenda(String, Boolean)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.GetAgenda(String, Boolean)
+  name.vb: GetAgenda(String, Boolean)
+- uid: SuperOffice.Util.IAppointmentUtility.GetAgendaHtml(System.String,System.Boolean)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.GetAgendaHtml(System.String,System.Boolean)
+  id: GetAgendaHtml(System.String,System.Boolean)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetAgendaHtml(string, bool)
+  nameWithType: IAppointmentUtility.GetAgendaHtml(string, bool)
+  fullName: SuperOffice.Util.IAppointmentUtility.GetAgendaHtml(string, bool)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: string GetAgendaHtml(string description, bool cleanDescription = false)
+    parameters:
+    - id: description
+      type: System.String
+    - id: cleanDescription
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Function GetAgendaHtml(description As String, cleanDescription As Boolean = False) As String
+  overload: SuperOffice.Util.IAppointmentUtility.GetAgendaHtml*
+  nameWithType.vb: IAppointmentUtility.GetAgendaHtml(String, Boolean)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.GetAgendaHtml(String, Boolean)
+  name.vb: GetAgendaHtml(String, Boolean)
+- uid: SuperOffice.Util.IAppointmentUtility.GetAllAppointmentRowsOfRecurrenceRuleIDAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.GetAllAppointmentRowsOfRecurrenceRuleIDAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  id: GetAllAppointmentRowsOfRecurrenceRuleIDAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetAllAppointmentRowsOfRecurrenceRuleIDAsync(int, bool, CancellationToken)
+  nameWithType: IAppointmentUtility.GetAllAppointmentRowsOfRecurrenceRuleIDAsync(int, bool, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.GetAllAppointmentRowsOfRecurrenceRuleIDAsync(int, bool, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: Task<AppointmentRow[]> GetAllAppointmentRowsOfRecurrenceRuleIDAsync(int recurrenceRuleId, bool motherAppointmentsOnly = false, CancellationToken cancellationToken = default)
+    parameters:
+    - id: recurrenceRuleId
+      type: System.Int32
+    - id: motherAppointmentsOnly
+      type: System.Boolean
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.AppointmentRow[]}
+    content.vb: Function GetAllAppointmentRowsOfRecurrenceRuleIDAsync(recurrenceRuleId As Integer, motherAppointmentsOnly As Boolean = False, cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentRow())
+  overload: SuperOffice.Util.IAppointmentUtility.GetAllAppointmentRowsOfRecurrenceRuleIDAsync*
+  nameWithType.vb: IAppointmentUtility.GetAllAppointmentRowsOfRecurrenceRuleIDAsync(Integer, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.GetAllAppointmentRowsOfRecurrenceRuleIDAsync(Integer, Boolean, System.Threading.CancellationToken)
+  name.vb: GetAllAppointmentRowsOfRecurrenceRuleIDAsync(Integer, Boolean, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.GetAppointmentIdFromRecurringIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.GetAppointmentIdFromRecurringIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetAppointmentIdFromRecurringIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetAppointmentIdFromRecurringIdAsync(int, CancellationToken)
+  nameWithType: IAppointmentUtility.GetAppointmentIdFromRecurringIdAsync(int, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.GetAppointmentIdFromRecurringIdAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: Task<int> GetAppointmentIdFromRecurringIdAsync(int recurringId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: recurringId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Function GetAppointmentIdFromRecurringIdAsync(recurringId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.Util.IAppointmentUtility.GetAppointmentIdFromRecurringIdAsync*
+  nameWithType.vb: IAppointmentUtility.GetAppointmentIdFromRecurringIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.GetAppointmentIdFromRecurringIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetAppointmentIdFromRecurringIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.GetAppointmentIdFromUIDAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.GetAppointmentIdFromUIDAsync(System.String,System.Threading.CancellationToken)
+  id: GetAppointmentIdFromUIDAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetAppointmentIdFromUIDAsync(string, CancellationToken)
+  nameWithType: IAppointmentUtility.GetAppointmentIdFromUIDAsync(string, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.GetAppointmentIdFromUIDAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: Task<int> GetAppointmentIdFromUIDAsync(string uid, CancellationToken cancellationToken = default)
+    parameters:
+    - id: uid
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Function GetAppointmentIdFromUIDAsync(uid As String, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.Util.IAppointmentUtility.GetAppointmentIdFromUIDAsync*
+  nameWithType.vb: IAppointmentUtility.GetAppointmentIdFromUIDAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.GetAppointmentIdFromUIDAsync(String, System.Threading.CancellationToken)
+  name.vb: GetAppointmentIdFromUIDAsync(String, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.GetConnectionInfoAsync
+  commentId: M:SuperOffice.Util.IAppointmentUtility.GetConnectionInfoAsync
+  id: GetConnectionInfoAsync
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetConnectionInfoAsync()
+  nameWithType: IAppointmentUtility.GetConnectionInfoAsync()
+  fullName: SuperOffice.Util.IAppointmentUtility.GetConnectionInfoAsync()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: Task<(ServiceAuthRecordData imap, ServiceAuthRecordData smtp, string sentFolder)> GetConnectionInfoAsync()
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String}}
+    content.vb: Function GetConnectionInfoAsync() As Task(Of (imap As ServiceAuthRecordData, smtp As ServiceAuthRecordData, sentFolder As String))
+  overload: SuperOffice.Util.IAppointmentUtility.GetConnectionInfoAsync*
+- uid: SuperOffice.Util.IAppointmentUtility.GetDescription(System.String,System.String)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.GetDescription(System.String,System.String)
+  id: GetDescription(System.String,System.String)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetDescription(string, string)
+  nameWithType: IAppointmentUtility.GetDescription(string, string)
+  fullName: SuperOffice.Util.IAppointmentUtility.GetDescription(string, string)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: string GetDescription(string title, string agenda)
+    parameters:
+    - id: title
+      type: System.String
+    - id: agenda
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Function GetDescription(title As String, agenda As String) As String
+  overload: SuperOffice.Util.IAppointmentUtility.GetDescription*
+  nameWithType.vb: IAppointmentUtility.GetDescription(String, String)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.GetDescription(String, String)
+  name.vb: GetDescription(String, String)
+- uid: SuperOffice.Util.IAppointmentUtility.GetExistingInvitationIdFromUIDAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.GetExistingInvitationIdFromUIDAsync(System.String,System.Threading.CancellationToken)
+  id: GetExistingInvitationIdFromUIDAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetExistingInvitationIdFromUIDAsync(string, CancellationToken)
+  nameWithType: IAppointmentUtility.GetExistingInvitationIdFromUIDAsync(string, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.GetExistingInvitationIdFromUIDAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: Task<int> GetExistingInvitationIdFromUIDAsync(string uid, CancellationToken cancellationToken = default)
+    parameters:
+    - id: uid
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Function GetExistingInvitationIdFromUIDAsync(uid As String, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.Util.IAppointmentUtility.GetExistingInvitationIdFromUIDAsync*
+  nameWithType.vb: IAppointmentUtility.GetExistingInvitationIdFromUIDAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.GetExistingInvitationIdFromUIDAsync(String, System.Threading.CancellationToken)
+  name.vb: GetExistingInvitationIdFromUIDAsync(String, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.GetInvitationRecordDataAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.GetInvitationRecordDataAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetInvitationRecordDataAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetInvitationRecordDataAsync(int, CancellationToken)
+  nameWithType: IAppointmentUtility.GetInvitationRecordDataAsync(int, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.GetInvitationRecordDataAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: Task<InvitationRecordData> GetInvitationRecordDataAsync(int appointmentId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.InvitationRecordData}
+    content.vb: Function GetInvitationRecordDataAsync(appointmentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of InvitationRecordData)
+  overload: SuperOffice.Util.IAppointmentUtility.GetInvitationRecordDataAsync*
+  nameWithType.vb: IAppointmentUtility.GetInvitationRecordDataAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.GetInvitationRecordDataAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetInvitationRecordDataAsync(Integer, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.GetInvitationRecordDataFromUidAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.GetInvitationRecordDataFromUidAsync(System.String,System.Threading.CancellationToken)
+  id: GetInvitationRecordDataFromUidAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetInvitationRecordDataFromUidAsync(string, CancellationToken)
+  nameWithType: IAppointmentUtility.GetInvitationRecordDataFromUidAsync(string, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.GetInvitationRecordDataFromUidAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: Task<InvitationRecordData> GetInvitationRecordDataFromUidAsync(string uid, CancellationToken cancellationToken = default)
+    parameters:
+    - id: uid
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.InvitationRecordData}
+    content.vb: Function GetInvitationRecordDataFromUidAsync(uid As String, cancellationToken As CancellationToken = Nothing) As Task(Of InvitationRecordData)
+  overload: SuperOffice.Util.IAppointmentUtility.GetInvitationRecordDataFromUidAsync*
+  nameWithType.vb: IAppointmentUtility.GetInvitationRecordDataFromUidAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.GetInvitationRecordDataFromUidAsync(String, System.Threading.CancellationToken)
+  name.vb: GetInvitationRecordDataFromUidAsync(String, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.GetInvitationRowFromUidAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.GetInvitationRowFromUidAsync(System.String,System.Threading.CancellationToken)
+  id: GetInvitationRowFromUidAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetInvitationRowFromUidAsync(string, CancellationToken)
+  nameWithType: IAppointmentUtility.GetInvitationRowFromUidAsync(string, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.GetInvitationRowFromUidAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: Task<InvitationRow> GetInvitationRowFromUidAsync(string uid, CancellationToken cancellationToken = default)
+    parameters:
+    - id: uid
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.InvitationRow}
+    content.vb: Function GetInvitationRowFromUidAsync(uid As String, cancellationToken As CancellationToken = Nothing) As Task(Of InvitationRow)
+  overload: SuperOffice.Util.IAppointmentUtility.GetInvitationRowFromUidAsync*
+  nameWithType.vb: IAppointmentUtility.GetInvitationRowFromUidAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.GetInvitationRowFromUidAsync(String, System.Threading.CancellationToken)
+  name.vb: GetInvitationRowFromUidAsync(String, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.GetLastModifiedDateOfAppointment(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.GetLastModifiedDateOfAppointment(SuperOffice.CRM.Rows.AppointmentRow)
+  id: GetLastModifiedDateOfAppointment(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetLastModifiedDateOfAppointment(AppointmentRow)
+  nameWithType: IAppointmentUtility.GetLastModifiedDateOfAppointment(AppointmentRow)
+  fullName: SuperOffice.Util.IAppointmentUtility.GetLastModifiedDateOfAppointment(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: >-
+    Returns the newest of the row's Registered and Updated fields. 
+
+    The fields are stored as UTC in the DB, but are converted to DB-TZ when retrieved by the system, so we don't have to do any conversion.
+  example: []
+  syntax:
+    content: DateTime GetLastModifiedDateOfAppointment(AppointmentRow row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.AppointmentRow
+      description: ''
+    return:
+      type: System.DateTime
+      description: ''
+    content.vb: Function GetLastModifiedDateOfAppointment(row As AppointmentRow) As Date
+  overload: SuperOffice.Util.IAppointmentUtility.GetLastModifiedDateOfAppointment*
+- uid: SuperOffice.Util.IAppointmentUtility.GetOrCreateInvitationIdFromUIDAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.GetOrCreateInvitationIdFromUIDAsync(System.String,System.Threading.CancellationToken)
+  id: GetOrCreateInvitationIdFromUIDAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetOrCreateInvitationIdFromUIDAsync(string, CancellationToken)
+  nameWithType: IAppointmentUtility.GetOrCreateInvitationIdFromUIDAsync(string, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.GetOrCreateInvitationIdFromUIDAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: Task<(int, bool)> GetOrCreateInvitationIdFromUIDAsync(string uid, CancellationToken cancellationToken)
+    parameters:
+    - id: uid
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.Int32,System.Boolean}}
+    content.vb: Function GetOrCreateInvitationIdFromUIDAsync(uid As String, cancellationToken As CancellationToken) As Task(Of (Integer, Boolean))
+  overload: SuperOffice.Util.IAppointmentUtility.GetOrCreateInvitationIdFromUIDAsync*
+  nameWithType.vb: IAppointmentUtility.GetOrCreateInvitationIdFromUIDAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.GetOrCreateInvitationIdFromUIDAsync(String, System.Threading.CancellationToken)
+  name.vb: GetOrCreateInvitationIdFromUIDAsync(String, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.GetOrCreateUidOfAppointmentAsync(System.Int32,System.String,System.DateTime,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.GetOrCreateUidOfAppointmentAsync(System.Int32,System.String,System.DateTime,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String,System.Threading.CancellationToken)
+  id: GetOrCreateUidOfAppointmentAsync(System.Int32,System.String,System.DateTime,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetOrCreateUidOfAppointmentAsync(int, string, DateTime, DateTime?, DateTime?, string, CancellationToken)
+  nameWithType: IAppointmentUtility.GetOrCreateUidOfAppointmentAsync(int, string, DateTime, DateTime?, DateTime?, string, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.GetOrCreateUidOfAppointmentAsync(int, string, System.DateTime, System.DateTime?, System.DateTime?, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: Task<(string, int)> GetOrCreateUidOfAppointmentAsync(int appointmentId, string from, DateTime lastModified, DateTime? recurringStartDate, DateTime? recurringEndDate, string templateLanguage, CancellationToken cancellationToken = default)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    - id: from
+      type: System.String
+    - id: lastModified
+      type: System.DateTime
+    - id: recurringStartDate
+      type: System.Nullable{System.DateTime}
+    - id: recurringEndDate
+      type: System.Nullable{System.DateTime}
+    - id: templateLanguage
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.String,System.Int32}}
+    content.vb: Function GetOrCreateUidOfAppointmentAsync(appointmentId As Integer, from As String, lastModified As Date, recurringStartDate As Date?, recurringEndDate As Date?, templateLanguage As String, cancellationToken As CancellationToken = Nothing) As Task(Of (String, Integer))
+  overload: SuperOffice.Util.IAppointmentUtility.GetOrCreateUidOfAppointmentAsync*
+  nameWithType.vb: IAppointmentUtility.GetOrCreateUidOfAppointmentAsync(Integer, String, Date, Date?, Date?, String, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.GetOrCreateUidOfAppointmentAsync(Integer, String, Date, Date?, Date?, String, System.Threading.CancellationToken)
+  name.vb: GetOrCreateUidOfAppointmentAsync(Integer, String, Date, Date?, Date?, String, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.GetOrganizerEmailAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.GetOrganizerEmailAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetOrganizerEmailAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetOrganizerEmailAsync(int, CancellationToken)
+  nameWithType: IAppointmentUtility.GetOrganizerEmailAsync(int, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.GetOrganizerEmailAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: Task<string> GetOrganizerEmailAsync(int appointmentId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Function GetOrganizerEmailAsync(appointmentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.Util.IAppointmentUtility.GetOrganizerEmailAsync*
+  nameWithType.vb: IAppointmentUtility.GetOrganizerEmailAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.GetOrganizerEmailAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetOrganizerEmailAsync(Integer, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.GetOrganizerInfoAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.GetOrganizerInfoAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetOrganizerInfoAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetOrganizerInfoAsync(int, CancellationToken)
+  nameWithType: IAppointmentUtility.GetOrganizerInfoAsync(int, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.GetOrganizerInfoAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: Task<(string email, string fullname)> GetOrganizerInfoAsync(int appointmentId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.String,System.String}}
+    content.vb: Function GetOrganizerInfoAsync(appointmentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of (email As String, fullname As String))
+  overload: SuperOffice.Util.IAppointmentUtility.GetOrganizerInfoAsync*
+  nameWithType.vb: IAppointmentUtility.GetOrganizerInfoAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.GetOrganizerInfoAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetOrganizerInfoAsync(Integer, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.GetParticipantAsync(System.Int32,System.Int32,System.Int32,System.Int32,SuperOffice.Data.AppointmentStatus,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.GetParticipantAsync(System.Int32,System.Int32,System.Int32,System.Int32,SuperOffice.Data.AppointmentStatus,System.Boolean,System.Threading.CancellationToken)
+  id: GetParticipantAsync(System.Int32,System.Int32,System.Int32,System.Int32,SuperOffice.Data.AppointmentStatus,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetParticipantAsync(int, int, int, int, AppointmentStatus, bool, CancellationToken)
+  nameWithType: IAppointmentUtility.GetParticipantAsync(int, int, int, int, AppointmentStatus, bool, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.GetParticipantAsync(int, int, int, int, SuperOffice.Data.AppointmentStatus, bool, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: Task<ParticipantInfo> GetParticipantAsync(int associateId, int personId, int contactId, int emailId, AppointmentStatus appointmentStatus, bool sendEmail, CancellationToken cancellationToken = default)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    - id: personId
+      type: System.Int32
+    - id: contactId
+      type: System.Int32
+    - id: emailId
+      type: System.Int32
+    - id: appointmentStatus
+      type: SuperOffice.Data.AppointmentStatus
+    - id: sendEmail
+      type: System.Boolean
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ParticipantInfo}
+    content.vb: Function GetParticipantAsync(associateId As Integer, personId As Integer, contactId As Integer, emailId As Integer, appointmentStatus As AppointmentStatus, sendEmail As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of ParticipantInfo)
+  overload: SuperOffice.Util.IAppointmentUtility.GetParticipantAsync*
+  nameWithType.vb: IAppointmentUtility.GetParticipantAsync(Integer, Integer, Integer, Integer, AppointmentStatus, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.GetParticipantAsync(Integer, Integer, Integer, Integer, SuperOffice.Data.AppointmentStatus, Boolean, System.Threading.CancellationToken)
+  name.vb: GetParticipantAsync(Integer, Integer, Integer, Integer, AppointmentStatus, Boolean, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.GetRecurrenceRuleIdOfAppointmentIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.GetRecurrenceRuleIdOfAppointmentIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetRecurrenceRuleIdOfAppointmentIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetRecurrenceRuleIdOfAppointmentIdAsync(int, CancellationToken)
+  nameWithType: IAppointmentUtility.GetRecurrenceRuleIdOfAppointmentIdAsync(int, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.GetRecurrenceRuleIdOfAppointmentIdAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: Task<int> GetRecurrenceRuleIdOfAppointmentIdAsync(int appointmentId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Function GetRecurrenceRuleIdOfAppointmentIdAsync(appointmentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.Util.IAppointmentUtility.GetRecurrenceRuleIdOfAppointmentIdAsync*
+  nameWithType.vb: IAppointmentUtility.GetRecurrenceRuleIdOfAppointmentIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.GetRecurrenceRuleIdOfAppointmentIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetRecurrenceRuleIdOfAppointmentIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesForInvitedEmailAttendeeAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesForInvitedEmailAttendeeAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetRecurringSeriesForInvitedEmailAttendeeAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetRecurringSeriesForInvitedEmailAttendeeAsync(int, int, CancellationToken)
+  nameWithType: IAppointmentUtility.GetRecurringSeriesForInvitedEmailAttendeeAsync(int, int, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesForInvitedEmailAttendeeAsync(int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: Returns a <xref href="SuperOffice.Util.RecurringSeries" data-throw-if-not-resolved="false"></xref> object containing recurring subseries that are related to the given <code class="paramref">recurrenceRuleId</code>. The returned array is sorted by DoBy, ascending. I.e. the earliest subseries is the first item in the list.
+  example: []
+  syntax:
+    content: Task<RecurringSeries> GetRecurringSeriesForInvitedEmailAttendeeAsync(int recurrenceRuleId, int invitedEmailId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: recurrenceRuleId
+      type: System.Int32
+      description: ''
+    - id: invitedEmailId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.Util.RecurringSeries}
+      description: ''
+    content.vb: Function GetRecurringSeriesForInvitedEmailAttendeeAsync(recurrenceRuleId As Integer, invitedEmailId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of RecurringSeries)
+  overload: SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesForInvitedEmailAttendeeAsync*
+  nameWithType.vb: IAppointmentUtility.GetRecurringSeriesForInvitedEmailAttendeeAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesForInvitedEmailAttendeeAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetRecurringSeriesForInvitedEmailAttendeeAsync(Integer, Integer, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesForInvitedPersonAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesForInvitedPersonAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetRecurringSeriesForInvitedPersonAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetRecurringSeriesForInvitedPersonAsync(int, int, CancellationToken)
+  nameWithType: IAppointmentUtility.GetRecurringSeriesForInvitedPersonAsync(int, int, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesForInvitedPersonAsync(int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: Returns a <xref href="SuperOffice.Util.RecurringSeries" data-throw-if-not-resolved="false"></xref> object containing recurring subseries that are related to the given <code class="paramref">recurrenceRuleId</code>. The returned array is sorted by DoBy, ascending. I.e. the earliest subseries is the first item in the list.
+  example: []
+  syntax:
+    content: Task<RecurringSeries> GetRecurringSeriesForInvitedPersonAsync(int recurrenceRuleId, int invitedPersonId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: recurrenceRuleId
+      type: System.Int32
+      description: ''
+    - id: invitedPersonId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.Util.RecurringSeries}
+      description: ''
+    content.vb: Function GetRecurringSeriesForInvitedPersonAsync(recurrenceRuleId As Integer, invitedPersonId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of RecurringSeries)
+  overload: SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesForInvitedPersonAsync*
+  nameWithType.vb: IAppointmentUtility.GetRecurringSeriesForInvitedPersonAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesForInvitedPersonAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetRecurringSeriesForInvitedPersonAsync(Integer, Integer, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesOnlyMotherAppointmentsAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesOnlyMotherAppointmentsAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetRecurringSeriesOnlyMotherAppointmentsAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetRecurringSeriesOnlyMotherAppointmentsAsync(int, CancellationToken)
+  nameWithType: IAppointmentUtility.GetRecurringSeriesOnlyMotherAppointmentsAsync(int, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesOnlyMotherAppointmentsAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: Returns a <xref href="SuperOffice.Util.RecurringSeries" data-throw-if-not-resolved="false"></xref> object containing recurring subseries that are related to the given <code class="paramref">recurrenceRuleId</code>. The returned array is sorted by DoBy, ascending. I.e. the earliest subseries is the first item in the list.
+  example: []
+  syntax:
+    content: Task<RecurringSeries> GetRecurringSeriesOnlyMotherAppointmentsAsync(int recurrenceRuleId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: recurrenceRuleId
+      type: System.Int32
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.Util.RecurringSeries}
+      description: ''
+    content.vb: Function GetRecurringSeriesOnlyMotherAppointmentsAsync(recurrenceRuleId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of RecurringSeries)
+  overload: SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesOnlyMotherAppointmentsAsync*
+  nameWithType.vb: IAppointmentUtility.GetRecurringSeriesOnlyMotherAppointmentsAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesOnlyMotherAppointmentsAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetRecurringSeriesOnlyMotherAppointmentsAsync(Integer, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.GetTemplateLanguageAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.GetTemplateLanguageAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetTemplateLanguageAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetTemplateLanguageAsync(int, CancellationToken)
+  nameWithType: IAppointmentUtility.GetTemplateLanguageAsync(int, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.GetTemplateLanguageAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: SO Language code used for e-mail invites for this appointment.
+  example: []
+  syntax:
+    content: Task<string> GetTemplateLanguageAsync(int appointmentId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: SO Language code ("US", "SW" or "GE") or NULL if appointment not found.
+    content.vb: Function GetTemplateLanguageAsync(appointmentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.Util.IAppointmentUtility.GetTemplateLanguageAsync*
+  nameWithType.vb: IAppointmentUtility.GetTemplateLanguageAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.GetTemplateLanguageAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetTemplateLanguageAsync(Integer, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.GetTitle(System.String,System.Boolean)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.GetTitle(System.String,System.Boolean)
+  id: GetTitle(System.String,System.Boolean)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetTitle(string, bool)
+  nameWithType: IAppointmentUtility.GetTitle(string, bool)
+  fullName: SuperOffice.Util.IAppointmentUtility.GetTitle(string, bool)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: string GetTitle(string description, bool cleanDescription = false)
+    parameters:
+    - id: description
+      type: System.String
+    - id: cleanDescription
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Function GetTitle(description As String, cleanDescription As Boolean = False) As String
+  overload: SuperOffice.Util.IAppointmentUtility.GetTitle*
+  nameWithType.vb: IAppointmentUtility.GetTitle(String, Boolean)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.GetTitle(String, Boolean)
+  name.vb: GetTitle(String, Boolean)
+- uid: SuperOffice.Util.IAppointmentUtility.HasCalendarAccessAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.HasCalendarAccessAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: HasCalendarAccessAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: HasCalendarAccessAsync(int, int, CancellationToken)
+  nameWithType: IAppointmentUtility.HasCalendarAccessAsync(int, int, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.HasCalendarAccessAsync(int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: Checks whether the active person has access to see someones calendar.
+  example: []
+  syntax:
+    content: Task<bool> HasCalendarAccessAsync(int activePersonId, int calendarOwnerId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: activePersonId
+      type: System.Int32
+      description: Person id of the active person (the one logged on).
+    - id: calendarOwnerId
+      type: System.Int32
+      description: The id of the person whose calendar the logged on user wants to see
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: True if access is allowed, false otherwise.
+    content.vb: Function HasCalendarAccessAsync(activePersonId As Integer, calendarOwnerId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.Util.IAppointmentUtility.HasCalendarAccessAsync*
+  nameWithType.vb: IAppointmentUtility.HasCalendarAccessAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.HasCalendarAccessAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: HasCalendarAccessAsync(Integer, Integer, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.HaveChanged(System.String,System.String)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.HaveChanged(System.String,System.String)
+  id: HaveChanged(System.String,System.String)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: HaveChanged(string, string)
+  nameWithType: IAppointmentUtility.HaveChanged(string, string)
+  fullName: SuperOffice.Util.IAppointmentUtility.HaveChanged(string, string)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: bool HaveChanged(string dataContainerValue, string carrierValue)
+    parameters:
+    - id: dataContainerValue
+      type: System.String
+    - id: carrierValue
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Function HaveChanged(dataContainerValue As String, carrierValue As String) As Boolean
+  overload: SuperOffice.Util.IAppointmentUtility.HaveChanged*
+  nameWithType.vb: IAppointmentUtility.HaveChanged(String, String)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.HaveChanged(String, String)
+  name.vb: HaveChanged(String, String)
+- uid: SuperOffice.Util.IAppointmentUtility.ModifyOnRowsAsync(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,SuperOffice.Util.RowModification,SuperOffice.Util.RowModification,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.ModifyOnRowsAsync(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,SuperOffice.Util.RowModification,SuperOffice.Util.RowModification,System.Threading.CancellationToken)
+  id: ModifyOnRowsAsync(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,SuperOffice.Util.RowModification,SuperOffice.Util.RowModification,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: ModifyOnRowsAsync(int, RecurrenceUpdateMode, RowModification, RowModification, CancellationToken)
+  nameWithType: IAppointmentUtility.ModifyOnRowsAsync(int, RecurrenceUpdateMode, RowModification, RowModification, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.ModifyOnRowsAsync(int, SuperOffice.Data.RecurrenceUpdateMode, SuperOffice.Util.RowModification, SuperOffice.Util.RowModification, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: Task ModifyOnRowsAsync(int appointmentId, RecurrenceUpdateMode recurrenceUpdateMode, RowModification operationOnFirst, RowModification operationOnConsecutive, CancellationToken cancellationToken = default)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    - id: recurrenceUpdateMode
+      type: SuperOffice.Data.RecurrenceUpdateMode
+    - id: operationOnFirst
+      type: SuperOffice.Util.RowModification
+    - id: operationOnConsecutive
+      type: SuperOffice.Util.RowModification
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function ModifyOnRowsAsync(appointmentId As Integer, recurrenceUpdateMode As RecurrenceUpdateMode, operationOnFirst As RowModification, operationOnConsecutive As RowModification, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Util.IAppointmentUtility.ModifyOnRowsAsync*
+  nameWithType.vb: IAppointmentUtility.ModifyOnRowsAsync(Integer, RecurrenceUpdateMode, RowModification, RowModification, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.ModifyOnRowsAsync(Integer, SuperOffice.Data.RecurrenceUpdateMode, SuperOffice.Util.RowModification, SuperOffice.Util.RowModification, System.Threading.CancellationToken)
+  name.vb: ModifyOnRowsAsync(Integer, RecurrenceUpdateMode, RowModification, RowModification, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.RejectAsync(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.RejectAsync(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,System.String,System.Threading.CancellationToken)
+  id: RejectAsync(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: RejectAsync(int, RecurrenceUpdateMode, string, CancellationToken)
+  nameWithType: IAppointmentUtility.RejectAsync(int, RecurrenceUpdateMode, string, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.RejectAsync(int, SuperOffice.Data.RecurrenceUpdateMode, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: >-
+    Rejects all occurrences of the appointment for the participant. If only one occurrence exist, then only
+
+    this one is rejected (not a recurring booking appointment).  The result of the rejection is saved to the database.
+  example: []
+  syntax:
+    content: Task RejectAsync(int appointmentId, RecurrenceUpdateMode recurrenceUpdateMode, string rejectReason, CancellationToken cancellationToken = default)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+      description: AppointmentId of Invitation or Assignment to be set to rejected.
+    - id: recurrenceUpdateMode
+      type: SuperOffice.Data.RecurrenceUpdateMode
+      description: How recurrence updates should be handled
+    - id: rejectReason
+      type: System.String
+      description: Text that explains why he/she can not attend
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RejectAsync(appointmentId As Integer, recurrenceUpdateMode As RecurrenceUpdateMode, rejectReason As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Util.IAppointmentUtility.RejectAsync*
+  nameWithType.vb: IAppointmentUtility.RejectAsync(Integer, RecurrenceUpdateMode, String, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.RejectAsync(Integer, SuperOffice.Data.RecurrenceUpdateMode, String, System.Threading.CancellationToken)
+  name.vb: RejectAsync(Integer, RecurrenceUpdateMode, String, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.SetSeenAsync(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.SetSeenAsync(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,System.Threading.CancellationToken)
+  id: SetSeenAsync(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: SetSeenAsync(int, RecurrenceUpdateMode, CancellationToken)
+  nameWithType: IAppointmentUtility.SetSeenAsync(int, RecurrenceUpdateMode, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.SetSeenAsync(int, SuperOffice.Data.RecurrenceUpdateMode, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: Sets an appointment Invitation or Assignment to seen and save it to the database.
+  remarks: >-
+    Set Seen (Booking or Assignment) or MovedSeen (Booking) depending on the previous status 
+
+    of the Appointment
+  example: []
+  syntax:
+    content: Task SetSeenAsync(int appointmentId, RecurrenceUpdateMode recurrenceUpdateMode, CancellationToken cancellationToken = default)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+      description: AppointmentId of Invitation or Assignment to be set to seen.
+    - id: recurrenceUpdateMode
+      type: SuperOffice.Data.RecurrenceUpdateMode
+      description: How recurrence updates should be handled
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetSeenAsync(appointmentId As Integer, recurrenceUpdateMode As RecurrenceUpdateMode, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Util.IAppointmentUtility.SetSeenAsync*
+  nameWithType.vb: IAppointmentUtility.SetSeenAsync(Integer, RecurrenceUpdateMode, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.SetSeenAsync(Integer, SuperOffice.Data.RecurrenceUpdateMode, System.Threading.CancellationToken)
+  name.vb: SetSeenAsync(Integer, RecurrenceUpdateMode, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.TryGetNearestUidOfAppointmentIdAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.TryGetNearestUidOfAppointmentIdAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: TryGetNearestUidOfAppointmentIdAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: TryGetNearestUidOfAppointmentIdAsync(int, int, CancellationToken)
+  nameWithType: IAppointmentUtility.TryGetNearestUidOfAppointmentIdAsync(int, int, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.TryGetNearestUidOfAppointmentIdAsync(int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: Task<(bool, string, int)> TryGetNearestUidOfAppointmentIdAsync(int recurrenceRuleId, int appointmentId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: recurrenceRuleId
+      type: System.Int32
+    - id: appointmentId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.String,System.Int32}}
+    content.vb: Function TryGetNearestUidOfAppointmentIdAsync(recurrenceRuleId As Integer, appointmentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of (Boolean, String, Integer))
+  overload: SuperOffice.Util.IAppointmentUtility.TryGetNearestUidOfAppointmentIdAsync*
+  nameWithType.vb: IAppointmentUtility.TryGetNearestUidOfAppointmentIdAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.TryGetNearestUidOfAppointmentIdAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: TryGetNearestUidOfAppointmentIdAsync(Integer, Integer, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.TryGetOfAppointmentIdFromRecurrenceIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.TryGetOfAppointmentIdFromRecurrenceIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: TryGetOfAppointmentIdFromRecurrenceIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: TryGetOfAppointmentIdFromRecurrenceIdAsync(int, CancellationToken)
+  nameWithType: IAppointmentUtility.TryGetOfAppointmentIdFromRecurrenceIdAsync(int, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.TryGetOfAppointmentIdFromRecurrenceIdAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: Attempts to match the appointment id to a recurring id from the Invitation table.
+  example: []
+  syntax:
+    content: Task<int> TryGetOfAppointmentIdFromRecurrenceIdAsync(int recurrenceRuleId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: recurrenceRuleId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: ''
+    content.vb: Function TryGetOfAppointmentIdFromRecurrenceIdAsync(recurrenceRuleId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.Util.IAppointmentUtility.TryGetOfAppointmentIdFromRecurrenceIdAsync*
+  nameWithType.vb: IAppointmentUtility.TryGetOfAppointmentIdFromRecurrenceIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.TryGetOfAppointmentIdFromRecurrenceIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: TryGetOfAppointmentIdFromRecurrenceIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.TryGetRelatedUidOfAppointmentIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.TryGetRelatedUidOfAppointmentIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: TryGetRelatedUidOfAppointmentIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: TryGetRelatedUidOfAppointmentIdAsync(int, CancellationToken)
+  nameWithType: IAppointmentUtility.TryGetRelatedUidOfAppointmentIdAsync(int, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.TryGetRelatedUidOfAppointmentIdAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: Attempts to match the appointment id to a Uid in the Invitation table. If the appointment id refers to a child, the mother id is used.
+  example: []
+  syntax:
+    content: Task<(bool, string)> TryGetRelatedUidOfAppointmentIdAsync(int appointmentId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.String}}
+      description: ''
+    content.vb: Function TryGetRelatedUidOfAppointmentIdAsync(appointmentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of (Boolean, String))
+  overload: SuperOffice.Util.IAppointmentUtility.TryGetRelatedUidOfAppointmentIdAsync*
+  nameWithType.vb: IAppointmentUtility.TryGetRelatedUidOfAppointmentIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.TryGetRelatedUidOfAppointmentIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: TryGetRelatedUidOfAppointmentIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.TryGetUidFromRecurringAppointmentChildAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.TryGetUidFromRecurringAppointmentChildAsync(System.Int32,System.Threading.CancellationToken)
+  id: TryGetUidFromRecurringAppointmentChildAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: TryGetUidFromRecurringAppointmentChildAsync(int, CancellationToken)
+  nameWithType: IAppointmentUtility.TryGetUidFromRecurringAppointmentChildAsync(int, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.TryGetUidFromRecurringAppointmentChildAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: Recurring chilren are not directly connected to the mother appointment listed in the invitation table
+  example: []
+  syntax:
+    content: Task<(bool, string)> TryGetUidFromRecurringAppointmentChildAsync(int appointmentId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.String}}
+      description: ''
+    content.vb: Function TryGetUidFromRecurringAppointmentChildAsync(appointmentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of (Boolean, String))
+  overload: SuperOffice.Util.IAppointmentUtility.TryGetUidFromRecurringAppointmentChildAsync*
+  nameWithType.vb: IAppointmentUtility.TryGetUidFromRecurringAppointmentChildAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.TryGetUidFromRecurringAppointmentChildAsync(Integer, System.Threading.CancellationToken)
+  name.vb: TryGetUidFromRecurringAppointmentChildAsync(Integer, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.TryGetUidOfAppointmentIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.TryGetUidOfAppointmentIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: TryGetUidOfAppointmentIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: TryGetUidOfAppointmentIdAsync(int, CancellationToken)
+  nameWithType: IAppointmentUtility.TryGetUidOfAppointmentIdAsync(int, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.TryGetUidOfAppointmentIdAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: Attempts to match the appointment id to a Uid in the Invitation table.
+  example: []
+  syntax:
+    content: Task<(bool, string, int, string)> TryGetUidOfAppointmentIdAsync(int appointmentId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.String,System.Int32,System.String}}
+      description: First Uid found, sorted by invitationId ascending.
+    content.vb: Function TryGetUidOfAppointmentIdAsync(appointmentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of (Boolean, String, Integer, String))
+  overload: SuperOffice.Util.IAppointmentUtility.TryGetUidOfAppointmentIdAsync*
+  nameWithType.vb: IAppointmentUtility.TryGetUidOfAppointmentIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.TryGetUidOfAppointmentIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: TryGetUidOfAppointmentIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.TryGetUidOfRecurrenceIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.TryGetUidOfRecurrenceIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: TryGetUidOfRecurrenceIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: TryGetUidOfRecurrenceIdAsync(int, CancellationToken)
+  nameWithType: IAppointmentUtility.TryGetUidOfRecurrenceIdAsync(int, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.TryGetUidOfRecurrenceIdAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: Attempts to match the appointment id to a Uid in the Invitation table.
+  example: []
+  syntax:
+    content: Task<(bool, string)> TryGetUidOfRecurrenceIdAsync(int recurrenceRuleId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: recurrenceRuleId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.String}}
+      description: ''
+    content.vb: Function TryGetUidOfRecurrenceIdAsync(recurrenceRuleId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of (Boolean, String))
+  overload: SuperOffice.Util.IAppointmentUtility.TryGetUidOfRecurrenceIdAsync*
+  nameWithType.vb: IAppointmentUtility.TryGetUidOfRecurrenceIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.TryGetUidOfRecurrenceIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: TryGetUidOfRecurrenceIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceAsync(System.Int32,System.DateTime,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceAsync(System.Int32,System.DateTime,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  id: UpdateLastModifiedAndIncrementSequenceAsync(System.Int32,System.DateTime,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: UpdateLastModifiedAndIncrementSequenceAsync(int, DateTime, DateTime?, DateTime?, CancellationToken)
+  nameWithType: IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceAsync(int, DateTime, DateTime?, DateTime?, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceAsync(int, System.DateTime, System.DateTime?, System.DateTime?, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: Task<(int, string)> UpdateLastModifiedAndIncrementSequenceAsync(int invitationId, DateTime lastModified, DateTime? recurringStartDate = null, DateTime? recurringEndDate = null, CancellationToken cancellationToken = default)
+    parameters:
+    - id: invitationId
+      type: System.Int32
+    - id: lastModified
+      type: System.DateTime
+    - id: recurringStartDate
+      type: System.Nullable{System.DateTime}
+    - id: recurringEndDate
+      type: System.Nullable{System.DateTime}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.Int32,System.String}}
+    content.vb: Function UpdateLastModifiedAndIncrementSequenceAsync(invitationId As Integer, lastModified As Date, recurringStartDate As Date? = Nothing, recurringEndDate As Date? = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of (Integer, String))
+  overload: SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceAsync*
+  nameWithType.vb: IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceAsync(Integer, Date, Date?, Date?, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceAsync(Integer, Date, Date?, Date?, System.Threading.CancellationToken)
+  name.vb: UpdateLastModifiedAndIncrementSequenceAsync(Integer, Date, Date?, Date?, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfRowAsync(SuperOffice.CRM.Rows.InvitationRow,System.DateTime,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfRowAsync(SuperOffice.CRM.Rows.InvitationRow,System.DateTime,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  id: UpdateLastModifiedAndIncrementSequenceOfRowAsync(SuperOffice.CRM.Rows.InvitationRow,System.DateTime,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: UpdateLastModifiedAndIncrementSequenceOfRowAsync(InvitationRow, DateTime, DateTime?, DateTime?, CancellationToken)
+  nameWithType: IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfRowAsync(InvitationRow, DateTime, DateTime?, DateTime?, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfRowAsync(SuperOffice.CRM.Rows.InvitationRow, System.DateTime, System.DateTime?, System.DateTime?, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: Task<(int, string)> UpdateLastModifiedAndIncrementSequenceOfRowAsync(InvitationRow row, DateTime lastModified, DateTime? recurringStartDate = null, DateTime? recurringEndDate = null, CancellationToken cancellationToken = default)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.InvitationRow
+    - id: lastModified
+      type: System.DateTime
+    - id: recurringStartDate
+      type: System.Nullable{System.DateTime}
+    - id: recurringEndDate
+      type: System.Nullable{System.DateTime}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.Int32,System.String}}
+    content.vb: Function UpdateLastModifiedAndIncrementSequenceOfRowAsync(row As InvitationRow, lastModified As Date, recurringStartDate As Date? = Nothing, recurringEndDate As Date? = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of (Integer, String))
+  overload: SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfRowAsync*
+  nameWithType.vb: IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfRowAsync(InvitationRow, Date, Date?, Date?, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfRowAsync(SuperOffice.CRM.Rows.InvitationRow, Date, Date?, Date?, System.Threading.CancellationToken)
+  name.vb: UpdateLastModifiedAndIncrementSequenceOfRowAsync(InvitationRow, Date, Date?, Date?, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfUidAsync(System.String,System.DateTime,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfUidAsync(System.String,System.DateTime,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  id: UpdateLastModifiedAndIncrementSequenceOfUidAsync(System.String,System.DateTime,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: UpdateLastModifiedAndIncrementSequenceOfUidAsync(string, DateTime, DateTime?, DateTime?, CancellationToken)
+  nameWithType: IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfUidAsync(string, DateTime, DateTime?, DateTime?, CancellationToken)
+  fullName: SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfUidAsync(string, System.DateTime, System.DateTime?, System.DateTime?, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: Updates the last modified value, and increments the sequence number of the uid in the Invitation table. Returns the new sequence number.
+  example: []
+  syntax:
+    content: Task<(int, string)> UpdateLastModifiedAndIncrementSequenceOfUidAsync(string uid, DateTime lastModified, DateTime? recurringStartDate = null, DateTime? recurringEndDate = null, CancellationToken cancellationToken = default)
+    parameters:
+    - id: uid
+      type: System.String
+      description: ''
+    - id: lastModified
+      type: System.DateTime
+    - id: recurringStartDate
+      type: System.Nullable{System.DateTime}
+    - id: recurringEndDate
+      type: System.Nullable{System.DateTime}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.Int32,System.String}}
+      description: The new sequence number. -1 if failed.
+    content.vb: Function UpdateLastModifiedAndIncrementSequenceOfUidAsync(uid As String, lastModified As Date, recurringStartDate As Date? = Nothing, recurringEndDate As Date? = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of (Integer, String))
+  overload: SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfUidAsync*
+  nameWithType.vb: IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfUidAsync(String, Date, Date?, Date?, CancellationToken)
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfUidAsync(String, Date, Date?, Date?, System.Threading.CancellationToken)
+  name.vb: UpdateLastModifiedAndIncrementSequenceOfUidAsync(String, Date, Date?, Date?, CancellationToken)
+- uid: SuperOffice.Util.IAppointmentUtility.ValidateParticipantAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
+  commentId: M:SuperOffice.Util.IAppointmentUtility.ValidateParticipantAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
+  id: ValidateParticipantAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
+  parent: SuperOffice.Util.IAppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: ValidateParticipantAsync(CancellationToken, params ParticipantInfo[])
+  nameWithType: IAppointmentUtility.ValidateParticipantAsync(CancellationToken, params ParticipantInfo[])
+  fullName: SuperOffice.Util.IAppointmentUtility.ValidateParticipantAsync(System.Threading.CancellationToken, params SuperOffice.CRM.Services.ParticipantInfo[])
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: >-
+    Validates the information in the ParticipantInfo given as parameter and fills inn 
+
+    lacking information if needed. I.e assoc_id could both represent an associate or a resource.
+
+    In the case of an associate, the person_id should also be present. Person that are
+
+    actually associates are similarly updated with their associate id. 
+
+    <p></p>This also ensures consistent processing later on (associates really are processed as associates, etc)
+  example: []
+  syntax:
+    content: Task ValidateParticipantAsync(CancellationToken cancellationToken, params ParticipantInfo[] participants)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    - id: participants
+      type: SuperOffice.CRM.Services.ParticipantInfo[]
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function ValidateParticipantAsync(cancellationToken As CancellationToken, ParamArray participants As ParticipantInfo()) As Task
+  overload: SuperOffice.Util.IAppointmentUtility.ValidateParticipantAsync*
+  nameWithType.vb: IAppointmentUtility.ValidateParticipantAsync(CancellationToken, ParamArray ParticipantInfo())
+  fullName.vb: SuperOffice.Util.IAppointmentUtility.ValidateParticipantAsync(System.Threading.CancellationToken, ParamArray SuperOffice.CRM.Services.ParticipantInfo())
+  name.vb: ValidateParticipantAsync(CancellationToken, ParamArray ParticipantInfo())
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.Util.IAppointmentUtility.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IAppointmentUtility, To>(IAppointmentUtility)
+  nameWithType: EnumUtil.MapEnums<IAppointmentUtility, To>(IAppointmentUtility)
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.IAppointmentUtility, To>(SuperOffice.Util.IAppointmentUtility)
+  nameWithType.vb: EnumUtil.MapEnums(Of IAppointmentUtility, To)(IAppointmentUtility)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.IAppointmentUtility, To)(SuperOffice.Util.IAppointmentUtility)
+  name.vb: MapEnums(Of IAppointmentUtility, To)(IAppointmentUtility)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.IAppointmentUtility)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.IAppointmentUtility
+    name: IAppointmentUtility
+    isExternal: true
+    href: SuperOffice.Util.IAppointmentUtility.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.IAppointmentUtility
+    name: IAppointmentUtility
+    isExternal: true
+    href: SuperOffice.Util.IAppointmentUtility.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.IAppointmentUtility)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.IAppointmentUtility
+    name: IAppointmentUtility
+    isExternal: true
+    href: SuperOffice.Util.IAppointmentUtility.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.IAppointmentUtility
+    name: IAppointmentUtility
+    isExternal: true
+    href: SuperOffice.Util.IAppointmentUtility.html
+  - name: )
+- uid: SuperOffice.Util.IAppointmentUtility.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IAppointmentUtility, To>(IAppointmentUtility)
+  nameWithType: Converters.MapEnums<IAppointmentUtility, To>(IAppointmentUtility)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.IAppointmentUtility, To>(SuperOffice.Util.IAppointmentUtility)
+  nameWithType.vb: Converters.MapEnums(Of IAppointmentUtility, To)(IAppointmentUtility)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.IAppointmentUtility, To)(SuperOffice.Util.IAppointmentUtility)
+  name.vb: MapEnums(Of IAppointmentUtility, To)(IAppointmentUtility)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.IAppointmentUtility)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.IAppointmentUtility
+    name: IAppointmentUtility
+    isExternal: true
+    href: SuperOffice.Util.IAppointmentUtility.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.IAppointmentUtility
+    name: IAppointmentUtility
+    isExternal: true
+    href: SuperOffice.Util.IAppointmentUtility.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.IAppointmentUtility)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.IAppointmentUtility
+    name: IAppointmentUtility
+    isExternal: true
+    href: SuperOffice.Util.IAppointmentUtility.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.IAppointmentUtility
+    name: IAppointmentUtility
+    isExternal: true
+    href: SuperOffice.Util.IAppointmentUtility.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util.IAppointmentUtility.AcceptAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.AcceptAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_AcceptAsync_System_Int32_SuperOffice_Data_RecurrenceUpdateMode_System_Threading_CancellationToken_
+  name: AcceptAsync
+  nameWithType: IAppointmentUtility.AcceptAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.AcceptAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.Data.RecurrenceUpdateMode
+  commentId: T:SuperOffice.Data.RecurrenceUpdateMode
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.RecurrenceUpdateMode.html
+  name: RecurrenceUpdateMode
+  nameWithType: RecurrenceUpdateMode
+  fullName: SuperOffice.Data.RecurrenceUpdateMode
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.Util.IAppointmentUtility.CleanSynchronizerValuesFromDescription*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.CleanSynchronizerValuesFromDescription
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_CleanSynchronizerValuesFromDescription_System_String_
+  name: CleanSynchronizerValuesFromDescription
+  nameWithType: IAppointmentUtility.CleanSynchronizerValuesFromDescription
+  fullName: SuperOffice.Util.IAppointmentUtility.CleanSynchronizerValuesFromDescription
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.Util.IAppointmentUtility.DeleteCancelledAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.DeleteCancelledAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_DeleteCancelledAsync_System_Int32_SuperOffice_Data_RecurrenceUpdateMode_System_Threading_CancellationToken_
+  name: DeleteCancelledAsync
+  nameWithType: IAppointmentUtility.DeleteCancelledAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.DeleteCancelledAsync
+- uid: SuperOffice.Util.IAppointmentUtility.GetAgenda*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.GetAgenda
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_GetAgenda_System_String_System_Boolean_
+  name: GetAgenda
+  nameWithType: IAppointmentUtility.GetAgenda
+  fullName: SuperOffice.Util.IAppointmentUtility.GetAgenda
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.Util.IAppointmentUtility.GetAgendaHtml*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.GetAgendaHtml
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_GetAgendaHtml_System_String_System_Boolean_
+  name: GetAgendaHtml
+  nameWithType: IAppointmentUtility.GetAgendaHtml
+  fullName: SuperOffice.Util.IAppointmentUtility.GetAgendaHtml
+- uid: SuperOffice.Util.IAppointmentUtility.GetAllAppointmentRowsOfRecurrenceRuleIDAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.GetAllAppointmentRowsOfRecurrenceRuleIDAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_GetAllAppointmentRowsOfRecurrenceRuleIDAsync_System_Int32_System_Boolean_System_Threading_CancellationToken_
+  name: GetAllAppointmentRowsOfRecurrenceRuleIDAsync
+  nameWithType: IAppointmentUtility.GetAllAppointmentRowsOfRecurrenceRuleIDAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.GetAllAppointmentRowsOfRecurrenceRuleIDAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.AppointmentRow[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.AppointmentRow[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<AppointmentRow[]>
+  nameWithType: Task<AppointmentRow[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.AppointmentRow[]>
+  nameWithType.vb: Task(Of AppointmentRow())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.AppointmentRow())
+  name.vb: Task(Of AppointmentRow())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.AppointmentRow
+    name: AppointmentRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AppointmentRow.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.AppointmentRow
+    name: AppointmentRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AppointmentRow.html
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: SuperOffice.Util.IAppointmentUtility.GetAppointmentIdFromRecurringIdAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.GetAppointmentIdFromRecurringIdAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_GetAppointmentIdFromRecurringIdAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetAppointmentIdFromRecurringIdAsync
+  nameWithType: IAppointmentUtility.GetAppointmentIdFromRecurringIdAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.GetAppointmentIdFromRecurringIdAsync
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.Util.IAppointmentUtility.GetAppointmentIdFromUIDAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.GetAppointmentIdFromUIDAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_GetAppointmentIdFromUIDAsync_System_String_System_Threading_CancellationToken_
+  name: GetAppointmentIdFromUIDAsync
+  nameWithType: IAppointmentUtility.GetAppointmentIdFromUIDAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.GetAppointmentIdFromUIDAsync
+- uid: SuperOffice.Util.IAppointmentUtility.GetConnectionInfoAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.GetConnectionInfoAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_GetConnectionInfoAsync
+  name: GetConnectionInfoAsync
+  nameWithType: IAppointmentUtility.GetConnectionInfoAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.GetConnectionInfoAsync
+- uid: System.Threading.Tasks.Task{System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(ServiceAuthRecordData imap, ServiceAuthRecordData smtp, string sentFolder)>
+  nameWithType: Task<(ServiceAuthRecordData imap, ServiceAuthRecordData smtp, string sentFolder)>
+  fullName: System.Threading.Tasks.Task<(SuperOffice.CRM.Rows.ServiceAuthRecordData imap, SuperOffice.CRM.Rows.ServiceAuthRecordData smtp, string sentFolder)>
+  nameWithType.vb: Task(Of (imap As ServiceAuthRecordData, smtp As ServiceAuthRecordData, sentFolder As String))
+  fullName.vb: System.Threading.Tasks.Task(Of (imap As SuperOffice.CRM.Rows.ServiceAuthRecordData, smtp As SuperOffice.CRM.Rows.ServiceAuthRecordData, sentFolder As String))
+  name.vb: Task(Of (imap As ServiceAuthRecordData, smtp As ServiceAuthRecordData, sentFolder As String))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - uid: SuperOffice.CRM.Rows.ServiceAuthRecordData
+    name: ServiceAuthRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ServiceAuthRecordData.html
+  - name: " "
+  - uid: System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String}.imap
+    name: imap
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.rows.serviceauthrecorddata,superoffice.crm.rows.serviceauthrecorddata,system.string-.imap
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.ServiceAuthRecordData
+    name: ServiceAuthRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ServiceAuthRecordData.html
+  - name: " "
+  - uid: System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String}.smtp
+    name: smtp
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.rows.serviceauthrecorddata,superoffice.crm.rows.serviceauthrecorddata,system.string-.smtp
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: " "
+  - uid: System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String}.sentFolder
+    name: sentFolder
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.rows.serviceauthrecorddata,superoffice.crm.rows.serviceauthrecorddata,system.string-.sentfolder
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String}.imap
+    name: imap
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.rows.serviceauthrecorddata,superoffice.crm.rows.serviceauthrecorddata,system.string-.imap
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.ServiceAuthRecordData
+    name: ServiceAuthRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ServiceAuthRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String}.smtp
+    name: smtp
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.rows.serviceauthrecorddata,superoffice.crm.rows.serviceauthrecorddata,system.string-.smtp
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.ServiceAuthRecordData
+    name: ServiceAuthRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ServiceAuthRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String}.sentFolder
+    name: sentFolder
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.rows.serviceauthrecorddata,superoffice.crm.rows.serviceauthrecorddata,system.string-.sentfolder
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: SuperOffice.Util.IAppointmentUtility.GetDescription*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.GetDescription
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_GetDescription_System_String_System_String_
+  name: GetDescription
+  nameWithType: IAppointmentUtility.GetDescription
+  fullName: SuperOffice.Util.IAppointmentUtility.GetDescription
+- uid: SuperOffice.Util.IAppointmentUtility.GetExistingInvitationIdFromUIDAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.GetExistingInvitationIdFromUIDAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_GetExistingInvitationIdFromUIDAsync_System_String_System_Threading_CancellationToken_
+  name: GetExistingInvitationIdFromUIDAsync
+  nameWithType: IAppointmentUtility.GetExistingInvitationIdFromUIDAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.GetExistingInvitationIdFromUIDAsync
+- uid: SuperOffice.Util.IAppointmentUtility.GetInvitationRecordDataAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.GetInvitationRecordDataAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_GetInvitationRecordDataAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetInvitationRecordDataAsync
+  nameWithType: IAppointmentUtility.GetInvitationRecordDataAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.GetInvitationRecordDataAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.InvitationRecordData}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.InvitationRecordData}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<InvitationRecordData>
+  nameWithType: Task<InvitationRecordData>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.InvitationRecordData>
+  nameWithType.vb: Task(Of InvitationRecordData)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.InvitationRecordData)
+  name.vb: Task(Of InvitationRecordData)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.InvitationRecordData
+    name: InvitationRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.InvitationRecordData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.InvitationRecordData
+    name: InvitationRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.InvitationRecordData.html
+  - name: )
+- uid: SuperOffice.Util.IAppointmentUtility.GetInvitationRecordDataFromUidAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.GetInvitationRecordDataFromUidAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_GetInvitationRecordDataFromUidAsync_System_String_System_Threading_CancellationToken_
+  name: GetInvitationRecordDataFromUidAsync
+  nameWithType: IAppointmentUtility.GetInvitationRecordDataFromUidAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.GetInvitationRecordDataFromUidAsync
+- uid: SuperOffice.Util.IAppointmentUtility.GetInvitationRowFromUidAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.GetInvitationRowFromUidAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_GetInvitationRowFromUidAsync_System_String_System_Threading_CancellationToken_
+  name: GetInvitationRowFromUidAsync
+  nameWithType: IAppointmentUtility.GetInvitationRowFromUidAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.GetInvitationRowFromUidAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.InvitationRow}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.InvitationRow}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<InvitationRow>
+  nameWithType: Task<InvitationRow>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.InvitationRow>
+  nameWithType.vb: Task(Of InvitationRow)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.InvitationRow)
+  name.vb: Task(Of InvitationRow)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.InvitationRow
+    name: InvitationRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.InvitationRow.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.InvitationRow
+    name: InvitationRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.InvitationRow.html
+  - name: )
+- uid: SuperOffice.Util.IAppointmentUtility.GetLastModifiedDateOfAppointment*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.GetLastModifiedDateOfAppointment
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_GetLastModifiedDateOfAppointment_SuperOffice_CRM_Rows_AppointmentRow_
+  name: GetLastModifiedDateOfAppointment
+  nameWithType: IAppointmentUtility.GetLastModifiedDateOfAppointment
+  fullName: SuperOffice.Util.IAppointmentUtility.GetLastModifiedDateOfAppointment
+- uid: SuperOffice.CRM.Rows.AppointmentRow
+  commentId: T:SuperOffice.CRM.Rows.AppointmentRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AppointmentRow.html
+  name: AppointmentRow
+  nameWithType: AppointmentRow
+  fullName: SuperOffice.CRM.Rows.AppointmentRow
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+- uid: SuperOffice.Util.IAppointmentUtility.GetOrCreateInvitationIdFromUIDAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.GetOrCreateInvitationIdFromUIDAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_GetOrCreateInvitationIdFromUIDAsync_System_String_System_Threading_CancellationToken_
+  name: GetOrCreateInvitationIdFromUIDAsync
+  nameWithType: IAppointmentUtility.GetOrCreateInvitationIdFromUIDAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.GetOrCreateInvitationIdFromUIDAsync
+- uid: System.Threading.Tasks.Task{System.ValueTuple{System.Int32,System.Boolean}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{System.Int32,System.Boolean}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(int, bool)>
+  nameWithType: Task<(int, bool)>
+  fullName: System.Threading.Tasks.Task<(int, bool)>
+  nameWithType.vb: Task(Of (Integer, Boolean))
+  fullName.vb: System.Threading.Tasks.Task(Of (Integer, Boolean))
+  name.vb: Task(Of (Integer, Boolean))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )
+- uid: SuperOffice.Util.IAppointmentUtility.GetOrCreateUidOfAppointmentAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.GetOrCreateUidOfAppointmentAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_GetOrCreateUidOfAppointmentAsync_System_Int32_System_String_System_DateTime_System_Nullable_System_DateTime__System_Nullable_System_DateTime__System_String_System_Threading_CancellationToken_
+  name: GetOrCreateUidOfAppointmentAsync
+  nameWithType: IAppointmentUtility.GetOrCreateUidOfAppointmentAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.GetOrCreateUidOfAppointmentAsync
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime?
+  nameWithType: DateTime?
+  fullName: System.DateTime?
+  nameWithType.vb: Date?
+  fullName.vb: Date?
+  name.vb: Date?
+  spec.csharp:
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: '?'
+  spec.vb:
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: '?'
+- uid: System.Threading.Tasks.Task{System.ValueTuple{System.String,System.Int32}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{System.String,System.Int32}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(string, int)>
+  nameWithType: Task<(string, int)>
+  fullName: System.Threading.Tasks.Task<(string, int)>
+  nameWithType.vb: Task(Of (String, Integer))
+  fullName.vb: System.Threading.Tasks.Task(Of (String, Integer))
+  name.vb: Task(Of (String, Integer))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  - name: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.IAppointmentUtility.GetOrganizerEmailAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.GetOrganizerEmailAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_GetOrganizerEmailAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetOrganizerEmailAsync
+  nameWithType: IAppointmentUtility.GetOrganizerEmailAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.GetOrganizerEmailAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.Util.IAppointmentUtility.GetOrganizerInfoAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.GetOrganizerInfoAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_GetOrganizerInfoAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetOrganizerInfoAsync
+  nameWithType: IAppointmentUtility.GetOrganizerInfoAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.GetOrganizerInfoAsync
+- uid: System.Threading.Tasks.Task{System.ValueTuple{System.String,System.String}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{System.String,System.String}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(string value, string tooltip)>
+  nameWithType: Task<(string value, string tooltip)>
+  fullName: System.Threading.Tasks.Task<(string value, string tooltip)>
+  nameWithType.vb: Task(Of (value As String, tooltip As String))
+  fullName.vb: System.Threading.Tasks.Task(Of (value As String, tooltip As String))
+  name.vb: Task(Of (value As String, tooltip As String))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String}.value
+    name: value
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string-.value
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String}.tooltip
+    name: tooltip
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string-.tooltip
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.ValueTuple{System.String,System.String}.value
+    name: value
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string-.value
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String}.tooltip
+    name: tooltip
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string-.tooltip
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: SuperOffice.Util.IAppointmentUtility.GetParticipantAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.GetParticipantAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_GetParticipantAsync_System_Int32_System_Int32_System_Int32_System_Int32_SuperOffice_Data_AppointmentStatus_System_Boolean_System_Threading_CancellationToken_
+  name: GetParticipantAsync
+  nameWithType: IAppointmentUtility.GetParticipantAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.GetParticipantAsync
+- uid: SuperOffice.Data.AppointmentStatus
+  commentId: T:SuperOffice.Data.AppointmentStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.AppointmentStatus.html
+  name: AppointmentStatus
+  nameWithType: AppointmentStatus
+  fullName: SuperOffice.Data.AppointmentStatus
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ParticipantInfo}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ParticipantInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ParticipantInfo>
+  nameWithType: Task<ParticipantInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ParticipantInfo>
+  nameWithType.vb: Task(Of ParticipantInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ParticipantInfo)
+  name.vb: Task(Of ParticipantInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.ParticipantInfo
+    name: ParticipantInfo
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.ParticipantInfo
+    name: ParticipantInfo
+    isExternal: true
+  - name: )
+- uid: SuperOffice.Util.IAppointmentUtility.GetRecurrenceRuleIdOfAppointmentIdAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.GetRecurrenceRuleIdOfAppointmentIdAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_GetRecurrenceRuleIdOfAppointmentIdAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetRecurrenceRuleIdOfAppointmentIdAsync
+  nameWithType: IAppointmentUtility.GetRecurrenceRuleIdOfAppointmentIdAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.GetRecurrenceRuleIdOfAppointmentIdAsync
+- uid: SuperOffice.Util.RecurringSeries
+  commentId: T:SuperOffice.Util.RecurringSeries
+  isExternal: true
+  href: SuperOffice.Util.RecurringSeries.html
+  name: RecurringSeries
+  nameWithType: RecurringSeries
+  fullName: SuperOffice.Util.RecurringSeries
+- uid: SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesForInvitedEmailAttendeeAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesForInvitedEmailAttendeeAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_GetRecurringSeriesForInvitedEmailAttendeeAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: GetRecurringSeriesForInvitedEmailAttendeeAsync
+  nameWithType: IAppointmentUtility.GetRecurringSeriesForInvitedEmailAttendeeAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesForInvitedEmailAttendeeAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Util.RecurringSeries}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.Util.RecurringSeries}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<RecurringSeries>
+  nameWithType: Task<RecurringSeries>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Util.RecurringSeries>
+  nameWithType.vb: Task(Of RecurringSeries)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Util.RecurringSeries)
+  name.vb: Task(Of RecurringSeries)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.Util.RecurringSeries
+    name: RecurringSeries
+    isExternal: true
+    href: SuperOffice.Util.RecurringSeries.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.RecurringSeries
+    name: RecurringSeries
+    isExternal: true
+    href: SuperOffice.Util.RecurringSeries.html
+  - name: )
+- uid: SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesForInvitedPersonAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesForInvitedPersonAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_GetRecurringSeriesForInvitedPersonAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: GetRecurringSeriesForInvitedPersonAsync
+  nameWithType: IAppointmentUtility.GetRecurringSeriesForInvitedPersonAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesForInvitedPersonAsync
+- uid: SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesOnlyMotherAppointmentsAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesOnlyMotherAppointmentsAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_GetRecurringSeriesOnlyMotherAppointmentsAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetRecurringSeriesOnlyMotherAppointmentsAsync
+  nameWithType: IAppointmentUtility.GetRecurringSeriesOnlyMotherAppointmentsAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.GetRecurringSeriesOnlyMotherAppointmentsAsync
+- uid: SuperOffice.Util.IAppointmentUtility.GetTemplateLanguageAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.GetTemplateLanguageAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_GetTemplateLanguageAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetTemplateLanguageAsync
+  nameWithType: IAppointmentUtility.GetTemplateLanguageAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.GetTemplateLanguageAsync
+- uid: SuperOffice.Util.IAppointmentUtility.GetTitle*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.GetTitle
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_GetTitle_System_String_System_Boolean_
+  name: GetTitle
+  nameWithType: IAppointmentUtility.GetTitle
+  fullName: SuperOffice.Util.IAppointmentUtility.GetTitle
+- uid: SuperOffice.Util.IAppointmentUtility.HasCalendarAccessAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.HasCalendarAccessAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_HasCalendarAccessAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: HasCalendarAccessAsync
+  nameWithType: IAppointmentUtility.HasCalendarAccessAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.HasCalendarAccessAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: SuperOffice.Util.IAppointmentUtility.HaveChanged*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.HaveChanged
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_HaveChanged_System_String_System_String_
+  name: HaveChanged
+  nameWithType: IAppointmentUtility.HaveChanged
+  fullName: SuperOffice.Util.IAppointmentUtility.HaveChanged
+- uid: SuperOffice.Util.IAppointmentUtility.ModifyOnRowsAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.ModifyOnRowsAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_ModifyOnRowsAsync_System_Int32_SuperOffice_Data_RecurrenceUpdateMode_SuperOffice_Util_RowModification_SuperOffice_Util_RowModification_System_Threading_CancellationToken_
+  name: ModifyOnRowsAsync
+  nameWithType: IAppointmentUtility.ModifyOnRowsAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.ModifyOnRowsAsync
+- uid: SuperOffice.Util.RowModification
+  commentId: T:SuperOffice.Util.RowModification
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.RowModification.html
+  name: RowModification
+  nameWithType: RowModification
+  fullName: SuperOffice.Util.RowModification
+- uid: SuperOffice.Util.IAppointmentUtility.RejectAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.RejectAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_RejectAsync_System_Int32_SuperOffice_Data_RecurrenceUpdateMode_System_String_System_Threading_CancellationToken_
+  name: RejectAsync
+  nameWithType: IAppointmentUtility.RejectAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.RejectAsync
+- uid: SuperOffice.Util.IAppointmentUtility.SetSeenAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.SetSeenAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_SetSeenAsync_System_Int32_SuperOffice_Data_RecurrenceUpdateMode_System_Threading_CancellationToken_
+  name: SetSeenAsync
+  nameWithType: IAppointmentUtility.SetSeenAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.SetSeenAsync
+- uid: SuperOffice.Util.IAppointmentUtility.TryGetNearestUidOfAppointmentIdAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.TryGetNearestUidOfAppointmentIdAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_TryGetNearestUidOfAppointmentIdAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: TryGetNearestUidOfAppointmentIdAsync
+  nameWithType: IAppointmentUtility.TryGetNearestUidOfAppointmentIdAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.TryGetNearestUidOfAppointmentIdAsync
+- uid: System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.String,System.Int32}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.String,System.Int32}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(bool, string, int)>
+  nameWithType: Task<(bool, string, int)>
+  fullName: System.Threading.Tasks.Task<(bool, string, int)>
+  nameWithType.vb: Task(Of (Boolean, String, Integer))
+  fullName.vb: System.Threading.Tasks.Task(Of (Boolean, String, Integer))
+  name.vb: Task(Of (Boolean, String, Integer))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  - name: )
+- uid: SuperOffice.Util.IAppointmentUtility.TryGetOfAppointmentIdFromRecurrenceIdAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.TryGetOfAppointmentIdFromRecurrenceIdAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_TryGetOfAppointmentIdFromRecurrenceIdAsync_System_Int32_System_Threading_CancellationToken_
+  name: TryGetOfAppointmentIdFromRecurrenceIdAsync
+  nameWithType: IAppointmentUtility.TryGetOfAppointmentIdFromRecurrenceIdAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.TryGetOfAppointmentIdFromRecurrenceIdAsync
+- uid: SuperOffice.Util.IAppointmentUtility.TryGetRelatedUidOfAppointmentIdAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.TryGetRelatedUidOfAppointmentIdAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_TryGetRelatedUidOfAppointmentIdAsync_System_Int32_System_Threading_CancellationToken_
+  name: TryGetRelatedUidOfAppointmentIdAsync
+  nameWithType: IAppointmentUtility.TryGetRelatedUidOfAppointmentIdAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.TryGetRelatedUidOfAppointmentIdAsync
+- uid: System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.String}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.String}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(bool, string)>
+  nameWithType: Task<(bool, string)>
+  fullName: System.Threading.Tasks.Task<(bool, string)>
+  nameWithType.vb: Task(Of (Boolean, String))
+  fullName.vb: System.Threading.Tasks.Task(Of (Boolean, String))
+  name.vb: Task(Of (Boolean, String))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: SuperOffice.Util.IAppointmentUtility.TryGetUidFromRecurringAppointmentChildAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.TryGetUidFromRecurringAppointmentChildAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_TryGetUidFromRecurringAppointmentChildAsync_System_Int32_System_Threading_CancellationToken_
+  name: TryGetUidFromRecurringAppointmentChildAsync
+  nameWithType: IAppointmentUtility.TryGetUidFromRecurringAppointmentChildAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.TryGetUidFromRecurringAppointmentChildAsync
+- uid: SuperOffice.Util.IAppointmentUtility.TryGetUidOfAppointmentIdAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.TryGetUidOfAppointmentIdAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_TryGetUidOfAppointmentIdAsync_System_Int32_System_Threading_CancellationToken_
+  name: TryGetUidOfAppointmentIdAsync
+  nameWithType: IAppointmentUtility.TryGetUidOfAppointmentIdAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.TryGetUidOfAppointmentIdAsync
+- uid: System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.String,System.Int32,System.String}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.String,System.Int32,System.String}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(bool, string, int, string)>
+  nameWithType: Task<(bool, string, int, string)>
+  fullName: System.Threading.Tasks.Task<(bool, string, int, string)>
+  nameWithType.vb: Task(Of (Boolean, String, Integer, String))
+  fullName.vb: System.Threading.Tasks.Task(Of (Boolean, String, Integer, String))
+  name.vb: Task(Of (Boolean, String, Integer, String))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: SuperOffice.Util.IAppointmentUtility.TryGetUidOfRecurrenceIdAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.TryGetUidOfRecurrenceIdAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_TryGetUidOfRecurrenceIdAsync_System_Int32_System_Threading_CancellationToken_
+  name: TryGetUidOfRecurrenceIdAsync
+  nameWithType: IAppointmentUtility.TryGetUidOfRecurrenceIdAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.TryGetUidOfRecurrenceIdAsync
+- uid: SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_UpdateLastModifiedAndIncrementSequenceAsync_System_Int32_System_DateTime_System_Nullable_System_DateTime__System_Nullable_System_DateTime__System_Threading_CancellationToken_
+  name: UpdateLastModifiedAndIncrementSequenceAsync
+  nameWithType: IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceAsync
+- uid: System.Threading.Tasks.Task{System.ValueTuple{System.Int32,System.String}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{System.Int32,System.String}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(int, string)>
+  nameWithType: Task<(int, string)>
+  fullName: System.Threading.Tasks.Task<(int, string)>
+  nameWithType.vb: Task(Of (Integer, String))
+  fullName.vb: System.Threading.Tasks.Task(Of (Integer, String))
+  name.vb: Task(Of (Integer, String))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfRowAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfRowAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_UpdateLastModifiedAndIncrementSequenceOfRowAsync_SuperOffice_CRM_Rows_InvitationRow_System_DateTime_System_Nullable_System_DateTime__System_Nullable_System_DateTime__System_Threading_CancellationToken_
+  name: UpdateLastModifiedAndIncrementSequenceOfRowAsync
+  nameWithType: IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfRowAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfRowAsync
+- uid: SuperOffice.CRM.Rows.InvitationRow
+  commentId: T:SuperOffice.CRM.Rows.InvitationRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.InvitationRow.html
+  name: InvitationRow
+  nameWithType: InvitationRow
+  fullName: SuperOffice.CRM.Rows.InvitationRow
+- uid: SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfUidAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfUidAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_UpdateLastModifiedAndIncrementSequenceOfUidAsync_System_String_System_DateTime_System_Nullable_System_DateTime__System_Nullable_System_DateTime__System_Threading_CancellationToken_
+  name: UpdateLastModifiedAndIncrementSequenceOfUidAsync
+  nameWithType: IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfUidAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfUidAsync
+- uid: SuperOffice.Util.IAppointmentUtility.ValidateParticipantAsync*
+  commentId: Overload:SuperOffice.Util.IAppointmentUtility.ValidateParticipantAsync
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html#SuperOffice_Util_IAppointmentUtility_ValidateParticipantAsync_System_Threading_CancellationToken_SuperOffice_CRM_Services_ParticipantInfo___
+  name: ValidateParticipantAsync
+  nameWithType: IAppointmentUtility.ValidateParticipantAsync
+  fullName: SuperOffice.Util.IAppointmentUtility.ValidateParticipantAsync
+- uid: SuperOffice.CRM.Services.ParticipantInfo[]
+  isExternal: true
+  name: ParticipantInfo[]
+  nameWithType: ParticipantInfo[]
+  fullName: SuperOffice.CRM.Services.ParticipantInfo[]
+  nameWithType.vb: ParticipantInfo()
+  fullName.vb: SuperOffice.CRM.Services.ParticipantInfo()
+  name.vb: ParticipantInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ParticipantInfo
+    name: ParticipantInfo
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ParticipantInfo
+    name: ParticipantInfo
+    isExternal: true
+  - name: (
+  - name: )

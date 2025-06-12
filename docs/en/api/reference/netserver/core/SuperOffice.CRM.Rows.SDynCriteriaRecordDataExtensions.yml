@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SDynCriteriaTableInfo})
   - SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SDynCriteriaTableInfo})
-  - SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SDynCriteriaRecordData)
-  - SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SDynCriteriaRecordData})
+  - SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SDynCriteriaTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SDynCriteriaRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SDynCriteriaRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.SDynCriteriaRow)
   langs:
   - csharp
@@ -17,71 +18,76 @@ items:
   nameWithType: SDynCriteriaRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nExtension methods to make it easy to fetch <xref href=\"SuperOffice.CRM.Rows.SDynCriteriaRecordData\" data-throw-if-not-resolved=\"false\"></xref> objects from the database,\nusing the <see cref=\"!:TargetedSelect\"></see> infrastructure\n"
+  summary: >-
+    Extension methods to make it easy to fetch <xref href="SuperOffice.CRM.Rows.SDynCriteriaRecordData" data-throw-if-not-resolved="false"></xref> objects from the database,
+
+    using the TargetedSelect infrastructure
+  example: []
   syntax:
-    content: 'public static class SDynCriteriaRecordDataExtensions : Object'
-    content.vb: >-
-      Public Module SDynCriteriaRecordDataExtensions
-          Inherits Object
+    content: public static class SDynCriteriaRecordDataExtensions
+    content.vb: Public Module SDynCriteriaRecordDataExtensions
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
-- uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SDynCriteriaTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SDynCriteriaTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SDynCriteriaTableInfo})
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SDynCriteriaTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SDynCriteriaTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SDynCriteriaTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<SDynCriteriaTableInfo>)
-  nameWithType: SDynCriteriaRecordDataExtensions.FromSelect(TargetedSelect<SDynCriteriaTableInfo>)
-  fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SDynCriteriaTableInfo>)
+  name: FromSelectAsync(TargetedSelect<SDynCriteriaTableInfo>, CancellationToken)
+  nameWithType: SDynCriteriaRecordDataExtensions.FromSelectAsync(TargetedSelect<SDynCriteriaTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SDynCriteriaTableInfo>, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nFrom a TargetedSelect&lt;SDynCriteriaTableInfo>, execute it and return an IEnumerable&lt;SDynCriteriaRecordData> with the results\n"
+  summary: From a TargetedSelect&lt;SDynCriteriaTableInfo&gt;, execute it and return an IEnumerable&lt;SDynCriteriaRecordData&gt; with the results
   example:
   - >-
-    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
-                var result = s.FromSelect();</code></pre>
+    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
+
+    var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<SDynCriteriaRecordData> FromSelect(this TargetedSelect<SDynCriteriaTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<SDynCriteriaRecordData> FromSelectAsync(this TargetedSelect<SDynCriteriaTableInfo> select, CancellationToken cancellationToken = default)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SDynCriteriaTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SDynCriteriaRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.SDynCriteriaRecordData}
     content.vb: >-
-      <ExtensionAttribute>
+      <CreateSyncVersion(OmitNullableDirective:=True)>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of SDynCriteriaTableInfo)) As IEnumerable(Of SDynCriteriaRecordData)
-  overload: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelect*
-  nameWithType.vb: SDynCriteriaRecordDataExtensions.FromSelect(TargetedSelect(Of SDynCriteriaTableInfo))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SDynCriteriaTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of SDynCriteriaTableInfo))
+      Public Shared Function FromSelectAsync([select] As TargetedSelect(Of SDynCriteriaTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of SDynCriteriaRecordData)
+  overload: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: SDynCriteriaRecordDataExtensions.FromSelectAsync(TargetedSelect(Of SDynCriteriaTableInfo), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SDynCriteriaTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of SDynCriteriaTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SDynCriteriaTableInfo})
   commentId: M:SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SDynCriteriaTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SDynCriteriaTableInfo})
@@ -94,19 +100,19 @@ items:
   nameWithType: SDynCriteriaRecordDataExtensions.FromRecord(TargetedDataRecord<SDynCriteriaTableInfo>)
   fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.SDynCriteriaTableInfo>)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nFrom a TargetedDataRecord&lt;SDynCriteriaTableInfo>, create and populate a <xref href=\"SuperOffice.CRM.Rows.SDynCriteriaRecordData\" data-throw-if-not-resolved=\"false\"></xref> POCO object\n"
+  summary: From a TargetedDataRecord&lt;SDynCriteriaTableInfo&gt;, create and populate a <xref href="SuperOffice.CRM.Rows.SDynCriteriaRecordData" data-throw-if-not-resolved="false"></xref> POCO object
   example:
   - >-
-    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
-                /* add joins, return fields etc. as you wish */
-                s.ReturnFields.Add(s.Table.All);
-                var result = s.Records().Select(r => new { SDynCriteriaItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
+    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
+
+    /* add joins, return fields etc. as you wish */
+
+    s.ReturnFields.Add(s.Table.All);
+
+    var result = s.Records().Select(r =&gt; new { SDynCriteriaItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
   syntax:
     content: public static SDynCriteriaRecordData FromRecord(this TargetedDataRecord<SDynCriteriaTableInfo> record)
     parameters:
@@ -114,95 +120,66 @@ items:
       type: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SDynCriteriaTableInfo}
     return:
       type: SuperOffice.CRM.Rows.SDynCriteriaRecordData
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function FromRecord(record As TargetedDataRecord(Of SDynCriteriaTableInfo)) As SDynCriteriaRecordData
+    content.vb: Public Shared Function FromRecord(record As TargetedDataRecord(Of SDynCriteriaTableInfo)) As SDynCriteriaRecordData
   overload: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromRecord*
   nameWithType.vb: SDynCriteriaRecordDataExtensions.FromRecord(TargetedDataRecord(Of SDynCriteriaTableInfo))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
   fullName.vb: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.SDynCriteriaTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of SDynCriteriaTableInfo))
-- uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SDynCriteriaRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SDynCriteriaRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.SDynCriteriaRecordData)
+- uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SDynCriteriaRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SDynCriteriaRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.SDynCriteriaRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(SDynCriteriaRecordData)
-  nameWithType: SDynCriteriaRecordDataExtensions.ToInsert(SDynCriteriaRecordData)
-  fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SDynCriteriaRecordData)
+  name: ToInsertAsync(SDynCriteriaRecordData, CancellationToken)
+  nameWithType: SDynCriteriaRecordDataExtensions.ToInsertAsync(SDynCriteriaRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SDynCriteriaRecordData, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this SDynCriteriaRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this SDynCriteriaRecordData record, CancellationToken cancellationToken = default)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.SDynCriteriaRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function ToInsert(record As SDynCriteriaRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsert*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SDynCriteriaRecordData})
-  commentId: M:SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SDynCriteriaRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SDynCriteriaRecordData})
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+    content.vb: Public Shared Function ToInsertAsync(record As SDynCriteriaRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertAsync*
+- uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SDynCriteriaRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SDynCriteriaRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SDynCriteriaRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<SDynCriteriaRecordData>)
-  nameWithType: SDynCriteriaRecordDataExtensions.ToInserts(IEnumerable<SDynCriteriaRecordData>)
-  fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SDynCriteriaRecordData>)
+  name: ToInsertsAsync(IEnumerable<SDynCriteriaRecordData>, CancellationToken)
+  nameWithType: SDynCriteriaRecordDataExtensions.ToInsertsAsync(IEnumerable<SDynCriteriaRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SDynCriteriaRecordData>, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<SDynCriteriaRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<SDynCriteriaRecordData> records, CancellationToken cancellationToken = default)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SDynCriteriaRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function ToInserts(records As IEnumerable(Of SDynCriteriaRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInserts*
-  nameWithType.vb: SDynCriteriaRecordDataExtensions.ToInserts(IEnumerable(Of SDynCriteriaRecordData))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SDynCriteriaRecordData))
-  name.vb: ToInserts(IEnumerable(Of SDynCriteriaRecordData))
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+    content.vb: Public Shared Function ToInsertsAsync(records As IEnumerable(Of SDynCriteriaRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: SDynCriteriaRecordDataExtensions.ToInsertsAsync(IEnumerable(Of SDynCriteriaRecordData), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SDynCriteriaRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of SDynCriteriaRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.SDynCriteriaRow)
   commentId: M:SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.SDynCriteriaRow)
   id: ToRecordData(SuperOffice.CRM.Rows.SDynCriteriaRow)
@@ -215,9 +192,6 @@ items:
   nameWithType: SDynCriteriaRecordDataExtensions.ToRecordData(SDynCriteriaRow)
   fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.SDynCriteriaRow)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
@@ -228,47 +202,336 @@ items:
       type: SuperOffice.CRM.Rows.SDynCriteriaRow
     return:
       type: SuperOffice.CRM.Rows.SDynCriteriaRecordData
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function ToRecordData(row As SDynCriteriaRow) As SDynCriteriaRecordData
+    content.vb: Public Shared Function ToRecordData(row As SDynCriteriaRow) As SDynCriteriaRecordData
   overload: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToRecordData*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+- uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SDynCriteriaTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SDynCriteriaTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SDynCriteriaTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<SDynCriteriaTableInfo>)
+  nameWithType: SDynCriteriaRecordDataExtensions.FromSelect(TargetedSelect<SDynCriteriaTableInfo>)
+  fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SDynCriteriaTableInfo>)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: From a TargetedSelect&lt;SDynCriteriaTableInfo&gt;, execute it and return an IEnumerable&lt;SDynCriteriaRecordData&gt; with the results
+  example:
+  - >-
+    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
+
+    var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<SDynCriteriaRecordData> FromSelect(this TargetedSelect<SDynCriteriaTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SDynCriteriaTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SDynCriteriaRecordData}
+    content.vb: Public Shared Function FromSelect([select] As TargetedSelect(Of SDynCriteriaTableInfo)) As IEnumerable(Of SDynCriteriaRecordData)
+  overload: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelect*
+  nameWithType.vb: SDynCriteriaRecordDataExtensions.FromSelect(TargetedSelect(Of SDynCriteriaTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SDynCriteriaTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of SDynCriteriaTableInfo))
 references:
+- uid: SuperOffice.CRM.Rows.SDynCriteriaRecordData
+  commentId: T:SuperOffice.CRM.Rows.SDynCriteriaRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SDynCriteriaRecordData.html
+  name: SDynCriteriaRecordData
+  nameWithType: SDynCriteriaRecordData
+  fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordData
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: SDynCriteriaRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelect
+  href: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.html#SuperOffice_CRM_Rows_SDynCriteriaRecordDataExtensions_FromSelectAsync_SuperOffice_Data_SQL_TargetedSelect_SuperOffice_CRM_Data_SDynCriteriaTableInfo__System_Threading_CancellationToken_
+  name: FromSelectAsync
+  nameWithType: SDynCriteriaRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SDynCriteriaTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SDynCriteriaTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedSelect`1
+  href: SuperOffice.Data.SQL.TargetedSelect-1.html
   name: TargetedSelect<SDynCriteriaTableInfo>
   nameWithType: TargetedSelect<SDynCriteriaTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SDynCriteriaTableInfo>
@@ -278,84 +541,72 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
-    nameWithType: TargetedSelect
-    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.SDynCriteriaTableInfo
     name: SDynCriteriaTableInfo
-    nameWithType: SDynCriteriaTableInfo
-    fullName: SuperOffice.CRM.Data.SDynCriteriaTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.SDynCriteriaTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
-    nameWithType: TargetedSelect
-    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.SDynCriteriaTableInfo
     name: SDynCriteriaTableInfo
-    nameWithType: SDynCriteriaTableInfo
-    fullName: SuperOffice.CRM.Data.SDynCriteriaTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.SDynCriteriaTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SDynCriteriaRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SDynCriteriaRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<SDynCriteriaRecordData>
-  nameWithType: IEnumerable<SDynCriteriaRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SDynCriteriaRecordData>
-  nameWithType.vb: IEnumerable(Of SDynCriteriaRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SDynCriteriaRecordData)
-  name.vb: IEnumerable(Of SDynCriteriaRecordData)
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.SDynCriteriaRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.SDynCriteriaRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  href: SuperOffice.CRM.Rows.SDynCriteriaRecordData.html
+  name: IAsyncEnumerable<SDynCriteriaRecordData>
+  nameWithType: IAsyncEnumerable<SDynCriteriaRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.SDynCriteriaRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of SDynCriteriaRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.SDynCriteriaRecordData)
+  name.vb: IAsyncEnumerable(Of SDynCriteriaRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
     isExternal: true
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Rows.SDynCriteriaRecordData
     name: SDynCriteriaRecordData
-    nameWithType: SDynCriteriaRecordData
-    fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.SDynCriteriaRecordData.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Rows.SDynCriteriaRecordData
     name: SDynCriteriaRecordData
-    nameWithType: SDynCriteriaRecordData
-    fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.SDynCriteriaRecordData.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedSelect`1
   commentId: T:SuperOffice.Data.SQL.TargetedSelect`1
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.TargetedSelect-1.html
   name: TargetedSelect<MainTableInfo>
   nameWithType: TargetedSelect<MainTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedSelect<MainTableInfo>
@@ -365,80 +616,112 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
-    nameWithType: TargetedSelect
-    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: MainTableInfo
-    nameWithType: MainTableInfo
-    fullName: MainTableInfo
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
-    nameWithType: TargetedSelect
-    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: MainTableInfo
-    nameWithType: MainTableInfo
-    fullName: MainTableInfo
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
-  isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Collections.Generic.IAsyncEnumerable`1
+  isExternal: true
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
     isExternal: true
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+  - name: (
+  - name: Of
+  - name: " "
   - name: ''
-    nameWithType: ''
-    fullName: ''
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromRecord*
   commentId: Overload:SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromRecord
   isExternal: true
+  href: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.html#SuperOffice_CRM_Rows_SDynCriteriaRecordDataExtensions_FromRecord_SuperOffice_Data_SQL_TargetedDataRecord_SuperOffice_CRM_Data_SDynCriteriaTableInfo__
   name: FromRecord
   nameWithType: SDynCriteriaRecordDataExtensions.FromRecord
   fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromRecord
@@ -446,6 +729,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SDynCriteriaTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedDataRecord`1
+  href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   name: TargetedDataRecord<SDynCriteriaTableInfo>
   nameWithType: TargetedDataRecord<SDynCriteriaTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.SDynCriteriaTableInfo>
@@ -455,47 +739,31 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
-    nameWithType: TargetedDataRecord
-    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.SDynCriteriaTableInfo
     name: SDynCriteriaTableInfo
-    nameWithType: SDynCriteriaTableInfo
-    fullName: SuperOffice.CRM.Data.SDynCriteriaTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.SDynCriteriaTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
-    nameWithType: TargetedDataRecord
-    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.SDynCriteriaTableInfo
     name: SDynCriteriaTableInfo
-    nameWithType: SDynCriteriaTableInfo
-    fullName: SuperOffice.CRM.Data.SDynCriteriaTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.SDynCriteriaTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.SDynCriteriaRecordData
-  commentId: T:SuperOffice.CRM.Rows.SDynCriteriaRecordData
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  name: SDynCriteriaRecordData
-  nameWithType: SDynCriteriaRecordData
-  fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordData
 - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
   commentId: T:SuperOffice.Data.SQL.TargetedDataRecord`1
   isExternal: true
+  href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   name: TargetedDataRecord<MainTableInfo>
   nameWithType: TargetedDataRecord<MainTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>
@@ -505,98 +773,271 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
-    nameWithType: TargetedDataRecord
-    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: MainTableInfo
-    nameWithType: MainTableInfo
-    fullName: MainTableInfo
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
-    nameWithType: TargetedDataRecord
-    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: MainTableInfo
-    nameWithType: MainTableInfo
-    fullName: MainTableInfo
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: SDynCriteriaRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
+  href: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.html#SuperOffice_CRM_Rows_SDynCriteriaRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_SDynCriteriaRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync
+  nameWithType: SDynCriteriaRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInserts
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
   isExternal: true
-  name: ToInserts
-  nameWithType: SDynCriteriaRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.html#SuperOffice_CRM_Rows_SDynCriteriaRecordDataExtensions_ToInsertsAsync_System_Collections_Generic_IEnumerable_SuperOffice_CRM_Rows_SDynCriteriaRecordData__System_Threading_CancellationToken_
+  name: ToInsertsAsync
+  nameWithType: SDynCriteriaRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SDynCriteriaRecordData}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SDynCriteriaRecordData}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<SDynCriteriaRecordData>
+  nameWithType: IEnumerable<SDynCriteriaRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SDynCriteriaRecordData>
+  nameWithType.vb: IEnumerable(Of SDynCriteriaRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SDynCriteriaRecordData)
+  name.vb: IEnumerable(Of SDynCriteriaRecordData)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.SQL.Insert
-    name: Insert
-    nameWithType: Insert
-    fullName: SuperOffice.Data.SQL.Insert
+  - uid: SuperOffice.CRM.Rows.SDynCriteriaRecordData
+    name: SDynCriteriaRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.SDynCriteriaRecordData.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.SDynCriteriaRecordData
+    name: SDynCriteriaRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SDynCriteriaRecordData.html
+  - name: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  href: SuperOffice.Data.SQL.Insert.html
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: <
   - uid: SuperOffice.Data.SQL.Insert
     name: Insert
-    nameWithType: Insert
-    fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToRecordData*
   commentId: Overload:SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToRecordData
   isExternal: true
+  href: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.html#SuperOffice_CRM_Rows_SDynCriteriaRecordDataExtensions_ToRecordData_SuperOffice_CRM_Rows_SDynCriteriaRow_
   name: ToRecordData
   nameWithType: SDynCriteriaRecordDataExtensions.ToRecordData
   fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToRecordData
@@ -604,6 +1045,14 @@ references:
   commentId: T:SuperOffice.CRM.Rows.SDynCriteriaRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.SDynCriteriaRow.html
   name: SDynCriteriaRow
   nameWithType: SDynCriteriaRow
   fullName: SuperOffice.CRM.Rows.SDynCriteriaRow
+- uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelect
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.html#SuperOffice_CRM_Rows_SDynCriteriaRecordDataExtensions_FromSelect_SuperOffice_Data_SQL_TargetedSelect_SuperOffice_CRM_Data_SDynCriteriaTableInfo__
+  name: FromSelect
+  nameWithType: SDynCriteriaRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.FromSelect

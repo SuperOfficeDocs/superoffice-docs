@@ -72,30 +72,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 476,
-  "Year": 711,
+  "TargetGroupId": 908,
+  "Year": 304,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 814,
+      "TargetAssignmentInfoId": 140,
       "Values": [
-        154,
-        289
+        219,
+        334
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 904,
-      "DimensionListItemDisplayName": "Bergstrom-Larkin",
+      "DimensionListItem": 968,
+      "DimensionListItemDisplayName": "Harber LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 531
+          "FieldType": "System.String",
+          "FieldLength": 228
         }
       }
     }
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldLength": 89
     }
   }
 }

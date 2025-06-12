@@ -15,27 +15,24 @@ items:
   nameWithType: MDOListTableCaches
   fullName: SuperOffice.CRM.Cache.MDOListTableCaches
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
-  summary: "\nFactory methods to get a strongly-typed MDO table cache, from runtime information\n"
+  summary: Factory methods to get a strongly-typed MDO table cache, from runtime information
+  example: []
   syntax:
-    content: 'public static class MDOListTableCaches : Object'
-    content.vb: >-
-      Public Module MDOListTableCaches
-          Inherits Object
+    content: public static class MDOListTableCaches
+    content.vb: Public Module MDOListTableCaches
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable(SuperOffice.Data.SQL.TableInfo)
   id: GetCacheForTable(SuperOffice.Data.SQL.TableInfo)
@@ -47,13 +44,11 @@ items:
   nameWithType: MDOListTableCaches.GetCacheForTable(TableInfo)
   fullName: SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable(SuperOffice.Data.SQL.TableInfo)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
-  summary: "\nGet a strongly-typed MDO table cache for a TableInfo (as long as it actually is an MDO table)\n"
+  summary: Get a strongly-typed MDO table cache for a TableInfo (as long as it actually is an MDO table)
+  example: []
   syntax:
     content: public static MDOListTableCacheBase GetCacheForTable(TableInfo table)
     parameters:
@@ -63,12 +58,6 @@ items:
       type: SuperOffice.CRM.Cache.MDOListTableCacheBase
     content.vb: Public Shared Function GetCacheForTable(table As TableInfo) As MDOListTableCacheBase
   overload: SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable(SuperOffice.Data.Dictionary.SoTable)
   commentId: M:SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable(SuperOffice.Data.Dictionary.SoTable)
   id: GetCacheForTable(SuperOffice.Data.Dictionary.SoTable)
@@ -80,13 +69,11 @@ items:
   nameWithType: MDOListTableCaches.GetCacheForTable(SoTable)
   fullName: SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable(SuperOffice.Data.Dictionary.SoTable)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
-  summary: "\nGet a strongly-typed MDO table cache for an SoTable (as long as it actually is an MDO table)\n"
+  summary: Get a strongly-typed MDO table cache for an SoTable (as long as it actually is an MDO table)
+  example: []
   syntax:
     content: public static MDOListTableCacheBase GetCacheForTable(SoTable table)
     parameters:
@@ -96,12 +83,6 @@ items:
       type: SuperOffice.CRM.Cache.MDOListTableCacheBase
     content.vb: Public Shared Function GetCacheForTable(table As SoTable) As MDOListTableCacheBase
   overload: SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable(System.String)
   commentId: M:SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable(System.String)
   id: GetCacheForTable(System.String)
@@ -109,17 +90,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetCacheForTable(String)
-  nameWithType: MDOListTableCaches.GetCacheForTable(String)
-  fullName: SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable(System.String)
+  name: GetCacheForTable(string)
+  nameWithType: MDOListTableCaches.GetCacheForTable(string)
+  fullName: SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
-  summary: "\nGet a strongly-typed MDO table cache for a table name (as long as it actually is an MDO table)\n"
+  summary: Get a strongly-typed MDO table cache for a table name (as long as it actually is an MDO table)
+  example: []
   syntax:
     content: public static MDOListTableCacheBase GetCacheForTable(string tableName)
     parameters:
@@ -129,35 +108,288 @@ items:
       type: SuperOffice.CRM.Cache.MDOListTableCacheBase
     content.vb: Public Shared Function GetCacheForTable(tableName As String) As MDOListTableCacheBase
   overload: SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: MDOListTableCaches.GetCacheForTable(String)
+  fullName.vb: SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable(String)
+  name.vb: GetCacheForTable(String)
 references:
 - uid: SuperOffice.CRM.Cache
   commentId: N:SuperOffice.CRM.Cache
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Cache
   nameWithType: SuperOffice.CRM.Cache
   fullName: SuperOffice.CRM.Cache
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable*
   commentId: Overload:SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable
   isExternal: true
+  href: SuperOffice.CRM.Cache.MDOListTableCaches.html#SuperOffice_CRM_Cache_MDOListTableCaches_GetCacheForTable_SuperOffice_Data_SQL_TableInfo_
   name: GetCacheForTable
   nameWithType: MDOListTableCaches.GetCacheForTable
   fullName: SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable
@@ -165,6 +397,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
@@ -172,32 +405,100 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableCacheBase
   parent: SuperOffice.CRM.Cache
   isExternal: true
+  href: SuperOffice.CRM.Cache.MDOListTableCacheBase.html
   name: MDOListTableCacheBase
   nameWithType: MDOListTableCacheBase
   fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
 - uid: SuperOffice.Data.Dictionary.SoTable
   commentId: T:SuperOffice.Data.Dictionary.SoTable
   parent: SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable
   nameWithType: SoTable
   fullName: SuperOffice.Data.Dictionary.SoTable
 - uid: SuperOffice.Data.Dictionary
   commentId: N:SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.Dictionary
   nameWithType: SuperOffice.Data.Dictionary
   fullName: SuperOffice.Data.Dictionary
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

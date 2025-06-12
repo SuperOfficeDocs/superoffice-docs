@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 966,
-  "Name": "Bins, Stroman and Feeney",
-  "Tooltip": "rerum",
+  "Id": 763,
+  "Name": "Heidenreich Group",
+  "Tooltip": "sit",
   "Deleted": false,
-  "UdListDefinitionId": 710,
-  "Rank": 507
+  "UdListDefinitionId": 868,
+  "Rank": 805
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 493,
-  "Name": "Klein LLC",
-  "Tooltip": "a",
+  "Id": 917,
+  "Name": "Reichert, Daugherty and O'Hara",
+  "Tooltip": "similique",
   "Deleted": false,
-  "UdListDefinitionId": 748,
-  "Rank": 494,
+  "UdListDefinitionId": 539,
+  "Rank": 408,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 316
+      "FieldType": "System.String",
+      "FieldLength": 370
     }
   }
 }

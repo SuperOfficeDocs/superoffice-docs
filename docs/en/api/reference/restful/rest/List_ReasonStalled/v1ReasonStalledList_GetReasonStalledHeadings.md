@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 135,
-    "Name": "Dare-Wehner",
-    "Tooltip": "amet",
+    "HeadingId": 677,
+    "Name": "Yundt, McKenzie and Rohan",
+    "Tooltip": "aperiam",
     "Deleted": false,
-    "Rank": 178,
-    "UdListDefinitionId": 891,
+    "Rank": 897,
+    "UdListDefinitionId": 775,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldLength": 616
       }
     }
   }

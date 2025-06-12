@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 750
+  "UserGroupId": 553
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 108,
-    "ColumnId": 168,
-    "FieldDefault": "qui",
-    "FieldHeight": 304,
-    "FieldLabel": "accusantium",
-    "FieldLeft": 205,
-    "FieldTop": 352,
+    "UDefFieldId": 428,
+    "ColumnId": 761,
+    "FieldDefault": "omnis",
+    "FieldHeight": 483,
+    "FieldLabel": "maiores",
+    "FieldLeft": 927,
+    "FieldTop": 678,
     "FieldType": "Checkbox",
-    "FieldWidth": 978,
-    "FormatMask": "doloremque",
-    "HideLabel": true,
+    "FieldWidth": 5,
+    "FormatMask": "provident",
+    "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 200,
-    "LabelLeft": 168,
-    "LabelTop": 932,
-    "LabelWidth": 314,
-    "LastVersionId": 215,
-    "ListTableId": 896,
+    "LabelHeight": 331,
+    "LabelLeft": 223,
+    "LabelTop": 324,
+    "LabelWidth": 629,
+    "LastVersionId": 472,
+    "ListTableId": 911,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 815,
-    "ProgId": "veniam",
-    "IsReadOnly": true,
-    "ShortLabel": "assumenda",
-    "TabOrder": 379,
-    "TextLength": 607,
-    "Tooltip": "dignissimos",
-    "UdefIdentity": 200,
-    "UDListDefinitionId": 64,
+    "Page1LineNo": 26,
+    "ProgId": "voluptatem",
+    "IsReadOnly": false,
+    "ShortLabel": "ut",
+    "TabOrder": 961,
+    "TextLength": 382,
+    "Tooltip": "odio",
+    "UdefIdentity": 162,
+    "UDListDefinitionId": 764,
     "Justification": "Center",
-    "Version": 75,
-    "TemplateVariableName": "Hudson LLC",
-    "HasBeenPublished": false,
-    "MdoListName": "Pouros-Armstrong",
+    "Version": 910,
+    "TemplateVariableName": "D'Amore-Lakin",
+    "HasBeenPublished": true,
+    "MdoListName": "Johnston, McKenzie and Johnson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 74
+        "FieldType": "System.String",
+        "FieldLength": 471
       }
     }
   }

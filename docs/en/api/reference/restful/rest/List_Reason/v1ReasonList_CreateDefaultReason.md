@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Reason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 557,
-  "Name": "Willms Group",
-  "Tooltip": "adipisci",
+  "Id": 183,
+  "Name": "Koelpin Inc and Sons",
+  "Tooltip": "dolorem",
   "Deleted": true,
-  "UdListDefinitionId": 405,
-  "Rank": 261,
+  "UdListDefinitionId": 723,
+  "Rank": 947,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 840
+      "FieldType": "System.Int32",
+      "FieldLength": 809
     }
   }
 }

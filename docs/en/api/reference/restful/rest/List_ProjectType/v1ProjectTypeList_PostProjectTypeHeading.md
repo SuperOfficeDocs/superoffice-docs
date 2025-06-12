@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 965,
-  "Name": "Kuphal-Conn",
-  "Tooltip": "quisquam",
+  "HeadingId": 139,
+  "Name": "Bruen, Conn and Brown",
+  "Tooltip": "quaerat",
   "Deleted": false,
-  "Rank": 393,
-  "UdListDefinitionId": 105
+  "Rank": 387,
+  "UdListDefinitionId": 353
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 203,
-  "Name": "Langosh Group",
-  "Tooltip": "aliquam",
-  "Deleted": true,
-  "Rank": 986,
-  "UdListDefinitionId": 339,
+  "HeadingId": 349,
+  "Name": "Wunsch, Gibson and McGlynn",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 113,
+  "UdListDefinitionId": 367,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 561
+      "FieldLength": 46
     }
   }
 }

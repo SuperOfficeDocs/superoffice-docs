@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 579,
-    "Name": "Kozey Group",
-    "Tooltip": "impedit",
+    "HeadingId": 327,
+    "Name": "Moen Inc and Sons",
+    "Tooltip": "ut",
     "Deleted": true,
-    "Rank": 822,
-    "UdListDefinitionId": 127
+    "Rank": 777,
+    "UdListDefinitionId": 702
   },
   {
-    "HeadingId": 579,
-    "Name": "Kozey Group",
-    "Tooltip": "impedit",
+    "HeadingId": 327,
+    "Name": "Moen Inc and Sons",
+    "Tooltip": "ut",
     "Deleted": true,
-    "Rank": 822,
-    "UdListDefinitionId": 127
+    "Rank": 777,
+    "UdListDefinitionId": 702
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 211,
-    "Name": "Grant, Bailey and Keeling",
-    "Tooltip": "perferendis",
+    "HeadingId": 692,
+    "Name": "Boyle Group",
+    "Tooltip": "quam",
     "Deleted": false,
-    "Rank": 585,
-    "UdListDefinitionId": 986,
+    "Rank": 257,
+    "UdListDefinitionId": 355,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 875
+        "FieldLength": 878
       }
     }
   }

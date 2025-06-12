@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 113,
-    "ParentId": 928,
-    "Name": "Streich, Schneider and Emard",
-    "Fullname": "quibusdam",
-    "CategoryMaster": 495,
+    "TicketCategoryId": 924,
+    "ParentId": 653,
+    "Name": "Shields-Barrows",
+    "Fullname": "eveniet",
+    "CategoryMaster": 393,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Jacobi, Gleichner and Ullrich",
+    "ExternalName": "Leuschke-Berge",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 287,
-    "ReplyTemplate": 782,
-    "NotificationEmail": "jules@sanford.name",
+    "AssignmentLag": 506,
+    "ReplyTemplate": 528,
+    "NotificationEmail": "alverta.toy@lednercorwin.name",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 238,
+    "EffectiveReplyTemplateId": 870,
     "ExtraFields": {
-      "ExtraFields1": "quia",
-      "ExtraFields2": "perferendis"
+      "ExtraFields1": "possimus",
+      "ExtraFields2": "quaerat"
     },
     "CustomFields": {
-      "CustomFields1": "assumenda",
-      "CustomFields2": "libero"
+      "CustomFields1": "ratione",
+      "CustomFields2": "blanditiis"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 123
+        "FieldLength": 915
       }
     }
   }

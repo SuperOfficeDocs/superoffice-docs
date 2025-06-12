@@ -73,28 +73,28 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 385,
-  "Year": 129,
+  "TargetGroupId": 543,
+  "Year": 588,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 573,
+      "TargetAssignmentInfoId": 756,
       "Values": [
-        499,
-        152
+        493,
+        662
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 576,
-      "DimensionListItemDisplayName": "White-Schaefer"
+      "DimensionListItem": 269,
+      "DimensionListItemDisplayName": "Krajcik-Cremin"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 826,
-  "Year": 727,
+  "TargetGroupId": 401,
+  "Year": 67,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 954,
+      "TargetAssignmentInfoId": 84,
       "Values": [
-        743,
-        495
+        189,
+        135
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 737,
-      "DimensionListItemDisplayName": "Homenick, Abshire and Windler",
+      "DimensionListItem": 152,
+      "DimensionListItemDisplayName": "Baumbach, Sanford and Pfannerstill",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 422
+          "FieldType": "System.String",
+          "FieldLength": 159
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 850
+      "FieldLength": 391
     }
   }
 }

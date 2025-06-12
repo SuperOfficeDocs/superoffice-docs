@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/PaymentType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 999,
-  "Name": "Wiza-O'Kon",
-  "Tooltip": "fuga",
-  "Deleted": true,
-  "UdListDefinitionId": 25,
-  "Rank": 319,
+  "Id": 82,
+  "Name": "McKenzie-Schaden",
+  "Tooltip": "quo",
+  "Deleted": false,
+  "UdListDefinitionId": 894,
+  "Rank": 518,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 518
+      "FieldLength": 567
     }
   }
 }

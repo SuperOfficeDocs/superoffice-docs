@@ -1,0 +1,634 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.SaleStakeholderExtensions
+  commentId: T:SuperOffice.CRM.Services.SaleStakeholderExtensions
+  id: SaleStakeholderExtensions
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.SaleStakeholderExtensions.ToCarrierArrayAsync(SuperOffice.CRM.Rows.SaleStakeholderRows,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.SaleStakeholderExtensions.ToCarrierAsync(SuperOffice.CRM.Rows.SaleStakeholderRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.SaleStakeholderExtensions.ToRowAsync(SuperOffice.CRM.Services.SaleStakeholder,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: SaleStakeholderExtensions
+  nameWithType: SaleStakeholderExtensions
+  fullName: SuperOffice.CRM.Services.SaleStakeholderExtensions
+  type: Class
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public static class SaleStakeholderExtensions
+    content.vb: Public Module SaleStakeholderExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToRowAsync(SuperOffice.CRM.Services.SaleStakeholder,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.SaleStakeholderExtensions.ToRowAsync(SuperOffice.CRM.Services.SaleStakeholder,System.Threading.CancellationToken)
+  id: ToRowAsync(SuperOffice.CRM.Services.SaleStakeholder,System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Services.SaleStakeholderExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToRowAsync(SaleStakeholder, CancellationToken)
+  nameWithType: SaleStakeholderExtensions.ToRowAsync(SaleStakeholder, CancellationToken)
+  fullName: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToRowAsync(SuperOffice.CRM.Services.SaleStakeholder, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public static Task<SaleStakeholderRow> ToRowAsync(this SaleStakeholder stakeholder, CancellationToken cancellationToken = default)
+    parameters:
+    - id: stakeholder
+      type: SuperOffice.CRM.Services.SaleStakeholder
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.SaleStakeholderRow}
+    content.vb: Public Shared Function ToRowAsync(stakeholder As SaleStakeholder, cancellationToken As CancellationToken = Nothing) As Task(Of SaleStakeholderRow)
+  overload: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToRowAsync*
+- uid: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToCarrierArrayAsync(SuperOffice.CRM.Rows.SaleStakeholderRows,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.SaleStakeholderExtensions.ToCarrierArrayAsync(SuperOffice.CRM.Rows.SaleStakeholderRows,System.Threading.CancellationToken)
+  id: ToCarrierArrayAsync(SuperOffice.CRM.Rows.SaleStakeholderRows,System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Services.SaleStakeholderExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToCarrierArrayAsync(SaleStakeholderRows, CancellationToken)
+  nameWithType: SaleStakeholderExtensions.ToCarrierArrayAsync(SaleStakeholderRows, CancellationToken)
+  fullName: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToCarrierArrayAsync(SuperOffice.CRM.Rows.SaleStakeholderRows, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public static Task<SaleStakeholder[]> ToCarrierArrayAsync(this SaleStakeholderRows rows, CancellationToken cancellationToken = default)
+    parameters:
+    - id: rows
+      type: SuperOffice.CRM.Rows.SaleStakeholderRows
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleStakeholder[]}
+    content.vb: Public Shared Function ToCarrierArrayAsync(rows As SaleStakeholderRows, cancellationToken As CancellationToken = Nothing) As Task(Of SaleStakeholder())
+  overload: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToCarrierArrayAsync*
+- uid: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToCarrierAsync(SuperOffice.CRM.Rows.SaleStakeholderRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.SaleStakeholderExtensions.ToCarrierAsync(SuperOffice.CRM.Rows.SaleStakeholderRow,System.Threading.CancellationToken)
+  id: ToCarrierAsync(SuperOffice.CRM.Rows.SaleStakeholderRow,System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Services.SaleStakeholderExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToCarrierAsync(SaleStakeholderRow, CancellationToken)
+  nameWithType: SaleStakeholderExtensions.ToCarrierAsync(SaleStakeholderRow, CancellationToken)
+  fullName: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToCarrierAsync(SuperOffice.CRM.Rows.SaleStakeholderRow, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public static Task<SaleStakeholder> ToCarrierAsync(this SaleStakeholderRow row, CancellationToken cancellationToken = default)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.SaleStakeholderRow
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleStakeholder}
+    content.vb: Public Shared Function ToCarrierAsync(row As SaleStakeholderRow, cancellationToken As CancellationToken = Nothing) As Task(Of SaleStakeholder)
+  overload: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToCarrierAsync*
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToRowAsync*
+  commentId: Overload:SuperOffice.CRM.Services.SaleStakeholderExtensions.ToRowAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.SaleStakeholderExtensions.html#SuperOffice_CRM_Services_SaleStakeholderExtensions_ToRowAsync_SuperOffice_CRM_Services_SaleStakeholder_System_Threading_CancellationToken_
+  name: ToRowAsync
+  nameWithType: SaleStakeholderExtensions.ToRowAsync
+  fullName: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToRowAsync
+- uid: SuperOffice.CRM.Services.SaleStakeholder
+  commentId: T:SuperOffice.CRM.Services.SaleStakeholder
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.SaleStakeholder.html
+  name: SaleStakeholder
+  nameWithType: SaleStakeholder
+  fullName: SuperOffice.CRM.Services.SaleStakeholder
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.SaleStakeholderRow}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.SaleStakeholderRow}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<SaleStakeholderRow>
+  nameWithType: Task<SaleStakeholderRow>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.SaleStakeholderRow>
+  nameWithType.vb: Task(Of SaleStakeholderRow)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.SaleStakeholderRow)
+  name.vb: Task(Of SaleStakeholderRow)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.SaleStakeholderRow
+    name: SaleStakeholderRow
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.SaleStakeholderRow
+    name: SaleStakeholderRow
+    isExternal: true
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToCarrierArrayAsync*
+  commentId: Overload:SuperOffice.CRM.Services.SaleStakeholderExtensions.ToCarrierArrayAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.SaleStakeholderExtensions.html#SuperOffice_CRM_Services_SaleStakeholderExtensions_ToCarrierArrayAsync_SuperOffice_CRM_Rows_SaleStakeholderRows_System_Threading_CancellationToken_
+  name: ToCarrierArrayAsync
+  nameWithType: SaleStakeholderExtensions.ToCarrierArrayAsync
+  fullName: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToCarrierArrayAsync
+- uid: SuperOffice.CRM.Rows.SaleStakeholderRows
+  commentId: '!:SuperOffice.CRM.Rows.SaleStakeholderRows'
+  isExternal: true
+  name: SaleStakeholderRows
+  nameWithType: SaleStakeholderRows
+  fullName: SuperOffice.CRM.Rows.SaleStakeholderRows
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleStakeholder[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleStakeholder[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<SaleStakeholder[]>
+  nameWithType: Task<SaleStakeholder[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.SaleStakeholder[]>
+  nameWithType.vb: Task(Of SaleStakeholder())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.SaleStakeholder())
+  name.vb: Task(Of SaleStakeholder())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.SaleStakeholder
+    name: SaleStakeholder
+    isExternal: true
+    href: SuperOffice.CRM.Services.SaleStakeholder.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.SaleStakeholder
+    name: SaleStakeholder
+    isExternal: true
+    href: SuperOffice.CRM.Services.SaleStakeholder.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToCarrierAsync*
+  commentId: Overload:SuperOffice.CRM.Services.SaleStakeholderExtensions.ToCarrierAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.SaleStakeholderExtensions.html#SuperOffice_CRM_Services_SaleStakeholderExtensions_ToCarrierAsync_SuperOffice_CRM_Rows_SaleStakeholderRow_System_Threading_CancellationToken_
+  name: ToCarrierAsync
+  nameWithType: SaleStakeholderExtensions.ToCarrierAsync
+  fullName: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToCarrierAsync
+- uid: SuperOffice.CRM.Rows.SaleStakeholderRow
+  commentId: '!:SuperOffice.CRM.Rows.SaleStakeholderRow'
+  isExternal: true
+  name: SaleStakeholderRow
+  nameWithType: SaleStakeholderRow
+  fullName: SuperOffice.CRM.Rows.SaleStakeholderRow
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleStakeholder}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleStakeholder}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<SaleStakeholder>
+  nameWithType: Task<SaleStakeholder>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.SaleStakeholder>
+  nameWithType.vb: Task(Of SaleStakeholder)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.SaleStakeholder)
+  name.vb: Task(Of SaleStakeholder)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.SaleStakeholder
+    name: SaleStakeholder
+    isExternal: true
+    href: SuperOffice.CRM.Services.SaleStakeholder.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.SaleStakeholder
+    name: SaleStakeholder
+    isExternal: true
+    href: SuperOffice.CRM.Services.SaleStakeholder.html
+  - name: )

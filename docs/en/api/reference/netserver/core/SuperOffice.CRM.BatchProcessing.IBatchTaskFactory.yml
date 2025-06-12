@@ -1,0 +1,832 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory
+  commentId: T:SuperOffice.CRM.BatchProcessing.IBatchTaskFactory
+  id: IBatchTaskFactory
+  parent: SuperOffice.CRM.BatchProcessing
+  children:
+  - SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.EndTaskAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.GetRunningTasks(SuperOffice.Data.BatchTaskState,System.Nullable{System.Boolean},System.Nullable{System.Boolean})
+  - SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.GetTaskInfo(System.Int32)
+  - SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.RunTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.WaitForTaskCompletionAsync(System.Int32,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: IBatchTaskFactory
+  nameWithType: IBatchTaskFactory
+  fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory
+  type: Interface
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: >-
+    Factory for dealing with batch tasks.
+
+    Tasks are identified by a unique name and might require a context.
+  example: []
+  syntax:
+    content: public interface IBatchTaskFactory
+    content.vb: Public Interface IBatchTaskFactory
+  extensionMethods:
+  - SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.EndTaskAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.EndTaskAsync(System.Int32,System.Threading.CancellationToken)
+  id: EndTaskAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory
+  langs:
+  - csharp
+  - vb
+  name: EndTaskAsync(int, CancellationToken)
+  nameWithType: IBatchTaskFactory.EndTaskAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.EndTaskAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: Signal an executing task to end execution.
+  example: []
+  syntax:
+    content: Task EndTaskAsync(int taskId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: taskId
+      type: System.Int32
+      description: Id of the task to end.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function EndTaskAsync(taskId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.EndTaskAsync*
+  nameWithType.vb: IBatchTaskFactory.EndTaskAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.EndTaskAsync(Integer, System.Threading.CancellationToken)
+  name.vb: EndTaskAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.GetRunningTasks(SuperOffice.Data.BatchTaskState,System.Nullable{System.Boolean},System.Nullable{System.Boolean})
+  commentId: M:SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.GetRunningTasks(SuperOffice.Data.BatchTaskState,System.Nullable{System.Boolean},System.Nullable{System.Boolean})
+  id: GetRunningTasks(SuperOffice.Data.BatchTaskState,System.Nullable{System.Boolean},System.Nullable{System.Boolean})
+  parent: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory
+  langs:
+  - csharp
+  - vb
+  name: GetRunningTasks(BatchTaskState, bool?, bool?)
+  nameWithType: IBatchTaskFactory.GetRunningTasks(BatchTaskState, bool?, bool?)
+  fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.GetRunningTasks(SuperOffice.Data.BatchTaskState, bool?, bool?)
+  type: Method
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: Returns array of running tasks in a given state.
+  example: []
+  syntax:
+    content: BatchTaskInfo[] GetRunningTasks(BatchTaskState state = 99999, bool? internalTasks = null, bool? systemTasks = null)
+    parameters:
+    - id: state
+      type: SuperOffice.Data.BatchTaskState
+      description: Only return tasks in this state
+    - id: internalTasks
+      type: System.Nullable{System.Boolean}
+      description: ''
+    - id: systemTasks
+      type: System.Nullable{System.Boolean}
+      description: ''
+    return:
+      type: SuperOffice.CRM.Services.BatchTaskInfo[]
+      description: Array of running task info
+    content.vb: Function GetRunningTasks(state As BatchTaskState = 99999, internalTasks As Boolean? = Nothing, systemTasks As Boolean? = Nothing) As BatchTaskInfo()
+  overload: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.GetRunningTasks*
+  nameWithType.vb: IBatchTaskFactory.GetRunningTasks(BatchTaskState, Boolean?, Boolean?)
+  fullName.vb: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.GetRunningTasks(SuperOffice.Data.BatchTaskState, Boolean?, Boolean?)
+  name.vb: GetRunningTasks(BatchTaskState, Boolean?, Boolean?)
+- uid: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.GetTaskInfo(System.Int32)
+  commentId: M:SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.GetTaskInfo(System.Int32)
+  id: GetTaskInfo(System.Int32)
+  parent: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory
+  langs:
+  - csharp
+  - vb
+  name: GetTaskInfo(int)
+  nameWithType: IBatchTaskFactory.GetTaskInfo(int)
+  fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.GetTaskInfo(int)
+  type: Method
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: Obtain current information about the task.
+  example: []
+  syntax:
+    content: BatchTaskInfo GetTaskInfo(int taskId)
+    parameters:
+    - id: taskId
+      type: System.Int32
+      description: Id of the task to get Info for.
+    return:
+      type: SuperOffice.CRM.Services.BatchTaskInfo
+      description: ''
+    content.vb: Function GetTaskInfo(taskId As Integer) As BatchTaskInfo
+  overload: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.GetTaskInfo*
+  nameWithType.vb: IBatchTaskFactory.GetTaskInfo(Integer)
+  fullName.vb: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.GetTaskInfo(Integer)
+  name.vb: GetTaskInfo(Integer)
+- uid: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.RunTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.RunTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.String,System.Threading.CancellationToken)
+  id: RunTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory
+  langs:
+  - csharp
+  - vb
+  name: RunTaskAsync(BatchTaskInfo, string, CancellationToken)
+  nameWithType: IBatchTaskFactory.RunTaskAsync(BatchTaskInfo, string, CancellationToken)
+  fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.RunTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: Run the task with the given context.
+  example: []
+  syntax:
+    content: Task RunTaskAsync(BatchTaskInfo batchTaskInfo, string context, CancellationToken cancellationToken = default)
+    parameters:
+    - id: batchTaskInfo
+      type: SuperOffice.CRM.Services.BatchTaskInfo
+      description: ''
+    - id: context
+      type: System.String
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function RunTaskAsync(batchTaskInfo As BatchTaskInfo, context As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.RunTaskAsync*
+  nameWithType.vb: IBatchTaskFactory.RunTaskAsync(BatchTaskInfo, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.RunTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo, String, System.Threading.CancellationToken)
+  name.vb: RunTaskAsync(BatchTaskInfo, String, CancellationToken)
+- uid: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.WaitForTaskCompletionAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.WaitForTaskCompletionAsync(System.Int32,System.Threading.CancellationToken)
+  id: WaitForTaskCompletionAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory
+  langs:
+  - csharp
+  - vb
+  name: WaitForTaskCompletionAsync(int, CancellationToken)
+  nameWithType: IBatchTaskFactory.WaitForTaskCompletionAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.WaitForTaskCompletionAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: Wait for the task to complete.
+  example: []
+  syntax:
+    content: Task<BatchTaskInfo> WaitForTaskCompletionAsync(int taskId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: taskId
+      type: System.Int32
+      description: Id of task to wait for.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BatchTaskInfo}
+      description: Information about the completed task.
+    content.vb: Function WaitForTaskCompletionAsync(taskId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of BatchTaskInfo)
+  overload: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.WaitForTaskCompletionAsync*
+  nameWithType.vb: IBatchTaskFactory.WaitForTaskCompletionAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.WaitForTaskCompletionAsync(Integer, System.Threading.CancellationToken)
+  name.vb: WaitForTaskCompletionAsync(Integer, CancellationToken)
+references:
+- uid: SuperOffice.CRM.BatchProcessing
+  commentId: N:SuperOffice.CRM.BatchProcessing
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.BatchProcessing
+  nameWithType: SuperOffice.CRM.BatchProcessing
+  fullName: SuperOffice.CRM.BatchProcessing
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.BatchProcessing
+    name: BatchProcessing
+    isExternal: true
+    href: SuperOffice.CRM.BatchProcessing.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.BatchProcessing
+    name: BatchProcessing
+    isExternal: true
+    href: SuperOffice.CRM.BatchProcessing.html
+- uid: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IBatchTaskFactory, To>(IBatchTaskFactory)
+  nameWithType: EnumUtil.MapEnums<IBatchTaskFactory, To>(IBatchTaskFactory)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.BatchProcessing.IBatchTaskFactory, To>(SuperOffice.CRM.BatchProcessing.IBatchTaskFactory)
+  nameWithType.vb: EnumUtil.MapEnums(Of IBatchTaskFactory, To)(IBatchTaskFactory)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.BatchProcessing.IBatchTaskFactory, To)(SuperOffice.CRM.BatchProcessing.IBatchTaskFactory)
+  name.vb: MapEnums(Of IBatchTaskFactory, To)(IBatchTaskFactory)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.BatchProcessing.IBatchTaskFactory)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory
+    name: IBatchTaskFactory
+    isExternal: true
+    href: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory
+    name: IBatchTaskFactory
+    isExternal: true
+    href: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.BatchProcessing.IBatchTaskFactory)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory
+    name: IBatchTaskFactory
+    isExternal: true
+    href: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory
+    name: IBatchTaskFactory
+    isExternal: true
+    href: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.html
+  - name: )
+- uid: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IBatchTaskFactory, To>(IBatchTaskFactory)
+  nameWithType: Converters.MapEnums<IBatchTaskFactory, To>(IBatchTaskFactory)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BatchProcessing.IBatchTaskFactory, To>(SuperOffice.CRM.BatchProcessing.IBatchTaskFactory)
+  nameWithType.vb: Converters.MapEnums(Of IBatchTaskFactory, To)(IBatchTaskFactory)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BatchProcessing.IBatchTaskFactory, To)(SuperOffice.CRM.BatchProcessing.IBatchTaskFactory)
+  name.vb: MapEnums(Of IBatchTaskFactory, To)(IBatchTaskFactory)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.BatchProcessing.IBatchTaskFactory)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory
+    name: IBatchTaskFactory
+    isExternal: true
+    href: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory
+    name: IBatchTaskFactory
+    isExternal: true
+    href: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.BatchProcessing.IBatchTaskFactory)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory
+    name: IBatchTaskFactory
+    isExternal: true
+    href: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory
+    name: IBatchTaskFactory
+    isExternal: true
+    href: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.EndTaskAsync*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.EndTaskAsync
+  isExternal: true
+  href: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.html#SuperOffice_CRM_BatchProcessing_IBatchTaskFactory_EndTaskAsync_System_Int32_System_Threading_CancellationToken_
+  name: EndTaskAsync
+  nameWithType: IBatchTaskFactory.EndTaskAsync
+  fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.EndTaskAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.GetRunningTasks*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.GetRunningTasks
+  isExternal: true
+  href: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.html#SuperOffice_CRM_BatchProcessing_IBatchTaskFactory_GetRunningTasks_SuperOffice_Data_BatchTaskState_System_Nullable_System_Boolean__System_Nullable_System_Boolean__
+  name: GetRunningTasks
+  nameWithType: IBatchTaskFactory.GetRunningTasks
+  fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.GetRunningTasks
+- uid: SuperOffice.Data.BatchTaskState
+  commentId: T:SuperOffice.Data.BatchTaskState
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.BatchTaskState.html
+  name: BatchTaskState
+  nameWithType: BatchTaskState
+  fullName: SuperOffice.Data.BatchTaskState
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool?
+  nameWithType: bool?
+  fullName: bool?
+  nameWithType.vb: Boolean?
+  fullName.vb: Boolean?
+  name.vb: Boolean?
+  spec.csharp:
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+- uid: SuperOffice.CRM.Services.BatchTaskInfo[]
+  isExternal: true
+  name: BatchTaskInfo[]
+  nameWithType: BatchTaskInfo[]
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo[]
+  nameWithType.vb: BatchTaskInfo()
+  fullName.vb: SuperOffice.CRM.Services.BatchTaskInfo()
+  name.vb: BatchTaskInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.BatchTaskInfo
+    name: BatchTaskInfo
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.BatchTaskInfo
+    name: BatchTaskInfo
+    isExternal: true
+  - name: (
+  - name: )
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.GetTaskInfo*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.GetTaskInfo
+  isExternal: true
+  href: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.html#SuperOffice_CRM_BatchProcessing_IBatchTaskFactory_GetTaskInfo_System_Int32_
+  name: GetTaskInfo
+  nameWithType: IBatchTaskFactory.GetTaskInfo
+  fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.GetTaskInfo
+- uid: SuperOffice.CRM.Services.BatchTaskInfo
+  commentId: T:SuperOffice.CRM.Services.BatchTaskInfo
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: BatchTaskInfo
+  nameWithType: BatchTaskInfo
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.RunTaskAsync*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.RunTaskAsync
+  isExternal: true
+  href: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.html#SuperOffice_CRM_BatchProcessing_IBatchTaskFactory_RunTaskAsync_SuperOffice_CRM_Services_BatchTaskInfo_System_String_System_Threading_CancellationToken_
+  name: RunTaskAsync
+  nameWithType: IBatchTaskFactory.RunTaskAsync
+  fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.RunTaskAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.WaitForTaskCompletionAsync*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.WaitForTaskCompletionAsync
+  isExternal: true
+  href: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.html#SuperOffice_CRM_BatchProcessing_IBatchTaskFactory_WaitForTaskCompletionAsync_System_Int32_System_Threading_CancellationToken_
+  name: WaitForTaskCompletionAsync
+  nameWithType: IBatchTaskFactory.WaitForTaskCompletionAsync
+  fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory.WaitForTaskCompletionAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BatchTaskInfo}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.BatchTaskInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<BatchTaskInfo>
+  nameWithType: Task<BatchTaskInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.BatchTaskInfo>
+  nameWithType.vb: Task(Of BatchTaskInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.BatchTaskInfo)
+  name.vb: Task(Of BatchTaskInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.BatchTaskInfo
+    name: BatchTaskInfo
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.BatchTaskInfo
+    name: BatchTaskInfo
+    isExternal: true
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )

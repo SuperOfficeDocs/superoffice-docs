@@ -39,14 +39,21 @@ items:
   nameWithType: ExtDatasourceTableInfo
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTable &apos;ext_datasource&apos;: This table contains external datasources, used for databaseintegration of customers and companies.\n"
-  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetExtDatasourceInfo()\"></see>.\n"
+  summary: "Table 'ext_datasource': This table contains external datasources, used for databaseintegration of customers and companies."
+  remarks: >-
+    An instance of this class represents one instance of this table in an SQL statement. In most
+
+    cases each table appears only once in a SELECT, but in cases where you need to self-join, or
+
+    there are multiple occurrences for other reasons (typically additional restrictions in the joins),
+
+    then you will need multiple instances. <br />
+
+    Instances of this class are created by calling TablesInfo.GetExtDatasourceInfo().
+  example: []
   syntax:
     content: >-
       [DatabaseTable("ext_datasource")]
@@ -55,9 +62,7 @@ items:
     content.vb: >-
       <DatabaseTable("ext_datasource")>
 
-      Public Class ExtDatasourceTableInfo
-          Inherits TableInfo
-          Implements ICloneable
+      Public Class ExtDatasourceTableInfo Inherits TableInfo Implements ICloneable
   inheritance:
   - System.Object
   - SuperOffice.Data.SQL.TableInfo
@@ -78,6 +83,12 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.ExtDatasourceTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.ExtDatasourceTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -87,12 +98,6 @@ items:
     arguments:
     - type: System.String
       value: ext_datasource
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.DictionaryTableName
   commentId: F:SuperOffice.CRM.Data.ExtDatasourceTableInfo.DictionaryTableName
   id: DictionaryTableName
@@ -104,24 +109,16 @@ items:
   nameWithType: ExtDatasourceTableInfo.DictionaryTableName
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.DictionaryTableName
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nConceptual name of table ExtDatasource in the database dictionary: ext_datasource\n"
+  summary: 'Conceptual name of table ExtDatasource in the database dictionary: ext_datasource'
+  example: []
   syntax:
     content: public const string DictionaryTableName = "ext_datasource"
     return:
       type: System.String
     content.vb: Public Const DictionaryTableName As String = "ext_datasource"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.DictionaryTableNumber
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.DictionaryTableNumber
   id: DictionaryTableNumber
@@ -133,13 +130,14 @@ items:
   nameWithType: ExtDatasourceTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.DictionaryTableNumber
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTable number for table ExtDatasource in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
+  summary: >-
+    Table number for table ExtDatasource in the database dictionary; potentially changes between databases, but
+
+    always the same over the lifetime of any single database
+  example: []
   syntax:
     content: public int DictionaryTableNumber { get; }
     parameters: []
@@ -147,12 +145,6 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.DictionaryTableNumber*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.RuntimeDefinition
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.RuntimeDefinition
   id: RuntimeDefinition
@@ -164,28 +156,32 @@ items:
   nameWithType: ExtDatasourceTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.RuntimeDefinition
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  summary: Definition of the table as described in the deployed runtime dictionary
+  example: []
   syntax:
-    content: public static SoTable RuntimeDefinition { get; }
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.RuntimeDefinition*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Definition
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.Definition
   id: Definition
@@ -197,13 +193,11 @@ items:
   nameWithType: ExtDatasourceTableInfo.Definition
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Definition
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  summary: Definition of the table as described in the deployed runtime dictionary
+  example: []
   syntax:
     content: public override SoTable Definition { get; }
     parameters: []
@@ -212,14 +206,6 @@ items:
     content.vb: Public Overrides ReadOnly Property Definition As SoTable
   overridden: SuperOffice.Data.SQL.TableInfo.Definition
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Definition*
-  modifiers.csharp:
-  - public
-  - override
-  - get
-  modifiers.vb:
-  - Public
-  - Overrides
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.ExtDatasourceId
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.ExtDatasourceId
   id: ExtDatasourceId
@@ -231,13 +217,14 @@ items:
   nameWithType: ExtDatasourceTableInfo.ExtDatasourceId
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.ExtDatasourceId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;id&apos; in table &apos;ext_datasource&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe primary key (auto-incremented)\n"
+  summary: >-
+    Field 'id' in table 'ext_datasource': Dictionary type PK, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The primary key (auto-incremented)
+  example: []
   syntax:
     content: public Int32FieldInfo ExtDatasourceId { get; }
     parameters: []
@@ -245,12 +232,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property ExtDatasourceId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.ExtDatasourceId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Name
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.Name
   id: Name
@@ -262,13 +243,14 @@ items:
   nameWithType: ExtDatasourceTableInfo.Name
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Name
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;name&apos; in table &apos;ext_datasource&apos;: Dictionary type String[65], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nAn alias for this datasource.\n"
+  summary: >-
+    Field 'name' in table 'ext_datasource': Dictionary type String[65], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    An alias for this datasource.
+  example: []
   syntax:
     content: public StringFieldInfo Name { get; }
     parameters: []
@@ -276,12 +258,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Name As StringFieldInfo
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Name*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Datatype
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.Datatype
   id: Datatype
@@ -293,13 +269,14 @@ items:
   nameWithType: ExtDatasourceTableInfo.Datatype
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Datatype
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;datatype&apos; in table &apos;ext_datasource&apos;: Dictionary type String[33], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nAn enum indicating the type/protocol for this datasource.\n"
+  summary: >-
+    Field 'datatype' in table 'ext_datasource': Dictionary type String[33], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    An enum indicating the type/protocol for this datasource.
+  example: []
   syntax:
     content: public StringFieldInfo Datatype { get; }
     parameters: []
@@ -307,12 +284,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Datatype As StringFieldInfo
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Datatype*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.DatabaseType
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.DatabaseType
   id: DatabaseType
@@ -324,13 +295,14 @@ items:
   nameWithType: ExtDatasourceTableInfo.DatabaseType
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.DatabaseType
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;database_type&apos; in table &apos;ext_datasource&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe database type (DbType).\n"
+  summary: >-
+    Field 'database_type' in table 'ext_datasource': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The database type (DbType).
+  example: []
   syntax:
     content: public Int32FieldInfo DatabaseType { get; }
     parameters: []
@@ -338,12 +310,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property DatabaseType As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.DatabaseType*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Dbname
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.Dbname
   id: Dbname
@@ -355,13 +321,14 @@ items:
   nameWithType: ExtDatasourceTableInfo.Dbname
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Dbname
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;dbname&apos; in table &apos;ext_datasource&apos;: Dictionary type String[33], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe name used for accessing the datasource.\n"
+  summary: >-
+    Field 'dbname' in table 'ext_datasource': Dictionary type String[33], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The name used for accessing the datasource.
+  example: []
   syntax:
     content: public StringFieldInfo Dbname { get; }
     parameters: []
@@ -369,12 +336,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Dbname As StringFieldInfo
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Dbname*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Hostname
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.Hostname
   id: Hostname
@@ -386,13 +347,14 @@ items:
   nameWithType: ExtDatasourceTableInfo.Hostname
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Hostname
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;hostname&apos; in table &apos;ext_datasource&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe hostname for accessing the datasource.\n"
+  summary: >-
+    Field 'hostname' in table 'ext_datasource': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The hostname for accessing the datasource.
+  example: []
   syntax:
     content: public StringFieldInfo Hostname { get; }
     parameters: []
@@ -400,12 +362,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Hostname As StringFieldInfo
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Hostname*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Port
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.Port
   id: Port
@@ -417,13 +373,14 @@ items:
   nameWithType: ExtDatasourceTableInfo.Port
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Port
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;port&apos; in table &apos;ext_datasource&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe port used for accessing the datasource.\n"
+  summary: >-
+    Field 'port' in table 'ext_datasource': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The port used for accessing the datasource.
+  example: []
   syntax:
     content: public Int32FieldInfo Port { get; }
     parameters: []
@@ -431,12 +388,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property Port As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Port*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Path
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.Path
   id: Path
@@ -448,13 +399,14 @@ items:
   nameWithType: ExtDatasourceTableInfo.Path
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Path
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;path&apos; in table &apos;ext_datasource&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPath to the datasource.\n"
+  summary: >-
+    Field 'path' in table 'ext_datasource': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Path to the datasource.
+  example: []
   syntax:
     content: public StringFieldInfo Path { get; }
     parameters: []
@@ -462,12 +414,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Path As StringFieldInfo
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Path*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Username
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.Username
   id: Username
@@ -479,13 +425,14 @@ items:
   nameWithType: ExtDatasourceTableInfo.Username
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Username
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;username&apos; in table &apos;ext_datasource&apos;: Dictionary type String[65], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe username used for authenticating against the datasource.\n"
+  summary: >-
+    Field 'username' in table 'ext_datasource': Dictionary type String[65], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The username used for authenticating against the datasource.
+  example: []
   syntax:
     content: public StringFieldInfo Username { get; }
     parameters: []
@@ -493,12 +440,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Username As StringFieldInfo
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Username*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Password
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.Password
   id: Password
@@ -510,13 +451,14 @@ items:
   nameWithType: ExtDatasourceTableInfo.Password
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Password
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;password&apos; in table &apos;ext_datasource&apos;: Dictionary type String[65], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe poassword used for authenticating against the datasource.\n"
+  summary: >-
+    Field 'password' in table 'ext_datasource': Dictionary type String[65], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The poassword used for authenticating against the datasource.
+  example: []
   syntax:
     content: public StringFieldInfo Password { get; }
     parameters: []
@@ -524,12 +466,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Password As StringFieldInfo
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Password*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Flags
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.Flags
   id: Flags
@@ -541,13 +477,14 @@ items:
   nameWithType: ExtDatasourceTableInfo.Flags
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Flags
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;flags&apos; in table &apos;ext_datasource&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nBitmask of flags.\n"
+  summary: >-
+    Field 'flags' in table 'ext_datasource': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Bitmask of flags.
+  example: []
   syntax:
     content: public Int32FieldInfo Flags { get; }
     parameters: []
@@ -555,12 +492,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property Flags As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Flags*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.NextUpdate
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.NextUpdate
   id: NextUpdate
@@ -572,13 +503,14 @@ items:
   nameWithType: ExtDatasourceTableInfo.NextUpdate
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.NextUpdate
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;next_update&apos; in table &apos;ext_datasource&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNext time the update process starts\n"
+  summary: >-
+    Field 'next_update' in table 'ext_datasource': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Next time the update process starts
+  example: []
   syntax:
     content: public DateTimeFieldInfo NextUpdate { get; }
     parameters: []
@@ -586,12 +518,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property NextUpdate As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.NextUpdate*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateInterval
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateInterval
   id: UpdateInterval
@@ -603,13 +529,14 @@ items:
   nameWithType: ExtDatasourceTableInfo.UpdateInterval
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateInterval
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;update_interval&apos; in table &apos;ext_datasource&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of hours between each database update\n"
+  summary: >-
+    Field 'update_interval' in table 'ext_datasource': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Number of hours between each database update
+  example: []
   syntax:
     content: public Int32FieldInfo UpdateInterval { get; }
     parameters: []
@@ -617,12 +544,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property UpdateInterval As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateInterval*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateCustomerCount
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateCustomerCount
   id: UpdateCustomerCount
@@ -634,13 +555,14 @@ items:
   nameWithType: ExtDatasourceTableInfo.UpdateCustomerCount
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateCustomerCount
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;update_customer_count&apos; in table &apos;ext_datasource&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of customers updated so far\n"
+  summary: >-
+    Field 'update_customer_count' in table 'ext_datasource': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Number of customers updated so far
+  example: []
   syntax:
     content: public Int32FieldInfo UpdateCustomerCount { get; }
     parameters: []
@@ -648,12 +570,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property UpdateCustomerCount As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateCustomerCount*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateCompanyCount
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateCompanyCount
   id: UpdateCompanyCount
@@ -665,13 +581,14 @@ items:
   nameWithType: ExtDatasourceTableInfo.UpdateCompanyCount
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateCompanyCount
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;update_company_count&apos; in table &apos;ext_datasource&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of companies updated so far\n"
+  summary: >-
+    Field 'update_company_count' in table 'ext_datasource': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Number of companies updated so far
+  example: []
   syntax:
     content: public Int32FieldInfo UpdateCompanyCount { get; }
     parameters: []
@@ -679,12 +596,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property UpdateCompanyCount As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateCompanyCount*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateLock
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateLock
   id: UpdateLock
@@ -696,13 +607,14 @@ items:
   nameWithType: ExtDatasourceTableInfo.UpdateLock
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateLock
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;update_lock&apos; in table &apos;ext_datasource&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLock to make sure not 2 updates are done simultaniously\n"
+  summary: >-
+    Field 'update_lock' in table 'ext_datasource': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Lock to make sure not 2 updates are done simultaniously
+  example: []
   syntax:
     content: public DateTimeFieldInfo UpdateLock { get; }
     parameters: []
@@ -710,12 +622,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property UpdateLock As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateLock*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.LastUpdate
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.LastUpdate
   id: LastUpdate
@@ -727,13 +633,14 @@ items:
   nameWithType: ExtDatasourceTableInfo.LastUpdate
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.LastUpdate
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;last_update&apos; in table &apos;ext_datasource&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWhen did the last update occur?.\n"
+  summary: >-
+    Field 'last_update' in table 'ext_datasource': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    When did the last update occur?.
+  example: []
   syntax:
     content: public DateTimeFieldInfo LastUpdate { get; }
     parameters: []
@@ -741,12 +648,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property LastUpdate As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.LastUpdate*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateCompletionTime
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateCompletionTime
   id: UpdateCompletionTime
@@ -758,13 +659,14 @@ items:
   nameWithType: ExtDatasourceTableInfo.UpdateCompletionTime
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateCompletionTime
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;update_completion_time&apos; in table &apos;ext_datasource&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe last update completion time in minutes.\n"
+  summary: >-
+    Field 'update_completion_time' in table 'ext_datasource': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The last update completion time in minutes.
+  example: []
   syntax:
     content: public Int32FieldInfo UpdateCompletionTime { get; }
     parameters: []
@@ -772,12 +674,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property UpdateCompletionTime As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateCompletionTime*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateErrorMessage
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateErrorMessage
   id: UpdateErrorMessage
@@ -789,13 +685,14 @@ items:
   nameWithType: ExtDatasourceTableInfo.UpdateErrorMessage
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateErrorMessage
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;update_error_message&apos; in table &apos;ext_datasource&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe last error message from datasource update.\n"
+  summary: >-
+    Field 'update_error_message' in table 'ext_datasource': Dictionary type Clob, .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The last error message from datasource update.
+  example: []
   syntax:
     content: public StringFieldInfo UpdateErrorMessage { get; }
     parameters: []
@@ -803,12 +700,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property UpdateErrorMessage As StringFieldInfo
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateErrorMessage*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.LastAccess
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.LastAccess
   id: LastAccess
@@ -820,13 +711,14 @@ items:
   nameWithType: ExtDatasourceTableInfo.LastAccess
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.LastAccess
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;last_access&apos; in table &apos;ext_datasource&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe last time this datasource was accessed.\n"
+  summary: >-
+    Field 'last_access' in table 'ext_datasource': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The last time this datasource was accessed.
+  example: []
   syntax:
     content: public DateTimeFieldInfo LastAccess { get; }
     parameters: []
@@ -834,12 +726,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property LastAccess As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.LastAccess*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.SqlInit
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.SqlInit
   id: SqlInit
@@ -851,13 +737,14 @@ items:
   nameWithType: ExtDatasourceTableInfo.SqlInit
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.SqlInit
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;sql_init&apos; in table &apos;ext_datasource&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe SQL init used for configure the server before fetching external data.\n"
+  summary: >-
+    Field 'sql_init' in table 'ext_datasource': Dictionary type Clob, .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The SQL init used for configure the server before fetching external data.
+  example: []
   syntax:
     content: public StringFieldInfo SqlInit { get; }
     parameters: []
@@ -865,12 +752,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property SqlInit As StringFieldInfo
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.SqlInit*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UnixSocket
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.UnixSocket
   id: UnixSocket
@@ -882,13 +763,14 @@ items:
   nameWithType: ExtDatasourceTableInfo.UnixSocket
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UnixSocket
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;unix_socket&apos; in table &apos;ext_datasource&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nUnix socket used with Mysql connections on Linux\n"
+  summary: >-
+    Field 'unix_socket' in table 'ext_datasource': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Unix socket used with Mysql connections on Linux
+  example: []
   syntax:
     content: public StringFieldInfo UnixSocket { get; }
     parameters: []
@@ -896,12 +778,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property UnixSocket As StringFieldInfo
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UnixSocket*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.LeftOuterJoin_ExtTable_ExtDatasource
   commentId: P:SuperOffice.CRM.Data.ExtDatasourceTableInfo.LeftOuterJoin_ExtTable_ExtDatasource
   id: LeftOuterJoin_ExtTable_ExtDatasource
@@ -913,13 +789,11 @@ items:
   nameWithType: ExtDatasourceTableInfo.LeftOuterJoin_ExtTable_ExtDatasource
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.LeftOuterJoin_ExtTable_ExtDatasource
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key ExtDatasourceId on this table, to ExtTable.<xref href=\"SuperOffice.CRM.Data.ExtTableTableInfo.ExtDatasource\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key ExtDatasourceId on this table, to ExtTable.<xref href="SuperOffice.CRM.Data.ExtTableTableInfo.ExtDatasource" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<ExtTableTableInfo> LeftOuterJoin_ExtTable_ExtDatasource { get; }
     parameters: []
@@ -927,35 +801,68 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ExtTableTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_ExtTable_ExtDatasource As TargetedLeftOuterJoin(Of ExtTableTableInfo)
   overload: SuperOffice.CRM.Data.ExtDatasourceTableInfo.LeftOuterJoin_ExtTable_ExtDatasource*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.Data.SQL.TableInfo
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icloneable
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
@@ -963,241 +870,185 @@ references:
   commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   name: ToString()
   nameWithType: TableInfo.ToString()
   fullName: SuperOffice.Data.SQL.TableInfo.ToString()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
-    nameWithType: TableInfo.ToString
-    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
-    nameWithType: TableInfo.ToString
-    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  name: RegisterFields(FieldInfo[])
-  nameWithType: TableInfo.RegisterFields(FieldInfo[])
-  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
-  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
-  name.vb: RegisterFields(FieldInfo())
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
+  name: RegisterFields(params FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(params FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(params SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(ParamArray FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(ParamArray SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(ParamArray FieldInfo())
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
-    nameWithType: TableInfo.RegisterFields
-    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: params
+  - name: " "
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: '['
+  - name: ']'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
-    nameWithType: TableInfo.RegisterFields
-    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: ParamArray
+  - name: " "
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   name: FieldInfoFromSoField(SoField)
   nameWithType: TableInfo.FieldInfoFromSoField(SoField)
   fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
-    nameWithType: TableInfo.FieldInfoFromSoField
-    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
-    nameWithType: SoField
-    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
-    nameWithType: TableInfo.FieldInfoFromSoField
-    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
-    nameWithType: SoField
-    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.Clone
   commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   name: Clone()
   nameWithType: TableInfo.Clone()
   fullName: SuperOffice.Data.SQL.TableInfo.Clone()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
-    nameWithType: TableInfo.Clone
-    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
-    nameWithType: TableInfo.Clone
-    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   name: IsSameTable(TableInfo)
   nameWithType: TableInfo.IsSameTable(TableInfo)
   fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
-    nameWithType: TableInfo.IsSameTable
-    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
-    nameWithType: TableInfo.IsSameTable
-    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  name: FindField(String)
-  nameWithType: TableInfo.FindField(String)
-  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
+  name: FindField(string)
+  nameWithType: TableInfo.FindField(string)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(string)
+  nameWithType.vb: TableInfo.FindField(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.FindField(String)
+  name.vb: FindField(String)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
-    nameWithType: TableInfo.FindField
-    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
-    nameWithType: TableInfo.FindField
-    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.ProtAll
   commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ProtAll
   name: ProtAll
   nameWithType: TableInfo.ProtAll
   fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
@@ -1205,6 +1056,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_HashCheckFields
   name: HashCheckFields
   nameWithType: TableInfo.HashCheckFields
   fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
@@ -1212,6 +1064,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_TableName
   name: TableName
   nameWithType: TableInfo.TableName
   fullName: SuperOffice.Data.SQL.TableInfo.TableName
@@ -1219,6 +1072,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_DbName
   name: DbName
   nameWithType: TableInfo.DbName
   fullName: SuperOffice.Data.SQL.TableInfo.DbName
@@ -1226,6 +1080,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsDictionaryTable
   name: IsDictionaryTable
   nameWithType: TableInfo.IsDictionaryTable
   fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
@@ -1233,6 +1088,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.All
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_All
   name: All
   nameWithType: TableInfo.All
   fullName: SuperOffice.Data.SQL.TableInfo.All
@@ -1240,136 +1096,389 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  name: Item[String]
-  nameWithType: TableInfo.Item[String]
-  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
-  nameWithType.vb: TableInfo.Item(String)
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-  name.vb: Item(String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: this[string]
+  nameWithType: TableInfo.this[string]
+  fullName: SuperOffice.Data.SQL.TableInfo.this[string]
+  nameWithType.vb: TableInfo.this[](String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.this[](String)
+  name.vb: this[](String)
   spec.csharp:
-  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-    name: Item
-    nameWithType: TableInfo.Item
-    fullName: SuperOffice.Data.SQL.TableInfo.Item
-    isExternal: true
+  - name: this
   - name: '['
-    nameWithType: '['
-    fullName: '['
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ']'
-    nameWithType: ']'
-    fullName: ']'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-    name: Item
-    nameWithType: TableInfo.Item
-    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    name: this[]
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Item_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_PrimaryKeyField
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ExtDatasourceTableInfo, To>()
-  nameWithType: EnumUtil.MapEnums<ExtDatasourceTableInfo, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.ExtDatasourceTableInfo, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ExtDatasourceTableInfo, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.ExtDatasourceTableInfo, To)()
-  name.vb: MapEnums(Of ExtDatasourceTableInfo, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ExtDatasourceTableInfo, To>(ExtDatasourceTableInfo)
+  nameWithType: EnumUtil.MapEnums<ExtDatasourceTableInfo, To>(ExtDatasourceTableInfo)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.ExtDatasourceTableInfo, To>(SuperOffice.CRM.Data.ExtDatasourceTableInfo)
+  nameWithType.vb: EnumUtil.MapEnums(Of ExtDatasourceTableInfo, To)(ExtDatasourceTableInfo)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.ExtDatasourceTableInfo, To)(SuperOffice.CRM.Data.ExtDatasourceTableInfo)
+  name.vb: MapEnums(Of ExtDatasourceTableInfo, To)(ExtDatasourceTableInfo)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ExtDatasourceTableInfo, To>
-    nameWithType: EnumUtil.MapEnums<ExtDatasourceTableInfo, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.ExtDatasourceTableInfo, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.ExtDatasourceTableInfo)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo
+    name: ExtDatasourceTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo
+    name: ExtDatasourceTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ExtDatasourceTableInfo, To)
-    nameWithType: EnumUtil.MapEnums(Of ExtDatasourceTableInfo, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.ExtDatasourceTableInfo, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.ExtDatasourceTableInfo)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo
+    name: ExtDatasourceTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo
+    name: ExtDatasourceTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html
+  - name: )
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ExtDatasourceTableInfo, To>()
-  nameWithType: Converters.MapEnums<ExtDatasourceTableInfo, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.ExtDatasourceTableInfo, To>()
-  nameWithType.vb: Converters.MapEnums(Of ExtDatasourceTableInfo, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.ExtDatasourceTableInfo, To)()
-  name.vb: MapEnums(Of ExtDatasourceTableInfo, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ExtDatasourceTableInfo, To>(ExtDatasourceTableInfo)
+  nameWithType: Converters.MapEnums<ExtDatasourceTableInfo, To>(ExtDatasourceTableInfo)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.ExtDatasourceTableInfo, To>(SuperOffice.CRM.Data.ExtDatasourceTableInfo)
+  nameWithType.vb: Converters.MapEnums(Of ExtDatasourceTableInfo, To)(ExtDatasourceTableInfo)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.ExtDatasourceTableInfo, To)(SuperOffice.CRM.Data.ExtDatasourceTableInfo)
+  name.vb: MapEnums(Of ExtDatasourceTableInfo, To)(ExtDatasourceTableInfo)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ExtDatasourceTableInfo, To>
-    nameWithType: Converters.MapEnums<ExtDatasourceTableInfo, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.ExtDatasourceTableInfo, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.ExtDatasourceTableInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo
+    name: ExtDatasourceTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo
+    name: ExtDatasourceTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ExtDatasourceTableInfo, To)
-    nameWithType: Converters.MapEnums(Of ExtDatasourceTableInfo, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.ExtDatasourceTableInfo, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.ExtDatasourceTableInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo
+    name: ExtDatasourceTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo
+    name: ExtDatasourceTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1378,43 +1487,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1423,57 +1534,94 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.DictionaryTableNumber*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.DictionaryTableNumber
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_DictionaryTableNumber
   name: DictionaryTableNumber
   nameWithType: ExtDatasourceTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.DictionaryTableNumber
@@ -1481,12 +1629,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.RuntimeDefinition*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.RuntimeDefinition
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_RuntimeDefinition
   name: RuntimeDefinition
   nameWithType: ExtDatasourceTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.RuntimeDefinition
@@ -1494,31 +1647,66 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoTable
   parent: SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable
   nameWithType: SoTable
   fullName: SuperOffice.Data.Dictionary.SoTable
 - uid: SuperOffice.Data.Dictionary
   commentId: N:SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.Dictionary
   nameWithType: SuperOffice.Data.Dictionary
   fullName: SuperOffice.Data.Dictionary
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
 - uid: SuperOffice.Data.SQL.TableInfo.Definition
   commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Definition
   name: Definition
   nameWithType: TableInfo.Definition
   fullName: SuperOffice.Data.SQL.TableInfo.Definition
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Definition*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.Definition
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_Definition
   name: Definition
   nameWithType: ExtDatasourceTableInfo.Definition
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Definition
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.ExtDatasourceId*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.ExtDatasourceId
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_ExtDatasourceId
   name: ExtDatasourceId
   nameWithType: ExtDatasourceTableInfo.ExtDatasourceId
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.ExtDatasourceId
@@ -1526,12 +1714,14 @@ references:
   commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.Int32FieldInfo.html
   name: Int32FieldInfo
   nameWithType: Int32FieldInfo
   fullName: SuperOffice.Data.SQL.Int32FieldInfo
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Name*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.Name
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_Name
   name: Name
   nameWithType: ExtDatasourceTableInfo.Name
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Name
@@ -1539,66 +1729,88 @@ references:
   commentId: T:SuperOffice.Data.SQL.StringFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.StringFieldInfo.html
   name: StringFieldInfo
   nameWithType: StringFieldInfo
   fullName: SuperOffice.Data.SQL.StringFieldInfo
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Datatype*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.Datatype
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_Datatype
   name: Datatype
   nameWithType: ExtDatasourceTableInfo.Datatype
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Datatype
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.DatabaseType*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.DatabaseType
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_DatabaseType
   name: DatabaseType
   nameWithType: ExtDatasourceTableInfo.DatabaseType
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.DatabaseType
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Dbname*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.Dbname
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_Dbname
   name: Dbname
   nameWithType: ExtDatasourceTableInfo.Dbname
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Dbname
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Hostname*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.Hostname
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_Hostname
   name: Hostname
   nameWithType: ExtDatasourceTableInfo.Hostname
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Hostname
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Port*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.Port
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_Port
   name: Port
   nameWithType: ExtDatasourceTableInfo.Port
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Port
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Path*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.Path
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_Path
   name: Path
   nameWithType: ExtDatasourceTableInfo.Path
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Path
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Username*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.Username
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_Username
   name: Username
   nameWithType: ExtDatasourceTableInfo.Username
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Username
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Password*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.Password
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_Password
   name: Password
   nameWithType: ExtDatasourceTableInfo.Password
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Password
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Flags*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.Flags
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_Flags
   name: Flags
   nameWithType: ExtDatasourceTableInfo.Flags
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.Flags
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.NextUpdate*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.NextUpdate
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_NextUpdate
   name: NextUpdate
   nameWithType: ExtDatasourceTableInfo.NextUpdate
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.NextUpdate
@@ -1606,72 +1818,91 @@ references:
   commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.DateTimeFieldInfo.html
   name: DateTimeFieldInfo
   nameWithType: DateTimeFieldInfo
   fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateInterval*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateInterval
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_UpdateInterval
   name: UpdateInterval
   nameWithType: ExtDatasourceTableInfo.UpdateInterval
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateInterval
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateCustomerCount*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateCustomerCount
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_UpdateCustomerCount
   name: UpdateCustomerCount
   nameWithType: ExtDatasourceTableInfo.UpdateCustomerCount
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateCustomerCount
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateCompanyCount*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateCompanyCount
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_UpdateCompanyCount
   name: UpdateCompanyCount
   nameWithType: ExtDatasourceTableInfo.UpdateCompanyCount
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateCompanyCount
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateLock*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateLock
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_UpdateLock
   name: UpdateLock
   nameWithType: ExtDatasourceTableInfo.UpdateLock
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateLock
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.LastUpdate*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.LastUpdate
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_LastUpdate
   name: LastUpdate
   nameWithType: ExtDatasourceTableInfo.LastUpdate
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.LastUpdate
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateCompletionTime*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateCompletionTime
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_UpdateCompletionTime
   name: UpdateCompletionTime
   nameWithType: ExtDatasourceTableInfo.UpdateCompletionTime
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateCompletionTime
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateErrorMessage*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateErrorMessage
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_UpdateErrorMessage
   name: UpdateErrorMessage
   nameWithType: ExtDatasourceTableInfo.UpdateErrorMessage
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UpdateErrorMessage
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.LastAccess*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.LastAccess
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_LastAccess
   name: LastAccess
   nameWithType: ExtDatasourceTableInfo.LastAccess
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.LastAccess
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.SqlInit*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.SqlInit
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_SqlInit
   name: SqlInit
   nameWithType: ExtDatasourceTableInfo.SqlInit
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.SqlInit
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UnixSocket*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.UnixSocket
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_UnixSocket
   name: UnixSocket
   nameWithType: ExtDatasourceTableInfo.UnixSocket
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.UnixSocket
+- uid: SuperOffice.CRM.Data.ExtTableTableInfo.ExtDatasource
+  commentId: P:SuperOffice.CRM.Data.ExtTableTableInfo.ExtDatasource
+  isExternal: true
+  href: SuperOffice.CRM.Data.ExtTableTableInfo.html#SuperOffice_CRM_Data_ExtTableTableInfo_ExtDatasource
+  name: ExtDatasource
+  nameWithType: ExtTableTableInfo.ExtDatasource
+  fullName: SuperOffice.CRM.Data.ExtTableTableInfo.ExtDatasource
 - uid: SuperOffice.CRM.Data.ExtDatasourceTableInfo.LeftOuterJoin_ExtTable_ExtDatasource*
   commentId: Overload:SuperOffice.CRM.Data.ExtDatasourceTableInfo.LeftOuterJoin_ExtTable_ExtDatasource
   isExternal: true
+  href: SuperOffice.CRM.Data.ExtDatasourceTableInfo.html#SuperOffice_CRM_Data_ExtDatasourceTableInfo_LeftOuterJoin_ExtTable_ExtDatasource
   name: LeftOuterJoin_ExtTable_ExtDatasource
   nameWithType: ExtDatasourceTableInfo.LeftOuterJoin_ExtTable_ExtDatasource
   fullName: SuperOffice.CRM.Data.ExtDatasourceTableInfo.LeftOuterJoin_ExtTable_ExtDatasource
@@ -1679,6 +1910,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ExtTableTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<ExtTableTableInfo>
   nameWithType: TargetedLeftOuterJoin<ExtTableTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.ExtTableTableInfo>
@@ -1688,40 +1920,31 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.ExtTableTableInfo
     name: ExtTableTableInfo
-    nameWithType: ExtTableTableInfo
-    fullName: SuperOffice.CRM.Data.ExtTableTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.ExtTableTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.ExtTableTableInfo
     name: ExtTableTableInfo
-    nameWithType: ExtTableTableInfo
-    fullName: SuperOffice.CRM.Data.ExtTableTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.ExtTableTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
   isExternal: true
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<TargetTableInfo>
   nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
@@ -1731,30 +1954,18 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: )
-    nameWithType: )
-    fullName: )

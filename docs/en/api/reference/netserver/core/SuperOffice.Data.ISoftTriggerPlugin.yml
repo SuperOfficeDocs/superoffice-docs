@@ -13,27 +13,17 @@ items:
   nameWithType: ISoftTriggerPlugin
   fullName: SuperOffice.Data.ISoftTriggerPlugin
   type: Interface
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nInterface implemented by soft trigger subscribers\n"
+  summary: Interface implemented by soft trigger subscribers
+  example: []
   syntax:
-    content: 'public interface ISoftTriggerPlugin : IPlugin'
-    content.vb: >-
-      Public Interface ISoftTriggerPlugin
-          Inherits IPlugin
+    content: public interface ISoftTriggerPlugin
+    content.vb: Public Interface ISoftTriggerPlugin
   extensionMethods:
   - SuperOffice.Data.ISoftTriggerPlugin.EnumUtil.MapEnums``2
   - SuperOffice.Data.ISoftTriggerPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
 - uid: SuperOffice.Data.ISoftTriggerPlugin.Initialize(SuperOffice.Data.SoftTrigger)
   commentId: M:SuperOffice.Data.ISoftTriggerPlugin.Initialize(SuperOffice.Data.SoftTrigger)
   id: Initialize(SuperOffice.Data.SoftTrigger)
@@ -45,13 +35,11 @@ items:
   nameWithType: ISoftTriggerPlugin.Initialize(SoftTrigger)
   fullName: SuperOffice.Data.ISoftTriggerPlugin.Initialize(SuperOffice.Data.SoftTrigger)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nImplementers shoudl sbscribe to events in this method.\n"
+  summary: Implementers shoudl sbscribe to events in this method.
+  example: []
   syntax:
     content: void Initialize(SoftTrigger softTrigger)
     parameters:
@@ -64,80 +52,140 @@ references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.ISoftTriggerPlugin.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ISoftTriggerPlugin, To>()
-  nameWithType: EnumUtil.MapEnums<ISoftTriggerPlugin, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.ISoftTriggerPlugin, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ISoftTriggerPlugin, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ISoftTriggerPlugin, To)()
-  name.vb: MapEnums(Of ISoftTriggerPlugin, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ISoftTriggerPlugin, To>(ISoftTriggerPlugin)
+  nameWithType: EnumUtil.MapEnums<ISoftTriggerPlugin, To>(ISoftTriggerPlugin)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ISoftTriggerPlugin, To>(SuperOffice.Data.ISoftTriggerPlugin)
+  nameWithType.vb: EnumUtil.MapEnums(Of ISoftTriggerPlugin, To)(ISoftTriggerPlugin)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ISoftTriggerPlugin, To)(SuperOffice.Data.ISoftTriggerPlugin)
+  name.vb: MapEnums(Of ISoftTriggerPlugin, To)(ISoftTriggerPlugin)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ISoftTriggerPlugin, To>
-    nameWithType: EnumUtil.MapEnums<ISoftTriggerPlugin, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.ISoftTriggerPlugin, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ISoftTriggerPlugin)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.ISoftTriggerPlugin
+    name: ISoftTriggerPlugin
+    isExternal: true
+    href: SuperOffice.Data.ISoftTriggerPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.ISoftTriggerPlugin
+    name: ISoftTriggerPlugin
+    isExternal: true
+    href: SuperOffice.Data.ISoftTriggerPlugin.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ISoftTriggerPlugin, To)
-    nameWithType: EnumUtil.MapEnums(Of ISoftTriggerPlugin, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ISoftTriggerPlugin, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ISoftTriggerPlugin)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ISoftTriggerPlugin
+    name: ISoftTriggerPlugin
+    isExternal: true
+    href: SuperOffice.Data.ISoftTriggerPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.ISoftTriggerPlugin
+    name: ISoftTriggerPlugin
+    isExternal: true
+    href: SuperOffice.Data.ISoftTriggerPlugin.html
+  - name: )
 - uid: SuperOffice.Data.ISoftTriggerPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ISoftTriggerPlugin, To>()
-  nameWithType: Converters.MapEnums<ISoftTriggerPlugin, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ISoftTriggerPlugin, To>()
-  nameWithType.vb: Converters.MapEnums(Of ISoftTriggerPlugin, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ISoftTriggerPlugin, To)()
-  name.vb: MapEnums(Of ISoftTriggerPlugin, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ISoftTriggerPlugin, To>(ISoftTriggerPlugin)
+  nameWithType: Converters.MapEnums<ISoftTriggerPlugin, To>(ISoftTriggerPlugin)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ISoftTriggerPlugin, To>(SuperOffice.Data.ISoftTriggerPlugin)
+  nameWithType.vb: Converters.MapEnums(Of ISoftTriggerPlugin, To)(ISoftTriggerPlugin)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ISoftTriggerPlugin, To)(SuperOffice.Data.ISoftTriggerPlugin)
+  name.vb: MapEnums(Of ISoftTriggerPlugin, To)(ISoftTriggerPlugin)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ISoftTriggerPlugin, To>
-    nameWithType: Converters.MapEnums<ISoftTriggerPlugin, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ISoftTriggerPlugin, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ISoftTriggerPlugin)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.ISoftTriggerPlugin
+    name: ISoftTriggerPlugin
+    isExternal: true
+    href: SuperOffice.Data.ISoftTriggerPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.ISoftTriggerPlugin
+    name: ISoftTriggerPlugin
+    isExternal: true
+    href: SuperOffice.Data.ISoftTriggerPlugin.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ISoftTriggerPlugin, To)
-    nameWithType: Converters.MapEnums(Of ISoftTriggerPlugin, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ISoftTriggerPlugin, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ISoftTriggerPlugin)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ISoftTriggerPlugin
+    name: ISoftTriggerPlugin
+    isExternal: true
+    href: SuperOffice.Data.ISoftTriggerPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.ISoftTriggerPlugin
+    name: ISoftTriggerPlugin
+    isExternal: true
+    href: SuperOffice.Data.ISoftTriggerPlugin.html
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -146,43 +194,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -191,50 +241,83 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Data.ISoftTriggerPlugin.Initialize*
   commentId: Overload:SuperOffice.Data.ISoftTriggerPlugin.Initialize
   isExternal: true
+  href: SuperOffice.Data.ISoftTriggerPlugin.html#SuperOffice_Data_ISoftTriggerPlugin_Initialize_SuperOffice_Data_SoftTrigger_
   name: Initialize
   nameWithType: ISoftTriggerPlugin.Initialize
   fullName: SuperOffice.Data.ISoftTriggerPlugin.Initialize
@@ -242,6 +325,7 @@ references:
   commentId: T:SuperOffice.Data.SoftTrigger
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.SoftTrigger.html
   name: SoftTrigger
   nameWithType: SoftTrigger
   fullName: SuperOffice.Data.SoftTrigger

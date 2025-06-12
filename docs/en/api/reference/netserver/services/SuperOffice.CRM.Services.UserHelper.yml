@@ -17,26 +17,22 @@ items:
   nameWithType: UserHelper
   fullName: SuperOffice.CRM.Services.UserHelper
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: 'public static class UserHelper : Object'
-    content.vb: >-
-      Public Module UserHelper
-          Inherits Object
+    content: public static class UserHelper
+    content.vb: Public Module UserHelper
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Services.UserHelper.FromName(SuperOffice.CRM.Services.LicenseOwner[],System.String)
   commentId: M:SuperOffice.CRM.Services.UserHelper.FromName(SuperOffice.CRM.Services.LicenseOwner[],System.String)
   id: FromName(SuperOffice.CRM.Services.LicenseOwner[],System.String)
@@ -45,17 +41,15 @@ items:
   langs:
   - csharp
   - vb
-  name: FromName(LicenseOwner[], String)
-  nameWithType: UserHelper.FromName(LicenseOwner[], String)
-  fullName: SuperOffice.CRM.Services.UserHelper.FromName(SuperOffice.CRM.Services.LicenseOwner[], System.String)
+  name: FromName(LicenseOwner[], string)
+  nameWithType: UserHelper.FromName(LicenseOwner[], string)
+  fullName: SuperOffice.CRM.Services.UserHelper.FromName(SuperOffice.CRM.Services.LicenseOwner[], string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet the license owner from an array of license owners\n"
+  summary: Get the license owner from an array of license owners
+  example: []
   syntax:
     content: public static LicenseOwner FromName(this LicenseOwner[] owners, string ownerName)
     parameters:
@@ -67,19 +61,10 @@ items:
     return:
       type: SuperOffice.CRM.Services.LicenseOwner
       description: License owner with provided name.  Null (VB Nothing) is returned if there are no license owners with this name.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function FromName(owners As LicenseOwner(), ownerName As String) As LicenseOwner
+    content.vb: Public Shared Function FromName(owners As LicenseOwner(), ownerName As String) As LicenseOwner
   overload: SuperOffice.CRM.Services.UserHelper.FromName*
   nameWithType.vb: UserHelper.FromName(LicenseOwner(), String)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Services.UserHelper.FromName(SuperOffice.CRM.Services.LicenseOwner(), System.String)
+  fullName.vb: SuperOffice.CRM.Services.UserHelper.FromName(SuperOffice.CRM.Services.LicenseOwner(), String)
   name.vb: FromName(LicenseOwner(), String)
 - uid: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.User,System.String)
   commentId: M:SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.User,System.String)
@@ -89,17 +74,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetModuleLicenseLink(User, String)
-  nameWithType: UserHelper.GetModuleLicenseLink(User, String)
-  fullName: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.User, System.String)
+  name: GetModuleLicenseLink(User, string)
+  nameWithType: UserHelper.GetModuleLicenseLink(User, string)
+  fullName: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.User, string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet a module license for a user.\n"
+  summary: Get a module license for a user.
+  example: []
   syntax:
     content: public static ModuleLicenseLink GetModuleLicenseLink(this User user, string fullName)
     parameters:
@@ -112,17 +95,11 @@ items:
     return:
       type: SuperOffice.CRM.Services.ModuleLicenseLink
       description: Module license link available for a user. Null (VB Nothing) is returned if there are no modules with this name.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function GetModuleLicenseLink(user As User, fullName As String) As ModuleLicenseLink
+    content.vb: Public Shared Function GetModuleLicenseLink(user As User, fullName As String) As ModuleLicenseLink
   overload: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: UserHelper.GetModuleLicenseLink(User, String)
+  fullName.vb: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.User, String)
+  name.vb: GetModuleLicenseLink(User, String)
 - uid: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.User,System.String,System.String)
   commentId: M:SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.User,System.String,System.String)
   id: GetModuleLicenseLink(SuperOffice.CRM.Services.User,System.String,System.String)
@@ -131,17 +108,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetModuleLicenseLink(User, String, String)
-  nameWithType: UserHelper.GetModuleLicenseLink(User, String, String)
-  fullName: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.User, System.String, System.String)
+  name: GetModuleLicenseLink(User, string, string)
+  nameWithType: UserHelper.GetModuleLicenseLink(User, string, string)
+  fullName: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.User, string, string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet a module license for a user.\n"
+  summary: Get a module license for a user.
+  example: []
   syntax:
     content: public static ModuleLicenseLink GetModuleLicenseLink(this User user, string ownerName, string moduleName)
     parameters:
@@ -157,17 +132,11 @@ items:
     return:
       type: SuperOffice.CRM.Services.ModuleLicenseLink
       description: Module license link available for a user. Null (VB Nothing) is returned if there are no modules with this name.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function GetModuleLicenseLink(user As User, ownerName As String, moduleName As String) As ModuleLicenseLink
+    content.vb: Public Shared Function GetModuleLicenseLink(user As User, ownerName As String, moduleName As String) As ModuleLicenseLink
   overload: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: UserHelper.GetModuleLicenseLink(User, String, String)
+  fullName.vb: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.User, String, String)
+  name.vb: GetModuleLicenseLink(User, String, String)
 - uid: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner,System.String)
   commentId: M:SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner,System.String)
   id: GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner,System.String)
@@ -176,17 +145,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetModuleLicenseLink(LicenseOwner, String)
-  nameWithType: UserHelper.GetModuleLicenseLink(LicenseOwner, String)
-  fullName: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner, System.String)
+  name: GetModuleLicenseLink(LicenseOwner, string)
+  nameWithType: UserHelper.GetModuleLicenseLink(LicenseOwner, string)
+  fullName: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner, string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nFind a module license link from a LicenseOwner.\n"
+  summary: Find a module license link from a LicenseOwner.
+  example: []
   syntax:
     content: public static ModuleLicenseLink GetModuleLicenseLink(this LicenseOwner owner, string moduleName)
     parameters:
@@ -199,17 +166,11 @@ items:
     return:
       type: SuperOffice.CRM.Services.ModuleLicenseLink
       description: ModuleLicenseLink mathcing module name.  Null if nothing is found.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function GetModuleLicenseLink(owner As LicenseOwner, moduleName As String) As ModuleLicenseLink
+    content.vb: Public Shared Function GetModuleLicenseLink(owner As LicenseOwner, moduleName As String) As ModuleLicenseLink
   overload: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: UserHelper.GetModuleLicenseLink(LicenseOwner, String)
+  fullName.vb: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner, String)
+  name.vb: GetModuleLicenseLink(LicenseOwner, String)
 - uid: SuperOffice.CRM.Services.UserHelper.FromName(SuperOffice.CRM.Services.ModuleLicenseLink[],System.String)
   commentId: M:SuperOffice.CRM.Services.UserHelper.FromName(SuperOffice.CRM.Services.ModuleLicenseLink[],System.String)
   id: FromName(SuperOffice.CRM.Services.ModuleLicenseLink[],System.String)
@@ -218,17 +179,15 @@ items:
   langs:
   - csharp
   - vb
-  name: FromName(ModuleLicenseLink[], String)
-  nameWithType: UserHelper.FromName(ModuleLicenseLink[], String)
-  fullName: SuperOffice.CRM.Services.UserHelper.FromName(SuperOffice.CRM.Services.ModuleLicenseLink[], System.String)
+  name: FromName(ModuleLicenseLink[], string)
+  nameWithType: UserHelper.FromName(ModuleLicenseLink[], string)
+  fullName: SuperOffice.CRM.Services.UserHelper.FromName(SuperOffice.CRM.Services.ModuleLicenseLink[], string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nFind a module license link from an array of module license links.\n"
+  summary: Find a module license link from an array of module license links.
+  example: []
   syntax:
     content: public static ModuleLicenseLink FromName(this ModuleLicenseLink[] modules, string moduleName)
     parameters:
@@ -241,35 +200,296 @@ items:
     return:
       type: SuperOffice.CRM.Services.ModuleLicenseLink
       description: Module license link found from an array of module license links. Null (VB Nothing) is returned if there are no modules with this name.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function FromName(modules As ModuleLicenseLink(), moduleName As String) As ModuleLicenseLink
+    content.vb: Public Shared Function FromName(modules As ModuleLicenseLink(), moduleName As String) As ModuleLicenseLink
   overload: SuperOffice.CRM.Services.UserHelper.FromName*
   nameWithType.vb: UserHelper.FromName(ModuleLicenseLink(), String)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Services.UserHelper.FromName(SuperOffice.CRM.Services.ModuleLicenseLink(), System.String)
+  fullName.vb: SuperOffice.CRM.Services.UserHelper.FromName(SuperOffice.CRM.Services.ModuleLicenseLink(), String)
   name.vb: FromName(ModuleLicenseLink(), String)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.UserHelper.FromName*
   commentId: Overload:SuperOffice.CRM.Services.UserHelper.FromName
   isExternal: true
+  href: SuperOffice.CRM.Services.UserHelper.html#SuperOffice_CRM_Services_UserHelper_FromName_SuperOffice_CRM_Services_LicenseOwner___System_String_
   name: FromName
   nameWithType: UserHelper.FromName
   fullName: SuperOffice.CRM.Services.UserHelper.FromName
 - uid: SuperOffice.CRM.Services.LicenseOwner[]
   isExternal: true
+  href: SuperOffice.CRM.Services.LicenseOwner.html
   name: LicenseOwner[]
   nameWithType: LicenseOwner[]
   fullName: SuperOffice.CRM.Services.LicenseOwner[]
@@ -279,44 +499,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.LicenseOwner
     name: LicenseOwner
-    nameWithType: LicenseOwner
-    fullName: SuperOffice.CRM.Services.LicenseOwner
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.LicenseOwner.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.LicenseOwner
     name: LicenseOwner
-    nameWithType: LicenseOwner
-    fullName: SuperOffice.CRM.Services.LicenseOwner
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.Services.LicenseOwner.html
+  - name: (
+  - name: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.LicenseOwner
   commentId: T:SuperOffice.CRM.Services.LicenseOwner
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.LicenseOwner.html
   name: LicenseOwner
   nameWithType: LicenseOwner
   fullName: SuperOffice.CRM.Services.LicenseOwner
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink*
   commentId: Overload:SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink
   isExternal: true
+  href: SuperOffice.CRM.Services.UserHelper.html#SuperOffice_CRM_Services_UserHelper_GetModuleLicenseLink_SuperOffice_CRM_Services_User_System_String_
   name: GetModuleLicenseLink
   nameWithType: UserHelper.GetModuleLicenseLink
   fullName: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink
@@ -324,6 +540,7 @@ references:
   commentId: T:SuperOffice.CRM.Services.User
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.User.html
   name: User
   nameWithType: User
   fullName: SuperOffice.CRM.Services.User
@@ -331,11 +548,13 @@ references:
   commentId: T:SuperOffice.CRM.Services.ModuleLicenseLink
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.ModuleLicenseLink.html
   name: ModuleLicenseLink
   nameWithType: ModuleLicenseLink
   fullName: SuperOffice.CRM.Services.ModuleLicenseLink
 - uid: SuperOffice.CRM.Services.ModuleLicenseLink[]
   isExternal: true
+  href: SuperOffice.CRM.Services.ModuleLicenseLink.html
   name: ModuleLicenseLink[]
   nameWithType: ModuleLicenseLink[]
   fullName: SuperOffice.CRM.Services.ModuleLicenseLink[]
@@ -345,18 +564,14 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.ModuleLicenseLink
     name: ModuleLicenseLink
-    nameWithType: ModuleLicenseLink
-    fullName: SuperOffice.CRM.Services.ModuleLicenseLink
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.ModuleLicenseLink.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.ModuleLicenseLink
     name: ModuleLicenseLink
-    nameWithType: ModuleLicenseLink
-    fullName: SuperOffice.CRM.Services.ModuleLicenseLink
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.Services.ModuleLicenseLink.html
+  - name: (
+  - name: )

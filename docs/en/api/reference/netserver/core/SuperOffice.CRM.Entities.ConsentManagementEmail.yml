@@ -5,20 +5,17 @@ items:
   id: ConsentManagementEmail
   parent: SuperOffice.CRM.Entities
   children:
-  - SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(SuperOffice.CRM.Entities.Person)
-  - SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.String)
-  - SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(System.Int32,System.String,System.Int32,System.Int32,System.String)
-  - SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(System.Int32,System.String,System.Int32,System.Int32,System.String,System.String,System.String)
-  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32,System.Int32)
-  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32,System.String[],System.Int32,System.Int32)
-  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.String[],System.Int32)
-  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetCurrentPrincipalPreferredLangauge(System.Int32)
+  - SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync(SuperOffice.CRM.Entities.Person,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync(System.Int32,System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(System.Int32,System.String[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(System.String[],System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.ConsentManagementEmail.GetFromAddress
-  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmail
-  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTmplate(System.String)
+  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmailAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTemplateAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.ConsentManagementEmail.GetTemplateVariables
   - SuperOffice.CRM.Entities.ConsentManagementEmail.HasTemplate
-  - SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmail
+  - SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmailAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.ConsentManagementEmail.SmtpConnectionExists
   langs:
   - csharp
@@ -27,83 +24,41 @@ items:
   nameWithType: ConsentManagementEmail
   fullName: SuperOffice.CRM.Entities.ConsentManagementEmail
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: 'public class ConsentManagementEmail : Object'
-    content.vb: >-
-      Public Class ConsentManagementEmail
-          Inherits Object
+    content: public class ConsentManagementEmail
+    content.vb: Public Class ConsentManagementEmail
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Entities.ConsentManagementEmail.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Entities.ConsentManagementEmail.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.String)
-  id: '#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.String)'
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync(System.Int32,System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync(System.Int32,System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  id: CreateAsync(System.Int32,System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ConsentManagementEmail
   langs:
   - csharp
   - vb
-  name: ConsentManagementEmail(Int32, Int32, Int32, Int32, String)
-  nameWithType: ConsentManagementEmail.ConsentManagementEmail(Int32, Int32, Int32, Int32, String)
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.ConsentManagementEmail(System.Int32, System.Int32, System.Int32, System.Int32, System.String)
-  type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
+  name: CreateAsync(int, string, int, int, string, CancellationToken)
+  nameWithType: ConsentManagementEmail.CreateAsync(int, string, int, int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync(int, string, int, int, string, System.Threading.CancellationToken)
+  type: Method
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public ConsentManagementEmail(int personId, int emailAddressId, int emailTemplateId, int cultureLcidId, string subject)
-    parameters:
-    - id: personId
-      type: System.Int32
-    - id: emailAddressId
-      type: System.Int32
-    - id: emailTemplateId
-      type: System.Int32
-    - id: cultureLcidId
-      type: System.Int32
-    - id: subject
-      type: System.String
-    content.vb: Public Sub New(personId As Integer, emailAddressId As Integer, emailTemplateId As Integer, cultureLcidId As Integer, subject As String)
-  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(System.Int32,System.String,System.Int32,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(System.Int32,System.String,System.Int32,System.Int32,System.String)
-  id: '#ctor(System.Int32,System.String,System.Int32,System.Int32,System.String)'
-  parent: SuperOffice.CRM.Entities.ConsentManagementEmail
-  langs:
-  - csharp
-  - vb
-  name: ConsentManagementEmail(Int32, String, Int32, Int32, String)
-  nameWithType: ConsentManagementEmail.ConsentManagementEmail(Int32, String, Int32, Int32, String)
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.ConsentManagementEmail(System.Int32, System.String, System.Int32, System.Int32, System.String)
-  type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Entities
-  syntax:
-    content: public ConsentManagementEmail(int personId, string emailAddress, int emailTemplateId, int cultureLcidId, string subject)
+    content: public static Task<ConsentManagementEmail> CreateAsync(int personId, string emailAddress, int emailTemplateId, int cultureLcidId, string subject, CancellationToken cancellationToken = default)
     parameters:
     - id: personId
       type: System.Int32
@@ -115,205 +70,148 @@ items:
       type: System.Int32
     - id: subject
       type: System.String
-    content.vb: Public Sub New(personId As Integer, emailAddress As String, emailTemplateId As Integer, cultureLcidId As Integer, subject As String)
-  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(System.Int32,System.String,System.Int32,System.Int32,System.String,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(System.Int32,System.String,System.Int32,System.Int32,System.String,System.String,System.String)
-  id: '#ctor(System.Int32,System.String,System.Int32,System.Int32,System.String,System.String,System.String)'
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.ConsentManagementEmail}
+    content.vb: Public Shared Function CreateAsync(personId As Integer, emailAddress As String, emailTemplateId As Integer, cultureLcidId As Integer, subject As String, cancellationToken As CancellationToken = Nothing) As Task(Of ConsentManagementEmail)
+  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync*
+  nameWithType.vb: ConsentManagementEmail.CreateAsync(Integer, String, Integer, Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync(Integer, String, Integer, Integer, String, System.Threading.CancellationToken)
+  name.vb: CreateAsync(Integer, String, Integer, Integer, String, CancellationToken)
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync(SuperOffice.CRM.Entities.Person,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync(SuperOffice.CRM.Entities.Person,System.Threading.CancellationToken)
+  id: CreateAsync(SuperOffice.CRM.Entities.Person,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ConsentManagementEmail
   langs:
   - csharp
   - vb
-  name: ConsentManagementEmail(Int32, String, Int32, Int32, String, String, String)
-  nameWithType: ConsentManagementEmail.ConsentManagementEmail(Int32, String, Int32, Int32, String, String, String)
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.ConsentManagementEmail(System.Int32, System.String, System.Int32, System.Int32, System.String, System.String, System.String)
-  type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
+  name: CreateAsync(Person, CancellationToken)
+  nameWithType: ConsentManagementEmail.CreateAsync(Person, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync(SuperOffice.CRM.Entities.Person, System.Threading.CancellationToken)
+  type: Method
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public ConsentManagementEmail(int personId, string emailAddress, int emailTemplateId, int cultureLcidId, string subject, string smtpHost, string defaultAddress)
-    parameters:
-    - id: personId
-      type: System.Int32
-    - id: emailAddress
-      type: System.String
-    - id: emailTemplateId
-      type: System.Int32
-    - id: cultureLcidId
-      type: System.Int32
-    - id: subject
-      type: System.String
-    - id: smtpHost
-      type: System.String
-    - id: defaultAddress
-      type: System.String
-    content.vb: Public Sub New(personId As Integer, emailAddress As String, emailTemplateId As Integer, cultureLcidId As Integer, subject As String, smtpHost As String, defaultAddress As String)
-  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(SuperOffice.CRM.Entities.Person)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(SuperOffice.CRM.Entities.Person)
-  id: '#ctor(SuperOffice.CRM.Entities.Person)'
-  parent: SuperOffice.CRM.Entities.ConsentManagementEmail
-  langs:
-  - csharp
-  - vb
-  name: ConsentManagementEmail(Person)
-  nameWithType: ConsentManagementEmail.ConsentManagementEmail(Person)
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.ConsentManagementEmail(SuperOffice.CRM.Entities.Person)
-  type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Entities
-  syntax:
-    content: public ConsentManagementEmail(Person person)
+    content: public static Task<ConsentManagementEmail> CreateAsync(Person person, CancellationToken cancellationToken = default)
     parameters:
     - id: person
       type: SuperOffice.CRM.Entities.Person
-    content.vb: Public Sub New(person As Person)
-  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTmplate(System.String)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTmplate(System.String)
-  id: GetSupportedLanguagesForDocTmplate(System.String)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.ConsentManagementEmail}
+    content.vb: Public Shared Function CreateAsync(person As Person, cancellationToken As CancellationToken = Nothing) As Task(Of ConsentManagementEmail)
+  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync*
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTemplateAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTemplateAsync(System.String,System.Threading.CancellationToken)
+  id: GetSupportedLanguagesForDocTemplateAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ConsentManagementEmail
   langs:
   - csharp
   - vb
-  name: GetSupportedLanguagesForDocTmplate(String)
-  nameWithType: ConsentManagementEmail.GetSupportedLanguagesForDocTmplate(String)
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTmplate(System.String)
+  name: GetSupportedLanguagesForDocTemplateAsync(string, CancellationToken)
+  nameWithType: ConsentManagementEmail.GetSupportedLanguagesForDocTemplateAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTemplateAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nGets template languages for a given document template filename\n"
+  summary: Gets template languages for a given document template filename
+  example: []
   syntax:
-    content: public static string[] GetSupportedLanguagesForDocTmplate(string tmplName)
+    content: public static Task<string[]> GetSupportedLanguagesForDocTemplateAsync(string tmplName, CancellationToken cancellationToken = default)
     parameters:
     - id: tmplName
       type: System.String
       description: Template filename
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String[]
-      description: 'SuperOffice language codes: [&quot;US&quot;, &quot;SW&quot;, &quot;GE&quot;] or empty array if no language-specific variant exists'
-    content.vb: Public Shared Function GetSupportedLanguagesForDocTmplate(tmplName As String) As String()
-  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTmplate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32,System.Int32)
-  id: GetBestLanguageForPerson(System.Int32,System.Int32)
+      type: System.Threading.Tasks.Task{System.String[]}
+      description: 'SuperOffice language codes: ["US", "SW", "GE"] or empty array if no language-specific variant exists'
+    content.vb: Public Shared Function GetSupportedLanguagesForDocTemplateAsync(tmplName As String, cancellationToken As CancellationToken = Nothing) As Task(Of String())
+  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTemplateAsync*
+  nameWithType.vb: ConsentManagementEmail.GetSupportedLanguagesForDocTemplateAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTemplateAsync(String, System.Threading.CancellationToken)
+  name.vb: GetSupportedLanguagesForDocTemplateAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetBestLanguageForPersonAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ConsentManagementEmail
   langs:
   - csharp
   - vb
-  name: GetBestLanguageForPerson(Int32, Int32)
-  nameWithType: ConsentManagementEmail.GetBestLanguageForPerson(Int32, Int32)
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32, System.Int32)
+  name: GetBestLanguageForPersonAsync(int, int, CancellationToken)
+  nameWithType: ConsentManagementEmail.GetBestLanguageForPersonAsync(int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(int, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public static string GetBestLanguageForPerson(int personId, int templateId)
+    content: public static Task<string> GetBestLanguageForPersonAsync(int personId, int templateId, CancellationToken cancellationToken = default)
     parameters:
     - id: personId
       type: System.Int32
     - id: templateId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function GetBestLanguageForPerson(personId As Integer, templateId As Integer) As String
-  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.String[],System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.String[],System.Int32)
-  id: GetBestLanguageForPerson(System.String[],System.Int32)
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Shared Function GetBestLanguageForPersonAsync(personId As Integer, templateId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync*
+  nameWithType.vb: ConsentManagementEmail.GetBestLanguageForPersonAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetBestLanguageForPersonAsync(Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(System.String[],System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(System.String[],System.Int32,System.Threading.CancellationToken)
+  id: GetBestLanguageForPersonAsync(System.String[],System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ConsentManagementEmail
   langs:
   - csharp
   - vb
-  name: GetBestLanguageForPerson(String[], Int32)
-  nameWithType: ConsentManagementEmail.GetBestLanguageForPerson(String[], Int32)
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.String[], System.Int32)
+  name: GetBestLanguageForPersonAsync(string[], int, CancellationToken)
+  nameWithType: ConsentManagementEmail.GetBestLanguageForPersonAsync(string[], int, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(string[], int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public static string GetBestLanguageForPerson(string[] supportedLanguages, int personId)
+    content: public static Task<string> GetBestLanguageForPersonAsync(string[] supportedLanguages, int personId, CancellationToken cancellationToken = default)
     parameters:
     - id: supportedLanguages
       type: System.String[]
     - id: personId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function GetBestLanguageForPerson(supportedLanguages As String(), personId As Integer) As String
-  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson*
-  nameWithType.vb: ConsentManagementEmail.GetBestLanguageForPerson(String(), Int32)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.String(), System.Int32)
-  name.vb: GetBestLanguageForPerson(String(), Int32)
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32,System.String[],System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32,System.String[],System.Int32,System.Int32)
-  id: GetBestLanguageForPerson(System.Int32,System.String[],System.Int32,System.Int32)
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Shared Function GetBestLanguageForPersonAsync(supportedLanguages As String(), personId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync*
+  nameWithType.vb: ConsentManagementEmail.GetBestLanguageForPersonAsync(String(), Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(String(), Integer, System.Threading.CancellationToken)
+  name.vb: GetBestLanguageForPersonAsync(String(), Integer, CancellationToken)
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(System.Int32,System.String[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(System.Int32,System.String[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetBestLanguageForPersonAsync(System.Int32,System.String[],System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ConsentManagementEmail
   langs:
   - csharp
   - vb
-  name: GetBestLanguageForPerson(Int32, String[], Int32, Int32)
-  nameWithType: ConsentManagementEmail.GetBestLanguageForPerson(Int32, String[], Int32, Int32)
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32, System.String[], System.Int32, System.Int32)
+  name: GetBestLanguageForPersonAsync(int, string[], int, int, CancellationToken)
+  nameWithType: ConsentManagementEmail.GetBestLanguageForPersonAsync(int, string[], int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(int, string[], int, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public static string GetBestLanguageForPerson(int supportLangId, string[] supportedLanguages, int countryId, int overrideLcid)
+    content: public static Task<string> GetBestLanguageForPersonAsync(int supportLangId, string[] supportedLanguages, int countryId, int overrideLcid, CancellationToken cancellationToken = default)
     parameters:
     - id: supportLangId
       type: System.Int32
@@ -323,78 +221,40 @@ items:
       type: System.Int32
     - id: overrideLcid
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function GetBestLanguageForPerson(supportLangId As Integer, supportedLanguages As String(), countryId As Integer, overrideLcid As Integer) As String
-  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson*
-  nameWithType.vb: ConsentManagementEmail.GetBestLanguageForPerson(Int32, String(), Int32, Int32)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32, System.String(), System.Int32, System.Int32)
-  name.vb: GetBestLanguageForPerson(Int32, String(), Int32, Int32)
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmail
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmail
-  id: SendNewPersonConfirmationEmail
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Shared Function GetBestLanguageForPersonAsync(supportLangId As Integer, supportedLanguages As String(), countryId As Integer, overrideLcid As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync*
+  nameWithType.vb: ConsentManagementEmail.GetBestLanguageForPersonAsync(Integer, String(), Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(Integer, String(), Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetBestLanguageForPersonAsync(Integer, String(), Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmailAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmailAsync(System.Threading.CancellationToken)
+  id: SendNewPersonConfirmationEmailAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ConsentManagementEmail
   langs:
   - csharp
   - vb
-  name: SendNewPersonConfirmationEmail()
-  nameWithType: ConsentManagementEmail.SendNewPersonConfirmationEmail()
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmail()
+  name: SendNewPersonConfirmationEmailAsync(CancellationToken)
+  nameWithType: ConsentManagementEmail.SendNewPersonConfirmationEmailAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmailAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nSend email to the new person and archive as a document on the newly created person. \n"
+  summary: Send email to the new person and archive as a document on the newly created person.
+  example: []
   syntax:
-    content: public void SendNewPersonConfirmationEmail()
-    content.vb: Public Sub SendNewPersonConfirmationEmail
-  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmail*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetCurrentPrincipalPreferredLangauge(System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetCurrentPrincipalPreferredLangauge(System.Int32)
-  id: GetCurrentPrincipalPreferredLangauge(System.Int32)
-  parent: SuperOffice.CRM.Entities.ConsentManagementEmail
-  langs:
-  - csharp
-  - vb
-  name: GetCurrentPrincipalPreferredLangauge(Int32)
-  nameWithType: ConsentManagementEmail.GetCurrentPrincipalPreferredLangauge(Int32)
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetCurrentPrincipalPreferredLangauge(System.Int32)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Entities
-  summary: "\nGet the SO language code to use when translating email and subject\n"
-  syntax:
-    content: public static string GetCurrentPrincipalPreferredLangauge(int overrideCultureLcidId)
+    content: public Task SendNewPersonConfirmationEmailAsync(CancellationToken cancellationToken = default)
     parameters:
-    - id: overrideCultureLcidId
-      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function GetCurrentPrincipalPreferredLangauge(overrideCultureLcidId As Integer) As String
-  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetCurrentPrincipalPreferredLangauge*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function SendNewPersonConfirmationEmailAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmailAsync*
 - uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetFromAddress
   commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetFromAddress
   id: GetFromAddress
@@ -406,24 +266,27 @@ items:
   nameWithType: ConsentManagementEmail.GetFromAddress()
   fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetFromAddress()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nGet the From: address to use.\n\n1. Get the default email address (first) of the logged in user\nIf in a context without logged in user:\n2. If override address is provided, use this (default sender adress from smtp config is provided here)\n\nreturns empty string otherwise.\n"
+  summary: >-
+    Get the From: address to use.
+
+
+    1. Get the default email address (first) of the logged in user
+       If in a context without logged in user:
+    2. If override address is provided, use this (default sender adress from smtp config is provided here)
+
+
+    returns empty string otherwise.
+  example: []
   syntax:
     content: public string GetFromAddress()
     return:
       type: System.String
       description: From address to use or empty string
-    content.vb: Public Function GetFromAddress As String
+    content.vb: Public Function GetFromAddress() As String
   overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetFromAddress*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.ConsentManagementEmail.SmtpConnectionExists
   commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.SmtpConnectionExists
   id: SmtpConnectionExists
@@ -435,9 +298,6 @@ items:
   nameWithType: ConsentManagementEmail.SmtpConnectionExists()
   fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.SmtpConnectionExists()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
@@ -445,39 +305,31 @@ items:
     content: public bool SmtpConnectionExists()
     return:
       type: System.Boolean
-    content.vb: Public Function SmtpConnectionExists As Boolean
+    content.vb: Public Function SmtpConnectionExists() As Boolean
   overload: SuperOffice.CRM.Entities.ConsentManagementEmail.SmtpConnectionExists*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmail
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmail
-  id: GetPersonEmail
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmailAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmailAsync(System.Threading.CancellationToken)
+  id: GetPersonEmailAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ConsentManagementEmail
   langs:
   - csharp
   - vb
-  name: GetPersonEmail()
-  nameWithType: ConsentManagementEmail.GetPersonEmail()
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmail()
+  name: GetPersonEmailAsync(CancellationToken)
+  nameWithType: ConsentManagementEmail.GetPersonEmailAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmailAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public string GetPersonEmail()
+    content: public Task<string> GetPersonEmailAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Function GetPersonEmail As String
-  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmail*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Function GetPersonEmailAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmailAsync*
 - uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetTemplateVariables
   commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetTemplateVariables
   id: GetTemplateVariables
@@ -489,9 +341,6 @@ items:
   nameWithType: ConsentManagementEmail.GetTemplateVariables()
   fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetTemplateVariables()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
@@ -499,12 +348,8 @@ items:
     content: public TemplateVariables GetTemplateVariables()
     return:
       type: SuperOffice.CRM.Globalization.TemplateVariables
-    content.vb: Public Function GetTemplateVariables As TemplateVariables
+    content.vb: Public Function GetTemplateVariables() As TemplateVariables
   overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetTemplateVariables*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.ConsentManagementEmail.HasTemplate
   commentId: P:SuperOffice.CRM.Entities.ConsentManagementEmail.HasTemplate
   id: HasTemplate
@@ -516,9 +361,6 @@ items:
   nameWithType: ConsentManagementEmail.HasTemplate
   fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.HasTemplate
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
@@ -529,103 +371,391 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property HasTemplate As Boolean
   overload: SuperOffice.CRM.Entities.ConsentManagementEmail.HasTemplate*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Entities
   commentId: N:SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Entities
   nameWithType: SuperOffice.CRM.Entities
   fullName: SuperOffice.CRM.Entities
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Entities.ConsentManagementEmail.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ConsentManagementEmail, To>()
-  nameWithType: EnumUtil.MapEnums<ConsentManagementEmail, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.ConsentManagementEmail, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ConsentManagementEmail, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.ConsentManagementEmail, To)()
-  name.vb: MapEnums(Of ConsentManagementEmail, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ConsentManagementEmail, To>(ConsentManagementEmail)
+  nameWithType: EnumUtil.MapEnums<ConsentManagementEmail, To>(ConsentManagementEmail)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.ConsentManagementEmail, To>(SuperOffice.CRM.Entities.ConsentManagementEmail)
+  nameWithType.vb: EnumUtil.MapEnums(Of ConsentManagementEmail, To)(ConsentManagementEmail)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.ConsentManagementEmail, To)(SuperOffice.CRM.Entities.ConsentManagementEmail)
+  name.vb: MapEnums(Of ConsentManagementEmail, To)(ConsentManagementEmail)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ConsentManagementEmail, To>
-    nameWithType: EnumUtil.MapEnums<ConsentManagementEmail, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.ConsentManagementEmail, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.ConsentManagementEmail)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.ConsentManagementEmail
+    name: ConsentManagementEmail
+    isExternal: true
+    href: SuperOffice.CRM.Entities.ConsentManagementEmail.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Entities.ConsentManagementEmail
+    name: ConsentManagementEmail
+    isExternal: true
+    href: SuperOffice.CRM.Entities.ConsentManagementEmail.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ConsentManagementEmail, To)
-    nameWithType: EnumUtil.MapEnums(Of ConsentManagementEmail, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.ConsentManagementEmail, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.ConsentManagementEmail)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.ConsentManagementEmail
+    name: ConsentManagementEmail
+    isExternal: true
+    href: SuperOffice.CRM.Entities.ConsentManagementEmail.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.ConsentManagementEmail
+    name: ConsentManagementEmail
+    isExternal: true
+    href: SuperOffice.CRM.Entities.ConsentManagementEmail.html
+  - name: )
 - uid: SuperOffice.CRM.Entities.ConsentManagementEmail.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ConsentManagementEmail, To>()
-  nameWithType: Converters.MapEnums<ConsentManagementEmail, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.ConsentManagementEmail, To>()
-  nameWithType.vb: Converters.MapEnums(Of ConsentManagementEmail, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.ConsentManagementEmail, To)()
-  name.vb: MapEnums(Of ConsentManagementEmail, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ConsentManagementEmail, To>(ConsentManagementEmail)
+  nameWithType: Converters.MapEnums<ConsentManagementEmail, To>(ConsentManagementEmail)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.ConsentManagementEmail, To>(SuperOffice.CRM.Entities.ConsentManagementEmail)
+  nameWithType.vb: Converters.MapEnums(Of ConsentManagementEmail, To)(ConsentManagementEmail)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.ConsentManagementEmail, To)(SuperOffice.CRM.Entities.ConsentManagementEmail)
+  name.vb: MapEnums(Of ConsentManagementEmail, To)(ConsentManagementEmail)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ConsentManagementEmail, To>
-    nameWithType: Converters.MapEnums<ConsentManagementEmail, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.ConsentManagementEmail, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.ConsentManagementEmail)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.ConsentManagementEmail
+    name: ConsentManagementEmail
+    isExternal: true
+    href: SuperOffice.CRM.Entities.ConsentManagementEmail.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Entities.ConsentManagementEmail
+    name: ConsentManagementEmail
+    isExternal: true
+    href: SuperOffice.CRM.Entities.ConsentManagementEmail.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ConsentManagementEmail, To)
-    nameWithType: Converters.MapEnums(Of ConsentManagementEmail, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.ConsentManagementEmail, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.ConsentManagementEmail)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.ConsentManagementEmail
+    name: ConsentManagementEmail
+    isExternal: true
+    href: SuperOffice.CRM.Entities.ConsentManagementEmail.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.ConsentManagementEmail
+    name: ConsentManagementEmail
+    isExternal: true
+    href: SuperOffice.CRM.Entities.ConsentManagementEmail.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -634,43 +764,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -679,133 +811,388 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor*
-  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync
   isExternal: true
-  name: ConsentManagementEmail
-  nameWithType: ConsentManagementEmail.ConsentManagementEmail
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.ConsentManagementEmail
+  href: SuperOffice.CRM.Entities.ConsentManagementEmail.html#SuperOffice_CRM_Entities_ConsentManagementEmail_CreateAsync_System_Int32_System_String_System_Int32_System_Int32_System_String_System_Threading_CancellationToken_
+  name: CreateAsync
+  nameWithType: ConsentManagementEmail.CreateAsync
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.ConsentManagementEmail}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Entities.ConsentManagementEmail}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ConsentManagementEmail>
+  nameWithType: Task<ConsentManagementEmail>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Entities.ConsentManagementEmail>
+  nameWithType.vb: Task(Of ConsentManagementEmail)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Entities.ConsentManagementEmail)
+  name.vb: Task(Of ConsentManagementEmail)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Entities.ConsentManagementEmail
+    name: ConsentManagementEmail
+    isExternal: true
+    href: SuperOffice.CRM.Entities.ConsentManagementEmail.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.ConsentManagementEmail
+    name: ConsentManagementEmail
+    isExternal: true
+    href: SuperOffice.CRM.Entities.ConsentManagementEmail.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.CRM.Entities.Person
   commentId: T:SuperOffice.CRM.Entities.Person
   parent: SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.CRM.Entities.Person.html
   name: Person
   nameWithType: Person
   fullName: SuperOffice.CRM.Entities.Person
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTmplate*
-  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTmplate
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTemplateAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTemplateAsync
   isExternal: true
-  name: GetSupportedLanguagesForDocTmplate
-  nameWithType: ConsentManagementEmail.GetSupportedLanguagesForDocTmplate
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTmplate
+  href: SuperOffice.CRM.Entities.ConsentManagementEmail.html#SuperOffice_CRM_Entities_ConsentManagementEmail_GetSupportedLanguagesForDocTemplateAsync_System_String_System_Threading_CancellationToken_
+  name: GetSupportedLanguagesForDocTemplateAsync
+  nameWithType: ConsentManagementEmail.GetSupportedLanguagesForDocTemplateAsync
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTemplateAsync
+- uid: System.Threading.Tasks.Task{System.String[]}
+  commentId: T:System.Threading.Tasks.Task{System.String[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string[]>
+  nameWithType: Task<string[]>
+  fullName: System.Threading.Tasks.Task<string[]>
+  nameWithType.vb: Task(Of String())
+  fullName.vb: System.Threading.Tasks.Task(Of String())
+  name.vb: Task(Of String())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.ConsentManagementEmail.html#SuperOffice_CRM_Entities_ConsentManagementEmail_GetBestLanguageForPersonAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: GetBestLanguageForPersonAsync
+  nameWithType: ConsentManagementEmail.GetBestLanguageForPersonAsync
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
 - uid: System.String[]
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
   nameWithType.vb: String()
-  fullName.vb: System.String()
+  fullName.vb: String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson*
-  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmailAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmailAsync
   isExternal: true
-  name: GetBestLanguageForPerson
-  nameWithType: ConsentManagementEmail.GetBestLanguageForPerson
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmail*
-  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmail
+  href: SuperOffice.CRM.Entities.ConsentManagementEmail.html#SuperOffice_CRM_Entities_ConsentManagementEmail_SendNewPersonConfirmationEmailAsync_System_Threading_CancellationToken_
+  name: SendNewPersonConfirmationEmailAsync
+  nameWithType: ConsentManagementEmail.SendNewPersonConfirmationEmailAsync
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmailAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
-  name: SendNewPersonConfirmationEmail
-  nameWithType: ConsentManagementEmail.SendNewPersonConfirmationEmail
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmail
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetCurrentPrincipalPreferredLangauge*
-  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.GetCurrentPrincipalPreferredLangauge
-  isExternal: true
-  name: GetCurrentPrincipalPreferredLangauge
-  nameWithType: ConsentManagementEmail.GetCurrentPrincipalPreferredLangauge
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetCurrentPrincipalPreferredLangauge
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetFromAddress*
   commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.GetFromAddress
   isExternal: true
+  href: SuperOffice.CRM.Entities.ConsentManagementEmail.html#SuperOffice_CRM_Entities_ConsentManagementEmail_GetFromAddress
   name: GetFromAddress
   nameWithType: ConsentManagementEmail.GetFromAddress
   fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetFromAddress
 - uid: SuperOffice.CRM.Entities.ConsentManagementEmail.SmtpConnectionExists*
   commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.SmtpConnectionExists
   isExternal: true
+  href: SuperOffice.CRM.Entities.ConsentManagementEmail.html#SuperOffice_CRM_Entities_ConsentManagementEmail_SmtpConnectionExists
   name: SmtpConnectionExists
   nameWithType: ConsentManagementEmail.SmtpConnectionExists
   fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.SmtpConnectionExists
@@ -813,18 +1200,24 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmail*
-  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmail
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmailAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmailAsync
   isExternal: true
-  name: GetPersonEmail
-  nameWithType: ConsentManagementEmail.GetPersonEmail
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmail
+  href: SuperOffice.CRM.Entities.ConsentManagementEmail.html#SuperOffice_CRM_Entities_ConsentManagementEmail_GetPersonEmailAsync_System_Threading_CancellationToken_
+  name: GetPersonEmailAsync
+  nameWithType: ConsentManagementEmail.GetPersonEmailAsync
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmailAsync
 - uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetTemplateVariables*
   commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.GetTemplateVariables
   isExternal: true
+  href: SuperOffice.CRM.Entities.ConsentManagementEmail.html#SuperOffice_CRM_Entities_ConsentManagementEmail_GetTemplateVariables
   name: GetTemplateVariables
   nameWithType: ConsentManagementEmail.GetTemplateVariables
   fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetTemplateVariables
@@ -832,18 +1225,51 @@ references:
   commentId: T:SuperOffice.CRM.Globalization.TemplateVariables
   parent: SuperOffice.CRM.Globalization
   isExternal: true
+  href: SuperOffice.CRM.Globalization.TemplateVariables.html
   name: TemplateVariables
   nameWithType: TemplateVariables
   fullName: SuperOffice.CRM.Globalization.TemplateVariables
 - uid: SuperOffice.CRM.Globalization
   commentId: N:SuperOffice.CRM.Globalization
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Globalization
   nameWithType: SuperOffice.CRM.Globalization
   fullName: SuperOffice.CRM.Globalization
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Globalization
+    name: Globalization
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Globalization
+    name: Globalization
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.html
 - uid: SuperOffice.CRM.Entities.ConsentManagementEmail.HasTemplate*
   commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.HasTemplate
   isExternal: true
+  href: SuperOffice.CRM.Entities.ConsentManagementEmail.html#SuperOffice_CRM_Entities_ConsentManagementEmail_HasTemplate
   name: HasTemplate
   nameWithType: ConsentManagementEmail.HasTemplate
   fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.HasTemplate

@@ -33,37 +33,61 @@ items:
   nameWithType: CRMScriptEntity
   fullName: SuperOffice.CRM.Services.CRMScriptEntity
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCRM Scripts - stored in the ejScript table, including source code.\n<p></p>\nCarrier object for CRMScriptEntity.\nServices for the CRMScriptEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ICRMScriptAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    CRM Scripts - stored in the ejScript table, including source code.
+
+    <p></p>
+
+    Carrier object for CRMScriptEntity.
+
+    Services for the CRMScriptEntity Carrier is available from the <xref href="SuperOffice.CRM.Services.ICRMScriptAgent?text=CRMScript+Agent" data-throw-if-not-resolved="false"></xref>.
   example:
-  - "\nGet CRMScriptEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new CRMScriptAgent();\n    var cRMScriptEntity = agent.GetCRMScriptEntity( 123 );\n }</code></pre>\n\nFind all CRMScriptEntity, get related items using archive agent.\n<pre><code>var archive = new ArchiveAgent();\nvar rows = archive.GetArchiveListByColumns2(&quot;Ejscripts&quot;, &quot;...&quot;, null, &quot;getAllRows eq 1&quot;, null, 0, 100 );</code></pre>\n"
+  - >-
+    Get CRMScriptEntity 123 using the agent:
+
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       var agent = new CRMScriptAgent();
+       var cRMScriptEntity = agent.GetCRMScriptEntity( 123 );
+    }</code></pre>
+
+
+    Find all CRMScriptEntity, get related items using archive agent.
+
+    <pre><code class="lang-csharp">var archive = new ArchiveAgent();
+
+    var rows = archive.GetArchiveListByColumns2("Ejscripts", "...", null, "getAllRows eq 1", null, 0, 100 );</code></pre>
   syntax:
-    content: 'public class CRMScriptEntity : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class CRMScriptEntity : Carrier
     content.vb: >-
-      Public Class CRMScriptEntity
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class CRMScriptEntity Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.CRMScriptAgent
-    commentId: T:SuperOffice.CRM.Services.CRMScriptAgent
   - linkId: SuperOffice.CRM.Services.ICRMScriptAgent
     commentId: T:SuperOffice.CRM.Services.ICRMScriptAgent
-  - linkId: SuperOffice.CRM.Services.ArchiveAgent
-    commentId: T:SuperOffice.CRM.Services.ArchiveAgent
-  - linkId: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-    commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.CRMScriptEntity.#ctor
   id: '#ctor'
@@ -75,21 +99,18 @@ items:
   nameWithType: CRMScriptEntity.CRMScriptEntity()
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.CRMScriptEntity()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public CRMScriptEntity()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.CRMScriptEntity.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: CRMScriptEntity.New()
+  fullName.vb: SuperOffice.CRM.Services.CRMScriptEntity.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.ToString
   commentId: M:SuperOffice.CRM.Services.CRMScriptEntity.ToString
   id: ToString
@@ -101,26 +122,18 @@ items:
   nameWithType: CRMScriptEntity.ToString()
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.CRMScriptEntity.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.CRMScriptEntity.ToString(System.String)
   id: ToString(System.String)
@@ -128,17 +141,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: CRMScriptEntity.ToString(String)
-  fullName: SuperOffice.CRM.Services.CRMScriptEntity.ToString(System.String)
+  name: ToString(string)
+  nameWithType: CRMScriptEntity.ToString(string)
+  fullName: SuperOffice.CRM.Services.CRMScriptEntity.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -150,10 +164,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.CRMScriptEntity.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: CRMScriptEntity.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.CRMScriptEntity.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.EjscriptId
   commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.EjscriptId
   id: EjscriptId
@@ -165,28 +178,28 @@ items:
   nameWithType: CRMScriptEntity.EjscriptId
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.EjscriptId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
-    content: public virtual int EjscriptId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int EjscriptId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property EjscriptId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property EjscriptId As Integer
   overload: SuperOffice.CRM.Services.CRMScriptEntity.EjscriptId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.UniqueIdentifier
   commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.UniqueIdentifier
   id: UniqueIdentifier
@@ -198,28 +211,28 @@ items:
   nameWithType: CRMScriptEntity.UniqueIdentifier
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.UniqueIdentifier
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGlobal unique identifier, accross customers/tenants \n"
+  summary: Global unique identifier, accross customers/tenants
+  example: []
   syntax:
-    content: public virtual string UniqueIdentifier { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string UniqueIdentifier { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property UniqueIdentifier As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UniqueIdentifier As String
   overload: SuperOffice.CRM.Services.CRMScriptEntity.UniqueIdentifier*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.Name
   commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.Name
   id: Name
@@ -231,28 +244,28 @@ items:
   nameWithType: CRMScriptEntity.Name
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.Name
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nA description of this script \n"
+  summary: A description of this script
+  example: []
   syntax:
-    content: public virtual string Name { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Name As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Name As String
   overload: SuperOffice.CRM.Services.CRMScriptEntity.Name*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.Description
   commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.Description
   id: Description
@@ -264,28 +277,28 @@ items:
   nameWithType: CRMScriptEntity.Description
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.Description
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nOptional description of what this script is used for. \n"
+  summary: Optional description of what this script is used for.
+  example: []
   syntax:
-    content: public virtual string Description { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Description { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Description As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Description As String
   overload: SuperOffice.CRM.Services.CRMScriptEntity.Description*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.IncludeId
   commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.IncludeId
   id: IncludeId
@@ -297,28 +310,28 @@ items:
   nameWithType: CRMScriptEntity.IncludeId
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.IncludeId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nA unique name used for including this script in another \n"
+  summary: A unique name used for including this script in another
+  example: []
   syntax:
-    content: public virtual string IncludeId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string IncludeId { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property IncludeId As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IncludeId As String
   overload: SuperOffice.CRM.Services.CRMScriptEntity.IncludeId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.AccessKey
   commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.AccessKey
   id: AccessKey
@@ -330,28 +343,28 @@ items:
   nameWithType: CRMScriptEntity.AccessKey
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.AccessKey
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nAccess key used to run this script on the customer pages \n"
+  summary: Access key used to run this script on the customer pages
+  example: []
   syntax:
-    content: public virtual string AccessKey { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string AccessKey { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property AccessKey As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property AccessKey As String
   overload: SuperOffice.CRM.Services.CRMScriptEntity.AccessKey*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.HierarchyId
   commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.HierarchyId
   id: HierarchyId
@@ -363,28 +376,28 @@ items:
   nameWithType: CRMScriptEntity.HierarchyId
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.HierarchyId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe script is inside this hierarchy folder \n"
+  summary: The script is inside this hierarchy folder
+  example: []
   syntax:
-    content: public virtual int HierarchyId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int HierarchyId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property HierarchyId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property HierarchyId As Integer
   overload: SuperOffice.CRM.Services.CRMScriptEntity.HierarchyId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.Source
   commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.Source
   id: Source
@@ -396,28 +409,28 @@ items:
   nameWithType: CRMScriptEntity.Source
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.Source
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe script \n"
+  summary: The script
+  example: []
   syntax:
-    content: public virtual string Source { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Source { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Source As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Source As String
   overload: SuperOffice.CRM.Services.CRMScriptEntity.Source*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.SourceCode
   commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.SourceCode
   id: SourceCode
@@ -429,28 +442,28 @@ items:
   nameWithType: CRMScriptEntity.SourceCode
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.SourceCode
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nContains the source code of the script \n"
+  summary: Contains the source code of the script
+  example: []
   syntax:
-    content: public virtual string SourceCode { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string SourceCode { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property SourceCode As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SourceCode As String
   overload: SuperOffice.CRM.Services.CRMScriptEntity.SourceCode*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.ScriptType
   commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.ScriptType
   id: ScriptType
@@ -462,28 +475,28 @@ items:
   nameWithType: CRMScriptEntity.ScriptType
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.ScriptType
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe type/language of this script \n"
+  summary: The type/language of this script
+  example: []
   syntax:
-    content: public virtual ScriptType ScriptType { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual ScriptType ScriptType { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.ScriptType
-    content.vb: Public Overridable Property ScriptType As ScriptType
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ScriptType As ScriptType
   overload: SuperOffice.CRM.Services.CRMScriptEntity.ScriptType*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.HtmlOutput
   commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.HtmlOutput
   id: HtmlOutput
@@ -495,28 +508,28 @@ items:
   nameWithType: CRMScriptEntity.HtmlOutput
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.HtmlOutput
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTrue if this script will return HTML output \n"
+  summary: True if this script will return HTML output
+  example: []
   syntax:
-    content: public virtual short HtmlOutput { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual short HtmlOutput { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: Public Overridable Property HtmlOutput As Short
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property HtmlOutput As Short
   overload: SuperOffice.CRM.Services.CRMScriptEntity.HtmlOutput*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.Includes
   commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.Includes
   id: Includes
@@ -528,28 +541,28 @@ items:
   nameWithType: CRMScriptEntity.Includes
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.Includes
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe unique ids of all depencies of this script (all resolved includes) \n"
+  summary: The unique ids of all depencies of this script (all resolved includes)
+  example: []
   syntax:
-    content: public virtual int[] Includes { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int[] Includes { get; set; }
     parameters: []
     return:
       type: System.Int32[]
-    content.vb: Public Overridable Property Includes As Integer()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Includes As Integer()
   overload: SuperOffice.CRM.Services.CRMScriptEntity.Includes*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.SourceMaps
   commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.SourceMaps
   id: SourceMaps
@@ -561,28 +574,28 @@ items:
   nameWithType: CRMScriptEntity.SourceMaps
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.SourceMaps
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe source maps for this script \n"
+  summary: The source maps for this script
+  example: []
   syntax:
-    content: public virtual CRMScriptSourceMap[] SourceMaps { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual CRMScriptSourceMap[] SourceMaps { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.CRMScriptSourceMap[]
-    content.vb: Public Overridable Property SourceMaps As CRMScriptSourceMap()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SourceMaps As CRMScriptSourceMap()
   overload: SuperOffice.CRM.Services.CRMScriptEntity.SourceMaps*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.ValidationResult
   commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.ValidationResult
   id: ValidationResult
@@ -594,28 +607,28 @@ items:
   nameWithType: CRMScriptEntity.ValidationResult
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.ValidationResult
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe result of a validation of a TypeScript when saving \n"
+  summary: The result of a validation of a TypeScript when saving
+  example: []
   syntax:
-    content: public virtual CRMScriptResult ValidationResult { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual CRMScriptResult ValidationResult { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.CRMScriptResult
-    content.vb: Public Overridable Property ValidationResult As CRMScriptResult
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ValidationResult As CRMScriptResult
   overload: SuperOffice.CRM.Services.CRMScriptEntity.ValidationResult*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.Registered
   commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.Registered
   id: Registered
@@ -627,28 +640,28 @@ items:
   nameWithType: CRMScriptEntity.Registered
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.Registered
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRegistered when  in UTC.\n"
+  summary: Registered when  in UTC.
+  example: []
   syntax:
-    content: public virtual DateTime Registered { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime Registered { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Registered As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Registered As Date
   overload: SuperOffice.CRM.Services.CRMScriptEntity.Registered*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -660,28 +673,28 @@ items:
   nameWithType: CRMScriptEntity.RegisteredAssociateId
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.RegisteredAssociateId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRegistered by whom \n"
+  summary: Registered by whom
+  example: []
   syntax:
-    content: public virtual int RegisteredAssociateId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int RegisteredAssociateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property RegisteredAssociateId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property RegisteredAssociateId As Integer
   overload: SuperOffice.CRM.Services.CRMScriptEntity.RegisteredAssociateId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.Updated
   commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.Updated
   id: Updated
@@ -693,28 +706,28 @@ items:
   nameWithType: CRMScriptEntity.Updated
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.Updated
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLast updated when  in UTC.\n"
+  summary: Last updated when  in UTC.
+  example: []
   syntax:
-    content: public virtual DateTime Updated { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime Updated { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Updated As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Updated As Date
   overload: SuperOffice.CRM.Services.CRMScriptEntity.Updated*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.UpdatedAssociateId
   commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -726,207 +739,106 @@ items:
   nameWithType: CRMScriptEntity.UpdatedAssociateId
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.UpdatedAssociateId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLast updated by whom \n"
+  summary: Last updated by whom
+  example: []
   syntax:
-    content: public virtual int UpdatedAssociateId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int UpdatedAssociateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property UpdatedAssociateId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UpdatedAssociateId As Integer
   overload: SuperOffice.CRM.Services.CRMScriptEntity.UpdatedAssociateId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.CRMScriptAgent
-  commentId: T:SuperOffice.CRM.Services.CRMScriptAgent
-  isExternal: true
-  name: CRMScriptAgent
-  nameWithType: CRMScriptAgent
-  fullName: SuperOffice.CRM.Services.CRMScriptAgent
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent
   commentId: T:SuperOffice.CRM.Services.ICRMScriptAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.ICRMScriptAgent.html
   name: ICRMScriptAgent
   nameWithType: ICRMScriptAgent
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent
-- uid: SuperOffice.CRM.Services.ArchiveAgent
-  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  name: ArchiveAgent
-  nameWithType: ArchiveAgent
-  fullName: SuperOffice.CRM.Services.ArchiveAgent
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-  parent: SuperOffice.CRM.Services.IArchiveAgent
-  isExternal: true
-  name: GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
-  nameWithType: IArchiveAgent.GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32)
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-    name: GetArchiveListByColumns2
-    nameWithType: IArchiveAgent.GetArchiveListByColumns2
-    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: SuperOffice.CRM.Services.html
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-    name: GetArchiveListByColumns2
-    nameWithType: IArchiveAgent.GetArchiveListByColumns2
-    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.IArchiveAgent
-  commentId: T:SuperOffice.CRM.Services.IArchiveAgent
-  parent: SuperOffice.CRM.Services
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
-  name: IArchiveAgent
-  nameWithType: IArchiveAgent
-  fullName: SuperOffice.CRM.Services.IArchiveAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity__ctor
   name: CRMScriptEntity
   nameWithType: CRMScriptEntity.CRMScriptEntity
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.CRMScriptEntity
+  nameWithType.vb: CRMScriptEntity.New
+  fullName.vb: SuperOffice.CRM.Services.CRMScriptEntity.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.ToString*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_ToString
   name: ToString
   nameWithType: CRMScriptEntity.ToString
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.ToString
@@ -934,18 +846,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.EjscriptId*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.EjscriptId
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_EjscriptId
   name: EjscriptId
   nameWithType: CRMScriptEntity.EjscriptId
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.EjscriptId
@@ -953,60 +864,73 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.UniqueIdentifier*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.UniqueIdentifier
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_UniqueIdentifier
   name: UniqueIdentifier
   nameWithType: CRMScriptEntity.UniqueIdentifier
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.UniqueIdentifier
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.Name*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.Name
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_Name
   name: Name
   nameWithType: CRMScriptEntity.Name
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.Name
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.Description*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.Description
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_Description
   name: Description
   nameWithType: CRMScriptEntity.Description
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.Description
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.IncludeId*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.IncludeId
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_IncludeId
   name: IncludeId
   nameWithType: CRMScriptEntity.IncludeId
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.IncludeId
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.AccessKey*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.AccessKey
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_AccessKey
   name: AccessKey
   nameWithType: CRMScriptEntity.AccessKey
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.AccessKey
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.HierarchyId*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.HierarchyId
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_HierarchyId
   name: HierarchyId
   nameWithType: CRMScriptEntity.HierarchyId
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.HierarchyId
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.Source*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.Source
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_Source
   name: Source
   nameWithType: CRMScriptEntity.Source
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.Source
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.SourceCode*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.SourceCode
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_SourceCode
   name: SourceCode
   nameWithType: CRMScriptEntity.SourceCode
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.SourceCode
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.ScriptType*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.ScriptType
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_ScriptType
   name: ScriptType
   nameWithType: CRMScriptEntity.ScriptType
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.ScriptType
@@ -1019,6 +943,7 @@ references:
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.HtmlOutput*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.HtmlOutput
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_HtmlOutput
   name: HtmlOutput
   nameWithType: CRMScriptEntity.HtmlOutput
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.HtmlOutput
@@ -1026,49 +951,53 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.Includes*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.Includes
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_Includes
   name: Includes
   nameWithType: CRMScriptEntity.Includes
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.Includes
 - uid: System.Int32[]
   isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
   spec.csharp:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.SourceMaps*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.SourceMaps
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_SourceMaps
   name: SourceMaps
   nameWithType: CRMScriptEntity.SourceMaps
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.SourceMaps
 - uid: SuperOffice.CRM.Services.CRMScriptSourceMap[]
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptSourceMap.html
   name: CRMScriptSourceMap[]
   nameWithType: CRMScriptSourceMap[]
   fullName: SuperOffice.CRM.Services.CRMScriptSourceMap[]
@@ -1078,24 +1007,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.CRMScriptSourceMap
     name: CRMScriptSourceMap
-    nameWithType: CRMScriptSourceMap
-    fullName: SuperOffice.CRM.Services.CRMScriptSourceMap
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.CRMScriptSourceMap.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.CRMScriptSourceMap
     name: CRMScriptSourceMap
-    nameWithType: CRMScriptSourceMap
-    fullName: SuperOffice.CRM.Services.CRMScriptSourceMap
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.Services.CRMScriptSourceMap.html
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.ValidationResult*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.ValidationResult
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_ValidationResult
   name: ValidationResult
   nameWithType: CRMScriptEntity.ValidationResult
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.ValidationResult
@@ -1103,35 +1029,46 @@ references:
   commentId: T:SuperOffice.CRM.Services.CRMScriptResult
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptResult.html
   name: CRMScriptResult
   nameWithType: CRMScriptResult
   fullName: SuperOffice.CRM.Services.CRMScriptResult
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.Registered*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.Registered
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_Registered
   name: Registered
   nameWithType: CRMScriptEntity.Registered
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.Registered
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.RegisteredAssociateId*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.RegisteredAssociateId
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_RegisteredAssociateId
   name: RegisteredAssociateId
   nameWithType: CRMScriptEntity.RegisteredAssociateId
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.RegisteredAssociateId
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.Updated*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.Updated
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_Updated
   name: Updated
   nameWithType: CRMScriptEntity.Updated
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.Updated
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.UpdatedAssociateId*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.UpdatedAssociateId
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_UpdatedAssociateId
   name: UpdatedAssociateId
   nameWithType: CRMScriptEntity.UpdatedAssociateId
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.UpdatedAssociateId

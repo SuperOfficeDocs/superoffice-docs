@@ -12,7 +12,6 @@ items:
   - SuperOffice.WebApi.Data.Weekday.Thursday
   - SuperOffice.WebApi.Data.Weekday.Tuesday
   - SuperOffice.WebApi.Data.Weekday.Unknown
-  - SuperOffice.WebApi.Data.Weekday.value__
   - SuperOffice.WebApi.Data.Weekday.Wednesday
   langs:
   - csharp
@@ -20,57 +19,30 @@ items:
   name: Weekday
   nameWithType: Weekday
   fullName: SuperOffice.WebApi.Data.Weekday
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEnumerator for the days of the week\nThis Enum is used by:  email_flow.selected_days\nThis Enum consists of flag values that can be combined.\n"
-  syntax:
-    content: 'public sealed class Weekday : Enum'
-    content.vb: >-
-      Public NotInheritable Class Weekday
-          Inherits
+  summary: >-
+    Enumerator for the days of the week
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.Weekday.value__
-  commentId: F:SuperOffice.WebApi.Data.Weekday.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.Weekday
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: Weekday.value__
-  fullName: SuperOffice.WebApi.Data.Weekday.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  email_flow.selected_days
+
+    This Enum consists of flag values that can be combined.
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: >-
+      [Flags]
+
+      public enum Weekday : short
+    content.vb: >-
+      <Flags>
+
+      Public Enum Weekday As Short
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Weekday.Unknown
   commentId: F:SuperOffice.WebApi.Data.Weekday.Unknown
   id: Unknown
@@ -82,24 +54,15 @@ items:
   nameWithType: Weekday.Unknown
   fullName: SuperOffice.WebApi.Data.Weekday.Unknown
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: 0: Unknown/undecided type\n"
+  summary: '0: 0: Unknown/undecided type'
+  example: []
   syntax:
-    content: public const Weekday Unknown
+    content: Unknown = 0
     return:
       type: SuperOffice.WebApi.Data.Weekday
-    content.vb: Public Const Unknown As Weekday
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.Weekday.Monday
   commentId: F:SuperOffice.WebApi.Data.Weekday.Monday
   id: Monday
@@ -111,24 +74,26 @@ items:
   nameWithType: Weekday.Monday
   fullName: SuperOffice.WebApi.Data.Weekday.Monday
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Monday\n"
+  summary: '1: Monday'
+  example: []
   syntax:
-    content: public const Weekday Monday
+    content: >-
+      [EnumMember]
+
+      Monday = 1
     return:
       type: SuperOffice.WebApi.Data.Weekday
-    content.vb: Public Const Monday As Weekday
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Monday = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Weekday.Tuesday
   commentId: F:SuperOffice.WebApi.Data.Weekday.Tuesday
   id: Tuesday
@@ -140,24 +105,26 @@ items:
   nameWithType: Weekday.Tuesday
   fullName: SuperOffice.WebApi.Data.Weekday.Tuesday
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Tuesday\n"
+  summary: '2: Tuesday'
+  example: []
   syntax:
-    content: public const Weekday Tuesday
+    content: >-
+      [EnumMember]
+
+      Tuesday = 2
     return:
       type: SuperOffice.WebApi.Data.Weekday
-    content.vb: Public Const Tuesday As Weekday
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Tuesday = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Weekday.Wednesday
   commentId: F:SuperOffice.WebApi.Data.Weekday.Wednesday
   id: Wednesday
@@ -169,24 +136,26 @@ items:
   nameWithType: Weekday.Wednesday
   fullName: SuperOffice.WebApi.Data.Weekday.Wednesday
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Wednesday\n"
+  summary: '4: Wednesday'
+  example: []
   syntax:
-    content: public const Weekday Wednesday
+    content: >-
+      [EnumMember]
+
+      Wednesday = 4
     return:
       type: SuperOffice.WebApi.Data.Weekday
-    content.vb: Public Const Wednesday As Weekday
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Wednesday = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Weekday.Thursday
   commentId: F:SuperOffice.WebApi.Data.Weekday.Thursday
   id: Thursday
@@ -198,24 +167,26 @@ items:
   nameWithType: Weekday.Thursday
   fullName: SuperOffice.WebApi.Data.Weekday.Thursday
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n8: Thursday\n"
+  summary: '8: Thursday'
+  example: []
   syntax:
-    content: public const Weekday Thursday
+    content: >-
+      [EnumMember]
+
+      Thursday = 8
     return:
       type: SuperOffice.WebApi.Data.Weekday
-    content.vb: Public Const Thursday As Weekday
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Thursday = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Weekday.Friday
   commentId: F:SuperOffice.WebApi.Data.Weekday.Friday
   id: Friday
@@ -227,24 +198,26 @@ items:
   nameWithType: Weekday.Friday
   fullName: SuperOffice.WebApi.Data.Weekday.Friday
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n16: Friday\n"
+  summary: '16: Friday'
+  example: []
   syntax:
-    content: public const Weekday Friday
+    content: >-
+      [EnumMember]
+
+      Friday = 16
     return:
       type: SuperOffice.WebApi.Data.Weekday
-    content.vb: Public Const Friday As Weekday
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Friday = 16
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Weekday.Saturday
   commentId: F:SuperOffice.WebApi.Data.Weekday.Saturday
   id: Saturday
@@ -256,24 +229,26 @@ items:
   nameWithType: Weekday.Saturday
   fullName: SuperOffice.WebApi.Data.Weekday.Saturday
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n32: Saturday\n"
+  summary: '32: Saturday'
+  example: []
   syntax:
-    content: public const Weekday Saturday
+    content: >-
+      [EnumMember]
+
+      Saturday = 32
     return:
       type: SuperOffice.WebApi.Data.Weekday
-    content.vb: Public Const Saturday As Weekday
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Saturday = 32
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Weekday.Sunday
   commentId: F:SuperOffice.WebApi.Data.Weekday.Sunday
   id: Sunday
@@ -285,55 +260,69 @@ items:
   nameWithType: Weekday.Sunday
   fullName: SuperOffice.WebApi.Data.Weekday.Sunday
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n64: Sunday\n"
+  summary: '64: Sunday'
+  example: []
   syntax:
-    content: public const Weekday Sunday
+    content: >-
+      [EnumMember]
+
+      Sunday = 64
     return:
       type: SuperOffice.WebApi.Data.Weekday
-    content.vb: Public Const Sunday As Weekday
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Sunday = 64
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.Weekday
   commentId: T:SuperOffice.WebApi.Data.Weekday
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Weekday.html
   name: Weekday
   nameWithType: Weekday
   fullName: SuperOffice.WebApi.Data.Weekday

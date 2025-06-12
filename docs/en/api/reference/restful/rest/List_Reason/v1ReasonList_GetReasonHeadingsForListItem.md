@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 376,
-    "Name": "Mitchell-Hammes",
-    "ToolTip": "Autem ipsam nam eveniet ad molestiae quas quibusdam.",
+    "Id": 358,
+    "Name": "Cormier, Hills and O'Connell",
+    "ToolTip": "Error eos rerum cum alias qui.",
     "Deleted": false,
-    "Rank": 922,
-    "Type": "facere",
-    "ColorBlock": 578,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "2002-06-11T16:32:48.9151006+02:00",
+    "Rank": 416,
+    "Type": "reiciendis",
+    "ColorBlock": 822,
+    "IconHint": "reiciendis",
+    "Selected": true,
+    "LastChanged": "2023-05-10T17:54:09.0858036+02:00",
     "ChildItems": [
       {
-        "Id": 787,
-        "Name": "Bergnaum-Bartoletti",
-        "ToolTip": "Aut quia et.",
-        "Deleted": false,
-        "Rank": 920,
-        "Type": "mollitia",
-        "ColorBlock": 596,
-        "IconHint": "asperiores",
+        "Id": 534,
+        "Name": "Kuphal, Nicolas and Wiegand",
+        "ToolTip": "Dolorum ad sunt molestias voluptatem in quia.",
+        "Deleted": true,
+        "Rank": 983,
+        "Type": "veniam",
+        "ColorBlock": 250,
+        "IconHint": "ex",
         "Selected": false,
-        "LastChanged": "2024-05-02T16:32:48.9151006+02:00",
+        "LastChanged": "2024-12-18T17:54:09.0858036+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "facilis",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "maxime",
         "Hidden": false,
-        "FullName": "Miss Rosamond Littel DVM",
+        "FullName": "Ima Blake Durgan DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 91
+            "FieldType": "System.Int32",
+            "FieldLength": 520
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "animi",
-    "Hidden": true,
-    "FullName": "Mrs. Larissa Little",
+    "ExtraInfo": "sit",
+    "StyleHint": "a",
+    "Hidden": false,
+    "FullName": "Mellie O'Conner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 707
+        "FieldType": "System.String",
+        "FieldLength": 879
       }
     }
   }

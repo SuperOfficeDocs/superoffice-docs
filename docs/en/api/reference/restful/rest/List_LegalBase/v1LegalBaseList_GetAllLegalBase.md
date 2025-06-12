@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 651,
-    "Name": "Bashirian Inc and Sons",
-    "Tooltip": "omnis",
-    "Rank": 190,
-    "Key": "consequuntur",
+    "LegalBaseId": 914,
+    "Name": "Moen-Kuhn",
+    "Tooltip": "nobis",
+    "Rank": 716,
+    "Key": "velit",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 535
+        "FieldLength": 237
       }
     }
   }

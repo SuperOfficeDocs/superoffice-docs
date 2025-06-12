@@ -16,19 +16,20 @@ items:
   nameWithType: RecurrencePatternBase
   fullName: SuperOffice.CRM.Services.RecurrencePatternBase
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: "\nAbstract class representing a pattern for recurrence\n"
+  summary: Abstract class representing a pattern for recurrence
+  example: []
   syntax:
-    content: 'public abstract class RecurrencePatternBase : Object, ICloneable'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public abstract class RecurrencePatternBase : ICloneable
     content.vb: >-
-      Public MustInherit Class RecurrencePatternBase
-          Inherits Object
-          Implements ICloneable
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public MustInherit Class RecurrencePatternBase Implements ICloneable
   inheritance:
   - System.Object
   derivedClasses:
@@ -37,17 +38,25 @@ items:
   - SuperOffice.CRM.Services.RecurrenceWeekPattern
   implements:
   - System.ICloneable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Services.RecurrencePatternBase.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Services.RecurrencePatternBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - abstract
-  - class
-  modifiers.vb:
-  - Public
-  - MustInherit
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.RecurrencePatternBase.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   commentId: M:SuperOffice.CRM.Services.RecurrencePatternBase.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   id: CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
@@ -59,9 +68,6 @@ items:
   nameWithType: RecurrencePatternBase.CopyTo(RecurrencePatternBase)
   fullName: SuperOffice.CRM.Services.RecurrencePatternBase.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
@@ -72,12 +78,6 @@ items:
       type: SuperOffice.CRM.Services.RecurrencePatternBase
     content.vb: Protected Overridable Sub CopyTo(destination As RecurrencePatternBase)
   overload: SuperOffice.CRM.Services.RecurrencePatternBase.CopyTo*
-  modifiers.csharp:
-  - protected
-  - virtual
-  modifiers.vb:
-  - Protected
-  - Overridable
 - uid: SuperOffice.CRM.Services.RecurrencePatternBase.Clone
   commentId: M:SuperOffice.CRM.Services.RecurrencePatternBase.Clone
   id: Clone
@@ -89,24 +89,18 @@ items:
   nameWithType: RecurrencePatternBase.Clone()
   fullName: SuperOffice.CRM.Services.RecurrencePatternBase.Clone()
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
+  example: []
   syntax:
     content: public abstract object Clone()
     return:
       type: System.Object
-    content.vb: Public MustOverride Function Clone As Object
+    content.vb: Public MustOverride Function Clone() As Object
   overload: SuperOffice.CRM.Services.RecurrencePatternBase.Clone*
-  modifiers.csharp:
-  - public
-  - abstract
-  modifiers.vb:
-  - Public
-  - MustOverride
+  implements:
+  - System.ICloneable.Clone
 - uid: SuperOffice.CRM.Services.RecurrencePatternBase.#ctor
   commentId: M:SuperOffice.CRM.Services.RecurrencePatternBase.#ctor
   id: '#ctor'
@@ -118,20 +112,16 @@ items:
   nameWithType: RecurrencePatternBase.RecurrencePatternBase()
   fullName: SuperOffice.CRM.Services.RecurrencePatternBase.RecurrencePatternBase()
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: protected RecurrencePatternBase()
-    content.vb: Protected Sub New
+    content.vb: Protected Sub New()
   overload: SuperOffice.CRM.Services.RecurrencePatternBase.#ctor*
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
+  nameWithType.vb: RecurrencePatternBase.New()
+  fullName.vb: SuperOffice.CRM.Services.RecurrencePatternBase.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.RecurrencePatternBase.Cycle
   commentId: P:SuperOffice.CRM.Services.RecurrencePatternBase.Cycle
   id: Cycle
@@ -143,124 +133,421 @@ items:
   nameWithType: RecurrencePatternBase.Cycle
   fullName: SuperOffice.CRM.Services.RecurrencePatternBase.Cycle
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe number of intervals (day, week, month) between each recurrence.\n"
+  summary: The number of intervals (day, week, month) between each recurrence.
+  example: []
   syntax:
-    content: public virtual int Cycle { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int Cycle { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property Cycle As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Cycle As Integer
   overload: SuperOffice.CRM.Services.RecurrencePatternBase.Cycle*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icloneable
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.RecurrencePatternBase.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<RecurrencePatternBase, To>()
-  nameWithType: EnumUtil.MapEnums<RecurrencePatternBase, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.RecurrencePatternBase, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of RecurrencePatternBase, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.RecurrencePatternBase, To)()
-  name.vb: MapEnums(Of RecurrencePatternBase, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<RecurrencePatternBase, To>(RecurrencePatternBase)
+  nameWithType: EnumUtil.MapEnums<RecurrencePatternBase, To>(RecurrencePatternBase)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.RecurrencePatternBase, To>(SuperOffice.CRM.Services.RecurrencePatternBase)
+  nameWithType.vb: EnumUtil.MapEnums(Of RecurrencePatternBase, To)(RecurrencePatternBase)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.RecurrencePatternBase, To)(SuperOffice.CRM.Services.RecurrencePatternBase)
+  name.vb: MapEnums(Of RecurrencePatternBase, To)(RecurrencePatternBase)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<RecurrencePatternBase, To>
-    nameWithType: EnumUtil.MapEnums<RecurrencePatternBase, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.RecurrencePatternBase, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Services.RecurrencePatternBase)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Services.RecurrencePatternBase
+    name: RecurrencePatternBase
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrencePatternBase.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Services.RecurrencePatternBase
+    name: RecurrencePatternBase
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrencePatternBase.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of RecurrencePatternBase, To)
-    nameWithType: EnumUtil.MapEnums(Of RecurrencePatternBase, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.RecurrencePatternBase, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Services.RecurrencePatternBase)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.RecurrencePatternBase
+    name: RecurrencePatternBase
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrencePatternBase.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Services.RecurrencePatternBase
+    name: RecurrencePatternBase
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrencePatternBase.html
+  - name: )
 - uid: SuperOffice.CRM.Services.RecurrencePatternBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<RecurrencePatternBase, To>()
-  nameWithType: Converters.MapEnums<RecurrencePatternBase, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.RecurrencePatternBase, To>()
-  nameWithType.vb: Converters.MapEnums(Of RecurrencePatternBase, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.RecurrencePatternBase, To)()
-  name.vb: MapEnums(Of RecurrencePatternBase, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<RecurrencePatternBase, To>(RecurrencePatternBase)
+  nameWithType: Converters.MapEnums<RecurrencePatternBase, To>(RecurrencePatternBase)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.RecurrencePatternBase, To>(SuperOffice.CRM.Services.RecurrencePatternBase)
+  nameWithType.vb: Converters.MapEnums(Of RecurrencePatternBase, To)(RecurrencePatternBase)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.RecurrencePatternBase, To)(SuperOffice.CRM.Services.RecurrencePatternBase)
+  name.vb: MapEnums(Of RecurrencePatternBase, To)(RecurrencePatternBase)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<RecurrencePatternBase, To>
-    nameWithType: Converters.MapEnums<RecurrencePatternBase, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.RecurrencePatternBase, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Services.RecurrencePatternBase)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Services.RecurrencePatternBase
+    name: RecurrencePatternBase
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrencePatternBase.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Services.RecurrencePatternBase
+    name: RecurrencePatternBase
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrencePatternBase.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of RecurrencePatternBase, To)
-    nameWithType: Converters.MapEnums(Of RecurrencePatternBase, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.RecurrencePatternBase, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Services.RecurrencePatternBase)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.RecurrencePatternBase
+    name: RecurrencePatternBase
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrencePatternBase.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Services.RecurrencePatternBase
+    name: RecurrencePatternBase
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrencePatternBase.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -269,43 +556,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -314,50 +603,83 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Services.RecurrencePatternBase.CopyTo*
   commentId: Overload:SuperOffice.CRM.Services.RecurrencePatternBase.CopyTo
   isExternal: true
+  href: SuperOffice.CRM.Services.RecurrencePatternBase.html#SuperOffice_CRM_Services_RecurrencePatternBase_CopyTo_SuperOffice_CRM_Services_RecurrencePatternBase_
   name: CopyTo
   nameWithType: RecurrencePatternBase.CopyTo
   fullName: SuperOffice.CRM.Services.RecurrencePatternBase.CopyTo
@@ -365,24 +687,53 @@ references:
   commentId: T:SuperOffice.CRM.Services.RecurrencePatternBase
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.RecurrencePatternBase.html
   name: RecurrencePatternBase
   nameWithType: RecurrencePatternBase
   fullName: SuperOffice.CRM.Services.RecurrencePatternBase
 - uid: SuperOffice.CRM.Services.RecurrencePatternBase.Clone*
   commentId: Overload:SuperOffice.CRM.Services.RecurrencePatternBase.Clone
   isExternal: true
+  href: SuperOffice.CRM.Services.RecurrencePatternBase.html#SuperOffice_CRM_Services_RecurrencePatternBase_Clone
   name: Clone
   nameWithType: RecurrencePatternBase.Clone
   fullName: SuperOffice.CRM.Services.RecurrencePatternBase.Clone
+- uid: System.ICloneable.Clone
+  commentId: M:System.ICloneable.Clone
+  parent: System.ICloneable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icloneable.clone
+  name: Clone()
+  nameWithType: ICloneable.Clone()
+  fullName: System.ICloneable.Clone()
+  spec.csharp:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icloneable.clone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icloneable.clone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.RecurrencePatternBase.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.RecurrencePatternBase.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.RecurrencePatternBase.html#SuperOffice_CRM_Services_RecurrencePatternBase__ctor
   name: RecurrencePatternBase
   nameWithType: RecurrencePatternBase.RecurrencePatternBase
   fullName: SuperOffice.CRM.Services.RecurrencePatternBase.RecurrencePatternBase
+  nameWithType.vb: RecurrencePatternBase.New
+  fullName.vb: SuperOffice.CRM.Services.RecurrencePatternBase.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.RecurrencePatternBase.Cycle*
   commentId: Overload:SuperOffice.CRM.Services.RecurrencePatternBase.Cycle
   isExternal: true
+  href: SuperOffice.CRM.Services.RecurrencePatternBase.html#SuperOffice_CRM_Services_RecurrencePatternBase_Cycle
   name: Cycle
   nameWithType: RecurrencePatternBase.Cycle
   fullName: SuperOffice.CRM.Services.RecurrencePatternBase.Cycle
@@ -390,6 +741,10 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

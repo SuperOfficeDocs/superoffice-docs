@@ -36,27 +36,29 @@ items:
   nameWithType: Constants.StyleHints
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nStyle hints for archive list data rows. A style hint says something about how the row should be styled, but this is\nindirect - thus a hint. A style hint will be something like &apos;processed&apos; or &apos;expired&apos;; the GUI will then translate that into\nsome concrete behavior, such as boldface, coloured font or whatever.\n"
+  summary: >-
+    Style hints for archive list data rows. A style hint says something about how the row should be styled, but this is
+
+    indirect - thus a hint. A style hint will be something like 'processed' or 'expired'; the GUI will then translate that into
+
+    some concrete behavior, such as boldface, coloured font or whatever.
+  example: []
   syntax:
-    content: 'public static class StyleHints : Object'
-    content.vb: >-
-      Public Module StyleHints
-          Inherits Object
+    content: public static class Constants.StyleHints
+    content.vb: Public Module Constants.StyleHints
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Bold
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Bold
   id: Bold
@@ -68,24 +70,16 @@ items:
   nameWithType: Constants.StyleHints.Bold
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Bold
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nUnseen emails\n"
+  summary: Unseen emails
+  example: []
   syntax:
     content: public const string Bold = "bold"
     return:
       type: System.String
     content.vb: Public Const Bold As String = "bold"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.NegativeResponse
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.StyleHints.NegativeResponse
   id: NegativeResponse
@@ -97,24 +91,16 @@ items:
   nameWithType: Constants.StyleHints.NegativeResponse
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.NegativeResponse
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nNegative response to booking, usually red\n"
+  summary: Negative response to booking, usually red
+  example: []
   syntax:
     content: public const string NegativeResponse = "negativeResponse"
     return:
       type: System.String
     content.vb: Public Const NegativeResponse As String = "negativeResponse"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Processed
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Processed
   id: Processed
@@ -126,24 +112,16 @@ items:
   nameWithType: Constants.StyleHints.Processed
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Processed
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nInvitations that have been processed\n"
+  summary: Invitations that have been processed
+  example: []
   syntax:
     content: public const string Processed = "processed"
     return:
       type: System.String
     content.vb: Public Const Processed As String = "processed"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.New
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.StyleHints.New
   id: New
@@ -155,24 +133,16 @@ items:
   nameWithType: Constants.StyleHints.New
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.New
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nInvitations that are new\n"
+  summary: Invitations that are new
+  example: []
   syntax:
     content: public const string New = "new"
     return:
       type: System.String
     content.vb: Public Const New As String = "new"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Owner
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Owner
   id: Owner
@@ -184,24 +154,16 @@ items:
   nameWithType: Constants.StyleHints.Owner
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Owner
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nParticipant who is the owner of the meeting\n"
+  summary: Participant who is the owner of the meeting
+  example: []
   syntax:
     content: public const string Owner = "owner"
     return:
       type: System.String
     content.vb: Public Const Owner As String = "owner"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Conflict
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Conflict
   id: Conflict
@@ -213,24 +175,16 @@ items:
   nameWithType: Constants.StyleHints.Conflict
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Conflict
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nAppointment is in conflict with at least one other appointment\n"
+  summary: Appointment is in conflict with at least one other appointment
+  example: []
   syntax:
     content: public const string Conflict = "conflict"
     return:
       type: System.String
     content.vb: Public Const Conflict As String = "conflict"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Expired
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Expired
   id: Expired
@@ -242,24 +196,16 @@ items:
   nameWithType: Constants.StyleHints.Expired
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Expired
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nAppointment is expired/overdue\n"
+  summary: Appointment is expired/overdue
+  example: []
   syntax:
     content: public const string Expired = "expired"
     return:
       type: System.String
     content.vb: Public Const Expired As String = "expired"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Private
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Private
   id: Private
@@ -271,24 +217,16 @@ items:
   nameWithType: Constants.StyleHints.Private
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Private
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nAppointment is private (to person, not group)\n"
+  summary: Appointment is private (to person, not group)
+  example: []
   syntax:
     content: public const string Private = "private"
     return:
       type: System.String
     content.vb: Public Const Private As String = "private"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.NoMail
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.StyleHints.NoMail
   id: NoMail
@@ -300,24 +238,16 @@ items:
   nameWithType: Constants.StyleHints.NoMail
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.NoMail
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nContact or Person does not wish to receive mailings\n"
+  summary: Contact or Person does not wish to receive mailings
+  example: []
   syntax:
     content: public const string NoMail = "nomail"
     return:
       type: System.String
     content.vb: Public Const NoMail As String = "nomail"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.RankOne
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.StyleHints.RankOne
   id: RankOne
@@ -329,24 +259,16 @@ items:
   nameWithType: Constants.StyleHints.RankOne
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.RankOne
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nThe (hopefully only) person with rank 1 on this contact\n"
+  summary: The (hopefully only) person with rank 1 on this contact
+  example: []
   syntax:
     content: public const string RankOne = "rankone"
     return:
       type: System.String
     content.vb: Public Const RankOne As String = "rankone"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Stop
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Stop
   id: Stop
@@ -358,24 +280,16 @@ items:
   nameWithType: Constants.StyleHints.Stop
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Stop
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nContact has STOP property set (big red X in contact card)\n"
+  summary: Contact has STOP property set (big red X in contact card)
+  example: []
   syntax:
     content: public const string Stop = "stop"
     return:
       type: System.String
     content.vb: Public Const Stop As String = "stop"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Retired
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Retired
   id: Retired
@@ -387,24 +301,16 @@ items:
   nameWithType: Constants.StyleHints.Retired
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Retired
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nAssociate has retired and is no longer active\n"
+  summary: Associate has retired and is no longer active
+  example: []
   syntax:
     content: public const string Retired = "retired"
     return:
       type: System.String
     content.vb: Public Const Retired As String = "retired"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Active
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Active
   id: Active
@@ -416,24 +322,16 @@ items:
   nameWithType: Constants.StyleHints.Active
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Active
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nCriteria is active\n"
+  summary: Criteria is active
+  example: []
   syntax:
     content: public const string Active = "active"
     return:
       type: System.String
     content.vb: Public Const Active As String = "active"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.InActive
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.StyleHints.InActive
   id: InActive
@@ -445,24 +343,16 @@ items:
   nameWithType: Constants.StyleHints.InActive
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.InActive
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nCriteria is inactive\n"
+  summary: Criteria is inactive
+  example: []
   syntax:
     content: public const string InActive = "inactive"
     return:
       type: System.String
     content.vb: Public Const InActive As String = "inactive"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.LoggedOnWin
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.StyleHints.LoggedOnWin
   id: LoggedOnWin
@@ -474,24 +364,16 @@ items:
   nameWithType: Constants.StyleHints.LoggedOnWin
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.LoggedOnWin
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nIs there an activeuser record, indicating that an associate is logged on to the windows client\n"
+  summary: Is there an activeuser record, indicating that an associate is logged on to the windows client
+  example: []
   syntax:
     content: public const string LoggedOnWin = "loggedOnWin"
     return:
       type: System.String
     content.vb: Public Const LoggedOnWin As String = "loggedOnWin"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.TicketUnread
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.StyleHints.TicketUnread
   id: TicketUnread
@@ -503,24 +385,16 @@ items:
   nameWithType: Constants.StyleHints.TicketUnread
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.TicketUnread
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nTicket not read by owner\n"
+  summary: Ticket not read by owner
+  example: []
   syntax:
     content: public const string TicketUnread = "ticketUnread"
     return:
       type: System.String
     content.vb: Public Const TicketUnread As String = "ticketUnread"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.DeletedItem
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.StyleHints.DeletedItem
   id: DeletedItem
@@ -532,24 +406,16 @@ items:
   nameWithType: Constants.StyleHints.DeletedItem
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.DeletedItem
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nDeleted item\n"
+  summary: Deleted item
+  example: []
   syntax:
     content: public const string DeletedItem = "deleted_item"
     return:
       type: System.String
     content.vb: Public Const DeletedItem As String = "deleted_item"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Lost
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Lost
   id: Lost
@@ -561,24 +427,16 @@ items:
   nameWithType: Constants.StyleHints.Lost
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Lost
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nLost sales\n"
+  summary: Lost sales
+  example: []
   syntax:
     content: public const string Lost = "lost"
     return:
       type: System.String
     content.vb: Public Const Lost As String = "lost"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Sold
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Sold
   id: Sold
@@ -590,24 +448,16 @@ items:
   nameWithType: Constants.StyleHints.Sold
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Sold
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nLost sales\n"
+  summary: Lost sales
+  example: []
   syntax:
     content: public const string Sold = "sold"
     return:
       type: System.String
     content.vb: Public Const Sold As String = "sold"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Stalled
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Stalled
   id: Stalled
@@ -619,24 +469,16 @@ items:
   nameWithType: Constants.StyleHints.Stalled
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Stalled
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nStalled sales\n"
+  summary: Stalled sales
+  example: []
   syntax:
     content: public const string Stalled = "stalled"
     return:
       type: System.String
     content.vb: Public Const Stalled As String = "stalled"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.SoftDeleted
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.StyleHints.SoftDeleted
   id: SoftDeleted
@@ -648,24 +490,16 @@ items:
   nameWithType: Constants.StyleHints.SoftDeleted
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.SoftDeleted
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nSoft deleted entity\n"
+  summary: Soft deleted entity
+  example: []
   syntax:
     content: public const string SoftDeleted = "softDeleted"
     return:
       type: System.String
     content.vb: Public Const SoftDeleted As String = "softDeleted"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Rank0
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Rank0
   id: Rank0
@@ -677,24 +511,16 @@ items:
   nameWithType: Constants.StyleHints.Rank0
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Rank0
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nRank 0, in SuperListColumnSize indicates a column that is currently not shown\n"
+  summary: Rank 0, in SuperListColumnSize indicates a column that is currently not shown
+  example: []
   syntax:
     content: public const string Rank0 = "rank0"
     return:
       type: System.String
     content.vb: Public Const Rank0 As String = "rank0"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.NotInSync
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.StyleHints.NotInSync
   id: NotInSync
@@ -706,24 +532,16 @@ items:
   nameWithType: Constants.StyleHints.NotInSync
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.NotInSync
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nCaution warning: NotInSync\n"
+  summary: 'Caution warning: NotInSync'
+  example: []
   syntax:
     content: public const string NotInSync = "notInSync"
     return:
       type: System.String
     content.vb: Public Const NotInSync As String = "notInSync"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.NotNotifiedByEmail
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.StyleHints.NotNotifiedByEmail
   id: NotNotifiedByEmail
@@ -735,41 +553,288 @@ items:
   nameWithType: Constants.StyleHints.NotNotifiedByEmail
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.NotNotifiedByEmail
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nCaution warning: NotNotifiedByEmail\n"
+  summary: 'Caution warning: NotNotifiedByEmail'
+  example: []
   syntax:
     content: public const string NotNotifiedByEmail = "notNotifiedByEmail"
     return:
       type: System.String
     content.vb: Public Const NotNotifiedByEmail As String = "notNotifiedByEmail"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -777,6 +842,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

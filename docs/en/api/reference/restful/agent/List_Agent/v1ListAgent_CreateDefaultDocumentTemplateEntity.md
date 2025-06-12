@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 62,
-  "Name": "Hackett, Stanton and Tillman",
-  "Tooltip": "esse",
-  "SaveInDb": 15,
-  "Filename": "qui",
-  "DefaultOref": "laborum",
+  "DocumentTemplateId": 16,
+  "Name": "Ernser-Oberbrunner",
+  "Tooltip": "eum",
+  "SaveInDb": 744,
+  "Filename": "sunt",
+  "DefaultOref": "tempore",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 857,
-  "IntentId": 862,
+  "AutoeventId": 812,
+  "IntentId": 786,
   "IsDefaultPublished": false,
-  "Rank": 885,
-  "LoadTemplateFromPlugin": 281,
-  "MimeType": "quibusdam",
+  "Rank": 163,
+  "LoadTemplateFromPlugin": 378,
+  "MimeType": "et",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 986,
+  "DocumentTypeKey": 294,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "uriah.torphy@ledner.ca",
-  "IncludeSignature": true,
+  "EmailSubject": "ramon.kessler@windler.co.uk",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "kali.auer@wolff.ca",
+  "SenderEmailAddress": "cristobal@kirlingreenfelder.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 559
+      "FieldType": "System.String",
+      "FieldLength": 11
     }
   }
 }

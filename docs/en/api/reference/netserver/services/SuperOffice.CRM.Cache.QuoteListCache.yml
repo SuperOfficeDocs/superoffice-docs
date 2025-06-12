@@ -1,0 +1,493 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Cache.QuoteListCache
+  commentId: T:SuperOffice.CRM.Cache.QuoteListCache
+  id: QuoteListCache
+  parent: SuperOffice.CRM.Cache
+  children:
+  - SuperOffice.CRM.Cache.QuoteListCache.#ctor
+  - SuperOffice.CRM.Cache.QuoteListCache.GetList(System.Int32,System.String)
+  - SuperOffice.CRM.Cache.QuoteListCache.OnLoad
+  - SuperOffice.CRM.Cache.QuoteListCache.OnLoadAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Cache.QuoteListCache.SetList(System.Int32,System.String,SuperOffice.CRM.ListItemInfo[])
+  - SuperOffice.CRM.Cache.QuoteListCache.TableNames
+  langs:
+  - csharp
+  - vb
+  name: QuoteListCache
+  nameWithType: QuoteListCache
+  fullName: SuperOffice.CRM.Cache.QuoteListCache
+  type: Class
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: 'public class QuoteListCache : CacheBaseV2'
+    content.vb: Public Class QuoteListCache Inherits CacheBaseV2
+  inheritance:
+  - System.Object
+- uid: SuperOffice.CRM.Cache.QuoteListCache.GetList(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Cache.QuoteListCache.GetList(System.Int32,System.String)
+  id: GetList(System.Int32,System.String)
+  parent: SuperOffice.CRM.Cache.QuoteListCache
+  langs:
+  - csharp
+  - vb
+  name: GetList(int, string)
+  nameWithType: QuoteListCache.GetList(int, string)
+  fullName: SuperOffice.CRM.Cache.QuoteListCache.GetList(int, string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: public ListItemInfo[] GetList(int connectionId, string listName)
+    parameters:
+    - id: connectionId
+      type: System.Int32
+    - id: listName
+      type: System.String
+    return:
+      type: SuperOffice.CRM.ListItemInfo[]
+    content.vb: Public Function GetList(connectionId As Integer, listName As String) As ListItemInfo()
+  overload: SuperOffice.CRM.Cache.QuoteListCache.GetList*
+  nameWithType.vb: QuoteListCache.GetList(Integer, String)
+  fullName.vb: SuperOffice.CRM.Cache.QuoteListCache.GetList(Integer, String)
+  name.vb: GetList(Integer, String)
+- uid: SuperOffice.CRM.Cache.QuoteListCache.SetList(System.Int32,System.String,SuperOffice.CRM.ListItemInfo[])
+  commentId: M:SuperOffice.CRM.Cache.QuoteListCache.SetList(System.Int32,System.String,SuperOffice.CRM.ListItemInfo[])
+  id: SetList(System.Int32,System.String,SuperOffice.CRM.ListItemInfo[])
+  parent: SuperOffice.CRM.Cache.QuoteListCache
+  langs:
+  - csharp
+  - vb
+  name: SetList(int, string, ListItemInfo[])
+  nameWithType: QuoteListCache.SetList(int, string, ListItemInfo[])
+  fullName: SuperOffice.CRM.Cache.QuoteListCache.SetList(int, string, SuperOffice.CRM.ListItemInfo[])
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: public void SetList(int connectionId, string listName, ListItemInfo[] list)
+    parameters:
+    - id: connectionId
+      type: System.Int32
+    - id: listName
+      type: System.String
+    - id: list
+      type: SuperOffice.CRM.ListItemInfo[]
+    content.vb: Public Sub SetList(connectionId As Integer, listName As String, list As ListItemInfo())
+  overload: SuperOffice.CRM.Cache.QuoteListCache.SetList*
+  nameWithType.vb: QuoteListCache.SetList(Integer, String, ListItemInfo())
+  fullName.vb: SuperOffice.CRM.Cache.QuoteListCache.SetList(Integer, String, SuperOffice.CRM.ListItemInfo())
+  name.vb: SetList(Integer, String, ListItemInfo())
+- uid: SuperOffice.CRM.Cache.QuoteListCache.OnLoadAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Cache.QuoteListCache.OnLoadAsync(System.Threading.CancellationToken)
+  id: OnLoadAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Cache.QuoteListCache
+  langs:
+  - csharp
+  - vb
+  name: OnLoadAsync(CancellationToken)
+  nameWithType: QuoteListCache.OnLoadAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Cache.QuoteListCache.OnLoadAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Cache
+  example: []
+  syntax:
+    content: protected override Task OnLoadAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function OnLoadAsync(cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.CRM.Cache.QuoteListCache.OnLoadAsync*
+- uid: SuperOffice.CRM.Cache.QuoteListCache.OnLoad
+  commentId: M:SuperOffice.CRM.Cache.QuoteListCache.OnLoad
+  id: OnLoad
+  parent: SuperOffice.CRM.Cache.QuoteListCache
+  langs:
+  - csharp
+  - vb
+  name: OnLoad()
+  nameWithType: QuoteListCache.OnLoad()
+  fullName: SuperOffice.CRM.Cache.QuoteListCache.OnLoad()
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Cache
+  example: []
+  syntax:
+    content: protected override void OnLoad()
+    content.vb: Protected Overrides Sub OnLoad()
+  overload: SuperOffice.CRM.Cache.QuoteListCache.OnLoad*
+- uid: SuperOffice.CRM.Cache.QuoteListCache.#ctor
+  commentId: M:SuperOffice.CRM.Cache.QuoteListCache.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Cache.QuoteListCache
+  langs:
+  - csharp
+  - vb
+  name: QuoteListCache()
+  nameWithType: QuoteListCache.QuoteListCache()
+  fullName: SuperOffice.CRM.Cache.QuoteListCache.QuoteListCache()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: public QuoteListCache()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Cache.QuoteListCache.#ctor*
+  nameWithType.vb: QuoteListCache.New()
+  fullName.vb: SuperOffice.CRM.Cache.QuoteListCache.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Cache.QuoteListCache.TableNames
+  commentId: P:SuperOffice.CRM.Cache.QuoteListCache.TableNames
+  id: TableNames
+  parent: SuperOffice.CRM.Cache.QuoteListCache
+  langs:
+  - csharp
+  - vb
+  name: TableNames
+  nameWithType: QuoteListCache.TableNames
+  fullName: SuperOffice.CRM.Cache.QuoteListCache.TableNames
+  type: Property
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Cache
+  example: []
+  syntax:
+    content: protected override IEnumerable<string> TableNames { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: Protected Overrides ReadOnly Property TableNames As IEnumerable(Of String)
+  overload: SuperOffice.CRM.Cache.QuoteListCache.TableNames*
+references:
+- uid: SuperOffice.CRM.Cache
+  commentId: N:SuperOffice.CRM.Cache
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Cache
+  nameWithType: SuperOffice.CRM.Cache
+  fullName: SuperOffice.CRM.Cache
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Cache.QuoteListCache.GetList*
+  commentId: Overload:SuperOffice.CRM.Cache.QuoteListCache.GetList
+  isExternal: true
+  href: SuperOffice.CRM.Cache.QuoteListCache.html#SuperOffice_CRM_Cache_QuoteListCache_GetList_System_Int32_System_String_
+  name: GetList
+  nameWithType: QuoteListCache.GetList
+  fullName: SuperOffice.CRM.Cache.QuoteListCache.GetList
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.ListItemInfo[]
+  isExternal: true
+  name: ListItemInfo[]
+  nameWithType: ListItemInfo[]
+  fullName: SuperOffice.CRM.ListItemInfo[]
+  nameWithType.vb: ListItemInfo()
+  fullName.vb: SuperOffice.CRM.ListItemInfo()
+  name.vb: ListItemInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ListItemInfo
+    name: ListItemInfo
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.ListItemInfo
+    name: ListItemInfo
+    isExternal: true
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Cache.QuoteListCache.SetList*
+  commentId: Overload:SuperOffice.CRM.Cache.QuoteListCache.SetList
+  isExternal: true
+  href: SuperOffice.CRM.Cache.QuoteListCache.html#SuperOffice_CRM_Cache_QuoteListCache_SetList_System_Int32_System_String_SuperOffice_CRM_ListItemInfo___
+  name: SetList
+  nameWithType: QuoteListCache.SetList
+  fullName: SuperOffice.CRM.Cache.QuoteListCache.SetList
+- uid: SuperOffice.CRM.Cache.QuoteListCache.OnLoadAsync*
+  commentId: Overload:SuperOffice.CRM.Cache.QuoteListCache.OnLoadAsync
+  isExternal: true
+  href: SuperOffice.CRM.Cache.QuoteListCache.html#SuperOffice_CRM_Cache_QuoteListCache_OnLoadAsync_System_Threading_CancellationToken_
+  name: OnLoadAsync
+  nameWithType: QuoteListCache.OnLoadAsync
+  fullName: SuperOffice.CRM.Cache.QuoteListCache.OnLoadAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Cache.QuoteListCache.OnLoad*
+  commentId: Overload:SuperOffice.CRM.Cache.QuoteListCache.OnLoad
+  isExternal: true
+  href: SuperOffice.CRM.Cache.QuoteListCache.html#SuperOffice_CRM_Cache_QuoteListCache_OnLoad
+  name: OnLoad
+  nameWithType: QuoteListCache.OnLoad
+  fullName: SuperOffice.CRM.Cache.QuoteListCache.OnLoad
+- uid: SuperOffice.CRM.Cache.QuoteListCache.#ctor*
+  commentId: Overload:SuperOffice.CRM.Cache.QuoteListCache.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Cache.QuoteListCache.html#SuperOffice_CRM_Cache_QuoteListCache__ctor
+  name: QuoteListCache
+  nameWithType: QuoteListCache.QuoteListCache
+  fullName: SuperOffice.CRM.Cache.QuoteListCache.QuoteListCache
+  nameWithType.vb: QuoteListCache.New
+  fullName.vb: SuperOffice.CRM.Cache.QuoteListCache.New
+  name.vb: New
+- uid: SuperOffice.CRM.Cache.QuoteListCache.TableNames*
+  commentId: Overload:SuperOffice.CRM.Cache.QuoteListCache.TableNames
+  isExternal: true
+  href: SuperOffice.CRM.Cache.QuoteListCache.html#SuperOffice_CRM_Cache_QuoteListCache_TableNames
+  name: TableNames
+  nameWithType: QuoteListCache.TableNames
+  fullName: SuperOffice.CRM.Cache.QuoteListCache.TableNames
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<string>
+  nameWithType: IEnumerable<string>
+  fullName: System.Collections.Generic.IEnumerable<string>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

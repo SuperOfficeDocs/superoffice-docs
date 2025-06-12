@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 455,
-  "PlainMessage": "saepe",
-  "HtmlMessage": "dignissimos",
-  "SmsMessage": "doloremque",
-  "Description": "User-friendly multi-state policy",
-  "Subject": "aliquam",
-  "FolderId": 115,
-  "HeaderField": "in",
-  "Design": "sint",
+  "ShipmentMessageId": 926,
+  "PlainMessage": "eaque",
+  "HtmlMessage": "alias",
+  "SmsMessage": "aut",
+  "Description": "Right-sized reciprocal help-desk",
+  "Subject": "rerum",
+  "FolderId": 138,
+  "HeaderField": "ipsa",
+  "Design": "neque",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Seamless local forecast",
-  "AccessKey": "quisquam",
-  "DocumentMessage": 696,
-  "Registered": "2021-08-27T16:32:39.3363462+02:00",
-  "RegisteredAssociateId": 126,
-  "Updated": "2019-06-04T16:32:39.3363462+02:00",
-  "UpdatedAssociateId": 252,
-  "UpdatedCount": 543,
+  "InlineImages": false,
+  "LongDescription": "User-friendly system-worthy knowledge user",
+  "AccessKey": "delectus",
+  "DocumentMessage": 551,
+  "Registered": "2001-04-15T17:54:03.3202006+02:00",
+  "RegisteredAssociateId": 604,
+  "Updated": "2001-10-12T17:54:03.3202006+02:00",
+  "UpdatedAssociateId": 818,
+  "UpdatedCount": 427,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 275
+      "FieldLength": 239
     }
   }
 }

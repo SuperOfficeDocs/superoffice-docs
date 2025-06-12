@@ -69,8 +69,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "ex",
-  "Key": "ut"
+  "Section": "ut",
+  "Key": "sunt"
 }
 ```
 

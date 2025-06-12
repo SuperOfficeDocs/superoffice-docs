@@ -85,16 +85,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Mayert, Hills and Herzog",
-  "DeviceName": "Durgan Inc and Sons",
-  "DeviceIdentifier": "exercitationem",
-  "KeyName": "Murazik, Johns and Cartwright",
-  "KeyValue": "aut",
-  "TableName": "Maggio LLC"
+  "ApplicationName": "Wuckert, Hane and Von",
+  "DeviceName": "Balistreri LLC",
+  "DeviceIdentifier": "explicabo",
+  "KeyName": "Kessler-McDermott",
+  "KeyValue": "nesciunt",
+  "TableName": "O'Keefe, Collins and Pfannerstill"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "qui",
-  "Value": "inventore",
-  "RecordId": 899,
-  "CreatedDate": "1998-03-12T16:32:39.1645096+01:00",
-  "UpdatedDate": "2024-08-18T16:32:39.1645096+02:00",
-  "UpdatedBy": "pariatur",
-  "CreatedBy": "accusantium",
-  "TableName": "Kohler LLC",
+  "Key": "hic",
+  "Value": "in",
+  "RecordId": 810,
+  "CreatedDate": "2024-08-22T17:54:03.1795788+02:00",
+  "UpdatedDate": "2010-06-24T17:54:03.1795788+02:00",
+  "UpdatedBy": "non",
+  "CreatedBy": "id",
+  "TableName": "Schiller, Osinski and Gerhold",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 437
+      "FieldLength": 228
     }
   }
 }

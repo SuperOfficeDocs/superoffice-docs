@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/EMail/GetAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 997,
-  "AttachmentId": "dignissimos"
+  "MailItemId": 699,
+  "AttachmentId": "vel"
 }
 ```
 
@@ -100,13 +100,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Profit-focused modular project",
-  "Filename": "odio",
-  "Size": 893,
-  "Type": "sunt",
-  "Encoding": "facilis",
-  "Id": "vel",
-  "Disposition": "rem",
+  "Description": "Switchable bifurcated product",
+  "Filename": "vitae",
+  "Size": 46,
+  "Type": "occaecati",
+  "Encoding": "sapiente",
+  "Id": "officia",
+  "Disposition": "et",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldLength": 606
     }
   }
 }

@@ -102,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 423,
-    "Name": "Funk, Moen and Altenwerth",
-    "ToolTip": "Est consequatur ipsum ipsa sit voluptas quos non.",
+    "Id": 711,
+    "Name": "Schmidt Group",
+    "ToolTip": "Et qui dolorum natus esse quaerat beatae.",
     "Deleted": false,
-    "Rank": 266,
-    "Type": "et",
-    "ColorBlock": 754,
-    "IconHint": "placeat",
-    "Selected": false,
-    "LastChanged": "2011-07-30T16:32:48.8682307+02:00",
+    "Rank": 638,
+    "Type": "itaque",
+    "ColorBlock": 800,
+    "IconHint": "nisi",
+    "Selected": true,
+    "LastChanged": "2022-12-25T17:54:09.0074197+01:00",
     "ChildItems": [
       {
-        "Id": 980,
-        "Name": "Farrell-Douglas",
-        "ToolTip": "Magnam voluptatibus.",
-        "Deleted": true,
-        "Rank": 756,
-        "Type": "eius",
-        "ColorBlock": 492,
-        "IconHint": "laboriosam",
-        "Selected": true,
-        "LastChanged": "2007-01-19T16:32:48.8682307+01:00",
+        "Id": 554,
+        "Name": "Konopelski, Rath and Toy",
+        "ToolTip": "Vel numquam hic blanditiis repellendus.",
+        "Deleted": false,
+        "Rank": 113,
+        "Type": "at",
+        "ColorBlock": 660,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2007-12-25T17:54:09.0074197+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "voluptates",
-        "Hidden": false,
-        "FullName": "Tate Hayes"
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "porro",
+        "Hidden": true,
+        "FullName": "Ms. Liza Maggio MD"
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "iure",
+    "ExtraInfo": "est",
+    "StyleHint": "magni",
     "Hidden": true,
-    "FullName": "Nyasia Leuschke Sr."
+    "FullName": "Lessie O'Keefe PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 174,
-    "Name": "O'Connell-Ullrich",
-    "ToolTip": "Asperiores voluptate animi molestiae adipisci.",
-    "Deleted": true,
-    "Rank": 629,
-    "Type": "facere",
-    "ColorBlock": 617,
-    "IconHint": "enim",
+    "Id": 357,
+    "Name": "Ritchie-Cassin",
+    "ToolTip": "Nulla porro.",
+    "Deleted": false,
+    "Rank": 788,
+    "Type": "consequatur",
+    "ColorBlock": 935,
+    "IconHint": "tempora",
     "Selected": false,
-    "LastChanged": "2010-03-05T16:32:48.8682307+01:00",
+    "LastChanged": "2003-10-08T17:54:09.0074197+02:00",
     "ChildItems": [
       {
-        "Id": 6,
-        "Name": "Ward-Wiza",
-        "ToolTip": "Est ipsa enim at.",
-        "Deleted": true,
-        "Rank": 851,
-        "Type": "sed",
-        "ColorBlock": 317,
-        "IconHint": "dolore",
+        "Id": 564,
+        "Name": "Mraz, Oberbrunner and Nolan",
+        "ToolTip": "Harum vitae recusandae nisi.",
+        "Deleted": false,
+        "Rank": 557,
+        "Type": "et",
+        "ColorBlock": 389,
+        "IconHint": "velit",
         "Selected": true,
-        "LastChanged": "2005-01-18T16:32:48.8682307+01:00",
+        "LastChanged": "2008-06-16T17:54:09.0074197+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "incidunt",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Ardella Trantow",
+        "FullName": "Clinton Runolfsson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 216
+            "FieldType": "System.Int32",
+            "FieldLength": 5
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "fugiat",
-    "Hidden": false,
-    "FullName": "Lia Hodkiewicz DVM",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "nam",
+    "Hidden": true,
+    "FullName": "Mrs. Guido Heller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 451
+        "FieldType": "System.Int32",
+        "FieldLength": 837
       }
     }
   }

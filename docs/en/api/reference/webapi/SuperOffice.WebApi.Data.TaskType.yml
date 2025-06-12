@@ -16,64 +16,24 @@ items:
   - SuperOffice.WebApi.Data.TaskType.SaintAll
   - SuperOffice.WebApi.Data.TaskType.ToDo
   - SuperOffice.WebApi.Data.TaskType.Unknown
-  - SuperOffice.WebApi.Data.TaskType.value__
   langs:
   - csharp
   - vb
   name: TaskType
   nameWithType: TaskType
   fullName: SuperOffice.WebApi.Data.TaskType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nValue for field &apos;record_type&apos; in table &apos;task&apos;. Controls icons used in GUI\nThis Enum is used by:  Task.record_type\n"
-  syntax:
-    content: 'public sealed class TaskType : Enum'
-    content.vb: >-
-      Public NotInheritable Class TaskType
-          Inherits
+  summary: >-
+    Value for field 'record_type' in table 'task'. Controls icons used in GUI
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.TaskType.value__
-  commentId: F:SuperOffice.WebApi.Data.TaskType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.TaskType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: TaskType.value__
-  fullName: SuperOffice.WebApi.Data.TaskType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  Task.record_type
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: 'public enum TaskType : short'
+    content.vb: Public Enum TaskType As Short
 - uid: SuperOffice.WebApi.Data.TaskType.Unknown
   commentId: F:SuperOffice.WebApi.Data.TaskType.Unknown
   id: Unknown
@@ -85,24 +45,26 @@ items:
   nameWithType: TaskType.Unknown
   fullName: SuperOffice.WebApi.Data.TaskType.Unknown
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: This task is of an unknown/undecided type\n"
+  summary: '0: This task is of an unknown/undecided type'
+  example: []
   syntax:
-    content: public const TaskType Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.WebApi.Data.TaskType
-    content.vb: Public Const Unknown As TaskType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TaskType.Appointment
   commentId: F:SuperOffice.WebApi.Data.TaskType.Appointment
   id: Appointment
@@ -114,24 +76,26 @@ items:
   nameWithType: TaskType.Appointment
   fullName: SuperOffice.WebApi.Data.TaskType.Appointment
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: The task is an appointment\n"
+  summary: '1: The task is an appointment'
+  example: []
   syntax:
-    content: public const TaskType Appointment
+    content: >-
+      [EnumMember]
+
+      Appointment = 1
     return:
       type: SuperOffice.WebApi.Data.TaskType
-    content.vb: Public Const Appointment As TaskType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Appointment = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TaskType.Document
   commentId: F:SuperOffice.WebApi.Data.TaskType.Document
   id: Document
@@ -143,24 +107,26 @@ items:
   nameWithType: TaskType.Document
   fullName: SuperOffice.WebApi.Data.TaskType.Document
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: The task is a document\n"
+  summary: '2: The task is a document'
+  example: []
   syntax:
-    content: public const TaskType Document
+    content: >-
+      [EnumMember]
+
+      Document = 2
     return:
       type: SuperOffice.WebApi.Data.TaskType
-    content.vb: Public Const Document As TaskType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Document = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TaskType.Email
   commentId: F:SuperOffice.WebApi.Data.TaskType.Email
   id: Email
@@ -172,24 +138,26 @@ items:
   nameWithType: TaskType.Email
   fullName: SuperOffice.WebApi.Data.TaskType.Email
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: The task is an email\n"
+  summary: '3: The task is an email'
+  example: []
   syntax:
-    content: public const TaskType Email
+    content: >-
+      [EnumMember]
+
+      Email = 3
     return:
       type: SuperOffice.WebApi.Data.TaskType
-    content.vb: Public Const Email As TaskType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Email = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TaskType.Fax
   commentId: F:SuperOffice.WebApi.Data.TaskType.Fax
   id: Fax
@@ -201,24 +169,26 @@ items:
   nameWithType: TaskType.Fax
   fullName: SuperOffice.WebApi.Data.TaskType.Fax
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: The task is a fax\n"
+  summary: '4: The task is a fax'
+  example: []
   syntax:
-    content: public const TaskType Fax
+    content: >-
+      [EnumMember]
+
+      Fax = 4
     return:
       type: SuperOffice.WebApi.Data.TaskType
-    content.vb: Public Const Fax As TaskType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Fax = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TaskType.Phone
   commentId: F:SuperOffice.WebApi.Data.TaskType.Phone
   id: Phone
@@ -230,24 +200,26 @@ items:
   nameWithType: TaskType.Phone
   fullName: SuperOffice.WebApi.Data.TaskType.Phone
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: The task is a phone call\n"
+  summary: '5: The task is a phone call'
+  example: []
   syntax:
-    content: public const TaskType Phone
+    content: >-
+      [EnumMember]
+
+      Phone = 5
     return:
       type: SuperOffice.WebApi.Data.TaskType
-    content.vb: Public Const Phone As TaskType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Phone = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TaskType.ToDo
   commentId: F:SuperOffice.WebApi.Data.TaskType.ToDo
   id: ToDo
@@ -259,24 +231,26 @@ items:
   nameWithType: TaskType.ToDo
   fullName: SuperOffice.WebApi.Data.TaskType.ToDo
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n6: The task is a To-do\n"
+  summary: '6: The task is a To-do'
+  example: []
   syntax:
-    content: public const TaskType ToDo
+    content: >-
+      [EnumMember]
+
+      ToDo = 6
     return:
       type: SuperOffice.WebApi.Data.TaskType
-    content.vb: Public Const ToDo As TaskType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ToDo = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TaskType.MailMergeDraft
   commentId: F:SuperOffice.WebApi.Data.TaskType.MailMergeDraft
   id: MailMergeDraft
@@ -288,24 +262,26 @@ items:
   nameWithType: TaskType.MailMergeDraft
   fullName: SuperOffice.WebApi.Data.TaskType.MailMergeDraft
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n7: Mail merge draft document\n"
+  summary: '7: Mail merge draft document'
+  example: []
   syntax:
-    content: public const TaskType MailMergeDraft
+    content: >-
+      [EnumMember]
+
+      MailMergeDraft = 7
     return:
       type: SuperOffice.WebApi.Data.TaskType
-    content.vb: Public Const MailMergeDraft As TaskType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      MailMergeDraft = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TaskType.MailMergeFinal
   commentId: F:SuperOffice.WebApi.Data.TaskType.MailMergeFinal
   id: MailMergeFinal
@@ -317,24 +293,26 @@ items:
   nameWithType: TaskType.MailMergeFinal
   fullName: SuperOffice.WebApi.Data.TaskType.MailMergeFinal
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n8: Merged result of mail merge\n"
+  summary: '8: Merged result of mail merge'
+  example: []
   syntax:
-    content: public const TaskType MailMergeFinal
+    content: >-
+      [EnumMember]
+
+      MailMergeFinal = 8
     return:
       type: SuperOffice.WebApi.Data.TaskType
-    content.vb: Public Const MailMergeFinal As TaskType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      MailMergeFinal = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TaskType.Report
   commentId: F:SuperOffice.WebApi.Data.TaskType.Report
   id: Report
@@ -346,24 +324,26 @@ items:
   nameWithType: TaskType.Report
   fullName: SuperOffice.WebApi.Data.TaskType.Report
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n9: Saved report run\n"
+  summary: '9: Saved report run'
+  example: []
   syntax:
-    content: public const TaskType Report
+    content: >-
+      [EnumMember]
+
+      Report = 9
     return:
       type: SuperOffice.WebApi.Data.TaskType
-    content.vb: Public Const Report As TaskType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Report = 9
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TaskType.SaintAll
   commentId: F:SuperOffice.WebApi.Data.TaskType.SaintAll
   id: SaintAll
@@ -375,55 +355,69 @@ items:
   nameWithType: TaskType.SaintAll
   fullName: SuperOffice.WebApi.Data.TaskType.SaintAll
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n10: All&apos; choice for Saint, every activity is recorded under this type as well as the specific type. This is NOT an acceptable value for an individual activity\n"
+  summary: "10: All' choice for Saint, every activity is recorded under this type as well as the specific type. This is NOT an acceptable value for an individual activity"
+  example: []
   syntax:
-    content: public const TaskType SaintAll
+    content: >-
+      [EnumMember]
+
+      SaintAll = 10
     return:
       type: SuperOffice.WebApi.Data.TaskType
-    content.vb: Public Const SaintAll As TaskType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SaintAll = 10
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.TaskType
   commentId: T:SuperOffice.WebApi.Data.TaskType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.TaskType.html
   name: TaskType
   nameWithType: TaskType
   fullName: SuperOffice.WebApi.Data.TaskType

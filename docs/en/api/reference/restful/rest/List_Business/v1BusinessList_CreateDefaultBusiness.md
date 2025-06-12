@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Business/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 528,
-  "Name": "Bergnaum LLC",
-  "Tooltip": "incidunt",
+  "Id": 606,
+  "Name": "Kuhn-Carroll",
+  "Tooltip": "id",
   "Deleted": true,
-  "UdListDefinitionId": 718,
-  "Rank": 904,
+  "UdListDefinitionId": 900,
+  "Rank": 25,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 872
+      "FieldLength": 805
     }
   }
 }

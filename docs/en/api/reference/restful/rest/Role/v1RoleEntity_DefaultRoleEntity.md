@@ -71,7 +71,7 @@ OK
 GET /api/v1/Role/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 273,
-  "Name": "Adams Group",
-  "Tooltip": "temporibus",
+  "RoleId": 429,
+  "Name": "Dicki Inc and Sons",
+  "Tooltip": "est",
   "RoleType": "Anonymous",
-  "Deleted": 695,
-  "Rank": 764,
-  "Created": "2010-05-06T16:32:47.7589038+02:00",
-  "UseCategories": 464,
+  "Deleted": 796,
+  "Rank": 221,
+  "Created": "2017-01-15T17:54:08.4136991+01:00",
+  "UseCategories": 75,
   "CreatedBy": null,
-  "Updated": "2011-09-09T16:32:47.7589038+02:00",
+  "Updated": "2023-08-24T17:54:08.4136991+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 651
+      "FieldType": "System.String",
+      "FieldLength": 559
     }
   }
 }

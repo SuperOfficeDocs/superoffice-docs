@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Cremin-O'Keefe",
-  "ProviderName": "Bahringer Inc and Sons",
-  "Context": "laboriosam",
-  "OwnerKeys": "ipsa"
+  "GuiName": "Doyle-Kuhic",
+  "ProviderName": "Hirthe, Welch and Turcotte",
+  "Context": "voluptas",
+  "OwnerKeys": "voluptas"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Hessel-Emard",
-      "DisplayTooltip": "aut",
-      "DisplayType": "eum",
+      "DisplayName": "Kulas LLC",
+      "DisplayTooltip": "est",
+      "DisplayType": "libero",
       "CanOrderBy": false,
-      "Name": "Hansen Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "aspernatur",
-      "RestrictionListName": "Mann-Kovacek",
+      "Name": "Wyman Group",
+      "CanRestrictBy": true,
+      "RestrictionType": "quia",
+      "RestrictionListName": "Hauck LLC",
       "IsVisible": true,
-      "ExtraInfo": "qui",
-      "Width": "officia",
-      "IconHint": "non",
-      "HeadingIconHint": "aut"
+      "ExtraInfo": "nam",
+      "Width": "velit",
+      "IconHint": "et",
+      "HeadingIconHint": "vero"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 138,
-      "Name": "Tromp, Walsh and Cronin",
-      "ToolTip": "Ut beatae atque iusto.",
+      "Id": 454,
+      "Name": "Johns-Stracke",
+      "ToolTip": "Quos laborum cum voluptates id.",
       "Deleted": false,
-      "Rank": 949,
-      "Type": "iusto",
-      "ColorBlock": 692,
-      "IconHint": "repellendus",
+      "Rank": 227,
+      "Type": "voluptas",
+      "ColorBlock": 49,
+      "IconHint": "atque",
       "Selected": true,
-      "LastChanged": "2022-06-14T16:32:38.1491165+02:00",
+      "LastChanged": "1999-01-18T17:54:02.6483551+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolores",
-      "StyleHint": "ipsa",
-      "Hidden": false,
-      "FullName": "Pamela Lemke",
+      "ExtraInfo": "numquam",
+      "StyleHint": "reprehenderit",
+      "Hidden": true,
+      "FullName": "Elijah Fleta Fadel I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 486
+          "FieldLength": 850
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Leffler-O'Reilly",
+      "Name": "Wolff, Fisher and Smith",
       "Direction": "ASC"
     },
     {
-      "Name": "Leffler-O'Reilly",
+      "Name": "Wolff, Fisher and Smith",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "voluptate",
+  "OwnerKeys": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 942
+      "FieldLength": 123
     }
   }
 }

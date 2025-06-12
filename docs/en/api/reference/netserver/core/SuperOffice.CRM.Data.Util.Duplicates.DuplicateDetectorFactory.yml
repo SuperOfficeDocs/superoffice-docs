@@ -1,0 +1,805 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory
+  commentId: T:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory
+  id: DuplicateDetectorFactory
+  parent: SuperOffice.CRM.Data.Util.Duplicates
+  children:
+  - SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.#ctor(System.IServiceProvider)
+  - SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.CreateDuplicateDetector(System.Type)
+  langs:
+  - csharp
+  - vb
+  name: DuplicateDetectorFactory
+  nameWithType: DuplicateDetectorFactory
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory
+  type: Class
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Data.Util.Duplicates
+  summary: Default implementation of <xref href="SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: 'public class DuplicateDetectorFactory : IDuplicateDetectorFactory'
+    content.vb: Public Class DuplicateDetectorFactory Implements IDuplicateDetectorFactory
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector``1
+- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.#ctor(System.IServiceProvider)
+  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.#ctor(System.IServiceProvider)
+  id: '#ctor(System.IServiceProvider)'
+  parent: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory
+  langs:
+  - csharp
+  - vb
+  name: DuplicateDetectorFactory(IServiceProvider)
+  nameWithType: DuplicateDetectorFactory.DuplicateDetectorFactory(IServiceProvider)
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.DuplicateDetectorFactory(System.IServiceProvider)
+  type: Constructor
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Data.Util.Duplicates
+  summary: Default constructor
+  example: []
+  syntax:
+    content: public DuplicateDetectorFactory(IServiceProvider serviceProvider)
+    parameters:
+    - id: serviceProvider
+      type: System.IServiceProvider
+      description: ''
+    content.vb: Public Sub New(serviceProvider As IServiceProvider)
+  overload: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.#ctor*
+  nameWithType.vb: DuplicateDetectorFactory.New(IServiceProvider)
+  fullName.vb: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.New(System.IServiceProvider)
+  name.vb: New(IServiceProvider)
+- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.CreateDuplicateDetector(System.Type)
+  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.CreateDuplicateDetector(System.Type)
+  id: CreateDuplicateDetector(System.Type)
+  parent: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateDuplicateDetector(Type)
+  nameWithType: DuplicateDetectorFactory.CreateDuplicateDetector(Type)
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.CreateDuplicateDetector(System.Type)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Data.Util.Duplicates
+  summary: Create instance of duplcate detector providing reference to type of rule interface inheriting from <xref href="SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public IDuplicateDetector CreateDuplicateDetector(Type ruleInterfaceType)
+    parameters:
+    - id: ruleInterfaceType
+      type: System.Type
+      description: Type of detector based on rule interface.  Rule interface must inherit from <xref href="SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule" data-throw-if-not-resolved="false"></xref>
+    return:
+      type: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector
+      description: Instance of duplicate detector
+    content.vb: Public Function CreateDuplicateDetector(ruleInterfaceType As Type) As IDuplicateDetector
+  overload: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.CreateDuplicateDetector*
+  implements:
+  - SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.CreateDuplicateDetector(System.Type)
+references:
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+  commentId: T:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+  parent: SuperOffice.CRM.Data.Util.Duplicates
+  isExternal: true
+  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.html
+  name: IDuplicateDetectorFactory
+  nameWithType: IDuplicateDetectorFactory
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector
+  commentId: T:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector
+  parent: SuperOffice.CRM.Data.Util.Duplicates
+  isExternal: true
+  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.html
+  name: IDuplicateDetector
+  nameWithType: IDuplicateDetector
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector
+- uid: SuperOffice.CRM.Data.Util.Duplicates
+  commentId: N:SuperOffice.CRM.Data.Util.Duplicates
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data.Util.Duplicates
+  nameWithType: SuperOffice.CRM.Data.Util.Duplicates
+  fullName: SuperOffice.CRM.Data.Util.Duplicates
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.Util.Duplicates
+    name: Duplicates
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.Util.Duplicates
+    name: Duplicates
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<DuplicateDetectorFactory, To>(DuplicateDetectorFactory)
+  nameWithType: EnumUtil.MapEnums<DuplicateDetectorFactory, To>(DuplicateDetectorFactory)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory, To>(SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory)
+  nameWithType.vb: EnumUtil.MapEnums(Of DuplicateDetectorFactory, To)(DuplicateDetectorFactory)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory, To)(SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory)
+  name.vb: MapEnums(Of DuplicateDetectorFactory, To)(DuplicateDetectorFactory)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory
+    name: DuplicateDetectorFactory
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory
+    name: DuplicateDetectorFactory
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory
+    name: DuplicateDetectorFactory
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory
+    name: DuplicateDetectorFactory
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.html
+  - name: )
+- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<DuplicateDetectorFactory, To>(DuplicateDetectorFactory)
+  nameWithType: Converters.MapEnums<DuplicateDetectorFactory, To>(DuplicateDetectorFactory)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory, To>(SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory)
+  nameWithType.vb: Converters.MapEnums(Of DuplicateDetectorFactory, To)(DuplicateDetectorFactory)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory, To)(SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory)
+  name.vb: MapEnums(Of DuplicateDetectorFactory, To)(DuplicateDetectorFactory)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory
+    name: DuplicateDetectorFactory
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory
+    name: DuplicateDetectorFactory
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory
+    name: DuplicateDetectorFactory
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory
+    name: DuplicateDetectorFactory
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.html
+  - name: )
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector``1
+  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector``1(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  parent: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions
+  definition: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector``1(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactoryExtensions_CreateDuplicateDetector__1_SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactory_
+  name: CreateDuplicateDetector<TDuplicateRule>(IDuplicateDetectorFactory)
+  nameWithType: IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector<TDuplicateRule>(IDuplicateDetectorFactory)
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector<TDuplicateRule>(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  nameWithType.vb: IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector(Of TDuplicateRule)(IDuplicateDetectorFactory)
+  fullName.vb: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector(Of TDuplicateRule)(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  name.vb: CreateDuplicateDetector(Of TDuplicateRule)(IDuplicateDetectorFactory)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector``1(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+    name: CreateDuplicateDetector
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactoryExtensions_CreateDuplicateDetector__1_SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactory_
+  - name: <
+  - name: TDuplicateRule
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+    name: IDuplicateDetectorFactory
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector``1(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+    name: CreateDuplicateDetector
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactoryExtensions_CreateDuplicateDetector__1_SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactory_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDuplicateRule
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+    name: IDuplicateDetectorFactory
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector``1(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector``1(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  isExternal: true
+  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactoryExtensions_CreateDuplicateDetector__1_SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactory_
+  name: CreateDuplicateDetector<TDuplicateRule>(IDuplicateDetectorFactory)
+  nameWithType: IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector<TDuplicateRule>(IDuplicateDetectorFactory)
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector<TDuplicateRule>(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  nameWithType.vb: IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector(Of TDuplicateRule)(IDuplicateDetectorFactory)
+  fullName.vb: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector(Of TDuplicateRule)(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  name.vb: CreateDuplicateDetector(Of TDuplicateRule)(IDuplicateDetectorFactory)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector``1(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+    name: CreateDuplicateDetector
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactoryExtensions_CreateDuplicateDetector__1_SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactory_
+  - name: <
+  - name: TDuplicateRule
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+    name: IDuplicateDetectorFactory
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector``1(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+    name: CreateDuplicateDetector
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactoryExtensions_CreateDuplicateDetector__1_SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactory_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDuplicateRule
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+    name: IDuplicateDetectorFactory
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.html
+  - name: )
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions
+  commentId: T:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions
+  parent: SuperOffice.CRM.Data.Util.Duplicates
+  isExternal: true
+  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.html
+  name: IDuplicateDetectorFactoryExtensions
+  nameWithType: IDuplicateDetectorFactoryExtensions
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.#ctor*
+  commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.html#SuperOffice_CRM_Data_Util_Duplicates_DuplicateDetectorFactory__ctor_System_IServiceProvider_
+  name: DuplicateDetectorFactory
+  nameWithType: DuplicateDetectorFactory.DuplicateDetectorFactory
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.DuplicateDetectorFactory
+  nameWithType.vb: DuplicateDetectorFactory.New
+  fullName.vb: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.New
+  name.vb: New
+- uid: System.IServiceProvider
+  commentId: T:System.IServiceProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: System.IServiceProvider
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
+  commentId: T:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
+  parent: SuperOffice.CRM.Data.Util.Duplicates
+  isExternal: true
+  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.html
+  name: IDuplicateRule
+  nameWithType: IDuplicateRule
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
+- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.CreateDuplicateDetector*
+  commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.CreateDuplicateDetector
+  isExternal: true
+  href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.html#SuperOffice_CRM_Data_Util_Duplicates_DuplicateDetectorFactory_CreateDuplicateDetector_System_Type_
+  name: CreateDuplicateDetector
+  nameWithType: DuplicateDetectorFactory.CreateDuplicateDetector
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetectorFactory.CreateDuplicateDetector
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.CreateDuplicateDetector(System.Type)
+  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.CreateDuplicateDetector(System.Type)
+  parent: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+  isExternal: true
+  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactory_CreateDuplicateDetector_System_Type_
+  name: CreateDuplicateDetector(Type)
+  nameWithType: IDuplicateDetectorFactory.CreateDuplicateDetector(Type)
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.CreateDuplicateDetector(System.Type)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.CreateDuplicateDetector(System.Type)
+    name: CreateDuplicateDetector
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactory_CreateDuplicateDetector_System_Type_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.CreateDuplicateDetector(System.Type)
+    name: CreateDuplicateDetector
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactory_CreateDuplicateDetector_System_Type_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type

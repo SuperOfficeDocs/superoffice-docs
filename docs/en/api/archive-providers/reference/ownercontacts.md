@@ -134,6 +134,7 @@ Archive provider for the list of own contacts in SoAdmin
 |contactAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |contactAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|contactAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |contactAssociate/contactCategory|listAny|Category: Category| x |
 |contactAssociate/role|listAny|Role : Role| x |
@@ -166,6 +167,7 @@ Archive provider for the list of own contacts in SoAdmin
 |contactSupportAssociate/contactName|string|Our service contact - Owning company: Name of the company the user belongs to| x |
 |contactSupportAssociate/contactDepartment|string|Our service contact - Owning department: Name of the department at the company the user belongs to| x |
 |contactSupportAssociate/usergroup|userGroup|Our service contact - Primary group: The user's primary user group| x |
+|contactSupportAssociate/usergroupId|int|Our service contact - Group ID: The user's primary user group| x |
 |contactSupportAssociate/contactFullName|string|Our service contact - Owner: Name and department of the company the user belongs to| x |
 |contactSupportAssociate/contactCategory|listAny|Our service contact - Category: Category| x |
 |contactSupportAssociate/role|listAny|Our service contact - Role: Role| x |
@@ -223,12 +225,12 @@ Archive provider for the list of own contacts in SoAdmin
 |contactSupportPerson/personActiveErpLinks|bool|User support contact - ERP connected: Is there an active ERP Sync?| x |
 |contactSupportPerson/ticketPriority|listAny|User support contact - Service priority: Default service priority for this contact| x |
 |contactSupportPerson/supportLanguage|listAny|User support contact - Preferred language: Preferred language used for reply templates and more| x |
-|contactSupportPerson/supportAssociate|associate|User support contact - Our service contact: Default service contact for this contact| x |
-|contactSupportPerson/supportAssociateFullName|associate|User support contact - Our service contact - Full name: Default service contact for this contact| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactSupportPerson/supportAssociate|associate|User support contact - Our service contact: Default service contact for this contact| x |
+|contactSupportPerson/supportAssociateFullName|associate|User support contact - Our service contact - Full name: Default service contact for this contact| x |
 |contactSupportPerson/personAssociateId|associate|User support contact - Our contact: Displays our contact| x |
 |contactSupportPerson/personAssociateFullName|associate|User support contact - Our contact - Full name: Displays our contact| x |
 |contactSupportPerson/personCategory|listAny|User support contact - Category| x |
@@ -255,6 +257,7 @@ Archive provider for the list of own contacts in SoAdmin
 |contactSupportPerson/personUdef/SuperOffice:10|string|User support contact - page1marketingonly| x |
 |contactSupportPerson/personUdef/SuperOffice:11|string|User support contact - page1adminonly| x |
 |contactSupportPerson/personExtra/x\_person\_integer|int|User support contact - Extra Integer: Custom person integer| x |
+|contactSupportPerson/personExtra/x\_person\_hidden\_integer|int|User support contact - Extra hidden integer: Custom integer field that is hidden| x |
 |contactSupportPerson/personExtra/x\_person\_float|decimal|User support contact - Extra float: Custom float field| x |
 |contactSupportPerson/personExtra/x\_person\_longtext|string|User support contact - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |contactSupportPerson/personExtra/x\_person\_date|date|User support contact - Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -302,6 +305,7 @@ Archive provider for the list of own contacts in SoAdmin
 |contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
+|contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -325,14 +329,14 @@ Archive provider for the list of own contacts in SoAdmin
 |LastCompletedActivity|date|Date of last completed activity|  |
 |LastDoByActivity|date|Date of last non-completed activity|  |
 |NumberOfSales|int|Number of sales|  |
-|NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
-|NumberOfNotCompletedSales|int|Number of non-completed sales|  |
-|NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
-|LastSale|date|Date of last sale|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
+|NumberOfNotCompletedSales|int|Number of non-completed sales|  |
+|NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
+|LastSale|date|Date of last sale|  |
 |LastCompletedSale|date|Date of last completed sale|  |
 |LastDoBySale|date|Date of last non-completed sale|  |
 |NumberOfTickets|int|Number of requests|  |
@@ -357,7 +361,7 @@ Archive provider for the list of own contacts in SoAdmin
 ## Sample
 
 ```http!
-GET /api/v1/archive/OwnerContacts?$select=email/emailId,url/URLAddress,contactAssociate/middleName,contactAssociate/isActive,contactSupportPerson/personExtra/x_person_priority_relation
+GET /api/v1/archive/OwnerContacts?$select=contactAssociate/otherGroups,contactSupportPerson/personId,contactSupportPerson/middleName,contactSupportPerson/supportLanguage,contactSupportPerson/personExtra/x_person_float
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

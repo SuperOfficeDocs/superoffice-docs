@@ -80,7 +80,7 @@ AttachmentEntity found.
 GET /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,20 +90,20 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 560,
-  "Name": "Green, Schroeder and Renner",
-  "ContentType": "consectetur",
-  "AttSize": 284,
-  "InlineImage": true,
+  "AttachmentId": 105,
+  "Name": "Crooks Group",
+  "ContentType": "blanditiis",
+  "AttSize": 451,
+  "InlineImage": false,
   "ContentId": "et",
-  "AuthKey": "earum",
-  "IsSafeFileExtension": true,
+  "AuthKey": "voluptate",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 776
+      "FieldType": "System.Int32",
+      "FieldLength": 102
     }
   },
   "_Links": {

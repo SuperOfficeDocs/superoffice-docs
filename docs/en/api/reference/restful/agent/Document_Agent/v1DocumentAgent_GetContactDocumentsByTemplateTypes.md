@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 897,
-  "StartTime": "2003-01-18T16:32:38.6333805+01:00",
-  "EndTime": "2020-04-15T16:32:38.6333805+02:00",
-  "Count": 622,
+  "ContactId": 840,
+  "StartTime": "2020-07-13T17:54:02.9452152+02:00",
+  "EndTime": "1999-10-25T17:54:02.9452152+02:00",
+  "Count": 10,
   "DocumentTemplateIds": [
-    11,
-    214
+    823,
+    925
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 446,
-    "Attention": "et",
-    "Header": "distinctio",
-    "Name": "Pouros LLC",
-    "OurRef": "quisquam",
-    "YourRef": "et",
-    "Description": "Future-proofed value-added protocol",
-    "DocumentTemplate": "provident",
+    "DocumentId": 698,
+    "Attention": "rerum",
+    "Header": "voluptatem",
+    "Name": "Harris, Keeling and Mayer",
+    "OurRef": "cum",
+    "YourRef": "voluptatum",
+    "Description": "Robust coherent access",
+    "DocumentTemplate": "hic",
     "IsPublished": true,
-    "PersonId": 991,
-    "PersonFullName": "Jewell Witting",
-    "AssociateFullName": "Sylvan Wunsch",
-    "ContactId": 191,
-    "ContactName": "Maggio, Koepp and Oberbrunner",
-    "ProjectId": 240,
-    "ProjectName": "Sanford-O'Conner",
-    "AssociateId": 284,
-    "Snum": 972,
-    "SaleId": 895,
-    "SaleName": "Hand, Buckridge and Volkman",
+    "PersonId": 173,
+    "PersonFullName": "Prof. Alvina Grimes",
+    "AssociateFullName": "Mrs. Susie Veum",
+    "ContactId": 265,
+    "ContactName": "Cruickshank-Hand",
+    "ProjectId": 932,
+    "ProjectName": "Ferry Inc and Sons",
+    "AssociateId": 587,
+    "Snum": 943,
+    "SaleId": 761,
+    "SaleName": "Bartell, Corwin and Jacobi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 771
+        "FieldLength": 75
       }
     }
   }

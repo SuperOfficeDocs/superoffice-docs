@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 774,
-  "Name": "Heller, Mraz and Cremin",
-  "Tooltip": "voluptatem",
+  "Id": 158,
+  "Name": "Skiles Group",
+  "Tooltip": "blanditiis",
   "Deleted": true,
-  "UdListDefinitionId": 889,
-  "Rank": 83
+  "UdListDefinitionId": 477,
+  "Rank": 537
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 619,
-  "Name": "Mraz-Raynor",
-  "Tooltip": "et",
+  "Id": 216,
+  "Name": "Kerluke, Kulas and Moen",
+  "Tooltip": "reiciendis",
   "Deleted": false,
-  "UdListDefinitionId": 666,
-  "Rank": 657,
+  "UdListDefinitionId": 980,
+  "Rank": 535,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 280
+      "FieldType": "System.String",
+      "FieldLength": 754
     }
   }
 }

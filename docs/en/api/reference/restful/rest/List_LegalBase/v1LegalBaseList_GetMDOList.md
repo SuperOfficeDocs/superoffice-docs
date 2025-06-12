@@ -26,8 +26,8 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/LegalBase/MDOItems?flat=True
-GET /api/v1/List/LegalBase/MDOItems?query=nulla
+GET /api/v1/List/LegalBase/MDOItems?flat=False
+GET /api/v1/List/LegalBase/MDOItems?query=eligendi
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 837,
-    "Name": "Kuvalis Group",
-    "ToolTip": "Culpa nihil dolore harum eveniet quas repellendus sed.",
-    "Deleted": true,
-    "Rank": 588,
-    "Type": "reiciendis",
+    "Id": 769,
+    "Name": "Hilpert-Mante",
+    "ToolTip": "Officia molestias aut est.",
+    "Deleted": false,
+    "Rank": 401,
+    "Type": "veritatis",
     "ChildItems": [
       {
-        "Id": 600,
-        "Name": "Schroeder, Kunze and Kautzer",
-        "ToolTip": "Natus et.",
+        "Id": 775,
+        "Name": "Schaden, Gaylord and Denesik",
+        "ToolTip": "At non.",
         "Deleted": false,
-        "Rank": 347,
-        "Type": "alias",
+        "Rank": 982,
+        "Type": "magnam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 432,
-        "ExtraInfo": "ab",
-        "StyleHint": "voluptas",
-        "FullName": "Alda Lebsack",
+        "IconHint": "praesentium",
+        "ColorBlock": 759,
+        "ExtraInfo": "incidunt",
+        "StyleHint": "eos",
+        "FullName": "Miss Jeramy Jake Feeney",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 914
+            "FieldLength": 217
           }
         }
       }
     ],
-    "IconHint": "eos",
-    "ColorBlock": 844,
-    "ExtraInfo": "quos",
-    "StyleHint": "est",
-    "FullName": "Shaun Bosco",
+    "IconHint": "optio",
+    "ColorBlock": 166,
+    "ExtraInfo": "velit",
+    "StyleHint": "et",
+    "FullName": "Ms. Destini Weissnat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 350
+        "FieldLength": 919
       }
     }
   }

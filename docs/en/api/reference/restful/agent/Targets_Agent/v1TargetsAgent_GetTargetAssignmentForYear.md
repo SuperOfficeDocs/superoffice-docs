@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 666,
+  "TargetYear": 394,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 358
+  "Id": 34
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 317,
+  "TargetAssignmentInfoId": 211,
   "Values": [
-    555,
-    132
+    692,
+    919
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 766,
-  "DimensionListItemDisplayName": "Kessler-Cronin",
+  "DimensionListItem": 974,
+  "DimensionListItemDisplayName": "Trantow, Rice and Von",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 581
+      "FieldLength": 537
     }
   }
 }

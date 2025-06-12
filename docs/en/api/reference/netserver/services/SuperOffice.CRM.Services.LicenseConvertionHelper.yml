@@ -1,0 +1,636 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.LicenseConvertionHelper
+  commentId: T:SuperOffice.CRM.Services.LicenseConvertionHelper
+  id: LicenseConvertionHelper
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.LicenseConvertionHelper.ConvertToLicenseOwner``2(SuperOffice.License.ModuleLicenseOwnerBase{``0,``1})
+  - SuperOffice.CRM.Services.LicenseConvertionHelper.ConvertToLicenseOwner``2(SuperOffice.License.ModuleLicenseOwnerBase{``0,``1}[])
+  - SuperOffice.CRM.Services.LicenseConvertionHelper.ConvertToModuleLicenseLink``2(``0)
+  - SuperOffice.CRM.Services.LicenseConvertionHelper.UpdateFromLicenseOwner``2(SuperOffice.License.ModuleLicenseOwnerBase{``0,``1},SuperOffice.CRM.Services.LicenseOwner)
+  - SuperOffice.CRM.Services.LicenseConvertionHelper.UpdateFromLicenseOwner``2(SuperOffice.License.ModuleLicenseOwnerBase{``0,``1}[],SuperOffice.CRM.Services.LicenseOwner[])
+  langs:
+  - csharp
+  - vb
+  name: LicenseConvertionHelper
+  nameWithType: LicenseConvertionHelper
+  fullName: SuperOffice.CRM.Services.LicenseConvertionHelper
+  type: Class
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Utility class exposing extension methods for converting between service layer and SoDataBase layer description of associate and satellite licenses
+  example: []
+  syntax:
+    content: public static class LicenseConvertionHelper
+    content.vb: Public Module LicenseConvertionHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Services.LicenseConvertionHelper.ConvertToLicenseOwner``2(SuperOffice.License.ModuleLicenseOwnerBase{``0,``1}[])
+  commentId: M:SuperOffice.CRM.Services.LicenseConvertionHelper.ConvertToLicenseOwner``2(SuperOffice.License.ModuleLicenseOwnerBase{``0,``1}[])
+  id: ConvertToLicenseOwner``2(SuperOffice.License.ModuleLicenseOwnerBase{``0,``1}[])
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Services.LicenseConvertionHelper
+  langs:
+  - csharp
+  - vb
+  name: ConvertToLicenseOwner<TLink, TLinkRow>(ModuleLicenseOwnerBase<TLink, TLinkRow>[])
+  nameWithType: LicenseConvertionHelper.ConvertToLicenseOwner<TLink, TLinkRow>(ModuleLicenseOwnerBase<TLink, TLinkRow>[])
+  fullName: SuperOffice.CRM.Services.LicenseConvertionHelper.ConvertToLicenseOwner<TLink, TLinkRow>(SuperOffice.License.ModuleLicenseOwnerBase<TLink, TLinkRow>[])
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Convert from SoDatabBase level way of describing associate and satellite licenses to service layer.
+  example: []
+  syntax:
+    content: 'public static LicenseOwner[] ConvertToLicenseOwner<TLink, TLinkRow>(this ModuleLicenseOwnerBase<TLink, TLinkRow>[] licenseOwners) where TLink : ModuleLicenseLinkBase<TLinkRow> where TLinkRow : TableRowBase'
+    parameters:
+    - id: licenseOwners
+      type: SuperOffice.License.ModuleLicenseOwnerBase{{TLink},{TLinkRow}}[]
+      description: Array of license owners with corresponding module license links
+    typeParameters:
+    - id: TLink
+      description: Type of link row wrapper in SoDatabase
+    - id: TLinkRow
+      description: Type of HDB object holding tha actual license link
+    return:
+      type: SuperOffice.CRM.Services.LicenseOwner[]
+      description: Service layer representation of associate and satellite licenses.
+    content.vb: Public Shared Function ConvertToLicenseOwner(Of TLink As ModuleLicenseLinkBase(Of TLinkRow), TLinkRow As TableRowBase)(licenseOwners As ModuleLicenseOwnerBase(Of TLink, TLinkRow)()) As LicenseOwner()
+  overload: SuperOffice.CRM.Services.LicenseConvertionHelper.ConvertToLicenseOwner*
+  nameWithType.vb: LicenseConvertionHelper.ConvertToLicenseOwner(Of TLink, TLinkRow)(ModuleLicenseOwnerBase(Of TLink, TLinkRow)())
+  fullName.vb: SuperOffice.CRM.Services.LicenseConvertionHelper.ConvertToLicenseOwner(Of TLink, TLinkRow)(SuperOffice.License.ModuleLicenseOwnerBase(Of TLink, TLinkRow)())
+  name.vb: ConvertToLicenseOwner(Of TLink, TLinkRow)(ModuleLicenseOwnerBase(Of TLink, TLinkRow)())
+- uid: SuperOffice.CRM.Services.LicenseConvertionHelper.ConvertToLicenseOwner``2(SuperOffice.License.ModuleLicenseOwnerBase{``0,``1})
+  commentId: M:SuperOffice.CRM.Services.LicenseConvertionHelper.ConvertToLicenseOwner``2(SuperOffice.License.ModuleLicenseOwnerBase{``0,``1})
+  id: ConvertToLicenseOwner``2(SuperOffice.License.ModuleLicenseOwnerBase{``0,``1})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Services.LicenseConvertionHelper
+  langs:
+  - csharp
+  - vb
+  name: ConvertToLicenseOwner<TLink, TLinkRow>(ModuleLicenseOwnerBase<TLink, TLinkRow>)
+  nameWithType: LicenseConvertionHelper.ConvertToLicenseOwner<TLink, TLinkRow>(ModuleLicenseOwnerBase<TLink, TLinkRow>)
+  fullName: SuperOffice.CRM.Services.LicenseConvertionHelper.ConvertToLicenseOwner<TLink, TLinkRow>(SuperOffice.License.ModuleLicenseOwnerBase<TLink, TLinkRow>)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: onvert from SoDatabBase level way of describing associate and satellite licenses to service layer.
+  example: []
+  syntax:
+    content: 'public static LicenseOwner ConvertToLicenseOwner<TLink, TLinkRow>(this ModuleLicenseOwnerBase<TLink, TLinkRow> licenseOwner) where TLink : ModuleLicenseLinkBase<TLinkRow> where TLinkRow : TableRowBase'
+    parameters:
+    - id: licenseOwner
+      type: SuperOffice.License.ModuleLicenseOwnerBase{{TLink},{TLinkRow}}
+      description: ''
+    typeParameters:
+    - id: TLink
+      description: ''
+    - id: TLinkRow
+      description: ''
+    return:
+      type: SuperOffice.CRM.Services.LicenseOwner
+      description: ''
+    content.vb: Public Shared Function ConvertToLicenseOwner(Of TLink As ModuleLicenseLinkBase(Of TLinkRow), TLinkRow As TableRowBase)(licenseOwner As ModuleLicenseOwnerBase(Of TLink, TLinkRow)) As LicenseOwner
+  overload: SuperOffice.CRM.Services.LicenseConvertionHelper.ConvertToLicenseOwner*
+  nameWithType.vb: LicenseConvertionHelper.ConvertToLicenseOwner(Of TLink, TLinkRow)(ModuleLicenseOwnerBase(Of TLink, TLinkRow))
+  fullName.vb: SuperOffice.CRM.Services.LicenseConvertionHelper.ConvertToLicenseOwner(Of TLink, TLinkRow)(SuperOffice.License.ModuleLicenseOwnerBase(Of TLink, TLinkRow))
+  name.vb: ConvertToLicenseOwner(Of TLink, TLinkRow)(ModuleLicenseOwnerBase(Of TLink, TLinkRow))
+- uid: SuperOffice.CRM.Services.LicenseConvertionHelper.ConvertToModuleLicenseLink``2(``0)
+  commentId: M:SuperOffice.CRM.Services.LicenseConvertionHelper.ConvertToModuleLicenseLink``2(``0)
+  id: ConvertToModuleLicenseLink``2(``0)
+  parent: SuperOffice.CRM.Services.LicenseConvertionHelper
+  langs:
+  - csharp
+  - vb
+  name: ConvertToModuleLicenseLink<TLink, TLinkRow>(TLink)
+  nameWithType: LicenseConvertionHelper.ConvertToModuleLicenseLink<TLink, TLinkRow>(TLink)
+  fullName: SuperOffice.CRM.Services.LicenseConvertionHelper.ConvertToModuleLicenseLink<TLink, TLinkRow>(TLink)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: 'public static ModuleLicenseLink ConvertToModuleLicenseLink<TLink, TLinkRow>(TLink link) where TLink : ModuleLicenseLinkBase<TLinkRow> where TLinkRow : TableRowBase'
+    parameters:
+    - id: link
+      type: '{TLink}'
+    typeParameters:
+    - id: TLink
+    - id: TLinkRow
+    return:
+      type: SuperOffice.CRM.Services.ModuleLicenseLink
+    content.vb: Public Shared Function ConvertToModuleLicenseLink(Of TLink As ModuleLicenseLinkBase(Of TLinkRow), TLinkRow As TableRowBase)(link As TLink) As ModuleLicenseLink
+  overload: SuperOffice.CRM.Services.LicenseConvertionHelper.ConvertToModuleLicenseLink*
+  nameWithType.vb: LicenseConvertionHelper.ConvertToModuleLicenseLink(Of TLink, TLinkRow)(TLink)
+  fullName.vb: SuperOffice.CRM.Services.LicenseConvertionHelper.ConvertToModuleLicenseLink(Of TLink, TLinkRow)(TLink)
+  name.vb: ConvertToModuleLicenseLink(Of TLink, TLinkRow)(TLink)
+- uid: SuperOffice.CRM.Services.LicenseConvertionHelper.UpdateFromLicenseOwner``2(SuperOffice.License.ModuleLicenseOwnerBase{``0,``1}[],SuperOffice.CRM.Services.LicenseOwner[])
+  commentId: M:SuperOffice.CRM.Services.LicenseConvertionHelper.UpdateFromLicenseOwner``2(SuperOffice.License.ModuleLicenseOwnerBase{``0,``1}[],SuperOffice.CRM.Services.LicenseOwner[])
+  id: UpdateFromLicenseOwner``2(SuperOffice.License.ModuleLicenseOwnerBase{``0,``1}[],SuperOffice.CRM.Services.LicenseOwner[])
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Services.LicenseConvertionHelper
+  langs:
+  - csharp
+  - vb
+  name: UpdateFromLicenseOwner<TLink, TLinkRow>(ModuleLicenseOwnerBase<TLink, TLinkRow>[], LicenseOwner[])
+  nameWithType: LicenseConvertionHelper.UpdateFromLicenseOwner<TLink, TLinkRow>(ModuleLicenseOwnerBase<TLink, TLinkRow>[], LicenseOwner[])
+  fullName: SuperOffice.CRM.Services.LicenseConvertionHelper.UpdateFromLicenseOwner<TLink, TLinkRow>(SuperOffice.License.ModuleLicenseOwnerBase<TLink, TLinkRow>[], SuperOffice.CRM.Services.LicenseOwner[])
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: 'public static void UpdateFromLicenseOwner<TLink, TLinkRow>(this ModuleLicenseOwnerBase<TLink, TLinkRow>[] moduleLicenseOwners, LicenseOwner[] licenseOwners) where TLink : ModuleLicenseLinkBase<TLinkRow> where TLinkRow : TableRowBase'
+    parameters:
+    - id: moduleLicenseOwners
+      type: SuperOffice.License.ModuleLicenseOwnerBase{{TLink},{TLinkRow}}[]
+    - id: licenseOwners
+      type: SuperOffice.CRM.Services.LicenseOwner[]
+    typeParameters:
+    - id: TLink
+    - id: TLinkRow
+    content.vb: Public Shared Sub UpdateFromLicenseOwner(Of TLink As ModuleLicenseLinkBase(Of TLinkRow), TLinkRow As TableRowBase)(moduleLicenseOwners As ModuleLicenseOwnerBase(Of TLink, TLinkRow)(), licenseOwners As LicenseOwner())
+  overload: SuperOffice.CRM.Services.LicenseConvertionHelper.UpdateFromLicenseOwner*
+  nameWithType.vb: LicenseConvertionHelper.UpdateFromLicenseOwner(Of TLink, TLinkRow)(ModuleLicenseOwnerBase(Of TLink, TLinkRow)(), LicenseOwner())
+  fullName.vb: SuperOffice.CRM.Services.LicenseConvertionHelper.UpdateFromLicenseOwner(Of TLink, TLinkRow)(SuperOffice.License.ModuleLicenseOwnerBase(Of TLink, TLinkRow)(), SuperOffice.CRM.Services.LicenseOwner())
+  name.vb: UpdateFromLicenseOwner(Of TLink, TLinkRow)(ModuleLicenseOwnerBase(Of TLink, TLinkRow)(), LicenseOwner())
+- uid: SuperOffice.CRM.Services.LicenseConvertionHelper.UpdateFromLicenseOwner``2(SuperOffice.License.ModuleLicenseOwnerBase{``0,``1},SuperOffice.CRM.Services.LicenseOwner)
+  commentId: M:SuperOffice.CRM.Services.LicenseConvertionHelper.UpdateFromLicenseOwner``2(SuperOffice.License.ModuleLicenseOwnerBase{``0,``1},SuperOffice.CRM.Services.LicenseOwner)
+  id: UpdateFromLicenseOwner``2(SuperOffice.License.ModuleLicenseOwnerBase{``0,``1},SuperOffice.CRM.Services.LicenseOwner)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Services.LicenseConvertionHelper
+  langs:
+  - csharp
+  - vb
+  name: UpdateFromLicenseOwner<TLink, TLinkRow>(ModuleLicenseOwnerBase<TLink, TLinkRow>, LicenseOwner)
+  nameWithType: LicenseConvertionHelper.UpdateFromLicenseOwner<TLink, TLinkRow>(ModuleLicenseOwnerBase<TLink, TLinkRow>, LicenseOwner)
+  fullName: SuperOffice.CRM.Services.LicenseConvertionHelper.UpdateFromLicenseOwner<TLink, TLinkRow>(SuperOffice.License.ModuleLicenseOwnerBase<TLink, TLinkRow>, SuperOffice.CRM.Services.LicenseOwner)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: 'public static void UpdateFromLicenseOwner<TLink, TLinkRow>(this ModuleLicenseOwnerBase<TLink, TLinkRow> moduleLicenseOwner, LicenseOwner licenseOwner) where TLink : ModuleLicenseLinkBase<TLinkRow> where TLinkRow : TableRowBase'
+    parameters:
+    - id: moduleLicenseOwner
+      type: SuperOffice.License.ModuleLicenseOwnerBase{{TLink},{TLinkRow}}
+    - id: licenseOwner
+      type: SuperOffice.CRM.Services.LicenseOwner
+    typeParameters:
+    - id: TLink
+    - id: TLinkRow
+    content.vb: Public Shared Sub UpdateFromLicenseOwner(Of TLink As ModuleLicenseLinkBase(Of TLinkRow), TLinkRow As TableRowBase)(moduleLicenseOwner As ModuleLicenseOwnerBase(Of TLink, TLinkRow), licenseOwner As LicenseOwner)
+  overload: SuperOffice.CRM.Services.LicenseConvertionHelper.UpdateFromLicenseOwner*
+  nameWithType.vb: LicenseConvertionHelper.UpdateFromLicenseOwner(Of TLink, TLinkRow)(ModuleLicenseOwnerBase(Of TLink, TLinkRow), LicenseOwner)
+  fullName.vb: SuperOffice.CRM.Services.LicenseConvertionHelper.UpdateFromLicenseOwner(Of TLink, TLinkRow)(SuperOffice.License.ModuleLicenseOwnerBase(Of TLink, TLinkRow), SuperOffice.CRM.Services.LicenseOwner)
+  name.vb: UpdateFromLicenseOwner(Of TLink, TLinkRow)(ModuleLicenseOwnerBase(Of TLink, TLinkRow), LicenseOwner)
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.LicenseConvertionHelper.ConvertToLicenseOwner*
+  commentId: Overload:SuperOffice.CRM.Services.LicenseConvertionHelper.ConvertToLicenseOwner
+  isExternal: true
+  href: SuperOffice.CRM.Services.LicenseConvertionHelper.html#SuperOffice_CRM_Services_LicenseConvertionHelper_ConvertToLicenseOwner__2_SuperOffice_License_ModuleLicenseOwnerBase___0___1____
+  name: ConvertToLicenseOwner
+  nameWithType: LicenseConvertionHelper.ConvertToLicenseOwner
+  fullName: SuperOffice.CRM.Services.LicenseConvertionHelper.ConvertToLicenseOwner
+- uid: SuperOffice.License.ModuleLicenseOwnerBase{{TLink},{TLinkRow}}[]
+  isExternal: true
+  name: ModuleLicenseOwnerBase<TLink, TLinkRow>[]
+  nameWithType: ModuleLicenseOwnerBase<TLink, TLinkRow>[]
+  fullName: SuperOffice.License.ModuleLicenseOwnerBase<TLink, TLinkRow>[]
+  nameWithType.vb: ModuleLicenseOwnerBase(Of TLink, TLinkRow)()
+  fullName.vb: SuperOffice.License.ModuleLicenseOwnerBase(Of TLink, TLinkRow)()
+  name.vb: ModuleLicenseOwnerBase(Of TLink, TLinkRow)()
+  spec.csharp:
+  - uid: SuperOffice.License.ModuleLicenseOwnerBase`2
+    name: ModuleLicenseOwnerBase
+    isExternal: true
+  - name: <
+  - name: TLink
+  - name: ','
+  - name: " "
+  - name: TLinkRow
+  - name: '>'
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.License.ModuleLicenseOwnerBase`2
+    name: ModuleLicenseOwnerBase
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TLink
+  - name: ','
+  - name: " "
+  - name: TLinkRow
+  - name: )
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.LicenseOwner[]
+  isExternal: true
+  href: SuperOffice.CRM.Services.LicenseOwner.html
+  name: LicenseOwner[]
+  nameWithType: LicenseOwner[]
+  fullName: SuperOffice.CRM.Services.LicenseOwner[]
+  nameWithType.vb: LicenseOwner()
+  fullName.vb: SuperOffice.CRM.Services.LicenseOwner()
+  name.vb: LicenseOwner()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.LicenseOwner
+    name: LicenseOwner
+    isExternal: true
+    href: SuperOffice.CRM.Services.LicenseOwner.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.LicenseOwner
+    name: LicenseOwner
+    isExternal: true
+    href: SuperOffice.CRM.Services.LicenseOwner.html
+  - name: (
+  - name: )
+- uid: SuperOffice.License.ModuleLicenseOwnerBase{{TLink},{TLinkRow}}
+  commentId: '!:SuperOffice.License.ModuleLicenseOwnerBase{``0,``1}'
+  definition: SuperOffice.License.ModuleLicenseOwnerBase`2
+  name: ModuleLicenseOwnerBase<TLink, TLinkRow>
+  nameWithType: ModuleLicenseOwnerBase<TLink, TLinkRow>
+  fullName: SuperOffice.License.ModuleLicenseOwnerBase<TLink, TLinkRow>
+  nameWithType.vb: ModuleLicenseOwnerBase(Of TLink, TLinkRow)
+  fullName.vb: SuperOffice.License.ModuleLicenseOwnerBase(Of TLink, TLinkRow)
+  name.vb: ModuleLicenseOwnerBase(Of TLink, TLinkRow)
+  spec.csharp:
+  - uid: SuperOffice.License.ModuleLicenseOwnerBase`2
+    name: ModuleLicenseOwnerBase
+    isExternal: true
+  - name: <
+  - name: TLink
+  - name: ','
+  - name: " "
+  - name: TLinkRow
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.License.ModuleLicenseOwnerBase`2
+    name: ModuleLicenseOwnerBase
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TLink
+  - name: ','
+  - name: " "
+  - name: TLinkRow
+  - name: )
+- uid: SuperOffice.CRM.Services.LicenseOwner
+  commentId: T:SuperOffice.CRM.Services.LicenseOwner
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.LicenseOwner.html
+  name: LicenseOwner
+  nameWithType: LicenseOwner
+  fullName: SuperOffice.CRM.Services.LicenseOwner
+- uid: SuperOffice.License.ModuleLicenseOwnerBase`2
+  isExternal: true
+  name: ModuleLicenseOwnerBase<,>
+  nameWithType: ModuleLicenseOwnerBase<,>
+  fullName: SuperOffice.License.ModuleLicenseOwnerBase<,>
+  nameWithType.vb: ModuleLicenseOwnerBase(Of , )
+  fullName.vb: SuperOffice.License.ModuleLicenseOwnerBase(Of , )
+  name.vb: ModuleLicenseOwnerBase(Of , )
+  spec.csharp:
+  - uid: SuperOffice.License.ModuleLicenseOwnerBase`2
+    name: ModuleLicenseOwnerBase
+    isExternal: true
+  - name: <
+  - name: ','
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.License.ModuleLicenseOwnerBase`2
+    name: ModuleLicenseOwnerBase
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: SuperOffice.CRM.Services.LicenseConvertionHelper.ConvertToModuleLicenseLink*
+  commentId: Overload:SuperOffice.CRM.Services.LicenseConvertionHelper.ConvertToModuleLicenseLink
+  isExternal: true
+  href: SuperOffice.CRM.Services.LicenseConvertionHelper.html#SuperOffice_CRM_Services_LicenseConvertionHelper_ConvertToModuleLicenseLink__2___0_
+  name: ConvertToModuleLicenseLink
+  nameWithType: LicenseConvertionHelper.ConvertToModuleLicenseLink
+  fullName: SuperOffice.CRM.Services.LicenseConvertionHelper.ConvertToModuleLicenseLink
+- uid: '{TLink}'
+  commentId: '!:TLink'
+  definition: TLink
+  name: TLink
+  nameWithType: TLink
+  fullName: TLink
+- uid: SuperOffice.CRM.Services.ModuleLicenseLink
+  commentId: T:SuperOffice.CRM.Services.ModuleLicenseLink
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.ModuleLicenseLink.html
+  name: ModuleLicenseLink
+  nameWithType: ModuleLicenseLink
+  fullName: SuperOffice.CRM.Services.ModuleLicenseLink
+- uid: TLink
+  commentId: '!:TLink'
+  name: TLink
+  nameWithType: TLink
+  fullName: TLink
+- uid: SuperOffice.CRM.Services.LicenseConvertionHelper.UpdateFromLicenseOwner*
+  commentId: Overload:SuperOffice.CRM.Services.LicenseConvertionHelper.UpdateFromLicenseOwner
+  isExternal: true
+  href: SuperOffice.CRM.Services.LicenseConvertionHelper.html#SuperOffice_CRM_Services_LicenseConvertionHelper_UpdateFromLicenseOwner__2_SuperOffice_License_ModuleLicenseOwnerBase___0___1____SuperOffice_CRM_Services_LicenseOwner___
+  name: UpdateFromLicenseOwner
+  nameWithType: LicenseConvertionHelper.UpdateFromLicenseOwner
+  fullName: SuperOffice.CRM.Services.LicenseConvertionHelper.UpdateFromLicenseOwner

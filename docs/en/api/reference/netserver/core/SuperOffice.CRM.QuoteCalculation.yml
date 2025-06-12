@@ -9,8 +9,8 @@ items:
   - SuperOffice.CRM.QuoteCalculation.CalculateAlternativeMinimum(SuperOffice.CRM.QuoteLineInfo[])
   - SuperOffice.CRM.QuoteCalculation.CalculateQuoteAlternativeSubTotal(SuperOffice.CRM.QuoteLineInfo[])
   - SuperOffice.CRM.QuoteCalculation.CalculateQuoteAlternativeWithLines(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)
-  - SuperOffice.CRM.QuoteCalculation.CalculateQuoteLines(SuperOffice.CRM.QuoteLineInfo[])
   - SuperOffice.CRM.QuoteCalculation.CalculateQuoteLineSubTotal(SuperOffice.CRM.QuoteLineInfo)
+  - SuperOffice.CRM.QuoteCalculation.CalculateQuoteLines(SuperOffice.CRM.QuoteLineInfo[])
   - SuperOffice.CRM.QuoteCalculation.CalculateTotalPriceWithAlternativeDiscount(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)
   - SuperOffice.CRM.QuoteCalculation.CalculateTotalPriceWithAlternativeDiscount(System.Collections.Generic.IEnumerable{SuperOffice.CRM.QuoteLineInfo},System.Double)
   - SuperOffice.CRM.QuoteCalculation.CalculateValues(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)
@@ -24,27 +24,35 @@ items:
   nameWithType: QuoteCalculation
   fullName: SuperOffice.CRM.QuoteCalculation
   type: Class
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nContains helper methods and utilities for implementors of Quote Connectors.\nUsed by the <xref href=\"SuperOffice.CRM.QuoteConnectorBase\" data-throw-if-not-resolved=\"false\"></xref> to handle calculations.\n<p></p>\nTypically you would call <xref href=\"SuperOffice.CRM.QuoteCalculation.CalculateQuoteAlternativeWithLines(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)\" data-throw-if-not-resolved=\"false\"></xref> from your connector\nto get the basic summation and discount calculations done. You could then add anything you were interested in on \ntop of the standard calculations.\n"
+  summary: >-
+    Contains helper methods and utilities for implementors of Quote Connectors.
+
+    Used by the <xref href="SuperOffice.CRM.QuoteConnectorBase" data-throw-if-not-resolved="false"></xref> to handle calculations.
+
+    <p></p>
+
+    Typically you would call <xref href="SuperOffice.CRM.QuoteCalculation.CalculateQuoteAlternativeWithLines(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)" data-throw-if-not-resolved="false"></xref> from your connector
+
+    to get the basic summation and discount calculations done. You could then add anything you were interested in on 
+
+    top of the standard calculations.
+  example: []
   syntax:
-    content: 'public static class QuoteCalculation : Object'
-    content.vb: >-
-      Public Module QuoteCalculation
-          Inherits Object
+    content: public static class QuoteCalculation
+    content.vb: Public Module QuoteCalculation
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.QuoteCalculation.CalculateVersionWithAlternatives(SuperOffice.CRM.QuoteVersionContextInfo)
   commentId: M:SuperOffice.CRM.QuoteCalculation.CalculateVersionWithAlternatives(SuperOffice.CRM.QuoteVersionContextInfo)
   id: CalculateVersionWithAlternatives(SuperOffice.CRM.QuoteVersionContextInfo)
@@ -56,13 +64,11 @@ items:
   nameWithType: QuoteCalculation.CalculateVersionWithAlternatives(QuoteVersionContextInfo)
   fullName: SuperOffice.CRM.QuoteCalculation.CalculateVersionWithAlternatives(SuperOffice.CRM.QuoteVersionContextInfo)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public static QuoteVersionResponseInfo CalculateVersionWithAlternatives(QuoteVersionContextInfo context)
     parameters:
@@ -74,12 +80,6 @@ items:
       description: Potentionaly changed context
     content.vb: Public Shared Function CalculateVersionWithAlternatives(context As QuoteVersionContextInfo) As QuoteVersionResponseInfo
   overload: SuperOffice.CRM.QuoteCalculation.CalculateVersionWithAlternatives*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.QuoteCalculation.CalculateQuoteAlternativeWithLines(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)
   commentId: M:SuperOffice.CRM.QuoteCalculation.CalculateQuoteAlternativeWithLines(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)
   id: CalculateQuoteAlternativeWithLines(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)
@@ -91,13 +91,11 @@ items:
   nameWithType: QuoteCalculation.CalculateQuoteAlternativeWithLines(QuoteAlternativeWithLinesInfo)
   fullName: SuperOffice.CRM.QuoteCalculation.CalculateQuoteAlternativeWithLines(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nSome formulaes:\n<p></p> SubTotal = Quantity * UnitListPrice\n<p></p>TotalCost = Quantity * UnitCost\n<p></p>\n<p></p>TotalPrice = SubTotal - DiscountAmount\n<p></p>TotalPrice = TotalCost + EarningAmount\n<p></p>\n<p></p>DiscountAmount = DiscountPercent * SubTotal / 100\n<p></p>DiscountPercent = DiscountAmount * 100 / SubTotal\n<p></p>\n<p></p>EarningAmount = EarningPercent * TotalCost / 100\n<p></p>EarningPercent = EarningAmount * 100 / TotalPrice\n<p></p>\nThus, you can change any of the 5: \nTotalPrice, DiscountAmount, DiscountPercent, EarningAmount and EarningPercent\nand calculate the other 4.\n<p></p>\nIndependently, you can change Quantity, UnitListPrice and UnitCost.\n<p></p>\nSubscriptions imply that Quantity and SubscriptionQuantity are multiplied when calculating amounts.\n"
+  summary: " Some formulaes:\r\n <p></p> SubTotal = Quantity * UnitListPrice\r\n <p></p>TotalCost = Quantity * UnitCost\r\n<p></p>\r\n <p></p>TotalPrice = SubTotal - DiscountAmount\r\n <p></p>TotalPrice = TotalCost + EarningAmount\r\n <p></p>\r\n <p></p>DiscountAmount = DiscountPercent * SubTotal / 100\r\n <p></p>DiscountPercent = DiscountAmount * 100 / SubTotal\r\n <p></p>\r\n <p></p>EarningAmount = EarningPercent * TotalCost / 100\r\n <p></p>EarningPercent = EarningAmount * 100 / TotalPrice\r\n <p></p>\r\n Thus, you can change any of the 5: \r\n TotalPrice, DiscountAmount, DiscountPercent, EarningAmount and EarningPercent\r\n and calculate the other 4.\r\n <p></p>\r\n Independently, you can change Quantity, UnitListPrice and UnitCost.\r\n <p></p>\r\n Subscriptions imply that Quantity and SubscriptionQuantity are multiplied when calculating amounts."
+  example: []
   syntax:
     content: public static QuoteAlternativeWithLinesInfo CalculateQuoteAlternativeWithLines(QuoteAlternativeWithLinesInfo alt)
     parameters:
@@ -109,12 +107,6 @@ items:
       description: The alternative with new values filled in on the quote lines
     content.vb: Public Shared Function CalculateQuoteAlternativeWithLines(alt As QuoteAlternativeWithLinesInfo) As QuoteAlternativeWithLinesInfo
   overload: SuperOffice.CRM.QuoteCalculation.CalculateQuoteAlternativeWithLines*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.QuoteCalculation.CalculateQuoteLines(SuperOffice.CRM.QuoteLineInfo[])
   commentId: M:SuperOffice.CRM.QuoteCalculation.CalculateQuoteLines(SuperOffice.CRM.QuoteLineInfo[])
   id: CalculateQuoteLines(SuperOffice.CRM.QuoteLineInfo[])
@@ -126,13 +118,11 @@ items:
   nameWithType: QuoteCalculation.CalculateQuoteLines(QuoteLineInfo[])
   fullName: SuperOffice.CRM.QuoteCalculation.CalculateQuoteLines(SuperOffice.CRM.QuoteLineInfo[])
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nLoop through and perform calculation on each line in an alternative.\n"
+  summary: Loop through and perform calculation on each line in an alternative.
+  example: []
   syntax:
     content: public static QuoteLineInfo[] CalculateQuoteLines(QuoteLineInfo[] lines)
     parameters:
@@ -145,12 +135,6 @@ items:
     content.vb: Public Shared Function CalculateQuoteLines(lines As QuoteLineInfo()) As QuoteLineInfo()
   overload: SuperOffice.CRM.QuoteCalculation.CalculateQuoteLines*
   nameWithType.vb: QuoteCalculation.CalculateQuoteLines(QuoteLineInfo())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
   fullName.vb: SuperOffice.CRM.QuoteCalculation.CalculateQuoteLines(SuperOffice.CRM.QuoteLineInfo())
   name.vb: CalculateQuoteLines(QuoteLineInfo())
 - uid: SuperOffice.CRM.QuoteCalculation.CalculateValues(SuperOffice.CRM.QuoteLineInfo)
@@ -164,13 +148,11 @@ items:
   nameWithType: QuoteCalculation.CalculateValues(QuoteLineInfo)
   fullName: SuperOffice.CRM.QuoteCalculation.CalculateValues(SuperOffice.CRM.QuoteLineInfo)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nCalculates SubTotal, DiscountAmount, DiscountPercent, EarningAmount, EarningPercent and Total\n"
+  summary: Calculates SubTotal, DiscountAmount, DiscountPercent, EarningAmount, EarningPercent and Total
+  example: []
   syntax:
     content: public static QuoteLineInfo CalculateValues(QuoteLineInfo line)
     parameters:
@@ -181,12 +163,6 @@ items:
       description: The updated QuoteLine
     content.vb: Public Shared Function CalculateValues(line As QuoteLineInfo) As QuoteLineInfo
   overload: SuperOffice.CRM.QuoteCalculation.CalculateValues*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.QuoteCalculation.CalculateValues(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)
   commentId: M:SuperOffice.CRM.QuoteCalculation.CalculateValues(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)
   id: CalculateValues(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)
@@ -198,13 +174,11 @@ items:
   nameWithType: QuoteCalculation.CalculateValues(QuoteAlternativeWithLinesInfo)
   fullName: SuperOffice.CRM.QuoteCalculation.CalculateValues(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nCalculates SubTotal, DiscountAmount, DiscountPercent, EarningAmount, EarningPercent and Total\n"
+  summary: Calculates SubTotal, DiscountAmount, DiscountPercent, EarningAmount, EarningPercent and Total
+  example: []
   syntax:
     content: public static QuoteAlternativeWithLinesInfo CalculateValues(QuoteAlternativeWithLinesInfo alt)
     parameters:
@@ -215,12 +189,6 @@ items:
       description: The updated QuoteAlternative
     content.vb: Public Shared Function CalculateValues(alt As QuoteAlternativeWithLinesInfo) As QuoteAlternativeWithLinesInfo
   overload: SuperOffice.CRM.QuoteCalculation.CalculateValues*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.QuoteCalculation.CalculateTotalPriceWithAlternativeDiscount(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)
   commentId: M:SuperOffice.CRM.QuoteCalculation.CalculateTotalPriceWithAlternativeDiscount(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)
   id: CalculateTotalPriceWithAlternativeDiscount(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)
@@ -232,26 +200,19 @@ items:
   nameWithType: QuoteCalculation.CalculateTotalPriceWithAlternativeDiscount(QuoteAlternativeWithLinesInfo)
   fullName: SuperOffice.CRM.QuoteCalculation.CalculateTotalPriceWithAlternativeDiscount(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nCalculates Quoteline.TotalPriceWithAlternativeDiscount\n"
+  summary: Calculates Quoteline.TotalPriceWithAlternativeDiscount
+  example: []
   syntax:
     content: public static void CalculateTotalPriceWithAlternativeDiscount(QuoteAlternativeWithLinesInfo alt)
     parameters:
     - id: alt
       type: SuperOffice.CRM.QuoteAlternativeWithLinesInfo
+      description: ''
     content.vb: Public Shared Sub CalculateTotalPriceWithAlternativeDiscount(alt As QuoteAlternativeWithLinesInfo)
   overload: SuperOffice.CRM.QuoteCalculation.CalculateTotalPriceWithAlternativeDiscount*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.QuoteCalculation.CalculateTotalPriceWithAlternativeDiscount(System.Collections.Generic.IEnumerable{SuperOffice.CRM.QuoteLineInfo},System.Double)
   commentId: M:SuperOffice.CRM.QuoteCalculation.CalculateTotalPriceWithAlternativeDiscount(System.Collections.Generic.IEnumerable{SuperOffice.CRM.QuoteLineInfo},System.Double)
   id: CalculateTotalPriceWithAlternativeDiscount(System.Collections.Generic.IEnumerable{SuperOffice.CRM.QuoteLineInfo},System.Double)
@@ -259,35 +220,28 @@ items:
   langs:
   - csharp
   - vb
-  name: CalculateTotalPriceWithAlternativeDiscount(IEnumerable<QuoteLineInfo>, Double)
-  nameWithType: QuoteCalculation.CalculateTotalPriceWithAlternativeDiscount(IEnumerable<QuoteLineInfo>, Double)
-  fullName: SuperOffice.CRM.QuoteCalculation.CalculateTotalPriceWithAlternativeDiscount(System.Collections.Generic.IEnumerable<SuperOffice.CRM.QuoteLineInfo>, System.Double)
+  name: CalculateTotalPriceWithAlternativeDiscount(IEnumerable<QuoteLineInfo>, double)
+  nameWithType: QuoteCalculation.CalculateTotalPriceWithAlternativeDiscount(IEnumerable<QuoteLineInfo>, double)
+  fullName: SuperOffice.CRM.QuoteCalculation.CalculateTotalPriceWithAlternativeDiscount(System.Collections.Generic.IEnumerable<SuperOffice.CRM.QuoteLineInfo>, double)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nCalculates Quoteline.TotalPriceWithAlternativeDiscount\n"
+  summary: Calculates Quoteline.TotalPriceWithAlternativeDiscount
+  example: []
   syntax:
     content: public static void CalculateTotalPriceWithAlternativeDiscount(IEnumerable<QuoteLineInfo> quoteLines, double discountPercent)
     parameters:
     - id: quoteLines
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.QuoteLineInfo}
+      description: ''
     - id: discountPercent
       type: System.Double
       description: The alternatives discountpercent
     content.vb: Public Shared Sub CalculateTotalPriceWithAlternativeDiscount(quoteLines As IEnumerable(Of QuoteLineInfo), discountPercent As Double)
   overload: SuperOffice.CRM.QuoteCalculation.CalculateTotalPriceWithAlternativeDiscount*
   nameWithType.vb: QuoteCalculation.CalculateTotalPriceWithAlternativeDiscount(IEnumerable(Of QuoteLineInfo), Double)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.QuoteCalculation.CalculateTotalPriceWithAlternativeDiscount(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.QuoteLineInfo), System.Double)
+  fullName.vb: SuperOffice.CRM.QuoteCalculation.CalculateTotalPriceWithAlternativeDiscount(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.QuoteLineInfo), Double)
   name.vb: CalculateTotalPriceWithAlternativeDiscount(IEnumerable(Of QuoteLineInfo), Double)
 - uid: SuperOffice.CRM.QuoteCalculation.CalculateVat(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)
   commentId: M:SuperOffice.CRM.QuoteCalculation.CalculateVat(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)
@@ -300,26 +254,27 @@ items:
   nameWithType: QuoteCalculation.CalculateVat(QuoteAlternativeWithLinesInfo)
   fullName: SuperOffice.CRM.QuoteCalculation.CalculateVat(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe VAT is computed from the sum of the quotelines TotalPriceWithAlternativeDiscount * VAT:\n\nWe assume that the VAT in the quotelines is saved as a percentage\ni.e. 12% is stored as 12.\nIf any number is negative, we don&apos;t know what to do with it so we leave it alone.\n"
+  summary: >-
+    The VAT is computed from the sum of the quotelines TotalPriceWithAlternativeDiscount * VAT:
+
+
+    We assume that the VAT in the quotelines is saved as a percentage
+
+    i.e. 12% is stored as 12.
+
+    If any number is negative, we don't know what to do with it so we leave it alone.
+  example: []
   syntax:
     content: public static void CalculateVat(QuoteAlternativeWithLinesInfo alt)
     parameters:
     - id: alt
       type: SuperOffice.CRM.QuoteAlternativeWithLinesInfo
+      description: ''
     content.vb: Public Shared Sub CalculateVat(alt As QuoteAlternativeWithLinesInfo)
   overload: SuperOffice.CRM.QuoteCalculation.CalculateVat*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.QuoteCalculation.CalculateQuoteLineSubTotal(SuperOffice.CRM.QuoteLineInfo)
   commentId: M:SuperOffice.CRM.QuoteCalculation.CalculateQuoteLineSubTotal(SuperOffice.CRM.QuoteLineInfo)
   id: CalculateQuoteLineSubTotal(SuperOffice.CRM.QuoteLineInfo)
@@ -331,29 +286,22 @@ items:
   nameWithType: QuoteCalculation.CalculateQuoteLineSubTotal(QuoteLineInfo)
   fullName: SuperOffice.CRM.QuoteCalculation.CalculateQuoteLineSubTotal(SuperOffice.CRM.QuoteLineInfo)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nQuantity * Unit List Price\n"
+  summary: Quantity * Unit List Price
+  example: []
   syntax:
     content: public static QuoteLineInfo CalculateQuoteLineSubTotal(QuoteLineInfo line)
     parameters:
     - id: line
       type: SuperOffice.CRM.QuoteLineInfo
+      description: ''
     return:
       type: SuperOffice.CRM.QuoteLineInfo
       description: Quantity * Unit List Price
     content.vb: Public Shared Function CalculateQuoteLineSubTotal(line As QuoteLineInfo) As QuoteLineInfo
   overload: SuperOffice.CRM.QuoteCalculation.CalculateQuoteLineSubTotal*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.QuoteCalculation.CalculateQuoteAlternativeSubTotal(SuperOffice.CRM.QuoteLineInfo[])
   commentId: M:SuperOffice.CRM.QuoteCalculation.CalculateQuoteAlternativeSubTotal(SuperOffice.CRM.QuoteLineInfo[])
   id: CalculateQuoteAlternativeSubTotal(SuperOffice.CRM.QuoteLineInfo[])
@@ -365,29 +313,23 @@ items:
   nameWithType: QuoteCalculation.CalculateQuoteAlternativeSubTotal(QuoteLineInfo[])
   fullName: SuperOffice.CRM.QuoteCalculation.CalculateQuoteAlternativeSubTotal(SuperOffice.CRM.QuoteLineInfo[])
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nSum of quotelines (quantity * listprice)\n"
+  summary: Sum of quotelines (quantity * listprice)
+  example: []
   syntax:
     content: public static double CalculateQuoteAlternativeSubTotal(QuoteLineInfo[] quoteLines)
     parameters:
     - id: quoteLines
       type: SuperOffice.CRM.QuoteLineInfo[]
+      description: ''
     return:
       type: System.Double
+      description: ''
     content.vb: Public Shared Function CalculateQuoteAlternativeSubTotal(quoteLines As QuoteLineInfo()) As Double
   overload: SuperOffice.CRM.QuoteCalculation.CalculateQuoteAlternativeSubTotal*
   nameWithType.vb: QuoteCalculation.CalculateQuoteAlternativeSubTotal(QuoteLineInfo())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
   fullName.vb: SuperOffice.CRM.QuoteCalculation.CalculateQuoteAlternativeSubTotal(SuperOffice.CRM.QuoteLineInfo())
   name.vb: CalculateQuoteAlternativeSubTotal(QuoteLineInfo())
 - uid: SuperOffice.CRM.QuoteCalculation.CalculateAlternativeCost(SuperOffice.CRM.QuoteLineInfo[])
@@ -401,29 +343,23 @@ items:
   nameWithType: QuoteCalculation.CalculateAlternativeCost(QuoteLineInfo[])
   fullName: SuperOffice.CRM.QuoteCalculation.CalculateAlternativeCost(SuperOffice.CRM.QuoteLineInfo[])
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nBasically sum of quotelines( quantity * unitcost )\n"
+  summary: Basically sum of quotelines( quantity * unitcost )
+  example: []
   syntax:
     content: public static double CalculateAlternativeCost(QuoteLineInfo[] quoteLines)
     parameters:
     - id: quoteLines
       type: SuperOffice.CRM.QuoteLineInfo[]
+      description: ''
     return:
       type: System.Double
+      description: ''
     content.vb: Public Shared Function CalculateAlternativeCost(quoteLines As QuoteLineInfo()) As Double
   overload: SuperOffice.CRM.QuoteCalculation.CalculateAlternativeCost*
   nameWithType.vb: QuoteCalculation.CalculateAlternativeCost(QuoteLineInfo())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
   fullName.vb: SuperOffice.CRM.QuoteCalculation.CalculateAlternativeCost(SuperOffice.CRM.QuoteLineInfo())
   name.vb: CalculateAlternativeCost(QuoteLineInfo())
 - uid: SuperOffice.CRM.QuoteCalculation.CalculateAlternativeMinimum(SuperOffice.CRM.QuoteLineInfo[])
@@ -437,54 +373,330 @@ items:
   nameWithType: QuoteCalculation.CalculateAlternativeMinimum(QuoteLineInfo[])
   fullName: SuperOffice.CRM.QuoteCalculation.CalculateAlternativeMinimum(SuperOffice.CRM.QuoteLineInfo[])
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nBasically sum of quotelines( quantity * unitminprice)\n"
+  summary: Basically sum of quotelines( quantity * unitminprice)
+  example: []
   syntax:
     content: public static double CalculateAlternativeMinimum(QuoteLineInfo[] quoteLines)
     parameters:
     - id: quoteLines
       type: SuperOffice.CRM.QuoteLineInfo[]
+      description: ''
     return:
       type: System.Double
+      description: ''
     content.vb: Public Shared Function CalculateAlternativeMinimum(quoteLines As QuoteLineInfo()) As Double
   overload: SuperOffice.CRM.QuoteCalculation.CalculateAlternativeMinimum*
   nameWithType.vb: QuoteCalculation.CalculateAlternativeMinimum(QuoteLineInfo())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
   fullName.vb: SuperOffice.CRM.QuoteCalculation.CalculateAlternativeMinimum(SuperOffice.CRM.QuoteLineInfo())
   name.vb: CalculateAlternativeMinimum(QuoteLineInfo())
 references:
+- uid: SuperOffice.CRM.QuoteConnectorBase
+  commentId: T:SuperOffice.CRM.QuoteConnectorBase
+  isExternal: true
+  href: SuperOffice.CRM.QuoteConnectorBase.html
+  name: QuoteConnectorBase
+  nameWithType: QuoteConnectorBase
+  fullName: SuperOffice.CRM.QuoteConnectorBase
+- uid: SuperOffice.CRM.QuoteCalculation.CalculateQuoteAlternativeWithLines(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)
+  commentId: M:SuperOffice.CRM.QuoteCalculation.CalculateQuoteAlternativeWithLines(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)
+  isExternal: true
+  href: SuperOffice.CRM.QuoteCalculation.html#SuperOffice_CRM_QuoteCalculation_CalculateQuoteAlternativeWithLines_SuperOffice_CRM_QuoteAlternativeWithLinesInfo_
+  name: CalculateQuoteAlternativeWithLines(QuoteAlternativeWithLinesInfo)
+  nameWithType: QuoteCalculation.CalculateQuoteAlternativeWithLines(QuoteAlternativeWithLinesInfo)
+  fullName: SuperOffice.CRM.QuoteCalculation.CalculateQuoteAlternativeWithLines(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.QuoteCalculation.CalculateQuoteAlternativeWithLines(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)
+    name: CalculateQuoteAlternativeWithLines
+    isExternal: true
+    href: SuperOffice.CRM.QuoteCalculation.html#SuperOffice_CRM_QuoteCalculation_CalculateQuoteAlternativeWithLines_SuperOffice_CRM_QuoteAlternativeWithLinesInfo_
+  - name: (
+  - uid: SuperOffice.CRM.QuoteAlternativeWithLinesInfo
+    name: QuoteAlternativeWithLinesInfo
+    isExternal: true
+    href: SuperOffice.CRM.QuoteAlternativeWithLinesInfo.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.QuoteCalculation.CalculateQuoteAlternativeWithLines(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)
+    name: CalculateQuoteAlternativeWithLines
+    isExternal: true
+    href: SuperOffice.CRM.QuoteCalculation.html#SuperOffice_CRM_QuoteCalculation_CalculateQuoteAlternativeWithLines_SuperOffice_CRM_QuoteAlternativeWithLinesInfo_
+  - name: (
+  - uid: SuperOffice.CRM.QuoteAlternativeWithLinesInfo
+    name: QuoteAlternativeWithLinesInfo
+    isExternal: true
+    href: SuperOffice.CRM.QuoteAlternativeWithLinesInfo.html
+  - name: )
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.QuoteCalculation.CalculateVersionWithAlternatives*
   commentId: Overload:SuperOffice.CRM.QuoteCalculation.CalculateVersionWithAlternatives
   isExternal: true
+  href: SuperOffice.CRM.QuoteCalculation.html#SuperOffice_CRM_QuoteCalculation_CalculateVersionWithAlternatives_SuperOffice_CRM_QuoteVersionContextInfo_
   name: CalculateVersionWithAlternatives
   nameWithType: QuoteCalculation.CalculateVersionWithAlternatives
   fullName: SuperOffice.CRM.QuoteCalculation.CalculateVersionWithAlternatives
@@ -492,6 +704,7 @@ references:
   commentId: T:SuperOffice.CRM.QuoteVersionContextInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteVersionContextInfo.html
   name: QuoteVersionContextInfo
   nameWithType: QuoteVersionContextInfo
   fullName: SuperOffice.CRM.QuoteVersionContextInfo
@@ -499,12 +712,14 @@ references:
   commentId: T:SuperOffice.CRM.QuoteVersionResponseInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteVersionResponseInfo.html
   name: QuoteVersionResponseInfo
   nameWithType: QuoteVersionResponseInfo
   fullName: SuperOffice.CRM.QuoteVersionResponseInfo
 - uid: SuperOffice.CRM.QuoteCalculation.CalculateQuoteAlternativeWithLines*
   commentId: Overload:SuperOffice.CRM.QuoteCalculation.CalculateQuoteAlternativeWithLines
   isExternal: true
+  href: SuperOffice.CRM.QuoteCalculation.html#SuperOffice_CRM_QuoteCalculation_CalculateQuoteAlternativeWithLines_SuperOffice_CRM_QuoteAlternativeWithLinesInfo_
   name: CalculateQuoteAlternativeWithLines
   nameWithType: QuoteCalculation.CalculateQuoteAlternativeWithLines
   fullName: SuperOffice.CRM.QuoteCalculation.CalculateQuoteAlternativeWithLines
@@ -512,17 +727,20 @@ references:
   commentId: T:SuperOffice.CRM.QuoteAlternativeWithLinesInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteAlternativeWithLinesInfo.html
   name: QuoteAlternativeWithLinesInfo
   nameWithType: QuoteAlternativeWithLinesInfo
   fullName: SuperOffice.CRM.QuoteAlternativeWithLinesInfo
 - uid: SuperOffice.CRM.QuoteCalculation.CalculateQuoteLines*
   commentId: Overload:SuperOffice.CRM.QuoteCalculation.CalculateQuoteLines
   isExternal: true
+  href: SuperOffice.CRM.QuoteCalculation.html#SuperOffice_CRM_QuoteCalculation_CalculateQuoteLines_SuperOffice_CRM_QuoteLineInfo___
   name: CalculateQuoteLines
   nameWithType: QuoteCalculation.CalculateQuoteLines
   fullName: SuperOffice.CRM.QuoteCalculation.CalculateQuoteLines
 - uid: SuperOffice.CRM.QuoteLineInfo[]
   isExternal: true
+  href: SuperOffice.CRM.QuoteLineInfo.html
   name: QuoteLineInfo[]
   nameWithType: QuoteLineInfo[]
   fullName: SuperOffice.CRM.QuoteLineInfo[]
@@ -532,24 +750,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.QuoteLineInfo
     name: QuoteLineInfo
-    nameWithType: QuoteLineInfo
-    fullName: SuperOffice.CRM.QuoteLineInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.QuoteLineInfo.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.QuoteLineInfo
     name: QuoteLineInfo
-    nameWithType: QuoteLineInfo
-    fullName: SuperOffice.CRM.QuoteLineInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.QuoteLineInfo.html
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.QuoteCalculation.CalculateValues*
   commentId: Overload:SuperOffice.CRM.QuoteCalculation.CalculateValues
   isExternal: true
+  href: SuperOffice.CRM.QuoteCalculation.html#SuperOffice_CRM_QuoteCalculation_CalculateValues_SuperOffice_CRM_QuoteLineInfo_
   name: CalculateValues
   nameWithType: QuoteCalculation.CalculateValues
   fullName: SuperOffice.CRM.QuoteCalculation.CalculateValues
@@ -557,18 +772,22 @@ references:
   commentId: T:SuperOffice.CRM.QuoteLineInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteLineInfo.html
   name: QuoteLineInfo
   nameWithType: QuoteLineInfo
   fullName: SuperOffice.CRM.QuoteLineInfo
 - uid: SuperOffice.CRM.QuoteCalculation.CalculateTotalPriceWithAlternativeDiscount*
   commentId: Overload:SuperOffice.CRM.QuoteCalculation.CalculateTotalPriceWithAlternativeDiscount
   isExternal: true
+  href: SuperOffice.CRM.QuoteCalculation.html#SuperOffice_CRM_QuoteCalculation_CalculateTotalPriceWithAlternativeDiscount_SuperOffice_CRM_QuoteAlternativeWithLinesInfo_
   name: CalculateTotalPriceWithAlternativeDiscount
   nameWithType: QuoteCalculation.CalculateTotalPriceWithAlternativeDiscount
   fullName: SuperOffice.CRM.QuoteCalculation.CalculateTotalPriceWithAlternativeDiscount
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.QuoteLineInfo}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.QuoteLineInfo}'
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.QuoteLineInfo}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<QuoteLineInfo>
   nameWithType: IEnumerable<QuoteLineInfo>
   fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.QuoteLineInfo>
@@ -578,109 +797,135 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.QuoteLineInfo
     name: QuoteLineInfo
-    nameWithType: QuoteLineInfo
-    fullName: SuperOffice.CRM.QuoteLineInfo
     isExternal: true
+    href: SuperOffice.CRM.QuoteLineInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.QuoteLineInfo
     name: QuoteLineInfo
-    nameWithType: QuoteLineInfo
-    fullName: SuperOffice.CRM.QuoteLineInfo
     isExternal: true
+    href: SuperOffice.CRM.QuoteLineInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Double
   commentId: T:System.Double
   parent: System
   isExternal: true
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
 - uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.CRM.QuoteCalculation.CalculateVat*
   commentId: Overload:SuperOffice.CRM.QuoteCalculation.CalculateVat
   isExternal: true
+  href: SuperOffice.CRM.QuoteCalculation.html#SuperOffice_CRM_QuoteCalculation_CalculateVat_SuperOffice_CRM_QuoteAlternativeWithLinesInfo_
   name: CalculateVat
   nameWithType: QuoteCalculation.CalculateVat
   fullName: SuperOffice.CRM.QuoteCalculation.CalculateVat
 - uid: SuperOffice.CRM.QuoteCalculation.CalculateQuoteLineSubTotal*
   commentId: Overload:SuperOffice.CRM.QuoteCalculation.CalculateQuoteLineSubTotal
   isExternal: true
+  href: SuperOffice.CRM.QuoteCalculation.html#SuperOffice_CRM_QuoteCalculation_CalculateQuoteLineSubTotal_SuperOffice_CRM_QuoteLineInfo_
   name: CalculateQuoteLineSubTotal
   nameWithType: QuoteCalculation.CalculateQuoteLineSubTotal
   fullName: SuperOffice.CRM.QuoteCalculation.CalculateQuoteLineSubTotal
 - uid: SuperOffice.CRM.QuoteCalculation.CalculateQuoteAlternativeSubTotal*
   commentId: Overload:SuperOffice.CRM.QuoteCalculation.CalculateQuoteAlternativeSubTotal
   isExternal: true
+  href: SuperOffice.CRM.QuoteCalculation.html#SuperOffice_CRM_QuoteCalculation_CalculateQuoteAlternativeSubTotal_SuperOffice_CRM_QuoteLineInfo___
   name: CalculateQuoteAlternativeSubTotal
   nameWithType: QuoteCalculation.CalculateQuoteAlternativeSubTotal
   fullName: SuperOffice.CRM.QuoteCalculation.CalculateQuoteAlternativeSubTotal
 - uid: SuperOffice.CRM.QuoteCalculation.CalculateAlternativeCost*
   commentId: Overload:SuperOffice.CRM.QuoteCalculation.CalculateAlternativeCost
   isExternal: true
+  href: SuperOffice.CRM.QuoteCalculation.html#SuperOffice_CRM_QuoteCalculation_CalculateAlternativeCost_SuperOffice_CRM_QuoteLineInfo___
   name: CalculateAlternativeCost
   nameWithType: QuoteCalculation.CalculateAlternativeCost
   fullName: SuperOffice.CRM.QuoteCalculation.CalculateAlternativeCost
 - uid: SuperOffice.CRM.QuoteCalculation.CalculateAlternativeMinimum*
   commentId: Overload:SuperOffice.CRM.QuoteCalculation.CalculateAlternativeMinimum
   isExternal: true
+  href: SuperOffice.CRM.QuoteCalculation.html#SuperOffice_CRM_QuoteCalculation_CalculateAlternativeMinimum_SuperOffice_CRM_QuoteLineInfo___
   name: CalculateAlternativeMinimum
   nameWithType: QuoteCalculation.CalculateAlternativeMinimum
   fullName: SuperOffice.CRM.QuoteCalculation.CalculateAlternativeMinimum

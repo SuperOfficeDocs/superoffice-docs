@@ -82,7 +82,7 @@ HierarchyEntity found.
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,46 +92,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 613,
+  "HierarchyId": 329,
   "Domain": "Dashboards",
-  "Name": "Lind-Feil",
-  "Fullname": "quos",
-  "ParentId": 760,
+  "Name": "Willms-Hoppe",
+  "Fullname": "recusandae",
+  "ParentId": 347,
   "Children": [
     {
-      "HierarchyId": 318,
+      "HierarchyId": 872,
       "Domain": "Dashboards",
-      "Name": "Turner-Hessel",
-      "Fullname": "ut",
-      "ParentId": 558,
+      "Name": "Eichmann, Corwin and Welch",
+      "Fullname": "porro",
+      "ParentId": 978,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2015-06-07T16:32:47.5558268+02:00",
-      "RegisteredAssociateId": 598,
-      "Updated": "2006-07-27T16:32:47.5558268+02:00",
-      "UpdatedAssociateId": 930,
+      "Registered": "2019-04-01T17:54:08.2574567+02:00",
+      "RegisteredAssociateId": 21,
+      "Updated": "2003-01-12T17:54:08.2574567+01:00",
+      "UpdatedAssociateId": 535,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 608
+          "FieldType": "System.String",
+          "FieldLength": 335
         }
       }
     }
   ],
-  "Registered": "2021-04-27T16:32:47.5558268+02:00",
-  "RegisteredAssociateId": 21,
-  "Updated": "2023-05-12T16:32:47.5558268+02:00",
-  "UpdatedAssociateId": 231,
+  "Registered": "2023-07-16T17:54:08.2574567+02:00",
+  "RegisteredAssociateId": 510,
+  "Updated": "2018-01-06T17:54:08.2574567+01:00",
+  "UpdatedAssociateId": 25,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 389
     }
   },
   "_Links": {

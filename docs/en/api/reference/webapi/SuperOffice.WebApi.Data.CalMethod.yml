@@ -14,64 +14,21 @@ items:
   - SuperOffice.WebApi.Data.CalMethod.Reply
   - SuperOffice.WebApi.Data.CalMethod.Request
   - SuperOffice.WebApi.Data.CalMethod.Unknown
-  - SuperOffice.WebApi.Data.CalMethod.value__
   langs:
   - csharp
   - vb
   name: CalMethod
   nameWithType: CalMethod
   fullName: SuperOffice.WebApi.Data.CalMethod
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nValid iCal methods\n"
+  summary: Valid iCal methods
+  example: []
   syntax:
-    content: 'public sealed class CalMethod : Enum'
-    content.vb: >-
-      Public NotInheritable Class CalMethod
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.CalMethod.value__
-  commentId: F:SuperOffice.WebApi.Data.CalMethod.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.CalMethod
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: CalMethod.value__
-  fullName: SuperOffice.WebApi.Data.CalMethod.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum CalMethod
+    content.vb: Public Enum CalMethod
 - uid: SuperOffice.WebApi.Data.CalMethod.Unknown
   commentId: F:SuperOffice.WebApi.Data.CalMethod.Unknown
   id: Unknown
@@ -83,24 +40,26 @@ items:
   nameWithType: CalMethod.Unknown
   fullName: SuperOffice.WebApi.Data.CalMethod.Unknown
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Method is not known\n"
+  summary: '0: Method is not known'
+  example: []
   syntax:
-    content: public const CalMethod Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.WebApi.Data.CalMethod
-    content.vb: Public Const Unknown As CalMethod
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.CalMethod.Add
   commentId: F:SuperOffice.WebApi.Data.CalMethod.Add
   id: Add
@@ -112,24 +71,26 @@ items:
   nameWithType: CalMethod.Add
   fullName: SuperOffice.WebApi.Data.CalMethod.Add
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Add one or more instances to an existing event.\n"
+  summary: '1: Add one or more instances to an existing event.'
+  example: []
   syntax:
-    content: public const CalMethod Add
+    content: >-
+      [EnumMember]
+
+      Add = 1
     return:
       type: SuperOffice.WebApi.Data.CalMethod
-    content.vb: Public Const Add As CalMethod
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Add = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.CalMethod.Cancel
   commentId: F:SuperOffice.WebApi.Data.CalMethod.Cancel
   id: Cancel
@@ -141,24 +102,26 @@ items:
   nameWithType: CalMethod.Cancel
   fullName: SuperOffice.WebApi.Data.CalMethod.Cancel
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Cancel one or more instances of an existing event.\n"
+  summary: '2: Cancel one or more instances of an existing event.'
+  example: []
   syntax:
-    content: public const CalMethod Cancel
+    content: >-
+      [EnumMember]
+
+      Cancel = 2
     return:
       type: SuperOffice.WebApi.Data.CalMethod
-    content.vb: Public Const Cancel As CalMethod
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Cancel = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.CalMethod.Counter
   commentId: F:SuperOffice.WebApi.Data.CalMethod.Counter
   id: Counter
@@ -170,24 +133,26 @@ items:
   nameWithType: CalMethod.Counter
   fullName: SuperOffice.WebApi.Data.CalMethod.Counter
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Counter a REQUEST with an alternative proposal, Sent by an &apos;Attendee&apos; to the &apos;Organizer&apos;. \n"
+  summary: "3: Counter a REQUEST with an alternative proposal, Sent by an 'Attendee' to the 'Organizer'."
+  example: []
   syntax:
-    content: public const CalMethod Counter
+    content: >-
+      [EnumMember]
+
+      Counter = 3
     return:
       type: SuperOffice.WebApi.Data.CalMethod
-    content.vb: Public Const Counter As CalMethod
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Counter = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.CalMethod.DeclineCounter
   commentId: F:SuperOffice.WebApi.Data.CalMethod.DeclineCounter
   id: DeclineCounter
@@ -199,24 +164,26 @@ items:
   nameWithType: CalMethod.DeclineCounter
   fullName: SuperOffice.WebApi.Data.CalMethod.DeclineCounter
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Decline a counter proposal. Sent to an &apos;Attendee&apos; by the &apos;Organizer&apos;.\n"
+  summary: "4: Decline a counter proposal. Sent to an 'Attendee' by the 'Organizer'."
+  example: []
   syntax:
-    content: public const CalMethod DeclineCounter
+    content: >-
+      [EnumMember]
+
+      DeclineCounter = 4
     return:
       type: SuperOffice.WebApi.Data.CalMethod
-    content.vb: Public Const DeclineCounter As CalMethod
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      DeclineCounter = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.CalMethod.Publish
   commentId: F:SuperOffice.WebApi.Data.CalMethod.Publish
   id: Publish
@@ -228,24 +195,26 @@ items:
   nameWithType: CalMethod.Publish
   fullName: SuperOffice.WebApi.Data.CalMethod.Publish
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: Post notification of an event. Used primarily as a method of advertising the existence of an event.\n"
+  summary: '5: Post notification of an event. Used primarily as a method of advertising the existence of an event.'
+  example: []
   syntax:
-    content: public const CalMethod Publish
+    content: >-
+      [EnumMember]
+
+      Publish = 5
     return:
       type: SuperOffice.WebApi.Data.CalMethod
-    content.vb: Public Const Publish As CalMethod
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Publish = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.CalMethod.Refresh
   commentId: F:SuperOffice.WebApi.Data.CalMethod.Refresh
   id: Refresh
@@ -257,24 +226,26 @@ items:
   nameWithType: CalMethod.Refresh
   fullName: SuperOffice.WebApi.Data.CalMethod.Refresh
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n6: A request is sent to an &apos;Organizer&apos; by an &apos;Attendee&apos; asking for the latest version of an event to be resent to the requester.\n"
+  summary: "6: A request is sent to an 'Organizer' by an 'Attendee' asking for the latest version of an event to be resent to the requester."
+  example: []
   syntax:
-    content: public const CalMethod Refresh
+    content: >-
+      [EnumMember]
+
+      Refresh = 6
     return:
       type: SuperOffice.WebApi.Data.CalMethod
-    content.vb: Public Const Refresh As CalMethod
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Refresh = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.CalMethod.Reply
   commentId: F:SuperOffice.WebApi.Data.CalMethod.Reply
   id: Reply
@@ -286,24 +257,26 @@ items:
   nameWithType: CalMethod.Reply
   fullName: SuperOffice.WebApi.Data.CalMethod.Reply
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n7: Reply to an event request. Clients may set their status (&apos;partstat&apos;) to ACCEPTED, DECLINED, TENTATIVE, or DELEGATED.\n"
+  summary: "7: Reply to an event request. Clients may set their status ('partstat') to ACCEPTED, DECLINED, TENTATIVE, or DELEGATED."
+  example: []
   syntax:
-    content: public const CalMethod Reply
+    content: >-
+      [EnumMember]
+
+      Reply = 7
     return:
       type: SuperOffice.WebApi.Data.CalMethod
-    content.vb: Public Const Reply As CalMethod
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Reply = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.CalMethod.Request
   commentId: F:SuperOffice.WebApi.Data.CalMethod.Request
   id: Request
@@ -315,55 +288,69 @@ items:
   nameWithType: CalMethod.Request
   fullName: SuperOffice.WebApi.Data.CalMethod.Request
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n8: Make a request for an event. This is an explicit invitation to one or more &apos;Attendees&apos;. Event Requests are also used to update or change an existing event. Clients that cannot handle REQUEST may degrade the event to view it as an PUBLISH.\n"
+  summary: "8: Make a request for an event. This is an explicit invitation to one or more 'Attendees'. Event Requests are also used to update or change an existing event. Clients that cannot handle REQUEST may degrade the event to view it as an PUBLISH."
+  example: []
   syntax:
-    content: public const CalMethod Request
+    content: >-
+      [EnumMember]
+
+      Request = 8
     return:
       type: SuperOffice.WebApi.Data.CalMethod
-    content.vb: Public Const Request As CalMethod
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Request = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.CalMethod
   commentId: T:SuperOffice.WebApi.Data.CalMethod
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.CalMethod.html
   name: CalMethod
   nameWithType: CalMethod
   fullName: SuperOffice.WebApi.Data.CalMethod

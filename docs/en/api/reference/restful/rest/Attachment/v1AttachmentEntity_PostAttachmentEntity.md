@@ -90,17 +90,17 @@ OK
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 343,
-  "Name": "Anderson-Schinner",
-  "ContentType": "sit",
-  "AttSize": 487,
+  "AttachmentId": 927,
+  "Name": "Mosciski Group",
+  "ContentType": "corporis",
+  "AttSize": 664,
   "InlineImage": false,
-  "ContentId": "minus",
-  "AuthKey": "soluta",
+  "ContentId": "est",
+  "AuthKey": "praesentium",
   "IsSafeFileExtension": false
 }
 ```
@@ -112,25 +112,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 964,
-  "Name": "Donnelly-Bradtke",
-  "ContentType": "quisquam",
-  "AttSize": 738,
+  "AttachmentId": 899,
+  "Name": "Reichert, Kuhic and Stroman",
+  "ContentType": "est",
+  "AttSize": 398,
   "InlineImage": false,
-  "ContentId": "sed",
-  "AuthKey": "in",
+  "ContentId": "dolores",
+  "AuthKey": "et",
   "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 974
+      "FieldType": "System.Int32",
+      "FieldLength": 430
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

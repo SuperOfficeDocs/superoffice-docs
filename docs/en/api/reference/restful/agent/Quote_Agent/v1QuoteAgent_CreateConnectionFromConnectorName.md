@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Armstrong, Moore and Nicolas"
+  "ConnectorName": "Rath-Frami"
 }
 ```
 
@@ -102,34 +102,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 231,
-  "ERPName": "Mayert LLC",
-  "DisplayName": "Ondricka-Spinka",
-  "DisplayDescription": "Configurable object-oriented benchmark",
-  "Rank": 808,
-  "ConnectorName": "Cronin, Quitzon and Maggio",
-  "ErpConnectionId": 600,
-  "ExtraData": "architecto",
+  "QuoteConnectionId": 187,
+  "ERPName": "Pfeffer, Reichert and Hauck",
+  "DisplayName": "Sipes, Orn and Hodkiewicz",
+  "DisplayDescription": "Progressive upward-trending knowledge base",
+  "Rank": 724,
+  "ConnectorName": "Murphy-Wunsch",
+  "ErpConnectionId": 202,
+  "ExtraData": "quaerat",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 385,
-      "ERPPriceListKey": "ea",
-      "QuoteConnectionId": 861,
-      "Name": "Harvey LLC",
-      "Description": "Pre-emptive global paradigm",
-      "Currency": "iure",
-      "CurrencyName": "Denesik, Considine and Lakin",
-      "ValidFrom": "2019-01-28T16:32:39.7271263+01:00",
-      "ValidTo": "2006-03-05T16:32:39.7271263+01:00",
-      "IsActive": false,
+      "PriceListId": 862,
+      "ERPPriceListKey": "est",
+      "QuoteConnectionId": 280,
+      "Name": "Shanahan-Dickinson",
+      "Description": "Future-proofed maximized attitude",
+      "Currency": "sed",
+      "CurrencyName": "McClure-Streich",
+      "ValidFrom": "2019-10-20T17:54:03.5233118+02:00",
+      "ValidTo": "2003-12-08T17:54:03.5233118+01:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 3
+          "FieldLength": 240
         }
       }
     }
@@ -137,19 +137,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    678,
-    43
+    258,
+    929
   ],
   "AssociateAccessIds": [
-    166,
-    53
+    271,
+    73
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldLength": 508
     }
   }
 }

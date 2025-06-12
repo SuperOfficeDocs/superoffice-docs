@@ -1,0 +1,1622 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  id: ConfigFile.OnlineConfiguration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.#ctor
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.AmplitudeApiKey
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.BaseUrl
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.ConfigPollingDisabled
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.ConfigPollingInterval
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.ContextIdentifier
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.EnableOnline
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.Environment
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.FilesetPrincipleName
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.IgnoreOnlineClientConfig
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.LocalServiceProxyUrl
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.MachineName
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.OnlineFilesetSigningKey
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.OnlinePrincipleName
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.PublicApiUrl
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.RoleName
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.SectionName
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.SemanticVersion
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.UserflowToken
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.Validate(System.ComponentModel.DataAnnotations.ValidationContext)
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.OnlineConfiguration
+  nameWithType: ConfigFile.OnlineConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  type: Class
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: >-
+    Configuration for the Online Environment.  Explicit configuration for particular 
+
+    purpose can inherit from this and be located in same section
+  example: []
+  syntax:
+    content: public class ConfigFile.OnlineConfiguration
+    content.vb: Public Class ConfigFile.OnlineConfiguration
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Configuration.ConfigFile.OnlineConfiguration)
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.SectionName
+  commentId: F:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.SectionName
+  id: SectionName
+  parent: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: SectionName
+  nameWithType: ConfigFile.OnlineConfiguration.SectionName
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.SectionName
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  syntax:
+    content: public const string SectionName = "Online"
+    return:
+      type: System.String
+    content.vb: Public Const SectionName As String = "Online"
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.Validate(System.ComponentModel.DataAnnotations.ValidationContext)
+  commentId: M:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.Validate(System.ComponentModel.DataAnnotations.ValidationContext)
+  id: Validate(System.ComponentModel.DataAnnotations.ValidationContext)
+  parent: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Validate(ValidationContext)
+  nameWithType: ConfigFile.OnlineConfiguration.Validate(ValidationContext)
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.Validate(System.ComponentModel.DataAnnotations.ValidationContext)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  syntax:
+    content: public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
+    parameters:
+    - id: validationContext
+      type: System.ComponentModel.DataAnnotations.ValidationContext
+    return:
+      type: System.Collections.Generic.IEnumerable{System.ComponentModel.DataAnnotations.ValidationResult}
+    content.vb: Public Function Validate(validationContext As ValidationContext) As IEnumerable(Of ValidationResult)
+  overload: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.Validate*
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.#ctor
+  commentId: M:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: OnlineConfiguration()
+  nameWithType: ConfigFile.OnlineConfiguration.OnlineConfiguration()
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.OnlineConfiguration()
+  type: Constructor
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  syntax:
+    content: public OnlineConfiguration()
+    content.vb: Public Sub New()
+  overload: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.#ctor*
+  nameWithType.vb: ConfigFile.OnlineConfiguration.New()
+  fullName.vb: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.New()
+  name.vb: New()
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.EnableOnline
+  commentId: P:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.EnableOnline
+  id: EnableOnline
+  parent: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: EnableOnline
+  nameWithType: ConfigFile.OnlineConfiguration.EnableOnline
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.EnableOnline
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Enable SuperOffice CRM Cloud
+  example: []
+  syntax:
+    content: public bool EnableOnline { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EnableOnline As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.EnableOnline*
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.ContextIdentifier
+  commentId: P:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.ContextIdentifier
+  id: ContextIdentifier
+  parent: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ContextIdentifier
+  nameWithType: ConfigFile.OnlineConfiguration.ContextIdentifier
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.ContextIdentifier
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Used for hardcoding context identifier for debugging
+  example: []
+  syntax:
+    content: public string ContextIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ContextIdentifier As String
+  overload: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.ContextIdentifier*
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.Environment
+  commentId: P:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.Environment
+  id: Environment
+  parent: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Environment
+  nameWithType: ConfigFile.OnlineConfiguration.Environment
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.Environment
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Online envinment name
+  example: []
+  syntax:
+    content: public ConfigFile.OnlineEnvironment Environment { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    content.vb: Public Property Environment As ConfigFile.OnlineEnvironment
+  overload: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.Environment*
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.FilesetPrincipleName
+  commentId: P:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.FilesetPrincipleName
+  id: FilesetPrincipleName
+  parent: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: FilesetPrincipleName
+  nameWithType: ConfigFile.OnlineConfiguration.FilesetPrincipleName
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.FilesetPrincipleName
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Principle name of the fileset, as used in shared secret auth.
+  example: []
+  syntax:
+    content: public string FilesetPrincipleName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property FilesetPrincipleName As String
+  overload: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.FilesetPrincipleName*
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.OnlinePrincipleName
+  commentId: P:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.OnlinePrincipleName
+  id: OnlinePrincipleName
+  parent: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: OnlinePrincipleName
+  nameWithType: ConfigFile.OnlineConfiguration.OnlinePrincipleName
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.OnlinePrincipleName
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  syntax:
+    content: public string OnlinePrincipleName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property OnlinePrincipleName As String
+  overload: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.OnlinePrincipleName*
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.OnlineFilesetSigningKey
+  commentId: P:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.OnlineFilesetSigningKey
+  id: OnlineFilesetSigningKey
+  parent: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: OnlineFilesetSigningKey
+  nameWithType: ConfigFile.OnlineConfiguration.OnlineFilesetSigningKey
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.OnlineFilesetSigningKey
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Private key used for securing communication between Online Environment and Fileset
+  remarks: Required when EnableOnline is true
+  example: []
+  syntax:
+    content: public string OnlineFilesetSigningKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OnlineFilesetSigningKey As String
+  overload: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.OnlineFilesetSigningKey*
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.BaseUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.BaseUrl
+  id: BaseUrl
+  parent: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: BaseUrl
+  nameWithType: ConfigFile.OnlineConfiguration.BaseUrl
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.BaseUrl
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Base Url for the enviuronment
+  example: []
+  syntax:
+    content: >-
+      [Url]
+
+      public string BaseUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Url>
+
+      Public Property BaseUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.BaseUrl*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.UrlAttribute
+    ctor: System.ComponentModel.DataAnnotations.UrlAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.PublicApiUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.PublicApiUrl
+  id: PublicApiUrl
+  parent: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: PublicApiUrl
+  nameWithType: ConfigFile.OnlineConfiguration.PublicApiUrl
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.PublicApiUrl
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  syntax:
+    content: >-
+      [Url]
+
+      public string PublicApiUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Url>
+
+      Public Property PublicApiUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.PublicApiUrl*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.UrlAttribute
+    ctor: System.ComponentModel.DataAnnotations.UrlAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.LocalServiceProxyUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.LocalServiceProxyUrl
+  id: LocalServiceProxyUrl
+  parent: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LocalServiceProxyUrl
+  nameWithType: ConfigFile.OnlineConfiguration.LocalServiceProxyUrl
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.LocalServiceProxyUrl
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  syntax:
+    content: >-
+      [Url]
+
+      public string LocalServiceProxyUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Url>
+
+      Public Property LocalServiceProxyUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.LocalServiceProxyUrl*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.UrlAttribute
+    ctor: System.ComponentModel.DataAnnotations.UrlAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.SemanticVersion
+  commentId: P:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.SemanticVersion
+  id: SemanticVersion
+  parent: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: SemanticVersion
+  nameWithType: ConfigFile.OnlineConfiguration.SemanticVersion
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.SemanticVersion
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  syntax:
+    content: public string SemanticVersion { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SemanticVersion As String
+  overload: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.SemanticVersion*
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.MachineName
+  commentId: P:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.MachineName
+  id: MachineName
+  parent: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: MachineName
+  nameWithType: ConfigFile.OnlineConfiguration.MachineName
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.MachineName
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  syntax:
+    content: public string MachineName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MachineName As String
+  overload: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.MachineName*
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.ConfigPollingInterval
+  commentId: P:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.ConfigPollingInterval
+  id: ConfigPollingInterval
+  parent: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ConfigPollingInterval
+  nameWithType: ConfigFile.OnlineConfiguration.ConfigPollingInterval
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.ConfigPollingInterval
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Configuration interval from LSP in seconds
+  example: []
+  syntax:
+    content: public int ConfigPollingInterval { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ConfigPollingInterval As Integer
+  overload: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.ConfigPollingInterval*
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.ConfigPollingDisabled
+  commentId: P:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.ConfigPollingDisabled
+  id: ConfigPollingDisabled
+  parent: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ConfigPollingDisabled
+  nameWithType: ConfigFile.OnlineConfiguration.ConfigPollingDisabled
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.ConfigPollingDisabled
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Is polling from the LSP service disabled.
+  example: []
+  syntax:
+    content: public bool ConfigPollingDisabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ConfigPollingDisabled As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.ConfigPollingDisabled*
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.IgnoreOnlineClientConfig
+  commentId: P:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.IgnoreOnlineClientConfig
+  id: IgnoreOnlineClientConfig
+  parent: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: IgnoreOnlineClientConfig
+  nameWithType: ConfigFile.OnlineConfiguration.IgnoreOnlineClientConfig
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.IgnoreOnlineClientConfig
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: ''
+  example: []
+  syntax:
+    content: public bool IgnoreOnlineClientConfig { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IgnoreOnlineClientConfig As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.IgnoreOnlineClientConfig*
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.AmplitudeApiKey
+  commentId: P:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.AmplitudeApiKey
+  id: AmplitudeApiKey
+  parent: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: AmplitudeApiKey
+  nameWithType: ConfigFile.OnlineConfiguration.AmplitudeApiKey
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.AmplitudeApiKey
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Amplitude project's API key
+  example: []
+  syntax:
+    content: public string AmplitudeApiKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AmplitudeApiKey As String
+  overload: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.AmplitudeApiKey*
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.UserflowToken
+  commentId: P:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.UserflowToken
+  id: UserflowToken
+  parent: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: UserflowToken
+  nameWithType: ConfigFile.OnlineConfiguration.UserflowToken
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.UserflowToken
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Token to connect to Userflow Prod or SOD environment
+  remarks: Required when EnableOnline is true
+  example: []
+  syntax:
+    content: public string UserflowToken { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserflowToken As String
+  overload: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.UserflowToken*
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.RoleName
+  commentId: P:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.RoleName
+  id: RoleName
+  parent: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: RoleName
+  nameWithType: ConfigFile.OnlineConfiguration.RoleName
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.RoleName
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  syntax:
+    content: public ConfigFile.TelemetryRoleName RoleName { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Configuration.ConfigFile.TelemetryRoleName
+    content.vb: Public Property RoleName As ConfigFile.TelemetryRoleName
+  overload: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.RoleName*
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<OnlineConfiguration, To>(OnlineConfiguration)
+  nameWithType: EnumUtil.MapEnums<ConfigFile.OnlineConfiguration, To>(ConfigFile.OnlineConfiguration)
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.OnlineConfiguration, To>(SuperOffice.Configuration.ConfigFile.OnlineConfiguration)
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.OnlineConfiguration, To)(ConfigFile.OnlineConfiguration)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.OnlineConfiguration, To)(SuperOffice.Configuration.ConfigFile.OnlineConfiguration)
+  name.vb: MapEnums(Of OnlineConfiguration, To)(OnlineConfiguration)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Configuration.ConfigFile.OnlineConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+    name: OnlineConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+    name: OnlineConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Configuration.ConfigFile.OnlineConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+    name: OnlineConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+    name: OnlineConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html
+  - name: )
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<OnlineConfiguration, To>(OnlineConfiguration)
+  nameWithType: Converters.MapEnums<ConfigFile.OnlineConfiguration, To>(ConfigFile.OnlineConfiguration)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.OnlineConfiguration, To>(SuperOffice.Configuration.ConfigFile.OnlineConfiguration)
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.OnlineConfiguration, To)(ConfigFile.OnlineConfiguration)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.OnlineConfiguration, To)(SuperOffice.Configuration.ConfigFile.OnlineConfiguration)
+  name.vb: MapEnums(Of OnlineConfiguration, To)(OnlineConfiguration)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Configuration.ConfigFile.OnlineConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+    name: OnlineConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+    name: OnlineConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Configuration.ConfigFile.OnlineConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+    name: OnlineConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+    name: OnlineConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html
+  - name: )
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Configuration.ConfigFile.OnlineConfiguration)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<OnlineConfiguration>(OnlineConfiguration, OnlineConfiguration)
+  nameWithType: ObjectExtensions.AssignByReflection<ConfigFile.OnlineConfiguration>(ConfigFile.OnlineConfiguration, ConfigFile.OnlineConfiguration)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Configuration.ConfigFile.OnlineConfiguration>(SuperOffice.Configuration.ConfigFile.OnlineConfiguration, SuperOffice.Configuration.ConfigFile.OnlineConfiguration)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ConfigFile.OnlineConfiguration)(ConfigFile.OnlineConfiguration, ConfigFile.OnlineConfiguration)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Configuration.ConfigFile.OnlineConfiguration)(SuperOffice.Configuration.ConfigFile.OnlineConfiguration, SuperOffice.Configuration.ConfigFile.OnlineConfiguration)
+  name.vb: AssignByReflection(Of OnlineConfiguration)(OnlineConfiguration, OnlineConfiguration)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Configuration.ConfigFile.OnlineConfiguration,SuperOffice.Configuration.ConfigFile.OnlineConfiguration)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+    name: OnlineConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+    name: OnlineConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+    name: OnlineConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Configuration.ConfigFile.OnlineConfiguration,SuperOffice.Configuration.ConfigFile.OnlineConfiguration)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+    name: OnlineConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+    name: OnlineConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+    name: OnlineConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html
+  - name: )
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<OnlineConfiguration>(OnlineConfiguration)
+  nameWithType: ObjectExtensions.GraphCopy<ConfigFile.OnlineConfiguration>(ConfigFile.OnlineConfiguration)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Configuration.ConfigFile.OnlineConfiguration>(SuperOffice.Configuration.ConfigFile.OnlineConfiguration)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ConfigFile.OnlineConfiguration)(ConfigFile.OnlineConfiguration)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Configuration.ConfigFile.OnlineConfiguration)(SuperOffice.Configuration.ConfigFile.OnlineConfiguration)
+  name.vb: GraphCopy(Of OnlineConfiguration)(OnlineConfiguration)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Configuration.ConfigFile.OnlineConfiguration)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+    name: OnlineConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+    name: OnlineConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Configuration.ConfigFile.OnlineConfiguration)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+    name: OnlineConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+    name: OnlineConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.Validate*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.Validate
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html#SuperOffice_Configuration_ConfigFile_OnlineConfiguration_Validate_System_ComponentModel_DataAnnotations_ValidationContext_
+  name: Validate
+  nameWithType: ConfigFile.OnlineConfiguration.Validate
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.Validate
+- uid: System.ComponentModel.DataAnnotations.ValidationContext
+  commentId: T:System.ComponentModel.DataAnnotations.ValidationContext
+  parent: System.ComponentModel.DataAnnotations
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationcontext
+  name: ValidationContext
+  nameWithType: ValidationContext
+  fullName: System.ComponentModel.DataAnnotations.ValidationContext
+- uid: System.Collections.Generic.IEnumerable{System.ComponentModel.DataAnnotations.ValidationResult}
+  commentId: T:System.Collections.Generic.IEnumerable{System.ComponentModel.DataAnnotations.ValidationResult}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<ValidationResult>
+  nameWithType: IEnumerable<ValidationResult>
+  fullName: System.Collections.Generic.IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult>
+  nameWithType.vb: IEnumerable(Of ValidationResult)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.ComponentModel.DataAnnotations.ValidationResult)
+  name.vb: IEnumerable(Of ValidationResult)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.ComponentModel.DataAnnotations.ValidationResult
+    name: ValidationResult
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationresult
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.ComponentModel.DataAnnotations.ValidationResult
+    name: ValidationResult
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationresult
+  - name: )
+- uid: System.ComponentModel.DataAnnotations
+  commentId: N:System.ComponentModel.DataAnnotations
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel.DataAnnotations
+  nameWithType: System.ComponentModel.DataAnnotations
+  fullName: System.ComponentModel.DataAnnotations
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  - name: .
+  - uid: System.ComponentModel.DataAnnotations
+    name: DataAnnotations
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  - name: .
+  - uid: System.ComponentModel.DataAnnotations
+    name: DataAnnotations
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.#ctor*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.#ctor
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html#SuperOffice_Configuration_ConfigFile_OnlineConfiguration__ctor
+  name: OnlineConfiguration
+  nameWithType: ConfigFile.OnlineConfiguration.OnlineConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.OnlineConfiguration
+  nameWithType.vb: ConfigFile.OnlineConfiguration.New
+  fullName.vb: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.New
+  name.vb: New
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.EnableOnline*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.EnableOnline
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html#SuperOffice_Configuration_ConfigFile_OnlineConfiguration_EnableOnline
+  name: EnableOnline
+  nameWithType: ConfigFile.OnlineConfiguration.EnableOnline
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.EnableOnline
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.ContextIdentifier*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.ContextIdentifier
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html#SuperOffice_Configuration_ConfigFile_OnlineConfiguration_ContextIdentifier
+  name: ContextIdentifier
+  nameWithType: ConfigFile.OnlineConfiguration.ContextIdentifier
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.ContextIdentifier
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.Environment*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.Environment
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html#SuperOffice_Configuration_ConfigFile_OnlineConfiguration_Environment
+  name: Environment
+  nameWithType: ConfigFile.OnlineConfiguration.Environment
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.Environment
+- uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+  commentId: T:SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+  parent: SuperOffice.Configuration
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.html
+  name: ConfigFile.OnlineEnvironment
+  nameWithType: ConfigFile.OnlineEnvironment
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+  spec.csharp:
+  - uid: SuperOffice.Configuration.ConfigFile
+    name: ConfigFile
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.html
+  - name: .
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    name: OnlineEnvironment
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.html
+  spec.vb:
+  - uid: SuperOffice.Configuration.ConfigFile
+    name: ConfigFile
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.html
+  - name: .
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    name: OnlineEnvironment
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.html
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.FilesetPrincipleName*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.FilesetPrincipleName
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html#SuperOffice_Configuration_ConfigFile_OnlineConfiguration_FilesetPrincipleName
+  name: FilesetPrincipleName
+  nameWithType: ConfigFile.OnlineConfiguration.FilesetPrincipleName
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.FilesetPrincipleName
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.OnlinePrincipleName*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.OnlinePrincipleName
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html#SuperOffice_Configuration_ConfigFile_OnlineConfiguration_OnlinePrincipleName
+  name: OnlinePrincipleName
+  nameWithType: ConfigFile.OnlineConfiguration.OnlinePrincipleName
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.OnlinePrincipleName
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.OnlineFilesetSigningKey*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.OnlineFilesetSigningKey
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html#SuperOffice_Configuration_ConfigFile_OnlineConfiguration_OnlineFilesetSigningKey
+  name: OnlineFilesetSigningKey
+  nameWithType: ConfigFile.OnlineConfiguration.OnlineFilesetSigningKey
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.OnlineFilesetSigningKey
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.BaseUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.BaseUrl
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html#SuperOffice_Configuration_ConfigFile_OnlineConfiguration_BaseUrl
+  name: BaseUrl
+  nameWithType: ConfigFile.OnlineConfiguration.BaseUrl
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.BaseUrl
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.PublicApiUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.PublicApiUrl
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html#SuperOffice_Configuration_ConfigFile_OnlineConfiguration_PublicApiUrl
+  name: PublicApiUrl
+  nameWithType: ConfigFile.OnlineConfiguration.PublicApiUrl
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.PublicApiUrl
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.LocalServiceProxyUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.LocalServiceProxyUrl
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html#SuperOffice_Configuration_ConfigFile_OnlineConfiguration_LocalServiceProxyUrl
+  name: LocalServiceProxyUrl
+  nameWithType: ConfigFile.OnlineConfiguration.LocalServiceProxyUrl
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.LocalServiceProxyUrl
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.SemanticVersion*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.SemanticVersion
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html#SuperOffice_Configuration_ConfigFile_OnlineConfiguration_SemanticVersion
+  name: SemanticVersion
+  nameWithType: ConfigFile.OnlineConfiguration.SemanticVersion
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.SemanticVersion
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.MachineName*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.MachineName
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html#SuperOffice_Configuration_ConfigFile_OnlineConfiguration_MachineName
+  name: MachineName
+  nameWithType: ConfigFile.OnlineConfiguration.MachineName
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.MachineName
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.ConfigPollingInterval*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.ConfigPollingInterval
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html#SuperOffice_Configuration_ConfigFile_OnlineConfiguration_ConfigPollingInterval
+  name: ConfigPollingInterval
+  nameWithType: ConfigFile.OnlineConfiguration.ConfigPollingInterval
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.ConfigPollingInterval
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.ConfigPollingDisabled*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.ConfigPollingDisabled
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html#SuperOffice_Configuration_ConfigFile_OnlineConfiguration_ConfigPollingDisabled
+  name: ConfigPollingDisabled
+  nameWithType: ConfigFile.OnlineConfiguration.ConfigPollingDisabled
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.ConfigPollingDisabled
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.IgnoreOnlineClientConfig*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.IgnoreOnlineClientConfig
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html#SuperOffice_Configuration_ConfigFile_OnlineConfiguration_IgnoreOnlineClientConfig
+  name: IgnoreOnlineClientConfig
+  nameWithType: ConfigFile.OnlineConfiguration.IgnoreOnlineClientConfig
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.IgnoreOnlineClientConfig
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.AmplitudeApiKey*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.AmplitudeApiKey
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html#SuperOffice_Configuration_ConfigFile_OnlineConfiguration_AmplitudeApiKey
+  name: AmplitudeApiKey
+  nameWithType: ConfigFile.OnlineConfiguration.AmplitudeApiKey
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.AmplitudeApiKey
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.UserflowToken*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.UserflowToken
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html#SuperOffice_Configuration_ConfigFile_OnlineConfiguration_UserflowToken
+  name: UserflowToken
+  nameWithType: ConfigFile.OnlineConfiguration.UserflowToken
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.UserflowToken
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.RoleName*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.RoleName
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html#SuperOffice_Configuration_ConfigFile_OnlineConfiguration_RoleName
+  name: RoleName
+  nameWithType: ConfigFile.OnlineConfiguration.RoleName
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.RoleName
+- uid: SuperOffice.Configuration.ConfigFile.TelemetryRoleName
+  commentId: T:SuperOffice.Configuration.ConfigFile.TelemetryRoleName
+  parent: SuperOffice.Configuration
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.html
+  name: ConfigFile.TelemetryRoleName
+  nameWithType: ConfigFile.TelemetryRoleName
+  fullName: SuperOffice.Configuration.ConfigFile.TelemetryRoleName
+  spec.csharp:
+  - uid: SuperOffice.Configuration.ConfigFile
+    name: ConfigFile
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.html
+  - name: .
+  - uid: SuperOffice.Configuration.ConfigFile.TelemetryRoleName
+    name: TelemetryRoleName
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.TelemetryRoleName.html
+  spec.vb:
+  - uid: SuperOffice.Configuration.ConfigFile
+    name: ConfigFile
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.html
+  - name: .
+  - uid: SuperOffice.Configuration.ConfigFile.TelemetryRoleName
+    name: TelemetryRoleName
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.TelemetryRoleName.html

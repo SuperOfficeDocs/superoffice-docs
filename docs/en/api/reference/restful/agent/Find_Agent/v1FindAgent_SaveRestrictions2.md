@@ -71,10 +71,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "repellendus",
-  "ProviderName": "Torp Inc and Sons",
-  "StorageKey": "molestiae",
-  "Restrictions": "optio"
+  "StorageType": "doloremque",
+  "ProviderName": "Howell Group",
+  "StorageKey": "dolor",
+  "Restrictions": "qui"
 }
 ```
 

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 106,
-    "Name": "Kiehn-West",
-    "Tooltip": "tempora",
+    "HeadingId": 452,
+    "Name": "Ankunding, Botsford and Dibbert",
+    "Tooltip": "sit",
     "Deleted": true,
-    "Rank": 612,
-    "UdListDefinitionId": 873
+    "Rank": 772,
+    "UdListDefinitionId": 753
   },
   {
-    "HeadingId": 106,
-    "Name": "Kiehn-West",
-    "Tooltip": "tempora",
+    "HeadingId": 452,
+    "Name": "Ankunding, Botsford and Dibbert",
+    "Tooltip": "sit",
     "Deleted": true,
-    "Rank": 612,
-    "UdListDefinitionId": 873
+    "Rank": 772,
+    "UdListDefinitionId": 753
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 592,
-    "Name": "Yost Group",
-    "Tooltip": "eum",
-    "Deleted": false,
-    "Rank": 536,
-    "UdListDefinitionId": 150,
+    "HeadingId": 982,
+    "Name": "Wuckert-Schaefer",
+    "Tooltip": "ad",
+    "Deleted": true,
+    "Rank": 689,
+    "UdListDefinitionId": 994,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 771
+        "FieldLength": 88
       }
     }
   }

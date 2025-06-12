@@ -14,18 +14,12 @@ items:
   nameWithType: TableRights
   fullName: SuperOffice.CRM.Security.TableRights
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
   syntax:
     content: 'public class TableRights : Rights<TableInfo, TableRight>, IDictionary<TableInfo, TableRight>, ICollection<KeyValuePair<TableInfo, TableRight>>, IEnumerable<KeyValuePair<TableInfo, TableRight>>, IEnumerable'
-    content.vb: >-
-      Public Class TableRights
-          Inherits Rights(Of TableInfo, TableRight)
-          Implements IDictionary(Of TableInfo, TableRight), ICollection(Of KeyValuePair(Of TableInfo, TableRight)), IEnumerable(Of KeyValuePair(Of TableInfo, TableRight)), IEnumerable
+    content.vb: Public Class TableRights Inherits Rights(Of TableInfo, TableRight) Implements IDictionary(Of TableInfo, TableRight), ICollection(Of KeyValuePair(Of TableInfo, TableRight)), IEnumerable(Of KeyValuePair(Of TableInfo, TableRight)), IEnumerable
   inheritance:
   - System.Object
   - SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}
@@ -51,17 +45,18 @@ items:
   - SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Item(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Count
   - SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.IsReadOnly
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Security.TableRights.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Security.TableRights.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Security.TableRights.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.TableRights)
   - SuperOffice.CRM.Security.TableRights.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Security.TableRights.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Security.TableRights.GetIntKey(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.CRM.Security.TableRights.GetIntKey(SuperOffice.Data.SQL.TableInfo)
   id: GetIntKey(SuperOffice.Data.SQL.TableInfo)
@@ -73,12 +68,10 @@ items:
   nameWithType: TableRights.GetIntKey(TableInfo)
   fullName: SuperOffice.CRM.Security.TableRights.GetIntKey(SuperOffice.Data.SQL.TableInfo)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
+  example: []
   syntax:
     content: public override int GetIntKey(TableInfo key)
     parameters:
@@ -89,12 +82,6 @@ items:
     content.vb: Public Overrides Function GetIntKey(key As TableInfo) As Integer
   overridden: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.GetIntKey(SuperOffice.Data.SQL.TableInfo)
   overload: SuperOffice.CRM.Security.TableRights.GetIntKey*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Security.TableRights.#ctor
   commentId: M:SuperOffice.CRM.Security.TableRights.#ctor
   id: '#ctor'
@@ -106,38 +93,70 @@ items:
   nameWithType: TableRights.TableRights()
   fullName: SuperOffice.CRM.Security.TableRights.TableRights()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
   syntax:
     content: public TableRights()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Security.TableRights.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: TableRights.New()
+  fullName.vb: SuperOffice.CRM.Security.TableRights.New()
+  name.vb: New()
 references:
 - uid: SuperOffice.CRM.Security
   commentId: N:SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Security
   nameWithType: SuperOffice.CRM.Security
   fullName: SuperOffice.CRM.Security
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.CRM.Security.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.CRM.Security.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}
   commentId: T:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}
   parent: SuperOffice.CRM.Security
   definition: SuperOffice.CRM.Security.Rights`2
+  href: SuperOffice.CRM.Security.Rights-2.html
   name: Rights<TableInfo, TableRight>
   nameWithType: Rights<TableInfo, TableRight>
   fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>
@@ -147,56 +166,42 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Security.Rights`2
     name: Rights
-    nameWithType: Rights
-    fullName: SuperOffice.CRM.Security.Rights
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Security.TableRight
     name: TableRight
-    nameWithType: TableRight
-    fullName: SuperOffice.CRM.Security.TableRight
     isExternal: true
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Security.Rights`2
     name: Rights
-    nameWithType: Rights
-    fullName: SuperOffice.CRM.Security.Rights
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.CRM.Security.Rights-2.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Security.TableRight
     name: TableRight
-    nameWithType: TableRight
-    fullName: SuperOffice.CRM.Security.TableRight
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.IDictionary{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}
-  commentId: '!:System.Collections.Generic.IDictionary{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}'
+  commentId: T:System.Collections.Generic.IDictionary{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.IDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
   name: IDictionary<TableInfo, TableRight>
   nameWithType: IDictionary<TableInfo, TableRight>
   fullName: System.Collections.Generic.IDictionary<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>
@@ -206,56 +211,42 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IDictionary`2
     name: IDictionary
-    nameWithType: IDictionary
-    fullName: System.Collections.Generic.IDictionary
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Security.TableRight
     name: TableRight
-    nameWithType: TableRight
-    fullName: SuperOffice.CRM.Security.TableRight
     isExternal: true
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IDictionary`2
     name: IDictionary
-    nameWithType: IDictionary
-    fullName: System.Collections.Generic.IDictionary
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Security.TableRight
     name: TableRight
-    nameWithType: TableRight
-    fullName: SuperOffice.CRM.Security.TableRight
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}}
-  commentId: '!:System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}}'
+  commentId: T:System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
   name: ICollection<KeyValuePair<TableInfo, TableRight>>
   nameWithType: ICollection<KeyValuePair<TableInfo, TableRight>>
   fullName: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>>
@@ -265,78 +256,56 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.ICollection`1
     name: ICollection
-    nameWithType: ICollection
-    fullName: System.Collections.Generic.ICollection
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Security.TableRight
     name: TableRight
-    nameWithType: TableRight
-    fullName: SuperOffice.CRM.Security.TableRight
     isExternal: true
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.ICollection`1
     name: ICollection
-    nameWithType: ICollection
-    fullName: System.Collections.Generic.ICollection
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Security.TableRight
     name: TableRight
-    nameWithType: TableRight
-    fullName: SuperOffice.CRM.Security.TableRight
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}}
-  commentId: '!:System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}}'
+  commentId: T:System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<KeyValuePair<TableInfo, TableRight>>
   nameWithType: IEnumerable<KeyValuePair<TableInfo, TableRight>>
   fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>>
@@ -346,77 +315,56 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Security.TableRight
     name: TableRight
-    nameWithType: TableRight
-    fullName: SuperOffice.CRM.Security.TableRight
     isExternal: true
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Security.TableRight
     name: TableRight
-    nameWithType: TableRight
-    fullName: SuperOffice.CRM.Security.TableRight
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
   name: IEnumerable
   nameWithType: IEnumerable
   fullName: System.Collections.IEnumerable
@@ -424,253 +372,190 @@ references:
   commentId: M:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Add(SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight)
   parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}
   definition: SuperOffice.CRM.Security.Rights`2.Add(`0,`1)
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Add__0__1_
   name: Add(TableInfo, TableRight)
   nameWithType: Rights<TableInfo, TableRight>.Add(TableInfo, TableRight)
   fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.Add(SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight)
   nameWithType.vb: Rights(Of TableInfo, TableRight).Add(TableInfo, TableRight)
   fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).Add(SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight)
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Rights`2.Add(`0,`1)
+  - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Add(SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight)
     name: Add
-    nameWithType: Rights<TableInfo, TableRight>.Add
-    fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.Add
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Add__0__1_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Security.TableRight
     name: TableRight
-    nameWithType: TableRight
-    fullName: SuperOffice.CRM.Security.TableRight
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Rights`2.Add(`0,`1)
+  - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Add(SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight)
     name: Add
-    nameWithType: Rights(Of TableInfo, TableRight).Add
-    fullName: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).Add
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Add__0__1_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Security.TableRight
     name: TableRight
-    nameWithType: TableRight
-    fullName: SuperOffice.CRM.Security.TableRight
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.GetIntKey(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.GetIntKey(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}
   definition: SuperOffice.CRM.Security.Rights`2.GetIntKey(`0)
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_GetIntKey__0_
   name: GetIntKey(TableInfo)
   nameWithType: Rights<TableInfo, TableRight>.GetIntKey(TableInfo)
   fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.GetIntKey(SuperOffice.Data.SQL.TableInfo)
   nameWithType.vb: Rights(Of TableInfo, TableRight).GetIntKey(TableInfo)
   fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).GetIntKey(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Rights`2.GetIntKey(`0)
+  - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.GetIntKey(SuperOffice.Data.SQL.TableInfo)
     name: GetIntKey
-    nameWithType: Rights<TableInfo, TableRight>.GetIntKey
-    fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.GetIntKey
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_GetIntKey__0_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Rights`2.GetIntKey(`0)
+  - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.GetIntKey(SuperOffice.Data.SQL.TableInfo)
     name: GetIntKey
-    nameWithType: Rights(Of TableInfo, TableRight).GetIntKey
-    fullName: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).GetIntKey
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_GetIntKey__0_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.ContainsKey(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.ContainsKey(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}
   definition: SuperOffice.CRM.Security.Rights`2.ContainsKey(`0)
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_ContainsKey__0_
   name: ContainsKey(TableInfo)
   nameWithType: Rights<TableInfo, TableRight>.ContainsKey(TableInfo)
   fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.ContainsKey(SuperOffice.Data.SQL.TableInfo)
   nameWithType.vb: Rights(Of TableInfo, TableRight).ContainsKey(TableInfo)
   fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).ContainsKey(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Rights`2.ContainsKey(`0)
+  - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.ContainsKey(SuperOffice.Data.SQL.TableInfo)
     name: ContainsKey
-    nameWithType: Rights<TableInfo, TableRight>.ContainsKey
-    fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.ContainsKey
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_ContainsKey__0_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Rights`2.ContainsKey(`0)
+  - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.ContainsKey(SuperOffice.Data.SQL.TableInfo)
     name: ContainsKey
-    nameWithType: Rights(Of TableInfo, TableRight).ContainsKey
-    fullName: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).ContainsKey
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_ContainsKey__0_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Remove(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Remove(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}
   definition: SuperOffice.CRM.Security.Rights`2.Remove(`0)
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Remove__0_
   name: Remove(TableInfo)
   nameWithType: Rights<TableInfo, TableRight>.Remove(TableInfo)
   fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.Remove(SuperOffice.Data.SQL.TableInfo)
   nameWithType.vb: Rights(Of TableInfo, TableRight).Remove(TableInfo)
   fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).Remove(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Rights`2.Remove(`0)
+  - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Remove(SuperOffice.Data.SQL.TableInfo)
     name: Remove
-    nameWithType: Rights<TableInfo, TableRight>.Remove
-    fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.Remove
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Remove__0_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Rights`2.Remove(`0)
+  - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Remove(SuperOffice.Data.SQL.TableInfo)
     name: Remove
-    nameWithType: Rights(Of TableInfo, TableRight).Remove
-    fullName: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).Remove
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Remove__0_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.TryGetValue(SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight@)
   commentId: M:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.TryGetValue(SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight@)
   parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}
   definition: SuperOffice.CRM.Security.Rights`2.TryGetValue(`0,`1@)
-  name: TryGetValue(TableInfo, TableRight)
-  nameWithType: Rights<TableInfo, TableRight>.TryGetValue(TableInfo, TableRight)
-  fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.TryGetValue(SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight)
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_TryGetValue__0__1__
+  name: TryGetValue(TableInfo, out TableRight)
+  nameWithType: Rights<TableInfo, TableRight>.TryGetValue(TableInfo, out TableRight)
+  fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.TryGetValue(SuperOffice.Data.SQL.TableInfo, out SuperOffice.CRM.Security.TableRight)
   nameWithType.vb: Rights(Of TableInfo, TableRight).TryGetValue(TableInfo, TableRight)
   fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).TryGetValue(SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight)
+  name.vb: TryGetValue(TableInfo, TableRight)
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Rights`2.TryGetValue(`0,`1@)
+  - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.TryGetValue(SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight@)
     name: TryGetValue
-    nameWithType: Rights<TableInfo, TableRight>.TryGetValue
-    fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.TryGetValue
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_TryGetValue__0__1__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
   - uid: SuperOffice.CRM.Security.TableRight
     name: TableRight
-    nameWithType: TableRight
-    fullName: SuperOffice.CRM.Security.TableRight
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Rights`2.TryGetValue(`0,`1@)
+  - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.TryGetValue(SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight@)
     name: TryGetValue
-    nameWithType: Rights(Of TableInfo, TableRight).TryGetValue
-    fullName: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).TryGetValue
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_TryGetValue__0__1__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Security.TableRight
     name: TableRight
-    nameWithType: TableRight
-    fullName: SuperOffice.CRM.Security.TableRight
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Add(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight})
   commentId: M:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Add(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight})
   parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}
   definition: SuperOffice.CRM.Security.Rights`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Add_System_Collections_Generic_KeyValuePair__0__1__
   name: Add(KeyValuePair<TableInfo, TableRight>)
   nameWithType: Rights<TableInfo, TableRight>.Add(KeyValuePair<TableInfo, TableRight>)
   fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.Add(System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>)
@@ -678,114 +563,80 @@ references:
   fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).Add(System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight))
   name.vb: Add(KeyValuePair(Of TableInfo, TableRight))
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Rights`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Add(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight})
     name: Add
-    nameWithType: Rights<TableInfo, TableRight>.Add
-    fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.Add
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Add_System_Collections_Generic_KeyValuePair__0__1__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Security.TableRight
     name: TableRight
-    nameWithType: TableRight
-    fullName: SuperOffice.CRM.Security.TableRight
     isExternal: true
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Rights`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Add(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight})
     name: Add
-    nameWithType: Rights(Of TableInfo, TableRight).Add
-    fullName: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).Add
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Add_System_Collections_Generic_KeyValuePair__0__1__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Security.TableRight
     name: TableRight
-    nameWithType: TableRight
-    fullName: SuperOffice.CRM.Security.TableRight
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Clear
   commentId: M:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Clear
   parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}
   definition: SuperOffice.CRM.Security.Rights`2.Clear
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Clear
   name: Clear()
   nameWithType: Rights<TableInfo, TableRight>.Clear()
   fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.Clear()
   nameWithType.vb: Rights(Of TableInfo, TableRight).Clear()
   fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).Clear()
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Rights`2.Clear
+  - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Clear
     name: Clear
-    nameWithType: Rights<TableInfo, TableRight>.Clear
-    fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.Clear
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Clear
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Rights`2.Clear
+  - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Clear
     name: Clear
-    nameWithType: Rights(Of TableInfo, TableRight).Clear
-    fullName: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).Clear
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Clear
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Contains(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight})
   commentId: M:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Contains(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight})
   parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}
   definition: SuperOffice.CRM.Security.Rights`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Contains_System_Collections_Generic_KeyValuePair__0__1__
   name: Contains(KeyValuePair<TableInfo, TableRight>)
   nameWithType: Rights<TableInfo, TableRight>.Contains(KeyValuePair<TableInfo, TableRight>)
   fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.Contains(System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>)
@@ -793,185 +644,129 @@ references:
   fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).Contains(System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight))
   name.vb: Contains(KeyValuePair(Of TableInfo, TableRight))
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Rights`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Contains(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight})
     name: Contains
-    nameWithType: Rights<TableInfo, TableRight>.Contains
-    fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.Contains
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Contains_System_Collections_Generic_KeyValuePair__0__1__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Security.TableRight
     name: TableRight
-    nameWithType: TableRight
-    fullName: SuperOffice.CRM.Security.TableRight
     isExternal: true
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Rights`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Contains(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight})
     name: Contains
-    nameWithType: Rights(Of TableInfo, TableRight).Contains
-    fullName: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).Contains
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Contains_System_Collections_Generic_KeyValuePair__0__1__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Security.TableRight
     name: TableRight
-    nameWithType: TableRight
-    fullName: SuperOffice.CRM.Security.TableRight
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.CopyTo(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}[],System.Int32)
   commentId: M:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.CopyTo(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}[],System.Int32)
   parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}
   definition: SuperOffice.CRM.Security.Rights`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
-  name: CopyTo(KeyValuePair<TableInfo, TableRight>[], Int32)
-  nameWithType: Rights<TableInfo, TableRight>.CopyTo(KeyValuePair<TableInfo, TableRight>[], Int32)
-  fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.CopyTo(System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>[], System.Int32)
-  nameWithType.vb: Rights(Of TableInfo, TableRight).CopyTo(KeyValuePair(Of TableInfo, TableRight)(), Int32)
-  fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).CopyTo(System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight)(), System.Int32)
-  name.vb: CopyTo(KeyValuePair(Of TableInfo, TableRight)(), Int32)
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_CopyTo_System_Collections_Generic_KeyValuePair__0__1____System_Int32_
+  name: CopyTo(KeyValuePair<TableInfo, TableRight>[], int)
+  nameWithType: Rights<TableInfo, TableRight>.CopyTo(KeyValuePair<TableInfo, TableRight>[], int)
+  fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.CopyTo(System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>[], int)
+  nameWithType.vb: Rights(Of TableInfo, TableRight).CopyTo(KeyValuePair(Of TableInfo, TableRight)(), Integer)
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).CopyTo(System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight)(), Integer)
+  name.vb: CopyTo(KeyValuePair(Of TableInfo, TableRight)(), Integer)
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Rights`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+  - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.CopyTo(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}[],System.Int32)
     name: CopyTo
-    nameWithType: Rights<TableInfo, TableRight>.CopyTo
-    fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.CopyTo
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_CopyTo_System_Collections_Generic_KeyValuePair__0__1____System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Security.TableRight
     name: TableRight
-    nameWithType: TableRight
-    fullName: SuperOffice.CRM.Security.TableRight
     isExternal: true
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Rights`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+  - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.CopyTo(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}[],System.Int32)
     name: CopyTo
-    nameWithType: Rights(Of TableInfo, TableRight).CopyTo
-    fullName: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).CopyTo
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_CopyTo_System_Collections_Generic_KeyValuePair__0__1____System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Security.TableRight
     name: TableRight
-    nameWithType: TableRight
-    fullName: SuperOffice.CRM.Security.TableRight
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Remove(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight})
   commentId: M:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Remove(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight})
   parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}
   definition: SuperOffice.CRM.Security.Rights`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Remove_System_Collections_Generic_KeyValuePair__0__1__
   name: Remove(KeyValuePair<TableInfo, TableRight>)
   nameWithType: Rights<TableInfo, TableRight>.Remove(KeyValuePair<TableInfo, TableRight>)
   fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.Remove(System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>)
@@ -979,114 +774,80 @@ references:
   fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).Remove(System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight))
   name.vb: Remove(KeyValuePair(Of TableInfo, TableRight))
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Rights`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Remove(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight})
     name: Remove
-    nameWithType: Rights<TableInfo, TableRight>.Remove
-    fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.Remove
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Remove_System_Collections_Generic_KeyValuePair__0__1__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Security.TableRight
     name: TableRight
-    nameWithType: TableRight
-    fullName: SuperOffice.CRM.Security.TableRight
     isExternal: true
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Rights`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Remove(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight})
     name: Remove
-    nameWithType: Rights(Of TableInfo, TableRight).Remove
-    fullName: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).Remove
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Remove_System_Collections_Generic_KeyValuePair__0__1__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Security.TableRight
     name: TableRight
-    nameWithType: TableRight
-    fullName: SuperOffice.CRM.Security.TableRight
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.GetEnumerator
   commentId: M:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.GetEnumerator
   parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}
   definition: SuperOffice.CRM.Security.Rights`2.GetEnumerator
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_GetEnumerator
   name: GetEnumerator()
   nameWithType: Rights<TableInfo, TableRight>.GetEnumerator()
   fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.GetEnumerator()
   nameWithType.vb: Rights(Of TableInfo, TableRight).GetEnumerator()
   fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).GetEnumerator()
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Rights`2.GetEnumerator
+  - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.GetEnumerator
     name: GetEnumerator
-    nameWithType: Rights<TableInfo, TableRight>.GetEnumerator
-    fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.GetEnumerator
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_GetEnumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Rights`2.GetEnumerator
+  - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.GetEnumerator
     name: GetEnumerator
-    nameWithType: Rights(Of TableInfo, TableRight).GetEnumerator
-    fullName: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).GetEnumerator
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_GetEnumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Keys
   commentId: P:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Keys
   parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}
   definition: SuperOffice.CRM.Security.Rights`2.Keys
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Keys
   name: Keys
   nameWithType: Rights<TableInfo, TableRight>.Keys
   fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.Keys
@@ -1096,6 +857,7 @@ references:
   commentId: P:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Values
   parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}
   definition: SuperOffice.CRM.Security.Rights`2.Values
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Values
   name: Values
   nameWithType: Rights<TableInfo, TableRight>.Values
   fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.Values
@@ -1105,50 +867,37 @@ references:
   commentId: P:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Item(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}
   definition: SuperOffice.CRM.Security.Rights`2.Item(`0)
-  name: Item[TableInfo]
-  nameWithType: Rights<TableInfo, TableRight>.Item[TableInfo]
-  fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.Item[SuperOffice.Data.SQL.TableInfo]
-  nameWithType.vb: Rights(Of TableInfo, TableRight).Item(TableInfo)
-  fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).Item(SuperOffice.Data.SQL.TableInfo)
-  name.vb: Item(TableInfo)
+  href: SuperOffice.Data.SQL.TableInfo.html
+  name: this[TableInfo]
+  nameWithType: Rights<TableInfo, TableRight>.this[TableInfo]
+  fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.this[SuperOffice.Data.SQL.TableInfo]
+  nameWithType.vb: Rights(Of TableInfo, TableRight).this[](TableInfo)
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).this[](SuperOffice.Data.SQL.TableInfo)
+  name.vb: this[](TableInfo)
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Rights`2.Item(`0)
-    name: Item
-    nameWithType: Rights<TableInfo, TableRight>.Item
-    fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.Item
-    isExternal: true
+  - name: this
   - name: '['
-    nameWithType: '['
-    fullName: '['
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
   - name: ']'
-    nameWithType: ']'
-    fullName: ']'
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Rights`2.Item(`0)
-    name: Item
-    nameWithType: Rights(Of TableInfo, TableRight).Item
-    fullName: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).Item
+  - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Item(SuperOffice.Data.SQL.TableInfo)
+    name: this[]
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Item__0_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Count
   commentId: P:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.Count
   parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}
   definition: SuperOffice.CRM.Security.Rights`2.Count
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Count
   name: Count
   nameWithType: Rights<TableInfo, TableRight>.Count
   fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.Count
@@ -1158,166 +907,454 @@ references:
   commentId: P:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}.IsReadOnly
   parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight}
   definition: SuperOffice.CRM.Security.Rights`2.IsReadOnly
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_IsReadOnly
   name: IsReadOnly
   nameWithType: Rights<TableInfo, TableRight>.IsReadOnly
   fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight>.IsReadOnly
   nameWithType.vb: Rights(Of TableInfo, TableRight).IsReadOnly
   fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight).IsReadOnly
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Security.TableRights.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<TableRights, To>()
-  nameWithType: EnumUtil.MapEnums<TableRights, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.TableRights, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of TableRights, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.TableRights, To)()
-  name.vb: MapEnums(Of TableRights, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<TableRights, To>(TableRights)
+  nameWithType: EnumUtil.MapEnums<TableRights, To>(TableRights)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.TableRights, To>(SuperOffice.CRM.Security.TableRights)
+  nameWithType.vb: EnumUtil.MapEnums(Of TableRights, To)(TableRights)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.TableRights, To)(SuperOffice.CRM.Security.TableRights)
+  name.vb: MapEnums(Of TableRights, To)(TableRights)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<TableRights, To>
-    nameWithType: EnumUtil.MapEnums<TableRights, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.TableRights, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Security.TableRights)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of TableRights, To)
-    nameWithType: EnumUtil.MapEnums(Of TableRights, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.TableRights, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Security.TableRights.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.TableRights)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<TableRights>(TableRights)
-  nameWithType: ObjectExtensions.AssignByReflection<TableRights>(TableRights)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Security.TableRights>(SuperOffice.CRM.Security.TableRights)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TableRights)(TableRights)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Security.TableRights)(SuperOffice.CRM.Security.TableRights)
-  name.vb: AssignByReflection(Of TableRights)(TableRights)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<TableRights>
-    nameWithType: ObjectExtensions.AssignByReflection<TableRights>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Security.TableRights>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.Security.TableRights
     name: TableRights
-    nameWithType: TableRights
-    fullName: SuperOffice.CRM.Security.TableRights
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of TableRights)
-    nameWithType: ObjectExtensions.AssignByReflection(Of TableRights)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Security.TableRights)
-    isExternal: true
+    href: SuperOffice.CRM.Security.TableRights.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Security.TableRights
     name: TableRights
-    nameWithType: TableRights
-    fullName: SuperOffice.CRM.Security.TableRights
     isExternal: true
+    href: SuperOffice.CRM.Security.TableRights.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Security.TableRights.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<TableRights>()
-  nameWithType: ObjectExtensions.GraphCopy<TableRights>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Security.TableRights>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of TableRights)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Security.TableRights)()
-  name.vb: GraphCopy(Of TableRights)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<TableRights>
-    nameWithType: ObjectExtensions.GraphCopy<TableRights>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Security.TableRights>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of TableRights)
-    nameWithType: ObjectExtensions.GraphCopy(Of TableRights)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Security.TableRights)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Security.TableRights)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Security.TableRights
+    name: TableRights
+    isExternal: true
+    href: SuperOffice.CRM.Security.TableRights.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Security.TableRights
+    name: TableRights
+    isExternal: true
+    href: SuperOffice.CRM.Security.TableRights.html
+  - name: )
 - uid: SuperOffice.CRM.Security.TableRights.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<TableRights, To>()
-  nameWithType: Converters.MapEnums<TableRights, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.TableRights, To>()
-  nameWithType.vb: Converters.MapEnums(Of TableRights, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.TableRights, To)()
-  name.vb: MapEnums(Of TableRights, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<TableRights, To>(TableRights)
+  nameWithType: Converters.MapEnums<TableRights, To>(TableRights)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.TableRights, To>(SuperOffice.CRM.Security.TableRights)
+  nameWithType.vb: Converters.MapEnums(Of TableRights, To)(TableRights)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.TableRights, To)(SuperOffice.CRM.Security.TableRights)
+  name.vb: MapEnums(Of TableRights, To)(TableRights)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<TableRights, To>
-    nameWithType: Converters.MapEnums<TableRights, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.TableRights, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Security.TableRights)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Security.TableRights
+    name: TableRights
+    isExternal: true
+    href: SuperOffice.CRM.Security.TableRights.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Security.TableRights
+    name: TableRights
+    isExternal: true
+    href: SuperOffice.CRM.Security.TableRights.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of TableRights, To)
-    nameWithType: Converters.MapEnums(Of TableRights, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.TableRights, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Security.TableRights)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Security.TableRights
+    name: TableRights
+    isExternal: true
+    href: SuperOffice.CRM.Security.TableRights.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Security.TableRights
+    name: TableRights
+    isExternal: true
+    href: SuperOffice.CRM.Security.TableRights.html
+  - name: )
+- uid: SuperOffice.CRM.Security.TableRights.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.TableRights)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<TableRights>(TableRights, TableRights)
+  nameWithType: ObjectExtensions.AssignByReflection<TableRights>(TableRights, TableRights)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Security.TableRights>(SuperOffice.CRM.Security.TableRights, SuperOffice.CRM.Security.TableRights)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TableRights)(TableRights, TableRights)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Security.TableRights)(SuperOffice.CRM.Security.TableRights, SuperOffice.CRM.Security.TableRights)
+  name.vb: AssignByReflection(Of TableRights)(TableRights, TableRights)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.TableRights,SuperOffice.CRM.Security.TableRights)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Security.TableRights
+    name: TableRights
+    isExternal: true
+    href: SuperOffice.CRM.Security.TableRights.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Security.TableRights
+    name: TableRights
+    isExternal: true
+    href: SuperOffice.CRM.Security.TableRights.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Security.TableRights
+    name: TableRights
+    isExternal: true
+    href: SuperOffice.CRM.Security.TableRights.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.TableRights,SuperOffice.CRM.Security.TableRights)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Security.TableRights
+    name: TableRights
+    isExternal: true
+    href: SuperOffice.CRM.Security.TableRights.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Security.TableRights
+    name: TableRights
+    isExternal: true
+    href: SuperOffice.CRM.Security.TableRights.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Security.TableRights
+    name: TableRights
+    isExternal: true
+    href: SuperOffice.CRM.Security.TableRights.html
+  - name: )
+- uid: SuperOffice.CRM.Security.TableRights.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<TableRights>(TableRights)
+  nameWithType: ObjectExtensions.GraphCopy<TableRights>(TableRights)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Security.TableRights>(SuperOffice.CRM.Security.TableRights)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TableRights)(TableRights)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Security.TableRights)(SuperOffice.CRM.Security.TableRights)
+  name.vb: GraphCopy(Of TableRights)(TableRights)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Security.TableRights)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Security.TableRights
+    name: TableRights
+    isExternal: true
+    href: SuperOffice.CRM.Security.TableRights.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Security.TableRights
+    name: TableRights
+    isExternal: true
+    href: SuperOffice.CRM.Security.TableRights.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Security.TableRights)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Security.TableRights
+    name: TableRights
+    isExternal: true
+    href: SuperOffice.CRM.Security.TableRights.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Security.TableRights
+    name: TableRights
+    isExternal: true
+    href: SuperOffice.CRM.Security.TableRights.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Security.Rights`2
   commentId: T:SuperOffice.CRM.Security.Rights`2
   isExternal: true
+  href: SuperOffice.CRM.Security.Rights-2.html
   name: Rights<TKey, TValue>
   nameWithType: Rights<TKey, TValue>
   fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>
@@ -1327,174 +1364,185 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Security.Rights`2
     name: Rights
-    nameWithType: Rights
-    fullName: SuperOffice.CRM.Security.Rights
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TValue
-    nameWithType: TValue
-    fullName: TValue
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Security.Rights`2
     name: Rights
-    nameWithType: Rights
-    fullName: SuperOffice.CRM.Security.Rights
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.CRM.Security.Rights-2.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TValue
-    nameWithType: TValue
-    fullName: TValue
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
   isExternal: true
-  name: IDictionary<, >
-  nameWithType: IDictionary<, >
-  fullName: System.Collections.Generic.IDictionary<, >
-  nameWithType.vb: IDictionary(Of , )
-  fullName.vb: System.Collections.Generic.IDictionary(Of , )
-  name.vb: IDictionary(Of , )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
   spec.csharp:
   - uid: System.Collections.Generic.IDictionary`2
     name: IDictionary
-    nameWithType: IDictionary
-    fullName: System.Collections.Generic.IDictionary
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IDictionary`2
     name: IDictionary
-    nameWithType: IDictionary
-    fullName: System.Collections.Generic.IDictionary
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
   isExternal: true
-  name: ICollection<>
-  nameWithType: ICollection<>
-  fullName: System.Collections.Generic.ICollection<>
-  nameWithType.vb: ICollection(Of )
-  fullName.vb: System.Collections.Generic.ICollection(Of )
-  name.vb: ICollection(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
   spec.csharp:
   - uid: System.Collections.Generic.ICollection`1
     name: ICollection
-    nameWithType: ICollection
-    fullName: System.Collections.Generic.ICollection
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.ICollection`1
     name: ICollection
-    nameWithType: ICollection
-    fullName: System.Collections.Generic.ICollection
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
 - uid: SuperOffice.CRM.Security.Rights`2.Add(`0,`1)
   commentId: M:SuperOffice.CRM.Security.Rights`2.Add(`0,`1)
   isExternal: true
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Add__0__1_
   name: Add(TKey, TValue)
   nameWithType: Rights<TKey, TValue>.Add(TKey, TValue)
   fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Add(TKey, TValue)
@@ -1503,48 +1551,29 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Security.Rights`2.Add(`0,`1)
     name: Add
-    nameWithType: Rights<TKey, TValue>.Add
-    fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Add
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Add__0__1_
   - name: (
-    nameWithType: (
-    fullName: (
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TValue
-    nameWithType: TValue
-    fullName: TValue
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Security.Rights`2.Add(`0,`1)
     name: Add
-    nameWithType: Rights(Of TKey, TValue).Add
-    fullName: SuperOffice.CRM.Security.Rights(Of TKey, TValue).Add
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Add__0__1_
   - name: (
-    nameWithType: (
-    fullName: (
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TValue
-    nameWithType: TValue
-    fullName: TValue
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Rights`2.GetIntKey(`0)
   commentId: M:SuperOffice.CRM.Security.Rights`2.GetIntKey(`0)
   isExternal: true
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_GetIntKey__0_
   name: GetIntKey(TKey)
   nameWithType: Rights<TKey, TValue>.GetIntKey(TKey)
   fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.GetIntKey(TKey)
@@ -1553,36 +1582,23 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Security.Rights`2.GetIntKey(`0)
     name: GetIntKey
-    nameWithType: Rights<TKey, TValue>.GetIntKey
-    fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.GetIntKey
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_GetIntKey__0_
   - name: (
-    nameWithType: (
-    fullName: (
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Security.Rights`2.GetIntKey(`0)
     name: GetIntKey
-    nameWithType: Rights(Of TKey, TValue).GetIntKey
-    fullName: SuperOffice.CRM.Security.Rights(Of TKey, TValue).GetIntKey
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_GetIntKey__0_
   - name: (
-    nameWithType: (
-    fullName: (
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Rights`2.ContainsKey(`0)
   commentId: M:SuperOffice.CRM.Security.Rights`2.ContainsKey(`0)
   isExternal: true
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_ContainsKey__0_
   name: ContainsKey(TKey)
   nameWithType: Rights<TKey, TValue>.ContainsKey(TKey)
   fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.ContainsKey(TKey)
@@ -1591,36 +1607,23 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Security.Rights`2.ContainsKey(`0)
     name: ContainsKey
-    nameWithType: Rights<TKey, TValue>.ContainsKey
-    fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.ContainsKey
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_ContainsKey__0_
   - name: (
-    nameWithType: (
-    fullName: (
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Security.Rights`2.ContainsKey(`0)
     name: ContainsKey
-    nameWithType: Rights(Of TKey, TValue).ContainsKey
-    fullName: SuperOffice.CRM.Security.Rights(Of TKey, TValue).ContainsKey
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_ContainsKey__0_
   - name: (
-    nameWithType: (
-    fullName: (
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Rights`2.Remove(`0)
   commentId: M:SuperOffice.CRM.Security.Rights`2.Remove(`0)
   isExternal: true
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Remove__0_
   name: Remove(TKey)
   nameWithType: Rights<TKey, TValue>.Remove(TKey)
   fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Remove(TKey)
@@ -1629,86 +1632,57 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Security.Rights`2.Remove(`0)
     name: Remove
-    nameWithType: Rights<TKey, TValue>.Remove
-    fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Remove
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Remove__0_
   - name: (
-    nameWithType: (
-    fullName: (
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Security.Rights`2.Remove(`0)
     name: Remove
-    nameWithType: Rights(Of TKey, TValue).Remove
-    fullName: SuperOffice.CRM.Security.Rights(Of TKey, TValue).Remove
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Remove__0_
   - name: (
-    nameWithType: (
-    fullName: (
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Rights`2.TryGetValue(`0,`1@)
   commentId: M:SuperOffice.CRM.Security.Rights`2.TryGetValue(`0,`1@)
   isExternal: true
-  name: TryGetValue(TKey, TValue)
-  nameWithType: Rights<TKey, TValue>.TryGetValue(TKey, TValue)
-  fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.TryGetValue(TKey, TValue)
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_TryGetValue__0__1__
+  name: TryGetValue(TKey, out TValue)
+  nameWithType: Rights<TKey, TValue>.TryGetValue(TKey, out TValue)
+  fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.TryGetValue(TKey, out TValue)
   nameWithType.vb: Rights(Of TKey, TValue).TryGetValue(TKey, TValue)
   fullName.vb: SuperOffice.CRM.Security.Rights(Of TKey, TValue).TryGetValue(TKey, TValue)
+  name.vb: TryGetValue(TKey, TValue)
   spec.csharp:
   - uid: SuperOffice.CRM.Security.Rights`2.TryGetValue(`0,`1@)
     name: TryGetValue
-    nameWithType: Rights<TKey, TValue>.TryGetValue
-    fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.TryGetValue
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_TryGetValue__0__1__
   - name: (
-    nameWithType: (
-    fullName: (
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
   - name: TValue
-    nameWithType: TValue
-    fullName: TValue
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Security.Rights`2.TryGetValue(`0,`1@)
     name: TryGetValue
-    nameWithType: Rights(Of TKey, TValue).TryGetValue
-    fullName: SuperOffice.CRM.Security.Rights(Of TKey, TValue).TryGetValue
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_TryGetValue__0__1__
   - name: (
-    nameWithType: (
-    fullName: (
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TValue
-    nameWithType: TValue
-    fullName: TValue
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Rights`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})
   commentId: M:SuperOffice.CRM.Security.Rights`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})
   isExternal: true
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Add_System_Collections_Generic_KeyValuePair__0__1__
   name: Add(KeyValuePair<TKey, TValue>)
   nameWithType: Rights<TKey, TValue>.Add(KeyValuePair<TKey, TValue>)
   fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Add(System.Collections.Generic.KeyValuePair<TKey, TValue>)
@@ -1718,70 +1692,43 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Security.Rights`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})
     name: Add
-    nameWithType: Rights<TKey, TValue>.Add
-    fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Add
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Add_System_Collections_Generic_KeyValuePair__0__1__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TValue
-    nameWithType: TValue
-    fullName: TValue
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Security.Rights`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})
     name: Add
-    nameWithType: Rights(Of TKey, TValue).Add
-    fullName: SuperOffice.CRM.Security.Rights(Of TKey, TValue).Add
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Add_System_Collections_Generic_KeyValuePair__0__1__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TValue
-    nameWithType: TValue
-    fullName: TValue
   - name: )
-    nameWithType: )
-    fullName: )
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Rights`2.Clear
   commentId: M:SuperOffice.CRM.Security.Rights`2.Clear
   isExternal: true
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Clear
   name: Clear()
   nameWithType: Rights<TKey, TValue>.Clear()
   fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Clear()
@@ -1790,30 +1737,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Security.Rights`2.Clear
     name: Clear
-    nameWithType: Rights<TKey, TValue>.Clear
-    fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Clear
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Clear
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Security.Rights`2.Clear
     name: Clear
-    nameWithType: Rights(Of TKey, TValue).Clear
-    fullName: SuperOffice.CRM.Security.Rights(Of TKey, TValue).Clear
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Clear
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Rights`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
   commentId: M:SuperOffice.CRM.Security.Rights`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
   isExternal: true
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Contains_System_Collections_Generic_KeyValuePair__0__1__
   name: Contains(KeyValuePair<TKey, TValue>)
   nameWithType: Rights<TKey, TValue>.Contains(KeyValuePair<TKey, TValue>)
   fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Contains(System.Collections.Generic.KeyValuePair<TKey, TValue>)
@@ -1823,165 +1761,105 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Security.Rights`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
     name: Contains
-    nameWithType: Rights<TKey, TValue>.Contains
-    fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Contains
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Contains_System_Collections_Generic_KeyValuePair__0__1__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TValue
-    nameWithType: TValue
-    fullName: TValue
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Security.Rights`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
     name: Contains
-    nameWithType: Rights(Of TKey, TValue).Contains
-    fullName: SuperOffice.CRM.Security.Rights(Of TKey, TValue).Contains
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Contains_System_Collections_Generic_KeyValuePair__0__1__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TValue
-    nameWithType: TValue
-    fullName: TValue
   - name: )
-    nameWithType: )
-    fullName: )
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Rights`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
   commentId: M:SuperOffice.CRM.Security.Rights`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
   isExternal: true
-  name: CopyTo(KeyValuePair<TKey, TValue>[], Int32)
-  nameWithType: Rights<TKey, TValue>.CopyTo(KeyValuePair<TKey, TValue>[], Int32)
-  fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.CopyTo(System.Collections.Generic.KeyValuePair<TKey, TValue>[], System.Int32)
-  nameWithType.vb: Rights(Of TKey, TValue).CopyTo(KeyValuePair(Of TKey, TValue)(), Int32)
-  fullName.vb: SuperOffice.CRM.Security.Rights(Of TKey, TValue).CopyTo(System.Collections.Generic.KeyValuePair(Of TKey, TValue)(), System.Int32)
-  name.vb: CopyTo(KeyValuePair(Of TKey, TValue)(), Int32)
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_CopyTo_System_Collections_Generic_KeyValuePair__0__1____System_Int32_
+  name: CopyTo(KeyValuePair<TKey, TValue>[], int)
+  nameWithType: Rights<TKey, TValue>.CopyTo(KeyValuePair<TKey, TValue>[], int)
+  fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.CopyTo(System.Collections.Generic.KeyValuePair<TKey, TValue>[], int)
+  nameWithType.vb: Rights(Of TKey, TValue).CopyTo(KeyValuePair(Of TKey, TValue)(), Integer)
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of TKey, TValue).CopyTo(System.Collections.Generic.KeyValuePair(Of TKey, TValue)(), Integer)
+  name.vb: CopyTo(KeyValuePair(Of TKey, TValue)(), Integer)
   spec.csharp:
   - uid: SuperOffice.CRM.Security.Rights`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
     name: CopyTo
-    nameWithType: Rights<TKey, TValue>.CopyTo
-    fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.CopyTo
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_CopyTo_System_Collections_Generic_KeyValuePair__0__1____System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TValue
-    nameWithType: TValue
-    fullName: TValue
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Security.Rights`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
     name: CopyTo
-    nameWithType: Rights(Of TKey, TValue).CopyTo
-    fullName: SuperOffice.CRM.Security.Rights(Of TKey, TValue).CopyTo
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_CopyTo_System_Collections_Generic_KeyValuePair__0__1____System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TValue
-    nameWithType: TValue
-    fullName: TValue
   - name: )
-    nameWithType: )
-    fullName: )
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Rights`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
   commentId: M:SuperOffice.CRM.Security.Rights`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
   isExternal: true
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Remove_System_Collections_Generic_KeyValuePair__0__1__
   name: Remove(KeyValuePair<TKey, TValue>)
   nameWithType: Rights<TKey, TValue>.Remove(KeyValuePair<TKey, TValue>)
   fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Remove(System.Collections.Generic.KeyValuePair<TKey, TValue>)
@@ -1991,70 +1869,43 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Security.Rights`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
     name: Remove
-    nameWithType: Rights<TKey, TValue>.Remove
-    fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Remove
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Remove_System_Collections_Generic_KeyValuePair__0__1__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TValue
-    nameWithType: TValue
-    fullName: TValue
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Security.Rights`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
     name: Remove
-    nameWithType: Rights(Of TKey, TValue).Remove
-    fullName: SuperOffice.CRM.Security.Rights(Of TKey, TValue).Remove
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Remove_System_Collections_Generic_KeyValuePair__0__1__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TValue
-    nameWithType: TValue
-    fullName: TValue
   - name: )
-    nameWithType: )
-    fullName: )
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Rights`2.GetEnumerator
   commentId: M:SuperOffice.CRM.Security.Rights`2.GetEnumerator
   isExternal: true
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_GetEnumerator
   name: GetEnumerator()
   nameWithType: Rights<TKey, TValue>.GetEnumerator()
   fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.GetEnumerator()
@@ -2063,30 +1914,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Security.Rights`2.GetEnumerator
     name: GetEnumerator
-    nameWithType: Rights<TKey, TValue>.GetEnumerator
-    fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.GetEnumerator
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_GetEnumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Security.Rights`2.GetEnumerator
     name: GetEnumerator
-    nameWithType: Rights(Of TKey, TValue).GetEnumerator
-    fullName: SuperOffice.CRM.Security.Rights(Of TKey, TValue).GetEnumerator
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_GetEnumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Rights`2.Keys
   commentId: P:SuperOffice.CRM.Security.Rights`2.Keys
   isExternal: true
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Keys
   name: Keys
   nameWithType: Rights<TKey, TValue>.Keys
   fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Keys
@@ -2095,6 +1937,7 @@ references:
 - uid: SuperOffice.CRM.Security.Rights`2.Values
   commentId: P:SuperOffice.CRM.Security.Rights`2.Values
   isExternal: true
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Values
   name: Values
   nameWithType: Rights<TKey, TValue>.Values
   fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Values
@@ -2103,45 +1946,30 @@ references:
 - uid: SuperOffice.CRM.Security.Rights`2.Item(`0)
   commentId: P:SuperOffice.CRM.Security.Rights`2.Item(`0)
   isExternal: true
-  name: Item[TKey]
-  nameWithType: Rights<TKey, TValue>.Item[TKey]
-  fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Item[TKey]
-  nameWithType.vb: Rights(Of TKey, TValue).Item(TKey)
-  fullName.vb: SuperOffice.CRM.Security.Rights(Of TKey, TValue).Item(TKey)
-  name.vb: Item(TKey)
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Item__0_
+  name: this[TKey]
+  nameWithType: Rights<TKey, TValue>.this[TKey]
+  fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.this[TKey]
+  nameWithType.vb: Rights(Of TKey, TValue).this[](TKey)
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of TKey, TValue).this[](TKey)
+  name.vb: this[](TKey)
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Rights`2.Item(`0)
-    name: Item
-    nameWithType: Rights<TKey, TValue>.Item
-    fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Item
-    isExternal: true
+  - name: this
   - name: '['
-    nameWithType: '['
-    fullName: '['
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
   - name: ']'
-    nameWithType: ']'
-    fullName: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Security.Rights`2.Item(`0)
-    name: Item
-    nameWithType: Rights(Of TKey, TValue).Item
-    fullName: SuperOffice.CRM.Security.Rights(Of TKey, TValue).Item
+    name: this[]
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Item__0_
   - name: (
-    nameWithType: (
-    fullName: (
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Rights`2.Count
   commentId: P:SuperOffice.CRM.Security.Rights`2.Count
   isExternal: true
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_Count
   name: Count
   nameWithType: Rights<TKey, TValue>.Count
   fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Count
@@ -2150,6 +1978,7 @@ references:
 - uid: SuperOffice.CRM.Security.Rights`2.IsReadOnly
   commentId: P:SuperOffice.CRM.Security.Rights`2.IsReadOnly
   isExternal: true
+  href: SuperOffice.CRM.Security.Rights-2.html#SuperOffice_CRM_Security_Rights_2_IsReadOnly
   name: IsReadOnly
   nameWithType: Rights<TKey, TValue>.IsReadOnly
   fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.IsReadOnly
@@ -2158,6 +1987,7 @@ references:
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -2166,140 +1996,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -2308,56 +2043,192 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.CRM.Security.TableRights.GetIntKey*
   commentId: Overload:SuperOffice.CRM.Security.TableRights.GetIntKey
   isExternal: true
+  href: SuperOffice.CRM.Security.TableRights.html#SuperOffice_CRM_Security_TableRights_GetIntKey_SuperOffice_Data_SQL_TableInfo_
   name: GetIntKey
   nameWithType: TableRights.GetIntKey
   fullName: SuperOffice.CRM.Security.TableRights.GetIntKey
@@ -2365,6 +2236,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
@@ -2372,18 +2244,57 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
 - uid: SuperOffice.CRM.Security.TableRights.#ctor*
   commentId: Overload:SuperOffice.CRM.Security.TableRights.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Security.TableRights.html#SuperOffice_CRM_Security_TableRights__ctor
   name: TableRights
   nameWithType: TableRights.TableRights
   fullName: SuperOffice.CRM.Security.TableRights.TableRights
+  nameWithType.vb: TableRights.New
+  fullName.vb: SuperOffice.CRM.Security.TableRights.New
+  name.vb: New

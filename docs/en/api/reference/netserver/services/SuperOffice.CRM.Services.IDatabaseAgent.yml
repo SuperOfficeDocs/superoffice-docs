@@ -5,8 +5,8 @@ items:
   id: IDatabaseAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCode
-  - SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabase
+  - SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCodeAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabaseAsync(System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -14,15 +14,28 @@ items:
   nameWithType: IDatabaseAgent
   fullName: SuperOffice.CRM.Services.IDatabaseAgent
   type: Interface
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nInterface for the Database Agent\nDatabase schema queries and changes\n"
+  summary: >-
+    Interface for the Database Agent
+
+    Database schema queries and changes
   example:
-  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (DatabaseAgent agent = new DatabaseAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  - >-
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       using (DatabaseAgent agent = new DatabaseAgent())
+       {
+          // call methods on agent here...
+       }
+    }</code></pre>
   syntax:
     content: >-
       [Agent("Database Agent", "Interface for the Database Agent. Database schema queries and changes")]
@@ -31,8 +44,7 @@ items:
     content.vb: >-
       <Agent("Database Agent", "Interface for the Database Agent. Database schema queries and changes")>
 
-      Public Interface IDatabaseAgent
-          Inherits IAgent
+      Public Interface IDatabaseAgent Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
     ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
@@ -41,104 +53,246 @@ items:
       value: Database Agent
     - type: System.String
       value: Interface for the Database Agent. Database schema queries and changes
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
-- uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabase
-  commentId: M:SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabase
-  id: GetStepsInDatabase
+- uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabaseAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabaseAsync(System.Threading.CancellationToken)
+  id: GetStepsInDatabaseAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDatabaseAgent
   langs:
   - csharp
   - vb
-  name: GetStepsInDatabase()
-  nameWithType: IDatabaseAgent.GetStepsInDatabase()
-  fullName: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabase()
+  name: GetStepsInDatabaseAsync(CancellationToken)
+  nameWithType: IDatabaseAgent.GetStepsInDatabaseAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabaseAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet information about the dictionary steps that are in the currently-loggedon database\n"
+  summary: Get information about the dictionary steps that are in the currently-loggedon database
+  example: []
   syntax:
-    content: DictionaryStepInformation[] GetStepsInDatabase()
+    content: Task<DictionaryStepInformation[]> GetStepsInDatabaseAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.DictionaryStepInformation[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DictionaryStepInformation[]}
       description: Array of dictionary steps in the database, listing only the highest number for each step
-    content.vb: Function GetStepsInDatabase As DictionaryStepInformation()
-  overload: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabase*
-- uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCode
-  commentId: M:SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCode
-  id: GetStepsFromNetServerCode
+    content.vb: Function GetStepsInDatabaseAsync(cancellationToken As CancellationToken = Nothing) As Task(Of DictionaryStepInformation())
+  overload: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabaseAsync*
+- uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCodeAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCodeAsync(System.Threading.CancellationToken)
+  id: GetStepsFromNetServerCodeAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDatabaseAgent
   langs:
   - csharp
   - vb
-  name: GetStepsFromNetServerCode()
-  nameWithType: IDatabaseAgent.GetStepsFromNetServerCode()
-  fullName: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCode()
+  name: GetStepsFromNetServerCodeAsync(CancellationToken)
+  nameWithType: IDatabaseAgent.GetStepsFromNetServerCodeAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCodeAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet information about the dictionary steps that NetServer was generated for\n"
+  summary: Get information about the dictionary steps that NetServer was generated for
+  example: []
   syntax:
-    content: DictionaryStepInformation[] GetStepsFromNetServerCode()
+    content: Task<DictionaryStepInformation[]> GetStepsFromNetServerCodeAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.DictionaryStepInformation[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DictionaryStepInformation[]}
       description: Array of dictionary steps used when NetServer was generated, listing only the highest number for each step
-    content.vb: Function GetStepsFromNetServerCode As DictionaryStepInformation()
-  overload: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCode*
+    content.vb: Function GetStepsFromNetServerCodeAsync(cancellationToken As CancellationToken = Nothing) As Task(Of DictionaryStepInformation())
+  overload: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCodeAsync*
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabase*
-  commentId: Overload:SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabase
-  isExternal: true
-  name: GetStepsInDatabase
-  nameWithType: IDatabaseAgent.GetStepsInDatabase
-  fullName: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabase
-- uid: SuperOffice.CRM.Services.DictionaryStepInformation[]
-  isExternal: true
-  name: DictionaryStepInformation[]
-  nameWithType: DictionaryStepInformation[]
-  fullName: SuperOffice.CRM.Services.DictionaryStepInformation[]
-  nameWithType.vb: DictionaryStepInformation()
-  fullName.vb: SuperOffice.CRM.Services.DictionaryStepInformation()
-  name.vb: DictionaryStepInformation()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.DictionaryStepInformation
-    name: DictionaryStepInformation
-    nameWithType: DictionaryStepInformation
-    fullName: SuperOffice.CRM.Services.DictionaryStepInformation
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
   spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabaseAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabaseAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IDatabaseAgent.html#SuperOffice_CRM_Services_IDatabaseAgent_GetStepsInDatabaseAsync_System_Threading_CancellationToken_
+  name: GetStepsInDatabaseAsync
+  nameWithType: IDatabaseAgent.GetStepsInDatabaseAsync
+  fullName: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabaseAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DictionaryStepInformation[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.DictionaryStepInformation[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DictionaryStepInformation[]>
+  nameWithType: Task<DictionaryStepInformation[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.DictionaryStepInformation[]>
+  nameWithType.vb: Task(Of DictionaryStepInformation())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.DictionaryStepInformation())
+  name.vb: Task(Of DictionaryStepInformation())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
   - uid: SuperOffice.CRM.Services.DictionaryStepInformation
     name: DictionaryStepInformation
-    nameWithType: DictionaryStepInformation
-    fullName: SuperOffice.CRM.Services.DictionaryStepInformation
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCode*
-  commentId: Overload:SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCode
+    href: SuperOffice.CRM.Services.DictionaryStepInformation.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.DictionaryStepInformation
+    name: DictionaryStepInformation
+    isExternal: true
+    href: SuperOffice.CRM.Services.DictionaryStepInformation.html
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: GetStepsFromNetServerCode
-  nameWithType: IDatabaseAgent.GetStepsFromNetServerCode
-  fullName: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCode
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCodeAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCodeAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IDatabaseAgent.html#SuperOffice_CRM_Services_IDatabaseAgent_GetStepsFromNetServerCodeAsync_System_Threading_CancellationToken_
+  name: GetStepsFromNetServerCodeAsync
+  nameWithType: IDatabaseAgent.GetStepsFromNetServerCodeAsync
+  fullName: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCodeAsync

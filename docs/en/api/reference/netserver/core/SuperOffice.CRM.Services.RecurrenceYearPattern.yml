@@ -16,19 +16,20 @@ items:
   nameWithType: RecurrenceYearPattern
   fullName: SuperOffice.CRM.Services.RecurrenceYearPattern
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: "\nClass representing a pattern for yearly recurrence\n"
+  summary: Class representing a pattern for yearly recurrence
+  example: []
   syntax:
-    content: 'public class RecurrenceYearPattern : RecurrenceWeekOfMonthPattern, ICloneable'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class RecurrenceYearPattern : RecurrenceWeekOfMonthPattern, ICloneable
     content.vb: >-
-      Public Class RecurrenceYearPattern
-          Inherits RecurrenceWeekOfMonthPattern
-          Implements ICloneable
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class RecurrenceYearPattern Inherits RecurrenceWeekOfMonthPattern Implements ICloneable
   inheritance:
   - System.Object
   - SuperOffice.CRM.Services.RecurrencePatternBase
@@ -40,17 +41,26 @@ items:
   - SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Day
   - SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Weekday
   - SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.WeekOfMonth
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Services.RecurrenceYearPattern.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Services.RecurrenceYearPattern.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Services.RecurrenceYearPattern.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.RecurrenceYearPattern)
   - SuperOffice.CRM.Services.RecurrenceYearPattern.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Services.RecurrenceYearPattern.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.RecurrenceYearPattern.#ctor
   commentId: M:SuperOffice.CRM.Services.RecurrenceYearPattern.#ctor
   id: '#ctor'
@@ -62,20 +72,16 @@ items:
   nameWithType: RecurrenceYearPattern.RecurrenceYearPattern()
   fullName: SuperOffice.CRM.Services.RecurrenceYearPattern.RecurrenceYearPattern()
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public RecurrenceYearPattern()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.RecurrenceYearPattern.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: RecurrenceYearPattern.New()
+  fullName.vb: SuperOffice.CRM.Services.RecurrenceYearPattern.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.RecurrenceYearPattern.Clone
   commentId: M:SuperOffice.CRM.Services.RecurrenceYearPattern.Clone
   id: Clone
@@ -87,25 +93,17 @@ items:
   nameWithType: RecurrenceYearPattern.Clone()
   fullName: SuperOffice.CRM.Services.RecurrenceYearPattern.Clone()
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
+  example: []
   syntax:
     content: public override object Clone()
     return:
       type: System.Object
-    content.vb: Public Overrides Function Clone As Object
+    content.vb: Public Overrides Function Clone() As Object
   overridden: SuperOffice.CRM.Services.RecurrencePatternBase.Clone
   overload: SuperOffice.CRM.Services.RecurrenceYearPattern.Clone*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.RecurrenceYearPattern.Pattern
   commentId: P:SuperOffice.CRM.Services.RecurrenceYearPattern.Pattern
   id: Pattern
@@ -117,26 +115,28 @@ items:
   nameWithType: RecurrenceYearPattern.Pattern
   fullName: SuperOffice.CRM.Services.RecurrenceYearPattern.Pattern
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe type of yearly recurrence pattern\n"
+  summary: The type of yearly recurrence pattern
+  example: []
   syntax:
-    content: public RecurrenceYearlyPattern Pattern { get; set; }
+    content: >-
+      [DataMember]
+
+      public RecurrenceYearlyPattern Pattern { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.RecurrenceYearlyPattern
-    content.vb: Public Property Pattern As RecurrenceYearlyPattern
+    content.vb: >-
+      <DataMember>
+
+      Public Property Pattern As RecurrenceYearlyPattern
   overload: SuperOffice.CRM.Services.RecurrenceYearPattern.Pattern*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.RecurrenceYearPattern.Cycle
   commentId: P:SuperOffice.CRM.Services.RecurrenceYearPattern.Cycle
   id: Cycle
@@ -148,47 +148,83 @@ items:
   nameWithType: RecurrenceYearPattern.Cycle
   fullName: SuperOffice.CRM.Services.RecurrenceYearPattern.Cycle
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe month of the year where the recurrence occurs. 1 is January and 12 is December.\n"
+  summary: The month of the year where the recurrence occurs. 1 is January and 12 is December.
+  example: []
   syntax:
-    content: public override int Cycle { get; set; }
+    content: >-
+      [DataMember]
+
+      public override int Cycle { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overrides Property Cycle As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overrides Property Cycle As Integer
   overridden: SuperOffice.CRM.Services.RecurrencePatternBase.Cycle
   overload: SuperOffice.CRM.Services.RecurrenceYearPattern.Cycle*
-  modifiers.csharp:
-  - public
-  - override
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overrides
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Services.RecurrencePatternBase
   commentId: T:SuperOffice.CRM.Services.RecurrencePatternBase
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.RecurrencePatternBase.html
   name: RecurrencePatternBase
   nameWithType: RecurrencePatternBase
   fullName: SuperOffice.CRM.Services.RecurrencePatternBase
@@ -196,11 +232,15 @@ references:
   commentId: T:SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html
   name: RecurrenceWeekOfMonthPattern
   nameWithType: RecurrenceWeekOfMonthPattern
   fullName: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
 - uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icloneable
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
@@ -208,47 +248,37 @@ references:
   commentId: M:SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   parent: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
   isExternal: true
+  href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html#SuperOffice_CRM_Services_RecurrenceWeekOfMonthPattern_CopyTo_SuperOffice_CRM_Services_RecurrencePatternBase_
   name: CopyTo(RecurrencePatternBase)
   nameWithType: RecurrenceWeekOfMonthPattern.CopyTo(RecurrencePatternBase)
   fullName: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
     name: CopyTo
-    nameWithType: RecurrenceWeekOfMonthPattern.CopyTo
-    fullName: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.CopyTo
     isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html#SuperOffice_CRM_Services_RecurrenceWeekOfMonthPattern_CopyTo_SuperOffice_CRM_Services_RecurrencePatternBase_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Services.RecurrencePatternBase
     name: RecurrencePatternBase
-    nameWithType: RecurrencePatternBase
-    fullName: SuperOffice.CRM.Services.RecurrencePatternBase
     isExternal: true
+    href: SuperOffice.CRM.Services.RecurrencePatternBase.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
     name: CopyTo
-    nameWithType: RecurrenceWeekOfMonthPattern.CopyTo
-    fullName: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.CopyTo
     isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html#SuperOffice_CRM_Services_RecurrenceWeekOfMonthPattern_CopyTo_SuperOffice_CRM_Services_RecurrencePatternBase_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Services.RecurrencePatternBase
     name: RecurrencePatternBase
-    nameWithType: RecurrencePatternBase
-    fullName: SuperOffice.CRM.Services.RecurrencePatternBase
     isExternal: true
+    href: SuperOffice.CRM.Services.RecurrencePatternBase.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Day
   commentId: P:SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Day
   parent: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
   isExternal: true
+  href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html#SuperOffice_CRM_Services_RecurrenceWeekOfMonthPattern_Day
   name: Day
   nameWithType: RecurrenceWeekOfMonthPattern.Day
   fullName: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Day
@@ -256,6 +286,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Weekday
   parent: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
   isExternal: true
+  href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html#SuperOffice_CRM_Services_RecurrenceWeekOfMonthPattern_Weekday
   name: Weekday
   nameWithType: RecurrenceWeekOfMonthPattern.Weekday
   fullName: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Weekday
@@ -263,164 +294,452 @@ references:
   commentId: P:SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.WeekOfMonth
   parent: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
   isExternal: true
+  href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html#SuperOffice_CRM_Services_RecurrenceWeekOfMonthPattern_WeekOfMonth
   name: WeekOfMonth
   nameWithType: RecurrenceWeekOfMonthPattern.WeekOfMonth
   fullName: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.WeekOfMonth
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.RecurrenceYearPattern.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<RecurrenceYearPattern, To>()
-  nameWithType: EnumUtil.MapEnums<RecurrenceYearPattern, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.RecurrenceYearPattern, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of RecurrenceYearPattern, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.RecurrenceYearPattern, To)()
-  name.vb: MapEnums(Of RecurrenceYearPattern, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<RecurrenceYearPattern, To>(RecurrenceYearPattern)
+  nameWithType: EnumUtil.MapEnums<RecurrenceYearPattern, To>(RecurrenceYearPattern)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.RecurrenceYearPattern, To>(SuperOffice.CRM.Services.RecurrenceYearPattern)
+  nameWithType.vb: EnumUtil.MapEnums(Of RecurrenceYearPattern, To)(RecurrenceYearPattern)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.RecurrenceYearPattern, To)(SuperOffice.CRM.Services.RecurrenceYearPattern)
+  name.vb: MapEnums(Of RecurrenceYearPattern, To)(RecurrenceYearPattern)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<RecurrenceYearPattern, To>
-    nameWithType: EnumUtil.MapEnums<RecurrenceYearPattern, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.RecurrenceYearPattern, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Services.RecurrenceYearPattern)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of RecurrenceYearPattern, To)
-    nameWithType: EnumUtil.MapEnums(Of RecurrenceYearPattern, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.RecurrenceYearPattern, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.RecurrenceYearPattern.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.RecurrenceYearPattern)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<RecurrenceYearPattern>(RecurrenceYearPattern)
-  nameWithType: ObjectExtensions.AssignByReflection<RecurrenceYearPattern>(RecurrenceYearPattern)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Services.RecurrenceYearPattern>(SuperOffice.CRM.Services.RecurrenceYearPattern)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of RecurrenceYearPattern)(RecurrenceYearPattern)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Services.RecurrenceYearPattern)(SuperOffice.CRM.Services.RecurrenceYearPattern)
-  name.vb: AssignByReflection(Of RecurrenceYearPattern)(RecurrenceYearPattern)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<RecurrenceYearPattern>
-    nameWithType: ObjectExtensions.AssignByReflection<RecurrenceYearPattern>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Services.RecurrenceYearPattern>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.Services.RecurrenceYearPattern
     name: RecurrenceYearPattern
-    nameWithType: RecurrenceYearPattern
-    fullName: SuperOffice.CRM.Services.RecurrenceYearPattern
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of RecurrenceYearPattern)
-    nameWithType: ObjectExtensions.AssignByReflection(Of RecurrenceYearPattern)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Services.RecurrenceYearPattern)
-    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceYearPattern.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Services.RecurrenceYearPattern
     name: RecurrenceYearPattern
-    nameWithType: RecurrenceYearPattern
-    fullName: SuperOffice.CRM.Services.RecurrenceYearPattern
     isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceYearPattern.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.RecurrenceYearPattern.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<RecurrenceYearPattern>()
-  nameWithType: ObjectExtensions.GraphCopy<RecurrenceYearPattern>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Services.RecurrenceYearPattern>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of RecurrenceYearPattern)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Services.RecurrenceYearPattern)()
-  name.vb: GraphCopy(Of RecurrenceYearPattern)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<RecurrenceYearPattern>
-    nameWithType: ObjectExtensions.GraphCopy<RecurrenceYearPattern>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Services.RecurrenceYearPattern>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of RecurrenceYearPattern)
-    nameWithType: ObjectExtensions.GraphCopy(Of RecurrenceYearPattern)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Services.RecurrenceYearPattern)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Services.RecurrenceYearPattern)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.RecurrenceYearPattern
+    name: RecurrenceYearPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceYearPattern.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Services.RecurrenceYearPattern
+    name: RecurrenceYearPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceYearPattern.html
+  - name: )
 - uid: SuperOffice.CRM.Services.RecurrenceYearPattern.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<RecurrenceYearPattern, To>()
-  nameWithType: Converters.MapEnums<RecurrenceYearPattern, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.RecurrenceYearPattern, To>()
-  nameWithType.vb: Converters.MapEnums(Of RecurrenceYearPattern, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.RecurrenceYearPattern, To)()
-  name.vb: MapEnums(Of RecurrenceYearPattern, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<RecurrenceYearPattern, To>(RecurrenceYearPattern)
+  nameWithType: Converters.MapEnums<RecurrenceYearPattern, To>(RecurrenceYearPattern)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.RecurrenceYearPattern, To>(SuperOffice.CRM.Services.RecurrenceYearPattern)
+  nameWithType.vb: Converters.MapEnums(Of RecurrenceYearPattern, To)(RecurrenceYearPattern)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.RecurrenceYearPattern, To)(SuperOffice.CRM.Services.RecurrenceYearPattern)
+  name.vb: MapEnums(Of RecurrenceYearPattern, To)(RecurrenceYearPattern)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<RecurrenceYearPattern, To>
-    nameWithType: Converters.MapEnums<RecurrenceYearPattern, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.RecurrenceYearPattern, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Services.RecurrenceYearPattern)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Services.RecurrenceYearPattern
+    name: RecurrenceYearPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceYearPattern.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Services.RecurrenceYearPattern
+    name: RecurrenceYearPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceYearPattern.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of RecurrenceYearPattern, To)
-    nameWithType: Converters.MapEnums(Of RecurrenceYearPattern, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.RecurrenceYearPattern, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Services.RecurrenceYearPattern)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.RecurrenceYearPattern
+    name: RecurrenceYearPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceYearPattern.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Services.RecurrenceYearPattern
+    name: RecurrenceYearPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceYearPattern.html
+  - name: )
+- uid: SuperOffice.CRM.Services.RecurrenceYearPattern.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.RecurrenceYearPattern)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<RecurrenceYearPattern>(RecurrenceYearPattern, RecurrenceYearPattern)
+  nameWithType: ObjectExtensions.AssignByReflection<RecurrenceYearPattern>(RecurrenceYearPattern, RecurrenceYearPattern)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Services.RecurrenceYearPattern>(SuperOffice.CRM.Services.RecurrenceYearPattern, SuperOffice.CRM.Services.RecurrenceYearPattern)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of RecurrenceYearPattern)(RecurrenceYearPattern, RecurrenceYearPattern)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Services.RecurrenceYearPattern)(SuperOffice.CRM.Services.RecurrenceYearPattern, SuperOffice.CRM.Services.RecurrenceYearPattern)
+  name.vb: AssignByReflection(Of RecurrenceYearPattern)(RecurrenceYearPattern, RecurrenceYearPattern)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.RecurrenceYearPattern,SuperOffice.CRM.Services.RecurrenceYearPattern)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Services.RecurrenceYearPattern
+    name: RecurrenceYearPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceYearPattern.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Services.RecurrenceYearPattern
+    name: RecurrenceYearPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceYearPattern.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Services.RecurrenceYearPattern
+    name: RecurrenceYearPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceYearPattern.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.RecurrenceYearPattern,SuperOffice.CRM.Services.RecurrenceYearPattern)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.RecurrenceYearPattern
+    name: RecurrenceYearPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceYearPattern.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Services.RecurrenceYearPattern
+    name: RecurrenceYearPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceYearPattern.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Services.RecurrenceYearPattern
+    name: RecurrenceYearPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceYearPattern.html
+  - name: )
+- uid: SuperOffice.CRM.Services.RecurrenceYearPattern.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<RecurrenceYearPattern>(RecurrenceYearPattern)
+  nameWithType: ObjectExtensions.GraphCopy<RecurrenceYearPattern>(RecurrenceYearPattern)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Services.RecurrenceYearPattern>(SuperOffice.CRM.Services.RecurrenceYearPattern)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of RecurrenceYearPattern)(RecurrenceYearPattern)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Services.RecurrenceYearPattern)(SuperOffice.CRM.Services.RecurrenceYearPattern)
+  name.vb: GraphCopy(Of RecurrenceYearPattern)(RecurrenceYearPattern)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Services.RecurrenceYearPattern)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Services.RecurrenceYearPattern
+    name: RecurrenceYearPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceYearPattern.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Services.RecurrenceYearPattern
+    name: RecurrenceYearPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceYearPattern.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Services.RecurrenceYearPattern)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.RecurrenceYearPattern
+    name: RecurrenceYearPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceYearPattern.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Services.RecurrenceYearPattern
+    name: RecurrenceYearPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceYearPattern.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -429,140 +748,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -571,99 +795,231 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.CRM.Services.RecurrenceYearPattern.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.RecurrenceYearPattern.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.RecurrenceYearPattern.html#SuperOffice_CRM_Services_RecurrenceYearPattern__ctor
   name: RecurrenceYearPattern
   nameWithType: RecurrenceYearPattern.RecurrenceYearPattern
   fullName: SuperOffice.CRM.Services.RecurrenceYearPattern.RecurrenceYearPattern
+  nameWithType.vb: RecurrenceYearPattern.New
+  fullName.vb: SuperOffice.CRM.Services.RecurrenceYearPattern.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.RecurrencePatternBase.Clone
   commentId: M:SuperOffice.CRM.Services.RecurrencePatternBase.Clone
   parent: SuperOffice.CRM.Services.RecurrencePatternBase
   isExternal: true
+  href: SuperOffice.CRM.Services.RecurrencePatternBase.html#SuperOffice_CRM_Services_RecurrencePatternBase_Clone
   name: Clone()
   nameWithType: RecurrencePatternBase.Clone()
   fullName: SuperOffice.CRM.Services.RecurrencePatternBase.Clone()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.RecurrencePatternBase.Clone
     name: Clone
-    nameWithType: RecurrencePatternBase.Clone
-    fullName: SuperOffice.CRM.Services.RecurrencePatternBase.Clone
     isExternal: true
+    href: SuperOffice.CRM.Services.RecurrencePatternBase.html#SuperOffice_CRM_Services_RecurrencePatternBase_Clone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.RecurrencePatternBase.Clone
     name: Clone
-    nameWithType: RecurrencePatternBase.Clone
-    fullName: SuperOffice.CRM.Services.RecurrencePatternBase.Clone
     isExternal: true
+    href: SuperOffice.CRM.Services.RecurrencePatternBase.html#SuperOffice_CRM_Services_RecurrencePatternBase_Clone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Services.RecurrenceYearPattern.Clone*
   commentId: Overload:SuperOffice.CRM.Services.RecurrenceYearPattern.Clone
   isExternal: true
+  href: SuperOffice.CRM.Services.RecurrenceYearPattern.html#SuperOffice_CRM_Services_RecurrenceYearPattern_Clone
   name: Clone
   nameWithType: RecurrenceYearPattern.Clone
   fullName: SuperOffice.CRM.Services.RecurrenceYearPattern.Clone
 - uid: SuperOffice.CRM.Services.RecurrenceYearPattern.Pattern*
   commentId: Overload:SuperOffice.CRM.Services.RecurrenceYearPattern.Pattern
   isExternal: true
+  href: SuperOffice.CRM.Services.RecurrenceYearPattern.html#SuperOffice_CRM_Services_RecurrenceYearPattern_Pattern
   name: Pattern
   nameWithType: RecurrenceYearPattern.Pattern
   fullName: SuperOffice.CRM.Services.RecurrenceYearPattern.Pattern
@@ -671,25 +1027,49 @@ references:
   commentId: T:SuperOffice.Data.RecurrenceYearlyPattern
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.RecurrenceYearlyPattern.html
   name: RecurrenceYearlyPattern
   nameWithType: RecurrenceYearlyPattern
   fullName: SuperOffice.Data.RecurrenceYearlyPattern
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Services.RecurrencePatternBase.Cycle
   commentId: P:SuperOffice.CRM.Services.RecurrencePatternBase.Cycle
   parent: SuperOffice.CRM.Services.RecurrencePatternBase
   isExternal: true
+  href: SuperOffice.CRM.Services.RecurrencePatternBase.html#SuperOffice_CRM_Services_RecurrencePatternBase_Cycle
   name: Cycle
   nameWithType: RecurrencePatternBase.Cycle
   fullName: SuperOffice.CRM.Services.RecurrencePatternBase.Cycle
 - uid: SuperOffice.CRM.Services.RecurrenceYearPattern.Cycle*
   commentId: Overload:SuperOffice.CRM.Services.RecurrenceYearPattern.Cycle
   isExternal: true
+  href: SuperOffice.CRM.Services.RecurrenceYearPattern.html#SuperOffice_CRM_Services_RecurrenceYearPattern_Cycle
   name: Cycle
   nameWithType: RecurrenceYearPattern.Cycle
   fullName: SuperOffice.CRM.Services.RecurrenceYearPattern.Cycle
@@ -697,6 +1077,10 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 531,
-    "Name": "Bernhard Inc and Sons",
-    "ToolTip": "Eaque reiciendis aut est.",
+    "Id": 840,
+    "Name": "Kessler-Roberts",
+    "ToolTip": "Qui rerum sequi veniam nisi nisi animi quidem.",
     "Deleted": false,
-    "Rank": 386,
-    "Type": "voluptatem",
-    "ColorBlock": 912,
-    "IconHint": "rerum",
+    "Rank": 193,
+    "Type": "aut",
+    "ColorBlock": 351,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2024-03-01T16:32:48.6495307+01:00",
+    "LastChanged": "2005-12-03T17:54:08.8980498+01:00",
     "ChildItems": [
       {
-        "Id": 74,
-        "Name": "Yundt, Stoltenberg and Lubowitz",
-        "ToolTip": "Distinctio explicabo ipsam velit officiis ab veniam itaque.",
+        "Id": 929,
+        "Name": "Sawayn, Parisian and Mayer",
+        "ToolTip": "Dolorem molestiae iure et perspiciatis expedita dicta est.",
         "Deleted": true,
-        "Rank": 619,
-        "Type": "laborum",
-        "ColorBlock": 792,
-        "IconHint": "magni",
+        "Rank": 939,
+        "Type": "sit",
+        "ColorBlock": 407,
+        "IconHint": "eum",
         "Selected": true,
-        "LastChanged": "2001-06-06T16:32:48.6495307+02:00",
+        "LastChanged": "2000-12-21T17:54:08.8980498+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "ipsa",
-        "Hidden": false,
-        "FullName": "Randal Schuster",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "modi",
+        "Hidden": true,
+        "FullName": "Mr. Haleigh Tod Rosenbaum Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 677
+            "FieldLength": 663
           }
         }
       }
     ],
-    "ExtraInfo": "iusto",
-    "StyleHint": "quos",
+    "ExtraInfo": "aut",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Ms. Misty Shany Schultz Sr.",
+    "FullName": "Benny Yasmin Wehner DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 124
+        "FieldLength": 187
       }
     }
   }

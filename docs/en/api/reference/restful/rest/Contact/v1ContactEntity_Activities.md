@@ -74,12 +74,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Activities?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Activities?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Activities?$orderBy=name asc
-GET /api/v1/Contact/{id}/Activities?$entities=veniam
-GET /api/v1/Contact/{id}/Activities?$top=681
-GET /api/v1/Contact/{id}/Activities?$skip=451
+GET /api/v1/Contact/{id}/Activities?$entities=blanditiis
+GET /api/v1/Contact/{id}/Activities?$top=234
+GET /api/v1/Contact/{id}/Activities?$skip=443
 GET /api/v1/Contact/{id}/Activities?$mode=Full
 GET /api/v1/Contact/{id}/Activities?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Activities?$context=dolorem
+GET /api/v1/Contact/{id}/Activities?$context=aut
 GET /api/v1/Contact/{id}/Activities?$format=JSON
 GET /api/v1/Contact/{id}/Activities?$jsonSafe=False
 GET /api/v1/Contact/{id}/Activities?$output=Display
@@ -134,19 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "modi",
+  "odata.nextLink": "mollitia",
   "value": [
     {
-      "PrimaryKey": 302,
-      "EntityName": "person",
-      "personId": 302,
-      "fullName": "Jordyn Runolfsdottir DVM"
+      "PrimaryKey": 1675,
+      "EntityName": "sale",
+      "saleId": 1675,
+      "contactId": 8845,
+      "name": "Haley-Hamill"
     },
     {
-      "PrimaryKey": 2788,
-      "EntityName": "person",
-      "personId": 2788,
-      "fullName": "Juvenal Daugherty"
+      "PrimaryKey": 6222,
+      "EntityName": "sale",
+      "saleId": 6222,
+      "contactId": 7620,
+      "name": "Dach-Wilkinson"
     }
   ]
 }

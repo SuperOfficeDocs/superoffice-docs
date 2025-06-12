@@ -1,0 +1,554 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Cache.ErpListCache
+  commentId: T:SuperOffice.CRM.Cache.ErpListCache
+  id: ErpListCache
+  parent: SuperOffice.CRM.Cache
+  children:
+  - SuperOffice.CRM.Cache.ErpListCache.#ctor
+  - SuperOffice.CRM.Cache.ErpListCache.GetList(System.Int32,System.String)
+  - SuperOffice.CRM.Cache.ErpListCache.OnLoad
+  - SuperOffice.CRM.Cache.ErpListCache.OnLoadAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Cache.ErpListCache.SetList(System.Int32,System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  - SuperOffice.CRM.Cache.ErpListCache.TableNames
+  langs:
+  - csharp
+  - vb
+  name: ErpListCache
+  nameWithType: ErpListCache
+  fullName: SuperOffice.CRM.Cache.ErpListCache
+  type: Class
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: 'public class ErpListCache : CacheBaseV2'
+    content.vb: Public Class ErpListCache Inherits CacheBaseV2
+  inheritance:
+  - System.Object
+- uid: SuperOffice.CRM.Cache.ErpListCache.GetList(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Cache.ErpListCache.GetList(System.Int32,System.String)
+  id: GetList(System.Int32,System.String)
+  parent: SuperOffice.CRM.Cache.ErpListCache
+  langs:
+  - csharp
+  - vb
+  name: GetList(int, string)
+  nameWithType: ErpListCache.GetList(int, string)
+  fullName: SuperOffice.CRM.Cache.ErpListCache.GetList(int, string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: public Dictionary<string, string> GetList(int connectionId, string listName)
+    parameters:
+    - id: connectionId
+      type: System.Int32
+    - id: listName
+      type: System.String
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public Function GetList(connectionId As Integer, listName As String) As Dictionary(Of String, String)
+  overload: SuperOffice.CRM.Cache.ErpListCache.GetList*
+  nameWithType.vb: ErpListCache.GetList(Integer, String)
+  fullName.vb: SuperOffice.CRM.Cache.ErpListCache.GetList(Integer, String)
+  name.vb: GetList(Integer, String)
+- uid: SuperOffice.CRM.Cache.ErpListCache.SetList(System.Int32,System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.CRM.Cache.ErpListCache.SetList(System.Int32,System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  id: SetList(System.Int32,System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.CRM.Cache.ErpListCache
+  langs:
+  - csharp
+  - vb
+  name: SetList(int, string, Dictionary<string, string>)
+  nameWithType: ErpListCache.SetList(int, string, Dictionary<string, string>)
+  fullName: SuperOffice.CRM.Cache.ErpListCache.SetList(int, string, System.Collections.Generic.Dictionary<string, string>)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: public void SetList(int connectionId, string listName, Dictionary<string, string> list)
+    parameters:
+    - id: connectionId
+      type: System.Int32
+    - id: listName
+      type: System.String
+    - id: list
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public Sub SetList(connectionId As Integer, listName As String, list As Dictionary(Of String, String))
+  overload: SuperOffice.CRM.Cache.ErpListCache.SetList*
+  nameWithType.vb: ErpListCache.SetList(Integer, String, Dictionary(Of String, String))
+  fullName.vb: SuperOffice.CRM.Cache.ErpListCache.SetList(Integer, String, System.Collections.Generic.Dictionary(Of String, String))
+  name.vb: SetList(Integer, String, Dictionary(Of String, String))
+- uid: SuperOffice.CRM.Cache.ErpListCache.OnLoadAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Cache.ErpListCache.OnLoadAsync(System.Threading.CancellationToken)
+  id: OnLoadAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Cache.ErpListCache
+  langs:
+  - csharp
+  - vb
+  name: OnLoadAsync(CancellationToken)
+  nameWithType: ErpListCache.OnLoadAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Cache.ErpListCache.OnLoadAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Cache
+  example: []
+  syntax:
+    content: protected override Task OnLoadAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function OnLoadAsync(cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.CRM.Cache.ErpListCache.OnLoadAsync*
+- uid: SuperOffice.CRM.Cache.ErpListCache.OnLoad
+  commentId: M:SuperOffice.CRM.Cache.ErpListCache.OnLoad
+  id: OnLoad
+  parent: SuperOffice.CRM.Cache.ErpListCache
+  langs:
+  - csharp
+  - vb
+  name: OnLoad()
+  nameWithType: ErpListCache.OnLoad()
+  fullName: SuperOffice.CRM.Cache.ErpListCache.OnLoad()
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Cache
+  example: []
+  syntax:
+    content: protected override void OnLoad()
+    content.vb: Protected Overrides Sub OnLoad()
+  overload: SuperOffice.CRM.Cache.ErpListCache.OnLoad*
+- uid: SuperOffice.CRM.Cache.ErpListCache.#ctor
+  commentId: M:SuperOffice.CRM.Cache.ErpListCache.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Cache.ErpListCache
+  langs:
+  - csharp
+  - vb
+  name: ErpListCache()
+  nameWithType: ErpListCache.ErpListCache()
+  fullName: SuperOffice.CRM.Cache.ErpListCache.ErpListCache()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: public ErpListCache()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Cache.ErpListCache.#ctor*
+  nameWithType.vb: ErpListCache.New()
+  fullName.vb: SuperOffice.CRM.Cache.ErpListCache.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Cache.ErpListCache.TableNames
+  commentId: P:SuperOffice.CRM.Cache.ErpListCache.TableNames
+  id: TableNames
+  parent: SuperOffice.CRM.Cache.ErpListCache
+  langs:
+  - csharp
+  - vb
+  name: TableNames
+  nameWithType: ErpListCache.TableNames
+  fullName: SuperOffice.CRM.Cache.ErpListCache.TableNames
+  type: Property
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Cache
+  example: []
+  syntax:
+    content: protected override IEnumerable<string> TableNames { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: Protected Overrides ReadOnly Property TableNames As IEnumerable(Of String)
+  overload: SuperOffice.CRM.Cache.ErpListCache.TableNames*
+references:
+- uid: SuperOffice.CRM.Cache
+  commentId: N:SuperOffice.CRM.Cache
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Cache
+  nameWithType: SuperOffice.CRM.Cache
+  fullName: SuperOffice.CRM.Cache
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Cache.ErpListCache.GetList*
+  commentId: Overload:SuperOffice.CRM.Cache.ErpListCache.GetList
+  isExternal: true
+  href: SuperOffice.CRM.Cache.ErpListCache.html#SuperOffice_CRM_Cache_ErpListCache_GetList_System_Int32_System_String_
+  name: GetList
+  nameWithType: ErpListCache.GetList
+  fullName: SuperOffice.CRM.Cache.ErpListCache.GetList
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, string>
+  nameWithType: Dictionary<string, string>
+  fullName: System.Collections.Generic.Dictionary<string, string>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.CRM.Cache.ErpListCache.SetList*
+  commentId: Overload:SuperOffice.CRM.Cache.ErpListCache.SetList
+  isExternal: true
+  href: SuperOffice.CRM.Cache.ErpListCache.html#SuperOffice_CRM_Cache_ErpListCache_SetList_System_Int32_System_String_System_Collections_Generic_Dictionary_System_String_System_String__
+  name: SetList
+  nameWithType: ErpListCache.SetList
+  fullName: SuperOffice.CRM.Cache.ErpListCache.SetList
+- uid: SuperOffice.CRM.Cache.ErpListCache.OnLoadAsync*
+  commentId: Overload:SuperOffice.CRM.Cache.ErpListCache.OnLoadAsync
+  isExternal: true
+  href: SuperOffice.CRM.Cache.ErpListCache.html#SuperOffice_CRM_Cache_ErpListCache_OnLoadAsync_System_Threading_CancellationToken_
+  name: OnLoadAsync
+  nameWithType: ErpListCache.OnLoadAsync
+  fullName: SuperOffice.CRM.Cache.ErpListCache.OnLoadAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Cache.ErpListCache.OnLoad*
+  commentId: Overload:SuperOffice.CRM.Cache.ErpListCache.OnLoad
+  isExternal: true
+  href: SuperOffice.CRM.Cache.ErpListCache.html#SuperOffice_CRM_Cache_ErpListCache_OnLoad
+  name: OnLoad
+  nameWithType: ErpListCache.OnLoad
+  fullName: SuperOffice.CRM.Cache.ErpListCache.OnLoad
+- uid: SuperOffice.CRM.Cache.ErpListCache.#ctor*
+  commentId: Overload:SuperOffice.CRM.Cache.ErpListCache.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Cache.ErpListCache.html#SuperOffice_CRM_Cache_ErpListCache__ctor
+  name: ErpListCache
+  nameWithType: ErpListCache.ErpListCache
+  fullName: SuperOffice.CRM.Cache.ErpListCache.ErpListCache
+  nameWithType.vb: ErpListCache.New
+  fullName.vb: SuperOffice.CRM.Cache.ErpListCache.New
+  name.vb: New
+- uid: SuperOffice.CRM.Cache.ErpListCache.TableNames*
+  commentId: Overload:SuperOffice.CRM.Cache.ErpListCache.TableNames
+  isExternal: true
+  href: SuperOffice.CRM.Cache.ErpListCache.html#SuperOffice_CRM_Cache_ErpListCache_TableNames
+  name: TableNames
+  nameWithType: ErpListCache.TableNames
+  fullName: SuperOffice.CRM.Cache.ErpListCache.TableNames
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<string>
+  nameWithType: IEnumerable<string>
+  fullName: System.Collections.Generic.IEnumerable<string>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

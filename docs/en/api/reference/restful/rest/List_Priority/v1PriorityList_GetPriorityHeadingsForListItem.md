@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 705,
-    "Name": "Thiel-Boyer",
-    "ToolTip": "Quia atque et praesentium illum.",
+    "Id": 531,
+    "Name": "Schaefer LLC",
+    "ToolTip": "Mollitia quas tenetur.",
     "Deleted": false,
-    "Rank": 103,
-    "Type": "dolor",
-    "ColorBlock": 971,
-    "IconHint": "perferendis",
-    "Selected": false,
-    "LastChanged": "2018-04-23T16:32:48.7745027+02:00",
+    "Rank": 324,
+    "Type": "at",
+    "ColorBlock": 633,
+    "IconHint": "iusto",
+    "Selected": true,
+    "LastChanged": "2020-08-17T17:54:08.9605465+02:00",
     "ChildItems": [
       {
-        "Id": 10,
-        "Name": "Powlowski, Romaguera and Toy",
-        "ToolTip": "Qui qui sapiente a voluptas corporis sequi.",
+        "Id": 389,
+        "Name": "Jacobs Inc and Sons",
+        "ToolTip": "Ratione distinctio.",
         "Deleted": false,
-        "Rank": 125,
-        "Type": "sit",
-        "ColorBlock": 400,
-        "IconHint": "tenetur",
-        "Selected": true,
-        "LastChanged": "2009-01-16T16:32:48.7745027+01:00",
+        "Rank": 561,
+        "Type": "aliquam",
+        "ColorBlock": 347,
+        "IconHint": "accusantium",
+        "Selected": false,
+        "LastChanged": "2015-04-10T17:54:08.9605465+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "eius",
+        "ExtraInfo": "quia",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Lenore Hartmann",
+        "FullName": "Reilly Runolfsson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 829
+            "FieldLength": 442
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "non",
+    "ExtraInfo": "hic",
+    "StyleHint": "accusantium",
     "Hidden": false,
-    "FullName": "Elmore Sauer",
+    "FullName": "Reba Walter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 238
+        "FieldLength": 513
       }
     }
   }

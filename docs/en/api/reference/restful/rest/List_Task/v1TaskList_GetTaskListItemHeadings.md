@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 438,
-    "Name": "Bernhard LLC",
-    "Tooltip": "magni",
+    "HeadingId": 100,
+    "Name": "Leuschke LLC",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "Rank": 480,
-    "UdListDefinitionId": 565,
+    "Rank": 206,
+    "UdListDefinitionId": 31,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 677
+        "FieldType": "System.Int32",
+        "FieldLength": 323
       }
     }
   }

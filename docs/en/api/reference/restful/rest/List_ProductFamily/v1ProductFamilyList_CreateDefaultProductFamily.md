@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 367,
-  "Name": "Weber-Marvin",
-  "Tooltip": "voluptate",
+  "Id": 114,
+  "Name": "Gerhold LLC",
+  "Tooltip": "ea",
   "Deleted": false,
-  "UdListDefinitionId": 76,
-  "Rank": 88,
+  "UdListDefinitionId": 905,
+  "Rank": 811,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 68
+      "FieldLength": 562
     }
   }
 }

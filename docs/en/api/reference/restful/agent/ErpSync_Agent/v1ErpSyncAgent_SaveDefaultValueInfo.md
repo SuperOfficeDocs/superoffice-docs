@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 144,
-  "DefaultValue": "iste",
-  "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "enim",
+  "ErpFieldId": 164,
+  "DefaultValue": "sint",
+  "HasFirstSyncDefaultValue": false,
+  "FirstSyncDefaultValue": "qui",
   "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "ut",
+  "ErpFieldKey": "repudiandae",
   "FieldType": "Checkbox",
-  "ListName": "Sipes LLC",
+  "ListName": "Emmerich-Fritsch",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 638
+      "FieldLength": 922
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 599,
-    "Name": "Schoen, Kreiger and Crooks",
-    "ToolTip": "Excepturi numquam.",
+    "Id": 562,
+    "Name": "Cremin Group",
+    "ToolTip": "Sit odit nulla et et voluptates.",
     "Deleted": false,
-    "Rank": 204,
-    "Type": "unde",
-    "ColorBlock": 447,
-    "IconHint": "ex",
+    "Rank": 878,
+    "Type": "nihil",
+    "ColorBlock": 370,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2002-10-21T16:32:48.5245595+02:00",
+    "LastChanged": "2013-06-10T17:54:08.7886801+02:00",
     "ChildItems": [
       {
-        "Id": 761,
-        "Name": "Morar LLC",
-        "ToolTip": "Quae omnis quidem quod illo perferendis animi eos.",
+        "Id": 21,
+        "Name": "McCullough, Aufderhar and Bednar",
+        "ToolTip": "Sed quia asperiores aspernatur voluptatem modi.",
         "Deleted": false,
-        "Rank": 258,
-        "Type": "autem",
-        "ColorBlock": 337,
-        "IconHint": "illo",
-        "Selected": false,
-        "LastChanged": "2007-06-08T16:32:48.5245595+02:00",
+        "Rank": 777,
+        "Type": "iusto",
+        "ColorBlock": 219,
+        "IconHint": "rem",
+        "Selected": true,
+        "LastChanged": "2016-12-05T17:54:08.7886801+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "et",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "ipsam",
         "Hidden": false,
-        "FullName": "Mr. Hanna Vladimir Wisoky",
+        "FullName": "Nyasia Klocko",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 753
+            "FieldLength": 428
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "est",
+    "ExtraInfo": "dolorum",
+    "StyleHint": "at",
     "Hidden": false,
-    "FullName": "Lesley Alexander Schamberger Sr.",
+    "FullName": "Leonardo Rohan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 71
+        "FieldLength": 638
       }
     }
   }

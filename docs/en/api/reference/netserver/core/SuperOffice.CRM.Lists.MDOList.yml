@@ -8,9 +8,10 @@ items:
   - SuperOffice.CRM.Lists.MDOList.#ctor
   - SuperOffice.CRM.Lists.MDOList.#ctor(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading})
   - SuperOffice.CRM.Lists.MDOList.#ctor(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
-  - SuperOffice.CRM.Lists.MDOList.HeadingItems
-  - SuperOffice.CRM.Lists.MDOList.HistoryItems
-  - SuperOffice.CRM.Lists.MDOList.RootItems
+  - SuperOffice.CRM.Lists.MDOList.ClearHistoryItems
+  - SuperOffice.CRM.Lists.MDOList.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.MDOList.GetHistoryItemsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.MDOList.GetRootItemsAsync(System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -18,34 +19,31 @@ items:
   nameWithType: MDOList
   fullName: SuperOffice.CRM.Lists.MDOList
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Lists
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: 'public class MDOList : Object, ISoList'
-    content.vb: >-
-      Public Class MDOList
-          Inherits Object
-          Implements ISoList
+    content: 'public class MDOList : ISoList'
+    content.vb: Public Class MDOList Implements ISoList
   inheritance:
   - System.Object
   implements:
   - SuperOffice.CRM.Lists.ISoList
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Lists.MDOList.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Lists.MDOList.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Lists.MDOList.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.MDOList)
   - SuperOffice.CRM.Lists.MDOList.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Lists.MDOList.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Lists.MDOList.#ctor
   commentId: M:SuperOffice.CRM.Lists.MDOList.#ctor
   id: '#ctor'
@@ -57,21 +55,18 @@ items:
   nameWithType: MDOList.MDOList()
   fullName: SuperOffice.CRM.Lists.MDOList.MDOList()
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Lists
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public MDOList()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Lists.MDOList.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: MDOList.New()
+  fullName.vb: SuperOffice.CRM.Lists.MDOList.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Lists.MDOList.#ctor(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
   commentId: M:SuperOffice.CRM.Lists.MDOList.#ctor(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
   id: '#ctor(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})'
@@ -83,13 +78,11 @@ items:
   nameWithType: MDOList.MDOList(List<ISoListItem>, List<ISoListHeading>, List<ISoListItem>)
   fullName: SuperOffice.CRM.Lists.MDOList.MDOList(System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>, System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListHeading>, System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>)
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Lists
-  summary: "\nInit constructor\n"
+  summary: Init constructor
+  example: []
   syntax:
     content: public MDOList(List<ISoListItem> rootItems, List<ISoListHeading> headingItems, List<ISoListItem> historyItems)
     parameters:
@@ -101,13 +94,9 @@ items:
       type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
     content.vb: Public Sub New(rootItems As List(Of ISoListItem), headingItems As List(Of ISoListHeading), historyItems As List(Of ISoListItem))
   overload: SuperOffice.CRM.Lists.MDOList.#ctor*
-  nameWithType.vb: MDOList.MDOList(List(Of ISoListItem), List(Of ISoListHeading), List(Of ISoListItem))
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Lists.MDOList.MDOList(System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem), System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListHeading), System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem))
-  name.vb: MDOList(List(Of ISoListItem), List(Of ISoListHeading), List(Of ISoListItem))
+  nameWithType.vb: MDOList.New(List(Of ISoListItem), List(Of ISoListHeading), List(Of ISoListItem))
+  fullName.vb: SuperOffice.CRM.Lists.MDOList.New(System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem), System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListHeading), System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem))
+  name.vb: New(List(Of ISoListItem), List(Of ISoListHeading), List(Of ISoListItem))
 - uid: SuperOffice.CRM.Lists.MDOList.#ctor(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading})
   commentId: M:SuperOffice.CRM.Lists.MDOList.#ctor(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading})
   id: '#ctor(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading})'
@@ -119,13 +108,11 @@ items:
   nameWithType: MDOList.MDOList(List<ISoListItem>, List<ISoListHeading>)
   fullName: SuperOffice.CRM.Lists.MDOList.MDOList(System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>, System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListHeading>)
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Lists
-  summary: "\nInit constructor\n"
+  summary: Init constructor
+  example: []
   syntax:
     content: public MDOList(List<ISoListItem> rootItems, List<ISoListHeading> headingItems)
     parameters:
@@ -135,288 +122,611 @@ items:
       type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}
     content.vb: Public Sub New(rootItems As List(Of ISoListItem), headingItems As List(Of ISoListHeading))
   overload: SuperOffice.CRM.Lists.MDOList.#ctor*
-  nameWithType.vb: MDOList.MDOList(List(Of ISoListItem), List(Of ISoListHeading))
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Lists.MDOList.MDOList(System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem), System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListHeading))
-  name.vb: MDOList(List(Of ISoListItem), List(Of ISoListHeading))
-- uid: SuperOffice.CRM.Lists.MDOList.HistoryItems
-  commentId: P:SuperOffice.CRM.Lists.MDOList.HistoryItems
-  id: HistoryItems
+  nameWithType.vb: MDOList.New(List(Of ISoListItem), List(Of ISoListHeading))
+  fullName.vb: SuperOffice.CRM.Lists.MDOList.New(System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem), System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListHeading))
+  name.vb: New(List(Of ISoListItem), List(Of ISoListHeading))
+- uid: SuperOffice.CRM.Lists.MDOList.GetHistoryItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.MDOList.GetHistoryItemsAsync(System.Threading.CancellationToken)
+  id: GetHistoryItemsAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.MDOList
   langs:
   - csharp
   - vb
-  name: HistoryItems
-  nameWithType: MDOList.HistoryItems
-  fullName: SuperOffice.CRM.Lists.MDOList.HistoryItems
-  type: Property
-  source:
-    path: SoCore
-    isExternal: true
+  name: GetHistoryItemsAsync(CancellationToken)
+  nameWithType: MDOList.GetHistoryItemsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.MDOList.GetHistoryItemsAsync(System.Threading.CancellationToken)
+  type: Method
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Lists
-  summary: "\n\n"
+  summary: list of history items
+  example: []
   syntax:
-    content: public List<ISoListItem> HistoryItems { get; set; }
-    parameters: []
+    content: public Task<List<ISoListItem>> GetHistoryItemsAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
-    content.vb: Public Property HistoryItems As List(Of ISoListItem)
-  overload: SuperOffice.CRM.Lists.MDOList.HistoryItems*
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}}
+    content.vb: Public Function GetHistoryItemsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of List(Of ISoListItem))
+  overload: SuperOffice.CRM.Lists.MDOList.GetHistoryItemsAsync*
   implements:
-  - SuperOffice.CRM.Lists.ISoList.HistoryItems
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Lists.MDOList.RootItems
-  commentId: P:SuperOffice.CRM.Lists.MDOList.RootItems
-  id: RootItems
+  - SuperOffice.CRM.Lists.ISoList.GetHistoryItemsAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Lists.MDOList.ClearHistoryItems
+  commentId: M:SuperOffice.CRM.Lists.MDOList.ClearHistoryItems
+  id: ClearHistoryItems
   parent: SuperOffice.CRM.Lists.MDOList
   langs:
   - csharp
   - vb
-  name: RootItems
-  nameWithType: MDOList.RootItems
-  fullName: SuperOffice.CRM.Lists.MDOList.RootItems
-  type: Property
-  source:
-    path: SoCore
-    isExternal: true
+  name: ClearHistoryItems()
+  nameWithType: MDOList.ClearHistoryItems()
+  fullName: SuperOffice.CRM.Lists.MDOList.ClearHistoryItems()
+  type: Method
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Lists
-  summary: "\n\n"
+  summary: Clears the history items
+  example: []
   syntax:
-    content: public List<ISoListItem> RootItems { get; set; }
-    parameters: []
-    return:
-      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
-    content.vb: Public Property RootItems As List(Of ISoListItem)
-  overload: SuperOffice.CRM.Lists.MDOList.RootItems*
+    content: public void ClearHistoryItems()
+    content.vb: Public Sub ClearHistoryItems()
+  overload: SuperOffice.CRM.Lists.MDOList.ClearHistoryItems*
   implements:
-  - SuperOffice.CRM.Lists.ISoList.RootItems
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Lists.MDOList.HeadingItems
-  commentId: P:SuperOffice.CRM.Lists.MDOList.HeadingItems
-  id: HeadingItems
+  - SuperOffice.CRM.Lists.ISoList.ClearHistoryItems
+- uid: SuperOffice.CRM.Lists.MDOList.GetRootItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.MDOList.GetRootItemsAsync(System.Threading.CancellationToken)
+  id: GetRootItemsAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.MDOList
   langs:
   - csharp
   - vb
-  name: HeadingItems
-  nameWithType: MDOList.HeadingItems
-  fullName: SuperOffice.CRM.Lists.MDOList.HeadingItems
-  type: Property
-  source:
-    path: SoCore
-    isExternal: true
+  name: GetRootItemsAsync(CancellationToken)
+  nameWithType: MDOList.GetRootItemsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.MDOList.GetRootItemsAsync(System.Threading.CancellationToken)
+  type: Method
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Lists
-  summary: "\n\n"
+  summary: list of root-level items (items not under any heading)
+  example: []
   syntax:
-    content: public List<ISoListHeading> HeadingItems { get; set; }
-    parameters: []
+    content: public Task<List<ISoListItem>> GetRootItemsAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}
-    content.vb: Public Property HeadingItems As List(Of ISoListHeading)
-  overload: SuperOffice.CRM.Lists.MDOList.HeadingItems*
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}}
+    content.vb: Public Function GetRootItemsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of List(Of ISoListItem))
+  overload: SuperOffice.CRM.Lists.MDOList.GetRootItemsAsync*
   implements:
-  - SuperOffice.CRM.Lists.ISoList.HeadingItems
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  - SuperOffice.CRM.Lists.ISoList.GetRootItemsAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Lists.MDOList.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.MDOList.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  id: GetHeadingItemsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.MDOList
+  langs:
+  - csharp
+  - vb
+  name: GetHeadingItemsAsync(CancellationToken)
+  nameWithType: MDOList.GetHeadingItemsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.MDOList.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Lists
+  summary: list of headings
+  example: []
+  syntax:
+    content: public Task<List<ISoListHeading>> GetHeadingItemsAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}}
+    content.vb: Public Function GetHeadingItemsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of List(Of ISoListHeading))
+  overload: SuperOffice.CRM.Lists.MDOList.GetHeadingItemsAsync*
+  implements:
+  - SuperOffice.CRM.Lists.ISoList.GetHeadingItemsAsync(System.Threading.CancellationToken)
 references:
 - uid: SuperOffice.CRM.Lists
   commentId: N:SuperOffice.CRM.Lists
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Lists
   nameWithType: SuperOffice.CRM.Lists
   fullName: SuperOffice.CRM.Lists
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Lists
+    name: Lists
+    isExternal: true
+    href: SuperOffice.CRM.Lists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Lists
+    name: Lists
+    isExternal: true
+    href: SuperOffice.CRM.Lists.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Lists.ISoList
   commentId: T:SuperOffice.CRM.Lists.ISoList
   parent: SuperOffice.CRM.Lists
   isExternal: true
+  href: SuperOffice.CRM.Lists.ISoList.html
   name: ISoList
   nameWithType: ISoList
   fullName: SuperOffice.CRM.Lists.ISoList
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Lists.MDOList.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<MDOList, To>()
-  nameWithType: EnumUtil.MapEnums<MDOList, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.MDOList, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of MDOList, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.MDOList, To)()
-  name.vb: MapEnums(Of MDOList, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<MDOList, To>(MDOList)
+  nameWithType: EnumUtil.MapEnums<MDOList, To>(MDOList)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.MDOList, To>(SuperOffice.CRM.Lists.MDOList)
+  nameWithType.vb: EnumUtil.MapEnums(Of MDOList, To)(MDOList)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.MDOList, To)(SuperOffice.CRM.Lists.MDOList)
+  name.vb: MapEnums(Of MDOList, To)(MDOList)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<MDOList, To>
-    nameWithType: EnumUtil.MapEnums<MDOList, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.MDOList, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Lists.MDOList)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of MDOList, To)
-    nameWithType: EnumUtil.MapEnums(Of MDOList, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.MDOList, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.MDOList.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.MDOList)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<MDOList>(MDOList)
-  nameWithType: ObjectExtensions.AssignByReflection<MDOList>(MDOList)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.MDOList>(SuperOffice.CRM.Lists.MDOList)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of MDOList)(MDOList)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.MDOList)(SuperOffice.CRM.Lists.MDOList)
-  name.vb: AssignByReflection(Of MDOList)(MDOList)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<MDOList>
-    nameWithType: ObjectExtensions.AssignByReflection<MDOList>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.MDOList>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.Lists.MDOList
     name: MDOList
-    nameWithType: MDOList
-    fullName: SuperOffice.CRM.Lists.MDOList
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of MDOList)
-    nameWithType: ObjectExtensions.AssignByReflection(Of MDOList)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.MDOList)
-    isExternal: true
+    href: SuperOffice.CRM.Lists.MDOList.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.MDOList
     name: MDOList
-    nameWithType: MDOList
-    fullName: SuperOffice.CRM.Lists.MDOList
     isExternal: true
+    href: SuperOffice.CRM.Lists.MDOList.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.MDOList.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<MDOList>()
-  nameWithType: ObjectExtensions.GraphCopy<MDOList>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.MDOList>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of MDOList)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.MDOList)()
-  name.vb: GraphCopy(Of MDOList)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<MDOList>
-    nameWithType: ObjectExtensions.GraphCopy<MDOList>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.MDOList>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of MDOList)
-    nameWithType: ObjectExtensions.GraphCopy(Of MDOList)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.MDOList)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Lists.MDOList)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Lists.MDOList
+    name: MDOList
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MDOList.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Lists.MDOList
+    name: MDOList
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MDOList.html
+  - name: )
 - uid: SuperOffice.CRM.Lists.MDOList.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<MDOList, To>()
-  nameWithType: Converters.MapEnums<MDOList, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.MDOList, To>()
-  nameWithType.vb: Converters.MapEnums(Of MDOList, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.MDOList, To)()
-  name.vb: MapEnums(Of MDOList, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<MDOList, To>(MDOList)
+  nameWithType: Converters.MapEnums<MDOList, To>(MDOList)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.MDOList, To>(SuperOffice.CRM.Lists.MDOList)
+  nameWithType.vb: Converters.MapEnums(Of MDOList, To)(MDOList)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.MDOList, To)(SuperOffice.CRM.Lists.MDOList)
+  name.vb: MapEnums(Of MDOList, To)(MDOList)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<MDOList, To>
-    nameWithType: Converters.MapEnums<MDOList, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.MDOList, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Lists.MDOList)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Lists.MDOList
+    name: MDOList
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MDOList.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Lists.MDOList
+    name: MDOList
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MDOList.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of MDOList, To)
-    nameWithType: Converters.MapEnums(Of MDOList, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.MDOList, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Lists.MDOList)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Lists.MDOList
+    name: MDOList
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MDOList.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Lists.MDOList
+    name: MDOList
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MDOList.html
+  - name: )
+- uid: SuperOffice.CRM.Lists.MDOList.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.MDOList)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<MDOList>(MDOList, MDOList)
+  nameWithType: ObjectExtensions.AssignByReflection<MDOList>(MDOList, MDOList)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.MDOList>(SuperOffice.CRM.Lists.MDOList, SuperOffice.CRM.Lists.MDOList)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of MDOList)(MDOList, MDOList)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.MDOList)(SuperOffice.CRM.Lists.MDOList, SuperOffice.CRM.Lists.MDOList)
+  name.vb: AssignByReflection(Of MDOList)(MDOList, MDOList)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.MDOList,SuperOffice.CRM.Lists.MDOList)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Lists.MDOList
+    name: MDOList
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MDOList.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Lists.MDOList
+    name: MDOList
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MDOList.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Lists.MDOList
+    name: MDOList
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MDOList.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.MDOList,SuperOffice.CRM.Lists.MDOList)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Lists.MDOList
+    name: MDOList
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MDOList.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Lists.MDOList
+    name: MDOList
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MDOList.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Lists.MDOList
+    name: MDOList
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MDOList.html
+  - name: )
+- uid: SuperOffice.CRM.Lists.MDOList.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<MDOList>(MDOList)
+  nameWithType: ObjectExtensions.GraphCopy<MDOList>(MDOList)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.MDOList>(SuperOffice.CRM.Lists.MDOList)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of MDOList)(MDOList)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.MDOList)(SuperOffice.CRM.Lists.MDOList)
+  name.vb: GraphCopy(Of MDOList)(MDOList)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Lists.MDOList)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Lists.MDOList
+    name: MDOList
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MDOList.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Lists.MDOList
+    name: MDOList
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MDOList.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Lists.MDOList)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Lists.MDOList
+    name: MDOList
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MDOList.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Lists.MDOList
+    name: MDOList
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MDOList.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -425,140 +735,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -567,62 +782,203 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.CRM.Lists.MDOList.#ctor*
   commentId: Overload:SuperOffice.CRM.Lists.MDOList.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Lists.MDOList.html#SuperOffice_CRM_Lists_MDOList__ctor
   name: MDOList
   nameWithType: MDOList.MDOList
   fullName: SuperOffice.CRM.Lists.MDOList.MDOList
+  nameWithType.vb: MDOList.New
+  fullName.vb: SuperOffice.CRM.Lists.MDOList.New
+  name.vb: New
 - uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
-  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}'
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<ISoListItem>
   nameWithType: List<ISoListItem>
   fullName: System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>
@@ -632,40 +988,32 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
-    nameWithType: ISoListItem
-    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
+    href: SuperOffice.CRM.Lists.ISoListItem.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
-    nameWithType: ISoListItem
-    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
+    href: SuperOffice.CRM.Lists.ISoListItem.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}
-  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}'
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<ISoListHeading>
   nameWithType: List<ISoListHeading>
   fullName: System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListHeading>
@@ -675,111 +1023,427 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Lists.ISoListHeading
     name: ISoListHeading
-    nameWithType: ISoListHeading
-    fullName: SuperOffice.CRM.Lists.ISoListHeading
     isExternal: true
+    href: SuperOffice.CRM.Lists.ISoListHeading.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Lists.ISoListHeading
     name: ISoListHeading
-    nameWithType: ISoListHeading
-    fullName: SuperOffice.CRM.Lists.ISoListHeading
     isExternal: true
+    href: SuperOffice.CRM.Lists.ISoListHeading.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<>
-  nameWithType: List<>
-  fullName: System.Collections.Generic.List<>
-  nameWithType.vb: List(Of )
-  fullName.vb: System.Collections.Generic.List(Of )
-  name.vb: List(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.MDOList.HistoryItems*
-  commentId: Overload:SuperOffice.CRM.Lists.MDOList.HistoryItems
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
   isExternal: true
-  name: HistoryItems
-  nameWithType: MDOList.HistoryItems
-  fullName: SuperOffice.CRM.Lists.MDOList.HistoryItems
-- uid: SuperOffice.CRM.Lists.ISoList.HistoryItems
-  commentId: P:SuperOffice.CRM.Lists.ISoList.HistoryItems
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.CRM.Lists.MDOList.GetHistoryItemsAsync*
+  commentId: Overload:SuperOffice.CRM.Lists.MDOList.GetHistoryItemsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Lists.MDOList.html#SuperOffice_CRM_Lists_MDOList_GetHistoryItemsAsync_System_Threading_CancellationToken_
+  name: GetHistoryItemsAsync
+  nameWithType: MDOList.GetHistoryItemsAsync
+  fullName: SuperOffice.CRM.Lists.MDOList.GetHistoryItemsAsync
+- uid: SuperOffice.CRM.Lists.ISoList.GetHistoryItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ISoList.GetHistoryItemsAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.ISoList
   isExternal: true
-  name: HistoryItems
-  nameWithType: ISoList.HistoryItems
-  fullName: SuperOffice.CRM.Lists.ISoList.HistoryItems
-- uid: SuperOffice.CRM.Lists.MDOList.RootItems*
-  commentId: Overload:SuperOffice.CRM.Lists.MDOList.RootItems
+  href: SuperOffice.CRM.Lists.ISoList.html#SuperOffice_CRM_Lists_ISoList_GetHistoryItemsAsync_System_Threading_CancellationToken_
+  name: GetHistoryItemsAsync(CancellationToken)
+  nameWithType: ISoList.GetHistoryItemsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ISoList.GetHistoryItemsAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ISoList.GetHistoryItemsAsync(System.Threading.CancellationToken)
+    name: GetHistoryItemsAsync
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ISoList.html#SuperOffice_CRM_Lists_ISoList_GetHistoryItemsAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ISoList.GetHistoryItemsAsync(System.Threading.CancellationToken)
+    name: GetHistoryItemsAsync
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ISoList.html#SuperOffice_CRM_Lists_ISoList_GetHistoryItemsAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: RootItems
-  nameWithType: MDOList.RootItems
-  fullName: SuperOffice.CRM.Lists.MDOList.RootItems
-- uid: SuperOffice.CRM.Lists.ISoList.RootItems
-  commentId: P:SuperOffice.CRM.Lists.ISoList.RootItems
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<ISoListItem>>
+  nameWithType: Task<List<ISoListItem>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>>
+  nameWithType.vb: Task(Of List(Of ISoListItem))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem))
+  name.vb: Task(Of List(Of ISoListItem))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ISoListItem.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ISoListItem.html
+  - name: )
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Lists.MDOList.ClearHistoryItems*
+  commentId: Overload:SuperOffice.CRM.Lists.MDOList.ClearHistoryItems
+  isExternal: true
+  href: SuperOffice.CRM.Lists.MDOList.html#SuperOffice_CRM_Lists_MDOList_ClearHistoryItems
+  name: ClearHistoryItems
+  nameWithType: MDOList.ClearHistoryItems
+  fullName: SuperOffice.CRM.Lists.MDOList.ClearHistoryItems
+- uid: SuperOffice.CRM.Lists.ISoList.ClearHistoryItems
+  commentId: M:SuperOffice.CRM.Lists.ISoList.ClearHistoryItems
   parent: SuperOffice.CRM.Lists.ISoList
   isExternal: true
-  name: RootItems
-  nameWithType: ISoList.RootItems
-  fullName: SuperOffice.CRM.Lists.ISoList.RootItems
-- uid: SuperOffice.CRM.Lists.MDOList.HeadingItems*
-  commentId: Overload:SuperOffice.CRM.Lists.MDOList.HeadingItems
+  href: SuperOffice.CRM.Lists.ISoList.html#SuperOffice_CRM_Lists_ISoList_ClearHistoryItems
+  name: ClearHistoryItems()
+  nameWithType: ISoList.ClearHistoryItems()
+  fullName: SuperOffice.CRM.Lists.ISoList.ClearHistoryItems()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ISoList.ClearHistoryItems
+    name: ClearHistoryItems
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ISoList.html#SuperOffice_CRM_Lists_ISoList_ClearHistoryItems
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ISoList.ClearHistoryItems
+    name: ClearHistoryItems
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ISoList.html#SuperOffice_CRM_Lists_ISoList_ClearHistoryItems
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Lists.MDOList.GetRootItemsAsync*
+  commentId: Overload:SuperOffice.CRM.Lists.MDOList.GetRootItemsAsync
   isExternal: true
-  name: HeadingItems
-  nameWithType: MDOList.HeadingItems
-  fullName: SuperOffice.CRM.Lists.MDOList.HeadingItems
-- uid: SuperOffice.CRM.Lists.ISoList.HeadingItems
-  commentId: P:SuperOffice.CRM.Lists.ISoList.HeadingItems
+  href: SuperOffice.CRM.Lists.MDOList.html#SuperOffice_CRM_Lists_MDOList_GetRootItemsAsync_System_Threading_CancellationToken_
+  name: GetRootItemsAsync
+  nameWithType: MDOList.GetRootItemsAsync
+  fullName: SuperOffice.CRM.Lists.MDOList.GetRootItemsAsync
+- uid: SuperOffice.CRM.Lists.ISoList.GetRootItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ISoList.GetRootItemsAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.ISoList
   isExternal: true
-  name: HeadingItems
-  nameWithType: ISoList.HeadingItems
-  fullName: SuperOffice.CRM.Lists.ISoList.HeadingItems
+  href: SuperOffice.CRM.Lists.ISoList.html#SuperOffice_CRM_Lists_ISoList_GetRootItemsAsync_System_Threading_CancellationToken_
+  name: GetRootItemsAsync(CancellationToken)
+  nameWithType: ISoList.GetRootItemsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ISoList.GetRootItemsAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ISoList.GetRootItemsAsync(System.Threading.CancellationToken)
+    name: GetRootItemsAsync
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ISoList.html#SuperOffice_CRM_Lists_ISoList_GetRootItemsAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ISoList.GetRootItemsAsync(System.Threading.CancellationToken)
+    name: GetRootItemsAsync
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ISoList.html#SuperOffice_CRM_Lists_ISoList_GetRootItemsAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Lists.MDOList.GetHeadingItemsAsync*
+  commentId: Overload:SuperOffice.CRM.Lists.MDOList.GetHeadingItemsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Lists.MDOList.html#SuperOffice_CRM_Lists_MDOList_GetHeadingItemsAsync_System_Threading_CancellationToken_
+  name: GetHeadingItemsAsync
+  nameWithType: MDOList.GetHeadingItemsAsync
+  fullName: SuperOffice.CRM.Lists.MDOList.GetHeadingItemsAsync
+- uid: SuperOffice.CRM.Lists.ISoList.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ISoList.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.ISoList
+  isExternal: true
+  href: SuperOffice.CRM.Lists.ISoList.html#SuperOffice_CRM_Lists_ISoList_GetHeadingItemsAsync_System_Threading_CancellationToken_
+  name: GetHeadingItemsAsync(CancellationToken)
+  nameWithType: ISoList.GetHeadingItemsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ISoList.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ISoList.GetHeadingItemsAsync(System.Threading.CancellationToken)
+    name: GetHeadingItemsAsync
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ISoList.html#SuperOffice_CRM_Lists_ISoList_GetHeadingItemsAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ISoList.GetHeadingItemsAsync(System.Threading.CancellationToken)
+    name: GetHeadingItemsAsync
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ISoList.html#SuperOffice_CRM_Lists_ISoList_GetHeadingItemsAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<ISoListHeading>>
+  nameWithType: Task<List<ISoListHeading>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListHeading>>
+  nameWithType.vb: Task(Of List(Of ISoListHeading))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListHeading))
+  name.vb: Task(Of List(Of ISoListHeading))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SuperOffice.CRM.Lists.ISoListHeading
+    name: ISoListHeading
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ISoListHeading.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Lists.ISoListHeading
+    name: ISoListHeading
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ISoListHeading.html
+  - name: )
+  - name: )

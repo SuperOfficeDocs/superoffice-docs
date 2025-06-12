@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 210,
+  "QuoteVersionId": 995,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 481
+  "CountryId": 575
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 29851.35,
-  "Wgs84Longitude": 27676.354,
+  "Wgs84Latitude": 191.174,
+  "Wgs84Longitude": 19621.974,
   "LocalizedAddress": [
     [
       {
-        "Name": "Roob, VonRueden and McKenzie",
-        "Value": "et",
-        "Tooltip": "vel",
-        "Label": "expedita",
-        "ValueLength": 848,
-        "AddressType": "iusto",
+        "Name": "Volkman Group",
+        "Value": "est",
+        "Tooltip": "facilis",
+        "Label": "sequi",
+        "ValueLength": 914,
+        "AddressType": "eos",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 267
+            "FieldLength": 198
           }
         }
       }
     ],
     [
       {
-        "Name": "Nienow, Stehr and Weimann",
-        "Value": "laboriosam",
-        "Tooltip": "perspiciatis",
-        "Label": "saepe",
-        "ValueLength": 394,
-        "AddressType": "omnis",
+        "Name": "Paucek, Lubowitz and Durgan",
+        "Value": "nam",
+        "Tooltip": "iusto",
+        "Label": "veniam",
+        "ValueLength": 764,
+        "AddressType": "hic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 988
+            "FieldType": "System.String",
+            "FieldLength": 849
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "adipisci",
+  "Formatted": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 89
+      "FieldLength": 8
     }
   }
 }

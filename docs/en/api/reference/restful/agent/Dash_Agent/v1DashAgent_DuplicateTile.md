@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashTileId": 779,
-  "Name": "Kris LLC"
+  "DashTileId": 251,
+  "Name": "Sauer, Beier and Cruickshank"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 683,
-  "DashboardId": 463,
-  "Height": 625,
-  "Width": 617,
-  "Rank": 476,
+  "DashboardTileId": 75,
+  "DashboardId": 257,
+  "Height": 424,
+  "Width": 470,
+  "Rank": 94,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 306
+      "FieldType": "System.String",
+      "FieldLength": 496
     }
   }
 }

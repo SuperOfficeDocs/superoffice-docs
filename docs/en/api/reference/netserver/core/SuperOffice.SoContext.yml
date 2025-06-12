@@ -9,12 +9,7 @@ items:
   - SuperOffice.SoContext.CloseCurrentSession
   - SuperOffice.SoContext.CurrentIdentity
   - SuperOffice.SoContext.CurrentPrincipal
-  - SuperOffice.SoContext.CurrentRealPrincipal
   - SuperOffice.SoContext.IsAuthenticated
-  - SuperOffice.SoContext.IsUdefAvailable
-  - SuperOffice.SoContext.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0)
-  - SuperOffice.SoContext.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String)
-  - SuperOffice.SoContext.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean)
   - SuperOffice.SoContext.ToString
   langs:
   - csharp
@@ -23,182 +18,35 @@ items:
   nameWithType: SoContext
   fullName: SuperOffice.SoContext
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nClass holding context information about the currently logged on user.\n"
+  summary: Class holding context information about the currently logged on user.
   example:
-  - "\nLog in and get the users home country:\n<pre><code>SoSession session = SoSession.Authenticate(&quot;user&quot;, &quot;password&quot;);\nint countryId = SoContext.CurrentPrincipal.HomeCountryId;\nsession.Close();</code></pre>\n"
+  - >-
+    Log in and get the users home country:
+
+    <pre><code class="lang-csharp">SoSession session = SoSession.Authenticate("user", "password");
+
+    int countryId = SoContext.CurrentPrincipal.GetHomeCountryId();
+
+    session.Close();</code></pre>
   syntax:
-    content: 'public sealed class SoContext : Object'
-    content.vb: >-
-      Public NotInheritable Class SoContext
-          Inherits Object
+    content: public sealed class SoContext
+    content.vb: Public NotInheritable Class SoContext
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
   extensionMethods:
   - SuperOffice.SoContext.EnumUtil.MapEnums``2
+  - SuperOffice.SoContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.SoContext.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.SoContext)
   - SuperOffice.SoContext.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.SoContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.SoContext.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String)
-  commentId: M:SuperOffice.SoContext.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String)
-  id: SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String)
-  parent: SuperOffice.SoContext
-  langs:
-  - csharp
-  - vb
-  name: SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument, String)
-  nameWithType: SoContext.SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument, String)
-  fullName: SuperOffice.SoContext.SpawnThread<TArgument>(SuperOffice.Threading.AsyncOperation<TArgument>, TArgument, System.String)
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice
-  summary: "\nSpawn a new thread in the same <xref href=\"SuperOffice.SoContext\" data-throw-if-not-resolved=\"false\"></xref> as the currently executed thread.\n"
-  remarks: "\nIf the number of threads currently executing in parallel is less then the currently \nconfigured maximum allowed threads for parallel execution, a thread is spawned.  If \nthe number of threads exceeds this limitation, the current thread is blocked until \nthe number of threads currently executing in parallel is less then the currently \nconfigured maximum allowed threads for parallel execution.\n<p>Maximum parallel connections are read from the <xref href=\"SuperOffice.Configuration.ConfigFile.Threading.MaxParellalThreads\" data-throw-if-not-resolved=\"false\"></xref>\nproperty of the configuration file</p>\n"
-  example:
-  - "\nThe method implementing the asynchronous operation needs to implement the delegate <xref href=\"System.ComponentModel.AsyncOperation\" data-throw-if-not-resolved=\"false\"></xref>:\n<pre><code>private void MyAsyncOperation(AsyncContext context, object argument)\n{\n	// Do some stuff...\n}</code></pre>\nThe argument passed to the method is an optional argument selected when spawning off the asynchronous task:\n<pre><code>AsyncContext ctx = ThreadManager.SpawnThread(new AsyncOperation(MyAsyncOperation), argument, &quot;MyThread&quot;);</code></pre>\n"
-  syntax:
-    content: public static AsyncContext SpawnThread<TArgument>(AsyncOperation<TArgument> asyncOperation, TArgument argument, string threadName)
-    parameters:
-    - id: asyncOperation
-      type: SuperOffice.Threading.AsyncOperation{{TArgument}}
-      description: Operation executed in the new thread.
-    - id: argument
-      type: '{TArgument}'
-      description: Argument passed to the operation executing the thread.
-    - id: threadName
-      type: System.String
-      description: Thread name, for debugging purposes
-    typeParameters:
-    - id: TArgument
-    return:
-      type: SuperOffice.Threading.AsyncContext
-      description: Information about the async operation.
-    content.vb: Public Shared Function SpawnThread(Of TArgument)(asyncOperation As AsyncOperation(Of TArgument), argument As TArgument, threadName As String) As AsyncContext
-  overload: SuperOffice.SoContext.SpawnThread*
-  nameWithType.vb: SoContext.SpawnThread(Of TArgument)(AsyncOperation(Of TArgument), TArgument, String)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.SoContext.SpawnThread(Of TArgument)(SuperOffice.Threading.AsyncOperation(Of TArgument), TArgument, System.String)
-  name.vb: SpawnThread(Of TArgument)(AsyncOperation(Of TArgument), TArgument, String)
-- uid: SuperOffice.SoContext.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0)
-  commentId: M:SuperOffice.SoContext.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0)
-  id: SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0)
-  parent: SuperOffice.SoContext
-  langs:
-  - csharp
-  - vb
-  name: SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument)
-  nameWithType: SoContext.SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument)
-  fullName: SuperOffice.SoContext.SpawnThread<TArgument>(SuperOffice.Threading.AsyncOperation<TArgument>, TArgument)
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice
-  summary: "\nSpawn a new thread in the same <xref href=\"SuperOffice.SoContext\" data-throw-if-not-resolved=\"false\"></xref> as the currently executed thread.\n"
-  remarks: "\nIf the number of threads currently executing in parallel is less then the currently \nconfigured maximum allowed threads for parallel execution, a thread is spawned.  If \nthe number of threads exceeds this limitation, the current thread is blocked until \nthe number of threads currently executing in parallel is less then the currently \nconfigured maximum allowed threads for parallel execution.\n<p>Maximum parallel connections are read from the <xref href=\"SuperOffice.Configuration.ConfigFile.Threading.MaxParellalThreads\" data-throw-if-not-resolved=\"false\"></xref>\nproperty of the configuration file</p>\n"
-  example:
-  - "\nThe method implementing the asynchronous operation needs to implement the delegate <xref href=\"System.ComponentModel.AsyncOperation\" data-throw-if-not-resolved=\"false\"></xref>:\n<pre><code>private void MyAsyncOperation(AsyncContext context, object argument)\n{\n	// Do some stuff...\n}</code></pre>\nThe argument passed to the method is an optional argument selected when spawning off the asynchronous task:\n<pre><code>AsyncContext ctx = ThreadManager.SpawnThread(new AsyncOperation(MyAsyncOperation), argument );</code></pre>\n"
-  syntax:
-    content: public static AsyncContext SpawnThread<TArgument>(AsyncOperation<TArgument> asyncOperation, TArgument argument)
-    parameters:
-    - id: asyncOperation
-      type: SuperOffice.Threading.AsyncOperation{{TArgument}}
-      description: Operation executed in the new thread.
-    - id: argument
-      type: '{TArgument}'
-      description: Argument passed to the operation executing the thread.
-    typeParameters:
-    - id: TArgument
-    return:
-      type: SuperOffice.Threading.AsyncContext
-      description: Information about the async operation.
-    content.vb: Public Shared Function SpawnThread(Of TArgument)(asyncOperation As AsyncOperation(Of TArgument), argument As TArgument) As AsyncContext
-  overload: SuperOffice.SoContext.SpawnThread*
-  nameWithType.vb: SoContext.SpawnThread(Of TArgument)(AsyncOperation(Of TArgument), TArgument)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.SoContext.SpawnThread(Of TArgument)(SuperOffice.Threading.AsyncOperation(Of TArgument), TArgument)
-  name.vb: SpawnThread(Of TArgument)(AsyncOperation(Of TArgument), TArgument)
-- uid: SuperOffice.SoContext.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean)
-  commentId: M:SuperOffice.SoContext.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean)
-  id: SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean)
-  parent: SuperOffice.SoContext
-  langs:
-  - csharp
-  - vb
-  name: SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument, String, Boolean)
-  nameWithType: SoContext.SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument, String, Boolean)
-  fullName: SuperOffice.SoContext.SpawnThread<TArgument>(SuperOffice.Threading.AsyncOperation<TArgument>, TArgument, System.String, System.Boolean)
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice
-  summary: "\nSpawn a new thread in the same <xref href=\"SuperOffice.SoContext\" data-throw-if-not-resolved=\"false\"></xref> as the currently executed thread.\n"
-  remarks: "\nIf the number of threads currently executing in parallel is less then the currently \nconfigured maximum allowed threads for parallel execution, a thread is spawned.  If \nthe number of threads exceeds this limitation, the current thread is blocked until \nthe number of threads currently executing in parallel is less then the currently \nconfigured maximum allowed threads for parallel execution.\n<p>Maximum parallel connections are read from the <xref href=\"SuperOffice.Configuration.ConfigFile.Threading.MaxParellalThreads\" data-throw-if-not-resolved=\"false\"></xref>\nproperty of the configuration file</p>\n"
-  example:
-  - "\nThe method implementing the asynchronous operation needs to implement the delegate <xref href=\"System.ComponentModel.AsyncOperation\" data-throw-if-not-resolved=\"false\"></xref>:\n<pre><code>private void MyAsyncOperation(AsyncContext context, object argument)\n{\n	// Do some stuff...\n}</code></pre>\nThe argument passed to the method is an optional argument selected when spawning off the asynchronous task:\n<pre><code>AsyncContext ctx = ThreadManager.SpawnThread(new AsyncOperation(MyAsyncOperation), argument );</code></pre>\n"
-  syntax:
-    content: public static AsyncContext SpawnThread<TArgument>(AsyncOperation<TArgument> asyncOperation, TArgument argument, string threadName, bool breakOnError)
-    parameters:
-    - id: asyncOperation
-      type: SuperOffice.Threading.AsyncOperation{{TArgument}}
-      description: Operation executed in the new thread.
-    - id: argument
-      type: '{TArgument}'
-      description: Argument passed to the operation executing the thread.
-    - id: threadName
-      type: System.String
-      description: Thread name, for debugging purposes
-    - id: breakOnError
-      type: System.Boolean
-      description: Shall the attached debugger break on errors executing the thread.
-    typeParameters:
-    - id: TArgument
-    return:
-      type: SuperOffice.Threading.AsyncContext
-      description: Information about the async operation.
-    content.vb: Public Shared Function SpawnThread(Of TArgument)(asyncOperation As AsyncOperation(Of TArgument), argument As TArgument, threadName As String, breakOnError As Boolean) As AsyncContext
-  overload: SuperOffice.SoContext.SpawnThread*
-  nameWithType.vb: SoContext.SpawnThread(Of TArgument)(AsyncOperation(Of TArgument), TArgument, String, Boolean)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.SoContext.SpawnThread(Of TArgument)(SuperOffice.Threading.AsyncOperation(Of TArgument), TArgument, System.String, System.Boolean)
-  name.vb: SpawnThread(Of TArgument)(AsyncOperation(Of TArgument), TArgument, String, Boolean)
 - uid: SuperOffice.SoContext.CloseCurrentSession
   commentId: M:SuperOffice.SoContext.CloseCurrentSession
   id: CloseCurrentSession
@@ -210,24 +58,19 @@ items:
   nameWithType: SoContext.CloseCurrentSession()
   fullName: SuperOffice.SoContext.CloseCurrentSession()
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nClose any open session.\nDoes nothing if the current session is already closed.\n"
-  remarks: "\nWill no longer throw an exception if called twice.\n"
+  summary: >-
+    Close any open session.
+
+    Does nothing if the current session is already closed.
+  remarks: Will no longer throw an exception if called twice.
+  example: []
   syntax:
     content: public static void CloseCurrentSession()
-    content.vb: Public Shared Sub CloseCurrentSession
+    content.vb: Public Shared Sub CloseCurrentSession()
   overload: SuperOffice.SoContext.CloseCurrentSession*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.SoContext.ToString
   commentId: M:SuperOffice.SoContext.ToString
   id: ToString
@@ -239,26 +82,22 @@ items:
   nameWithType: SoContext.ToString()
   fullName: SuperOffice.SoContext.ToString()
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nIf there is a valid principal, return his ToString() - generally for debug purposes. An empty string\nis returned if there is no valid principal (_currentPrincipal returned null).\n"
+  summary: >-
+    If there is a valid principal, return his ToString() - generally for debug purposes. An empty string
+
+    is returned if there is no valid principal (_currentPrincipal returned null).
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
-      description: Current principal&apos;s ToString, or string.Empty if the current <xref href="SuperOffice.Security.Principal.SoPrincipal" data-throw-if-not-resolved="false"></xref> is null
-    content.vb: Public Overrides Function ToString As String
+      description: Current principal's ToString, or string.Empty if the current SoPrincipal is null
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
   overload: SuperOffice.SoContext.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.SoContext.#ctor
   commentId: M:SuperOffice.SoContext.#ctor
   id: '#ctor'
@@ -270,20 +109,16 @@ items:
   nameWithType: SoContext.SoContext()
   fullName: SuperOffice.SoContext.SoContext()
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
   syntax:
     content: public SoContext()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.SoContext.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SoContext.New()
+  fullName.vb: SuperOffice.SoContext.New()
+  name.vb: New()
 - uid: SuperOffice.SoContext.CurrentPrincipal
   commentId: P:SuperOffice.SoContext.CurrentPrincipal
   id: CurrentPrincipal
@@ -295,61 +130,18 @@ items:
   nameWithType: SoContext.CurrentPrincipal
   fullName: SuperOffice.SoContext.CurrentPrincipal
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nObtain the current principal\n"
+  summary: Obtain the current principal
+  example: []
   syntax:
-    content: public static SoPrincipal CurrentPrincipal { get; }
+    content: public static ClaimsPrincipal CurrentPrincipal { get; }
     parameters: []
     return:
-      type: SuperOffice.Security.Principal.SoPrincipal
-    content.vb: Public Shared ReadOnly Property CurrentPrincipal As SoPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    content.vb: Public Shared ReadOnly Property CurrentPrincipal As ClaimsPrincipal
   overload: SuperOffice.SoContext.CurrentPrincipal*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
-- uid: SuperOffice.SoContext.CurrentRealPrincipal
-  commentId: P:SuperOffice.SoContext.CurrentRealPrincipal
-  id: CurrentRealPrincipal
-  parent: SuperOffice.SoContext
-  langs:
-  - csharp
-  - vb
-  name: CurrentRealPrincipal
-  nameWithType: SoContext.CurrentRealPrincipal
-  fullName: SuperOffice.SoContext.CurrentRealPrincipal
-  type: Property
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice
-  summary: "\nRoot principal.  Impersonated users will yield the principal of the user impersonating.\n"
-  syntax:
-    content: public static SoPrincipal CurrentRealPrincipal { get; }
-    parameters: []
-    return:
-      type: SuperOffice.Security.Principal.SoPrincipal
-    content.vb: Public Shared ReadOnly Property CurrentRealPrincipal As SoPrincipal
-  overload: SuperOffice.SoContext.CurrentRealPrincipal*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
 - uid: SuperOffice.SoContext.CurrentIdentity
   commentId: P:SuperOffice.SoContext.CurrentIdentity
   id: CurrentIdentity
@@ -361,61 +153,30 @@ items:
   nameWithType: SoContext.CurrentIdentity
   fullName: SuperOffice.SoContext.CurrentIdentity
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nObtain the current identity\n"
+  summary: Obtain the current identity
+  example: []
   syntax:
-    content: public static ISoIdentity CurrentIdentity { get; }
+    content: >-
+      [Obsolete("Get ClaimsIdentity through SuperOffice.SoContext.CurrentPrincipal.GetClaimsIdentity() instead.")]
+
+      public static ClaimsIdentity CurrentIdentity { get; }
     parameters: []
     return:
-      type: SuperOffice.Security.Principal.ISoIdentity
-    content.vb: Public Shared ReadOnly Property CurrentIdentity As ISoIdentity
+      type: System.Security.Claims.ClaimsIdentity
+    content.vb: >-
+      <Obsolete("Get ClaimsIdentity through SuperOffice.SoContext.CurrentPrincipal.GetClaimsIdentity() instead.")>
+
+      Public Shared ReadOnly Property CurrentIdentity As ClaimsIdentity
   overload: SuperOffice.SoContext.CurrentIdentity*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
-- uid: SuperOffice.SoContext.IsUdefAvailable
-  commentId: P:SuperOffice.SoContext.IsUdefAvailable
-  id: IsUdefAvailable
-  parent: SuperOffice.SoContext
-  langs:
-  - csharp
-  - vb
-  name: IsUdefAvailable
-  nameWithType: SoContext.IsUdefAvailable
-  fullName: SuperOffice.SoContext.IsUdefAvailable
-  type: Property
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice
-  summary: "\nShould archive providers add Udefs\n"
-  syntax:
-    content: public static bool IsUdefAvailable { get; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public Shared ReadOnly Property IsUdefAvailable As Boolean
-  overload: SuperOffice.SoContext.IsUdefAvailable*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Get ClaimsIdentity through SuperOffice.SoContext.CurrentPrincipal.GetClaimsIdentity() instead.
 - uid: SuperOffice.SoContext.IsAuthenticated
   commentId: P:SuperOffice.SoContext.IsAuthenticated
   id: IsAuthenticated
@@ -427,13 +188,11 @@ items:
   nameWithType: SoContext.IsAuthenticated
   fullName: SuperOffice.SoContext.IsAuthenticated
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nTrue if authenticated\n"
+  summary: True if authenticated
+  example: []
   syntax:
     content: public static bool IsAuthenticated { get; }
     parameters: []
@@ -441,18 +200,11 @@ items:
       type: System.Boolean
     content.vb: Public Shared ReadOnly Property IsAuthenticated As Boolean
   overload: SuperOffice.SoContext.IsAuthenticated*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
 references:
 - uid: SuperOffice
   commentId: N:SuperOffice
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice
   nameWithType: SuperOffice
   fullName: SuperOffice
@@ -460,164 +212,407 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
 - uid: SuperOffice.SoContext.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<SoContext, To>()
-  nameWithType: EnumUtil.MapEnums<SoContext, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.SoContext, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of SoContext, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.SoContext, To)()
-  name.vb: MapEnums(Of SoContext, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<SoContext, To>(SoContext)
+  nameWithType: EnumUtil.MapEnums<SoContext, To>(SoContext)
+  fullName: EnumUtil.MapEnums<SuperOffice.SoContext, To>(SuperOffice.SoContext)
+  nameWithType.vb: EnumUtil.MapEnums(Of SoContext, To)(SoContext)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.SoContext, To)(SuperOffice.SoContext)
+  name.vb: MapEnums(Of SoContext, To)(SoContext)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<SoContext, To>
-    nameWithType: EnumUtil.MapEnums<SoContext, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.SoContext, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.SoContext)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of SoContext, To)
-    nameWithType: EnumUtil.MapEnums(Of SoContext, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.SoContext, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.SoContext.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.SoContext)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<SoContext>(SoContext)
-  nameWithType: ObjectExtensions.AssignByReflection<SoContext>(SoContext)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.SoContext>(SuperOffice.SoContext)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoContext)(SoContext)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.SoContext)(SuperOffice.SoContext)
-  name.vb: AssignByReflection(Of SoContext)(SoContext)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<SoContext>
-    nameWithType: ObjectExtensions.AssignByReflection<SoContext>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.SoContext>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.SoContext
     name: SoContext
-    nameWithType: SoContext
-    fullName: SuperOffice.SoContext
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of SoContext)
-    nameWithType: ObjectExtensions.AssignByReflection(Of SoContext)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.SoContext)
-    isExternal: true
+    href: SuperOffice.SoContext.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.SoContext
     name: SoContext
-    nameWithType: SoContext
-    fullName: SuperOffice.SoContext
     isExternal: true
+    href: SuperOffice.SoContext.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.SoContext.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<SoContext>()
-  nameWithType: ObjectExtensions.GraphCopy<SoContext>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.SoContext>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoContext)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.SoContext)()
-  name.vb: GraphCopy(Of SoContext)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<SoContext>
-    nameWithType: ObjectExtensions.GraphCopy<SoContext>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.SoContext>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of SoContext)
-    nameWithType: ObjectExtensions.GraphCopy(Of SoContext)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.SoContext)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.SoContext)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.SoContext
+    name: SoContext
+    isExternal: true
+    href: SuperOffice.SoContext.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.SoContext
+    name: SoContext
+    isExternal: true
+    href: SuperOffice.SoContext.html
+  - name: )
 - uid: SuperOffice.SoContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<SoContext, To>()
-  nameWithType: Converters.MapEnums<SoContext, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.SoContext, To>()
-  nameWithType.vb: Converters.MapEnums(Of SoContext, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.SoContext, To)()
-  name.vb: MapEnums(Of SoContext, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<SoContext, To>(SoContext)
+  nameWithType: Converters.MapEnums<SoContext, To>(SoContext)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.SoContext, To>(SuperOffice.SoContext)
+  nameWithType.vb: Converters.MapEnums(Of SoContext, To)(SoContext)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.SoContext, To)(SuperOffice.SoContext)
+  name.vb: MapEnums(Of SoContext, To)(SoContext)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<SoContext, To>
-    nameWithType: Converters.MapEnums<SoContext, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.SoContext, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.SoContext)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.SoContext
+    name: SoContext
+    isExternal: true
+    href: SuperOffice.SoContext.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.SoContext
+    name: SoContext
+    isExternal: true
+    href: SuperOffice.SoContext.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of SoContext, To)
-    nameWithType: Converters.MapEnums(Of SoContext, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.SoContext, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.SoContext)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.SoContext
+    name: SoContext
+    isExternal: true
+    href: SuperOffice.SoContext.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.SoContext
+    name: SoContext
+    isExternal: true
+    href: SuperOffice.SoContext.html
+  - name: )
+- uid: SuperOffice.SoContext.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.SoContext)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<SoContext>(SoContext, SoContext)
+  nameWithType: ObjectExtensions.AssignByReflection<SoContext>(SoContext, SoContext)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.SoContext>(SuperOffice.SoContext, SuperOffice.SoContext)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoContext)(SoContext, SoContext)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.SoContext)(SuperOffice.SoContext, SuperOffice.SoContext)
+  name.vb: AssignByReflection(Of SoContext)(SoContext, SoContext)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.SoContext,SuperOffice.SoContext)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.SoContext
+    name: SoContext
+    isExternal: true
+    href: SuperOffice.SoContext.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.SoContext
+    name: SoContext
+    isExternal: true
+    href: SuperOffice.SoContext.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.SoContext
+    name: SoContext
+    isExternal: true
+    href: SuperOffice.SoContext.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.SoContext,SuperOffice.SoContext)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.SoContext
+    name: SoContext
+    isExternal: true
+    href: SuperOffice.SoContext.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.SoContext
+    name: SoContext
+    isExternal: true
+    href: SuperOffice.SoContext.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.SoContext
+    name: SoContext
+    isExternal: true
+    href: SuperOffice.SoContext.html
+  - name: )
+- uid: SuperOffice.SoContext.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<SoContext>(SoContext)
+  nameWithType: ObjectExtensions.GraphCopy<SoContext>(SoContext)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.SoContext>(SuperOffice.SoContext)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoContext)(SoContext)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.SoContext)(SuperOffice.SoContext)
+  name.vb: GraphCopy(Of SoContext)(SoContext)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.SoContext)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.SoContext
+    name: SoContext
+    isExternal: true
+    href: SuperOffice.SoContext.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.SoContext
+    name: SoContext
+    isExternal: true
+    href: SuperOffice.SoContext.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.SoContext)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.SoContext
+    name: SoContext
+    isExternal: true
+    href: SuperOffice.SoContext.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.SoContext
+    name: SoContext
+    isExternal: true
+    href: SuperOffice.SoContext.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -626,140 +621,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -768,240 +668,329 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.SoContext.SpawnThread*
-  commentId: Overload:SuperOffice.SoContext.SpawnThread
-  isExternal: true
-  name: SpawnThread
-  nameWithType: SoContext.SpawnThread
-  fullName: SuperOffice.SoContext.SpawnThread
-- uid: SuperOffice.Threading.AsyncOperation{{TArgument}}
-  commentId: T:SuperOffice.Threading.AsyncOperation{``0}
-  parent: SuperOffice.Threading
-  definition: SuperOffice.Threading.AsyncOperation`1
-  name: AsyncOperation<TArgument>
-  nameWithType: AsyncOperation<TArgument>
-  fullName: SuperOffice.Threading.AsyncOperation<TArgument>
-  nameWithType.vb: AsyncOperation(Of TArgument)
-  fullName.vb: SuperOffice.Threading.AsyncOperation(Of TArgument)
-  name.vb: AsyncOperation(Of TArgument)
   spec.csharp:
-  - uid: SuperOffice.Threading.AsyncOperation`1
-    name: AsyncOperation
-    nameWithType: AsyncOperation
-    fullName: SuperOffice.Threading.AsyncOperation
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TArgument
-    nameWithType: TArgument
-    fullName: TArgument
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
   spec.vb:
-  - uid: SuperOffice.Threading.AsyncOperation`1
-    name: AsyncOperation
-    nameWithType: AsyncOperation
-    fullName: SuperOffice.Threading.AsyncOperation
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TArgument
-    nameWithType: TArgument
-    fullName: TArgument
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.SoContext.CloseCurrentSession*
+  commentId: Overload:SuperOffice.SoContext.CloseCurrentSession
+  isExternal: true
+  href: SuperOffice.SoContext.html#SuperOffice_SoContext_CloseCurrentSession
+  name: CloseCurrentSession
+  nameWithType: SoContext.CloseCurrentSession
+  fullName: SuperOffice.SoContext.CloseCurrentSession
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: '{TArgument}'
-  commentId: '!:TArgument'
-  definition: TArgument
-  name: TArgument
-  nameWithType: TArgument
-  fullName: TArgument
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: SuperOffice.SoContext.ToString*
+  commentId: Overload:SuperOffice.SoContext.ToString
+  isExternal: true
+  href: SuperOffice.SoContext.html#SuperOffice_SoContext_ToString
+  name: ToString
+  nameWithType: SoContext.ToString
+  fullName: SuperOffice.SoContext.ToString
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.Threading.AsyncContext
-  commentId: T:SuperOffice.Threading.AsyncContext
-  parent: SuperOffice.Threading
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.SoContext.#ctor*
+  commentId: Overload:SuperOffice.SoContext.#ctor
   isExternal: true
-  name: AsyncContext
-  nameWithType: AsyncContext
-  fullName: SuperOffice.Threading.AsyncContext
-- uid: SuperOffice.Threading.AsyncOperation`1
-  commentId: T:SuperOffice.Threading.AsyncOperation`1
+  href: SuperOffice.SoContext.html#SuperOffice_SoContext__ctor
+  name: SoContext
+  nameWithType: SoContext.SoContext
+  fullName: SuperOffice.SoContext.SoContext
+  nameWithType.vb: SoContext.New
+  fullName.vb: SuperOffice.SoContext.New
+  name.vb: New
+- uid: SuperOffice.SoContext.CurrentPrincipal*
+  commentId: Overload:SuperOffice.SoContext.CurrentPrincipal
   isExternal: true
-  name: AsyncOperation<TArgument>
-  nameWithType: AsyncOperation<TArgument>
-  fullName: SuperOffice.Threading.AsyncOperation<TArgument>
-  nameWithType.vb: AsyncOperation(Of TArgument)
-  fullName.vb: SuperOffice.Threading.AsyncOperation(Of TArgument)
-  name.vb: AsyncOperation(Of TArgument)
+  href: SuperOffice.SoContext.html#SuperOffice_SoContext_CurrentPrincipal
+  name: CurrentPrincipal
+  nameWithType: SoContext.CurrentPrincipal
+  fullName: SuperOffice.SoContext.CurrentPrincipal
+- uid: System.Security.Claims.ClaimsPrincipal
+  commentId: T:System.Security.Claims.ClaimsPrincipal
+  parent: System.Security.Claims
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsprincipal
+  name: ClaimsPrincipal
+  nameWithType: ClaimsPrincipal
+  fullName: System.Security.Claims.ClaimsPrincipal
+- uid: System.Security.Claims
+  commentId: N:System.Security.Claims
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Security.Claims
+  nameWithType: System.Security.Claims
+  fullName: System.Security.Claims
   spec.csharp:
-  - uid: SuperOffice.Threading.AsyncOperation`1
-    name: AsyncOperation
-    nameWithType: AsyncOperation
-    fullName: SuperOffice.Threading.AsyncOperation
+  - uid: System
+    name: System
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TArgument
-    nameWithType: TArgument
-    fullName: TArgument
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Security
+    name: Security
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security
+  - name: .
+  - uid: System.Security.Claims
+    name: Claims
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims
   spec.vb:
-  - uid: SuperOffice.Threading.AsyncOperation`1
-    name: AsyncOperation
-    nameWithType: AsyncOperation
-    fullName: SuperOffice.Threading.AsyncOperation
+  - uid: System
+    name: System
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TArgument
-    nameWithType: TArgument
-    fullName: TArgument
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Threading
-  commentId: N:SuperOffice.Threading
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Security
+    name: Security
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security
+  - name: .
+  - uid: System.Security.Claims
+    name: Claims
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims
+- uid: SuperOffice.SoContext.CurrentIdentity*
+  commentId: Overload:SuperOffice.SoContext.CurrentIdentity
   isExternal: true
-  name: SuperOffice.Threading
-  nameWithType: SuperOffice.Threading
-  fullName: SuperOffice.Threading
-- uid: TArgument
-  name: TArgument
-  nameWithType: TArgument
-  fullName: TArgument
+  href: SuperOffice.SoContext.html#SuperOffice_SoContext_CurrentIdentity
+  name: CurrentIdentity
+  nameWithType: SoContext.CurrentIdentity
+  fullName: SuperOffice.SoContext.CurrentIdentity
+- uid: System.Security.Claims.ClaimsIdentity
+  commentId: T:System.Security.Claims.ClaimsIdentity
+  parent: System.Security.Claims
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
+  name: ClaimsIdentity
+  nameWithType: ClaimsIdentity
+  fullName: System.Security.Claims.ClaimsIdentity
+- uid: SuperOffice.SoContext.IsAuthenticated*
+  commentId: Overload:SuperOffice.SoContext.IsAuthenticated
+  isExternal: true
+  href: SuperOffice.SoContext.html#SuperOffice_SoContext_IsAuthenticated
+  name: IsAuthenticated
+  nameWithType: SoContext.IsAuthenticated
+  fullName: SuperOffice.SoContext.IsAuthenticated
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: SuperOffice.SoContext.CloseCurrentSession*
-  commentId: Overload:SuperOffice.SoContext.CloseCurrentSession
-  isExternal: true
-  name: CloseCurrentSession
-  nameWithType: SoContext.CloseCurrentSession
-  fullName: SuperOffice.SoContext.CloseCurrentSession
-- uid: SuperOffice.SoContext.ToString*
-  commentId: Overload:SuperOffice.SoContext.ToString
-  isExternal: true
-  name: ToString
-  nameWithType: SoContext.ToString
-  fullName: SuperOffice.SoContext.ToString
-- uid: SuperOffice.SoContext.#ctor*
-  commentId: Overload:SuperOffice.SoContext.#ctor
-  isExternal: true
-  name: SoContext
-  nameWithType: SoContext.SoContext
-  fullName: SuperOffice.SoContext.SoContext
-- uid: SuperOffice.SoContext.CurrentPrincipal*
-  commentId: Overload:SuperOffice.SoContext.CurrentPrincipal
-  isExternal: true
-  name: CurrentPrincipal
-  nameWithType: SoContext.CurrentPrincipal
-  fullName: SuperOffice.SoContext.CurrentPrincipal
-- uid: SuperOffice.Security.Principal.SoPrincipal
-  commentId: T:SuperOffice.Security.Principal.SoPrincipal
-  parent: SuperOffice.Security.Principal
-  isExternal: true
-  name: SoPrincipal
-  nameWithType: SoPrincipal
-  fullName: SuperOffice.Security.Principal.SoPrincipal
-- uid: SuperOffice.Security.Principal
-  commentId: N:SuperOffice.Security.Principal
-  isExternal: true
-  name: SuperOffice.Security.Principal
-  nameWithType: SuperOffice.Security.Principal
-  fullName: SuperOffice.Security.Principal
-- uid: SuperOffice.SoContext.CurrentRealPrincipal*
-  commentId: Overload:SuperOffice.SoContext.CurrentRealPrincipal
-  isExternal: true
-  name: CurrentRealPrincipal
-  nameWithType: SoContext.CurrentRealPrincipal
-  fullName: SuperOffice.SoContext.CurrentRealPrincipal
-- uid: SuperOffice.SoContext.CurrentIdentity*
-  commentId: Overload:SuperOffice.SoContext.CurrentIdentity
-  isExternal: true
-  name: CurrentIdentity
-  nameWithType: SoContext.CurrentIdentity
-  fullName: SuperOffice.SoContext.CurrentIdentity
-- uid: SuperOffice.Security.Principal.ISoIdentity
-  commentId: T:SuperOffice.Security.Principal.ISoIdentity
-  parent: SuperOffice.Security.Principal
-  isExternal: true
-  name: ISoIdentity
-  nameWithType: ISoIdentity
-  fullName: SuperOffice.Security.Principal.ISoIdentity
-- uid: SuperOffice.SoContext.IsUdefAvailable*
-  commentId: Overload:SuperOffice.SoContext.IsUdefAvailable
-  isExternal: true
-  name: IsUdefAvailable
-  nameWithType: SoContext.IsUdefAvailable
-  fullName: SuperOffice.SoContext.IsUdefAvailable
-- uid: SuperOffice.SoContext.IsAuthenticated*
-  commentId: Overload:SuperOffice.SoContext.IsAuthenticated
-  isExternal: true
-  name: IsAuthenticated
-  nameWithType: SoContext.IsAuthenticated
-  fullName: SuperOffice.SoContext.IsAuthenticated
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

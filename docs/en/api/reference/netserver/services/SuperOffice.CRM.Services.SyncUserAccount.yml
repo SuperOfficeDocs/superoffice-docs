@@ -18,31 +18,40 @@ items:
   nameWithType: SyncUserAccount
   fullName: SuperOffice.CRM.Services.SyncUserAccount
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDetails for syncing email user accounts\n<p></p>\nCarrier object for SyncUserAccount.\nServices for the SyncUserAccount Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IEMailAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Details for syncing email user accounts
+
+    <p></p>
+
+    Carrier object for SyncUserAccount.
+
+    Services for the SyncUserAccount Carrier is available from the <xref href="SuperOffice.CRM.Services.IEMailAgent?text=EMail+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class SyncUserAccount : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class SyncUserAccount : Carrier
     content.vb: >-
-      Public Class SyncUserAccount
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class SyncUserAccount Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.EMailAgent
-    commentId: T:SuperOffice.CRM.Services.EMailAgent
   - linkId: SuperOffice.CRM.Services.IEMailAgent
     commentId: T:SuperOffice.CRM.Services.IEMailAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.SyncUserAccount.#ctor
   commentId: M:SuperOffice.CRM.Services.SyncUserAccount.#ctor
   id: '#ctor'
@@ -54,21 +63,18 @@ items:
   nameWithType: SyncUserAccount.SyncUserAccount()
   fullName: SuperOffice.CRM.Services.SyncUserAccount.SyncUserAccount()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public SyncUserAccount()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.SyncUserAccount.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SyncUserAccount.New()
+  fullName.vb: SuperOffice.CRM.Services.SyncUserAccount.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.SyncUserAccount.ToString
   commentId: M:SuperOffice.CRM.Services.SyncUserAccount.ToString
   id: ToString
@@ -80,26 +86,18 @@ items:
   nameWithType: SyncUserAccount.ToString()
   fullName: SuperOffice.CRM.Services.SyncUserAccount.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.SyncUserAccount.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.SyncUserAccount.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.SyncUserAccount.ToString(System.String)
   id: ToString(System.String)
@@ -107,17 +105,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: SyncUserAccount.ToString(String)
-  fullName: SuperOffice.CRM.Services.SyncUserAccount.ToString(System.String)
+  name: ToString(string)
+  nameWithType: SyncUserAccount.ToString(string)
+  fullName: SuperOffice.CRM.Services.SyncUserAccount.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -129,10 +128,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.SyncUserAccount.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SyncUserAccount.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.SyncUserAccount.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.SyncUserAccount.AccountId
   commentId: P:SuperOffice.CRM.Services.SyncUserAccount.AccountId
   id: AccountId
@@ -144,28 +142,28 @@ items:
   nameWithType: SyncUserAccount.AccountId
   fullName: SuperOffice.CRM.Services.SyncUserAccount.AccountId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe account primary key \n"
+  summary: The account primary key
+  example: []
   syntax:
-    content: public virtual int AccountId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int AccountId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property AccountId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property AccountId As Integer
   overload: SuperOffice.CRM.Services.SyncUserAccount.AccountId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SyncUserAccount.AssociateName
   commentId: P:SuperOffice.CRM.Services.SyncUserAccount.AssociateName
   id: AssociateName
@@ -177,28 +175,28 @@ items:
   nameWithType: SyncUserAccount.AssociateName
   fullName: SuperOffice.CRM.Services.SyncUserAccount.AssociateName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe username of the associate owning the account \n"
+  summary: The username of the associate owning the account
+  example: []
   syntax:
-    content: public virtual string AssociateName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string AssociateName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property AssociateName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property AssociateName As String
   overload: SuperOffice.CRM.Services.SyncUserAccount.AssociateName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SyncUserAccount.AssociateId
   commentId: P:SuperOffice.CRM.Services.SyncUserAccount.AssociateId
   id: AssociateId
@@ -210,57 +208,106 @@ items:
   nameWithType: SyncUserAccount.AssociateId
   fullName: SuperOffice.CRM.Services.SyncUserAccount.AssociateId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nId of the associate who owns this account \n"
+  summary: Id of the associate who owns this account
+  example: []
   syntax:
-    content: public virtual int AssociateId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int AssociateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property AssociateId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property AssociateId As Integer
   overload: SuperOffice.CRM.Services.SyncUserAccount.AssociateId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.EMailAgent
-  commentId: T:SuperOffice.CRM.Services.EMailAgent
-  isExternal: true
-  name: EMailAgent
-  nameWithType: EMailAgent
-  fullName: SuperOffice.CRM.Services.EMailAgent
 - uid: SuperOffice.CRM.Services.IEMailAgent
   commentId: T:SuperOffice.CRM.Services.IEMailAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IEMailAgent.html
   name: IEMailAgent
   nameWithType: IEMailAgent
   fullName: SuperOffice.CRM.Services.IEMailAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.SyncUserAccount.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.SyncUserAccount.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.SyncUserAccount.html#SuperOffice_CRM_Services_SyncUserAccount__ctor
   name: SyncUserAccount
   nameWithType: SyncUserAccount.SyncUserAccount
   fullName: SuperOffice.CRM.Services.SyncUserAccount.SyncUserAccount
+  nameWithType.vb: SyncUserAccount.New
+  fullName.vb: SuperOffice.CRM.Services.SyncUserAccount.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.SyncUserAccount.ToString*
   commentId: Overload:SuperOffice.CRM.Services.SyncUserAccount.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.SyncUserAccount.html#SuperOffice_CRM_Services_SyncUserAccount_ToString
   name: ToString
   nameWithType: SyncUserAccount.ToString
   fullName: SuperOffice.CRM.Services.SyncUserAccount.ToString
@@ -268,18 +315,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.SyncUserAccount.AccountId*
   commentId: Overload:SuperOffice.CRM.Services.SyncUserAccount.AccountId
   isExternal: true
+  href: SuperOffice.CRM.Services.SyncUserAccount.html#SuperOffice_CRM_Services_SyncUserAccount_AccountId
   name: AccountId
   nameWithType: SyncUserAccount.AccountId
   fullName: SuperOffice.CRM.Services.SyncUserAccount.AccountId
@@ -287,18 +333,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.SyncUserAccount.AssociateName*
   commentId: Overload:SuperOffice.CRM.Services.SyncUserAccount.AssociateName
   isExternal: true
+  href: SuperOffice.CRM.Services.SyncUserAccount.html#SuperOffice_CRM_Services_SyncUserAccount_AssociateName
   name: AssociateName
   nameWithType: SyncUserAccount.AssociateName
   fullName: SuperOffice.CRM.Services.SyncUserAccount.AssociateName
 - uid: SuperOffice.CRM.Services.SyncUserAccount.AssociateId*
   commentId: Overload:SuperOffice.CRM.Services.SyncUserAccount.AssociateId
   isExternal: true
+  href: SuperOffice.CRM.Services.SyncUserAccount.html#SuperOffice_CRM_Services_SyncUserAccount_AssociateId
   name: AssociateId
   nameWithType: SyncUserAccount.AssociateId
   fullName: SuperOffice.CRM.Services.SyncUserAccount.AssociateId

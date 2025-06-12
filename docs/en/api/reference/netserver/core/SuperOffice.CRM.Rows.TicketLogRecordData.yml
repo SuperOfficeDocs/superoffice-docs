@@ -20,33 +20,41 @@ items:
   nameWithType: TicketLogRecordData
   fullName: SuperOffice.CRM.Rows.TicketLogRecordData
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the ticket_log table.\n"
-  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.TicketLogRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.TicketLogTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  summary: >-
+    POCO (Plain Old CLR Object) class that can be used to hold data corresponding
+
+    to a row from the ticket_log table.
+  remarks: >-
+    Please use this class instead of a full <xref href="SuperOffice.CRM.Rows.TicketLogRow" data-throw-if-not-resolved="false"></xref> object when
+
+    you do not need to <b>create or update</b> a value in the database. Row objects have a large overhead
+
+    since they carry the corresponding <xref href="SuperOffice.CRM.Data.TicketLogTableInfo" data-throw-if-not-resolved="false"></xref> object, which
+
+    in turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.
+  example: []
   syntax:
-    content: 'public class TicketLogRecordData : Object'
-    content.vb: >-
-      Public Class TicketLogRecordData
-          Inherits Object
+    content: public class TicketLogRecordData
+    content.vb: Public Class TicketLogRecordData
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.TicketLogRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.TicketLogRecordData.SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.TicketLogRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.TicketLogRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TicketLogRecordData)
   - SuperOffice.CRM.Rows.TicketLogRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.TicketLogRecordData.SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsert
-  - SuperOffice.CRM.Rows.TicketLogRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Rows.TicketLogRecordData.TicketLogId
   commentId: F:SuperOffice.CRM.Rows.TicketLogRecordData.TicketLogId
   id: TicketLogId
@@ -58,22 +66,16 @@ items:
   nameWithType: TicketLogRecordData.TicketLogId
   fullName: SuperOffice.CRM.Rows.TicketLogRecordData.TicketLogId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe primary key (auto-incremented) \n"
+  summary: The primary key (auto-incremented)
+  example: []
   syntax:
     content: public int TicketLogId
     return:
       type: System.Int32
     content.vb: Public TicketLogId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.TicketLogRecordData.TicketId
   commentId: F:SuperOffice.CRM.Rows.TicketLogRecordData.TicketId
   id: TicketId
@@ -85,22 +87,16 @@ items:
   nameWithType: TicketLogRecordData.TicketId
   fullName: SuperOffice.CRM.Rows.TicketLogRecordData.TicketId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe id of the ticket this entry is connected to. \n"
+  summary: The id of the ticket this entry is connected to.
+  example: []
   syntax:
     content: public int TicketId
     return:
       type: System.Int32
     content.vb: Public TicketId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.TicketLogRecordData.LogCode
   commentId: F:SuperOffice.CRM.Rows.TicketLogRecordData.LogCode
   id: LogCode
@@ -112,22 +108,16 @@ items:
   nameWithType: TicketLogRecordData.LogCode
   fullName: SuperOffice.CRM.Rows.TicketLogRecordData.LogCode
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nAn enum indicating what kind of log-entry this is. \n"
+  summary: An enum indicating what kind of log-entry this is.
+  example: []
   syntax:
     content: public short LogCode
     return:
       type: System.Int16
     content.vb: Public LogCode As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.TicketLogRecordData.LogWho
   commentId: F:SuperOffice.CRM.Rows.TicketLogRecordData.LogWho
   id: LogWho
@@ -139,22 +129,16 @@ items:
   nameWithType: TicketLogRecordData.LogWho
   fullName: SuperOffice.CRM.Rows.TicketLogRecordData.LogWho
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe username/alias of the user performing the action. \n"
+  summary: The username/alias of the user performing the action.
+  example: []
   syntax:
     content: public string LogWho
     return:
       type: System.String
     content.vb: Public LogWho As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.TicketLogRecordData.LogWhen
   commentId: F:SuperOffice.CRM.Rows.TicketLogRecordData.LogWhen
   id: LogWhen
@@ -166,22 +150,16 @@ items:
   nameWithType: TicketLogRecordData.LogWhen
   fullName: SuperOffice.CRM.Rows.TicketLogRecordData.LogWhen
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nWhen the action occured. \n"
+  summary: When the action occured.
+  example: []
   syntax:
     content: public DateTime LogWhen
     return:
       type: System.DateTime
-    content.vb: Public LogWhen As DateTime
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public LogWhen As Date
 - uid: SuperOffice.CRM.Rows.TicketLogRecordData.LogDescription
   commentId: F:SuperOffice.CRM.Rows.TicketLogRecordData.LogDescription
   id: LogDescription
@@ -193,22 +171,16 @@ items:
   nameWithType: TicketLogRecordData.LogDescription
   fullName: SuperOffice.CRM.Rows.TicketLogRecordData.LogDescription
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nA string describing the event (or part of such) to be logged. \n"
+  summary: A string describing the event (or part of such) to be logged.
+  example: []
   syntax:
     content: public string LogDescription
     return:
       type: System.String
     content.vb: Public LogDescription As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.TicketLogRecordData.LogWhatValue2
   commentId: F:SuperOffice.CRM.Rows.TicketLogRecordData.LogWhatValue2
   id: LogWhatValue2
@@ -220,22 +192,16 @@ items:
   nameWithType: TicketLogRecordData.LogWhatValue2
   fullName: SuperOffice.CRM.Rows.TicketLogRecordData.LogWhatValue2
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nA reference to various tables, depending on the log_code. \n"
+  summary: A reference to various tables, depending on the log_code.
+  example: []
   syntax:
     content: public int LogWhatValue2
     return:
       type: System.Int32
     content.vb: Public LogWhatValue2 As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.TicketLogRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.TicketLogRecordData.#ctor
   id: '#ctor'
@@ -247,220 +213,602 @@ items:
   nameWithType: TicketLogRecordData.TicketLogRecordData()
   fullName: SuperOffice.CRM.Rows.TicketLogRecordData.TicketLogRecordData()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public TicketLogRecordData()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Rows.TicketLogRecordData.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: TicketLogRecordData.New()
+  fullName.vb: SuperOffice.CRM.Rows.TicketLogRecordData.New()
+  name.vb: New()
 references:
+- uid: SuperOffice.CRM.Rows.TicketLogRow
+  commentId: T:SuperOffice.CRM.Rows.TicketLogRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketLogRow.html
+  name: TicketLogRow
+  nameWithType: TicketLogRow
+  fullName: SuperOffice.CRM.Rows.TicketLogRow
+- uid: SuperOffice.CRM.Data.TicketLogTableInfo
+  commentId: T:SuperOffice.CRM.Data.TicketLogTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketLogTableInfo.html
+  name: TicketLogTableInfo
+  nameWithType: TicketLogTableInfo
+  fullName: SuperOffice.CRM.Data.TicketLogTableInfo
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Rows.TicketLogRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<TicketLogRecordData, To>()
-  nameWithType: EnumUtil.MapEnums<TicketLogRecordData, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.TicketLogRecordData, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of TicketLogRecordData, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.TicketLogRecordData, To)()
-  name.vb: MapEnums(Of TicketLogRecordData, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<TicketLogRecordData, To>(TicketLogRecordData)
+  nameWithType: EnumUtil.MapEnums<TicketLogRecordData, To>(TicketLogRecordData)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.TicketLogRecordData, To>(SuperOffice.CRM.Rows.TicketLogRecordData)
+  nameWithType.vb: EnumUtil.MapEnums(Of TicketLogRecordData, To)(TicketLogRecordData)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.TicketLogRecordData, To)(SuperOffice.CRM.Rows.TicketLogRecordData)
+  name.vb: MapEnums(Of TicketLogRecordData, To)(TicketLogRecordData)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<TicketLogRecordData, To>
-    nameWithType: EnumUtil.MapEnums<TicketLogRecordData, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.TicketLogRecordData, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.TicketLogRecordData)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of TicketLogRecordData, To)
-    nameWithType: EnumUtil.MapEnums(Of TicketLogRecordData, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.TicketLogRecordData, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TicketLogRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TicketLogRecordData)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<TicketLogRecordData>(TicketLogRecordData)
-  nameWithType: ObjectExtensions.AssignByReflection<TicketLogRecordData>(TicketLogRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.TicketLogRecordData>(SuperOffice.CRM.Rows.TicketLogRecordData)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TicketLogRecordData)(TicketLogRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.TicketLogRecordData)(SuperOffice.CRM.Rows.TicketLogRecordData)
-  name.vb: AssignByReflection(Of TicketLogRecordData)(TicketLogRecordData)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<TicketLogRecordData>
-    nameWithType: ObjectExtensions.AssignByReflection<TicketLogRecordData>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.TicketLogRecordData>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.Rows.TicketLogRecordData
     name: TicketLogRecordData
-    nameWithType: TicketLogRecordData
-    fullName: SuperOffice.CRM.Rows.TicketLogRecordData
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of TicketLogRecordData)
-    nameWithType: ObjectExtensions.AssignByReflection(Of TicketLogRecordData)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.TicketLogRecordData)
-    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.TicketLogRecordData
     name: TicketLogRecordData
-    nameWithType: TicketLogRecordData
-    fullName: SuperOffice.CRM.Rows.TicketLogRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordData.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TicketLogRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<TicketLogRecordData>()
-  nameWithType: ObjectExtensions.GraphCopy<TicketLogRecordData>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.TicketLogRecordData>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of TicketLogRecordData)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.TicketLogRecordData)()
-  name.vb: GraphCopy(Of TicketLogRecordData)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<TicketLogRecordData>
-    nameWithType: ObjectExtensions.GraphCopy<TicketLogRecordData>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.TicketLogRecordData>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of TicketLogRecordData)
-    nameWithType: ObjectExtensions.GraphCopy(Of TicketLogRecordData)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.TicketLogRecordData)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.TicketLogRecordData)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.TicketLogRecordData
+    name: TicketLogRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TicketLogRecordData.SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketLogRecordData)
+  - name: (
+  - uid: SuperOffice.CRM.Rows.TicketLogRecordData
+    name: TicketLogRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.TicketLogRecordData.SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TicketLogRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketLogRecordData)
-  name: ToInsert()
-  nameWithType: TicketLogRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TicketLogRecordData,System.Threading.CancellationToken)
+  href: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.html#SuperOffice_CRM_Rows_TicketLogRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_TicketLogRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync(TicketLogRecordData, CancellationToken)
+  nameWithType: TicketLogRecordDataExtensions.ToInsertAsync(TicketLogRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TicketLogRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: TicketLogRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TicketLogRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.html#SuperOffice_CRM_Rows_TicketLogRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_TicketLogRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.TicketLogRecordData
+    name: TicketLogRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: TicketLogRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TicketLogRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.html#SuperOffice_CRM_Rows_TicketLogRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_TicketLogRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.TicketLogRecordData
+    name: TicketLogRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.TicketLogRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<TicketLogRecordData, To>()
-  nameWithType: Converters.MapEnums<TicketLogRecordData, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.TicketLogRecordData, To>()
-  nameWithType.vb: Converters.MapEnums(Of TicketLogRecordData, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.TicketLogRecordData, To)()
-  name.vb: MapEnums(Of TicketLogRecordData, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<TicketLogRecordData, To>(TicketLogRecordData)
+  nameWithType: Converters.MapEnums<TicketLogRecordData, To>(TicketLogRecordData)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.TicketLogRecordData, To>(SuperOffice.CRM.Rows.TicketLogRecordData)
+  nameWithType.vb: Converters.MapEnums(Of TicketLogRecordData, To)(TicketLogRecordData)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.TicketLogRecordData, To)(SuperOffice.CRM.Rows.TicketLogRecordData)
+  name.vb: MapEnums(Of TicketLogRecordData, To)(TicketLogRecordData)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<TicketLogRecordData, To>
-    nameWithType: Converters.MapEnums<TicketLogRecordData, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.TicketLogRecordData, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.TicketLogRecordData)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.TicketLogRecordData
+    name: TicketLogRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.TicketLogRecordData
+    name: TicketLogRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordData.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of TicketLogRecordData, To)
-    nameWithType: Converters.MapEnums(Of TicketLogRecordData, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.TicketLogRecordData, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.TicketLogRecordData)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.TicketLogRecordData
+    name: TicketLogRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.TicketLogRecordData
+    name: TicketLogRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.TicketLogRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TicketLogRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<TicketLogRecordData>(TicketLogRecordData, TicketLogRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<TicketLogRecordData>(TicketLogRecordData, TicketLogRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.TicketLogRecordData>(SuperOffice.CRM.Rows.TicketLogRecordData, SuperOffice.CRM.Rows.TicketLogRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TicketLogRecordData)(TicketLogRecordData, TicketLogRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.TicketLogRecordData)(SuperOffice.CRM.Rows.TicketLogRecordData, SuperOffice.CRM.Rows.TicketLogRecordData)
+  name.vb: AssignByReflection(Of TicketLogRecordData)(TicketLogRecordData, TicketLogRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TicketLogRecordData,SuperOffice.CRM.Rows.TicketLogRecordData)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.TicketLogRecordData
+    name: TicketLogRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordData.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.TicketLogRecordData
+    name: TicketLogRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordData.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.TicketLogRecordData
+    name: TicketLogRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TicketLogRecordData,SuperOffice.CRM.Rows.TicketLogRecordData)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.TicketLogRecordData
+    name: TicketLogRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordData.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.TicketLogRecordData
+    name: TicketLogRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordData.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.TicketLogRecordData
+    name: TicketLogRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.TicketLogRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<TicketLogRecordData>(TicketLogRecordData)
+  nameWithType: ObjectExtensions.GraphCopy<TicketLogRecordData>(TicketLogRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.TicketLogRecordData>(SuperOffice.CRM.Rows.TicketLogRecordData)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TicketLogRecordData)(TicketLogRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.TicketLogRecordData)(SuperOffice.CRM.Rows.TicketLogRecordData)
+  name.vb: GraphCopy(Of TicketLogRecordData)(TicketLogRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.TicketLogRecordData)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.TicketLogRecordData
+    name: TicketLogRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordData.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.TicketLogRecordData
+    name: TicketLogRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.TicketLogRecordData)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.TicketLogRecordData
+    name: TicketLogRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordData.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.TicketLogRecordData
+    name: TicketLogRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -469,187 +817,94 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+- uid: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TicketLogRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TicketLogRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
+  href: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.html#SuperOffice_CRM_Rows_TicketLogRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_TicketLogRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync(TicketLogRecordData, CancellationToken)
+  nameWithType: TicketLogRecordDataExtensions.ToInsertAsync(TicketLogRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TicketLogRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+  - uid: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TicketLogRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.html#SuperOffice_CRM_Rows_TicketLogRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_TicketLogRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketLogRecordData)
-  commentId: M:SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketLogRecordData)
-  isExternal: true
-  name: ToInsert(TicketLogRecordData)
-  nameWithType: TicketLogRecordDataExtensions.ToInsert(TicketLogRecordData)
-  fullName: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketLogRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketLogRecordData)
-    name: ToInsert
-    nameWithType: TicketLogRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsert
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.TicketLogRecordData
     name: TicketLogRecordData
-    nameWithType: TicketLogRecordData
-    fullName: SuperOffice.CRM.Rows.TicketLogRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketLogRecordData)
-    name: ToInsert
-    nameWithType: TicketLogRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TicketLogRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.html#SuperOffice_CRM_Rows_TicketLogRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_TicketLogRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.TicketLogRecordData
     name: TicketLogRecordData
-    nameWithType: TicketLogRecordData
-    fullName: SuperOffice.CRM.Rows.TicketLogRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.TicketLogRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions
   commentId: T:SuperOffice.CRM.Rows.TicketLogRecordDataExtensions
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions.html
   name: TicketLogRecordDataExtensions
   nameWithType: TicketLogRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.TicketLogRecordDataExtensions
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -658,82 +913,239 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.Rows.TicketLogRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.TicketLogRecordData.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Rows.TicketLogRecordData.html#SuperOffice_CRM_Rows_TicketLogRecordData__ctor
   name: TicketLogRecordData
   nameWithType: TicketLogRecordData.TicketLogRecordData
   fullName: SuperOffice.CRM.Rows.TicketLogRecordData.TicketLogRecordData
+  nameWithType.vb: TicketLogRecordData.New
+  fullName.vb: SuperOffice.CRM.Rows.TicketLogRecordData.New
+  name.vb: New

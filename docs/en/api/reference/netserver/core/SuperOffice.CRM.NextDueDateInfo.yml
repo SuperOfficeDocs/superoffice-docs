@@ -20,29 +20,26 @@ items:
   nameWithType: NextDueDateInfo
   fullName: SuperOffice.CRM.NextDueDateInfo
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\nThe information needed to update remaining sale rows in a batch update\n"
+  summary: The information needed to update remaining sale rows in a batch update
+  example: []
   syntax:
-    content: 'public class NextDueDateInfo : Object'
-    content.vb: >-
-      Public Class NextDueDateInfo
-          Inherits Object
+    content: public class NextDueDateInfo
+    content.vb: Public Class NextDueDateInfo
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.NextDueDateInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.NextDueDateInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.NextDueDateInfo.SaleDate
   commentId: F:SuperOffice.CRM.NextDueDateInfo.SaleDate
   id: SaleDate
@@ -54,9 +51,6 @@ items:
   nameWithType: NextDueDateInfo.SaleDate
   fullName: SuperOffice.CRM.NextDueDateInfo.SaleDate
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -64,11 +58,7 @@ items:
     content: public DateTime SaleDate
     return:
       type: System.DateTime
-    content.vb: Public SaleDate As DateTime
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public SaleDate As Date
 - uid: SuperOffice.CRM.NextDueDateInfo.Status
   commentId: F:SuperOffice.CRM.NextDueDateInfo.Status
   id: Status
@@ -80,9 +70,6 @@ items:
   nameWithType: NextDueDateInfo.Status
   fullName: SuperOffice.CRM.NextDueDateInfo.Status
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -91,10 +78,6 @@ items:
     return:
       type: SuperOffice.Data.SaleStatus
     content.vb: Public Status As SaleStatus
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.NextDueDateInfo.Done
   commentId: F:SuperOffice.CRM.NextDueDateInfo.Done
   id: Done
@@ -106,9 +89,6 @@ items:
   nameWithType: NextDueDateInfo.Done
   fullName: SuperOffice.CRM.NextDueDateInfo.Done
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -117,10 +97,6 @@ items:
     return:
       type: SuperOffice.Data.SaleDone
     content.vb: Public Done As SaleDone
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.NextDueDateInfo.ReOpenDate
   commentId: F:SuperOffice.CRM.NextDueDateInfo.ReOpenDate
   id: ReOpenDate
@@ -132,9 +108,6 @@ items:
   nameWithType: NextDueDateInfo.ReOpenDate
   fullName: SuperOffice.CRM.NextDueDateInfo.ReOpenDate
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -142,11 +115,7 @@ items:
     content: public DateTime ReOpenDate
     return:
       type: System.DateTime
-    content.vb: Public ReOpenDate As DateTime
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public ReOpenDate As Date
 - uid: SuperOffice.CRM.NextDueDateInfo.NextDueDate
   commentId: F:SuperOffice.CRM.NextDueDateInfo.NextDueDate
   id: NextDueDate
@@ -158,9 +127,6 @@ items:
   nameWithType: NextDueDateInfo.NextDueDate
   fullName: SuperOffice.CRM.NextDueDateInfo.NextDueDate
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -168,11 +134,7 @@ items:
     content: public DateTime NextDueDate
     return:
       type: System.DateTime
-    content.vb: Public NextDueDate As DateTime
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public NextDueDate As Date
 - uid: SuperOffice.CRM.NextDueDateInfo.NddAppointmentId
   commentId: F:SuperOffice.CRM.NextDueDateInfo.NddAppointmentId
   id: NddAppointmentId
@@ -184,9 +146,6 @@ items:
   nameWithType: NextDueDateInfo.NddAppointmentId
   fullName: SuperOffice.CRM.NextDueDateInfo.NddAppointmentId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -195,10 +154,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public NddAppointmentId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.NextDueDateInfo.#ctor(System.DateTime,SuperOffice.Data.SaleStatus,SuperOffice.Data.SaleDone,System.DateTime,System.DateTime,System.Int32)
   commentId: M:SuperOffice.CRM.NextDueDateInfo.#ctor(System.DateTime,SuperOffice.Data.SaleStatus,SuperOffice.Data.SaleDone,System.DateTime,System.DateTime,System.Int32)
   id: '#ctor(System.DateTime,SuperOffice.Data.SaleStatus,SuperOffice.Data.SaleDone,System.DateTime,System.DateTime,System.Int32)'
@@ -206,13 +161,10 @@ items:
   langs:
   - csharp
   - vb
-  name: NextDueDateInfo(DateTime, SaleStatus, SaleDone, DateTime, DateTime, Int32)
-  nameWithType: NextDueDateInfo.NextDueDateInfo(DateTime, SaleStatus, SaleDone, DateTime, DateTime, Int32)
-  fullName: SuperOffice.CRM.NextDueDateInfo.NextDueDateInfo(System.DateTime, SuperOffice.Data.SaleStatus, SuperOffice.Data.SaleDone, System.DateTime, System.DateTime, System.Int32)
+  name: NextDueDateInfo(DateTime, SaleStatus, SaleDone, DateTime, DateTime, int)
+  nameWithType: NextDueDateInfo.NextDueDateInfo(DateTime, SaleStatus, SaleDone, DateTime, DateTime, int)
+  fullName: SuperOffice.CRM.NextDueDateInfo.NextDueDateInfo(System.DateTime, SuperOffice.Data.SaleStatus, SuperOffice.Data.SaleDone, System.DateTime, System.DateTime, int)
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -231,12 +183,11 @@ items:
       type: System.DateTime
     - id: nddAppointmentId
       type: System.Int32
-    content.vb: Public Sub New(date As DateTime, status As SaleStatus, done As SaleDone, reOpen As DateTime, nextDueDate As DateTime, nddAppointmentId As Integer)
+    content.vb: Public Sub New([date] As Date, status As SaleStatus, done As SaleDone, reOpen As Date, nextDueDate As Date, nddAppointmentId As Integer)
   overload: SuperOffice.CRM.NextDueDateInfo.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: NextDueDateInfo.New(Date, SaleStatus, SaleDone, Date, Date, Integer)
+  fullName.vb: SuperOffice.CRM.NextDueDateInfo.New(Date, SuperOffice.Data.SaleStatus, SuperOffice.Data.SaleDone, Date, Date, Integer)
+  name.vb: New(Date, SaleStatus, SaleDone, Date, Date, Integer)
 - uid: SuperOffice.CRM.NextDueDateInfo.ToString
   commentId: M:SuperOffice.CRM.NextDueDateInfo.ToString
   id: ToString
@@ -248,115 +199,368 @@ items:
   nameWithType: NextDueDateInfo.ToString()
   fullName: SuperOffice.CRM.NextDueDateInfo.ToString()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
   overload: SuperOffice.CRM.NextDueDateInfo.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.NextDueDateInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<NextDueDateInfo, To>()
-  nameWithType: EnumUtil.MapEnums<NextDueDateInfo, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.NextDueDateInfo, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of NextDueDateInfo, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.NextDueDateInfo, To)()
-  name.vb: MapEnums(Of NextDueDateInfo, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<NextDueDateInfo, To>(NextDueDateInfo)
+  nameWithType: EnumUtil.MapEnums<NextDueDateInfo, To>(NextDueDateInfo)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.NextDueDateInfo, To>(SuperOffice.CRM.NextDueDateInfo)
+  nameWithType.vb: EnumUtil.MapEnums(Of NextDueDateInfo, To)(NextDueDateInfo)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.NextDueDateInfo, To)(SuperOffice.CRM.NextDueDateInfo)
+  name.vb: MapEnums(Of NextDueDateInfo, To)(NextDueDateInfo)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<NextDueDateInfo, To>
-    nameWithType: EnumUtil.MapEnums<NextDueDateInfo, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.NextDueDateInfo, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.NextDueDateInfo)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.NextDueDateInfo
+    name: NextDueDateInfo
+    isExternal: true
+    href: SuperOffice.CRM.NextDueDateInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.NextDueDateInfo
+    name: NextDueDateInfo
+    isExternal: true
+    href: SuperOffice.CRM.NextDueDateInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of NextDueDateInfo, To)
-    nameWithType: EnumUtil.MapEnums(Of NextDueDateInfo, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.NextDueDateInfo, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.NextDueDateInfo)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.NextDueDateInfo
+    name: NextDueDateInfo
+    isExternal: true
+    href: SuperOffice.CRM.NextDueDateInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.NextDueDateInfo
+    name: NextDueDateInfo
+    isExternal: true
+    href: SuperOffice.CRM.NextDueDateInfo.html
+  - name: )
 - uid: SuperOffice.CRM.NextDueDateInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<NextDueDateInfo, To>()
-  nameWithType: Converters.MapEnums<NextDueDateInfo, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.NextDueDateInfo, To>()
-  nameWithType.vb: Converters.MapEnums(Of NextDueDateInfo, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.NextDueDateInfo, To)()
-  name.vb: MapEnums(Of NextDueDateInfo, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<NextDueDateInfo, To>(NextDueDateInfo)
+  nameWithType: Converters.MapEnums<NextDueDateInfo, To>(NextDueDateInfo)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.NextDueDateInfo, To>(SuperOffice.CRM.NextDueDateInfo)
+  nameWithType.vb: Converters.MapEnums(Of NextDueDateInfo, To)(NextDueDateInfo)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.NextDueDateInfo, To)(SuperOffice.CRM.NextDueDateInfo)
+  name.vb: MapEnums(Of NextDueDateInfo, To)(NextDueDateInfo)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<NextDueDateInfo, To>
-    nameWithType: Converters.MapEnums<NextDueDateInfo, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.NextDueDateInfo, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.NextDueDateInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.NextDueDateInfo
+    name: NextDueDateInfo
+    isExternal: true
+    href: SuperOffice.CRM.NextDueDateInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.NextDueDateInfo
+    name: NextDueDateInfo
+    isExternal: true
+    href: SuperOffice.CRM.NextDueDateInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of NextDueDateInfo, To)
-    nameWithType: Converters.MapEnums(Of NextDueDateInfo, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.NextDueDateInfo, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.NextDueDateInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.NextDueDateInfo
+    name: NextDueDateInfo
+    isExternal: true
+    href: SuperOffice.CRM.NextDueDateInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.NextDueDateInfo
+    name: NextDueDateInfo
+    isExternal: true
+    href: SuperOffice.CRM.NextDueDateInfo.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -365,43 +569,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -410,69 +616,130 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.Data.SaleStatus
   commentId: T:SuperOffice.Data.SaleStatus
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.SaleStatus.html
   name: SaleStatus
   nameWithType: SaleStatus
   fullName: SuperOffice.Data.SaleStatus
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.SaleDone
   commentId: T:SuperOffice.Data.SaleDone
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.SaleDone.html
   name: SaleDone
   nameWithType: SaleDone
   fullName: SuperOffice.Data.SaleDone
@@ -480,18 +747,51 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.NextDueDateInfo.#ctor*
   commentId: Overload:SuperOffice.CRM.NextDueDateInfo.#ctor
   isExternal: true
+  href: SuperOffice.CRM.NextDueDateInfo.html#SuperOffice_CRM_NextDueDateInfo__ctor_System_DateTime_SuperOffice_Data_SaleStatus_SuperOffice_Data_SaleDone_System_DateTime_System_DateTime_System_Int32_
   name: NextDueDateInfo
   nameWithType: NextDueDateInfo.NextDueDateInfo
   fullName: SuperOffice.CRM.NextDueDateInfo.NextDueDateInfo
+  nameWithType.vb: NextDueDateInfo.New
+  fullName.vb: SuperOffice.CRM.NextDueDateInfo.New
+  name.vb: New
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.NextDueDateInfo.ToString*
   commentId: Overload:SuperOffice.CRM.NextDueDateInfo.ToString
   isExternal: true
+  href: SuperOffice.CRM.NextDueDateInfo.html#SuperOffice_CRM_NextDueDateInfo_ToString
   name: ToString
   nameWithType: NextDueDateInfo.ToString
   fullName: SuperOffice.CRM.NextDueDateInfo.ToString
@@ -499,6 +799,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

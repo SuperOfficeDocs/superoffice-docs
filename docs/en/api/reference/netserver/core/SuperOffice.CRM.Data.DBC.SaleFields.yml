@@ -34,10 +34,10 @@ items:
   - SuperOffice.CRM.Data.DBC.SaleFields.Registered
   - SuperOffice.CRM.Data.DBC.SaleFields.RegisteredAssociateId
   - SuperOffice.CRM.Data.DBC.SaleFields.ReopenDate
-  - SuperOffice.CRM.Data.DBC.SaleFields.Saledate
   - SuperOffice.CRM.Data.DBC.SaleFields.SaleId
   - SuperOffice.CRM.Data.DBC.SaleFields.SaleTypeCatId
   - SuperOffice.CRM.Data.DBC.SaleFields.SaleTypeId
+  - SuperOffice.CRM.Data.DBC.SaleFields.Saledate
   - SuperOffice.CRM.Data.DBC.SaleFields.Source
   - SuperOffice.CRM.Data.DBC.SaleFields.SourceId
   - SuperOffice.CRM.Data.DBC.SaleFields.Status
@@ -55,27 +55,24 @@ items:
   nameWithType: DBC.SaleFields
   fullName: SuperOffice.CRM.Data.DBC.SaleFields
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nFields for Sale, Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.  \n"
+  summary: Fields for Sale, Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.
+  example: []
   syntax:
-    content: 'public static class SaleFields : Object'
-    content.vb: >-
-      Public Module SaleFields
-          Inherits Object
+    content: public static class DBC.SaleFields
+    content.vb: Public Module DBC.SaleFields
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.SaleId
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.SaleId
   id: SaleId
@@ -87,24 +84,16 @@ items:
   nameWithType: DBC.SaleFields.SaleId
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.SaleId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.SaleId: Primary key\n"
+  summary: 'Sale.SaleId: Primary key'
+  example: []
   syntax:
     content: public const string SaleId = "sale_id"
     return:
       type: System.String
     content.vb: Public Const SaleId As String = "sale_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.AssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.AssociateId
   id: AssociateId
@@ -116,24 +105,16 @@ items:
   nameWithType: DBC.SaleFields.AssociateId
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.AssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.AssociateId: Owning associate\n"
+  summary: 'Sale.AssociateId: Owning associate'
+  example: []
   syntax:
     content: public const string AssociateId = "associate_id"
     return:
       type: System.String
     content.vb: Public Const AssociateId As String = "associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.GroupIdx
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.GroupIdx
   id: GroupIdx
@@ -145,24 +126,16 @@ items:
   nameWithType: DBC.SaleFields.GroupIdx
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.GroupIdx
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.GroupIdx: Owner&apos;s group whn sale was created\n"
+  summary: "Sale.GroupIdx: Owner's group whn sale was created"
+  example: []
   syntax:
     content: public const string GroupIdx = "group_idx"
     return:
       type: System.String
     content.vb: Public Const GroupIdx As String = "group_idx"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.ContactId
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.ContactId
   id: ContactId
@@ -174,24 +147,16 @@ items:
   nameWithType: DBC.SaleFields.ContactId
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.ContactId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.ContactId: Optional contact reference\n"
+  summary: 'Sale.ContactId: Optional contact reference'
+  example: []
   syntax:
     content: public const string ContactId = "contact_id"
     return:
       type: System.String
     content.vb: Public Const ContactId As String = "contact_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.PersonId
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.PersonId
   id: PersonId
@@ -203,24 +168,16 @@ items:
   nameWithType: DBC.SaleFields.PersonId
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.PersonId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.PersonId: Optional person reference\n"
+  summary: 'Sale.PersonId: Optional person reference'
+  example: []
   syntax:
     content: public const string PersonId = "person_id"
     return:
       type: System.String
     content.vb: Public Const PersonId As String = "person_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.Registered
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.Registered
   id: Registered
@@ -232,24 +189,16 @@ items:
   nameWithType: DBC.SaleFields.Registered
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.Registered
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.Registered: Registered date\n"
+  summary: 'Sale.Registered: Registered date'
+  example: []
   syntax:
     content: public const string Registered = "registered"
     return:
       type: System.String
     content.vb: Public Const Registered As String = "registered"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.Saledate
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.Saledate
   id: Saledate
@@ -261,24 +210,16 @@ items:
   nameWithType: DBC.SaleFields.Saledate
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.Saledate
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.Saledate: (expected / lost / won) sales date\n"
+  summary: 'Sale.Saledate: (expected / lost / won) sales date'
+  example: []
   syntax:
     content: public const string Saledate = "saledate"
     return:
       type: System.String
     content.vb: Public Const Saledate As String = "saledate"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.Amount
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.Amount
   id: Amount
@@ -290,24 +231,16 @@ items:
   nameWithType: DBC.SaleFields.Amount
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.Amount
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.Amount: Total sale amount\n"
+  summary: 'Sale.Amount: Total sale amount'
+  example: []
   syntax:
     content: public const string Amount = "amount"
     return:
       type: System.String
     content.vb: Public Const Amount As String = "amount"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.ProbabilityIdx
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.ProbabilityIdx
   id: ProbabilityIdx
@@ -319,24 +252,16 @@ items:
   nameWithType: DBC.SaleFields.ProbabilityIdx
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.ProbabilityIdx
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.ProbabilityIdx: Pointer to probability list value\n"
+  summary: 'Sale.ProbabilityIdx: Pointer to probability list value'
+  example: []
   syntax:
     content: public const string ProbabilityIdx = "probability_idx"
     return:
       type: System.String
     content.vb: Public Const ProbabilityIdx As String = "probability_idx"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.AppointmentId
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.AppointmentId
   id: AppointmentId
@@ -348,24 +273,16 @@ items:
   nameWithType: DBC.SaleFields.AppointmentId
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.AppointmentId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.AppointmentId: For future use\n"
+  summary: 'Sale.AppointmentId: For future use'
+  example: []
   syntax:
     content: public const string AppointmentId = "appointment_id"
     return:
       type: System.String
     content.vb: Public Const AppointmentId As String = "appointment_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.TextId
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.TextId
   id: TextId
@@ -377,24 +294,16 @@ items:
   nameWithType: DBC.SaleFields.TextId
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.TextId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.TextId: Optional long description\n"
+  summary: 'Sale.TextId: Optional long description'
+  example: []
   syntax:
     content: public const string TextId = "text_id"
     return:
       type: System.String
     content.vb: Public Const TextId As String = "text_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.ProjectId
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.ProjectId
   id: ProjectId
@@ -406,24 +315,16 @@ items:
   nameWithType: DBC.SaleFields.ProjectId
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.ProjectId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.ProjectId: Optional project reference\n"
+  summary: 'Sale.ProjectId: Optional project reference'
+  example: []
   syntax:
     content: public const string ProjectId = "project_id"
     return:
       type: System.String
     content.vb: Public Const ProjectId As String = "project_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.Earning
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.Earning
   id: Earning
@@ -435,24 +336,16 @@ items:
   nameWithType: DBC.SaleFields.Earning
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.Earning
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.Earning: Earning on sale\n"
+  summary: 'Sale.Earning: Earning on sale'
+  example: []
   syntax:
     content: public const string Earning = "earning"
     return:
       type: System.String
     content.vb: Public Const Earning As String = "earning"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.EarningPercent
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.EarningPercent
   id: EarningPercent
@@ -464,24 +357,16 @@ items:
   nameWithType: DBC.SaleFields.EarningPercent
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.EarningPercent
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.EarningPercent: Earning as percent of total\n"
+  summary: 'Sale.EarningPercent: Earning as percent of total'
+  example: []
   syntax:
     content: public const string EarningPercent = "earning_percent"
     return:
       type: System.String
     content.vb: Public Const EarningPercent As String = "earning_percent"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.UserdefId
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.UserdefId
   id: UserdefId
@@ -493,24 +378,16 @@ items:
   nameWithType: DBC.SaleFields.UserdefId
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.UserdefId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.UserdefId: User-defined fields reference\n"
+  summary: 'Sale.UserdefId: User-defined fields reference'
+  example: []
   syntax:
     content: public const string UserdefId = "userdef_id"
     return:
       type: System.String
     content.vb: Public Const UserdefId As String = "userdef_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.Userdef2Id
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.Userdef2Id
   id: Userdef2Id
@@ -522,24 +399,16 @@ items:
   nameWithType: DBC.SaleFields.Userdef2Id
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.Userdef2Id
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.Userdef2Id: User-defined fields reference\n"
+  summary: 'Sale.Userdef2Id: User-defined fields reference'
+  example: []
   syntax:
     content: public const string Userdef2Id = "userdef2_id"
     return:
       type: System.String
     content.vb: Public Const Userdef2Id As String = "userdef2_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.Heading
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.Heading
   id: Heading
@@ -551,24 +420,16 @@ items:
   nameWithType: DBC.SaleFields.Heading
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.Heading
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.Heading: Sale heading (short description?)\n"
+  summary: 'Sale.Heading: Sale heading (short description?)'
+  example: []
   syntax:
     content: public const string Heading = "heading"
     return:
       type: System.String
     content.vb: Public Const Heading As String = "heading"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.CreditedId
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.CreditedId
   id: CreditedId
@@ -580,24 +441,16 @@ items:
   nameWithType: DBC.SaleFields.CreditedId
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.CreditedId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.CreditedId: Who is to be credited for the sale\n"
+  summary: 'Sale.CreditedId: Who is to be credited for the sale'
+  example: []
   syntax:
     content: public const string CreditedId = "credited_id"
     return:
       type: System.String
     content.vb: Public Const CreditedId As String = "credited_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.SourceId
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.SourceId
   id: SourceId
@@ -609,24 +462,16 @@ items:
   nameWithType: DBC.SaleFields.SourceId
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.SourceId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.SourceId: Source of order\n"
+  summary: 'Sale.SourceId: Source of order'
+  example: []
   syntax:
     content: public const string SourceId = "source_id"
     return:
       type: System.String
     content.vb: Public Const SourceId As String = "source_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.ReasonId
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.ReasonId
   id: ReasonId
@@ -638,24 +483,16 @@ items:
   nameWithType: DBC.SaleFields.ReasonId
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.ReasonId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.ReasonId: Why we lost it\n"
+  summary: 'Sale.ReasonId: Why we lost it'
+  example: []
   syntax:
     content: public const string ReasonId = "reason_id"
     return:
       type: System.String
     content.vb: Public Const ReasonId As String = "reason_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.ComptrId
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.ComptrId
   id: ComptrId
@@ -667,24 +504,16 @@ items:
   nameWithType: DBC.SaleFields.ComptrId
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.ComptrId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.ComptrId: Competitor\n"
+  summary: 'Sale.ComptrId: Competitor'
+  example: []
   syntax:
     content: public const string ComptrId = "comptr_id"
     return:
       type: System.String
     content.vb: Public Const ComptrId As String = "comptr_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.CurrencyId
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.CurrencyId
   id: CurrencyId
@@ -696,24 +525,16 @@ items:
   nameWithType: DBC.SaleFields.CurrencyId
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.CurrencyId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.CurrencyId: Currency of sale\n"
+  summary: 'Sale.CurrencyId: Currency of sale'
+  example: []
   syntax:
     content: public const string CurrencyId = "currency_id"
     return:
       type: System.String
     content.vb: Public Const CurrencyId As String = "currency_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.Probability
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.Probability
   id: Probability
@@ -725,24 +546,16 @@ items:
   nameWithType: DBC.SaleFields.Probability
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.Probability
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.Probability: Actual probability, may differ from the one in the list\n"
+  summary: 'Sale.Probability: Actual probability, may differ from the one in the list'
+  example: []
   syntax:
     content: public const string Probability = "probability"
     return:
       type: System.String
     content.vb: Public Const Probability As String = "probability"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.Status
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.Status
   id: Status
@@ -754,24 +567,16 @@ items:
   nameWithType: DBC.SaleFields.Status
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.Status
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.Status: Status: 1 = open, 2 = sold, 3 = lost, 4 = stalled\n"
+  summary: 'Sale.Status: Status: 1 = open, 2 = sold, 3 = lost, 4 = stalled'
+  example: []
   syntax:
     content: public const string Status = "status"
     return:
       type: System.String
     content.vb: Public Const Status As String = "status"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.Done
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.Done
   id: Done
@@ -783,24 +588,16 @@ items:
   nameWithType: DBC.SaleFields.Done
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.Done
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.Done: Done (0=don&apos;t know, 1 = No, 2=Yes)\n"
+  summary: "Sale.Done: Done (0=don't know, 1 = No, 2=Yes)"
+  example: []
   syntax:
     content: public const string Done = "done"
     return:
       type: System.String
     content.vb: Public Const Done As String = "done"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.Number1
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.Number1
   id: Number1
@@ -812,24 +609,16 @@ items:
   nameWithType: DBC.SaleFields.Number1
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.Number1
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.Number1: Alphanumeric user field\n"
+  summary: 'Sale.Number1: Alphanumeric user field'
+  example: []
   syntax:
     content: public const string Number1 = "number1"
     return:
       type: System.String
     content.vb: Public Const Number1 As String = "number1"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.Visibility
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.Visibility
   id: Visibility
@@ -841,24 +630,16 @@ items:
   nameWithType: DBC.SaleFields.Visibility
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.Visibility
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.Visibility: Obsolete, but still maintained denormalization of visiblefor\n"
+  summary: 'Sale.Visibility: Obsolete, but still maintained denormalization of visiblefor'
+  example: []
   syntax:
     content: public const string Visibility = "visibility"
     return:
       type: System.String
     content.vb: Public Const Visibility As String = "visibility"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.Source
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.Source
   id: Source
@@ -870,24 +651,16 @@ items:
   nameWithType: DBC.SaleFields.Source
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.Source
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.Source: For future integration use; source of record\n"
+  summary: 'Sale.Source: For future integration use; source of record'
+  example: []
   syntax:
     content: public const string Source = "source"
     return:
       type: System.String
     content.vb: Public Const Source As String = "source"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -899,24 +672,16 @@ items:
   nameWithType: DBC.SaleFields.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.RegisteredAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.RegisteredAssociateId: Registered by whom\n"
+  summary: 'Sale.RegisteredAssociateId: Registered by whom'
+  example: []
   syntax:
     content: public const string RegisteredAssociateId = "registered_associate_id"
     return:
       type: System.String
     content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.Updated
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.Updated
   id: Updated
@@ -928,24 +693,16 @@ items:
   nameWithType: DBC.SaleFields.Updated
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.Updated
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.Updated: Last updated\n"
+  summary: 'Sale.Updated: Last updated'
+  example: []
   syntax:
     content: public const string Updated = "updated"
     return:
       type: System.String
     content.vb: Public Const Updated As String = "updated"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -957,24 +714,16 @@ items:
   nameWithType: DBC.SaleFields.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.UpdatedAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.UpdatedAssociateId: Last updated by whom\n"
+  summary: 'Sale.UpdatedAssociateId: Last updated by whom'
+  example: []
   syntax:
     content: public const string UpdatedAssociateId = "updated_associate_id"
     return:
       type: System.String
     content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.UpdatedCount
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.UpdatedCount
   id: UpdatedCount
@@ -986,24 +735,16 @@ items:
   nameWithType: DBC.SaleFields.UpdatedCount
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.UpdatedCount
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.UpdatedCount: Number of updates made to this record\n"
+  summary: 'Sale.UpdatedCount: Number of updates made to this record'
+  example: []
   syntax:
     content: public const string UpdatedCount = "updatedCount"
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.ActiveLinks
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.ActiveLinks
   id: ActiveLinks
@@ -1015,24 +756,16 @@ items:
   nameWithType: DBC.SaleFields.ActiveLinks
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.ActiveLinks
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.ActiveLinks: Number of active links to documents and such\n"
+  summary: 'Sale.ActiveLinks: Number of active links to documents and such'
+  example: []
   syntax:
     content: public const string ActiveLinks = "activeLinks"
     return:
       type: System.String
     content.vb: Public Const ActiveLinks As String = "activeLinks"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.SaleTypeId
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.SaleTypeId
   id: SaleTypeId
@@ -1044,24 +777,16 @@ items:
   nameWithType: DBC.SaleFields.SaleTypeId
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.SaleTypeId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.SaleTypeId: Link to list, sale type (big sale, small sale, no-process sale, ...)\n"
+  summary: 'Sale.SaleTypeId: Link to list, sale type (big sale, small sale, no-process sale, ...)'
+  example: []
   syntax:
     content: public const string SaleTypeId = "saleType_id"
     return:
       type: System.String
     content.vb: Public Const SaleTypeId As String = "saleType_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.PostitTextId
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.PostitTextId
   id: PostitTextId
@@ -1073,24 +798,16 @@ items:
   nameWithType: DBC.SaleFields.PostitTextId
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.PostitTextId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.PostitTextId: Paperclip text\n"
+  summary: 'Sale.PostitTextId: Paperclip text'
+  example: []
   syntax:
     content: public const string PostitTextId = "postitText_id"
     return:
       type: System.String
     content.vb: Public Const PostitTextId As String = "postitText_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.ReasonStalledId
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.ReasonStalledId
   id: ReasonStalledId
@@ -1102,24 +819,16 @@ items:
   nameWithType: DBC.SaleFields.ReasonStalledId
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.ReasonStalledId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.ReasonStalledId: If the status is stalled, it should be commented here\n"
+  summary: 'Sale.ReasonStalledId: If the status is stalled, it should be commented here'
+  example: []
   syntax:
     content: public const string ReasonStalledId = "reasonStalled_id"
     return:
       type: System.String
     content.vb: Public Const ReasonStalledId As String = "reasonStalled_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.ReopenDate
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.ReopenDate
   id: ReopenDate
@@ -1131,24 +840,16 @@ items:
   nameWithType: DBC.SaleFields.ReopenDate
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.ReopenDate
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.ReopenDate: Date the sale is to be reopened; valid only for status=stalled. Not necessarily the same as the nextDueDate.\n"
+  summary: 'Sale.ReopenDate: Date the sale is to be reopened; valid only for status=stalled. Not necessarily the same as the nextDueDate.'
+  example: []
   syntax:
     content: public const string ReopenDate = "reopenDate"
     return:
       type: System.String
     content.vb: Public Const ReopenDate As String = "reopenDate"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.NextDueDate
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.NextDueDate
   id: NextDueDate
@@ -1160,24 +861,16 @@ items:
   nameWithType: DBC.SaleFields.NextDueDate
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.NextDueDate
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.NextDueDate: Next due date, this is a denormalization of &apos;closest future activity date, or most recent if no future activities&apos;. Maintained by the system, but very convenient for searching.\n"
+  summary: "Sale.NextDueDate: Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching."
+  example: []
   syntax:
     content: public const string NextDueDate = "nextDueDate"
     return:
       type: System.String
     content.vb: Public Const NextDueDate As String = "nextDueDate"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.NddAppointmentId
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.NddAppointmentId
   id: NddAppointmentId
@@ -1189,24 +882,16 @@ items:
   nameWithType: DBC.SaleFields.NddAppointmentId
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.NddAppointmentId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.NddAppointmentId: ID, can be 0, of the appointment that &quot;caused&quot; the nextDueDate\n"
+  summary: 'Sale.NddAppointmentId: ID, can be 0, of the appointment that "caused" the nextDueDate'
+  example: []
   syntax:
     content: public const string NddAppointmentId = "nddAppointment_id"
     return:
       type: System.String
     content.vb: Public Const NddAppointmentId As String = "nddAppointment_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.ReasonSoldId
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.ReasonSoldId
   id: ReasonSoldId
@@ -1218,24 +903,16 @@ items:
   nameWithType: DBC.SaleFields.ReasonSoldId
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.ReasonSoldId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.ReasonSoldId: Reason why we made the sale\n"
+  summary: 'Sale.ReasonSoldId: Reason why we made the sale'
+  example: []
   syntax:
     content: public const string ReasonSoldId = "reasonSold_id"
     return:
       type: System.String
     content.vb: Public Const ReasonSoldId As String = "reasonSold_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.SaleTypeCatId
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.SaleTypeCatId
   id: SaleTypeCatId
@@ -1247,24 +924,16 @@ items:
   nameWithType: DBC.SaleFields.SaleTypeCatId
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.SaleTypeCatId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.SaleTypeCatId: Category of sale type, slaved from saletype\n"
+  summary: 'Sale.SaleTypeCatId: Category of sale type, slaved from saletype'
+  example: []
   syntax:
     content: public const string SaleTypeCatId = "saleTypeCat_id"
     return:
       type: System.String
     content.vb: Public Const SaleTypeCatId As String = "saleTypeCat_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.ActiveErpLinks
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.ActiveErpLinks
   id: ActiveErpLinks
@@ -1276,24 +945,16 @@ items:
   nameWithType: DBC.SaleFields.ActiveErpLinks
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.ActiveErpLinks
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.ActiveErpLinks: The number of Erp Sync connections this record is synced with; count of the ErpExternalKey+ErpInternalKey relations\n"
+  summary: 'Sale.ActiveErpLinks: The number of Erp Sync connections this record is synced with; count of the ErpExternalKey+ErpInternalKey relations'
+  example: []
   syntax:
     content: public const string ActiveErpLinks = "activeErpLinks"
     return:
       type: System.String
     content.vb: Public Const ActiveErpLinks As String = "activeErpLinks"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SaleFields.CreatedByWorkflowId
   commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.CreatedByWorkflowId
   id: CreatedByWorkflowId
@@ -1305,41 +966,288 @@ items:
   nameWithType: DBC.SaleFields.CreatedByWorkflowId
   fullName: SuperOffice.CRM.Data.DBC.SaleFields.CreatedByWorkflowId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale.CreatedByWorkflowId: The workflow this sale was created by\n"
+  summary: 'Sale.CreatedByWorkflowId: The workflow this sale was created by'
+  example: []
   syntax:
     content: public const string CreatedByWorkflowId = "created_by_workflow_id"
     return:
       type: System.String
     content.vb: Public Const CreatedByWorkflowId As String = "created_by_workflow_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -1347,6 +1255,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

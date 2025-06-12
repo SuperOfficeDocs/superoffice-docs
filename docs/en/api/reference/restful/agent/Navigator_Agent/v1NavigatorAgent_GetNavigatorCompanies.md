@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kunde Group"
+  "Name": "Hane, Feil and Cruickshank"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 30,
-    "Value": "facilis",
-    "Tooltip": "beatae",
+    "Id": 483,
+    "Value": "quam",
+    "Tooltip": "architecto",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 579
+        "FieldLength": 48
       }
     }
   },
   {
-    "Id": 30,
-    "Value": "facilis",
-    "Tooltip": "beatae",
+    "Id": 483,
+    "Value": "quam",
+    "Tooltip": "architecto",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 579
+        "FieldLength": 48
       }
     }
   }

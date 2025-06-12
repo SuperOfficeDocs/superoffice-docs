@@ -24,27 +24,24 @@ items:
   nameWithType: DBC.SystemEventFields
   fullName: SuperOffice.CRM.Data.DBC.SystemEventFields
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nFields for SystemEvent, System events, such as freetext rebuild, SAINT rebuild and such. Makes broadcasts to keep its siblings and clients updated. \n"
+  summary: Fields for SystemEvent, System events, such as freetext rebuild, SAINT rebuild and such. Makes broadcasts to keep its siblings and clients updated.
+  example: []
   syntax:
-    content: 'public static class SystemEventFields : Object'
-    content.vb: >-
-      Public Module SystemEventFields
-          Inherits Object
+    content: public static class DBC.SystemEventFields
+    content.vb: Public Module DBC.SystemEventFields
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Data.DBC.SystemEventFields.SystemEventId
   commentId: F:SuperOffice.CRM.Data.DBC.SystemEventFields.SystemEventId
   id: SystemEventId
@@ -56,24 +53,16 @@ items:
   nameWithType: DBC.SystemEventFields.SystemEventId
   fullName: SuperOffice.CRM.Data.DBC.SystemEventFields.SystemEventId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSystemEvent.SystemEventId: Primary key\n"
+  summary: 'SystemEvent.SystemEventId: Primary key'
+  example: []
   syntax:
     content: public const string SystemEventId = "SystemEvent_id"
     return:
       type: System.String
     content.vb: Public Const SystemEventId As String = "SystemEvent_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SystemEventFields.Scope
   commentId: F:SuperOffice.CRM.Data.DBC.SystemEventFields.Scope
   id: Scope
@@ -85,24 +74,16 @@ items:
   nameWithType: DBC.SystemEventFields.Scope
   fullName: SuperOffice.CRM.Data.DBC.SystemEventFields.Scope
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSystemEvent.Scope: 1 = system-wide, 2= database, 3 = group, 4 = user\n"
+  summary: 'SystemEvent.Scope: 1 = system-wide, 2= database, 3 = group, 4 = user'
+  example: []
   syntax:
     content: public const string Scope = "scope"
     return:
       type: System.String
     content.vb: Public Const Scope As String = "scope"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SystemEventFields.Owner
   commentId: F:SuperOffice.CRM.Data.DBC.SystemEventFields.Owner
   id: Owner
@@ -114,24 +95,16 @@ items:
   nameWithType: DBC.SystemEventFields.Owner
   fullName: SuperOffice.CRM.Data.DBC.SystemEventFields.Owner
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSystemEvent.Owner: 0, 0, group_id, assoc id (see over)\n"
+  summary: 'SystemEvent.Owner: 0, 0, group_id, assoc id (see over)'
+  example: []
   syntax:
     content: public const string Owner = "owner"
     return:
       type: System.String
     content.vb: Public Const Owner As String = "owner"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SystemEventFields.Eventkey
   commentId: F:SuperOffice.CRM.Data.DBC.SystemEventFields.Eventkey
   id: Eventkey
@@ -143,24 +116,16 @@ items:
   nameWithType: DBC.SystemEventFields.Eventkey
   fullName: SuperOffice.CRM.Data.DBC.SystemEventFields.Eventkey
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSystemEvent.Eventkey: Event key, predefined in code\n"
+  summary: 'SystemEvent.Eventkey: Event key, predefined in code'
+  example: []
   syntax:
     content: public const string Eventkey = "eventkey"
     return:
       type: System.String
     content.vb: Public Const Eventkey As String = "eventkey"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SystemEventFields.Eventmess
   commentId: F:SuperOffice.CRM.Data.DBC.SystemEventFields.Eventmess
   id: Eventmess
@@ -172,24 +137,16 @@ items:
   nameWithType: DBC.SystemEventFields.Eventmess
   fullName: SuperOffice.CRM.Data.DBC.SystemEventFields.Eventmess
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSystemEvent.Eventmess: Message to be shown, entered by administrator\n"
+  summary: 'SystemEvent.Eventmess: Message to be shown, entered by administrator'
+  example: []
   syntax:
     content: public const string Eventmess = "eventmess"
     return:
       type: System.String
     content.vb: Public Const Eventmess As String = "eventmess"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SystemEventFields.ExtraInfo
   commentId: F:SuperOffice.CRM.Data.DBC.SystemEventFields.ExtraInfo
   id: ExtraInfo
@@ -201,24 +158,16 @@ items:
   nameWithType: DBC.SystemEventFields.ExtraInfo
   fullName: SuperOffice.CRM.Data.DBC.SystemEventFields.ExtraInfo
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSystemEvent.ExtraInfo: Extra information (area id for prototype rebuild, etc)\n"
+  summary: 'SystemEvent.ExtraInfo: Extra information (area id for prototype rebuild, etc)'
+  example: []
   syntax:
     content: public const string ExtraInfo = "extraInfo"
     return:
       type: System.String
     content.vb: Public Const ExtraInfo As String = "extraInfo"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SystemEventFields.Eta
   commentId: F:SuperOffice.CRM.Data.DBC.SystemEventFields.Eta
   id: Eta
@@ -230,24 +179,16 @@ items:
   nameWithType: DBC.SystemEventFields.Eta
   fullName: SuperOffice.CRM.Data.DBC.SystemEventFields.Eta
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSystemEvent.Eta: Estimated Time of Arrival, i.e., when will this event finish?\n"
+  summary: 'SystemEvent.Eta: Estimated Time of Arrival, i.e., when will this event finish?'
+  example: []
   syntax:
     content: public const string Eta = "eta"
     return:
       type: System.String
     content.vb: Public Const Eta As String = "eta"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SystemEventFields.Registered
   commentId: F:SuperOffice.CRM.Data.DBC.SystemEventFields.Registered
   id: Registered
@@ -259,24 +200,16 @@ items:
   nameWithType: DBC.SystemEventFields.Registered
   fullName: SuperOffice.CRM.Data.DBC.SystemEventFields.Registered
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSystemEvent.Registered: Registered when\n"
+  summary: 'SystemEvent.Registered: Registered when'
+  example: []
   syntax:
     content: public const string Registered = "registered"
     return:
       type: System.String
     content.vb: Public Const Registered As String = "registered"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SystemEventFields.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.SystemEventFields.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -288,24 +221,16 @@ items:
   nameWithType: DBC.SystemEventFields.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.DBC.SystemEventFields.RegisteredAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSystemEvent.RegisteredAssociateId: Registered by whom\n"
+  summary: 'SystemEvent.RegisteredAssociateId: Registered by whom'
+  example: []
   syntax:
     content: public const string RegisteredAssociateId = "registered_associate_id"
     return:
       type: System.String
     content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SystemEventFields.Updated
   commentId: F:SuperOffice.CRM.Data.DBC.SystemEventFields.Updated
   id: Updated
@@ -317,24 +242,16 @@ items:
   nameWithType: DBC.SystemEventFields.Updated
   fullName: SuperOffice.CRM.Data.DBC.SystemEventFields.Updated
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSystemEvent.Updated: Last updated when\n"
+  summary: 'SystemEvent.Updated: Last updated when'
+  example: []
   syntax:
     content: public const string Updated = "updated"
     return:
       type: System.String
     content.vb: Public Const Updated As String = "updated"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SystemEventFields.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.SystemEventFields.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -346,24 +263,16 @@ items:
   nameWithType: DBC.SystemEventFields.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.DBC.SystemEventFields.UpdatedAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSystemEvent.UpdatedAssociateId: Last updated by whom\n"
+  summary: 'SystemEvent.UpdatedAssociateId: Last updated by whom'
+  example: []
   syntax:
     content: public const string UpdatedAssociateId = "updated_associate_id"
     return:
       type: System.String
     content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SystemEventFields.UpdatedCount
   commentId: F:SuperOffice.CRM.Data.DBC.SystemEventFields.UpdatedCount
   id: UpdatedCount
@@ -375,41 +284,288 @@ items:
   nameWithType: DBC.SystemEventFields.UpdatedCount
   fullName: SuperOffice.CRM.Data.DBC.SystemEventFields.UpdatedCount
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSystemEvent.UpdatedCount: Number of updates made to this record\n"
+  summary: 'SystemEvent.UpdatedCount: Number of updates made to this record'
+  example: []
   syntax:
     content: public const string UpdatedCount = "updatedCount"
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -417,6 +573,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

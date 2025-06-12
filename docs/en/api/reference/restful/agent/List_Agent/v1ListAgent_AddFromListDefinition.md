@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 785,
+  "UdListDefinitionId": 777,
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 522,
-  "Name": "Weber-Hickle",
-  "Tooltip": "id",
+  "Id": 723,
+  "Name": "Wiegand, Stark and Koss",
+  "Tooltip": "similique",
   "Deleted": false,
-  "UdListDefinitionId": 98,
-  "Rank": 57,
+  "UdListDefinitionId": 137,
+  "Rank": 611,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 841
+      "FieldType": "System.Int32",
+      "FieldLength": 262
     }
   }
 }

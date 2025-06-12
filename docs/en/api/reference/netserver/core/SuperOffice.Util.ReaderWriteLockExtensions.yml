@@ -15,26 +15,22 @@ items:
   nameWithType: ReaderWriteLockExtensions
   fullName: SuperOffice.Util.ReaderWriteLockExtensions
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
   syntax:
-    content: 'public static class ReaderWriteLockExtensions : Object'
-    content.vb: >-
-      Public Module ReaderWriteLockExtensions
-          Inherits Object
+    content: public static class ReaderWriteLockExtensions
+    content.vb: Public Module ReaderWriteLockExtensions
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock(System.Threading.ReaderWriterLock,System.Action)
   commentId: M:SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock(System.Threading.ReaderWriterLock,System.Action)
   id: WithReaderLock(System.Threading.ReaderWriterLock,System.Action)
@@ -47,13 +43,11 @@ items:
   nameWithType: ReaderWriteLockExtensions.WithReaderLock(ReaderWriterLock, Action)
   fullName: SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock(System.Threading.ReaderWriterLock, System.Action)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nPerform the body of actions within a read-lock context, using the given <xref href=\"System.Threading.ReaderWriterLock\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Perform the body of actions within a read-lock context, using the given <xref href="System.Threading.ReaderWriterLock" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public static void WithReaderLock(this ReaderWriterLock theLock, Action body)
     parameters:
@@ -63,17 +57,8 @@ items:
     - id: body
       type: System.Action
       description: Actions to perform within the lock
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Sub WithReaderLock(theLock As ReaderWriterLock, body As Action)
+    content.vb: Public Shared Sub WithReaderLock(theLock As ReaderWriterLock, body As Action)
   overload: SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock``1(System.Threading.ReaderWriterLock,System.Func{``0})
   commentId: M:SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock``1(System.Threading.ReaderWriterLock,System.Func{``0})
   id: WithReaderLock``1(System.Threading.ReaderWriterLock,System.Func{``0})
@@ -86,9 +71,6 @@ items:
   nameWithType: ReaderWriteLockExtensions.WithReaderLock<TResult>(ReaderWriterLock, Func<TResult>)
   fullName: SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock<TResult>(System.Threading.ReaderWriterLock, System.Func<TResult>)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -103,18 +85,9 @@ items:
     - id: TResult
     return:
       type: '{TResult}'
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function WithReaderLock(Of TResult)(theLock As ReaderWriterLock, body As Func(Of TResult)) As TResult
+    content.vb: Public Shared Function WithReaderLock(Of TResult)(theLock As ReaderWriterLock, body As Func(Of TResult)) As TResult
   overload: SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock*
   nameWithType.vb: ReaderWriteLockExtensions.WithReaderLock(Of TResult)(ReaderWriterLock, Func(Of TResult))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
   fullName.vb: SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock(Of TResult)(System.Threading.ReaderWriterLock, System.Func(Of TResult))
   name.vb: WithReaderLock(Of TResult)(ReaderWriterLock, Func(Of TResult))
 - uid: SuperOffice.Util.ReaderWriteLockExtensions.WithWriterLock(System.Threading.ReaderWriterLock,System.Action)
@@ -129,13 +102,16 @@ items:
   nameWithType: ReaderWriteLockExtensions.WithWriterLock(ReaderWriterLock, Action)
   fullName: SuperOffice.Util.ReaderWriteLockExtensions.WithWriterLock(System.Threading.ReaderWriterLock, System.Action)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nPerform the body of actions within a write-lock context, using the given <xref href=\"System.Threading.ReaderWriterLock\" data-throw-if-not-resolved=\"false\"></xref>.\nIf the thread already has a reader lock, then it will be upgraded to a writer lock, and restored\non exit.\n"
+  summary: >-
+    Perform the body of actions within a write-lock context, using the given <xref href="System.Threading.ReaderWriterLock" data-throw-if-not-resolved="false"></xref>.
+
+    If the thread already has a reader lock, then it will be upgraded to a writer lock, and restored
+
+    on exit.
+  example: []
   syntax:
     content: public static void WithWriterLock(this ReaderWriterLock theLock, Action body)
     parameters:
@@ -145,56 +121,328 @@ items:
     - id: body
       type: System.Action
       description: Actions to perform within the lock
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Sub WithWriterLock(theLock As ReaderWriterLock, body As Action)
+    content.vb: Public Shared Sub WithWriterLock(theLock As ReaderWriterLock, body As Action)
   overload: SuperOffice.Util.ReaderWriteLockExtensions.WithWriterLock*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock*
-  commentId: Overload:SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock
-  isExternal: true
-  name: WithReaderLock
-  nameWithType: ReaderWriteLockExtensions.WithReaderLock
-  fullName: SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock
 - uid: System.Threading.ReaderWriterLock
+  commentId: T:System.Threading.ReaderWriterLock
+  parent: System.Threading
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.readerwriterlock
   name: ReaderWriterLock
   nameWithType: ReaderWriterLock
   fullName: System.Threading.ReaderWriterLock
-- uid: System.Action
+- uid: SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock*
+  commentId: Overload:SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock
   isExternal: true
+  href: SuperOffice.Util.ReaderWriteLockExtensions.html#SuperOffice_Util_ReaderWriteLockExtensions_WithReaderLock_System_Threading_ReaderWriterLock_System_Action_
+  name: WithReaderLock
+  nameWithType: ReaderWriteLockExtensions.WithReaderLock
+  fullName: SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action
   name: Action
   nameWithType: Action
   fullName: System.Action
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
 - uid: System.Func{{TResult}}
-  commentId: '!:System.Func{``0}'
+  commentId: T:System.Func{``0}
+  parent: System
   definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
   name: Func<TResult>
   nameWithType: Func<TResult>
   fullName: System.Func<TResult>
@@ -204,33 +452,21 @@ references:
   spec.csharp:
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TResult
-    nameWithType: TResult
-    fullName: TResult
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
   - name: TResult
-    nameWithType: TResult
-    fullName: TResult
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: '{TResult}'
   commentId: '!:TResult'
   definition: TResult
@@ -238,43 +474,33 @@ references:
   nameWithType: TResult
   fullName: TResult
 - uid: System.Func`1
+  commentId: T:System.Func`1
   isExternal: true
-  name: Func<>
-  nameWithType: Func<>
-  fullName: System.Func<>
-  nameWithType.vb: Func(Of )
-  fullName.vb: System.Func(Of )
-  name.vb: Func(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
   spec.csharp:
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: TResult
   name: TResult
   nameWithType: TResult
@@ -282,6 +508,7 @@ references:
 - uid: SuperOffice.Util.ReaderWriteLockExtensions.WithWriterLock*
   commentId: Overload:SuperOffice.Util.ReaderWriteLockExtensions.WithWriterLock
   isExternal: true
+  href: SuperOffice.Util.ReaderWriteLockExtensions.html#SuperOffice_Util_ReaderWriteLockExtensions_WithWriterLock_System_Threading_ReaderWriterLock_System_Action_
   name: WithWriterLock
   nameWithType: ReaderWriteLockExtensions.WithWriterLock
   fullName: SuperOffice.Util.ReaderWriteLockExtensions.WithWriterLock

@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 660,
-  "UdListDefinitionId": 705
+  "Id": 256,
+  "UdListDefinitionId": 622
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 816,
-  "Name": "Beier LLC",
-  "Tooltip": "soluta",
-  "Deleted": false,
-  "UdListDefinitionId": 453,
-  "Rank": 733,
+  "Id": 154,
+  "Name": "Volkman LLC",
+  "Tooltip": "id",
+  "Deleted": true,
+  "UdListDefinitionId": 848,
+  "Rank": 212,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldType": "System.String",
+      "FieldLength": 970
     }
   }
 }

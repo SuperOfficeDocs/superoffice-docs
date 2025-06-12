@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 596
+  "CountryId": 690
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 917,
-  "BlobSize": 688,
-  "Description": "Configurable logistical help-desk",
+  "BlobId": 928,
+  "BlobSize": 581,
+  "Description": "Persistent bi-directional groupware",
   "ExtraInfo": "et",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "fuga",
-  "OriginalSize": 136,
-  "CreatedDate": "2003-05-11T16:32:38.2116027+02:00",
-  "UpdatedDate": "2014-03-27T16:32:38.2116027+01:00",
+  "MimeType": "voluptas",
+  "OriginalSize": 230,
+  "CreatedDate": "2011-07-20T17:54:02.6796032+02:00",
+  "UpdatedDate": "2006-05-01T17:54:02.6796032+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "rerum",
+  "ConceptualType": "hic",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 914
+      "FieldType": "System.String",
+      "FieldLength": 586
     }
   }
 }

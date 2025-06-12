@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 420,
-    "Name": "DuBuque, Marquardt and Walter",
-    "ToolTip": "Dolores aut vero.",
+    "Id": 886,
+    "Name": "Schiller, Farrell and Schuppe",
+    "ToolTip": "Eaque eos dolor officiis autem omnis ex exercitationem.",
     "Deleted": false,
-    "Rank": 578,
-    "Type": "aut",
-    "ColorBlock": 468,
-    "IconHint": "maxime",
+    "Rank": 417,
+    "Type": "dolorum",
+    "ColorBlock": 726,
+    "IconHint": "autem",
     "Selected": true,
-    "LastChanged": "2018-12-25T16:32:48.7588803+01:00",
+    "LastChanged": "2001-08-09T17:54:08.9605465+02:00",
     "ChildItems": [
       {
-        "Id": 140,
-        "Name": "Kiehn-Kozey",
-        "ToolTip": "Aut ullam eligendi ducimus ad ut temporibus consectetur.",
-        "Deleted": false,
-        "Rank": 647,
-        "Type": "inventore",
-        "ColorBlock": 891,
-        "IconHint": "velit",
-        "Selected": false,
-        "LastChanged": "2010-01-23T16:32:48.7588803+01:00",
+        "Id": 299,
+        "Name": "Nolan-Koss",
+        "ToolTip": "Voluptas optio beatae delectus.",
+        "Deleted": true,
+        "Rank": 89,
+        "Type": "saepe",
+        "ColorBlock": 21,
+        "IconHint": "voluptas",
+        "Selected": true,
+        "LastChanged": "1998-06-07T17:54:08.9605465+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "facere",
-        "Hidden": true,
-        "FullName": "Icie Morar",
+        "ExtraInfo": "corporis",
+        "StyleHint": "quam",
+        "Hidden": false,
+        "FullName": "Mr. Erick Hermann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 177
+            "FieldLength": 566
           }
         }
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "eos",
+    "ExtraInfo": "rem",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Mrs. Whitney Kamron Fay",
+    "FullName": "Brett Michaela Buckridge III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 854
+        "FieldLength": 481
       }
     }
   }

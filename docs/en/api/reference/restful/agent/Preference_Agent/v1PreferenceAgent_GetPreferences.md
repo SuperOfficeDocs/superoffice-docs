@@ -91,12 +91,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "ipsa",
-      "Key": "voluptatem"
+      "Section": "reiciendis",
+      "Key": "est"
     },
     {
-      "Section": "ipsa",
-      "Key": "voluptatem"
+      "Section": "reiciendis",
+      "Key": "est"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "ut",
+    "RawValue": "dolorum",
     "Specification": null,
-    "DisplayValue": "officia",
-    "DisplayTooltip": "animi",
+    "DisplayValue": "atque",
+    "DisplayTooltip": "consequatur",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 205,
-    "PrefDescId": 74,
-    "TableName": "Kuvalis, Streich and Doyle",
-    "UserPreferenceId": 840,
+    "TargetId": 136,
+    "PrefDescId": 439,
+    "TableName": "Senger-Schulist",
+    "UserPreferenceId": 970,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 272
+        "FieldType": "System.Int32",
+        "FieldLength": 73
       }
     }
   }

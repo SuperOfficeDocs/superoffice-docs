@@ -74,12 +74,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ChatTopic/{id}/Sessions?$select=name,department,category/id
 GET /api/v1/ChatTopic/{id}/Sessions?$filter=name begins 'S'
 GET /api/v1/ChatTopic/{id}/Sessions?$orderBy=name asc
-GET /api/v1/ChatTopic/{id}/Sessions?$entities=qui
-GET /api/v1/ChatTopic/{id}/Sessions?$top=866
-GET /api/v1/ChatTopic/{id}/Sessions?$skip=198
+GET /api/v1/ChatTopic/{id}/Sessions?$entities=eaque
+GET /api/v1/ChatTopic/{id}/Sessions?$top=442
+GET /api/v1/ChatTopic/{id}/Sessions?$skip=383
 GET /api/v1/ChatTopic/{id}/Sessions?$mode=Full
 GET /api/v1/ChatTopic/{id}/Sessions?$options=GrandTotal=true
-GET /api/v1/ChatTopic/{id}/Sessions?$context=iusto
+GET /api/v1/ChatTopic/{id}/Sessions?$context=id
 GET /api/v1/ChatTopic/{id}/Sessions?$format=JSON
 GET /api/v1/ChatTopic/{id}/Sessions?$jsonSafe=False
 GET /api/v1/ChatTopic/{id}/Sessions?$output=Display
@@ -134,19 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "fuga",
+  "odata.nextLink": "officia",
   "value": [
     {
-      "PrimaryKey": 1443,
-      "EntityName": "person",
-      "personId": 1443,
-      "fullName": "Prof. Darron Flatley"
+      "PrimaryKey": 1798,
+      "EntityName": "sale",
+      "saleId": 1798,
+      "contactId": 9508,
+      "name": "Blanda-Bergnaum"
     },
     {
-      "PrimaryKey": 2539,
-      "EntityName": "person",
-      "personId": 2539,
-      "fullName": "Remington Armstrong"
+      "PrimaryKey": 2984,
+      "EntityName": "sale",
+      "saleId": 2984,
+      "contactId": 1973,
+      "name": "Muller Group"
     }
   ]
 }

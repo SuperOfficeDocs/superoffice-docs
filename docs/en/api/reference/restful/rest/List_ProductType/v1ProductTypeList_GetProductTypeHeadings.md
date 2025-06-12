@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 460,
-    "Name": "Kilback-Gibson",
-    "Tooltip": "in",
+    "HeadingId": 889,
+    "Name": "Buckridge LLC",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "Rank": 186,
-    "UdListDefinitionId": 609,
+    "Rank": 205,
+    "UdListDefinitionId": 349,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 975
+        "FieldType": "System.Int32",
+        "FieldLength": 933
       }
     }
   }

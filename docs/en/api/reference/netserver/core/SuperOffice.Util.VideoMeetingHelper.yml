@@ -8,12 +8,12 @@ items:
   - SuperOffice.Util.VideoMeetingHelper.#ctor
   - SuperOffice.Util.VideoMeetingHelper.#ctor(System.String)
   - SuperOffice.Util.VideoMeetingHelper.CreateMeetingUrl
-  - SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingFromAppointment(System.String,System.String,System.String,System.Int32)
-  - SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingReservation
+  - SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingFromAppointmentAsync(System.String,System.String,System.String,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingReservationAsync
   - SuperOffice.Util.VideoMeetingHelper.DeleteMeetingUrl(System.String)
-  - SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservation(System.String)
+  - SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservationAsync(System.String)
   - SuperOffice.Util.VideoMeetingHelper.GetLoginUrl(System.String,System.String)
-  - SuperOffice.Util.VideoMeetingHelper.IsAuthenticationRequired
+  - SuperOffice.Util.VideoMeetingHelper.IsAuthenticationRequiredAsync(System.Threading.CancellationToken)
   - SuperOffice.Util.VideoMeetingHelper.ReserveMeetingUrl
   - SuperOffice.Util.VideoMeetingHelper.UnreserveMeetingUrl(System.String)
   langs:
@@ -23,30 +23,27 @@ items:
   nameWithType: VideoMeetingHelper
   fullName: SuperOffice.Util.VideoMeetingHelper
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Util
   syntax:
-    content: 'public class VideoMeetingHelper : Object'
-    content.vb: >-
-      Public Class VideoMeetingHelper
-          Inherits Object
+    content: public class VideoMeetingHelper
+    content.vb: Public Class VideoMeetingHelper
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Util.VideoMeetingHelper.EnumUtil.MapEnums``2
+  - SuperOffice.Util.VideoMeetingHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.Util.VideoMeetingHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.VideoMeetingHelper)
   - SuperOffice.Util.VideoMeetingHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.Util.VideoMeetingHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.Util.VideoMeetingHelper.#ctor
   commentId: M:SuperOffice.Util.VideoMeetingHelper.#ctor
   id: '#ctor'
@@ -58,20 +55,16 @@ items:
   nameWithType: VideoMeetingHelper.VideoMeetingHelper()
   fullName: SuperOffice.Util.VideoMeetingHelper.VideoMeetingHelper()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Util
   syntax:
     content: public VideoMeetingHelper()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.Util.VideoMeetingHelper.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: VideoMeetingHelper.New()
+  fullName.vb: SuperOffice.Util.VideoMeetingHelper.New()
+  name.vb: New()
 - uid: SuperOffice.Util.VideoMeetingHelper.#ctor(System.String)
   commentId: M:SuperOffice.Util.VideoMeetingHelper.#ctor(System.String)
   id: '#ctor(System.String)'
@@ -79,15 +72,12 @@ items:
   langs:
   - csharp
   - vb
-  name: VideoMeetingHelper(String)
-  nameWithType: VideoMeetingHelper.VideoMeetingHelper(String)
-  fullName: SuperOffice.Util.VideoMeetingHelper.VideoMeetingHelper(System.String)
+  name: VideoMeetingHelper(string)
+  nameWithType: VideoMeetingHelper.VideoMeetingHelper(string)
+  fullName: SuperOffice.Util.VideoMeetingHelper.VideoMeetingHelper(string)
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Util
   syntax:
     content: public VideoMeetingHelper(string videoMeetingEndpoint)
@@ -96,10 +86,9 @@ items:
       type: System.String
     content.vb: Public Sub New(videoMeetingEndpoint As String)
   overload: SuperOffice.Util.VideoMeetingHelper.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: VideoMeetingHelper.New(String)
+  fullName.vb: SuperOffice.Util.VideoMeetingHelper.New(String)
+  name.vb: New(String)
 - uid: SuperOffice.Util.VideoMeetingHelper.DeleteMeetingUrl(System.String)
   commentId: M:SuperOffice.Util.VideoMeetingHelper.DeleteMeetingUrl(System.String)
   id: DeleteMeetingUrl(System.String)
@@ -107,15 +96,12 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteMeetingUrl(String)
-  nameWithType: VideoMeetingHelper.DeleteMeetingUrl(String)
-  fullName: SuperOffice.Util.VideoMeetingHelper.DeleteMeetingUrl(System.String)
+  name: DeleteMeetingUrl(string)
+  nameWithType: VideoMeetingHelper.DeleteMeetingUrl(string)
+  fullName: SuperOffice.Util.VideoMeetingHelper.DeleteMeetingUrl(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Util
   syntax:
     content: public string DeleteMeetingUrl(string meetingId)
@@ -126,10 +112,9 @@ items:
       type: System.String
     content.vb: Public Function DeleteMeetingUrl(meetingId As String) As String
   overload: SuperOffice.Util.VideoMeetingHelper.DeleteMeetingUrl*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: VideoMeetingHelper.DeleteMeetingUrl(String)
+  fullName.vb: SuperOffice.Util.VideoMeetingHelper.DeleteMeetingUrl(String)
+  name.vb: DeleteMeetingUrl(String)
 - uid: SuperOffice.Util.VideoMeetingHelper.UnreserveMeetingUrl(System.String)
   commentId: M:SuperOffice.Util.VideoMeetingHelper.UnreserveMeetingUrl(System.String)
   id: UnreserveMeetingUrl(System.String)
@@ -137,15 +122,12 @@ items:
   langs:
   - csharp
   - vb
-  name: UnreserveMeetingUrl(String)
-  nameWithType: VideoMeetingHelper.UnreserveMeetingUrl(String)
-  fullName: SuperOffice.Util.VideoMeetingHelper.UnreserveMeetingUrl(System.String)
+  name: UnreserveMeetingUrl(string)
+  nameWithType: VideoMeetingHelper.UnreserveMeetingUrl(string)
+  fullName: SuperOffice.Util.VideoMeetingHelper.UnreserveMeetingUrl(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Util
   syntax:
     content: public string UnreserveMeetingUrl(string meetingId)
@@ -156,37 +138,32 @@ items:
       type: System.String
     content.vb: Public Function UnreserveMeetingUrl(meetingId As String) As String
   overload: SuperOffice.Util.VideoMeetingHelper.UnreserveMeetingUrl*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.Util.VideoMeetingHelper.IsAuthenticationRequired
-  commentId: M:SuperOffice.Util.VideoMeetingHelper.IsAuthenticationRequired
-  id: IsAuthenticationRequired
+  nameWithType.vb: VideoMeetingHelper.UnreserveMeetingUrl(String)
+  fullName.vb: SuperOffice.Util.VideoMeetingHelper.UnreserveMeetingUrl(String)
+  name.vb: UnreserveMeetingUrl(String)
+- uid: SuperOffice.Util.VideoMeetingHelper.IsAuthenticationRequiredAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.VideoMeetingHelper.IsAuthenticationRequiredAsync(System.Threading.CancellationToken)
+  id: IsAuthenticationRequiredAsync(System.Threading.CancellationToken)
   parent: SuperOffice.Util.VideoMeetingHelper
   langs:
   - csharp
   - vb
-  name: IsAuthenticationRequired()
-  nameWithType: VideoMeetingHelper.IsAuthenticationRequired()
-  fullName: SuperOffice.Util.VideoMeetingHelper.IsAuthenticationRequired()
+  name: IsAuthenticationRequiredAsync(CancellationToken)
+  nameWithType: VideoMeetingHelper.IsAuthenticationRequiredAsync(CancellationToken)
+  fullName: SuperOffice.Util.VideoMeetingHelper.IsAuthenticationRequiredAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Util
   syntax:
-    content: public bool IsAuthenticationRequired()
+    content: public Task<bool> IsAuthenticationRequiredAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
-    content.vb: Public Function IsAuthenticationRequired As Boolean
-  overload: SuperOffice.Util.VideoMeetingHelper.IsAuthenticationRequired*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Function IsAuthenticationRequiredAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.Util.VideoMeetingHelper.IsAuthenticationRequiredAsync*
 - uid: SuperOffice.Util.VideoMeetingHelper.GetLoginUrl(System.String,System.String)
   commentId: M:SuperOffice.Util.VideoMeetingHelper.GetLoginUrl(System.String,System.String)
   id: GetLoginUrl(System.String,System.String)
@@ -194,15 +171,12 @@ items:
   langs:
   - csharp
   - vb
-  name: GetLoginUrl(String, String)
-  nameWithType: VideoMeetingHelper.GetLoginUrl(String, String)
-  fullName: SuperOffice.Util.VideoMeetingHelper.GetLoginUrl(System.String, System.String)
+  name: GetLoginUrl(string, string)
+  nameWithType: VideoMeetingHelper.GetLoginUrl(string, string)
+  fullName: SuperOffice.Util.VideoMeetingHelper.GetLoginUrl(string, string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Util
   syntax:
     content: public string GetLoginUrl(string callbackUri, string state)
@@ -215,29 +189,25 @@ items:
       type: System.String
     content.vb: Public Function GetLoginUrl(callbackUri As String, state As String) As String
   overload: SuperOffice.Util.VideoMeetingHelper.GetLoginUrl*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingFromAppointment(System.String,System.String,System.String,System.Int32)
-  commentId: M:SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingFromAppointment(System.String,System.String,System.String,System.Int32)
-  id: CreateVideoMeetingFromAppointment(System.String,System.String,System.String,System.Int32)
+  nameWithType.vb: VideoMeetingHelper.GetLoginUrl(String, String)
+  fullName.vb: SuperOffice.Util.VideoMeetingHelper.GetLoginUrl(String, String)
+  name.vb: GetLoginUrl(String, String)
+- uid: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingFromAppointmentAsync(System.String,System.String,System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingFromAppointmentAsync(System.String,System.String,System.String,System.Int32,System.Threading.CancellationToken)
+  id: CreateVideoMeetingFromAppointmentAsync(System.String,System.String,System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.Util.VideoMeetingHelper
   langs:
   - csharp
   - vb
-  name: CreateVideoMeetingFromAppointment(String, String, String, Int32)
-  nameWithType: VideoMeetingHelper.CreateVideoMeetingFromAppointment(String, String, String, Int32)
-  fullName: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingFromAppointment(System.String, System.String, System.String, System.Int32)
+  name: CreateVideoMeetingFromAppointmentAsync(string, string, string, int, CancellationToken)
+  nameWithType: VideoMeetingHelper.CreateVideoMeetingFromAppointmentAsync(string, string, string, int, CancellationToken)
+  fullName: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingFromAppointmentAsync(string, string, string, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Util
   syntax:
-    content: public bool CreateVideoMeetingFromAppointment(string centralserviceVideomeetId, string icsData, string jwtToken, int appointmentId)
+    content: public Task<bool> CreateVideoMeetingFromAppointmentAsync(string centralserviceVideomeetId, string icsData, string jwtToken, int appointmentId, CancellationToken cancellationToken = default)
     parameters:
     - id: centralserviceVideomeetId
       type: System.String
@@ -247,69 +217,61 @@ items:
       type: System.String
     - id: appointmentId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
-    content.vb: Public Function CreateVideoMeetingFromAppointment(centralserviceVideomeetId As String, icsData As String, jwtToken As String, appointmentId As Integer) As Boolean
-  overload: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingFromAppointment*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingReservation
-  commentId: M:SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingReservation
-  id: CreateVideoMeetingReservation
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Function CreateVideoMeetingFromAppointmentAsync(centralserviceVideomeetId As String, icsData As String, jwtToken As String, appointmentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingFromAppointmentAsync*
+  nameWithType.vb: VideoMeetingHelper.CreateVideoMeetingFromAppointmentAsync(String, String, String, Integer, CancellationToken)
+  fullName.vb: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingFromAppointmentAsync(String, String, String, Integer, System.Threading.CancellationToken)
+  name.vb: CreateVideoMeetingFromAppointmentAsync(String, String, String, Integer, CancellationToken)
+- uid: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingReservationAsync
+  commentId: M:SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingReservationAsync
+  id: CreateVideoMeetingReservationAsync
   parent: SuperOffice.Util.VideoMeetingHelper
   langs:
   - csharp
   - vb
-  name: CreateVideoMeetingReservation()
-  nameWithType: VideoMeetingHelper.CreateVideoMeetingReservation()
-  fullName: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingReservation()
+  name: CreateVideoMeetingReservationAsync()
+  nameWithType: VideoMeetingHelper.CreateVideoMeetingReservationAsync()
+  fullName: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingReservationAsync()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Util
   syntax:
-    content: public VideoMeetingHelper.VideoMeetingReservation CreateVideoMeetingReservation()
+    content: public Task<VideoMeetingHelper.VideoMeetingReservation> CreateVideoMeetingReservationAsync()
     return:
-      type: SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
-    content.vb: Public Function CreateVideoMeetingReservation As VideoMeetingHelper.VideoMeetingReservation
-  overload: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingReservation*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservation(System.String)
-  commentId: M:SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservation(System.String)
-  id: DeleteVideoMeetingReservation(System.String)
+      type: System.Threading.Tasks.Task{SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation}
+    content.vb: Public Function CreateVideoMeetingReservationAsync() As Task(Of VideoMeetingHelper.VideoMeetingReservation)
+  overload: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingReservationAsync*
+- uid: SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservationAsync(System.String)
+  commentId: M:SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservationAsync(System.String)
+  id: DeleteVideoMeetingReservationAsync(System.String)
   parent: SuperOffice.Util.VideoMeetingHelper
   langs:
   - csharp
   - vb
-  name: DeleteVideoMeetingReservation(String)
-  nameWithType: VideoMeetingHelper.DeleteVideoMeetingReservation(String)
-  fullName: SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservation(System.String)
+  name: DeleteVideoMeetingReservationAsync(string)
+  nameWithType: VideoMeetingHelper.DeleteVideoMeetingReservationAsync(string)
+  fullName: SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservationAsync(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Util
   syntax:
-    content: public void DeleteVideoMeetingReservation(string meetingId)
+    content: public Task DeleteVideoMeetingReservationAsync(string meetingId)
     parameters:
     - id: meetingId
       type: System.String
-    content.vb: Public Sub DeleteVideoMeetingReservation(meetingId As String)
-  overload: SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservation*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteVideoMeetingReservationAsync(meetingId As String) As Task
+  overload: SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservationAsync*
+  nameWithType.vb: VideoMeetingHelper.DeleteVideoMeetingReservationAsync(String)
+  fullName.vb: SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservationAsync(String)
+  name.vb: DeleteVideoMeetingReservationAsync(String)
 - uid: SuperOffice.Util.VideoMeetingHelper.CreateMeetingUrl
   commentId: P:SuperOffice.Util.VideoMeetingHelper.CreateMeetingUrl
   id: CreateMeetingUrl
@@ -321,11 +283,8 @@ items:
   nameWithType: VideoMeetingHelper.CreateMeetingUrl
   fullName: SuperOffice.Util.VideoMeetingHelper.CreateMeetingUrl
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Util
   syntax:
     content: public string CreateMeetingUrl { get; }
@@ -334,12 +293,6 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property CreateMeetingUrl As String
   overload: SuperOffice.Util.VideoMeetingHelper.CreateMeetingUrl*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.Util.VideoMeetingHelper.ReserveMeetingUrl
   commentId: P:SuperOffice.Util.VideoMeetingHelper.ReserveMeetingUrl
   id: ReserveMeetingUrl
@@ -351,11 +304,8 @@ items:
   nameWithType: VideoMeetingHelper.ReserveMeetingUrl
   fullName: SuperOffice.Util.VideoMeetingHelper.ReserveMeetingUrl
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Util
   syntax:
     content: public string ReserveMeetingUrl { get; }
@@ -364,181 +314,487 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property ReserveMeetingUrl As String
   overload: SuperOffice.Util.VideoMeetingHelper.ReserveMeetingUrl*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.Util.VideoMeetingHelper.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<VideoMeetingHelper, To>()
-  nameWithType: EnumUtil.MapEnums<VideoMeetingHelper, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Util.VideoMeetingHelper, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of VideoMeetingHelper, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.VideoMeetingHelper, To)()
-  name.vb: MapEnums(Of VideoMeetingHelper, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<VideoMeetingHelper, To>(VideoMeetingHelper)
+  nameWithType: EnumUtil.MapEnums<VideoMeetingHelper, To>(VideoMeetingHelper)
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.VideoMeetingHelper, To>(SuperOffice.Util.VideoMeetingHelper)
+  nameWithType.vb: EnumUtil.MapEnums(Of VideoMeetingHelper, To)(VideoMeetingHelper)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.VideoMeetingHelper, To)(SuperOffice.Util.VideoMeetingHelper)
+  name.vb: MapEnums(Of VideoMeetingHelper, To)(VideoMeetingHelper)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<VideoMeetingHelper, To>
-    nameWithType: EnumUtil.MapEnums<VideoMeetingHelper, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Util.VideoMeetingHelper, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.VideoMeetingHelper)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of VideoMeetingHelper, To)
-    nameWithType: EnumUtil.MapEnums(Of VideoMeetingHelper, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.VideoMeetingHelper, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.VideoMeetingHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.VideoMeetingHelper)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<VideoMeetingHelper>(VideoMeetingHelper)
-  nameWithType: ObjectExtensions.AssignByReflection<VideoMeetingHelper>(VideoMeetingHelper)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.VideoMeetingHelper>(SuperOffice.Util.VideoMeetingHelper)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of VideoMeetingHelper)(VideoMeetingHelper)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.VideoMeetingHelper)(SuperOffice.Util.VideoMeetingHelper)
-  name.vb: AssignByReflection(Of VideoMeetingHelper)(VideoMeetingHelper)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<VideoMeetingHelper>
-    nameWithType: ObjectExtensions.AssignByReflection<VideoMeetingHelper>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.VideoMeetingHelper>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.Util.VideoMeetingHelper
     name: VideoMeetingHelper
-    nameWithType: VideoMeetingHelper
-    fullName: SuperOffice.Util.VideoMeetingHelper
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of VideoMeetingHelper)
-    nameWithType: ObjectExtensions.AssignByReflection(Of VideoMeetingHelper)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.VideoMeetingHelper)
-    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Util.VideoMeetingHelper
     name: VideoMeetingHelper
-    nameWithType: VideoMeetingHelper
-    fullName: SuperOffice.Util.VideoMeetingHelper
     isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.VideoMeetingHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<VideoMeetingHelper>()
-  nameWithType: ObjectExtensions.GraphCopy<VideoMeetingHelper>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.VideoMeetingHelper>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of VideoMeetingHelper)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.VideoMeetingHelper)()
-  name.vb: GraphCopy(Of VideoMeetingHelper)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<VideoMeetingHelper>
-    nameWithType: ObjectExtensions.GraphCopy<VideoMeetingHelper>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.VideoMeetingHelper>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of VideoMeetingHelper)
-    nameWithType: ObjectExtensions.GraphCopy(Of VideoMeetingHelper)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.VideoMeetingHelper)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.VideoMeetingHelper)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: )
 - uid: SuperOffice.Util.VideoMeetingHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<VideoMeetingHelper, To>()
-  nameWithType: Converters.MapEnums<VideoMeetingHelper, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.VideoMeetingHelper, To>()
-  nameWithType.vb: Converters.MapEnums(Of VideoMeetingHelper, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.VideoMeetingHelper, To)()
-  name.vb: MapEnums(Of VideoMeetingHelper, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<VideoMeetingHelper, To>(VideoMeetingHelper)
+  nameWithType: Converters.MapEnums<VideoMeetingHelper, To>(VideoMeetingHelper)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.VideoMeetingHelper, To>(SuperOffice.Util.VideoMeetingHelper)
+  nameWithType.vb: Converters.MapEnums(Of VideoMeetingHelper, To)(VideoMeetingHelper)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.VideoMeetingHelper, To)(SuperOffice.Util.VideoMeetingHelper)
+  name.vb: MapEnums(Of VideoMeetingHelper, To)(VideoMeetingHelper)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<VideoMeetingHelper, To>
-    nameWithType: Converters.MapEnums<VideoMeetingHelper, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.VideoMeetingHelper, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.VideoMeetingHelper)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of VideoMeetingHelper, To)
-    nameWithType: Converters.MapEnums(Of VideoMeetingHelper, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.VideoMeetingHelper, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.VideoMeetingHelper)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: )
+- uid: SuperOffice.Util.VideoMeetingHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.VideoMeetingHelper)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<VideoMeetingHelper>(VideoMeetingHelper, VideoMeetingHelper)
+  nameWithType: ObjectExtensions.AssignByReflection<VideoMeetingHelper>(VideoMeetingHelper, VideoMeetingHelper)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.VideoMeetingHelper>(SuperOffice.Util.VideoMeetingHelper, SuperOffice.Util.VideoMeetingHelper)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of VideoMeetingHelper)(VideoMeetingHelper, VideoMeetingHelper)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.VideoMeetingHelper)(SuperOffice.Util.VideoMeetingHelper, SuperOffice.Util.VideoMeetingHelper)
+  name.vb: AssignByReflection(Of VideoMeetingHelper)(VideoMeetingHelper, VideoMeetingHelper)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.VideoMeetingHelper,SuperOffice.Util.VideoMeetingHelper)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.VideoMeetingHelper,SuperOffice.Util.VideoMeetingHelper)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: )
+- uid: SuperOffice.Util.VideoMeetingHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<VideoMeetingHelper>(VideoMeetingHelper)
+  nameWithType: ObjectExtensions.GraphCopy<VideoMeetingHelper>(VideoMeetingHelper)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.VideoMeetingHelper>(SuperOffice.Util.VideoMeetingHelper)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of VideoMeetingHelper)(VideoMeetingHelper)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.VideoMeetingHelper)(SuperOffice.Util.VideoMeetingHelper)
+  name.vb: GraphCopy(Of VideoMeetingHelper)(VideoMeetingHelper)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.VideoMeetingHelper)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.VideoMeetingHelper)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -547,140 +803,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -689,132 +850,441 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Util.VideoMeetingHelper.#ctor*
   commentId: Overload:SuperOffice.Util.VideoMeetingHelper.#ctor
   isExternal: true
+  href: SuperOffice.Util.VideoMeetingHelper.html#SuperOffice_Util_VideoMeetingHelper__ctor
   name: VideoMeetingHelper
   nameWithType: VideoMeetingHelper.VideoMeetingHelper
   fullName: SuperOffice.Util.VideoMeetingHelper.VideoMeetingHelper
+  nameWithType.vb: VideoMeetingHelper.New
+  fullName.vb: SuperOffice.Util.VideoMeetingHelper.New
+  name.vb: New
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.Util.VideoMeetingHelper.DeleteMeetingUrl*
   commentId: Overload:SuperOffice.Util.VideoMeetingHelper.DeleteMeetingUrl
   isExternal: true
+  href: SuperOffice.Util.VideoMeetingHelper.html#SuperOffice_Util_VideoMeetingHelper_DeleteMeetingUrl_System_String_
   name: DeleteMeetingUrl
   nameWithType: VideoMeetingHelper.DeleteMeetingUrl
   fullName: SuperOffice.Util.VideoMeetingHelper.DeleteMeetingUrl
 - uid: SuperOffice.Util.VideoMeetingHelper.UnreserveMeetingUrl*
   commentId: Overload:SuperOffice.Util.VideoMeetingHelper.UnreserveMeetingUrl
   isExternal: true
+  href: SuperOffice.Util.VideoMeetingHelper.html#SuperOffice_Util_VideoMeetingHelper_UnreserveMeetingUrl_System_String_
   name: UnreserveMeetingUrl
   nameWithType: VideoMeetingHelper.UnreserveMeetingUrl
   fullName: SuperOffice.Util.VideoMeetingHelper.UnreserveMeetingUrl
-- uid: SuperOffice.Util.VideoMeetingHelper.IsAuthenticationRequired*
-  commentId: Overload:SuperOffice.Util.VideoMeetingHelper.IsAuthenticationRequired
+- uid: SuperOffice.Util.VideoMeetingHelper.IsAuthenticationRequiredAsync*
+  commentId: Overload:SuperOffice.Util.VideoMeetingHelper.IsAuthenticationRequiredAsync
   isExternal: true
-  name: IsAuthenticationRequired
-  nameWithType: VideoMeetingHelper.IsAuthenticationRequired
-  fullName: SuperOffice.Util.VideoMeetingHelper.IsAuthenticationRequired
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
+  href: SuperOffice.Util.VideoMeetingHelper.html#SuperOffice_Util_VideoMeetingHelper_IsAuthenticationRequiredAsync_System_Threading_CancellationToken_
+  name: IsAuthenticationRequiredAsync
+  nameWithType: VideoMeetingHelper.IsAuthenticationRequiredAsync
+  fullName: SuperOffice.Util.VideoMeetingHelper.IsAuthenticationRequiredAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.Util.VideoMeetingHelper.GetLoginUrl*
   commentId: Overload:SuperOffice.Util.VideoMeetingHelper.GetLoginUrl
   isExternal: true
+  href: SuperOffice.Util.VideoMeetingHelper.html#SuperOffice_Util_VideoMeetingHelper_GetLoginUrl_System_String_System_String_
   name: GetLoginUrl
   nameWithType: VideoMeetingHelper.GetLoginUrl
   fullName: SuperOffice.Util.VideoMeetingHelper.GetLoginUrl
-- uid: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingFromAppointment*
-  commentId: Overload:SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingFromAppointment
+- uid: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingFromAppointmentAsync*
+  commentId: Overload:SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingFromAppointmentAsync
   isExternal: true
-  name: CreateVideoMeetingFromAppointment
-  nameWithType: VideoMeetingHelper.CreateVideoMeetingFromAppointment
-  fullName: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingFromAppointment
+  href: SuperOffice.Util.VideoMeetingHelper.html#SuperOffice_Util_VideoMeetingHelper_CreateVideoMeetingFromAppointmentAsync_System_String_System_String_System_String_System_Int32_System_Threading_CancellationToken_
+  name: CreateVideoMeetingFromAppointmentAsync
+  nameWithType: VideoMeetingHelper.CreateVideoMeetingFromAppointmentAsync
+  fullName: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingFromAppointmentAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingReservation*
-  commentId: Overload:SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingReservation
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingReservationAsync*
+  commentId: Overload:SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingReservationAsync
   isExternal: true
-  name: CreateVideoMeetingReservation
-  nameWithType: VideoMeetingHelper.CreateVideoMeetingReservation
-  fullName: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingReservation
-- uid: SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
-  commentId: T:SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
-  parent: SuperOffice.Util
+  href: SuperOffice.Util.VideoMeetingHelper.html#SuperOffice_Util_VideoMeetingHelper_CreateVideoMeetingReservationAsync
+  name: CreateVideoMeetingReservationAsync
+  nameWithType: VideoMeetingHelper.CreateVideoMeetingReservationAsync
+  fullName: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingReservationAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<VideoMeetingHelper.VideoMeetingReservation>
+  nameWithType: Task<VideoMeetingHelper.VideoMeetingReservation>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation>
+  nameWithType.vb: Task(Of VideoMeetingHelper.VideoMeetingReservation)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation)
+  name.vb: Task(Of VideoMeetingHelper.VideoMeetingReservation)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: .
+  - uid: SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
+    name: VideoMeetingReservation
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: .
+  - uid: SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
+    name: VideoMeetingReservation
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation.html
+  - name: )
+- uid: SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservationAsync*
+  commentId: Overload:SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservationAsync
   isExternal: true
-  name: VideoMeetingHelper.VideoMeetingReservation
-  nameWithType: VideoMeetingHelper.VideoMeetingReservation
-  fullName: SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
-- uid: SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservation*
-  commentId: Overload:SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservation
+  href: SuperOffice.Util.VideoMeetingHelper.html#SuperOffice_Util_VideoMeetingHelper_DeleteVideoMeetingReservationAsync_System_String_
+  name: DeleteVideoMeetingReservationAsync
+  nameWithType: VideoMeetingHelper.DeleteVideoMeetingReservationAsync
+  fullName: SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservationAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
-  name: DeleteVideoMeetingReservation
-  nameWithType: VideoMeetingHelper.DeleteVideoMeetingReservation
-  fullName: SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservation
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.Util.VideoMeetingHelper.CreateMeetingUrl*
   commentId: Overload:SuperOffice.Util.VideoMeetingHelper.CreateMeetingUrl
   isExternal: true
+  href: SuperOffice.Util.VideoMeetingHelper.html#SuperOffice_Util_VideoMeetingHelper_CreateMeetingUrl
   name: CreateMeetingUrl
   nameWithType: VideoMeetingHelper.CreateMeetingUrl
   fullName: SuperOffice.Util.VideoMeetingHelper.CreateMeetingUrl
 - uid: SuperOffice.Util.VideoMeetingHelper.ReserveMeetingUrl*
   commentId: Overload:SuperOffice.Util.VideoMeetingHelper.ReserveMeetingUrl
   isExternal: true
+  href: SuperOffice.Util.VideoMeetingHelper.html#SuperOffice_Util_VideoMeetingHelper_ReserveMeetingUrl
   name: ReserveMeetingUrl
   nameWithType: VideoMeetingHelper.ReserveMeetingUrl
   fullName: SuperOffice.Util.VideoMeetingHelper.ReserveMeetingUrl

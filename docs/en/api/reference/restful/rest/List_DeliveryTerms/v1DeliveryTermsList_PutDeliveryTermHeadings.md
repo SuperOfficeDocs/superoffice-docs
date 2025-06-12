@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 487,
-    "Name": "Shields-Kuvalis",
-    "Tooltip": "optio",
+    "HeadingId": 170,
+    "Name": "Jacobi, O'Kon and Mraz",
+    "Tooltip": "corrupti",
     "Deleted": false,
-    "Rank": 327,
-    "UdListDefinitionId": 687
+    "Rank": 87,
+    "UdListDefinitionId": 479
   },
   {
-    "HeadingId": 487,
-    "Name": "Shields-Kuvalis",
-    "Tooltip": "optio",
+    "HeadingId": 170,
+    "Name": "Jacobi, O'Kon and Mraz",
+    "Tooltip": "corrupti",
     "Deleted": false,
-    "Rank": 327,
-    "UdListDefinitionId": 687
+    "Rank": 87,
+    "UdListDefinitionId": 479
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 490,
-    "Name": "Zieme-Ernser",
+    "HeadingId": 148,
+    "Name": "Kuphal Inc and Sons",
     "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 535,
-    "UdListDefinitionId": 937,
+    "Deleted": true,
+    "Rank": 894,
+    "UdListDefinitionId": 764,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 394
+        "FieldType": "System.String",
+        "FieldLength": 96
       }
     }
   }

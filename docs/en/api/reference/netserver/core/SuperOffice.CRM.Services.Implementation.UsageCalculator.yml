@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.Services.Implementation
   children:
   - SuperOffice.CRM.Services.Implementation.UsageCalculator.GetRecordsFromResults(System.Object)
+  - SuperOffice.CRM.Services.Implementation.UsageCalculator.NoReturnValue
   - SuperOffice.CRM.Services.Implementation.UsageCalculator.RecordDatabaseRecordsFromResult(SuperOffice.Diagnostics.IResourceUsageBucket,System.Object)
   langs:
   - csharp
@@ -14,27 +15,43 @@ items:
   nameWithType: UsageCalculator
   fullName: SuperOffice.CRM.Services.Implementation.UsageCalculator
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
-  summary: "\nHelper class to calculate resource usage\n"
+  summary: Helper class to calculate resource usage
+  example: []
   syntax:
-    content: 'public static class UsageCalculator : Object'
-    content.vb: >-
-      Public Module UsageCalculator
-          Inherits Object
+    content: public static class UsageCalculator
+    content.vb: Public Module UsageCalculator
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Services.Implementation.UsageCalculator.NoReturnValue
+  commentId: F:SuperOffice.CRM.Services.Implementation.UsageCalculator.NoReturnValue
+  id: NoReturnValue
+  parent: SuperOffice.CRM.Services.Implementation.UsageCalculator
+  langs:
+  - csharp
+  - vb
+  name: NoReturnValue
+  nameWithType: UsageCalculator.NoReturnValue
+  fullName: SuperOffice.CRM.Services.Implementation.UsageCalculator.NoReturnValue
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public const string NoReturnValue = "!!noreturn!!"
+    return:
+      type: System.String
+    content.vb: Public Const NoReturnValue As String = "!!noreturn!!"
 - uid: SuperOffice.CRM.Services.Implementation.UsageCalculator.GetRecordsFromResults(System.Object)
   commentId: M:SuperOffice.CRM.Services.Implementation.UsageCalculator.GetRecordsFromResults(System.Object)
   id: GetRecordsFromResults(System.Object)
@@ -42,17 +59,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetRecordsFromResults(Object)
-  nameWithType: UsageCalculator.GetRecordsFromResults(Object)
-  fullName: SuperOffice.CRM.Services.Implementation.UsageCalculator.GetRecordsFromResults(System.Object)
+  name: GetRecordsFromResults(object)
+  nameWithType: UsageCalculator.GetRecordsFromResults(object)
+  fullName: SuperOffice.CRM.Services.Implementation.UsageCalculator.GetRecordsFromResults(object)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
-  summary: "\nCalculate resource usage from a result.\n"
+  summary: Calculate resource usage from a result.
+  example: []
   syntax:
     content: public static int GetRecordsFromResults(object results)
     parameters:
@@ -61,14 +76,12 @@ items:
       description: Return value to calculate records from.
     return:
       type: System.Int32
+      description: ''
     content.vb: Public Shared Function GetRecordsFromResults(results As Object) As Integer
   overload: SuperOffice.CRM.Services.Implementation.UsageCalculator.GetRecordsFromResults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: UsageCalculator.GetRecordsFromResults(Object)
+  fullName.vb: SuperOffice.CRM.Services.Implementation.UsageCalculator.GetRecordsFromResults(Object)
+  name.vb: GetRecordsFromResults(Object)
 - uid: SuperOffice.CRM.Services.Implementation.UsageCalculator.RecordDatabaseRecordsFromResult(SuperOffice.Diagnostics.IResourceUsageBucket,System.Object)
   commentId: M:SuperOffice.CRM.Services.Implementation.UsageCalculator.RecordDatabaseRecordsFromResult(SuperOffice.Diagnostics.IResourceUsageBucket,System.Object)
   id: RecordDatabaseRecordsFromResult(SuperOffice.Diagnostics.IResourceUsageBucket,System.Object)
@@ -77,17 +90,15 @@ items:
   langs:
   - csharp
   - vb
-  name: RecordDatabaseRecordsFromResult(IResourceUsageBucket, Object)
-  nameWithType: UsageCalculator.RecordDatabaseRecordsFromResult(IResourceUsageBucket, Object)
-  fullName: SuperOffice.CRM.Services.Implementation.UsageCalculator.RecordDatabaseRecordsFromResult(SuperOffice.Diagnostics.IResourceUsageBucket, System.Object)
+  name: RecordDatabaseRecordsFromResult(IResourceUsageBucket, object)
+  nameWithType: UsageCalculator.RecordDatabaseRecordsFromResult(IResourceUsageBucket, object)
+  fullName: SuperOffice.CRM.Services.Implementation.UsageCalculator.RecordDatabaseRecordsFromResult(SuperOffice.Diagnostics.IResourceUsageBucket, object)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
-  summary: "\nRecord usage from the result of a service call\n"
+  summary: Record usage from the result of a service call
+  example: []
   syntax:
     content: public static int RecordDatabaseRecordsFromResult(this IResourceUsageBucket resourceUsageBucket, object results)
     parameters:
@@ -99,40 +110,312 @@ items:
       description: Return value to calculate records from.
     return:
       type: System.Int32
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function RecordDatabaseRecordsFromResult(resourceUsageBucket As IResourceUsageBucket, results As Object) As Integer
+      description: ''
+    content.vb: Public Shared Function RecordDatabaseRecordsFromResult(resourceUsageBucket As IResourceUsageBucket, results As Object) As Integer
   overload: SuperOffice.CRM.Services.Implementation.UsageCalculator.RecordDatabaseRecordsFromResult*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: UsageCalculator.RecordDatabaseRecordsFromResult(IResourceUsageBucket, Object)
+  fullName.vb: SuperOffice.CRM.Services.Implementation.UsageCalculator.RecordDatabaseRecordsFromResult(SuperOffice.Diagnostics.IResourceUsageBucket, Object)
+  name.vb: RecordDatabaseRecordsFromResult(IResourceUsageBucket, Object)
 references:
 - uid: SuperOffice.CRM.Services.Implementation
   commentId: N:SuperOffice.CRM.Services.Implementation
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services.Implementation
   nameWithType: SuperOffice.CRM.Services.Implementation
   fullName: SuperOffice.CRM.Services.Implementation
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.Implementation.UsageCalculator.GetRecordsFromResults*
   commentId: Overload:SuperOffice.CRM.Services.Implementation.UsageCalculator.GetRecordsFromResults
   isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.UsageCalculator.html#SuperOffice_CRM_Services_Implementation_UsageCalculator_GetRecordsFromResults_System_Object_
   name: GetRecordsFromResults
   nameWithType: UsageCalculator.GetRecordsFromResults
   fullName: SuperOffice.CRM.Services.Implementation.UsageCalculator.GetRecordsFromResults
@@ -140,12 +423,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.Implementation.UsageCalculator.RecordDatabaseRecordsFromResult*
   commentId: Overload:SuperOffice.CRM.Services.Implementation.UsageCalculator.RecordDatabaseRecordsFromResult
   isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.UsageCalculator.html#SuperOffice_CRM_Services_Implementation_UsageCalculator_RecordDatabaseRecordsFromResult_SuperOffice_Diagnostics_IResourceUsageBucket_System_Object_
   name: RecordDatabaseRecordsFromResult
   nameWithType: UsageCalculator.RecordDatabaseRecordsFromResult
   fullName: SuperOffice.CRM.Services.Implementation.UsageCalculator.RecordDatabaseRecordsFromResult
@@ -153,12 +441,34 @@ references:
   commentId: T:SuperOffice.Diagnostics.IResourceUsageBucket
   parent: SuperOffice.Diagnostics
   isExternal: true
+  href: SuperOffice.Diagnostics.IResourceUsageBucket.html
   name: IResourceUsageBucket
   nameWithType: IResourceUsageBucket
   fullName: SuperOffice.Diagnostics.IResourceUsageBucket
 - uid: SuperOffice.Diagnostics
   commentId: N:SuperOffice.Diagnostics
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Diagnostics
   nameWithType: SuperOffice.Diagnostics
   fullName: SuperOffice.Diagnostics
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: SuperOffice.Diagnostics.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: SuperOffice.Diagnostics.html

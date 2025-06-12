@@ -16,8 +16,8 @@ items:
   - SuperOffice.CRM.Security.DashboardTileSentryQueryInfo
   - SuperOffice.CRM.Security.DocDocumentSentry
   - SuperOffice.CRM.Security.DocDocumentSentryQueryInfo
-  - SuperOffice.CRM.Security.EjCategoryCache
   - SuperOffice.CRM.Security.EOwnershipIndex
+  - SuperOffice.CRM.Security.EjCategoryCache
   - SuperOffice.CRM.Security.ErpConnectionAccessCache
   - SuperOffice.CRM.Security.FieldProperty
   - SuperOffice.CRM.Security.FieldPropertyDictionary
@@ -28,12 +28,12 @@ items:
   - SuperOffice.CRM.Security.GenericRight
   - SuperOffice.CRM.Security.HierarchySentry
   - SuperOffice.CRM.Security.HierarchySentryQueryInfo
-  - SuperOffice.CRM.Security.IgnoreSentryCheck
   - SuperOffice.CRM.Security.ISentryIgnorable
   - SuperOffice.CRM.Security.ISentryPlugin
   - SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater
   - SuperOffice.CRM.Security.ISentryQueryTableUpdater
   - SuperOffice.CRM.Security.ISoDataLookup
+  - SuperOffice.CRM.Security.IgnoreSentryCheck
   - SuperOffice.CRM.Security.ItemRight
   - SuperOffice.CRM.Security.KbEntrySentry
   - SuperOffice.CRM.Security.KbEntrySentryQueryInfo
@@ -59,6 +59,8 @@ items:
   - SuperOffice.CRM.Security.ReplyTemplateSentryQueryInfo
   - SuperOffice.CRM.Security.Rights`2
   - SuperOffice.CRM.Security.RoleRightsSentry`1
+  - SuperOffice.CRM.Security.SORPublishSentry
+  - SuperOffice.CRM.Security.SORPublishSentryQueryInfo
   - SuperOffice.CRM.Security.SaleSentry
   - SuperOffice.CRM.Security.SaleSentryQueryInfo
   - SuperOffice.CRM.Security.SatelliteSentry
@@ -67,8 +69,6 @@ items:
   - SuperOffice.CRM.Security.SelectionSentryQueryInfo
   - SuperOffice.CRM.Security.Sentry
   - SuperOffice.CRM.Security.Sentry.DataRightCache
-  - SuperOffice.CRM.Security.Sentry`1
-  - SuperOffice.CRM.Security.Sentry`1.ResourceSymbol
   - SuperOffice.CRM.Security.SentryCollection
   - SuperOffice.CRM.Security.SentryIgnorableHelper
   - SuperOffice.CRM.Security.SentryPluginAttribute
@@ -111,8 +111,8 @@ items:
   - SuperOffice.CRM.Security.SentryQueryUDefFieldTableUpdater
   - SuperOffice.CRM.Security.SentryQueryUpdater
   - SuperOffice.CRM.Security.SentryQueryWorkflowTableUpdater
-  - SuperOffice.CRM.Security.SORPublishSentry
-  - SuperOffice.CRM.Security.SORPublishSentryQueryInfo
+  - SuperOffice.CRM.Security.Sentry`1
+  - SuperOffice.CRM.Security.Sentry`1.ResourceSymbol
   - SuperOffice.CRM.Security.TableRight
   - SuperOffice.CRM.Security.TableRights
   - SuperOffice.CRM.Security.TargetAssignmentInfoSentry
@@ -141,6 +141,7 @@ references:
   commentId: T:SuperOffice.CRM.Security.FieldProperty
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.FieldProperty.html
   name: FieldProperty
   nameWithType: FieldProperty
   fullName: SuperOffice.CRM.Security.FieldProperty
@@ -148,6 +149,7 @@ references:
   commentId: T:SuperOffice.CRM.Security.FieldPropertyDictionary
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.FieldPropertyDictionary.html
   name: FieldPropertyDictionary
   nameWithType: FieldPropertyDictionary
   fullName: SuperOffice.CRM.Security.FieldPropertyDictionary
@@ -155,6 +157,7 @@ references:
   commentId: T:SuperOffice.CRM.Security.EOwnershipIndex
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.EOwnershipIndex.html
   name: EOwnershipIndex
   nameWithType: EOwnershipIndex
   fullName: SuperOffice.CRM.Security.EOwnershipIndex
@@ -162,6 +165,7 @@ references:
   commentId: T:SuperOffice.CRM.Security.GenericRight
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.GenericRight.html
   name: GenericRight
   nameWithType: GenericRight
   fullName: SuperOffice.CRM.Security.GenericRight
@@ -169,6 +173,7 @@ references:
   commentId: T:SuperOffice.CRM.Security.ItemRight
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.ItemRight.html
   name: ItemRight
   nameWithType: ItemRight
   fullName: SuperOffice.CRM.Security.ItemRight
@@ -176,6 +181,7 @@ references:
   commentId: T:SuperOffice.CRM.Security.TableRight
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.TableRight.html
   name: TableRight
   nameWithType: TableRight
   fullName: SuperOffice.CRM.Security.TableRight
@@ -183,72 +189,84 @@ references:
   commentId: T:SuperOffice.CRM.Security.FieldRight
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.FieldRight.html
   name: FieldRight
   nameWithType: FieldRight
   fullName: SuperOffice.CRM.Security.FieldRight
 - uid: SuperOffice.CRM.Security.FunctionRight
   commentId: T:SuperOffice.CRM.Security.FunctionRight
   isExternal: true
+  href: SuperOffice.CRM.Security.FunctionRight.html
   name: FunctionRight
   nameWithType: FunctionRight
   fullName: SuperOffice.CRM.Security.FunctionRight
 - uid: SuperOffice.CRM.Security.AppointmentSentry
   commentId: T:SuperOffice.CRM.Security.AppointmentSentry
   isExternal: true
+  href: SuperOffice.CRM.Security.AppointmentSentry.html
   name: AppointmentSentry
   nameWithType: AppointmentSentry
   fullName: SuperOffice.CRM.Security.AppointmentSentry
 - uid: SuperOffice.CRM.Security.SentryQueryAppointmentTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryAppointmentTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryAppointmentTableUpdater.html
   name: SentryQueryAppointmentTableUpdater
   nameWithType: SentryQueryAppointmentTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryAppointmentTableUpdater
 - uid: SuperOffice.CRM.Security.SentryQueryDocumentTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryDocumentTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryDocumentTableUpdater.html
   name: SentryQueryDocumentTableUpdater
   nameWithType: SentryQueryDocumentTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryDocumentTableUpdater
 - uid: SuperOffice.CRM.Security.AppointmentSentryQueryInfo
   commentId: T:SuperOffice.CRM.Security.AppointmentSentryQueryInfo
   isExternal: true
+  href: SuperOffice.CRM.Security.AppointmentSentryQueryInfo.html
   name: AppointmentSentryQueryInfo
   nameWithType: AppointmentSentryQueryInfo
   fullName: SuperOffice.CRM.Security.AppointmentSentryQueryInfo
 - uid: SuperOffice.CRM.Security.AssociateSentry
   commentId: T:SuperOffice.CRM.Security.AssociateSentry
   isExternal: true
+  href: SuperOffice.CRM.Security.AssociateSentry.html
   name: AssociateSentry
   nameWithType: AssociateSentry
   fullName: SuperOffice.CRM.Security.AssociateSentry
 - uid: SuperOffice.CRM.Security.SentryQueryAssociateTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryAssociateTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryAssociateTableUpdater.html
   name: SentryQueryAssociateTableUpdater
   nameWithType: SentryQueryAssociateTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryAssociateTableUpdater
 - uid: SuperOffice.CRM.Security.AssociateSentryQueryInfo
   commentId: T:SuperOffice.CRM.Security.AssociateSentryQueryInfo
   isExternal: true
+  href: SuperOffice.CRM.Security.AssociateSentryQueryInfo.html
   name: AssociateSentryQueryInfo
   nameWithType: AssociateSentryQueryInfo
   fullName: SuperOffice.CRM.Security.AssociateSentryQueryInfo
 - uid: SuperOffice.CRM.Security.ContactSentry
   commentId: T:SuperOffice.CRM.Security.ContactSentry
   isExternal: true
+  href: SuperOffice.CRM.Security.ContactSentry.html
   name: ContactSentry
   nameWithType: ContactSentry
   fullName: SuperOffice.CRM.Security.ContactSentry
 - uid: SuperOffice.CRM.Security.SentryQueryContactTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryContactTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryContactTableUpdater.html
   name: SentryQueryContactTableUpdater
   nameWithType: SentryQueryContactTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryContactTableUpdater
 - uid: SuperOffice.CRM.Security.ContactSentryQueryInfo
   commentId: T:SuperOffice.CRM.Security.ContactSentryQueryInfo
   isExternal: true
+  href: SuperOffice.CRM.Security.ContactSentryQueryInfo.html
   name: ContactSentryQueryInfo
   nameWithType: ContactSentryQueryInfo
   fullName: SuperOffice.CRM.Security.ContactSentryQueryInfo
@@ -256,12 +274,14 @@ references:
   commentId: T:SuperOffice.CRM.Security.SentryQueryInfo
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryInfo.html
   name: SentryQueryInfo
   nameWithType: SentryQueryInfo
   fullName: SuperOffice.CRM.Security.SentryQueryInfo
 - uid: SuperOffice.CRM.Security.SentryQueryInfo`1
   commentId: T:SuperOffice.CRM.Security.SentryQueryInfo`1
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryInfo-1.html
   name: SentryQueryInfo<TMainTable>
   nameWithType: SentryQueryInfo<TMainTable>
   fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>
@@ -271,72 +291,67 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Security.SentryQueryInfo`1
     name: SentryQueryInfo
-    nameWithType: SentryQueryInfo
-    fullName: SuperOffice.CRM.Security.SentryQueryInfo
     isExternal: true
+    href: SuperOffice.CRM.Security.SentryQueryInfo-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TMainTable
-    nameWithType: TMainTable
-    fullName: TMainTable
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Security.SentryQueryInfo`1
     name: SentryQueryInfo
-    nameWithType: SentryQueryInfo
-    fullName: SuperOffice.CRM.Security.SentryQueryInfo
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.CRM.Security.SentryQueryInfo-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: TMainTable
-    nameWithType: TMainTable
-    fullName: TMainTable
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.DashboardSentry
   commentId: T:SuperOffice.CRM.Security.DashboardSentry
   isExternal: true
+  href: SuperOffice.CRM.Security.DashboardSentry.html
   name: DashboardSentry
   nameWithType: DashboardSentry
   fullName: SuperOffice.CRM.Security.DashboardSentry
 - uid: SuperOffice.CRM.Security.SentryQueryDashBoardTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryDashBoardTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryDashBoardTableUpdater.html
   name: SentryQueryDashBoardTableUpdater
   nameWithType: SentryQueryDashBoardTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryDashBoardTableUpdater
 - uid: SuperOffice.CRM.Security.SentryQueryDashboardTileTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryDashboardTileTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryDashboardTileTableUpdater.html
   name: SentryQueryDashboardTileTableUpdater
   nameWithType: SentryQueryDashboardTileTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryDashboardTileTableUpdater
 - uid: SuperOffice.CRM.Security.DashboardSentryQueryInfo
   commentId: T:SuperOffice.CRM.Security.DashboardSentryQueryInfo
   isExternal: true
+  href: SuperOffice.CRM.Security.DashboardSentryQueryInfo.html
   name: DashboardSentryQueryInfo
   nameWithType: DashboardSentryQueryInfo
   fullName: SuperOffice.CRM.Security.DashboardSentryQueryInfo
 - uid: SuperOffice.CRM.Security.DashboardTileSentry
   commentId: T:SuperOffice.CRM.Security.DashboardTileSentry
   isExternal: true
+  href: SuperOffice.CRM.Security.DashboardTileSentry.html
   name: DashboardTileSentry
   nameWithType: DashboardTileSentry
   fullName: SuperOffice.CRM.Security.DashboardTileSentry
 - uid: SuperOffice.CRM.Security.SentryQueryBinaryObjectableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryBinaryObjectableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryBinaryObjectableUpdater.html
   name: SentryQueryBinaryObjectableUpdater
   nameWithType: SentryQueryBinaryObjectableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryBinaryObjectableUpdater
 - uid: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo
   commentId: T:SuperOffice.CRM.Security.DashboardTileSentryQueryInfo
   isExternal: true
+  href: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.html
   name: DashboardTileSentryQueryInfo
   nameWithType: DashboardTileSentryQueryInfo
   fullName: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo
@@ -344,19 +359,41 @@ references:
   commentId: T:SuperOffice.CRM.Security.Sentry
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.Sentry.html
   name: Sentry
   nameWithType: Sentry
   fullName: SuperOffice.CRM.Security.Sentry
 - uid: SuperOffice.CRM.Security.Sentry.DataRightCache
   commentId: T:SuperOffice.CRM.Security.Sentry.DataRightCache
-  parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.Sentry.html
   name: Sentry.DataRightCache
   nameWithType: Sentry.DataRightCache
   fullName: SuperOffice.CRM.Security.Sentry.DataRightCache
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Sentry
+    name: Sentry
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.html
+  - name: .
+  - uid: SuperOffice.CRM.Security.Sentry.DataRightCache
+    name: DataRightCache
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.DataRightCache.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Sentry
+    name: Sentry
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.html
+  - name: .
+  - uid: SuperOffice.CRM.Security.Sentry.DataRightCache
+    name: DataRightCache
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.DataRightCache.html
 - uid: SuperOffice.CRM.Security.Sentry`1
   commentId: T:SuperOffice.CRM.Security.Sentry`1
   isExternal: true
+  href: SuperOffice.CRM.Security.Sentry-1.html
   name: Sentry<TMainTable>
   nameWithType: Sentry<TMainTable>
   fullName: SuperOffice.CRM.Security.Sentry<TMainTable>
@@ -366,132 +403,133 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Security.Sentry`1
     name: Sentry
-    nameWithType: Sentry
-    fullName: SuperOffice.CRM.Security.Sentry
     isExternal: true
+    href: SuperOffice.CRM.Security.Sentry-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TMainTable
-    nameWithType: TMainTable
-    fullName: TMainTable
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Security.Sentry`1
     name: Sentry
-    nameWithType: Sentry
-    fullName: SuperOffice.CRM.Security.Sentry
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.CRM.Security.Sentry-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: TMainTable
-    nameWithType: TMainTable
-    fullName: TMainTable
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol
   commentId: T:SuperOffice.CRM.Security.Sentry`1.ResourceSymbol
   isExternal: true
-  name: Sentry.ResourceSymbol<>
-  nameWithType: Sentry.ResourceSymbol<>
-  fullName: SuperOffice.CRM.Security.Sentry.ResourceSymbol<>
-  nameWithType.vb: Sentry.ResourceSymbol(Of )
-  fullName.vb: SuperOffice.CRM.Security.Sentry.ResourceSymbol(Of )
-  name.vb: Sentry.ResourceSymbol(Of )
+  href: SuperOffice.CRM.Security.Sentry-1.html
+  name: Sentry<TMainTable>.ResourceSymbol
+  nameWithType: Sentry<TMainTable>.ResourceSymbol
+  fullName: SuperOffice.CRM.Security.Sentry<TMainTable>.ResourceSymbol
+  nameWithType.vb: Sentry(Of TMainTable).ResourceSymbol
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of TMainTable).ResourceSymbol
+  name.vb: Sentry(Of TMainTable).ResourceSymbol
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol
-    name: Sentry.ResourceSymbol
-    nameWithType: Sentry.ResourceSymbol
-    fullName: SuperOffice.CRM.Security.Sentry.ResourceSymbol
+  - uid: SuperOffice.CRM.Security.Sentry`1
+    name: Sentry
     isExternal: true
+    href: SuperOffice.CRM.Security.Sentry-1.html
   - name: <
-    nameWithType: <
-    fullName: <
+  - name: TMainTable
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
+  - name: .
   - uid: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol
-    name: Sentry.ResourceSymbol
-    nameWithType: Sentry.ResourceSymbol
-    fullName: SuperOffice.CRM.Security.Sentry.ResourceSymbol
+    name: ResourceSymbol
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.CRM.Security.Sentry-1.ResourceSymbol.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Sentry`1
+    name: Sentry
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TMainTable
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: .
+  - uid: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol
+    name: ResourceSymbol
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry-1.ResourceSymbol.html
 - uid: SuperOffice.CRM.Security.DocDocumentSentry
   commentId: T:SuperOffice.CRM.Security.DocDocumentSentry
   isExternal: true
+  href: SuperOffice.CRM.Security.DocDocumentSentry.html
   name: DocDocumentSentry
   nameWithType: DocDocumentSentry
   fullName: SuperOffice.CRM.Security.DocDocumentSentry
 - uid: SuperOffice.CRM.Security.SentryQueryDocDocumentTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryDocDocumentTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryDocDocumentTableUpdater.html
   name: SentryQueryDocDocumentTableUpdater
   nameWithType: SentryQueryDocDocumentTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryDocDocumentTableUpdater
 - uid: SuperOffice.CRM.Security.DocDocumentSentryQueryInfo
   commentId: T:SuperOffice.CRM.Security.DocDocumentSentryQueryInfo
   isExternal: true
+  href: SuperOffice.CRM.Security.DocDocumentSentryQueryInfo.html
   name: DocDocumentSentryQueryInfo
   nameWithType: DocDocumentSentryQueryInfo
   fullName: SuperOffice.CRM.Security.DocDocumentSentryQueryInfo
 - uid: SuperOffice.CRM.Security.EjCategoryCache
   commentId: T:SuperOffice.CRM.Security.EjCategoryCache
-  parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.EjCategoryCache.html
   name: EjCategoryCache
   nameWithType: EjCategoryCache
   fullName: SuperOffice.CRM.Security.EjCategoryCache
 - uid: SuperOffice.CRM.Security.ErpConnectionAccessCache
   commentId: T:SuperOffice.CRM.Security.ErpConnectionAccessCache
-  parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.ErpConnectionAccessCache.html
   name: ErpConnectionAccessCache
   nameWithType: ErpConnectionAccessCache
   fullName: SuperOffice.CRM.Security.ErpConnectionAccessCache
 - uid: SuperOffice.CRM.Security.FunctionRightCache
   commentId: T:SuperOffice.CRM.Security.FunctionRightCache
-  parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.FunctionRightCache.html
   name: FunctionRightCache
   nameWithType: FunctionRightCache
   fullName: SuperOffice.CRM.Security.FunctionRightCache
 - uid: SuperOffice.CRM.Security.HierarchySentry
   commentId: T:SuperOffice.CRM.Security.HierarchySentry
   isExternal: true
+  href: SuperOffice.CRM.Security.HierarchySentry.html
   name: HierarchySentry
   nameWithType: HierarchySentry
   fullName: SuperOffice.CRM.Security.HierarchySentry
 - uid: SuperOffice.CRM.Security.HierarchySentryQueryInfo
   commentId: T:SuperOffice.CRM.Security.HierarchySentryQueryInfo
   isExternal: true
+  href: SuperOffice.CRM.Security.HierarchySentryQueryInfo.html
   name: HierarchySentryQueryInfo
   nameWithType: HierarchySentryQueryInfo
   fullName: SuperOffice.CRM.Security.HierarchySentryQueryInfo
 - uid: SuperOffice.CRM.Security.KbEntrySentry
   commentId: T:SuperOffice.CRM.Security.KbEntrySentry
   isExternal: true
+  href: SuperOffice.CRM.Security.KbEntrySentry.html
   name: KbEntrySentry
   nameWithType: KbEntrySentry
   fullName: SuperOffice.CRM.Security.KbEntrySentry
 - uid: SuperOffice.CRM.Security.SentryQueryKbEntryTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryKbEntryTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryKbEntryTableUpdater.html
   name: SentryQueryKbEntryTableUpdater
   nameWithType: SentryQueryKbEntryTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryKbEntryTableUpdater
 - uid: SuperOffice.CRM.Security.KbEntrySentryQueryInfo
   commentId: T:SuperOffice.CRM.Security.KbEntrySentryQueryInfo
   isExternal: true
+  href: SuperOffice.CRM.Security.KbEntrySentryQueryInfo.html
   name: KbEntrySentryQueryInfo
   nameWithType: KbEntrySentryQueryInfo
   fullName: SuperOffice.CRM.Security.KbEntrySentryQueryInfo
@@ -499,6 +537,7 @@ references:
   commentId: T:SuperOffice.CRM.Security.LookupCollection
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.LookupCollection.html
   name: LookupCollection
   nameWithType: LookupCollection
   fullName: SuperOffice.CRM.Security.LookupCollection
@@ -506,67 +545,97 @@ references:
   commentId: T:SuperOffice.CRM.Security.ISoDataLookup
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.ISoDataLookup.html
   name: ISoDataLookup
   nameWithType: ISoDataLookup
   fullName: SuperOffice.CRM.Security.ISoDataLookup
 - uid: SuperOffice.CRM.Security.OwnerContactCache
   commentId: T:SuperOffice.CRM.Security.OwnerContactCache
-  parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.OwnerContactCache.html
   name: OwnerContactCache
   nameWithType: OwnerContactCache
   fullName: SuperOffice.CRM.Security.OwnerContactCache
 - uid: SuperOffice.CRM.Security.PersonSentry
   commentId: T:SuperOffice.CRM.Security.PersonSentry
   isExternal: true
+  href: SuperOffice.CRM.Security.PersonSentry.html
   name: PersonSentry
   nameWithType: PersonSentry
   fullName: SuperOffice.CRM.Security.PersonSentry
 - uid: SuperOffice.CRM.Security.PersonSentry.PersonSentryQueryInfo
   commentId: T:SuperOffice.CRM.Security.PersonSentry.PersonSentryQueryInfo
   isExternal: true
+  href: SuperOffice.CRM.Security.PersonSentry.html
   name: PersonSentry.PersonSentryQueryInfo
   nameWithType: PersonSentry.PersonSentryQueryInfo
   fullName: SuperOffice.CRM.Security.PersonSentry.PersonSentryQueryInfo
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.PersonSentry
+    name: PersonSentry
+    isExternal: true
+    href: SuperOffice.CRM.Security.PersonSentry.html
+  - name: .
+  - uid: SuperOffice.CRM.Security.PersonSentry.PersonSentryQueryInfo
+    name: PersonSentryQueryInfo
+    isExternal: true
+    href: SuperOffice.CRM.Security.PersonSentry.PersonSentryQueryInfo.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.PersonSentry
+    name: PersonSentry
+    isExternal: true
+    href: SuperOffice.CRM.Security.PersonSentry.html
+  - name: .
+  - uid: SuperOffice.CRM.Security.PersonSentry.PersonSentryQueryInfo
+    name: PersonSentryQueryInfo
+    isExternal: true
+    href: SuperOffice.CRM.Security.PersonSentry.PersonSentryQueryInfo.html
 - uid: SuperOffice.CRM.Security.SentryQueryPersonTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryPersonTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryPersonTableUpdater.html
   name: SentryQueryPersonTableUpdater
   nameWithType: SentryQueryPersonTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryPersonTableUpdater
 - uid: SuperOffice.CRM.Security.ProjectSentry
   commentId: T:SuperOffice.CRM.Security.ProjectSentry
   isExternal: true
+  href: SuperOffice.CRM.Security.ProjectSentry.html
   name: ProjectSentry
   nameWithType: ProjectSentry
   fullName: SuperOffice.CRM.Security.ProjectSentry
 - uid: SuperOffice.CRM.Security.SentryQueryProjectTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryProjectTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryProjectTableUpdater.html
   name: SentryQueryProjectTableUpdater
   nameWithType: SentryQueryProjectTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryProjectTableUpdater
 - uid: SuperOffice.CRM.Security.SentryQueryProjectMemberTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryProjectMemberTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryProjectMemberTableUpdater.html
   name: SentryQueryProjectMemberTableUpdater
   nameWithType: SentryQueryProjectMemberTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryProjectMemberTableUpdater
 - uid: SuperOffice.CRM.Security.ProjectSentryQueryInfo
   commentId: T:SuperOffice.CRM.Security.ProjectSentryQueryInfo
   isExternal: true
+  href: SuperOffice.CRM.Security.ProjectSentryQueryInfo.html
   name: ProjectSentryQueryInfo
   nameWithType: ProjectSentryQueryInfo
   fullName: SuperOffice.CRM.Security.ProjectSentryQueryInfo
 - uid: SuperOffice.CRM.Security.QuoteAlternativeSentry
   commentId: T:SuperOffice.CRM.Security.QuoteAlternativeSentry
   isExternal: true
+  href: SuperOffice.CRM.Security.QuoteAlternativeSentry.html
   name: QuoteAlternativeSentry
   nameWithType: QuoteAlternativeSentry
   fullName: SuperOffice.CRM.Security.QuoteAlternativeSentry
 - uid: SuperOffice.CRM.Security.SentryQueryQuoteAlternativeTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryQuoteAlternativeTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryQuoteAlternativeTableUpdater.html
   name: SentryQueryQuoteAlternativeTableUpdater
   nameWithType: SentryQueryQuoteAlternativeTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryQuoteAlternativeTableUpdater
@@ -574,25 +643,28 @@ references:
   commentId: T:SuperOffice.CRM.Security.QuoteAlternativeSentryQueryInfo
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.QuoteAlternativeSentryQueryInfo.html
   name: QuoteAlternativeSentryQueryInfo
   nameWithType: QuoteAlternativeSentryQueryInfo
   fullName: SuperOffice.CRM.Security.QuoteAlternativeSentryQueryInfo
 - uid: SuperOffice.CRM.Security.QuoteLineConfigurationCache
   commentId: T:SuperOffice.CRM.Security.QuoteLineConfigurationCache
-  parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.QuoteLineConfigurationCache.html
   name: QuoteLineConfigurationCache
   nameWithType: QuoteLineConfigurationCache
   fullName: SuperOffice.CRM.Security.QuoteLineConfigurationCache
 - uid: SuperOffice.CRM.Security.QuoteLineSentry
   commentId: T:SuperOffice.CRM.Security.QuoteLineSentry
   isExternal: true
+  href: SuperOffice.CRM.Security.QuoteLineSentry.html
   name: QuoteLineSentry
   nameWithType: QuoteLineSentry
   fullName: SuperOffice.CRM.Security.QuoteLineSentry
 - uid: SuperOffice.CRM.Security.SentryQueryQuoteLineTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryQuoteLineTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryQuoteLineTableUpdater.html
   name: SentryQueryQuoteLineTableUpdater
   nameWithType: SentryQueryQuoteLineTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryQuoteLineTableUpdater
@@ -600,18 +672,21 @@ references:
   commentId: T:SuperOffice.CRM.Security.QuoteLineSentryQueryInfo
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.QuoteLineSentryQueryInfo.html
   name: QuoteLineSentryQueryInfo
   nameWithType: QuoteLineSentryQueryInfo
   fullName: SuperOffice.CRM.Security.QuoteLineSentryQueryInfo
 - uid: SuperOffice.CRM.Security.QuoteSentry
   commentId: T:SuperOffice.CRM.Security.QuoteSentry
   isExternal: true
+  href: SuperOffice.CRM.Security.QuoteSentry.html
   name: QuoteSentry
   nameWithType: QuoteSentry
   fullName: SuperOffice.CRM.Security.QuoteSentry
 - uid: SuperOffice.CRM.Security.SentryQueryQuoteTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryQuoteTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryQuoteTableUpdater.html
   name: SentryQueryQuoteTableUpdater
   nameWithType: SentryQueryQuoteTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryQuoteTableUpdater
@@ -619,18 +694,21 @@ references:
   commentId: T:SuperOffice.CRM.Security.QuoteSentryQueryInfo
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.QuoteSentryQueryInfo.html
   name: QuoteSentryQueryInfo
   nameWithType: QuoteSentryQueryInfo
   fullName: SuperOffice.CRM.Security.QuoteSentryQueryInfo
 - uid: SuperOffice.CRM.Security.QuoteVersionSentry
   commentId: T:SuperOffice.CRM.Security.QuoteVersionSentry
   isExternal: true
+  href: SuperOffice.CRM.Security.QuoteVersionSentry.html
   name: QuoteVersionSentry
   nameWithType: QuoteVersionSentry
   fullName: SuperOffice.CRM.Security.QuoteVersionSentry
 - uid: SuperOffice.CRM.Security.SentryQueryQuoteVersionTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryQuoteVersionTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryQuoteVersionTableUpdater.html
   name: SentryQueryQuoteVersionTableUpdater
   nameWithType: SentryQueryQuoteVersionTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryQuoteVersionTableUpdater
@@ -638,25 +716,28 @@ references:
   commentId: T:SuperOffice.CRM.Security.QuoteVersionSentryQueryInfo
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.QuoteVersionSentryQueryInfo.html
   name: QuoteVersionSentryQueryInfo
   nameWithType: QuoteVersionSentryQueryInfo
   fullName: SuperOffice.CRM.Security.QuoteVersionSentryQueryInfo
 - uid: SuperOffice.CRM.Security.RefCountsPermissionCache
   commentId: T:SuperOffice.CRM.Security.RefCountsPermissionCache
-  parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.RefCountsPermissionCache.html
   name: RefCountsPermissionCache
   nameWithType: RefCountsPermissionCache
   fullName: SuperOffice.CRM.Security.RefCountsPermissionCache
 - uid: SuperOffice.CRM.Security.RelationsSentry
   commentId: T:SuperOffice.CRM.Security.RelationsSentry
   isExternal: true
+  href: SuperOffice.CRM.Security.RelationsSentry.html
   name: RelationsSentry
   nameWithType: RelationsSentry
   fullName: SuperOffice.CRM.Security.RelationsSentry
 - uid: SuperOffice.CRM.Security.SentryQueryRelationsTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryRelationsTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryRelationsTableUpdater.html
   name: SentryQueryRelationsTableUpdater
   nameWithType: SentryQueryRelationsTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryRelationsTableUpdater
@@ -664,30 +745,35 @@ references:
   commentId: T:SuperOffice.CRM.Security.RelationsSentryQueryInfo
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.RelationsSentryQueryInfo.html
   name: RelationsSentryQueryInfo
   nameWithType: RelationsSentryQueryInfo
   fullName: SuperOffice.CRM.Security.RelationsSentryQueryInfo
 - uid: SuperOffice.CRM.Security.ReplyTemplateSentry
   commentId: T:SuperOffice.CRM.Security.ReplyTemplateSentry
   isExternal: true
+  href: SuperOffice.CRM.Security.ReplyTemplateSentry.html
   name: ReplyTemplateSentry
   nameWithType: ReplyTemplateSentry
   fullName: SuperOffice.CRM.Security.ReplyTemplateSentry
 - uid: SuperOffice.CRM.Security.SentryQueryReplyTemplateTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryReplyTemplateTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryReplyTemplateTableUpdater.html
   name: SentryQueryReplyTemplateTableUpdater
   nameWithType: SentryQueryReplyTemplateTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryReplyTemplateTableUpdater
 - uid: SuperOffice.CRM.Security.ReplyTemplateSentryQueryInfo
   commentId: T:SuperOffice.CRM.Security.ReplyTemplateSentryQueryInfo
   isExternal: true
+  href: SuperOffice.CRM.Security.ReplyTemplateSentryQueryInfo.html
   name: ReplyTemplateSentryQueryInfo
   nameWithType: ReplyTemplateSentryQueryInfo
   fullName: SuperOffice.CRM.Security.ReplyTemplateSentryQueryInfo
 - uid: SuperOffice.CRM.Security.RoleRightsSentry`1
   commentId: T:SuperOffice.CRM.Security.RoleRightsSentry`1
   isExternal: true
+  href: SuperOffice.CRM.Security.RoleRightsSentry-1.html
   name: RoleRightsSentry<TMainTable>
   nameWithType: RoleRightsSentry<TMainTable>
   fullName: SuperOffice.CRM.Security.RoleRightsSentry<TMainTable>
@@ -697,102 +783,102 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Security.RoleRightsSentry`1
     name: RoleRightsSentry
-    nameWithType: RoleRightsSentry
-    fullName: SuperOffice.CRM.Security.RoleRightsSentry
     isExternal: true
+    href: SuperOffice.CRM.Security.RoleRightsSentry-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TMainTable
-    nameWithType: TMainTable
-    fullName: TMainTable
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Security.RoleRightsSentry`1
     name: RoleRightsSentry
-    nameWithType: RoleRightsSentry
-    fullName: SuperOffice.CRM.Security.RoleRightsSentry
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.CRM.Security.RoleRightsSentry-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: TMainTable
-    nameWithType: TMainTable
-    fullName: TMainTable
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.SaleSentry
   commentId: T:SuperOffice.CRM.Security.SaleSentry
   isExternal: true
+  href: SuperOffice.CRM.Security.SaleSentry.html
   name: SaleSentry
   nameWithType: SaleSentry
   fullName: SuperOffice.CRM.Security.SaleSentry
 - uid: SuperOffice.CRM.Security.SentryQuerySaleTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQuerySaleTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQuerySaleTableUpdater.html
   name: SentryQuerySaleTableUpdater
   nameWithType: SentryQuerySaleTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQuerySaleTableUpdater
 - uid: SuperOffice.CRM.Security.SentryQuerySaleStakeholderTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQuerySaleStakeholderTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQuerySaleStakeholderTableUpdater.html
   name: SentryQuerySaleStakeholderTableUpdater
   nameWithType: SentryQuerySaleStakeholderTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQuerySaleStakeholderTableUpdater
 - uid: SuperOffice.CRM.Security.SaleSentryQueryInfo
   commentId: T:SuperOffice.CRM.Security.SaleSentryQueryInfo
   isExternal: true
+  href: SuperOffice.CRM.Security.SaleSentryQueryInfo.html
   name: SaleSentryQueryInfo
   nameWithType: SaleSentryQueryInfo
   fullName: SuperOffice.CRM.Security.SaleSentryQueryInfo
 - uid: SuperOffice.CRM.Security.SatelliteSentry
   commentId: T:SuperOffice.CRM.Security.SatelliteSentry
   isExternal: true
+  href: SuperOffice.CRM.Security.SatelliteSentry.html
   name: SatelliteSentry
   nameWithType: SatelliteSentry
   fullName: SuperOffice.CRM.Security.SatelliteSentry
 - uid: SuperOffice.CRM.Security.SentryQuerySatelliteTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQuerySatelliteTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQuerySatelliteTableUpdater.html
   name: SentryQuerySatelliteTableUpdater
   nameWithType: SentryQuerySatelliteTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQuerySatelliteTableUpdater
 - uid: SuperOffice.CRM.Security.SentryQueryLicenseSatlLinkTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryLicenseSatlLinkTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryLicenseSatlLinkTableUpdater.html
   name: SentryQueryLicenseSatlLinkTableUpdater
   nameWithType: SentryQueryLicenseSatlLinkTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryLicenseSatlLinkTableUpdater
 - uid: SuperOffice.CRM.Security.SatelliteSentryQueryInfo
   commentId: T:SuperOffice.CRM.Security.SatelliteSentryQueryInfo
   isExternal: true
+  href: SuperOffice.CRM.Security.SatelliteSentryQueryInfo.html
   name: SatelliteSentryQueryInfo
   nameWithType: SatelliteSentryQueryInfo
   fullName: SuperOffice.CRM.Security.SatelliteSentryQueryInfo
 - uid: SuperOffice.CRM.Security.SelectionSentry
   commentId: T:SuperOffice.CRM.Security.SelectionSentry
   isExternal: true
+  href: SuperOffice.CRM.Security.SelectionSentry.html
   name: SelectionSentry
   nameWithType: SelectionSentry
   fullName: SuperOffice.CRM.Security.SelectionSentry
 - uid: SuperOffice.CRM.Security.SentryQuerySelectionTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQuerySelectionTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQuerySelectionTableUpdater.html
   name: SentryQuerySelectionTableUpdater
   nameWithType: SentryQuerySelectionTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQuerySelectionTableUpdater
 - uid: SuperOffice.CRM.Security.SentryQuerySelectionMemberTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQuerySelectionMemberTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQuerySelectionMemberTableUpdater.html
   name: SentryQuerySelectionMemberTableUpdater
   nameWithType: SentryQuerySelectionMemberTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQuerySelectionMemberTableUpdater
 - uid: SuperOffice.CRM.Security.SelectionSentryQueryInfo
   commentId: T:SuperOffice.CRM.Security.SelectionSentryQueryInfo
   isExternal: true
+  href: SuperOffice.CRM.Security.SelectionSentryQueryInfo.html
   name: SelectionSentryQueryInfo
   nameWithType: SelectionSentryQueryInfo
   fullName: SuperOffice.CRM.Security.SelectionSentryQueryInfo
@@ -800,6 +886,7 @@ references:
   commentId: T:SuperOffice.CRM.Security.SentryCollection
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryCollection.html
   name: SentryCollection
   nameWithType: SentryCollection
   fullName: SuperOffice.CRM.Security.SentryCollection
@@ -807,6 +894,7 @@ references:
   commentId: T:SuperOffice.CRM.Security.ISentryIgnorable
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.ISentryIgnorable.html
   name: ISentryIgnorable
   nameWithType: ISentryIgnorable
   fullName: SuperOffice.CRM.Security.ISentryIgnorable
@@ -814,43 +902,49 @@ references:
   commentId: T:SuperOffice.CRM.Security.IgnoreSentryCheck
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.IgnoreSentryCheck.html
   name: IgnoreSentryCheck
   nameWithType: IgnoreSentryCheck
   fullName: SuperOffice.CRM.Security.IgnoreSentryCheck
 - uid: SuperOffice.CRM.Security.SentryIgnorableHelper
   commentId: T:SuperOffice.CRM.Security.SentryIgnorableHelper
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryIgnorableHelper.html
   name: SentryIgnorableHelper
   nameWithType: SentryIgnorableHelper
   fullName: SuperOffice.CRM.Security.SentryIgnorableHelper
 - uid: SuperOffice.CRM.Security.ISentryPlugin
   commentId: T:SuperOffice.CRM.Security.ISentryPlugin
   isExternal: true
+  href: SuperOffice.CRM.Security.ISentryPlugin.html
   name: ISentryPlugin
   nameWithType: ISentryPlugin
   fullName: SuperOffice.CRM.Security.ISentryPlugin
 - uid: SuperOffice.CRM.Security.SentryPluginAttribute
   commentId: T:SuperOffice.CRM.Security.SentryPluginAttribute
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryPluginAttribute.html
   name: SentryPluginAttribute
   nameWithType: SentryPluginAttribute
   fullName: SuperOffice.CRM.Security.SentryPluginAttribute
 - uid: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater
   commentId: T:SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater.html
   name: ISentryPluginQueryTableUpdater
   nameWithType: ISentryPluginQueryTableUpdater
   fullName: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater
 - uid: SuperOffice.CRM.Security.SentryPluginQueryTableUpdaterAttribute
   commentId: T:SuperOffice.CRM.Security.SentryPluginQueryTableUpdaterAttribute
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryPluginQueryTableUpdaterAttribute.html
   name: SentryPluginQueryTableUpdaterAttribute
   nameWithType: SentryPluginQueryTableUpdaterAttribute
   fullName: SuperOffice.CRM.Security.SentryPluginQueryTableUpdaterAttribute
 - uid: SuperOffice.CRM.Security.SentryPreferenceCache
   commentId: T:SuperOffice.CRM.Security.SentryPreferenceCache
-  parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryPreferenceCache.html
   name: SentryPreferenceCache
   nameWithType: SentryPreferenceCache
   fullName: SuperOffice.CRM.Security.SentryPreferenceCache
@@ -858,6 +952,7 @@ references:
   commentId: T:SuperOffice.CRM.Security.ISentryQueryTableUpdater
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.ISentryQueryTableUpdater.html
   name: ISentryQueryTableUpdater
   nameWithType: ISentryQueryTableUpdater
   fullName: SuperOffice.CRM.Security.ISentryQueryTableUpdater
@@ -865,18 +960,21 @@ references:
   commentId: T:SuperOffice.CRM.Security.SentryQueryTableUpdaterAttribute
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryTableUpdaterAttribute.html
   name: SentryQueryTableUpdaterAttribute
   nameWithType: SentryQueryTableUpdaterAttribute
   fullName: SuperOffice.CRM.Security.SentryQueryTableUpdaterAttribute
 - uid: SuperOffice.CRM.Security.SentryQueryUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryUpdater.html
   name: SentryQueryUpdater
   nameWithType: SentryQueryUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryUpdater
 - uid: SuperOffice.CRM.Security.SORPublishSentry
   commentId: T:SuperOffice.CRM.Security.SORPublishSentry
   isExternal: true
+  href: SuperOffice.CRM.Security.SORPublishSentry.html
   name: SORPublishSentry
   nameWithType: SORPublishSentry
   fullName: SuperOffice.CRM.Security.SORPublishSentry
@@ -884,12 +982,14 @@ references:
   commentId: T:SuperOffice.CRM.Security.SORPublishSentryQueryInfo
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.SORPublishSentryQueryInfo.html
   name: SORPublishSentryQueryInfo
   nameWithType: SORPublishSentryQueryInfo
   fullName: SuperOffice.CRM.Security.SORPublishSentryQueryInfo
 - uid: SuperOffice.CRM.Security.Rights`2
   commentId: T:SuperOffice.CRM.Security.Rights`2
   isExternal: true
+  href: SuperOffice.CRM.Security.Rights-2.html
   name: Rights<TKey, TValue>
   nameWithType: Rights<TKey, TValue>
   fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>
@@ -899,49 +999,32 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Security.Rights`2
     name: Rights
-    nameWithType: Rights
-    fullName: SuperOffice.CRM.Security.Rights
     isExternal: true
+    href: SuperOffice.CRM.Security.Rights-2.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TValue
-    nameWithType: TValue
-    fullName: TValue
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Security.Rights`2
     name: Rights
-    nameWithType: Rights
-    fullName: SuperOffice.CRM.Security.Rights
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.CRM.Security.Rights-2.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TValue
-    nameWithType: TValue
-    fullName: TValue
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.TableRights
   commentId: T:SuperOffice.CRM.Security.TableRights
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.TableRights.html
   name: TableRights
   nameWithType: TableRights
   fullName: SuperOffice.CRM.Security.TableRights
@@ -949,30 +1032,35 @@ references:
   commentId: T:SuperOffice.CRM.Security.FieldRights
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.FieldRights.html
   name: FieldRights
   nameWithType: FieldRights
   fullName: SuperOffice.CRM.Security.FieldRights
 - uid: SuperOffice.CRM.Security.TargetAssignmentInfoSentry
   commentId: T:SuperOffice.CRM.Security.TargetAssignmentInfoSentry
   isExternal: true
+  href: SuperOffice.CRM.Security.TargetAssignmentInfoSentry.html
   name: TargetAssignmentInfoSentry
   nameWithType: TargetAssignmentInfoSentry
   fullName: SuperOffice.CRM.Security.TargetAssignmentInfoSentry
 - uid: SuperOffice.CRM.Security.SentryQueryTargetAssignmentInfoTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryTargetAssignmentInfoTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryTargetAssignmentInfoTableUpdater.html
   name: SentryQueryTargetAssignmentInfoTableUpdater
   nameWithType: SentryQueryTargetAssignmentInfoTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryTargetAssignmentInfoTableUpdater
 - uid: SuperOffice.CRM.Security.TargetAssignmentInfoSentryQueryInfo
   commentId: T:SuperOffice.CRM.Security.TargetAssignmentInfoSentryQueryInfo
   isExternal: true
+  href: SuperOffice.CRM.Security.TargetAssignmentInfoSentryQueryInfo.html
   name: TargetAssignmentInfoSentryQueryInfo
   nameWithType: TargetAssignmentInfoSentryQueryInfo
   fullName: SuperOffice.CRM.Security.TargetAssignmentInfoSentryQueryInfo
 - uid: SuperOffice.CRM.Security.TicketSentry
   commentId: T:SuperOffice.CRM.Security.TicketSentry
   isExternal: true
+  href: SuperOffice.CRM.Security.TicketSentry.html
   name: TicketSentry
   nameWithType: TicketSentry
   fullName: SuperOffice.CRM.Security.TicketSentry
@@ -980,67 +1068,97 @@ references:
   commentId: T:SuperOffice.CRM.Security.TicketSentry.TicketIntent
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.TicketSentry.html
   name: TicketSentry.TicketIntent
   nameWithType: TicketSentry.TicketIntent
   fullName: SuperOffice.CRM.Security.TicketSentry.TicketIntent
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.TicketSentry
+    name: TicketSentry
+    isExternal: true
+    href: SuperOffice.CRM.Security.TicketSentry.html
+  - name: .
+  - uid: SuperOffice.CRM.Security.TicketSentry.TicketIntent
+    name: TicketIntent
+    isExternal: true
+    href: SuperOffice.CRM.Security.TicketSentry.TicketIntent.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.TicketSentry
+    name: TicketSentry
+    isExternal: true
+    href: SuperOffice.CRM.Security.TicketSentry.html
+  - name: .
+  - uid: SuperOffice.CRM.Security.TicketSentry.TicketIntent
+    name: TicketIntent
+    isExternal: true
+    href: SuperOffice.CRM.Security.TicketSentry.TicketIntent.html
 - uid: SuperOffice.CRM.Security.SentryQueryTicketTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryTicketTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryTicketTableUpdater.html
   name: SentryQueryTicketTableUpdater
   nameWithType: SentryQueryTicketTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryTicketTableUpdater
 - uid: SuperOffice.CRM.Security.SentryQueryEjMessageTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryEjMessageTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryEjMessageTableUpdater.html
   name: SentryQueryEjMessageTableUpdater
   nameWithType: SentryQueryEjMessageTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryEjMessageTableUpdater
 - uid: SuperOffice.CRM.Security.SentryQueryTicketLogTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryTicketLogTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryTicketLogTableUpdater.html
   name: SentryQueryTicketLogTableUpdater
   nameWithType: SentryQueryTicketLogTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryTicketLogTableUpdater
 - uid: SuperOffice.CRM.Security.SentryQueryTicketLogChangeTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryTicketLogChangeTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryTicketLogChangeTableUpdater.html
   name: SentryQueryTicketLogChangeTableUpdater
   nameWithType: SentryQueryTicketLogChangeTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryTicketLogChangeTableUpdater
 - uid: SuperOffice.CRM.Security.SentryQueryTicketLogActionTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryTicketLogActionTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryTicketLogActionTableUpdater.html
   name: SentryQueryTicketLogActionTableUpdater
   nameWithType: SentryQueryTicketLogActionTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryTicketLogActionTableUpdater
 - uid: SuperOffice.CRM.Security.TicketSentryQueryInfo
   commentId: T:SuperOffice.CRM.Security.TicketSentryQueryInfo
   isExternal: true
+  href: SuperOffice.CRM.Security.TicketSentryQueryInfo.html
   name: TicketSentryQueryInfo
   nameWithType: TicketSentryQueryInfo
   fullName: SuperOffice.CRM.Security.TicketSentryQueryInfo
 - uid: SuperOffice.CRM.Security.UDefFieldSentry
   commentId: T:SuperOffice.CRM.Security.UDefFieldSentry
   isExternal: true
+  href: SuperOffice.CRM.Security.UDefFieldSentry.html
   name: UDefFieldSentry
   nameWithType: UDefFieldSentry
   fullName: SuperOffice.CRM.Security.UDefFieldSentry
 - uid: SuperOffice.CRM.Security.SentryQueryUDefFieldTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryUDefFieldTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryUDefFieldTableUpdater.html
   name: SentryQueryUDefFieldTableUpdater
   nameWithType: SentryQueryUDefFieldTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryUDefFieldTableUpdater
 - uid: SuperOffice.CRM.Security.UDefFieldQueryInfo
   commentId: T:SuperOffice.CRM.Security.UDefFieldQueryInfo
   isExternal: true
+  href: SuperOffice.CRM.Security.UDefFieldQueryInfo.html
   name: UDefFieldQueryInfo
   nameWithType: UDefFieldQueryInfo
   fullName: SuperOffice.CRM.Security.UDefFieldQueryInfo
 - uid: SuperOffice.CRM.Security.UserGroupCache
   commentId: T:SuperOffice.CRM.Security.UserGroupCache
-  parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.UserGroupCache.html
   name: UserGroupCache
   nameWithType: UserGroupCache
   fullName: SuperOffice.CRM.Security.UserGroupCache
@@ -1048,42 +1166,99 @@ references:
   commentId: T:SuperOffice.CRM.Security.UserGroupCache.GroupRelation
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.UserGroupCache.html
   name: UserGroupCache.GroupRelation
   nameWithType: UserGroupCache.GroupRelation
   fullName: SuperOffice.CRM.Security.UserGroupCache.GroupRelation
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.UserGroupCache
+    name: UserGroupCache
+    isExternal: true
+    href: SuperOffice.CRM.Security.UserGroupCache.html
+  - name: .
+  - uid: SuperOffice.CRM.Security.UserGroupCache.GroupRelation
+    name: GroupRelation
+    isExternal: true
+    href: SuperOffice.CRM.Security.UserGroupCache.GroupRelation.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.UserGroupCache
+    name: UserGroupCache
+    isExternal: true
+    href: SuperOffice.CRM.Security.UserGroupCache.html
+  - name: .
+  - uid: SuperOffice.CRM.Security.UserGroupCache.GroupRelation
+    name: GroupRelation
+    isExternal: true
+    href: SuperOffice.CRM.Security.UserGroupCache.GroupRelation.html
 - uid: SuperOffice.CRM.Security.VisibleForSentryHelper
   commentId: T:SuperOffice.CRM.Security.VisibleForSentryHelper
   isExternal: true
+  href: SuperOffice.CRM.Security.VisibleForSentryHelper.html
   name: VisibleForSentryHelper
   nameWithType: VisibleForSentryHelper
   fullName: SuperOffice.CRM.Security.VisibleForSentryHelper
 - uid: SuperOffice.CRM.Security.WorkflowSentry
   commentId: T:SuperOffice.CRM.Security.WorkflowSentry
   isExternal: true
+  href: SuperOffice.CRM.Security.WorkflowSentry.html
   name: WorkflowSentry
   nameWithType: WorkflowSentry
   fullName: SuperOffice.CRM.Security.WorkflowSentry
 - uid: SuperOffice.CRM.Security.SentryQueryWorkflowTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryWorkflowTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryWorkflowTableUpdater.html
   name: SentryQueryWorkflowTableUpdater
   nameWithType: SentryQueryWorkflowTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryWorkflowTableUpdater
 - uid: SuperOffice.CRM.Security.SentryQueryEmailFlowTableUpdater
   commentId: T:SuperOffice.CRM.Security.SentryQueryEmailFlowTableUpdater
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryEmailFlowTableUpdater.html
   name: SentryQueryEmailFlowTableUpdater
   nameWithType: SentryQueryEmailFlowTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryEmailFlowTableUpdater
 - uid: SuperOffice.CRM.Security.WorkflowSentryQueryInfo
   commentId: T:SuperOffice.CRM.Security.WorkflowSentryQueryInfo
   isExternal: true
+  href: SuperOffice.CRM.Security.WorkflowSentryQueryInfo.html
   name: WorkflowSentryQueryInfo
   nameWithType: WorkflowSentryQueryInfo
   fullName: SuperOffice.CRM.Security.WorkflowSentryQueryInfo
 - uid: SuperOffice.CRM.Security
   commentId: N:SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Security
   nameWithType: SuperOffice.CRM.Security
   fullName: SuperOffice.CRM.Security
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.CRM.Security.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.CRM.Security.html

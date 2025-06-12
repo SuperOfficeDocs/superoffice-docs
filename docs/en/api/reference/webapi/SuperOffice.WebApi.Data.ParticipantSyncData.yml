@@ -47,18 +47,14 @@ items:
   nameWithType: ParticipantSyncData
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for ParticipantSyncData.\n\n"
+  summary: Carrier object for ParticipantSyncData.
+  example: []
   syntax:
     content: 'public class ParticipantSyncData : Carrier'
-    content.vb: >-
-      Public Class ParticipantSyncData
-          Inherits Carrier
+    content.vb: Public Class ParticipantSyncData Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.AppointmentAgent
     commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
@@ -68,12 +64,13 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.#ctor
   commentId: M:SuperOffice.WebApi.Data.ParticipantSyncData.#ctor
   id: '#ctor'
@@ -85,21 +82,18 @@ items:
   nameWithType: ParticipantSyncData.ParticipantSyncData()
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantSyncData()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public ParticipantSyncData()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ParticipantSyncData.New()
+  fullName.vb: SuperOffice.WebApi.Data.ParticipantSyncData.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PersonId
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.PersonId
   id: PersonId
@@ -111,13 +105,11 @@ items:
   nameWithType: ParticipantSyncData.PersonId
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PersonId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nPerson ID of person the appointment is with, may be 0\n"
+  summary: Person ID of person the appointment is with, may be 0
+  example: []
   syntax:
     content: public virtual int PersonId { get; set; }
     parameters: []
@@ -125,14 +117,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property PersonId As Integer
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.PersonId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PersonFirstName
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.PersonFirstName
   id: PersonFirstName
@@ -144,13 +128,11 @@ items:
   nameWithType: ParticipantSyncData.PersonFirstName
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PersonFirstName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nFirst name\n"
+  summary: First name
+  example: []
   syntax:
     content: public virtual string PersonFirstName { get; set; }
     parameters: []
@@ -158,14 +140,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property PersonFirstName As String
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.PersonFirstName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PersonMiddleName
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.PersonMiddleName
   id: PersonMiddleName
@@ -177,13 +151,11 @@ items:
   nameWithType: ParticipantSyncData.PersonMiddleName
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PersonMiddleName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nMiddle name or &apos;van&apos; etc.\n"
+  summary: Middle name or 'van' etc.
+  example: []
   syntax:
     content: public virtual string PersonMiddleName { get; set; }
     parameters: []
@@ -191,14 +163,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property PersonMiddleName As String
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.PersonMiddleName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PersonLastname
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.PersonLastname
   id: PersonLastname
@@ -210,13 +174,11 @@ items:
   nameWithType: ParticipantSyncData.PersonLastname
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PersonLastname
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nLast name\n"
+  summary: Last name
+  example: []
   syntax:
     content: public virtual string PersonLastname { get; set; }
     parameters: []
@@ -224,14 +186,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property PersonLastname As String
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.PersonLastname*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PersonMrmrs
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.PersonMrmrs
   id: PersonMrmrs
@@ -243,13 +197,11 @@ items:
   nameWithType: ParticipantSyncData.PersonMrmrs
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PersonMrmrs
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\ne.g. Mrs   sex_title\n"
+  summary: e.g. Mrs   sex_title
+  example: []
   syntax:
     content: public virtual string PersonMrmrs { get; set; }
     parameters: []
@@ -257,14 +209,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property PersonMrmrs As String
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.PersonMrmrs*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PersonTitle
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.PersonTitle
   id: PersonTitle
@@ -276,13 +220,11 @@ items:
   nameWithType: ParticipantSyncData.PersonTitle
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PersonTitle
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nTitle\n"
+  summary: Title
+  example: []
   syntax:
     content: public virtual string PersonTitle { get; set; }
     parameters: []
@@ -290,14 +232,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property PersonTitle As String
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.PersonTitle*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PersonPosition
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.PersonPosition
   id: PersonPosition
@@ -309,13 +243,11 @@ items:
   nameWithType: ParticipantSyncData.PersonPosition
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PersonPosition
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe position. This is a predefined SuperOffice value, different from Title\n"
+  summary: The position. This is a predefined SuperOffice value, different from Title
+  example: []
   syntax:
     content: public virtual string PersonPosition { get; set; }
     parameters: []
@@ -323,14 +255,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property PersonPosition As String
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.PersonPosition*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PersonAcademicTitle
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.PersonAcademicTitle
   id: PersonAcademicTitle
@@ -342,13 +266,11 @@ items:
   nameWithType: ParticipantSyncData.PersonAcademicTitle
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PersonAcademicTitle
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nAcademic title, populated from Salutation list but can be overwritten with anything at all\n"
+  summary: Academic title, populated from Salutation list but can be overwritten with anything at all
+  example: []
   syntax:
     content: public virtual string PersonAcademicTitle { get; set; }
     parameters: []
@@ -356,14 +278,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property PersonAcademicTitle As String
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.PersonAcademicTitle*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PersonFormalName
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.PersonFormalName
   id: PersonFormalName
@@ -375,13 +289,11 @@ items:
   nameWithType: ParticipantSyncData.PersonFormalName
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PersonFormalName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nGet formal name for a person, as used in labels. (Full name + person title + academic title)\n"
+  summary: Get formal name for a person, as used in labels. (Full name + person title + academic title)
+  example: []
   syntax:
     content: public virtual string PersonFormalName { get; set; }
     parameters: []
@@ -389,14 +301,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property PersonFormalName As String
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.PersonFormalName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PersonFullName
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.PersonFullName
   id: PersonFullName
@@ -408,13 +312,11 @@ items:
   nameWithType: ParticipantSyncData.PersonFullName
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PersonFullName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe person&apos;s full name localized to the current culture/country.  (internal name used in clients for employees)\n"
+  summary: The person's full name localized to the current culture/country.  (internal name used in clients for employees)
+  example: []
   syntax:
     content: public virtual string PersonFullName { get; set; }
     parameters: []
@@ -422,14 +324,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property PersonFullName As String
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.PersonFullName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.ContactId
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.ContactId
   id: ContactId
@@ -441,13 +335,11 @@ items:
   nameWithType: ParticipantSyncData.ContactId
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.ContactId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nContact ID of owning contact, may be 0\n"
+  summary: Contact ID of owning contact, may be 0
+  example: []
   syntax:
     content: public virtual int ContactId { get; set; }
     parameters: []
@@ -455,14 +347,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ContactId As Integer
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.ContactId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.ContactName
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.ContactName
   id: ContactName
@@ -474,13 +358,11 @@ items:
   nameWithType: ParticipantSyncData.ContactName
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.ContactName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nContact name\n"
+  summary: Contact name
+  example: []
   syntax:
     content: public virtual string ContactName { get; set; }
     parameters: []
@@ -488,14 +370,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property ContactName As String
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.ContactName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.ContactDepartment
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.ContactDepartment
   id: ContactDepartment
@@ -507,13 +381,11 @@ items:
   nameWithType: ParticipantSyncData.ContactDepartment
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.ContactDepartment
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDepartment\n"
+  summary: Department
+  example: []
   syntax:
     content: public virtual string ContactDepartment { get; set; }
     parameters: []
@@ -521,14 +393,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property ContactDepartment As String
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.ContactDepartment*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.ContactBusiness
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.ContactBusiness
   id: ContactBusiness
@@ -540,13 +404,11 @@ items:
   nameWithType: ParticipantSyncData.ContactBusiness
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.ContactBusiness
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe business that the contact is associated with. The GUI forces the user to enter a business type.\n"
+  summary: The business that the contact is associated with. The GUI forces the user to enter a business type.
+  example: []
   syntax:
     content: public virtual string ContactBusiness { get; set; }
     parameters: []
@@ -554,14 +416,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property ContactBusiness As String
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.ContactBusiness*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.ContactCountry
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.ContactCountry
   id: ContactCountry
@@ -573,13 +427,11 @@ items:
   nameWithType: ParticipantSyncData.ContactCountry
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.ContactCountry
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public virtual string ContactCountry { get; set; }
     parameters: []
@@ -587,14 +439,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property ContactCountry As String
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.ContactCountry*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.ContactCategory
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.ContactCategory
   id: ContactCategory
@@ -606,13 +450,11 @@ items:
   nameWithType: ParticipantSyncData.ContactCategory
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.ContactCategory
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe category that is set on the company. The GUI forces the user to enter a category type\n"
+  summary: The category that is set on the company. The GUI forces the user to enter a category type
+  example: []
   syntax:
     content: public virtual string ContactCategory { get; set; }
     parameters: []
@@ -620,14 +462,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property ContactCategory As String
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.ContactCategory*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.ContactFullName
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.ContactFullName
   id: ContactFullName
@@ -639,13 +473,11 @@ items:
   nameWithType: ParticipantSyncData.ContactFullName
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.ContactFullName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public virtual string ContactFullName { get; set; }
     parameters: []
@@ -653,14 +485,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property ContactFullName As String
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.ContactFullName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.EMail
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.EMail
   id: EMail
@@ -672,13 +496,11 @@ items:
   nameWithType: ParticipantSyncData.EMail
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.EMail
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public virtual string[] EMail { get; set; }
     parameters: []
@@ -686,14 +508,6 @@ items:
       type: System.String[]
     content.vb: Public Overridable Property EMail As String()
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.EMail*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PhonePrivate
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.PhonePrivate
   id: PhonePrivate
@@ -705,13 +519,11 @@ items:
   nameWithType: ParticipantSyncData.PhonePrivate
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PhonePrivate
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nReturns a collection of phone numbers that belong to the contact person.\n"
+  summary: Returns a collection of phone numbers that belong to the contact person.
+  example: []
   syntax:
     content: public virtual string[] PhonePrivate { get; set; }
     parameters: []
@@ -719,14 +531,6 @@ items:
       type: System.String[]
     content.vb: Public Overridable Property PhonePrivate As String()
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.PhonePrivate*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PhoneFax
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.PhoneFax
   id: PhoneFax
@@ -738,13 +542,11 @@ items:
   nameWithType: ParticipantSyncData.PhoneFax
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PhoneFax
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nReturns a collection of fax numbers that belong to the contact person.\n"
+  summary: Returns a collection of fax numbers that belong to the contact person.
+  example: []
   syntax:
     content: public virtual string[] PhoneFax { get; set; }
     parameters: []
@@ -752,14 +554,6 @@ items:
       type: System.String[]
     content.vb: Public Overridable Property PhoneFax As String()
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.PhoneFax*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PhoneMobile
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.PhoneMobile
   id: PhoneMobile
@@ -771,13 +565,11 @@ items:
   nameWithType: ParticipantSyncData.PhoneMobile
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PhoneMobile
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nReturns a collection of mobile phone numbers that belong to the contact person.\n"
+  summary: Returns a collection of mobile phone numbers that belong to the contact person.
+  example: []
   syntax:
     content: public virtual string[] PhoneMobile { get; set; }
     parameters: []
@@ -785,14 +577,6 @@ items:
       type: System.String[]
     content.vb: Public Overridable Property PhoneMobile As String()
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.PhoneMobile*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PhoneDirect
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.PhoneDirect
   id: PhoneDirect
@@ -804,13 +588,11 @@ items:
   nameWithType: ParticipantSyncData.PhoneDirect
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PhoneDirect
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public virtual string[] PhoneDirect { get; set; }
     parameters: []
@@ -818,14 +600,6 @@ items:
       type: System.String[]
     content.vb: Public Overridable Property PhoneDirect As String()
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.PhoneDirect*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PhoneContact
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.PhoneContact
   id: PhoneContact
@@ -837,13 +611,11 @@ items:
   nameWithType: ParticipantSyncData.PhoneContact
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PhoneContact
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nReturns a collection of office phone numbers that belong to the contact person.\n"
+  summary: Returns a collection of office phone numbers that belong to the contact person.
+  example: []
   syntax:
     content: public virtual string[] PhoneContact { get; set; }
     parameters: []
@@ -851,14 +623,6 @@ items:
       type: System.String[]
     content.vb: Public Overridable Property PhoneContact As String()
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.PhoneContact*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.Messenger
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.Messenger
   id: Messenger
@@ -870,13 +634,11 @@ items:
   nameWithType: ParticipantSyncData.Messenger
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.Messenger
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public virtual string[] Messenger { get; set; }
     parameters: []
@@ -884,14 +646,6 @@ items:
       type: System.String[]
     content.vb: Public Overridable Property Messenger As String()
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.Messenger*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.Voip
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.Voip
   id: Voip
@@ -903,13 +657,11 @@ items:
   nameWithType: ParticipantSyncData.Voip
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.Voip
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public virtual string[] Voip { get; set; }
     parameters: []
@@ -917,14 +669,6 @@ items:
       type: System.String[]
     content.vb: Public Overridable Property Voip As String()
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.Voip*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.ContactUrl
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.ContactUrl
   id: ContactUrl
@@ -936,13 +680,11 @@ items:
   nameWithType: ParticipantSyncData.ContactUrl
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.ContactUrl
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe contact&apos;s internet adresses\n"
+  summary: The contact's internet adresses
+  example: []
   syntax:
     content: public virtual string[] ContactUrl { get; set; }
     parameters: []
@@ -950,14 +692,6 @@ items:
       type: System.String[]
     content.vb: Public Overridable Property ContactUrl As String()
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.ContactUrl*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.Url
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.Url
   id: Url
@@ -969,13 +703,11 @@ items:
   nameWithType: ParticipantSyncData.Url
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.Url
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe urls related to this person.\n"
+  summary: The urls related to this person.
+  example: []
   syntax:
     content: public virtual string[] Url { get; set; }
     parameters: []
@@ -983,14 +715,6 @@ items:
       type: System.String[]
     content.vb: Public Overridable Property Url As String()
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.Url*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.StreetAddress
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.StreetAddress
   id: StreetAddress
@@ -1002,13 +726,11 @@ items:
   nameWithType: ParticipantSyncData.StreetAddress
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.StreetAddress
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public virtual AddressSyncData StreetAddress { get; set; }
     parameters: []
@@ -1016,14 +738,6 @@ items:
       type: SuperOffice.WebApi.Data.AddressSyncData
     content.vb: Public Overridable Property StreetAddress As AddressSyncData
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.StreetAddress*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PostalAddress
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.PostalAddress
   id: PostalAddress
@@ -1035,13 +749,11 @@ items:
   nameWithType: ParticipantSyncData.PostalAddress
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PostalAddress
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public virtual AddressSyncData PostalAddress { get; set; }
     parameters: []
@@ -1049,14 +761,6 @@ items:
       type: SuperOffice.WebApi.Data.AddressSyncData
     content.vb: Public Overridable Property PostalAddress As AddressSyncData
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.PostalAddress*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.Country
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.Country
   id: Country
@@ -1068,13 +772,11 @@ items:
   nameWithType: ParticipantSyncData.Country
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.Country
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe country this contact is located in. The country a contact is saved with, affects the phone number format, and the address layout.\n"
+  summary: The country this contact is located in. The country a contact is saved with, affects the phone number format, and the address layout.
+  example: []
   syntax:
     content: public virtual string Country { get; set; }
     parameters: []
@@ -1082,14 +784,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Country As String
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.Country*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PersonAddress
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.PersonAddress
   id: PersonAddress
@@ -1101,13 +795,11 @@ items:
   nameWithType: ParticipantSyncData.PersonAddress
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PersonAddress
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public virtual AddressSyncData PersonAddress { get; set; }
     parameters: []
@@ -1115,14 +807,6 @@ items:
       type: SuperOffice.WebApi.Data.AddressSyncData
     content.vb: Public Overridable Property PersonAddress As AddressSyncData
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.PersonAddress*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PersonCountry
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.PersonCountry
   id: PersonCountry
@@ -1134,13 +818,11 @@ items:
   nameWithType: ParticipantSyncData.PersonCountry
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PersonCountry
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe country this contact person is located in.\n"
+  summary: The country this contact person is located in.
+  example: []
   syntax:
     content: public virtual string PersonCountry { get; set; }
     parameters: []
@@ -1148,14 +830,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property PersonCountry As String
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.PersonCountry*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus_String
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus_String
   id: ParticipantStatus_String
@@ -1167,29 +841,36 @@ items:
   nameWithType: ParticipantSyncData.ParticipantStatus_String
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus_String
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe appointment status for this participant.\nRaw string enum value.\n"
+  summary: >-
+    The appointment status for this participant.
+
+    Raw string enum value.
+  example: []
   syntax:
-    content: public string ParticipantStatus_String { get; set; }
+    content: >-
+      [JsonProperty("ParticipantStatus")]
+
+      public string ParticipantStatus_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property ParticipantStatus_String As String
+    content.vb: >-
+      <JsonProperty("ParticipantStatus")>
+
+      Public Property ParticipantStatus_String As String
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus
     commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ParticipantStatus
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus
   id: ParticipantStatus
@@ -1201,47 +882,95 @@ items:
   nameWithType: ParticipantSyncData.ParticipantStatus
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe appointment status for this participant.\nNULL if unknown enum value.\n"
+  summary: >-
+    The appointment status for this participant.
+
+    NULL if unknown enum value.
+  example: []
   syntax:
-    content: public Nullable<AppointmentStatus> ParticipantStatus { get; set; }
+    content: >-
+      [JsonIgnore]
+
+      public AppointmentStatus? ParticipantStatus { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.AppointmentStatus}
-    content.vb: Public Property ParticipantStatus As Nullable(Of AppointmentStatus)
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property ParticipantStatus As AppointmentStatus?
   overload: SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus*
   seealso:
   - linkId: SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus_String
     commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus_String
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 references:
+- uid: SuperOffice.WebApi.Agents.AppointmentAgent
+  commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AppointmentAgent.html
+  name: AppointmentAgent
+  nameWithType: AppointmentAgent
+  fullName: SuperOffice.WebApi.Agents.AppointmentAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -1249,6 +978,7 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -1256,30 +986,250 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: SuperOffice.WebApi.Agents.AppointmentAgent
-  commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: AppointmentAgent
-  nameWithType: AppointmentAgent
-  fullName: SuperOffice.WebApi.Agents.AppointmentAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData__ctor
   name: ParticipantSyncData
   nameWithType: ParticipantSyncData.ParticipantSyncData
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantSyncData
+  nameWithType.vb: ParticipantSyncData.New
+  fullName.vb: SuperOffice.WebApi.Data.ParticipantSyncData.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PersonId*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.PersonId
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_PersonId
   name: PersonId
   nameWithType: ParticipantSyncData.PersonId
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PersonId
@@ -1287,12 +1237,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PersonFirstName*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.PersonFirstName
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_PersonFirstName
   name: PersonFirstName
   nameWithType: ParticipantSyncData.PersonFirstName
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PersonFirstName
@@ -1300,188 +1255,215 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PersonMiddleName*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.PersonMiddleName
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_PersonMiddleName
   name: PersonMiddleName
   nameWithType: ParticipantSyncData.PersonMiddleName
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PersonMiddleName
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PersonLastname*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.PersonLastname
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_PersonLastname
   name: PersonLastname
   nameWithType: ParticipantSyncData.PersonLastname
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PersonLastname
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PersonMrmrs*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.PersonMrmrs
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_PersonMrmrs
   name: PersonMrmrs
   nameWithType: ParticipantSyncData.PersonMrmrs
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PersonMrmrs
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PersonTitle*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.PersonTitle
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_PersonTitle
   name: PersonTitle
   nameWithType: ParticipantSyncData.PersonTitle
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PersonTitle
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PersonPosition*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.PersonPosition
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_PersonPosition
   name: PersonPosition
   nameWithType: ParticipantSyncData.PersonPosition
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PersonPosition
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PersonAcademicTitle*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.PersonAcademicTitle
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_PersonAcademicTitle
   name: PersonAcademicTitle
   nameWithType: ParticipantSyncData.PersonAcademicTitle
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PersonAcademicTitle
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PersonFormalName*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.PersonFormalName
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_PersonFormalName
   name: PersonFormalName
   nameWithType: ParticipantSyncData.PersonFormalName
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PersonFormalName
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PersonFullName*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.PersonFullName
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_PersonFullName
   name: PersonFullName
   nameWithType: ParticipantSyncData.PersonFullName
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PersonFullName
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.ContactId*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.ContactId
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_ContactId
   name: ContactId
   nameWithType: ParticipantSyncData.ContactId
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.ContactId
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.ContactName*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.ContactName
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_ContactName
   name: ContactName
   nameWithType: ParticipantSyncData.ContactName
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.ContactName
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.ContactDepartment*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.ContactDepartment
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_ContactDepartment
   name: ContactDepartment
   nameWithType: ParticipantSyncData.ContactDepartment
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.ContactDepartment
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.ContactBusiness*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.ContactBusiness
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_ContactBusiness
   name: ContactBusiness
   nameWithType: ParticipantSyncData.ContactBusiness
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.ContactBusiness
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.ContactCountry*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.ContactCountry
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_ContactCountry
   name: ContactCountry
   nameWithType: ParticipantSyncData.ContactCountry
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.ContactCountry
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.ContactCategory*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.ContactCategory
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_ContactCategory
   name: ContactCategory
   nameWithType: ParticipantSyncData.ContactCategory
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.ContactCategory
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.ContactFullName*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.ContactFullName
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_ContactFullName
   name: ContactFullName
   nameWithType: ParticipantSyncData.ContactFullName
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.ContactFullName
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.EMail*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.EMail
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_EMail
   name: EMail
   nameWithType: ParticipantSyncData.EMail
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.EMail
 - uid: System.String[]
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
   nameWithType.vb: String()
-  fullName.vb: System.String()
+  fullName.vb: String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PhonePrivate*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.PhonePrivate
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_PhonePrivate
   name: PhonePrivate
   nameWithType: ParticipantSyncData.PhonePrivate
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PhonePrivate
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PhoneFax*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.PhoneFax
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_PhoneFax
   name: PhoneFax
   nameWithType: ParticipantSyncData.PhoneFax
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PhoneFax
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PhoneMobile*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.PhoneMobile
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_PhoneMobile
   name: PhoneMobile
   nameWithType: ParticipantSyncData.PhoneMobile
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PhoneMobile
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PhoneDirect*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.PhoneDirect
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_PhoneDirect
   name: PhoneDirect
   nameWithType: ParticipantSyncData.PhoneDirect
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PhoneDirect
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PhoneContact*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.PhoneContact
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_PhoneContact
   name: PhoneContact
   nameWithType: ParticipantSyncData.PhoneContact
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PhoneContact
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.Messenger*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.Messenger
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_Messenger
   name: Messenger
   nameWithType: ParticipantSyncData.Messenger
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.Messenger
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.Voip*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.Voip
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_Voip
   name: Voip
   nameWithType: ParticipantSyncData.Voip
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.Voip
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.ContactUrl*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.ContactUrl
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_ContactUrl
   name: ContactUrl
   nameWithType: ParticipantSyncData.ContactUrl
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.ContactUrl
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.Url*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.Url
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_Url
   name: Url
   nameWithType: ParticipantSyncData.Url
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.Url
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.StreetAddress*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.StreetAddress
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_StreetAddress
   name: StreetAddress
   nameWithType: ParticipantSyncData.StreetAddress
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.StreetAddress
@@ -1489,129 +1471,111 @@ references:
   commentId: T:SuperOffice.WebApi.Data.AddressSyncData
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.AddressSyncData.html
   name: AddressSyncData
   nameWithType: AddressSyncData
   fullName: SuperOffice.WebApi.Data.AddressSyncData
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PostalAddress*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.PostalAddress
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_PostalAddress
   name: PostalAddress
   nameWithType: ParticipantSyncData.PostalAddress
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PostalAddress
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.Country*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.Country
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_Country
   name: Country
   nameWithType: ParticipantSyncData.Country
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.Country
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PersonAddress*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.PersonAddress
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_PersonAddress
   name: PersonAddress
   nameWithType: ParticipantSyncData.PersonAddress
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PersonAddress
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.PersonCountry*
   commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.PersonCountry
   isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_PersonCountry
   name: PersonCountry
   nameWithType: ParticipantSyncData.PersonCountry
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.PersonCountry
-- uid: SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus_String*
-  commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus_String
-  isExternal: true
-  name: ParticipantStatus_String
-  nameWithType: ParticipantSyncData.ParticipantStatus_String
-  fullName: SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus_String
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus
   isExternal: true
-- uid: SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus*
-  commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus
-  isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_ParticipantStatus
   name: ParticipantStatus
   nameWithType: ParticipantSyncData.ParticipantStatus
   fullName: SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus
+- uid: SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_ParticipantStatus_String
+  name: ParticipantStatus_String
+  nameWithType: ParticipantSyncData.ParticipantStatus_String
+  fullName: SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus_String
 - uid: SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus_String
   commentId: P:SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus_String
   isExternal: true
-- uid: System.Nullable{SuperOffice.WebApi.Data.AppointmentStatus}
-  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.AppointmentStatus}'
-  definition: System.Nullable`1
-  name: Nullable<AppointmentStatus>
-  nameWithType: Nullable<AppointmentStatus>
-  fullName: System.Nullable<SuperOffice.WebApi.Data.AppointmentStatus>
-  nameWithType.vb: Nullable(Of AppointmentStatus)
-  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.AppointmentStatus)
-  name.vb: Nullable(Of AppointmentStatus)
-  spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.WebApi.Data.AppointmentStatus
-    name: AppointmentStatus
-    nameWithType: AppointmentStatus
-    fullName: SuperOffice.WebApi.Data.AppointmentStatus
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.WebApi.Data.AppointmentStatus
-    name: AppointmentStatus
-    nameWithType: AppointmentStatus
-    fullName: SuperOffice.WebApi.Data.AppointmentStatus
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Nullable`1
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_ParticipantStatus_String
+  name: ParticipantStatus_String
+  nameWithType: ParticipantSyncData.ParticipantStatus_String
+  fullName: SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus_String
+- uid: SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus*
+  commentId: Overload:SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus
   isExternal: true
-  name: Nullable<>
-  nameWithType: Nullable<>
-  fullName: System.Nullable<>
-  nameWithType.vb: Nullable(Of )
-  fullName.vb: System.Nullable(Of )
-  name.vb: Nullable(Of )
+  href: SuperOffice.WebApi.Data.ParticipantSyncData.html#SuperOffice_WebApi_Data_ParticipantSyncData_ParticipantStatus
+  name: ParticipantStatus
+  nameWithType: ParticipantSyncData.ParticipantStatus
+  fullName: SuperOffice.WebApi.Data.ParticipantSyncData.ParticipantStatus
+- uid: System.Nullable{SuperOffice.WebApi.Data.AppointmentStatus}
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.AppointmentStatus}
+  parent: System
+  definition: System.Nullable`1
+  href: SuperOffice.WebApi.Data.AppointmentStatus.html
+  name: AppointmentStatus?
+  nameWithType: AppointmentStatus?
+  fullName: SuperOffice.WebApi.Data.AppointmentStatus?
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.AppointmentStatus
+    name: AppointmentStatus
+    isExternal: true
+    href: SuperOffice.WebApi.Data.AppointmentStatus.html
+  - name: '?'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.AppointmentStatus
+    name: AppointmentStatus
+    isExternal: true
+    href: SuperOffice.WebApi.Data.AppointmentStatus.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )

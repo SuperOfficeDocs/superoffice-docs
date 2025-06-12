@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,25 +84,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 594,
-  "Name": "Pfannerstill, Schumm and Jerde",
-  "ConsentText": "rem",
-  "FormText": "qui",
-  "Key": "corrupti",
+  "ConsentPurposeId": 707,
+  "Name": "McGlynn Inc and Sons",
+  "ConsentText": "ut",
+  "FormText": "dolores",
+  "Key": "consequatur",
   "Tooltip": "maxime",
-  "Active": 252,
-  "UpdatedDate": "2021-08-09T16:32:48.5714211+02:00",
+  "Active": 948,
+  "UpdatedDate": "2020-09-11T17:54:08.8199285+02:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 49,
-  "PrivacyStatementDesc": "cumque",
+  "Deleted": true,
+  "Rank": 993,
+  "PrivacyStatementDesc": "corrupti",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 384
+      "FieldType": "System.Int32",
+      "FieldLength": 229
     }
   }
 }

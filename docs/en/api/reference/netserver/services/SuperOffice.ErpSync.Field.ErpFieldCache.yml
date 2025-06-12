@@ -1,0 +1,974 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.Field.ErpFieldCache
+  commentId: T:SuperOffice.ErpSync.Field.ErpFieldCache
+  id: ErpFieldCache
+  parent: SuperOffice.ErpSync.Field
+  children:
+  - SuperOffice.ErpSync.Field.ErpFieldCache.CreateAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.ErpSync.Field.ErpFieldCache.GetActorTypeMapAsync(System.Threading.CancellationToken)
+  - SuperOffice.ErpSync.Field.ErpFieldCache.GetErpConnectionIdAsync(System.Threading.CancellationToken)
+  - SuperOffice.ErpSync.Field.ErpFieldCache.GetFieldsAsync(System.Threading.CancellationToken)
+  - SuperOffice.ErpSync.Field.ErpFieldCache.GetListMapAsync(System.Threading.CancellationToken)
+  - SuperOffice.ErpSync.Field.ErpFieldCache.LastKnownTimestamp
+  - SuperOffice.ErpSync.Field.ErpFieldCache.LastRefreshCheck
+  - SuperOffice.ErpSync.Field.ErpFieldCache.ReloadFieldCacheAsync(System.Threading.CancellationToken)
+  - SuperOffice.ErpSync.Field.ErpFieldCache.SetActorTypeMapAsync(SuperOffice.CRM.Rows.ErpConnectionActorTypeRows)
+  - SuperOffice.ErpSync.Field.ErpFieldCache.SetErpConnectionIdAsync(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: ErpFieldCache
+  nameWithType: ErpFieldCache
+  fullName: SuperOffice.ErpSync.Field.ErpFieldCache
+  type: Class
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync.Field
+  syntax:
+    content: public class ErpFieldCache
+    content.vb: Public Class ErpFieldCache
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.ErpSync.Field.ErpFieldCache.CreateAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.Field.ErpFieldCache.CreateAsync(System.Int32,System.Threading.CancellationToken)
+  id: CreateAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.Field.ErpFieldCache
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync(int, CancellationToken)
+  nameWithType: ErpFieldCache.CreateAsync(int, CancellationToken)
+  fullName: SuperOffice.ErpSync.Field.ErpFieldCache.CreateAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync.Field
+  syntax:
+    content: public static Task<ErpFieldCache> CreateAsync(int erpConnectionId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.ErpSync.Field.ErpFieldCache}
+    content.vb: Public Shared Function CreateAsync(erpConnectionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ErpFieldCache)
+  overload: SuperOffice.ErpSync.Field.ErpFieldCache.CreateAsync*
+  nameWithType.vb: ErpFieldCache.CreateAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.ErpSync.Field.ErpFieldCache.CreateAsync(Integer, System.Threading.CancellationToken)
+  name.vb: CreateAsync(Integer, CancellationToken)
+- uid: SuperOffice.ErpSync.Field.ErpFieldCache.GetErpConnectionIdAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.Field.ErpFieldCache.GetErpConnectionIdAsync(System.Threading.CancellationToken)
+  id: GetErpConnectionIdAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.Field.ErpFieldCache
+  langs:
+  - csharp
+  - vb
+  name: GetErpConnectionIdAsync(CancellationToken)
+  nameWithType: ErpFieldCache.GetErpConnectionIdAsync(CancellationToken)
+  fullName: SuperOffice.ErpSync.Field.ErpFieldCache.GetErpConnectionIdAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync.Field
+  syntax:
+    content: public Task<int> GetErpConnectionIdAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Function GetErpConnectionIdAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.ErpSync.Field.ErpFieldCache.GetErpConnectionIdAsync*
+- uid: SuperOffice.ErpSync.Field.ErpFieldCache.SetErpConnectionIdAsync(System.Int32)
+  commentId: M:SuperOffice.ErpSync.Field.ErpFieldCache.SetErpConnectionIdAsync(System.Int32)
+  id: SetErpConnectionIdAsync(System.Int32)
+  parent: SuperOffice.ErpSync.Field.ErpFieldCache
+  langs:
+  - csharp
+  - vb
+  name: SetErpConnectionIdAsync(int)
+  nameWithType: ErpFieldCache.SetErpConnectionIdAsync(int)
+  fullName: SuperOffice.ErpSync.Field.ErpFieldCache.SetErpConnectionIdAsync(int)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync.Field
+  syntax:
+    content: public Task SetErpConnectionIdAsync(int value)
+    parameters:
+    - id: value
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function SetErpConnectionIdAsync(value As Integer) As Task
+  overload: SuperOffice.ErpSync.Field.ErpFieldCache.SetErpConnectionIdAsync*
+  nameWithType.vb: ErpFieldCache.SetErpConnectionIdAsync(Integer)
+  fullName.vb: SuperOffice.ErpSync.Field.ErpFieldCache.SetErpConnectionIdAsync(Integer)
+  name.vb: SetErpConnectionIdAsync(Integer)
+- uid: SuperOffice.ErpSync.Field.ErpFieldCache.GetActorTypeMapAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.Field.ErpFieldCache.GetActorTypeMapAsync(System.Threading.CancellationToken)
+  id: GetActorTypeMapAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.Field.ErpFieldCache
+  langs:
+  - csharp
+  - vb
+  name: GetActorTypeMapAsync(CancellationToken)
+  nameWithType: ErpFieldCache.GetActorTypeMapAsync(CancellationToken)
+  fullName: SuperOffice.ErpSync.Field.ErpFieldCache.GetActorTypeMapAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync.Field
+  syntax:
+    content: public Task<ErpConnectionActorTypeRows> GetActorTypeMapAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.ErpConnectionActorTypeRows}
+    content.vb: Public Function GetActorTypeMapAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ErpConnectionActorTypeRows)
+  overload: SuperOffice.ErpSync.Field.ErpFieldCache.GetActorTypeMapAsync*
+- uid: SuperOffice.ErpSync.Field.ErpFieldCache.SetActorTypeMapAsync(SuperOffice.CRM.Rows.ErpConnectionActorTypeRows)
+  commentId: M:SuperOffice.ErpSync.Field.ErpFieldCache.SetActorTypeMapAsync(SuperOffice.CRM.Rows.ErpConnectionActorTypeRows)
+  id: SetActorTypeMapAsync(SuperOffice.CRM.Rows.ErpConnectionActorTypeRows)
+  parent: SuperOffice.ErpSync.Field.ErpFieldCache
+  langs:
+  - csharp
+  - vb
+  name: SetActorTypeMapAsync(ErpConnectionActorTypeRows)
+  nameWithType: ErpFieldCache.SetActorTypeMapAsync(ErpConnectionActorTypeRows)
+  fullName: SuperOffice.ErpSync.Field.ErpFieldCache.SetActorTypeMapAsync(SuperOffice.CRM.Rows.ErpConnectionActorTypeRows)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync.Field
+  syntax:
+    content: public Task SetActorTypeMapAsync(ErpConnectionActorTypeRows value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.ErpConnectionActorTypeRows
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function SetActorTypeMapAsync(value As ErpConnectionActorTypeRows) As Task
+  overload: SuperOffice.ErpSync.Field.ErpFieldCache.SetActorTypeMapAsync*
+- uid: SuperOffice.ErpSync.Field.ErpFieldCache.GetFieldsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.Field.ErpFieldCache.GetFieldsAsync(System.Threading.CancellationToken)
+  id: GetFieldsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.Field.ErpFieldCache
+  langs:
+  - csharp
+  - vb
+  name: GetFieldsAsync(CancellationToken)
+  nameWithType: ErpFieldCache.GetFieldsAsync(CancellationToken)
+  fullName: SuperOffice.ErpSync.Field.ErpFieldCache.GetFieldsAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync.Field
+  syntax:
+    content: public Task<Dictionary<ErpActorType, ErpFieldRows>> GetFieldsAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{SuperOffice.Data.ErpActorType,SuperOffice.CRM.Rows.ErpFieldRows}}
+    content.vb: Public Function GetFieldsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Dictionary(Of ErpActorType, ErpFieldRows))
+  overload: SuperOffice.ErpSync.Field.ErpFieldCache.GetFieldsAsync*
+- uid: SuperOffice.ErpSync.Field.ErpFieldCache.GetListMapAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.Field.ErpFieldCache.GetListMapAsync(System.Threading.CancellationToken)
+  id: GetListMapAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.Field.ErpFieldCache
+  langs:
+  - csharp
+  - vb
+  name: GetListMapAsync(CancellationToken)
+  nameWithType: ErpFieldCache.GetListMapAsync(CancellationToken)
+  fullName: SuperOffice.ErpSync.Field.ErpFieldCache.GetListMapAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync.Field
+  syntax:
+    content: public Task<Dictionary<int, ErpListItemMappingRows>> GetListMapAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.Int32,SuperOffice.CRM.Rows.ErpListItemMappingRows}}
+    content.vb: Public Function GetListMapAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Dictionary(Of Integer, ErpListItemMappingRows))
+  overload: SuperOffice.ErpSync.Field.ErpFieldCache.GetListMapAsync*
+- uid: SuperOffice.ErpSync.Field.ErpFieldCache.ReloadFieldCacheAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.Field.ErpFieldCache.ReloadFieldCacheAsync(System.Threading.CancellationToken)
+  id: ReloadFieldCacheAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.Field.ErpFieldCache
+  langs:
+  - csharp
+  - vb
+  name: ReloadFieldCacheAsync(CancellationToken)
+  nameWithType: ErpFieldCache.ReloadFieldCacheAsync(CancellationToken)
+  fullName: SuperOffice.ErpSync.Field.ErpFieldCache.ReloadFieldCacheAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync.Field
+  syntax:
+    content: public Task ReloadFieldCacheAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function ReloadFieldCacheAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.ErpSync.Field.ErpFieldCache.ReloadFieldCacheAsync*
+- uid: SuperOffice.ErpSync.Field.ErpFieldCache.LastKnownTimestamp
+  commentId: P:SuperOffice.ErpSync.Field.ErpFieldCache.LastKnownTimestamp
+  id: LastKnownTimestamp
+  parent: SuperOffice.ErpSync.Field.ErpFieldCache
+  langs:
+  - csharp
+  - vb
+  name: LastKnownTimestamp
+  nameWithType: ErpFieldCache.LastKnownTimestamp
+  fullName: SuperOffice.ErpSync.Field.ErpFieldCache.LastKnownTimestamp
+  type: Property
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync.Field
+  syntax:
+    content: public DateTime LastKnownTimestamp { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property LastKnownTimestamp As Date
+  overload: SuperOffice.ErpSync.Field.ErpFieldCache.LastKnownTimestamp*
+- uid: SuperOffice.ErpSync.Field.ErpFieldCache.LastRefreshCheck
+  commentId: P:SuperOffice.ErpSync.Field.ErpFieldCache.LastRefreshCheck
+  id: LastRefreshCheck
+  parent: SuperOffice.ErpSync.Field.ErpFieldCache
+  langs:
+  - csharp
+  - vb
+  name: LastRefreshCheck
+  nameWithType: ErpFieldCache.LastRefreshCheck
+  fullName: SuperOffice.ErpSync.Field.ErpFieldCache.LastRefreshCheck
+  type: Property
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync.Field
+  syntax:
+    content: public DateTime LastRefreshCheck { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property LastRefreshCheck As Date
+  overload: SuperOffice.ErpSync.Field.ErpFieldCache.LastRefreshCheck*
+references:
+- uid: SuperOffice.ErpSync.Field
+  commentId: N:SuperOffice.ErpSync.Field
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.Field
+  nameWithType: SuperOffice.ErpSync.Field
+  fullName: SuperOffice.ErpSync.Field
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.Field
+    name: Field
+    isExternal: true
+    href: SuperOffice.ErpSync.Field.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.Field
+    name: Field
+    isExternal: true
+    href: SuperOffice.ErpSync.Field.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.ErpSync.Field.ErpFieldCache.CreateAsync*
+  commentId: Overload:SuperOffice.ErpSync.Field.ErpFieldCache.CreateAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.Field.ErpFieldCache.html#SuperOffice_ErpSync_Field_ErpFieldCache_CreateAsync_System_Int32_System_Threading_CancellationToken_
+  name: CreateAsync
+  nameWithType: ErpFieldCache.CreateAsync
+  fullName: SuperOffice.ErpSync.Field.ErpFieldCache.CreateAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.ErpSync.Field.ErpFieldCache}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.ErpSync.Field.ErpFieldCache}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ErpFieldCache>
+  nameWithType: Task<ErpFieldCache>
+  fullName: System.Threading.Tasks.Task<SuperOffice.ErpSync.Field.ErpFieldCache>
+  nameWithType.vb: Task(Of ErpFieldCache)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.ErpSync.Field.ErpFieldCache)
+  name.vb: Task(Of ErpFieldCache)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.ErpSync.Field.ErpFieldCache
+    name: ErpFieldCache
+    isExternal: true
+    href: SuperOffice.ErpSync.Field.ErpFieldCache.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.ErpSync.Field.ErpFieldCache
+    name: ErpFieldCache
+    isExternal: true
+    href: SuperOffice.ErpSync.Field.ErpFieldCache.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.ErpSync.Field.ErpFieldCache.GetErpConnectionIdAsync*
+  commentId: Overload:SuperOffice.ErpSync.Field.ErpFieldCache.GetErpConnectionIdAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.Field.ErpFieldCache.html#SuperOffice_ErpSync_Field_ErpFieldCache_GetErpConnectionIdAsync_System_Threading_CancellationToken_
+  name: GetErpConnectionIdAsync
+  nameWithType: ErpFieldCache.GetErpConnectionIdAsync
+  fullName: SuperOffice.ErpSync.Field.ErpFieldCache.GetErpConnectionIdAsync
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.ErpSync.Field.ErpFieldCache.SetErpConnectionIdAsync*
+  commentId: Overload:SuperOffice.ErpSync.Field.ErpFieldCache.SetErpConnectionIdAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.Field.ErpFieldCache.html#SuperOffice_ErpSync_Field_ErpFieldCache_SetErpConnectionIdAsync_System_Int32_
+  name: SetErpConnectionIdAsync
+  nameWithType: ErpFieldCache.SetErpConnectionIdAsync
+  fullName: SuperOffice.ErpSync.Field.ErpFieldCache.SetErpConnectionIdAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.ErpSync.Field.ErpFieldCache.GetActorTypeMapAsync*
+  commentId: Overload:SuperOffice.ErpSync.Field.ErpFieldCache.GetActorTypeMapAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.Field.ErpFieldCache.html#SuperOffice_ErpSync_Field_ErpFieldCache_GetActorTypeMapAsync_System_Threading_CancellationToken_
+  name: GetActorTypeMapAsync
+  nameWithType: ErpFieldCache.GetActorTypeMapAsync
+  fullName: SuperOffice.ErpSync.Field.ErpFieldCache.GetActorTypeMapAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.ErpConnectionActorTypeRows}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.ErpConnectionActorTypeRows}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ErpConnectionActorTypeRows>
+  nameWithType: Task<ErpConnectionActorTypeRows>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.ErpConnectionActorTypeRows>
+  nameWithType.vb: Task(Of ErpConnectionActorTypeRows)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.ErpConnectionActorTypeRows)
+  name.vb: Task(Of ErpConnectionActorTypeRows)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.ErpConnectionActorTypeRows
+    name: ErpConnectionActorTypeRows
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.ErpConnectionActorTypeRows
+    name: ErpConnectionActorTypeRows
+    isExternal: true
+  - name: )
+- uid: SuperOffice.ErpSync.Field.ErpFieldCache.SetActorTypeMapAsync*
+  commentId: Overload:SuperOffice.ErpSync.Field.ErpFieldCache.SetActorTypeMapAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.Field.ErpFieldCache.html#SuperOffice_ErpSync_Field_ErpFieldCache_SetActorTypeMapAsync_SuperOffice_CRM_Rows_ErpConnectionActorTypeRows_
+  name: SetActorTypeMapAsync
+  nameWithType: ErpFieldCache.SetActorTypeMapAsync
+  fullName: SuperOffice.ErpSync.Field.ErpFieldCache.SetActorTypeMapAsync
+- uid: SuperOffice.CRM.Rows.ErpConnectionActorTypeRows
+  commentId: '!:SuperOffice.CRM.Rows.ErpConnectionActorTypeRows'
+  isExternal: true
+  name: ErpConnectionActorTypeRows
+  nameWithType: ErpConnectionActorTypeRows
+  fullName: SuperOffice.CRM.Rows.ErpConnectionActorTypeRows
+- uid: SuperOffice.ErpSync.Field.ErpFieldCache.GetFieldsAsync*
+  commentId: Overload:SuperOffice.ErpSync.Field.ErpFieldCache.GetFieldsAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.Field.ErpFieldCache.html#SuperOffice_ErpSync_Field_ErpFieldCache_GetFieldsAsync_System_Threading_CancellationToken_
+  name: GetFieldsAsync
+  nameWithType: ErpFieldCache.GetFieldsAsync
+  fullName: SuperOffice.ErpSync.Field.ErpFieldCache.GetFieldsAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{SuperOffice.Data.ErpActorType,SuperOffice.CRM.Rows.ErpFieldRows}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{SuperOffice.Data.ErpActorType,SuperOffice.CRM.Rows.ErpFieldRows}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Dictionary<ErpActorType, ErpFieldRows>>
+  nameWithType: Task<Dictionary<ErpActorType, ErpFieldRows>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.Dictionary<SuperOffice.Data.ErpActorType, SuperOffice.CRM.Rows.ErpFieldRows>>
+  nameWithType.vb: Task(Of Dictionary(Of ErpActorType, ErpFieldRows))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.Dictionary(Of SuperOffice.Data.ErpActorType, SuperOffice.CRM.Rows.ErpFieldRows))
+  name.vb: Task(Of Dictionary(Of ErpActorType, ErpFieldRows))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: SuperOffice.Data.ErpActorType
+    name: ErpActorType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.ErpFieldRows
+    name: ErpFieldRows
+    isExternal: true
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ErpActorType
+    name: ErpActorType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.ErpFieldRows
+    name: ErpFieldRows
+    isExternal: true
+  - name: )
+  - name: )
+- uid: SuperOffice.ErpSync.Field.ErpFieldCache.GetListMapAsync*
+  commentId: Overload:SuperOffice.ErpSync.Field.ErpFieldCache.GetListMapAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.Field.ErpFieldCache.html#SuperOffice_ErpSync_Field_ErpFieldCache_GetListMapAsync_System_Threading_CancellationToken_
+  name: GetListMapAsync
+  nameWithType: ErpFieldCache.GetListMapAsync
+  fullName: SuperOffice.ErpSync.Field.ErpFieldCache.GetListMapAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.Int32,SuperOffice.CRM.Rows.ErpListItemMappingRows}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.Int32,SuperOffice.CRM.Rows.ErpListItemMappingRows}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Dictionary<int, ErpListItemMappingRows>>
+  nameWithType: Task<Dictionary<int, ErpListItemMappingRows>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.Dictionary<int, SuperOffice.CRM.Rows.ErpListItemMappingRows>>
+  nameWithType.vb: Task(Of Dictionary(Of Integer, ErpListItemMappingRows))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.Dictionary(Of Integer, SuperOffice.CRM.Rows.ErpListItemMappingRows))
+  name.vb: Task(Of Dictionary(Of Integer, ErpListItemMappingRows))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.ErpListItemMappingRows
+    name: ErpListItemMappingRows
+    isExternal: true
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.ErpListItemMappingRows
+    name: ErpListItemMappingRows
+    isExternal: true
+  - name: )
+  - name: )
+- uid: SuperOffice.ErpSync.Field.ErpFieldCache.ReloadFieldCacheAsync*
+  commentId: Overload:SuperOffice.ErpSync.Field.ErpFieldCache.ReloadFieldCacheAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.Field.ErpFieldCache.html#SuperOffice_ErpSync_Field_ErpFieldCache_ReloadFieldCacheAsync_System_Threading_CancellationToken_
+  name: ReloadFieldCacheAsync
+  nameWithType: ErpFieldCache.ReloadFieldCacheAsync
+  fullName: SuperOffice.ErpSync.Field.ErpFieldCache.ReloadFieldCacheAsync
+- uid: SuperOffice.ErpSync.Field.ErpFieldCache.LastKnownTimestamp*
+  commentId: Overload:SuperOffice.ErpSync.Field.ErpFieldCache.LastKnownTimestamp
+  isExternal: true
+  href: SuperOffice.ErpSync.Field.ErpFieldCache.html#SuperOffice_ErpSync_Field_ErpFieldCache_LastKnownTimestamp
+  name: LastKnownTimestamp
+  nameWithType: ErpFieldCache.LastKnownTimestamp
+  fullName: SuperOffice.ErpSync.Field.ErpFieldCache.LastKnownTimestamp
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: SuperOffice.ErpSync.Field.ErpFieldCache.LastRefreshCheck*
+  commentId: Overload:SuperOffice.ErpSync.Field.ErpFieldCache.LastRefreshCheck
+  isExternal: true
+  href: SuperOffice.ErpSync.Field.ErpFieldCache.html#SuperOffice_ErpSync_Field_ErpFieldCache_LastRefreshCheck
+  name: LastRefreshCheck
+  nameWithType: ErpFieldCache.LastRefreshCheck
+  fullName: SuperOffice.ErpSync.Field.ErpFieldCache.LastRefreshCheck

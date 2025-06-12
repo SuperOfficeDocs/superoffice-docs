@@ -21,64 +21,24 @@ items:
   - SuperOffice.WebApi.Data.PrefDescValueType.TimeList
   - SuperOffice.WebApi.Data.PrefDescValueType.TimeZone
   - SuperOffice.WebApi.Data.PrefDescValueType.Unknown
-  - SuperOffice.WebApi.Data.PrefDescValueType.value__
   langs:
   - csharp
   - vb
   name: PrefDescValueType
   nameWithType: PrefDescValueType
   fullName: SuperOffice.WebApi.Data.PrefDescValueType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nValue for field &apos;valueType&apos; in table &apos;prefdesc&apos;.\nThis Enum is used by:  PrefDesc.valueType\n"
-  syntax:
-    content: 'public sealed class PrefDescValueType : Enum'
-    content.vb: >-
-      Public NotInheritable Class PrefDescValueType
-          Inherits
+  summary: >-
+    Value for field 'valueType' in table 'prefdesc'.
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.PrefDescValueType.value__
-  commentId: F:SuperOffice.WebApi.Data.PrefDescValueType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.PrefDescValueType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: PrefDescValueType.value__
-  fullName: SuperOffice.WebApi.Data.PrefDescValueType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  PrefDesc.valueType
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: 'public enum PrefDescValueType : short'
+    content.vb: Public Enum PrefDescValueType As Short
 - uid: SuperOffice.WebApi.Data.PrefDescValueType.Unknown
   commentId: F:SuperOffice.WebApi.Data.PrefDescValueType.Unknown
   id: Unknown
@@ -90,24 +50,26 @@ items:
   nameWithType: PrefDescValueType.Unknown
   fullName: SuperOffice.WebApi.Data.PrefDescValueType.Unknown
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Unknown - used when initializing\n"
+  summary: '0: Unknown - used when initializing'
+  example: []
   syntax:
-    content: public const PrefDescValueType Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.WebApi.Data.PrefDescValueType
-    content.vb: Public Const Unknown As PrefDescValueType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.PrefDescValueType.Number
   commentId: F:SuperOffice.WebApi.Data.PrefDescValueType.Number
   id: Number
@@ -119,24 +81,26 @@ items:
   nameWithType: PrefDescValueType.Number
   fullName: SuperOffice.WebApi.Data.PrefDescValueType.Number
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Preference value is a number\n"
+  summary: '1: Preference value is a number'
+  example: []
   syntax:
-    content: public const PrefDescValueType Number
+    content: >-
+      [EnumMember]
+
+      Number = 1
     return:
       type: SuperOffice.WebApi.Data.PrefDescValueType
-    content.vb: Public Const Number As PrefDescValueType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Number = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.PrefDescValueType.Text
   commentId: F:SuperOffice.WebApi.Data.PrefDescValueType.Text
   id: Text
@@ -148,24 +112,26 @@ items:
   nameWithType: PrefDescValueType.Text
   fullName: SuperOffice.WebApi.Data.PrefDescValueType.Text
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Preference value is a text (max len 99 characters)\n"
+  summary: '2: Preference value is a text (max len 99 characters)'
+  example: []
   syntax:
-    content: public const PrefDescValueType Text
+    content: >-
+      [EnumMember]
+
+      Text = 2
     return:
       type: SuperOffice.WebApi.Data.PrefDescValueType
-    content.vb: Public Const Text As PrefDescValueType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Text = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.PrefDescValueType.Bool
   commentId: F:SuperOffice.WebApi.Data.PrefDescValueType.Bool
   id: Bool
@@ -177,24 +143,26 @@ items:
   nameWithType: PrefDescValueType.Bool
   fullName: SuperOffice.WebApi.Data.PrefDescValueType.Bool
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Preference value is Boolean\n"
+  summary: '3: Preference value is Boolean'
+  example: []
   syntax:
-    content: public const PrefDescValueType Bool
+    content: >-
+      [EnumMember]
+
+      Bool = 3
     return:
       type: SuperOffice.WebApi.Data.PrefDescValueType
-    content.vb: Public Const Bool As PrefDescValueType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Bool = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.PrefDescValueType.ListOfValues
   commentId: F:SuperOffice.WebApi.Data.PrefDescValueType.ListOfValues
   id: ListOfValues
@@ -206,24 +174,26 @@ items:
   nameWithType: PrefDescValueType.ListOfValues
   fullName: SuperOffice.WebApi.Data.PrefDescValueType.ListOfValues
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Preference value is a list of separate value\n"
+  summary: '4: Preference value is a list of separate value'
+  example: []
   syntax:
-    content: public const PrefDescValueType ListOfValues
+    content: >-
+      [EnumMember]
+
+      ListOfValues = 4
     return:
       type: SuperOffice.WebApi.Data.PrefDescValueType
-    content.vb: Public Const ListOfValues As PrefDescValueType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ListOfValues = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.PrefDescValueType.ListTableRef
   commentId: F:SuperOffice.WebApi.Data.PrefDescValueType.ListTableRef
   id: ListTableRef
@@ -235,24 +205,26 @@ items:
   nameWithType: PrefDescValueType.ListTableRef
   fullName: SuperOffice.WebApi.Data.PrefDescValueType.ListTableRef
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: Preference value is a record ID in the given MDO list table; maxValue contains the tablenumberø\n"
+  summary: '5: Preference value is a record ID in the given MDO list table; maxValue contains the tablenumberø'
+  example: []
   syntax:
-    content: public const PrefDescValueType ListTableRef
+    content: >-
+      [EnumMember]
+
+      ListTableRef = 5
     return:
       type: SuperOffice.WebApi.Data.PrefDescValueType
-    content.vb: Public Const ListTableRef As PrefDescValueType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ListTableRef = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.PrefDescValueType.TimeList
   commentId: F:SuperOffice.WebApi.Data.PrefDescValueType.TimeList
   id: TimeList
@@ -264,24 +236,26 @@ items:
   nameWithType: PrefDescValueType.TimeList
   fullName: SuperOffice.WebApi.Data.PrefDescValueType.TimeList
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n6: Preference value is a time, value is seconds since midnight (28800 = 08:00)\n"
+  summary: '6: Preference value is a time, value is seconds since midnight (28800 = 08:00)'
+  example: []
   syntax:
-    content: public const PrefDescValueType TimeList
+    content: >-
+      [EnumMember]
+
+      TimeList = 6
     return:
       type: SuperOffice.WebApi.Data.PrefDescValueType
-    content.vb: Public Const TimeList As PrefDescValueType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TimeList = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.PrefDescValueType.ContactID
   commentId: F:SuperOffice.WebApi.Data.PrefDescValueType.ContactID
   id: ContactID
@@ -293,24 +267,26 @@ items:
   nameWithType: PrefDescValueType.ContactID
   fullName: SuperOffice.WebApi.Data.PrefDescValueType.ContactID
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n7: Preference value is a contact ID\n"
+  summary: '7: Preference value is a contact ID'
+  example: []
   syntax:
-    content: public const PrefDescValueType ContactID
+    content: >-
+      [EnumMember]
+
+      ContactID = 7
     return:
       type: SuperOffice.WebApi.Data.PrefDescValueType
-    content.vb: Public Const ContactID As PrefDescValueType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ContactID = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.PrefDescValueType.PersonID
   commentId: F:SuperOffice.WebApi.Data.PrefDescValueType.PersonID
   id: PersonID
@@ -322,24 +298,26 @@ items:
   nameWithType: PrefDescValueType.PersonID
   fullName: SuperOffice.WebApi.Data.PrefDescValueType.PersonID
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n8: Preference value is a person ID\n"
+  summary: '8: Preference value is a person ID'
+  example: []
   syntax:
-    content: public const PrefDescValueType PersonID
+    content: >-
+      [EnumMember]
+
+      PersonID = 8
     return:
       type: SuperOffice.WebApi.Data.PrefDescValueType
-    content.vb: Public Const PersonID As PrefDescValueType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      PersonID = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.PrefDescValueType.ProjectID
   commentId: F:SuperOffice.WebApi.Data.PrefDescValueType.ProjectID
   id: ProjectID
@@ -351,24 +329,26 @@ items:
   nameWithType: PrefDescValueType.ProjectID
   fullName: SuperOffice.WebApi.Data.PrefDescValueType.ProjectID
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n9: Preference value is a project ID\n"
+  summary: '9: Preference value is a project ID'
+  example: []
   syntax:
-    content: public const PrefDescValueType ProjectID
+    content: >-
+      [EnumMember]
+
+      ProjectID = 9
     return:
       type: SuperOffice.WebApi.Data.PrefDescValueType
-    content.vb: Public Const ProjectID As PrefDescValueType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ProjectID = 9
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.PrefDescValueType.SelectionID
   commentId: F:SuperOffice.WebApi.Data.PrefDescValueType.SelectionID
   id: SelectionID
@@ -380,24 +360,26 @@ items:
   nameWithType: PrefDescValueType.SelectionID
   fullName: SuperOffice.WebApi.Data.PrefDescValueType.SelectionID
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n10: Preference value is a selection ID\n"
+  summary: '10: Preference value is a selection ID'
+  example: []
   syntax:
-    content: public const PrefDescValueType SelectionID
+    content: >-
+      [EnumMember]
+
+      SelectionID = 10
     return:
       type: SuperOffice.WebApi.Data.PrefDescValueType
-    content.vb: Public Const SelectionID As PrefDescValueType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SelectionID = 10
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.PrefDescValueType.PosSize
   commentId: F:SuperOffice.WebApi.Data.PrefDescValueType.PosSize
   id: PosSize
@@ -409,24 +391,26 @@ items:
   nameWithType: PrefDescValueType.PosSize
   fullName: SuperOffice.WebApi.Data.PrefDescValueType.PosSize
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n11: Obsolete: Windows position and size\n"
+  summary: '11: Obsolete: Windows position and size'
+  example: []
   syntax:
-    content: public const PrefDescValueType PosSize
+    content: >-
+      [EnumMember]
+
+      PosSize = 11
     return:
       type: SuperOffice.WebApi.Data.PrefDescValueType
-    content.vb: Public Const PosSize As PrefDescValueType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      PosSize = 11
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.PrefDescValueType.TimeZone
   commentId: F:SuperOffice.WebApi.Data.PrefDescValueType.TimeZone
   id: TimeZone
@@ -438,24 +422,26 @@ items:
   nameWithType: PrefDescValueType.TimeZone
   fullName: SuperOffice.WebApi.Data.PrefDescValueType.TimeZone
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n12: TimeZone location\n"
+  summary: '12: TimeZone location'
+  example: []
   syntax:
-    content: public const PrefDescValueType TimeZone
+    content: >-
+      [EnumMember]
+
+      TimeZone = 12
     return:
       type: SuperOffice.WebApi.Data.PrefDescValueType
-    content.vb: Public Const TimeZone As PrefDescValueType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TimeZone = 12
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.PrefDescValueType.Time
   commentId: F:SuperOffice.WebApi.Data.PrefDescValueType.Time
   id: Time
@@ -467,24 +453,26 @@ items:
   nameWithType: PrefDescValueType.Time
   fullName: SuperOffice.WebApi.Data.PrefDescValueType.Time
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n13: Time, preference value is 13:45:50\n"
+  summary: '13: Time, preference value is 13:45:50'
+  example: []
   syntax:
-    content: public const PrefDescValueType Time
+    content: >-
+      [EnumMember]
+
+      Time = 13
     return:
       type: SuperOffice.WebApi.Data.PrefDescValueType
-    content.vb: Public Const Time As PrefDescValueType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Time = 13
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.PrefDescValueType.Password
   commentId: F:SuperOffice.WebApi.Data.PrefDescValueType.Password
   id: Password
@@ -496,24 +484,26 @@ items:
   nameWithType: PrefDescValueType.Password
   fullName: SuperOffice.WebApi.Data.PrefDescValueType.Password
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n14: Password, stored as plain text but shown with dots\n"
+  summary: '14: Password, stored as plain text but shown with dots'
+  example: []
   syntax:
-    content: public const PrefDescValueType Password
+    content: >-
+      [EnumMember]
+
+      Password = 14
     return:
       type: SuperOffice.WebApi.Data.PrefDescValueType
-    content.vb: Public Const Password As PrefDescValueType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Password = 14
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.PrefDescValueType.MultiLineText
   commentId: F:SuperOffice.WebApi.Data.PrefDescValueType.MultiLineText
   id: MultiLineText
@@ -525,55 +515,69 @@ items:
   nameWithType: PrefDescValueType.MultiLineText
   fullName: SuperOffice.WebApi.Data.PrefDescValueType.MultiLineText
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n15: Multi-line text that preserves line breaks\n"
+  summary: '15: Multi-line text that preserves line breaks'
+  example: []
   syntax:
-    content: public const PrefDescValueType MultiLineText
+    content: >-
+      [EnumMember]
+
+      MultiLineText = 15
     return:
       type: SuperOffice.WebApi.Data.PrefDescValueType
-    content.vb: Public Const MultiLineText As PrefDescValueType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      MultiLineText = 15
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.PrefDescValueType
   commentId: T:SuperOffice.WebApi.Data.PrefDescValueType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.PrefDescValueType.html
   name: PrefDescValueType
   nameWithType: PrefDescValueType
   fullName: SuperOffice.WebApi.Data.PrefDescValueType

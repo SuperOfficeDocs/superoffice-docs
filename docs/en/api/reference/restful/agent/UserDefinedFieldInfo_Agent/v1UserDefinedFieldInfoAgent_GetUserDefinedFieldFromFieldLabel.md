@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "qui",
+  "FieldLabel": "nobis",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 691,
-  "ColumnId": 204,
-  "FieldDefault": "eaque",
-  "FieldHeight": 141,
-  "FieldLabel": "nesciunt",
-  "FieldLeft": 23,
-  "FieldTop": 819,
+  "UDefFieldId": 73,
+  "ColumnId": 483,
+  "FieldDefault": "animi",
+  "FieldHeight": 637,
+  "FieldLabel": "aperiam",
+  "FieldLeft": 366,
+  "FieldTop": 542,
   "FieldType": "Checkbox",
-  "FieldWidth": 487,
-  "FormatMask": "soluta",
+  "FieldWidth": 570,
+  "FormatMask": "voluptate",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 75,
-  "LabelLeft": 301,
-  "LabelTop": 257,
-  "LabelWidth": 457,
-  "LastVersionId": 568,
-  "ListTableId": 677,
-  "IsMandatory": true,
+  "LabelHeight": 930,
+  "LabelLeft": 443,
+  "LabelTop": 351,
+  "LabelWidth": 592,
+  "LastVersionId": 434,
+  "ListTableId": 278,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 230,
-  "ProgId": "officia",
-  "IsReadOnly": true,
-  "ShortLabel": "quaerat",
-  "TabOrder": 690,
-  "TextLength": 440,
-  "Tooltip": "tempore",
-  "UdefIdentity": 47,
-  "UDListDefinitionId": 907,
+  "Page1LineNo": 265,
+  "ProgId": "perspiciatis",
+  "IsReadOnly": false,
+  "ShortLabel": "consectetur",
+  "TabOrder": 230,
+  "TextLength": 787,
+  "Tooltip": "eos",
+  "UdefIdentity": 448,
+  "UDListDefinitionId": 619,
   "Justification": "Center",
-  "Version": 256,
-  "TemplateVariableName": "Williamson Group",
-  "HasBeenPublished": false,
-  "MdoListName": "Nitzsche, Effertz and Miller",
+  "Version": 642,
+  "TemplateVariableName": "Rodriguez, Kautzer and Cummerata",
+  "HasBeenPublished": true,
+  "MdoListName": "Gibson LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 630
+      "FieldType": "System.Int32",
+      "FieldLength": 69
     }
   }
 }

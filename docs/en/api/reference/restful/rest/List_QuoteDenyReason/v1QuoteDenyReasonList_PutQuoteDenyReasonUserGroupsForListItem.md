@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 862,
-    "Name": "Dare-Jacobs",
-    "ToolTip": "Mollitia et consequuntur nesciunt quod dolorem et consequatur.",
+    "Id": 588,
+    "Name": "Stokes Inc and Sons",
+    "ToolTip": "Praesentium aut illum dicta.",
     "Deleted": false,
-    "Rank": 996,
-    "Type": "esse",
-    "ColorBlock": 937,
-    "IconHint": "deleniti",
+    "Rank": 731,
+    "Type": "repudiandae",
+    "ColorBlock": 366,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "1998-02-22T16:32:48.8682307+01:00",
+    "LastChanged": "2017-05-12T17:54:09.0074197+02:00",
     "ChildItems": [
       {
-        "Id": 287,
-        "Name": "Kassulke-Dickens",
-        "ToolTip": "Et voluptatibus eos.",
+        "Id": 745,
+        "Name": "Raynor-Gerlach",
+        "ToolTip": "Quaerat facilis a dolorem harum.",
         "Deleted": true,
-        "Rank": 933,
-        "Type": "nostrum",
-        "ColorBlock": 448,
-        "IconHint": "mollitia",
-        "Selected": true,
-        "LastChanged": "2015-05-02T16:32:48.8682307+02:00",
+        "Rank": 628,
+        "Type": "fugit",
+        "ColorBlock": 66,
+        "IconHint": "sint",
+        "Selected": false,
+        "LastChanged": "2021-11-18T17:54:09.0074197+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "libero",
-        "StyleHint": "qui",
+        "ExtraInfo": "id",
+        "StyleHint": "enim",
         "Hidden": true,
-        "FullName": "Glen Stiedemann"
+        "FullName": "Ashlynn Danial Bednar DVM"
       }
     ],
-    "ExtraInfo": "iusto",
-    "StyleHint": "rerum",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "perferendis",
     "Hidden": true,
-    "FullName": "Shanna Gibson"
+    "FullName": "Stephan Parker"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 743,
-    "Name": "Cruickshank-Olson",
-    "ToolTip": "Harum placeat accusamus.",
-    "Deleted": true,
-    "Rank": 391,
-    "Type": "libero",
-    "ColorBlock": 525,
-    "IconHint": "dolores",
-    "Selected": true,
-    "LastChanged": "2010-01-12T16:32:48.8838567+01:00",
+    "Id": 101,
+    "Name": "Corwin-Cummings",
+    "ToolTip": "Aspernatur amet nemo est.",
+    "Deleted": false,
+    "Rank": 225,
+    "Type": "enim",
+    "ColorBlock": 172,
+    "IconHint": "quos",
+    "Selected": false,
+    "LastChanged": "2004-12-12T17:54:09.0074197+01:00",
     "ChildItems": [
       {
-        "Id": 235,
-        "Name": "Murray-Johns",
-        "ToolTip": "Doloribus dolorum iste.",
+        "Id": 154,
+        "Name": "Schuppe-Lubowitz",
+        "ToolTip": "Distinctio dicta veritatis soluta vel eum.",
         "Deleted": false,
-        "Rank": 90,
-        "Type": "animi",
-        "ColorBlock": 23,
-        "IconHint": "impedit",
+        "Rank": 621,
+        "Type": "et",
+        "ColorBlock": 531,
+        "IconHint": "natus",
         "Selected": false,
-        "LastChanged": "1998-08-22T16:32:48.8838567+02:00",
+        "LastChanged": "2014-09-03T17:54:09.0074197+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "eos",
-        "Hidden": false,
-        "FullName": "Isabella Hoeger",
+        "ExtraInfo": "natus",
+        "StyleHint": "consectetur",
+        "Hidden": true,
+        "FullName": "Makenzie Kunze Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 694
+            "FieldLength": 490
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "itaque",
+    "ExtraInfo": "corrupti",
+    "StyleHint": "iure",
     "Hidden": false,
-    "FullName": "Zola Gottlieb",
+    "FullName": "Mrs. Grace Harber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 54
+        "FieldLength": 184
       }
     }
   }

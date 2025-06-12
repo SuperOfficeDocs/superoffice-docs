@@ -27,18 +27,21 @@ references:
 - uid: SuperOffice.ErpSync.ConnectorWS.ConfigFieldAttribute
   commentId: T:SuperOffice.ErpSync.ConnectorWS.ConfigFieldAttribute
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.ConfigFieldAttribute.html
   name: ConfigFieldAttribute
   nameWithType: ConfigFieldAttribute
   fullName: SuperOffice.ErpSync.ConnectorWS.ConfigFieldAttribute
 - uid: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper
   commentId: T:SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.html
   name: ConfigDataHelper
   nameWithType: ConfigDataHelper
   fullName: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper
 - uid: SuperOffice.ErpSync.ConnectorWS.ReversibleEncryptedString
   commentId: T:SuperOffice.ErpSync.ConnectorWS.ReversibleEncryptedString
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.ReversibleEncryptedString.html
   name: ReversibleEncryptedString
   nameWithType: ReversibleEncryptedString
   fullName: SuperOffice.ErpSync.ConnectorWS.ReversibleEncryptedString
@@ -46,6 +49,7 @@ references:
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
@@ -53,6 +57,7 @@ references:
   commentId: T:SuperOffice.ErpSync.ConnectorWS.IConfigDataStore
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.html
   name: IConfigDataStore
   nameWithType: IConfigDataStore
   fullName: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore
@@ -60,12 +65,14 @@ references:
   commentId: T:SuperOffice.ErpSync.ConnectorWS.ConfigDataStoreAttribute
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.ConfigDataStoreAttribute.html
   name: ConfigDataStoreAttribute
   nameWithType: ConfigDataStoreAttribute
   fullName: SuperOffice.ErpSync.ConnectorWS.ConfigDataStoreAttribute
 - uid: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore
   commentId: T:SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.html
   name: IsolatedStorageConfigDataStore
   nameWithType: IsolatedStorageConfigDataStore
   fullName: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore
@@ -73,24 +80,58 @@ references:
   commentId: T:SuperOffice.ErpSync.ConnectorWS.EisPluginLoader
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.html
   name: EisPluginLoader
   nameWithType: EisPluginLoader
   fullName: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader
 - uid: SuperOffice.ErpSync.ConnectorWS.ResponseErrorCodes
   commentId: T:SuperOffice.ErpSync.ConnectorWS.ResponseErrorCodes
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.ResponseErrorCodes.html
   name: ResponseErrorCodes
   nameWithType: ResponseErrorCodes
   fullName: SuperOffice.ErpSync.ConnectorWS.ResponseErrorCodes
 - uid: SuperOffice.ErpSync.ConnectorWS.ResponseHelper
   commentId: T:SuperOffice.ErpSync.ConnectorWS.ResponseHelper
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.html
   name: ResponseHelper
   nameWithType: ResponseHelper
   fullName: SuperOffice.ErpSync.ConnectorWS.ResponseHelper
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html

@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Flat": false,
-  "OnlyPresent": true
+  "OnlyPresent": false
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 814,
-    "Name": "Bergnaum, Torphy and Bashirian",
-    "ToolTip": "Molestiae eos placeat.",
-    "Deleted": true,
-    "Rank": 718,
-    "Type": "id",
+    "Id": 381,
+    "Name": "Corkery, Oberbrunner and Parker",
+    "ToolTip": "Ullam ipsum sed voluptatem.",
+    "Deleted": false,
+    "Rank": 532,
+    "Type": "facilis",
     "ChildItems": [
       {
-        "Id": 162,
-        "Name": "Bode-Adams",
-        "ToolTip": "Soluta ullam ratione.",
-        "Deleted": false,
-        "Rank": 154,
-        "Type": "deserunt",
+        "Id": 138,
+        "Name": "Aufderhar Inc and Sons",
+        "ToolTip": "Porro doloribus.",
+        "Deleted": true,
+        "Rank": 126,
+        "Type": "odit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "inventore",
-        "ColorBlock": 586,
-        "ExtraInfo": "quia",
-        "StyleHint": "est",
-        "FullName": "Johanna Labadie",
+        "IconHint": "occaecati",
+        "ColorBlock": 154,
+        "ExtraInfo": "rerum",
+        "StyleHint": "hic",
+        "FullName": "Gia Brown",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 799
+            "FieldLength": 750
           }
         }
       }
     ],
-    "IconHint": "sint",
-    "ColorBlock": 899,
-    "ExtraInfo": "neque",
-    "StyleHint": "alias",
-    "FullName": "Jamir Murray",
+    "IconHint": "voluptatem",
+    "ColorBlock": 674,
+    "ExtraInfo": "fugiat",
+    "StyleHint": "quam",
+    "FullName": "Ms. Joelle Athena Feest",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 556
+        "FieldType": "System.String",
+        "FieldLength": 693
       }
     }
   }

@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Herzog, Kihn and Schiller",
-  "ModuleName": "Predovic Group"
+  "OwnerName": "Kunde, Jewess and Herzog",
+  "ModuleName": "Mraz Inc and Sons"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Hermann-Lebsack",
-  "ModuleName": "Effertz-Kuhic",
-  "ModuleDescription": "Progressive national focus group",
-  "ModuleTooltip": "est",
-  "ModuleVersion": "in",
+  "OwnerName": "Dickens LLC",
+  "ModuleName": "Bauch-Murray",
+  "ModuleDescription": "Open-architected asynchronous info-mediaries",
+  "ModuleTooltip": "nobis",
+  "ModuleVersion": "distinctio",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": true,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 854,
-  "ExtraFlags": 188,
-  "ExtraInfo": "neque",
-  "SortOrder": 642,
+  "NumberOfLicenses": 408,
+  "ExtraFlags": 885,
+  "ExtraInfo": "ut",
+  "SortOrder": 125,
   "IsHidden": true,
-  "PrerequisiteModuleName": "Larson-Champlin",
-  "Signature": "quisquam"
+  "PrerequisiteModuleName": "Crist-Fahey",
+  "Signature": "atque"
 }
 ```

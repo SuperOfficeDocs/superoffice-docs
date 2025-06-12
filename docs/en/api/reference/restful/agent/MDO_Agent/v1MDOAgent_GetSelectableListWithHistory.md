@@ -91,18 +91,18 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Powlowski Inc and Sons",
+  "Name": "Weber-Turcotte",
   "ForceFlatList": false,
-  "AdditionalInfo": "nesciunt",
+  "AdditionalInfo": "alias",
   "HistoryItems": [
-    390,
-    646
+    495,
+    977
   ],
-  "OnlyHistory": false
+  "OnlyHistory": true
 }
 ```
 
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 211,
-    "Name": "Gerhold-Collins",
-    "ToolTip": "Beatae deleniti voluptatem animi.",
+    "Id": 341,
+    "Name": "Corkery-Pacocha",
+    "ToolTip": "Nihil magnam corrupti.",
     "Deleted": true,
-    "Rank": 961,
-    "Type": "accusamus",
-    "ColorBlock": 750,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2010-03-26T16:32:39.3675885+01:00",
+    "Rank": 543,
+    "Type": "deserunt",
+    "ColorBlock": 404,
+    "IconHint": "quam",
+    "Selected": false,
+    "LastChanged": "2011-11-24T17:54:03.3358211+01:00",
     "ChildItems": [
       {
-        "Id": 711,
-        "Name": "Oberbrunner Group",
-        "ToolTip": "Ut molestiae temporibus et magnam.",
-        "Deleted": false,
-        "Rank": 827,
-        "Type": "sunt",
-        "ColorBlock": 707,
-        "IconHint": "unde",
-        "Selected": false,
-        "LastChanged": "2002-10-29T16:32:39.3675885+01:00",
+        "Id": 857,
+        "Name": "Jacobs-Bergnaum",
+        "ToolTip": "Fuga beatae.",
+        "Deleted": true,
+        "Rank": 511,
+        "Type": "ipsa",
+        "ColorBlock": 705,
+        "IconHint": "cupiditate",
+        "Selected": true,
+        "LastChanged": "2024-07-22T17:54:03.3358211+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "voluptas",
-        "StyleHint": "qui",
+        "StyleHint": "in",
         "Hidden": true,
-        "FullName": "Mr. Herta Luz Tillman V",
+        "FullName": "Elda Torp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 28
+            "FieldType": "System.String",
+            "FieldLength": 377
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "in",
-    "Hidden": true,
-    "FullName": "Mrs. Adeline Yundt",
+    "ExtraInfo": "praesentium",
+    "StyleHint": "veritatis",
+    "Hidden": false,
+    "FullName": "Ari Pagac",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 959
+        "FieldLength": 372
       }
     }
   }

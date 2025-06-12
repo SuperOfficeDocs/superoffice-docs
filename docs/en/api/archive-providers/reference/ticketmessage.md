@@ -99,6 +99,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/createdBy/contactName|string|Request - Created by - Owning company: Name of the company the user belongs to| x |
 |ticket/createdBy/contactDepartment|string|Request - Created by - Owning department: Name of the department at the company the user belongs to| x |
 |ticket/createdBy/usergroup|userGroup|Request - Created by - Primary group: The user's primary user group| x |
+|ticket/createdBy/usergroupId|int|Request - Created by - Group ID: The user's primary user group| x |
 |ticket/createdBy/contactFullName|string|Request - Created by - Owner: Name and department of the company the user belongs to| x |
 |ticket/createdBy/contactCategory|listAny|Request - Created by - Category: Category| x |
 |ticket/createdBy/role|listAny|Request - Created by - Role: Role| x |
@@ -120,11 +121,11 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/createdBy/locationAddress|string|Request - Created by - Location: Location| x |
 |ticket/createdBy/isLocation|bool|Request - Created by - Is a location: Is a location| x |
 |ticket/ownedBy/firstName|string|Request - Owner - First name: Displays the contact's first name| x |
-|ticket/ownedBy/lastName|string|Request - Owner - Last name: Displays the contact's last name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ticket/ownedBy/lastName|string|Request - Owner - Last name: Displays the contact's last name| x |
 |ticket/ownedBy/middleName|string|Request - Owner - Middle Name: Displays the contact's middle name.| x |
 |ticket/ownedBy/fullName|string|Request - Owner - Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |ticket/ownedBy/contactId|int|Request - Owner - Company ID: Database ID of the company the user belongs to|  |
@@ -135,6 +136,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/ownedBy/contactName|string|Request - Owner - Owning company: Name of the company the user belongs to| x |
 |ticket/ownedBy/contactDepartment|string|Request - Owner - Owning department: Name of the department at the company the user belongs to| x |
 |ticket/ownedBy/usergroup|userGroup|Request - Owner - Primary group: The user's primary user group| x |
+|ticket/ownedBy/usergroupId|int|Request - Owner - Group ID: The user's primary user group| x |
 |ticket/ownedBy/contactFullName|string|Request - Owner - Owner: Name and department of the company the user belongs to| x |
 |ticket/ownedBy/contactCategory|listAny|Request - Owner - Category: Category| x |
 |ticket/ownedBy/role|listAny|Request - Owner - Role: Role| x |
@@ -223,12 +225,12 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/person/email/emailProtocol|string|Request - Protocol: E-mail protocol, such as SMTP| x |
 |ticket/person/email/emailAddress|string|Request - E-mail| x |
 |ticket/person/email/emailDescription|string|Request - Description| x |
-|ticket/person/email/emailId|int|Request - ID| x |
-|ticket/person/email/emailLastSent|datetime|Request - Last sent: The date and time an e-mail was last sent to this address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ticket/person/email/emailId|int|Request - ID| x |
+|ticket/person/email/emailLastSent|datetime|Request - Last sent: The date and time an e-mail was last sent to this address| x |
 |ticket/person/email/emailBounceCount|int|Request - Bounce count: Bounce count for this e-mail address| x |
 |ticket/person/email/emailLastBounce|datetime|Request - Last bounce: Date and time for last bounce to this e-mail address| x |
 |ticket/person/email/emailHasBounced|bool|Request - Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
@@ -271,6 +273,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/person/personUdef/SuperOffice:10|string|Request - page1marketingonly| x |
 |ticket/person/personUdef/SuperOffice:11|string|Request - page1adminonly| x |
 |ticket/person/personExtra/x\_person\_integer|int|Request - Extra Integer: Custom person integer| x |
+|ticket/person/personExtra/x\_person\_hidden\_integer|int|Request - Extra hidden integer: Custom integer field that is hidden| x |
 |ticket/person/personExtra/x\_person\_float|decimal|Request - Extra float: Custom float field| x |
 |ticket/person/personExtra/x\_person\_longtext|string|Request - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |ticket/person/personExtra/x\_person\_date|date|Request - Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -305,6 +308,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/person/personAssociate/contactName|string|Request - Owning company: Name of the company the user belongs to| x |
 |ticket/person/personAssociate/contactDepartment|string|Request - Owning department: Name of the department at the company the user belongs to| x |
 |ticket/person/personAssociate/usergroup|userGroup|Request - Primary group: The user's primary user group| x |
+|ticket/person/personAssociate/usergroupId|int|Request - Group ID: The user's primary user group| x |
 |ticket/person/personAssociate/contactFullName|string|Request - Owner: Name and department of the company the user belongs to| x |
 |ticket/person/personAssociate/contactCategory|listAny|Request - Category: Category| x |
 |ticket/person/personAssociate/role|listAny|Request - Role: Role| x |
@@ -325,14 +329,14 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/person/personAssociate/personEmail|string|Request - E-mail| x |
 |ticket/person/personAssociate/locationAddress|string|Request - Location: Location| x |
 |ticket/person/personAssociate/isLocation|bool|Request - Is a location: Is a location| x |
-|ticket/person/correspondingAssociate/firstName|string|Request - First name: Displays the contact's first name| x |
-|ticket/person/correspondingAssociate/lastName|string|Request - Last name: Displays the contact's last name| x |
-|ticket/person/correspondingAssociate/middleName|string|Request - Middle Name: Displays the contact's middle name.| x |
-|ticket/person/correspondingAssociate/fullName|string|Request - Full name: Displays full name of user (first, middle, last - according to settings)| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ticket/person/correspondingAssociate/firstName|string|Request - First name: Displays the contact's first name| x |
+|ticket/person/correspondingAssociate/lastName|string|Request - Last name: Displays the contact's last name| x |
+|ticket/person/correspondingAssociate/middleName|string|Request - Middle Name: Displays the contact's middle name.| x |
+|ticket/person/correspondingAssociate/fullName|string|Request - Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |ticket/person/correspondingAssociate/contactId|int|Request - Company ID: Database ID of the company the user belongs to|  |
 |ticket/person/correspondingAssociate/personId|int|Request - Contact ID: Database ID of the contact row|  |
 |ticket/person/correspondingAssociate/mrMrs|string|Request - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -341,6 +345,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/person/correspondingAssociate/contactName|string|Request - Owning company: Name of the company the user belongs to| x |
 |ticket/person/correspondingAssociate/contactDepartment|string|Request - Owning department: Name of the department at the company the user belongs to| x |
 |ticket/person/correspondingAssociate/usergroup|userGroup|Request - Primary group: The user's primary user group| x |
+|ticket/person/correspondingAssociate/usergroupId|int|Request - Group ID: The user's primary user group| x |
 |ticket/person/correspondingAssociate/contactFullName|string|Request - Owner: Name and department of the company the user belongs to| x |
 |ticket/person/correspondingAssociate/contactCategory|listAny|Request - Category: Category| x |
 |ticket/person/correspondingAssociate/role|listAny|Request - Role: Role| x |
@@ -428,15 +433,15 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/contact/streetAddress/addressId|int|Request - Street address - Address ID: Database ID for the address record| x |
 |ticket/contact/streetAddress/line1|string|Request - Street address - Address 1: First line of the address| x |
 |ticket/contact/streetAddress/line2|string|Request - Street address - Address 2: Second line of the address| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |ticket/contact/streetAddress/line3|string|Request - Street address - Address 3: Third line of the address| x |
 |ticket/contact/streetAddress/county|string|Request - Street address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |ticket/contact/streetAddress/city|string|Request - Street address - City: This criterion corresponds to the City field on the Company card.| x |
 |ticket/contact/streetAddress/zip|string|Request - Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |ticket/contact/streetAddress/state|string|Request - Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |ticket/contact/streetAddress/wgs84latitude|decimal|Request - Street address - Latitude: Latitude| x |
 |ticket/contact/streetAddress/wgs84longitude|decimal|Request - Street address - Longitude: Longitude| x |
 |ticket/contact/streetAddress/formattedAddress| *None* |Request - Street address - {formattedAddress}: {formattedAddress}|  |
@@ -467,6 +472,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/contact/contactAssociate/contactName|string|Request - Owning company: Name of the company the user belongs to| x |
 |ticket/contact/contactAssociate/contactDepartment|string|Request - Owning department: Name of the department at the company the user belongs to| x |
 |ticket/contact/contactAssociate/usergroup|userGroup|Request - Primary group: The user's primary user group| x |
+|ticket/contact/contactAssociate/usergroupId|int|Request - Group ID: The user's primary user group| x |
 |ticket/contact/contactAssociate/contactFullName|string|Request - Owner: Name and department of the company the user belongs to| x |
 |ticket/contact/contactAssociate/contactCategory|listAny|Request - Category: Category| x |
 |ticket/contact/contactAssociate/role|listAny|Request - Role: Role| x |
@@ -502,6 +508,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/contact/contactUdef/SuperOffice:12|listAny|Request - Udlist one: Static tooltip for udlist one| x |
 |ticket/contact/contactUdef/SuperOffice:13|listAny|Request - Udlist two: Static tooltip for udlist two| x |
 |ticket/contact/contactExtra/x\_contact\_integer|int|Request - Extra Integer: Custom integer field| x |
+|ticket/contact/contactExtra/x\_contact\_hidden\_integer|int|Request - Extra hidden integer: Custom integer field - hidden| x |
 |ticket/contact/contactExtra/x\_contact\_default\_integer|int|Request - Extra Default Integer: Custom integer field with default value 123.| x |
 |ticket/contact/contactExtra/x\_contact\_float|decimal|Request - Extra Float: Custom float field with 3 decimals| x |
 |ticket/contact/contactExtra/x\_contact\_longtext|string|Request - Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -530,6 +537,10 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/contact/NumberOfNotCompletedSalesInPeriod|int|Request - Number of non-completed sales in last 90 days|  |
 |ticket/contact/LastSale|date|Request - Date of last sale|  |
 |ticket/contact/LastCompletedSale|date|Request - Date of last completed sale|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |ticket/contact/LastDoBySale|date|Request - Date of last non-completed sale|  |
 |ticket/contact/NumberOfTickets|int|Request - Number of requests|  |
 |ticket/contact/NumberOfTicketsInPeriod|int|Request - Number of requests in last 90 days|  |
@@ -537,10 +548,6 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/contact/NumberOfNotCompletedTicketsInPeriod|int|Request - Number of non-completed requests in last 90 days|  |
 |ticket/contact/LastTicket|date|Request - Date of last request|  |
 |ticket/contact/LastCompletedTicket|date|Request - Date of last completed request|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |ticket/contact/LastDoByTicket|date|Request - Date of last non-completed request|  |
 |ticket/contact/SaintStatus1|saintStatus|Request - Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
 |ticket/contact/SaintStatus2|saintStatus|Request - C-company: Kundens navn starter med bokstaven C|  |
@@ -561,6 +568,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/extra/x\_ticket\_timespan|timeSpan|Request - Extra timespan: Custom timespan field on Request. Default = 1 hr 25 minutes. Show in props| x |
 |ticket/extra/x\_ticket\_short\_text|string|Request - Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request| x |
 |ticket/extra/x\_ticket\_shorttext\_list|listAny|Request - Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
+|ticket/extra/x\_ticket\_timestamp|datetime|Request - Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
 |ticket/extra/x\_ticket\_project\_relation|stringorPK|Request - Extra project: Custom project relation on Request| x |
 |ticket/extra/x\_ticket\_faq|stringorPK|Request - Extra FAQ Relation| x |
 |ticket/extra/x\_ticket\_category\_relation|listAny|Request - Extra category relation: Category relation on request| x |
@@ -633,18 +641,19 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/sale/associate/fullName|string|Request - Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |ticket/sale/associate/contactId|int|Request - Company ID: Database ID of the company the user belongs to|  |
 |ticket/sale/associate/personId|int|Request - Contact ID: Database ID of the contact row|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |ticket/sale/associate/mrMrs|string|Request - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |ticket/sale/associate/title|string|Request - Title: Displays whether the contact is addressed as Mr or Ms| x |
 |ticket/sale/associate/associateDbId|associate|Request - ID| x |
 |ticket/sale/associate/contactName|string|Request - Owning company: Name of the company the user belongs to| x |
 |ticket/sale/associate/contactDepartment|string|Request - Owning department: Name of the department at the company the user belongs to| x |
 |ticket/sale/associate/usergroup|userGroup|Request - Primary group: The user's primary user group| x |
+|ticket/sale/associate/usergroupId|int|Request - Group ID: The user's primary user group| x |
 |ticket/sale/associate/contactFullName|string|Request - Owner: Name and department of the company the user belongs to| x |
 |ticket/sale/associate/contactCategory|listAny|Request - Category: Category| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |ticket/sale/associate/role|listAny|Request - Role: Role| x |
 |ticket/sale/associate/assocName|associate|Request - User ID: User ID| x |
 |ticket/sale/associate/assocTooltip|string|Request - Description: Description|  |
@@ -716,6 +725,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/project/projectAssociate/contactName|string|Request - Owning company: Name of the company the user belongs to| x |
 |ticket/project/projectAssociate/contactDepartment|string|Request - Owning department: Name of the department at the company the user belongs to| x |
 |ticket/project/projectAssociate/usergroup|userGroup|Request - Primary group: The user's primary user group| x |
+|ticket/project/projectAssociate/usergroupId|int|Request - Group ID: The user's primary user group| x |
 |ticket/project/projectAssociate/contactFullName|string|Request - Owner: Name and department of the company the user belongs to| x |
 |ticket/project/projectAssociate/contactCategory|listAny|Request - Category: Category| x |
 |ticket/project/projectAssociate/role|listAny|Request - Role: Role| x |
@@ -735,6 +745,10 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/project/projectAssociate/userName|string|Request - User name: User name| x |
 |ticket/project/projectAssociate/personEmail|string|Request - E-mail| x |
 |ticket/project/projectAssociate/locationAddress|string|Request - Location: Location| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |ticket/project/projectAssociate/isLocation|bool|Request - Is a location: Is a location| x |
 |ticket/project/projectUdef/SuperOffice:1|string|Request - projectshorttext| x |
 |ticket/project/projectUdef/SuperOffice:2|string|Request - projectlongtext| x |
@@ -745,10 +759,6 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/project/projectUdef/SuperOffice:7|listAny|Request - projectdropdownlistbox| x |
 |ticket/project/projectUdef/SuperOffice:8|decimal|Request - projectdecimal| x |
 |ticket/project/projectUdef/SuperOffice:9|int|Request - page1saleandmarketing| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |ticket/project/projectUdef/SuperOffice:10|int|Request - page1saleandadmin| x |
 |ticket/project/NumberOfActivities|int|Request - Number of activities|  |
 |ticket/project/NumberOfActivitiesInPeriod|int|Request - Number of activities in last 90 days|  |
@@ -824,11 +834,21 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |person/updatedByWorkflow|listAny|Contact - Updated by flow: Updated by flow| x |
 |person/whenUpdatedByWorkflow|datetime|Contact - When updated by flow: When updated by flow| x |
 |person/createdByForm|listAny|Contact - Created by form: Created by form| x |
+|ticketMessageExtra/x\_message\_integer|int|Extra integer: Custom integer on message. Hidden. Default 123| x |
+|ticketMessageExtra/x\_message\_float|decimal|Extra float: Custom float on message. Hidden| x |
+|ticketMessageExtra/x\_message\_longtext|string|Extra long text: Custom long text on Message. Hidden, do not keep HTML| x |
+|ticketMessageExtra/x\_message\_date|date|Extra date: Custom date field on message. Hidden.| x |
+|ticketMessageExtra/x\_message\_datetime|datetime|Extra DateTime: Custom datetime on message. Hidden. Use current as default| x |
+|ticketMessageExtra/x\_message\_time| *None* |Extra Time: Custom time field on message. Hidden| x |
+|ticketMessageExtra/x\_message\_boolean|bool|Extra Boolean: Custom boolean field on message. Hidden| x |
+|ticketMessageExtra/x\_message\_timespan|timeSpan|Extra timespan: Custom timespan field on message. Hidden| x |
+|ticketMessageExtra/x\_message\_short\_text|string|Extra short text: Custom short text field. Hidden.| x |
+|ticketMessageExtra/x\_message\_sale\_relation|stringorPK|Extra sale relation: Custom sale relation field. Hidden| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=ticket/repliedAt,ticket/createdBy/contactId,ticket/person/lastName,ticket/person/personAddress/line3,ticket/person/personUdef/SuperOffice:8
+GET /api/v1/archive/TicketMessage?$select=ticket/readByCustomer,ticket/createdBy/firstName,ticket/person/email/emailLastBounce,ticket/contact/registeredByFullName,ticket/sale/stageRank
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

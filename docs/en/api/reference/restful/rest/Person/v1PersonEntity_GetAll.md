@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Person?$select=name,department,category/id
 GET /api/v1/Person?$filter=name begins 'S'
 GET /api/v1/Person?$orderBy=name asc
-GET /api/v1/Person?$entities=incidunt
-GET /api/v1/Person?$top=981
-GET /api/v1/Person?$skip=250
+GET /api/v1/Person?$entities=mollitia
+GET /api/v1/Person?$top=548
+GET /api/v1/Person?$skip=740
 GET /api/v1/Person?$mode=Full
 GET /api/v1/Person?$options=GrandTotal=true
-GET /api/v1/Person?$context=aliquid
+GET /api/v1/Person?$context=autem
 GET /api/v1/Person?$format=JSON
-GET /api/v1/Person?$jsonSafe=False
+GET /api/v1/Person?$jsonSafe=True
 GET /api/v1/Person?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Person
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "est",
+  "odata.nextLink": "aut",
   "value": [
     {
-      "PrimaryKey": 1166,
-      "EntityName": "person",
-      "personId": 1166,
-      "fullName": "Jaydon Jones"
+      "PrimaryKey": 2806,
+      "EntityName": "sale",
+      "saleId": 2806,
+      "contactId": 3784,
+      "name": "Gutmann-Satterfield"
     },
     {
-      "PrimaryKey": 4836,
-      "EntityName": "person",
-      "personId": 4836,
-      "fullName": "Donavon Howell"
+      "PrimaryKey": 3996,
+      "EntityName": "sale",
+      "saleId": 3996,
+      "contactId": 8668,
+      "name": "Jerde, Torphy and Donnelly"
     }
   ]
 }

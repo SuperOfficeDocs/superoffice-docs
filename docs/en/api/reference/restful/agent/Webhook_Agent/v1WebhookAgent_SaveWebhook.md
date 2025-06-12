@@ -93,28 +93,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 89,
-  "Name": "Morissette-Emmerich",
+  "WebhookId": 264,
+  "Name": "Bogisich-Kuphal",
   "Events": [
-    "hic",
-    "voluptatem"
+    "et",
+    "est"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "et",
+  "Secret": "perferendis",
   "State": "Active",
-  "Type": "in",
+  "Type": "et",
   "Headers": {
-    "Headers1": "asperiores",
-    "Headers2": "quos"
+    "Headers1": "delectus",
+    "Headers2": "repellendus"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2016-07-15T16:32:40.5394394+02:00",
+  "Registered": "2014-08-26T17:54:03.9139184+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2009-01-23T16:32:40.5394394+01:00",
+  "Updated": "2023-05-19T17:54:03.9139184+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "weston@veum.co.uk"
+  "ErrorsEmail": "mabelle_zieme@okunevagreenfelder.com"
 }
 ```
 
@@ -125,27 +125,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 74,
-  "Name": "Purdy Group",
+  "WebhookId": 555,
+  "Name": "Parisian, Grant and Bahringer",
   "Events": [
-    "nobis",
-    "impedit"
+    "repudiandae",
+    "distinctio"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "sunt",
+  "Secret": "error",
   "State": "Active",
-  "Type": "occaecati",
+  "Type": "odio",
   "Headers": {
-    "Headers1": "voluptatem",
-    "Headers2": "sint"
+    "Headers1": "minus",
+    "Headers2": "culpa"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2024-07-08T16:32:40.5394394+02:00",
+  "Registered": "2021-12-12T17:54:03.9295422+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2003-08-27T16:32:40.5394394+02:00",
+  "Updated": "2001-03-29T17:54:03.9295422+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "carolyne@schoennicolas.info"
+  "ErrorsEmail": "sven@luettgenhartmann.co.uk"
 }
 ```

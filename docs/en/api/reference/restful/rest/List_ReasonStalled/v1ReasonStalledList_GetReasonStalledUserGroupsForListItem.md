@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 871,
-    "Name": "Stamm-Emard",
-    "ToolTip": "Deleniti quas.",
-    "Deleted": true,
-    "Rank": 843,
-    "Type": "velit",
-    "ColorBlock": 615,
-    "IconHint": "ratione",
+    "Id": 825,
+    "Name": "Bogisich-Dickens",
+    "ToolTip": "Ea aut laudantium eos molestiae odio rerum officia.",
+    "Deleted": false,
+    "Rank": 202,
+    "Type": "qui",
+    "ColorBlock": 520,
+    "IconHint": "perferendis",
     "Selected": true,
-    "LastChanged": "2025-03-28T16:32:48.9307198+01:00",
+    "LastChanged": "2010-06-28T17:54:09.1011806+02:00",
     "ChildItems": [
       {
-        "Id": 50,
-        "Name": "Russel LLC",
-        "ToolTip": "Sed accusamus aperiam aut facere omnis non.",
-        "Deleted": true,
-        "Rank": 736,
-        "Type": "excepturi",
-        "ColorBlock": 760,
-        "IconHint": "quae",
+        "Id": 696,
+        "Name": "Tremblay-Pfeffer",
+        "ToolTip": "Nihil ex.",
+        "Deleted": false,
+        "Rank": 604,
+        "Type": "reiciendis",
+        "ColorBlock": 748,
+        "IconHint": "sint",
         "Selected": true,
-        "LastChanged": "1998-05-22T16:32:48.9307198+02:00",
+        "LastChanged": "2024-10-01T17:54:09.1011806+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Ms. Kolby Elinore Hills",
+        "ExtraInfo": "quia",
+        "StyleHint": "similique",
+        "Hidden": false,
+        "FullName": "Zetta Thiel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 511
+            "FieldLength": 258
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "qui",
+    "ExtraInfo": "quasi",
+    "StyleHint": "quibusdam",
     "Hidden": false,
-    "FullName": "Thaddeus Rolfson",
+    "FullName": "Ms. Alysha Roberto Gottlieb I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 974
+        "FieldType": "System.Int32",
+        "FieldLength": 434
       }
     }
   }

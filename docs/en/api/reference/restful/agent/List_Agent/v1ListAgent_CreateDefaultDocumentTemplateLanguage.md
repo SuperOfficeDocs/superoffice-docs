@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateLanguage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 986,
-  "LanguageCode": "dolorem"
+  "DocumentTemplateId": 319,
+  "LanguageCode": "doloremque"
 }
 ```
 

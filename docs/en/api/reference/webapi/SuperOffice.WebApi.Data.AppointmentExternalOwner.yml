@@ -9,64 +9,24 @@ items:
   - SuperOffice.WebApi.Data.AppointmentExternalOwner.None
   - SuperOffice.WebApi.Data.AppointmentExternalOwner.Other
   - SuperOffice.WebApi.Data.AppointmentExternalOwner.Outlook
-  - SuperOffice.WebApi.Data.AppointmentExternalOwner.value__
   langs:
   - csharp
   - vb
   name: AppointmentExternalOwner
   nameWithType: AppointmentExternalOwner
   fullName: SuperOffice.WebApi.Data.AppointmentExternalOwner
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nAn external owner system for appointments (Outlook, Google...)\nThis Enum is used by:  appointment.owned_externally\n"
-  syntax:
-    content: 'public sealed class AppointmentExternalOwner : Enum'
-    content.vb: >-
-      Public NotInheritable Class AppointmentExternalOwner
-          Inherits
+  summary: >-
+    An external owner system for appointments (Outlook, Google...)
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.AppointmentExternalOwner.value__
-  commentId: F:SuperOffice.WebApi.Data.AppointmentExternalOwner.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.AppointmentExternalOwner
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: AppointmentExternalOwner.value__
-  fullName: SuperOffice.WebApi.Data.AppointmentExternalOwner.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  appointment.owned_externally
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: 'public enum AppointmentExternalOwner : short'
+    content.vb: Public Enum AppointmentExternalOwner As Short
 - uid: SuperOffice.WebApi.Data.AppointmentExternalOwner.None
   commentId: F:SuperOffice.WebApi.Data.AppointmentExternalOwner.None
   id: None
@@ -78,24 +38,26 @@ items:
   nameWithType: AppointmentExternalOwner.None
   fullName: SuperOffice.WebApi.Data.AppointmentExternalOwner.None
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: No external owner\n"
+  summary: '0: No external owner'
+  example: []
   syntax:
-    content: public const AppointmentExternalOwner None
+    content: >-
+      [EnumMember]
+
+      None = 0
     return:
       type: SuperOffice.WebApi.Data.AppointmentExternalOwner
-    content.vb: Public Const None As AppointmentExternalOwner
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      None = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.AppointmentExternalOwner.Other
   commentId: F:SuperOffice.WebApi.Data.AppointmentExternalOwner.Other
   id: Other
@@ -107,24 +69,26 @@ items:
   nameWithType: AppointmentExternalOwner.Other
   fullName: SuperOffice.WebApi.Data.AppointmentExternalOwner.Other
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: An external system owns the appointment\n"
+  summary: '1: An external system owns the appointment'
+  example: []
   syntax:
-    content: public const AppointmentExternalOwner Other
+    content: >-
+      [EnumMember]
+
+      Other = 1
     return:
       type: SuperOffice.WebApi.Data.AppointmentExternalOwner
-    content.vb: Public Const Other As AppointmentExternalOwner
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Other = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.AppointmentExternalOwner.Outlook
   commentId: F:SuperOffice.WebApi.Data.AppointmentExternalOwner.Outlook
   id: Outlook
@@ -136,24 +100,26 @@ items:
   nameWithType: AppointmentExternalOwner.Outlook
   fullName: SuperOffice.WebApi.Data.AppointmentExternalOwner.Outlook
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Outlook owns the appointment\n"
+  summary: '2: Outlook owns the appointment'
+  example: []
   syntax:
-    content: public const AppointmentExternalOwner Outlook
+    content: >-
+      [EnumMember]
+
+      Outlook = 2
     return:
       type: SuperOffice.WebApi.Data.AppointmentExternalOwner
-    content.vb: Public Const Outlook As AppointmentExternalOwner
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Outlook = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.AppointmentExternalOwner.Google
   commentId: F:SuperOffice.WebApi.Data.AppointmentExternalOwner.Google
   id: Google
@@ -165,55 +131,69 @@ items:
   nameWithType: AppointmentExternalOwner.Google
   fullName: SuperOffice.WebApi.Data.AppointmentExternalOwner.Google
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Google owns the appointment\n"
+  summary: '3: Google owns the appointment'
+  example: []
   syntax:
-    content: public const AppointmentExternalOwner Google
+    content: >-
+      [EnumMember]
+
+      Google = 3
     return:
       type: SuperOffice.WebApi.Data.AppointmentExternalOwner
-    content.vb: Public Const Google As AppointmentExternalOwner
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Google = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.AppointmentExternalOwner
   commentId: T:SuperOffice.WebApi.Data.AppointmentExternalOwner
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.AppointmentExternalOwner.html
   name: AppointmentExternalOwner
   nameWithType: AppointmentExternalOwner
   fullName: SuperOffice.WebApi.Data.AppointmentExternalOwner

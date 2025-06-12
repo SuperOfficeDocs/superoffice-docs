@@ -28,33 +28,54 @@ items:
   nameWithType: Dash
   fullName: SuperOffice.CRM.Services.Dash
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDashboard configuration\n<p></p>\nCarrier object for Dash.\nServices for the Dash Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IDashAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Dashboard configuration
+
+    <p></p>
+
+    Carrier object for Dash.
+
+    Services for the Dash Carrier is available from the <xref href="SuperOffice.CRM.Services.IDashAgent?text=Dash+Agent" data-throw-if-not-resolved="false"></xref>.
   example:
-  - "\nGet Dash 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new DashAgent();\n    var dash = agent.GetDash( 123 );\n }</code></pre>\n"
+  - >-
+    Get Dash 123 using the agent:
+
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       var agent = new DashAgent();
+       var dash = agent.GetDash( 123 );
+    }</code></pre>
   syntax:
-    content: 'public class Dash : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class Dash : Carrier
     content.vb: >-
-      Public Class Dash
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class Dash Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.DashAgent
-    commentId: T:SuperOffice.CRM.Services.DashAgent
   - linkId: SuperOffice.CRM.Services.IDashAgent
     commentId: T:SuperOffice.CRM.Services.IDashAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.Dash.#ctor
   commentId: M:SuperOffice.CRM.Services.Dash.#ctor
   id: '#ctor'
@@ -66,21 +87,18 @@ items:
   nameWithType: Dash.Dash()
   fullName: SuperOffice.CRM.Services.Dash.Dash()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public Dash()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.Dash.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: Dash.New()
+  fullName.vb: SuperOffice.CRM.Services.Dash.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.Dash.ToString
   commentId: M:SuperOffice.CRM.Services.Dash.ToString
   id: ToString
@@ -92,26 +110,18 @@ items:
   nameWithType: Dash.ToString()
   fullName: SuperOffice.CRM.Services.Dash.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.Dash.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.Dash.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.Dash.ToString(System.String)
   id: ToString(System.String)
@@ -119,17 +129,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: Dash.ToString(String)
-  fullName: SuperOffice.CRM.Services.Dash.ToString(System.String)
+  name: ToString(string)
+  nameWithType: Dash.ToString(string)
+  fullName: SuperOffice.CRM.Services.Dash.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -141,10 +152,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.Dash.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: Dash.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.Dash.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.Dash.DashboardId
   commentId: P:SuperOffice.CRM.Services.Dash.DashboardId
   id: DashboardId
@@ -156,28 +166,28 @@ items:
   nameWithType: Dash.DashboardId
   fullName: SuperOffice.CRM.Services.Dash.DashboardId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
-    content: public virtual int DashboardId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int DashboardId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property DashboardId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property DashboardId As Integer
   overload: SuperOffice.CRM.Services.Dash.DashboardId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Dash.UniqueId
   commentId: P:SuperOffice.CRM.Services.Dash.UniqueId
   id: UniqueId
@@ -189,28 +199,28 @@ items:
   nameWithType: Dash.UniqueId
   fullName: SuperOffice.CRM.Services.Dash.UniqueId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGUID identifying a default dashboard from SuperOffice \n"
+  summary: GUID identifying a default dashboard from SuperOffice
+  example: []
   syntax:
-    content: public virtual string UniqueId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string UniqueId { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property UniqueId As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UniqueId As String
   overload: SuperOffice.CRM.Services.Dash.UniqueId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Dash.Name
   commentId: P:SuperOffice.CRM.Services.Dash.Name
   id: Name
@@ -222,28 +232,28 @@ items:
   nameWithType: Dash.Name
   fullName: SuperOffice.CRM.Services.Dash.Name
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe name of this dashboard \n"
+  summary: The name of this dashboard
+  example: []
   syntax:
-    content: public virtual string Name { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Name As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Name As String
   overload: SuperOffice.CRM.Services.Dash.Name*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Dash.Description
   commentId: P:SuperOffice.CRM.Services.Dash.Description
   id: Description
@@ -255,28 +265,28 @@ items:
   nameWithType: Dash.Description
   fullName: SuperOffice.CRM.Services.Dash.Description
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDetailed description \n"
+  summary: Detailed description
+  example: []
   syntax:
-    content: public virtual string Description { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Description { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Description As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Description As String
   overload: SuperOffice.CRM.Services.Dash.Description*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Dash.AssociateId
   commentId: P:SuperOffice.CRM.Services.Dash.AssociateId
   id: AssociateId
@@ -288,28 +298,28 @@ items:
   nameWithType: Dash.AssociateId
   fullName: SuperOffice.CRM.Services.Dash.AssociateId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nAssociate who owns this dashboard \n"
+  summary: Associate who owns this dashboard
+  example: []
   syntax:
-    content: public virtual int AssociateId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int AssociateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property AssociateId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property AssociateId As Integer
   overload: SuperOffice.CRM.Services.Dash.AssociateId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Dash.Columns
   commentId: P:SuperOffice.CRM.Services.Dash.Columns
   id: Columns
@@ -321,28 +331,28 @@ items:
   nameWithType: Dash.Columns
   fullName: SuperOffice.CRM.Services.Dash.Columns
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nHow many columns there will be in the dashboard. \n"
+  summary: How many columns there will be in the dashboard.
+  example: []
   syntax:
-    content: public virtual int Columns { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int Columns { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property Columns As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Columns As Integer
   overload: SuperOffice.CRM.Services.Dash.Columns*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Dash.Theme
   commentId: P:SuperOffice.CRM.Services.Dash.Theme
   id: Theme
@@ -354,28 +364,28 @@ items:
   nameWithType: Dash.Theme
   fullName: SuperOffice.CRM.Services.Dash.Theme
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe theme for this dashboard \n"
+  summary: The theme for this dashboard
+  example: []
   syntax:
-    content: public virtual DashTheme Theme { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DashTheme Theme { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.DashTheme
-    content.vb: Public Overridable Property Theme As DashTheme
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Theme As DashTheme
   overload: SuperOffice.CRM.Services.Dash.Theme*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Dash.VisibleForAll
   commentId: P:SuperOffice.CRM.Services.Dash.VisibleForAll
   id: VisibleForAll
@@ -387,28 +397,28 @@ items:
   nameWithType: Dash.VisibleForAll
   fullName: SuperOffice.CRM.Services.Dash.VisibleForAll
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTrue if visible for all \n"
+  summary: True if visible for all
+  example: []
   syntax:
-    content: public virtual short VisibleForAll { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual short VisibleForAll { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: Public Overridable Property VisibleForAll As Short
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property VisibleForAll As Short
   overload: SuperOffice.CRM.Services.Dash.VisibleForAll*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Dash.VisibleForAssociates
   commentId: P:SuperOffice.CRM.Services.Dash.VisibleForAssociates
   id: VisibleForAssociates
@@ -420,28 +430,28 @@ items:
   nameWithType: Dash.VisibleForAssociates
   fullName: SuperOffice.CRM.Services.Dash.VisibleForAssociates
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nArray of references to the visible for associates \n"
+  summary: Array of references to the visible for associates
+  example: []
   syntax:
-    content: public virtual int[] VisibleForAssociates { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int[] VisibleForAssociates { get; set; }
     parameters: []
     return:
       type: System.Int32[]
-    content.vb: Public Overridable Property VisibleForAssociates As Integer()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property VisibleForAssociates As Integer()
   overload: SuperOffice.CRM.Services.Dash.VisibleForAssociates*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Dash.VisibleForGroups
   commentId: P:SuperOffice.CRM.Services.Dash.VisibleForGroups
   id: VisibleForGroups
@@ -453,28 +463,28 @@ items:
   nameWithType: Dash.VisibleForGroups
   fullName: SuperOffice.CRM.Services.Dash.VisibleForGroups
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nArray of references to the visible for groups \n"
+  summary: Array of references to the visible for groups
+  example: []
   syntax:
-    content: public virtual int[] VisibleForGroups { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int[] VisibleForGroups { get; set; }
     parameters: []
     return:
       type: System.Int32[]
-    content.vb: Public Overridable Property VisibleForGroups As Integer()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property VisibleForGroups As Integer()
   overload: SuperOffice.CRM.Services.Dash.VisibleForGroups*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Dash.PinForAll
   commentId: P:SuperOffice.CRM.Services.Dash.PinForAll
   id: PinForAll
@@ -486,28 +496,28 @@ items:
   nameWithType: Dash.PinForAll
   fullName: SuperOffice.CRM.Services.Dash.PinForAll
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTrue if pinned for all \n"
+  summary: True if pinned for all
+  example: []
   syntax:
-    content: public virtual short PinForAll { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual short PinForAll { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: Public Overridable Property PinForAll As Short
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PinForAll As Short
   overload: SuperOffice.CRM.Services.Dash.PinForAll*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Dash.PinForAssociates
   commentId: P:SuperOffice.CRM.Services.Dash.PinForAssociates
   id: PinForAssociates
@@ -519,28 +529,28 @@ items:
   nameWithType: Dash.PinForAssociates
   fullName: SuperOffice.CRM.Services.Dash.PinForAssociates
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nArray of references to the pinned associates \n"
+  summary: Array of references to the pinned associates
+  example: []
   syntax:
-    content: public virtual int[] PinForAssociates { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int[] PinForAssociates { get; set; }
     parameters: []
     return:
       type: System.Int32[]
-    content.vb: Public Overridable Property PinForAssociates As Integer()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PinForAssociates As Integer()
   overload: SuperOffice.CRM.Services.Dash.PinForAssociates*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Dash.PinForGroups
   commentId: P:SuperOffice.CRM.Services.Dash.PinForGroups
   id: PinForGroups
@@ -552,57 +562,106 @@ items:
   nameWithType: Dash.PinForGroups
   fullName: SuperOffice.CRM.Services.Dash.PinForGroups
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nArray of references to the pinned groups \n"
+  summary: Array of references to the pinned groups
+  example: []
   syntax:
-    content: public virtual int[] PinForGroups { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int[] PinForGroups { get; set; }
     parameters: []
     return:
       type: System.Int32[]
-    content.vb: Public Overridable Property PinForGroups As Integer()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PinForGroups As Integer()
   overload: SuperOffice.CRM.Services.Dash.PinForGroups*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.DashAgent
-  commentId: T:SuperOffice.CRM.Services.DashAgent
-  isExternal: true
-  name: DashAgent
-  nameWithType: DashAgent
-  fullName: SuperOffice.CRM.Services.DashAgent
 - uid: SuperOffice.CRM.Services.IDashAgent
   commentId: T:SuperOffice.CRM.Services.IDashAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IDashAgent.html
   name: IDashAgent
   nameWithType: IDashAgent
   fullName: SuperOffice.CRM.Services.IDashAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.Dash.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.Dash.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.Dash.html#SuperOffice_CRM_Services_Dash__ctor
   name: Dash
   nameWithType: Dash.Dash
   fullName: SuperOffice.CRM.Services.Dash.Dash
+  nameWithType.vb: Dash.New
+  fullName.vb: SuperOffice.CRM.Services.Dash.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.Dash.ToString*
   commentId: Overload:SuperOffice.CRM.Services.Dash.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.Dash.html#SuperOffice_CRM_Services_Dash_ToString
   name: ToString
   nameWithType: Dash.ToString
   fullName: SuperOffice.CRM.Services.Dash.ToString
@@ -610,18 +669,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.Dash.DashboardId*
   commentId: Overload:SuperOffice.CRM.Services.Dash.DashboardId
   isExternal: true
+  href: SuperOffice.CRM.Services.Dash.html#SuperOffice_CRM_Services_Dash_DashboardId
   name: DashboardId
   nameWithType: Dash.DashboardId
   fullName: SuperOffice.CRM.Services.Dash.DashboardId
@@ -629,42 +687,52 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.Dash.UniqueId*
   commentId: Overload:SuperOffice.CRM.Services.Dash.UniqueId
   isExternal: true
+  href: SuperOffice.CRM.Services.Dash.html#SuperOffice_CRM_Services_Dash_UniqueId
   name: UniqueId
   nameWithType: Dash.UniqueId
   fullName: SuperOffice.CRM.Services.Dash.UniqueId
 - uid: SuperOffice.CRM.Services.Dash.Name*
   commentId: Overload:SuperOffice.CRM.Services.Dash.Name
   isExternal: true
+  href: SuperOffice.CRM.Services.Dash.html#SuperOffice_CRM_Services_Dash_Name
   name: Name
   nameWithType: Dash.Name
   fullName: SuperOffice.CRM.Services.Dash.Name
 - uid: SuperOffice.CRM.Services.Dash.Description*
   commentId: Overload:SuperOffice.CRM.Services.Dash.Description
   isExternal: true
+  href: SuperOffice.CRM.Services.Dash.html#SuperOffice_CRM_Services_Dash_Description
   name: Description
   nameWithType: Dash.Description
   fullName: SuperOffice.CRM.Services.Dash.Description
 - uid: SuperOffice.CRM.Services.Dash.AssociateId*
   commentId: Overload:SuperOffice.CRM.Services.Dash.AssociateId
   isExternal: true
+  href: SuperOffice.CRM.Services.Dash.html#SuperOffice_CRM_Services_Dash_AssociateId
   name: AssociateId
   nameWithType: Dash.AssociateId
   fullName: SuperOffice.CRM.Services.Dash.AssociateId
 - uid: SuperOffice.CRM.Services.Dash.Columns*
   commentId: Overload:SuperOffice.CRM.Services.Dash.Columns
   isExternal: true
+  href: SuperOffice.CRM.Services.Dash.html#SuperOffice_CRM_Services_Dash_Columns
   name: Columns
   nameWithType: Dash.Columns
   fullName: SuperOffice.CRM.Services.Dash.Columns
 - uid: SuperOffice.CRM.Services.Dash.Theme*
   commentId: Overload:SuperOffice.CRM.Services.Dash.Theme
   isExternal: true
+  href: SuperOffice.CRM.Services.Dash.html#SuperOffice_CRM_Services_Dash_Theme
   name: Theme
   nameWithType: Dash.Theme
   fullName: SuperOffice.CRM.Services.Dash.Theme
@@ -672,12 +740,14 @@ references:
   commentId: T:SuperOffice.CRM.Services.DashTheme
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.DashTheme.html
   name: DashTheme
   nameWithType: DashTheme
   fullName: SuperOffice.CRM.Services.DashTheme
 - uid: SuperOffice.CRM.Services.Dash.VisibleForAll*
   commentId: Overload:SuperOffice.CRM.Services.Dash.VisibleForAll
   isExternal: true
+  href: SuperOffice.CRM.Services.Dash.html#SuperOffice_CRM_Services_Dash_VisibleForAll
   name: VisibleForAll
   nameWithType: Dash.VisibleForAll
   fullName: SuperOffice.CRM.Services.Dash.VisibleForAll
@@ -685,62 +755,68 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: SuperOffice.CRM.Services.Dash.VisibleForAssociates*
   commentId: Overload:SuperOffice.CRM.Services.Dash.VisibleForAssociates
   isExternal: true
+  href: SuperOffice.CRM.Services.Dash.html#SuperOffice_CRM_Services_Dash_VisibleForAssociates
   name: VisibleForAssociates
   nameWithType: Dash.VisibleForAssociates
   fullName: SuperOffice.CRM.Services.Dash.VisibleForAssociates
 - uid: System.Int32[]
   isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
   spec.csharp:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.Dash.VisibleForGroups*
   commentId: Overload:SuperOffice.CRM.Services.Dash.VisibleForGroups
   isExternal: true
+  href: SuperOffice.CRM.Services.Dash.html#SuperOffice_CRM_Services_Dash_VisibleForGroups
   name: VisibleForGroups
   nameWithType: Dash.VisibleForGroups
   fullName: SuperOffice.CRM.Services.Dash.VisibleForGroups
 - uid: SuperOffice.CRM.Services.Dash.PinForAll*
   commentId: Overload:SuperOffice.CRM.Services.Dash.PinForAll
   isExternal: true
+  href: SuperOffice.CRM.Services.Dash.html#SuperOffice_CRM_Services_Dash_PinForAll
   name: PinForAll
   nameWithType: Dash.PinForAll
   fullName: SuperOffice.CRM.Services.Dash.PinForAll
 - uid: SuperOffice.CRM.Services.Dash.PinForAssociates*
   commentId: Overload:SuperOffice.CRM.Services.Dash.PinForAssociates
   isExternal: true
+  href: SuperOffice.CRM.Services.Dash.html#SuperOffice_CRM_Services_Dash_PinForAssociates
   name: PinForAssociates
   nameWithType: Dash.PinForAssociates
   fullName: SuperOffice.CRM.Services.Dash.PinForAssociates
 - uid: SuperOffice.CRM.Services.Dash.PinForGroups*
   commentId: Overload:SuperOffice.CRM.Services.Dash.PinForGroups
   isExternal: true
+  href: SuperOffice.CRM.Services.Dash.html#SuperOffice_CRM_Services_Dash_PinForGroups
   name: PinForGroups
   nameWithType: Dash.PinForGroups
   fullName: SuperOffice.CRM.Services.Dash.PinForGroups

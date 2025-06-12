@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 493,
-    "Name": "Hodkiewicz Inc and Sons",
-    "ToolTip": "Modi voluptas rem maiores accusamus porro.",
+    "Id": 273,
+    "Name": "Hagenes-Brown",
+    "ToolTip": "Voluptatem laborum fugit commodi dolor iste.",
     "Deleted": false,
-    "Rank": 548,
-    "Type": "quod",
-    "ColorBlock": 968,
-    "IconHint": "fugit",
+    "Rank": 217,
+    "Type": "quia",
+    "ColorBlock": 355,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2003-06-12T16:32:48.9619631+02:00",
+    "LastChanged": "2003-09-01T17:54:09.1168029+02:00",
     "ChildItems": [
       {
-        "Id": 105,
-        "Name": "Jacobi-Langosh",
-        "ToolTip": "Pariatur ad excepturi qui nisi sunt quaerat eveniet.",
+        "Id": 537,
+        "Name": "Zieme LLC",
+        "ToolTip": "Autem beatae aliquam magnam dolore architecto corporis ipsum.",
         "Deleted": false,
-        "Rank": 652,
-        "Type": "amet",
-        "ColorBlock": 409,
-        "IconHint": "placeat",
+        "Rank": 956,
+        "Type": "enim",
+        "ColorBlock": 675,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2021-12-12T16:32:48.9619631+01:00",
+        "LastChanged": "2006-07-29T17:54:09.1168029+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "accusamus",
+        "ExtraInfo": "beatae",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Dell Hayes"
+        "FullName": "Ms. Rogers Lind MD"
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "magnam",
-    "Hidden": true,
-    "FullName": "Alvah Boehm"
+    "ExtraInfo": "ea",
+    "StyleHint": "necessitatibus",
+    "Hidden": false,
+    "FullName": "Chasity Prohaska"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 514,
-    "Name": "Rempel LLC",
-    "ToolTip": "Ad necessitatibus aliquid nobis aliquid velit.",
+    "Id": 540,
+    "Name": "Jewess LLC",
+    "ToolTip": "Explicabo molestiae eius ut perferendis eum.",
     "Deleted": false,
-    "Rank": 75,
-    "Type": "rerum",
-    "ColorBlock": 879,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2023-03-10T16:32:48.9619631+01:00",
+    "Rank": 472,
+    "Type": "nulla",
+    "ColorBlock": 425,
+    "IconHint": "eum",
+    "Selected": false,
+    "LastChanged": "2008-07-02T17:54:09.1168029+02:00",
     "ChildItems": [
       {
-        "Id": 320,
-        "Name": "Altenwerth-Brown",
-        "ToolTip": "Qui asperiores qui quis quis error.",
+        "Id": 351,
+        "Name": "Rohan, Corkery and Fritsch",
+        "ToolTip": "Aut non commodi ullam quis aut officiis.",
         "Deleted": false,
-        "Rank": 519,
-        "Type": "rerum",
-        "ColorBlock": 701,
-        "IconHint": "nam",
-        "Selected": true,
-        "LastChanged": "1999-03-05T16:32:48.9619631+01:00",
+        "Rank": 537,
+        "Type": "laboriosam",
+        "ColorBlock": 957,
+        "IconHint": "laudantium",
+        "Selected": false,
+        "LastChanged": "1999-10-30T17:54:09.1168029+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "enim",
+        "ExtraInfo": "earum",
+        "StyleHint": "recusandae",
         "Hidden": false,
-        "FullName": "Dayana Corkery",
+        "FullName": "Missouri Kreiger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 792
+            "FieldLength": 428
           }
         }
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "sed",
-    "Hidden": false,
-    "FullName": "Ally Kunde",
+    "ExtraInfo": "id",
+    "StyleHint": "voluptas",
+    "Hidden": true,
+    "FullName": "Hunter McClure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 890
+        "FieldType": "System.Int32",
+        "FieldLength": 972
       }
     }
   }

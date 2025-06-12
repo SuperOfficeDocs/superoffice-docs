@@ -1,0 +1,745 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Dialect.ITempTableManager
+  commentId: T:SuperOffice.Data.Dialect.ITempTableManager
+  id: ITempTableManager
+  parent: SuperOffice.Data.Dialect
+  children:
+  - SuperOffice.Data.Dialect.ITempTableManager.CreateTempCopyForTableAsync(SuperOffice.Data.SQL.TableInfo,System.Collections.Generic.List{SuperOffice.Data.SQL.FieldInfo},System.Threading.CancellationToken)
+  - SuperOffice.Data.Dialect.ITempTableManager.RemoveTempTables(System.Collections.Generic.List{System.String},System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: ITempTableManager
+  nameWithType: ITempTableManager
+  fullName: SuperOffice.Data.Dialect.ITempTableManager
+  type: Interface
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: 'public interface ITempTableManager : IDisposable'
+    content.vb: Public Interface ITempTableManager Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
+  extensionMethods:
+  - SuperOffice.Data.Dialect.ITempTableManager.EnumUtil.MapEnums``2
+  - SuperOffice.Data.Dialect.ITempTableManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Data.Dialect.ITempTableManager.CreateTempCopyForTableAsync(SuperOffice.Data.SQL.TableInfo,System.Collections.Generic.List{SuperOffice.Data.SQL.FieldInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Dialect.ITempTableManager.CreateTempCopyForTableAsync(SuperOffice.Data.SQL.TableInfo,System.Collections.Generic.List{SuperOffice.Data.SQL.FieldInfo},System.Threading.CancellationToken)
+  id: CreateTempCopyForTableAsync(SuperOffice.Data.SQL.TableInfo,System.Collections.Generic.List{SuperOffice.Data.SQL.FieldInfo},System.Threading.CancellationToken)
+  parent: SuperOffice.Data.Dialect.ITempTableManager
+  langs:
+  - csharp
+  - vb
+  name: CreateTempCopyForTableAsync(TableInfo, List<FieldInfo>, CancellationToken)
+  nameWithType: ITempTableManager.CreateTempCopyForTableAsync(TableInfo, List<FieldInfo>, CancellationToken)
+  fullName: SuperOffice.Data.Dialect.ITempTableManager.CreateTempCopyForTableAsync(SuperOffice.Data.SQL.TableInfo, System.Collections.Generic.List<SuperOffice.Data.SQL.FieldInfo>, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: Create a temporary table that reflects the given fields from an existing table. Removed on Dispose()
+  example: []
+  syntax:
+    content: Task<SoTable> CreateTempCopyForTableAsync(TableInfo baseTable, List<FieldInfo> fields, CancellationToken cancellationToken = default)
+    parameters:
+    - id: baseTable
+      type: SuperOffice.Data.SQL.TableInfo
+      description: Table to create.
+    - id: fields
+      type: System.Collections.Generic.List{SuperOffice.Data.SQL.FieldInfo}
+      description: Fields to create.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.Data.Dictionary.SoTable}
+      description: ''
+    content.vb: Function CreateTempCopyForTableAsync(baseTable As TableInfo, fields As List(Of FieldInfo), cancellationToken As CancellationToken = Nothing) As Task(Of SoTable)
+  overload: SuperOffice.Data.Dialect.ITempTableManager.CreateTempCopyForTableAsync*
+  nameWithType.vb: ITempTableManager.CreateTempCopyForTableAsync(TableInfo, List(Of FieldInfo), CancellationToken)
+  fullName.vb: SuperOffice.Data.Dialect.ITempTableManager.CreateTempCopyForTableAsync(SuperOffice.Data.SQL.TableInfo, System.Collections.Generic.List(Of SuperOffice.Data.SQL.FieldInfo), System.Threading.CancellationToken)
+  name.vb: CreateTempCopyForTableAsync(TableInfo, List(Of FieldInfo), CancellationToken)
+- uid: SuperOffice.Data.Dialect.ITempTableManager.RemoveTempTables(System.Collections.Generic.List{System.String},System.Boolean)
+  commentId: M:SuperOffice.Data.Dialect.ITempTableManager.RemoveTempTables(System.Collections.Generic.List{System.String},System.Boolean)
+  id: RemoveTempTables(System.Collections.Generic.List{System.String},System.Boolean)
+  parent: SuperOffice.Data.Dialect.ITempTableManager
+  langs:
+  - csharp
+  - vb
+  name: RemoveTempTables(List<string>, bool)
+  nameWithType: ITempTableManager.RemoveTempTables(List<string>, bool)
+  fullName: SuperOffice.Data.Dialect.ITempTableManager.RemoveTempTables(System.Collections.Generic.List<string>, bool)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: Remove temporary tables
+  example: []
+  syntax:
+    content: void RemoveTempTables(List<string> tableNames, bool updateNetserverSoDictionary = false)
+    parameters:
+    - id: tableNames
+      type: System.Collections.Generic.List{System.String}
+      description: Names of tables to remove.
+    - id: updateNetserverSoDictionary
+      type: System.Boolean
+      description: Should NetServer SoDictionary be updated?
+    content.vb: Sub RemoveTempTables(tableNames As List(Of String), updateNetserverSoDictionary As Boolean = False)
+  overload: SuperOffice.Data.Dialect.ITempTableManager.RemoveTempTables*
+  nameWithType.vb: ITempTableManager.RemoveTempTables(List(Of String), Boolean)
+  fullName.vb: SuperOffice.Data.Dialect.ITempTableManager.RemoveTempTables(System.Collections.Generic.List(Of String), Boolean)
+  name.vb: RemoveTempTables(List(Of String), Boolean)
+references:
+- uid: SuperOffice.Data.Dialect
+  commentId: N:SuperOffice.Data.Dialect
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.Dialect
+  nameWithType: SuperOffice.Data.Dialect
+  fullName: SuperOffice.Data.Dialect
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dialect
+    name: Dialect
+    isExternal: true
+    href: SuperOffice.Data.Dialect.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dialect
+    name: Dialect
+    isExternal: true
+    href: SuperOffice.Data.Dialect.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.Dialect.ITempTableManager.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ITempTableManager, To>(ITempTableManager)
+  nameWithType: EnumUtil.MapEnums<ITempTableManager, To>(ITempTableManager)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Dialect.ITempTableManager, To>(SuperOffice.Data.Dialect.ITempTableManager)
+  nameWithType.vb: EnumUtil.MapEnums(Of ITempTableManager, To)(ITempTableManager)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Dialect.ITempTableManager, To)(SuperOffice.Data.Dialect.ITempTableManager)
+  name.vb: MapEnums(Of ITempTableManager, To)(ITempTableManager)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.Dialect.ITempTableManager)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.Dialect.ITempTableManager
+    name: ITempTableManager
+    isExternal: true
+    href: SuperOffice.Data.Dialect.ITempTableManager.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.Dialect.ITempTableManager
+    name: ITempTableManager
+    isExternal: true
+    href: SuperOffice.Data.Dialect.ITempTableManager.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.Dialect.ITempTableManager)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.Dialect.ITempTableManager
+    name: ITempTableManager
+    isExternal: true
+    href: SuperOffice.Data.Dialect.ITempTableManager.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.Dialect.ITempTableManager
+    name: ITempTableManager
+    isExternal: true
+    href: SuperOffice.Data.Dialect.ITempTableManager.html
+  - name: )
+- uid: SuperOffice.Data.Dialect.ITempTableManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ITempTableManager, To>(ITempTableManager)
+  nameWithType: Converters.MapEnums<ITempTableManager, To>(ITempTableManager)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dialect.ITempTableManager, To>(SuperOffice.Data.Dialect.ITempTableManager)
+  nameWithType.vb: Converters.MapEnums(Of ITempTableManager, To)(ITempTableManager)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dialect.ITempTableManager, To)(SuperOffice.Data.Dialect.ITempTableManager)
+  name.vb: MapEnums(Of ITempTableManager, To)(ITempTableManager)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.Dialect.ITempTableManager)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.Dialect.ITempTableManager
+    name: ITempTableManager
+    isExternal: true
+    href: SuperOffice.Data.Dialect.ITempTableManager.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.Dialect.ITempTableManager
+    name: ITempTableManager
+    isExternal: true
+    href: SuperOffice.Data.Dialect.ITempTableManager.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.Dialect.ITempTableManager)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.Dialect.ITempTableManager
+    name: ITempTableManager
+    isExternal: true
+    href: SuperOffice.Data.Dialect.ITempTableManager.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.Dialect.ITempTableManager
+    name: ITempTableManager
+    isExternal: true
+    href: SuperOffice.Data.Dialect.ITempTableManager.html
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Data.Dialect.ITempTableManager.CreateTempCopyForTableAsync*
+  commentId: Overload:SuperOffice.Data.Dialect.ITempTableManager.CreateTempCopyForTableAsync
+  isExternal: true
+  href: SuperOffice.Data.Dialect.ITempTableManager.html#SuperOffice_Data_Dialect_ITempTableManager_CreateTempCopyForTableAsync_SuperOffice_Data_SQL_TableInfo_System_Collections_Generic_List_SuperOffice_Data_SQL_FieldInfo__System_Threading_CancellationToken_
+  name: CreateTempCopyForTableAsync
+  nameWithType: ITempTableManager.CreateTempCopyForTableAsync
+  fullName: SuperOffice.Data.Dialect.ITempTableManager.CreateTempCopyForTableAsync
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.Collections.Generic.List{SuperOffice.Data.SQL.FieldInfo}
+  commentId: T:System.Collections.Generic.List{SuperOffice.Data.SQL.FieldInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<FieldInfo>
+  nameWithType: List<FieldInfo>
+  fullName: System.Collections.Generic.List<SuperOffice.Data.SQL.FieldInfo>
+  nameWithType.vb: List(Of FieldInfo)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.Data.SQL.FieldInfo)
+  name.vb: List(Of FieldInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.Dictionary.SoTable}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.Data.Dictionary.SoTable}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<SoTable>
+  nameWithType: Task<SoTable>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.Dictionary.SoTable>
+  nameWithType.vb: Task(Of SoTable)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.Dictionary.SoTable)
+  name.vb: Task(Of SoTable)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoTable.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoTable.html
+  - name: )
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.Data.Dialect.ITempTableManager.RemoveTempTables*
+  commentId: Overload:SuperOffice.Data.Dialect.ITempTableManager.RemoveTempTables
+  isExternal: true
+  href: SuperOffice.Data.Dialect.ITempTableManager.html#SuperOffice_Data_Dialect_ITempTableManager_RemoveTempTables_System_Collections_Generic_List_System_String__System_Boolean_
+  name: RemoveTempTables
+  nameWithType: ITempTableManager.RemoveTempTables
+  fullName: SuperOffice.Data.Dialect.ITempTableManager.RemoveTempTables
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

@@ -78,8 +78,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Glover Inc and Sons",
-    "Wilderman, Stoltenberg and Mills"
+    "Herzog LLC",
+    "Larkin Inc and Sons"
   ]
 }
 ```
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  473,
-  142
+  116,
+  922
 ]
 ```

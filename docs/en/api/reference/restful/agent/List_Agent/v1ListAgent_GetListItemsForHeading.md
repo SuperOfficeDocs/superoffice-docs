@@ -92,8 +92,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 69,
-  "HeadingId": 795
+  "UdListDefinitionId": 581,
+  "HeadingId": 927
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 584,
-    "Name": "Ullrich-Monahan",
-    "ToolTip": "Quis sunt dolores eos voluptatem qui.",
-    "Deleted": false,
-    "Rank": 823,
-    "Type": "itaque",
-    "ColorBlock": 846,
-    "IconHint": "quo",
+    "Id": 575,
+    "Name": "Roberts-Dietrich",
+    "ToolTip": "Magnam culpa qui est.",
+    "Deleted": true,
+    "Rank": 951,
+    "Type": "dolorum",
+    "ColorBlock": 935,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2000-10-23T16:32:39.2582391+02:00",
+    "LastChanged": "2000-10-05T17:54:03.2576998+02:00",
     "ChildItems": [
       {
-        "Id": 446,
-        "Name": "Haag-Skiles",
-        "ToolTip": "Doloremque illo nihil est aut esse.",
+        "Id": 360,
+        "Name": "Rice-Jacobs",
+        "ToolTip": "Expedita iusto ad mollitia.",
         "Deleted": false,
-        "Rank": 712,
-        "Type": "eos",
-        "ColorBlock": 545,
-        "IconHint": "et",
+        "Rank": 530,
+        "Type": "deserunt",
+        "ColorBlock": 803,
+        "IconHint": "reiciendis",
         "Selected": false,
-        "LastChanged": "2014-03-30T16:32:39.2582391+02:00",
+        "LastChanged": "2020-08-13T17:54:03.2576998+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "consequatur",
-        "Hidden": false,
-        "FullName": "Osbaldo Kristy Beier Sr.",
+        "ExtraInfo": "voluptate",
+        "StyleHint": "deleniti",
+        "Hidden": true,
+        "FullName": "Kareem Hansen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 813
+            "FieldType": "System.String",
+            "FieldLength": 583
           }
         }
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "minima",
+    "ExtraInfo": "repellat",
+    "StyleHint": "iste",
     "Hidden": false,
-    "FullName": "Jaquan Cummings",
+    "FullName": "Amani Walsh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 49
+        "FieldType": "System.String",
+        "FieldLength": 857
       }
     }
   }

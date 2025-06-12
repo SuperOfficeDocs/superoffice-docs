@@ -88,9 +88,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Keeling Inc and Sons",
-  "DeviceName": "Stiedemann LLC",
-  "DeviceIdentifier": "nihil",
+  "ApplicationName": "Boyle Inc and Sons",
+  "DeviceName": "Dibbert-Nicolas",
+  "DeviceIdentifier": "dolor",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 165,
-  "Name": "Wisoky-Mante",
-  "CreatedDate": "2001-02-06T16:32:39.1645096+01:00",
-  "UpdatedDate": "2022-08-15T16:32:39.1645096+02:00",
-  "AssociateFullName": "Greg Tyler Mann Jr.",
-  "CreatedBy": "blanditiis",
-  "UpdatedBy": "qui",
-  "DeviceIdentifier": "commodi",
-  "ForeignAppId": 505,
+  "ForeignDeviceId": 458,
+  "Name": "Dickens, Huel and Howe",
+  "CreatedDate": "2024-09-17T17:54:03.1639551+02:00",
+  "UpdatedDate": "2014-10-02T17:54:03.1639551+02:00",
+  "AssociateFullName": "Jason D'Amore",
+  "CreatedBy": "occaecati",
+  "UpdatedBy": "laboriosam",
+  "DeviceIdentifier": "accusantium",
+  "ForeignAppId": 580,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldLength": 916
     }
   }
 }

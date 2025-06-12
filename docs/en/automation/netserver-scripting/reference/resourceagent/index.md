@@ -12,9 +12,9 @@ so.envir: onsite
 
 Service methods defined on <see cref='T:IResourceAgent'>ResourceAgent</see> that can trigger server-side event scripts.
 
-* [ActivateResourceSubstitution](activateresourcesubstitution.md)
-* [DeleteResourceSubstitution](deleteresourcesubstitution.md)
-* [GetResourceSubstitutions](getresourcesubstitutions.md)
-* [IsResourceSubstitutionActive](isresourcesubstitutionactive.md)
-* [SetResourceSubstitution](setresourcesubstitution.md)
+* [ActivateResourceSubstitutionAsync](activateresourcesubstitutionasync.md)
+* [DeleteResourceSubstitutionAsync](deleteresourcesubstitutionasync.md)
+* [GetResourceSubstitutionsAsync](getresourcesubstitutionsasync.md)
+* [IsResourceSubstitutionActiveAsync](isresourcesubstitutionactiveasync.md)
+* [SetResourceSubstitutionAsync](setresourcesubstitutionasync.md)
 

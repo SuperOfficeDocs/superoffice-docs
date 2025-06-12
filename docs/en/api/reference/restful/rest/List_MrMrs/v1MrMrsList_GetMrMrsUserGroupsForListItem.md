@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 632,
-    "Name": "McGlynn Group",
-    "ToolTip": "Repellat sed est libero.",
+    "Id": 961,
+    "Name": "Spinka, McLaughlin and Wuckert",
+    "ToolTip": "Sint dignissimos.",
     "Deleted": false,
-    "Rank": 826,
-    "Type": "enim",
-    "ColorBlock": 554,
-    "IconHint": "praesentium",
-    "Selected": false,
-    "LastChanged": "2015-03-21T16:32:48.7120179+01:00",
+    "Rank": 512,
+    "Type": "accusamus",
+    "ColorBlock": 371,
+    "IconHint": "voluptas",
+    "Selected": true,
+    "LastChanged": "2010-03-29T17:54:08.9292989+02:00",
     "ChildItems": [
       {
-        "Id": 251,
-        "Name": "Cronin LLC",
-        "ToolTip": "Corrupti quo.",
+        "Id": 112,
+        "Name": "Schulist, Lueilwitz and Mertz",
+        "ToolTip": "Voluptatem in dignissimos.",
         "Deleted": false,
-        "Rank": 260,
-        "Type": "earum",
-        "ColorBlock": 928,
-        "IconHint": "ipsa",
+        "Rank": 850,
+        "Type": "deserunt",
+        "ColorBlock": 392,
+        "IconHint": "explicabo",
         "Selected": false,
-        "LastChanged": "2011-06-23T16:32:48.7120179+02:00",
+        "LastChanged": "2011-03-12T17:54:08.9292989+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "expedita",
+        "ExtraInfo": "deserunt",
+        "StyleHint": "animi",
         "Hidden": false,
-        "FullName": "Prof. Liam Lorena Crooks Jr.",
+        "FullName": "Clementine Haag",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 794
+            "FieldLength": 328
           }
         }
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "dignissimos",
-    "Hidden": true,
-    "FullName": "Mustafa Kristian Kessler Jr.",
+    "ExtraInfo": "vel",
+    "StyleHint": "exercitationem",
+    "Hidden": false,
+    "FullName": "Caitlyn Stroman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 826
+        "FieldLength": 540
       }
     }
   }

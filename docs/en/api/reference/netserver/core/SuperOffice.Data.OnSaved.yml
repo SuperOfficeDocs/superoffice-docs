@@ -15,32 +15,25 @@ items:
   name: OnSaved
   nameWithType: OnSaved
   fullName: SuperOffice.Data.OnSaved
-  type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
+  type: Delegate
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nDelegate describing that an element was saved to the database\n"
+  summary: Delegate describing that an element was saved to the database
+  example: []
   syntax:
-    content: 'public sealed class OnSaved : MulticastDelegate'
-    content.vb: >-
-      Public NotInheritable Class OnSaved
-          Inherits MulticastDelegate
-  inheritance:
-  - System.Object
+    content: public delegate void OnSaved(INestedPersist element, bool didSucceed)
+    parameters:
+    - id: element
+      type: SuperOffice.Data.INestedPersist
+      description: Element that was saved to the database
+    - id: didSucceed
+      type: System.Boolean
+      description: True if the save operation succeeded.
+    content.vb: Public Delegate Sub OnSaved(element As INestedPersist, didSucceed As Boolean)
   extensionMethods:
   - SuperOffice.Data.OnSaved.EnumUtil.MapEnums``2
   - SuperOffice.Data.OnSaved.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
 - uid: SuperOffice.Data.OnSaved.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.Data.OnSaved.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -48,29 +41,25 @@ items:
   langs:
   - csharp
   - vb
-  name: OnSaved(Object, IntPtr)
-  nameWithType: OnSaved.OnSaved(Object, IntPtr)
-  fullName: SuperOffice.Data.OnSaved.OnSaved(System.Object, System.IntPtr)
+  name: OnSaved(object, IntPtr)
+  nameWithType: OnSaved.OnSaved(object, IntPtr)
+  fullName: SuperOffice.Data.OnSaved.OnSaved(object, System.IntPtr)
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: public OnSaved(object object, IntPtr method)
+    content: public OnSaved(object @object, IntPtr method)
     parameters:
     - id: object
       type: System.Object
     - id: method
       type: System.IntPtr
-    content.vb: Public Sub New(object As Object, method As IntPtr)
+    content.vb: Public Sub New([object] As Object, method As IntPtr)
   overload: SuperOffice.Data.OnSaved.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: OnSaved.New(Object, IntPtr)
+  fullName.vb: SuperOffice.Data.OnSaved.New(Object, System.IntPtr)
+  name.vb: New(Object, IntPtr)
 - uid: SuperOffice.Data.OnSaved.Invoke(SuperOffice.Data.INestedPersist,System.Boolean)
   commentId: M:SuperOffice.Data.OnSaved.Invoke(SuperOffice.Data.INestedPersist,System.Boolean)
   id: Invoke(SuperOffice.Data.INestedPersist,System.Boolean)
@@ -78,13 +67,10 @@ items:
   langs:
   - csharp
   - vb
-  name: Invoke(INestedPersist, Boolean)
-  nameWithType: OnSaved.Invoke(INestedPersist, Boolean)
-  fullName: SuperOffice.Data.OnSaved.Invoke(SuperOffice.Data.INestedPersist, System.Boolean)
+  name: Invoke(INestedPersist, bool)
+  nameWithType: OnSaved.Invoke(INestedPersist, bool)
+  fullName: SuperOffice.Data.OnSaved.Invoke(SuperOffice.Data.INestedPersist, bool)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -97,12 +83,9 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Sub Invoke(element As INestedPersist, didSucceed As Boolean)
   overload: SuperOffice.Data.OnSaved.Invoke*
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
+  nameWithType.vb: OnSaved.Invoke(INestedPersist, Boolean)
+  fullName.vb: SuperOffice.Data.OnSaved.Invoke(SuperOffice.Data.INestedPersist, Boolean)
+  name.vb: Invoke(INestedPersist, Boolean)
 - uid: SuperOffice.Data.OnSaved.BeginInvoke(SuperOffice.Data.INestedPersist,System.Boolean,System.AsyncCallback,System.Object)
   commentId: M:SuperOffice.Data.OnSaved.BeginInvoke(SuperOffice.Data.INestedPersist,System.Boolean,System.AsyncCallback,System.Object)
   id: BeginInvoke(SuperOffice.Data.INestedPersist,System.Boolean,System.AsyncCallback,System.Object)
@@ -110,18 +93,15 @@ items:
   langs:
   - csharp
   - vb
-  name: BeginInvoke(INestedPersist, Boolean, AsyncCallback, Object)
-  nameWithType: OnSaved.BeginInvoke(INestedPersist, Boolean, AsyncCallback, Object)
-  fullName: SuperOffice.Data.OnSaved.BeginInvoke(SuperOffice.Data.INestedPersist, System.Boolean, System.AsyncCallback, System.Object)
+  name: BeginInvoke(INestedPersist, bool, AsyncCallback, object)
+  nameWithType: OnSaved.BeginInvoke(INestedPersist, bool, AsyncCallback, object)
+  fullName: SuperOffice.Data.OnSaved.BeginInvoke(SuperOffice.Data.INestedPersist, bool, System.AsyncCallback, object)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: public virtual IAsyncResult BeginInvoke(INestedPersist element, bool didSucceed, AsyncCallback callback, object object)
+    content: public virtual IAsyncResult BeginInvoke(INestedPersist element, bool didSucceed, AsyncCallback callback, object @object)
     parameters:
     - id: element
       type: SuperOffice.Data.INestedPersist
@@ -133,14 +113,11 @@ items:
       type: System.Object
     return:
       type: System.IAsyncResult
-    content.vb: Public Overridable Function BeginInvoke(element As INestedPersist, didSucceed As Boolean, callback As AsyncCallback, object As Object) As IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(element As INestedPersist, didSucceed As Boolean, callback As AsyncCallback, [object] As Object) As IAsyncResult
   overload: SuperOffice.Data.OnSaved.BeginInvoke*
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
+  nameWithType.vb: OnSaved.BeginInvoke(INestedPersist, Boolean, AsyncCallback, Object)
+  fullName.vb: SuperOffice.Data.OnSaved.BeginInvoke(SuperOffice.Data.INestedPersist, Boolean, System.AsyncCallback, Object)
+  name.vb: BeginInvoke(INestedPersist, Boolean, AsyncCallback, Object)
 - uid: SuperOffice.Data.OnSaved.EndInvoke(System.IAsyncResult)
   commentId: M:SuperOffice.Data.OnSaved.EndInvoke(System.IAsyncResult)
   id: EndInvoke(System.IAsyncResult)
@@ -152,9 +129,6 @@ items:
   nameWithType: OnSaved.EndInvoke(IAsyncResult)
   fullName: SuperOffice.Data.OnSaved.EndInvoke(System.IAsyncResult)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -165,103 +139,163 @@ items:
       type: System.IAsyncResult
     content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
   overload: SuperOffice.Data.OnSaved.EndInvoke*
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.OnSaved.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<OnSaved, To>()
-  nameWithType: EnumUtil.MapEnums<OnSaved, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.OnSaved, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of OnSaved, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.OnSaved, To)()
-  name.vb: MapEnums(Of OnSaved, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<OnSaved, To>(OnSaved)
+  nameWithType: EnumUtil.MapEnums<OnSaved, To>(OnSaved)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.OnSaved, To>(SuperOffice.Data.OnSaved)
+  nameWithType.vb: EnumUtil.MapEnums(Of OnSaved, To)(OnSaved)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.OnSaved, To)(SuperOffice.Data.OnSaved)
+  name.vb: MapEnums(Of OnSaved, To)(OnSaved)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<OnSaved, To>
-    nameWithType: EnumUtil.MapEnums<OnSaved, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.OnSaved, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.OnSaved)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    isExternal: true
+    href: SuperOffice.Data.OnSaved.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    isExternal: true
+    href: SuperOffice.Data.OnSaved.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of OnSaved, To)
-    nameWithType: EnumUtil.MapEnums(Of OnSaved, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.OnSaved, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.OnSaved)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    isExternal: true
+    href: SuperOffice.Data.OnSaved.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    isExternal: true
+    href: SuperOffice.Data.OnSaved.html
+  - name: )
 - uid: SuperOffice.Data.OnSaved.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<OnSaved, To>()
-  nameWithType: Converters.MapEnums<OnSaved, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.OnSaved, To>()
-  nameWithType.vb: Converters.MapEnums(Of OnSaved, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.OnSaved, To)()
-  name.vb: MapEnums(Of OnSaved, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<OnSaved, To>(OnSaved)
+  nameWithType: Converters.MapEnums<OnSaved, To>(OnSaved)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.OnSaved, To>(SuperOffice.Data.OnSaved)
+  nameWithType.vb: Converters.MapEnums(Of OnSaved, To)(OnSaved)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.OnSaved, To)(SuperOffice.Data.OnSaved)
+  name.vb: MapEnums(Of OnSaved, To)(OnSaved)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<OnSaved, To>
-    nameWithType: Converters.MapEnums<OnSaved, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.OnSaved, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.OnSaved)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    isExternal: true
+    href: SuperOffice.Data.OnSaved.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    isExternal: true
+    href: SuperOffice.Data.OnSaved.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of OnSaved, To)
-    nameWithType: Converters.MapEnums(Of OnSaved, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.OnSaved, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.OnSaved)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    isExternal: true
+    href: SuperOffice.Data.OnSaved.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
+  - name: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    isExternal: true
+    href: SuperOffice.Data.OnSaved.html
+  - name: )
+- uid: SuperOffice.Data.INestedPersist
+  commentId: T:SuperOffice.Data.INestedPersist
+  parent: SuperOffice.Data
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: SuperOffice.Data.INestedPersist.html
+  name: INestedPersist
+  nameWithType: INestedPersist
+  fullName: SuperOffice.Data.INestedPersist
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -270,43 +304,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -315,99 +351,149 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Data.OnSaved.#ctor*
   commentId: Overload:SuperOffice.Data.OnSaved.#ctor
   isExternal: true
+  href: SuperOffice.Data.OnSaved.html#SuperOffice_Data_OnSaved__ctor_System_Object_System_IntPtr_
   name: OnSaved
   nameWithType: OnSaved.OnSaved
   fullName: SuperOffice.Data.OnSaved.OnSaved
+  nameWithType.vb: OnSaved.New
+  fullName.vb: SuperOffice.Data.OnSaved.New
+  name.vb: New
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
 - uid: SuperOffice.Data.OnSaved.Invoke*
   commentId: Overload:SuperOffice.Data.OnSaved.Invoke
   isExternal: true
+  href: SuperOffice.Data.OnSaved.html#SuperOffice_Data_OnSaved_Invoke_SuperOffice_Data_INestedPersist_System_Boolean_
   name: Invoke
   nameWithType: OnSaved.Invoke
   fullName: SuperOffice.Data.OnSaved.Invoke
-- uid: SuperOffice.Data.INestedPersist
-  commentId: T:SuperOffice.Data.INestedPersist
-  parent: SuperOffice.Data
-  isExternal: true
-  name: INestedPersist
-  nameWithType: INestedPersist
-  fullName: SuperOffice.Data.INestedPersist
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: SuperOffice.Data.OnSaved.BeginInvoke*
   commentId: Overload:SuperOffice.Data.OnSaved.BeginInvoke
   isExternal: true
+  href: SuperOffice.Data.OnSaved.html#SuperOffice_Data_OnSaved_BeginInvoke_SuperOffice_Data_INestedPersist_System_Boolean_System_AsyncCallback_System_Object_
   name: BeginInvoke
   nameWithType: OnSaved.BeginInvoke
   fullName: SuperOffice.Data.OnSaved.BeginInvoke
 - uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.asynccallback
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iasyncresult
   name: IAsyncResult
   nameWithType: IAsyncResult
   fullName: System.IAsyncResult
 - uid: SuperOffice.Data.OnSaved.EndInvoke*
   commentId: Overload:SuperOffice.Data.OnSaved.EndInvoke
   isExternal: true
+  href: SuperOffice.Data.OnSaved.html#SuperOffice_Data_OnSaved_EndInvoke_System_IAsyncResult_
   name: EndInvoke
   nameWithType: OnSaved.EndInvoke
   fullName: SuperOffice.Data.OnSaved.EndInvoke

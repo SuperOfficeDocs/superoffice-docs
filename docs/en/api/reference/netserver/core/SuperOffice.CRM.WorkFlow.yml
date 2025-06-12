@@ -1,52 +1,453 @@
 ### YamlMime:ManagedReference
 items:
-- uid: SuperOffice.CRM.WorkFlow
-  commentId: N:SuperOffice.CRM.WorkFlow
-  id: SuperOffice.CRM.WorkFlow
+- uid: SuperOffice.CRM.Workflow
+  commentId: N:SuperOffice.CRM.Workflow
+  id: SuperOffice.CRM.Workflow
   children:
-  - SuperOffice.CRM.WorkFlow.WorkflowEngine
-  - SuperOffice.CRM.WorkFlow.WorkflowEvent
-  - SuperOffice.CRM.WorkFlow.WorkflowEventResult
-  - SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+  - SuperOffice.CRM.Workflow.AddToListSettings
+  - SuperOffice.CRM.Workflow.CreateFollowUpSettings
+  - SuperOffice.CRM.Workflow.CreateRequestSettings
+  - SuperOffice.CRM.Workflow.CreateSaleSettings
+  - SuperOffice.CRM.Workflow.FlowEngineState
+  - SuperOffice.CRM.Workflow.IWorkflowEngine
+  - SuperOffice.CRM.Workflow.IWorkflowUtil
+  - SuperOffice.CRM.Workflow.NotifyByEmailSettings
+  - SuperOffice.CRM.Workflow.NotifyBySMSSettings
+  - SuperOffice.CRM.Workflow.RemoveFromListSettings
+  - SuperOffice.CRM.Workflow.RunScriptSettings
+  - SuperOffice.CRM.Workflow.SendEmailSettings
+  - SuperOffice.CRM.Workflow.SendSMSSettings
+  - SuperOffice.CRM.Workflow.SplitSettings
+  - SuperOffice.CRM.Workflow.StepSettings
+  - SuperOffice.CRM.Workflow.UpdateParticipantSettings
+  - SuperOffice.CRM.Workflow.WaitForActionSettings
+  - SuperOffice.CRM.Workflow.WaitForTimeSettings
+  - SuperOffice.CRM.Workflow.WorkflowEvent
+  - SuperOffice.CRM.Workflow.WorkflowEventResult
+  - SuperOffice.CRM.Workflow.WorkflowHelper
+  - SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+  - SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentAddrType
+  - SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+  - SuperOffice.CRM.Workflow.WorkflowInstanceVariables
+  - SuperOffice.CRM.Workflow.WorkflowStepAddToList
+  - SuperOffice.CRM.Workflow.WorkflowStepBase
+  - SuperOffice.CRM.Workflow.WorkflowStepCreateFollowUp
+  - SuperOffice.CRM.Workflow.WorkflowStepCreateRequest
+  - SuperOffice.CRM.Workflow.WorkflowStepCreateSale
+  - SuperOffice.CRM.Workflow.WorkflowStepNotifyByEmail
+  - SuperOffice.CRM.Workflow.WorkflowStepNotifyBySMS
+  - SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList
+  - SuperOffice.CRM.Workflow.WorkflowStepRunScript
+  - SuperOffice.CRM.Workflow.WorkflowStepSendEmail
+  - SuperOffice.CRM.Workflow.WorkflowStepSendSMS
+  - SuperOffice.CRM.Workflow.WorkflowStepSplit
+  - SuperOffice.CRM.Workflow.WorkflowStepUpdateParticipant
+  - SuperOffice.CRM.Workflow.WorkflowStepWaitForAction
+  - SuperOffice.CRM.Workflow.WorkflowStepWaitForTime
   langs:
   - csharp
   - vb
-  name: SuperOffice.CRM.WorkFlow
-  nameWithType: SuperOffice.CRM.WorkFlow
-  fullName: SuperOffice.CRM.WorkFlow
+  name: SuperOffice.CRM.Workflow
+  nameWithType: SuperOffice.CRM.Workflow
+  fullName: SuperOffice.CRM.Workflow
   type: Namespace
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
 references:
-- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
-  commentId: T:SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil
+  commentId: T:SuperOffice.CRM.Workflow.IWorkflowUtil
   isExternal: true
+  href: SuperOffice.CRM.Workflow.IWorkflowUtil.html
+  name: IWorkflowUtil
+  nameWithType: IWorkflowUtil
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil
+- uid: SuperOffice.CRM.Workflow.AddToListSettings
+  commentId: T:SuperOffice.CRM.Workflow.AddToListSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.AddToListSettings.html
+  name: AddToListSettings
+  nameWithType: AddToListSettings
+  fullName: SuperOffice.CRM.Workflow.AddToListSettings
+- uid: SuperOffice.CRM.Workflow.WorkflowStepAddToList
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowStepAddToList
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowStepAddToList.html
+  name: WorkflowStepAddToList
+  nameWithType: WorkflowStepAddToList
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepAddToList
+- uid: SuperOffice.CRM.Workflow.StepSettings
+  commentId: T:SuperOffice.CRM.Workflow.StepSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.StepSettings.html
+  name: StepSettings
+  nameWithType: StepSettings
+  fullName: SuperOffice.CRM.Workflow.StepSettings
+- uid: SuperOffice.CRM.Workflow.WorkflowStepBase
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowStepBase
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowStepBase.html
+  name: WorkflowStepBase
+  nameWithType: WorkflowStepBase
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings
+  commentId: T:SuperOffice.CRM.Workflow.CreateFollowUpSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.CreateFollowUpSettings.html
+  name: CreateFollowUpSettings
+  nameWithType: CreateFollowUpSettings
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings
+- uid: SuperOffice.CRM.Workflow.WorkflowStepCreateFollowUp
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowStepCreateFollowUp
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowStepCreateFollowUp.html
+  name: WorkflowStepCreateFollowUp
+  nameWithType: WorkflowStepCreateFollowUp
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepCreateFollowUp
+- uid: SuperOffice.CRM.Workflow.CreateRequestSettings
+  commentId: T:SuperOffice.CRM.Workflow.CreateRequestSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.CreateRequestSettings.html
+  name: CreateRequestSettings
+  nameWithType: CreateRequestSettings
+  fullName: SuperOffice.CRM.Workflow.CreateRequestSettings
+- uid: SuperOffice.CRM.Workflow.WorkflowStepCreateRequest
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowStepCreateRequest
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowStepCreateRequest.html
+  name: WorkflowStepCreateRequest
+  nameWithType: WorkflowStepCreateRequest
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepCreateRequest
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings
+  commentId: T:SuperOffice.CRM.Workflow.CreateSaleSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.CreateSaleSettings.html
+  name: CreateSaleSettings
+  nameWithType: CreateSaleSettings
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings
+- uid: SuperOffice.CRM.Workflow.WorkflowStepCreateSale
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowStepCreateSale
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowStepCreateSale.html
+  name: WorkflowStepCreateSale
+  nameWithType: WorkflowStepCreateSale
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepCreateSale
+- uid: SuperOffice.CRM.Workflow.NotifyByEmailSettings
+  commentId: T:SuperOffice.CRM.Workflow.NotifyByEmailSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.NotifyByEmailSettings.html
+  name: NotifyByEmailSettings
+  nameWithType: NotifyByEmailSettings
+  fullName: SuperOffice.CRM.Workflow.NotifyByEmailSettings
+- uid: SuperOffice.CRM.Workflow.WorkflowStepNotifyByEmail
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowStepNotifyByEmail
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowStepNotifyByEmail.html
+  name: WorkflowStepNotifyByEmail
+  nameWithType: WorkflowStepNotifyByEmail
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepNotifyByEmail
+- uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+  commentId: T:SuperOffice.CRM.Workflow.NotifyBySMSSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.NotifyBySMSSettings.html
+  name: NotifyBySMSSettings
+  nameWithType: NotifyBySMSSettings
+  fullName: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+- uid: SuperOffice.CRM.Workflow.WorkflowStepNotifyBySMS
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowStepNotifyBySMS
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowStepNotifyBySMS.html
+  name: WorkflowStepNotifyBySMS
+  nameWithType: WorkflowStepNotifyBySMS
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepNotifyBySMS
+- uid: SuperOffice.CRM.Workflow.RemoveFromListSettings
+  commentId: T:SuperOffice.CRM.Workflow.RemoveFromListSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.RemoveFromListSettings.html
+  name: RemoveFromListSettings
+  nameWithType: RemoveFromListSettings
+  fullName: SuperOffice.CRM.Workflow.RemoveFromListSettings
+- uid: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.html
+  name: WorkflowStepRemoveFromList
+  nameWithType: WorkflowStepRemoveFromList
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList
+- uid: SuperOffice.CRM.Workflow.RunScriptSettings
+  commentId: T:SuperOffice.CRM.Workflow.RunScriptSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.RunScriptSettings.html
+  name: RunScriptSettings
+  nameWithType: RunScriptSettings
+  fullName: SuperOffice.CRM.Workflow.RunScriptSettings
+- uid: SuperOffice.CRM.Workflow.WorkflowStepRunScript
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowStepRunScript
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowStepRunScript.html
+  name: WorkflowStepRunScript
+  nameWithType: WorkflowStepRunScript
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepRunScript
+- uid: SuperOffice.CRM.Workflow.SendEmailSettings
+  commentId: T:SuperOffice.CRM.Workflow.SendEmailSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.SendEmailSettings.html
+  name: SendEmailSettings
+  nameWithType: SendEmailSettings
+  fullName: SuperOffice.CRM.Workflow.SendEmailSettings
+- uid: SuperOffice.CRM.Workflow.WorkflowStepSendEmail
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowStepSendEmail
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowStepSendEmail.html
+  name: WorkflowStepSendEmail
+  nameWithType: WorkflowStepSendEmail
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepSendEmail
+- uid: SuperOffice.CRM.Workflow.SendSMSSettings
+  commentId: T:SuperOffice.CRM.Workflow.SendSMSSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.SendSMSSettings.html
+  name: SendSMSSettings
+  nameWithType: SendSMSSettings
+  fullName: SuperOffice.CRM.Workflow.SendSMSSettings
+- uid: SuperOffice.CRM.Workflow.WorkflowStepSendSMS
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowStepSendSMS
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowStepSendSMS.html
+  name: WorkflowStepSendSMS
+  nameWithType: WorkflowStepSendSMS
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepSendSMS
+- uid: SuperOffice.CRM.Workflow.SplitSettings
+  commentId: T:SuperOffice.CRM.Workflow.SplitSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.SplitSettings.html
+  name: SplitSettings
+  nameWithType: SplitSettings
+  fullName: SuperOffice.CRM.Workflow.SplitSettings
+- uid: SuperOffice.CRM.Workflow.WorkflowStepSplit
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowStepSplit
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowStepSplit.html
+  name: WorkflowStepSplit
+  nameWithType: WorkflowStepSplit
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepSplit
+- uid: SuperOffice.CRM.Workflow.UpdateParticipantSettings
+  commentId: T:SuperOffice.CRM.Workflow.UpdateParticipantSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.UpdateParticipantSettings.html
+  name: UpdateParticipantSettings
+  nameWithType: UpdateParticipantSettings
+  fullName: SuperOffice.CRM.Workflow.UpdateParticipantSettings
+- uid: SuperOffice.CRM.Workflow.WorkflowStepUpdateParticipant
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowStepUpdateParticipant
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowStepUpdateParticipant.html
+  name: WorkflowStepUpdateParticipant
+  nameWithType: WorkflowStepUpdateParticipant
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepUpdateParticipant
+- uid: SuperOffice.CRM.Workflow.WaitForActionSettings
+  commentId: T:SuperOffice.CRM.Workflow.WaitForActionSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WaitForActionSettings.html
+  name: WaitForActionSettings
+  nameWithType: WaitForActionSettings
+  fullName: SuperOffice.CRM.Workflow.WaitForActionSettings
+- uid: SuperOffice.CRM.Workflow.WorkflowStepWaitForAction
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowStepWaitForAction
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowStepWaitForAction.html
+  name: WorkflowStepWaitForAction
+  nameWithType: WorkflowStepWaitForAction
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepWaitForAction
+- uid: SuperOffice.CRM.Workflow.WaitForTimeSettings
+  commentId: T:SuperOffice.CRM.Workflow.WaitForTimeSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WaitForTimeSettings.html
+  name: WaitForTimeSettings
+  nameWithType: WaitForTimeSettings
+  fullName: SuperOffice.CRM.Workflow.WaitForTimeSettings
+- uid: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowStepWaitForTime
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.html
+  name: WorkflowStepWaitForTime
+  nameWithType: WorkflowStepWaitForTime
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime
+- uid: SuperOffice.CRM.Workflow.FlowEngineState
+  commentId: T:SuperOffice.CRM.Workflow.FlowEngineState
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.FlowEngineState.html
+  name: FlowEngineState
+  nameWithType: FlowEngineState
+  fullName: SuperOffice.CRM.Workflow.FlowEngineState
+- uid: SuperOffice.CRM.Workflow.IWorkflowEngine
+  commentId: T:SuperOffice.CRM.Workflow.IWorkflowEngine
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.IWorkflowEngine.html
+  name: IWorkflowEngine
+  nameWithType: IWorkflowEngine
+  fullName: SuperOffice.CRM.Workflow.IWorkflowEngine
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowHelper
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowHelper.html
+  name: WorkflowHelper
+  nameWithType: WorkflowHelper
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowHelper.html
+  name: WorkflowHelper.ShipmentConfiguration
+  nameWithType: WorkflowHelper.ShipmentConfiguration
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+  spec.csharp:
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper
+    name: WorkflowHelper
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.html
+  - name: .
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+    name: ShipmentConfiguration
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper
+    name: WorkflowHelper
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.html
+  - name: .
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+    name: ShipmentConfiguration
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.html
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentAddrType
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentAddrType
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowHelper.html
+  name: WorkflowHelper.ShipmentAddrType
+  nameWithType: WorkflowHelper.ShipmentAddrType
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentAddrType
+  spec.csharp:
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper
+    name: WorkflowHelper
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.html
+  - name: .
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentAddrType
+    name: ShipmentAddrType
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentAddrType.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper
+    name: WorkflowHelper
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.html
+  - name: .
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentAddrType
+    name: ShipmentAddrType
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentAddrType.html
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowHelper.html
+  name: WorkflowHelper.CSFolderType
+  nameWithType: WorkflowHelper.CSFolderType
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+  spec.csharp:
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper
+    name: WorkflowHelper
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.html
+  - name: .
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+    name: CSFolderType
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper
+    name: WorkflowHelper
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.html
+  - name: .
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+    name: CSFolderType
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.html
+- uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowInstanceVariables
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.html
   name: WorkflowInstanceVariables
   nameWithType: WorkflowInstanceVariables
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
-- uid: SuperOffice.CRM.WorkFlow.WorkflowEvent
-  commentId: T:SuperOffice.CRM.WorkFlow.WorkflowEvent
-  parent: SuperOffice.CRM.WorkFlow
+  fullName: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
+- uid: SuperOffice.CRM.Workflow.WorkflowEvent
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowEvent
+  parent: SuperOffice.CRM.Workflow
   isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowEvent.html
   name: WorkflowEvent
   nameWithType: WorkflowEvent
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowEvent
-- uid: SuperOffice.CRM.WorkFlow.WorkflowEventResult
-  commentId: T:SuperOffice.CRM.WorkFlow.WorkflowEventResult
-  parent: SuperOffice.CRM.WorkFlow
+  fullName: SuperOffice.CRM.Workflow.WorkflowEvent
+- uid: SuperOffice.CRM.Workflow.WorkflowEventResult
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowEventResult
   isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowEventResult.html
   name: WorkflowEventResult
   nameWithType: WorkflowEventResult
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowEventResult
-- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine
-  commentId: T:SuperOffice.CRM.WorkFlow.WorkflowEngine
+  fullName: SuperOffice.CRM.Workflow.WorkflowEventResult
+- uid: SuperOffice.CRM.Workflow
+  commentId: N:SuperOffice.CRM.Workflow
   isExternal: true
-  name: WorkflowEngine
-  nameWithType: WorkflowEngine
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine
-- uid: SuperOffice.CRM.WorkFlow
-  commentId: N:SuperOffice.CRM.WorkFlow
-  isExternal: true
-  name: SuperOffice.CRM.WorkFlow
-  nameWithType: SuperOffice.CRM.WorkFlow
-  fullName: SuperOffice.CRM.WorkFlow
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Workflow
+  nameWithType: SuperOffice.CRM.Workflow
+  fullName: SuperOffice.CRM.Workflow
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Workflow
+    name: Workflow
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Workflow
+    name: Workflow
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.html

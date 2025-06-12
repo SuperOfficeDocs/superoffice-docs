@@ -117,7 +117,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,106 +125,106 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2013-04-06T16:32:47.0867943+02:00",
-  "AppointmentId": 438,
-  "Description": "Operative neutral architecture",
-  "Title": "voluptate",
-  "Agenda": "cumque",
-  "InternalNotes": "vero",
-  "StartDate": "2004-12-22T16:32:47.0867943+01:00",
-  "EndDate": "2015-03-19T16:32:47.0867943+01:00",
+  "CreatedDate": "2024-08-16T17:54:07.9605954+02:00",
+  "AppointmentId": 649,
+  "Description": "Diverse interactive moratorium",
+  "Title": "distinctio",
+  "Agenda": "ratione",
+  "InternalNotes": "reprehenderit",
+  "StartDate": "2011-11-06T17:54:07.9605954+01:00",
+  "EndDate": "1998-02-05T17:54:07.9605954+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 667,
+  "MotherId": 611,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2003-03-23T16:32:47.0867943+01:00",
+  "UpdatedDate": "2018-04-16T17:54:07.9762203+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 635,
+  "ActiveLinks": 514,
   "Links": [
     {
-      "EntityName": "Schuster Inc and Sons",
-      "Id": 81,
-      "Description": "Profound didactic utilisation",
-      "ExtraInfo": "et",
-      "LinkId": 999
+      "EntityName": "Buckridge, Rau and Block",
+      "Id": 216,
+      "Description": "Mandatory grid-enabled architecture",
+      "ExtraInfo": "voluptas",
+      "LinkId": 870
     },
     {
-      "EntityName": "Schuster Inc and Sons",
-      "Id": 81,
-      "Description": "Profound didactic utilisation",
-      "ExtraInfo": "et",
-      "LinkId": 999
+      "EntityName": "Buckridge, Rau and Block",
+      "Id": 216,
+      "Description": "Mandatory grid-enabled architecture",
+      "ExtraInfo": "voluptas",
+      "LinkId": 870
     }
   ],
-  "AlarmLeadTime": "impedit",
-  "HasAlarm": true,
-  "ColorIndex": 848,
+  "AlarmLeadTime": "officia",
+  "HasAlarm": false,
+  "ColorIndex": 258,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "facilis",
-  "LeadTime": "ut",
-  "Location": "consequatur",
-  "RejectCounter": 904,
+  "IsAlldayEvent": true,
+  "LagTime": "et",
+  "LeadTime": "sit",
+  "Location": "fugit",
+  "RejectCounter": 485,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 639,
-      "PersonId": 505,
-      "ContactId": 194,
-      "EmailId": 359,
+      "AssociateId": 286,
+      "PersonId": 476,
+      "ContactId": 201,
+      "EmailId": 570,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "vicky@jakubowski.ca",
-      "Description": "Versatile multi-tasking instruction set"
+      "EmailAddress": "dell.nikolaus@braunmarquardt.biz",
+      "Description": "User-friendly incremental orchestration"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2020-05-29T16:32:47.0867943+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2017-08-06T17:54:07.9762203+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 439,
+  "PreferredTZLocation": 754,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 782,
+  "SuggestedAppointmentId": 37,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quaerat",
+  "CentralserviceVideomeetId": "sapiente",
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Madaline Stanton Jr.",
-    "SuperOffice:2": "Willa Jacobi DVM"
+    "SuperOffice:1": "Lora Ernser III",
+    "SuperOffice:2": "Ursula Leuschke"
   },
   "ExtraFields": {
-    "ExtraFields1": "nostrum",
-    "ExtraFields2": "enim"
+    "ExtraFields1": "sed",
+    "ExtraFields2": "ab"
   },
   "CustomFields": {
-    "CustomFields1": "voluptates",
-    "CustomFields2": "et"
+    "CustomFields1": "modi",
+    "CustomFields2": "voluptatem"
   },
-  "PublishEventDate": "2002-01-30T16:32:47.1024139+01:00",
-  "PublishTo": "1998-06-15T16:32:47.1024139+02:00",
-  "PublishFrom": "1999-06-24T16:32:47.1024139+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2007-01-23T17:54:07.9762203+01:00",
+  "PublishTo": "2008-05-23T17:54:07.9762203+02:00",
+  "PublishFrom": "2024-05-21T17:54:07.9762203+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 969,
+      "VisibleId": 887,
       "Visibility": "All",
-      "DisplayValue": "cum"
+      "DisplayValue": "consequatur"
     },
     {
-      "VisibleId": 969,
+      "VisibleId": 887,
       "Visibility": "All",
-      "DisplayValue": "cum"
+      "DisplayValue": "consequatur"
     }
   ]
 }
@@ -237,7 +237,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "omnis",
-  "2": "id"
+  "1": "aut",
+  "2": "laudantium"
 }
 ```

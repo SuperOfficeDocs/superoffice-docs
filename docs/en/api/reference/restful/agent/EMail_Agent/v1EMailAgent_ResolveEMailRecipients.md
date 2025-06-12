@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "jermaine@bayerlangosh.uk"
+  "EmailAddress": "kaci@metz.info"
 }
 ```
 
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 71,
-    "ContactName": "Wuckert-Bahringer",
-    "PersonId": 792,
-    "PersonName": "Mitchell Inc and Sons",
-    "AssociateId": 732,
-    "Address": "quasi",
-    "EmailId": 914,
+    "ContactId": 411,
+    "ContactName": "Shields-Von",
+    "PersonId": 632,
+    "PersonName": "Fisher Inc and Sons",
+    "AssociateId": 88,
+    "Address": "cum",
+    "EmailId": 19,
     "DuplicatePersonIds": [
-      243,
-      209
+      88,
+      60
     ],
-    "Name": "Fahey Group",
+    "Name": "Bartell Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 107
+        "FieldLength": 613
       }
     }
   }

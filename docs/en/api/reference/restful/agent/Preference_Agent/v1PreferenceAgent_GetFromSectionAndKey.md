@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "nobis",
-  "Key": "magnam"
+  "Section": "minima",
+  "Key": "aut"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 809,
-  "Section": "voluptatem",
-  "Key": "esse",
-  "Name": "Pagac, Howell and Turcotte",
+  "PrefDescId": 460,
+  "Section": "veniam",
+  "Key": "laboriosam",
+  "Name": "Mante, Gerlach and Robel",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Networked global info-mediaries",
+  "Description": "Open-architected dedicated artificial intelligence",
   "IsBuiltin": false,
-  "TableName": "Keeling Group",
-  "UserDefinedListId": 272,
-  "Rank": 236,
-  "SubGroup": "consequatur",
-  "MinLevel": 201,
-  "MaxValue": 79,
-  "MinValue": 620,
-  "RequiredLicense": "qui",
+  "TableName": "Huel, Deckow and Balistreri",
+  "UserDefinedListId": 507,
+  "Rank": 422,
+  "SubGroup": "velit",
+  "MinLevel": 833,
+  "MaxValue": 493,
+  "MinValue": 190,
+  "RequiredLicense": "placeat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 25
+      "FieldType": "System.String",
+      "FieldLength": 676
     }
   }
 }

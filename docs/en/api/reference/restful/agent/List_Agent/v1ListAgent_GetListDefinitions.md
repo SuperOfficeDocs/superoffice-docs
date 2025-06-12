@@ -86,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 785,
-    "Name": "Jacobi, Terry and Rau",
-    "Tooltip": "sunt",
-    "Deleted": false,
-    "Rank": 127,
+    "Id": 141,
+    "Name": "Mayer, Dare and Wisozk",
+    "Tooltip": "sint",
+    "Deleted": true,
+    "Rank": 785,
     "IsCustomList": false,
-    "IsMDOList": true,
+    "IsMDOList": false,
     "UseGroupsAndHeadings": true,
-    "ListType": "quo",
-    "InUseByUserDefinedFields": true,
+    "ListType": "numquam",
+    "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 61
+        "FieldLength": 60
       }
     }
   }

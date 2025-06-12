@@ -87,10 +87,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Batz, Kuphal and Prohaska",
-  "DeviceName": "Brekke-Nolan",
-  "DeviceIdentifier": "beatae",
-  "TableName": "Prohaska LLC"
+  "ApplicationName": "Kessler Group",
+  "DeviceName": "Reynolds-Bechtelar",
+  "DeviceIdentifier": "omnis",
+  "TableName": "Thiel-McKenzie"
 }
 ```
 
@@ -102,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "quibusdam",
-    "Value": "itaque",
-    "RecordId": 309,
-    "CreatedDate": "2014-06-10T16:32:39.180141+02:00",
-    "UpdatedDate": "2019-07-23T16:32:39.180141+02:00",
-    "UpdatedBy": "magnam",
-    "CreatedBy": "qui",
-    "TableName": "Roberts-Lesch",
+    "Key": "nesciunt",
+    "Value": "dolore",
+    "RecordId": 948,
+    "CreatedDate": "2020-01-03T17:54:03.1795788+01:00",
+    "UpdatedDate": "2000-10-07T17:54:03.1795788+02:00",
+    "UpdatedBy": "cumque",
+    "CreatedBy": "quia",
+    "TableName": "Farrell-Wisoky",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 865
+        "FieldLength": 522
       }
     }
   }

@@ -72,8 +72,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ActivityIdentifier": [
-    "id",
-    "expedita"
+    "quo",
+    "incidunt"
   ],
   "ActivityStatus": "Completed"
 }

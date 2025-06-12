@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 948,
-    "Name": "Cremin-Runolfsdottir",
-    "TZLocationCode": "vel",
-    "TZLocationCities": "cumque",
-    "IsoNumber": 196,
+    "TZLocationID": 686,
+    "Name": "Ryan-Ortiz",
+    "TZLocationCode": "eos",
+    "TZLocationCities": "esse",
+    "IsoNumber": 243,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 791,
-        "StartMonth": 917,
-        "EndDay": 830,
-        "EndMonth": 871,
-        "TZOffset": 902,
-        "StartRulePattern": "impedit",
-        "EndRulePattern": "ex"
+        "StartDay": 685,
+        "StartMonth": 807,
+        "EndDay": 947,
+        "EndMonth": 364,
+        "TZOffset": 746,
+        "StartRulePattern": "sunt",
+        "EndRulePattern": "doloribus"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 931,
-        "StartMonth": 634,
-        "EndDay": 805,
-        "EndMonth": 90,
-        "TZOffset": 162,
-        "StartRulePattern": "eius",
-        "EndRulePattern": "et"
+        "StartDay": 883,
+        "StartMonth": 558,
+        "EndDay": 474,
+        "EndMonth": 101,
+        "TZOffset": 823,
+        "StartRulePattern": "consequatur",
+        "EndRulePattern": "repellat"
       }
     }
   }

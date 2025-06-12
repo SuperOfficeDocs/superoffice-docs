@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 357,
-  "Name": "Fisher LLC",
-  "Tooltip": "quisquam",
-  "Deleted": true,
-  "Rank": 867,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 853,
+  "Name": "Hintz-Schneider",
+  "Tooltip": "non",
+  "Deleted": false,
+  "Rank": 666,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "iure",
+  "ListType": "illum",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 792
+      "FieldLength": 630
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

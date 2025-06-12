@@ -88,11 +88,11 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 248,
-  "Name": "Quitzon, Langworth and Hammes",
-  "Tooltip": "et",
+  "Id": 678,
+  "Name": "Osinski, Krajcik and Pacocha",
+  "Tooltip": "possimus",
   "Deleted": false,
-  "Rank": 6,
+  "Rank": 927,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 226,
-  "Name": "Bechtelar LLC",
-  "Tooltip": "molestias",
-  "Deleted": false,
-  "Rank": 669,
+  "Id": 489,
+  "Name": "Wolf, Pfannerstill and Glover",
+  "Tooltip": "at",
+  "Deleted": true,
+  "Rank": 510,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "veritatis",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "consectetur",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldType": "System.String",
+      "FieldLength": 312
     }
   }
 }

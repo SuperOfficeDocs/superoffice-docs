@@ -101,7 +101,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 684
+  "Count": 985
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Witting-Swift",
-    "SaleDate": "1998-06-02T16:32:39.8520956+02:00",
-    "SaleId": 687,
-    "Probability": 482,
-    "Title": "maiores",
-    "Amount": 332.204,
-    "Currency": "vel",
-    "ProjectName": "Armstrong-Keeling",
-    "AssociateFullName": "Miss Cristobal Sedrick Beatty DVM",
-    "Description": "Implemented exuding product",
+    "ContactName": "Cummerata LLC",
+    "SaleDate": "2002-08-21T17:54:03.5858088+02:00",
+    "SaleId": 433,
+    "Probability": 924,
+    "Title": "architecto",
+    "Amount": 5631.798,
+    "Currency": "adipisci",
+    "ProjectName": "Nolan, Swift and Schoen",
+    "AssociateFullName": "Vincenza Dortha Sauer Sr.",
+    "Description": "Pre-emptive scalable matrix",
     "Status": "Lost",
-    "WeightedAmount": 14494.75,
-    "ProjectId": 592,
-    "EarningPercent": 11457.904,
-    "Earning": 10219.974,
-    "ContactId": 485,
-    "AssociateId": 779,
-    "PersonId": 123,
-    "SaleTypeId": 531,
-    "SaleTypeName": "Vandervort LLC",
-    "PersonFullName": "Hertha Dibbert",
+    "WeightedAmount": 7330.4259999999995,
+    "ProjectId": 47,
+    "EarningPercent": 30669.324,
+    "Earning": 12824.328,
+    "ContactId": 374,
+    "AssociateId": 421,
+    "PersonId": 179,
+    "SaleTypeId": 538,
+    "SaleTypeName": "Runte Group",
+    "PersonFullName": "Trycia Hills",
     "Completed": "Completed",
-    "ActiveErpLinks": 494,
-    "NextDueDate": "1998-04-24T16:32:39.8520956+02:00",
-    "Number": "559775",
+    "ActiveErpLinks": 529,
+    "NextDueDate": "2006-06-08T17:54:03.5858088+02:00",
+    "Number": "291329",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 453
+        "FieldType": "System.String",
+        "FieldLength": 991
       }
     }
   }

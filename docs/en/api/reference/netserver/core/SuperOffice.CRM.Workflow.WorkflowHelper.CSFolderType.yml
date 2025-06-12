@@ -1,0 +1,826 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+  id: WorkflowHelper.CSFolderType
+  parent: SuperOffice.CRM.Workflow
+  children:
+  - SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.formFolder
+  - SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.formTemplateFolder
+  - SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.linkFolder
+  - SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.listFolder
+  - SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.messageFolder
+  - SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.pictureFolder
+  - SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.shipmentFolder
+  langs:
+  - csharp
+  - vb
+  name: WorkflowHelper.CSFolderType
+  nameWithType: WorkflowHelper.CSFolderType
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+  type: Enum
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public enum WorkflowHelper.CSFolderType
+    content.vb: Public Enum WorkflowHelper.CSFolderType
+  extensionMethods:
+  - SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType)
+  - SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - System.Enum.SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.String,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.pictureFolder
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.pictureFolder
+  id: pictureFolder
+  parent: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+  langs:
+  - csharp
+  - vb
+  name: pictureFolder
+  nameWithType: WorkflowHelper.CSFolderType.pictureFolder
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.pictureFolder
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: pictureFolder = 0
+    return:
+      type: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.messageFolder
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.messageFolder
+  id: messageFolder
+  parent: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+  langs:
+  - csharp
+  - vb
+  name: messageFolder
+  nameWithType: WorkflowHelper.CSFolderType.messageFolder
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.messageFolder
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: messageFolder = 1
+    return:
+      type: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.shipmentFolder
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.shipmentFolder
+  id: shipmentFolder
+  parent: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+  langs:
+  - csharp
+  - vb
+  name: shipmentFolder
+  nameWithType: WorkflowHelper.CSFolderType.shipmentFolder
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.shipmentFolder
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: shipmentFolder = 2
+    return:
+      type: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.linkFolder
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.linkFolder
+  id: linkFolder
+  parent: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+  langs:
+  - csharp
+  - vb
+  name: linkFolder
+  nameWithType: WorkflowHelper.CSFolderType.linkFolder
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.linkFolder
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: linkFolder = 3
+    return:
+      type: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.listFolder
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.listFolder
+  id: listFolder
+  parent: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+  langs:
+  - csharp
+  - vb
+  name: listFolder
+  nameWithType: WorkflowHelper.CSFolderType.listFolder
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.listFolder
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: listFolder = 4
+    return:
+      type: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.formFolder
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.formFolder
+  id: formFolder
+  parent: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+  langs:
+  - csharp
+  - vb
+  name: formFolder
+  nameWithType: WorkflowHelper.CSFolderType.formFolder
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.formFolder
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: formFolder = 5
+    return:
+      type: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.formTemplateFolder
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.formTemplateFolder
+  id: formTemplateFolder
+  parent: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+  langs:
+  - csharp
+  - vb
+  name: formTemplateFolder
+  nameWithType: WorkflowHelper.CSFolderType.formTemplateFolder
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.formTemplateFolder
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: formTemplateFolder = 6
+    return:
+      type: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+references:
+- uid: SuperOffice.CRM.Workflow
+  commentId: N:SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Workflow
+  nameWithType: SuperOffice.CRM.Workflow
+  fullName: SuperOffice.CRM.Workflow
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Workflow
+    name: Workflow
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Workflow
+    name: Workflow
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.html
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<CSFolderType, To>(CSFolderType)
+  nameWithType: EnumUtil.MapEnums<WorkflowHelper.CSFolderType, To>(WorkflowHelper.CSFolderType)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType, To>(SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType)
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowHelper.CSFolderType, To)(WorkflowHelper.CSFolderType)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType, To)(SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType)
+  name.vb: MapEnums(Of CSFolderType, To)(CSFolderType)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+    name: CSFolderType
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+    name: CSFolderType
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+    name: CSFolderType
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+    name: CSFolderType
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.html
+  - name: )
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<CSFolderType, To>(CSFolderType)
+  nameWithType: Converters.MapEnums<WorkflowHelper.CSFolderType, To>(WorkflowHelper.CSFolderType)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType, To>(SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType)
+  nameWithType.vb: Converters.MapEnums(Of WorkflowHelper.CSFolderType, To)(WorkflowHelper.CSFolderType)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType, To)(SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType)
+  name.vb: MapEnums(Of CSFolderType, To)(CSFolderType)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+    name: CSFolderType
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+    name: CSFolderType
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+    name: CSFolderType
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+    name: CSFolderType
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.html
+  - name: )
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<CSFolderType>(CSFolderType, CSFolderType)
+  nameWithType: ObjectExtensions.AssignByReflection<WorkflowHelper.CSFolderType>(WorkflowHelper.CSFolderType, WorkflowHelper.CSFolderType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType>(SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType, SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of WorkflowHelper.CSFolderType)(WorkflowHelper.CSFolderType, WorkflowHelper.CSFolderType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType)(SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType, SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType)
+  name.vb: AssignByReflection(Of CSFolderType)(CSFolderType, CSFolderType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType,SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+    name: CSFolderType
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+    name: CSFolderType
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+    name: CSFolderType
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType,SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+    name: CSFolderType
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+    name: CSFolderType
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+    name: CSFolderType
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.html
+  - name: )
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<CSFolderType>(CSFolderType)
+  nameWithType: ObjectExtensions.GraphCopy<WorkflowHelper.CSFolderType>(WorkflowHelper.CSFolderType)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType>(SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of WorkflowHelper.CSFolderType)(WorkflowHelper.CSFolderType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType)(SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType)
+  name.vb: GraphCopy(Of CSFolderType)(CSFolderType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+    name: CSFolderType
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+    name: CSFolderType
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+    name: CSFolderType
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+    name: CSFolderType
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.html
+  - name: )
+- uid: System.Enum.SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.RegistryExtensions
+  definition: SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum,System.String,System.Threading.CancellationToken)
+  href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRowAsync_System_Enum_System_String_System_Threading_CancellationToken_
+  name: GetRegistryRowAsync(Enum, string, CancellationToken)
+  nameWithType: RegistryExtensions.GetRegistryRowAsync(Enum, string, CancellationToken)
+  fullName: SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum, string, System.Threading.CancellationToken)
+  nameWithType.vb: RegistryExtensions.GetRegistryRowAsync(Enum, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum, String, System.Threading.CancellationToken)
+  name.vb: GetRegistryRowAsync(Enum, String, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum,System.String,System.Threading.CancellationToken)
+    name: GetRegistryRowAsync
+    isExternal: true
+    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRowAsync_System_Enum_System_String_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum,System.String,System.Threading.CancellationToken)
+    name: GetRegistryRowAsync
+    isExternal: true
+    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRowAsync_System_Enum_System_String_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum,System.String,System.Threading.CancellationToken)
+  isExternal: true
+  href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRowAsync_System_Enum_System_String_System_Threading_CancellationToken_
+  name: GetRegistryRowAsync(Enum, string, CancellationToken)
+  nameWithType: RegistryExtensions.GetRegistryRowAsync(Enum, string, CancellationToken)
+  fullName: SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum, string, System.Threading.CancellationToken)
+  nameWithType.vb: RegistryExtensions.GetRegistryRowAsync(Enum, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum, String, System.Threading.CancellationToken)
+  name.vb: GetRegistryRowAsync(Enum, String, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum,System.String,System.Threading.CancellationToken)
+    name: GetRegistryRowAsync
+    isExternal: true
+    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRowAsync_System_Enum_System_String_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum,System.String,System.Threading.CancellationToken)
+    name: GetRegistryRowAsync
+    isExternal: true
+    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRowAsync_System_Enum_System_String_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.RegistryExtensions
+  commentId: T:SuperOffice.CRM.RegistryExtensions
+  parent: SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.CRM.RegistryExtensions.html
+  name: RegistryExtensions
+  nameWithType: RegistryExtensions
+  fullName: SuperOffice.CRM.RegistryExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowHelper.html
+  name: WorkflowHelper.CSFolderType
+  nameWithType: WorkflowHelper.CSFolderType
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+  spec.csharp:
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper
+    name: WorkflowHelper
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.html
+  - name: .
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+    name: CSFolderType
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper
+    name: WorkflowHelper
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.html
+  - name: .
+  - uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+    name: CSFolderType
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType.html

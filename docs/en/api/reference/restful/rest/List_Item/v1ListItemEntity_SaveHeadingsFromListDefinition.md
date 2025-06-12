@@ -78,25 +78,25 @@ OK
 PUT /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 932,
-    "Name": "Roob Group",
-    "Tooltip": "deserunt",
+    "HeadingId": 349,
+    "Name": "Beier, Bruen and Bartell",
+    "Tooltip": "autem",
     "Deleted": true,
-    "Rank": 364,
-    "UdListDefinitionId": 389
+    "Rank": 387,
+    "UdListDefinitionId": 480
   },
   {
-    "HeadingId": 932,
-    "Name": "Roob Group",
-    "Tooltip": "deserunt",
+    "HeadingId": 349,
+    "Name": "Beier, Bruen and Bartell",
+    "Tooltip": "autem",
     "Deleted": true,
-    "Rank": 364,
-    "UdListDefinitionId": 389
+    "Rank": 387,
+    "UdListDefinitionId": 480
   }
 ]
 ```
@@ -109,18 +109,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 816,
-    "Name": "Osinski LLC",
-    "Tooltip": "quisquam",
+    "HeadingId": 468,
+    "Name": "Haag, Hegmann and Renner",
+    "Tooltip": "consequuntur",
     "Deleted": false,
-    "Rank": 904,
-    "UdListDefinitionId": 853,
+    "Rank": 344,
+    "UdListDefinitionId": 837,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 130
+        "FieldLength": 345
       }
     }
   }

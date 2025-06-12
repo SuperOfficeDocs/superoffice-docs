@@ -1,0 +1,919 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.InterestHelperFactory
+  commentId: T:SuperOffice.CRM.Entities.InterestHelperFactory
+  id: InterestHelperFactory
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.InterestHelperFactory.#ctor(System.IServiceProvider)
+  - SuperOffice.CRM.Entities.InterestHelperFactory.CreateAsync``1(``0,System.Int32,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: InterestHelperFactory
+  nameWithType: InterestHelperFactory
+  fullName: SuperOffice.CRM.Entities.InterestHelperFactory
+  type: Class
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: 'public class InterestHelperFactory : IInterestHelperFactory'
+    content.vb: Public Class InterestHelperFactory Implements IInterestHelperFactory
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.Entities.IInterestHelperFactory
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Entities.InterestHelperFactory.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.InterestHelperFactory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.CRM.Entities.InterestHelperFactory.#ctor(System.IServiceProvider)
+  commentId: M:SuperOffice.CRM.Entities.InterestHelperFactory.#ctor(System.IServiceProvider)
+  id: '#ctor(System.IServiceProvider)'
+  parent: SuperOffice.CRM.Entities.InterestHelperFactory
+  langs:
+  - csharp
+  - vb
+  name: InterestHelperFactory(IServiceProvider)
+  nameWithType: InterestHelperFactory.InterestHelperFactory(IServiceProvider)
+  fullName: SuperOffice.CRM.Entities.InterestHelperFactory.InterestHelperFactory(System.IServiceProvider)
+  type: Constructor
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public InterestHelperFactory(IServiceProvider serviceProvider)
+    parameters:
+    - id: serviceProvider
+      type: System.IServiceProvider
+    content.vb: Public Sub New(serviceProvider As IServiceProvider)
+  overload: SuperOffice.CRM.Entities.InterestHelperFactory.#ctor*
+  nameWithType.vb: InterestHelperFactory.New(IServiceProvider)
+  fullName.vb: SuperOffice.CRM.Entities.InterestHelperFactory.New(System.IServiceProvider)
+  name.vb: New(IServiceProvider)
+- uid: SuperOffice.CRM.Entities.InterestHelperFactory.CreateAsync``1(``0,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.InterestHelperFactory.CreateAsync``1(``0,System.Int32,System.Threading.CancellationToken)
+  id: CreateAsync``1(``0,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.InterestHelperFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync<T>(T, int, CancellationToken)
+  nameWithType: InterestHelperFactory.CreateAsync<T>(T, int, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.InterestHelperFactory.CreateAsync<T>(T, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: >-
+    Instantiates a class that inherits IInterestHelper. The class is picked based on a given type of linkRows object.
+
+    Please check currently supported linkRows types on the implementation of this method.
+  example: []
+  syntax:
+    content: 'public Task<IInterestHelper> CreateAsync<T>(T linkRows, int id, CancellationToken cancellationToken = default) where T : TableRowsBase'
+    parameters:
+    - id: linkRows
+      type: '{T}'
+      description: Supported linkRows object.
+    - id: id
+      type: System.Int32
+      description: Entity Id.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.IInterestHelper}
+      description: Class inheriting IInterestHelper
+    content.vb: Public Function CreateAsync(Of T As TableRowsBase)(linkRows As T, id As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of IInterestHelper)
+  overload: SuperOffice.CRM.Entities.InterestHelperFactory.CreateAsync*
+  implements:
+  - SuperOffice.CRM.Entities.IInterestHelperFactory.CreateAsync``1({T},System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: InterestHelperFactory.CreateAsync(Of T)(T, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.InterestHelperFactory.CreateAsync(Of T)(T, Integer, System.Threading.CancellationToken)
+  name.vb: CreateAsync(Of T)(T, Integer, CancellationToken)
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.CRM.Entities.IInterestHelperFactory
+  commentId: T:SuperOffice.CRM.Entities.IInterestHelperFactory
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IInterestHelperFactory.html
+  name: IInterestHelperFactory
+  nameWithType: IInterestHelperFactory
+  fullName: SuperOffice.CRM.Entities.IInterestHelperFactory
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Entities.InterestHelperFactory.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<InterestHelperFactory, To>(InterestHelperFactory)
+  nameWithType: EnumUtil.MapEnums<InterestHelperFactory, To>(InterestHelperFactory)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.InterestHelperFactory, To>(SuperOffice.CRM.Entities.InterestHelperFactory)
+  nameWithType.vb: EnumUtil.MapEnums(Of InterestHelperFactory, To)(InterestHelperFactory)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.InterestHelperFactory, To)(SuperOffice.CRM.Entities.InterestHelperFactory)
+  name.vb: MapEnums(Of InterestHelperFactory, To)(InterestHelperFactory)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.InterestHelperFactory)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.InterestHelperFactory
+    name: InterestHelperFactory
+    isExternal: true
+    href: SuperOffice.CRM.Entities.InterestHelperFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Entities.InterestHelperFactory
+    name: InterestHelperFactory
+    isExternal: true
+    href: SuperOffice.CRM.Entities.InterestHelperFactory.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.InterestHelperFactory)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.InterestHelperFactory
+    name: InterestHelperFactory
+    isExternal: true
+    href: SuperOffice.CRM.Entities.InterestHelperFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.InterestHelperFactory
+    name: InterestHelperFactory
+    isExternal: true
+    href: SuperOffice.CRM.Entities.InterestHelperFactory.html
+  - name: )
+- uid: SuperOffice.CRM.Entities.InterestHelperFactory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<InterestHelperFactory, To>(InterestHelperFactory)
+  nameWithType: Converters.MapEnums<InterestHelperFactory, To>(InterestHelperFactory)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.InterestHelperFactory, To>(SuperOffice.CRM.Entities.InterestHelperFactory)
+  nameWithType.vb: Converters.MapEnums(Of InterestHelperFactory, To)(InterestHelperFactory)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.InterestHelperFactory, To)(SuperOffice.CRM.Entities.InterestHelperFactory)
+  name.vb: MapEnums(Of InterestHelperFactory, To)(InterestHelperFactory)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.InterestHelperFactory)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.InterestHelperFactory
+    name: InterestHelperFactory
+    isExternal: true
+    href: SuperOffice.CRM.Entities.InterestHelperFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Entities.InterestHelperFactory
+    name: InterestHelperFactory
+    isExternal: true
+    href: SuperOffice.CRM.Entities.InterestHelperFactory.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.InterestHelperFactory)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.InterestHelperFactory
+    name: InterestHelperFactory
+    isExternal: true
+    href: SuperOffice.CRM.Entities.InterestHelperFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.InterestHelperFactory
+    name: InterestHelperFactory
+    isExternal: true
+    href: SuperOffice.CRM.Entities.InterestHelperFactory.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.Entities.InterestHelperFactory.#ctor*
+  commentId: Overload:SuperOffice.CRM.Entities.InterestHelperFactory.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Entities.InterestHelperFactory.html#SuperOffice_CRM_Entities_InterestHelperFactory__ctor_System_IServiceProvider_
+  name: InterestHelperFactory
+  nameWithType: InterestHelperFactory.InterestHelperFactory
+  fullName: SuperOffice.CRM.Entities.InterestHelperFactory.InterestHelperFactory
+  nameWithType.vb: InterestHelperFactory.New
+  fullName.vb: SuperOffice.CRM.Entities.InterestHelperFactory.New
+  name.vb: New
+- uid: System.IServiceProvider
+  commentId: T:System.IServiceProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: System.IServiceProvider
+- uid: SuperOffice.CRM.Entities.InterestHelperFactory.CreateAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.InterestHelperFactory.CreateAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.InterestHelperFactory.html#SuperOffice_CRM_Entities_InterestHelperFactory_CreateAsync__1___0_System_Int32_System_Threading_CancellationToken_
+  name: CreateAsync
+  nameWithType: InterestHelperFactory.CreateAsync
+  fullName: SuperOffice.CRM.Entities.InterestHelperFactory.CreateAsync
+- uid: SuperOffice.CRM.Entities.IInterestHelperFactory.CreateAsync``1({T},System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IInterestHelperFactory.CreateAsync``1(``0,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IInterestHelperFactory
+  definition: SuperOffice.CRM.Entities.IInterestHelperFactory.CreateAsync``1(``0,System.Int32,System.Threading.CancellationToken)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: CreateAsync<T>(T, int, CancellationToken)
+  nameWithType: IInterestHelperFactory.CreateAsync<T>(T, int, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IInterestHelperFactory.CreateAsync<T>(T, int, System.Threading.CancellationToken)
+  nameWithType.vb: IInterestHelperFactory.CreateAsync(Of T)(T, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.IInterestHelperFactory.CreateAsync(Of T)(T, Integer, System.Threading.CancellationToken)
+  name.vb: CreateAsync(Of T)(T, Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.IInterestHelperFactory.CreateAsync``1(``0,System.Int32,System.Threading.CancellationToken)
+    name: CreateAsync
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.IInterestHelperFactory.CreateAsync``1(``0,System.Int32,System.Threading.CancellationToken)
+    name: CreateAsync
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.IInterestHelper}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Entities.IInterestHelper}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<IInterestHelper>
+  nameWithType: Task<IInterestHelper>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Entities.IInterestHelper>
+  nameWithType.vb: Task(Of IInterestHelper)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Entities.IInterestHelper)
+  name.vb: Task(Of IInterestHelper)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Entities.IInterestHelper
+    name: IInterestHelper
+    isExternal: true
+    href: SuperOffice.CRM.Entities.IInterestHelper.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.IInterestHelper
+    name: IInterestHelper
+    isExternal: true
+    href: SuperOffice.CRM.Entities.IInterestHelper.html
+  - name: )
+- uid: SuperOffice.CRM.Entities.IInterestHelperFactory.CreateAsync``1(``0,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IInterestHelperFactory.CreateAsync``1(``0,System.Int32,System.Threading.CancellationToken)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: CreateAsync<T>(T, int, CancellationToken)
+  nameWithType: IInterestHelperFactory.CreateAsync<T>(T, int, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IInterestHelperFactory.CreateAsync<T>(T, int, System.Threading.CancellationToken)
+  nameWithType.vb: IInterestHelperFactory.CreateAsync(Of T)(T, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.IInterestHelperFactory.CreateAsync(Of T)(T, Integer, System.Threading.CancellationToken)
+  name.vb: CreateAsync(Of T)(T, Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.IInterestHelperFactory.CreateAsync``1(``0,System.Int32,System.Threading.CancellationToken)
+    name: CreateAsync
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.IInterestHelperFactory.CreateAsync``1(``0,System.Int32,System.Threading.CancellationToken)
+    name: CreateAsync
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

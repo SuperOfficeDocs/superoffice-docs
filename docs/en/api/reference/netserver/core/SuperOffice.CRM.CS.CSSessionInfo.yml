@@ -1,0 +1,730 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.CS.CSSessionInfo
+  commentId: T:SuperOffice.CRM.CS.CSSessionInfo
+  id: CSSessionInfo
+  parent: SuperOffice.CRM.CS
+  children:
+  - SuperOffice.CRM.CS.CSSessionInfo.#ctor(System.String,System.Int32,System.Int32)
+  - SuperOffice.CRM.CS.CSSessionInfo.Deconstruct(System.String@,System.Int32@,System.Int32@)
+  - SuperOffice.CRM.CS.CSSessionInfo.LoginId
+  - SuperOffice.CRM.CS.CSSessionInfo.SessionKey
+  - SuperOffice.CRM.CS.CSSessionInfo.UserId
+  langs:
+  - csharp
+  - vb
+  name: CSSessionInfo
+  nameWithType: CSSessionInfo
+  fullName: SuperOffice.CRM.CS.CSSessionInfo
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.CS
+  syntax:
+    content: public class CSSessionInfo
+    content.vb: Public Class CSSessionInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.CS.CSSessionInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.CS.CSSessionInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.CRM.CS.CSSessionInfo.#ctor(System.String,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.CS.CSSessionInfo.#ctor(System.String,System.Int32,System.Int32)
+  id: '#ctor(System.String,System.Int32,System.Int32)'
+  parent: SuperOffice.CRM.CS.CSSessionInfo
+  langs:
+  - csharp
+  - vb
+  name: CSSessionInfo(string, int, int)
+  nameWithType: CSSessionInfo.CSSessionInfo(string, int, int)
+  fullName: SuperOffice.CRM.CS.CSSessionInfo.CSSessionInfo(string, int, int)
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.CS
+  syntax:
+    content: public CSSessionInfo(string sessionKey, int loginId, int userId)
+    parameters:
+    - id: sessionKey
+      type: System.String
+    - id: loginId
+      type: System.Int32
+    - id: userId
+      type: System.Int32
+    content.vb: Public Sub New(sessionKey As String, loginId As Integer, userId As Integer)
+  overload: SuperOffice.CRM.CS.CSSessionInfo.#ctor*
+  nameWithType.vb: CSSessionInfo.New(String, Integer, Integer)
+  fullName.vb: SuperOffice.CRM.CS.CSSessionInfo.New(String, Integer, Integer)
+  name.vb: New(String, Integer, Integer)
+- uid: SuperOffice.CRM.CS.CSSessionInfo.Deconstruct(System.String@,System.Int32@,System.Int32@)
+  commentId: M:SuperOffice.CRM.CS.CSSessionInfo.Deconstruct(System.String@,System.Int32@,System.Int32@)
+  id: Deconstruct(System.String@,System.Int32@,System.Int32@)
+  parent: SuperOffice.CRM.CS.CSSessionInfo
+  langs:
+  - csharp
+  - vb
+  name: Deconstruct(out string, out int, out int)
+  nameWithType: CSSessionInfo.Deconstruct(out string, out int, out int)
+  fullName: SuperOffice.CRM.CS.CSSessionInfo.Deconstruct(out string, out int, out int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.CS
+  syntax:
+    content: public void Deconstruct(out string sessionKey, out int loginId, out int userId)
+    parameters:
+    - id: sessionKey
+      type: System.String
+    - id: loginId
+      type: System.Int32
+    - id: userId
+      type: System.Int32
+    content.vb: Public Sub Deconstruct(sessionKey As String, loginId As Integer, userId As Integer)
+  overload: SuperOffice.CRM.CS.CSSessionInfo.Deconstruct*
+  nameWithType.vb: CSSessionInfo.Deconstruct(String, Integer, Integer)
+  fullName.vb: SuperOffice.CRM.CS.CSSessionInfo.Deconstruct(String, Integer, Integer)
+  name.vb: Deconstruct(String, Integer, Integer)
+- uid: SuperOffice.CRM.CS.CSSessionInfo.SessionKey
+  commentId: P:SuperOffice.CRM.CS.CSSessionInfo.SessionKey
+  id: SessionKey
+  parent: SuperOffice.CRM.CS.CSSessionInfo
+  langs:
+  - csharp
+  - vb
+  name: SessionKey
+  nameWithType: CSSessionInfo.SessionKey
+  fullName: SuperOffice.CRM.CS.CSSessionInfo.SessionKey
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.CS
+  syntax:
+    content: public string SessionKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SessionKey As String
+  overload: SuperOffice.CRM.CS.CSSessionInfo.SessionKey*
+- uid: SuperOffice.CRM.CS.CSSessionInfo.LoginId
+  commentId: P:SuperOffice.CRM.CS.CSSessionInfo.LoginId
+  id: LoginId
+  parent: SuperOffice.CRM.CS.CSSessionInfo
+  langs:
+  - csharp
+  - vb
+  name: LoginId
+  nameWithType: CSSessionInfo.LoginId
+  fullName: SuperOffice.CRM.CS.CSSessionInfo.LoginId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.CS
+  syntax:
+    content: public int LoginId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property LoginId As Integer
+  overload: SuperOffice.CRM.CS.CSSessionInfo.LoginId*
+- uid: SuperOffice.CRM.CS.CSSessionInfo.UserId
+  commentId: P:SuperOffice.CRM.CS.CSSessionInfo.UserId
+  id: UserId
+  parent: SuperOffice.CRM.CS.CSSessionInfo
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: CSSessionInfo.UserId
+  fullName: SuperOffice.CRM.CS.CSSessionInfo.UserId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.CS
+  syntax:
+    content: public int UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserId As Integer
+  overload: SuperOffice.CRM.CS.CSSessionInfo.UserId*
+references:
+- uid: SuperOffice.CRM.CS
+  commentId: N:SuperOffice.CRM.CS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.CS
+  nameWithType: SuperOffice.CRM.CS
+  fullName: SuperOffice.CRM.CS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.CS
+    name: CS
+    isExternal: true
+    href: SuperOffice.CRM.CS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.CS
+    name: CS
+    isExternal: true
+    href: SuperOffice.CRM.CS.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.CS.CSSessionInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<CSSessionInfo, To>(CSSessionInfo)
+  nameWithType: EnumUtil.MapEnums<CSSessionInfo, To>(CSSessionInfo)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.CS.CSSessionInfo, To>(SuperOffice.CRM.CS.CSSessionInfo)
+  nameWithType.vb: EnumUtil.MapEnums(Of CSSessionInfo, To)(CSSessionInfo)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.CS.CSSessionInfo, To)(SuperOffice.CRM.CS.CSSessionInfo)
+  name.vb: MapEnums(Of CSSessionInfo, To)(CSSessionInfo)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.CS.CSSessionInfo)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.CS.CSSessionInfo
+    name: CSSessionInfo
+    isExternal: true
+    href: SuperOffice.CRM.CS.CSSessionInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.CS.CSSessionInfo
+    name: CSSessionInfo
+    isExternal: true
+    href: SuperOffice.CRM.CS.CSSessionInfo.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.CS.CSSessionInfo)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.CS.CSSessionInfo
+    name: CSSessionInfo
+    isExternal: true
+    href: SuperOffice.CRM.CS.CSSessionInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.CS.CSSessionInfo
+    name: CSSessionInfo
+    isExternal: true
+    href: SuperOffice.CRM.CS.CSSessionInfo.html
+  - name: )
+- uid: SuperOffice.CRM.CS.CSSessionInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<CSSessionInfo, To>(CSSessionInfo)
+  nameWithType: Converters.MapEnums<CSSessionInfo, To>(CSSessionInfo)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.CS.CSSessionInfo, To>(SuperOffice.CRM.CS.CSSessionInfo)
+  nameWithType.vb: Converters.MapEnums(Of CSSessionInfo, To)(CSSessionInfo)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.CS.CSSessionInfo, To)(SuperOffice.CRM.CS.CSSessionInfo)
+  name.vb: MapEnums(Of CSSessionInfo, To)(CSSessionInfo)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.CS.CSSessionInfo)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.CS.CSSessionInfo
+    name: CSSessionInfo
+    isExternal: true
+    href: SuperOffice.CRM.CS.CSSessionInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.CS.CSSessionInfo
+    name: CSSessionInfo
+    isExternal: true
+    href: SuperOffice.CRM.CS.CSSessionInfo.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.CS.CSSessionInfo)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.CS.CSSessionInfo
+    name: CSSessionInfo
+    isExternal: true
+    href: SuperOffice.CRM.CS.CSSessionInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.CS.CSSessionInfo
+    name: CSSessionInfo
+    isExternal: true
+    href: SuperOffice.CRM.CS.CSSessionInfo.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.CS.CSSessionInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.CS.CSSessionInfo.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.CS.CSSessionInfo.html#SuperOffice_CRM_CS_CSSessionInfo__ctor_System_String_System_Int32_System_Int32_
+  name: CSSessionInfo
+  nameWithType: CSSessionInfo.CSSessionInfo
+  fullName: SuperOffice.CRM.CS.CSSessionInfo.CSSessionInfo
+  nameWithType.vb: CSSessionInfo.New
+  fullName.vb: SuperOffice.CRM.CS.CSSessionInfo.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.CS.CSSessionInfo.Deconstruct*
+  commentId: Overload:SuperOffice.CRM.CS.CSSessionInfo.Deconstruct
+  isExternal: true
+  href: SuperOffice.CRM.CS.CSSessionInfo.html#SuperOffice_CRM_CS_CSSessionInfo_Deconstruct_System_String__System_Int32__System_Int32__
+  name: Deconstruct
+  nameWithType: CSSessionInfo.Deconstruct
+  fullName: SuperOffice.CRM.CS.CSSessionInfo.Deconstruct
+- uid: SuperOffice.CRM.CS.CSSessionInfo.SessionKey*
+  commentId: Overload:SuperOffice.CRM.CS.CSSessionInfo.SessionKey
+  isExternal: true
+  href: SuperOffice.CRM.CS.CSSessionInfo.html#SuperOffice_CRM_CS_CSSessionInfo_SessionKey
+  name: SessionKey
+  nameWithType: CSSessionInfo.SessionKey
+  fullName: SuperOffice.CRM.CS.CSSessionInfo.SessionKey
+- uid: SuperOffice.CRM.CS.CSSessionInfo.LoginId*
+  commentId: Overload:SuperOffice.CRM.CS.CSSessionInfo.LoginId
+  isExternal: true
+  href: SuperOffice.CRM.CS.CSSessionInfo.html#SuperOffice_CRM_CS_CSSessionInfo_LoginId
+  name: LoginId
+  nameWithType: CSSessionInfo.LoginId
+  fullName: SuperOffice.CRM.CS.CSSessionInfo.LoginId
+- uid: SuperOffice.CRM.CS.CSSessionInfo.UserId*
+  commentId: Overload:SuperOffice.CRM.CS.CSSessionInfo.UserId
+  isExternal: true
+  href: SuperOffice.CRM.CS.CSSessionInfo.html#SuperOffice_CRM_CS_CSSessionInfo_UserId
+  name: UserId
+  nameWithType: CSSessionInfo.UserId
+  fullName: SuperOffice.CRM.CS.CSSessionInfo.UserId

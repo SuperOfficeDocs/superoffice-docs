@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 733
+  "SatelliteId": 209
 }
 ```
 
@@ -92,56 +92,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Sauer, Hickle and Abshire",
-    "Description": "Intuitive empowering firmware",
+    "Name": "Kshlerin-Bosco",
+    "Description": "Multi-tiered coherent paradigm",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 692,
-        "Tooltip": "iste",
-        "CanAssign": false,
-        "Free": 244,
-        "InUse": 869,
-        "IsHidden": false,
+        "Total": 15,
+        "Tooltip": "unde",
+        "CanAssign": true,
+        "Free": 101,
+        "InUse": 398,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 340,
-        "Name": "Marks-Welch",
-        "Description": "Operative web-enabled Graphic Interface",
-        "PrerequisiteModuleName": "Hettinger-Reichert",
-        "SortOrder": 371,
-        "ExtraFlags": 791,
+        "ModuleLicenseId": 874,
+        "Name": "Dickens Inc and Sons",
+        "Description": "Open-source system-worthy moderator",
+        "PrerequisiteModuleName": "Gutkowski-Sauer",
+        "SortOrder": 886,
+        "ExtraFlags": 513,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 725
+            "FieldLength": 652
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 144,
-        "Tooltip": "molestiae",
+        "Unrestricted": false,
+        "Total": 105,
+        "Tooltip": "illum",
         "CanAssign": false,
-        "Free": 483,
-        "InUse": 855,
-        "IsHidden": false,
+        "Free": 174,
+        "InUse": 236,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 363,
-        "Name": "Kassulke-Stracke",
-        "Description": "Universal empowering definition",
-        "PrerequisiteModuleName": "Wisoky, Kertzmann and Erdman",
-        "SortOrder": 437,
-        "ExtraFlags": 145,
+        "ModuleLicenseId": 498,
+        "Name": "Douglas LLC",
+        "Description": "Fully-configurable explicit portal",
+        "PrerequisiteModuleName": "White, Kohler and O'Hara",
+        "SortOrder": 986,
+        "ExtraFlags": 593,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 296
+            "FieldType": "System.Int32",
+            "FieldLength": 334
           }
         }
       }
@@ -151,61 +151,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 960
+        "FieldLength": 671
       }
     }
   },
   {
-    "Name": "Sauer, Hickle and Abshire",
-    "Description": "Intuitive empowering firmware",
+    "Name": "Kshlerin-Bosco",
+    "Description": "Multi-tiered coherent paradigm",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 692,
-        "Tooltip": "iste",
-        "CanAssign": false,
-        "Free": 244,
-        "InUse": 869,
-        "IsHidden": false,
+        "Total": 15,
+        "Tooltip": "unde",
+        "CanAssign": true,
+        "Free": 101,
+        "InUse": 398,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 340,
-        "Name": "Marks-Welch",
-        "Description": "Operative web-enabled Graphic Interface",
-        "PrerequisiteModuleName": "Hettinger-Reichert",
-        "SortOrder": 371,
-        "ExtraFlags": 791,
+        "ModuleLicenseId": 874,
+        "Name": "Dickens Inc and Sons",
+        "Description": "Open-source system-worthy moderator",
+        "PrerequisiteModuleName": "Gutkowski-Sauer",
+        "SortOrder": 886,
+        "ExtraFlags": 513,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 725
+            "FieldLength": 652
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 144,
-        "Tooltip": "molestiae",
+        "Unrestricted": false,
+        "Total": 105,
+        "Tooltip": "illum",
         "CanAssign": false,
-        "Free": 483,
-        "InUse": 855,
-        "IsHidden": false,
+        "Free": 174,
+        "InUse": 236,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 363,
-        "Name": "Kassulke-Stracke",
-        "Description": "Universal empowering definition",
-        "PrerequisiteModuleName": "Wisoky, Kertzmann and Erdman",
-        "SortOrder": 437,
-        "ExtraFlags": 145,
+        "ModuleLicenseId": 498,
+        "Name": "Douglas LLC",
+        "Description": "Fully-configurable explicit portal",
+        "PrerequisiteModuleName": "White, Kohler and O'Hara",
+        "SortOrder": 986,
+        "ExtraFlags": 593,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 296
+            "FieldType": "System.Int32",
+            "FieldLength": 334
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 960
+        "FieldLength": 671
       }
     }
   }

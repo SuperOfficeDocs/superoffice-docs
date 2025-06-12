@@ -123,12 +123,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "unde",
+    "path": "architecto",
     "value": {}
   },
   {
     "op": "add",
-    "path": "unde",
+    "path": "architecto",
     "value": {}
   }
 ]
@@ -141,51 +141,51 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 804,
+  "HierarchyId": 939,
   "Domain": "Dashboards",
-  "Name": "Konopelski Group",
-  "Fullname": "mollitia",
-  "ParentId": 165,
+  "Name": "Gaylord-Christiansen",
+  "Fullname": "odit",
+  "ParentId": 366,
   "Children": [
     {
-      "HierarchyId": 314,
+      "HierarchyId": 333,
       "Domain": "Dashboards",
-      "Name": "Kub LLC",
-      "Fullname": "ipsa",
-      "ParentId": 951,
+      "Name": "Runolfsson Inc and Sons",
+      "Fullname": "eum",
+      "ParentId": 972,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2009-04-19T16:32:47.5558268+02:00",
-      "RegisteredAssociateId": 796,
-      "Updated": "2023-10-27T16:32:47.5558268+02:00",
-      "UpdatedAssociateId": 400,
+      "Registered": "2009-10-26T17:54:08.2574567+01:00",
+      "RegisteredAssociateId": 593,
+      "Updated": "2008-12-04T17:54:08.2574567+01:00",
+      "UpdatedAssociateId": 450,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 607
+          "FieldType": "System.String",
+          "FieldLength": 560
         }
       }
     }
   ],
-  "Registered": "2000-04-15T16:32:47.5558268+02:00",
-  "RegisteredAssociateId": 149,
-  "Updated": "2013-03-02T16:32:47.5558268+01:00",
-  "UpdatedAssociateId": 919,
+  "Registered": "2013-04-12T17:54:08.2574567+02:00",
+  "RegisteredAssociateId": 546,
+  "Updated": "2016-02-24T17:54:08.2574567+01:00",
+  "UpdatedAssociateId": 441,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 253
+      "FieldType": "System.String",
+      "FieldLength": 624
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

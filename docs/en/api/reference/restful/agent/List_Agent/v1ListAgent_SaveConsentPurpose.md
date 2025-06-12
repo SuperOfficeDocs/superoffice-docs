@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 304,
-  "Name": "Mohr-Funk",
-  "ConsentText": "accusantium",
-  "FormText": "consequatur",
-  "Key": "ea",
-  "Tooltip": "sed",
-  "Active": 670,
-  "UpdatedDate": "2019-12-25T16:32:39.3363462+01:00",
+  "ConsentPurposeId": 467,
+  "Name": "Hermiston Group",
+  "ConsentText": "dolore",
+  "FormText": "modi",
+  "Key": "maiores",
+  "Tooltip": "odit",
+  "Active": 445,
+  "UpdatedDate": "2024-02-12T17:54:03.3202006+01:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 923,
-  "PrivacyStatementDesc": "provident",
+  "Deleted": false,
+  "Rank": 601,
+  "PrivacyStatementDesc": "maxime",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 735
+      "FieldType": "System.Int32",
+      "FieldLength": 717
     }
   }
 }

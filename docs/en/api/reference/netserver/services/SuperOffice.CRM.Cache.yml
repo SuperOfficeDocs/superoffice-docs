@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Cache
+  commentId: N:SuperOffice.CRM.Cache
+  id: SuperOffice.CRM.Cache
+  children:
+  - SuperOffice.CRM.Cache.ErpListCache
+  - SuperOffice.CRM.Cache.ErpSearchResultCache
+  - SuperOffice.CRM.Cache.ErpSearchResultCache.SearchResult
+  - SuperOffice.CRM.Cache.QuoteListCache
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.Cache
+  nameWithType: SuperOffice.CRM.Cache
+  fullName: SuperOffice.CRM.Cache
+  type: Namespace
+  assemblies:
+  - SuperOffice.Services.Implementation
+references:
+- uid: SuperOffice.CRM.Cache.ErpListCache
+  commentId: T:SuperOffice.CRM.Cache.ErpListCache
+  isExternal: true
+  href: SuperOffice.CRM.Cache.ErpListCache.html
+  name: ErpListCache
+  nameWithType: ErpListCache
+  fullName: SuperOffice.CRM.Cache.ErpListCache
+- uid: SuperOffice.CRM.Cache.ErpSearchResultCache
+  commentId: T:SuperOffice.CRM.Cache.ErpSearchResultCache
+  isExternal: true
+  href: SuperOffice.CRM.Cache.ErpSearchResultCache.html
+  name: ErpSearchResultCache
+  nameWithType: ErpSearchResultCache
+  fullName: SuperOffice.CRM.Cache.ErpSearchResultCache
+- uid: SuperOffice.CRM.Cache.ErpSearchResultCache.SearchResult
+  commentId: T:SuperOffice.CRM.Cache.ErpSearchResultCache.SearchResult
+  isExternal: true
+  href: SuperOffice.CRM.Cache.ErpSearchResultCache.html
+  name: ErpSearchResultCache.SearchResult
+  nameWithType: ErpSearchResultCache.SearchResult
+  fullName: SuperOffice.CRM.Cache.ErpSearchResultCache.SearchResult
+  spec.csharp:
+  - uid: SuperOffice.CRM.Cache.ErpSearchResultCache
+    name: ErpSearchResultCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.ErpSearchResultCache.html
+  - name: .
+  - uid: SuperOffice.CRM.Cache.ErpSearchResultCache.SearchResult
+    name: SearchResult
+    isExternal: true
+    href: SuperOffice.CRM.Cache.ErpSearchResultCache.SearchResult.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Cache.ErpSearchResultCache
+    name: ErpSearchResultCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.ErpSearchResultCache.html
+  - name: .
+  - uid: SuperOffice.CRM.Cache.ErpSearchResultCache.SearchResult
+    name: SearchResult
+    isExternal: true
+    href: SuperOffice.CRM.Cache.ErpSearchResultCache.SearchResult.html
+- uid: SuperOffice.CRM.Cache.QuoteListCache
+  commentId: T:SuperOffice.CRM.Cache.QuoteListCache
+  isExternal: true
+  href: SuperOffice.CRM.Cache.QuoteListCache.html
+  name: QuoteListCache
+  nameWithType: QuoteListCache
+  fullName: SuperOffice.CRM.Cache.QuoteListCache

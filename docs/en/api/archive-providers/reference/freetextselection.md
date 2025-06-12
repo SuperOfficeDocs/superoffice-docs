@@ -72,6 +72,7 @@ as well as before any ORDER BY, are applied.
 |selectionAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |selectionAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |selectionAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|selectionAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |selectionAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |selectionAssociate/contactCategory|listAny|Category: Category| x |
 |selectionAssociate/role|listAny|Role : Role| x |
@@ -96,7 +97,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextSelection?$select=lastLoadedByFullName,selectionAssociate/fullName
+GET /api/v1/archive/FreetextSelection?$select=selectionAssociate/fullName,selectionAssociate/credentialDisplayValue,lastLoadedByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

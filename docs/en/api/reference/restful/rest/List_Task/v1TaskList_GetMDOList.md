@@ -27,7 +27,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=unde
+GET /api/v1/List/Task/MDOItems?query=aut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 669,
-    "Name": "Von, Zieme and Hirthe",
-    "ToolTip": "Molestiae modi aut minus eum quos nihil.",
+    "Id": 788,
+    "Name": "Casper, Luettgen and Willms",
+    "ToolTip": "Vitae aliquid velit dicta.",
     "Deleted": false,
-    "Rank": 643,
-    "Type": "est",
+    "Rank": 576,
+    "Type": "omnis",
     "ChildItems": [
       {
-        "Id": 270,
-        "Name": "Ankunding-O'Kon",
-        "ToolTip": "Fugit ea et.",
+        "Id": 749,
+        "Name": "O'Hara, Kihn and Pacocha",
+        "ToolTip": "Et qui voluptas voluptatum velit placeat qui dolorum.",
         "Deleted": true,
-        "Rank": 481,
-        "Type": "eveniet",
+        "Rank": 933,
+        "Type": "natus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "commodi",
-        "ColorBlock": 770,
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "porro",
-        "FullName": "Zelda Katlynn Bogan IV",
+        "IconHint": "eligendi",
+        "ColorBlock": 938,
+        "ExtraInfo": "eum",
+        "StyleHint": "sint",
+        "FullName": "Verna Ritchie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 658
+            "FieldType": "System.String",
+            "FieldLength": 526
           }
         }
       }
     ],
-    "IconHint": "cum",
-    "ColorBlock": 690,
-    "ExtraInfo": "ab",
-    "StyleHint": "blanditiis",
-    "FullName": "Edgardo Fisher",
+    "IconHint": "et",
+    "ColorBlock": 746,
+    "ExtraInfo": "velit",
+    "StyleHint": "porro",
+    "FullName": "Rose Tremblay",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 994
+        "FieldType": "System.String",
+        "FieldLength": 926
       }
     }
   }

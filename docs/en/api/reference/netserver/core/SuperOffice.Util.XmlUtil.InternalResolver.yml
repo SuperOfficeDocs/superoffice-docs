@@ -16,29 +16,34 @@ items:
   nameWithType: XmlUtil.InternalResolver
   fullName: SuperOffice.Util.XmlUtil.InternalResolver
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nXmlResolver subclass that resolves uri&apos;s to corresponding xml nodes without\ngoing through temporary files. \n"
+  summary: >-
+    XmlResolver subclass that resolves uri's to corresponding xml nodes without
+
+    going through temporary files.
+  example: []
   syntax:
-    content: 'public class InternalResolver : XmlResolver'
-    content.vb: >-
-      Public Class InternalResolver
-          Inherits XmlResolver
+    content: 'public class XmlUtil.InternalResolver : XmlResolver'
+    content.vb: Public Class XmlUtil.InternalResolver Inherits XmlResolver
   inheritance:
   - System.Object
+  - System.Xml.XmlResolver
+  inheritedMembers:
+  - System.Xml.XmlResolver.ResolveUri(System.Uri,System.String)
+  - System.Xml.XmlResolver.SupportsType(System.Uri,System.Type)
+  - System.Xml.XmlResolver.GetEntityAsync(System.Uri,System.String,System.Type)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Util.XmlUtil.InternalResolver.EnumUtil.MapEnums``2
   - SuperOffice.Util.XmlUtil.InternalResolver.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.Util.XmlUtil.InternalResolver.GetEntity(System.Uri,System.String,System.Type)
   commentId: M:SuperOffice.Util.XmlUtil.InternalResolver.GetEntity(System.Uri,System.String,System.Type)
   id: GetEntity(System.Uri,System.String,System.Type)
@@ -46,17 +51,18 @@ items:
   langs:
   - csharp
   - vb
-  name: GetEntity(Uri, String, Type)
-  nameWithType: XmlUtil.InternalResolver.GetEntity(Uri, String, Type)
-  fullName: SuperOffice.Util.XmlUtil.InternalResolver.GetEntity(System.Uri, System.String, System.Type)
+  name: GetEntity(Uri, string, Type)
+  nameWithType: XmlUtil.InternalResolver.GetEntity(Uri, string, Type)
+  fullName: SuperOffice.Util.XmlUtil.InternalResolver.GetEntity(System.Uri, string, System.Type)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nResolve an URI, override from base class. If the last part of the uri matches the name of\nan element passed to the constructor, this element is returned; otherwise null.\n"
+  summary: >-
+    Resolve an URI, override from base class. If the last part of the uri matches the name of
+
+    an element passed to the constructor, this element is returned; otherwise null.
+  example: []
   syntax:
     content: public override object GetEntity(Uri absoluteUri, string role, Type ofObjectToReturn)
     parameters:
@@ -73,13 +79,11 @@ items:
       type: System.Object
       description: Matching XmlNode or null
     content.vb: Public Overrides Function GetEntity(absoluteUri As Uri, role As String, ofObjectToReturn As Type) As Object
+  overridden: System.Xml.XmlResolver.GetEntity(System.Uri,System.String,System.Type)
   overload: SuperOffice.Util.XmlUtil.InternalResolver.GetEntity*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
+  nameWithType.vb: XmlUtil.InternalResolver.GetEntity(Uri, String, Type)
+  fullName.vb: SuperOffice.Util.XmlUtil.InternalResolver.GetEntity(System.Uri, String, System.Type)
+  name.vb: GetEntity(Uri, String, Type)
 - uid: SuperOffice.Util.XmlUtil.InternalResolver.#ctor(System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode}[])
   commentId: M:SuperOffice.Util.XmlUtil.InternalResolver.#ctor(System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode}[])
   id: '#ctor(System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode}[])'
@@ -87,19 +91,43 @@ items:
   langs:
   - csharp
   - vb
-  name: InternalResolver(KeyValuePair<String, XmlNode>[])
-  nameWithType: XmlUtil.InternalResolver.InternalResolver(KeyValuePair<String, XmlNode>[])
-  fullName: SuperOffice.Util.XmlUtil.InternalResolver.InternalResolver(System.Collections.Generic.KeyValuePair<System.String, System.Xml.XmlNode>[])
+  name: InternalResolver(params KeyValuePair<string, XmlNode>[])
+  nameWithType: XmlUtil.InternalResolver.InternalResolver(params KeyValuePair<string, XmlNode>[])
+  fullName: SuperOffice.Util.XmlUtil.InternalResolver.InternalResolver(params System.Collections.Generic.KeyValuePair<string, System.Xml.XmlNode>[])
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nConstruct a resolver and set its content. This is equivalent to passing an empty parameter list\nand calling the Add method.\n"
+  summary: >-
+    Construct a resolver and set its content. This is equivalent to passing an empty parameter list
+
+    and calling the Add method.
   example:
-  - "<pre><code>            		public static string Merge( XmlNode first, XmlNode second)\n            		{\n            			XmlDocument stylesheet = new XmlDocument();\n            			stylesheet.LoadXml( _mergeXSLT );\n\n            			XsltSettings settings = new XsltSettings( true, false );\n            			XslCompiledTransform transform = new XslCompiledTransform( true );\n            			transform.Load( stylesheet, settings, new XmlUrlResolver() );\n\n\n            			string mergeDriver = &quot;&lt;merge xmlns=\\&quot;http://informatik.hu-berlin.de/merge\\&quot;>&quot; +\n            							  &quot;&lt;file1>first.xml&lt;/file1>&quot; +\n            							  &quot;&lt;file2>second.xml&lt;/file2>&quot; +\n            							   &quot;&lt;/merge>&quot;;\n\n            			StringWriter stringWriter = new StringWriter();\n            			XmlWriterSettings writerSettings = new XmlWriterSettings();\n            			writerSettings.ConformanceLevel = ConformanceLevel.Auto;\n\n            			XmlWriter writer = XmlWriter.Create( stringWriter, writerSettings );\n            			InternalResolver res = new InternalResolver( new KeyValuePair&lt;string,XmlNode>( &quot;first.xml&quot;, first ), \n            				new KeyValuePair&lt;string,XmlNode>( &quot;second.xml&quot;, second ) );\n            			transform.Transform( XmlReader.Create( new StringReader( mergeDriver ) ), null, writer, res );</code></pre>"
+  - >-
+    <pre><code class="lang-csharp">public static string Merge( XmlNode first, XmlNode second)
+
+    {
+    	XmlDocument stylesheet = new XmlDocument();
+    	stylesheet.LoadXml( _mergeXSLT );
+
+    	XsltSettings settings = new XsltSettings( true, false );
+    	XslCompiledTransform transform = new XslCompiledTransform( true );
+    	transform.Load( stylesheet, settings, new XmlUrlResolver() );
+
+
+    	string mergeDriver = "&lt;merge xmlns=\"http://informatik.hu-berlin.de/merge\"&gt;" +
+    					  "&lt;file1&gt;first.xml&lt;/file1&gt;" +
+    					  "&lt;file2&gt;second.xml&lt;/file2&gt;" +
+    					   "&lt;/merge&gt;";
+
+    	StringWriter stringWriter = new StringWriter();
+    	XmlWriterSettings writerSettings = new XmlWriterSettings();
+    	writerSettings.ConformanceLevel = ConformanceLevel.Auto;
+
+    	XmlWriter writer = XmlWriter.Create( stringWriter, writerSettings );
+    	InternalResolver res = new InternalResolver( new KeyValuePair&lt;string,XmlNode&gt;( "first.xml", first ), 
+    		new KeyValuePair&lt;string,XmlNode&gt;( "second.xml", second ) );
+    	transform.Transform( XmlReader.Create( new StringReader( mergeDriver ) ), null, writer, res );</code></pre>
   syntax:
     content: public InternalResolver(params KeyValuePair<string, XmlNode>[] elements)
     parameters:
@@ -108,13 +136,9 @@ items:
       description: Array of KeyValuePairs that map an URI terminal component name to an XmlNode
     content.vb: Public Sub New(ParamArray elements As KeyValuePair(Of String, XmlNode)())
   overload: SuperOffice.Util.XmlUtil.InternalResolver.#ctor*
-  nameWithType.vb: XmlUtil.InternalResolver.InternalResolver(KeyValuePair(Of String, XmlNode)())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Util.XmlUtil.InternalResolver.InternalResolver(System.Collections.Generic.KeyValuePair(Of System.String, System.Xml.XmlNode)())
-  name.vb: InternalResolver(KeyValuePair(Of String, XmlNode)())
+  nameWithType.vb: XmlUtil.InternalResolver.New(ParamArray KeyValuePair(Of String, XmlNode)())
+  fullName.vb: SuperOffice.Util.XmlUtil.InternalResolver.New(ParamArray System.Collections.Generic.KeyValuePair(Of String, System.Xml.XmlNode)())
+  name.vb: New(ParamArray KeyValuePair(Of String, XmlNode)())
 - uid: SuperOffice.Util.XmlUtil.InternalResolver.Add(System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode})
   commentId: M:SuperOffice.Util.XmlUtil.InternalResolver.Add(System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode})
   id: Add(System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode})
@@ -122,17 +146,15 @@ items:
   langs:
   - csharp
   - vb
-  name: Add(KeyValuePair<String, XmlNode>)
-  nameWithType: XmlUtil.InternalResolver.Add(KeyValuePair<String, XmlNode>)
-  fullName: SuperOffice.Util.XmlUtil.InternalResolver.Add(System.Collections.Generic.KeyValuePair<System.String, System.Xml.XmlNode>)
+  name: Add(KeyValuePair<string, XmlNode>)
+  nameWithType: XmlUtil.InternalResolver.Add(KeyValuePair<string, XmlNode>)
+  fullName: SuperOffice.Util.XmlUtil.InternalResolver.Add(System.Collections.Generic.KeyValuePair<string, System.Xml.XmlNode>)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nAdd a name / XmlNode element to those handled by this resolver instance\n"
+  summary: Add a name / XmlNode element to those handled by this resolver instance
+  example: []
   syntax:
     content: public void Add(KeyValuePair<string, XmlNode> element)
     parameters:
@@ -142,11 +164,7 @@ items:
     content.vb: Public Sub Add(element As KeyValuePair(Of String, XmlNode))
   overload: SuperOffice.Util.XmlUtil.InternalResolver.Add*
   nameWithType.vb: XmlUtil.InternalResolver.Add(KeyValuePair(Of String, XmlNode))
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Util.XmlUtil.InternalResolver.Add(System.Collections.Generic.KeyValuePair(Of System.String, System.Xml.XmlNode))
+  fullName.vb: SuperOffice.Util.XmlUtil.InternalResolver.Add(System.Collections.Generic.KeyValuePair(Of String, System.Xml.XmlNode))
   name.vb: Add(KeyValuePair(Of String, XmlNode))
 - uid: SuperOffice.Util.XmlUtil.InternalResolver.Credentials
   commentId: P:SuperOffice.Util.XmlUtil.InternalResolver.Credentials
@@ -159,119 +177,555 @@ items:
   nameWithType: XmlUtil.InternalResolver.Credentials
   fullName: SuperOffice.Util.XmlUtil.InternalResolver.Credentials
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nRequired override, does nothing\n"
+  summary: Required override, does nothing
+  example: []
   syntax:
     content: public override ICredentials Credentials { set; }
     parameters: []
     return:
       type: System.Net.ICredentials
     content.vb: Public Overrides WriteOnly Property Credentials As ICredentials
+  overridden: System.Xml.XmlResolver.Credentials
   overload: SuperOffice.Util.XmlUtil.InternalResolver.Credentials*
-  modifiers.csharp:
-  - public
-  - override
-  - set
-  modifiers.vb:
-  - Public
-  - Overrides
-  - WriteOnly
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Xml.XmlResolver
+  commentId: T:System.Xml.XmlResolver
+  parent: System.Xml
+  isExternal: true
+  name: XmlResolver
+  nameWithType: XmlResolver
+  fullName: System.Xml.XmlResolver
+- uid: System.Xml.XmlResolver.ResolveUri(System.Uri,System.String)
+  commentId: M:System.Xml.XmlResolver.ResolveUri(System.Uri,System.String)
+  parent: System.Xml.XmlResolver
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: ResolveUri(Uri, string)
+  nameWithType: XmlResolver.ResolveUri(Uri, string)
+  fullName: System.Xml.XmlResolver.ResolveUri(System.Uri, string)
+  nameWithType.vb: XmlResolver.ResolveUri(Uri, String)
+  fullName.vb: System.Xml.XmlResolver.ResolveUri(System.Uri, String)
+  name.vb: ResolveUri(Uri, String)
+  spec.csharp:
+  - uid: System.Xml.XmlResolver.ResolveUri(System.Uri,System.String)
+    name: ResolveUri
+    isExternal: true
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Xml.XmlResolver.ResolveUri(System.Uri,System.String)
+    name: ResolveUri
+    isExternal: true
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Xml.XmlResolver.SupportsType(System.Uri,System.Type)
+  commentId: M:System.Xml.XmlResolver.SupportsType(System.Uri,System.Type)
+  parent: System.Xml.XmlResolver
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: SupportsType(Uri, Type)
+  nameWithType: XmlResolver.SupportsType(Uri, Type)
+  fullName: System.Xml.XmlResolver.SupportsType(System.Uri, System.Type)
+  spec.csharp:
+  - uid: System.Xml.XmlResolver.SupportsType(System.Uri,System.Type)
+    name: SupportsType
+    isExternal: true
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: System.Xml.XmlResolver.SupportsType(System.Uri,System.Type)
+    name: SupportsType
+    isExternal: true
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: System.Xml.XmlResolver.GetEntityAsync(System.Uri,System.String,System.Type)
+  commentId: M:System.Xml.XmlResolver.GetEntityAsync(System.Uri,System.String,System.Type)
+  parent: System.Xml.XmlResolver
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetEntityAsync(Uri, string, Type)
+  nameWithType: XmlResolver.GetEntityAsync(Uri, string, Type)
+  fullName: System.Xml.XmlResolver.GetEntityAsync(System.Uri, string, System.Type)
+  nameWithType.vb: XmlResolver.GetEntityAsync(Uri, String, Type)
+  fullName.vb: System.Xml.XmlResolver.GetEntityAsync(System.Uri, String, System.Type)
+  name.vb: GetEntityAsync(Uri, String, Type)
+  spec.csharp:
+  - uid: System.Xml.XmlResolver.GetEntityAsync(System.Uri,System.String,System.Type)
+    name: GetEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: System.Xml.XmlResolver.GetEntityAsync(System.Uri,System.String,System.Type)
+    name: GetEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.Util.XmlUtil.InternalResolver.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<XmlUtil.InternalResolver, To>()
-  nameWithType: EnumUtil.MapEnums<XmlUtil.InternalResolver, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Util.XmlUtil.InternalResolver, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of XmlUtil.InternalResolver, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.XmlUtil.InternalResolver, To)()
-  name.vb: MapEnums(Of XmlUtil.InternalResolver, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<InternalResolver, To>(InternalResolver)
+  nameWithType: EnumUtil.MapEnums<XmlUtil.InternalResolver, To>(XmlUtil.InternalResolver)
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.XmlUtil.InternalResolver, To>(SuperOffice.Util.XmlUtil.InternalResolver)
+  nameWithType.vb: EnumUtil.MapEnums(Of XmlUtil.InternalResolver, To)(XmlUtil.InternalResolver)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.XmlUtil.InternalResolver, To)(SuperOffice.Util.XmlUtil.InternalResolver)
+  name.vb: MapEnums(Of InternalResolver, To)(InternalResolver)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<XmlUtil.InternalResolver, To>
-    nameWithType: EnumUtil.MapEnums<XmlUtil.InternalResolver, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Util.XmlUtil.InternalResolver, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.XmlUtil.InternalResolver)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.XmlUtil.InternalResolver
+    name: InternalResolver
+    isExternal: true
+    href: SuperOffice.Util.XmlUtil.InternalResolver.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Util.XmlUtil.InternalResolver
+    name: InternalResolver
+    isExternal: true
+    href: SuperOffice.Util.XmlUtil.InternalResolver.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of XmlUtil.InternalResolver, To)
-    nameWithType: EnumUtil.MapEnums(Of XmlUtil.InternalResolver, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.XmlUtil.InternalResolver, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.XmlUtil.InternalResolver)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.XmlUtil.InternalResolver
+    name: InternalResolver
+    isExternal: true
+    href: SuperOffice.Util.XmlUtil.InternalResolver.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Util.XmlUtil.InternalResolver
+    name: InternalResolver
+    isExternal: true
+    href: SuperOffice.Util.XmlUtil.InternalResolver.html
+  - name: )
 - uid: SuperOffice.Util.XmlUtil.InternalResolver.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<XmlUtil.InternalResolver, To>()
-  nameWithType: Converters.MapEnums<XmlUtil.InternalResolver, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.XmlUtil.InternalResolver, To>()
-  nameWithType.vb: Converters.MapEnums(Of XmlUtil.InternalResolver, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.XmlUtil.InternalResolver, To)()
-  name.vb: MapEnums(Of XmlUtil.InternalResolver, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<InternalResolver, To>(InternalResolver)
+  nameWithType: Converters.MapEnums<XmlUtil.InternalResolver, To>(XmlUtil.InternalResolver)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.XmlUtil.InternalResolver, To>(SuperOffice.Util.XmlUtil.InternalResolver)
+  nameWithType.vb: Converters.MapEnums(Of XmlUtil.InternalResolver, To)(XmlUtil.InternalResolver)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.XmlUtil.InternalResolver, To)(SuperOffice.Util.XmlUtil.InternalResolver)
+  name.vb: MapEnums(Of InternalResolver, To)(InternalResolver)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<XmlUtil.InternalResolver, To>
-    nameWithType: Converters.MapEnums<XmlUtil.InternalResolver, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.XmlUtil.InternalResolver, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.XmlUtil.InternalResolver)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.XmlUtil.InternalResolver
+    name: InternalResolver
+    isExternal: true
+    href: SuperOffice.Util.XmlUtil.InternalResolver.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Util.XmlUtil.InternalResolver
+    name: InternalResolver
+    isExternal: true
+    href: SuperOffice.Util.XmlUtil.InternalResolver.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of XmlUtil.InternalResolver, To)
-    nameWithType: Converters.MapEnums(Of XmlUtil.InternalResolver, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.XmlUtil.InternalResolver, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.XmlUtil.InternalResolver)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.XmlUtil.InternalResolver
+    name: InternalResolver
+    isExternal: true
+    href: SuperOffice.Util.XmlUtil.InternalResolver.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Util.XmlUtil.InternalResolver
+    name: InternalResolver
+    isExternal: true
+    href: SuperOffice.Util.XmlUtil.InternalResolver.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
+- uid: System.Xml
+  commentId: N:System.Xml
+  isExternal: true
+  name: System.Xml
+  nameWithType: System.Xml
+  fullName: System.Xml
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Xml
+    name: Xml
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Xml
+    name: Xml
+    isExternal: true
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -280,43 +734,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -325,54 +781,142 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: System.Xml.XmlResolver.GetEntity(System.Uri,System.String,System.Type)
+  commentId: M:System.Xml.XmlResolver.GetEntity(System.Uri,System.String,System.Type)
+  parent: System.Xml.XmlResolver
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetEntity(Uri, string, Type)
+  nameWithType: XmlResolver.GetEntity(Uri, string, Type)
+  fullName: System.Xml.XmlResolver.GetEntity(System.Uri, string, System.Type)
+  nameWithType.vb: XmlResolver.GetEntity(Uri, String, Type)
+  fullName.vb: System.Xml.XmlResolver.GetEntity(System.Uri, String, System.Type)
+  name.vb: GetEntity(Uri, String, Type)
+  spec.csharp:
+  - uid: System.Xml.XmlResolver.GetEntity(System.Uri,System.String,System.Type)
+    name: GetEntity
+    isExternal: true
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: System.Xml.XmlResolver.GetEntity(System.Uri,System.String,System.Type)
+    name: GetEntity
+    isExternal: true
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
 - uid: SuperOffice.Util.XmlUtil.InternalResolver.GetEntity*
   commentId: Overload:SuperOffice.Util.XmlUtil.InternalResolver.GetEntity
   isExternal: true
+  href: SuperOffice.Util.XmlUtil.InternalResolver.html#SuperOffice_Util_XmlUtil_InternalResolver_GetEntity_System_Uri_System_String_System_Type_
   name: GetEntity
   nameWithType: XmlUtil.InternalResolver.GetEntity
   fullName: SuperOffice.Util.XmlUtil.InternalResolver.GetEntity
 - uid: System.Uri
+  commentId: T:System.Uri
+  parent: System
   isExternal: true
   name: Uri
   nameWithType: Uri
@@ -381,208 +925,247 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Type
+  commentId: T:System.Type
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
   name: Type
   nameWithType: Type
   fullName: System.Type
 - uid: SuperOffice.Util.XmlUtil.InternalResolver.#ctor*
   commentId: Overload:SuperOffice.Util.XmlUtil.InternalResolver.#ctor
   isExternal: true
+  href: SuperOffice.Util.XmlUtil.InternalResolver.html#SuperOffice_Util_XmlUtil_InternalResolver__ctor_System_Collections_Generic_KeyValuePair_System_String_System_Xml_XmlNode____
   name: InternalResolver
   nameWithType: XmlUtil.InternalResolver.InternalResolver
   fullName: SuperOffice.Util.XmlUtil.InternalResolver.InternalResolver
+  nameWithType.vb: XmlUtil.InternalResolver.New
+  fullName.vb: SuperOffice.Util.XmlUtil.InternalResolver.New
+  name.vb: New
 - uid: System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode}[]
   isExternal: true
-  name: KeyValuePair<String, XmlNode>[]
-  nameWithType: KeyValuePair<String, XmlNode>[]
-  fullName: System.Collections.Generic.KeyValuePair<System.String, System.Xml.XmlNode>[]
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  name: KeyValuePair<string, XmlNode>[]
+  nameWithType: KeyValuePair<string, XmlNode>[]
+  fullName: System.Collections.Generic.KeyValuePair<string, System.Xml.XmlNode>[]
   nameWithType.vb: KeyValuePair(Of String, XmlNode)()
-  fullName.vb: System.Collections.Generic.KeyValuePair(Of System.String, System.Xml.XmlNode)()
+  fullName.vb: System.Collections.Generic.KeyValuePair(Of String, System.Xml.XmlNode)()
   name.vb: KeyValuePair(Of String, XmlNode)()
   spec.csharp:
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Xml.XmlNode
     name: XmlNode
-    nameWithType: XmlNode
-    fullName: System.Xml.XmlNode
     isExternal: true
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Xml.XmlNode
     name: XmlNode
-    nameWithType: XmlNode
-    fullName: System.Xml.XmlNode
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+  - name: (
+  - name: )
 - uid: SuperOffice.Util.XmlUtil.InternalResolver.Add*
   commentId: Overload:SuperOffice.Util.XmlUtil.InternalResolver.Add
   isExternal: true
+  href: SuperOffice.Util.XmlUtil.InternalResolver.html#SuperOffice_Util_XmlUtil_InternalResolver_Add_System_Collections_Generic_KeyValuePair_System_String_System_Xml_XmlNode__
   name: Add
   nameWithType: XmlUtil.InternalResolver.Add
   fullName: SuperOffice.Util.XmlUtil.InternalResolver.Add
 - uid: System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode}
-  commentId: '!:System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode}'
+  commentId: T:System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.KeyValuePair`2
-  name: KeyValuePair<String, XmlNode>
-  nameWithType: KeyValuePair<String, XmlNode>
-  fullName: System.Collections.Generic.KeyValuePair<System.String, System.Xml.XmlNode>
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  name: KeyValuePair<string, XmlNode>
+  nameWithType: KeyValuePair<string, XmlNode>
+  fullName: System.Collections.Generic.KeyValuePair<string, System.Xml.XmlNode>
   nameWithType.vb: KeyValuePair(Of String, XmlNode)
-  fullName.vb: System.Collections.Generic.KeyValuePair(Of System.String, System.Xml.XmlNode)
+  fullName.vb: System.Collections.Generic.KeyValuePair(Of String, System.Xml.XmlNode)
   name.vb: KeyValuePair(Of String, XmlNode)
   spec.csharp:
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Xml.XmlNode
     name: XmlNode
-    nameWithType: XmlNode
-    fullName: System.Xml.XmlNode
     isExternal: true
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Xml.XmlNode
     name: XmlNode
-    nameWithType: XmlNode
-    fullName: System.Xml.XmlNode
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.KeyValuePair`2
+  commentId: T:System.Collections.Generic.KeyValuePair`2
   isExternal: true
-  name: KeyValuePair<, >
-  nameWithType: KeyValuePair<, >
-  fullName: System.Collections.Generic.KeyValuePair<, >
-  nameWithType.vb: KeyValuePair(Of , )
-  fullName.vb: System.Collections.Generic.KeyValuePair(Of , )
-  name.vb: KeyValuePair(Of , )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  name: KeyValuePair<TKey, TValue>
+  nameWithType: KeyValuePair<TKey, TValue>
+  fullName: System.Collections.Generic.KeyValuePair<TKey, TValue>
+  nameWithType.vb: KeyValuePair(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.KeyValuePair(Of TKey, TValue)
+  name.vb: KeyValuePair(Of TKey, TValue)
   spec.csharp:
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Xml.XmlResolver.Credentials
+  commentId: P:System.Xml.XmlResolver.Credentials
+  parent: System.Xml.XmlResolver
+  isExternal: true
+  name: Credentials
+  nameWithType: XmlResolver.Credentials
+  fullName: System.Xml.XmlResolver.Credentials
 - uid: SuperOffice.Util.XmlUtil.InternalResolver.Credentials*
   commentId: Overload:SuperOffice.Util.XmlUtil.InternalResolver.Credentials
   isExternal: true
+  href: SuperOffice.Util.XmlUtil.InternalResolver.html#SuperOffice_Util_XmlUtil_InternalResolver_Credentials
   name: Credentials
   nameWithType: XmlUtil.InternalResolver.Credentials
   fullName: SuperOffice.Util.XmlUtil.InternalResolver.Credentials
 - uid: System.Net.ICredentials
-  commentId: '!:System.Net.ICredentials'
+  commentId: T:System.Net.ICredentials
+  parent: System.Net
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.icredentials
   name: ICredentials
   nameWithType: ICredentials
   fullName: System.Net.ICredentials
+- uid: System.Net
+  commentId: N:System.Net
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net
+  nameWithType: System.Net
+  fullName: System.Net
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net

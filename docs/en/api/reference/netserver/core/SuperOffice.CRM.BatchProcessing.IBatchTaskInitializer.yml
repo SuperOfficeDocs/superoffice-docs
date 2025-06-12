@@ -5,7 +5,7 @@ items:
   id: IBatchTaskInitializer
   parent: SuperOffice.CRM.BatchProcessing
   children:
-  - SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInit(SuperOffice.CRM.Rows.BatchTaskRow)
+  - SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInitAsync(SuperOffice.CRM.Rows.BatchTaskRow)
   langs:
   - csharp
   - vb
@@ -13,9 +13,6 @@ items:
   nameWithType: IBatchTaskInitializer
   fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer
   type: Interface
-  source:
-    path: SoBatchProcessing
-    isExternal: true
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing
@@ -25,114 +22,177 @@ items:
   extensionMethods:
   - SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.EnumUtil.MapEnums``2
   - SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
-- uid: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInit(SuperOffice.CRM.Rows.BatchTaskRow)
-  commentId: M:SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInit(SuperOffice.CRM.Rows.BatchTaskRow)
-  id: SaveAndInit(SuperOffice.CRM.Rows.BatchTaskRow)
+- uid: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInitAsync(SuperOffice.CRM.Rows.BatchTaskRow)
+  commentId: M:SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInitAsync(SuperOffice.CRM.Rows.BatchTaskRow)
+  id: SaveAndInitAsync(SuperOffice.CRM.Rows.BatchTaskRow)
   parent: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer
   langs:
   - csharp
   - vb
-  name: SaveAndInit(BatchTaskRow)
-  nameWithType: IBatchTaskInitializer.SaveAndInit(BatchTaskRow)
-  fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInit(SuperOffice.CRM.Rows.BatchTaskRow)
+  name: SaveAndInitAsync(BatchTaskRow)
+  nameWithType: IBatchTaskInitializer.SaveAndInitAsync(BatchTaskRow)
+  fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInitAsync(SuperOffice.CRM.Rows.BatchTaskRow)
   type: Method
-  source:
-    path: SoBatchProcessing
-    isExternal: true
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing
   syntax:
-    content: void SaveAndInit(BatchTaskRow row)
+    content: Task SaveAndInitAsync(BatchTaskRow row)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.BatchTaskRow
-    content.vb: Sub SaveAndInit(row As BatchTaskRow)
-  overload: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInit*
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SaveAndInitAsync(row As BatchTaskRow) As Task
+  overload: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInitAsync*
 references:
 - uid: SuperOffice.CRM.BatchProcessing
   commentId: N:SuperOffice.CRM.BatchProcessing
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.BatchProcessing
   nameWithType: SuperOffice.CRM.BatchProcessing
   fullName: SuperOffice.CRM.BatchProcessing
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.BatchProcessing
+    name: BatchProcessing
+    isExternal: true
+    href: SuperOffice.CRM.BatchProcessing.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.BatchProcessing
+    name: BatchProcessing
+    isExternal: true
+    href: SuperOffice.CRM.BatchProcessing.html
 - uid: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<IBatchTaskInitializer, To>()
-  nameWithType: EnumUtil.MapEnums<IBatchTaskInitializer, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of IBatchTaskInitializer, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer, To)()
-  name.vb: MapEnums(Of IBatchTaskInitializer, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IBatchTaskInitializer, To>(IBatchTaskInitializer)
+  nameWithType: EnumUtil.MapEnums<IBatchTaskInitializer, To>(IBatchTaskInitializer)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer, To>(SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer)
+  nameWithType.vb: EnumUtil.MapEnums(Of IBatchTaskInitializer, To)(IBatchTaskInitializer)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer, To)(SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer)
+  name.vb: MapEnums(Of IBatchTaskInitializer, To)(IBatchTaskInitializer)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<IBatchTaskInitializer, To>
-    nameWithType: EnumUtil.MapEnums<IBatchTaskInitializer, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer
+    name: IBatchTaskInitializer
+    isExternal: true
+    href: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer
+    name: IBatchTaskInitializer
+    isExternal: true
+    href: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of IBatchTaskInitializer, To)
-    nameWithType: EnumUtil.MapEnums(Of IBatchTaskInitializer, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer
+    name: IBatchTaskInitializer
+    isExternal: true
+    href: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer
+    name: IBatchTaskInitializer
+    isExternal: true
+    href: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.html
+  - name: )
 - uid: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<IBatchTaskInitializer, To>()
-  nameWithType: Converters.MapEnums<IBatchTaskInitializer, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer, To>()
-  nameWithType.vb: Converters.MapEnums(Of IBatchTaskInitializer, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer, To)()
-  name.vb: MapEnums(Of IBatchTaskInitializer, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IBatchTaskInitializer, To>(IBatchTaskInitializer)
+  nameWithType: Converters.MapEnums<IBatchTaskInitializer, To>(IBatchTaskInitializer)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer, To>(SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer)
+  nameWithType.vb: Converters.MapEnums(Of IBatchTaskInitializer, To)(IBatchTaskInitializer)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer, To)(SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer)
+  name.vb: MapEnums(Of IBatchTaskInitializer, To)(IBatchTaskInitializer)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<IBatchTaskInitializer, To>
-    nameWithType: Converters.MapEnums<IBatchTaskInitializer, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer
+    name: IBatchTaskInitializer
+    isExternal: true
+    href: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer
+    name: IBatchTaskInitializer
+    isExternal: true
+    href: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of IBatchTaskInitializer, To)
-    nameWithType: Converters.MapEnums(Of IBatchTaskInitializer, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer
+    name: IBatchTaskInitializer
+    isExternal: true
+    href: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer
+    name: IBatchTaskInitializer
+    isExternal: true
+    href: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.html
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -141,43 +201,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -186,63 +248,173 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInit*
-  commentId: Overload:SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInit
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInitAsync*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInitAsync
   isExternal: true
-  name: SaveAndInit
-  nameWithType: IBatchTaskInitializer.SaveAndInit
-  fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInit
+  href: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.html#SuperOffice_CRM_BatchProcessing_IBatchTaskInitializer_SaveAndInitAsync_SuperOffice_CRM_Rows_BatchTaskRow_
+  name: SaveAndInitAsync
+  nameWithType: IBatchTaskInitializer.SaveAndInitAsync
+  fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInitAsync
 - uid: SuperOffice.CRM.Rows.BatchTaskRow
   commentId: T:SuperOffice.CRM.Rows.BatchTaskRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.BatchTaskRow.html
   name: BatchTaskRow
   nameWithType: BatchTaskRow
   fullName: SuperOffice.CRM.Rows.BatchTaskRow
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

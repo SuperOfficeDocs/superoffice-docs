@@ -59,6 +59,7 @@ Lists all email flows
 |workflowAssociate/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
 |workflowAssociate/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
 |workflowAssociate/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
+|workflowAssociate/usergroupId|int|Owner - Group ID: The user's primary user group| x |
 |workflowAssociate/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
 |workflowAssociate/contactCategory|listAny|Owner - Category: Category| x |
 |workflowAssociate/role|listAny|Owner - Role: Role| x |
@@ -88,7 +89,7 @@ Lists all email flows
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlows?$select=updatedBy,workflowAssociate/mrMrs
+GET /api/v1/archive/EmailFlows?$select=updatedBy,workflowAssociate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

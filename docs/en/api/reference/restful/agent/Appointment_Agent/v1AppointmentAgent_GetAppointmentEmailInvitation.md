@@ -100,13 +100,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEmailInvitation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Appointment": null,
-  "TemplateName": "Windler-Buckridge",
-  "Language": "vel"
+  "TemplateName": "Hahn, McKenzie and Hermann",
+  "Language": "itaque"
 }
 ```
 
@@ -119,147 +119,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 206,
-      "ContactName": "Veum-Kunze",
-      "PersonId": 994,
-      "PersonName": "Lang-Mayert",
-      "AssociateId": 17,
-      "Address": "sed",
-      "EmailId": 207,
+      "ContactId": 274,
+      "ContactName": "Schaden, Kohler and Walker",
+      "PersonId": 789,
+      "PersonName": "Bergstrom, Davis and Swaniawski",
+      "AssociateId": 643,
+      "Address": "omnis",
+      "EmailId": 273,
       "DuplicatePersonIds": [
-        671,
-        644
+        82,
+        704
       ],
-      "Name": "King-Osinski",
+      "Name": "Lueilwitz, Kovacek and Lehner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 229
+          "FieldLength": 907
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 910,
-      "ContactName": "Hamill LLC",
-      "PersonId": 542,
-      "PersonName": "Dach, Roberts and Block",
-      "AssociateId": 575,
-      "Address": "eum",
-      "EmailId": 588,
+      "ContactId": 175,
+      "ContactName": "Nienow Group",
+      "PersonId": 517,
+      "PersonName": "Walter-Kulas",
+      "AssociateId": 849,
+      "Address": "autem",
+      "EmailId": 539,
       "DuplicatePersonIds": [
-        212,
-        700
+        861,
+        597
       ],
-      "Name": "Kerluke LLC",
+      "Name": "Shields LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 91
+          "FieldLength": 611
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 311,
-      "ContactName": "Bailey, Ernser and Legros",
-      "PersonId": 175,
-      "PersonName": "Kovacek Group",
-      "AssociateId": 992,
-      "Address": "aut",
-      "EmailId": 974,
+      "ContactId": 801,
+      "ContactName": "Gerlach-Reilly",
+      "PersonId": 257,
+      "PersonName": "Herman-Kemmer",
+      "AssociateId": 741,
+      "Address": "sed",
+      "EmailId": 143,
       "DuplicatePersonIds": [
-        339,
-        314
+        923,
+        734
       ],
-      "Name": "Donnelly, Ferry and Doyle",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 275
-        }
-      }
-    }
-  ],
-  "Subject": "iusto",
-  "HTMLBody": "unde",
-  "From": null,
-  "Sent": "2003-04-30T16:32:38.102253+02:00",
-  "Size": 117,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "esse",
-  "PlainBody": "hic",
-  "IsSent": true,
-  "EMailSOInfo": null,
-  "ServerId": 494,
-  "Attachments": [
-    {
-      "Description": "Versatile impactful approach",
-      "Filename": "voluptatum",
-      "Size": 589,
-      "Type": "quaerat",
-      "Encoding": "id",
-      "Id": "magnam",
-      "Disposition": "expedita",
-      "IsSafeFileExtension": false,
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Langosh, Bogisich and Cummerata",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 903
+          "FieldLength": 392
+        }
+      }
+    }
+  ],
+  "Subject": "odit",
+  "HTMLBody": "ratione",
+  "From": null,
+  "Sent": "2004-01-10T17:54:02.6327304+01:00",
+  "Size": 752,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "voluptatum",
+  "PlainBody": "quis",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 485,
+  "Attachments": [
+    {
+      "Description": "Business-focused eco-centric software",
+      "Filename": "ad",
+      "Size": 486,
+      "Type": "ipsum",
+      "Encoding": "sit",
+      "Id": "a",
+      "Disposition": "tenetur",
+      "IsSafeFileExtension": true,
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 139
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Pouros-Leffler",
+      "Name": "Connelly Inc and Sons",
       "Values": [
-        "quia",
-        "eum"
+        "quam",
+        "numquam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 144
+          "FieldType": "System.Int32",
+          "FieldLength": 600
         }
       }
     },
     {
-      "Name": "Pouros-Leffler",
+      "Name": "Connelly Inc and Sons",
       "Values": [
-        "quia",
-        "eum"
+        "quam",
+        "numquam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 144
+          "FieldType": "System.Int32",
+          "FieldLength": 600
         }
       }
     }
   ],
-  "FolderName": "Miller-Lowe",
-  "EmailItemId": 820,
-  "AccountId": 904,
-  "ReceivedAt": "2010-11-16T16:32:38.102253+01:00",
+  "FolderName": "Pollich Inc and Sons",
+  "EmailItemId": 166,
+  "AccountId": 741,
+  "ReceivedAt": "2004-11-14T17:54:02.6327304+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2020-08-29T16:32:38.102253+02:00",
+  "RepliedAt": "1998-10-21T17:54:02.6327304+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -267,8 +267,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldType": "System.String",
+      "FieldLength": 843
     }
   }
 }

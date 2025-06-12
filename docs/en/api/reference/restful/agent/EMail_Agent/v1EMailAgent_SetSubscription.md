@@ -67,20 +67,20 @@ No Content
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Witting-Rau",
-      "Delimiter": "iure",
-      "Flags": "culpa",
-      "TotalItems": 500,
-      "UnreadItems": 778,
-      "Subscribed": true,
-      "EmailFolderId": 12
+      "Name": "Smith Group",
+      "Delimiter": "reiciendis",
+      "Flags": "labore",
+      "TotalItems": 138,
+      "UnreadItems": 103,
+      "Subscribed": false,
+      "EmailFolderId": 251
     }
   ]
 }

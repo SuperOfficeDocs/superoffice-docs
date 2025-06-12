@@ -73,7 +73,7 @@ OK
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 23 Aug 2000 16:32:47 G8T
+Last-Modified: Tue, 08 Jul 2008 17:54:08 G7T
 
 {
-  "BlobId": 688,
-  "BlobSize": 552,
-  "Description": "Reduced exuding monitoring",
-  "ExtraInfo": "aspernatur",
+  "BlobId": 930,
+  "BlobSize": 271,
+  "Description": "Universal directional application",
+  "ExtraInfo": "iure",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "molestiae",
-  "OriginalSize": 637,
-  "CreatedDate": "2000-01-21T16:32:47.6807968+01:00",
-  "UpdatedDate": "2000-08-23T16:32:47.6807968+02:00",
+  "IsZipped": true,
+  "MimeType": "laboriosam",
+  "OriginalSize": 35,
+  "CreatedDate": "2015-10-18T17:54:08.3824501+02:00",
+  "UpdatedDate": "2008-07-08T17:54:08.3824501+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nostrum",
+  "ConceptualType": "quos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 266
+      "FieldType": "System.Int32",
+      "FieldLength": 186
     }
   }
 }

@@ -32,33 +32,41 @@ items:
   nameWithType: PushNotificationServiceRecordData
   fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the PushNotificationService table.\n"
-  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.PushNotificationServiceRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.PushNotificationServiceTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  summary: >-
+    POCO (Plain Old CLR Object) class that can be used to hold data corresponding
+
+    to a row from the PushNotificationService table.
+  remarks: >-
+    Please use this class instead of a full <xref href="SuperOffice.CRM.Rows.PushNotificationServiceRow" data-throw-if-not-resolved="false"></xref> object when
+
+    you do not need to <b>create or update</b> a value in the database. Row objects have a large overhead
+
+    since they carry the corresponding <xref href="SuperOffice.CRM.Data.PushNotificationServiceTableInfo" data-throw-if-not-resolved="false"></xref> object, which
+
+    in turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.
+  example: []
   syntax:
-    content: 'public class PushNotificationServiceRecordData : Object'
-    content.vb: >-
-      Public Class PushNotificationServiceRecordData
-          Inherits Object
+    content: public class PushNotificationServiceRecordData
+    content.vb: Public Class PushNotificationServiceRecordData
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.PushNotificationServiceRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.PushNotificationServiceRecordData.SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.PushNotificationServiceRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.PushNotificationServiceRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
   - SuperOffice.CRM.Rows.PushNotificationServiceRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.PushNotificationServiceRecordData.SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert
-  - SuperOffice.CRM.Rows.PushNotificationServiceRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.PushNotificationServiceId
   commentId: F:SuperOffice.CRM.Rows.PushNotificationServiceRecordData.PushNotificationServiceId
   id: PushNotificationServiceId
@@ -70,22 +78,16 @@ items:
   nameWithType: PushNotificationServiceRecordData.PushNotificationServiceId
   fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.PushNotificationServiceId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
     content: public int PushNotificationServiceId
     return:
       type: System.Int32
     content.vb: Public PushNotificationServiceId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.AssociateId
   commentId: F:SuperOffice.CRM.Rows.PushNotificationServiceRecordData.AssociateId
   id: AssociateId
@@ -97,22 +99,16 @@ items:
   nameWithType: PushNotificationServiceRecordData.AssociateId
   fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.AssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nTo whom does this handle belong \n"
+  summary: To whom does this handle belong
+  example: []
   syntax:
     content: public int AssociateId
     return:
       type: System.Int32
     content.vb: Public AssociateId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.DeviceIdentifier
   commentId: F:SuperOffice.CRM.Rows.PushNotificationServiceRecordData.DeviceIdentifier
   id: DeviceIdentifier
@@ -124,22 +120,16 @@ items:
   nameWithType: PushNotificationServiceRecordData.DeviceIdentifier
   fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.DeviceIdentifier
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nUnique device identifier \n"
+  summary: Unique device identifier
+  example: []
   syntax:
     content: public string DeviceIdentifier
     return:
       type: System.String
     content.vb: Public DeviceIdentifier As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.DeviceDisplayName
   commentId: F:SuperOffice.CRM.Rows.PushNotificationServiceRecordData.DeviceDisplayName
   id: DeviceDisplayName
@@ -151,22 +141,16 @@ items:
   nameWithType: PushNotificationServiceRecordData.DeviceDisplayName
   fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.DeviceDisplayName
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nUserfriendly name for device. Ex: &apos;My iPhone 5S&apos; \n"
+  summary: "Userfriendly name for device. Ex: 'My iPhone 5S'"
+  example: []
   syntax:
     content: public string DeviceDisplayName
     return:
       type: System.String
     content.vb: Public DeviceDisplayName As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.DevicePlatform
   commentId: F:SuperOffice.CRM.Rows.PushNotificationServiceRecordData.DevicePlatform
   id: DevicePlatform
@@ -178,22 +162,16 @@ items:
   nameWithType: PushNotificationServiceRecordData.DevicePlatform
   fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.DevicePlatform
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nDevice platform. Apple, Google, Microsoft, etc. \n"
+  summary: Device platform. Apple, Google, Microsoft, etc.
+  example: []
   syntax:
     content: public NotificationPlatform DevicePlatform
     return:
       type: SuperOffice.Data.NotificationPlatform
     content.vb: Public DevicePlatform As NotificationPlatform
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.PNSHandle
   commentId: F:SuperOffice.CRM.Rows.PushNotificationServiceRecordData.PNSHandle
   id: PNSHandle
@@ -205,22 +183,16 @@ items:
   nameWithType: PushNotificationServiceRecordData.PNSHandle
   fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.PNSHandle
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe platform specific handle needed for pushing messages directly to this device \n"
+  summary: The platform specific handle needed for pushing messages directly to this device
+  example: []
   syntax:
     content: public string PNSHandle
     return:
       type: System.String
     content.vb: Public PNSHandle As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.Tags
   commentId: F:SuperOffice.CRM.Rows.PushNotificationServiceRecordData.Tags
   id: Tags
@@ -232,22 +204,16 @@ items:
   nameWithType: PushNotificationServiceRecordData.Tags
   fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.Tags
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nComma separated list of notification types this device should or should not receive notifications about. Ex: &apos;invitations=0,meetings=1 \n"
+  summary: "Comma separated list of notification types this device should or should not receive notifications about. Ex: 'invitations=0,meetings=1"
+  example: []
   syntax:
     content: public string Tags
     return:
       type: System.String
     content.vb: Public Tags As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.PNSHandleUpdateDate
   commentId: F:SuperOffice.CRM.Rows.PushNotificationServiceRecordData.PNSHandleUpdateDate
   id: PNSHandleUpdateDate
@@ -259,22 +225,16 @@ items:
   nameWithType: PushNotificationServiceRecordData.PNSHandleUpdateDate
   fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.PNSHandleUpdateDate
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nWhen was the PNSHandle for this device last updated \n"
+  summary: When was the PNSHandle for this device last updated
+  example: []
   syntax:
     content: public DateTime PNSHandleUpdateDate
     return:
       type: System.DateTime
-    content.vb: Public PNSHandleUpdateDate As DateTime
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public PNSHandleUpdateDate As Date
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.LastNotificationDate
   commentId: F:SuperOffice.CRM.Rows.PushNotificationServiceRecordData.LastNotificationDate
   id: LastNotificationDate
@@ -286,22 +246,16 @@ items:
   nameWithType: PushNotificationServiceRecordData.LastNotificationDate
   fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.LastNotificationDate
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nWhen was a notification last sent to this device \n"
+  summary: When was a notification last sent to this device
+  example: []
   syntax:
     content: public DateTime LastNotificationDate
     return:
       type: System.DateTime
-    content.vb: Public LastNotificationDate As DateTime
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public LastNotificationDate As Date
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.TotalNotificationCount
   commentId: F:SuperOffice.CRM.Rows.PushNotificationServiceRecordData.TotalNotificationCount
   id: TotalNotificationCount
@@ -313,22 +267,16 @@ items:
   nameWithType: PushNotificationServiceRecordData.TotalNotificationCount
   fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.TotalNotificationCount
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nHow many notifications have been sent to this device \n"
+  summary: How many notifications have been sent to this device
+  example: []
   syntax:
     content: public int TotalNotificationCount
     return:
       type: System.Int32
     content.vb: Public TotalNotificationCount As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.Registered
   commentId: F:SuperOffice.CRM.Rows.PushNotificationServiceRecordData.Registered
   id: Registered
@@ -340,22 +288,16 @@ items:
   nameWithType: PushNotificationServiceRecordData.Registered
   fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.Registered
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nRegistered when in UTC.  \n"
+  summary: Registered when in UTC.
+  example: []
   syntax:
     content: public DateTime Registered
     return:
       type: System.DateTime
-    content.vb: Public Registered As DateTime
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public Registered As Date
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Rows.PushNotificationServiceRecordData.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -367,22 +309,16 @@ items:
   nameWithType: PushNotificationServiceRecordData.RegisteredAssociateId
   fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.RegisteredAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nRegistered by whom \n"
+  summary: Registered by whom
+  example: []
   syntax:
     content: public int RegisteredAssociateId
     return:
       type: System.Int32
     content.vb: Public RegisteredAssociateId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.Updated
   commentId: F:SuperOffice.CRM.Rows.PushNotificationServiceRecordData.Updated
   id: Updated
@@ -394,22 +330,16 @@ items:
   nameWithType: PushNotificationServiceRecordData.Updated
   fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.Updated
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nLast updated when in UTC.  \n"
+  summary: Last updated when in UTC.
+  example: []
   syntax:
     content: public DateTime Updated
     return:
       type: System.DateTime
-    content.vb: Public Updated As DateTime
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public Updated As Date
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Rows.PushNotificationServiceRecordData.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -421,22 +351,16 @@ items:
   nameWithType: PushNotificationServiceRecordData.UpdatedAssociateId
   fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.UpdatedAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nLast updated by whom \n"
+  summary: Last updated by whom
+  example: []
   syntax:
     content: public int UpdatedAssociateId
     return:
       type: System.Int32
     content.vb: Public UpdatedAssociateId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.UpdatedCount
   commentId: F:SuperOffice.CRM.Rows.PushNotificationServiceRecordData.UpdatedCount
   id: UpdatedCount
@@ -448,22 +372,16 @@ items:
   nameWithType: PushNotificationServiceRecordData.UpdatedCount
   fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.UpdatedCount
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nNumber of updates made to this record \n"
+  summary: Number of updates made to this record
+  example: []
   syntax:
     content: public short UpdatedCount
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.Language
   commentId: F:SuperOffice.CRM.Rows.PushNotificationServiceRecordData.Language
   id: Language
@@ -475,22 +393,16 @@ items:
   nameWithType: PushNotificationServiceRecordData.Language
   fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.Language
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe language to send translated messages in \n"
+  summary: The language to send translated messages in
+  example: []
   syntax:
     content: public string Language
     return:
       type: System.String
     content.vb: Public Language As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.PocketVersion
   commentId: F:SuperOffice.CRM.Rows.PushNotificationServiceRecordData.PocketVersion
   id: PocketVersion
@@ -502,22 +414,16 @@ items:
   nameWithType: PushNotificationServiceRecordData.PocketVersion
   fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.PocketVersion
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe version of Pocket CRM this device is using \n"
+  summary: The version of Pocket CRM this device is using
+  example: []
   syntax:
     content: public string PocketVersion
     return:
       type: System.String
     content.vb: Public PocketVersion As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.OSVersion
   commentId: F:SuperOffice.CRM.Rows.PushNotificationServiceRecordData.OSVersion
   id: OSVersion
@@ -529,22 +435,16 @@ items:
   nameWithType: PushNotificationServiceRecordData.OSVersion
   fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.OSVersion
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe operating system version this device is using \n"
+  summary: The operating system version this device is using
+  example: []
   syntax:
     content: public string OSVersion
     return:
       type: System.String
     content.vb: Public OSVersion As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.TimeZoneId
   commentId: F:SuperOffice.CRM.Rows.PushNotificationServiceRecordData.TimeZoneId
   id: TimeZoneId
@@ -556,22 +456,16 @@ items:
   nameWithType: PushNotificationServiceRecordData.TimeZoneId
   fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.TimeZoneId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe timezone to show for dates in messages \n"
+  summary: The timezone to show for dates in messages
+  example: []
   syntax:
     content: public int TimeZoneId
     return:
       type: System.Int32
     content.vb: Public TimeZoneId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.PushNotificationServiceRecordData.#ctor
   id: '#ctor'
@@ -583,220 +477,602 @@ items:
   nameWithType: PushNotificationServiceRecordData.PushNotificationServiceRecordData()
   fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.PushNotificationServiceRecordData()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public PushNotificationServiceRecordData()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: PushNotificationServiceRecordData.New()
+  fullName.vb: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.New()
+  name.vb: New()
 references:
+- uid: SuperOffice.CRM.Rows.PushNotificationServiceRow
+  commentId: T:SuperOffice.CRM.Rows.PushNotificationServiceRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.PushNotificationServiceRow.html
+  name: PushNotificationServiceRow
+  nameWithType: PushNotificationServiceRow
+  fullName: SuperOffice.CRM.Rows.PushNotificationServiceRow
+- uid: SuperOffice.CRM.Data.PushNotificationServiceTableInfo
+  commentId: T:SuperOffice.CRM.Data.PushNotificationServiceTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.PushNotificationServiceTableInfo.html
+  name: PushNotificationServiceTableInfo
+  nameWithType: PushNotificationServiceTableInfo
+  fullName: SuperOffice.CRM.Data.PushNotificationServiceTableInfo
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<PushNotificationServiceRecordData, To>()
-  nameWithType: EnumUtil.MapEnums<PushNotificationServiceRecordData, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.PushNotificationServiceRecordData, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of PushNotificationServiceRecordData, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.PushNotificationServiceRecordData, To)()
-  name.vb: MapEnums(Of PushNotificationServiceRecordData, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<PushNotificationServiceRecordData, To>(PushNotificationServiceRecordData)
+  nameWithType: EnumUtil.MapEnums<PushNotificationServiceRecordData, To>(PushNotificationServiceRecordData)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.PushNotificationServiceRecordData, To>(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
+  nameWithType.vb: EnumUtil.MapEnums(Of PushNotificationServiceRecordData, To)(PushNotificationServiceRecordData)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.PushNotificationServiceRecordData, To)(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
+  name.vb: MapEnums(Of PushNotificationServiceRecordData, To)(PushNotificationServiceRecordData)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<PushNotificationServiceRecordData, To>
-    nameWithType: EnumUtil.MapEnums<PushNotificationServiceRecordData, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.PushNotificationServiceRecordData, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of PushNotificationServiceRecordData, To)
-    nameWithType: EnumUtil.MapEnums(Of PushNotificationServiceRecordData, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.PushNotificationServiceRecordData, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<PushNotificationServiceRecordData>(PushNotificationServiceRecordData)
-  nameWithType: ObjectExtensions.AssignByReflection<PushNotificationServiceRecordData>(PushNotificationServiceRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.PushNotificationServiceRecordData>(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of PushNotificationServiceRecordData)(PushNotificationServiceRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.PushNotificationServiceRecordData)(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
-  name.vb: AssignByReflection(Of PushNotificationServiceRecordData)(PushNotificationServiceRecordData)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<PushNotificationServiceRecordData>
-    nameWithType: ObjectExtensions.AssignByReflection<PushNotificationServiceRecordData>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.PushNotificationServiceRecordData>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
     name: PushNotificationServiceRecordData
-    nameWithType: PushNotificationServiceRecordData
-    fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of PushNotificationServiceRecordData)
-    nameWithType: ObjectExtensions.AssignByReflection(Of PushNotificationServiceRecordData)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
-    isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
     name: PushNotificationServiceRecordData
-    nameWithType: PushNotificationServiceRecordData
-    fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<PushNotificationServiceRecordData>()
-  nameWithType: ObjectExtensions.GraphCopy<PushNotificationServiceRecordData>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.PushNotificationServiceRecordData>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of PushNotificationServiceRecordData)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.PushNotificationServiceRecordData)()
-  name.vb: GraphCopy(Of PushNotificationServiceRecordData)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<PushNotificationServiceRecordData>
-    nameWithType: ObjectExtensions.GraphCopy<PushNotificationServiceRecordData>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.PushNotificationServiceRecordData>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of PushNotificationServiceRecordData)
-    nameWithType: ObjectExtensions.GraphCopy(Of PushNotificationServiceRecordData)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
+    name: PushNotificationServiceRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
+  - name: (
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
+    name: PushNotificationServiceRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PushNotificationServiceRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
-  name: ToInsert()
-  nameWithType: PushNotificationServiceRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PushNotificationServiceRecordData,System.Threading.CancellationToken)
+  href: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.html#SuperOffice_CRM_Rows_PushNotificationServiceRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_PushNotificationServiceRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync(PushNotificationServiceRecordData, CancellationToken)
+  nameWithType: PushNotificationServiceRecordDataExtensions.ToInsertAsync(PushNotificationServiceRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PushNotificationServiceRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: PushNotificationServiceRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PushNotificationServiceRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.html#SuperOffice_CRM_Rows_PushNotificationServiceRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_PushNotificationServiceRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
+    name: PushNotificationServiceRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: PushNotificationServiceRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PushNotificationServiceRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.html#SuperOffice_CRM_Rows_PushNotificationServiceRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_PushNotificationServiceRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
+    name: PushNotificationServiceRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<PushNotificationServiceRecordData, To>()
-  nameWithType: Converters.MapEnums<PushNotificationServiceRecordData, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.PushNotificationServiceRecordData, To>()
-  nameWithType.vb: Converters.MapEnums(Of PushNotificationServiceRecordData, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.PushNotificationServiceRecordData, To)()
-  name.vb: MapEnums(Of PushNotificationServiceRecordData, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<PushNotificationServiceRecordData, To>(PushNotificationServiceRecordData)
+  nameWithType: Converters.MapEnums<PushNotificationServiceRecordData, To>(PushNotificationServiceRecordData)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.PushNotificationServiceRecordData, To>(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
+  nameWithType.vb: Converters.MapEnums(Of PushNotificationServiceRecordData, To)(PushNotificationServiceRecordData)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.PushNotificationServiceRecordData, To)(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
+  name.vb: MapEnums(Of PushNotificationServiceRecordData, To)(PushNotificationServiceRecordData)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<PushNotificationServiceRecordData, To>
-    nameWithType: Converters.MapEnums<PushNotificationServiceRecordData, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.PushNotificationServiceRecordData, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
+    name: PushNotificationServiceRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
+    name: PushNotificationServiceRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of PushNotificationServiceRecordData, To)
-    nameWithType: Converters.MapEnums(Of PushNotificationServiceRecordData, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.PushNotificationServiceRecordData, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
+    name: PushNotificationServiceRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
+    name: PushNotificationServiceRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<PushNotificationServiceRecordData>(PushNotificationServiceRecordData, PushNotificationServiceRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<PushNotificationServiceRecordData>(PushNotificationServiceRecordData, PushNotificationServiceRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.PushNotificationServiceRecordData>(SuperOffice.CRM.Rows.PushNotificationServiceRecordData, SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of PushNotificationServiceRecordData)(PushNotificationServiceRecordData, PushNotificationServiceRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.PushNotificationServiceRecordData)(SuperOffice.CRM.Rows.PushNotificationServiceRecordData, SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
+  name.vb: AssignByReflection(Of PushNotificationServiceRecordData)(PushNotificationServiceRecordData, PushNotificationServiceRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.PushNotificationServiceRecordData,SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
+    name: PushNotificationServiceRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
+    name: PushNotificationServiceRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
+    name: PushNotificationServiceRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.PushNotificationServiceRecordData,SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
+    name: PushNotificationServiceRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
+    name: PushNotificationServiceRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
+    name: PushNotificationServiceRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<PushNotificationServiceRecordData>(PushNotificationServiceRecordData)
+  nameWithType: ObjectExtensions.GraphCopy<PushNotificationServiceRecordData>(PushNotificationServiceRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.PushNotificationServiceRecordData>(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of PushNotificationServiceRecordData)(PushNotificationServiceRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.PushNotificationServiceRecordData)(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
+  name.vb: GraphCopy(Of PushNotificationServiceRecordData)(PushNotificationServiceRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
+    name: PushNotificationServiceRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
+    name: PushNotificationServiceRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
+    name: PushNotificationServiceRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
+    name: PushNotificationServiceRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -805,187 +1081,94 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+- uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PushNotificationServiceRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PushNotificationServiceRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
+  href: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.html#SuperOffice_CRM_Rows_PushNotificationServiceRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_PushNotificationServiceRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync(PushNotificationServiceRecordData, CancellationToken)
+  nameWithType: PushNotificationServiceRecordDataExtensions.ToInsertAsync(PushNotificationServiceRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PushNotificationServiceRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PushNotificationServiceRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.html#SuperOffice_CRM_Rows_PushNotificationServiceRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_PushNotificationServiceRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
-  commentId: M:SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
-  isExternal: true
-  name: ToInsert(PushNotificationServiceRecordData)
-  nameWithType: PushNotificationServiceRecordDataExtensions.ToInsert(PushNotificationServiceRecordData)
-  fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
-    name: ToInsert
-    nameWithType: PushNotificationServiceRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
     name: PushNotificationServiceRecordData
-    nameWithType: PushNotificationServiceRecordData
-    fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
-    name: ToInsert
-    nameWithType: PushNotificationServiceRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PushNotificationServiceRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.html#SuperOffice_CRM_Rows_PushNotificationServiceRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_PushNotificationServiceRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
     name: PushNotificationServiceRecordData
-    nameWithType: PushNotificationServiceRecordData
-    fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions
   commentId: T:SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.html
   name: PushNotificationServiceRecordDataExtensions
   nameWithType: PushNotificationServiceRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -994,95 +1177,274 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.Data.NotificationPlatform
   commentId: T:SuperOffice.Data.NotificationPlatform
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.NotificationPlatform.html
   name: NotificationPlatform
   nameWithType: NotificationPlatform
   fullName: SuperOffice.Data.NotificationPlatform
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.PushNotificationServiceRecordData.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.html#SuperOffice_CRM_Rows_PushNotificationServiceRecordData__ctor
   name: PushNotificationServiceRecordData
   nameWithType: PushNotificationServiceRecordData.PushNotificationServiceRecordData
   fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.PushNotificationServiceRecordData
+  nameWithType.vb: PushNotificationServiceRecordData.New
+  fullName.vb: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.New
+  name.vb: New

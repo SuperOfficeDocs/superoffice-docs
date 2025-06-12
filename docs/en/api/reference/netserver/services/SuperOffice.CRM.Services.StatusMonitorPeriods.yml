@@ -18,31 +18,40 @@ items:
   nameWithType: StatusMonitorPeriods
   fullName: SuperOffice.CRM.Services.StatusMonitorPeriods
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nObsolete, use SaintConfiguration carrier and methods instead. Was:Definition of the three perionds for status monitors\n<p></p>\nCarrier object for StatusMonitorPeriods.\nServices for the StatusMonitorPeriods Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ISaintAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Obsolete, use SaintConfiguration carrier and methods instead. Was:Definition of the three perionds for status monitors
+
+    <p></p>
+
+    Carrier object for StatusMonitorPeriods.
+
+    Services for the StatusMonitorPeriods Carrier is available from the <xref href="SuperOffice.CRM.Services.ISaintAgent?text=Saint+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class StatusMonitorPeriods : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class StatusMonitorPeriods : Carrier
     content.vb: >-
-      Public Class StatusMonitorPeriods
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class StatusMonitorPeriods Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.SaintAgent
-    commentId: T:SuperOffice.CRM.Services.SaintAgent
   - linkId: SuperOffice.CRM.Services.ISaintAgent
     commentId: T:SuperOffice.CRM.Services.ISaintAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.StatusMonitorPeriods.#ctor
   commentId: M:SuperOffice.CRM.Services.StatusMonitorPeriods.#ctor
   id: '#ctor'
@@ -54,21 +63,18 @@ items:
   nameWithType: StatusMonitorPeriods.StatusMonitorPeriods()
   fullName: SuperOffice.CRM.Services.StatusMonitorPeriods.StatusMonitorPeriods()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public StatusMonitorPeriods()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.StatusMonitorPeriods.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: StatusMonitorPeriods.New()
+  fullName.vb: SuperOffice.CRM.Services.StatusMonitorPeriods.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.StatusMonitorPeriods.ToString
   commentId: M:SuperOffice.CRM.Services.StatusMonitorPeriods.ToString
   id: ToString
@@ -80,26 +86,18 @@ items:
   nameWithType: StatusMonitorPeriods.ToString()
   fullName: SuperOffice.CRM.Services.StatusMonitorPeriods.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.StatusMonitorPeriods.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.StatusMonitorPeriods.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.StatusMonitorPeriods.ToString(System.String)
   id: ToString(System.String)
@@ -107,17 +105,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: StatusMonitorPeriods.ToString(String)
-  fullName: SuperOffice.CRM.Services.StatusMonitorPeriods.ToString(System.String)
+  name: ToString(string)
+  nameWithType: StatusMonitorPeriods.ToString(string)
+  fullName: SuperOffice.CRM.Services.StatusMonitorPeriods.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -129,10 +128,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.StatusMonitorPeriods.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: StatusMonitorPeriods.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.StatusMonitorPeriods.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.StatusMonitorPeriods.Period1
   commentId: P:SuperOffice.CRM.Services.StatusMonitorPeriods.Period1
   id: Period1
@@ -144,28 +142,28 @@ items:
   nameWithType: StatusMonitorPeriods.Period1
   fullName: SuperOffice.CRM.Services.StatusMonitorPeriods.Period1
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDays in the first period \n"
+  summary: Days in the first period
+  example: []
   syntax:
-    content: public virtual int Period1 { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int Period1 { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property Period1 As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Period1 As Integer
   overload: SuperOffice.CRM.Services.StatusMonitorPeriods.Period1*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.StatusMonitorPeriods.Period2
   commentId: P:SuperOffice.CRM.Services.StatusMonitorPeriods.Period2
   id: Period2
@@ -177,28 +175,28 @@ items:
   nameWithType: StatusMonitorPeriods.Period2
   fullName: SuperOffice.CRM.Services.StatusMonitorPeriods.Period2
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDays in the second period \n"
+  summary: Days in the second period
+  example: []
   syntax:
-    content: public virtual int Period2 { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int Period2 { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property Period2 As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Period2 As Integer
   overload: SuperOffice.CRM.Services.StatusMonitorPeriods.Period2*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.StatusMonitorPeriods.Period3
   commentId: P:SuperOffice.CRM.Services.StatusMonitorPeriods.Period3
   id: Period3
@@ -210,57 +208,106 @@ items:
   nameWithType: StatusMonitorPeriods.Period3
   fullName: SuperOffice.CRM.Services.StatusMonitorPeriods.Period3
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDays in the third period \n"
+  summary: Days in the third period
+  example: []
   syntax:
-    content: public virtual int Period3 { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int Period3 { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property Period3 As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Period3 As Integer
   overload: SuperOffice.CRM.Services.StatusMonitorPeriods.Period3*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.SaintAgent
-  commentId: T:SuperOffice.CRM.Services.SaintAgent
-  isExternal: true
-  name: SaintAgent
-  nameWithType: SaintAgent
-  fullName: SuperOffice.CRM.Services.SaintAgent
 - uid: SuperOffice.CRM.Services.ISaintAgent
   commentId: T:SuperOffice.CRM.Services.ISaintAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.ISaintAgent.html
   name: ISaintAgent
   nameWithType: ISaintAgent
   fullName: SuperOffice.CRM.Services.ISaintAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.StatusMonitorPeriods.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.StatusMonitorPeriods.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.StatusMonitorPeriods.html#SuperOffice_CRM_Services_StatusMonitorPeriods__ctor
   name: StatusMonitorPeriods
   nameWithType: StatusMonitorPeriods.StatusMonitorPeriods
   fullName: SuperOffice.CRM.Services.StatusMonitorPeriods.StatusMonitorPeriods
+  nameWithType.vb: StatusMonitorPeriods.New
+  fullName.vb: SuperOffice.CRM.Services.StatusMonitorPeriods.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.StatusMonitorPeriods.ToString*
   commentId: Overload:SuperOffice.CRM.Services.StatusMonitorPeriods.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.StatusMonitorPeriods.html#SuperOffice_CRM_Services_StatusMonitorPeriods_ToString
   name: ToString
   nameWithType: StatusMonitorPeriods.ToString
   fullName: SuperOffice.CRM.Services.StatusMonitorPeriods.ToString
@@ -268,18 +315,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.StatusMonitorPeriods.Period1*
   commentId: Overload:SuperOffice.CRM.Services.StatusMonitorPeriods.Period1
   isExternal: true
+  href: SuperOffice.CRM.Services.StatusMonitorPeriods.html#SuperOffice_CRM_Services_StatusMonitorPeriods_Period1
   name: Period1
   nameWithType: StatusMonitorPeriods.Period1
   fullName: SuperOffice.CRM.Services.StatusMonitorPeriods.Period1
@@ -287,18 +333,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.StatusMonitorPeriods.Period2*
   commentId: Overload:SuperOffice.CRM.Services.StatusMonitorPeriods.Period2
   isExternal: true
+  href: SuperOffice.CRM.Services.StatusMonitorPeriods.html#SuperOffice_CRM_Services_StatusMonitorPeriods_Period2
   name: Period2
   nameWithType: StatusMonitorPeriods.Period2
   fullName: SuperOffice.CRM.Services.StatusMonitorPeriods.Period2
 - uid: SuperOffice.CRM.Services.StatusMonitorPeriods.Period3*
   commentId: Overload:SuperOffice.CRM.Services.StatusMonitorPeriods.Period3
   isExternal: true
+  href: SuperOffice.CRM.Services.StatusMonitorPeriods.html#SuperOffice_CRM_Services_StatusMonitorPeriods_Period3
   name: Period3
   nameWithType: StatusMonitorPeriods.Period3
   fullName: SuperOffice.CRM.Services.StatusMonitorPeriods.Period3

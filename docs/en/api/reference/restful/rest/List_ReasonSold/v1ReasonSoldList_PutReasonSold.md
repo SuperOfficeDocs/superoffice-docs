@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 890,
-  "Name": "Batz Group",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 913,
-  "Rank": 672
+  "Id": 131,
+  "Name": "Quigley LLC",
+  "Tooltip": "debitis",
+  "Deleted": true,
+  "UdListDefinitionId": 925,
+  "Rank": 786
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 152,
-  "Name": "Huel-Ryan",
-  "Tooltip": "quo",
+  "Id": 109,
+  "Name": "Fritsch Inc and Sons",
+  "Tooltip": "enim",
   "Deleted": true,
-  "UdListDefinitionId": 159,
-  "Rank": 627,
+  "UdListDefinitionId": 102,
+  "Rank": 339,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldLength": 344
     }
   }
 }

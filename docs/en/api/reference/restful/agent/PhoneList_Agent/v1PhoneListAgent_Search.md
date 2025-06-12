@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "ullam"
+  "SearchString": "voluptates"
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(423)468-2089",
-    "PersonCellPhone": "1-167-388-9422",
-    "PersonPrivatePhone": "012-605-4109",
-    "PersonFaxNumber": "151823",
-    "PersonPagerNumber": "1108482",
-    "PersonEmail": "teresa@bins.name",
-    "Id": 293,
-    "Name": "Dach Inc and Sons",
-    "Tooltip": "magnam",
-    "UniqueId": "nulla",
+    "PersonDirectPhone": "513-460-7303",
+    "PersonCellPhone": "614-340-3798 x27475",
+    "PersonPrivatePhone": "333-399-8219 x0296",
+    "PersonFaxNumber": "945356",
+    "PersonPagerNumber": "1017305",
+    "PersonEmail": "eric@herzogwelch.com",
+    "Id": 557,
+    "Name": "Steuber Inc and Sons",
+    "Tooltip": "iste",
+    "UniqueId": "quas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 629
+        "FieldLength": 630
       }
     }
   }

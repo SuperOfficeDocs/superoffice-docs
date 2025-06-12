@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 810,
-    "Name": "Boehm-Gleason",
-    "ToolTip": "Quasi nam omnis occaecati consectetur.",
-    "Deleted": false,
-    "Rank": 75,
-    "Type": "rerum",
-    "ColorBlock": 415,
-    "IconHint": "excepturi",
+    "Id": 576,
+    "Name": "Kutch-Strosin",
+    "ToolTip": "Eveniet dolor consequatur atque.",
+    "Deleted": true,
+    "Rank": 246,
+    "Type": "esse",
+    "ColorBlock": 72,
+    "IconHint": "id",
     "Selected": false,
-    "LastChanged": "2012-07-13T16:32:48.7901236+02:00",
+    "LastChanged": "2014-12-16T17:54:08.9761714+01:00",
     "ChildItems": [
       {
-        "Id": 53,
-        "Name": "Marks-Collins",
-        "ToolTip": "Ratione illum voluptate reiciendis.",
+        "Id": 631,
+        "Name": "Jacobi, Koepp and Crist",
+        "ToolTip": "Dolores est nihil dolores unde et asperiores.",
         "Deleted": false,
-        "Rank": 538,
-        "Type": "soluta",
-        "ColorBlock": 201,
-        "IconHint": "eos",
-        "Selected": true,
-        "LastChanged": "2020-01-27T16:32:48.7901236+01:00",
+        "Rank": 955,
+        "Type": "veniam",
+        "ColorBlock": 179,
+        "IconHint": "ipsum",
+        "Selected": false,
+        "LastChanged": "2001-02-11T17:54:08.9761714+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "dolorum",
+        "ExtraInfo": "illo",
+        "StyleHint": "quo",
         "Hidden": false,
-        "FullName": "Mrs. Giuseppe Medhurst",
+        "FullName": "Modesto Ernser",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 484
+            "FieldLength": 909
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "nihil",
-    "Hidden": true,
-    "FullName": "Mary Pierce Bednar II",
+    "ExtraInfo": "eveniet",
+    "StyleHint": "illo",
+    "Hidden": false,
+    "FullName": "Vern Ezekiel D'Amore V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 55
+        "FieldType": "System.String",
+        "FieldLength": 395
       }
     }
   }

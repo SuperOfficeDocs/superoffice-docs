@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TZDstRuleTableInfo})
   - SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TZDstRuleTableInfo})
-  - SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TZDstRuleRecordData)
-  - SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TZDstRuleRecordData})
+  - SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TZDstRuleTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TZDstRuleRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TZDstRuleRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TZDstRuleRow)
   langs:
   - csharp
@@ -17,71 +18,76 @@ items:
   nameWithType: TZDstRuleRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nExtension methods to make it easy to fetch <xref href=\"SuperOffice.CRM.Rows.TZDstRuleRecordData\" data-throw-if-not-resolved=\"false\"></xref> objects from the database,\nusing the <see cref=\"!:TargetedSelect\"></see> infrastructure\n"
+  summary: >-
+    Extension methods to make it easy to fetch <xref href="SuperOffice.CRM.Rows.TZDstRuleRecordData" data-throw-if-not-resolved="false"></xref> objects from the database,
+
+    using the TargetedSelect infrastructure
+  example: []
   syntax:
-    content: 'public static class TZDstRuleRecordDataExtensions : Object'
-    content.vb: >-
-      Public Module TZDstRuleRecordDataExtensions
-          Inherits Object
+    content: public static class TZDstRuleRecordDataExtensions
+    content.vb: Public Module TZDstRuleRecordDataExtensions
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
-- uid: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TZDstRuleTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TZDstRuleTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TZDstRuleTableInfo})
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TZDstRuleTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TZDstRuleTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TZDstRuleTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<TZDstRuleTableInfo>)
-  nameWithType: TZDstRuleRecordDataExtensions.FromSelect(TargetedSelect<TZDstRuleTableInfo>)
-  fullName: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TZDstRuleTableInfo>)
+  name: FromSelectAsync(TargetedSelect<TZDstRuleTableInfo>, CancellationToken)
+  nameWithType: TZDstRuleRecordDataExtensions.FromSelectAsync(TargetedSelect<TZDstRuleTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TZDstRuleTableInfo>, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nFrom a TargetedSelect&lt;TZDstRuleTableInfo>, execute it and return an IEnumerable&lt;TZDstRuleRecordData> with the results\n"
+  summary: From a TargetedSelect&lt;TZDstRuleTableInfo&gt;, execute it and return an IEnumerable&lt;TZDstRuleRecordData&gt; with the results
   example:
   - >-
-    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
-                var result = s.FromSelect();</code></pre>
+    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
+
+    var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<TZDstRuleRecordData> FromSelect(this TargetedSelect<TZDstRuleTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<TZDstRuleRecordData> FromSelectAsync(this TargetedSelect<TZDstRuleTableInfo> select, CancellationToken cancellationToken = default)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TZDstRuleTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TZDstRuleRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.TZDstRuleRecordData}
     content.vb: >-
-      <ExtensionAttribute>
+      <CreateSyncVersion(OmitNullableDirective:=True)>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of TZDstRuleTableInfo)) As IEnumerable(Of TZDstRuleRecordData)
-  overload: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelect*
-  nameWithType.vb: TZDstRuleRecordDataExtensions.FromSelect(TargetedSelect(Of TZDstRuleTableInfo))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TZDstRuleTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of TZDstRuleTableInfo))
+      Public Shared Function FromSelectAsync([select] As TargetedSelect(Of TZDstRuleTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of TZDstRuleRecordData)
+  overload: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: TZDstRuleRecordDataExtensions.FromSelectAsync(TargetedSelect(Of TZDstRuleTableInfo), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TZDstRuleTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of TZDstRuleTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TZDstRuleTableInfo})
   commentId: M:SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TZDstRuleTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TZDstRuleTableInfo})
@@ -94,19 +100,19 @@ items:
   nameWithType: TZDstRuleRecordDataExtensions.FromRecord(TargetedDataRecord<TZDstRuleTableInfo>)
   fullName: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.TZDstRuleTableInfo>)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nFrom a TargetedDataRecord&lt;TZDstRuleTableInfo>, create and populate a <xref href=\"SuperOffice.CRM.Rows.TZDstRuleRecordData\" data-throw-if-not-resolved=\"false\"></xref> POCO object\n"
+  summary: From a TargetedDataRecord&lt;TZDstRuleTableInfo&gt;, create and populate a <xref href="SuperOffice.CRM.Rows.TZDstRuleRecordData" data-throw-if-not-resolved="false"></xref> POCO object
   example:
   - >-
-    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
-                /* add joins, return fields etc. as you wish */
-                s.ReturnFields.Add(s.Table.All);
-                var result = s.Records().Select(r => new { TZDstRuleItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
+    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
+
+    /* add joins, return fields etc. as you wish */
+
+    s.ReturnFields.Add(s.Table.All);
+
+    var result = s.Records().Select(r =&gt; new { TZDstRuleItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
   syntax:
     content: public static TZDstRuleRecordData FromRecord(this TargetedDataRecord<TZDstRuleTableInfo> record)
     parameters:
@@ -114,95 +120,66 @@ items:
       type: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TZDstRuleTableInfo}
     return:
       type: SuperOffice.CRM.Rows.TZDstRuleRecordData
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function FromRecord(record As TargetedDataRecord(Of TZDstRuleTableInfo)) As TZDstRuleRecordData
+    content.vb: Public Shared Function FromRecord(record As TargetedDataRecord(Of TZDstRuleTableInfo)) As TZDstRuleRecordData
   overload: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromRecord*
   nameWithType.vb: TZDstRuleRecordDataExtensions.FromRecord(TargetedDataRecord(Of TZDstRuleTableInfo))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
   fullName.vb: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.TZDstRuleTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of TZDstRuleTableInfo))
-- uid: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TZDstRuleRecordData)
-  commentId: M:SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TZDstRuleRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.TZDstRuleRecordData)
+- uid: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TZDstRuleRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TZDstRuleRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.TZDstRuleRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(TZDstRuleRecordData)
-  nameWithType: TZDstRuleRecordDataExtensions.ToInsert(TZDstRuleRecordData)
-  fullName: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TZDstRuleRecordData)
+  name: ToInsertAsync(TZDstRuleRecordData, CancellationToken)
+  nameWithType: TZDstRuleRecordDataExtensions.ToInsertAsync(TZDstRuleRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TZDstRuleRecordData, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this TZDstRuleRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this TZDstRuleRecordData record, CancellationToken cancellationToken = default)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.TZDstRuleRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function ToInsert(record As TZDstRuleRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInsert*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TZDstRuleRecordData})
-  commentId: M:SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TZDstRuleRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TZDstRuleRecordData})
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+    content.vb: Public Shared Function ToInsertAsync(record As TZDstRuleRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInsertAsync*
+- uid: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TZDstRuleRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TZDstRuleRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TZDstRuleRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<TZDstRuleRecordData>)
-  nameWithType: TZDstRuleRecordDataExtensions.ToInserts(IEnumerable<TZDstRuleRecordData>)
-  fullName: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TZDstRuleRecordData>)
+  name: ToInsertsAsync(IEnumerable<TZDstRuleRecordData>, CancellationToken)
+  nameWithType: TZDstRuleRecordDataExtensions.ToInsertsAsync(IEnumerable<TZDstRuleRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TZDstRuleRecordData>, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<TZDstRuleRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<TZDstRuleRecordData> records, CancellationToken cancellationToken = default)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TZDstRuleRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function ToInserts(records As IEnumerable(Of TZDstRuleRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInserts*
-  nameWithType.vb: TZDstRuleRecordDataExtensions.ToInserts(IEnumerable(Of TZDstRuleRecordData))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TZDstRuleRecordData))
-  name.vb: ToInserts(IEnumerable(Of TZDstRuleRecordData))
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+    content.vb: Public Shared Function ToInsertsAsync(records As IEnumerable(Of TZDstRuleRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: TZDstRuleRecordDataExtensions.ToInsertsAsync(IEnumerable(Of TZDstRuleRecordData), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TZDstRuleRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of TZDstRuleRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TZDstRuleRow)
   commentId: M:SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TZDstRuleRow)
   id: ToRecordData(SuperOffice.CRM.Rows.TZDstRuleRow)
@@ -215,9 +192,6 @@ items:
   nameWithType: TZDstRuleRecordDataExtensions.ToRecordData(TZDstRuleRow)
   fullName: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TZDstRuleRow)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
@@ -228,47 +202,336 @@ items:
       type: SuperOffice.CRM.Rows.TZDstRuleRow
     return:
       type: SuperOffice.CRM.Rows.TZDstRuleRecordData
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function ToRecordData(row As TZDstRuleRow) As TZDstRuleRecordData
+    content.vb: Public Shared Function ToRecordData(row As TZDstRuleRow) As TZDstRuleRecordData
   overload: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToRecordData*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+- uid: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TZDstRuleTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TZDstRuleTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TZDstRuleTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<TZDstRuleTableInfo>)
+  nameWithType: TZDstRuleRecordDataExtensions.FromSelect(TargetedSelect<TZDstRuleTableInfo>)
+  fullName: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TZDstRuleTableInfo>)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: From a TargetedSelect&lt;TZDstRuleTableInfo&gt;, execute it and return an IEnumerable&lt;TZDstRuleRecordData&gt; with the results
+  example:
+  - >-
+    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
+
+    var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<TZDstRuleRecordData> FromSelect(this TargetedSelect<TZDstRuleTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TZDstRuleTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TZDstRuleRecordData}
+    content.vb: Public Shared Function FromSelect([select] As TargetedSelect(Of TZDstRuleTableInfo)) As IEnumerable(Of TZDstRuleRecordData)
+  overload: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelect*
+  nameWithType.vb: TZDstRuleRecordDataExtensions.FromSelect(TargetedSelect(Of TZDstRuleTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TZDstRuleTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of TZDstRuleTableInfo))
 references:
+- uid: SuperOffice.CRM.Rows.TZDstRuleRecordData
+  commentId: T:SuperOffice.CRM.Rows.TZDstRuleRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TZDstRuleRecordData.html
+  name: TZDstRuleRecordData
+  nameWithType: TZDstRuleRecordData
+  fullName: SuperOffice.CRM.Rows.TZDstRuleRecordData
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: TZDstRuleRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelect
+  href: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.html#SuperOffice_CRM_Rows_TZDstRuleRecordDataExtensions_FromSelectAsync_SuperOffice_Data_SQL_TargetedSelect_SuperOffice_CRM_Data_TZDstRuleTableInfo__System_Threading_CancellationToken_
+  name: FromSelectAsync
+  nameWithType: TZDstRuleRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TZDstRuleTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TZDstRuleTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedSelect`1
+  href: SuperOffice.Data.SQL.TargetedSelect-1.html
   name: TargetedSelect<TZDstRuleTableInfo>
   nameWithType: TargetedSelect<TZDstRuleTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TZDstRuleTableInfo>
@@ -278,84 +541,72 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
-    nameWithType: TargetedSelect
-    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.TZDstRuleTableInfo
     name: TZDstRuleTableInfo
-    nameWithType: TZDstRuleTableInfo
-    fullName: SuperOffice.CRM.Data.TZDstRuleTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.TZDstRuleTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
-    nameWithType: TargetedSelect
-    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.TZDstRuleTableInfo
     name: TZDstRuleTableInfo
-    nameWithType: TZDstRuleTableInfo
-    fullName: SuperOffice.CRM.Data.TZDstRuleTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.TZDstRuleTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TZDstRuleRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TZDstRuleRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<TZDstRuleRecordData>
-  nameWithType: IEnumerable<TZDstRuleRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TZDstRuleRecordData>
-  nameWithType.vb: IEnumerable(Of TZDstRuleRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TZDstRuleRecordData)
-  name.vb: IEnumerable(Of TZDstRuleRecordData)
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.TZDstRuleRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.TZDstRuleRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  href: SuperOffice.CRM.Rows.TZDstRuleRecordData.html
+  name: IAsyncEnumerable<TZDstRuleRecordData>
+  nameWithType: IAsyncEnumerable<TZDstRuleRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.TZDstRuleRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of TZDstRuleRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.TZDstRuleRecordData)
+  name.vb: IAsyncEnumerable(Of TZDstRuleRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
     isExternal: true
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Rows.TZDstRuleRecordData
     name: TZDstRuleRecordData
-    nameWithType: TZDstRuleRecordData
-    fullName: SuperOffice.CRM.Rows.TZDstRuleRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.TZDstRuleRecordData.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Rows.TZDstRuleRecordData
     name: TZDstRuleRecordData
-    nameWithType: TZDstRuleRecordData
-    fullName: SuperOffice.CRM.Rows.TZDstRuleRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.TZDstRuleRecordData.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedSelect`1
   commentId: T:SuperOffice.Data.SQL.TargetedSelect`1
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.TargetedSelect-1.html
   name: TargetedSelect<MainTableInfo>
   nameWithType: TargetedSelect<MainTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedSelect<MainTableInfo>
@@ -365,80 +616,112 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
-    nameWithType: TargetedSelect
-    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: MainTableInfo
-    nameWithType: MainTableInfo
-    fullName: MainTableInfo
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
-    nameWithType: TargetedSelect
-    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: MainTableInfo
-    nameWithType: MainTableInfo
-    fullName: MainTableInfo
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
-  isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Collections.Generic.IAsyncEnumerable`1
+  isExternal: true
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
     isExternal: true
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+  - name: (
+  - name: Of
+  - name: " "
   - name: ''
-    nameWithType: ''
-    fullName: ''
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromRecord*
   commentId: Overload:SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromRecord
   isExternal: true
+  href: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.html#SuperOffice_CRM_Rows_TZDstRuleRecordDataExtensions_FromRecord_SuperOffice_Data_SQL_TargetedDataRecord_SuperOffice_CRM_Data_TZDstRuleTableInfo__
   name: FromRecord
   nameWithType: TZDstRuleRecordDataExtensions.FromRecord
   fullName: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromRecord
@@ -446,6 +729,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TZDstRuleTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedDataRecord`1
+  href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   name: TargetedDataRecord<TZDstRuleTableInfo>
   nameWithType: TargetedDataRecord<TZDstRuleTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.TZDstRuleTableInfo>
@@ -455,47 +739,31 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
-    nameWithType: TargetedDataRecord
-    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.TZDstRuleTableInfo
     name: TZDstRuleTableInfo
-    nameWithType: TZDstRuleTableInfo
-    fullName: SuperOffice.CRM.Data.TZDstRuleTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.TZDstRuleTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
-    nameWithType: TargetedDataRecord
-    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.TZDstRuleTableInfo
     name: TZDstRuleTableInfo
-    nameWithType: TZDstRuleTableInfo
-    fullName: SuperOffice.CRM.Data.TZDstRuleTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.TZDstRuleTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TZDstRuleRecordData
-  commentId: T:SuperOffice.CRM.Rows.TZDstRuleRecordData
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  name: TZDstRuleRecordData
-  nameWithType: TZDstRuleRecordData
-  fullName: SuperOffice.CRM.Rows.TZDstRuleRecordData
 - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
   commentId: T:SuperOffice.Data.SQL.TargetedDataRecord`1
   isExternal: true
+  href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   name: TargetedDataRecord<MainTableInfo>
   nameWithType: TargetedDataRecord<MainTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>
@@ -505,98 +773,271 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
-    nameWithType: TargetedDataRecord
-    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: MainTableInfo
-    nameWithType: MainTableInfo
-    fullName: MainTableInfo
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
-    nameWithType: TargetedDataRecord
-    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: MainTableInfo
-    nameWithType: MainTableInfo
-    fullName: MainTableInfo
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: TZDstRuleRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
+  href: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.html#SuperOffice_CRM_Rows_TZDstRuleRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_TZDstRuleRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync
+  nameWithType: TZDstRuleRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInserts
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
   isExternal: true
-  name: ToInserts
-  nameWithType: TZDstRuleRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.html#SuperOffice_CRM_Rows_TZDstRuleRecordDataExtensions_ToInsertsAsync_System_Collections_Generic_IEnumerable_SuperOffice_CRM_Rows_TZDstRuleRecordData__System_Threading_CancellationToken_
+  name: ToInsertsAsync
+  nameWithType: TZDstRuleRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TZDstRuleRecordData}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TZDstRuleRecordData}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<TZDstRuleRecordData>
+  nameWithType: IEnumerable<TZDstRuleRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TZDstRuleRecordData>
+  nameWithType.vb: IEnumerable(Of TZDstRuleRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TZDstRuleRecordData)
+  name.vb: IEnumerable(Of TZDstRuleRecordData)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.SQL.Insert
-    name: Insert
-    nameWithType: Insert
-    fullName: SuperOffice.Data.SQL.Insert
+  - uid: SuperOffice.CRM.Rows.TZDstRuleRecordData
+    name: TZDstRuleRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.TZDstRuleRecordData.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.TZDstRuleRecordData
+    name: TZDstRuleRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TZDstRuleRecordData.html
+  - name: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  href: SuperOffice.Data.SQL.Insert.html
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: <
   - uid: SuperOffice.Data.SQL.Insert
     name: Insert
-    nameWithType: Insert
-    fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToRecordData*
   commentId: Overload:SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToRecordData
   isExternal: true
+  href: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.html#SuperOffice_CRM_Rows_TZDstRuleRecordDataExtensions_ToRecordData_SuperOffice_CRM_Rows_TZDstRuleRow_
   name: ToRecordData
   nameWithType: TZDstRuleRecordDataExtensions.ToRecordData
   fullName: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.ToRecordData
@@ -604,6 +1045,14 @@ references:
   commentId: T:SuperOffice.CRM.Rows.TZDstRuleRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.TZDstRuleRow.html
   name: TZDstRuleRow
   nameWithType: TZDstRuleRow
   fullName: SuperOffice.CRM.Rows.TZDstRuleRow
+- uid: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelect
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.html#SuperOffice_CRM_Rows_TZDstRuleRecordDataExtensions_FromSelect_SuperOffice_Data_SQL_TargetedSelect_SuperOffice_CRM_Data_TZDstRuleTableInfo__
+  name: FromSelect
+  nameWithType: TZDstRuleRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.TZDstRuleRecordDataExtensions.FromSelect

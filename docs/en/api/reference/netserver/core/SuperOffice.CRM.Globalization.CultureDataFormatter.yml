@@ -53,8 +53,8 @@ items:
   - SuperOffice.CRM.Globalization.CultureDataFormatter.LocalizeEncoded(System.String)
   - SuperOffice.CRM.Globalization.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(System.String)
   - SuperOffice.CRM.Globalization.CultureDataFormatter.MapCultureToSuperOfficeLanguage(System.String)
-  - SuperOffice.CRM.Globalization.CultureDataFormatter.MapLanguageToCsLanguage(System.String)
   - SuperOffice.CRM.Globalization.CultureDataFormatter.MapLCIDToSuperOfficeLanguage(System.Int32)
+  - SuperOffice.CRM.Globalization.CultureDataFormatter.MapLanguageToCsLanguage(System.String)
   - SuperOffice.CRM.Globalization.CultureDataFormatter.MapSuperOfficeLanguageToCulture(System.String)
   - SuperOffice.CRM.Globalization.CultureDataFormatter.MarkerSeparator
   - SuperOffice.CRM.Globalization.CultureDataFormatter.MoneyMarker
@@ -86,28 +86,53 @@ items:
   nameWithType: CultureDataFormatter
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter
   type: Class
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nThis is a helper class designed to encode, parse and reformat culturally sensitive data types between\nan application server without culture knowledge, and a front-end with such knowledge.\n"
-  remarks: "\n<p></p>\nThe problem: The application server does not know the culture of the current client. At the same time,\nwe need to be able to include culturally sensitive data (such as a date) as part of a tooltip or other\nserver-side generated text. Before displaying this text to the user, culturally sensitive elements need \nto be parsed and reformatted to the correct culture.\n<p></p>\nThe methods in this class take care of both sides of this process. The Encode methods, such as \n<xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDate(System.DateTime)\" data-throw-if-not-resolved=\"false\"></xref>, take a native data type as input and return a string that contains both\na specification of what it is (a date) and the value formatted in the invariant culture.\n<p></p>\nThe <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter.LocalizeEncoded(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method will take such a formatted element, and by calling on the\nproper LocalFormat method (such as <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDate(System.DateTime)\" data-throw-if-not-resolved=\"false\"></xref>, return it in its correct form according\nto the current culture settings for the thread.\n"
+  summary: >-
+    This is a helper class designed to encode, parse and reformat culturally sensitive data types between
+
+    an application server without culture knowledge, and a front-end with such knowledge.
+  remarks: >-
+    <p></p>
+
+    The problem: The application server does not know the culture of the current client. At the same time,
+
+    we need to be able to include culturally sensitive data (such as a date) as part of a tooltip or other
+
+    server-side generated text. Before displaying this text to the user, culturally sensitive elements need 
+
+    to be parsed and reformatted to the correct culture.
+
+    <p></p>
+
+    The methods in this class take care of both sides of this process. The Encode methods, such as 
+
+    <xref href="SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDate(System.DateTime)" data-throw-if-not-resolved="false"></xref>, take a native data type as input and return a string that contains both
+
+    a specification of what it is (a date) and the value formatted in the invariant culture.
+
+    <p></p>
+
+    The <xref href="SuperOffice.CRM.Globalization.CultureDataFormatter.LocalizeEncoded(System.String)" data-throw-if-not-resolved="false"></xref> method will take such a formatted element, and by calling on the
+
+    proper LocalFormat method (such as <xref href="SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDate(System.DateTime)" data-throw-if-not-resolved="false"></xref>, return it in its correct form according
+
+    to the current culture settings for the thread.
+  example: []
   syntax:
-    content: 'public static class CultureDataFormatter : Object'
-    content.vb: >-
-      Public Module CultureDataFormatter
-          Inherits Object
+    content: public static class CultureDataFormatter
+    content.vb: Public Module CultureDataFormatter
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.DateMarker
   commentId: F:SuperOffice.CRM.Globalization.CultureDataFormatter.DateMarker
   id: DateMarker
@@ -119,9 +144,6 @@ items:
   nameWithType: CultureDataFormatter.DateMarker
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.DateMarker
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
@@ -130,12 +152,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const DateMarker As String = "D"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.DateTimeMarker
   commentId: F:SuperOffice.CRM.Globalization.CultureDataFormatter.DateTimeMarker
   id: DateTimeMarker
@@ -147,9 +163,6 @@ items:
   nameWithType: CultureDataFormatter.DateTimeMarker
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.DateTimeMarker
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
@@ -158,12 +171,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const DateTimeMarker As String = "DT"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.TimeMarker
   commentId: F:SuperOffice.CRM.Globalization.CultureDataFormatter.TimeMarker
   id: TimeMarker
@@ -175,9 +182,6 @@ items:
   nameWithType: CultureDataFormatter.TimeMarker
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.TimeMarker
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
@@ -186,12 +190,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const TimeMarker As String = "T"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.TimeSpanMarker
   commentId: F:SuperOffice.CRM.Globalization.CultureDataFormatter.TimeSpanMarker
   id: TimeSpanMarker
@@ -203,9 +201,6 @@ items:
   nameWithType: CultureDataFormatter.TimeSpanMarker
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.TimeSpanMarker
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
@@ -214,12 +209,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const TimeSpanMarker As String = "TS"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.DoubleMarker
   commentId: F:SuperOffice.CRM.Globalization.CultureDataFormatter.DoubleMarker
   id: DoubleMarker
@@ -231,9 +220,6 @@ items:
   nameWithType: CultureDataFormatter.DoubleMarker
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.DoubleMarker
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
@@ -242,12 +228,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const DoubleMarker As String = "F"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.IntMarker
   commentId: F:SuperOffice.CRM.Globalization.CultureDataFormatter.IntMarker
   id: IntMarker
@@ -259,9 +239,6 @@ items:
   nameWithType: CultureDataFormatter.IntMarker
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.IntMarker
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
@@ -270,12 +247,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const IntMarker As String = "I"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.MoneyMarker
   commentId: F:SuperOffice.CRM.Globalization.CultureDataFormatter.MoneyMarker
   id: MoneyMarker
@@ -287,9 +258,6 @@ items:
   nameWithType: CultureDataFormatter.MoneyMarker
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.MoneyMarker
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
@@ -298,12 +266,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const MoneyMarker As String = "M"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.BinaryMarker
   commentId: F:SuperOffice.CRM.Globalization.CultureDataFormatter.BinaryMarker
   id: BinaryMarker
@@ -315,9 +277,6 @@ items:
   nameWithType: CultureDataFormatter.BinaryMarker
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.BinaryMarker
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
@@ -326,12 +285,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const BinaryMarker As String = "B"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.IntArrMarker
   commentId: F:SuperOffice.CRM.Globalization.CultureDataFormatter.IntArrMarker
   id: IntArrMarker
@@ -343,9 +296,6 @@ items:
   nameWithType: CultureDataFormatter.IntArrMarker
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.IntArrMarker
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
@@ -354,12 +304,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const IntArrMarker As String = "A"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.MarkerSeparator
   commentId: F:SuperOffice.CRM.Globalization.CultureDataFormatter.MarkerSeparator
   id: MarkerSeparator
@@ -371,24 +315,16 @@ items:
   nameWithType: CultureDataFormatter.MarkerSeparator
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.MarkerSeparator
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public const char MarkerSeparator = ':'
     return:
       type: System.Char
     content.vb: Public Const MarkerSeparator As Char = ":"c
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.BeginTag
   commentId: F:SuperOffice.CRM.Globalization.CultureDataFormatter.BeginTag
   id: BeginTag
@@ -400,23 +336,15 @@ items:
   nameWithType: CultureDataFormatter.BeginTag
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.BeginTag
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
+  example: []
   syntax:
     content: public const string BeginTag = "["
     return:
       type: System.String
     content.vb: Public Const BeginTag As String = "["
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EndTag
   commentId: F:SuperOffice.CRM.Globalization.CultureDataFormatter.EndTag
   id: EndTag
@@ -428,23 +356,15 @@ items:
   nameWithType: CultureDataFormatter.EndTag
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EndTag
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
+  example: []
   syntax:
     content: public const string EndTag = "]"
     return:
       type: System.String
     content.vb: Public Const EndTag As String = "]"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.Encode(System.Object)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.Encode(System.Object)
   id: Encode(System.Object)
@@ -452,17 +372,15 @@ items:
   langs:
   - csharp
   - vb
-  name: Encode(Object)
-  nameWithType: CultureDataFormatter.Encode(Object)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.Encode(System.Object)
+  name: Encode(object)
+  nameWithType: CultureDataFormatter.Encode(object)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.Encode(object)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nEncode a object based on type. Types supported: DateTime, Double, Integer, String and Boolean\n"
+  summary: 'Encode a object based on type. Types supported: DateTime, Double, Integer, String and Boolean'
+  example: []
   syntax:
     content: public static string Encode(object value)
     parameters:
@@ -474,12 +392,9 @@ items:
       description: Encoded object
     content.vb: Public Shared Function Encode(value As Object) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.Encode*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.Encode(Object)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.Encode(Object)
+  name.vb: Encode(Object)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeIntArr(System.Int32[])
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeIntArr(System.Int32[])
   id: EncodeIntArr(System.Int32[])
@@ -487,13 +402,10 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeIntArr(Int32[])
-  nameWithType: CultureDataFormatter.EncodeIntArr(Int32[])
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeIntArr(System.Int32[])
+  name: EncodeIntArr(params int[])
+  nameWithType: CultureDataFormatter.EncodeIntArr(params int[])
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeIntArr(params int[])
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
@@ -506,15 +418,9 @@ items:
       type: System.String
     content.vb: Public Shared Function EncodeIntArr(ParamArray intArr As Integer()) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeIntArr*
-  nameWithType.vb: CultureDataFormatter.EncodeIntArr(Int32())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeIntArr(System.Int32())
-  name.vb: EncodeIntArr(Int32())
+  nameWithType.vb: CultureDataFormatter.EncodeIntArr(ParamArray Integer())
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeIntArr(ParamArray Integer())
+  name.vb: EncodeIntArr(ParamArray Integer())
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDate(System.DateTime)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDate(System.DateTime)
   id: EncodeDate(System.DateTime)
@@ -526,13 +432,11 @@ items:
   nameWithType: CultureDataFormatter.EncodeDate(DateTime)
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDate(System.DateTime)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nEncode a date, without a time part\n"
+  summary: Encode a date, without a time part
+  example: []
   syntax:
     content: public static string EncodeDate(DateTime dateTime)
     parameters:
@@ -542,14 +446,11 @@ items:
     return:
       type: System.String
       description: Encoded date
-    content.vb: Public Shared Function EncodeDate(dateTime As DateTime) As String
+    content.vb: Public Shared Function EncodeDate(dateTime As Date) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeDate(Date)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDate(Date)
+  name.vb: EncodeDate(Date)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDate(System.DateTime,System.Boolean)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDate(System.DateTime,System.Boolean)
   id: EncodeDate(System.DateTime,System.Boolean)
@@ -557,17 +458,18 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeDate(DateTime, Boolean)
-  nameWithType: CultureDataFormatter.EncodeDate(DateTime, Boolean)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDate(System.DateTime, System.Boolean)
+  name: EncodeDate(DateTime, bool)
+  nameWithType: CultureDataFormatter.EncodeDate(DateTime, bool)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDate(System.DateTime, bool)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nEncode a date, without a time part.\nOptionally skip encoding and return an empty string instead.\n"
+  summary: >-
+    Encode a date, without a time part.
+
+    Optionally skip encoding and return an empty string instead.
+  example: []
   syntax:
     content: public static string EncodeDate(DateTime dateTime, bool performEncode)
     parameters:
@@ -578,21 +480,16 @@ items:
       type: System.Boolean
       description: >-
         If true, the input parameter is encoded to string. If false, an empty string is returned instead.
-
-        This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
-
-        switch may eliminate the need for string-encoded display values.
+                    This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
+                    switch may eliminate the need for string-encoded display values.
     return:
       type: System.String
       description: Encoded date
-    content.vb: Public Shared Function EncodeDate(dateTime As DateTime, performEncode As Boolean) As String
+    content.vb: Public Shared Function EncodeDate(dateTime As Date, performEncode As Boolean) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeDate(Date, Boolean)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDate(Date, Boolean)
+  name.vb: EncodeDate(Date, Boolean)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDateTime(System.DateTime)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDateTime(System.DateTime)
   id: EncodeDateTime(System.DateTime)
@@ -604,13 +501,11 @@ items:
   nameWithType: CultureDataFormatter.EncodeDateTime(DateTime)
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDateTime(System.DateTime)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nEncode a date, with a time part.\n"
+  summary: Encode a date, with a time part.
+  example: []
   syntax:
     content: public static string EncodeDateTime(DateTime dateTime)
     parameters:
@@ -620,14 +515,11 @@ items:
     return:
       type: System.String
       description: Encoded date/time
-    content.vb: Public Shared Function EncodeDateTime(dateTime As DateTime) As String
+    content.vb: Public Shared Function EncodeDateTime(dateTime As Date) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDateTime*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeDateTime(Date)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDateTime(Date)
+  name.vb: EncodeDateTime(Date)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDateTime(System.DateTime,System.Boolean)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDateTime(System.DateTime,System.Boolean)
   id: EncodeDateTime(System.DateTime,System.Boolean)
@@ -635,17 +527,18 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeDateTime(DateTime, Boolean)
-  nameWithType: CultureDataFormatter.EncodeDateTime(DateTime, Boolean)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDateTime(System.DateTime, System.Boolean)
+  name: EncodeDateTime(DateTime, bool)
+  nameWithType: CultureDataFormatter.EncodeDateTime(DateTime, bool)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDateTime(System.DateTime, bool)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nEncode a date, with a time part.\nOptionally skip encoding and return an empty string instead.\n"
+  summary: >-
+    Encode a date, with a time part.
+
+    Optionally skip encoding and return an empty string instead.
+  example: []
   syntax:
     content: public static string EncodeDateTime(DateTime dateTime, bool performEncode)
     parameters:
@@ -656,21 +549,16 @@ items:
       type: System.Boolean
       description: >-
         If true, the input parameter is encoded to string. If false, an empty string is returned instead.
-
-        This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
-
-        switch may eliminate the need for string-encoded display values.
+                    This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
+                    switch may eliminate the need for string-encoded display values.
     return:
       type: System.String
       description: Encoded date/time
-    content.vb: Public Shared Function EncodeDateTime(dateTime As DateTime, performEncode As Boolean) As String
+    content.vb: Public Shared Function EncodeDateTime(dateTime As Date, performEncode As Boolean) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDateTime*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeDateTime(Date, Boolean)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDateTime(Date, Boolean)
+  name.vb: EncodeDateTime(Date, Boolean)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTime(System.DateTime)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTime(System.DateTime)
   id: EncodeTime(System.DateTime)
@@ -682,13 +570,11 @@ items:
   nameWithType: CultureDataFormatter.EncodeTime(DateTime)
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTime(System.DateTime)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nEncode a time, without a date part\n"
+  summary: Encode a time, without a date part
+  example: []
   syntax:
     content: public static string EncodeTime(DateTime dateTime)
     parameters:
@@ -698,14 +584,11 @@ items:
     return:
       type: System.String
       description: Encoded time
-    content.vb: Public Shared Function EncodeTime(dateTime As DateTime) As String
+    content.vb: Public Shared Function EncodeTime(dateTime As Date) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTime*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeTime(Date)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTime(Date)
+  name.vb: EncodeTime(Date)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTime(System.DateTime,System.Boolean)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTime(System.DateTime,System.Boolean)
   id: EncodeTime(System.DateTime,System.Boolean)
@@ -713,17 +596,18 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeTime(DateTime, Boolean)
-  nameWithType: CultureDataFormatter.EncodeTime(DateTime, Boolean)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTime(System.DateTime, System.Boolean)
+  name: EncodeTime(DateTime, bool)
+  nameWithType: CultureDataFormatter.EncodeTime(DateTime, bool)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTime(System.DateTime, bool)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nEncode a time, without a date part.\nOptionally skip encoding and return an empty string instead.\n"
+  summary: >-
+    Encode a time, without a date part.
+
+    Optionally skip encoding and return an empty string instead.
+  example: []
   syntax:
     content: public static string EncodeTime(DateTime dateTime, bool performEncode)
     parameters:
@@ -734,21 +618,16 @@ items:
       type: System.Boolean
       description: >-
         If true, the input parameter is encoded to string. If false, an empty string is returned instead.
-
-        This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
-
-        switch may eliminate the need for string-encoded display values.
+                    This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
+                    switch may eliminate the need for string-encoded display values.
     return:
       type: System.String
       description: Encoded time
-    content.vb: Public Shared Function EncodeTime(dateTime As DateTime, performEncode As Boolean) As String
+    content.vb: Public Shared Function EncodeTime(dateTime As Date, performEncode As Boolean) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTime*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeTime(Date, Boolean)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTime(Date, Boolean)
+  name.vb: EncodeTime(Date, Boolean)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTimeSpan(System.TimeSpan,System.Boolean)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTimeSpan(System.TimeSpan,System.Boolean)
   id: EncodeTimeSpan(System.TimeSpan,System.Boolean)
@@ -756,17 +635,18 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeTimeSpan(TimeSpan, Boolean)
-  nameWithType: CultureDataFormatter.EncodeTimeSpan(TimeSpan, Boolean)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTimeSpan(System.TimeSpan, System.Boolean)
+  name: EncodeTimeSpan(TimeSpan, bool)
+  nameWithType: CultureDataFormatter.EncodeTimeSpan(TimeSpan, bool)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTimeSpan(System.TimeSpan, bool)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nEncode a timespan, encodes total number of seconds\nOptionally skip encoding and return an empty string instead.\n"
+  summary: >-
+    Encode a timespan, encodes total number of seconds
+
+    Optionally skip encoding and return an empty string instead.
+  example: []
   syntax:
     content: public static string EncodeTimeSpan(TimeSpan timeSpan, bool performEncode = true)
     parameters:
@@ -777,21 +657,16 @@ items:
       type: System.Boolean
       description: >-
         If true, the input parameter is encoded to string. If false, an empty string is returned instead.
-
-        This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
-
-        switch may eliminate the need for string-encoded display values.
+                    This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
+                    switch may eliminate the need for string-encoded display values.
     return:
       type: System.String
       description: Encoded time
     content.vb: Public Shared Function EncodeTimeSpan(timeSpan As TimeSpan, performEncode As Boolean = True) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTimeSpan*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeTimeSpan(TimeSpan, Boolean)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTimeSpan(System.TimeSpan, Boolean)
+  name.vb: EncodeTimeSpan(TimeSpan, Boolean)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTimeSpan(System.Int32,System.Boolean)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTimeSpan(System.Int32,System.Boolean)
   id: EncodeTimeSpan(System.Int32,System.Boolean)
@@ -799,17 +674,18 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeTimeSpan(Int32, Boolean)
-  nameWithType: CultureDataFormatter.EncodeTimeSpan(Int32, Boolean)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTimeSpan(System.Int32, System.Boolean)
+  name: EncodeTimeSpan(int, bool)
+  nameWithType: CultureDataFormatter.EncodeTimeSpan(int, bool)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTimeSpan(int, bool)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nEncode a timespan\nOptionally skip encoding and return an empty string instead.\n"
+  summary: >-
+    Encode a timespan
+
+    Optionally skip encoding and return an empty string instead.
+  example: []
   syntax:
     content: public static string EncodeTimeSpan(int seconds, bool performEncode = true)
     parameters:
@@ -820,21 +696,16 @@ items:
       type: System.Boolean
       description: >-
         If true, the input parameter is encoded to string. If false, an empty string is returned instead.
-
-        This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
-
-        switch may eliminate the need for string-encoded display values.
+                    This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
+                    switch may eliminate the need for string-encoded display values.
     return:
       type: System.String
       description: Encoded time
     content.vb: Public Shared Function EncodeTimeSpan(seconds As Integer, performEncode As Boolean = True) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTimeSpan*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeTimeSpan(Integer, Boolean)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTimeSpan(Integer, Boolean)
+  name.vb: EncodeTimeSpan(Integer, Boolean)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble(System.Double,System.Int32)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble(System.Double,System.Int32)
   id: EncodeDouble(System.Double,System.Int32)
@@ -842,17 +713,24 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeDouble(Double, Int32)
-  nameWithType: CultureDataFormatter.EncodeDouble(Double, Int32)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble(System.Double, System.Int32)
+  name: EncodeDouble(double, int)
+  nameWithType: CultureDataFormatter.EncodeDouble(double, int)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble(double, int)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nEncode a double (decimal value), with the given number of decimals. Note that the full\nprecision is included here, but rounded to the given number of decimals on (re)localization.\nAlso note that currency amounts should use the EncodeMoney method, if the cultural settings for \nmoney are to be taken into account (though the currency symbol is NOT used in localization, \nbecause we may be displaying non-native currencies, saying $ when it&apos;s actually € or NOK is silly).\n"
+  summary: >-
+    Encode a double (decimal value), with the given number of decimals. Note that the full
+
+    precision is included here, but rounded to the given number of decimals on (re)localization.
+
+    Also note that currency amounts should use the EncodeMoney method, if the cultural settings for 
+
+    money are to be taken into account (though the currency symbol is NOT used in localization, 
+
+    because we may be displaying non-native currencies, saying $ when it's actually € or NOK is silly).
+  example: []
   syntax:
     content: public static string EncodeDouble(double val, int decimals)
     parameters:
@@ -867,12 +745,9 @@ items:
       description: Encoded value
     content.vb: Public Shared Function EncodeDouble(val As Double, decimals As Integer) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeDouble(Double, Integer)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble(Double, Integer)
+  name.vb: EncodeDouble(Double, Integer)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble(System.Double,System.Int32,System.Boolean)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble(System.Double,System.Int32,System.Boolean)
   id: EncodeDouble(System.Double,System.Int32,System.Boolean)
@@ -880,17 +755,26 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeDouble(Double, Int32, Boolean)
-  nameWithType: CultureDataFormatter.EncodeDouble(Double, Int32, Boolean)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble(System.Double, System.Int32, System.Boolean)
+  name: EncodeDouble(double, int, bool)
+  nameWithType: CultureDataFormatter.EncodeDouble(double, int, bool)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble(double, int, bool)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nEncode a double (decimal value), with the given number of decimals. Note that the full\nprecision is included here, but rounded to the given number of decimals on (re)localization.\nAlso note that currency amounts should use the EncodeMoney method, if the cultural settings for \nmoney are to be taken into account (though the currency symbol is NOT used in localization, \nbecause we may be displaying non-native currencies, saying $ when it&apos;s actually € or NOK is silly).\nOptionally skip encoding and return an empty string instead.\n"
+  summary: >-
+    Encode a double (decimal value), with the given number of decimals. Note that the full
+
+    precision is included here, but rounded to the given number of decimals on (re)localization.
+
+    Also note that currency amounts should use the EncodeMoney method, if the cultural settings for 
+
+    money are to be taken into account (though the currency symbol is NOT used in localization, 
+
+    because we may be displaying non-native currencies, saying $ when it's actually € or NOK is silly).
+
+    Optionally skip encoding and return an empty string instead.
+  example: []
   syntax:
     content: public static string EncodeDouble(double val, int decimals, bool performEncode)
     parameters:
@@ -904,21 +788,16 @@ items:
       type: System.Boolean
       description: >-
         If true, the input parameter is encoded to string. If false, an empty string is returned instead.
-
-        This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
-
-        switch may eliminate the need for string-encoded display values.
+                    This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
+                    switch may eliminate the need for string-encoded display values.
     return:
       type: System.String
       description: Encoded value
     content.vb: Public Shared Function EncodeDouble(val As Double, decimals As Integer, performEncode As Boolean) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeDouble(Double, Integer, Boolean)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble(Double, Integer, Boolean)
+  name.vb: EncodeDouble(Double, Integer, Boolean)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble(System.Double)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble(System.Double)
   id: EncodeDouble(System.Double)
@@ -926,17 +805,22 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeDouble(Double)
-  nameWithType: CultureDataFormatter.EncodeDouble(Double)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble(System.Double)
+  name: EncodeDouble(double)
+  nameWithType: CultureDataFormatter.EncodeDouble(double)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble(double)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nEncode a double (decimal value). On localization, the default number of decimal digits will be used.\nAlso note that currency amounts should use the EncodeMoney method, if the cultural settings for \nmoney are to be taken into account (though the currency symbol is NOT used in localization, \nbecause we may be displaying non-native currencies).\n"
+  summary: >-
+    Encode a double (decimal value). On localization, the default number of decimal digits will be used.
+
+    Also note that currency amounts should use the EncodeMoney method, if the cultural settings for 
+
+    money are to be taken into account (though the currency symbol is NOT used in localization, 
+
+    because we may be displaying non-native currencies).
+  example: []
   syntax:
     content: public static string EncodeDouble(double val)
     parameters:
@@ -948,12 +832,9 @@ items:
       description: Encoded value
     content.vb: Public Shared Function EncodeDouble(val As Double) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeDouble(Double)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble(Double)
+  name.vb: EncodeDouble(Double)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble(System.Double,System.Boolean)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble(System.Double,System.Boolean)
   id: EncodeDouble(System.Double,System.Boolean)
@@ -961,17 +842,24 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeDouble(Double, Boolean)
-  nameWithType: CultureDataFormatter.EncodeDouble(Double, Boolean)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble(System.Double, System.Boolean)
+  name: EncodeDouble(double, bool)
+  nameWithType: CultureDataFormatter.EncodeDouble(double, bool)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble(double, bool)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nEncode a double (decimal value). On localization, the default number of decimal digits will be used.\nAlso note that currency amounts should use the EncodeMoney method, if the cultural settings for \nmoney are to be taken into account (though the currency symbol is NOT used in localization, \nbecause we may be displaying non-native currencies).\nOptionally skip encoding and return an empty string instead.\n"
+  summary: >-
+    Encode a double (decimal value). On localization, the default number of decimal digits will be used.
+
+    Also note that currency amounts should use the EncodeMoney method, if the cultural settings for 
+
+    money are to be taken into account (though the currency symbol is NOT used in localization, 
+
+    because we may be displaying non-native currencies).
+
+    Optionally skip encoding and return an empty string instead.
+  example: []
   syntax:
     content: public static string EncodeDouble(double val, bool performEncode)
     parameters:
@@ -982,21 +870,16 @@ items:
       type: System.Boolean
       description: >-
         If true, the input parameter is encoded to string. If false, an empty string is returned instead.
-
-        This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
-
-        switch may eliminate the need for string-encoded display values.
+                    This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
+                    switch may eliminate the need for string-encoded display values.
     return:
       type: System.String
       description: Encoded value
     content.vb: Public Shared Function EncodeDouble(val As Double, performEncode As Boolean) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeDouble(Double, Boolean)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble(Double, Boolean)
+  name.vb: EncodeDouble(Double, Boolean)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeInt(System.Int32)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeInt(System.Int32)
   id: EncodeInt(System.Int32)
@@ -1004,17 +887,15 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeInt(Int32)
-  nameWithType: CultureDataFormatter.EncodeInt(Int32)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeInt(System.Int32)
+  name: EncodeInt(int)
+  nameWithType: CultureDataFormatter.EncodeInt(int)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeInt(int)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nEncode an integer. Integers are usually not culturally sensitive... but who knows.\n"
+  summary: Encode an integer. Integers are usually not culturally sensitive... but who knows.
+  example: []
   syntax:
     content: public static string EncodeInt(int val)
     parameters:
@@ -1026,12 +907,9 @@ items:
       description: Encoded value
     content.vb: Public Shared Function EncodeInt(val As Integer) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeInt*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeInt(Integer)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeInt(Integer)
+  name.vb: EncodeInt(Integer)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeInt(System.Int32,System.Boolean)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeInt(System.Int32,System.Boolean)
   id: EncodeInt(System.Int32,System.Boolean)
@@ -1039,17 +917,18 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeInt(Int32, Boolean)
-  nameWithType: CultureDataFormatter.EncodeInt(Int32, Boolean)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeInt(System.Int32, System.Boolean)
+  name: EncodeInt(int, bool)
+  nameWithType: CultureDataFormatter.EncodeInt(int, bool)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeInt(int, bool)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nEncode an integer. Integers are usually not culturally sensitive... but who knows.\nOptionally skip encoding and return an empty string instead.\n"
+  summary: >-
+    Encode an integer. Integers are usually not culturally sensitive... but who knows.
+
+    Optionally skip encoding and return an empty string instead.
+  example: []
   syntax:
     content: public static string EncodeInt(int val, bool performEncode)
     parameters:
@@ -1060,21 +939,16 @@ items:
       type: System.Boolean
       description: >-
         If true, the input parameter is encoded to string. If false, an empty string is returned instead.
-
-        This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
-
-        switch may eliminate the need for string-encoded display values.
+                    This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
+                    switch may eliminate the need for string-encoded display values.
     return:
       type: System.String
       description: Encoded value
     content.vb: Public Shared Function EncodeInt(val As Integer, performEncode As Boolean) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeInt*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeInt(Integer, Boolean)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeInt(Integer, Boolean)
+  name.vb: EncodeInt(Integer, Boolean)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeMoney(System.Double)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeMoney(System.Double)
   id: EncodeMoney(System.Double)
@@ -1082,17 +956,18 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeMoney(Double)
-  nameWithType: CultureDataFormatter.EncodeMoney(Double)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeMoney(System.Double)
+  name: EncodeMoney(double)
+  nameWithType: CultureDataFormatter.EncodeMoney(double)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeMoney(double)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nEncode a double, for displaying it as money. The local user settings for currency, EXCEPT the currency\nsymbol, will be used for display. No currency symbol will be display regardless of settings.\n"
+  summary: >-
+    Encode a double, for displaying it as money. The local user settings for currency, EXCEPT the currency
+
+    symbol, will be used for display. No currency symbol will be display regardless of settings.
+  example: []
   syntax:
     content: public static string EncodeMoney(double val)
     parameters:
@@ -1104,12 +979,9 @@ items:
       description: Encoded value
     content.vb: Public Shared Function EncodeMoney(val As Double) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeMoney*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeMoney(Double)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeMoney(Double)
+  name.vb: EncodeMoney(Double)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeMoney(System.Double,System.Boolean)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeMoney(System.Double,System.Boolean)
   id: EncodeMoney(System.Double,System.Boolean)
@@ -1117,17 +989,20 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeMoney(Double, Boolean)
-  nameWithType: CultureDataFormatter.EncodeMoney(Double, Boolean)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeMoney(System.Double, System.Boolean)
+  name: EncodeMoney(double, bool)
+  nameWithType: CultureDataFormatter.EncodeMoney(double, bool)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeMoney(double, bool)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nEncode a double, for displaying it as money. The local user settings for currency, EXCEPT the currency\nsymbol, will be used for display. No currency symbol will be display regardless of settings.\nOptionally skip encoding and return an empty string instead.\n"
+  summary: >-
+    Encode a double, for displaying it as money. The local user settings for currency, EXCEPT the currency
+
+    symbol, will be used for display. No currency symbol will be display regardless of settings.
+
+    Optionally skip encoding and return an empty string instead.
+  example: []
   syntax:
     content: public static string EncodeMoney(double val, bool performEncode)
     parameters:
@@ -1138,21 +1013,16 @@ items:
       type: System.Boolean
       description: >-
         If true, the input parameter is encoded to string. If false, an empty string is returned instead.
-
-        This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
-
-        switch may eliminate the need for string-encoded display values.
+                    This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
+                    switch may eliminate the need for string-encoded display values.
     return:
       type: System.String
       description: Encoded value
     content.vb: Public Shared Function EncodeMoney(val As Double, performEncode As Boolean) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeMoney*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeMoney(Double, Boolean)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeMoney(Double, Boolean)
+  name.vb: EncodeMoney(Double, Boolean)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalizeEncoded(System.String)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.LocalizeEncoded(System.String)
   id: LocalizeEncoded(System.String)
@@ -1160,17 +1030,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LocalizeEncoded(String)
-  nameWithType: CultureDataFormatter.LocalizeEncoded(String)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalizeEncoded(System.String)
+  name: LocalizeEncoded(string)
+  nameWithType: CultureDataFormatter.LocalizeEncoded(string)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalizeEncoded(string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nTake an encoded value of any type, parse it, and reformat it to its localized (current culture) string form\n"
+  summary: Take an encoded value of any type, parse it, and reformat it to its localized (current culture) string form
+  example: []
   syntax:
     content: public static string LocalizeEncoded(string encodedSomething)
     parameters:
@@ -1182,12 +1050,9 @@ items:
       description: Equivalent, localized value
     content.vb: Public Shared Function LocalizeEncoded(encodedSomething As String) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalizeEncoded*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.LocalizeEncoded(String)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalizeEncoded(String)
+  name.vb: LocalizeEncoded(String)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.GetStringType(System.String,System.String@,System.Int32@)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.GetStringType(System.String,System.String@,System.Int32@)
   id: GetStringType(System.String,System.String@,System.Int32@)
@@ -1195,13 +1060,10 @@ items:
   langs:
   - csharp
   - vb
-  name: GetStringType(String, out String, out Int32)
-  nameWithType: CultureDataFormatter.GetStringType(String, out String, out Int32)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.GetStringType(System.String, out System.String, out System.Int32)
+  name: GetStringType(string, out string, out int)
+  nameWithType: CultureDataFormatter.GetStringType(string, out string, out int)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.GetStringType(string, out string, out int)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
@@ -1216,17 +1078,11 @@ items:
       type: System.Int32
     return:
       type: System.String
-    content.vb: Public Shared Function GetStringType(encodedSomething As String, ByRef val As String, ByRef decimals As Integer) As String
+    content.vb: Public Shared Function GetStringType(encodedSomething As String, val As String, decimals As Integer) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.GetStringType*
-  nameWithType.vb: CultureDataFormatter.GetStringType(String, ByRef String, ByRef Int32)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.GetStringType(System.String, ByRef System.String, ByRef System.Int32)
-  name.vb: GetStringType(String, ByRef String, ByRef Int32)
+  nameWithType.vb: CultureDataFormatter.GetStringType(String, String, Integer)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.GetStringType(String, String, Integer)
+  name.vb: GetStringType(String, String, Integer)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.GetReadableTimeSpan(System.Int32,System.Boolean,System.String,System.String,System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.GetReadableTimeSpan(System.Int32,System.Boolean,System.String,System.String,System.String,System.String,System.String)
   id: GetReadableTimeSpan(System.Int32,System.Boolean,System.String,System.String,System.String,System.String,System.String)
@@ -1234,17 +1090,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetReadableTimeSpan(Int32, Boolean, String, String, String, String, String)
-  nameWithType: CultureDataFormatter.GetReadableTimeSpan(Int32, Boolean, String, String, String, String, String)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.GetReadableTimeSpan(System.Int32, System.Boolean, System.String, System.String, System.String, System.String, System.String)
+  name: GetReadableTimeSpan(int, bool, string, string, string, string, string)
+  nameWithType: CultureDataFormatter.GetReadableTimeSpan(int, bool, string, string, string, string, string)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.GetReadableTimeSpan(int, bool, string, string, string, string, string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nConvert the time/duration/timespan to a &quot;readable&quot; text - either seconds, or day/hour/minute/second\n"
+  summary: Convert the time/duration/timespan to a "readable" text - either seconds, or day/hour/minute/second
+  example: []
   syntax:
     content: public static string GetReadableTimeSpan(int seconds, bool mostSignificant, string daySignifier = "d", string hourSignifier = "h", string minuteSignifier = "m", string secondSignifier = "s", string zeroSignifier = null)
     parameters:
@@ -1274,12 +1128,9 @@ items:
       description: Formatted string
     content.vb: Public Shared Function GetReadableTimeSpan(seconds As Integer, mostSignificant As Boolean, daySignifier As String = "d", hourSignifier As String = "h", minuteSignifier As String = "m", secondSignifier As String = "s", zeroSignifier As String = Nothing) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.GetReadableTimeSpan*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.GetReadableTimeSpan(Integer, Boolean, String, String, String, String, String)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.GetReadableTimeSpan(Integer, Boolean, String, String, String, String, String)
+  name.vb: GetReadableTimeSpan(Integer, Boolean, String, String, String, String, String)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.FormatFromMetadata(System.String,SuperOffice.CRM.FieldMetadataInfo)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.FormatFromMetadata(System.String,SuperOffice.CRM.FieldMetadataInfo)
   id: FormatFromMetadata(System.String,SuperOffice.CRM.FieldMetadataInfo)
@@ -1287,13 +1138,10 @@ items:
   langs:
   - csharp
   - vb
-  name: FormatFromMetadata(String, FieldMetadataInfo)
-  nameWithType: CultureDataFormatter.FormatFromMetadata(String, FieldMetadataInfo)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.FormatFromMetadata(System.String, SuperOffice.CRM.FieldMetadataInfo)
+  name: FormatFromMetadata(string, FieldMetadataInfo)
+  nameWithType: CultureDataFormatter.FormatFromMetadata(string, FieldMetadataInfo)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.FormatFromMetadata(string, SuperOffice.CRM.FieldMetadataInfo)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
@@ -1308,12 +1156,9 @@ items:
       type: System.String
     content.vb: Public Shared Function FormatFromMetadata(input As String, typeInfo As FieldMetadataInfo) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.FormatFromMetadata*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.FormatFromMetadata(String, FieldMetadataInfo)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.FormatFromMetadata(String, SuperOffice.CRM.FieldMetadataInfo)
+  name.vb: FormatFromMetadata(String, FieldMetadataInfo)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.CompareEncoded(System.String,System.String)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.CompareEncoded(System.String,System.String)
   id: CompareEncoded(System.String,System.String)
@@ -1321,17 +1166,15 @@ items:
   langs:
   - csharp
   - vb
-  name: CompareEncoded(String, String)
-  nameWithType: CultureDataFormatter.CompareEncoded(String, String)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.CompareEncoded(System.String, System.String)
+  name: CompareEncoded(string, string)
+  nameWithType: CultureDataFormatter.CompareEncoded(string, string)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.CompareEncoded(string, string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nCompare two encoded strings, by parsing them into their underlying data datatype and comparing those\n"
+  summary: Compare two encoded strings, by parsing them into their underlying data datatype and comparing those
+  example: []
   syntax:
     content: public static int CompareEncoded(string x, string y)
     parameters:
@@ -1346,12 +1189,9 @@ items:
       description: -1, 0 or 1 depending on the ordering relation between x and y
     content.vb: Public Shared Function CompareEncoded(x As String, y As String) As Integer
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.CompareEncoded*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.CompareEncoded(String, String)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.CompareEncoded(String, String)
+  name.vb: CompareEncoded(String, String)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDate(System.String)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDate(System.String)
   id: ParseEncodedDate(System.String)
@@ -1359,32 +1199,29 @@ items:
   langs:
   - csharp
   - vb
-  name: ParseEncodedDate(String)
-  nameWithType: CultureDataFormatter.ParseEncodedDate(String)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDate(System.String)
+  name: ParseEncodedDate(string)
+  nameWithType: CultureDataFormatter.ParseEncodedDate(string)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDate(string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public static DateTime ParseEncodedDate(string encodedDate)
     parameters:
     - id: encodedDate
       type: System.String
+      description: ''
     return:
       type: System.DateTime
-    content.vb: Public Shared Function ParseEncodedDate(encodedDate As String) As DateTime
+      description: ''
+    content.vb: Public Shared Function ParseEncodedDate(encodedDate As String) As Date
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.ParseEncodedDate(String)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDate(String)
+  name.vb: ParseEncodedDate(String)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedTimeSpan(System.String,System.Boolean)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedTimeSpan(System.String,System.Boolean)
   id: ParseEncodedTimeSpan(System.String,System.Boolean)
@@ -1392,13 +1229,10 @@ items:
   langs:
   - csharp
   - vb
-  name: ParseEncodedTimeSpan(String, Boolean)
-  nameWithType: CultureDataFormatter.ParseEncodedTimeSpan(String, Boolean)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedTimeSpan(System.String, System.Boolean)
+  name: ParseEncodedTimeSpan(string, bool)
+  nameWithType: CultureDataFormatter.ParseEncodedTimeSpan(string, bool)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedTimeSpan(string, bool)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
@@ -1413,12 +1247,9 @@ items:
       type: System.Int32
     content.vb: Public Shared Function ParseEncodedTimeSpan(encodedTimeSpan As String, strictly As Boolean = False) As Integer
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedTimeSpan*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.ParseEncodedTimeSpan(String, Boolean)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedTimeSpan(String, Boolean)
+  name.vb: ParseEncodedTimeSpan(String, Boolean)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedInt(System.String)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedInt(System.String)
   id: ParseEncodedInt(System.String)
@@ -1426,34 +1257,34 @@ items:
   langs:
   - csharp
   - vb
-  name: ParseEncodedInt(String)
-  nameWithType: CultureDataFormatter.ParseEncodedInt(String)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedInt(System.String)
+  name: ParseEncodedInt(string)
+  nameWithType: CultureDataFormatter.ParseEncodedInt(string)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedInt(string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nParse &quot;123&quot; and &quot;[I:123]&quot; into 123.\nParse &quot;abc&quot; into 0.\nDoes not throw, but returns 0.\n"
+  summary: >-
+    Parse "123" and "[I:123]" into 123.
+
+    Parse "abc" into 0.
+
+    Does not throw, but returns 0.
+  example: []
   syntax:
     content: public static int ParseEncodedInt(string encodedInt)
     parameters:
     - id: encodedInt
       type: System.String
-      description: '&quot;123&quot; or &quot;[I:123]&quot;'
+      description: "\"123\" or \"[I:123]\""
     return:
       type: System.Int32
       description: The value as int, or 0 if not an integer
     content.vb: Public Shared Function ParseEncodedInt(encodedInt As String) As Integer
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedInt*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.ParseEncodedInt(String)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedInt(String)
+  name.vb: ParseEncodedInt(String)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedInt(System.String,System.Boolean)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedInt(System.String,System.Boolean)
   id: ParseEncodedInt(System.String,System.Boolean)
@@ -1461,23 +1292,21 @@ items:
   langs:
   - csharp
   - vb
-  name: ParseEncodedInt(String, Boolean)
-  nameWithType: CultureDataFormatter.ParseEncodedInt(String, Boolean)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedInt(System.String, System.Boolean)
+  name: ParseEncodedInt(string, bool)
+  nameWithType: CultureDataFormatter.ParseEncodedInt(string, bool)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedInt(string, bool)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nParse &quot;123&quot; and &quot;[I:123]&quot; into 123.\n"
+  summary: Parse "123" and "[I:123]" into 123.
+  example: []
   syntax:
     content: public static int ParseEncodedInt(string encodedInt, bool strictly)
     parameters:
     - id: encodedInt
       type: System.String
-      description: '&quot;123&quot; or &quot;[I:123]&quot;'
+      description: "\"123\" or \"[I:123]\""
     - id: strictly
       type: System.Boolean
       description: If true, then throws instead of returning 0 for non-numbers
@@ -1486,12 +1315,9 @@ items:
       description: The value or an exception if not an integer
     content.vb: Public Shared Function ParseEncodedInt(encodedInt As String, strictly As Boolean) As Integer
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedInt*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.ParseEncodedInt(String, Boolean)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedInt(String, Boolean)
+  name.vb: ParseEncodedInt(String, Boolean)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedIntArr(System.String)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedIntArr(System.String)
   id: ParseEncodedIntArr(System.String)
@@ -1499,13 +1325,10 @@ items:
   langs:
   - csharp
   - vb
-  name: ParseEncodedIntArr(String)
-  nameWithType: CultureDataFormatter.ParseEncodedIntArr(String)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedIntArr(System.String)
+  name: ParseEncodedIntArr(string)
+  nameWithType: CultureDataFormatter.ParseEncodedIntArr(string)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedIntArr(string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
@@ -1518,12 +1341,9 @@ items:
       type: System.Int32[]
     content.vb: Public Shared Function ParseEncodedIntArr(encodedIntArr As String) As Integer()
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedIntArr*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.ParseEncodedIntArr(String)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedIntArr(String)
+  name.vb: ParseEncodedIntArr(String)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDouble(System.String)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDouble(System.String)
   id: ParseEncodedDouble(System.String)
@@ -1531,34 +1351,29 @@ items:
   langs:
   - csharp
   - vb
-  name: ParseEncodedDouble(String)
-  nameWithType: CultureDataFormatter.ParseEncodedDouble(String)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDouble(System.String)
+  name: ParseEncodedDouble(string)
+  nameWithType: CultureDataFormatter.ParseEncodedDouble(string)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDouble(string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nParse &quot;123.4&quot; and &quot;[F:123.4]&quot; into 123.4\n"
+  summary: Parse "123.4" and "[F:123.4]" into 123.4
+  example: []
   syntax:
     content: public static double ParseEncodedDouble(string encodedDouble)
     parameters:
     - id: encodedDouble
       type: System.String
-      description: '&quot;123.4&quot; or &quot;[F:123.4]&quot;'
+      description: "\"123.4\" or \"[F:123.4]\""
     return:
       type: System.Double
       description: The value or an exception if not an double
     content.vb: Public Shared Function ParseEncodedDouble(encodedDouble As String) As Double
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDouble*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.ParseEncodedDouble(String)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDouble(String)
+  name.vb: ParseEncodedDouble(String)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDecimal(System.String)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDecimal(System.String)
   id: ParseEncodedDecimal(System.String)
@@ -1566,34 +1381,29 @@ items:
   langs:
   - csharp
   - vb
-  name: ParseEncodedDecimal(String)
-  nameWithType: CultureDataFormatter.ParseEncodedDecimal(String)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDecimal(System.String)
+  name: ParseEncodedDecimal(string)
+  nameWithType: CultureDataFormatter.ParseEncodedDecimal(string)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDecimal(string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nParse &quot;123.4&quot; and &quot;[F:123.4]&quot; into 123.4\n"
+  summary: Parse "123.4" and "[F:123.4]" into 123.4
+  example: []
   syntax:
-    content: public static Decimal ParseEncodedDecimal(string encodedDecimal)
+    content: public static decimal ParseEncodedDecimal(string encodedDecimal)
     parameters:
     - id: encodedDecimal
       type: System.String
-      description: '&quot;123.4&quot; or &quot;[F:123.4]&quot;'
+      description: "\"123.4\" or \"[F:123.4]\""
     return:
       type: System.Decimal
       description: The value or an exception if not a decimal
     content.vb: Public Shared Function ParseEncodedDecimal(encodedDecimal As String) As Decimal
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDecimal*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.ParseEncodedDecimal(String)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDecimal(String)
+  name.vb: ParseEncodedDecimal(String)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedBinary(System.String)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedBinary(System.String)
   id: ParseEncodedBinary(System.String)
@@ -1601,32 +1411,29 @@ items:
   langs:
   - csharp
   - vb
-  name: ParseEncodedBinary(String)
-  nameWithType: CultureDataFormatter.ParseEncodedBinary(String)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedBinary(System.String)
+  name: ParseEncodedBinary(string)
+  nameWithType: CultureDataFormatter.ParseEncodedBinary(string)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedBinary(string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nParse/decode an encoded binary data block - either with a marker, or just a Base64 encoded string\n"
+  summary: Parse/decode an encoded binary data block - either with a marker, or just a Base64 encoded string
+  example: []
   syntax:
     content: public static byte[] ParseEncodedBinary(string encodedBinary)
     parameters:
     - id: encodedBinary
       type: System.String
+      description: ''
     return:
       type: System.Byte[]
+      description: ''
     content.vb: Public Shared Function ParseEncodedBinary(encodedBinary As String) As Byte()
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedBinary*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.ParseEncodedBinary(String)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedBinary(String)
+  name.vb: ParseEncodedBinary(String)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse(System.String,System.Int32@)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse(System.String,System.Int32@)
   id: TryParse(System.String,System.Int32@)
@@ -1634,17 +1441,15 @@ items:
   langs:
   - csharp
   - vb
-  name: TryParse(String, out Int32)
-  nameWithType: CultureDataFormatter.TryParse(String, out Int32)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse(System.String, out System.Int32)
+  name: TryParse(string, out int)
+  nameWithType: CultureDataFormatter.TryParse(string, out int)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse(string, out int)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nTry to parse a string as an encoded or bare InvariantCulture Integer32\n"
+  summary: Try to parse a string as an encoded or bare InvariantCulture Integer32
+  example: []
   syntax:
     content: public static bool TryParse(string encoded, out int result)
     parameters:
@@ -1657,17 +1462,11 @@ items:
     return:
       type: System.Boolean
       description: true if parsing succeeded
-    content.vb: Public Shared Function TryParse(encoded As String, ByRef result As Integer) As Boolean
+    content.vb: Public Shared Function TryParse(encoded As String, result As Integer) As Boolean
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse*
-  nameWithType.vb: CultureDataFormatter.TryParse(String, ByRef Int32)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse(System.String, ByRef System.Int32)
-  name.vb: TryParse(String, ByRef Int32)
+  nameWithType.vb: CultureDataFormatter.TryParse(String, Integer)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse(String, Integer)
+  name.vb: TryParse(String, Integer)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse(System.String,System.Int32[]@)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse(System.String,System.Int32[]@)
   id: TryParse(System.String,System.Int32[]@)
@@ -1675,13 +1474,10 @@ items:
   langs:
   - csharp
   - vb
-  name: TryParse(String, out Int32[])
-  nameWithType: CultureDataFormatter.TryParse(String, out Int32[])
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse(System.String, out System.Int32[])
+  name: TryParse(string, out int[])
+  nameWithType: CultureDataFormatter.TryParse(string, out int[])
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse(string, out int[])
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
@@ -1694,17 +1490,11 @@ items:
       type: System.Int32[]
     return:
       type: System.Boolean
-    content.vb: Public Shared Function TryParse(encodedIntArr As String, ByRef result As Integer()) As Boolean
+    content.vb: Public Shared Function TryParse(encodedIntArr As String, result As Integer()) As Boolean
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse*
-  nameWithType.vb: CultureDataFormatter.TryParse(String, ByRef Int32())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse(System.String, ByRef System.Int32())
-  name.vb: TryParse(String, ByRef Int32())
+  nameWithType.vb: CultureDataFormatter.TryParse(String, Integer())
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse(String, Integer())
+  name.vb: TryParse(String, Integer())
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse(System.String,System.Double@)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse(System.String,System.Double@)
   id: TryParse(System.String,System.Double@)
@@ -1712,17 +1502,15 @@ items:
   langs:
   - csharp
   - vb
-  name: TryParse(String, out Double)
-  nameWithType: CultureDataFormatter.TryParse(String, out Double)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse(System.String, out System.Double)
+  name: TryParse(string, out double)
+  nameWithType: CultureDataFormatter.TryParse(string, out double)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse(string, out double)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nTry to parse a string as an encoded or bare InvariantCulture Double\n"
+  summary: Try to parse a string as an encoded or bare InvariantCulture Double
+  example: []
   syntax:
     content: public static bool TryParse(string encoded, out double result)
     parameters:
@@ -1735,17 +1523,11 @@ items:
     return:
       type: System.Boolean
       description: true if parsing succeeded
-    content.vb: Public Shared Function TryParse(encoded As String, ByRef result As Double) As Boolean
+    content.vb: Public Shared Function TryParse(encoded As String, result As Double) As Boolean
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse*
-  nameWithType.vb: CultureDataFormatter.TryParse(String, ByRef Double)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse(System.String, ByRef System.Double)
-  name.vb: TryParse(String, ByRef Double)
+  nameWithType.vb: CultureDataFormatter.TryParse(String, Double)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse(String, Double)
+  name.vb: TryParse(String, Double)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse(System.String,System.DateTime@)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse(System.String,System.DateTime@)
   id: TryParse(System.String,System.DateTime@)
@@ -1753,17 +1535,15 @@ items:
   langs:
   - csharp
   - vb
-  name: TryParse(String, out DateTime)
-  nameWithType: CultureDataFormatter.TryParse(String, out DateTime)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse(System.String, out System.DateTime)
+  name: TryParse(string, out DateTime)
+  nameWithType: CultureDataFormatter.TryParse(string, out DateTime)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse(string, out System.DateTime)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nTry to parse a string as an encoded or bare InvariantCulture DateTime\n"
+  summary: Try to parse a string as an encoded or bare InvariantCulture DateTime
+  example: []
   syntax:
     content: public static bool TryParse(string encoded, out DateTime result)
     parameters:
@@ -1776,17 +1556,11 @@ items:
     return:
       type: System.Boolean
       description: true if parsing succeeded
-    content.vb: Public Shared Function TryParse(encoded As String, ByRef result As DateTime) As Boolean
+    content.vb: Public Shared Function TryParse(encoded As String, result As Date) As Boolean
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse*
-  nameWithType.vb: CultureDataFormatter.TryParse(String, ByRef DateTime)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse(System.String, ByRef System.DateTime)
-  name.vb: TryParse(String, ByRef DateTime)
+  nameWithType.vb: CultureDataFormatter.TryParse(String, Date)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse(String, Date)
+  name.vb: TryParse(String, Date)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncoded(System.String)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncoded(System.String)
   id: ParseEncoded(System.String)
@@ -1794,32 +1568,29 @@ items:
   langs:
   - csharp
   - vb
-  name: ParseEncoded(String)
-  nameWithType: CultureDataFormatter.ParseEncoded(String)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncoded(System.String)
+  name: ParseEncoded(string)
+  nameWithType: CultureDataFormatter.ParseEncoded(string)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncoded(string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nInspect the marker and parse the content, returning a strongly typed object (double, int, byte[], DateTime etc)\n"
+  summary: Inspect the marker and parse the content, returning a strongly typed object (double, int, byte[], DateTime etc)
+  example: []
   syntax:
     content: public static object ParseEncoded(string encodedSomething)
     parameters:
     - id: encodedSomething
       type: System.String
+      description: ''
     return:
       type: System.Object
+      description: ''
     content.vb: Public Shared Function ParseEncoded(encodedSomething As String) As Object
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncoded*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.ParseEncoded(String)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncoded(String)
+  name.vb: ParseEncoded(String)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDate(System.DateTime)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDate(System.DateTime)
   id: LocalFormatDate(System.DateTime)
@@ -1831,13 +1602,11 @@ items:
   nameWithType: CultureDataFormatter.LocalFormatDate(DateTime)
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDate(System.DateTime)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nFormat a date (without time) according to current settings\n"
+  summary: Format a date (without time) according to current settings
+  example: []
   syntax:
     content: public static string LocalFormatDate(DateTime dateTime)
     parameters:
@@ -1847,14 +1616,11 @@ items:
     return:
       type: System.String
       description: Formatted date
-    content.vb: Public Shared Function LocalFormatDate(dateTime As DateTime) As String
+    content.vb: Public Shared Function LocalFormatDate(dateTime As Date) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.LocalFormatDate(Date)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDate(Date)
+  name.vb: LocalFormatDate(Date)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatLongDate(System.DateTime)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatLongDate(System.DateTime)
   id: LocalFormatLongDate(System.DateTime)
@@ -1866,13 +1632,11 @@ items:
   nameWithType: CultureDataFormatter.LocalFormatLongDate(DateTime)
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatLongDate(System.DateTime)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nFormat a long date (without time) according to current settings\n"
+  summary: Format a long date (without time) according to current settings
+  example: []
   syntax:
     content: public static string LocalFormatLongDate(DateTime dateTime)
     parameters:
@@ -1882,14 +1646,11 @@ items:
     return:
       type: System.String
       description: Formatted long date
-    content.vb: Public Shared Function LocalFormatLongDate(dateTime As DateTime) As String
+    content.vb: Public Shared Function LocalFormatLongDate(dateTime As Date) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatLongDate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.LocalFormatLongDate(Date)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatLongDate(Date)
+  name.vb: LocalFormatLongDate(Date)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDateTime(System.DateTime)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDateTime(System.DateTime)
   id: LocalFormatDateTime(System.DateTime)
@@ -1901,13 +1662,11 @@ items:
   nameWithType: CultureDataFormatter.LocalFormatDateTime(DateTime)
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDateTime(System.DateTime)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nFormat a date with time according to current settings\n"
+  summary: Format a date with time according to current settings
+  example: []
   syntax:
     content: public static string LocalFormatDateTime(DateTime dateTime)
     parameters:
@@ -1917,14 +1676,11 @@ items:
     return:
       type: System.String
       description: Formatted date and time
-    content.vb: Public Shared Function LocalFormatDateTime(dateTime As DateTime) As String
+    content.vb: Public Shared Function LocalFormatDateTime(dateTime As Date) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDateTime*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.LocalFormatDateTime(Date)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDateTime(Date)
+  name.vb: LocalFormatDateTime(Date)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatLongDateTime(System.DateTime)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatLongDateTime(System.DateTime)
   id: LocalFormatLongDateTime(System.DateTime)
@@ -1936,13 +1692,11 @@ items:
   nameWithType: CultureDataFormatter.LocalFormatLongDateTime(DateTime)
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatLongDateTime(System.DateTime)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nFormat a long date with a short time according to current settings\n"
+  summary: Format a long date with a short time according to current settings
+  example: []
   syntax:
     content: public static string LocalFormatLongDateTime(DateTime dateTime)
     parameters:
@@ -1952,14 +1706,11 @@ items:
     return:
       type: System.String
       description: Formatted long date and short time
-    content.vb: Public Shared Function LocalFormatLongDateTime(dateTime As DateTime) As String
+    content.vb: Public Shared Function LocalFormatLongDateTime(dateTime As Date) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatLongDateTime*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.LocalFormatLongDateTime(Date)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatLongDateTime(Date)
+  name.vb: LocalFormatLongDateTime(Date)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatTime(System.DateTime)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatTime(System.DateTime)
   id: LocalFormatTime(System.DateTime)
@@ -1971,13 +1722,11 @@ items:
   nameWithType: CultureDataFormatter.LocalFormatTime(DateTime)
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatTime(System.DateTime)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nFormat a time without date according to current settings\n"
+  summary: Format a time without date according to current settings
+  example: []
   syntax:
     content: public static string LocalFormatTime(DateTime dateTime)
     parameters:
@@ -1987,14 +1736,11 @@ items:
     return:
       type: System.String
       description: Formatted time, without date
-    content.vb: Public Shared Function LocalFormatTime(dateTime As DateTime) As String
+    content.vb: Public Shared Function LocalFormatTime(dateTime As Date) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatTime*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.LocalFormatTime(Date)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatTime(Date)
+  name.vb: LocalFormatTime(Date)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDouble(System.Double,System.Int32)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDouble(System.Double,System.Int32)
   id: LocalFormatDouble(System.Double,System.Int32)
@@ -2002,17 +1748,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LocalFormatDouble(Double, Int32)
-  nameWithType: CultureDataFormatter.LocalFormatDouble(Double, Int32)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDouble(System.Double, System.Int32)
+  name: LocalFormatDouble(double, int)
+  nameWithType: CultureDataFormatter.LocalFormatDouble(double, int)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDouble(double, int)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nFormat a double, with the given number of decimal digits; otherwise the current settings will be followed\n"
+  summary: Format a double, with the given number of decimal digits; otherwise the current settings will be followed
+  example: []
   syntax:
     content: public static string LocalFormatDouble(double val, int decimals)
     parameters:
@@ -2027,12 +1771,9 @@ items:
       description: Formatted number
     content.vb: Public Shared Function LocalFormatDouble(val As Double, decimals As Integer) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDouble*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.LocalFormatDouble(Double, Integer)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDouble(Double, Integer)
+  name.vb: LocalFormatDouble(Double, Integer)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatInt(System.Int32)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatInt(System.Int32)
   id: LocalFormatInt(System.Int32)
@@ -2040,17 +1781,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LocalFormatInt(Int32)
-  nameWithType: CultureDataFormatter.LocalFormatInt(Int32)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatInt(System.Int32)
+  name: LocalFormatInt(int)
+  nameWithType: CultureDataFormatter.LocalFormatInt(int)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatInt(int)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nFormat an integer according to current settings\n"
+  summary: Format an integer according to current settings
+  example: []
   syntax:
     content: public static string LocalFormatInt(int val)
     parameters:
@@ -2062,12 +1801,9 @@ items:
       description: Formatted integer
     content.vb: Public Shared Function LocalFormatInt(val As Integer) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatInt*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.LocalFormatInt(Integer)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatInt(Integer)
+  name.vb: LocalFormatInt(Integer)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatMoney(System.Double)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatMoney(System.Double)
   id: LocalFormatMoney(System.Double)
@@ -2075,17 +1811,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LocalFormatMoney(Double)
-  nameWithType: CultureDataFormatter.LocalFormatMoney(Double)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatMoney(System.Double)
+  name: LocalFormatMoney(double)
+  nameWithType: CultureDataFormatter.LocalFormatMoney(double)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatMoney(double)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nFormat a double as a currency value, though without a currency symbol. Other local settings for currencies will be followed.\n"
+  summary: Format a double as a currency value, though without a currency symbol. Other local settings for currencies will be followed.
+  example: []
   syntax:
     content: public static string LocalFormatMoney(double val)
     parameters:
@@ -2097,12 +1831,9 @@ items:
       description: Formatted amount
     content.vb: Public Shared Function LocalFormatMoney(val As Double) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatMoney*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.LocalFormatMoney(Double)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatMoney(Double)
+  name.vb: LocalFormatMoney(Double)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.StripTerminator(System.String,System.String)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.StripTerminator(System.String,System.String)
   id: StripTerminator(System.String,System.String)
@@ -2110,17 +1841,18 @@ items:
   langs:
   - csharp
   - vb
-  name: StripTerminator(String, String)
-  nameWithType: CultureDataFormatter.StripTerminator(String, String)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.StripTerminator(System.String, System.String)
+  name: StripTerminator(string, string)
+  nameWithType: CultureDataFormatter.StripTerminator(string, string)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.StripTerminator(string, string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nStrip a terminator from a string. Whitespace is first trimmed from both sides of the string,\nthe terminator is removed if present, and any whitespace now at the end of the string is also removed\n"
+  summary: >-
+    Strip a terminator from a string. Whitespace is first trimmed from both sides of the string,
+
+    the terminator is removed if present, and any whitespace now at the end of the string is also removed
+  example: []
   syntax:
     content: public static string StripTerminator(string label, string terminator)
     parameters:
@@ -2135,12 +1867,9 @@ items:
       description: Original string minus terminator
     content.vb: Public Shared Function StripTerminator(label As String, terminator As String) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.StripTerminator*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.StripTerminator(String, String)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.StripTerminator(String, String)
+  name.vb: StripTerminator(String, String)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.AddTerminator(System.String,System.String)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.AddTerminator(System.String,System.String)
   id: AddTerminator(System.String,System.String)
@@ -2148,17 +1877,15 @@ items:
   langs:
   - csharp
   - vb
-  name: AddTerminator(String, String)
-  nameWithType: CultureDataFormatter.AddTerminator(String, String)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.AddTerminator(System.String, System.String)
+  name: AddTerminator(string, string)
+  nameWithType: CultureDataFormatter.AddTerminator(string, string)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.AddTerminator(string, string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nAdd a terminator to a string. The string is first stripped, then the terminator is added at the end with no whitespace.\n"
+  summary: Add a terminator to a string. The string is first stripped, then the terminator is added at the end with no whitespace.
+  example: []
   syntax:
     content: public static string AddTerminator(string label, string terminator)
     parameters:
@@ -2173,12 +1900,9 @@ items:
       description: String, now ending with terminator and no white space
     content.vb: Public Shared Function AddTerminator(label As String, terminator As String) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.AddTerminator*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.AddTerminator(String, String)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.AddTerminator(String, String)
+  name.vb: AddTerminator(String, String)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.AddColon(System.String)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.AddColon(System.String)
   id: AddColon(System.String)
@@ -2186,17 +1910,15 @@ items:
   langs:
   - csharp
   - vb
-  name: AddColon(String)
-  nameWithType: CultureDataFormatter.AddColon(String)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.AddColon(System.String)
+  name: AddColon(string)
+  nameWithType: CultureDataFormatter.AddColon(string)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.AddColon(string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nAdd a colon to a string if it was not already there, strip any whitespace\n"
+  summary: Add a colon to a string if it was not already there, strip any whitespace
+  example: []
   syntax:
     content: public static string AddColon(string label)
     parameters:
@@ -2208,12 +1930,9 @@ items:
       description: Original string, now guaranteed to end in exactly one colon
     content.vb: Public Shared Function AddColon(label As String) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.AddColon*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.AddColon(String)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.AddColon(String)
+  name.vb: AddColon(String)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.StripColon(System.String)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.StripColon(System.String)
   id: StripColon(System.String)
@@ -2221,17 +1940,15 @@ items:
   langs:
   - csharp
   - vb
-  name: StripColon(String)
-  nameWithType: CultureDataFormatter.StripColon(String)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.StripColon(System.String)
+  name: StripColon(string)
+  nameWithType: CultureDataFormatter.StripColon(string)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.StripColon(string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nStrip a terminating colon from a string, and any whitespace\n"
+  summary: Strip a terminating colon from a string, and any whitespace
+  example: []
   syntax:
     content: public static string StripColon(string label)
     parameters:
@@ -2243,12 +1960,9 @@ items:
       description: String, without colon and without leading/trailing whitespace
     content.vb: Public Shared Function StripColon(label As String) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.StripColon*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.StripColon(String)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.StripColon(String)
+  name.vb: StripColon(String)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.StripCountrySpecificsFromLanguageName(System.String)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.StripCountrySpecificsFromLanguageName(System.String)
   id: StripCountrySpecificsFromLanguageName(System.String)
@@ -2256,34 +1970,29 @@ items:
   langs:
   - csharp
   - vb
-  name: StripCountrySpecificsFromLanguageName(String)
-  nameWithType: CultureDataFormatter.StripCountrySpecificsFromLanguageName(String)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.StripCountrySpecificsFromLanguageName(System.String)
+  name: StripCountrySpecificsFromLanguageName(string)
+  nameWithType: CultureDataFormatter.StripCountrySpecificsFromLanguageName(string)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.StripCountrySpecificsFromLanguageName(string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nConverts &quot;English (Zimbabwe)&quot; into plain &quot;English&quot; by removing anything in parenthesis and stripping spaces.\n"
+  summary: Converts "English (Zimbabwe)" into plain "English" by removing anything in parenthesis and stripping spaces.
+  example: []
   syntax:
     content: public static string StripCountrySpecificsFromLanguageName(string languageName)
     parameters:
     - id: languageName
       type: System.String
-      description: 'Human readable language name: &quot;Norsk (Bokmål)&quot; or &quot;Francaise&quot;'
+      description: 'Human readable language name: "Norsk (Bokmål)" or "Francaise"'
     return:
       type: System.String
-      description: 'Simplified language name with initial capital: &quot;Norsk&quot; or &quot;Francaise&quot;'
+      description: 'Simplified language name with initial capital: "Norsk" or "Francaise"'
     content.vb: Public Shared Function StripCountrySpecificsFromLanguageName(languageName As String) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.StripCountrySpecificsFromLanguageName*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.StripCountrySpecificsFromLanguageName(String)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.StripCountrySpecificsFromLanguageName(String)
+  name.vb: StripCountrySpecificsFromLanguageName(String)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.MapSuperOfficeLanguageToCulture(System.String)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.MapSuperOfficeLanguageToCulture(System.String)
   id: MapSuperOfficeLanguageToCulture(System.String)
@@ -2291,18 +2000,21 @@ items:
   langs:
   - csharp
   - vb
-  name: MapSuperOfficeLanguageToCulture(String)
-  nameWithType: CultureDataFormatter.MapSuperOfficeLanguageToCulture(String)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.MapSuperOfficeLanguageToCulture(System.String)
+  name: MapSuperOfficeLanguageToCulture(string)
+  nameWithType: CultureDataFormatter.MapSuperOfficeLanguageToCulture(string)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.MapSuperOfficeLanguageToCulture(string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nConverts a SuperOffice language code (&quot;SW&quot;) to a neutral .net culture name (&quot;sv&quot;)\n"
-  remarks: "\nIf unable to determine a mapping, the default is US (English).\n<p></p>\nSee also <a href=\"http://msdn.microsoft.com/en-us/library/system.globalization.cultureinfo.aspx\">MSDN on culture codes</a>.\n"
+  summary: Converts a SuperOffice language code ("SW") to a neutral .net culture name ("sv")
+  remarks: >-
+    If unable to determine a mapping, the default is US (English).
+
+    <p></p>
+
+    See also <a href="http://msdn.microsoft.com/en-us/library/system.globalization.cultureinfo.aspx">MSDN on culture codes</a>.
+  example: []
   syntax:
     content: public static string MapSuperOfficeLanguageToCulture(string superOfficeLanguageCode)
     parameters:
@@ -2317,12 +2029,9 @@ items:
   seealso:
   - linkId: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCultureToSuperOfficeLanguage(System.String)
     commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.MapCultureToSuperOfficeLanguage(System.String)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.MapSuperOfficeLanguageToCulture(String)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.MapSuperOfficeLanguageToCulture(String)
+  name.vb: MapSuperOfficeLanguageToCulture(String)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.GetSuperOfficeLanguages
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.GetSuperOfficeLanguages
   id: GetSuperOfficeLanguages
@@ -2334,25 +2043,18 @@ items:
   nameWithType: CultureDataFormatter.GetSuperOfficeLanguages()
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.GetSuperOfficeLanguages()
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nGet all current supported superoffice languages, by superoffice language code (win legacy)\n"
+  summary: Get all current supported superoffice languages, by superoffice language code (win legacy)
+  example: []
   syntax:
     content: public static IEnumerable<string> GetSuperOfficeLanguages()
     return:
       type: System.Collections.Generic.IEnumerable{System.String}
-    content.vb: Public Shared Function GetSuperOfficeLanguages As IEnumerable(Of String)
+      description: ''
+    content.vb: Public Shared Function GetSuperOfficeLanguages() As IEnumerable(Of String)
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.GetSuperOfficeLanguages*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCultureToSuperOfficeLanguage(System.String)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.MapCultureToSuperOfficeLanguage(System.String)
   id: MapCultureToSuperOfficeLanguage(System.String)
@@ -2360,18 +2062,25 @@ items:
   langs:
   - csharp
   - vb
-  name: MapCultureToSuperOfficeLanguage(String)
-  nameWithType: CultureDataFormatter.MapCultureToSuperOfficeLanguage(String)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCultureToSuperOfficeLanguage(System.String)
+  name: MapCultureToSuperOfficeLanguage(string)
+  nameWithType: CultureDataFormatter.MapCultureToSuperOfficeLanguage(string)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCultureToSuperOfficeLanguage(string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nConverts .net Culture name (&quot;sv-SE&quot;) to SuperOffice language code (&quot;SW&quot;).\n"
-  remarks: "\nConverting to a SuperOffice language code twice is harmless.\n<p></p>\nIf unable to determine a mapping, the default is US (English).\n<p></p>\nSee also <a href=\"http://msdn.microsoft.com/en-us/library/system.globalization.cultureinfo.aspx\">MSDN on culture codes</a>.\n"
+  summary: Converts .net Culture name ("sv-SE") to SuperOffice language code ("SW").
+  remarks: >-
+    Converting to a SuperOffice language code twice is harmless.
+
+    <p></p>
+
+    If unable to determine a mapping, the default is US (English).
+
+    <p></p>
+
+    See also <a href="http://msdn.microsoft.com/en-us/library/system.globalization.cultureinfo.aspx">MSDN on culture codes</a>.
+  example: []
   syntax:
     content: public static string MapCultureToSuperOfficeLanguage(string cultureName)
     parameters:
@@ -2386,12 +2095,9 @@ items:
   seealso:
   - linkId: SuperOffice.CRM.Globalization.CultureDataFormatter.MapSuperOfficeLanguageToCulture(System.String)
     commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.MapSuperOfficeLanguageToCulture(System.String)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.MapCultureToSuperOfficeLanguage(String)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCultureToSuperOfficeLanguage(String)
+  name.vb: MapCultureToSuperOfficeLanguage(String)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.MapLCIDToSuperOfficeLanguage(System.Int32)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.MapLCIDToSuperOfficeLanguage(System.Int32)
   id: MapLCIDToSuperOfficeLanguage(System.Int32)
@@ -2399,17 +2105,15 @@ items:
   langs:
   - csharp
   - vb
-  name: MapLCIDToSuperOfficeLanguage(Int32)
-  nameWithType: CultureDataFormatter.MapLCIDToSuperOfficeLanguage(Int32)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.MapLCIDToSuperOfficeLanguage(System.Int32)
+  name: MapLCIDToSuperOfficeLanguage(int)
+  nameWithType: CultureDataFormatter.MapLCIDToSuperOfficeLanguage(int)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.MapLCIDToSuperOfficeLanguage(int)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nConverts a .net culture LCID to SuperOffice Language Code\n"
+  summary: Converts a .net culture LCID to SuperOffice Language Code
+  example: []
   syntax:
     content: public static string MapLCIDToSuperOfficeLanguage(int lcid)
     parameters:
@@ -2421,12 +2125,9 @@ items:
       description: The SuperOffice language code if defined - the two letter iso name if undefined
     content.vb: Public Shared Function MapLCIDToSuperOfficeLanguage(lcid As Integer) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.MapLCIDToSuperOfficeLanguage*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.MapLCIDToSuperOfficeLanguage(Integer)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.MapLCIDToSuperOfficeLanguage(Integer)
+  name.vb: MapLCIDToSuperOfficeLanguage(Integer)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.MapLanguageToCsLanguage(System.String)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.MapLanguageToCsLanguage(System.String)
   id: MapLanguageToCsLanguage(System.String)
@@ -2434,32 +2135,29 @@ items:
   langs:
   - csharp
   - vb
-  name: MapLanguageToCsLanguage(String)
-  nameWithType: CultureDataFormatter.MapLanguageToCsLanguage(String)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.MapLanguageToCsLanguage(System.String)
+  name: MapLanguageToCsLanguage(string)
+  nameWithType: CultureDataFormatter.MapLanguageToCsLanguage(string)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.MapLanguageToCsLanguage(string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nConvert a language code to the language code expected by CS.\n"
+  summary: Convert a language code to the language code expected by CS.
+  example: []
   syntax:
     content: public static string MapLanguageToCsLanguage(string languageCode)
     parameters:
     - id: languageCode
       type: System.String
+      description: ''
     return:
       type: System.String
+      description: ''
     content.vb: Public Shared Function MapLanguageToCsLanguage(languageCode As String) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.MapLanguageToCsLanguage*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.MapLanguageToCsLanguage(String)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.MapLanguageToCsLanguage(String)
+  name.vb: MapLanguageToCsLanguage(String)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(System.String)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(System.String)
   id: MapCsLanguageToSuperOfficeLanguage(System.String)
@@ -2467,17 +2165,15 @@ items:
   langs:
   - csharp
   - vb
-  name: MapCsLanguageToSuperOfficeLanguage(String)
-  nameWithType: CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(String)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(System.String)
+  name: MapCsLanguageToSuperOfficeLanguage(string)
+  nameWithType: CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(string)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nConvert a language code from cs to SuperOffice language code.\n"
+  summary: Convert a language code from cs to SuperOffice language code.
+  example: []
   syntax:
     content: public static string MapCsLanguageToSuperOfficeLanguage(string csLang)
     parameters:
@@ -2488,12 +2184,9 @@ items:
       description: SuperOffice languagecode or string.empty if none found
     content.vb: Public Shared Function MapCsLanguageToSuperOfficeLanguage(csLang As String) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(String)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(String)
+  name.vb: MapCsLanguageToSuperOfficeLanguage(String)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.GetCultureDisplayName(System.Globalization.CultureInfo)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.GetCultureDisplayName(System.Globalization.CultureInfo)
   id: GetCultureDisplayName(System.Globalization.CultureInfo)
@@ -2505,9 +2198,6 @@ items:
   nameWithType: CultureDataFormatter.GetCultureDisplayName(CultureInfo)
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.GetCultureDisplayName(System.Globalization.CultureInfo)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
@@ -2520,12 +2210,6 @@ items:
       type: System.String
     content.vb: Public Shared Function GetCultureDisplayName(cultureInfo As CultureInfo) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.GetCultureDisplayName*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseMultiLanguageString(System.String,System.String)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseMultiLanguageString(System.String,System.String)
   id: ParseMultiLanguageString(System.String,System.String)
@@ -2533,24 +2217,38 @@ items:
   langs:
   - csharp
   - vb
-  name: ParseMultiLanguageString(String, String)
-  nameWithType: CultureDataFormatter.ParseMultiLanguageString(String, String)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseMultiLanguageString(System.String, System.String)
+  name: ParseMultiLanguageString(string, string)
+  nameWithType: CultureDataFormatter.ParseMultiLanguageString(string, string)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseMultiLanguageString(string, string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nReturns the string part of the specified culture from the multi language string\nThese strings are typically used in SuperOffice list and description data\n<example>\nString example from PrefDesc table:\nUS:&quot;Location and size&quot;;GE:&quot;Position und Größe&quot;;NO:&quot;Posisjon og størrelse&quot;\n</example>\n"
-  remarks: "\nThis version will also accept strings that have non-multilanguage text before and after the multilanguage\nblock, and even multiple multilanguage blocks (provided there is at least one non-conforming character between them),\nisolating them and parsing each one separately. Non-conforming text is kept in place in the output.\n"
+  summary: >-
+    Returns the string part of the specified culture from the multi language string
+
+    These strings are typically used in SuperOffice list and description data
+
+    <example>
+
+    String example from PrefDesc table:
+
+    US:"Location and size";GE:"Position und Größe";NO:"Posisjon og størrelse"
+
+    </example>
+  remarks: >-
+    This version will also accept strings that have non-multilanguage text before and after the multilanguage
+
+    block, and even multiple multilanguage blocks (provided there is at least one non-conforming character between them),
+
+    isolating them and parsing each one separately. Non-conforming text is kept in place in the output.
+  example: []
   syntax:
     content: public static string ParseMultiLanguageString(string multilangString, string cultureName)
     parameters:
     - id: multilangString
       type: System.String
-      description: 'The multilanguage string to parse: <pre><code>US:&quot;Location and size&quot;;GE:&quot;Position und Größe&quot;;NO:&quot;Posisjon og størrelse&quot;</code></pre>'
+      description: 'The multilanguage string to parse: <pre><code class="lang-csharp">US:"Location and size";GE:"Position und Größe";NO:"Posisjon og størrelse"</code></pre>'
     - id: cultureName
       type: System.String
       description: The cultureName, typically en-US, nb-NO, but also US, NO is accepted
@@ -2559,12 +2257,9 @@ items:
       description: Culture specific string part, or original string if there is a problem
     content.vb: Public Shared Function ParseMultiLanguageString(multilangString As String, cultureName As String) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseMultiLanguageString*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.ParseMultiLanguageString(String, String)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseMultiLanguageString(String, String)
+  name.vb: ParseMultiLanguageString(String, String)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseInlineMultiLanguageString(System.String,System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseInlineMultiLanguageString(System.String,System.String,System.Int32)
   id: ParseInlineMultiLanguageString(System.String,System.String,System.Int32)
@@ -2572,23 +2267,24 @@ items:
   langs:
   - csharp
   - vb
-  name: ParseInlineMultiLanguageString(String, String, Int32)
-  nameWithType: CultureDataFormatter.ParseInlineMultiLanguageString(String, String, Int32)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseInlineMultiLanguageString(System.String, System.String, System.Int32)
+  name: ParseInlineMultiLanguageString(string, string, int)
+  nameWithType: CultureDataFormatter.ParseInlineMultiLanguageString(string, string, int)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseInlineMultiLanguageString(string, string, int)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nParses the string for multilang strings and uses <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter.ParseMultiLanguageString(System.String%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref>	to translate\nthe fragment to a culture specific string part\n"
+  summary: >-
+    Parses the string for multilang strings and uses <xref href="SuperOffice.CRM.Globalization.CultureDataFormatter.ParseMultiLanguageString(System.String%2cSystem.String)" data-throw-if-not-resolved="false"></xref>	to translate
+
+    the fragment to a culture specific string part
+  example: []
   syntax:
     content: public static string ParseInlineMultiLanguageString(string multilangString, string cultureName, int startingIndex = 0)
     parameters:
     - id: multilangString
       type: System.String
-      description: 'The multilanguage string to parse: <pre><code>US:&quot;Location and size&quot;;GE:&quot;Position und Größe&quot;;NO:&quot;Posisjon og størrelse&quot;</code></pre>'
+      description: 'The multilanguage string to parse: <pre><code class="lang-csharp">US:"Location and size";GE:"Position und Größe";NO:"Posisjon og størrelse"</code></pre>'
     - id: cultureName
       type: System.String
       description: The cultureName, typically en-US, nb-NO, but also US, NO is accepted
@@ -2600,12 +2296,9 @@ items:
       description: All culture specific string parts translated, or original string if there is a problem
     content.vb: Public Shared Function ParseInlineMultiLanguageString(multilangString As String, cultureName As String, startingIndex As Integer = 0) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseInlineMultiLanguageString*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.ParseInlineMultiLanguageString(String, String, Integer)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseInlineMultiLanguageString(String, String, Integer)
+  name.vb: ParseInlineMultiLanguageString(String, String, Integer)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseInlineElements(System.String,System.String)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseInlineElements(System.String,System.String)
   id: ParseInlineElements(System.String,System.String)
@@ -2613,17 +2306,20 @@ items:
   langs:
   - csharp
   - vb
-  name: ParseInlineElements(String, String)
-  nameWithType: CultureDataFormatter.ParseInlineElements(String, String)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseInlineElements(System.String, System.String)
+  name: ParseInlineElements(string, string)
+  nameWithType: CultureDataFormatter.ParseInlineElements(string, string)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseInlineElements(string, string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nParses a resource string with inline culture-sensitive data in the text, for instance dates... provided they have\nbeen encoded using the <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref> in the first place.\nMulti-language elements are also handled, before any culture-sensitive elements.\n"
+  summary: >-
+    Parses a resource string with inline culture-sensitive data in the text, for instance dates... provided they have
+
+    been encoded using the <xref href="SuperOffice.CRM.Globalization.CultureDataFormatter" data-throw-if-not-resolved="false"></xref> in the first place.
+
+    Multi-language elements are also handled, before any culture-sensitive elements.
+  example: []
   syntax:
     content: public static string ParseInlineElements(string resourceString, string cultureName)
     parameters:
@@ -2638,12 +2334,9 @@ items:
       description: Parsed resource string.
     content.vb: Public Shared Function ParseInlineElements(resourceString As String, cultureName As String) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseInlineElements*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.ParseInlineElements(String, String)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseInlineElements(String, String)
+  name.vb: ParseInlineElements(String, String)
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeBinary(System.IO.Stream)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeBinary(System.IO.Stream)
   id: EncodeBinary(System.IO.Stream)
@@ -2655,13 +2348,11 @@ items:
   nameWithType: CultureDataFormatter.EncodeBinary(Stream)
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeBinary(System.IO.Stream)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nEncode a block of binary data, such as an image\n"
+  summary: Encode a block of binary data, such as an image
+  example: []
   syntax:
     content: public static string EncodeBinary(Stream data)
     parameters:
@@ -2673,12 +2364,6 @@ items:
       description: Encoded date
     content.vb: Public Shared Function EncodeBinary(data As Stream) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeBinary*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeBinaryNoTags(System.IO.Stream)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeBinaryNoTags(System.IO.Stream)
   id: EncodeBinaryNoTags(System.IO.Stream)
@@ -2690,9 +2375,6 @@ items:
   nameWithType: CultureDataFormatter.EncodeBinaryNoTags(Stream)
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeBinaryNoTags(System.IO.Stream)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
@@ -2705,12 +2387,6 @@ items:
       type: System.String
     content.vb: Public Shared Function EncodeBinaryNoTags(data As Stream) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeBinaryNoTags*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeBinary(System.IO.Stream,System.Boolean)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeBinary(System.IO.Stream,System.Boolean)
   id: EncodeBinary(System.IO.Stream,System.Boolean)
@@ -2718,17 +2394,15 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeBinary(Stream, Boolean)
-  nameWithType: CultureDataFormatter.EncodeBinary(Stream, Boolean)
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeBinary(System.IO.Stream, System.Boolean)
+  name: EncodeBinary(Stream, bool)
+  nameWithType: CultureDataFormatter.EncodeBinary(Stream, bool)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeBinary(System.IO.Stream, bool)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nEncode a block of binary data, such as an image\n"
+  summary: Encode a block of binary data, such as an image
+  example: []
   syntax:
     content: public static string EncodeBinary(Stream data, bool performEncode)
     parameters:
@@ -2739,38 +2413,384 @@ items:
       type: System.Boolean
       description: >-
         If true, the input parameter is encoded to string. If false, an empty string is returned instead.
-
-        This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
-
-        switch may eliminate the need for string-encoded display values.
+                    This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
+                    switch may eliminate the need for string-encoded display values.
     return:
       type: System.String
       description: Encoded date
     content.vb: Public Shared Function EncodeBinary(data As Stream, performEncode As Boolean) As String
   overload: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeBinary*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeBinary(Stream, Boolean)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeBinary(System.IO.Stream, Boolean)
+  name.vb: EncodeBinary(Stream, Boolean)
 references:
+- uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDate(System.DateTime)
+  commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDate(System.DateTime)
+  isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_EncodeDate_System_DateTime_
+  name: EncodeDate(DateTime)
+  nameWithType: CultureDataFormatter.EncodeDate(DateTime)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDate(System.DateTime)
+  nameWithType.vb: CultureDataFormatter.EncodeDate(Date)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDate(Date)
+  name.vb: EncodeDate(Date)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDate(System.DateTime)
+    name: EncodeDate
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_EncodeDate_System_DateTime_
+  - name: (
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDate(System.DateTime)
+    name: EncodeDate
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_EncodeDate_System_DateTime_
+  - name: (
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: )
+- uid: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalizeEncoded(System.String)
+  commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.LocalizeEncoded(System.String)
+  isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_LocalizeEncoded_System_String_
+  name: LocalizeEncoded(string)
+  nameWithType: CultureDataFormatter.LocalizeEncoded(string)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalizeEncoded(string)
+  nameWithType.vb: CultureDataFormatter.LocalizeEncoded(String)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalizeEncoded(String)
+  name.vb: LocalizeEncoded(String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalizeEncoded(System.String)
+    name: LocalizeEncoded
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_LocalizeEncoded_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalizeEncoded(System.String)
+    name: LocalizeEncoded
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_LocalizeEncoded_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDate(System.DateTime)
+  commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDate(System.DateTime)
+  isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_LocalFormatDate_System_DateTime_
+  name: LocalFormatDate(DateTime)
+  nameWithType: CultureDataFormatter.LocalFormatDate(DateTime)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDate(System.DateTime)
+  nameWithType.vb: CultureDataFormatter.LocalFormatDate(Date)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDate(Date)
+  name.vb: LocalFormatDate(Date)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDate(System.DateTime)
+    name: LocalFormatDate
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_LocalFormatDate_System_DateTime_
+  - name: (
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDate(System.DateTime)
+    name: LocalFormatDate
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_LocalFormatDate_System_DateTime_
+  - name: (
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: )
 - uid: SuperOffice.CRM.Globalization
   commentId: N:SuperOffice.CRM.Globalization
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Globalization
   nameWithType: SuperOffice.CRM.Globalization
   fullName: SuperOffice.CRM.Globalization
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Globalization
+    name: Globalization
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Globalization
+    name: Globalization
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -2778,92 +2798,116 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Char
   commentId: T:System.Char
   parent: System
   isExternal: true
-  name: Char
-  nameWithType: Char
-  fullName: System.Char
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char
+  nameWithType: char
+  fullName: char
+  nameWithType.vb: Char
+  fullName.vb: Char
+  name.vb: Char
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.Encode*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.Encode
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_Encode_System_Object_
   name: Encode
   nameWithType: CultureDataFormatter.Encode
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.Encode
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeIntArr*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeIntArr
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_EncodeIntArr_System_Int32___
   name: EncodeIntArr
   nameWithType: CultureDataFormatter.EncodeIntArr
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeIntArr
 - uid: System.Int32[]
   isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
   spec.csharp:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDate*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDate
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_EncodeDate_System_DateTime_
   name: EncodeDate
   nameWithType: CultureDataFormatter.EncodeDate
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDate
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDateTime*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDateTime
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_EncodeDateTime_System_DateTime_
   name: EncodeDateTime
   nameWithType: CultureDataFormatter.EncodeDateTime
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDateTime
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTime*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTime
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_EncodeTime_System_DateTime_
   name: EncodeTime
   nameWithType: CultureDataFormatter.EncodeTime
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTime
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTimeSpan*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTimeSpan
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_EncodeTimeSpan_System_TimeSpan_System_Boolean_
   name: EncodeTimeSpan
   nameWithType: CultureDataFormatter.EncodeTimeSpan
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTimeSpan
 - uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
   name: TimeSpan
   nameWithType: TimeSpan
   fullName: System.TimeSpan
@@ -2871,12 +2915,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_EncodeDouble_System_Double_System_Int32_
   name: EncodeDouble
   nameWithType: CultureDataFormatter.EncodeDouble
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeDouble
@@ -2884,42 +2933,52 @@ references:
   commentId: T:System.Double
   parent: System
   isExternal: true
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeInt*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeInt
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_EncodeInt_System_Int32_
   name: EncodeInt
   nameWithType: CultureDataFormatter.EncodeInt
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeInt
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeMoney*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeMoney
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_EncodeMoney_System_Double_
   name: EncodeMoney
   nameWithType: CultureDataFormatter.EncodeMoney
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeMoney
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalizeEncoded*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.LocalizeEncoded
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_LocalizeEncoded_System_String_
   name: LocalizeEncoded
   nameWithType: CultureDataFormatter.LocalizeEncoded
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalizeEncoded
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.GetStringType*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.GetStringType
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_GetStringType_System_String_System_String__System_Int32__
   name: GetStringType
   nameWithType: CultureDataFormatter.GetStringType
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.GetStringType
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.GetReadableTimeSpan*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.GetReadableTimeSpan
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_GetReadableTimeSpan_System_Int32_System_Boolean_System_String_System_String_System_String_System_String_System_String_
   name: GetReadableTimeSpan
   nameWithType: CultureDataFormatter.GetReadableTimeSpan
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.GetReadableTimeSpan
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.FormatFromMetadata*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.FormatFromMetadata
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_FormatFromMetadata_System_String_SuperOffice_CRM_FieldMetadataInfo_
   name: FormatFromMetadata
   nameWithType: CultureDataFormatter.FormatFromMetadata
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.FormatFromMetadata
@@ -2927,350 +2986,607 @@ references:
   commentId: T:SuperOffice.CRM.FieldMetadataInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.FieldMetadataInfo.html
   name: FieldMetadataInfo
   nameWithType: FieldMetadataInfo
   fullName: SuperOffice.CRM.FieldMetadataInfo
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.CompareEncoded*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.CompareEncoded
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_CompareEncoded_System_String_System_String_
   name: CompareEncoded
   nameWithType: CultureDataFormatter.CompareEncoded
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.CompareEncoded
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDate*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDate
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_ParseEncodedDate_System_String_
   name: ParseEncodedDate
   nameWithType: CultureDataFormatter.ParseEncodedDate
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDate
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedTimeSpan*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedTimeSpan
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_ParseEncodedTimeSpan_System_String_System_Boolean_
   name: ParseEncodedTimeSpan
   nameWithType: CultureDataFormatter.ParseEncodedTimeSpan
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedTimeSpan
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedInt*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedInt
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_ParseEncodedInt_System_String_
   name: ParseEncodedInt
   nameWithType: CultureDataFormatter.ParseEncodedInt
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedInt
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedIntArr*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedIntArr
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_ParseEncodedIntArr_System_String_
   name: ParseEncodedIntArr
   nameWithType: CultureDataFormatter.ParseEncodedIntArr
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedIntArr
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDouble*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDouble
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_ParseEncodedDouble_System_String_
   name: ParseEncodedDouble
   nameWithType: CultureDataFormatter.ParseEncodedDouble
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDouble
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDecimal*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDecimal
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_ParseEncodedDecimal_System_String_
   name: ParseEncodedDecimal
   nameWithType: CultureDataFormatter.ParseEncodedDecimal
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDecimal
 - uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
   isExternal: true
-  name: Decimal
-  nameWithType: Decimal
-  fullName: System.Decimal
+  href: https://learn.microsoft.com/dotnet/api/system.decimal
+  name: decimal
+  nameWithType: decimal
+  fullName: decimal
+  nameWithType.vb: Decimal
+  fullName.vb: Decimal
+  name.vb: Decimal
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedBinary*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedBinary
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_ParseEncodedBinary_System_String_
   name: ParseEncodedBinary
   nameWithType: CultureDataFormatter.ParseEncodedBinary
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedBinary
 - uid: System.Byte[]
   isExternal: true
-  name: Byte[]
-  nameWithType: Byte[]
-  fullName: System.Byte[]
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
   nameWithType.vb: Byte()
-  fullName.vb: System.Byte()
+  fullName.vb: Byte()
   name.vb: Byte()
   spec.csharp:
   - uid: System.Byte
-    name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
+    name: byte
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Byte
     name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_TryParse_System_String_System_Int32__
   name: TryParse
   nameWithType: CultureDataFormatter.TryParse
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.TryParse
+- uid: System.DateTime.MinValue
+  commentId: F:System.DateTime.MinValue
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime.minvalue
+  name: MinValue
+  nameWithType: DateTime.MinValue
+  fullName: System.DateTime.MinValue
+  nameWithType.vb: Date.MinValue
+  fullName.vb: Date.MinValue
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncoded*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncoded
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_ParseEncoded_System_String_
   name: ParseEncoded
   nameWithType: CultureDataFormatter.ParseEncoded
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncoded
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDate*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDate
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_LocalFormatDate_System_DateTime_
   name: LocalFormatDate
   nameWithType: CultureDataFormatter.LocalFormatDate
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDate
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatLongDate*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatLongDate
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_LocalFormatLongDate_System_DateTime_
   name: LocalFormatLongDate
   nameWithType: CultureDataFormatter.LocalFormatLongDate
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatLongDate
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDateTime*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDateTime
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_LocalFormatDateTime_System_DateTime_
   name: LocalFormatDateTime
   nameWithType: CultureDataFormatter.LocalFormatDateTime
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDateTime
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatLongDateTime*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatLongDateTime
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_LocalFormatLongDateTime_System_DateTime_
   name: LocalFormatLongDateTime
   nameWithType: CultureDataFormatter.LocalFormatLongDateTime
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatLongDateTime
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatTime*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatTime
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_LocalFormatTime_System_DateTime_
   name: LocalFormatTime
   nameWithType: CultureDataFormatter.LocalFormatTime
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatTime
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDouble*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDouble
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_LocalFormatDouble_System_Double_System_Int32_
   name: LocalFormatDouble
   nameWithType: CultureDataFormatter.LocalFormatDouble
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatDouble
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatInt*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatInt
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_LocalFormatInt_System_Int32_
   name: LocalFormatInt
   nameWithType: CultureDataFormatter.LocalFormatInt
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatInt
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatMoney*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatMoney
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_LocalFormatMoney_System_Double_
   name: LocalFormatMoney
   nameWithType: CultureDataFormatter.LocalFormatMoney
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatMoney
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.StripTerminator*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.StripTerminator
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_StripTerminator_System_String_System_String_
   name: StripTerminator
   nameWithType: CultureDataFormatter.StripTerminator
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.StripTerminator
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.AddTerminator*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.AddTerminator
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_AddTerminator_System_String_System_String_
   name: AddTerminator
   nameWithType: CultureDataFormatter.AddTerminator
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.AddTerminator
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.AddColon*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.AddColon
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_AddColon_System_String_
   name: AddColon
   nameWithType: CultureDataFormatter.AddColon
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.AddColon
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.StripColon*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.StripColon
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_StripColon_System_String_
   name: StripColon
   nameWithType: CultureDataFormatter.StripColon
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.StripColon
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.StripCountrySpecificsFromLanguageName*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.StripCountrySpecificsFromLanguageName
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_StripCountrySpecificsFromLanguageName_System_String_
   name: StripCountrySpecificsFromLanguageName
   nameWithType: CultureDataFormatter.StripCountrySpecificsFromLanguageName
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.StripCountrySpecificsFromLanguageName
-- uid: SuperOffice.CRM.Globalization.CultureDataFormatter.MapSuperOfficeLanguageToCulture*
-  commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.MapSuperOfficeLanguageToCulture
-  isExternal: true
-  name: MapSuperOfficeLanguageToCulture
-  nameWithType: CultureDataFormatter.MapSuperOfficeLanguageToCulture
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.MapSuperOfficeLanguageToCulture
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCultureToSuperOfficeLanguage(System.String)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.MapCultureToSuperOfficeLanguage(System.String)
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_MapCultureToSuperOfficeLanguage_System_String_
+  name: MapCultureToSuperOfficeLanguage(string)
+  nameWithType: CultureDataFormatter.MapCultureToSuperOfficeLanguage(string)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCultureToSuperOfficeLanguage(string)
+  nameWithType.vb: CultureDataFormatter.MapCultureToSuperOfficeLanguage(String)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCultureToSuperOfficeLanguage(String)
+  name.vb: MapCultureToSuperOfficeLanguage(String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCultureToSuperOfficeLanguage(System.String)
+    name: MapCultureToSuperOfficeLanguage
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_MapCultureToSuperOfficeLanguage_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCultureToSuperOfficeLanguage(System.String)
+    name: MapCultureToSuperOfficeLanguage
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_MapCultureToSuperOfficeLanguage_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.CRM.Globalization.CultureDataFormatter.MapSuperOfficeLanguageToCulture*
+  commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.MapSuperOfficeLanguageToCulture
+  isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_MapSuperOfficeLanguageToCulture_System_String_
+  name: MapSuperOfficeLanguageToCulture
+  nameWithType: CultureDataFormatter.MapSuperOfficeLanguageToCulture
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.MapSuperOfficeLanguageToCulture
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.GetSuperOfficeLanguages*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.GetSuperOfficeLanguages
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_GetSuperOfficeLanguages
   name: GetSuperOfficeLanguages
   nameWithType: CultureDataFormatter.GetSuperOfficeLanguages
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.GetSuperOfficeLanguages
 - uid: System.Collections.Generic.IEnumerable{System.String}
-  commentId: '!:System.Collections.Generic.IEnumerable{System.String}'
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<String>
-  nameWithType: IEnumerable<String>
-  fullName: System.Collections.Generic.IEnumerable<System.String>
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<string>
+  nameWithType: IEnumerable<string>
+  fullName: System.Collections.Generic.IEnumerable<string>
   nameWithType.vb: IEnumerable(Of String)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of String)
   name.vb: IEnumerable(Of String)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCultureToSuperOfficeLanguage*
-  commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.MapCultureToSuperOfficeLanguage
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
   isExternal: true
-  name: MapCultureToSuperOfficeLanguage
-  nameWithType: CultureDataFormatter.MapCultureToSuperOfficeLanguage
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCultureToSuperOfficeLanguage
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.MapSuperOfficeLanguageToCulture(System.String)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.MapSuperOfficeLanguageToCulture(System.String)
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_MapSuperOfficeLanguageToCulture_System_String_
+  name: MapSuperOfficeLanguageToCulture(string)
+  nameWithType: CultureDataFormatter.MapSuperOfficeLanguageToCulture(string)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.MapSuperOfficeLanguageToCulture(string)
+  nameWithType.vb: CultureDataFormatter.MapSuperOfficeLanguageToCulture(String)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.MapSuperOfficeLanguageToCulture(String)
+  name.vb: MapSuperOfficeLanguageToCulture(String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.MapSuperOfficeLanguageToCulture(System.String)
+    name: MapSuperOfficeLanguageToCulture
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_MapSuperOfficeLanguageToCulture_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.MapSuperOfficeLanguageToCulture(System.String)
+    name: MapSuperOfficeLanguageToCulture
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_MapSuperOfficeLanguageToCulture_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCultureToSuperOfficeLanguage*
+  commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.MapCultureToSuperOfficeLanguage
+  isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_MapCultureToSuperOfficeLanguage_System_String_
+  name: MapCultureToSuperOfficeLanguage
+  nameWithType: CultureDataFormatter.MapCultureToSuperOfficeLanguage
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCultureToSuperOfficeLanguage
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.MapLCIDToSuperOfficeLanguage*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.MapLCIDToSuperOfficeLanguage
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_MapLCIDToSuperOfficeLanguage_System_Int32_
   name: MapLCIDToSuperOfficeLanguage
   nameWithType: CultureDataFormatter.MapLCIDToSuperOfficeLanguage
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.MapLCIDToSuperOfficeLanguage
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.MapLanguageToCsLanguage*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.MapLanguageToCsLanguage
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_MapLanguageToCsLanguage_System_String_
   name: MapLanguageToCsLanguage
   nameWithType: CultureDataFormatter.MapLanguageToCsLanguage
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.MapLanguageToCsLanguage
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_MapCsLanguageToSuperOfficeLanguage_System_String_
   name: MapCsLanguageToSuperOfficeLanguage
   nameWithType: CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.GetCultureDisplayName*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.GetCultureDisplayName
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_GetCultureDisplayName_System_Globalization_CultureInfo_
   name: GetCultureDisplayName
   nameWithType: CultureDataFormatter.GetCultureDisplayName
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.GetCultureDisplayName
 - uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo
   name: CultureInfo
   nameWithType: CultureInfo
   fullName: System.Globalization.CultureInfo
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseMultiLanguageString*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseMultiLanguageString
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_ParseMultiLanguageString_System_String_System_String_
   name: ParseMultiLanguageString
   nameWithType: CultureDataFormatter.ParseMultiLanguageString
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseMultiLanguageString
+- uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseMultiLanguageString(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseMultiLanguageString(System.String,System.String)
+  isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_ParseMultiLanguageString_System_String_System_String_
+  name: ParseMultiLanguageString(string, string)
+  nameWithType: CultureDataFormatter.ParseMultiLanguageString(string, string)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseMultiLanguageString(string, string)
+  nameWithType.vb: CultureDataFormatter.ParseMultiLanguageString(String, String)
+  fullName.vb: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseMultiLanguageString(String, String)
+  name.vb: ParseMultiLanguageString(String, String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseMultiLanguageString(System.String,System.String)
+    name: ParseMultiLanguageString
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_ParseMultiLanguageString_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseMultiLanguageString(System.String,System.String)
+    name: ParseMultiLanguageString
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_ParseMultiLanguageString_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseInlineMultiLanguageString*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseInlineMultiLanguageString
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_ParseInlineMultiLanguageString_System_String_System_String_System_Int32_
   name: ParseInlineMultiLanguageString
   nameWithType: CultureDataFormatter.ParseInlineMultiLanguageString
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseInlineMultiLanguageString
+- uid: SuperOffice.CRM.Globalization.CultureDataFormatter
+  commentId: T:SuperOffice.CRM.Globalization.CultureDataFormatter
+  isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html
+  name: CultureDataFormatter
+  nameWithType: CultureDataFormatter
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseInlineElements*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseInlineElements
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_ParseInlineElements_System_String_System_String_
   name: ParseInlineElements
   nameWithType: CultureDataFormatter.ParseInlineElements
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseInlineElements
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeBinary*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeBinary
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_EncodeBinary_System_IO_Stream_
   name: EncodeBinary
   nameWithType: CultureDataFormatter.EncodeBinary
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeBinary
 - uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.stream
   name: Stream
   nameWithType: Stream
   fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeBinaryNoTags*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeBinaryNoTags
   isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html#SuperOffice_CRM_Globalization_CultureDataFormatter_EncodeBinaryNoTags_System_IO_Stream_
   name: EncodeBinaryNoTags
   nameWithType: CultureDataFormatter.EncodeBinaryNoTags
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeBinaryNoTags

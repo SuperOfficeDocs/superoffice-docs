@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 791,
-    "Name": "Purdy LLC",
-    "Tooltip": "id",
-    "Deleted": false,
-    "Rank": 151,
-    "UdListDefinitionId": 182,
+    "HeadingId": 190,
+    "Name": "Bednar, Bosco and Yundt",
+    "Tooltip": "praesentium",
+    "Deleted": true,
+    "Rank": 566,
+    "UdListDefinitionId": 593,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 89
+        "FieldLength": 101
       }
     }
   }

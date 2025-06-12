@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/TicketType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,31 +83,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 719,
-  "Name": "Lesch LLC",
-  "Rank": 792,
-  "Tooltip": "repellendus",
-  "Icon": "aliquam",
-  "DefaultTicketStatus": 547,
+  "TicketTypeId": 843,
+  "Name": "Bartell Inc and Sons",
+  "Rank": 402,
+  "Tooltip": "magnam",
+  "Icon": "ut",
+  "DefaultTicketStatus": 176,
   "TicketStatuses": [
-    85,
-    888
+    453,
+    851
   ],
-  "DefaultTicketPriority": 460,
+  "DefaultTicketPriority": 31,
   "TicketPriorities": [
-    182,
-    28
+    752,
+    426
   ],
-  "ReplyTemplate": 522,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 394,
+  "IsExternalVisible": true,
   "IsDefault": false,
-  "ShowInNew": true,
+  "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    910,
-    340
+    58,
+    877
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 62
+      "FieldLength": 813
     }
   }
 }

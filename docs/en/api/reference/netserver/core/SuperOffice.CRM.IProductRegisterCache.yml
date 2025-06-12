@@ -20,25 +20,21 @@ items:
   nameWithType: IProductRegisterCache
   fullName: SuperOffice.CRM.IProductRegisterCache
   type: Interface
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nSuperOffice has its own simple Product table. This table can be used by the ERP connectors as a cache for ERP data. \n\nThis interface will be implemented by SuperOffice. The implementation is passed to all connectors as an initialization parameter.\n"
+  summary: >-
+    SuperOffice has its own simple Product table. This table can be used by the ERP connectors as a cache for ERP data. 
+
+
+    This interface will be implemented by SuperOffice. The implementation is passed to all connectors as an initialization parameter.
+  example: []
   syntax:
     content: public interface IProductRegisterCache
     content.vb: Public Interface IProductRegisterCache
   extensionMethods:
   - SuperOffice.CRM.IProductRegisterCache.EnumUtil.MapEnums``2
   - SuperOffice.CRM.IProductRegisterCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
 - uid: SuperOffice.CRM.IProductRegisterCache.CreatePriceList(SuperOffice.CRM.PriceListInfo)
   commentId: M:SuperOffice.CRM.IProductRegisterCache.CreatePriceList(SuperOffice.CRM.PriceListInfo)
   id: CreatePriceList(SuperOffice.CRM.PriceListInfo)
@@ -50,18 +46,17 @@ items:
   nameWithType: IProductRegisterCache.CreatePriceList(PriceListInfo)
   fullName: SuperOffice.CRM.IProductRegisterCache.CreatePriceList(SuperOffice.CRM.PriceListInfo)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nCreates a pricelist in the SuperOffice database.\n"
+  summary: Creates a pricelist in the SuperOffice database.
+  example: []
   syntax:
     content: int CreatePriceList(PriceListInfo pricelist)
     parameters:
     - id: pricelist
       type: SuperOffice.CRM.PriceListInfo
+      description: ''
     return:
       type: System.Int32
       description: Returns the id to the pricelist.
@@ -74,32 +69,32 @@ items:
   langs:
   - csharp
   - vb
-  name: InsertProducts(Int32, ProductInfo[])
-  nameWithType: IProductRegisterCache.InsertProducts(Int32, ProductInfo[])
-  fullName: SuperOffice.CRM.IProductRegisterCache.InsertProducts(System.Int32, SuperOffice.CRM.ProductInfo[])
+  name: InsertProducts(int, ProductInfo[])
+  nameWithType: IProductRegisterCache.InsertProducts(int, ProductInfo[])
+  fullName: SuperOffice.CRM.IProductRegisterCache.InsertProducts(int, SuperOffice.CRM.ProductInfo[])
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nInsert a set of products into the SuperOffice database. \n"
+  summary: Insert a set of products into the SuperOffice database.
+  example: []
   syntax:
     content: ProductInfo[] InsertProducts(int pricelistId, ProductInfo[] products)
     parameters:
     - id: pricelistId
       type: System.Int32
+      description: ''
     - id: products
       type: SuperOffice.CRM.ProductInfo[]
+      description: ''
     return:
       type: SuperOffice.CRM.ProductInfo[]
       description: Returns the products updated with their new ids.
     content.vb: Function InsertProducts(pricelistId As Integer, products As ProductInfo()) As ProductInfo()
   overload: SuperOffice.CRM.IProductRegisterCache.InsertProducts*
-  nameWithType.vb: IProductRegisterCache.InsertProducts(Int32, ProductInfo())
-  fullName.vb: SuperOffice.CRM.IProductRegisterCache.InsertProducts(System.Int32, SuperOffice.CRM.ProductInfo())
-  name.vb: InsertProducts(Int32, ProductInfo())
+  nameWithType.vb: IProductRegisterCache.InsertProducts(Integer, ProductInfo())
+  fullName.vb: SuperOffice.CRM.IProductRegisterCache.InsertProducts(Integer, SuperOffice.CRM.ProductInfo())
+  name.vb: InsertProducts(Integer, ProductInfo())
 - uid: SuperOffice.CRM.IProductRegisterCache.UpdateProduct(SuperOffice.CRM.ProductInfo)
   commentId: M:SuperOffice.CRM.IProductRegisterCache.UpdateProduct(SuperOffice.CRM.ProductInfo)
   id: UpdateProduct(SuperOffice.CRM.ProductInfo)
@@ -111,20 +106,20 @@ items:
   nameWithType: IProductRegisterCache.UpdateProduct(ProductInfo)
   fullName: SuperOffice.CRM.IProductRegisterCache.UpdateProduct(SuperOffice.CRM.ProductInfo)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nUpdate a product in the cache with new information\n"
+  summary: Update a product in the cache with new information
+  example: []
   syntax:
     content: PluginResponseInfo UpdateProduct(ProductInfo newProd)
     parameters:
     - id: newProd
       type: SuperOffice.CRM.ProductInfo
+      description: ''
     return:
       type: SuperOffice.CRM.PluginResponseInfo
+      description: ''
     content.vb: Function UpdateProduct(newProd As ProductInfo) As PluginResponseInfo
   overload: SuperOffice.CRM.IProductRegisterCache.UpdateProduct*
 - uid: SuperOffice.CRM.IProductRegisterCache.GetSuperOfficeProductProvider(System.Int32)
@@ -134,26 +129,29 @@ items:
   langs:
   - csharp
   - vb
-  name: GetSuperOfficeProductProvider(Int32)
-  nameWithType: IProductRegisterCache.GetSuperOfficeProductProvider(Int32)
-  fullName: SuperOffice.CRM.IProductRegisterCache.GetSuperOfficeProductProvider(System.Int32)
+  name: GetSuperOfficeProductProvider(int)
+  nameWithType: IProductRegisterCache.GetSuperOfficeProductProvider(int)
+  fullName: SuperOffice.CRM.IProductRegisterCache.GetSuperOfficeProductProvider(int)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nHere you can get the data you have inserted into the SuperOffice tables.\n"
+  summary: Here you can get the data you have inserted into the SuperOffice tables.
+  example: []
   syntax:
     content: IQuoteConnector GetSuperOfficeProductProvider(int quoteConnectionId)
     parameters:
     - id: quoteConnectionId
       type: System.Int32
+      description: ''
     return:
       type: SuperOffice.CRM.IQuoteConnector
+      description: ''
     content.vb: Function GetSuperOfficeProductProvider(quoteConnectionId As Integer) As IQuoteConnector
   overload: SuperOffice.CRM.IProductRegisterCache.GetSuperOfficeProductProvider*
+  nameWithType.vb: IProductRegisterCache.GetSuperOfficeProductProvider(Integer)
+  fullName.vb: SuperOffice.CRM.IProductRegisterCache.GetSuperOfficeProductProvider(Integer)
+  name.vb: GetSuperOfficeProductProvider(Integer)
 - uid: SuperOffice.CRM.IProductRegisterCache.RemovePriceList(System.Int32,System.Boolean)
   commentId: M:SuperOffice.CRM.IProductRegisterCache.RemovePriceList(System.Int32,System.Boolean)
   id: RemovePriceList(System.Int32,System.Boolean)
@@ -161,28 +159,32 @@ items:
   langs:
   - csharp
   - vb
-  name: RemovePriceList(Int32, Boolean)
-  nameWithType: IProductRegisterCache.RemovePriceList(Int32, Boolean)
-  fullName: SuperOffice.CRM.IProductRegisterCache.RemovePriceList(System.Int32, System.Boolean)
+  name: RemovePriceList(int, bool)
+  nameWithType: IProductRegisterCache.RemovePriceList(int, bool)
+  fullName: SuperOffice.CRM.IProductRegisterCache.RemovePriceList(int, bool)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nRemove a pricelist and any associated products.\n"
+  summary: Remove a pricelist and any associated products.
+  example: []
   syntax:
     content: PluginResponseInfo RemovePriceList(int pricelistId, bool alsoRemoveRelatedProducts)
     parameters:
     - id: pricelistId
       type: System.Int32
+      description: ''
     - id: alsoRemoveRelatedProducts
       type: System.Boolean
+      description: ''
     return:
       type: SuperOffice.CRM.PluginResponseInfo
+      description: ''
     content.vb: Function RemovePriceList(pricelistId As Integer, alsoRemoveRelatedProducts As Boolean) As PluginResponseInfo
   overload: SuperOffice.CRM.IProductRegisterCache.RemovePriceList*
+  nameWithType.vb: IProductRegisterCache.RemovePriceList(Integer, Boolean)
+  fullName.vb: SuperOffice.CRM.IProductRegisterCache.RemovePriceList(Integer, Boolean)
+  name.vb: RemovePriceList(Integer, Boolean)
 - uid: SuperOffice.CRM.IProductRegisterCache.RemoveProduct(System.Int32)
   commentId: M:SuperOffice.CRM.IProductRegisterCache.RemoveProduct(System.Int32)
   id: RemoveProduct(System.Int32)
@@ -190,26 +192,29 @@ items:
   langs:
   - csharp
   - vb
-  name: RemoveProduct(Int32)
-  nameWithType: IProductRegisterCache.RemoveProduct(Int32)
-  fullName: SuperOffice.CRM.IProductRegisterCache.RemoveProduct(System.Int32)
+  name: RemoveProduct(int)
+  nameWithType: IProductRegisterCache.RemoveProduct(int)
+  fullName: SuperOffice.CRM.IProductRegisterCache.RemoveProduct(int)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nWill remove a product if it is in a pricelist related to the connection, and the pricelist is an ERP copy. \n"
+  summary: Will remove a product if it is in a pricelist related to the connection, and the pricelist is an ERP copy.
+  example: []
   syntax:
     content: PluginResponseInfo RemoveProduct(int productId)
     parameters:
     - id: productId
       type: System.Int32
+      description: ''
     return:
       type: SuperOffice.CRM.PluginResponseInfo
+      description: ''
     content.vb: Function RemoveProduct(productId As Integer) As PluginResponseInfo
   overload: SuperOffice.CRM.IProductRegisterCache.RemoveProduct*
+  nameWithType.vb: IProductRegisterCache.RemoveProduct(Integer)
+  fullName.vb: SuperOffice.CRM.IProductRegisterCache.RemoveProduct(Integer)
+  name.vb: RemoveProduct(Integer)
 - uid: SuperOffice.CRM.IProductRegisterCache.InsertImage(System.Int32,System.Drawing.Image,System.Int32)
   commentId: M:SuperOffice.CRM.IProductRegisterCache.InsertImage(System.Int32,System.Drawing.Image,System.Int32)
   id: InsertImage(System.Int32,System.Drawing.Image,System.Int32)
@@ -217,30 +222,35 @@ items:
   langs:
   - csharp
   - vb
-  name: InsertImage(Int32, Image, Int32)
-  nameWithType: IProductRegisterCache.InsertImage(Int32, Image, Int32)
-  fullName: SuperOffice.CRM.IProductRegisterCache.InsertImage(System.Int32, System.Drawing.Image, System.Int32)
+  name: InsertImage(int, Image, int)
+  nameWithType: IProductRegisterCache.InsertImage(int, Image, int)
+  fullName: SuperOffice.CRM.IProductRegisterCache.InsertImage(int, System.Drawing.Image, int)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nWill insert an image in SuperOffice\n"
+  summary: Will insert an image in SuperOffice
+  example: []
   syntax:
     content: int InsertImage(int productId, Image img, int rank)
     parameters:
     - id: productId
       type: System.Int32
+      description: ''
     - id: img
       type: System.Drawing.Image
+      description: ''
     - id: rank
       type: System.Int32
+      description: ''
     return:
       type: System.Int32
+      description: ''
     content.vb: Function InsertImage(productId As Integer, img As Image, rank As Integer) As Integer
   overload: SuperOffice.CRM.IProductRegisterCache.InsertImage*
+  nameWithType.vb: IProductRegisterCache.InsertImage(Integer, Image, Integer)
+  fullName.vb: SuperOffice.CRM.IProductRegisterCache.InsertImage(Integer, System.Drawing.Image, Integer)
+  name.vb: InsertImage(Integer, Image, Integer)
 - uid: SuperOffice.CRM.IProductRegisterCache.RemoveImage(System.Int32)
   commentId: M:SuperOffice.CRM.IProductRegisterCache.RemoveImage(System.Int32)
   id: RemoveImage(System.Int32)
@@ -248,104 +258,167 @@ items:
   langs:
   - csharp
   - vb
-  name: RemoveImage(Int32)
-  nameWithType: IProductRegisterCache.RemoveImage(Int32)
-  fullName: SuperOffice.CRM.IProductRegisterCache.RemoveImage(System.Int32)
+  name: RemoveImage(int)
+  nameWithType: IProductRegisterCache.RemoveImage(int)
+  fullName: SuperOffice.CRM.IProductRegisterCache.RemoveImage(int)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nWill remove an image from SuperOffice\n"
+  summary: Will remove an image from SuperOffice
+  example: []
   syntax:
     content: PluginResponseInfo RemoveImage(int imageId)
     parameters:
     - id: imageId
       type: System.Int32
+      description: ''
     return:
       type: SuperOffice.CRM.PluginResponseInfo
+      description: ''
     content.vb: Function RemoveImage(imageId As Integer) As PluginResponseInfo
   overload: SuperOffice.CRM.IProductRegisterCache.RemoveImage*
+  nameWithType.vb: IProductRegisterCache.RemoveImage(Integer)
+  fullName.vb: SuperOffice.CRM.IProductRegisterCache.RemoveImage(Integer)
+  name.vb: RemoveImage(Integer)
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
 - uid: SuperOffice.CRM.IProductRegisterCache.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<IProductRegisterCache, To>()
-  nameWithType: EnumUtil.MapEnums<IProductRegisterCache, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.IProductRegisterCache, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of IProductRegisterCache, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.IProductRegisterCache, To)()
-  name.vb: MapEnums(Of IProductRegisterCache, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IProductRegisterCache, To>(IProductRegisterCache)
+  nameWithType: EnumUtil.MapEnums<IProductRegisterCache, To>(IProductRegisterCache)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.IProductRegisterCache, To>(SuperOffice.CRM.IProductRegisterCache)
+  nameWithType.vb: EnumUtil.MapEnums(Of IProductRegisterCache, To)(IProductRegisterCache)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.IProductRegisterCache, To)(SuperOffice.CRM.IProductRegisterCache)
+  name.vb: MapEnums(Of IProductRegisterCache, To)(IProductRegisterCache)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<IProductRegisterCache, To>
-    nameWithType: EnumUtil.MapEnums<IProductRegisterCache, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.IProductRegisterCache, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.IProductRegisterCache)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.IProductRegisterCache
+    name: IProductRegisterCache
+    isExternal: true
+    href: SuperOffice.CRM.IProductRegisterCache.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.IProductRegisterCache
+    name: IProductRegisterCache
+    isExternal: true
+    href: SuperOffice.CRM.IProductRegisterCache.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of IProductRegisterCache, To)
-    nameWithType: EnumUtil.MapEnums(Of IProductRegisterCache, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.IProductRegisterCache, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.IProductRegisterCache)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.IProductRegisterCache
+    name: IProductRegisterCache
+    isExternal: true
+    href: SuperOffice.CRM.IProductRegisterCache.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.IProductRegisterCache
+    name: IProductRegisterCache
+    isExternal: true
+    href: SuperOffice.CRM.IProductRegisterCache.html
+  - name: )
 - uid: SuperOffice.CRM.IProductRegisterCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<IProductRegisterCache, To>()
-  nameWithType: Converters.MapEnums<IProductRegisterCache, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IProductRegisterCache, To>()
-  nameWithType.vb: Converters.MapEnums(Of IProductRegisterCache, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IProductRegisterCache, To)()
-  name.vb: MapEnums(Of IProductRegisterCache, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IProductRegisterCache, To>(IProductRegisterCache)
+  nameWithType: Converters.MapEnums<IProductRegisterCache, To>(IProductRegisterCache)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IProductRegisterCache, To>(SuperOffice.CRM.IProductRegisterCache)
+  nameWithType.vb: Converters.MapEnums(Of IProductRegisterCache, To)(IProductRegisterCache)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IProductRegisterCache, To)(SuperOffice.CRM.IProductRegisterCache)
+  name.vb: MapEnums(Of IProductRegisterCache, To)(IProductRegisterCache)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<IProductRegisterCache, To>
-    nameWithType: Converters.MapEnums<IProductRegisterCache, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IProductRegisterCache, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.IProductRegisterCache)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.IProductRegisterCache
+    name: IProductRegisterCache
+    isExternal: true
+    href: SuperOffice.CRM.IProductRegisterCache.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.IProductRegisterCache
+    name: IProductRegisterCache
+    isExternal: true
+    href: SuperOffice.CRM.IProductRegisterCache.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of IProductRegisterCache, To)
-    nameWithType: Converters.MapEnums(Of IProductRegisterCache, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IProductRegisterCache, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.IProductRegisterCache)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.IProductRegisterCache
+    name: IProductRegisterCache
+    isExternal: true
+    href: SuperOffice.CRM.IProductRegisterCache.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.IProductRegisterCache
+    name: IProductRegisterCache
+    isExternal: true
+    href: SuperOffice.CRM.IProductRegisterCache.html
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -354,43 +427,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -399,50 +474,83 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.IProductRegisterCache.CreatePriceList*
   commentId: Overload:SuperOffice.CRM.IProductRegisterCache.CreatePriceList
   isExternal: true
+  href: SuperOffice.CRM.IProductRegisterCache.html#SuperOffice_CRM_IProductRegisterCache_CreatePriceList_SuperOffice_CRM_PriceListInfo_
   name: CreatePriceList
   nameWithType: IProductRegisterCache.CreatePriceList
   fullName: SuperOffice.CRM.IProductRegisterCache.CreatePriceList
@@ -450,6 +558,7 @@ references:
   commentId: T:SuperOffice.CRM.PriceListInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.PriceListInfo.html
   name: PriceListInfo
   nameWithType: PriceListInfo
   fullName: SuperOffice.CRM.PriceListInfo
@@ -457,23 +566,30 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.IProductRegisterCache.InsertProducts*
   commentId: Overload:SuperOffice.CRM.IProductRegisterCache.InsertProducts
   isExternal: true
+  href: SuperOffice.CRM.IProductRegisterCache.html#SuperOffice_CRM_IProductRegisterCache_InsertProducts_System_Int32_SuperOffice_CRM_ProductInfo___
   name: InsertProducts
   nameWithType: IProductRegisterCache.InsertProducts
   fullName: SuperOffice.CRM.IProductRegisterCache.InsertProducts
 - uid: SuperOffice.CRM.ProductInfo[]
   isExternal: true
+  href: SuperOffice.CRM.ProductInfo.html
   name: ProductInfo[]
   nameWithType: ProductInfo[]
   fullName: SuperOffice.CRM.ProductInfo[]
@@ -483,24 +599,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.ProductInfo
     name: ProductInfo
-    nameWithType: ProductInfo
-    fullName: SuperOffice.CRM.ProductInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.ProductInfo.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.ProductInfo
     name: ProductInfo
-    nameWithType: ProductInfo
-    fullName: SuperOffice.CRM.ProductInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.ProductInfo.html
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.IProductRegisterCache.UpdateProduct*
   commentId: Overload:SuperOffice.CRM.IProductRegisterCache.UpdateProduct
   isExternal: true
+  href: SuperOffice.CRM.IProductRegisterCache.html#SuperOffice_CRM_IProductRegisterCache_UpdateProduct_SuperOffice_CRM_ProductInfo_
   name: UpdateProduct
   nameWithType: IProductRegisterCache.UpdateProduct
   fullName: SuperOffice.CRM.IProductRegisterCache.UpdateProduct
@@ -508,6 +621,7 @@ references:
   commentId: T:SuperOffice.CRM.ProductInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ProductInfo.html
   name: ProductInfo
   nameWithType: ProductInfo
   fullName: SuperOffice.CRM.ProductInfo
@@ -515,12 +629,14 @@ references:
   commentId: T:SuperOffice.CRM.PluginResponseInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.PluginResponseInfo.html
   name: PluginResponseInfo
   nameWithType: PluginResponseInfo
   fullName: SuperOffice.CRM.PluginResponseInfo
 - uid: SuperOffice.CRM.IProductRegisterCache.GetSuperOfficeProductProvider*
   commentId: Overload:SuperOffice.CRM.IProductRegisterCache.GetSuperOfficeProductProvider
   isExternal: true
+  href: SuperOffice.CRM.IProductRegisterCache.html#SuperOffice_CRM_IProductRegisterCache_GetSuperOfficeProductProvider_System_Int32_
   name: GetSuperOfficeProductProvider
   nameWithType: IProductRegisterCache.GetSuperOfficeProductProvider
   fullName: SuperOffice.CRM.IProductRegisterCache.GetSuperOfficeProductProvider
@@ -528,12 +644,14 @@ references:
   commentId: T:SuperOffice.CRM.IQuoteConnector
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IQuoteConnector.html
   name: IQuoteConnector
   nameWithType: IQuoteConnector
   fullName: SuperOffice.CRM.IQuoteConnector
 - uid: SuperOffice.CRM.IProductRegisterCache.RemovePriceList*
   commentId: Overload:SuperOffice.CRM.IProductRegisterCache.RemovePriceList
   isExternal: true
+  href: SuperOffice.CRM.IProductRegisterCache.html#SuperOffice_CRM_IProductRegisterCache_RemovePriceList_System_Int32_System_Boolean_
   name: RemovePriceList
   nameWithType: IProductRegisterCache.RemovePriceList
   fullName: SuperOffice.CRM.IProductRegisterCache.RemovePriceList
@@ -541,29 +659,66 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.IProductRegisterCache.RemoveProduct*
   commentId: Overload:SuperOffice.CRM.IProductRegisterCache.RemoveProduct
   isExternal: true
+  href: SuperOffice.CRM.IProductRegisterCache.html#SuperOffice_CRM_IProductRegisterCache_RemoveProduct_System_Int32_
   name: RemoveProduct
   nameWithType: IProductRegisterCache.RemoveProduct
   fullName: SuperOffice.CRM.IProductRegisterCache.RemoveProduct
 - uid: SuperOffice.CRM.IProductRegisterCache.InsertImage*
   commentId: Overload:SuperOffice.CRM.IProductRegisterCache.InsertImage
   isExternal: true
+  href: SuperOffice.CRM.IProductRegisterCache.html#SuperOffice_CRM_IProductRegisterCache_InsertImage_System_Int32_System_Drawing_Image_System_Int32_
   name: InsertImage
   nameWithType: IProductRegisterCache.InsertImage
   fullName: SuperOffice.CRM.IProductRegisterCache.InsertImage
 - uid: System.Drawing.Image
+  commentId: T:System.Drawing.Image
+  parent: System.Drawing
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.image
   name: Image
   nameWithType: Image
   fullName: System.Drawing.Image
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
 - uid: SuperOffice.CRM.IProductRegisterCache.RemoveImage*
   commentId: Overload:SuperOffice.CRM.IProductRegisterCache.RemoveImage
   isExternal: true
+  href: SuperOffice.CRM.IProductRegisterCache.html#SuperOffice_CRM_IProductRegisterCache_RemoveImage_System_Int32_
   name: RemoveImage
   nameWithType: IProductRegisterCache.RemoveImage
   fullName: SuperOffice.CRM.IProductRegisterCache.RemoveImage

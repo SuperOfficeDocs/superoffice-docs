@@ -71,21 +71,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "magni",
+  "RawValue": "unde",
   "Specification": null,
-  "DisplayValue": "est",
-  "DisplayTooltip": "aut",
+  "DisplayValue": "consectetur",
+  "DisplayTooltip": "ad",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 168,
-  "PrefDescId": 971,
-  "TableName": "Bashirian, Johns and Morar",
-  "UserPreferenceId": 404
+  "TargetId": 920,
+  "PrefDescId": 44,
+  "TableName": "Ruecker, Crona and Howe",
+  "UserPreferenceId": 191
 }
 ```
 

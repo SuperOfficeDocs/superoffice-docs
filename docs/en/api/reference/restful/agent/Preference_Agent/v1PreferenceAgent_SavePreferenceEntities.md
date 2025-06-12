@@ -65,26 +65,26 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "animi",
+      "RawValue": "magni",
       "Specification": null,
-      "DisplayValue": "vero",
-      "DisplayTooltip": "quia",
+      "DisplayValue": "quis",
+      "DisplayTooltip": "facilis",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 364,
-      "PrefDescId": 293,
-      "TableName": "Altenwerth, Dare and McLaughlin",
-      "UserPreferenceId": 940
+      "TargetId": 661,
+      "PrefDescId": 582,
+      "TableName": "White LLC",
+      "UserPreferenceId": 977
     }
   ],
-  "RemoveLowerLevels": false
+  "RemoveLowerLevels": true
 }
 ```
 

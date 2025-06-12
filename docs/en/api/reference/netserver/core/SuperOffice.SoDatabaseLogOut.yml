@@ -15,32 +15,18 @@ items:
   name: SoDatabaseLogOut
   nameWithType: SoDatabaseLogOut
   fullName: SuperOffice.SoDatabaseLogOut
-  type: Class
-  source:
-    path: SoCore
-    isExternal: true
+  type: Delegate
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nEvent raised as part of dissconnect database process (formerly referred to as the database logout process)\n"
+  summary: Event raised as part of dissconnect database process (formerly referred to as the database logout process)
+  example: []
   syntax:
-    content: 'public sealed class SoDatabaseLogOut : MulticastDelegate'
-    content.vb: >-
-      Public NotInheritable Class SoDatabaseLogOut
-          Inherits MulticastDelegate
-  inheritance:
-  - System.Object
+    content: public delegate void SoDatabaseLogOut()
+    content.vb: Public Delegate Sub SoDatabaseLogOut()
   extensionMethods:
   - SuperOffice.SoDatabaseLogOut.EnumUtil.MapEnums``2
   - SuperOffice.SoDatabaseLogOut.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
 - uid: SuperOffice.SoDatabaseLogOut.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.SoDatabaseLogOut.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -48,29 +34,25 @@ items:
   langs:
   - csharp
   - vb
-  name: SoDatabaseLogOut(Object, IntPtr)
-  nameWithType: SoDatabaseLogOut.SoDatabaseLogOut(Object, IntPtr)
-  fullName: SuperOffice.SoDatabaseLogOut.SoDatabaseLogOut(System.Object, System.IntPtr)
+  name: SoDatabaseLogOut(object, IntPtr)
+  nameWithType: SoDatabaseLogOut.SoDatabaseLogOut(object, IntPtr)
+  fullName: SuperOffice.SoDatabaseLogOut.SoDatabaseLogOut(object, System.IntPtr)
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
   syntax:
-    content: public SoDatabaseLogOut(object object, IntPtr method)
+    content: public SoDatabaseLogOut(object @object, IntPtr method)
     parameters:
     - id: object
       type: System.Object
     - id: method
       type: System.IntPtr
-    content.vb: Public Sub New(object As Object, method As IntPtr)
+    content.vb: Public Sub New([object] As Object, method As IntPtr)
   overload: SuperOffice.SoDatabaseLogOut.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SoDatabaseLogOut.New(Object, IntPtr)
+  fullName.vb: SuperOffice.SoDatabaseLogOut.New(Object, System.IntPtr)
+  name.vb: New(Object, IntPtr)
 - uid: SuperOffice.SoDatabaseLogOut.Invoke
   commentId: M:SuperOffice.SoDatabaseLogOut.Invoke
   id: Invoke
@@ -82,22 +64,13 @@ items:
   nameWithType: SoDatabaseLogOut.Invoke()
   fullName: SuperOffice.SoDatabaseLogOut.Invoke()
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
   syntax:
     content: public virtual void Invoke()
-    content.vb: Public Overridable Sub Invoke
+    content.vb: Public Overridable Sub Invoke()
   overload: SuperOffice.SoDatabaseLogOut.Invoke*
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.SoDatabaseLogOut.BeginInvoke(System.AsyncCallback,System.Object)
   commentId: M:SuperOffice.SoDatabaseLogOut.BeginInvoke(System.AsyncCallback,System.Object)
   id: BeginInvoke(System.AsyncCallback,System.Object)
@@ -105,18 +78,15 @@ items:
   langs:
   - csharp
   - vb
-  name: BeginInvoke(AsyncCallback, Object)
-  nameWithType: SoDatabaseLogOut.BeginInvoke(AsyncCallback, Object)
-  fullName: SuperOffice.SoDatabaseLogOut.BeginInvoke(System.AsyncCallback, System.Object)
+  name: BeginInvoke(AsyncCallback, object)
+  nameWithType: SoDatabaseLogOut.BeginInvoke(AsyncCallback, object)
+  fullName: SuperOffice.SoDatabaseLogOut.BeginInvoke(System.AsyncCallback, object)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
   syntax:
-    content: public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object object)
+    content: public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
     parameters:
     - id: callback
       type: System.AsyncCallback
@@ -124,14 +94,11 @@ items:
       type: System.Object
     return:
       type: System.IAsyncResult
-    content.vb: Public Overridable Function BeginInvoke(callback As AsyncCallback, object As Object) As IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(callback As AsyncCallback, [object] As Object) As IAsyncResult
   overload: SuperOffice.SoDatabaseLogOut.BeginInvoke*
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
+  nameWithType.vb: SoDatabaseLogOut.BeginInvoke(AsyncCallback, Object)
+  fullName.vb: SuperOffice.SoDatabaseLogOut.BeginInvoke(System.AsyncCallback, Object)
+  name.vb: BeginInvoke(AsyncCallback, Object)
 - uid: SuperOffice.SoDatabaseLogOut.EndInvoke(System.IAsyncResult)
   commentId: M:SuperOffice.SoDatabaseLogOut.EndInvoke(System.IAsyncResult)
   id: EndInvoke(System.IAsyncResult)
@@ -143,9 +110,6 @@ items:
   nameWithType: SoDatabaseLogOut.EndInvoke(IAsyncResult)
   fullName: SuperOffice.SoDatabaseLogOut.EndInvoke(System.IAsyncResult)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
@@ -156,103 +120,124 @@ items:
       type: System.IAsyncResult
     content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
   overload: SuperOffice.SoDatabaseLogOut.EndInvoke*
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
 - uid: SuperOffice
   commentId: N:SuperOffice
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice
   nameWithType: SuperOffice
   fullName: SuperOffice
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.SoDatabaseLogOut.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<SoDatabaseLogOut, To>()
-  nameWithType: EnumUtil.MapEnums<SoDatabaseLogOut, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.SoDatabaseLogOut, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of SoDatabaseLogOut, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.SoDatabaseLogOut, To)()
-  name.vb: MapEnums(Of SoDatabaseLogOut, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<SoDatabaseLogOut, To>(SoDatabaseLogOut)
+  nameWithType: EnumUtil.MapEnums<SoDatabaseLogOut, To>(SoDatabaseLogOut)
+  fullName: EnumUtil.MapEnums<SuperOffice.SoDatabaseLogOut, To>(SuperOffice.SoDatabaseLogOut)
+  nameWithType.vb: EnumUtil.MapEnums(Of SoDatabaseLogOut, To)(SoDatabaseLogOut)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.SoDatabaseLogOut, To)(SuperOffice.SoDatabaseLogOut)
+  name.vb: MapEnums(Of SoDatabaseLogOut, To)(SoDatabaseLogOut)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<SoDatabaseLogOut, To>
-    nameWithType: EnumUtil.MapEnums<SoDatabaseLogOut, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.SoDatabaseLogOut, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.SoDatabaseLogOut)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.SoDatabaseLogOut
+    name: SoDatabaseLogOut
+    isExternal: true
+    href: SuperOffice.SoDatabaseLogOut.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.SoDatabaseLogOut
+    name: SoDatabaseLogOut
+    isExternal: true
+    href: SuperOffice.SoDatabaseLogOut.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of SoDatabaseLogOut, To)
-    nameWithType: EnumUtil.MapEnums(Of SoDatabaseLogOut, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.SoDatabaseLogOut, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.SoDatabaseLogOut)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.SoDatabaseLogOut
+    name: SoDatabaseLogOut
+    isExternal: true
+    href: SuperOffice.SoDatabaseLogOut.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.SoDatabaseLogOut
+    name: SoDatabaseLogOut
+    isExternal: true
+    href: SuperOffice.SoDatabaseLogOut.html
+  - name: )
 - uid: SuperOffice.SoDatabaseLogOut.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<SoDatabaseLogOut, To>()
-  nameWithType: Converters.MapEnums<SoDatabaseLogOut, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.SoDatabaseLogOut, To>()
-  nameWithType.vb: Converters.MapEnums(Of SoDatabaseLogOut, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.SoDatabaseLogOut, To)()
-  name.vb: MapEnums(Of SoDatabaseLogOut, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<SoDatabaseLogOut, To>(SoDatabaseLogOut)
+  nameWithType: Converters.MapEnums<SoDatabaseLogOut, To>(SoDatabaseLogOut)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.SoDatabaseLogOut, To>(SuperOffice.SoDatabaseLogOut)
+  nameWithType.vb: Converters.MapEnums(Of SoDatabaseLogOut, To)(SoDatabaseLogOut)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.SoDatabaseLogOut, To)(SuperOffice.SoDatabaseLogOut)
+  name.vb: MapEnums(Of SoDatabaseLogOut, To)(SoDatabaseLogOut)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<SoDatabaseLogOut, To>
-    nameWithType: Converters.MapEnums<SoDatabaseLogOut, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.SoDatabaseLogOut, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.SoDatabaseLogOut)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.SoDatabaseLogOut
+    name: SoDatabaseLogOut
+    isExternal: true
+    href: SuperOffice.SoDatabaseLogOut.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.SoDatabaseLogOut
+    name: SoDatabaseLogOut
+    isExternal: true
+    href: SuperOffice.SoDatabaseLogOut.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of SoDatabaseLogOut, To)
-    nameWithType: Converters.MapEnums(Of SoDatabaseLogOut, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.SoDatabaseLogOut, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.SoDatabaseLogOut)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.SoDatabaseLogOut
+    name: SoDatabaseLogOut
+    isExternal: true
+    href: SuperOffice.SoDatabaseLogOut.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  - name: (
+  - uid: SuperOffice.SoDatabaseLogOut
+    name: SoDatabaseLogOut
+    isExternal: true
+    href: SuperOffice.SoDatabaseLogOut.html
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -261,43 +246,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -306,85 +293,149 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.SoDatabaseLogOut.#ctor*
   commentId: Overload:SuperOffice.SoDatabaseLogOut.#ctor
   isExternal: true
+  href: SuperOffice.SoDatabaseLogOut.html#SuperOffice_SoDatabaseLogOut__ctor_System_Object_System_IntPtr_
   name: SoDatabaseLogOut
   nameWithType: SoDatabaseLogOut.SoDatabaseLogOut
   fullName: SuperOffice.SoDatabaseLogOut.SoDatabaseLogOut
+  nameWithType.vb: SoDatabaseLogOut.New
+  fullName.vb: SuperOffice.SoDatabaseLogOut.New
+  name.vb: New
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.SoDatabaseLogOut.Invoke*
   commentId: Overload:SuperOffice.SoDatabaseLogOut.Invoke
   isExternal: true
+  href: SuperOffice.SoDatabaseLogOut.html#SuperOffice_SoDatabaseLogOut_Invoke
   name: Invoke
   nameWithType: SoDatabaseLogOut.Invoke
   fullName: SuperOffice.SoDatabaseLogOut.Invoke
 - uid: SuperOffice.SoDatabaseLogOut.BeginInvoke*
   commentId: Overload:SuperOffice.SoDatabaseLogOut.BeginInvoke
   isExternal: true
+  href: SuperOffice.SoDatabaseLogOut.html#SuperOffice_SoDatabaseLogOut_BeginInvoke_System_AsyncCallback_System_Object_
   name: BeginInvoke
   nameWithType: SoDatabaseLogOut.BeginInvoke
   fullName: SuperOffice.SoDatabaseLogOut.BeginInvoke
 - uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.asynccallback
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iasyncresult
   name: IAsyncResult
   nameWithType: IAsyncResult
   fullName: System.IAsyncResult
 - uid: SuperOffice.SoDatabaseLogOut.EndInvoke*
   commentId: Overload:SuperOffice.SoDatabaseLogOut.EndInvoke
   isExternal: true
+  href: SuperOffice.SoDatabaseLogOut.html#SuperOffice_SoDatabaseLogOut_EndInvoke_System_IAsyncResult_
   name: EndInvoke
   nameWithType: SoDatabaseLogOut.EndInvoke
   fullName: SuperOffice.SoDatabaseLogOut.EndInvoke

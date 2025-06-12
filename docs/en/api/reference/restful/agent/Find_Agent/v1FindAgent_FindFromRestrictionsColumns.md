@@ -100,21 +100,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Lueilwitz-Roberts",
-      "Operator": "non",
+      "Name": "Funk-Nienow",
+      "Operator": "totam",
       "Values": [
-        "dolores",
-        "modi"
+        "qui",
+        "quae"
       ],
       "DisplayValues": [
-        "ut",
-        "voluptas"
+        "qui",
+        "animi"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -122,18 +122,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 804,
+      "InterParenthesis": 972,
       "InterOperator": "And",
-      "UniqueHash": 524
+      "UniqueHash": 702
     }
   ],
-  "ProviderName": "Bauch, Boehm and Stracke",
+  "ProviderName": "Pfeffer LLC",
   "DesiredColumns": [
-    "ut",
-    "facere"
+    "dolorem",
+    "iste"
   ],
-  "PageSize": 914,
-  "PageNumber": 2
+  "PageSize": 88,
+  "PageNumber": 380
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Feil, Bosco and Thiel",
-      "DisplayTooltip": "et",
-      "DisplayType": "consequuntur",
+      "DisplayName": "Quigley Group",
+      "DisplayTooltip": "quas",
+      "DisplayType": "neque",
       "CanOrderBy": false,
-      "Name": "Kulas, Romaguera and Casper",
+      "Name": "Turcotte Inc and Sons",
       "CanRestrictBy": true,
-      "RestrictionType": "rerum",
-      "RestrictionListName": "Stehr-Little",
-      "IsVisible": false,
-      "ExtraInfo": "rem",
-      "Width": "est",
-      "IconHint": "doloribus",
-      "HeadingIconHint": "nihil"
+      "RestrictionType": "dolor",
+      "RestrictionListName": "McLaughlin Group",
+      "IsVisible": true,
+      "ExtraInfo": "odio",
+      "Width": "ut",
+      "IconHint": "iste",
+      "HeadingIconHint": "magni"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Medhurst-Pouros",
-      "PrimaryKey": 19,
+      "EntityName": "Osinski, Cummerata and Sanford",
+      "PrimaryKey": 684,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sunt",
-          "TooltipHint": "neque",
-          "LinkHint": "ex"
+          "DisplayValue": "nemo",
+          "TooltipHint": "expedita",
+          "LinkHint": "corrupti"
         }
       },
-      "LinkHint": "eum",
-      "StyleHint": "saepe",
+      "LinkHint": "consectetur",
+      "StyleHint": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 369
+          "FieldLength": 843
         }
       }
     }
   ],
-  "RowCount": 782,
+  "RowCount": 212,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 630
+      "FieldType": "System.String",
+      "FieldLength": 271
     }
   }
 }

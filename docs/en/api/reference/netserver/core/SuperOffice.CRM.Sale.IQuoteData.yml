@@ -1,0 +1,3513 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Sale.IQuoteData
+  commentId: T:SuperOffice.CRM.Sale.IQuoteData
+  id: IQuoteData
+  parent: SuperOffice.CRM.Sale
+  children:
+  - SuperOffice.CRM.Sale.IQuoteData.AddQuoteAlternativeAsync(SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.Rows.QuoteAlternativeRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.AddQuoteAlternativeAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.AddQuoteVersionAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.AddQuoteVersionAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuote(SuperOffice.CRM.QuoteInfo)
+  - SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuote(SuperOffice.CRM.QuoteInfo,System.Boolean)
+  - SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuote(SuperOffice.CRM.QuoteVersionContextInfo)
+  - SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteAlternativeAsync(SuperOffice.CRM.QuoteAlternativeContextInfo,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteAlternativeAsync(SuperOffice.CRM.QuoteAlternativeInfo,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteAlternativeAsync(SuperOffice.CRM.QuoteAlternativeInfo,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteVersionAsync(SuperOffice.CRM.QuoteAlternativeContextInfo,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteVersionAsync(SuperOffice.CRM.QuoteVersionContextInfo,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteVersionAsync(SuperOffice.CRM.QuoteVersionInfo,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteVersionAsync(SuperOffice.CRM.QuoteVersionInfo,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.ClearQuoteLineCache
+  - SuperOffice.CRM.Sale.IQuoteData.CloneQuoteAlternativesAsync(SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.Rows.QuoteVersionRow,System.Collections.Generic.List{SuperOffice.CRM.Rows.QuoteAlternativeRow},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.CloneQuoteAsync(SuperOffice.CRM.Sale.IQuoteManager,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.CloneQuoteLineRowsAsync(SuperOffice.CRM.Rows.QuoteAlternativeRow,SuperOffice.CRM.Rows.QuoteAlternativeRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.CloneQuoteVersionAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.ContactInfo
+  - SuperOffice.CRM.Sale.IQuoteData.CopyQuoteAlternativeAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.CreateQuoteAlternativeAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.CreateQuoteAlternativeAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.CreateQuoteLine(System.Int32)
+  - SuperOffice.CRM.Sale.IQuoteData.CreateQuoteVersionAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.CreateQuoteVersionCopyAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.Collections.Generic.List{SuperOffice.CRM.Rows.QuoteAlternativeRow},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.DeleteQuote(System.Int32)
+  - SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteAlternativeAsync(System.Int32)
+  - SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteLineAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteLineRowAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.DetectErpQuoteLineChangesAsync(System.Collections.Generic.List{SuperOffice.CRM.QuoteLineInfo},System.Collections.Generic.List{SuperOffice.CRM.QuoteLineInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.GetActiveQuoteVersionRowAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.GetAllRowObjectsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.GetAlternativeRowAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.GetAlternativeRowsAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.GetAlternativeRowsAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.GetBillingAddressAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.GetLikelyAlternativeRowAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.GetQuoteLineRowAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.GetQuoteLineRowsAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.GetQuoteVersionsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.GetShippingAddressAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.GetVersionAttachmentRowsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.GetVersionRowAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.InitializeAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.IsDeleted
+  - SuperOffice.CRM.Sale.IQuoteData.IsDirty
+  - SuperOffice.CRM.Sale.IQuoteData.PersonInfo
+  - SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteAlternativeRow(SuperOffice.CRM.Rows.QuoteAlternativeRow,SuperOffice.CRM.QuoteAlternativeInfo)
+  - SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteLineRow(SuperOffice.CRM.Rows.QuoteLineRow,SuperOffice.CRM.QuoteLineInfo)
+  - SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteRow(SuperOffice.CRM.Rows.QuoteRow,SuperOffice.CRM.QuoteInfo)
+  - SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteVersionRow(SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.QuoteVersionInfo)
+  - SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteVersionRow(SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.QuoteVersionInfo,System.Boolean)
+  - SuperOffice.CRM.Sale.IQuoteData.ProjectInfo
+  - SuperOffice.CRM.Sale.IQuoteData.QuoteRow
+  - SuperOffice.CRM.Sale.IQuoteData.RenameQuoteAlternativeAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.SaleInfo
+  - SuperOffice.CRM.Sale.IQuoteData.SaleRow
+  - SuperOffice.CRM.Sale.IQuoteData.SaveAlternativesAsync(SuperOffice.CRM.Rows.QuoteVersionRow)
+  - SuperOffice.CRM.Sale.IQuoteData.SaveAsync
+  - SuperOffice.CRM.Sale.IQuoteData.SaveErpQuoteLineChangesAsync(System.Int32,SuperOffice.CRM.Sale.QuoteAlternativeRecalculatedHelper,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.SaveQuoteLineAsync(SuperOffice.CRM.QuoteLineInfo,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.SetOwnAddressAsync(SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.AddressInfo,SuperOffice.Data.AddressType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.SetOwnAddressAsync(System.Int32,SuperOffice.CRM.Rows.AddressRow,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.SetQuoteLineImageAsync(SuperOffice.CRM.QuoteLineInfo,SuperOffice.Data.BlobLinkType,System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.IQuoteData.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: IQuoteData
+  nameWithType: IQuoteData
+  fullName: SuperOffice.CRM.Sale.IQuoteData
+  type: Interface
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: public interface IQuoteData
+    content.vb: Public Interface IQuoteData
+  extensionMethods:
+  - SuperOffice.CRM.Sale.IQuoteData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Sale.IQuoteData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.CRM.Sale.IQuoteData.GetActiveQuoteVersionRowAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.GetActiveQuoteVersionRowAsync(System.Threading.CancellationToken)
+  id: GetActiveQuoteVersionRowAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: GetActiveQuoteVersionRowAsync(CancellationToken)
+  nameWithType: IQuoteData.GetActiveQuoteVersionRowAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.GetActiveQuoteVersionRowAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<QuoteVersionRow> GetActiveQuoteVersionRowAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteVersionRow}
+    content.vb: Function GetActiveQuoteVersionRowAsync(cancellationToken As CancellationToken = Nothing) As Task(Of QuoteVersionRow)
+  overload: SuperOffice.CRM.Sale.IQuoteData.GetActiveQuoteVersionRowAsync*
+- uid: SuperOffice.CRM.Sale.IQuoteData.GetAllRowObjectsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.GetAllRowObjectsAsync(System.Threading.CancellationToken)
+  id: GetAllRowObjectsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: GetAllRowObjectsAsync(CancellationToken)
+  nameWithType: IQuoteData.GetAllRowObjectsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.GetAllRowObjectsAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: IAsyncEnumerable<TableRowBase> GetAllRowObjectsAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.TableRowBase}
+    content.vb: Function GetAllRowObjectsAsync(cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of TableRowBase)
+  overload: SuperOffice.CRM.Sale.IQuoteData.GetAllRowObjectsAsync*
+- uid: SuperOffice.CRM.Sale.IQuoteData.GetQuoteVersionsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.GetQuoteVersionsAsync(System.Threading.CancellationToken)
+  id: GetQuoteVersionsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: GetQuoteVersionsAsync(CancellationToken)
+  nameWithType: IQuoteData.GetQuoteVersionsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.GetQuoteVersionsAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<Dictionary<QuoteVersionRow, List<QuoteAlternativeRow>>> GetQuoteVersionsAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{SuperOffice.CRM.Rows.QuoteVersionRow,System.Collections.Generic.List{SuperOffice.CRM.Rows.QuoteAlternativeRow}}}
+    content.vb: Function GetQuoteVersionsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Dictionary(Of QuoteVersionRow, List(Of QuoteAlternativeRow)))
+  overload: SuperOffice.CRM.Sale.IQuoteData.GetQuoteVersionsAsync*
+- uid: SuperOffice.CRM.Sale.IQuoteData.GetVersionAttachmentRowsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.GetVersionAttachmentRowsAsync(System.Threading.CancellationToken)
+  id: GetVersionAttachmentRowsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: GetVersionAttachmentRowsAsync(CancellationToken)
+  nameWithType: IQuoteData.GetVersionAttachmentRowsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.GetVersionAttachmentRowsAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<Dictionary<QuoteVersionRow, QuoteVersionAttachmentRows>> GetVersionAttachmentRowsAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.Rows.QuoteVersionAttachmentRows}}
+    content.vb: Function GetVersionAttachmentRowsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Dictionary(Of QuoteVersionRow, QuoteVersionAttachmentRows))
+  overload: SuperOffice.CRM.Sale.IQuoteData.GetVersionAttachmentRowsAsync*
+- uid: SuperOffice.CRM.Sale.IQuoteData.AddQuoteAlternativeAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.AddQuoteAlternativeAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.Threading.CancellationToken)
+  id: AddQuoteAlternativeAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: AddQuoteAlternativeAsync(QuoteVersionRow, CancellationToken)
+  nameWithType: IQuoteData.AddQuoteAlternativeAsync(QuoteVersionRow, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.AddQuoteAlternativeAsync(SuperOffice.CRM.Rows.QuoteVersionRow, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<QuoteAlternativeRow> AddQuoteAlternativeAsync(QuoteVersionRow quoteVersionRow, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteVersionRow
+      type: SuperOffice.CRM.Rows.QuoteVersionRow
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteAlternativeRow}
+    content.vb: Function AddQuoteAlternativeAsync(quoteVersionRow As QuoteVersionRow, cancellationToken As CancellationToken = Nothing) As Task(Of QuoteAlternativeRow)
+  overload: SuperOffice.CRM.Sale.IQuoteData.AddQuoteAlternativeAsync*
+- uid: SuperOffice.CRM.Sale.IQuoteData.AddQuoteAlternativeAsync(SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.Rows.QuoteAlternativeRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.AddQuoteAlternativeAsync(SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.Rows.QuoteAlternativeRow,System.Threading.CancellationToken)
+  id: AddQuoteAlternativeAsync(SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.Rows.QuoteAlternativeRow,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: AddQuoteAlternativeAsync(QuoteVersionRow, QuoteAlternativeRow, CancellationToken)
+  nameWithType: IQuoteData.AddQuoteAlternativeAsync(QuoteVersionRow, QuoteAlternativeRow, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.AddQuoteAlternativeAsync(SuperOffice.CRM.Rows.QuoteVersionRow, SuperOffice.CRM.Rows.QuoteAlternativeRow, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<QuoteAlternativeRow> AddQuoteAlternativeAsync(QuoteVersionRow quoteVersionRow, QuoteAlternativeRow quoteAlternativeRow, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteVersionRow
+      type: SuperOffice.CRM.Rows.QuoteVersionRow
+    - id: quoteAlternativeRow
+      type: SuperOffice.CRM.Rows.QuoteAlternativeRow
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteAlternativeRow}
+    content.vb: Function AddQuoteAlternativeAsync(quoteVersionRow As QuoteVersionRow, quoteAlternativeRow As QuoteAlternativeRow, cancellationToken As CancellationToken = Nothing) As Task(Of QuoteAlternativeRow)
+  overload: SuperOffice.CRM.Sale.IQuoteData.AddQuoteAlternativeAsync*
+- uid: SuperOffice.CRM.Sale.IQuoteData.AddQuoteVersionAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.AddQuoteVersionAsync(System.Threading.CancellationToken)
+  id: AddQuoteVersionAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: AddQuoteVersionAsync(CancellationToken)
+  nameWithType: IQuoteData.AddQuoteVersionAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.AddQuoteVersionAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<QuoteVersionRow> AddQuoteVersionAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteVersionRow}
+    content.vb: Function AddQuoteVersionAsync(cancellationToken As CancellationToken = Nothing) As Task(Of QuoteVersionRow)
+  overload: SuperOffice.CRM.Sale.IQuoteData.AddQuoteVersionAsync*
+- uid: SuperOffice.CRM.Sale.IQuoteData.AddQuoteVersionAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.AddQuoteVersionAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.Threading.CancellationToken)
+  id: AddQuoteVersionAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: AddQuoteVersionAsync(QuoteVersionRow, CancellationToken)
+  nameWithType: IQuoteData.AddQuoteVersionAsync(QuoteVersionRow, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.AddQuoteVersionAsync(SuperOffice.CRM.Rows.QuoteVersionRow, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<QuoteVersionRow> AddQuoteVersionAsync(QuoteVersionRow quoteVersionRow, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteVersionRow
+      type: SuperOffice.CRM.Rows.QuoteVersionRow
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteVersionRow}
+    content.vb: Function AddQuoteVersionAsync(quoteVersionRow As QuoteVersionRow, cancellationToken As CancellationToken = Nothing) As Task(Of QuoteVersionRow)
+  overload: SuperOffice.CRM.Sale.IQuoteData.AddQuoteVersionAsync*
+- uid: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuote(SuperOffice.CRM.QuoteInfo)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuote(SuperOffice.CRM.QuoteInfo)
+  id: ApplyErpChangesToQuote(SuperOffice.CRM.QuoteInfo)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: ApplyErpChangesToQuote(QuoteInfo)
+  nameWithType: IQuoteData.ApplyErpChangesToQuote(QuoteInfo)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuote(SuperOffice.CRM.QuoteInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: bool ApplyErpChangesToQuote(QuoteInfo quoteInfo)
+    parameters:
+    - id: quoteInfo
+      type: SuperOffice.CRM.QuoteInfo
+    return:
+      type: System.Boolean
+    content.vb: Function ApplyErpChangesToQuote(quoteInfo As QuoteInfo) As Boolean
+  overload: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuote*
+- uid: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuote(SuperOffice.CRM.QuoteInfo,System.Boolean)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuote(SuperOffice.CRM.QuoteInfo,System.Boolean)
+  id: ApplyErpChangesToQuote(SuperOffice.CRM.QuoteInfo,System.Boolean)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: ApplyErpChangesToQuote(QuoteInfo, bool)
+  nameWithType: IQuoteData.ApplyErpChangesToQuote(QuoteInfo, bool)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuote(SuperOffice.CRM.QuoteInfo, bool)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: bool ApplyErpChangesToQuote(QuoteInfo quoteInfo, bool ignoreSentry)
+    parameters:
+    - id: quoteInfo
+      type: SuperOffice.CRM.QuoteInfo
+    - id: ignoreSentry
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: Function ApplyErpChangesToQuote(quoteInfo As QuoteInfo, ignoreSentry As Boolean) As Boolean
+  overload: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuote*
+  nameWithType.vb: IQuoteData.ApplyErpChangesToQuote(QuoteInfo, Boolean)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuote(SuperOffice.CRM.QuoteInfo, Boolean)
+  name.vb: ApplyErpChangesToQuote(QuoteInfo, Boolean)
+- uid: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuote(SuperOffice.CRM.QuoteVersionContextInfo)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuote(SuperOffice.CRM.QuoteVersionContextInfo)
+  id: ApplyErpChangesToQuote(SuperOffice.CRM.QuoteVersionContextInfo)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: ApplyErpChangesToQuote(QuoteVersionContextInfo)
+  nameWithType: IQuoteData.ApplyErpChangesToQuote(QuoteVersionContextInfo)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuote(SuperOffice.CRM.QuoteVersionContextInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: bool ApplyErpChangesToQuote(QuoteVersionContextInfo quoteVersionContextInfo)
+    parameters:
+    - id: quoteVersionContextInfo
+      type: SuperOffice.CRM.QuoteVersionContextInfo
+    return:
+      type: System.Boolean
+    content.vb: Function ApplyErpChangesToQuote(quoteVersionContextInfo As QuoteVersionContextInfo) As Boolean
+  overload: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuote*
+- uid: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteAlternativeAsync(SuperOffice.CRM.QuoteAlternativeContextInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteAlternativeAsync(SuperOffice.CRM.QuoteAlternativeContextInfo,System.Threading.CancellationToken)
+  id: ApplyErpChangesToQuoteAlternativeAsync(SuperOffice.CRM.QuoteAlternativeContextInfo,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: ApplyErpChangesToQuoteAlternativeAsync(QuoteAlternativeContextInfo, CancellationToken)
+  nameWithType: IQuoteData.ApplyErpChangesToQuoteAlternativeAsync(QuoteAlternativeContextInfo, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteAlternativeAsync(SuperOffice.CRM.QuoteAlternativeContextInfo, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<bool> ApplyErpChangesToQuoteAlternativeAsync(QuoteAlternativeContextInfo quoteContextInfo, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteContextInfo
+      type: SuperOffice.CRM.QuoteAlternativeContextInfo
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function ApplyErpChangesToQuoteAlternativeAsync(quoteContextInfo As QuoteAlternativeContextInfo, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteAlternativeAsync*
+- uid: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteAlternativeAsync(SuperOffice.CRM.QuoteAlternativeInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteAlternativeAsync(SuperOffice.CRM.QuoteAlternativeInfo,System.Threading.CancellationToken)
+  id: ApplyErpChangesToQuoteAlternativeAsync(SuperOffice.CRM.QuoteAlternativeInfo,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: ApplyErpChangesToQuoteAlternativeAsync(QuoteAlternativeInfo, CancellationToken)
+  nameWithType: IQuoteData.ApplyErpChangesToQuoteAlternativeAsync(QuoteAlternativeInfo, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteAlternativeAsync(SuperOffice.CRM.QuoteAlternativeInfo, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<bool> ApplyErpChangesToQuoteAlternativeAsync(QuoteAlternativeInfo quoteAlternativeInfo, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteAlternativeInfo
+      type: SuperOffice.CRM.QuoteAlternativeInfo
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function ApplyErpChangesToQuoteAlternativeAsync(quoteAlternativeInfo As QuoteAlternativeInfo, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteAlternativeAsync*
+- uid: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteAlternativeAsync(SuperOffice.CRM.QuoteAlternativeInfo,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteAlternativeAsync(SuperOffice.CRM.QuoteAlternativeInfo,System.Boolean,System.Threading.CancellationToken)
+  id: ApplyErpChangesToQuoteAlternativeAsync(SuperOffice.CRM.QuoteAlternativeInfo,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: ApplyErpChangesToQuoteAlternativeAsync(QuoteAlternativeInfo, bool, CancellationToken)
+  nameWithType: IQuoteData.ApplyErpChangesToQuoteAlternativeAsync(QuoteAlternativeInfo, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteAlternativeAsync(SuperOffice.CRM.QuoteAlternativeInfo, bool, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<bool> ApplyErpChangesToQuoteAlternativeAsync(QuoteAlternativeInfo quoteAlternativeInfo, bool ignoreSentry, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteAlternativeInfo
+      type: SuperOffice.CRM.QuoteAlternativeInfo
+    - id: ignoreSentry
+      type: System.Boolean
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function ApplyErpChangesToQuoteAlternativeAsync(quoteAlternativeInfo As QuoteAlternativeInfo, ignoreSentry As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteAlternativeAsync*
+  nameWithType.vb: IQuoteData.ApplyErpChangesToQuoteAlternativeAsync(QuoteAlternativeInfo, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteAlternativeAsync(SuperOffice.CRM.QuoteAlternativeInfo, Boolean, System.Threading.CancellationToken)
+  name.vb: ApplyErpChangesToQuoteAlternativeAsync(QuoteAlternativeInfo, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteVersionAsync(SuperOffice.CRM.QuoteAlternativeContextInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteVersionAsync(SuperOffice.CRM.QuoteAlternativeContextInfo,System.Threading.CancellationToken)
+  id: ApplyErpChangesToQuoteVersionAsync(SuperOffice.CRM.QuoteAlternativeContextInfo,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: ApplyErpChangesToQuoteVersionAsync(QuoteAlternativeContextInfo, CancellationToken)
+  nameWithType: IQuoteData.ApplyErpChangesToQuoteVersionAsync(QuoteAlternativeContextInfo, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteVersionAsync(SuperOffice.CRM.QuoteAlternativeContextInfo, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<bool> ApplyErpChangesToQuoteVersionAsync(QuoteAlternativeContextInfo quoteAlternativeContextInfo, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteAlternativeContextInfo
+      type: SuperOffice.CRM.QuoteAlternativeContextInfo
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function ApplyErpChangesToQuoteVersionAsync(quoteAlternativeContextInfo As QuoteAlternativeContextInfo, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteVersionAsync*
+- uid: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteVersionAsync(SuperOffice.CRM.QuoteVersionContextInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteVersionAsync(SuperOffice.CRM.QuoteVersionContextInfo,System.Threading.CancellationToken)
+  id: ApplyErpChangesToQuoteVersionAsync(SuperOffice.CRM.QuoteVersionContextInfo,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: ApplyErpChangesToQuoteVersionAsync(QuoteVersionContextInfo, CancellationToken)
+  nameWithType: IQuoteData.ApplyErpChangesToQuoteVersionAsync(QuoteVersionContextInfo, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteVersionAsync(SuperOffice.CRM.QuoteVersionContextInfo, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<bool> ApplyErpChangesToQuoteVersionAsync(QuoteVersionContextInfo quoteContextInfo, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteContextInfo
+      type: SuperOffice.CRM.QuoteVersionContextInfo
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function ApplyErpChangesToQuoteVersionAsync(quoteContextInfo As QuoteVersionContextInfo, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteVersionAsync*
+- uid: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteVersionAsync(SuperOffice.CRM.QuoteVersionInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteVersionAsync(SuperOffice.CRM.QuoteVersionInfo,System.Threading.CancellationToken)
+  id: ApplyErpChangesToQuoteVersionAsync(SuperOffice.CRM.QuoteVersionInfo,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: ApplyErpChangesToQuoteVersionAsync(QuoteVersionInfo, CancellationToken)
+  nameWithType: IQuoteData.ApplyErpChangesToQuoteVersionAsync(QuoteVersionInfo, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteVersionAsync(SuperOffice.CRM.QuoteVersionInfo, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<bool> ApplyErpChangesToQuoteVersionAsync(QuoteVersionInfo quoteVersionInfo, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteVersionInfo
+      type: SuperOffice.CRM.QuoteVersionInfo
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function ApplyErpChangesToQuoteVersionAsync(quoteVersionInfo As QuoteVersionInfo, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteVersionAsync*
+- uid: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteVersionAsync(SuperOffice.CRM.QuoteVersionInfo,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteVersionAsync(SuperOffice.CRM.QuoteVersionInfo,System.Boolean,System.Threading.CancellationToken)
+  id: ApplyErpChangesToQuoteVersionAsync(SuperOffice.CRM.QuoteVersionInfo,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: ApplyErpChangesToQuoteVersionAsync(QuoteVersionInfo, bool, CancellationToken)
+  nameWithType: IQuoteData.ApplyErpChangesToQuoteVersionAsync(QuoteVersionInfo, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteVersionAsync(SuperOffice.CRM.QuoteVersionInfo, bool, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<bool> ApplyErpChangesToQuoteVersionAsync(QuoteVersionInfo quoteVersionInfo, bool ignoreSentry, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteVersionInfo
+      type: SuperOffice.CRM.QuoteVersionInfo
+    - id: ignoreSentry
+      type: System.Boolean
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function ApplyErpChangesToQuoteVersionAsync(quoteVersionInfo As QuoteVersionInfo, ignoreSentry As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteVersionAsync*
+  nameWithType.vb: IQuoteData.ApplyErpChangesToQuoteVersionAsync(QuoteVersionInfo, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteVersionAsync(SuperOffice.CRM.QuoteVersionInfo, Boolean, System.Threading.CancellationToken)
+  name.vb: ApplyErpChangesToQuoteVersionAsync(QuoteVersionInfo, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Sale.IQuoteData.ClearQuoteLineCache
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.ClearQuoteLineCache
+  id: ClearQuoteLineCache
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: ClearQuoteLineCache()
+  nameWithType: IQuoteData.ClearQuoteLineCache()
+  fullName: SuperOffice.CRM.Sale.IQuoteData.ClearQuoteLineCache()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: void ClearQuoteLineCache()
+    content.vb: Sub ClearQuoteLineCache()
+  overload: SuperOffice.CRM.Sale.IQuoteData.ClearQuoteLineCache*
+- uid: SuperOffice.CRM.Sale.IQuoteData.CloneQuoteAlternativesAsync(SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.Rows.QuoteVersionRow,System.Collections.Generic.List{SuperOffice.CRM.Rows.QuoteAlternativeRow},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.CloneQuoteAlternativesAsync(SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.Rows.QuoteVersionRow,System.Collections.Generic.List{SuperOffice.CRM.Rows.QuoteAlternativeRow},System.Threading.CancellationToken)
+  id: CloneQuoteAlternativesAsync(SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.Rows.QuoteVersionRow,System.Collections.Generic.List{SuperOffice.CRM.Rows.QuoteAlternativeRow},System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: CloneQuoteAlternativesAsync(QuoteVersionRow, QuoteVersionRow, List<QuoteAlternativeRow>, CancellationToken)
+  nameWithType: IQuoteData.CloneQuoteAlternativesAsync(QuoteVersionRow, QuoteVersionRow, List<QuoteAlternativeRow>, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.CloneQuoteAlternativesAsync(SuperOffice.CRM.Rows.QuoteVersionRow, SuperOffice.CRM.Rows.QuoteVersionRow, System.Collections.Generic.List<SuperOffice.CRM.Rows.QuoteAlternativeRow>, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task CloneQuoteAlternativesAsync(QuoteVersionRow existingQuoteVersionRow, QuoteVersionRow newQuoteVersionRow, List<QuoteAlternativeRow> existingQuoteAlternativeRows, CancellationToken cancellationToken = default)
+    parameters:
+    - id: existingQuoteVersionRow
+      type: SuperOffice.CRM.Rows.QuoteVersionRow
+    - id: newQuoteVersionRow
+      type: SuperOffice.CRM.Rows.QuoteVersionRow
+    - id: existingQuoteAlternativeRows
+      type: System.Collections.Generic.List{SuperOffice.CRM.Rows.QuoteAlternativeRow}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function CloneQuoteAlternativesAsync(existingQuoteVersionRow As QuoteVersionRow, newQuoteVersionRow As QuoteVersionRow, existingQuoteAlternativeRows As List(Of QuoteAlternativeRow), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Sale.IQuoteData.CloneQuoteAlternativesAsync*
+  nameWithType.vb: IQuoteData.CloneQuoteAlternativesAsync(QuoteVersionRow, QuoteVersionRow, List(Of QuoteAlternativeRow), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.CloneQuoteAlternativesAsync(SuperOffice.CRM.Rows.QuoteVersionRow, SuperOffice.CRM.Rows.QuoteVersionRow, System.Collections.Generic.List(Of SuperOffice.CRM.Rows.QuoteAlternativeRow), System.Threading.CancellationToken)
+  name.vb: CloneQuoteAlternativesAsync(QuoteVersionRow, QuoteVersionRow, List(Of QuoteAlternativeRow), CancellationToken)
+- uid: SuperOffice.CRM.Sale.IQuoteData.CloneQuoteAsync(SuperOffice.CRM.Sale.IQuoteManager,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.CloneQuoteAsync(SuperOffice.CRM.Sale.IQuoteManager,System.Threading.CancellationToken)
+  id: CloneQuoteAsync(SuperOffice.CRM.Sale.IQuoteManager,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: CloneQuoteAsync(IQuoteManager, CancellationToken)
+  nameWithType: IQuoteData.CloneQuoteAsync(IQuoteManager, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.CloneQuoteAsync(SuperOffice.CRM.Sale.IQuoteManager, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task CloneQuoteAsync(IQuoteManager copyFromQuoteManager, CancellationToken cancellationToken = default)
+    parameters:
+    - id: copyFromQuoteManager
+      type: SuperOffice.CRM.Sale.IQuoteManager
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function CloneQuoteAsync(copyFromQuoteManager As IQuoteManager, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Sale.IQuoteData.CloneQuoteAsync*
+- uid: SuperOffice.CRM.Sale.IQuoteData.CloneQuoteLineRowsAsync(SuperOffice.CRM.Rows.QuoteAlternativeRow,SuperOffice.CRM.Rows.QuoteAlternativeRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.CloneQuoteLineRowsAsync(SuperOffice.CRM.Rows.QuoteAlternativeRow,SuperOffice.CRM.Rows.QuoteAlternativeRow,System.Threading.CancellationToken)
+  id: CloneQuoteLineRowsAsync(SuperOffice.CRM.Rows.QuoteAlternativeRow,SuperOffice.CRM.Rows.QuoteAlternativeRow,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: CloneQuoteLineRowsAsync(QuoteAlternativeRow, QuoteAlternativeRow, CancellationToken)
+  nameWithType: IQuoteData.CloneQuoteLineRowsAsync(QuoteAlternativeRow, QuoteAlternativeRow, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.CloneQuoteLineRowsAsync(SuperOffice.CRM.Rows.QuoteAlternativeRow, SuperOffice.CRM.Rows.QuoteAlternativeRow, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<QuoteLineRows> CloneQuoteLineRowsAsync(QuoteAlternativeRow existingAlternativeRow, QuoteAlternativeRow newAlternativeRow, CancellationToken cancellationToken = default)
+    parameters:
+    - id: existingAlternativeRow
+      type: SuperOffice.CRM.Rows.QuoteAlternativeRow
+    - id: newAlternativeRow
+      type: SuperOffice.CRM.Rows.QuoteAlternativeRow
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteLineRows}
+    content.vb: Function CloneQuoteLineRowsAsync(existingAlternativeRow As QuoteAlternativeRow, newAlternativeRow As QuoteAlternativeRow, cancellationToken As CancellationToken = Nothing) As Task(Of QuoteLineRows)
+  overload: SuperOffice.CRM.Sale.IQuoteData.CloneQuoteLineRowsAsync*
+- uid: SuperOffice.CRM.Sale.IQuoteData.CloneQuoteVersionAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.CloneQuoteVersionAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.Threading.CancellationToken)
+  id: CloneQuoteVersionAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: CloneQuoteVersionAsync(QuoteVersionRow, CancellationToken)
+  nameWithType: IQuoteData.CloneQuoteVersionAsync(QuoteVersionRow, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.CloneQuoteVersionAsync(SuperOffice.CRM.Rows.QuoteVersionRow, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<QuoteVersionRow> CloneQuoteVersionAsync(QuoteVersionRow existingQuoteVersionRow, CancellationToken cancellationToken = default)
+    parameters:
+    - id: existingQuoteVersionRow
+      type: SuperOffice.CRM.Rows.QuoteVersionRow
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteVersionRow}
+    content.vb: Function CloneQuoteVersionAsync(existingQuoteVersionRow As QuoteVersionRow, cancellationToken As CancellationToken = Nothing) As Task(Of QuoteVersionRow)
+  overload: SuperOffice.CRM.Sale.IQuoteData.CloneQuoteVersionAsync*
+- uid: SuperOffice.CRM.Sale.IQuoteData.CopyQuoteAlternativeAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.CopyQuoteAlternativeAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: CopyQuoteAlternativeAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: CopyQuoteAlternativeAsync(int, int, CancellationToken)
+  nameWithType: IQuoteData.CopyQuoteAlternativeAsync(int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.CopyQuoteAlternativeAsync(int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<QuoteAlternativeRow> CopyQuoteAlternativeAsync(int quoteVersionId, int copyFromQuoteAlternativeId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteVersionId
+      type: System.Int32
+    - id: copyFromQuoteAlternativeId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteAlternativeRow}
+    content.vb: Function CopyQuoteAlternativeAsync(quoteVersionId As Integer, copyFromQuoteAlternativeId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of QuoteAlternativeRow)
+  overload: SuperOffice.CRM.Sale.IQuoteData.CopyQuoteAlternativeAsync*
+  nameWithType.vb: IQuoteData.CopyQuoteAlternativeAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.CopyQuoteAlternativeAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: CopyQuoteAlternativeAsync(Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteAlternativeAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.CreateQuoteAlternativeAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  id: CreateQuoteAlternativeAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: CreateQuoteAlternativeAsync(int, string, CancellationToken)
+  nameWithType: IQuoteData.CreateQuoteAlternativeAsync(int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteAlternativeAsync(int, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<QuoteAlternativeRow> CreateQuoteAlternativeAsync(int quoteVersionId, string alternativeName, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteVersionId
+      type: System.Int32
+    - id: alternativeName
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteAlternativeRow}
+    content.vb: Function CreateQuoteAlternativeAsync(quoteVersionId As Integer, alternativeName As String, cancellationToken As CancellationToken = Nothing) As Task(Of QuoteAlternativeRow)
+  overload: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteAlternativeAsync*
+  nameWithType.vb: IQuoteData.CreateQuoteAlternativeAsync(Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteAlternativeAsync(Integer, String, System.Threading.CancellationToken)
+  name.vb: CreateQuoteAlternativeAsync(Integer, String, CancellationToken)
+- uid: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteAlternativeAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.CreateQuoteAlternativeAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.String,System.Threading.CancellationToken)
+  id: CreateQuoteAlternativeAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: CreateQuoteAlternativeAsync(QuoteVersionRow, string, CancellationToken)
+  nameWithType: IQuoteData.CreateQuoteAlternativeAsync(QuoteVersionRow, string, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteAlternativeAsync(SuperOffice.CRM.Rows.QuoteVersionRow, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<QuoteAlternativeRow> CreateQuoteAlternativeAsync(QuoteVersionRow quoteVersionRow, string alternativeName, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteVersionRow
+      type: SuperOffice.CRM.Rows.QuoteVersionRow
+    - id: alternativeName
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteAlternativeRow}
+    content.vb: Function CreateQuoteAlternativeAsync(quoteVersionRow As QuoteVersionRow, alternativeName As String, cancellationToken As CancellationToken = Nothing) As Task(Of QuoteAlternativeRow)
+  overload: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteAlternativeAsync*
+  nameWithType.vb: IQuoteData.CreateQuoteAlternativeAsync(QuoteVersionRow, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteAlternativeAsync(SuperOffice.CRM.Rows.QuoteVersionRow, String, System.Threading.CancellationToken)
+  name.vb: CreateQuoteAlternativeAsync(QuoteVersionRow, String, CancellationToken)
+- uid: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteLine(System.Int32)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.CreateQuoteLine(System.Int32)
+  id: CreateQuoteLine(System.Int32)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: CreateQuoteLine(int)
+  nameWithType: IQuoteData.CreateQuoteLine(int)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteLine(int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: QuoteLineRow CreateQuoteLine(int quoteAlternativeId)
+    parameters:
+    - id: quoteAlternativeId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Rows.QuoteLineRow
+    content.vb: Function CreateQuoteLine(quoteAlternativeId As Integer) As QuoteLineRow
+  overload: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteLine*
+  nameWithType.vb: IQuoteData.CreateQuoteLine(Integer)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteLine(Integer)
+  name.vb: CreateQuoteLine(Integer)
+- uid: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteVersionAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.CreateQuoteVersionAsync(System.String,System.Threading.CancellationToken)
+  id: CreateQuoteVersionAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: CreateQuoteVersionAsync(string, CancellationToken)
+  nameWithType: IQuoteData.CreateQuoteVersionAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteVersionAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<QuoteVersionRow> CreateQuoteVersionAsync(string firstAlternativeName, CancellationToken cancellationToken = default)
+    parameters:
+    - id: firstAlternativeName
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteVersionRow}
+    content.vb: Function CreateQuoteVersionAsync(firstAlternativeName As String, cancellationToken As CancellationToken = Nothing) As Task(Of QuoteVersionRow)
+  overload: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteVersionAsync*
+  nameWithType.vb: IQuoteData.CreateQuoteVersionAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteVersionAsync(String, System.Threading.CancellationToken)
+  name.vb: CreateQuoteVersionAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteVersionCopyAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.Collections.Generic.List{SuperOffice.CRM.Rows.QuoteAlternativeRow},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.CreateQuoteVersionCopyAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.Collections.Generic.List{SuperOffice.CRM.Rows.QuoteAlternativeRow},System.Threading.CancellationToken)
+  id: CreateQuoteVersionCopyAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.Collections.Generic.List{SuperOffice.CRM.Rows.QuoteAlternativeRow},System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: CreateQuoteVersionCopyAsync(QuoteVersionRow, List<QuoteAlternativeRow>, CancellationToken)
+  nameWithType: IQuoteData.CreateQuoteVersionCopyAsync(QuoteVersionRow, List<QuoteAlternativeRow>, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteVersionCopyAsync(SuperOffice.CRM.Rows.QuoteVersionRow, System.Collections.Generic.List<SuperOffice.CRM.Rows.QuoteAlternativeRow>, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<QuoteVersionRow> CreateQuoteVersionCopyAsync(QuoteVersionRow existingQuoteVersionRow, List<QuoteAlternativeRow> existingQuoteAlternativeRows, CancellationToken cancellationToken = default)
+    parameters:
+    - id: existingQuoteVersionRow
+      type: SuperOffice.CRM.Rows.QuoteVersionRow
+    - id: existingQuoteAlternativeRows
+      type: System.Collections.Generic.List{SuperOffice.CRM.Rows.QuoteAlternativeRow}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteVersionRow}
+    content.vb: Function CreateQuoteVersionCopyAsync(existingQuoteVersionRow As QuoteVersionRow, existingQuoteAlternativeRows As List(Of QuoteAlternativeRow), cancellationToken As CancellationToken = Nothing) As Task(Of QuoteVersionRow)
+  overload: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteVersionCopyAsync*
+  nameWithType.vb: IQuoteData.CreateQuoteVersionCopyAsync(QuoteVersionRow, List(Of QuoteAlternativeRow), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteVersionCopyAsync(SuperOffice.CRM.Rows.QuoteVersionRow, System.Collections.Generic.List(Of SuperOffice.CRM.Rows.QuoteAlternativeRow), System.Threading.CancellationToken)
+  name.vb: CreateQuoteVersionCopyAsync(QuoteVersionRow, List(Of QuoteAlternativeRow), CancellationToken)
+- uid: SuperOffice.CRM.Sale.IQuoteData.DeleteQuote(System.Int32)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.DeleteQuote(System.Int32)
+  id: DeleteQuote(System.Int32)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: DeleteQuote(int)
+  nameWithType: IQuoteData.DeleteQuote(int)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.DeleteQuote(int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: void DeleteQuote(int quoteId)
+    parameters:
+    - id: quoteId
+      type: System.Int32
+    content.vb: Sub DeleteQuote(quoteId As Integer)
+  overload: SuperOffice.CRM.Sale.IQuoteData.DeleteQuote*
+  nameWithType.vb: IQuoteData.DeleteQuote(Integer)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.DeleteQuote(Integer)
+  name.vb: DeleteQuote(Integer)
+- uid: SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteAlternativeAsync(System.Int32)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteAlternativeAsync(System.Int32)
+  id: DeleteQuoteAlternativeAsync(System.Int32)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: DeleteQuoteAlternativeAsync(int)
+  nameWithType: IQuoteData.DeleteQuoteAlternativeAsync(int)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteAlternativeAsync(int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task DeleteQuoteAlternativeAsync(int quoteAlternativeId)
+    parameters:
+    - id: quoteAlternativeId
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteQuoteAlternativeAsync(quoteAlternativeId As Integer) As Task
+  overload: SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteAlternativeAsync*
+  nameWithType.vb: IQuoteData.DeleteQuoteAlternativeAsync(Integer)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteAlternativeAsync(Integer)
+  name.vb: DeleteQuoteAlternativeAsync(Integer)
+- uid: SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteLineAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteLineAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteQuoteLineAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: DeleteQuoteLineAsync(int, CancellationToken)
+  nameWithType: IQuoteData.DeleteQuoteLineAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteLineAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task DeleteQuoteLineAsync(int quoteLineId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteLineId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteQuoteLineAsync(quoteLineId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteLineAsync*
+  nameWithType.vb: IQuoteData.DeleteQuoteLineAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteLineAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteQuoteLineAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteLineRowAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteLineRowAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteQuoteLineRowAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: DeleteQuoteLineRowAsync(int, CancellationToken)
+  nameWithType: IQuoteData.DeleteQuoteLineRowAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteLineRowAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task DeleteQuoteLineRowAsync(int quoteLineId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteLineId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteQuoteLineRowAsync(quoteLineId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteLineRowAsync*
+  nameWithType.vb: IQuoteData.DeleteQuoteLineRowAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteLineRowAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteQuoteLineRowAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Sale.IQuoteData.DetectErpQuoteLineChangesAsync(System.Collections.Generic.List{SuperOffice.CRM.QuoteLineInfo},System.Collections.Generic.List{SuperOffice.CRM.QuoteLineInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.DetectErpQuoteLineChangesAsync(System.Collections.Generic.List{SuperOffice.CRM.QuoteLineInfo},System.Collections.Generic.List{SuperOffice.CRM.QuoteLineInfo},System.Threading.CancellationToken)
+  id: DetectErpQuoteLineChangesAsync(System.Collections.Generic.List{SuperOffice.CRM.QuoteLineInfo},System.Collections.Generic.List{SuperOffice.CRM.QuoteLineInfo},System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: DetectErpQuoteLineChangesAsync(List<QuoteLineInfo>, List<QuoteLineInfo>, CancellationToken)
+  nameWithType: IQuoteData.DetectErpQuoteLineChangesAsync(List<QuoteLineInfo>, List<QuoteLineInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.DetectErpQuoteLineChangesAsync(System.Collections.Generic.List<SuperOffice.CRM.QuoteLineInfo>, System.Collections.Generic.List<SuperOffice.CRM.QuoteLineInfo>, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<QuoteAlternativeRecalculatedHelper> DetectErpQuoteLineChangesAsync(List<QuoteLineInfo> quoteLineInfosBefore, List<QuoteLineInfo> quoteLineInfosAfter, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteLineInfosBefore
+      type: System.Collections.Generic.List{SuperOffice.CRM.QuoteLineInfo}
+    - id: quoteLineInfosAfter
+      type: System.Collections.Generic.List{SuperOffice.CRM.QuoteLineInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Sale.QuoteAlternativeRecalculatedHelper}
+    content.vb: Function DetectErpQuoteLineChangesAsync(quoteLineInfosBefore As List(Of QuoteLineInfo), quoteLineInfosAfter As List(Of QuoteLineInfo), cancellationToken As CancellationToken = Nothing) As Task(Of QuoteAlternativeRecalculatedHelper)
+  overload: SuperOffice.CRM.Sale.IQuoteData.DetectErpQuoteLineChangesAsync*
+  nameWithType.vb: IQuoteData.DetectErpQuoteLineChangesAsync(List(Of QuoteLineInfo), List(Of QuoteLineInfo), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.DetectErpQuoteLineChangesAsync(System.Collections.Generic.List(Of SuperOffice.CRM.QuoteLineInfo), System.Collections.Generic.List(Of SuperOffice.CRM.QuoteLineInfo), System.Threading.CancellationToken)
+  name.vb: DetectErpQuoteLineChangesAsync(List(Of QuoteLineInfo), List(Of QuoteLineInfo), CancellationToken)
+- uid: SuperOffice.CRM.Sale.IQuoteData.GetAlternativeRowAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.GetAlternativeRowAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetAlternativeRowAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: GetAlternativeRowAsync(int, CancellationToken)
+  nameWithType: IQuoteData.GetAlternativeRowAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.GetAlternativeRowAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<QuoteAlternativeRow> GetAlternativeRowAsync(int alternativeId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: alternativeId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteAlternativeRow}
+    content.vb: Function GetAlternativeRowAsync(alternativeId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of QuoteAlternativeRow)
+  overload: SuperOffice.CRM.Sale.IQuoteData.GetAlternativeRowAsync*
+  nameWithType.vb: IQuoteData.GetAlternativeRowAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.GetAlternativeRowAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetAlternativeRowAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Sale.IQuoteData.GetAlternativeRowsAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.GetAlternativeRowsAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetAlternativeRowsAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: GetAlternativeRowsAsync(int, CancellationToken)
+  nameWithType: IQuoteData.GetAlternativeRowsAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.GetAlternativeRowsAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<List<QuoteAlternativeRow>> GetAlternativeRowsAsync(int quoteVersionId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteVersionId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.Rows.QuoteAlternativeRow}}
+    content.vb: Function GetAlternativeRowsAsync(quoteVersionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of List(Of QuoteAlternativeRow))
+  overload: SuperOffice.CRM.Sale.IQuoteData.GetAlternativeRowsAsync*
+  nameWithType.vb: IQuoteData.GetAlternativeRowsAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.GetAlternativeRowsAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetAlternativeRowsAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Sale.IQuoteData.GetAlternativeRowsAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.GetAlternativeRowsAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.Threading.CancellationToken)
+  id: GetAlternativeRowsAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: GetAlternativeRowsAsync(QuoteVersionRow, CancellationToken)
+  nameWithType: IQuoteData.GetAlternativeRowsAsync(QuoteVersionRow, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.GetAlternativeRowsAsync(SuperOffice.CRM.Rows.QuoteVersionRow, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<List<QuoteAlternativeRow>> GetAlternativeRowsAsync(QuoteVersionRow quoteVersionRow, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteVersionRow
+      type: SuperOffice.CRM.Rows.QuoteVersionRow
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.Rows.QuoteAlternativeRow}}
+    content.vb: Function GetAlternativeRowsAsync(quoteVersionRow As QuoteVersionRow, cancellationToken As CancellationToken = Nothing) As Task(Of List(Of QuoteAlternativeRow))
+  overload: SuperOffice.CRM.Sale.IQuoteData.GetAlternativeRowsAsync*
+- uid: SuperOffice.CRM.Sale.IQuoteData.GetBillingAddressAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.GetBillingAddressAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetBillingAddressAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: GetBillingAddressAsync(int, CancellationToken)
+  nameWithType: IQuoteData.GetBillingAddressAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.GetBillingAddressAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<AddressRow> GetBillingAddressAsync(int quoteVersionId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteVersionId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.AddressRow}
+    content.vb: Function GetBillingAddressAsync(quoteVersionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of AddressRow)
+  overload: SuperOffice.CRM.Sale.IQuoteData.GetBillingAddressAsync*
+  nameWithType.vb: IQuoteData.GetBillingAddressAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.GetBillingAddressAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetBillingAddressAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Sale.IQuoteData.GetLikelyAlternativeRowAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.GetLikelyAlternativeRowAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.Threading.CancellationToken)
+  id: GetLikelyAlternativeRowAsync(SuperOffice.CRM.Rows.QuoteVersionRow,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: GetLikelyAlternativeRowAsync(QuoteVersionRow, CancellationToken)
+  nameWithType: IQuoteData.GetLikelyAlternativeRowAsync(QuoteVersionRow, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.GetLikelyAlternativeRowAsync(SuperOffice.CRM.Rows.QuoteVersionRow, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<QuoteAlternativeRow> GetLikelyAlternativeRowAsync(QuoteVersionRow quoteVersionRow, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteVersionRow
+      type: SuperOffice.CRM.Rows.QuoteVersionRow
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteAlternativeRow}
+    content.vb: Function GetLikelyAlternativeRowAsync(quoteVersionRow As QuoteVersionRow, cancellationToken As CancellationToken = Nothing) As Task(Of QuoteAlternativeRow)
+  overload: SuperOffice.CRM.Sale.IQuoteData.GetLikelyAlternativeRowAsync*
+- uid: SuperOffice.CRM.Sale.IQuoteData.GetQuoteLineRowAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.GetQuoteLineRowAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetQuoteLineRowAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: GetQuoteLineRowAsync(int, CancellationToken)
+  nameWithType: IQuoteData.GetQuoteLineRowAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.GetQuoteLineRowAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<QuoteLineRow> GetQuoteLineRowAsync(int quoteLineId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteLineId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteLineRow}
+    content.vb: Function GetQuoteLineRowAsync(quoteLineId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of QuoteLineRow)
+  overload: SuperOffice.CRM.Sale.IQuoteData.GetQuoteLineRowAsync*
+  nameWithType.vb: IQuoteData.GetQuoteLineRowAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.GetQuoteLineRowAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetQuoteLineRowAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Sale.IQuoteData.GetQuoteLineRowsAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.GetQuoteLineRowsAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetQuoteLineRowsAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: GetQuoteLineRowsAsync(int, CancellationToken)
+  nameWithType: IQuoteData.GetQuoteLineRowsAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.GetQuoteLineRowsAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<QuoteLineRows> GetQuoteLineRowsAsync(int quoteAlternativeId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteAlternativeId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteLineRows}
+    content.vb: Function GetQuoteLineRowsAsync(quoteAlternativeId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of QuoteLineRows)
+  overload: SuperOffice.CRM.Sale.IQuoteData.GetQuoteLineRowsAsync*
+  nameWithType.vb: IQuoteData.GetQuoteLineRowsAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.GetQuoteLineRowsAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetQuoteLineRowsAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Sale.IQuoteData.GetShippingAddressAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.GetShippingAddressAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetShippingAddressAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: GetShippingAddressAsync(int, CancellationToken)
+  nameWithType: IQuoteData.GetShippingAddressAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.GetShippingAddressAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<AddressRow> GetShippingAddressAsync(int quoteVersionId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteVersionId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.AddressRow}
+    content.vb: Function GetShippingAddressAsync(quoteVersionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of AddressRow)
+  overload: SuperOffice.CRM.Sale.IQuoteData.GetShippingAddressAsync*
+  nameWithType.vb: IQuoteData.GetShippingAddressAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.GetShippingAddressAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetShippingAddressAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Sale.IQuoteData.GetVersionRowAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.GetVersionRowAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetVersionRowAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: GetVersionRowAsync(int, CancellationToken)
+  nameWithType: IQuoteData.GetVersionRowAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.GetVersionRowAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<QuoteVersionRow> GetVersionRowAsync(int quoteVersionId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteVersionId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteVersionRow}
+    content.vb: Function GetVersionRowAsync(quoteVersionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of QuoteVersionRow)
+  overload: SuperOffice.CRM.Sale.IQuoteData.GetVersionRowAsync*
+  nameWithType.vb: IQuoteData.GetVersionRowAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.GetVersionRowAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetVersionRowAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteAlternativeRow(SuperOffice.CRM.Rows.QuoteAlternativeRow,SuperOffice.CRM.QuoteAlternativeInfo)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteAlternativeRow(SuperOffice.CRM.Rows.QuoteAlternativeRow,SuperOffice.CRM.QuoteAlternativeInfo)
+  id: PopulateQuoteAlternativeRow(SuperOffice.CRM.Rows.QuoteAlternativeRow,SuperOffice.CRM.QuoteAlternativeInfo)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: PopulateQuoteAlternativeRow(QuoteAlternativeRow, QuoteAlternativeInfo)
+  nameWithType: IQuoteData.PopulateQuoteAlternativeRow(QuoteAlternativeRow, QuoteAlternativeInfo)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteAlternativeRow(SuperOffice.CRM.Rows.QuoteAlternativeRow, SuperOffice.CRM.QuoteAlternativeInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: QuoteAlternativeRow PopulateQuoteAlternativeRow(QuoteAlternativeRow quoteAlternativeRow, QuoteAlternativeInfo quoteAlternative)
+    parameters:
+    - id: quoteAlternativeRow
+      type: SuperOffice.CRM.Rows.QuoteAlternativeRow
+    - id: quoteAlternative
+      type: SuperOffice.CRM.QuoteAlternativeInfo
+    return:
+      type: SuperOffice.CRM.Rows.QuoteAlternativeRow
+    content.vb: Function PopulateQuoteAlternativeRow(quoteAlternativeRow As QuoteAlternativeRow, quoteAlternative As QuoteAlternativeInfo) As QuoteAlternativeRow
+  overload: SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteAlternativeRow*
+- uid: SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteLineRow(SuperOffice.CRM.Rows.QuoteLineRow,SuperOffice.CRM.QuoteLineInfo)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteLineRow(SuperOffice.CRM.Rows.QuoteLineRow,SuperOffice.CRM.QuoteLineInfo)
+  id: PopulateQuoteLineRow(SuperOffice.CRM.Rows.QuoteLineRow,SuperOffice.CRM.QuoteLineInfo)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: PopulateQuoteLineRow(QuoteLineRow, QuoteLineInfo)
+  nameWithType: IQuoteData.PopulateQuoteLineRow(QuoteLineRow, QuoteLineInfo)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteLineRow(SuperOffice.CRM.Rows.QuoteLineRow, SuperOffice.CRM.QuoteLineInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: QuoteLineRow PopulateQuoteLineRow(QuoteLineRow quoteLineRow, QuoteLineInfo quoteLine)
+    parameters:
+    - id: quoteLineRow
+      type: SuperOffice.CRM.Rows.QuoteLineRow
+    - id: quoteLine
+      type: SuperOffice.CRM.QuoteLineInfo
+    return:
+      type: SuperOffice.CRM.Rows.QuoteLineRow
+    content.vb: Function PopulateQuoteLineRow(quoteLineRow As QuoteLineRow, quoteLine As QuoteLineInfo) As QuoteLineRow
+  overload: SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteLineRow*
+- uid: SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteRow(SuperOffice.CRM.Rows.QuoteRow,SuperOffice.CRM.QuoteInfo)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteRow(SuperOffice.CRM.Rows.QuoteRow,SuperOffice.CRM.QuoteInfo)
+  id: PopulateQuoteRow(SuperOffice.CRM.Rows.QuoteRow,SuperOffice.CRM.QuoteInfo)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: PopulateQuoteRow(QuoteRow, QuoteInfo)
+  nameWithType: IQuoteData.PopulateQuoteRow(QuoteRow, QuoteInfo)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteRow(SuperOffice.CRM.Rows.QuoteRow, SuperOffice.CRM.QuoteInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: QuoteRow PopulateQuoteRow(QuoteRow quoteRow, QuoteInfo quoteInfo)
+    parameters:
+    - id: quoteRow
+      type: SuperOffice.CRM.Rows.QuoteRow
+    - id: quoteInfo
+      type: SuperOffice.CRM.QuoteInfo
+    return:
+      type: SuperOffice.CRM.Rows.QuoteRow
+    content.vb: Function PopulateQuoteRow(quoteRow As QuoteRow, quoteInfo As QuoteInfo) As QuoteRow
+  overload: SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteRow*
+- uid: SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteVersionRow(SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.QuoteVersionInfo)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteVersionRow(SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.QuoteVersionInfo)
+  id: PopulateQuoteVersionRow(SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.QuoteVersionInfo)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: PopulateQuoteVersionRow(QuoteVersionRow, QuoteVersionInfo)
+  nameWithType: IQuoteData.PopulateQuoteVersionRow(QuoteVersionRow, QuoteVersionInfo)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteVersionRow(SuperOffice.CRM.Rows.QuoteVersionRow, SuperOffice.CRM.QuoteVersionInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: QuoteVersionRow PopulateQuoteVersionRow(QuoteVersionRow quoteVersionRow, QuoteVersionInfo quoteVersionInfo)
+    parameters:
+    - id: quoteVersionRow
+      type: SuperOffice.CRM.Rows.QuoteVersionRow
+    - id: quoteVersionInfo
+      type: SuperOffice.CRM.QuoteVersionInfo
+    return:
+      type: SuperOffice.CRM.Rows.QuoteVersionRow
+    content.vb: Function PopulateQuoteVersionRow(quoteVersionRow As QuoteVersionRow, quoteVersionInfo As QuoteVersionInfo) As QuoteVersionRow
+  overload: SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteVersionRow*
+- uid: SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteVersionRow(SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.QuoteVersionInfo,System.Boolean)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteVersionRow(SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.QuoteVersionInfo,System.Boolean)
+  id: PopulateQuoteVersionRow(SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.QuoteVersionInfo,System.Boolean)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: PopulateQuoteVersionRow(QuoteVersionRow, QuoteVersionInfo, bool)
+  nameWithType: IQuoteData.PopulateQuoteVersionRow(QuoteVersionRow, QuoteVersionInfo, bool)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteVersionRow(SuperOffice.CRM.Rows.QuoteVersionRow, SuperOffice.CRM.QuoteVersionInfo, bool)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: QuoteVersionRow PopulateQuoteVersionRow(QuoteVersionRow quoteVersionRow, QuoteVersionInfo quoteVersionInfo, bool ignorNumberField)
+    parameters:
+    - id: quoteVersionRow
+      type: SuperOffice.CRM.Rows.QuoteVersionRow
+    - id: quoteVersionInfo
+      type: SuperOffice.CRM.QuoteVersionInfo
+    - id: ignorNumberField
+      type: System.Boolean
+    return:
+      type: SuperOffice.CRM.Rows.QuoteVersionRow
+    content.vb: Function PopulateQuoteVersionRow(quoteVersionRow As QuoteVersionRow, quoteVersionInfo As QuoteVersionInfo, ignorNumberField As Boolean) As QuoteVersionRow
+  overload: SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteVersionRow*
+  nameWithType.vb: IQuoteData.PopulateQuoteVersionRow(QuoteVersionRow, QuoteVersionInfo, Boolean)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteVersionRow(SuperOffice.CRM.Rows.QuoteVersionRow, SuperOffice.CRM.QuoteVersionInfo, Boolean)
+  name.vb: PopulateQuoteVersionRow(QuoteVersionRow, QuoteVersionInfo, Boolean)
+- uid: SuperOffice.CRM.Sale.IQuoteData.RenameQuoteAlternativeAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.RenameQuoteAlternativeAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  id: RenameQuoteAlternativeAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: RenameQuoteAlternativeAsync(int, string, CancellationToken)
+  nameWithType: IQuoteData.RenameQuoteAlternativeAsync(int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.RenameQuoteAlternativeAsync(int, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task RenameQuoteAlternativeAsync(int quoteAlternativeId, string newName, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteAlternativeId
+      type: System.Int32
+    - id: newName
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RenameQuoteAlternativeAsync(quoteAlternativeId As Integer, newName As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Sale.IQuoteData.RenameQuoteAlternativeAsync*
+  nameWithType.vb: IQuoteData.RenameQuoteAlternativeAsync(Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.RenameQuoteAlternativeAsync(Integer, String, System.Threading.CancellationToken)
+  name.vb: RenameQuoteAlternativeAsync(Integer, String, CancellationToken)
+- uid: SuperOffice.CRM.Sale.IQuoteData.SaveAlternativesAsync(SuperOffice.CRM.Rows.QuoteVersionRow)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.SaveAlternativesAsync(SuperOffice.CRM.Rows.QuoteVersionRow)
+  id: SaveAlternativesAsync(SuperOffice.CRM.Rows.QuoteVersionRow)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: SaveAlternativesAsync(QuoteVersionRow)
+  nameWithType: IQuoteData.SaveAlternativesAsync(QuoteVersionRow)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.SaveAlternativesAsync(SuperOffice.CRM.Rows.QuoteVersionRow)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task SaveAlternativesAsync(QuoteVersionRow versionRow)
+    parameters:
+    - id: versionRow
+      type: SuperOffice.CRM.Rows.QuoteVersionRow
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SaveAlternativesAsync(versionRow As QuoteVersionRow) As Task
+  overload: SuperOffice.CRM.Sale.IQuoteData.SaveAlternativesAsync*
+- uid: SuperOffice.CRM.Sale.IQuoteData.SaveAsync
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.SaveAsync
+  id: SaveAsync
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: SaveAsync()
+  nameWithType: IQuoteData.SaveAsync()
+  fullName: SuperOffice.CRM.Sale.IQuoteData.SaveAsync()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task SaveAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SaveAsync() As Task
+  overload: SuperOffice.CRM.Sale.IQuoteData.SaveAsync*
+- uid: SuperOffice.CRM.Sale.IQuoteData.SaveErpQuoteLineChangesAsync(System.Int32,SuperOffice.CRM.Sale.QuoteAlternativeRecalculatedHelper,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.SaveErpQuoteLineChangesAsync(System.Int32,SuperOffice.CRM.Sale.QuoteAlternativeRecalculatedHelper,System.Threading.CancellationToken)
+  id: SaveErpQuoteLineChangesAsync(System.Int32,SuperOffice.CRM.Sale.QuoteAlternativeRecalculatedHelper,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: SaveErpQuoteLineChangesAsync(int, QuoteAlternativeRecalculatedHelper, CancellationToken)
+  nameWithType: IQuoteData.SaveErpQuoteLineChangesAsync(int, QuoteAlternativeRecalculatedHelper, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.SaveErpQuoteLineChangesAsync(int, SuperOffice.CRM.Sale.QuoteAlternativeRecalculatedHelper, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task SaveErpQuoteLineChangesAsync(int quoteAlternativeId, QuoteAlternativeRecalculatedHelper i_quoteAlternativeRecalculatedHelper, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteAlternativeId
+      type: System.Int32
+    - id: i_quoteAlternativeRecalculatedHelper
+      type: SuperOffice.CRM.Sale.QuoteAlternativeRecalculatedHelper
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SaveErpQuoteLineChangesAsync(quoteAlternativeId As Integer, i_quoteAlternativeRecalculatedHelper As QuoteAlternativeRecalculatedHelper, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Sale.IQuoteData.SaveErpQuoteLineChangesAsync*
+  nameWithType.vb: IQuoteData.SaveErpQuoteLineChangesAsync(Integer, QuoteAlternativeRecalculatedHelper, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.SaveErpQuoteLineChangesAsync(Integer, SuperOffice.CRM.Sale.QuoteAlternativeRecalculatedHelper, System.Threading.CancellationToken)
+  name.vb: SaveErpQuoteLineChangesAsync(Integer, QuoteAlternativeRecalculatedHelper, CancellationToken)
+- uid: SuperOffice.CRM.Sale.IQuoteData.SaveQuoteLineAsync(SuperOffice.CRM.QuoteLineInfo,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.SaveQuoteLineAsync(SuperOffice.CRM.QuoteLineInfo,System.String,System.Threading.CancellationToken)
+  id: SaveQuoteLineAsync(SuperOffice.CRM.QuoteLineInfo,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: SaveQuoteLineAsync(QuoteLineInfo, string, CancellationToken)
+  nameWithType: IQuoteData.SaveQuoteLineAsync(QuoteLineInfo, string, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.SaveQuoteLineAsync(SuperOffice.CRM.QuoteLineInfo, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task<QuoteLineInfo> SaveQuoteLineAsync(QuoteLineInfo quoteLine, string strImage, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteLine
+      type: SuperOffice.CRM.QuoteLineInfo
+    - id: strImage
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.QuoteLineInfo}
+    content.vb: Function SaveQuoteLineAsync(quoteLine As QuoteLineInfo, strImage As String, cancellationToken As CancellationToken = Nothing) As Task(Of QuoteLineInfo)
+  overload: SuperOffice.CRM.Sale.IQuoteData.SaveQuoteLineAsync*
+  nameWithType.vb: IQuoteData.SaveQuoteLineAsync(QuoteLineInfo, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.SaveQuoteLineAsync(SuperOffice.CRM.QuoteLineInfo, String, System.Threading.CancellationToken)
+  name.vb: SaveQuoteLineAsync(QuoteLineInfo, String, CancellationToken)
+- uid: SuperOffice.CRM.Sale.IQuoteData.SetOwnAddressAsync(System.Int32,SuperOffice.CRM.Rows.AddressRow,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.SetOwnAddressAsync(System.Int32,SuperOffice.CRM.Rows.AddressRow,System.Int32,System.Threading.CancellationToken)
+  id: SetOwnAddressAsync(System.Int32,SuperOffice.CRM.Rows.AddressRow,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: SetOwnAddressAsync(int, AddressRow, int, CancellationToken)
+  nameWithType: IQuoteData.SetOwnAddressAsync(int, AddressRow, int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.SetOwnAddressAsync(int, SuperOffice.CRM.Rows.AddressRow, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task SetOwnAddressAsync(int quoteVersionId, AddressRow addressRow, int countryId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteVersionId
+      type: System.Int32
+    - id: addressRow
+      type: SuperOffice.CRM.Rows.AddressRow
+    - id: countryId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetOwnAddressAsync(quoteVersionId As Integer, addressRow As AddressRow, countryId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Sale.IQuoteData.SetOwnAddressAsync*
+  nameWithType.vb: IQuoteData.SetOwnAddressAsync(Integer, AddressRow, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.SetOwnAddressAsync(Integer, SuperOffice.CRM.Rows.AddressRow, Integer, System.Threading.CancellationToken)
+  name.vb: SetOwnAddressAsync(Integer, AddressRow, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Sale.IQuoteData.SetOwnAddressAsync(SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.AddressInfo,SuperOffice.Data.AddressType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.SetOwnAddressAsync(SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.AddressInfo,SuperOffice.Data.AddressType,System.Threading.CancellationToken)
+  id: SetOwnAddressAsync(SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.AddressInfo,SuperOffice.Data.AddressType,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: SetOwnAddressAsync(QuoteVersionRow, AddressInfo, AddressType, CancellationToken)
+  nameWithType: IQuoteData.SetOwnAddressAsync(QuoteVersionRow, AddressInfo, AddressType, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.SetOwnAddressAsync(SuperOffice.CRM.Rows.QuoteVersionRow, SuperOffice.CRM.AddressInfo, SuperOffice.Data.AddressType, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task SetOwnAddressAsync(QuoteVersionRow quoteVersionRow, AddressInfo addressInfo, AddressType addressType, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteVersionRow
+      type: SuperOffice.CRM.Rows.QuoteVersionRow
+    - id: addressInfo
+      type: SuperOffice.CRM.AddressInfo
+    - id: addressType
+      type: SuperOffice.Data.AddressType
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetOwnAddressAsync(quoteVersionRow As QuoteVersionRow, addressInfo As AddressInfo, addressType As AddressType, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Sale.IQuoteData.SetOwnAddressAsync*
+- uid: SuperOffice.CRM.Sale.IQuoteData.SetQuoteLineImageAsync(SuperOffice.CRM.QuoteLineInfo,SuperOffice.Data.BlobLinkType,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.SetQuoteLineImageAsync(SuperOffice.CRM.QuoteLineInfo,SuperOffice.Data.BlobLinkType,System.String,System.String,System.Threading.CancellationToken)
+  id: SetQuoteLineImageAsync(SuperOffice.CRM.QuoteLineInfo,SuperOffice.Data.BlobLinkType,System.String,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: SetQuoteLineImageAsync(QuoteLineInfo, BlobLinkType, string, string, CancellationToken)
+  nameWithType: IQuoteData.SetQuoteLineImageAsync(QuoteLineInfo, BlobLinkType, string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.SetQuoteLineImageAsync(SuperOffice.CRM.QuoteLineInfo, SuperOffice.Data.BlobLinkType, string, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task SetQuoteLineImageAsync(QuoteLineInfo quoteLineInfo, BlobLinkType blobLinkType, string base64String, string conceptualType, CancellationToken cancellationToken)
+    parameters:
+    - id: quoteLineInfo
+      type: SuperOffice.CRM.QuoteLineInfo
+    - id: blobLinkType
+      type: SuperOffice.Data.BlobLinkType
+    - id: base64String
+      type: System.String
+    - id: conceptualType
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetQuoteLineImageAsync(quoteLineInfo As QuoteLineInfo, blobLinkType As BlobLinkType, base64String As String, conceptualType As String, cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.CRM.Sale.IQuoteData.SetQuoteLineImageAsync*
+  nameWithType.vb: IQuoteData.SetQuoteLineImageAsync(QuoteLineInfo, BlobLinkType, String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.SetQuoteLineImageAsync(SuperOffice.CRM.QuoteLineInfo, SuperOffice.Data.BlobLinkType, String, String, System.Threading.CancellationToken)
+  name.vb: SetQuoteLineImageAsync(QuoteLineInfo, BlobLinkType, String, String, CancellationToken)
+- uid: SuperOffice.CRM.Sale.IQuoteData.InitializeAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteData.InitializeAsync(System.Int32,System.Threading.CancellationToken)
+  id: InitializeAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: InitializeAsync(int, CancellationToken)
+  nameWithType: IQuoteData.InitializeAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteData.InitializeAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: Task InitializeAsync(int saleId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: saleId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function InitializeAsync(saleId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Sale.IQuoteData.InitializeAsync*
+  nameWithType.vb: IQuoteData.InitializeAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteData.InitializeAsync(Integer, System.Threading.CancellationToken)
+  name.vb: InitializeAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Sale.IQuoteData.ContactInfo
+  commentId: P:SuperOffice.CRM.Sale.IQuoteData.ContactInfo
+  id: ContactInfo
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: ContactInfo
+  nameWithType: IQuoteData.ContactInfo
+  fullName: SuperOffice.CRM.Sale.IQuoteData.ContactInfo
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: IContactInfo ContactInfo { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.IContactInfo
+    content.vb: ReadOnly Property ContactInfo As IContactInfo
+  overload: SuperOffice.CRM.Sale.IQuoteData.ContactInfo*
+- uid: SuperOffice.CRM.Sale.IQuoteData.IsDeleted
+  commentId: P:SuperOffice.CRM.Sale.IQuoteData.IsDeleted
+  id: IsDeleted
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: IsDeleted
+  nameWithType: IQuoteData.IsDeleted
+  fullName: SuperOffice.CRM.Sale.IQuoteData.IsDeleted
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: bool IsDeleted { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsDeleted As Boolean
+  overload: SuperOffice.CRM.Sale.IQuoteData.IsDeleted*
+- uid: SuperOffice.CRM.Sale.IQuoteData.IsDirty
+  commentId: P:SuperOffice.CRM.Sale.IQuoteData.IsDirty
+  id: IsDirty
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: IsDirty
+  nameWithType: IQuoteData.IsDirty
+  fullName: SuperOffice.CRM.Sale.IQuoteData.IsDirty
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: bool IsDirty { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsDirty As Boolean
+  overload: SuperOffice.CRM.Sale.IQuoteData.IsDirty*
+- uid: SuperOffice.CRM.Sale.IQuoteData.PersonInfo
+  commentId: P:SuperOffice.CRM.Sale.IQuoteData.PersonInfo
+  id: PersonInfo
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: PersonInfo
+  nameWithType: IQuoteData.PersonInfo
+  fullName: SuperOffice.CRM.Sale.IQuoteData.PersonInfo
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: IPersonInfo PersonInfo { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.IPersonInfo
+    content.vb: ReadOnly Property PersonInfo As IPersonInfo
+  overload: SuperOffice.CRM.Sale.IQuoteData.PersonInfo*
+- uid: SuperOffice.CRM.Sale.IQuoteData.ProjectInfo
+  commentId: P:SuperOffice.CRM.Sale.IQuoteData.ProjectInfo
+  id: ProjectInfo
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: ProjectInfo
+  nameWithType: IQuoteData.ProjectInfo
+  fullName: SuperOffice.CRM.Sale.IQuoteData.ProjectInfo
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: IProjectInfo ProjectInfo { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.IProjectInfo
+    content.vb: ReadOnly Property ProjectInfo As IProjectInfo
+  overload: SuperOffice.CRM.Sale.IQuoteData.ProjectInfo*
+- uid: SuperOffice.CRM.Sale.IQuoteData.QuoteRow
+  commentId: P:SuperOffice.CRM.Sale.IQuoteData.QuoteRow
+  id: QuoteRow
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: QuoteRow
+  nameWithType: IQuoteData.QuoteRow
+  fullName: SuperOffice.CRM.Sale.IQuoteData.QuoteRow
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: QuoteRow QuoteRow { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.QuoteRow
+    content.vb: Property QuoteRow As QuoteRow
+  overload: SuperOffice.CRM.Sale.IQuoteData.QuoteRow*
+- uid: SuperOffice.CRM.Sale.IQuoteData.SaleInfo
+  commentId: P:SuperOffice.CRM.Sale.IQuoteData.SaleInfo
+  id: SaleInfo
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: SaleInfo
+  nameWithType: IQuoteData.SaleInfo
+  fullName: SuperOffice.CRM.Sale.IQuoteData.SaleInfo
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: ISaleInfo SaleInfo { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ISaleInfo
+    content.vb: ReadOnly Property SaleInfo As ISaleInfo
+  overload: SuperOffice.CRM.Sale.IQuoteData.SaleInfo*
+- uid: SuperOffice.CRM.Sale.IQuoteData.SaleRow
+  commentId: P:SuperOffice.CRM.Sale.IQuoteData.SaleRow
+  id: SaleRow
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: SaleRow
+  nameWithType: IQuoteData.SaleRow
+  fullName: SuperOffice.CRM.Sale.IQuoteData.SaleRow
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: SaleRow SaleRow { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.SaleRow
+    content.vb: ReadOnly Property SaleRow As SaleRow
+  overload: SuperOffice.CRM.Sale.IQuoteData.SaleRow*
+- uid: SuperOffice.CRM.Sale.IQuoteData.UserInfo
+  commentId: P:SuperOffice.CRM.Sale.IQuoteData.UserInfo
+  id: UserInfo
+  parent: SuperOffice.CRM.Sale.IQuoteData
+  langs:
+  - csharp
+  - vb
+  name: UserInfo
+  nameWithType: IQuoteData.UserInfo
+  fullName: SuperOffice.CRM.Sale.IQuoteData.UserInfo
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: UserInfo UserInfo { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.UserInfo
+    content.vb: ReadOnly Property UserInfo As UserInfo
+  overload: SuperOffice.CRM.Sale.IQuoteData.UserInfo*
+references:
+- uid: SuperOffice.CRM.Sale
+  commentId: N:SuperOffice.CRM.Sale
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Sale
+  nameWithType: SuperOffice.CRM.Sale
+  fullName: SuperOffice.CRM.Sale
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Sale
+    name: Sale
+    isExternal: true
+    href: SuperOffice.CRM.Sale.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Sale
+    name: Sale
+    isExternal: true
+    href: SuperOffice.CRM.Sale.html
+- uid: SuperOffice.CRM.Sale.IQuoteData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IQuoteData, To>(IQuoteData)
+  nameWithType: EnumUtil.MapEnums<IQuoteData, To>(IQuoteData)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Sale.IQuoteData, To>(SuperOffice.CRM.Sale.IQuoteData)
+  nameWithType.vb: EnumUtil.MapEnums(Of IQuoteData, To)(IQuoteData)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Sale.IQuoteData, To)(SuperOffice.CRM.Sale.IQuoteData)
+  name.vb: MapEnums(Of IQuoteData, To)(IQuoteData)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Sale.IQuoteData)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Sale.IQuoteData
+    name: IQuoteData
+    isExternal: true
+    href: SuperOffice.CRM.Sale.IQuoteData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Sale.IQuoteData
+    name: IQuoteData
+    isExternal: true
+    href: SuperOffice.CRM.Sale.IQuoteData.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Sale.IQuoteData)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Sale.IQuoteData
+    name: IQuoteData
+    isExternal: true
+    href: SuperOffice.CRM.Sale.IQuoteData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Sale.IQuoteData
+    name: IQuoteData
+    isExternal: true
+    href: SuperOffice.CRM.Sale.IQuoteData.html
+  - name: )
+- uid: SuperOffice.CRM.Sale.IQuoteData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IQuoteData, To>(IQuoteData)
+  nameWithType: Converters.MapEnums<IQuoteData, To>(IQuoteData)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Sale.IQuoteData, To>(SuperOffice.CRM.Sale.IQuoteData)
+  nameWithType.vb: Converters.MapEnums(Of IQuoteData, To)(IQuoteData)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Sale.IQuoteData, To)(SuperOffice.CRM.Sale.IQuoteData)
+  name.vb: MapEnums(Of IQuoteData, To)(IQuoteData)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Sale.IQuoteData)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Sale.IQuoteData
+    name: IQuoteData
+    isExternal: true
+    href: SuperOffice.CRM.Sale.IQuoteData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Sale.IQuoteData
+    name: IQuoteData
+    isExternal: true
+    href: SuperOffice.CRM.Sale.IQuoteData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Sale.IQuoteData)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Sale.IQuoteData
+    name: IQuoteData
+    isExternal: true
+    href: SuperOffice.CRM.Sale.IQuoteData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Sale.IQuoteData
+    name: IQuoteData
+    isExternal: true
+    href: SuperOffice.CRM.Sale.IQuoteData.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.Sale.IQuoteData.GetActiveQuoteVersionRowAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.GetActiveQuoteVersionRowAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_GetActiveQuoteVersionRowAsync_System_Threading_CancellationToken_
+  name: GetActiveQuoteVersionRowAsync
+  nameWithType: IQuoteData.GetActiveQuoteVersionRowAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.GetActiveQuoteVersionRowAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteVersionRow}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteVersionRow}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<QuoteVersionRow>
+  nameWithType: Task<QuoteVersionRow>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.QuoteVersionRow>
+  nameWithType.vb: Task(Of QuoteVersionRow)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.QuoteVersionRow)
+  name.vb: Task(Of QuoteVersionRow)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.QuoteVersionRow
+    name: QuoteVersionRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteVersionRow.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.QuoteVersionRow
+    name: QuoteVersionRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteVersionRow.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Sale.IQuoteData.GetAllRowObjectsAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.GetAllRowObjectsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_GetAllRowObjectsAsync_System_Threading_CancellationToken_
+  name: GetAllRowObjectsAsync
+  nameWithType: IQuoteData.GetAllRowObjectsAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.GetAllRowObjectsAsync
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.TableRowBase}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.TableRowBase}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  href: SuperOffice.CRM.Rows.TableRowBase.html
+  name: IAsyncEnumerable<TableRowBase>
+  nameWithType: IAsyncEnumerable<TableRowBase>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.TableRowBase>
+  nameWithType.vb: IAsyncEnumerable(Of TableRowBase)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.TableRowBase)
+  name.vb: IAsyncEnumerable(Of TableRowBase)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: <
+  - uid: SuperOffice.CRM.Rows.TableRowBase
+    name: TableRowBase
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TableRowBase.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.TableRowBase
+    name: TableRowBase
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TableRowBase.html
+  - name: )
+- uid: System.Collections.Generic.IAsyncEnumerable`1
+  isExternal: true
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: <
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: SuperOffice.CRM.Sale.IQuoteData.GetQuoteVersionsAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.GetQuoteVersionsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_GetQuoteVersionsAsync_System_Threading_CancellationToken_
+  name: GetQuoteVersionsAsync
+  nameWithType: IQuoteData.GetQuoteVersionsAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.GetQuoteVersionsAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{SuperOffice.CRM.Rows.QuoteVersionRow,System.Collections.Generic.List{SuperOffice.CRM.Rows.QuoteAlternativeRow}}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{SuperOffice.CRM.Rows.QuoteVersionRow,System.Collections.Generic.List{SuperOffice.CRM.Rows.QuoteAlternativeRow}}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Dictionary<QuoteVersionRow, List<QuoteAlternativeRow>>>
+  nameWithType: Task<Dictionary<QuoteVersionRow, List<QuoteAlternativeRow>>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.Dictionary<SuperOffice.CRM.Rows.QuoteVersionRow, System.Collections.Generic.List<SuperOffice.CRM.Rows.QuoteAlternativeRow>>>
+  nameWithType.vb: Task(Of Dictionary(Of QuoteVersionRow, List(Of QuoteAlternativeRow)))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.Dictionary(Of SuperOffice.CRM.Rows.QuoteVersionRow, System.Collections.Generic.List(Of SuperOffice.CRM.Rows.QuoteAlternativeRow)))
+  name.vb: Task(Of Dictionary(Of QuoteVersionRow, List(Of QuoteAlternativeRow)))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: SuperOffice.CRM.Rows.QuoteVersionRow
+    name: QuoteVersionRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteVersionRow.html
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.QuoteAlternativeRow
+    name: QuoteAlternativeRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteAlternativeRow.html
+  - name: '>'
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.QuoteVersionRow
+    name: QuoteVersionRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteVersionRow.html
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.QuoteAlternativeRow
+    name: QuoteAlternativeRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteAlternativeRow.html
+  - name: )
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Sale.IQuoteData.GetVersionAttachmentRowsAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.GetVersionAttachmentRowsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_GetVersionAttachmentRowsAsync_System_Threading_CancellationToken_
+  name: GetVersionAttachmentRowsAsync
+  nameWithType: IQuoteData.GetVersionAttachmentRowsAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.GetVersionAttachmentRowsAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.Rows.QuoteVersionAttachmentRows}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.Rows.QuoteVersionAttachmentRows}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Dictionary<QuoteVersionRow, QuoteVersionAttachmentRows>>
+  nameWithType: Task<Dictionary<QuoteVersionRow, QuoteVersionAttachmentRows>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.Dictionary<SuperOffice.CRM.Rows.QuoteVersionRow, SuperOffice.CRM.Rows.QuoteVersionAttachmentRows>>
+  nameWithType.vb: Task(Of Dictionary(Of QuoteVersionRow, QuoteVersionAttachmentRows))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.Dictionary(Of SuperOffice.CRM.Rows.QuoteVersionRow, SuperOffice.CRM.Rows.QuoteVersionAttachmentRows))
+  name.vb: Task(Of Dictionary(Of QuoteVersionRow, QuoteVersionAttachmentRows))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: SuperOffice.CRM.Rows.QuoteVersionRow
+    name: QuoteVersionRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteVersionRow.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.QuoteVersionAttachmentRows
+    name: QuoteVersionAttachmentRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteVersionAttachmentRows.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.QuoteVersionRow
+    name: QuoteVersionRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteVersionRow.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.QuoteVersionAttachmentRows
+    name: QuoteVersionAttachmentRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteVersionAttachmentRows.html
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Sale.IQuoteData.AddQuoteAlternativeAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.AddQuoteAlternativeAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_AddQuoteAlternativeAsync_SuperOffice_CRM_Rows_QuoteVersionRow_System_Threading_CancellationToken_
+  name: AddQuoteAlternativeAsync
+  nameWithType: IQuoteData.AddQuoteAlternativeAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.AddQuoteAlternativeAsync
+- uid: SuperOffice.CRM.Rows.QuoteVersionRow
+  commentId: T:SuperOffice.CRM.Rows.QuoteVersionRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.QuoteVersionRow.html
+  name: QuoteVersionRow
+  nameWithType: QuoteVersionRow
+  fullName: SuperOffice.CRM.Rows.QuoteVersionRow
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteAlternativeRow}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteAlternativeRow}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<QuoteAlternativeRow>
+  nameWithType: Task<QuoteAlternativeRow>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.QuoteAlternativeRow>
+  nameWithType.vb: Task(Of QuoteAlternativeRow)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.QuoteAlternativeRow)
+  name.vb: Task(Of QuoteAlternativeRow)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.QuoteAlternativeRow
+    name: QuoteAlternativeRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteAlternativeRow.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.QuoteAlternativeRow
+    name: QuoteAlternativeRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteAlternativeRow.html
+  - name: )
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+- uid: SuperOffice.CRM.Rows.QuoteAlternativeRow
+  commentId: T:SuperOffice.CRM.Rows.QuoteAlternativeRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.QuoteAlternativeRow.html
+  name: QuoteAlternativeRow
+  nameWithType: QuoteAlternativeRow
+  fullName: SuperOffice.CRM.Rows.QuoteAlternativeRow
+- uid: SuperOffice.CRM.Sale.IQuoteData.AddQuoteVersionAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.AddQuoteVersionAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_AddQuoteVersionAsync_System_Threading_CancellationToken_
+  name: AddQuoteVersionAsync
+  nameWithType: IQuoteData.AddQuoteVersionAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.AddQuoteVersionAsync
+- uid: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuote*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuote
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_ApplyErpChangesToQuote_SuperOffice_CRM_QuoteInfo_
+  name: ApplyErpChangesToQuote
+  nameWithType: IQuoteData.ApplyErpChangesToQuote
+  fullName: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuote
+- uid: SuperOffice.CRM.QuoteInfo
+  commentId: T:SuperOffice.CRM.QuoteInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.CRM.QuoteInfo.html
+  name: QuoteInfo
+  nameWithType: QuoteInfo
+  fullName: SuperOffice.CRM.QuoteInfo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.QuoteVersionContextInfo
+  commentId: T:SuperOffice.CRM.QuoteVersionContextInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.CRM.QuoteVersionContextInfo.html
+  name: QuoteVersionContextInfo
+  nameWithType: QuoteVersionContextInfo
+  fullName: SuperOffice.CRM.QuoteVersionContextInfo
+- uid: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteAlternativeAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteAlternativeAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_ApplyErpChangesToQuoteAlternativeAsync_SuperOffice_CRM_QuoteAlternativeContextInfo_System_Threading_CancellationToken_
+  name: ApplyErpChangesToQuoteAlternativeAsync
+  nameWithType: IQuoteData.ApplyErpChangesToQuoteAlternativeAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteAlternativeAsync
+- uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+  commentId: T:SuperOffice.CRM.QuoteAlternativeContextInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.CRM.QuoteAlternativeContextInfo.html
+  name: QuoteAlternativeContextInfo
+  nameWithType: QuoteAlternativeContextInfo
+  fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: SuperOffice.CRM.QuoteAlternativeInfo
+  commentId: T:SuperOffice.CRM.QuoteAlternativeInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.CRM.QuoteAlternativeInfo.html
+  name: QuoteAlternativeInfo
+  nameWithType: QuoteAlternativeInfo
+  fullName: SuperOffice.CRM.QuoteAlternativeInfo
+- uid: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteVersionAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteVersionAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_ApplyErpChangesToQuoteVersionAsync_SuperOffice_CRM_QuoteAlternativeContextInfo_System_Threading_CancellationToken_
+  name: ApplyErpChangesToQuoteVersionAsync
+  nameWithType: IQuoteData.ApplyErpChangesToQuoteVersionAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.ApplyErpChangesToQuoteVersionAsync
+- uid: SuperOffice.CRM.QuoteVersionInfo
+  commentId: T:SuperOffice.CRM.QuoteVersionInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.CRM.QuoteVersionInfo.html
+  name: QuoteVersionInfo
+  nameWithType: QuoteVersionInfo
+  fullName: SuperOffice.CRM.QuoteVersionInfo
+- uid: SuperOffice.CRM.Sale.IQuoteData.ClearQuoteLineCache*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.ClearQuoteLineCache
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_ClearQuoteLineCache
+  name: ClearQuoteLineCache
+  nameWithType: IQuoteData.ClearQuoteLineCache
+  fullName: SuperOffice.CRM.Sale.IQuoteData.ClearQuoteLineCache
+- uid: SuperOffice.CRM.Sale.IQuoteData.CloneQuoteAlternativesAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.CloneQuoteAlternativesAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_CloneQuoteAlternativesAsync_SuperOffice_CRM_Rows_QuoteVersionRow_SuperOffice_CRM_Rows_QuoteVersionRow_System_Collections_Generic_List_SuperOffice_CRM_Rows_QuoteAlternativeRow__System_Threading_CancellationToken_
+  name: CloneQuoteAlternativesAsync
+  nameWithType: IQuoteData.CloneQuoteAlternativesAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.CloneQuoteAlternativesAsync
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Rows.QuoteAlternativeRow}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Rows.QuoteAlternativeRow}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<QuoteAlternativeRow>
+  nameWithType: List<QuoteAlternativeRow>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Rows.QuoteAlternativeRow>
+  nameWithType.vb: List(Of QuoteAlternativeRow)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Rows.QuoteAlternativeRow)
+  name.vb: List(Of QuoteAlternativeRow)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.QuoteAlternativeRow
+    name: QuoteAlternativeRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteAlternativeRow.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.QuoteAlternativeRow
+    name: QuoteAlternativeRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteAlternativeRow.html
+  - name: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.CRM.Sale.IQuoteData.CloneQuoteAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.CloneQuoteAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_CloneQuoteAsync_SuperOffice_CRM_Sale_IQuoteManager_System_Threading_CancellationToken_
+  name: CloneQuoteAsync
+  nameWithType: IQuoteData.CloneQuoteAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.CloneQuoteAsync
+- uid: SuperOffice.CRM.Sale.IQuoteManager
+  commentId: T:SuperOffice.CRM.Sale.IQuoteManager
+  parent: SuperOffice.CRM.Sale
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteManager.html
+  name: IQuoteManager
+  nameWithType: IQuoteManager
+  fullName: SuperOffice.CRM.Sale.IQuoteManager
+- uid: SuperOffice.CRM.Sale.IQuoteData.CloneQuoteLineRowsAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.CloneQuoteLineRowsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_CloneQuoteLineRowsAsync_SuperOffice_CRM_Rows_QuoteAlternativeRow_SuperOffice_CRM_Rows_QuoteAlternativeRow_System_Threading_CancellationToken_
+  name: CloneQuoteLineRowsAsync
+  nameWithType: IQuoteData.CloneQuoteLineRowsAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.CloneQuoteLineRowsAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteLineRows}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteLineRows}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<QuoteLineRows>
+  nameWithType: Task<QuoteLineRows>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.QuoteLineRows>
+  nameWithType.vb: Task(Of QuoteLineRows)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.QuoteLineRows)
+  name.vb: Task(Of QuoteLineRows)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.QuoteLineRows
+    name: QuoteLineRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteLineRows.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.QuoteLineRows
+    name: QuoteLineRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteLineRows.html
+  - name: )
+- uid: SuperOffice.CRM.Sale.IQuoteData.CloneQuoteVersionAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.CloneQuoteVersionAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_CloneQuoteVersionAsync_SuperOffice_CRM_Rows_QuoteVersionRow_System_Threading_CancellationToken_
+  name: CloneQuoteVersionAsync
+  nameWithType: IQuoteData.CloneQuoteVersionAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.CloneQuoteVersionAsync
+- uid: SuperOffice.CRM.Sale.IQuoteData.CopyQuoteAlternativeAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.CopyQuoteAlternativeAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_CopyQuoteAlternativeAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: CopyQuoteAlternativeAsync
+  nameWithType: IQuoteData.CopyQuoteAlternativeAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.CopyQuoteAlternativeAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteAlternativeAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.CreateQuoteAlternativeAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_CreateQuoteAlternativeAsync_System_Int32_System_String_System_Threading_CancellationToken_
+  name: CreateQuoteAlternativeAsync
+  nameWithType: IQuoteData.CreateQuoteAlternativeAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteAlternativeAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteLine*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.CreateQuoteLine
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_CreateQuoteLine_System_Int32_
+  name: CreateQuoteLine
+  nameWithType: IQuoteData.CreateQuoteLine
+  fullName: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteLine
+- uid: SuperOffice.CRM.Rows.QuoteLineRow
+  commentId: T:SuperOffice.CRM.Rows.QuoteLineRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.QuoteLineRow.html
+  name: QuoteLineRow
+  nameWithType: QuoteLineRow
+  fullName: SuperOffice.CRM.Rows.QuoteLineRow
+- uid: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteVersionAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.CreateQuoteVersionAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_CreateQuoteVersionAsync_System_String_System_Threading_CancellationToken_
+  name: CreateQuoteVersionAsync
+  nameWithType: IQuoteData.CreateQuoteVersionAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteVersionAsync
+- uid: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteVersionCopyAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.CreateQuoteVersionCopyAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_CreateQuoteVersionCopyAsync_SuperOffice_CRM_Rows_QuoteVersionRow_System_Collections_Generic_List_SuperOffice_CRM_Rows_QuoteAlternativeRow__System_Threading_CancellationToken_
+  name: CreateQuoteVersionCopyAsync
+  nameWithType: IQuoteData.CreateQuoteVersionCopyAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.CreateQuoteVersionCopyAsync
+- uid: SuperOffice.CRM.Sale.IQuoteData.DeleteQuote*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.DeleteQuote
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_DeleteQuote_System_Int32_
+  name: DeleteQuote
+  nameWithType: IQuoteData.DeleteQuote
+  fullName: SuperOffice.CRM.Sale.IQuoteData.DeleteQuote
+- uid: SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteAlternativeAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteAlternativeAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_DeleteQuoteAlternativeAsync_System_Int32_
+  name: DeleteQuoteAlternativeAsync
+  nameWithType: IQuoteData.DeleteQuoteAlternativeAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteAlternativeAsync
+- uid: SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteLineAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteLineAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_DeleteQuoteLineAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteQuoteLineAsync
+  nameWithType: IQuoteData.DeleteQuoteLineAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteLineAsync
+- uid: SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteLineRowAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteLineRowAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_DeleteQuoteLineRowAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteQuoteLineRowAsync
+  nameWithType: IQuoteData.DeleteQuoteLineRowAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.DeleteQuoteLineRowAsync
+- uid: SuperOffice.CRM.Sale.IQuoteData.DetectErpQuoteLineChangesAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.DetectErpQuoteLineChangesAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_DetectErpQuoteLineChangesAsync_System_Collections_Generic_List_SuperOffice_CRM_QuoteLineInfo__System_Collections_Generic_List_SuperOffice_CRM_QuoteLineInfo__System_Threading_CancellationToken_
+  name: DetectErpQuoteLineChangesAsync
+  nameWithType: IQuoteData.DetectErpQuoteLineChangesAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.DetectErpQuoteLineChangesAsync
+- uid: System.Collections.Generic.List{SuperOffice.CRM.QuoteLineInfo}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.QuoteLineInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<QuoteLineInfo>
+  nameWithType: List<QuoteLineInfo>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.QuoteLineInfo>
+  nameWithType.vb: List(Of QuoteLineInfo)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.QuoteLineInfo)
+  name.vb: List(Of QuoteLineInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SuperOffice.CRM.QuoteLineInfo
+    name: QuoteLineInfo
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.QuoteLineInfo
+    name: QuoteLineInfo
+    isExternal: true
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Sale.QuoteAlternativeRecalculatedHelper}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Sale.QuoteAlternativeRecalculatedHelper}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<QuoteAlternativeRecalculatedHelper>
+  nameWithType: Task<QuoteAlternativeRecalculatedHelper>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Sale.QuoteAlternativeRecalculatedHelper>
+  nameWithType.vb: Task(Of QuoteAlternativeRecalculatedHelper)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Sale.QuoteAlternativeRecalculatedHelper)
+  name.vb: Task(Of QuoteAlternativeRecalculatedHelper)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Sale.QuoteAlternativeRecalculatedHelper
+    name: QuoteAlternativeRecalculatedHelper
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteAlternativeRecalculatedHelper.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Sale.QuoteAlternativeRecalculatedHelper
+    name: QuoteAlternativeRecalculatedHelper
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteAlternativeRecalculatedHelper.html
+  - name: )
+- uid: SuperOffice.CRM.Sale.IQuoteData.GetAlternativeRowAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.GetAlternativeRowAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_GetAlternativeRowAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetAlternativeRowAsync
+  nameWithType: IQuoteData.GetAlternativeRowAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.GetAlternativeRowAsync
+- uid: SuperOffice.CRM.Sale.IQuoteData.GetAlternativeRowsAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.GetAlternativeRowsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_GetAlternativeRowsAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetAlternativeRowsAsync
+  nameWithType: IQuoteData.GetAlternativeRowsAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.GetAlternativeRowsAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.Rows.QuoteAlternativeRow}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.Rows.QuoteAlternativeRow}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<QuoteAlternativeRow>>
+  nameWithType: Task<List<QuoteAlternativeRow>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<SuperOffice.CRM.Rows.QuoteAlternativeRow>>
+  nameWithType.vb: Task(Of List(Of QuoteAlternativeRow))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of SuperOffice.CRM.Rows.QuoteAlternativeRow))
+  name.vb: Task(Of List(Of QuoteAlternativeRow))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.QuoteAlternativeRow
+    name: QuoteAlternativeRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteAlternativeRow.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.QuoteAlternativeRow
+    name: QuoteAlternativeRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteAlternativeRow.html
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Sale.IQuoteData.GetBillingAddressAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.GetBillingAddressAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_GetBillingAddressAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetBillingAddressAsync
+  nameWithType: IQuoteData.GetBillingAddressAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.GetBillingAddressAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.AddressRow}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.AddressRow}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<AddressRow>
+  nameWithType: Task<AddressRow>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.AddressRow>
+  nameWithType.vb: Task(Of AddressRow)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.AddressRow)
+  name.vb: Task(Of AddressRow)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.AddressRow
+    name: AddressRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AddressRow.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.AddressRow
+    name: AddressRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AddressRow.html
+  - name: )
+- uid: SuperOffice.CRM.Sale.IQuoteData.GetLikelyAlternativeRowAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.GetLikelyAlternativeRowAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_GetLikelyAlternativeRowAsync_SuperOffice_CRM_Rows_QuoteVersionRow_System_Threading_CancellationToken_
+  name: GetLikelyAlternativeRowAsync
+  nameWithType: IQuoteData.GetLikelyAlternativeRowAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.GetLikelyAlternativeRowAsync
+- uid: SuperOffice.CRM.Sale.IQuoteData.GetQuoteLineRowAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.GetQuoteLineRowAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_GetQuoteLineRowAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetQuoteLineRowAsync
+  nameWithType: IQuoteData.GetQuoteLineRowAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.GetQuoteLineRowAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteLineRow}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteLineRow}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<QuoteLineRow>
+  nameWithType: Task<QuoteLineRow>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.QuoteLineRow>
+  nameWithType.vb: Task(Of QuoteLineRow)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.QuoteLineRow)
+  name.vb: Task(Of QuoteLineRow)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.QuoteLineRow
+    name: QuoteLineRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteLineRow.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.QuoteLineRow
+    name: QuoteLineRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteLineRow.html
+  - name: )
+- uid: SuperOffice.CRM.Sale.IQuoteData.GetQuoteLineRowsAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.GetQuoteLineRowsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_GetQuoteLineRowsAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetQuoteLineRowsAsync
+  nameWithType: IQuoteData.GetQuoteLineRowsAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.GetQuoteLineRowsAsync
+- uid: SuperOffice.CRM.Sale.IQuoteData.GetShippingAddressAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.GetShippingAddressAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_GetShippingAddressAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetShippingAddressAsync
+  nameWithType: IQuoteData.GetShippingAddressAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.GetShippingAddressAsync
+- uid: SuperOffice.CRM.Sale.IQuoteData.GetVersionRowAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.GetVersionRowAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_GetVersionRowAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetVersionRowAsync
+  nameWithType: IQuoteData.GetVersionRowAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.GetVersionRowAsync
+- uid: SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteAlternativeRow*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteAlternativeRow
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_PopulateQuoteAlternativeRow_SuperOffice_CRM_Rows_QuoteAlternativeRow_SuperOffice_CRM_QuoteAlternativeInfo_
+  name: PopulateQuoteAlternativeRow
+  nameWithType: IQuoteData.PopulateQuoteAlternativeRow
+  fullName: SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteAlternativeRow
+- uid: SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteLineRow*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteLineRow
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_PopulateQuoteLineRow_SuperOffice_CRM_Rows_QuoteLineRow_SuperOffice_CRM_QuoteLineInfo_
+  name: PopulateQuoteLineRow
+  nameWithType: IQuoteData.PopulateQuoteLineRow
+  fullName: SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteLineRow
+- uid: SuperOffice.CRM.QuoteLineInfo
+  commentId: T:SuperOffice.CRM.QuoteLineInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.CRM.QuoteLineInfo.html
+  name: QuoteLineInfo
+  nameWithType: QuoteLineInfo
+  fullName: SuperOffice.CRM.QuoteLineInfo
+- uid: SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteRow*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteRow
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_PopulateQuoteRow_SuperOffice_CRM_Rows_QuoteRow_SuperOffice_CRM_QuoteInfo_
+  name: PopulateQuoteRow
+  nameWithType: IQuoteData.PopulateQuoteRow
+  fullName: SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteRow
+- uid: SuperOffice.CRM.Rows.QuoteRow
+  commentId: T:SuperOffice.CRM.Rows.QuoteRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.QuoteRow.html
+  name: QuoteRow
+  nameWithType: QuoteRow
+  fullName: SuperOffice.CRM.Rows.QuoteRow
+- uid: SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteVersionRow*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteVersionRow
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_PopulateQuoteVersionRow_SuperOffice_CRM_Rows_QuoteVersionRow_SuperOffice_CRM_QuoteVersionInfo_
+  name: PopulateQuoteVersionRow
+  nameWithType: IQuoteData.PopulateQuoteVersionRow
+  fullName: SuperOffice.CRM.Sale.IQuoteData.PopulateQuoteVersionRow
+- uid: SuperOffice.CRM.Sale.IQuoteData.RenameQuoteAlternativeAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.RenameQuoteAlternativeAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_RenameQuoteAlternativeAsync_System_Int32_System_String_System_Threading_CancellationToken_
+  name: RenameQuoteAlternativeAsync
+  nameWithType: IQuoteData.RenameQuoteAlternativeAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.RenameQuoteAlternativeAsync
+- uid: SuperOffice.CRM.Sale.IQuoteData.SaveAlternativesAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.SaveAlternativesAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_SaveAlternativesAsync_SuperOffice_CRM_Rows_QuoteVersionRow_
+  name: SaveAlternativesAsync
+  nameWithType: IQuoteData.SaveAlternativesAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.SaveAlternativesAsync
+- uid: SuperOffice.CRM.Sale.IQuoteData.SaveAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.SaveAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_SaveAsync
+  name: SaveAsync
+  nameWithType: IQuoteData.SaveAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.SaveAsync
+- uid: SuperOffice.CRM.Sale.IQuoteData.SaveErpQuoteLineChangesAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.SaveErpQuoteLineChangesAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_SaveErpQuoteLineChangesAsync_System_Int32_SuperOffice_CRM_Sale_QuoteAlternativeRecalculatedHelper_System_Threading_CancellationToken_
+  name: SaveErpQuoteLineChangesAsync
+  nameWithType: IQuoteData.SaveErpQuoteLineChangesAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.SaveErpQuoteLineChangesAsync
+- uid: SuperOffice.CRM.Sale.QuoteAlternativeRecalculatedHelper
+  commentId: T:SuperOffice.CRM.Sale.QuoteAlternativeRecalculatedHelper
+  parent: SuperOffice.CRM.Sale
+  isExternal: true
+  href: SuperOffice.CRM.Sale.QuoteAlternativeRecalculatedHelper.html
+  name: QuoteAlternativeRecalculatedHelper
+  nameWithType: QuoteAlternativeRecalculatedHelper
+  fullName: SuperOffice.CRM.Sale.QuoteAlternativeRecalculatedHelper
+- uid: SuperOffice.CRM.Sale.IQuoteData.SaveQuoteLineAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.SaveQuoteLineAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_SaveQuoteLineAsync_SuperOffice_CRM_QuoteLineInfo_System_String_System_Threading_CancellationToken_
+  name: SaveQuoteLineAsync
+  nameWithType: IQuoteData.SaveQuoteLineAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.SaveQuoteLineAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.QuoteLineInfo}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.QuoteLineInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<QuoteLineInfo>
+  nameWithType: Task<QuoteLineInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.QuoteLineInfo>
+  nameWithType.vb: Task(Of QuoteLineInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.QuoteLineInfo)
+  name.vb: Task(Of QuoteLineInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.QuoteLineInfo
+    name: QuoteLineInfo
+    isExternal: true
+    href: SuperOffice.CRM.QuoteLineInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.QuoteLineInfo
+    name: QuoteLineInfo
+    isExternal: true
+    href: SuperOffice.CRM.QuoteLineInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Sale.IQuoteData.SetOwnAddressAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.SetOwnAddressAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_SetOwnAddressAsync_System_Int32_SuperOffice_CRM_Rows_AddressRow_System_Int32_System_Threading_CancellationToken_
+  name: SetOwnAddressAsync
+  nameWithType: IQuoteData.SetOwnAddressAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.SetOwnAddressAsync
+- uid: SuperOffice.CRM.Rows.AddressRow
+  commentId: T:SuperOffice.CRM.Rows.AddressRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AddressRow.html
+  name: AddressRow
+  nameWithType: AddressRow
+  fullName: SuperOffice.CRM.Rows.AddressRow
+- uid: SuperOffice.CRM.AddressInfo
+  commentId: T:SuperOffice.CRM.AddressInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.CRM.AddressInfo.html
+  name: AddressInfo
+  nameWithType: AddressInfo
+  fullName: SuperOffice.CRM.AddressInfo
+- uid: SuperOffice.Data.AddressType
+  commentId: T:SuperOffice.Data.AddressType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.AddressType.html
+  name: AddressType
+  nameWithType: AddressType
+  fullName: SuperOffice.Data.AddressType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: SuperOffice.CRM.Sale.IQuoteData.SetQuoteLineImageAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.SetQuoteLineImageAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_SetQuoteLineImageAsync_SuperOffice_CRM_QuoteLineInfo_SuperOffice_Data_BlobLinkType_System_String_System_String_System_Threading_CancellationToken_
+  name: SetQuoteLineImageAsync
+  nameWithType: IQuoteData.SetQuoteLineImageAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.SetQuoteLineImageAsync
+- uid: SuperOffice.Data.BlobLinkType
+  commentId: T:SuperOffice.Data.BlobLinkType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.BlobLinkType.html
+  name: BlobLinkType
+  nameWithType: BlobLinkType
+  fullName: SuperOffice.Data.BlobLinkType
+- uid: SuperOffice.CRM.Sale.IQuoteData.InitializeAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.InitializeAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_InitializeAsync_System_Int32_System_Threading_CancellationToken_
+  name: InitializeAsync
+  nameWithType: IQuoteData.InitializeAsync
+  fullName: SuperOffice.CRM.Sale.IQuoteData.InitializeAsync
+- uid: SuperOffice.CRM.Sale.IQuoteData.ContactInfo*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.ContactInfo
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_ContactInfo
+  name: ContactInfo
+  nameWithType: IQuoteData.ContactInfo
+  fullName: SuperOffice.CRM.Sale.IQuoteData.ContactInfo
+- uid: SuperOffice.CRM.IContactInfo
+  commentId: T:SuperOffice.CRM.IContactInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.CRM.IContactInfo.html
+  name: IContactInfo
+  nameWithType: IContactInfo
+  fullName: SuperOffice.CRM.IContactInfo
+- uid: SuperOffice.CRM.Sale.IQuoteData.IsDeleted*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.IsDeleted
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_IsDeleted
+  name: IsDeleted
+  nameWithType: IQuoteData.IsDeleted
+  fullName: SuperOffice.CRM.Sale.IQuoteData.IsDeleted
+- uid: SuperOffice.CRM.Sale.IQuoteData.IsDirty*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.IsDirty
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_IsDirty
+  name: IsDirty
+  nameWithType: IQuoteData.IsDirty
+  fullName: SuperOffice.CRM.Sale.IQuoteData.IsDirty
+- uid: SuperOffice.CRM.Sale.IQuoteData.PersonInfo*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.PersonInfo
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_PersonInfo
+  name: PersonInfo
+  nameWithType: IQuoteData.PersonInfo
+  fullName: SuperOffice.CRM.Sale.IQuoteData.PersonInfo
+- uid: SuperOffice.CRM.IPersonInfo
+  commentId: T:SuperOffice.CRM.IPersonInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.CRM.IPersonInfo.html
+  name: IPersonInfo
+  nameWithType: IPersonInfo
+  fullName: SuperOffice.CRM.IPersonInfo
+- uid: SuperOffice.CRM.Sale.IQuoteData.ProjectInfo*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.ProjectInfo
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_ProjectInfo
+  name: ProjectInfo
+  nameWithType: IQuoteData.ProjectInfo
+  fullName: SuperOffice.CRM.Sale.IQuoteData.ProjectInfo
+- uid: SuperOffice.CRM.IProjectInfo
+  commentId: T:SuperOffice.CRM.IProjectInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.CRM.IProjectInfo.html
+  name: IProjectInfo
+  nameWithType: IProjectInfo
+  fullName: SuperOffice.CRM.IProjectInfo
+- uid: SuperOffice.CRM.Sale.IQuoteData.QuoteRow*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.QuoteRow
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_QuoteRow
+  name: QuoteRow
+  nameWithType: IQuoteData.QuoteRow
+  fullName: SuperOffice.CRM.Sale.IQuoteData.QuoteRow
+- uid: SuperOffice.CRM.Sale.IQuoteData.SaleInfo*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.SaleInfo
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_SaleInfo
+  name: SaleInfo
+  nameWithType: IQuoteData.SaleInfo
+  fullName: SuperOffice.CRM.Sale.IQuoteData.SaleInfo
+- uid: SuperOffice.CRM.ISaleInfo
+  commentId: T:SuperOffice.CRM.ISaleInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.CRM.ISaleInfo.html
+  name: ISaleInfo
+  nameWithType: ISaleInfo
+  fullName: SuperOffice.CRM.ISaleInfo
+- uid: SuperOffice.CRM.Sale.IQuoteData.SaleRow*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.SaleRow
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_SaleRow
+  name: SaleRow
+  nameWithType: IQuoteData.SaleRow
+  fullName: SuperOffice.CRM.Sale.IQuoteData.SaleRow
+- uid: SuperOffice.CRM.Rows.SaleRow
+  commentId: T:SuperOffice.CRM.Rows.SaleRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SaleRow.html
+  name: SaleRow
+  nameWithType: SaleRow
+  fullName: SuperOffice.CRM.Rows.SaleRow
+- uid: SuperOffice.CRM.Sale.IQuoteData.UserInfo*
+  commentId: Overload:SuperOffice.CRM.Sale.IQuoteData.UserInfo
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteData.html#SuperOffice_CRM_Sale_IQuoteData_UserInfo
+  name: UserInfo
+  nameWithType: IQuoteData.UserInfo
+  fullName: SuperOffice.CRM.Sale.IQuoteData.UserInfo
+- uid: SuperOffice.CRM.UserInfo
+  commentId: T:SuperOffice.CRM.UserInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.CRM.UserInfo.html
+  name: UserInfo
+  nameWithType: UserInfo
+  fullName: SuperOffice.CRM.UserInfo

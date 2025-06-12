@@ -86,7 +86,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Gutmann-Blanda",
-  "SaleDate": "2013-01-08T16:32:48.0557147+01:00",
-  "SaleId": 759,
-  "Probability": 893,
-  "Title": "autem",
-  "Amount": 7264.612,
-  "Currency": "placeat",
-  "ProjectName": "Littel-Greenholt",
-  "AssociateFullName": "Coleman Kozey DVM",
-  "Description": "Devolved zero tolerance infrastructure",
+  "ContactName": "Jenkins, Funk and Shanahan",
+  "SaleDate": "2007-08-22T17:54:08.5230811+02:00",
+  "SaleId": 563,
+  "Probability": 331,
+  "Title": "animi",
+  "Amount": 19321.11,
+  "Currency": "illum",
+  "ProjectName": "Krajcik Group",
+  "AssociateFullName": "Miss Eleanore Effertz PhD",
+  "Description": "Profit-focused local attitude",
   "Status": "Lost",
-  "WeightedAmount": 188.04,
-  "ProjectId": 142,
-  "EarningPercent": 7402.508,
-  "Earning": 27613.674,
-  "ContactId": 449,
-  "AssociateId": 948,
-  "PersonId": 272,
-  "SaleTypeId": 223,
-  "SaleTypeName": "King Group",
-  "PersonFullName": "Austin Lockman",
+  "WeightedAmount": 513.976,
+  "ProjectId": 555,
+  "EarningPercent": 5757.1579999999994,
+  "Earning": 6816.45,
+  "ContactId": 286,
+  "AssociateId": 128,
+  "PersonId": 294,
+  "SaleTypeId": 903,
+  "SaleTypeName": "O'Reilly LLC",
+  "PersonFullName": "Prof. Ara Hagenes",
   "Completed": "Completed",
-  "ActiveErpLinks": 443,
-  "NextDueDate": "1998-02-18T16:32:48.0557147+01:00",
-  "Number": "909849",
+  "ActiveErpLinks": 453,
+  "NextDueDate": "2009-04-10T17:54:08.5230811+02:00",
+  "Number": "1169544",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 231
+      "FieldType": "System.String",
+      "FieldLength": 422
     }
   }
 }

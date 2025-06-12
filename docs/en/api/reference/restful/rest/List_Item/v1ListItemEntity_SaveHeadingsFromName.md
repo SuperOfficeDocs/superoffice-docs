@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 410,
-    "Name": "Crona Group",
-    "Tooltip": "nihil",
+    "HeadingId": 412,
+    "Name": "Bernhard Group",
+    "Tooltip": "tempore",
     "Deleted": false,
-    "Rank": 520,
-    "UdListDefinitionId": 209
+    "Rank": 866,
+    "UdListDefinitionId": 164
   },
   {
-    "HeadingId": 410,
-    "Name": "Crona Group",
-    "Tooltip": "nihil",
+    "HeadingId": 412,
+    "Name": "Bernhard Group",
+    "Tooltip": "tempore",
     "Deleted": false,
-    "Rank": 520,
-    "UdListDefinitionId": 209
+    "Rank": 866,
+    "UdListDefinitionId": 164
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 965,
-    "Name": "Hintz LLC",
-    "Tooltip": "totam",
-    "Deleted": false,
-    "Rank": 746,
-    "UdListDefinitionId": 668,
+    "HeadingId": 17,
+    "Name": "Lehner LLC",
+    "Tooltip": "sint",
+    "Deleted": true,
+    "Rank": 714,
+    "UdListDefinitionId": 789,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 920
+        "FieldLength": 395
       }
     }
   }

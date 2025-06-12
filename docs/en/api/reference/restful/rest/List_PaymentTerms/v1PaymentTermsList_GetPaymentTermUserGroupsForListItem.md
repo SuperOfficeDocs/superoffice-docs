@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 305,
-    "Name": "Schiller, Crona and Wisozk",
-    "ToolTip": "Quam aut atque alias.",
+    "Id": 788,
+    "Name": "Von, Purdy and Bruen",
+    "ToolTip": "Molestias molestiae inventore molestiae.",
     "Deleted": false,
-    "Rank": 622,
-    "Type": "est",
-    "ColorBlock": 943,
-    "IconHint": "natus",
+    "Rank": 973,
+    "Type": "magni",
+    "ColorBlock": 836,
+    "IconHint": "vel",
     "Selected": true,
-    "LastChanged": "2015-09-25T16:32:48.7276378+02:00",
+    "LastChanged": "2005-04-09T17:54:08.9449229+02:00",
     "ChildItems": [
       {
-        "Id": 17,
-        "Name": "Hackett LLC",
-        "ToolTip": "Sequi animi sed cumque.",
+        "Id": 638,
+        "Name": "Murphy, Wolff and Mraz",
+        "ToolTip": "Aspernatur voluptatibus.",
         "Deleted": false,
-        "Rank": 538,
-        "Type": "non",
-        "ColorBlock": 187,
-        "IconHint": "aspernatur",
+        "Rank": 137,
+        "Type": "ipsa",
+        "ColorBlock": 72,
+        "IconHint": "magni",
         "Selected": true,
-        "LastChanged": "2012-09-11T16:32:48.7276378+02:00",
+        "LastChanged": "2004-01-12T17:54:08.9449229+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "magni",
-        "Hidden": false,
-        "FullName": "Cedrick Alexa Lubowitz Jr.",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "nisi",
+        "Hidden": true,
+        "FullName": "Miss Hellen Lonny Hilll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 44
+            "FieldType": "System.String",
+            "FieldLength": 345
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "pariatur",
+    "ExtraInfo": "rem",
+    "StyleHint": "assumenda",
     "Hidden": false,
-    "FullName": "Lincoln Cronin",
+    "FullName": "Kris McLaughlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 5
+        "FieldLength": 368
       }
     }
   }

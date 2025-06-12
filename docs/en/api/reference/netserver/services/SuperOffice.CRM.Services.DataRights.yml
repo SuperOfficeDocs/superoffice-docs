@@ -18,31 +18,36 @@ items:
   nameWithType: DataRights
   fullName: SuperOffice.CRM.Services.DataRights
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCarrier object for DataRights.\nServices for the DataRights Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IUserAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Carrier object for DataRights.
+
+    Services for the DataRights Carrier is available from the <xref href="SuperOffice.CRM.Services.IUserAgent?text=User+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class DataRights : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class DataRights : Carrier
     content.vb: >-
-      Public Class DataRights
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class DataRights Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.UserAgent
-    commentId: T:SuperOffice.CRM.Services.UserAgent
   - linkId: SuperOffice.CRM.Services.IUserAgent
     commentId: T:SuperOffice.CRM.Services.IUserAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.DataRights.#ctor
   commentId: M:SuperOffice.CRM.Services.DataRights.#ctor
   id: '#ctor'
@@ -54,21 +59,18 @@ items:
   nameWithType: DataRights.DataRights()
   fullName: SuperOffice.CRM.Services.DataRights.DataRights()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public DataRights()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.DataRights.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: DataRights.New()
+  fullName.vb: SuperOffice.CRM.Services.DataRights.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.DataRights.ToString
   commentId: M:SuperOffice.CRM.Services.DataRights.ToString
   id: ToString
@@ -80,26 +82,18 @@ items:
   nameWithType: DataRights.ToString()
   fullName: SuperOffice.CRM.Services.DataRights.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.DataRights.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.DataRights.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.DataRights.ToString(System.String)
   id: ToString(System.String)
@@ -107,17 +101,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: DataRights.ToString(String)
-  fullName: SuperOffice.CRM.Services.DataRights.ToString(System.String)
+  name: ToString(string)
+  nameWithType: DataRights.ToString(string)
+  fullName: SuperOffice.CRM.Services.DataRights.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -129,10 +124,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.DataRights.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: DataRights.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.DataRights.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.DataRights.ColumnsInfo
   commentId: P:SuperOffice.CRM.Services.DataRights.ColumnsInfo
   id: ColumnsInfo
@@ -144,28 +138,28 @@ items:
   nameWithType: DataRights.ColumnsInfo
   fullName: SuperOffice.CRM.Services.DataRights.ColumnsInfo
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: public virtual RelationToOwner[] ColumnsInfo { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual RelationToOwner[] ColumnsInfo { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.RelationToOwner[]
-    content.vb: Public Overridable Property ColumnsInfo As RelationToOwner()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ColumnsInfo As RelationToOwner()
   overload: SuperOffice.CRM.Services.DataRights.ColumnsInfo*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DataRights.RowsInfo
   commentId: P:SuperOffice.CRM.Services.DataRights.RowsInfo
   id: RowsInfo
@@ -177,28 +171,28 @@ items:
   nameWithType: DataRights.RowsInfo
   fullName: SuperOffice.CRM.Services.DataRights.RowsInfo
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: public virtual EntityName[] RowsInfo { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual EntityName[] RowsInfo { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.EntityName[]
-    content.vb: Public Overridable Property RowsInfo As EntityName()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property RowsInfo As EntityName()
   overload: SuperOffice.CRM.Services.DataRights.RowsInfo*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DataRights.Rights
   commentId: P:SuperOffice.CRM.Services.DataRights.Rights
   id: Rights
@@ -210,57 +204,106 @@ items:
   nameWithType: DataRights.Rights
   fullName: SuperOffice.CRM.Services.DataRights.Rights
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: public virtual DataRight[][] Rights { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DataRight[][] Rights { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.DataRight[][]
-    content.vb: Public Overridable Property Rights As DataRight()()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Rights As DataRight()()
   overload: SuperOffice.CRM.Services.DataRights.Rights*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.UserAgent
-  commentId: T:SuperOffice.CRM.Services.UserAgent
-  isExternal: true
-  name: UserAgent
-  nameWithType: UserAgent
-  fullName: SuperOffice.CRM.Services.UserAgent
 - uid: SuperOffice.CRM.Services.IUserAgent
   commentId: T:SuperOffice.CRM.Services.IUserAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IUserAgent.html
   name: IUserAgent
   nameWithType: IUserAgent
   fullName: SuperOffice.CRM.Services.IUserAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.DataRights.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.DataRights.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.DataRights.html#SuperOffice_CRM_Services_DataRights__ctor
   name: DataRights
   nameWithType: DataRights.DataRights
   fullName: SuperOffice.CRM.Services.DataRights.DataRights
+  nameWithType.vb: DataRights.New
+  fullName.vb: SuperOffice.CRM.Services.DataRights.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.DataRights.ToString*
   commentId: Overload:SuperOffice.CRM.Services.DataRights.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.DataRights.html#SuperOffice_CRM_Services_DataRights_ToString
   name: ToString
   nameWithType: DataRights.ToString
   fullName: SuperOffice.CRM.Services.DataRights.ToString
@@ -268,23 +311,23 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.DataRights.ColumnsInfo*
   commentId: Overload:SuperOffice.CRM.Services.DataRights.ColumnsInfo
   isExternal: true
+  href: SuperOffice.CRM.Services.DataRights.html#SuperOffice_CRM_Services_DataRights_ColumnsInfo
   name: ColumnsInfo
   nameWithType: DataRights.ColumnsInfo
   fullName: SuperOffice.CRM.Services.DataRights.ColumnsInfo
 - uid: SuperOffice.CRM.Services.RelationToOwner[]
   isExternal: true
+  href: SuperOffice.CRM.Services.RelationToOwner.html
   name: RelationToOwner[]
   nameWithType: RelationToOwner[]
   fullName: SuperOffice.CRM.Services.RelationToOwner[]
@@ -294,29 +337,27 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.RelationToOwner
     name: RelationToOwner
-    nameWithType: RelationToOwner
-    fullName: SuperOffice.CRM.Services.RelationToOwner
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.RelationToOwner.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.RelationToOwner
     name: RelationToOwner
-    nameWithType: RelationToOwner
-    fullName: SuperOffice.CRM.Services.RelationToOwner
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.Services.RelationToOwner.html
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.DataRights.RowsInfo*
   commentId: Overload:SuperOffice.CRM.Services.DataRights.RowsInfo
   isExternal: true
+  href: SuperOffice.CRM.Services.DataRights.html#SuperOffice_CRM_Services_DataRights_RowsInfo
   name: RowsInfo
   nameWithType: DataRights.RowsInfo
   fullName: SuperOffice.CRM.Services.DataRights.RowsInfo
 - uid: SuperOffice.CRM.Services.EntityName[]
   isExternal: true
+  href: SuperOffice.CRM.Services.EntityName.html
   name: EntityName[]
   nameWithType: EntityName[]
   fullName: SuperOffice.CRM.Services.EntityName[]
@@ -326,29 +367,27 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.EntityName
     name: EntityName
-    nameWithType: EntityName
-    fullName: SuperOffice.CRM.Services.EntityName
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.EntityName.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.EntityName
     name: EntityName
-    nameWithType: EntityName
-    fullName: SuperOffice.CRM.Services.EntityName
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.Services.EntityName.html
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.DataRights.Rights*
   commentId: Overload:SuperOffice.CRM.Services.DataRights.Rights
   isExternal: true
+  href: SuperOffice.CRM.Services.DataRights.html#SuperOffice_CRM_Services_DataRights_Rights
   name: Rights
   nameWithType: DataRights.Rights
   fullName: SuperOffice.CRM.Services.DataRights.Rights
 - uid: SuperOffice.CRM.Services.DataRight[][]
   isExternal: true
+  href: SuperOffice.CRM.Services.DataRight.html
   name: DataRight[][]
   nameWithType: DataRight[][]
   fullName: SuperOffice.CRM.Services.DataRight[][]
@@ -358,24 +397,18 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.DataRight
     name: DataRight
-    nameWithType: DataRight
-    fullName: SuperOffice.CRM.Services.DataRight
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.DataRight.html
+  - name: '['
+  - name: ']'
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.DataRight
     name: DataRight
-    nameWithType: DataRight
-    fullName: SuperOffice.CRM.Services.DataRight
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.Services.DataRight.html
+  - name: (
+  - name: )
+  - name: (
+  - name: )

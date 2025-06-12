@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "non"
+  "UniqueIdentifier": "perferendis"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "magnam",
-  "Name": "Deckow, Bogan and Jenkins",
-  "Description": "Robust explicit process improvement",
-  "IncludeId": "nihil",
-  "Source": "qui",
-  "Registered": "2011-10-11T16:32:38.5552758+02:00",
-  "RegisteredBy": "est",
-  "Updated": "2001-12-07T16:32:38.5552758+01:00",
-  "UpdatedBy": "et",
-  "Path": "voluptatem",
+  "UniqueIdentifier": "sequi",
+  "Name": "Steuber LLC",
+  "Description": "Function-based uniform structure",
+  "IncludeId": "inventore",
+  "Source": "veritatis",
+  "Registered": "2018-02-02T17:54:02.9139671+01:00",
+  "RegisteredBy": "quia",
+  "Updated": "2010-07-20T17:54:02.9139671+02:00",
+  "UpdatedBy": "sed",
+  "Path": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 375
+      "FieldType": "System.Int32",
+      "FieldLength": 724
     }
   }
 }

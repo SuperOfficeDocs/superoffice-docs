@@ -84,22 +84,22 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 588,
+  "SelectionId": 426,
   "Criteria": [
     {
-      "Name": "Kuhlman-Torphy",
-      "Operator": "aliquid",
+      "Name": "Keeling, Denesik and Ondricka",
+      "Operator": "voluptatem",
       "Values": [
-        "officia",
-        "accusantium"
+        "illum",
+        "eum"
       ],
       "DisplayValues": [
-        "possimus",
-        "voluptates"
+        "voluptas",
+        "aut"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -107,12 +107,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 932,
+      "InterParenthesis": 780,
       "InterOperator": "And",
-      "UniqueHash": 266
+      "UniqueHash": 112
     }
   ],
-  "Filter": "ipsa"
+  "Filter": "rerum"
 }
 ```
 
@@ -124,29 +124,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Purdy Inc and Sons",
-    "Operator": "sunt",
+    "Name": "Gibson-Pfeffer",
+    "Operator": "minima",
     "Values": [
-      "illo",
-      "voluptates"
+      "rerum",
+      "possimus"
     ],
     "DisplayValues": [
-      "adipisci",
-      "ex"
+      "et",
+      "aut"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Lockman, Terry and Schuster",
-        "Operator": "veritatis",
+        "Name": "Johnston Inc and Sons",
+        "Operator": "aspernatur",
         "Values": [
-          "dolorem",
-          "ut"
+          "deserunt",
+          "neque"
         ],
         "DisplayValues": [
-          "illo",
-          "voluptatem"
+          "alias",
+          "veniam"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -154,14 +154,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 437,
+        "InterParenthesis": 739,
         "InterOperator": "And",
-        "UniqueHash": 241
+        "UniqueHash": 625
       }
     ],
-    "InterParenthesis": 815,
+    "InterParenthesis": 418,
     "InterOperator": "And",
-    "UniqueHash": 414
+    "UniqueHash": 977
   }
 ]
 ```

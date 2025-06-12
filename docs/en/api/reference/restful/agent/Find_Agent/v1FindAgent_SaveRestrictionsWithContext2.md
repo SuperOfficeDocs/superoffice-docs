@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "laborum",
-  "ProviderName": "Schumm, Lind and Herzog",
-  "StorageKey": "et",
-  "Restrictions": "veniam",
-  "Context": "ab"
+  "StorageType": "voluptates",
+  "ProviderName": "Swaniawski Group",
+  "StorageKey": "consequuntur",
+  "Restrictions": "eligendi",
+  "Context": "officia"
 }
 ```
 

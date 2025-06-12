@@ -1,0 +1,385 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration
+  id: ConfigFile.IInfrastructureConfiguration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.CustomerStateUrl
+  - SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.IsDebugModeActivated
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.IInfrastructureConfiguration
+  nameWithType: ConfigFile.IInfrastructureConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration
+  type: Interface
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: >-
+    Configuration values for the Online Infrastructure
+
+    Created in Database scope
+  example: []
+  syntax:
+    content: public interface ConfigFile.IInfrastructureConfiguration
+    content.vb: Public Interface ConfigFile.IInfrastructureConfiguration
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.CustomerStateUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.CustomerStateUrl
+  id: CustomerStateUrl
+  parent: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration
+  langs:
+  - csharp
+  - vb
+  name: CustomerStateUrl
+  nameWithType: ConfigFile.IInfrastructureConfiguration.CustomerStateUrl
+  fullName: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.CustomerStateUrl
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Url for looking up the customer state.
+  example: []
+  syntax:
+    content: string CustomerStateUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property CustomerStateUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.CustomerStateUrl*
+- uid: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.IsDebugModeActivated
+  commentId: P:SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.IsDebugModeActivated
+  id: IsDebugModeActivated
+  parent: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration
+  langs:
+  - csharp
+  - vb
+  name: IsDebugModeActivated
+  nameWithType: ConfigFile.IInfrastructureConfiguration.IsDebugModeActivated
+  fullName: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.IsDebugModeActivated
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Is online debug mode activated
+  example: []
+  syntax:
+    content: bool IsDebugModeActivated { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsDebugModeActivated As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.IsDebugModeActivated*
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
+- uid: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IInfrastructureConfiguration, To>(IInfrastructureConfiguration)
+  nameWithType: EnumUtil.MapEnums<ConfigFile.IInfrastructureConfiguration, To>(ConfigFile.IInfrastructureConfiguration)
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration, To>(SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration)
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.IInfrastructureConfiguration, To)(ConfigFile.IInfrastructureConfiguration)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration, To)(SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration)
+  name.vb: MapEnums(Of IInfrastructureConfiguration, To)(IInfrastructureConfiguration)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration
+    name: IInfrastructureConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration
+    name: IInfrastructureConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration
+    name: IInfrastructureConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration
+    name: IInfrastructureConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.html
+  - name: )
+- uid: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IInfrastructureConfiguration, To>(IInfrastructureConfiguration)
+  nameWithType: Converters.MapEnums<ConfigFile.IInfrastructureConfiguration, To>(ConfigFile.IInfrastructureConfiguration)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration, To>(SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration)
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.IInfrastructureConfiguration, To)(ConfigFile.IInfrastructureConfiguration)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration, To)(SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration)
+  name.vb: MapEnums(Of IInfrastructureConfiguration, To)(IInfrastructureConfiguration)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration
+    name: IInfrastructureConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration
+    name: IInfrastructureConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration
+    name: IInfrastructureConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration
+    name: IInfrastructureConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.CustomerStateUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.CustomerStateUrl
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.html#SuperOffice_Configuration_ConfigFile_IInfrastructureConfiguration_CustomerStateUrl
+  name: CustomerStateUrl
+  nameWithType: ConfigFile.IInfrastructureConfiguration.CustomerStateUrl
+  fullName: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.CustomerStateUrl
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.IsDebugModeActivated*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.IsDebugModeActivated
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.html#SuperOffice_Configuration_ConfigFile_IInfrastructureConfiguration_IsDebugModeActivated
+  name: IsDebugModeActivated
+  nameWithType: ConfigFile.IInfrastructureConfiguration.IsDebugModeActivated
+  fullName: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.IsDebugModeActivated
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

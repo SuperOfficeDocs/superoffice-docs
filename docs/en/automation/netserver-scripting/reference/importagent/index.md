@@ -12,8 +12,8 @@ so.envir: onsite
 
 Service methods defined on <see cref='T:IImportAgent'>ImportAgent</see> that can trigger server-side event scripts.
 
-* [CreateDefaultImportLine](createdefaultimportline.md)
-* [CreateErpImportData](createerpimportdata.md)
-* [PreviewImport](previewimport.md)
-* [SaveImport](saveimport.md)
+* [CreateDefaultImportLineAsync](createdefaultimportlineasync.md)
+* [CreateErpImportDataAsync](createerpimportdataasync.md)
+* [PreviewImportAsync](previewimportasync.md)
+* [SaveImportAsync](saveimportasync.md)
 

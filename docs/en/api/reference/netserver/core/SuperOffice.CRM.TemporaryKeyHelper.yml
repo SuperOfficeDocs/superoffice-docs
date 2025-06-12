@@ -5,8 +5,8 @@ items:
   id: TemporaryKeyHelper
   parent: SuperOffice.CRM
   children:
-  - SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String)
-  - SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeys(SuperOffice.Data.TemporaryKeyDomain,System.Int32)
+  - SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKeyAsync(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String)
+  - SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeysAsync(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -14,45 +14,38 @@ items:
   nameWithType: TemporaryKeyHelper
   fullName: SuperOffice.CRM.TemporaryKeyHelper
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: 'public static class TemporaryKeyHelper : Object'
-    content.vb: >-
-      Public Module TemporaryKeyHelper
-          Inherits Object
+    content: public static class TemporaryKeyHelper
+    content.vb: Public Module TemporaryKeyHelper
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
-- uid: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String)
-  commentId: M:SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String)
-  id: CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String)
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKeyAsync(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String)
+  commentId: M:SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKeyAsync(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String)
+  id: CreateTemporaryKeyAsync(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String)
   parent: SuperOffice.CRM.TemporaryKeyHelper
   langs:
   - csharp
   - vb
-  name: CreateTemporaryKey(TemporaryKeyDomain, Int32, Int32, DateTime, String)
-  nameWithType: TemporaryKeyHelper.CreateTemporaryKey(TemporaryKeyDomain, Int32, Int32, DateTime, String)
-  fullName: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain, System.Int32, System.Int32, System.DateTime, System.String)
+  name: CreateTemporaryKeyAsync(TemporaryKeyDomain, int, int, DateTime, string)
+  nameWithType: TemporaryKeyHelper.CreateTemporaryKeyAsync(TemporaryKeyDomain, int, int, DateTime, string)
+  fullName: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKeyAsync(SuperOffice.Data.TemporaryKeyDomain, int, int, System.DateTime, string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static string CreateTemporaryKey(TemporaryKeyDomain domain, int targetId, int personId, DateTime expires, string payload = "")
+    content: public static Task<string> CreateTemporaryKeyAsync(TemporaryKeyDomain domain, int targetId, int personId, DateTime expires, string payload = "")
     parameters:
     - id: domain
       type: SuperOffice.Data.TemporaryKeyDomain
@@ -65,77 +58,319 @@ items:
     - id: payload
       type: System.String
     return:
-      type: System.String
-    content.vb: Public Shared Function CreateTemporaryKey(domain As TemporaryKeyDomain, targetId As Integer, personId As Integer, expires As DateTime, payload As String = "") As String
-  overload: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeys(SuperOffice.Data.TemporaryKeyDomain,System.Int32)
-  commentId: M:SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeys(SuperOffice.Data.TemporaryKeyDomain,System.Int32)
-  id: DeleteTemporaryKeys(SuperOffice.Data.TemporaryKeyDomain,System.Int32)
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Shared Function CreateTemporaryKeyAsync(domain As TemporaryKeyDomain, targetId As Integer, personId As Integer, expires As Date, payload As String = "") As Task(Of String)
+  overload: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKeyAsync*
+  nameWithType.vb: TemporaryKeyHelper.CreateTemporaryKeyAsync(TemporaryKeyDomain, Integer, Integer, Date, String)
+  fullName.vb: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKeyAsync(SuperOffice.Data.TemporaryKeyDomain, Integer, Integer, Date, String)
+  name.vb: CreateTemporaryKeyAsync(TemporaryKeyDomain, Integer, Integer, Date, String)
+- uid: SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeysAsync(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeysAsync(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Threading.CancellationToken)
+  id: DeleteTemporaryKeysAsync(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.TemporaryKeyHelper
   langs:
   - csharp
   - vb
-  name: DeleteTemporaryKeys(TemporaryKeyDomain, Int32)
-  nameWithType: TemporaryKeyHelper.DeleteTemporaryKeys(TemporaryKeyDomain, Int32)
-  fullName: SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeys(SuperOffice.Data.TemporaryKeyDomain, System.Int32)
+  name: DeleteTemporaryKeysAsync(TemporaryKeyDomain, int, CancellationToken)
+  nameWithType: TemporaryKeyHelper.DeleteTemporaryKeysAsync(TemporaryKeyDomain, int, CancellationToken)
+  fullName: SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeysAsync(SuperOffice.Data.TemporaryKeyDomain, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static void DeleteTemporaryKeys(TemporaryKeyDomain domain, int personId)
+    content: public static Task DeleteTemporaryKeysAsync(TemporaryKeyDomain domain, int personId, CancellationToken cancellationToken)
     parameters:
     - id: domain
       type: SuperOffice.Data.TemporaryKeyDomain
     - id: personId
       type: System.Int32
-    content.vb: Public Shared Sub DeleteTemporaryKeys(domain As TemporaryKeyDomain, personId As Integer)
-  overload: SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeys*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function DeleteTemporaryKeysAsync(domain As TemporaryKeyDomain, personId As Integer, cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeysAsync*
+  nameWithType.vb: TemporaryKeyHelper.DeleteTemporaryKeysAsync(TemporaryKeyDomain, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeysAsync(SuperOffice.Data.TemporaryKeyDomain, Integer, System.Threading.CancellationToken)
+  name.vb: DeleteTemporaryKeysAsync(TemporaryKeyDomain, Integer, CancellationToken)
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey*
-  commentId: Overload:SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey
+- uid: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKeyAsync*
+  commentId: Overload:SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKeyAsync
   isExternal: true
-  name: CreateTemporaryKey
-  nameWithType: TemporaryKeyHelper.CreateTemporaryKey
-  fullName: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey
+  href: SuperOffice.CRM.TemporaryKeyHelper.html#SuperOffice_CRM_TemporaryKeyHelper_CreateTemporaryKeyAsync_SuperOffice_Data_TemporaryKeyDomain_System_Int32_System_Int32_System_DateTime_System_String_
+  name: CreateTemporaryKeyAsync
+  nameWithType: TemporaryKeyHelper.CreateTemporaryKeyAsync
+  fullName: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKeyAsync
 - uid: SuperOffice.Data.TemporaryKeyDomain
   commentId: T:SuperOffice.Data.TemporaryKeyDomain
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.TemporaryKeyDomain.html
   name: TemporaryKeyDomain
   nameWithType: TemporaryKeyDomain
   fullName: SuperOffice.Data.TemporaryKeyDomain
@@ -143,30 +378,209 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeys*
-  commentId: Overload:SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeys
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: DeleteTemporaryKeys
-  nameWithType: TemporaryKeyHelper.DeleteTemporaryKeys
-  fullName: SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeys
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeysAsync*
+  commentId: Overload:SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeysAsync
+  isExternal: true
+  href: SuperOffice.CRM.TemporaryKeyHelper.html#SuperOffice_CRM_TemporaryKeyHelper_DeleteTemporaryKeysAsync_SuperOffice_Data_TemporaryKeyDomain_System_Int32_System_Threading_CancellationToken_
+  name: DeleteTemporaryKeysAsync
+  nameWithType: TemporaryKeyHelper.DeleteTemporaryKeysAsync
+  fullName: SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeysAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading

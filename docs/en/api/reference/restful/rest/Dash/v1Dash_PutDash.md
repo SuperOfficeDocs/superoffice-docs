@@ -103,34 +103,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 585,
-  "UniqueId": "cumque",
-  "Name": "Roob-Reynolds",
-  "Description": "Synergized demand-driven neural-net",
-  "AssociateId": 533,
-  "Columns": 987,
+  "DashboardId": 130,
+  "UniqueId": "inventore",
+  "Name": "Marquardt-Daugherty",
+  "Description": "Balanced modular productivity",
+  "AssociateId": 759,
+  "Columns": 22,
   "Theme": null,
-  "VisibleForAll": 628,
+  "VisibleForAll": 743,
   "VisibleForAssociates": [
-    912,
-    689
+    65,
+    922
   ],
   "VisibleForGroups": [
-    509,
-    28
+    708,
+    183
   ],
-  "PinForAll": 595,
+  "PinForAll": 611,
   "PinForAssociates": [
-    262,
-    801
+    279,
+    29
   ],
   "PinForGroups": [
-    20,
-    837
+    719,
+    282
   ]
 }
 ```
@@ -142,42 +142,42 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 415,
-  "UniqueId": "id",
-  "Name": "Klocko Inc and Sons",
-  "Description": "Universal attitude-oriented hub",
-  "AssociateId": 947,
-  "Columns": 93,
+  "DashboardId": 274,
+  "UniqueId": "dicta",
+  "Name": "Reinger, Corwin and Berge",
+  "Description": "Multi-lateral user-facing portal",
+  "AssociateId": 565,
+  "Columns": 497,
   "Theme": null,
-  "VisibleForAll": 390,
+  "VisibleForAll": 87,
   "VisibleForAssociates": [
-    680,
-    907
+    340,
+    779
   ],
   "VisibleForGroups": [
-    811,
-    383
+    94,
+    628
   ],
-  "PinForAll": 52,
+  "PinForAll": 989,
   "PinForAssociates": [
-    428,
-    131
+    184,
+    291
   ],
   "PinForGroups": [
-    726,
-    391
+    522,
+    253
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldType": "System.String",
+      "FieldLength": 135
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -94,7 +94,7 @@ OK
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 588,
-    "Name": "Osinski-D'Amore",
+    "TicketPriorityId": 653,
+    "Name": "Heathcote-Price",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 715,
+    "SortOrder": 553,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 339,
-    "MonStart": "2004-04-22T16:32:49.0244447+02:00",
-    "MonStop": "1998-12-20T16:32:49.0244447+01:00",
-    "TueStart": "1999-09-27T16:32:49.0244447+02:00",
-    "TueStop": "2010-01-08T16:32:49.0244447+01:00",
-    "WedStart": "1999-05-02T16:32:49.0244447+02:00",
-    "WedStop": "2017-05-11T16:32:49.0244447+02:00",
-    "ThuStart": "2016-11-04T16:32:49.0244447+01:00",
-    "ThuStop": "2007-08-16T16:32:49.0244447+02:00",
-    "FriStart": "1999-11-27T16:32:49.0244447+01:00",
-    "FriStop": "2023-07-10T16:32:49.0244447+02:00",
-    "SatStart": "2005-12-26T16:32:49.0244447+01:00",
-    "SatStop": "1998-02-03T16:32:49.0244447+01:00",
-    "SunStart": "2022-07-30T16:32:49.0244447+02:00",
-    "SunStop": "2004-06-12T16:32:49.0244447+02:00",
+    "Deadline": 895,
+    "MonStart": "2012-10-28T17:54:09.148042+01:00",
+    "MonStop": "2005-05-15T17:54:09.148042+02:00",
+    "TueStart": "1998-04-22T17:54:09.148042+02:00",
+    "TueStop": "2017-07-17T17:54:09.148042+02:00",
+    "WedStart": "2018-03-21T17:54:09.148042+01:00",
+    "WedStop": "2016-04-01T17:54:09.148042+02:00",
+    "ThuStart": "2006-05-18T17:54:09.148042+02:00",
+    "ThuStop": "2010-01-17T17:54:09.148042+01:00",
+    "FriStart": "2006-05-27T17:54:09.148042+02:00",
+    "FriStop": "1998-03-14T17:54:09.148042+01:00",
+    "SatStart": "2019-06-15T17:54:09.148042+02:00",
+    "SatStop": "2001-05-12T17:54:09.148042+02:00",
+    "SunStart": "2005-06-06T17:54:09.148042+02:00",
+    "SunStop": "1998-03-29T17:54:09.148042+02:00",
     "NonDates": [
-      "sed",
-      "repudiandae"
+      "consequatur",
+      "optio"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 481,
-        "AlertLevel": 4,
-        "AlertTimeout": 50,
-        "Action": 931,
-        "DelegateTo": 748,
-        "ScriptId": 77,
-        "EmailTo": "julianne@greenholt.uk",
-        "SmsTo": "quod",
-        "ReplyTemplateIdCustomer": 506,
-        "ReplyTemplateIdUser": 318,
-        "ReplyTemplateIdCatmast": 517,
-        "ReplyTemplateIdEmail": 142,
-        "RtiCustomerSms": 74,
-        "ReplyTemplateIdUserSms": 106,
-        "ReplyTemplateIdCatmastSms": 224,
-        "ReplyTemplateIdSms": 327,
+        "TicketAlertId": 615,
+        "AlertLevel": 96,
+        "AlertTimeout": 855,
+        "Action": 810,
+        "DelegateTo": 206,
+        "ScriptId": 790,
+        "EmailTo": "maverick_mertz@shieldswolf.biz",
+        "SmsTo": "ipsa",
+        "ReplyTemplateIdCustomer": 313,
+        "ReplyTemplateIdUser": 811,
+        "ReplyTemplateIdCatmast": 882,
+        "ReplyTemplateIdEmail": 538,
+        "RtiCustomerSms": 597,
+        "ReplyTemplateIdUserSms": 36,
+        "ReplyTemplateIdCatmastSms": 571,
+        "ReplyTemplateIdSms": 652,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 618
+            "FieldLength": 630
           }
         }
       }
@@ -167,8 +167,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 202
+        "FieldType": "System.String",
+        "FieldLength": 843
       }
     }
   }

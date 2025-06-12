@@ -128,18 +128,18 @@ ShipmentMessageEntity  updated.
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quis",
+    "path": "officiis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quis",
+    "path": "officiis",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 284,
-  "PlainMessage": "ratione",
-  "HtmlMessage": "minima",
-  "SmsMessage": "facilis",
-  "Description": "De-engineered high-level open system",
-  "Subject": "quae",
-  "FolderId": 461,
-  "HeaderField": "distinctio",
-  "Design": "ducimus",
+  "ShipmentMessageId": 527,
+  "PlainMessage": "beatae",
+  "HtmlMessage": "omnis",
+  "SmsMessage": "quaerat",
+  "Description": "Robust 6th generation hub",
+  "Subject": "ut",
+  "FolderId": 328,
+  "HeaderField": "sit",
+  "Design": "sit",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Multi-lateral non-volatile function",
-  "AccessKey": "sed",
-  "DocumentMessage": 588,
-  "Registered": "2017-02-06T16:32:48.1025764+01:00",
-  "RegisteredAssociateId": 843,
-  "Updated": "2003-01-24T16:32:48.1025764+01:00",
-  "UpdatedAssociateId": 772,
-  "UpdatedCount": 42,
+  "InlineImages": false,
+  "LongDescription": "Optimized 5th generation protocol",
+  "AccessKey": "iure",
+  "DocumentMessage": 988,
+  "Registered": "2011-10-24T17:54:08.5543174+02:00",
+  "RegisteredAssociateId": 95,
+  "Updated": "2011-03-11T17:54:08.5543174+01:00",
+  "UpdatedAssociateId": 486,
+  "UpdatedCount": 205,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 31
+      "FieldLength": 87
     }
   },
   "_Links": {

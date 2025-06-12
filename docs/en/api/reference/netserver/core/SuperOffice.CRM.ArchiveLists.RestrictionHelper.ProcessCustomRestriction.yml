@@ -15,32 +15,25 @@ items:
   name: RestrictionHelper.ProcessCustomRestriction
   nameWithType: RestrictionHelper.ProcessCustomRestriction
   fullName: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction
-  type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
+  type: Delegate
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nDefinition of delegate to handle custom processing of restrictions based on fields mapped using the MapSimplexxx methods\n"
+  summary: Definition of delegate to handle custom processing of restrictions based on fields mapped using the MapSimplexxx methods
+  example: []
   syntax:
-    content: 'public sealed class ProcessCustomRestriction : MulticastDelegate'
-    content.vb: >-
-      Public NotInheritable Class ProcessCustomRestriction
-          Inherits MulticastDelegate
-  inheritance:
-  - System.Object
+    content: public delegate void RestrictionHelper.ProcessCustomRestriction(ArchiveRestrictionInfo restriction, ArchiveSelect query)
+    parameters:
+    - id: restriction
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+      description: Restriction to process
+    - id: query
+      type: SuperOffice.CRM.ArchiveLists.ArchiveSelect
+      description: Query currently being built
+    content.vb: Public Delegate Sub RestrictionHelper.ProcessCustomRestriction(restriction As ArchiveRestrictionInfo, query As ArchiveSelect)
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -48,29 +41,25 @@ items:
   langs:
   - csharp
   - vb
-  name: ProcessCustomRestriction(Object, IntPtr)
-  nameWithType: RestrictionHelper.ProcessCustomRestriction.ProcessCustomRestriction(Object, IntPtr)
-  fullName: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.ProcessCustomRestriction(System.Object, System.IntPtr)
+  name: ProcessCustomRestriction(object, IntPtr)
+  nameWithType: RestrictionHelper.ProcessCustomRestriction.ProcessCustomRestriction(object, IntPtr)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.ProcessCustomRestriction(object, System.IntPtr)
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public ProcessCustomRestriction(object object, IntPtr method)
+    content: public ProcessCustomRestriction(object @object, IntPtr method)
     parameters:
     - id: object
       type: System.Object
     - id: method
       type: System.IntPtr
-    content.vb: Public Sub New(object As Object, method As IntPtr)
+    content.vb: Public Sub New([object] As Object, method As IntPtr)
   overload: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: RestrictionHelper.ProcessCustomRestriction.New(Object, IntPtr)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.New(Object, System.IntPtr)
+  name.vb: New(Object, IntPtr)
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.Invoke(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,SuperOffice.CRM.ArchiveLists.ArchiveSelect)
   commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.Invoke(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,SuperOffice.CRM.ArchiveLists.ArchiveSelect)
   id: Invoke(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,SuperOffice.CRM.ArchiveLists.ArchiveSelect)
@@ -82,11 +71,8 @@ items:
   nameWithType: RestrictionHelper.ProcessCustomRestriction.Invoke(ArchiveRestrictionInfo, ArchiveSelect)
   fullName: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.Invoke(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo, SuperOffice.CRM.ArchiveLists.ArchiveSelect)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public virtual void Invoke(ArchiveRestrictionInfo restriction, ArchiveSelect query)
@@ -97,12 +83,6 @@ items:
       type: SuperOffice.CRM.ArchiveLists.ArchiveSelect
     content.vb: Public Overridable Sub Invoke(restriction As ArchiveRestrictionInfo, query As ArchiveSelect)
   overload: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.Invoke*
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.BeginInvoke(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,SuperOffice.CRM.ArchiveLists.ArchiveSelect,System.AsyncCallback,System.Object)
   commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.BeginInvoke(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,SuperOffice.CRM.ArchiveLists.ArchiveSelect,System.AsyncCallback,System.Object)
   id: BeginInvoke(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,SuperOffice.CRM.ArchiveLists.ArchiveSelect,System.AsyncCallback,System.Object)
@@ -110,18 +90,15 @@ items:
   langs:
   - csharp
   - vb
-  name: BeginInvoke(ArchiveRestrictionInfo, ArchiveSelect, AsyncCallback, Object)
-  nameWithType: RestrictionHelper.ProcessCustomRestriction.BeginInvoke(ArchiveRestrictionInfo, ArchiveSelect, AsyncCallback, Object)
-  fullName: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.BeginInvoke(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo, SuperOffice.CRM.ArchiveLists.ArchiveSelect, System.AsyncCallback, System.Object)
+  name: BeginInvoke(ArchiveRestrictionInfo, ArchiveSelect, AsyncCallback, object)
+  nameWithType: RestrictionHelper.ProcessCustomRestriction.BeginInvoke(ArchiveRestrictionInfo, ArchiveSelect, AsyncCallback, object)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.BeginInvoke(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo, SuperOffice.CRM.ArchiveLists.ArchiveSelect, System.AsyncCallback, object)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public virtual IAsyncResult BeginInvoke(ArchiveRestrictionInfo restriction, ArchiveSelect query, AsyncCallback callback, object object)
+    content: public virtual IAsyncResult BeginInvoke(ArchiveRestrictionInfo restriction, ArchiveSelect query, AsyncCallback callback, object @object)
     parameters:
     - id: restriction
       type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
@@ -133,14 +110,11 @@ items:
       type: System.Object
     return:
       type: System.IAsyncResult
-    content.vb: Public Overridable Function BeginInvoke(restriction As ArchiveRestrictionInfo, query As ArchiveSelect, callback As AsyncCallback, object As Object) As IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(restriction As ArchiveRestrictionInfo, query As ArchiveSelect, callback As AsyncCallback, [object] As Object) As IAsyncResult
   overload: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.BeginInvoke*
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
+  nameWithType.vb: RestrictionHelper.ProcessCustomRestriction.BeginInvoke(ArchiveRestrictionInfo, ArchiveSelect, AsyncCallback, Object)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.BeginInvoke(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo, SuperOffice.CRM.ArchiveLists.ArchiveSelect, System.AsyncCallback, Object)
+  name.vb: BeginInvoke(ArchiveRestrictionInfo, ArchiveSelect, AsyncCallback, Object)
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.EndInvoke(System.IAsyncResult)
   commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.EndInvoke(System.IAsyncResult)
   id: EndInvoke(System.IAsyncResult)
@@ -152,11 +126,8 @@ items:
   nameWithType: RestrictionHelper.ProcessCustomRestriction.EndInvoke(IAsyncResult)
   fullName: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.EndInvoke(System.IAsyncResult)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public virtual void EndInvoke(IAsyncResult result)
@@ -165,103 +136,170 @@ items:
       type: System.IAsyncResult
     content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
   overload: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.EndInvoke*
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<RestrictionHelper.ProcessCustomRestriction, To>()
-  nameWithType: EnumUtil.MapEnums<RestrictionHelper.ProcessCustomRestriction, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of RestrictionHelper.ProcessCustomRestriction, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction, To)()
-  name.vb: MapEnums(Of RestrictionHelper.ProcessCustomRestriction, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ProcessCustomRestriction, To>(ProcessCustomRestriction)
+  nameWithType: EnumUtil.MapEnums<RestrictionHelper.ProcessCustomRestriction, To>(RestrictionHelper.ProcessCustomRestriction)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction, To>(SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction)
+  nameWithType.vb: EnumUtil.MapEnums(Of RestrictionHelper.ProcessCustomRestriction, To)(RestrictionHelper.ProcessCustomRestriction)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction, To)(SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction)
+  name.vb: MapEnums(Of ProcessCustomRestriction, To)(ProcessCustomRestriction)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<RestrictionHelper.ProcessCustomRestriction, To>
-    nameWithType: EnumUtil.MapEnums<RestrictionHelper.ProcessCustomRestriction, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction
+    name: ProcessCustomRestriction
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction
+    name: ProcessCustomRestriction
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of RestrictionHelper.ProcessCustomRestriction, To)
-    nameWithType: EnumUtil.MapEnums(Of RestrictionHelper.ProcessCustomRestriction, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction
+    name: ProcessCustomRestriction
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction
+    name: ProcessCustomRestriction
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.html
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<RestrictionHelper.ProcessCustomRestriction, To>()
-  nameWithType: Converters.MapEnums<RestrictionHelper.ProcessCustomRestriction, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction, To>()
-  nameWithType.vb: Converters.MapEnums(Of RestrictionHelper.ProcessCustomRestriction, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction, To)()
-  name.vb: MapEnums(Of RestrictionHelper.ProcessCustomRestriction, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ProcessCustomRestriction, To>(ProcessCustomRestriction)
+  nameWithType: Converters.MapEnums<RestrictionHelper.ProcessCustomRestriction, To>(RestrictionHelper.ProcessCustomRestriction)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction, To>(SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction)
+  nameWithType.vb: Converters.MapEnums(Of RestrictionHelper.ProcessCustomRestriction, To)(RestrictionHelper.ProcessCustomRestriction)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction, To)(SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction)
+  name.vb: MapEnums(Of ProcessCustomRestriction, To)(ProcessCustomRestriction)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<RestrictionHelper.ProcessCustomRestriction, To>
-    nameWithType: Converters.MapEnums<RestrictionHelper.ProcessCustomRestriction, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction
+    name: ProcessCustomRestriction
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction
+    name: ProcessCustomRestriction
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of RestrictionHelper.ProcessCustomRestriction, To)
-    nameWithType: Converters.MapEnums(Of RestrictionHelper.ProcessCustomRestriction, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction
+    name: ProcessCustomRestriction
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction
+    name: ProcessCustomRestriction
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.html
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+  parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.html
+  name: ArchiveRestrictionInfo
+  nameWithType: ArchiveRestrictionInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveSelect
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveSelect
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ArchiveSelect.html
+  name: ArchiveSelect
+  nameWithType: ArchiveSelect
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveSelect
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -270,43 +308,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -315,99 +355,149 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.#ctor*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.#ctor
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.html#SuperOffice_CRM_ArchiveLists_RestrictionHelper_ProcessCustomRestriction__ctor_System_Object_System_IntPtr_
   name: ProcessCustomRestriction
   nameWithType: RestrictionHelper.ProcessCustomRestriction.ProcessCustomRestriction
   fullName: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.ProcessCustomRestriction
+  nameWithType.vb: RestrictionHelper.ProcessCustomRestriction.New
+  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.New
+  name.vb: New
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.Invoke*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.Invoke
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.html#SuperOffice_CRM_ArchiveLists_RestrictionHelper_ProcessCustomRestriction_Invoke_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo_SuperOffice_CRM_ArchiveLists_ArchiveSelect_
   name: Invoke
   nameWithType: RestrictionHelper.ProcessCustomRestriction.Invoke
   fullName: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.Invoke
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
-  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
-  parent: SuperOffice.CRM.ArchiveLists
-  isExternal: true
-  name: ArchiveRestrictionInfo
-  nameWithType: ArchiveRestrictionInfo
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveSelect
-  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveSelect
-  parent: SuperOffice.CRM.ArchiveLists
-  isExternal: true
-  name: ArchiveSelect
-  nameWithType: ArchiveSelect
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveSelect
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.BeginInvoke*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.BeginInvoke
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.html#SuperOffice_CRM_ArchiveLists_RestrictionHelper_ProcessCustomRestriction_BeginInvoke_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo_SuperOffice_CRM_ArchiveLists_ArchiveSelect_System_AsyncCallback_System_Object_
   name: BeginInvoke
   nameWithType: RestrictionHelper.ProcessCustomRestriction.BeginInvoke
   fullName: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.BeginInvoke
 - uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.asynccallback
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iasyncresult
   name: IAsyncResult
   nameWithType: IAsyncResult
   fullName: System.IAsyncResult
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.EndInvoke*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.EndInvoke
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.html#SuperOffice_CRM_ArchiveLists_RestrictionHelper_ProcessCustomRestriction_EndInvoke_System_IAsyncResult_
   name: EndInvoke
   nameWithType: RestrictionHelper.ProcessCustomRestriction.EndInvoke
   fullName: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ProcessCustomRestriction.EndInvoke

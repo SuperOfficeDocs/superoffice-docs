@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 143,
-  "Name": "Stamm-Breitenberg",
-  "Tooltip": "nulla",
+  "Id": 409,
+  "Name": "Kreiger-Cole",
+  "Tooltip": "maxime",
   "Deleted": false,
-  "UdListDefinitionId": 975,
-  "Rank": 185,
+  "UdListDefinitionId": 424,
+  "Rank": 898,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 375
+      "FieldType": "System.Int32",
+      "FieldLength": 461
     }
   }
 }

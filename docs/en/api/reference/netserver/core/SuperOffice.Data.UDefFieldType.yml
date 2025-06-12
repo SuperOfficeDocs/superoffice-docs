@@ -13,68 +13,42 @@ items:
   - SuperOffice.Data.UDefFieldType.Number
   - SuperOffice.Data.UDefFieldType.ShortText
   - SuperOffice.Data.UDefFieldType.UnlimitedDate
-  - SuperOffice.Data.UDefFieldType.value__
   langs:
   - csharp
   - vb
   name: UDefFieldType
   nameWithType: UDefFieldType
   fullName: SuperOffice.Data.UDefFieldType
-  type: Class
-  source:
-    path: SoCore
-    isExternal: true
+  type: Enum
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\nField type: 1 = Number, 2 = Short text, 3 = Long text, 4 = Date, 5 = Unlimited date, 6 = Checkbox, 7 = Drop-down listbox, 8 = Decimal\n"
+  summary: 'Field type: 1 = Number, 2 = Short text, 3 = Long text, 4 = Date, 5 = Unlimited date, 6 = Checkbox, 7 = Drop-down listbox, 8 = Decimal'
+  example: []
   syntax:
-    content: 'public sealed class UDefFieldType : Enum'
-    content.vb: >-
-      Public NotInheritable Class UDefFieldType
-          Inherits
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
 
-           Enum
-  inheritance:
-  - System.Object
+      public enum UDefFieldType
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Enum UDefFieldType
   extensionMethods:
-  - SuperOffice.Data.UDefFieldType.EnumUtil.ToFieldMetadataTypeInfo
   - SuperOffice.Data.UDefFieldType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.UDefFieldType.EnumUtil.ToFieldMetadataTypeInfo
   - SuperOffice.Data.UDefFieldType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.Data.UDefFieldType.value__
-  commentId: F:SuperOffice.Data.UDefFieldType.value__
-  id: value__
-  parent: SuperOffice.Data.UDefFieldType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: UDefFieldType.value__
-  fullName: SuperOffice.Data.UDefFieldType.value__
-  type: Field
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.Data.UDefFieldType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.UDefFieldType)
+  - SuperOffice.Data.UDefFieldType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - System.Enum.EnumUtil.GetDescription
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.Data.UDefFieldType.Number
   commentId: F:SuperOffice.Data.UDefFieldType.Number
   id: Number
@@ -86,24 +60,26 @@ items:
   nameWithType: UDefFieldType.Number
   fullName: SuperOffice.Data.UDefFieldType.Number
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1: Number (32-bit integer)\n"
+  summary: '1: Number (32-bit integer)'
+  example: []
   syntax:
-    content: public const UDefFieldType Number
+    content: >-
+      [EnumMember]
+
+      Number = 1
     return:
       type: SuperOffice.Data.UDefFieldType
-    content.vb: Public Const Number As UDefFieldType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Number = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.UDefFieldType.ShortText
   commentId: F:SuperOffice.Data.UDefFieldType.ShortText
   id: ShortText
@@ -115,24 +91,26 @@ items:
   nameWithType: UDefFieldType.ShortText
   fullName: SuperOffice.Data.UDefFieldType.ShortText
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n2: Short text, up to 39 characters, stored in the &apos;small&apos; table\n"
+  summary: "2: Short text, up to 39 characters, stored in the 'small' table"
+  example: []
   syntax:
-    content: public const UDefFieldType ShortText
+    content: >-
+      [EnumMember]
+
+      ShortText = 2
     return:
       type: SuperOffice.Data.UDefFieldType
-    content.vb: Public Const ShortText As UDefFieldType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ShortText = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.UDefFieldType.LongText
   commentId: F:SuperOffice.Data.UDefFieldType.LongText
   id: LongText
@@ -144,24 +122,26 @@ items:
   nameWithType: UDefFieldType.LongText
   fullName: SuperOffice.Data.UDefFieldType.LongText
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n3: Long text, up to 199 characters, stored in the &apos;large&apos; table\n"
+  summary: "3: Long text, up to 199 characters, stored in the 'large' table"
+  example: []
   syntax:
-    content: public const UDefFieldType LongText
+    content: >-
+      [EnumMember]
+
+      LongText = 3
     return:
       type: SuperOffice.Data.UDefFieldType
-    content.vb: Public Const LongText As UDefFieldType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      LongText = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.UDefFieldType.Date
   commentId: F:SuperOffice.Data.UDefFieldType.Date
   id: Date
@@ -173,24 +153,26 @@ items:
   nameWithType: UDefFieldType.Date
   fullName: SuperOffice.Data.UDefFieldType.Date
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n4: Date, between 1.1.1970 and 2038, stored as seconds after 1.1.1970\n"
+  summary: '4: Date, between 1.1.1970 and 2038, stored as seconds after 1.1.1970'
+  example: []
   syntax:
-    content: public const UDefFieldType Date
+    content: >-
+      [EnumMember]
+
+      Date = 4
     return:
       type: SuperOffice.Data.UDefFieldType
-    content.vb: Public Const Date As UDefFieldType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Date = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.UDefFieldType.UnlimitedDate
   commentId: F:SuperOffice.Data.UDefFieldType.UnlimitedDate
   id: UnlimitedDate
@@ -202,24 +184,26 @@ items:
   nameWithType: UDefFieldType.UnlimitedDate
   fullName: SuperOffice.Data.UDefFieldType.UnlimitedDate
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n5: Unlimited date (without time), stored as an YYYYMMDD string\n"
+  summary: '5: Unlimited date (without time), stored as an YYYYMMDD string'
+  example: []
   syntax:
-    content: public const UDefFieldType UnlimitedDate
+    content: >-
+      [EnumMember]
+
+      UnlimitedDate = 5
     return:
       type: SuperOffice.Data.UDefFieldType
-    content.vb: Public Const UnlimitedDate As UDefFieldType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      UnlimitedDate = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.UDefFieldType.Checkbox
   commentId: F:SuperOffice.Data.UDefFieldType.Checkbox
   id: Checkbox
@@ -231,24 +215,26 @@ items:
   nameWithType: UDefFieldType.Checkbox
   fullName: SuperOffice.Data.UDefFieldType.Checkbox
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n6: Checkbox, stored as an integer, 1 = checked\n"
+  summary: '6: Checkbox, stored as an integer, 1 = checked'
+  example: []
   syntax:
-    content: public const UDefFieldType Checkbox
+    content: >-
+      [EnumMember]
+
+      Checkbox = 6
     return:
       type: SuperOffice.Data.UDefFieldType
-    content.vb: Public Const Checkbox As UDefFieldType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Checkbox = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.UDefFieldType.List
   commentId: F:SuperOffice.Data.UDefFieldType.List
   id: List
@@ -260,24 +246,26 @@ items:
   nameWithType: UDefFieldType.List
   fullName: SuperOffice.Data.UDefFieldType.List
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n7: List item reference, stored as an integer ID\n"
+  summary: '7: List item reference, stored as an integer ID'
+  example: []
   syntax:
-    content: public const UDefFieldType List
+    content: >-
+      [EnumMember]
+
+      List = 7
     return:
       type: SuperOffice.Data.UDefFieldType
-    content.vb: Public Const List As UDefFieldType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      List = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.UDefFieldType.Decimal
   commentId: F:SuperOffice.Data.UDefFieldType.Decimal
   id: Decimal
@@ -289,192 +277,330 @@ items:
   nameWithType: UDefFieldType.Decimal
   fullName: SuperOffice.Data.UDefFieldType.Decimal
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n8: Decimal / floating point, stored as a double\n"
+  summary: '8: Decimal / floating point, stored as a double'
+  example: []
   syntax:
-    content: public const UDefFieldType Decimal
+    content: >-
+      [EnumMember]
+
+      Decimal = 8
     return:
       type: SuperOffice.Data.UDefFieldType
-    content.vb: Public Const Decimal As UDefFieldType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Decimal = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: SuperOffice.Data.UDefFieldType.EnumUtil.ToFieldMetadataTypeInfo
-  commentId: M:EnumUtil.ToFieldMetadataTypeInfo(SuperOffice.Data.UDefFieldType)
-  parent: EnumUtil
-  definition: EnumUtil.ToFieldMetadataTypeInfo(SuperOffice.Data.UDefFieldType)
-  name: ToFieldMetadataTypeInfo()
-  nameWithType: EnumUtil.ToFieldMetadataTypeInfo()
-  fullName: EnumUtil.ToFieldMetadataTypeInfo()
   spec.csharp:
-  - uid: EnumUtil.ToFieldMetadataTypeInfo
-    name: ToFieldMetadataTypeInfo
-    nameWithType: EnumUtil.ToFieldMetadataTypeInfo
-    fullName: EnumUtil.ToFieldMetadataTypeInfo
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
   spec.vb:
-  - uid: EnumUtil.ToFieldMetadataTypeInfo
-    name: ToFieldMetadataTypeInfo
-    nameWithType: EnumUtil.ToFieldMetadataTypeInfo
-    fullName: EnumUtil.ToFieldMetadataTypeInfo
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.UDefFieldType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<UDefFieldType, To>()
-  nameWithType: EnumUtil.MapEnums<UDefFieldType, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.UDefFieldType, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of UDefFieldType, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.UDefFieldType, To)()
-  name.vb: MapEnums(Of UDefFieldType, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<UDefFieldType, To>(UDefFieldType)
+  nameWithType: EnumUtil.MapEnums<UDefFieldType, To>(UDefFieldType)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.UDefFieldType, To>(SuperOffice.Data.UDefFieldType)
+  nameWithType.vb: EnumUtil.MapEnums(Of UDefFieldType, To)(UDefFieldType)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.UDefFieldType, To)(SuperOffice.Data.UDefFieldType)
+  name.vb: MapEnums(Of UDefFieldType, To)(UDefFieldType)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<UDefFieldType, To>
-    nameWithType: EnumUtil.MapEnums<UDefFieldType, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.UDefFieldType, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.UDefFieldType)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.UDefFieldType
+    name: UDefFieldType
+    isExternal: true
+    href: SuperOffice.Data.UDefFieldType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.UDefFieldType
+    name: UDefFieldType
+    isExternal: true
+    href: SuperOffice.Data.UDefFieldType.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of UDefFieldType, To)
-    nameWithType: EnumUtil.MapEnums(Of UDefFieldType, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.UDefFieldType, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.UDefFieldType)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.UDefFieldType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<UDefFieldType, To>()
-  nameWithType: Converters.MapEnums<UDefFieldType, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.UDefFieldType, To>()
-  nameWithType.vb: Converters.MapEnums(Of UDefFieldType, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.UDefFieldType, To)()
-  name.vb: MapEnums(Of UDefFieldType, To)()
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<UDefFieldType, To>
-    nameWithType: Converters.MapEnums<UDefFieldType, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.UDefFieldType, To>
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.UDefFieldType
+    name: UDefFieldType
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.Data.UDefFieldType.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of UDefFieldType, To)
-    nameWithType: Converters.MapEnums(Of UDefFieldType, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.UDefFieldType, To)
+  - name: (
+  - uid: SuperOffice.Data.UDefFieldType
+    name: UDefFieldType
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.Data.UDefFieldType.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: EnumUtil.ToFieldMetadataTypeInfo(SuperOffice.Data.UDefFieldType)
+- uid: SuperOffice.Data.UDefFieldType.EnumUtil.ToFieldMetadataTypeInfo
   commentId: M:EnumUtil.ToFieldMetadataTypeInfo(SuperOffice.Data.UDefFieldType)
-  isExternal: true
+  parent: EnumUtil
+  definition: EnumUtil.ToFieldMetadataTypeInfo(SuperOffice.Data.UDefFieldType)
+  href: EnumUtil.html#EnumUtil_ToFieldMetadataTypeInfo_SuperOffice_Data_UDefFieldType_
   name: ToFieldMetadataTypeInfo(UDefFieldType)
   nameWithType: EnumUtil.ToFieldMetadataTypeInfo(UDefFieldType)
   fullName: EnumUtil.ToFieldMetadataTypeInfo(SuperOffice.Data.UDefFieldType)
   spec.csharp:
   - uid: EnumUtil.ToFieldMetadataTypeInfo(SuperOffice.Data.UDefFieldType)
     name: ToFieldMetadataTypeInfo
-    nameWithType: EnumUtil.ToFieldMetadataTypeInfo
-    fullName: EnumUtil.ToFieldMetadataTypeInfo
     isExternal: true
+    href: EnumUtil.html#EnumUtil_ToFieldMetadataTypeInfo_SuperOffice_Data_UDefFieldType_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.UDefFieldType
     name: UDefFieldType
-    nameWithType: UDefFieldType
-    fullName: SuperOffice.Data.UDefFieldType
     isExternal: true
+    href: SuperOffice.Data.UDefFieldType.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.ToFieldMetadataTypeInfo(SuperOffice.Data.UDefFieldType)
     name: ToFieldMetadataTypeInfo
-    nameWithType: EnumUtil.ToFieldMetadataTypeInfo
-    fullName: EnumUtil.ToFieldMetadataTypeInfo
     isExternal: true
+    href: EnumUtil.html#EnumUtil_ToFieldMetadataTypeInfo_SuperOffice_Data_UDefFieldType_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.UDefFieldType
     name: UDefFieldType
-    nameWithType: UDefFieldType
-    fullName: SuperOffice.Data.UDefFieldType
     isExternal: true
+    href: SuperOffice.Data.UDefFieldType.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: EnumUtil
-  commentId: T:EnumUtil
-  isExternal: true
-  name: EnumUtil
-  nameWithType: EnumUtil
-  fullName: EnumUtil
+- uid: SuperOffice.Data.UDefFieldType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<UDefFieldType, To>(UDefFieldType)
+  nameWithType: Converters.MapEnums<UDefFieldType, To>(UDefFieldType)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.UDefFieldType, To>(SuperOffice.Data.UDefFieldType)
+  nameWithType.vb: Converters.MapEnums(Of UDefFieldType, To)(UDefFieldType)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.UDefFieldType, To)(SuperOffice.Data.UDefFieldType)
+  name.vb: MapEnums(Of UDefFieldType, To)(UDefFieldType)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.UDefFieldType)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.UDefFieldType
+    name: UDefFieldType
+    isExternal: true
+    href: SuperOffice.Data.UDefFieldType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.UDefFieldType
+    name: UDefFieldType
+    isExternal: true
+    href: SuperOffice.Data.UDefFieldType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.UDefFieldType)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.UDefFieldType
+    name: UDefFieldType
+    isExternal: true
+    href: SuperOffice.Data.UDefFieldType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.UDefFieldType
+    name: UDefFieldType
+    isExternal: true
+    href: SuperOffice.Data.UDefFieldType.html
+  - name: )
+- uid: SuperOffice.Data.UDefFieldType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.UDefFieldType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<UDefFieldType>(UDefFieldType, UDefFieldType)
+  nameWithType: ObjectExtensions.AssignByReflection<UDefFieldType>(UDefFieldType, UDefFieldType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.UDefFieldType>(SuperOffice.Data.UDefFieldType, SuperOffice.Data.UDefFieldType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of UDefFieldType)(UDefFieldType, UDefFieldType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.UDefFieldType)(SuperOffice.Data.UDefFieldType, SuperOffice.Data.UDefFieldType)
+  name.vb: AssignByReflection(Of UDefFieldType)(UDefFieldType, UDefFieldType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.UDefFieldType,SuperOffice.Data.UDefFieldType)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.UDefFieldType
+    name: UDefFieldType
+    isExternal: true
+    href: SuperOffice.Data.UDefFieldType.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.UDefFieldType
+    name: UDefFieldType
+    isExternal: true
+    href: SuperOffice.Data.UDefFieldType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.UDefFieldType
+    name: UDefFieldType
+    isExternal: true
+    href: SuperOffice.Data.UDefFieldType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.UDefFieldType,SuperOffice.Data.UDefFieldType)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.UDefFieldType
+    name: UDefFieldType
+    isExternal: true
+    href: SuperOffice.Data.UDefFieldType.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.UDefFieldType
+    name: UDefFieldType
+    isExternal: true
+    href: SuperOffice.Data.UDefFieldType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.UDefFieldType
+    name: UDefFieldType
+    isExternal: true
+    href: SuperOffice.Data.UDefFieldType.html
+  - name: )
+- uid: SuperOffice.Data.UDefFieldType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<UDefFieldType>(UDefFieldType)
+  nameWithType: ObjectExtensions.GraphCopy<UDefFieldType>(UDefFieldType)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.UDefFieldType>(SuperOffice.Data.UDefFieldType)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of UDefFieldType)(UDefFieldType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.UDefFieldType)(SuperOffice.Data.UDefFieldType)
+  name.vb: GraphCopy(Of UDefFieldType)(UDefFieldType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.UDefFieldType)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.UDefFieldType
+    name: UDefFieldType
+    isExternal: true
+    href: SuperOffice.Data.UDefFieldType.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.UDefFieldType
+    name: UDefFieldType
+    isExternal: true
+    href: SuperOffice.Data.UDefFieldType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.UDefFieldType)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.UDefFieldType
+    name: UDefFieldType
+    isExternal: true
+    href: SuperOffice.Data.UDefFieldType.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.UDefFieldType
+    name: UDefFieldType
+    isExternal: true
+    href: SuperOffice.Data.UDefFieldType.html
+  - name: )
+- uid: System.Enum.EnumUtil.GetDescription
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  parent: EnumUtil
+  definition: EnumUtil.GetDescription(System.Enum)
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -483,37 +609,74 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: EnumUtil.ToFieldMetadataTypeInfo(SuperOffice.Data.UDefFieldType)
+  commentId: M:EnumUtil.ToFieldMetadataTypeInfo(SuperOffice.Data.UDefFieldType)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_ToFieldMetadataTypeInfo_SuperOffice_Data_UDefFieldType_
+  name: ToFieldMetadataTypeInfo(UDefFieldType)
+  nameWithType: EnumUtil.ToFieldMetadataTypeInfo(UDefFieldType)
+  fullName: EnumUtil.ToFieldMetadataTypeInfo(SuperOffice.Data.UDefFieldType)
+  spec.csharp:
+  - uid: EnumUtil.ToFieldMetadataTypeInfo(SuperOffice.Data.UDefFieldType)
+    name: ToFieldMetadataTypeInfo
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_ToFieldMetadataTypeInfo_SuperOffice_Data_UDefFieldType_
+  - name: (
+  - uid: SuperOffice.Data.UDefFieldType
+    name: UDefFieldType
+    isExternal: true
+    href: SuperOffice.Data.UDefFieldType.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.ToFieldMetadataTypeInfo(SuperOffice.Data.UDefFieldType)
+    name: ToFieldMetadataTypeInfo
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_ToFieldMetadataTypeInfo_SuperOffice_Data_UDefFieldType_
+  - name: (
+  - uid: SuperOffice.Data.UDefFieldType
+    name: UDefFieldType
+    isExternal: true
+    href: SuperOffice.Data.UDefFieldType.html
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -522,58 +685,222 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: EnumUtil.GetDescription(System.Enum)
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.Data.UDefFieldType
   commentId: T:SuperOffice.Data.UDefFieldType
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.UDefFieldType.html
   name: UDefFieldType
   nameWithType: UDefFieldType
   fullName: SuperOffice.Data.UDefFieldType

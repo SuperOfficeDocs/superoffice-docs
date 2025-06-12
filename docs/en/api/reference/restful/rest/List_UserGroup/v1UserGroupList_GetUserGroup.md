@@ -76,17 +76,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "sequi",
-  "Tooltip": "exercitationem",
-  "Id": 945,
-  "Rank": 937,
-  "Deleted": false,
+  "Value": "incidunt",
+  "Tooltip": "consequatur",
+  "Id": 949,
+  "Rank": 299,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 207
+      "FieldLength": 135
     }
   }
 }

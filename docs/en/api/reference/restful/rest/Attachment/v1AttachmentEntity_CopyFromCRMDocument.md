@@ -76,20 +76,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 378,
-  "Name": "Will, Gislason and Flatley",
-  "ContentType": "aut",
-  "AttSize": 721,
+  "AttachmentId": 476,
+  "Name": "DuBuque, Anderson and Kuhic",
+  "ContentType": "consectetur",
+  "AttSize": 321,
   "InlineImage": false,
-  "ContentId": "aut",
+  "ContentId": "beatae",
   "AuthKey": "non",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 142
+      "FieldType": "System.Int32",
+      "FieldLength": 754
     }
   }
 }

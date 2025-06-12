@@ -21,27 +21,24 @@ items:
   nameWithType: UserPreferenceStrings.FieldReplication
   fullName: SuperOffice.CRM.UserPreferenceStrings.FieldReplication
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nEnables replication of user-defined fields at field level instead of record level. This ensures that field changes for the customer are retained, but may affect the performance of the replication process\n"
+  summary: Enables replication of user-defined fields at field level instead of record level. This ensures that field changes for the customer are retained, but may affect the performance of the replication process
+  example: []
   syntax:
-    content: 'public static class FieldReplication : Object'
-    content.vb: >-
-      Public Module FieldReplication
-          Inherits Object
+    content: public static class UserPreferenceStrings.FieldReplication
+    content.vb: Public Module UserPreferenceStrings.FieldReplication
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.Section
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.FieldReplication.Section
   id: Section
@@ -53,24 +50,16 @@ items:
   nameWithType: UserPreferenceStrings.FieldReplication.Section
   fullName: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.Section
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nSection heading\n"
+  summary: Section heading
+  example: []
   syntax:
     content: public const string Section = "FieldReplication"
     return:
       type: System.String
     content.vb: Public Const Section As String = "FieldReplication"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udcontactlarge
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udcontactlarge
   id: udcontactlarge
@@ -82,24 +71,19 @@ items:
   nameWithType: UserPreferenceStrings.FieldReplication.udcontactlarge
   fullName: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udcontactlarge
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nEnables replication at field level for user-defined fields of the type \n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  summary: >-
+    Enables replication at field level for user-defined fields of the type 
+
+    <p></p>Control type: Bool, access: Admin, Admin users, Wizard
+  example: []
   syntax:
     content: public const string udcontactlarge = "udcontactlarge"
     return:
       type: System.String
     content.vb: Public Const udcontactlarge As String = "udcontactlarge"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udcontactsmall
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udcontactsmall
   id: udcontactsmall
@@ -111,24 +95,19 @@ items:
   nameWithType: UserPreferenceStrings.FieldReplication.udcontactsmall
   fullName: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udcontactsmall
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nEnables replication at field level of user-defined fields on the Company card. Activating this setting may affect the speed at which UP and DWN files are read and written (Default = NO)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  summary: >-
+    Enables replication at field level of user-defined fields on the Company card. Activating this setting may affect the speed at which UP and DWN files are read and written (Default = NO)
+
+    <p></p>Control type: Bool, access: Admin, Admin users, Wizard
+  example: []
   syntax:
     content: public const string udcontactsmall = "udcontactsmall"
     return:
       type: System.String
     content.vb: Public Const udcontactsmall As String = "udcontactsmall"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udpersonlarge
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udpersonlarge
   id: udpersonlarge
@@ -140,24 +119,19 @@ items:
   nameWithType: UserPreferenceStrings.FieldReplication.udpersonlarge
   fullName: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udpersonlarge
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nEnables replication at field level for user-defined fields of the type \n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  summary: >-
+    Enables replication at field level for user-defined fields of the type 
+
+    <p></p>Control type: Bool, access: Admin, Admin users, Wizard
+  example: []
   syntax:
     content: public const string udpersonlarge = "udpersonlarge"
     return:
       type: System.String
     content.vb: Public Const udpersonlarge As String = "udpersonlarge"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udpersonsmall
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udpersonsmall
   id: udpersonsmall
@@ -169,24 +143,19 @@ items:
   nameWithType: UserPreferenceStrings.FieldReplication.udpersonsmall
   fullName: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udpersonsmall
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nEnables replication at field level of user-defined fields in the Contact dialog. Activating this setting may affect the speed at which UP and DWN files are read and written (Default = NO)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  summary: >-
+    Enables replication at field level of user-defined fields in the Contact dialog. Activating this setting may affect the speed at which UP and DWN files are read and written (Default = NO)
+
+    <p></p>Control type: Bool, access: Admin, Admin users, Wizard
+  example: []
   syntax:
     content: public const string udpersonsmall = "udpersonsmall"
     return:
       type: System.String
     content.vb: Public Const udpersonsmall As String = "udpersonsmall"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udprojectlarge
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udprojectlarge
   id: udprojectlarge
@@ -198,24 +167,19 @@ items:
   nameWithType: UserPreferenceStrings.FieldReplication.udprojectlarge
   fullName: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udprojectlarge
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nEnables replication at field level for user-defined fields of the type \n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  summary: >-
+    Enables replication at field level for user-defined fields of the type 
+
+    <p></p>Control type: Bool, access: Admin, Admin users, Wizard
+  example: []
   syntax:
     content: public const string udprojectlarge = "udprojectlarge"
     return:
       type: System.String
     content.vb: Public Const udprojectlarge As String = "udprojectlarge"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udprojectsmall
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udprojectsmall
   id: udprojectsmall
@@ -227,24 +191,19 @@ items:
   nameWithType: UserPreferenceStrings.FieldReplication.udprojectsmall
   fullName: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udprojectsmall
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nEnable replication at field level for user-defined fields on the Project card. Activating this setting may affect the speed at which UP and DWN files are read and written (Default = NO)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  summary: >-
+    Enable replication at field level for user-defined fields on the Project card. Activating this setting may affect the speed at which UP and DWN files are read and written (Default = NO)
+
+    <p></p>Control type: Bool, access: Admin, Admin users, Wizard
+  example: []
   syntax:
     content: public const string udprojectsmall = "udprojectsmall"
     return:
       type: System.String
     content.vb: Public Const udprojectsmall As String = "udprojectsmall"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udsalelarge
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udsalelarge
   id: udsalelarge
@@ -256,24 +215,19 @@ items:
   nameWithType: UserPreferenceStrings.FieldReplication.udsalelarge
   fullName: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udsalelarge
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nEnables replication at field level for user-defined fields of the type \n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  summary: >-
+    Enables replication at field level for user-defined fields of the type 
+
+    <p></p>Control type: Bool, access: Admin, Admin users, Wizard
+  example: []
   syntax:
     content: public const string udsalelarge = "udsalelarge"
     return:
       type: System.String
     content.vb: Public Const udsalelarge As String = "udsalelarge"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udsalesmall
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udsalesmall
   id: udsalesmall
@@ -285,41 +239,281 @@ items:
   nameWithType: UserPreferenceStrings.FieldReplication.udsalesmall
   fullName: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udsalesmall
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nEnables replication at field level for user-defined fields in the Sale dialog. Activating this setting may affect the speed at which UP and DWN files are read and written (Default = NO)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  summary: >-
+    Enables replication at field level for user-defined fields in the Sale dialog. Activating this setting may affect the speed at which UP and DWN files are read and written (Default = NO)
+
+    <p></p>Control type: Bool, access: Admin, Admin users, Wizard
+  example: []
   syntax:
     content: public const string udsalesmall = "udsalesmall"
     return:
       type: System.String
     content.vb: Public Const udsalesmall As String = "udsalesmall"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -327,6 +521,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 173
+  "AssociateId": 992
 }
 ```
 
@@ -103,54 +103,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 911,
-    "ERPName": "Metz-Walsh",
-    "DisplayName": "Boehm, Kautzer and Borer",
-    "DisplayDescription": "Cloned national data-warehouse",
-    "Rank": 168,
-    "ConnectorName": "Schneider Group",
-    "ErpConnectionId": 781,
-    "ExtraData": "animi",
+    "QuoteConnectionId": 41,
+    "ERPName": "Waelchi-Davis",
+    "DisplayName": "Greenholt, Jakubowski and Lakin",
+    "DisplayDescription": "Robust attitude-oriented paradigm",
+    "Rank": 987,
+    "ConnectorName": "Durgan, Rowe and Walker",
+    "ErpConnectionId": 885,
+    "ExtraData": "aut",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 121,
-        "ERPPriceListKey": "aspernatur",
-        "QuoteConnectionId": 800,
-        "Name": "Quitzon Inc and Sons",
-        "Description": "Polarised discrete strategy",
-        "Currency": "eaque",
-        "CurrencyName": "Bashirian-Wisoky",
-        "ValidFrom": "2010-07-08T16:32:39.7271263+02:00",
-        "ValidTo": "2014-12-28T16:32:39.7271263+01:00",
+        "PriceListId": 49,
+        "ERPPriceListKey": "autem",
+        "QuoteConnectionId": 246,
+        "Name": "Parker-Smith",
+        "Description": "Robust solution-oriented leverage",
+        "Currency": "expedita",
+        "CurrencyName": "Schmidt Group",
+        "ValidFrom": "2008-09-10T17:54:03.5233118+02:00",
+        "ValidTo": "2004-12-09T17:54:03.5233118+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 802
+            "FieldLength": 765
           }
         }
       }
     ],
-    "AllAccess": true,
+    "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      967,
-      990
+      616,
+      155
     ],
     "AssociateAccessIds": [
-      12,
-      402
+      800,
+      118
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 46
+        "FieldLength": 636
       }
     }
   }

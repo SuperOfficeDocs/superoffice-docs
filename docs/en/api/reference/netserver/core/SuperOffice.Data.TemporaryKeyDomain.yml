@@ -12,7 +12,6 @@ items:
   - SuperOffice.Data.TemporaryKeyDomain.PublicFaq
   - SuperOffice.Data.TemporaryKeyDomain.RegisterCustomerCenterEmailVerification
   - SuperOffice.Data.TemporaryKeyDomain.Unknown
-  - SuperOffice.Data.TemporaryKeyDomain.value__
   - SuperOffice.Data.TemporaryKeyDomain.ViewTicketInCustomerCenter
   langs:
   - csharp
@@ -20,60 +19,38 @@ items:
   name: TemporaryKeyDomain
   nameWithType: TemporaryKeyDomain
   fullName: SuperOffice.Data.TemporaryKeyDomain
-  type: Class
-  source:
-    path: SoCore
-    isExternal: true
+  type: Enum
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\nDomains for temporary keys.\nThis Enum is used by:  TemporaryKey.domain\n"
-  syntax:
-    content: 'public sealed class TemporaryKeyDomain : Enum'
-    content.vb: >-
-      Public NotInheritable Class TemporaryKeyDomain
-          Inherits
+  summary: >-
+    Domains for temporary keys.
 
-           Enum
-  inheritance:
-  - System.Object
+    This Enum is used by:  TemporaryKey.domain
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public enum TemporaryKeyDomain : short
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Enum TemporaryKeyDomain As Short
   extensionMethods:
   - SuperOffice.Data.TemporaryKeyDomain.EnumUtil.MapEnums``2
   - SuperOffice.Data.TemporaryKeyDomain.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.Data.TemporaryKeyDomain.value__
-  commentId: F:SuperOffice.Data.TemporaryKeyDomain.value__
-  id: value__
-  parent: SuperOffice.Data.TemporaryKeyDomain
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: TemporaryKeyDomain.value__
-  fullName: SuperOffice.Data.TemporaryKeyDomain.value__
-  type: Field
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Data
-  syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.Data.TemporaryKeyDomain.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TemporaryKeyDomain)
+  - SuperOffice.Data.TemporaryKeyDomain.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - System.Enum.EnumUtil.GetDescription
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.Data.TemporaryKeyDomain.Unknown
   commentId: F:SuperOffice.Data.TemporaryKeyDomain.Unknown
   id: Unknown
@@ -85,24 +62,26 @@ items:
   nameWithType: TemporaryKeyDomain.Unknown
   fullName: SuperOffice.Data.TemporaryKeyDomain.Unknown
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n0: Unknown\n"
+  summary: '0: Unknown'
+  example: []
   syntax:
-    content: public const TemporaryKeyDomain Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.Data.TemporaryKeyDomain
-    content.vb: Public Const Unknown As TemporaryKeyDomain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.TemporaryKeyDomain.MailingRecipient
   commentId: F:SuperOffice.Data.TemporaryKeyDomain.MailingRecipient
   id: MailingRecipient
@@ -114,24 +93,26 @@ items:
   nameWithType: TemporaryKeyDomain.MailingRecipient
   fullName: SuperOffice.Data.TemporaryKeyDomain.MailingRecipient
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1: Mailing recipient.\n"
+  summary: '1: Mailing recipient.'
+  example: []
   syntax:
-    content: public const TemporaryKeyDomain MailingRecipient
+    content: >-
+      [EnumMember]
+
+      MailingRecipient = 1
     return:
       type: SuperOffice.Data.TemporaryKeyDomain
-    content.vb: Public Const MailingRecipient As TemporaryKeyDomain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      MailingRecipient = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.TemporaryKeyDomain.FormSubmitterRecipient
   commentId: F:SuperOffice.Data.TemporaryKeyDomain.FormSubmitterRecipient
   id: FormSubmitterRecipient
@@ -143,24 +124,26 @@ items:
   nameWithType: TemporaryKeyDomain.FormSubmitterRecipient
   fullName: SuperOffice.Data.TemporaryKeyDomain.FormSubmitterRecipient
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n2: Form submission recipient\n"
+  summary: '2: Form submission recipient'
+  example: []
   syntax:
-    content: public const TemporaryKeyDomain FormSubmitterRecipient
+    content: >-
+      [EnumMember]
+
+      FormSubmitterRecipient = 2
     return:
       type: SuperOffice.Data.TemporaryKeyDomain
-    content.vb: Public Const FormSubmitterRecipient As TemporaryKeyDomain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      FormSubmitterRecipient = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.TemporaryKeyDomain.ViewTicketInCustomerCenter
   commentId: F:SuperOffice.Data.TemporaryKeyDomain.ViewTicketInCustomerCenter
   id: ViewTicketInCustomerCenter
@@ -172,24 +155,26 @@ items:
   nameWithType: TemporaryKeyDomain.ViewTicketInCustomerCenter
   fullName: SuperOffice.Data.TemporaryKeyDomain.ViewTicketInCustomerCenter
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n3: View request in customer center\n"
+  summary: '3: View request in customer center'
+  example: []
   syntax:
-    content: public const TemporaryKeyDomain ViewTicketInCustomerCenter
+    content: >-
+      [EnumMember]
+
+      ViewTicketInCustomerCenter = 3
     return:
       type: SuperOffice.Data.TemporaryKeyDomain
-    content.vb: Public Const ViewTicketInCustomerCenter As TemporaryKeyDomain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ViewTicketInCustomerCenter = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.TemporaryKeyDomain.LoginCustomerCenter
   commentId: F:SuperOffice.Data.TemporaryKeyDomain.LoginCustomerCenter
   id: LoginCustomerCenter
@@ -201,24 +186,26 @@ items:
   nameWithType: TemporaryKeyDomain.LoginCustomerCenter
   fullName: SuperOffice.Data.TemporaryKeyDomain.LoginCustomerCenter
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n4: Customer center login key\n"
+  summary: '4: Customer center login key'
+  example: []
   syntax:
-    content: public const TemporaryKeyDomain LoginCustomerCenter
+    content: >-
+      [EnumMember]
+
+      LoginCustomerCenter = 4
     return:
       type: SuperOffice.Data.TemporaryKeyDomain
-    content.vb: Public Const LoginCustomerCenter As TemporaryKeyDomain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      LoginCustomerCenter = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.TemporaryKeyDomain.PublicFaq
   commentId: F:SuperOffice.Data.TemporaryKeyDomain.PublicFaq
   id: PublicFaq
@@ -230,24 +217,26 @@ items:
   nameWithType: TemporaryKeyDomain.PublicFaq
   fullName: SuperOffice.Data.TemporaryKeyDomain.PublicFaq
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n5: Customer center public faq key\n"
+  summary: '5: Customer center public faq key'
+  example: []
   syntax:
-    content: public const TemporaryKeyDomain PublicFaq
+    content: >-
+      [EnumMember]
+
+      PublicFaq = 5
     return:
       type: SuperOffice.Data.TemporaryKeyDomain
-    content.vb: Public Const PublicFaq As TemporaryKeyDomain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      PublicFaq = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.TemporaryKeyDomain.ChangePasswordCustomerCenter
   commentId: F:SuperOffice.Data.TemporaryKeyDomain.ChangePasswordCustomerCenter
   id: ChangePasswordCustomerCenter
@@ -259,24 +248,26 @@ items:
   nameWithType: TemporaryKeyDomain.ChangePasswordCustomerCenter
   fullName: SuperOffice.Data.TemporaryKeyDomain.ChangePasswordCustomerCenter
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n6: Customer center change password key\n"
+  summary: '6: Customer center change password key'
+  example: []
   syntax:
-    content: public const TemporaryKeyDomain ChangePasswordCustomerCenter
+    content: >-
+      [EnumMember]
+
+      ChangePasswordCustomerCenter = 6
     return:
       type: SuperOffice.Data.TemporaryKeyDomain
-    content.vb: Public Const ChangePasswordCustomerCenter As TemporaryKeyDomain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ChangePasswordCustomerCenter = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.TemporaryKeyDomain.RegisterCustomerCenterEmailVerification
   commentId: F:SuperOffice.Data.TemporaryKeyDomain.RegisterCustomerCenterEmailVerification
   id: RegisterCustomerCenterEmailVerification
@@ -288,115 +279,300 @@ items:
   nameWithType: TemporaryKeyDomain.RegisterCustomerCenterEmailVerification
   fullName: SuperOffice.Data.TemporaryKeyDomain.RegisterCustomerCenterEmailVerification
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n7: Customer center register email verification\n"
+  summary: '7: Customer center register email verification'
+  example: []
   syntax:
-    content: public const TemporaryKeyDomain RegisterCustomerCenterEmailVerification
+    content: >-
+      [EnumMember]
+
+      RegisterCustomerCenterEmailVerification = 7
     return:
       type: SuperOffice.Data.TemporaryKeyDomain
-    content.vb: Public Const RegisterCustomerCenterEmailVerification As TemporaryKeyDomain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      RegisterCustomerCenterEmailVerification = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.TemporaryKeyDomain.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<TemporaryKeyDomain, To>()
-  nameWithType: EnumUtil.MapEnums<TemporaryKeyDomain, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.TemporaryKeyDomain, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of TemporaryKeyDomain, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.TemporaryKeyDomain, To)()
-  name.vb: MapEnums(Of TemporaryKeyDomain, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<TemporaryKeyDomain, To>(TemporaryKeyDomain)
+  nameWithType: EnumUtil.MapEnums<TemporaryKeyDomain, To>(TemporaryKeyDomain)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.TemporaryKeyDomain, To>(SuperOffice.Data.TemporaryKeyDomain)
+  nameWithType.vb: EnumUtil.MapEnums(Of TemporaryKeyDomain, To)(TemporaryKeyDomain)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.TemporaryKeyDomain, To)(SuperOffice.Data.TemporaryKeyDomain)
+  name.vb: MapEnums(Of TemporaryKeyDomain, To)(TemporaryKeyDomain)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<TemporaryKeyDomain, To>
-    nameWithType: EnumUtil.MapEnums<TemporaryKeyDomain, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.TemporaryKeyDomain, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.TemporaryKeyDomain)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.TemporaryKeyDomain
+    name: TemporaryKeyDomain
+    isExternal: true
+    href: SuperOffice.Data.TemporaryKeyDomain.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.TemporaryKeyDomain
+    name: TemporaryKeyDomain
+    isExternal: true
+    href: SuperOffice.Data.TemporaryKeyDomain.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of TemporaryKeyDomain, To)
-    nameWithType: EnumUtil.MapEnums(Of TemporaryKeyDomain, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.TemporaryKeyDomain, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.TemporaryKeyDomain)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.TemporaryKeyDomain
+    name: TemporaryKeyDomain
+    isExternal: true
+    href: SuperOffice.Data.TemporaryKeyDomain.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.TemporaryKeyDomain
+    name: TemporaryKeyDomain
+    isExternal: true
+    href: SuperOffice.Data.TemporaryKeyDomain.html
+  - name: )
 - uid: SuperOffice.Data.TemporaryKeyDomain.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<TemporaryKeyDomain, To>()
-  nameWithType: Converters.MapEnums<TemporaryKeyDomain, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TemporaryKeyDomain, To>()
-  nameWithType.vb: Converters.MapEnums(Of TemporaryKeyDomain, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TemporaryKeyDomain, To)()
-  name.vb: MapEnums(Of TemporaryKeyDomain, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<TemporaryKeyDomain, To>(TemporaryKeyDomain)
+  nameWithType: Converters.MapEnums<TemporaryKeyDomain, To>(TemporaryKeyDomain)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TemporaryKeyDomain, To>(SuperOffice.Data.TemporaryKeyDomain)
+  nameWithType.vb: Converters.MapEnums(Of TemporaryKeyDomain, To)(TemporaryKeyDomain)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TemporaryKeyDomain, To)(SuperOffice.Data.TemporaryKeyDomain)
+  name.vb: MapEnums(Of TemporaryKeyDomain, To)(TemporaryKeyDomain)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<TemporaryKeyDomain, To>
-    nameWithType: Converters.MapEnums<TemporaryKeyDomain, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TemporaryKeyDomain, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.TemporaryKeyDomain)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.TemporaryKeyDomain
+    name: TemporaryKeyDomain
+    isExternal: true
+    href: SuperOffice.Data.TemporaryKeyDomain.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.TemporaryKeyDomain
+    name: TemporaryKeyDomain
+    isExternal: true
+    href: SuperOffice.Data.TemporaryKeyDomain.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of TemporaryKeyDomain, To)
-    nameWithType: Converters.MapEnums(Of TemporaryKeyDomain, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TemporaryKeyDomain, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.TemporaryKeyDomain)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.TemporaryKeyDomain
+    name: TemporaryKeyDomain
+    isExternal: true
+    href: SuperOffice.Data.TemporaryKeyDomain.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  - name: (
+  - uid: SuperOffice.Data.TemporaryKeyDomain
+    name: TemporaryKeyDomain
+    isExternal: true
+    href: SuperOffice.Data.TemporaryKeyDomain.html
+  - name: )
+- uid: SuperOffice.Data.TemporaryKeyDomain.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TemporaryKeyDomain)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<TemporaryKeyDomain>(TemporaryKeyDomain, TemporaryKeyDomain)
+  nameWithType: ObjectExtensions.AssignByReflection<TemporaryKeyDomain>(TemporaryKeyDomain, TemporaryKeyDomain)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TemporaryKeyDomain>(SuperOffice.Data.TemporaryKeyDomain, SuperOffice.Data.TemporaryKeyDomain)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TemporaryKeyDomain)(TemporaryKeyDomain, TemporaryKeyDomain)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TemporaryKeyDomain)(SuperOffice.Data.TemporaryKeyDomain, SuperOffice.Data.TemporaryKeyDomain)
+  name.vb: AssignByReflection(Of TemporaryKeyDomain)(TemporaryKeyDomain, TemporaryKeyDomain)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TemporaryKeyDomain,SuperOffice.Data.TemporaryKeyDomain)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.TemporaryKeyDomain
+    name: TemporaryKeyDomain
+    isExternal: true
+    href: SuperOffice.Data.TemporaryKeyDomain.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.TemporaryKeyDomain
+    name: TemporaryKeyDomain
+    isExternal: true
+    href: SuperOffice.Data.TemporaryKeyDomain.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.TemporaryKeyDomain
+    name: TemporaryKeyDomain
+    isExternal: true
+    href: SuperOffice.Data.TemporaryKeyDomain.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TemporaryKeyDomain,SuperOffice.Data.TemporaryKeyDomain)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.TemporaryKeyDomain
+    name: TemporaryKeyDomain
+    isExternal: true
+    href: SuperOffice.Data.TemporaryKeyDomain.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.TemporaryKeyDomain
+    name: TemporaryKeyDomain
+    isExternal: true
+    href: SuperOffice.Data.TemporaryKeyDomain.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.TemporaryKeyDomain
+    name: TemporaryKeyDomain
+    isExternal: true
+    href: SuperOffice.Data.TemporaryKeyDomain.html
+  - name: )
+- uid: SuperOffice.Data.TemporaryKeyDomain.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<TemporaryKeyDomain>(TemporaryKeyDomain)
+  nameWithType: ObjectExtensions.GraphCopy<TemporaryKeyDomain>(TemporaryKeyDomain)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TemporaryKeyDomain>(SuperOffice.Data.TemporaryKeyDomain)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TemporaryKeyDomain)(TemporaryKeyDomain)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TemporaryKeyDomain)(SuperOffice.Data.TemporaryKeyDomain)
+  name.vb: GraphCopy(Of TemporaryKeyDomain)(TemporaryKeyDomain)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.TemporaryKeyDomain)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.TemporaryKeyDomain
+    name: TemporaryKeyDomain
+    isExternal: true
+    href: SuperOffice.Data.TemporaryKeyDomain.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.TemporaryKeyDomain
+    name: TemporaryKeyDomain
+    isExternal: true
+    href: SuperOffice.Data.TemporaryKeyDomain.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.TemporaryKeyDomain)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.TemporaryKeyDomain
+    name: TemporaryKeyDomain
+    isExternal: true
+    href: SuperOffice.Data.TemporaryKeyDomain.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.TemporaryKeyDomain
+    name: TemporaryKeyDomain
+    isExternal: true
+    href: SuperOffice.Data.TemporaryKeyDomain.html
+  - name: )
+- uid: System.Enum.EnumUtil.GetDescription
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  parent: EnumUtil
+  definition: EnumUtil.GetDescription(System.Enum)
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -405,43 +581,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -450,58 +628,222 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: EnumUtil.GetDescription(System.Enum)
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.Data.TemporaryKeyDomain
   commentId: T:SuperOffice.Data.TemporaryKeyDomain
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.TemporaryKeyDomain.html
   name: TemporaryKeyDomain
   nameWithType: TemporaryKeyDomain
   fullName: SuperOffice.Data.TemporaryKeyDomain

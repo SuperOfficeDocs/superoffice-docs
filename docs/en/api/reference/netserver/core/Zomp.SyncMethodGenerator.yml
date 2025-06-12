@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zomp.SyncMethodGenerator
+  commentId: N:Zomp.SyncMethodGenerator
+  id: Zomp.SyncMethodGenerator
+  children:
+  - Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+  langs:
+  - csharp
+  - vb
+  name: Zomp.SyncMethodGenerator
+  nameWithType: Zomp.SyncMethodGenerator
+  fullName: Zomp.SyncMethodGenerator
+  type: Namespace
+  assemblies:
+  - SoCore
+references:
+- uid: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+  commentId: T:Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+  parent: Zomp.SyncMethodGenerator
+  isExternal: true
+  href: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.html
+  name: CreateSyncVersionAttribute
+  nameWithType: CreateSyncVersionAttribute
+  fullName: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+- uid: Zomp.SyncMethodGenerator
+  commentId: N:Zomp.SyncMethodGenerator
+  isExternal: true
+  href: Zomp.html
+  name: Zomp.SyncMethodGenerator
+  nameWithType: Zomp.SyncMethodGenerator
+  fullName: Zomp.SyncMethodGenerator
+  spec.csharp:
+  - uid: Zomp
+    name: Zomp
+    isExternal: true
+    href: Zomp.html
+  - name: .
+  - uid: Zomp.SyncMethodGenerator
+    name: SyncMethodGenerator
+    isExternal: true
+    href: Zomp.SyncMethodGenerator.html
+  spec.vb:
+  - uid: Zomp
+    name: Zomp
+    isExternal: true
+    href: Zomp.html
+  - name: .
+  - uid: Zomp.SyncMethodGenerator
+    name: SyncMethodGenerator
+    isExternal: true
+    href: Zomp.SyncMethodGenerator.html

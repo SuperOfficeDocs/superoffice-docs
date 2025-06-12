@@ -26,8 +26,8 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=eveniet
+GET /api/v1/List/Priority/MDOItems?flat=True
+GET /api/v1/List/Priority/MDOItems?query=ut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 407,
-    "Name": "Berge Group",
-    "ToolTip": "Et quia fuga sit.",
-    "Deleted": true,
-    "Rank": 124,
-    "Type": "et",
+    "Id": 658,
+    "Name": "Runolfsson, Nicolas and Moore",
+    "ToolTip": "Minima ut et delectus illo eius.",
+    "Deleted": false,
+    "Rank": 148,
+    "Type": "blanditiis",
     "ChildItems": [
       {
-        "Id": 290,
-        "Name": "Feeney, Fisher and Goodwin",
-        "ToolTip": "Perspiciatis repellendus facere quidem magnam.",
+        "Id": 263,
+        "Name": "Wiza LLC",
+        "ToolTip": "Error rerum optio voluptatibus eveniet ullam perferendis similique.",
         "Deleted": false,
-        "Rank": 430,
-        "Type": "quod",
+        "Rank": 310,
+        "Type": "animi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "iusto",
-        "ColorBlock": 210,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "minus",
-        "FullName": "Natalia Bobbie Crooks V",
+        "IconHint": "qui",
+        "ColorBlock": 330,
+        "ExtraInfo": "aut",
+        "StyleHint": "quaerat",
+        "FullName": "Llewellyn Orn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 512
+            "FieldLength": 896
           }
         }
       }
     ],
-    "IconHint": "omnis",
-    "ColorBlock": 459,
-    "ExtraInfo": "vel",
-    "StyleHint": "hic",
-    "FullName": "Abdul Zulauf",
+    "IconHint": "est",
+    "ColorBlock": 253,
+    "ExtraInfo": "eius",
+    "StyleHint": "debitis",
+    "FullName": "Prof. Madie Cathryn Abernathy PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 736
+        "FieldType": "System.Int32",
+        "FieldLength": 966
       }
     }
   }

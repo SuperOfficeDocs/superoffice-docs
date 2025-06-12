@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Nienow Group",
-  "RecordId": 568,
-  "AssociateId": 563
+  "TableName": "Abbott LLC",
+  "RecordId": 746,
+  "AssociateId": 428
 }
 ```
 

@@ -114,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 374,
-    "Name": "Fay-Parker",
-    "OrgNr": "685333",
+    "ContactId": 975,
+    "Name": "Walter Group",
+    "OrgNr": "801649",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "possimus",
-    "DirectPhone": "028.470.2581 x656",
-    "AssociateId": 194,
-    "CountryId": 30,
-    "EmailAddress": "edgardo.nikolaus@greenholtweissnat.us",
-    "Kananame": "delectus",
-    "EmailAddressName": "lydia_kuhn@mueller.uk",
+    "City": "id",
+    "DirectPhone": "(286)691-3609",
+    "AssociateId": 100,
+    "CountryId": 774,
+    "EmailAddress": "lane@predovic.name",
+    "Kananame": "eius",
+    "EmailAddressName": "calista_stamm@fadel.info",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Mrs. Catharine Blick",
+    "AssociateFullName": "Oren Lueilwitz",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "quo",
-    "FullName": "Jean Gutkowski",
+    "FormattedAddress": "iusto",
+    "FullName": "Mr. Francisco Anderson MD",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 234,
-    "Number1": "1231194",
-    "Number2": "395637",
+    "ActiveErpLinks": 259,
+    "Number1": "665732",
+    "Number2": "1074332",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 726
+        "FieldLength": 462
       }
     }
   }

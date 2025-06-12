@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 362
+  "QuoteAlternativeId": 39
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 839,
-    "ERPQuoteLineKey": "ut",
-    "QuoteAlternativeId": 109,
-    "ERPProductKey": "deleniti",
+    "QuoteLineId": 22,
+    "ERPQuoteLineKey": "incidunt",
+    "QuoteAlternativeId": 307,
+    "ERPProductKey": "qui",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 13096.985999999999,
-    "DeliveredQuantity": 21599.528,
-    "Rank": 703,
-    "Name": "Borer LLC",
-    "Description": "Realigned high-level circuit",
-    "Code": "quaerat",
-    "QuantityUnit": "iure",
-    "PriceUnit": "nemo",
-    "ItemNumber": "816892",
+    "Quantity": 14798.748,
+    "DeliveredQuantity": 12598.68,
+    "Rank": 55,
+    "Name": "Trantow Inc and Sons",
+    "Description": "Implemented multi-tasking Graphical User Interface",
+    "Code": "voluptas",
+    "QuantityUnit": "quae",
+    "PriceUnit": "quis",
+    "ItemNumber": "1051860",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "aliquid",
-    "ProductTypeKey": "qui",
-    "Supplier": "iusto",
-    "SupplierCode": "ratione",
-    "Thumbnail": "molestias",
-    "VATInfo": "in",
-    "VAT": 12210.064,
-    "UnitCost": 27525.922,
-    "UnitMinimumPrice": 2181.264,
-    "UnitListPrice": 16497.376,
+    "ProductFamilyKey": "aut",
+    "ProductTypeKey": "nesciunt",
+    "Supplier": "voluptatum",
+    "SupplierCode": "molestias",
+    "Thumbnail": "quia",
+    "VATInfo": "porro",
+    "VAT": 15083.942,
+    "UnitCost": 15811.029999999999,
+    "UnitMinimumPrice": 17729.038,
+    "UnitListPrice": 25971.458,
     "ExtraInfo": [
       {
-        "Name": "Ondricka Group",
-        "Value": "voluptas",
+        "Name": "Fisher, Hessel and Runolfsson",
+        "Value": "odit",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 632
+            "FieldLength": 684
           }
         }
       },
       {
-        "Name": "Ondricka Group",
-        "Value": "voluptas",
+        "Name": "Fisher, Hessel and Runolfsson",
+        "Value": "odit",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 632
+            "FieldLength": 684
           }
         }
       }
     ],
-    "RawExtraInfo": "ut",
-    "IsSubscription": true,
-    "SubscriptionUnit": "et",
-    "SubscriptionQuantity": 28400.307999999997,
-    "SubscriptionStart": "2018-04-03T16:32:39.7583671+02:00",
-    "ERPDiscountPercent": 17669.492,
-    "ERPDiscountAmount": 3416.06,
-    "DiscountPercent": 15271.982,
-    "DiscountAmount": 12322.887999999999,
+    "RawExtraInfo": "velit",
+    "IsSubscription": false,
+    "SubscriptionUnit": "ea",
+    "SubscriptionQuantity": 12595.546,
+    "SubscriptionStart": "2009-12-31T17:54:03.5389365+01:00",
+    "ERPDiscountPercent": 11605.202,
+    "ERPDiscountAmount": 8762.6639999999989,
+    "DiscountPercent": 6365.1539999999995,
+    "DiscountAmount": 25758.345999999998,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 28096.309999999998,
-    "EarningAmount": 6161.4439999999995,
-    "SubTotal": 19151.874,
-    "TotalPrice": 6524.9879999999994,
-    "Rights": "animi",
-    "Rule": "minima",
-    "ExtraField1": "repellendus",
-    "ExtraField2": "est",
-    "ExtraField3": "tenetur",
-    "ExtraField4": "voluptatem",
-    "ExtraField5": "qui",
+    "EarningPercent": 24642.642,
+    "EarningAmount": 6835.254,
+    "SubTotal": 1012.2819999999999,
+    "TotalPrice": 17356.092,
+    "Rights": "sit",
+    "Rule": "dolorem",
+    "ExtraField1": "vitae",
+    "ExtraField2": "et",
+    "ExtraField3": "corrupti",
+    "ExtraField4": "sit",
+    "ExtraField5": "sunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 573
+        "FieldLength": 163
       }
     }
   }

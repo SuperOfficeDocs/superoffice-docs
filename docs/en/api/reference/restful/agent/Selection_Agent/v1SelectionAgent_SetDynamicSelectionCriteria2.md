@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 352,
-  "Filter": "dolorem"
+  "SelectionId": 738,
+  "Filter": "id"
 }
 ```
 
@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Goldner Group",
-    "Operator": "soluta",
+    "Name": "Okuneva-Hyatt",
+    "Operator": "inventore",
     "Values": [
-      "deserunt",
-      "id"
+      "enim",
+      "iusto"
     ],
     "DisplayValues": [
-      "quo",
-      "et"
+      "aut",
+      "reprehenderit"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Schuster, Bogan and Lang",
-        "Operator": "reprehenderit",
+        "Name": "Gerlach, Kihn and Stiedemann",
+        "Operator": "qui",
         "Values": [
-          "perspiciatis",
-          "aut"
+          "odit",
+          "deleniti"
         ],
         "DisplayValues": [
-          "animi",
-          "sit"
+          "earum",
+          "sequi"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 123,
+        "InterParenthesis": 19,
         "InterOperator": "And",
-        "UniqueHash": 848
+        "UniqueHash": 751
       }
     ],
-    "InterParenthesis": 38,
+    "InterParenthesis": 618,
     "InterOperator": "And",
-    "UniqueHash": 751
+    "UniqueHash": 21
   }
 ]
 ```

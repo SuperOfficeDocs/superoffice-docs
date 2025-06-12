@@ -15,64 +15,24 @@ items:
   - SuperOffice.WebApi.Data.QuoteVersionState.Sent
   - SuperOffice.WebApi.Data.QuoteVersionState.Sold
   - SuperOffice.WebApi.Data.QuoteVersionState.Unknown
-  - SuperOffice.WebApi.Data.QuoteVersionState.value__
   langs:
   - csharp
   - vb
   name: QuoteVersionState
   nameWithType: QuoteVersionState
   fullName: SuperOffice.WebApi.Data.QuoteVersionState
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nState of a Quote Version\nThis Enum is used by:  QuoteVersion.State; QuoteVersion.ArchivedState\n"
-  syntax:
-    content: 'public sealed class QuoteVersionState : Enum'
-    content.vb: >-
-      Public NotInheritable Class QuoteVersionState
-          Inherits
+  summary: >-
+    State of a Quote Version
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.QuoteVersionState.value__
-  commentId: F:SuperOffice.WebApi.Data.QuoteVersionState.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.QuoteVersionState
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: QuoteVersionState.value__
-  fullName: SuperOffice.WebApi.Data.QuoteVersionState.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  QuoteVersion.State; QuoteVersion.ArchivedState
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: 'public enum QuoteVersionState : short'
+    content.vb: Public Enum QuoteVersionState As Short
 - uid: SuperOffice.WebApi.Data.QuoteVersionState.Unknown
   commentId: F:SuperOffice.WebApi.Data.QuoteVersionState.Unknown
   id: Unknown
@@ -84,24 +44,26 @@ items:
   nameWithType: QuoteVersionState.Unknown
   fullName: SuperOffice.WebApi.Data.QuoteVersionState.Unknown
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: State unknown\n"
+  summary: '0: State unknown'
+  example: []
   syntax:
-    content: public const QuoteVersionState Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.WebApi.Data.QuoteVersionState
-    content.vb: Public Const Unknown As QuoteVersionState
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.QuoteVersionState.Draft
   commentId: F:SuperOffice.WebApi.Data.QuoteVersionState.Draft
   id: Draft
@@ -113,24 +75,26 @@ items:
   nameWithType: QuoteVersionState.Draft
   fullName: SuperOffice.WebApi.Data.QuoteVersionState.Draft
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Draft that has been calculated, and ERP has verified it as OK\n"
+  summary: '1: Draft that has been calculated, and ERP has verified it as OK'
+  example: []
   syntax:
-    content: public const QuoteVersionState Draft
+    content: >-
+      [EnumMember]
+
+      Draft = 1
     return:
       type: SuperOffice.WebApi.Data.QuoteVersionState
-    content.vb: Public Const Draft As QuoteVersionState
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Draft = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.QuoteVersionState.DraftNotCalculated
   commentId: F:SuperOffice.WebApi.Data.QuoteVersionState.DraftNotCalculated
   id: DraftNotCalculated
@@ -142,24 +106,26 @@ items:
   nameWithType: QuoteVersionState.DraftNotCalculated
   fullName: SuperOffice.WebApi.Data.QuoteVersionState.DraftNotCalculated
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: This is a draft that has not been calculated, prices and other attributes may be &apos;invalid&apos; relative to ERP system rules\n"
+  summary: "2: This is a draft that has not been calculated, prices and other attributes may be 'invalid' relative to ERP system rules"
+  example: []
   syntax:
-    content: public const QuoteVersionState DraftNotCalculated
+    content: >-
+      [EnumMember]
+
+      DraftNotCalculated = 2
     return:
       type: SuperOffice.WebApi.Data.QuoteVersionState
-    content.vb: Public Const DraftNotCalculated As QuoteVersionState
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      DraftNotCalculated = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.QuoteVersionState.DraftNeedsApproval
   commentId: F:SuperOffice.WebApi.Data.QuoteVersionState.DraftNeedsApproval
   id: DraftNeedsApproval
@@ -171,24 +137,26 @@ items:
   nameWithType: QuoteVersionState.DraftNeedsApproval
   fullName: SuperOffice.WebApi.Data.QuoteVersionState.DraftNeedsApproval
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Draft has been checked, and there was a problem that needs (human) approval\n"
+  summary: '3: Draft has been checked, and there was a problem that needs (human) approval'
+  example: []
   syntax:
-    content: public const QuoteVersionState DraftNeedsApproval
+    content: >-
+      [EnumMember]
+
+      DraftNeedsApproval = 3
     return:
       type: SuperOffice.WebApi.Data.QuoteVersionState
-    content.vb: Public Const DraftNeedsApproval As QuoteVersionState
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      DraftNeedsApproval = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.QuoteVersionState.DraftApproved
   commentId: F:SuperOffice.WebApi.Data.QuoteVersionState.DraftApproved
   id: DraftApproved
@@ -200,24 +168,26 @@ items:
   nameWithType: QuoteVersionState.DraftApproved
   fullName: SuperOffice.WebApi.Data.QuoteVersionState.DraftApproved
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Draft with potential problems has been human-approved\n"
+  summary: '4: Draft with potential problems has been human-approved'
+  example: []
   syntax:
-    content: public const QuoteVersionState DraftApproved
+    content: >-
+      [EnumMember]
+
+      DraftApproved = 4
     return:
       type: SuperOffice.WebApi.Data.QuoteVersionState
-    content.vb: Public Const DraftApproved As QuoteVersionState
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      DraftApproved = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.QuoteVersionState.DraftNotApproved
   commentId: F:SuperOffice.WebApi.Data.QuoteVersionState.DraftNotApproved
   id: DraftNotApproved
@@ -229,24 +199,26 @@ items:
   nameWithType: QuoteVersionState.DraftNotApproved
   fullName: SuperOffice.WebApi.Data.QuoteVersionState.DraftNotApproved
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: Draft has been checked, there was a problem, and (human) approval was NOT granted\n"
+  summary: '5: Draft has been checked, there was a problem, and (human) approval was NOT granted'
+  example: []
   syntax:
-    content: public const QuoteVersionState DraftNotApproved
+    content: >-
+      [EnumMember]
+
+      DraftNotApproved = 5
     return:
       type: SuperOffice.WebApi.Data.QuoteVersionState
-    content.vb: Public Const DraftNotApproved As QuoteVersionState
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      DraftNotApproved = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.QuoteVersionState.Sent
   commentId: F:SuperOffice.WebApi.Data.QuoteVersionState.Sent
   id: Sent
@@ -258,24 +230,26 @@ items:
   nameWithType: QuoteVersionState.Sent
   fullName: SuperOffice.WebApi.Data.QuoteVersionState.Sent
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n6: Sent to customer, and is now a legally binding document\n"
+  summary: '6: Sent to customer, and is now a legally binding document'
+  example: []
   syntax:
-    content: public const QuoteVersionState Sent
+    content: >-
+      [EnumMember]
+
+      Sent = 6
     return:
       type: SuperOffice.WebApi.Data.QuoteVersionState
-    content.vb: Public Const Sent As QuoteVersionState
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Sent = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.QuoteVersionState.Archived
   commentId: F:SuperOffice.WebApi.Data.QuoteVersionState.Archived
   id: Archived
@@ -287,24 +261,26 @@ items:
   nameWithType: QuoteVersionState.Archived
   fullName: SuperOffice.WebApi.Data.QuoteVersionState.Archived
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n7: Archived - previous state saved in ArchivedState, newer versions exist\n"
+  summary: '7: Archived - previous state saved in ArchivedState, newer versions exist'
+  example: []
   syntax:
-    content: public const QuoteVersionState Archived
+    content: >-
+      [EnumMember]
+
+      Archived = 7
     return:
       type: SuperOffice.WebApi.Data.QuoteVersionState
-    content.vb: Public Const Archived As QuoteVersionState
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Archived = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.QuoteVersionState.Lost
   commentId: F:SuperOffice.WebApi.Data.QuoteVersionState.Lost
   id: Lost
@@ -316,24 +292,26 @@ items:
   nameWithType: QuoteVersionState.Lost
   fullName: SuperOffice.WebApi.Data.QuoteVersionState.Lost
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n8: Version was rejected be the customer - we lost the sale\n"
+  summary: '8: Version was rejected be the customer - we lost the sale'
+  example: []
   syntax:
-    content: public const QuoteVersionState Lost
+    content: >-
+      [EnumMember]
+
+      Lost = 8
     return:
       type: SuperOffice.WebApi.Data.QuoteVersionState
-    content.vb: Public Const Lost As QuoteVersionState
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Lost = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.QuoteVersionState.Sold
   commentId: F:SuperOffice.WebApi.Data.QuoteVersionState.Sold
   id: Sold
@@ -345,55 +323,69 @@ items:
   nameWithType: QuoteVersionState.Sold
   fullName: SuperOffice.WebApi.Data.QuoteVersionState.Sold
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n9: Quote was accepted and the sale is &apos;Sold&apos;\n"
+  summary: "9: Quote was accepted and the sale is 'Sold'"
+  example: []
   syntax:
-    content: public const QuoteVersionState Sold
+    content: >-
+      [EnumMember]
+
+      Sold = 9
     return:
       type: SuperOffice.WebApi.Data.QuoteVersionState
-    content.vb: Public Const Sold As QuoteVersionState
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Sold = 9
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.QuoteVersionState
   commentId: T:SuperOffice.WebApi.Data.QuoteVersionState
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteVersionState.html
   name: QuoteVersionState
   nameWithType: QuoteVersionState
   fullName: SuperOffice.WebApi.Data.QuoteVersionState

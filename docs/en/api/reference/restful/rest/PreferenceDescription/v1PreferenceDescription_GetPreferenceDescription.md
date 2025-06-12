@@ -90,7 +90,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,30 +100,30 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 256,
-  "Section": "minima",
-  "Key": "ut",
-  "Name": "Nikolaus, Cormier and Lehner",
+  "PrefDescId": 255,
+  "Section": "beatae",
+  "Key": "repudiandae",
+  "Name": "Buckridge-Bernier",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Organized human-resource encoding",
+  "Description": "Down-sized dedicated website",
   "IsBuiltin": false,
-  "TableName": "Kulas-Vandervort",
-  "UserDefinedListId": 862,
-  "Rank": 596,
-  "SubGroup": "doloribus",
-  "MinLevel": 347,
-  "MaxValue": 585,
-  "MinValue": 854,
-  "RequiredLicense": "autem",
+  "TableName": "Hilpert-Conroy",
+  "UserDefinedListId": 985,
+  "Rank": 862,
+  "SubGroup": "illo",
+  "MinLevel": 637,
+  "MaxValue": 418,
+  "MinValue": 744,
+  "RequiredLicense": "at",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 135
+      "FieldType": "System.Int32",
+      "FieldLength": 545
     }
   },
   "_Links": {

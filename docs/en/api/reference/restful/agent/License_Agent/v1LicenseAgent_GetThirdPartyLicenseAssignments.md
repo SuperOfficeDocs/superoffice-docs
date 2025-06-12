@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 392,
-  "ModuleOwner": "dignissimos"
+  "AssociateId": 819,
+  "ModuleOwner": "mollitia"
 }
 ```
 
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 10,
-    "Tooltip": "cumque",
-    "CanAssign": true,
-    "Free": 934,
-    "InUse": 945,
+    "Total": 205,
+    "Tooltip": "quos",
+    "CanAssign": false,
+    "Free": 642,
+    "InUse": 179,
     "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 949,
-    "Name": "Stark, Kemmer and King",
-    "Description": "Monitored assymetric instruction set",
-    "PrerequisiteModuleName": "Beahan LLC",
-    "SortOrder": 319,
-    "ExtraFlags": 305,
+    "ModuleLicenseId": 623,
+    "Name": "Baumbach Group",
+    "Description": "Optimized dedicated ability",
+    "PrerequisiteModuleName": "Ziemann LLC",
+    "SortOrder": 558,
+    "ExtraFlags": 923,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 18
+        "FieldLength": 479
       }
     }
   }

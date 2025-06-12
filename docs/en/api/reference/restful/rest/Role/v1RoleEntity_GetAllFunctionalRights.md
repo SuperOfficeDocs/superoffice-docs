@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 889,
-    "Name": "Ernser, Gerhold and Hegmann",
-    "ToolTip": "Qui vitae.",
+    "Id": 834,
+    "Name": "Mante Group",
+    "ToolTip": "Molestias atque beatae voluptas rerum.",
     "Deleted": false,
-    "Rank": 24,
-    "Type": "eligendi",
-    "ColorBlock": 250,
-    "IconHint": "vitae",
+    "Rank": 801,
+    "Type": "natus",
+    "ColorBlock": 834,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2015-03-19T16:32:47.7745258+01:00",
+    "LastChanged": "2007-06-27T17:54:08.4293225+02:00",
     "ChildItems": [
       {
-        "Id": 338,
-        "Name": "Ferry, Durgan and Reichert",
-        "ToolTip": "Animi ut rem vitae adipisci impedit deserunt.",
-        "Deleted": true,
-        "Rank": 948,
-        "Type": "reiciendis",
-        "ColorBlock": 910,
-        "IconHint": "itaque",
-        "Selected": true,
-        "LastChanged": "2007-07-20T16:32:47.7745258+02:00",
+        "Id": 977,
+        "Name": "Ward-Kshlerin",
+        "ToolTip": "Est id illum ab cum est.",
+        "Deleted": false,
+        "Rank": 750,
+        "Type": "voluptas",
+        "ColorBlock": 743,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2007-10-30T17:54:08.4293225+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "dolorem",
-        "Hidden": true,
-        "FullName": "Aiden Hirthe",
+        "ExtraInfo": "velit",
+        "StyleHint": "quidem",
+        "Hidden": false,
+        "FullName": "Shaylee Greenholt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 384
+            "FieldType": "System.String",
+            "FieldLength": 904
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "corporis",
-    "Hidden": false,
-    "FullName": "Eldora Muller",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "magnam",
+    "Hidden": true,
+    "FullName": "Mrs. Alene Upton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 882
+        "FieldType": "System.String",
+        "FieldLength": 517
       }
     }
   }

@@ -1,0 +1,861 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.License.INSLicenseService
+  commentId: T:SuperOffice.License.INSLicenseService
+  id: INSLicenseService
+  parent: SuperOffice.License
+  children:
+  - SuperOffice.License.INSLicenseService.AcceptLicense(SuperOffice.License.AcceptLicenseRequest)
+  - SuperOffice.License.INSLicenseService.ChangeSerialNumber(SuperOffice.License.ChangeSerialNumberRequest)
+  - SuperOffice.License.INSLicenseService.GetCurrentLicenseInfo(SuperOffice.License.GetCurrentLicenseInfoRequest)
+  - SuperOffice.License.INSLicenseService.GetCurrentLicenseInfoWithAssignments(SuperOffice.License.GetCurrentLicenseInfoWithAssignmentsRequest)
+  - SuperOffice.License.INSLicenseService.GetLicenseModuleDetails(System.String,SuperOffice.License.GetLicenseModuleDetailsRequest)
+  - SuperOffice.License.INSLicenseService.GetLicenseUrl(System.String)
+  - SuperOffice.License.INSLicenseService.GetShopUrl(SuperOffice.License.GetShopUrlRequest)
+  - SuperOffice.License.INSLicenseService.MakeTestLicense(System.String,SuperOffice.License.MakeTestLicenseRequest)
+  - SuperOffice.License.INSLicenseService.PingLicenseSystem(SuperOffice.License.CheckLicenseStatusRequest)
+  - SuperOffice.License.INSLicenseService.SetLicenseUrlOverride(System.String)
+  - SuperOffice.License.INSLicenseService.SetTimeout(System.Int32)
+  - SuperOffice.License.INSLicenseService.UpdateLicense(SuperOffice.License.UpdateLicenseRequest)
+  langs:
+  - csharp
+  - vb
+  name: INSLicenseService
+  nameWithType: INSLicenseService
+  fullName: SuperOffice.License.INSLicenseService
+  type: Interface
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License
+  summary: Interface implemented by the <xref href="SuperOffice.License.LicenseService" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public interface INSLicenseService
+    content.vb: Public Interface INSLicenseService
+  extensionMethods:
+  - SuperOffice.License.INSLicenseService.EnumUtil.MapEnums``2
+  - SuperOffice.License.INSLicenseService.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.License.INSLicenseService.AcceptLicense(SuperOffice.License.AcceptLicenseRequest)
+  commentId: M:SuperOffice.License.INSLicenseService.AcceptLicense(SuperOffice.License.AcceptLicenseRequest)
+  id: AcceptLicense(SuperOffice.License.AcceptLicenseRequest)
+  parent: SuperOffice.License.INSLicenseService
+  langs:
+  - csharp
+  - vb
+  name: AcceptLicense(AcceptLicenseRequest)
+  nameWithType: INSLicenseService.AcceptLicense(AcceptLicenseRequest)
+  fullName: SuperOffice.License.INSLicenseService.AcceptLicense(SuperOffice.License.AcceptLicenseRequest)
+  type: Method
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License
+  summary: Accent a license
+  example: []
+  syntax:
+    content: void AcceptLicense(AcceptLicenseRequest req)
+    parameters:
+    - id: req
+      type: SuperOffice.License.AcceptLicenseRequest
+      description: Request
+    content.vb: Sub AcceptLicense(req As AcceptLicenseRequest)
+  overload: SuperOffice.License.INSLicenseService.AcceptLicense*
+- uid: SuperOffice.License.INSLicenseService.ChangeSerialNumber(SuperOffice.License.ChangeSerialNumberRequest)
+  commentId: M:SuperOffice.License.INSLicenseService.ChangeSerialNumber(SuperOffice.License.ChangeSerialNumberRequest)
+  id: ChangeSerialNumber(SuperOffice.License.ChangeSerialNumberRequest)
+  parent: SuperOffice.License.INSLicenseService
+  langs:
+  - csharp
+  - vb
+  name: ChangeSerialNumber(ChangeSerialNumberRequest)
+  nameWithType: INSLicenseService.ChangeSerialNumber(ChangeSerialNumberRequest)
+  fullName: SuperOffice.License.INSLicenseService.ChangeSerialNumber(SuperOffice.License.ChangeSerialNumberRequest)
+  type: Method
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License
+  summary: Reqest to change serial number
+  example: []
+  syntax:
+    content: ChangeSerialNumberResult ChangeSerialNumber(ChangeSerialNumberRequest req)
+    parameters:
+    - id: req
+      type: SuperOffice.License.ChangeSerialNumberRequest
+      description: Request to change serial number
+    return:
+      type: SuperOffice.License.ChangeSerialNumberResult
+      description: Response to change serial number.
+    content.vb: Function ChangeSerialNumber(req As ChangeSerialNumberRequest) As ChangeSerialNumberResult
+  overload: SuperOffice.License.INSLicenseService.ChangeSerialNumber*
+- uid: SuperOffice.License.INSLicenseService.GetCurrentLicenseInfo(SuperOffice.License.GetCurrentLicenseInfoRequest)
+  commentId: M:SuperOffice.License.INSLicenseService.GetCurrentLicenseInfo(SuperOffice.License.GetCurrentLicenseInfoRequest)
+  id: GetCurrentLicenseInfo(SuperOffice.License.GetCurrentLicenseInfoRequest)
+  parent: SuperOffice.License.INSLicenseService
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentLicenseInfo(GetCurrentLicenseInfoRequest)
+  nameWithType: INSLicenseService.GetCurrentLicenseInfo(GetCurrentLicenseInfoRequest)
+  fullName: SuperOffice.License.INSLicenseService.GetCurrentLicenseInfo(SuperOffice.License.GetCurrentLicenseInfoRequest)
+  type: Method
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License
+  summary: Get current license info
+  example: []
+  syntax:
+    content: GetCurrentLicenseInfoResult GetCurrentLicenseInfo(GetCurrentLicenseInfoRequest req)
+    parameters:
+    - id: req
+      type: SuperOffice.License.GetCurrentLicenseInfoRequest
+      description: Request
+    return:
+      type: SuperOffice.License.GetCurrentLicenseInfoResult
+      description: Response
+    content.vb: Function GetCurrentLicenseInfo(req As GetCurrentLicenseInfoRequest) As GetCurrentLicenseInfoResult
+  overload: SuperOffice.License.INSLicenseService.GetCurrentLicenseInfo*
+- uid: SuperOffice.License.INSLicenseService.GetCurrentLicenseInfoWithAssignments(SuperOffice.License.GetCurrentLicenseInfoWithAssignmentsRequest)
+  commentId: M:SuperOffice.License.INSLicenseService.GetCurrentLicenseInfoWithAssignments(SuperOffice.License.GetCurrentLicenseInfoWithAssignmentsRequest)
+  id: GetCurrentLicenseInfoWithAssignments(SuperOffice.License.GetCurrentLicenseInfoWithAssignmentsRequest)
+  parent: SuperOffice.License.INSLicenseService
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentLicenseInfoWithAssignments(GetCurrentLicenseInfoWithAssignmentsRequest)
+  nameWithType: INSLicenseService.GetCurrentLicenseInfoWithAssignments(GetCurrentLicenseInfoWithAssignmentsRequest)
+  fullName: SuperOffice.License.INSLicenseService.GetCurrentLicenseInfoWithAssignments(SuperOffice.License.GetCurrentLicenseInfoWithAssignmentsRequest)
+  type: Method
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License
+  summary: >-
+    Tell the license server the actual license usage. Used during upgrade/transition from old to new pricelist.
+
+    Calling this will make the transition permanent.
+  example: []
+  syntax:
+    content: GetCurrentLicenseInfoWithAssignmentsResult GetCurrentLicenseInfoWithAssignments(GetCurrentLicenseInfoWithAssignmentsRequest req)
+    parameters:
+    - id: req
+      type: SuperOffice.License.GetCurrentLicenseInfoWithAssignmentsRequest
+      description: Current license info + sites + users with all license assignments
+    return:
+      type: SuperOffice.License.GetCurrentLicenseInfoWithAssignmentsResult
+      description: Upgraded license info with site + user assignments and possible new serial number.
+    content.vb: Function GetCurrentLicenseInfoWithAssignments(req As GetCurrentLicenseInfoWithAssignmentsRequest) As GetCurrentLicenseInfoWithAssignmentsResult
+  overload: SuperOffice.License.INSLicenseService.GetCurrentLicenseInfoWithAssignments*
+- uid: SuperOffice.License.INSLicenseService.GetLicenseModuleDetails(System.String,SuperOffice.License.GetLicenseModuleDetailsRequest)
+  commentId: M:SuperOffice.License.INSLicenseService.GetLicenseModuleDetails(System.String,SuperOffice.License.GetLicenseModuleDetailsRequest)
+  id: GetLicenseModuleDetails(System.String,SuperOffice.License.GetLicenseModuleDetailsRequest)
+  parent: SuperOffice.License.INSLicenseService
+  langs:
+  - csharp
+  - vb
+  name: GetLicenseModuleDetails(string, GetLicenseModuleDetailsRequest)
+  nameWithType: INSLicenseService.GetLicenseModuleDetails(string, GetLicenseModuleDetailsRequest)
+  fullName: SuperOffice.License.INSLicenseService.GetLicenseModuleDetails(string, SuperOffice.License.GetLicenseModuleDetailsRequest)
+  type: Method
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License
+  syntax:
+    content: string GetLicenseModuleDetails(string url, GetLicenseModuleDetailsRequest req)
+    parameters:
+    - id: url
+      type: System.String
+    - id: req
+      type: SuperOffice.License.GetLicenseModuleDetailsRequest
+    return:
+      type: System.String
+    content.vb: Function GetLicenseModuleDetails(url As String, req As GetLicenseModuleDetailsRequest) As String
+  overload: SuperOffice.License.INSLicenseService.GetLicenseModuleDetails*
+  nameWithType.vb: INSLicenseService.GetLicenseModuleDetails(String, GetLicenseModuleDetailsRequest)
+  fullName.vb: SuperOffice.License.INSLicenseService.GetLicenseModuleDetails(String, SuperOffice.License.GetLicenseModuleDetailsRequest)
+  name.vb: GetLicenseModuleDetails(String, GetLicenseModuleDetailsRequest)
+- uid: SuperOffice.License.INSLicenseService.GetLicenseUrl(System.String)
+  commentId: M:SuperOffice.License.INSLicenseService.GetLicenseUrl(System.String)
+  id: GetLicenseUrl(System.String)
+  parent: SuperOffice.License.INSLicenseService
+  langs:
+  - csharp
+  - vb
+  name: GetLicenseUrl(string)
+  nameWithType: INSLicenseService.GetLicenseUrl(string)
+  fullName: SuperOffice.License.INSLicenseService.GetLicenseUrl(string)
+  type: Method
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License
+  summary: Return the potentially overridden license server URL. Checks appSettings "SuperLicenseSvcUrl" value for override.
+  example: []
+  syntax:
+    content: string GetLicenseUrl(string url)
+    parameters:
+    - id: url
+      type: System.String
+      description: License URL we think we should call
+    return:
+      type: System.String
+      description: License URL we should actually call (usually the same as the input parameter)
+    content.vb: Function GetLicenseUrl(url As String) As String
+  overload: SuperOffice.License.INSLicenseService.GetLicenseUrl*
+  nameWithType.vb: INSLicenseService.GetLicenseUrl(String)
+  fullName.vb: SuperOffice.License.INSLicenseService.GetLicenseUrl(String)
+  name.vb: GetLicenseUrl(String)
+- uid: SuperOffice.License.INSLicenseService.GetShopUrl(SuperOffice.License.GetShopUrlRequest)
+  commentId: M:SuperOffice.License.INSLicenseService.GetShopUrl(SuperOffice.License.GetShopUrlRequest)
+  id: GetShopUrl(SuperOffice.License.GetShopUrlRequest)
+  parent: SuperOffice.License.INSLicenseService
+  langs:
+  - csharp
+  - vb
+  name: GetShopUrl(GetShopUrlRequest)
+  nameWithType: INSLicenseService.GetShopUrl(GetShopUrlRequest)
+  fullName: SuperOffice.License.INSLicenseService.GetShopUrl(SuperOffice.License.GetShopUrlRequest)
+  type: Method
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License
+  summary: Get the shop URL for the Admin button to point to.
+  example: []
+  syntax:
+    content: string GetShopUrl(GetShopUrlRequest req)
+    parameters:
+    - id: req
+      type: SuperOffice.License.GetShopUrlRequest
+      description: Request
+    return:
+      type: System.String
+    content.vb: Function GetShopUrl(req As GetShopUrlRequest) As String
+  overload: SuperOffice.License.INSLicenseService.GetShopUrl*
+- uid: SuperOffice.License.INSLicenseService.MakeTestLicense(System.String,SuperOffice.License.MakeTestLicenseRequest)
+  commentId: M:SuperOffice.License.INSLicenseService.MakeTestLicense(System.String,SuperOffice.License.MakeTestLicenseRequest)
+  id: MakeTestLicense(System.String,SuperOffice.License.MakeTestLicenseRequest)
+  parent: SuperOffice.License.INSLicenseService
+  langs:
+  - csharp
+  - vb
+  name: MakeTestLicense(string, MakeTestLicenseRequest)
+  nameWithType: INSLicenseService.MakeTestLicense(string, MakeTestLicenseRequest)
+  fullName: SuperOffice.License.INSLicenseService.MakeTestLicense(string, SuperOffice.License.MakeTestLicenseRequest)
+  type: Method
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License
+  summary: Make a test license
+  example: []
+  syntax:
+    content: MakeTestLicenseResult MakeTestLicense(string url, MakeTestLicenseRequest req)
+    parameters:
+    - id: url
+      type: System.String
+      description: Request
+    - id: req
+      type: SuperOffice.License.MakeTestLicenseRequest
+      description: Url of the service to send the request
+    return:
+      type: SuperOffice.License.MakeTestLicenseResult
+      description: Response
+    content.vb: Function MakeTestLicense(url As String, req As MakeTestLicenseRequest) As MakeTestLicenseResult
+  overload: SuperOffice.License.INSLicenseService.MakeTestLicense*
+  nameWithType.vb: INSLicenseService.MakeTestLicense(String, MakeTestLicenseRequest)
+  fullName.vb: SuperOffice.License.INSLicenseService.MakeTestLicense(String, SuperOffice.License.MakeTestLicenseRequest)
+  name.vb: MakeTestLicense(String, MakeTestLicenseRequest)
+- uid: SuperOffice.License.INSLicenseService.PingLicenseSystem(SuperOffice.License.CheckLicenseStatusRequest)
+  commentId: M:SuperOffice.License.INSLicenseService.PingLicenseSystem(SuperOffice.License.CheckLicenseStatusRequest)
+  id: PingLicenseSystem(SuperOffice.License.CheckLicenseStatusRequest)
+  parent: SuperOffice.License.INSLicenseService
+  langs:
+  - csharp
+  - vb
+  name: PingLicenseSystem(CheckLicenseStatusRequest)
+  nameWithType: INSLicenseService.PingLicenseSystem(CheckLicenseStatusRequest)
+  fullName: SuperOffice.License.INSLicenseService.PingLicenseSystem(SuperOffice.License.CheckLicenseStatusRequest)
+  type: Method
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License
+  summary: Ping the license service
+  example: []
+  syntax:
+    content: CheckLicenseStatusResult PingLicenseSystem(CheckLicenseStatusRequest req)
+    parameters:
+    - id: req
+      type: SuperOffice.License.CheckLicenseStatusRequest
+      description: Request
+    return:
+      type: SuperOffice.License.CheckLicenseStatusResult
+      description: Ping response
+    content.vb: Function PingLicenseSystem(req As CheckLicenseStatusRequest) As CheckLicenseStatusResult
+  overload: SuperOffice.License.INSLicenseService.PingLicenseSystem*
+- uid: SuperOffice.License.INSLicenseService.SetLicenseUrlOverride(System.String)
+  commentId: M:SuperOffice.License.INSLicenseService.SetLicenseUrlOverride(System.String)
+  id: SetLicenseUrlOverride(System.String)
+  parent: SuperOffice.License.INSLicenseService
+  langs:
+  - csharp
+  - vb
+  name: SetLicenseUrlOverride(string)
+  nameWithType: INSLicenseService.SetLicenseUrlOverride(string)
+  fullName: SuperOffice.License.INSLicenseService.SetLicenseUrlOverride(string)
+  type: Method
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License
+  summary: Set license URL override - used by windows ServerSetup and DbSetup
+  example: []
+  syntax:
+    content: void SetLicenseUrlOverride(string licenseUrlOverride)
+    parameters:
+    - id: licenseUrlOverride
+      type: System.String
+      description: Use this URL instead of the one on the license
+    content.vb: Sub SetLicenseUrlOverride(licenseUrlOverride As String)
+  overload: SuperOffice.License.INSLicenseService.SetLicenseUrlOverride*
+  nameWithType.vb: INSLicenseService.SetLicenseUrlOverride(String)
+  fullName.vb: SuperOffice.License.INSLicenseService.SetLicenseUrlOverride(String)
+  name.vb: SetLicenseUrlOverride(String)
+- uid: SuperOffice.License.INSLicenseService.SetTimeout(System.Int32)
+  commentId: M:SuperOffice.License.INSLicenseService.SetTimeout(System.Int32)
+  id: SetTimeout(System.Int32)
+  parent: SuperOffice.License.INSLicenseService
+  langs:
+  - csharp
+  - vb
+  name: SetTimeout(int)
+  nameWithType: INSLicenseService.SetTimeout(int)
+  fullName: SuperOffice.License.INSLicenseService.SetTimeout(int)
+  type: Method
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License
+  syntax:
+    content: void SetTimeout(int numSeconds)
+    parameters:
+    - id: numSeconds
+      type: System.Int32
+    content.vb: Sub SetTimeout(numSeconds As Integer)
+  overload: SuperOffice.License.INSLicenseService.SetTimeout*
+  nameWithType.vb: INSLicenseService.SetTimeout(Integer)
+  fullName.vb: SuperOffice.License.INSLicenseService.SetTimeout(Integer)
+  name.vb: SetTimeout(Integer)
+- uid: SuperOffice.License.INSLicenseService.UpdateLicense(SuperOffice.License.UpdateLicenseRequest)
+  commentId: M:SuperOffice.License.INSLicenseService.UpdateLicense(SuperOffice.License.UpdateLicenseRequest)
+  id: UpdateLicense(SuperOffice.License.UpdateLicenseRequest)
+  parent: SuperOffice.License.INSLicenseService
+  langs:
+  - csharp
+  - vb
+  name: UpdateLicense(UpdateLicenseRequest)
+  nameWithType: INSLicenseService.UpdateLicense(UpdateLicenseRequest)
+  fullName: SuperOffice.License.INSLicenseService.UpdateLicense(SuperOffice.License.UpdateLicenseRequest)
+  type: Method
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License
+  summary: >-
+    Tell the license server the actual license usage. Used during upgrade/transition from old to new pricelist.
+
+    Calling this will make the transition permanent.
+  example: []
+  syntax:
+    content: UpdateLicenseResult UpdateLicense(UpdateLicenseRequest req)
+    parameters:
+    - id: req
+      type: SuperOffice.License.UpdateLicenseRequest
+      description: Current license info + user-license usage counts
+    return:
+      type: SuperOffice.License.UpdateLicenseResult
+      description: Updated license info. This needs to sent to AcceptLicense after writing to local db.
+    content.vb: Function UpdateLicense(req As UpdateLicenseRequest) As UpdateLicenseResult
+  overload: SuperOffice.License.INSLicenseService.UpdateLicense*
+references:
+- uid: SuperOffice.License.LicenseService
+  commentId: T:SuperOffice.License.LicenseService
+  isExternal: true
+  href: SuperOffice.License.LicenseService.html
+  name: LicenseService
+  nameWithType: LicenseService
+  fullName: SuperOffice.License.LicenseService
+- uid: SuperOffice.License
+  commentId: N:SuperOffice.License
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.License
+  nameWithType: SuperOffice.License
+  fullName: SuperOffice.License
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.License
+    name: License
+    isExternal: true
+    href: SuperOffice.License.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.License
+    name: License
+    isExternal: true
+    href: SuperOffice.License.html
+- uid: SuperOffice.License.INSLicenseService.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<INSLicenseService, To>(INSLicenseService)
+  nameWithType: EnumUtil.MapEnums<INSLicenseService, To>(INSLicenseService)
+  fullName: EnumUtil.MapEnums<SuperOffice.License.INSLicenseService, To>(SuperOffice.License.INSLicenseService)
+  nameWithType.vb: EnumUtil.MapEnums(Of INSLicenseService, To)(INSLicenseService)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.License.INSLicenseService, To)(SuperOffice.License.INSLicenseService)
+  name.vb: MapEnums(Of INSLicenseService, To)(INSLicenseService)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.License.INSLicenseService)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.License.INSLicenseService
+    name: INSLicenseService
+    isExternal: true
+    href: SuperOffice.License.INSLicenseService.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.License.INSLicenseService
+    name: INSLicenseService
+    isExternal: true
+    href: SuperOffice.License.INSLicenseService.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.License.INSLicenseService)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.License.INSLicenseService
+    name: INSLicenseService
+    isExternal: true
+    href: SuperOffice.License.INSLicenseService.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.License.INSLicenseService
+    name: INSLicenseService
+    isExternal: true
+    href: SuperOffice.License.INSLicenseService.html
+  - name: )
+- uid: SuperOffice.License.INSLicenseService.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<INSLicenseService, To>(INSLicenseService)
+  nameWithType: Converters.MapEnums<INSLicenseService, To>(INSLicenseService)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.License.INSLicenseService, To>(SuperOffice.License.INSLicenseService)
+  nameWithType.vb: Converters.MapEnums(Of INSLicenseService, To)(INSLicenseService)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.License.INSLicenseService, To)(SuperOffice.License.INSLicenseService)
+  name.vb: MapEnums(Of INSLicenseService, To)(INSLicenseService)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.License.INSLicenseService)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.License.INSLicenseService
+    name: INSLicenseService
+    isExternal: true
+    href: SuperOffice.License.INSLicenseService.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.License.INSLicenseService
+    name: INSLicenseService
+    isExternal: true
+    href: SuperOffice.License.INSLicenseService.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.License.INSLicenseService)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.License.INSLicenseService
+    name: INSLicenseService
+    isExternal: true
+    href: SuperOffice.License.INSLicenseService.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.License.INSLicenseService
+    name: INSLicenseService
+    isExternal: true
+    href: SuperOffice.License.INSLicenseService.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.License.INSLicenseService.AcceptLicense*
+  commentId: Overload:SuperOffice.License.INSLicenseService.AcceptLicense
+  isExternal: true
+  href: SuperOffice.License.INSLicenseService.html#SuperOffice_License_INSLicenseService_AcceptLicense_SuperOffice_License_AcceptLicenseRequest_
+  name: AcceptLicense
+  nameWithType: INSLicenseService.AcceptLicense
+  fullName: SuperOffice.License.INSLicenseService.AcceptLicense
+- uid: SuperOffice.License.AcceptLicenseRequest
+  commentId: T:SuperOffice.License.AcceptLicenseRequest
+  parent: SuperOffice.License
+  isExternal: true
+  name: AcceptLicenseRequest
+  nameWithType: AcceptLicenseRequest
+  fullName: SuperOffice.License.AcceptLicenseRequest
+- uid: SuperOffice.License.INSLicenseService.ChangeSerialNumber*
+  commentId: Overload:SuperOffice.License.INSLicenseService.ChangeSerialNumber
+  isExternal: true
+  href: SuperOffice.License.INSLicenseService.html#SuperOffice_License_INSLicenseService_ChangeSerialNumber_SuperOffice_License_ChangeSerialNumberRequest_
+  name: ChangeSerialNumber
+  nameWithType: INSLicenseService.ChangeSerialNumber
+  fullName: SuperOffice.License.INSLicenseService.ChangeSerialNumber
+- uid: SuperOffice.License.ChangeSerialNumberRequest
+  commentId: T:SuperOffice.License.ChangeSerialNumberRequest
+  parent: SuperOffice.License
+  isExternal: true
+  name: ChangeSerialNumberRequest
+  nameWithType: ChangeSerialNumberRequest
+  fullName: SuperOffice.License.ChangeSerialNumberRequest
+- uid: SuperOffice.License.ChangeSerialNumberResult
+  commentId: T:SuperOffice.License.ChangeSerialNumberResult
+  parent: SuperOffice.License
+  isExternal: true
+  name: ChangeSerialNumberResult
+  nameWithType: ChangeSerialNumberResult
+  fullName: SuperOffice.License.ChangeSerialNumberResult
+- uid: SuperOffice.License.INSLicenseService.GetCurrentLicenseInfo*
+  commentId: Overload:SuperOffice.License.INSLicenseService.GetCurrentLicenseInfo
+  isExternal: true
+  href: SuperOffice.License.INSLicenseService.html#SuperOffice_License_INSLicenseService_GetCurrentLicenseInfo_SuperOffice_License_GetCurrentLicenseInfoRequest_
+  name: GetCurrentLicenseInfo
+  nameWithType: INSLicenseService.GetCurrentLicenseInfo
+  fullName: SuperOffice.License.INSLicenseService.GetCurrentLicenseInfo
+- uid: SuperOffice.License.GetCurrentLicenseInfoRequest
+  commentId: T:SuperOffice.License.GetCurrentLicenseInfoRequest
+  parent: SuperOffice.License
+  isExternal: true
+  name: GetCurrentLicenseInfoRequest
+  nameWithType: GetCurrentLicenseInfoRequest
+  fullName: SuperOffice.License.GetCurrentLicenseInfoRequest
+- uid: SuperOffice.License.GetCurrentLicenseInfoResult
+  commentId: T:SuperOffice.License.GetCurrentLicenseInfoResult
+  parent: SuperOffice.License
+  isExternal: true
+  name: GetCurrentLicenseInfoResult
+  nameWithType: GetCurrentLicenseInfoResult
+  fullName: SuperOffice.License.GetCurrentLicenseInfoResult
+- uid: SuperOffice.License.INSLicenseService.GetCurrentLicenseInfoWithAssignments*
+  commentId: Overload:SuperOffice.License.INSLicenseService.GetCurrentLicenseInfoWithAssignments
+  isExternal: true
+  href: SuperOffice.License.INSLicenseService.html#SuperOffice_License_INSLicenseService_GetCurrentLicenseInfoWithAssignments_SuperOffice_License_GetCurrentLicenseInfoWithAssignmentsRequest_
+  name: GetCurrentLicenseInfoWithAssignments
+  nameWithType: INSLicenseService.GetCurrentLicenseInfoWithAssignments
+  fullName: SuperOffice.License.INSLicenseService.GetCurrentLicenseInfoWithAssignments
+- uid: SuperOffice.License.GetCurrentLicenseInfoWithAssignmentsRequest
+  commentId: T:SuperOffice.License.GetCurrentLicenseInfoWithAssignmentsRequest
+  parent: SuperOffice.License
+  isExternal: true
+  name: GetCurrentLicenseInfoWithAssignmentsRequest
+  nameWithType: GetCurrentLicenseInfoWithAssignmentsRequest
+  fullName: SuperOffice.License.GetCurrentLicenseInfoWithAssignmentsRequest
+- uid: SuperOffice.License.GetCurrentLicenseInfoWithAssignmentsResult
+  commentId: T:SuperOffice.License.GetCurrentLicenseInfoWithAssignmentsResult
+  parent: SuperOffice.License
+  isExternal: true
+  name: GetCurrentLicenseInfoWithAssignmentsResult
+  nameWithType: GetCurrentLicenseInfoWithAssignmentsResult
+  fullName: SuperOffice.License.GetCurrentLicenseInfoWithAssignmentsResult
+- uid: SuperOffice.License.INSLicenseService.GetLicenseModuleDetails*
+  commentId: Overload:SuperOffice.License.INSLicenseService.GetLicenseModuleDetails
+  isExternal: true
+  href: SuperOffice.License.INSLicenseService.html#SuperOffice_License_INSLicenseService_GetLicenseModuleDetails_System_String_SuperOffice_License_GetLicenseModuleDetailsRequest_
+  name: GetLicenseModuleDetails
+  nameWithType: INSLicenseService.GetLicenseModuleDetails
+  fullName: SuperOffice.License.INSLicenseService.GetLicenseModuleDetails
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.License.GetLicenseModuleDetailsRequest
+  commentId: T:SuperOffice.License.GetLicenseModuleDetailsRequest
+  parent: SuperOffice.License
+  isExternal: true
+  name: GetLicenseModuleDetailsRequest
+  nameWithType: GetLicenseModuleDetailsRequest
+  fullName: SuperOffice.License.GetLicenseModuleDetailsRequest
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.License.INSLicenseService.GetLicenseUrl*
+  commentId: Overload:SuperOffice.License.INSLicenseService.GetLicenseUrl
+  isExternal: true
+  href: SuperOffice.License.INSLicenseService.html#SuperOffice_License_INSLicenseService_GetLicenseUrl_System_String_
+  name: GetLicenseUrl
+  nameWithType: INSLicenseService.GetLicenseUrl
+  fullName: SuperOffice.License.INSLicenseService.GetLicenseUrl
+- uid: SuperOffice.License.INSLicenseService.GetShopUrl*
+  commentId: Overload:SuperOffice.License.INSLicenseService.GetShopUrl
+  isExternal: true
+  href: SuperOffice.License.INSLicenseService.html#SuperOffice_License_INSLicenseService_GetShopUrl_SuperOffice_License_GetShopUrlRequest_
+  name: GetShopUrl
+  nameWithType: INSLicenseService.GetShopUrl
+  fullName: SuperOffice.License.INSLicenseService.GetShopUrl
+- uid: SuperOffice.License.GetShopUrlRequest
+  commentId: T:SuperOffice.License.GetShopUrlRequest
+  parent: SuperOffice.License
+  isExternal: true
+  name: GetShopUrlRequest
+  nameWithType: GetShopUrlRequest
+  fullName: SuperOffice.License.GetShopUrlRequest
+- uid: SuperOffice.License.INSLicenseService.MakeTestLicense*
+  commentId: Overload:SuperOffice.License.INSLicenseService.MakeTestLicense
+  isExternal: true
+  href: SuperOffice.License.INSLicenseService.html#SuperOffice_License_INSLicenseService_MakeTestLicense_System_String_SuperOffice_License_MakeTestLicenseRequest_
+  name: MakeTestLicense
+  nameWithType: INSLicenseService.MakeTestLicense
+  fullName: SuperOffice.License.INSLicenseService.MakeTestLicense
+- uid: SuperOffice.License.MakeTestLicenseRequest
+  commentId: T:SuperOffice.License.MakeTestLicenseRequest
+  parent: SuperOffice.License
+  isExternal: true
+  name: MakeTestLicenseRequest
+  nameWithType: MakeTestLicenseRequest
+  fullName: SuperOffice.License.MakeTestLicenseRequest
+- uid: SuperOffice.License.MakeTestLicenseResult
+  commentId: T:SuperOffice.License.MakeTestLicenseResult
+  parent: SuperOffice.License
+  isExternal: true
+  name: MakeTestLicenseResult
+  nameWithType: MakeTestLicenseResult
+  fullName: SuperOffice.License.MakeTestLicenseResult
+- uid: SuperOffice.License.INSLicenseService.PingLicenseSystem*
+  commentId: Overload:SuperOffice.License.INSLicenseService.PingLicenseSystem
+  isExternal: true
+  href: SuperOffice.License.INSLicenseService.html#SuperOffice_License_INSLicenseService_PingLicenseSystem_SuperOffice_License_CheckLicenseStatusRequest_
+  name: PingLicenseSystem
+  nameWithType: INSLicenseService.PingLicenseSystem
+  fullName: SuperOffice.License.INSLicenseService.PingLicenseSystem
+- uid: SuperOffice.License.CheckLicenseStatusRequest
+  commentId: T:SuperOffice.License.CheckLicenseStatusRequest
+  parent: SuperOffice.License
+  isExternal: true
+  name: CheckLicenseStatusRequest
+  nameWithType: CheckLicenseStatusRequest
+  fullName: SuperOffice.License.CheckLicenseStatusRequest
+- uid: SuperOffice.License.CheckLicenseStatusResult
+  commentId: T:SuperOffice.License.CheckLicenseStatusResult
+  parent: SuperOffice.License
+  isExternal: true
+  name: CheckLicenseStatusResult
+  nameWithType: CheckLicenseStatusResult
+  fullName: SuperOffice.License.CheckLicenseStatusResult
+- uid: SuperOffice.License.INSLicenseService.SetLicenseUrlOverride*
+  commentId: Overload:SuperOffice.License.INSLicenseService.SetLicenseUrlOverride
+  isExternal: true
+  href: SuperOffice.License.INSLicenseService.html#SuperOffice_License_INSLicenseService_SetLicenseUrlOverride_System_String_
+  name: SetLicenseUrlOverride
+  nameWithType: INSLicenseService.SetLicenseUrlOverride
+  fullName: SuperOffice.License.INSLicenseService.SetLicenseUrlOverride
+- uid: SuperOffice.License.INSLicenseService.SetTimeout*
+  commentId: Overload:SuperOffice.License.INSLicenseService.SetTimeout
+  isExternal: true
+  href: SuperOffice.License.INSLicenseService.html#SuperOffice_License_INSLicenseService_SetTimeout_System_Int32_
+  name: SetTimeout
+  nameWithType: INSLicenseService.SetTimeout
+  fullName: SuperOffice.License.INSLicenseService.SetTimeout
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.License.INSLicenseService.UpdateLicense*
+  commentId: Overload:SuperOffice.License.INSLicenseService.UpdateLicense
+  isExternal: true
+  href: SuperOffice.License.INSLicenseService.html#SuperOffice_License_INSLicenseService_UpdateLicense_SuperOffice_License_UpdateLicenseRequest_
+  name: UpdateLicense
+  nameWithType: INSLicenseService.UpdateLicense
+  fullName: SuperOffice.License.INSLicenseService.UpdateLicense
+- uid: SuperOffice.License.UpdateLicenseRequest
+  commentId: T:SuperOffice.License.UpdateLicenseRequest
+  parent: SuperOffice.License
+  isExternal: true
+  name: UpdateLicenseRequest
+  nameWithType: UpdateLicenseRequest
+  fullName: SuperOffice.License.UpdateLicenseRequest
+- uid: SuperOffice.License.UpdateLicenseResult
+  commentId: T:SuperOffice.License.UpdateLicenseResult
+  parent: SuperOffice.License
+  isExternal: true
+  name: UpdateLicenseResult
+  nameWithType: UpdateLicenseResult
+  fullName: SuperOffice.License.UpdateLicenseResult

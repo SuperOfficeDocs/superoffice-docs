@@ -166,17 +166,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Crist-Oberbrunner",
-  "Columns": "aperiam",
-  "SortOrder": "aspernatur",
-  "Restrictions": "qui",
-  "Entities": "quas",
-  "Page": 390,
-  "PageSize": 790
+  "ProviderName": "Emmerich Group",
+  "Columns": "consequatur",
+  "SortOrder": "ut",
+  "Restrictions": "et",
+  "Entities": "non",
+  "Page": 577,
+  "PageSize": 140
 }
 ```
 
@@ -188,23 +188,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Fritsch LLC",
-    "PrimaryKey": 723,
+    "EntityName": "Kuhlman LLC",
+    "PrimaryKey": 136,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "necessitatibus",
-        "TooltipHint": "animi",
-        "LinkHint": "rerum"
+        "DisplayValue": "praesentium",
+        "TooltipHint": "vero",
+        "LinkHint": "soluta"
       }
     },
-    "LinkHint": "unde",
-    "StyleHint": "est",
+    "LinkHint": "dolorum",
+    "StyleHint": "dolorem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 576
+        "FieldLength": 747
       }
     }
   }

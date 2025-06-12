@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.RecurrenceRuleTableInfo})
   - SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.RecurrenceRuleTableInfo})
-  - SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
-  - SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.RecurrenceRuleRecordData})
+  - SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.RecurrenceRuleTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RecurrenceRuleRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.RecurrenceRuleRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.RecurrenceRuleRow)
   langs:
   - csharp
@@ -17,71 +18,76 @@ items:
   nameWithType: RecurrenceRuleRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nExtension methods to make it easy to fetch <xref href=\"SuperOffice.CRM.Rows.RecurrenceRuleRecordData\" data-throw-if-not-resolved=\"false\"></xref> objects from the database,\nusing the <see cref=\"!:TargetedSelect\"></see> infrastructure\n"
+  summary: >-
+    Extension methods to make it easy to fetch <xref href="SuperOffice.CRM.Rows.RecurrenceRuleRecordData" data-throw-if-not-resolved="false"></xref> objects from the database,
+
+    using the TargetedSelect infrastructure
+  example: []
   syntax:
-    content: 'public static class RecurrenceRuleRecordDataExtensions : Object'
-    content.vb: >-
-      Public Module RecurrenceRuleRecordDataExtensions
-          Inherits Object
+    content: public static class RecurrenceRuleRecordDataExtensions
+    content.vb: Public Module RecurrenceRuleRecordDataExtensions
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
-- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.RecurrenceRuleTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.RecurrenceRuleTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.RecurrenceRuleTableInfo})
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.RecurrenceRuleTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.RecurrenceRuleTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.RecurrenceRuleTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<RecurrenceRuleTableInfo>)
-  nameWithType: RecurrenceRuleRecordDataExtensions.FromSelect(TargetedSelect<RecurrenceRuleTableInfo>)
-  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.RecurrenceRuleTableInfo>)
+  name: FromSelectAsync(TargetedSelect<RecurrenceRuleTableInfo>, CancellationToken)
+  nameWithType: RecurrenceRuleRecordDataExtensions.FromSelectAsync(TargetedSelect<RecurrenceRuleTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.RecurrenceRuleTableInfo>, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nFrom a TargetedSelect&lt;RecurrenceRuleTableInfo>, execute it and return an IEnumerable&lt;RecurrenceRuleRecordData> with the results\n"
+  summary: From a TargetedSelect&lt;RecurrenceRuleTableInfo&gt;, execute it and return an IEnumerable&lt;RecurrenceRuleRecordData&gt; with the results
   example:
   - >-
-    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
-                var result = s.FromSelect();</code></pre>
+    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
+
+    var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<RecurrenceRuleRecordData> FromSelect(this TargetedSelect<RecurrenceRuleTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<RecurrenceRuleRecordData> FromSelectAsync(this TargetedSelect<RecurrenceRuleTableInfo> select, CancellationToken cancellationToken = default)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.RecurrenceRuleTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.RecurrenceRuleRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.RecurrenceRuleRecordData}
     content.vb: >-
-      <ExtensionAttribute>
+      <CreateSyncVersion(OmitNullableDirective:=True)>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of RecurrenceRuleTableInfo)) As IEnumerable(Of RecurrenceRuleRecordData)
-  overload: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelect*
-  nameWithType.vb: RecurrenceRuleRecordDataExtensions.FromSelect(TargetedSelect(Of RecurrenceRuleTableInfo))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.RecurrenceRuleTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of RecurrenceRuleTableInfo))
+      Public Shared Function FromSelectAsync([select] As TargetedSelect(Of RecurrenceRuleTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of RecurrenceRuleRecordData)
+  overload: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: RecurrenceRuleRecordDataExtensions.FromSelectAsync(TargetedSelect(Of RecurrenceRuleTableInfo), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.RecurrenceRuleTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of RecurrenceRuleTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.RecurrenceRuleTableInfo})
   commentId: M:SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.RecurrenceRuleTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.RecurrenceRuleTableInfo})
@@ -94,19 +100,19 @@ items:
   nameWithType: RecurrenceRuleRecordDataExtensions.FromRecord(TargetedDataRecord<RecurrenceRuleTableInfo>)
   fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.RecurrenceRuleTableInfo>)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nFrom a TargetedDataRecord&lt;RecurrenceRuleTableInfo>, create and populate a <xref href=\"SuperOffice.CRM.Rows.RecurrenceRuleRecordData\" data-throw-if-not-resolved=\"false\"></xref> POCO object\n"
+  summary: From a TargetedDataRecord&lt;RecurrenceRuleTableInfo&gt;, create and populate a <xref href="SuperOffice.CRM.Rows.RecurrenceRuleRecordData" data-throw-if-not-resolved="false"></xref> POCO object
   example:
   - >-
-    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
-                /* add joins, return fields etc. as you wish */
-                s.ReturnFields.Add(s.Table.All);
-                var result = s.Records().Select(r => new { RecurrenceRuleItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
+    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
+
+    /* add joins, return fields etc. as you wish */
+
+    s.ReturnFields.Add(s.Table.All);
+
+    var result = s.Records().Select(r =&gt; new { RecurrenceRuleItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
   syntax:
     content: public static RecurrenceRuleRecordData FromRecord(this TargetedDataRecord<RecurrenceRuleTableInfo> record)
     parameters:
@@ -114,95 +120,66 @@ items:
       type: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.RecurrenceRuleTableInfo}
     return:
       type: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function FromRecord(record As TargetedDataRecord(Of RecurrenceRuleTableInfo)) As RecurrenceRuleRecordData
+    content.vb: Public Shared Function FromRecord(record As TargetedDataRecord(Of RecurrenceRuleTableInfo)) As RecurrenceRuleRecordData
   overload: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromRecord*
   nameWithType.vb: RecurrenceRuleRecordDataExtensions.FromRecord(TargetedDataRecord(Of RecurrenceRuleTableInfo))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
   fullName.vb: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.RecurrenceRuleTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of RecurrenceRuleTableInfo))
-- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
-  commentId: M:SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RecurrenceRuleRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RecurrenceRuleRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.RecurrenceRuleRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(RecurrenceRuleRecordData)
-  nameWithType: RecurrenceRuleRecordDataExtensions.ToInsert(RecurrenceRuleRecordData)
-  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
+  name: ToInsertAsync(RecurrenceRuleRecordData, CancellationToken)
+  nameWithType: RecurrenceRuleRecordDataExtensions.ToInsertAsync(RecurrenceRuleRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RecurrenceRuleRecordData, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this RecurrenceRuleRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this RecurrenceRuleRecordData record, CancellationToken cancellationToken = default)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function ToInsert(record As RecurrenceRuleRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.RecurrenceRuleRecordData})
-  commentId: M:SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.RecurrenceRuleRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.RecurrenceRuleRecordData})
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+    content.vb: Public Shared Function ToInsertAsync(record As RecurrenceRuleRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertAsync*
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.RecurrenceRuleRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.RecurrenceRuleRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.RecurrenceRuleRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<RecurrenceRuleRecordData>)
-  nameWithType: RecurrenceRuleRecordDataExtensions.ToInserts(IEnumerable<RecurrenceRuleRecordData>)
-  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.RecurrenceRuleRecordData>)
+  name: ToInsertsAsync(IEnumerable<RecurrenceRuleRecordData>, CancellationToken)
+  nameWithType: RecurrenceRuleRecordDataExtensions.ToInsertsAsync(IEnumerable<RecurrenceRuleRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.RecurrenceRuleRecordData>, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<RecurrenceRuleRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<RecurrenceRuleRecordData> records, CancellationToken cancellationToken = default)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.RecurrenceRuleRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function ToInserts(records As IEnumerable(Of RecurrenceRuleRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInserts*
-  nameWithType.vb: RecurrenceRuleRecordDataExtensions.ToInserts(IEnumerable(Of RecurrenceRuleRecordData))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.RecurrenceRuleRecordData))
-  name.vb: ToInserts(IEnumerable(Of RecurrenceRuleRecordData))
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+    content.vb: Public Shared Function ToInsertsAsync(records As IEnumerable(Of RecurrenceRuleRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: RecurrenceRuleRecordDataExtensions.ToInsertsAsync(IEnumerable(Of RecurrenceRuleRecordData), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.RecurrenceRuleRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of RecurrenceRuleRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.RecurrenceRuleRow)
   commentId: M:SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.RecurrenceRuleRow)
   id: ToRecordData(SuperOffice.CRM.Rows.RecurrenceRuleRow)
@@ -215,9 +192,6 @@ items:
   nameWithType: RecurrenceRuleRecordDataExtensions.ToRecordData(RecurrenceRuleRow)
   fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.RecurrenceRuleRow)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
@@ -228,47 +202,336 @@ items:
       type: SuperOffice.CRM.Rows.RecurrenceRuleRow
     return:
       type: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function ToRecordData(row As RecurrenceRuleRow) As RecurrenceRuleRecordData
+    content.vb: Public Shared Function ToRecordData(row As RecurrenceRuleRow) As RecurrenceRuleRecordData
   overload: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToRecordData*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.RecurrenceRuleTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.RecurrenceRuleTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.RecurrenceRuleTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<RecurrenceRuleTableInfo>)
+  nameWithType: RecurrenceRuleRecordDataExtensions.FromSelect(TargetedSelect<RecurrenceRuleTableInfo>)
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.RecurrenceRuleTableInfo>)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: From a TargetedSelect&lt;RecurrenceRuleTableInfo&gt;, execute it and return an IEnumerable&lt;RecurrenceRuleRecordData&gt; with the results
+  example:
+  - >-
+    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
+
+    var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<RecurrenceRuleRecordData> FromSelect(this TargetedSelect<RecurrenceRuleTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.RecurrenceRuleTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.RecurrenceRuleRecordData}
+    content.vb: Public Shared Function FromSelect([select] As TargetedSelect(Of RecurrenceRuleTableInfo)) As IEnumerable(Of RecurrenceRuleRecordData)
+  overload: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelect*
+  nameWithType.vb: RecurrenceRuleRecordDataExtensions.FromSelect(TargetedSelect(Of RecurrenceRuleTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.RecurrenceRuleTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of RecurrenceRuleTableInfo))
 references:
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+  commentId: T:SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.html
+  name: RecurrenceRuleRecordData
+  nameWithType: RecurrenceRuleRecordData
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: RecurrenceRuleRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelect
+  href: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.html#SuperOffice_CRM_Rows_RecurrenceRuleRecordDataExtensions_FromSelectAsync_SuperOffice_Data_SQL_TargetedSelect_SuperOffice_CRM_Data_RecurrenceRuleTableInfo__System_Threading_CancellationToken_
+  name: FromSelectAsync
+  nameWithType: RecurrenceRuleRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.RecurrenceRuleTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.RecurrenceRuleTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedSelect`1
+  href: SuperOffice.Data.SQL.TargetedSelect-1.html
   name: TargetedSelect<RecurrenceRuleTableInfo>
   nameWithType: TargetedSelect<RecurrenceRuleTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.RecurrenceRuleTableInfo>
@@ -278,84 +541,72 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
-    nameWithType: TargetedSelect
-    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.RecurrenceRuleTableInfo
     name: RecurrenceRuleTableInfo
-    nameWithType: RecurrenceRuleTableInfo
-    fullName: SuperOffice.CRM.Data.RecurrenceRuleTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.RecurrenceRuleTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
-    nameWithType: TargetedSelect
-    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.RecurrenceRuleTableInfo
     name: RecurrenceRuleTableInfo
-    nameWithType: RecurrenceRuleTableInfo
-    fullName: SuperOffice.CRM.Data.RecurrenceRuleTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.RecurrenceRuleTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.RecurrenceRuleRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.RecurrenceRuleRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<RecurrenceRuleRecordData>
-  nameWithType: IEnumerable<RecurrenceRuleRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.RecurrenceRuleRecordData>
-  nameWithType.vb: IEnumerable(Of RecurrenceRuleRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
-  name.vb: IEnumerable(Of RecurrenceRuleRecordData)
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.RecurrenceRuleRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.RecurrenceRuleRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  href: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.html
+  name: IAsyncEnumerable<RecurrenceRuleRecordData>
+  nameWithType: IAsyncEnumerable<RecurrenceRuleRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.RecurrenceRuleRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of RecurrenceRuleRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
+  name.vb: IAsyncEnumerable(Of RecurrenceRuleRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
     isExternal: true
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
     name: RecurrenceRuleRecordData
-    nameWithType: RecurrenceRuleRecordData
-    fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
     name: RecurrenceRuleRecordData
-    nameWithType: RecurrenceRuleRecordData
-    fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedSelect`1
   commentId: T:SuperOffice.Data.SQL.TargetedSelect`1
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.TargetedSelect-1.html
   name: TargetedSelect<MainTableInfo>
   nameWithType: TargetedSelect<MainTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedSelect<MainTableInfo>
@@ -365,80 +616,112 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
-    nameWithType: TargetedSelect
-    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: MainTableInfo
-    nameWithType: MainTableInfo
-    fullName: MainTableInfo
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
-    nameWithType: TargetedSelect
-    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: MainTableInfo
-    nameWithType: MainTableInfo
-    fullName: MainTableInfo
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
-  isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Collections.Generic.IAsyncEnumerable`1
+  isExternal: true
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
     isExternal: true
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+  - name: (
+  - name: Of
+  - name: " "
   - name: ''
-    nameWithType: ''
-    fullName: ''
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromRecord*
   commentId: Overload:SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromRecord
   isExternal: true
+  href: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.html#SuperOffice_CRM_Rows_RecurrenceRuleRecordDataExtensions_FromRecord_SuperOffice_Data_SQL_TargetedDataRecord_SuperOffice_CRM_Data_RecurrenceRuleTableInfo__
   name: FromRecord
   nameWithType: RecurrenceRuleRecordDataExtensions.FromRecord
   fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromRecord
@@ -446,6 +729,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.RecurrenceRuleTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedDataRecord`1
+  href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   name: TargetedDataRecord<RecurrenceRuleTableInfo>
   nameWithType: TargetedDataRecord<RecurrenceRuleTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.RecurrenceRuleTableInfo>
@@ -455,47 +739,31 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
-    nameWithType: TargetedDataRecord
-    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.RecurrenceRuleTableInfo
     name: RecurrenceRuleTableInfo
-    nameWithType: RecurrenceRuleTableInfo
-    fullName: SuperOffice.CRM.Data.RecurrenceRuleTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.RecurrenceRuleTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
-    nameWithType: TargetedDataRecord
-    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.RecurrenceRuleTableInfo
     name: RecurrenceRuleTableInfo
-    nameWithType: RecurrenceRuleTableInfo
-    fullName: SuperOffice.CRM.Data.RecurrenceRuleTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.RecurrenceRuleTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
-  commentId: T:SuperOffice.CRM.Rows.RecurrenceRuleRecordData
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  name: RecurrenceRuleRecordData
-  nameWithType: RecurrenceRuleRecordData
-  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
 - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
   commentId: T:SuperOffice.Data.SQL.TargetedDataRecord`1
   isExternal: true
+  href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   name: TargetedDataRecord<MainTableInfo>
   nameWithType: TargetedDataRecord<MainTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>
@@ -505,98 +773,271 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
-    nameWithType: TargetedDataRecord
-    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: MainTableInfo
-    nameWithType: MainTableInfo
-    fullName: MainTableInfo
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
-    nameWithType: TargetedDataRecord
-    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: MainTableInfo
-    nameWithType: MainTableInfo
-    fullName: MainTableInfo
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: RecurrenceRuleRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
+  href: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.html#SuperOffice_CRM_Rows_RecurrenceRuleRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_RecurrenceRuleRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync
+  nameWithType: RecurrenceRuleRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInserts
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
   isExternal: true
-  name: ToInserts
-  nameWithType: RecurrenceRuleRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.html#SuperOffice_CRM_Rows_RecurrenceRuleRecordDataExtensions_ToInsertsAsync_System_Collections_Generic_IEnumerable_SuperOffice_CRM_Rows_RecurrenceRuleRecordData__System_Threading_CancellationToken_
+  name: ToInsertsAsync
+  nameWithType: RecurrenceRuleRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.RecurrenceRuleRecordData}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.RecurrenceRuleRecordData}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<RecurrenceRuleRecordData>
+  nameWithType: IEnumerable<RecurrenceRuleRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.RecurrenceRuleRecordData>
+  nameWithType.vb: IEnumerable(Of RecurrenceRuleRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
+  name.vb: IEnumerable(Of RecurrenceRuleRecordData)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.SQL.Insert
-    name: Insert
-    nameWithType: Insert
-    fullName: SuperOffice.Data.SQL.Insert
+  - uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+    name: RecurrenceRuleRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+    name: RecurrenceRuleRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.html
+  - name: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  href: SuperOffice.Data.SQL.Insert.html
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: <
   - uid: SuperOffice.Data.SQL.Insert
     name: Insert
-    nameWithType: Insert
-    fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToRecordData*
   commentId: Overload:SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToRecordData
   isExternal: true
+  href: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.html#SuperOffice_CRM_Rows_RecurrenceRuleRecordDataExtensions_ToRecordData_SuperOffice_CRM_Rows_RecurrenceRuleRow_
   name: ToRecordData
   nameWithType: RecurrenceRuleRecordDataExtensions.ToRecordData
   fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToRecordData
@@ -604,6 +1045,14 @@ references:
   commentId: T:SuperOffice.CRM.Rows.RecurrenceRuleRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.RecurrenceRuleRow.html
   name: RecurrenceRuleRow
   nameWithType: RecurrenceRuleRow
   fullName: SuperOffice.CRM.Rows.RecurrenceRuleRow
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelect
+  isExternal: true
+  href: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.html#SuperOffice_CRM_Rows_RecurrenceRuleRecordDataExtensions_FromSelect_SuperOffice_Data_SQL_TargetedSelect_SuperOffice_CRM_Data_RecurrenceRuleTableInfo__
+  name: FromSelect
+  nameWithType: RecurrenceRuleRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.FromSelect

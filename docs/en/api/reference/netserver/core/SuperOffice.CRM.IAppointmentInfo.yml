@@ -19,6 +19,8 @@ items:
   - SuperOffice.CRM.IAppointmentInfo.EndDate
   - SuperOffice.CRM.IAppointmentInfo.EndTime
   - SuperOffice.CRM.IAppointmentInfo.FreeBusy
+  - SuperOffice.CRM.IAppointmentInfo.GetInvitationFormattedListAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.IAppointmentInfo.GetInvitedListAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(System.Int32)
   - SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(System.String)
   - SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt(System.Int32)
@@ -28,12 +30,15 @@ items:
   - SuperOffice.CRM.IAppointmentInfo.ICalId
   - SuperOffice.CRM.IAppointmentInfo.ICalPriority
   - SuperOffice.CRM.IAppointmentInfo.InvitationClickText
-  - SuperOffice.CRM.IAppointmentInfo.InvitationFormattedList
   - SuperOffice.CRM.IAppointmentInfo.InvitationUrl
   - SuperOffice.CRM.IAppointmentInfo.InviteeId
   - SuperOffice.CRM.IAppointmentInfo.InviteeName
+  - SuperOffice.CRM.IAppointmentInfo.IsMilestone
+  - SuperOffice.CRM.IAppointmentInfo.JoinMeetingUrl
   - SuperOffice.CRM.IAppointmentInfo.Location
   - SuperOffice.CRM.IAppointmentInfo.MainRepeatingPattern
+  - SuperOffice.CRM.IAppointmentInfo.OldStartDate
+  - SuperOffice.CRM.IAppointmentInfo.OldStartTime
   - SuperOffice.CRM.IAppointmentInfo.PersonId
   - SuperOffice.CRM.IAppointmentInfo.PersonName
   - SuperOffice.CRM.IAppointmentInfo.PreferredTZLocation
@@ -58,6 +63,7 @@ items:
   - SuperOffice.CRM.IAppointmentInfo.StartTime
   - SuperOffice.CRM.IAppointmentInfo.State
   - SuperOffice.CRM.IAppointmentInfo.SubRepeatingPattern
+  - SuperOffice.CRM.IAppointmentInfo.SuggestedAppointmentId
   - SuperOffice.CRM.IAppointmentInfo.Type
   - SuperOffice.CRM.IAppointmentInfo.UpdatedCount
   - SuperOffice.CRM.IAppointmentInfo.UpdatedDate
@@ -69,25 +75,42 @@ items:
   nameWithType: IAppointmentInfo
   fullName: SuperOffice.CRM.IAppointmentInfo
   type: Interface
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nInterface providing information about the appointment.\n"
+  summary: Interface providing information about the appointment.
+  example: []
   syntax:
     content: public interface IAppointmentInfo
     content.vb: Public Interface IAppointmentInfo
   extensionMethods:
   - SuperOffice.CRM.IAppointmentInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.IAppointmentInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+- uid: SuperOffice.CRM.IAppointmentInfo.GetInvitationFormattedListAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.IAppointmentInfo.GetInvitationFormattedListAsync(System.Threading.CancellationToken)
+  id: GetInvitationFormattedListAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.IAppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: GetInvitationFormattedListAsync(CancellationToken)
+  nameWithType: IAppointmentInfo.GetInvitationFormattedListAsync(CancellationToken)
+  fullName: SuperOffice.CRM.IAppointmentInfo.GetInvitationFormattedListAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: Formatted list of inviteted ??, made for iCal
+  example: []
+  syntax:
+    content: Task<string> GetInvitationFormattedListAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Function GetInvitationFormattedListAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.IAppointmentInfo.GetInvitationFormattedListAsync*
 - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(System.Int32)
   commentId: M:SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(System.Int32)
   id: GetUserDefinedDecimal(System.Int32)
@@ -95,17 +118,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedDecimal(Int32)
-  nameWithType: IAppointmentInfo.GetUserDefinedDecimal(Int32)
-  fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(System.Int32)
+  name: GetUserDefinedDecimal(int)
+  nameWithType: IAppointmentInfo.GetUserDefinedDecimal(int)
+  fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(int)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nUser-defined field 1-10 of the decimal (.NET double) number type.\n"
+  summary: User-defined field 1-10 of the decimal (.NET double) number type.
+  example: []
   syntax:
     content: string GetUserDefinedDecimal(int fieldNo)
     parameters:
@@ -117,6 +138,9 @@ items:
       description: User-defined field value.
     content.vb: Function GetUserDefinedDecimal(fieldNo As Integer) As String
   overload: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal*
+  nameWithType.vb: IAppointmentInfo.GetUserDefinedDecimal(Integer)
+  fullName.vb: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(Integer)
+  name.vb: GetUserDefinedDecimal(Integer)
 - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt(System.Int32)
   commentId: M:SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt(System.Int32)
   id: GetUserDefinedInt(System.Int32)
@@ -124,17 +148,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedInt(Int32)
-  nameWithType: IAppointmentInfo.GetUserDefinedInt(Int32)
-  fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt(System.Int32)
+  name: GetUserDefinedInt(int)
+  nameWithType: IAppointmentInfo.GetUserDefinedInt(int)
+  fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt(int)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nGet user-defined field 1-60 of the whole (.NET Int32) number type.\n"
+  summary: Get user-defined field 1-60 of the whole (.NET Int32) number type.
+  example: []
   syntax:
     content: string GetUserDefinedInt(int fieldNo)
     parameters:
@@ -146,6 +168,9 @@ items:
       description: User-defined field value.
     content.vb: Function GetUserDefinedInt(fieldNo As Integer) As String
   overload: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt*
+  nameWithType.vb: IAppointmentInfo.GetUserDefinedInt(Integer)
+  fullName.vb: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt(Integer)
+  name.vb: GetUserDefinedInt(Integer)
 - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString(System.Int32)
   commentId: M:SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString(System.Int32)
   id: GetUserDefinedString(System.Int32)
@@ -153,17 +178,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedString(Int32)
-  nameWithType: IAppointmentInfo.GetUserDefinedString(Int32)
-  fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString(System.Int32)
+  name: GetUserDefinedString(int)
+  nameWithType: IAppointmentInfo.GetUserDefinedString(int)
+  fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString(int)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nGet user-defined field 1-49 of the text (.NET string) type.\n"
+  summary: Get user-defined field 1-49 of the text (.NET string) type.
+  example: []
   syntax:
     content: string GetUserDefinedString(int fieldNo)
     parameters:
@@ -175,6 +198,9 @@ items:
       description: User-defined field value.
     content.vb: Function GetUserDefinedString(fieldNo As Integer) As String
   overload: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString*
+  nameWithType.vb: IAppointmentInfo.GetUserDefinedString(Integer)
+  fullName.vb: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString(Integer)
+  name.vb: GetUserDefinedString(Integer)
 - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(System.String)
   commentId: M:SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(System.String)
   id: GetUserDefinedDecimal(System.String)
@@ -182,17 +208,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedDecimal(String)
-  nameWithType: IAppointmentInfo.GetUserDefinedDecimal(String)
-  fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(System.String)
+  name: GetUserDefinedDecimal(string)
+  nameWithType: IAppointmentInfo.GetUserDefinedDecimal(string)
+  fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nGet the decimal udef value based on the prog.id name of the udef field.\n"
+  summary: Get the decimal udef value based on the prog.id name of the udef field.
+  example: []
   syntax:
     content: double GetUserDefinedDecimal(string progId)
     parameters:
@@ -204,6 +228,9 @@ items:
       description: double value of field, or NAN if field not found
     content.vb: Function GetUserDefinedDecimal(progId As String) As Double
   overload: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal*
+  nameWithType.vb: IAppointmentInfo.GetUserDefinedDecimal(String)
+  fullName.vb: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(String)
+  name.vb: GetUserDefinedDecimal(String)
 - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt(System.String)
   commentId: M:SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt(System.String)
   id: GetUserDefinedInt(System.String)
@@ -211,17 +238,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedInt(String)
-  nameWithType: IAppointmentInfo.GetUserDefinedInt(String)
-  fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt(System.String)
+  name: GetUserDefinedInt(string)
+  nameWithType: IAppointmentInfo.GetUserDefinedInt(string)
+  fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt(string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nGet the int udef value based on the prog.id name of the udef field.\n"
+  summary: Get the int udef value based on the prog.id name of the udef field.
+  example: []
   syntax:
     content: int GetUserDefinedInt(string progId)
     parameters:
@@ -233,6 +258,9 @@ items:
       description: int value of field, or MINVALUE if field not found
     content.vb: Function GetUserDefinedInt(progId As String) As Integer
   overload: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt*
+  nameWithType.vb: IAppointmentInfo.GetUserDefinedInt(String)
+  fullName.vb: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt(String)
+  name.vb: GetUserDefinedInt(String)
 - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString(System.String)
   commentId: M:SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString(System.String)
   id: GetUserDefinedString(System.String)
@@ -240,17 +268,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedString(String)
-  nameWithType: IAppointmentInfo.GetUserDefinedString(String)
-  fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString(System.String)
+  name: GetUserDefinedString(string)
+  nameWithType: IAppointmentInfo.GetUserDefinedString(string)
+  fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString(string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nGet the string udef value based on the prog.id name of the udef field.\n"
+  summary: Get the string udef value based on the prog.id name of the udef field.
+  example: []
   syntax:
     content: string GetUserDefinedString(string progId)
     parameters:
@@ -262,6 +288,34 @@ items:
       description: string value of field, or NULL if field not found
     content.vb: Function GetUserDefinedString(progId As String) As String
   overload: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString*
+  nameWithType.vb: IAppointmentInfo.GetUserDefinedString(String)
+  fullName.vb: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString(String)
+  name.vb: GetUserDefinedString(String)
+- uid: SuperOffice.CRM.IAppointmentInfo.GetInvitedListAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.IAppointmentInfo.GetInvitedListAsync(System.Threading.CancellationToken)
+  id: GetInvitedListAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.IAppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: GetInvitedListAsync(CancellationToken)
+  nameWithType: IAppointmentInfo.GetInvitedListAsync(CancellationToken)
+  fullName: SuperOffice.CRM.IAppointmentInfo.GetInvitedListAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: Formatted list of invited persons, humanly readable
+  example: []
+  syntax:
+    content: Task<string> GetInvitedListAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Function GetInvitedListAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.IAppointmentInfo.GetInvitedListAsync*
 - uid: SuperOffice.CRM.IAppointmentInfo.AppointmentId
   commentId: P:SuperOffice.CRM.IAppointmentInfo.AppointmentId
   id: AppointmentId
@@ -273,13 +327,11 @@ items:
   nameWithType: IAppointmentInfo.AppointmentId
   fullName: SuperOffice.CRM.IAppointmentInfo.AppointmentId
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nPrimary key for the appointment\n"
+  summary: Primary key for the appointment
+  example: []
   syntax:
     content: int AppointmentId { get; }
     parameters: []
@@ -287,10 +339,6 @@ items:
       type: System.Int32
     content.vb: ReadOnly Property AppointmentId As Integer
   overload: SuperOffice.CRM.IAppointmentInfo.AppointmentId*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.AssociateId
   commentId: P:SuperOffice.CRM.IAppointmentInfo.AssociateId
   id: AssociateId
@@ -302,13 +350,11 @@ items:
   nameWithType: IAppointmentInfo.AssociateId
   fullName: SuperOffice.CRM.IAppointmentInfo.AssociateId
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nOwner associate id\n"
+  summary: Owner associate id
+  example: []
   syntax:
     content: int AssociateId { get; }
     parameters: []
@@ -316,10 +362,6 @@ items:
       type: System.Int32
     content.vb: ReadOnly Property AssociateId As Integer
   overload: SuperOffice.CRM.IAppointmentInfo.AssociateId*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.AssociateName
   commentId: P:SuperOffice.CRM.IAppointmentInfo.AssociateName
   id: AssociateName
@@ -331,13 +373,11 @@ items:
   nameWithType: IAppointmentInfo.AssociateName
   fullName: SuperOffice.CRM.IAppointmentInfo.AssociateName
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe appointment&apos;s owner, name\n"
+  summary: The appointment's owner, name
+  example: []
   syntax:
     content: string AssociateName { get; }
     parameters: []
@@ -345,10 +385,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property AssociateName As String
   overload: SuperOffice.CRM.IAppointmentInfo.AssociateName*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.AssociateOwnerName
   commentId: P:SuperOffice.CRM.IAppointmentInfo.AssociateOwnerName
   id: AssociateOwnerName
@@ -360,13 +396,14 @@ items:
   nameWithType: IAppointmentInfo.AssociateOwnerName
   fullName: SuperOffice.CRM.IAppointmentInfo.AssociateOwnerName
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nName of owner associate\nIf this is a child booking, we want to look to the mother appointment&apos;s owner\n"
+  summary: >-
+    Name of owner associate
+
+    If this is a child booking, we want to look to the mother appointment's owner
+  example: []
   syntax:
     content: string AssociateOwnerName { get; }
     parameters: []
@@ -374,10 +411,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property AssociateOwnerName As String
   overload: SuperOffice.CRM.IAppointmentInfo.AssociateOwnerName*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.ContactId
   commentId: P:SuperOffice.CRM.IAppointmentInfo.ContactId
   id: ContactId
@@ -389,13 +422,11 @@ items:
   nameWithType: IAppointmentInfo.ContactId
   fullName: SuperOffice.CRM.IAppointmentInfo.ContactId
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nAssociated contact id\n"
+  summary: Associated contact id
+  example: []
   syntax:
     content: int ContactId { get; }
     parameters: []
@@ -403,10 +434,6 @@ items:
       type: System.Int32
     content.vb: ReadOnly Property ContactId As Integer
   overload: SuperOffice.CRM.IAppointmentInfo.ContactId*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.ContactName
   commentId: P:SuperOffice.CRM.IAppointmentInfo.ContactName
   id: ContactName
@@ -418,13 +445,11 @@ items:
   nameWithType: IAppointmentInfo.ContactName
   fullName: SuperOffice.CRM.IAppointmentInfo.ContactName
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nAssociated contact name\n"
+  summary: Associated contact name
+  example: []
   syntax:
     content: string ContactName { get; }
     parameters: []
@@ -432,10 +457,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property ContactName As String
   overload: SuperOffice.CRM.IAppointmentInfo.ContactName*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.PersonId
   commentId: P:SuperOffice.CRM.IAppointmentInfo.PersonId
   id: PersonId
@@ -447,13 +468,11 @@ items:
   nameWithType: IAppointmentInfo.PersonId
   fullName: SuperOffice.CRM.IAppointmentInfo.PersonId
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nAssociated person id\n"
+  summary: Associated person id
+  example: []
   syntax:
     content: int PersonId { get; }
     parameters: []
@@ -461,10 +480,6 @@ items:
       type: System.Int32
     content.vb: ReadOnly Property PersonId As Integer
   overload: SuperOffice.CRM.IAppointmentInfo.PersonId*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.PersonName
   commentId: P:SuperOffice.CRM.IAppointmentInfo.PersonName
   id: PersonName
@@ -476,13 +491,11 @@ items:
   nameWithType: IAppointmentInfo.PersonName
   fullName: SuperOffice.CRM.IAppointmentInfo.PersonName
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe appointment&apos;s person, name\n"
+  summary: The appointment's person, name
+  example: []
   syntax:
     content: string PersonName { get; }
     parameters: []
@@ -490,10 +503,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property PersonName As String
   overload: SuperOffice.CRM.IAppointmentInfo.PersonName*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.ProjectId
   commentId: P:SuperOffice.CRM.IAppointmentInfo.ProjectId
   id: ProjectId
@@ -505,13 +514,11 @@ items:
   nameWithType: IAppointmentInfo.ProjectId
   fullName: SuperOffice.CRM.IAppointmentInfo.ProjectId
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nAssociated project id\n"
+  summary: Associated project id
+  example: []
   syntax:
     content: int ProjectId { get; }
     parameters: []
@@ -519,10 +526,6 @@ items:
       type: System.Int32
     content.vb: ReadOnly Property ProjectId As Integer
   overload: SuperOffice.CRM.IAppointmentInfo.ProjectId*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.ProjectName
   commentId: P:SuperOffice.CRM.IAppointmentInfo.ProjectName
   id: ProjectName
@@ -534,13 +537,11 @@ items:
   nameWithType: IAppointmentInfo.ProjectName
   fullName: SuperOffice.CRM.IAppointmentInfo.ProjectName
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nAssociated project name\n"
+  summary: Associated project name
+  example: []
   syntax:
     content: string ProjectName { get; }
     parameters: []
@@ -548,10 +549,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property ProjectName As String
   overload: SuperOffice.CRM.IAppointmentInfo.ProjectName*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.Description
   commentId: P:SuperOffice.CRM.IAppointmentInfo.Description
   id: Description
@@ -563,13 +560,11 @@ items:
   nameWithType: IAppointmentInfo.Description
   fullName: SuperOffice.CRM.IAppointmentInfo.Description
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nAppointment description\n"
+  summary: Appointment description
+  example: []
   syntax:
     content: string Description { get; }
     parameters: []
@@ -577,10 +572,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property Description As String
   overload: SuperOffice.CRM.IAppointmentInfo.Description*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.DescriptionLine
   commentId: P:SuperOffice.CRM.IAppointmentInfo.DescriptionLine
   id: DescriptionLine
@@ -592,13 +583,11 @@ items:
   nameWithType: IAppointmentInfo.DescriptionLine
   fullName: SuperOffice.CRM.IAppointmentInfo.DescriptionLine
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nFirst line of appointment description\n"
+  summary: First line of appointment description
+  example: []
   syntax:
     content: string DescriptionLine { get; }
     parameters: []
@@ -606,10 +595,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property DescriptionLine As String
   overload: SuperOffice.CRM.IAppointmentInfo.DescriptionLine*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.CreationDate
   commentId: P:SuperOffice.CRM.IAppointmentInfo.CreationDate
   id: CreationDate
@@ -621,13 +606,11 @@ items:
   nameWithType: IAppointmentInfo.CreationDate
   fullName: SuperOffice.CRM.IAppointmentInfo.CreationDate
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe appointment&apos;s creation date, formatted YYYYMMdd\n"
+  summary: The appointment's creation date, formatted YYYYMMdd
+  example: []
   syntax:
     content: string CreationDate { get; }
     parameters: []
@@ -635,10 +618,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property CreationDate As String
   overload: SuperOffice.CRM.IAppointmentInfo.CreationDate*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.CreationTime
   commentId: P:SuperOffice.CRM.IAppointmentInfo.CreationTime
   id: CreationTime
@@ -650,13 +629,11 @@ items:
   nameWithType: IAppointmentInfo.CreationTime
   fullName: SuperOffice.CRM.IAppointmentInfo.CreationTime
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe appointment&apos;s creation time formatted HHmmss\n"
+  summary: The appointment's creation time formatted HHmmss
+  example: []
   syntax:
     content: string CreationTime { get; }
     parameters: []
@@ -664,10 +641,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property CreationTime As String
   overload: SuperOffice.CRM.IAppointmentInfo.CreationTime*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.UpdatedDate
   commentId: P:SuperOffice.CRM.IAppointmentInfo.UpdatedDate
   id: UpdatedDate
@@ -679,13 +652,11 @@ items:
   nameWithType: IAppointmentInfo.UpdatedDate
   fullName: SuperOffice.CRM.IAppointmentInfo.UpdatedDate
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe date of the last update, formatted YYYYMMdd\n"
+  summary: The date of the last update, formatted YYYYMMdd
+  example: []
   syntax:
     content: string UpdatedDate { get; }
     parameters: []
@@ -693,10 +664,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property UpdatedDate As String
   overload: SuperOffice.CRM.IAppointmentInfo.UpdatedDate*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.UpdatedTime
   commentId: P:SuperOffice.CRM.IAppointmentInfo.UpdatedTime
   id: UpdatedTime
@@ -708,13 +675,11 @@ items:
   nameWithType: IAppointmentInfo.UpdatedTime
   fullName: SuperOffice.CRM.IAppointmentInfo.UpdatedTime
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe time of the last update, formatted HHmmss\n"
+  summary: The time of the last update, formatted HHmmss
+  example: []
   syntax:
     content: string UpdatedTime { get; }
     parameters: []
@@ -722,10 +687,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property UpdatedTime As String
   overload: SuperOffice.CRM.IAppointmentInfo.UpdatedTime*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.UpdatedCount
   commentId: P:SuperOffice.CRM.IAppointmentInfo.UpdatedCount
   id: UpdatedCount
@@ -737,13 +698,11 @@ items:
   nameWithType: IAppointmentInfo.UpdatedCount
   fullName: SuperOffice.CRM.IAppointmentInfo.UpdatedCount
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nNumber of times the appointment has been updated. (Only counts from version SIX)\n"
+  summary: Number of times the appointment has been updated. (Only counts from version SIX)
+  example: []
   syntax:
     content: int UpdatedCount { get; }
     parameters: []
@@ -751,10 +710,6 @@ items:
       type: System.Int32
     content.vb: ReadOnly Property UpdatedCount As Integer
   overload: SuperOffice.CRM.IAppointmentInfo.UpdatedCount*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.Type
   commentId: P:SuperOffice.CRM.IAppointmentInfo.Type
   id: Type
@@ -766,13 +721,11 @@ items:
   nameWithType: IAppointmentInfo.Type
   fullName: SuperOffice.CRM.IAppointmentInfo.Type
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nActivitytype\n"
+  summary: Activitytype
+  example: []
   syntax:
     content: string Type { get; }
     parameters: []
@@ -780,10 +733,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property Type As String
   overload: SuperOffice.CRM.IAppointmentInfo.Type*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.InvitationUrl
   commentId: P:SuperOffice.CRM.IAppointmentInfo.InvitationUrl
   id: InvitationUrl
@@ -795,13 +744,11 @@ items:
   nameWithType: IAppointmentInfo.InvitationUrl
   fullName: SuperOffice.CRM.IAppointmentInfo.InvitationUrl
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe connection from &quot;superoffice:invitations&quot; to the invitation dialog box \n"
+  summary: The connection from "superoffice:invitations" to the invitation dialog box
+  example: []
   syntax:
     content: string InvitationUrl { get; }
     parameters: []
@@ -809,10 +756,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property InvitationUrl As String
   overload: SuperOffice.CRM.IAppointmentInfo.InvitationUrl*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.InvitationClickText
   commentId: P:SuperOffice.CRM.IAppointmentInfo.InvitationClickText
   id: InvitationClickText
@@ -824,13 +767,11 @@ items:
   nameWithType: IAppointmentInfo.InvitationClickText
   fullName: SuperOffice.CRM.IAppointmentInfo.InvitationClickText
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe connection from &quot;Click here to open the SuperOffice SIX dialog box&quot; shown for registered contacts. Blank if the recipient not is a registered contact\n"
+  summary: The connection from "Click here to open the SuperOffice SIX dialog box" shown for registered contacts. Blank if the recipient not is a registered contact
+  example: []
   syntax:
     content: string InvitationClickText { get; }
     parameters: []
@@ -838,39 +779,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property InvitationClickText As String
   overload: SuperOffice.CRM.IAppointmentInfo.InvitationClickText*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
-- uid: SuperOffice.CRM.IAppointmentInfo.InvitationFormattedList
-  commentId: P:SuperOffice.CRM.IAppointmentInfo.InvitationFormattedList
-  id: InvitationFormattedList
-  parent: SuperOffice.CRM.IAppointmentInfo
-  langs:
-  - csharp
-  - vb
-  name: InvitationFormattedList
-  nameWithType: IAppointmentInfo.InvitationFormattedList
-  fullName: SuperOffice.CRM.IAppointmentInfo.InvitationFormattedList
-  type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
-  assemblies:
-  - SuperOffice.Plugins
-  namespace: SuperOffice.CRM
-  summary: "\nFormatted list of inviteted ??, made for iCal\n"
-  syntax:
-    content: string InvitationFormattedList { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: ReadOnly Property InvitationFormattedList As String
-  overload: SuperOffice.CRM.IAppointmentInfo.InvitationFormattedList*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.InviteeId
   commentId: P:SuperOffice.CRM.IAppointmentInfo.InviteeId
   id: InviteeId
@@ -882,13 +790,11 @@ items:
   nameWithType: IAppointmentInfo.InviteeId
   fullName: SuperOffice.CRM.IAppointmentInfo.InviteeId
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nUser ID for this rows invitee (Used with bookings) \n"
+  summary: User ID for this rows invitee (Used with bookings)
+  example: []
   syntax:
     content: int InviteeId { get; }
     parameters: []
@@ -896,10 +802,6 @@ items:
       type: System.Int32
     content.vb: ReadOnly Property InviteeId As Integer
   overload: SuperOffice.CRM.IAppointmentInfo.InviteeId*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.InviteeName
   commentId: P:SuperOffice.CRM.IAppointmentInfo.InviteeName
   id: InviteeName
@@ -911,13 +813,11 @@ items:
   nameWithType: IAppointmentInfo.InviteeName
   fullName: SuperOffice.CRM.IAppointmentInfo.InviteeName
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe name of this rows invited person\n"
+  summary: The name of this rows invited person
+  example: []
   syntax:
     content: string InviteeName { get; }
     parameters: []
@@ -925,10 +825,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property InviteeName As String
   overload: SuperOffice.CRM.IAppointmentInfo.InviteeName*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.PublishStartDate
   commentId: P:SuperOffice.CRM.IAppointmentInfo.PublishStartDate
   id: PublishStartDate
@@ -940,13 +836,11 @@ items:
   nameWithType: IAppointmentInfo.PublishStartDate
   fullName: SuperOffice.CRM.IAppointmentInfo.PublishStartDate
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nAppointment, start date for publication\n"
+  summary: Appointment, start date for publication
+  example: []
   syntax:
     content: string PublishStartDate { get; }
     parameters: []
@@ -954,10 +848,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property PublishStartDate As String
   overload: SuperOffice.CRM.IAppointmentInfo.PublishStartDate*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.PublishEndDate
   commentId: P:SuperOffice.CRM.IAppointmentInfo.PublishEndDate
   id: PublishEndDate
@@ -969,13 +859,11 @@ items:
   nameWithType: IAppointmentInfo.PublishEndDate
   fullName: SuperOffice.CRM.IAppointmentInfo.PublishEndDate
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nAppointment, end date for publication\n"
+  summary: Appointment, end date for publication
+  example: []
   syntax:
     content: string PublishEndDate { get; }
     parameters: []
@@ -983,10 +871,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property PublishEndDate As String
   overload: SuperOffice.CRM.IAppointmentInfo.PublishEndDate*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.StartTime
   commentId: P:SuperOffice.CRM.IAppointmentInfo.StartTime
   id: StartTime
@@ -998,13 +882,11 @@ items:
   nameWithType: IAppointmentInfo.StartTime
   fullName: SuperOffice.CRM.IAppointmentInfo.StartTime
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe appointment&apos;s starttime, formatted HHmmss\n"
+  summary: The appointment's starttime, formatted HHmmss
+  example: []
   syntax:
     content: string StartTime { get; }
     parameters: []
@@ -1012,10 +894,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property StartTime As String
   overload: SuperOffice.CRM.IAppointmentInfo.StartTime*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.EndTime
   commentId: P:SuperOffice.CRM.IAppointmentInfo.EndTime
   id: EndTime
@@ -1027,13 +905,11 @@ items:
   nameWithType: IAppointmentInfo.EndTime
   fullName: SuperOffice.CRM.IAppointmentInfo.EndTime
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe appointment&apos;s endtime, formatted HHmmss\n"
+  summary: The appointment's endtime, formatted HHmmss
+  example: []
   syntax:
     content: string EndTime { get; }
     parameters: []
@@ -1041,10 +917,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property EndTime As String
   overload: SuperOffice.CRM.IAppointmentInfo.EndTime*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.StartDate
   commentId: P:SuperOffice.CRM.IAppointmentInfo.StartDate
   id: StartDate
@@ -1056,13 +928,11 @@ items:
   nameWithType: IAppointmentInfo.StartDate
   fullName: SuperOffice.CRM.IAppointmentInfo.StartDate
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nDate or deadline if this is a task or an appointment\n"
+  summary: Date or deadline if this is a task or an appointment
+  example: []
   syntax:
     content: string StartDate { get; }
     parameters: []
@@ -1070,10 +940,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property StartDate As String
   overload: SuperOffice.CRM.IAppointmentInfo.StartDate*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.EndDate
   commentId: P:SuperOffice.CRM.IAppointmentInfo.EndDate
   id: EndDate
@@ -1085,13 +951,11 @@ items:
   nameWithType: IAppointmentInfo.EndDate
   fullName: SuperOffice.CRM.IAppointmentInfo.EndDate
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe appointment&apos;s enddate, formatted YYYYMMdd\n"
+  summary: The appointment's enddate, formatted YYYYMMdd
+  example: []
   syntax:
     content: string EndDate { get; }
     parameters: []
@@ -1099,10 +963,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property EndDate As String
   overload: SuperOffice.CRM.IAppointmentInfo.EndDate*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.EMail
   commentId: P:SuperOffice.CRM.IAppointmentInfo.EMail
   id: EMail
@@ -1114,13 +974,11 @@ items:
   nameWithType: IAppointmentInfo.EMail
   fullName: SuperOffice.CRM.IAppointmentInfo.EMail
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe appointment&apos;s owner&apos;s emailaddress\n"
+  summary: The appointment's owner's emailaddress
+  example: []
   syntax:
     content: string EMail { get; }
     parameters: []
@@ -1128,10 +986,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property EMail As String
   overload: SuperOffice.CRM.IAppointmentInfo.EMail*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.FreeBusy
   commentId: P:SuperOffice.CRM.IAppointmentInfo.FreeBusy
   id: FreeBusy
@@ -1143,13 +997,11 @@ items:
   nameWithType: IAppointmentInfo.FreeBusy
   fullName: SuperOffice.CRM.IAppointmentInfo.FreeBusy
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nFree/Busy time\n"
+  summary: Free/Busy time
+  example: []
   syntax:
     content: string FreeBusy { get; }
     parameters: []
@@ -1157,10 +1009,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property FreeBusy As String
   overload: SuperOffice.CRM.IAppointmentInfo.FreeBusy*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.Location
   commentId: P:SuperOffice.CRM.IAppointmentInfo.Location
   id: Location
@@ -1172,13 +1020,11 @@ items:
   nameWithType: IAppointmentInfo.Location
   fullName: SuperOffice.CRM.IAppointmentInfo.Location
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nAppointment location\n"
+  summary: Appointment location
+  example: []
   syntax:
     content: string Location { get; }
     parameters: []
@@ -1186,10 +1032,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property Location As String
   overload: SuperOffice.CRM.IAppointmentInfo.Location*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.StartDateLabel
   commentId: P:SuperOffice.CRM.IAppointmentInfo.StartDateLabel
   id: StartDateLabel
@@ -1201,13 +1043,11 @@ items:
   nameWithType: IAppointmentInfo.StartDateLabel
   fullName: SuperOffice.CRM.IAppointmentInfo.StartDateLabel
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nDate or deadline label\n"
+  summary: Date or deadline label
+  example: []
   syntax:
     content: string StartDateLabel { get; }
     parameters: []
@@ -1215,10 +1055,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property StartDateLabel As String
   overload: SuperOffice.CRM.IAppointmentInfo.StartDateLabel*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.ICalPriority
   commentId: P:SuperOffice.CRM.IAppointmentInfo.ICalPriority
   id: ICalPriority
@@ -1230,13 +1066,11 @@ items:
   nameWithType: IAppointmentInfo.ICalPriority
   fullName: SuperOffice.CRM.IAppointmentInfo.ICalPriority
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nPriority on ical format\n"
+  summary: Priority on ical format
+  example: []
   syntax:
     content: int ICalPriority { get; }
     parameters: []
@@ -1244,10 +1078,6 @@ items:
       type: System.Int32
     content.vb: ReadOnly Property ICalPriority As Integer
   overload: SuperOffice.CRM.IAppointmentInfo.ICalPriority*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.RepeatingTooltip
   commentId: P:SuperOffice.CRM.IAppointmentInfo.RepeatingTooltip
   id: RepeatingTooltip
@@ -1259,13 +1089,11 @@ items:
   nameWithType: IAppointmentInfo.RepeatingTooltip
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingTooltip
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe appointment&apos;s tooltip for repeating appointments\n"
+  summary: The appointment's tooltip for repeating appointments
+  example: []
   syntax:
     content: string RepeatingTooltip { get; }
     parameters: []
@@ -1273,10 +1101,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property RepeatingTooltip As String
   overload: SuperOffice.CRM.IAppointmentInfo.RepeatingTooltip*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.RepeatingEndDate
   commentId: P:SuperOffice.CRM.IAppointmentInfo.RepeatingEndDate
   id: RepeatingEndDate
@@ -1288,13 +1112,11 @@ items:
   nameWithType: IAppointmentInfo.RepeatingEndDate
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingEndDate
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe end date for the appointment&apos;s repeating pattern, formatted as yyyyMMdd\n"
+  summary: The end date for the appointment's repeating pattern, formatted as yyyyMMdd
+  example: []
   syntax:
     content: string RepeatingEndDate { get; }
     parameters: []
@@ -1302,10 +1124,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property RepeatingEndDate As String
   overload: SuperOffice.CRM.IAppointmentInfo.RepeatingEndDate*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.MainRepeatingPattern
   commentId: P:SuperOffice.CRM.IAppointmentInfo.MainRepeatingPattern
   id: MainRepeatingPattern
@@ -1317,13 +1135,11 @@ items:
   nameWithType: IAppointmentInfo.MainRepeatingPattern
   fullName: SuperOffice.CRM.IAppointmentInfo.MainRepeatingPattern
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe main feature of the appointments repeating pattern, formatted like the Daily pattern &quot;FREQ=DAILY;&quot; for example\n"
+  summary: The main feature of the appointments repeating pattern, formatted like the Daily pattern "FREQ=DAILY;" for example
+  example: []
   syntax:
     content: string MainRepeatingPattern { get; }
     parameters: []
@@ -1331,10 +1147,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property MainRepeatingPattern As String
   overload: SuperOffice.CRM.IAppointmentInfo.MainRepeatingPattern*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.SubRepeatingPattern
   commentId: P:SuperOffice.CRM.IAppointmentInfo.SubRepeatingPattern
   id: SubRepeatingPattern
@@ -1346,13 +1158,11 @@ items:
   nameWithType: IAppointmentInfo.SubRepeatingPattern
   fullName: SuperOffice.CRM.IAppointmentInfo.SubRepeatingPattern
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe secondary feature of the appointment&apos;s repeating pattern, formatted as the sub-pattern Daily Workday &quot;BYDAY=MO,TU,WE,TH,FR;&quot;, for example\n"
+  summary: The secondary feature of the appointment's repeating pattern, formatted as the sub-pattern Daily Workday "BYDAY=MO,TU,WE,TH,FR;", for example
+  example: []
   syntax:
     content: string SubRepeatingPattern { get; }
     parameters: []
@@ -1360,10 +1170,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property SubRepeatingPattern As String
   overload: SuperOffice.CRM.IAppointmentInfo.SubRepeatingPattern*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.StartDateTimeAndDuration
   commentId: P:SuperOffice.CRM.IAppointmentInfo.StartDateTimeAndDuration
   id: StartDateTimeAndDuration
@@ -1375,13 +1181,11 @@ items:
   nameWithType: IAppointmentInfo.StartDateTimeAndDuration
   fullName: SuperOffice.CRM.IAppointmentInfo.StartDateTimeAndDuration
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe appointment&apos;s date and time. E.g. 30.03.2005 (16:00)-(17:00).\n"
+  summary: The appointment's date and time. E.g. 30.03.2005 (16:00)-(17:00).
+  example: []
   syntax:
     content: string StartDateTimeAndDuration { get; }
     parameters: []
@@ -1389,10 +1193,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property StartDateTimeAndDuration As String
   overload: SuperOffice.CRM.IAppointmentInfo.StartDateTimeAndDuration*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.Priority
   commentId: P:SuperOffice.CRM.IAppointmentInfo.Priority
   id: Priority
@@ -1404,13 +1204,11 @@ items:
   nameWithType: IAppointmentInfo.Priority
   fullName: SuperOffice.CRM.IAppointmentInfo.Priority
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe appointment&apos;s priority in clear text\n"
+  summary: The appointment's priority in clear text
+  example: []
   syntax:
     content: string Priority { get; }
     parameters: []
@@ -1418,10 +1216,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property Priority As String
   overload: SuperOffice.CRM.IAppointmentInfo.Priority*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.PriorityId
   commentId: P:SuperOffice.CRM.IAppointmentInfo.PriorityId
   id: PriorityId
@@ -1433,13 +1227,11 @@ items:
   nameWithType: IAppointmentInfo.PriorityId
   fullName: SuperOffice.CRM.IAppointmentInfo.PriorityId
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe appointment&apos;s priority by number, 1 = low, 2 = medium, 3 = high\n"
+  summary: The appointment's priority by number, 1 = low, 2 = medium, 3 = high
+  example: []
   syntax:
     content: int PriorityId { get; }
     parameters: []
@@ -1447,10 +1239,6 @@ items:
       type: System.Int32
     content.vb: ReadOnly Property PriorityId As Integer
   overload: SuperOffice.CRM.IAppointmentInfo.PriorityId*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.RepeatingPattern
   commentId: P:SuperOffice.CRM.IAppointmentInfo.RepeatingPattern
   id: RepeatingPattern
@@ -1462,13 +1250,11 @@ items:
   nameWithType: IAppointmentInfo.RepeatingPattern
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingPattern
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe entire appointment&apos;s repeating pattern, formatted as &quot;RRULE:&quot; + bpat + bsub + bunt\n"
+  summary: The entire appointment's repeating pattern, formatted as "RRULE:" + bpat + bsub + bunt
+  example: []
   syntax:
     content: string RepeatingPattern { get; }
     parameters: []
@@ -1476,10 +1262,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property RepeatingPattern As String
   overload: SuperOffice.CRM.IAppointmentInfo.RepeatingPattern*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.RepeatingPatternEnd
   commentId: P:SuperOffice.CRM.IAppointmentInfo.RepeatingPatternEnd
   id: RepeatingPatternEnd
@@ -1491,13 +1273,11 @@ items:
   nameWithType: IAppointmentInfo.RepeatingPatternEnd
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingPatternEnd
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nRepeating pattern end date\n"
+  summary: Repeating pattern end date
+  example: []
   syntax:
     content: string RepeatingPatternEnd { get; }
     parameters: []
@@ -1505,10 +1285,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property RepeatingPatternEnd As String
   overload: SuperOffice.CRM.IAppointmentInfo.RepeatingPatternEnd*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.RepeatingPatternWeekStart
   commentId: P:SuperOffice.CRM.IAppointmentInfo.RepeatingPatternWeekStart
   id: RepeatingPatternWeekStart
@@ -1520,13 +1296,11 @@ items:
   nameWithType: IAppointmentInfo.RepeatingPatternWeekStart
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingPatternWeekStart
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nRepeating pattern week start\n"
+  summary: Repeating pattern week start
+  example: []
   syntax:
     content: string RepeatingPatternWeekStart { get; }
     parameters: []
@@ -1534,10 +1308,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property RepeatingPatternWeekStart As String
   overload: SuperOffice.CRM.IAppointmentInfo.RepeatingPatternWeekStart*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.RepeatingStartDate
   commentId: P:SuperOffice.CRM.IAppointmentInfo.RepeatingStartDate
   id: RepeatingStartDate
@@ -1549,13 +1319,11 @@ items:
   nameWithType: IAppointmentInfo.RepeatingStartDate
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingStartDate
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe start date for the appointment&apos;s repeating pattern, formatted as YYYYMMdd\n"
+  summary: The start date for the appointment's repeating pattern, formatted as YYYYMMdd
+  example: []
   syntax:
     content: string RepeatingStartDate { get; }
     parameters: []
@@ -1563,10 +1331,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property RepeatingStartDate As String
   overload: SuperOffice.CRM.IAppointmentInfo.RepeatingStartDate*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.RepeatingPatternText
   commentId: P:SuperOffice.CRM.IAppointmentInfo.RepeatingPatternText
   id: RepeatingPatternText
@@ -1578,13 +1342,11 @@ items:
   nameWithType: IAppointmentInfo.RepeatingPatternText
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingPatternText
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe text &quot;This appointment is part of a repeating pattern:&quot;\n"
+  summary: The text "This appointment is part of a repeating pattern:"
+  example: []
   syntax:
     content: string RepeatingPatternText { get; }
     parameters: []
@@ -1592,10 +1354,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property RepeatingPatternText As String
   overload: SuperOffice.CRM.IAppointmentInfo.RepeatingPatternText*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.RepeatingPatternText2
   commentId: P:SuperOffice.CRM.IAppointmentInfo.RepeatingPatternText2
   id: RepeatingPatternText2
@@ -1607,13 +1365,11 @@ items:
   nameWithType: IAppointmentInfo.RepeatingPatternText2
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingPatternText2
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe text &quot;See below in this message for a list of the repeating appointments.&quot;\n"
+  summary: The text "See below in this message for a list of the repeating appointments."
+  example: []
   syntax:
     content: string RepeatingPatternText2 { get; }
     parameters: []
@@ -1621,10 +1377,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property RepeatingPatternText2 As String
   overload: SuperOffice.CRM.IAppointmentInfo.RepeatingPatternText2*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.RepeatingAppointmentId
   commentId: P:SuperOffice.CRM.IAppointmentInfo.RepeatingAppointmentId
   id: RepeatingAppointmentId
@@ -1636,13 +1388,11 @@ items:
   nameWithType: IAppointmentInfo.RepeatingAppointmentId
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingAppointmentId
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nAppointment ID for any repeating appointments\n"
+  summary: Appointment ID for any repeating appointments
+  example: []
   syntax:
     content: int RepeatingAppointmentId { get; }
     parameters: []
@@ -1650,10 +1400,6 @@ items:
       type: System.Int32
     content.vb: ReadOnly Property RepeatingAppointmentId As Integer
   overload: SuperOffice.CRM.IAppointmentInfo.RepeatingAppointmentId*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.ICalId
   commentId: P:SuperOffice.CRM.IAppointmentInfo.ICalId
   id: ICalId
@@ -1665,13 +1411,11 @@ items:
   nameWithType: IAppointmentInfo.ICalId
   fullName: SuperOffice.CRM.IAppointmentInfo.ICalId
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nUnique id made for iCal. SerialnoDappointmentIdDinvitedIdDupdated. Where D is a separator \n"
+  summary: Unique id made for iCal. SerialnoDappointmentIdDinvitedIdDupdated. Where D is a separator
+  example: []
   syntax:
     content: string ICalId { get; }
     parameters: []
@@ -1679,10 +1423,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property ICalId As String
   overload: SuperOffice.CRM.IAppointmentInfo.ICalId*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.State
   commentId: P:SuperOffice.CRM.IAppointmentInfo.State
   id: State
@@ -1694,13 +1434,11 @@ items:
   nameWithType: IAppointmentInfo.State
   fullName: SuperOffice.CRM.IAppointmentInfo.State
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe state of the appointment: &quot;TENTATIVE&quot;, &quot;CONFIRMED&quot; eller &quot;CANCELLED&quot;\n"
+  summary: 'The state of the appointment: "TENTATIVE", "CONFIRMED" eller "CANCELLED"'
+  example: []
   syntax:
     content: string State { get; }
     parameters: []
@@ -1708,10 +1446,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property State As String
   overload: SuperOffice.CRM.IAppointmentInfo.State*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.CRM.IAppointmentInfo.PreferredTZLocation
   commentId: P:SuperOffice.CRM.IAppointmentInfo.PreferredTZLocation
   id: PreferredTZLocation
@@ -1723,13 +1457,11 @@ items:
   nameWithType: IAppointmentInfo.PreferredTZLocation
   fullName: SuperOffice.CRM.IAppointmentInfo.PreferredTZLocation
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe preferred timezone for the appointment\n"
+  summary: The preferred timezone for the appointment
+  example: []
   syntax:
     content: int PreferredTZLocation { get; }
     parameters: []
@@ -1737,88 +1469,259 @@ items:
       type: System.Int32
     content.vb: ReadOnly Property PreferredTZLocation As Integer
   overload: SuperOffice.CRM.IAppointmentInfo.PreferredTZLocation*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
+- uid: SuperOffice.CRM.IAppointmentInfo.IsMilestone
+  commentId: P:SuperOffice.CRM.IAppointmentInfo.IsMilestone
+  id: IsMilestone
+  parent: SuperOffice.CRM.IAppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: IsMilestone
+  nameWithType: IAppointmentInfo.IsMilestone
+  fullName: SuperOffice.CRM.IAppointmentInfo.IsMilestone
+  type: Property
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: Is the appointment a milestone appointment? English text "Yes" or "No".
+  example: []
+  syntax:
+    content: string IsMilestone { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property IsMilestone As String
+  overload: SuperOffice.CRM.IAppointmentInfo.IsMilestone*
+- uid: SuperOffice.CRM.IAppointmentInfo.SuggestedAppointmentId
+  commentId: P:SuperOffice.CRM.IAppointmentInfo.SuggestedAppointmentId
+  id: SuggestedAppointmentId
+  parent: SuperOffice.CRM.IAppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: SuggestedAppointmentId
+  nameWithType: IAppointmentInfo.SuggestedAppointmentId
+  fullName: SuperOffice.CRM.IAppointmentInfo.SuggestedAppointmentId
+  type: Property
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: The appointments SuggestedAppointment ID. Return 0 when appointment is not part of a sale/project guide.
+  example: []
+  syntax:
+    content: int SuggestedAppointmentId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property SuggestedAppointmentId As Integer
+  overload: SuperOffice.CRM.IAppointmentInfo.SuggestedAppointmentId*
+- uid: SuperOffice.CRM.IAppointmentInfo.OldStartDate
+  commentId: P:SuperOffice.CRM.IAppointmentInfo.OldStartDate
+  id: OldStartDate
+  parent: SuperOffice.CRM.IAppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: OldStartDate
+  nameWithType: IAppointmentInfo.OldStartDate
+  fullName: SuperOffice.CRM.IAppointmentInfo.OldStartDate
+  type: Property
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: The appointment's old start date, formatted as YYYYMMdd.
+  example: []
+  syntax:
+    content: string OldStartDate { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property OldStartDate As String
+  overload: SuperOffice.CRM.IAppointmentInfo.OldStartDate*
+- uid: SuperOffice.CRM.IAppointmentInfo.OldStartTime
+  commentId: P:SuperOffice.CRM.IAppointmentInfo.OldStartTime
+  id: OldStartTime
+  parent: SuperOffice.CRM.IAppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: OldStartTime
+  nameWithType: IAppointmentInfo.OldStartTime
+  fullName: SuperOffice.CRM.IAppointmentInfo.OldStartTime
+  type: Property
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: The appointment's old start time, formatted as HHmmss.
+  example: []
+  syntax:
+    content: string OldStartTime { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property OldStartTime As String
+  overload: SuperOffice.CRM.IAppointmentInfo.OldStartTime*
+- uid: SuperOffice.CRM.IAppointmentInfo.JoinMeetingUrl
+  commentId: P:SuperOffice.CRM.IAppointmentInfo.JoinMeetingUrl
+  id: JoinMeetingUrl
+  parent: SuperOffice.CRM.IAppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: JoinMeetingUrl
+  nameWithType: IAppointmentInfo.JoinMeetingUrl
+  fullName: SuperOffice.CRM.IAppointmentInfo.JoinMeetingUrl
+  type: Property
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: The URL
+  example: []
+  syntax:
+    content: string JoinMeetingUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property JoinMeetingUrl As String
+  overload: SuperOffice.CRM.IAppointmentInfo.JoinMeetingUrl*
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
 - uid: SuperOffice.CRM.IAppointmentInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<IAppointmentInfo, To>()
-  nameWithType: EnumUtil.MapEnums<IAppointmentInfo, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.IAppointmentInfo, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of IAppointmentInfo, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.IAppointmentInfo, To)()
-  name.vb: MapEnums(Of IAppointmentInfo, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IAppointmentInfo, To>(IAppointmentInfo)
+  nameWithType: EnumUtil.MapEnums<IAppointmentInfo, To>(IAppointmentInfo)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.IAppointmentInfo, To>(SuperOffice.CRM.IAppointmentInfo)
+  nameWithType.vb: EnumUtil.MapEnums(Of IAppointmentInfo, To)(IAppointmentInfo)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.IAppointmentInfo, To)(SuperOffice.CRM.IAppointmentInfo)
+  name.vb: MapEnums(Of IAppointmentInfo, To)(IAppointmentInfo)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<IAppointmentInfo, To>
-    nameWithType: EnumUtil.MapEnums<IAppointmentInfo, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.IAppointmentInfo, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.IAppointmentInfo)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.IAppointmentInfo
+    name: IAppointmentInfo
+    isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.IAppointmentInfo
+    name: IAppointmentInfo
+    isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of IAppointmentInfo, To)
-    nameWithType: EnumUtil.MapEnums(Of IAppointmentInfo, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.IAppointmentInfo, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.IAppointmentInfo)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.IAppointmentInfo
+    name: IAppointmentInfo
+    isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.IAppointmentInfo
+    name: IAppointmentInfo
+    isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo.html
+  - name: )
 - uid: SuperOffice.CRM.IAppointmentInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<IAppointmentInfo, To>()
-  nameWithType: Converters.MapEnums<IAppointmentInfo, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IAppointmentInfo, To>()
-  nameWithType.vb: Converters.MapEnums(Of IAppointmentInfo, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IAppointmentInfo, To)()
-  name.vb: MapEnums(Of IAppointmentInfo, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IAppointmentInfo, To>(IAppointmentInfo)
+  nameWithType: Converters.MapEnums<IAppointmentInfo, To>(IAppointmentInfo)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IAppointmentInfo, To>(SuperOffice.CRM.IAppointmentInfo)
+  nameWithType.vb: Converters.MapEnums(Of IAppointmentInfo, To)(IAppointmentInfo)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IAppointmentInfo, To)(SuperOffice.CRM.IAppointmentInfo)
+  name.vb: MapEnums(Of IAppointmentInfo, To)(IAppointmentInfo)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<IAppointmentInfo, To>
-    nameWithType: Converters.MapEnums<IAppointmentInfo, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IAppointmentInfo, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.IAppointmentInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.IAppointmentInfo
+    name: IAppointmentInfo
+    isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.IAppointmentInfo
+    name: IAppointmentInfo
+    isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of IAppointmentInfo, To)
-    nameWithType: Converters.MapEnums(Of IAppointmentInfo, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IAppointmentInfo, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.IAppointmentInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.IAppointmentInfo
+    name: IAppointmentInfo
+    isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.IAppointmentInfo
+    name: IAppointmentInfo
+    isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo.html
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1827,43 +1730,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1872,50 +1777,225 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.IAppointmentInfo.GetInvitationFormattedListAsync*
+  commentId: Overload:SuperOffice.CRM.IAppointmentInfo.GetInvitationFormattedListAsync
+  isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_GetInvitationFormattedListAsync_System_Threading_CancellationToken_
+  name: GetInvitationFormattedListAsync
+  nameWithType: IAppointmentInfo.GetInvitationFormattedListAsync
+  fullName: SuperOffice.CRM.IAppointmentInfo.GetInvitationFormattedListAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_GetUserDefinedDecimal_System_Int32_
   name: GetUserDefinedDecimal
   nameWithType: IAppointmentInfo.GetUserDefinedDecimal
   fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal
@@ -1923,31 +2003,42 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_GetUserDefinedInt_System_Int32_
   name: GetUserDefinedInt
   nameWithType: IAppointmentInfo.GetUserDefinedInt
   fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt
 - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_GetUserDefinedString_System_Int32_
   name: GetUserDefinedString
   nameWithType: IAppointmentInfo.GetUserDefinedString
   fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString
@@ -1955,312 +2046,402 @@ references:
   commentId: T:System.Double
   parent: System
   isExternal: true
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: SuperOffice.CRM.IAppointmentInfo.GetInvitedListAsync*
+  commentId: Overload:SuperOffice.CRM.IAppointmentInfo.GetInvitedListAsync
+  isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_GetInvitedListAsync_System_Threading_CancellationToken_
+  name: GetInvitedListAsync
+  nameWithType: IAppointmentInfo.GetInvitedListAsync
+  fullName: SuperOffice.CRM.IAppointmentInfo.GetInvitedListAsync
 - uid: SuperOffice.CRM.IAppointmentInfo.AppointmentId*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.AppointmentId
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_AppointmentId
   name: AppointmentId
   nameWithType: IAppointmentInfo.AppointmentId
   fullName: SuperOffice.CRM.IAppointmentInfo.AppointmentId
 - uid: SuperOffice.CRM.IAppointmentInfo.AssociateId*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.AssociateId
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_AssociateId
   name: AssociateId
   nameWithType: IAppointmentInfo.AssociateId
   fullName: SuperOffice.CRM.IAppointmentInfo.AssociateId
 - uid: SuperOffice.CRM.IAppointmentInfo.AssociateName*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.AssociateName
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_AssociateName
   name: AssociateName
   nameWithType: IAppointmentInfo.AssociateName
   fullName: SuperOffice.CRM.IAppointmentInfo.AssociateName
 - uid: SuperOffice.CRM.IAppointmentInfo.AssociateOwnerName*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.AssociateOwnerName
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_AssociateOwnerName
   name: AssociateOwnerName
   nameWithType: IAppointmentInfo.AssociateOwnerName
   fullName: SuperOffice.CRM.IAppointmentInfo.AssociateOwnerName
 - uid: SuperOffice.CRM.IAppointmentInfo.ContactId*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.ContactId
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_ContactId
   name: ContactId
   nameWithType: IAppointmentInfo.ContactId
   fullName: SuperOffice.CRM.IAppointmentInfo.ContactId
 - uid: SuperOffice.CRM.IAppointmentInfo.ContactName*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.ContactName
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_ContactName
   name: ContactName
   nameWithType: IAppointmentInfo.ContactName
   fullName: SuperOffice.CRM.IAppointmentInfo.ContactName
 - uid: SuperOffice.CRM.IAppointmentInfo.PersonId*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.PersonId
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_PersonId
   name: PersonId
   nameWithType: IAppointmentInfo.PersonId
   fullName: SuperOffice.CRM.IAppointmentInfo.PersonId
 - uid: SuperOffice.CRM.IAppointmentInfo.PersonName*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.PersonName
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_PersonName
   name: PersonName
   nameWithType: IAppointmentInfo.PersonName
   fullName: SuperOffice.CRM.IAppointmentInfo.PersonName
 - uid: SuperOffice.CRM.IAppointmentInfo.ProjectId*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.ProjectId
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_ProjectId
   name: ProjectId
   nameWithType: IAppointmentInfo.ProjectId
   fullName: SuperOffice.CRM.IAppointmentInfo.ProjectId
 - uid: SuperOffice.CRM.IAppointmentInfo.ProjectName*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.ProjectName
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_ProjectName
   name: ProjectName
   nameWithType: IAppointmentInfo.ProjectName
   fullName: SuperOffice.CRM.IAppointmentInfo.ProjectName
 - uid: SuperOffice.CRM.IAppointmentInfo.Description*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.Description
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_Description
   name: Description
   nameWithType: IAppointmentInfo.Description
   fullName: SuperOffice.CRM.IAppointmentInfo.Description
 - uid: SuperOffice.CRM.IAppointmentInfo.DescriptionLine*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.DescriptionLine
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_DescriptionLine
   name: DescriptionLine
   nameWithType: IAppointmentInfo.DescriptionLine
   fullName: SuperOffice.CRM.IAppointmentInfo.DescriptionLine
 - uid: SuperOffice.CRM.IAppointmentInfo.CreationDate*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.CreationDate
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_CreationDate
   name: CreationDate
   nameWithType: IAppointmentInfo.CreationDate
   fullName: SuperOffice.CRM.IAppointmentInfo.CreationDate
 - uid: SuperOffice.CRM.IAppointmentInfo.CreationTime*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.CreationTime
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_CreationTime
   name: CreationTime
   nameWithType: IAppointmentInfo.CreationTime
   fullName: SuperOffice.CRM.IAppointmentInfo.CreationTime
 - uid: SuperOffice.CRM.IAppointmentInfo.UpdatedDate*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.UpdatedDate
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_UpdatedDate
   name: UpdatedDate
   nameWithType: IAppointmentInfo.UpdatedDate
   fullName: SuperOffice.CRM.IAppointmentInfo.UpdatedDate
 - uid: SuperOffice.CRM.IAppointmentInfo.UpdatedTime*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.UpdatedTime
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_UpdatedTime
   name: UpdatedTime
   nameWithType: IAppointmentInfo.UpdatedTime
   fullName: SuperOffice.CRM.IAppointmentInfo.UpdatedTime
 - uid: SuperOffice.CRM.IAppointmentInfo.UpdatedCount*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.UpdatedCount
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_UpdatedCount
   name: UpdatedCount
   nameWithType: IAppointmentInfo.UpdatedCount
   fullName: SuperOffice.CRM.IAppointmentInfo.UpdatedCount
 - uid: SuperOffice.CRM.IAppointmentInfo.Type*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.Type
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_Type
   name: Type
   nameWithType: IAppointmentInfo.Type
   fullName: SuperOffice.CRM.IAppointmentInfo.Type
 - uid: SuperOffice.CRM.IAppointmentInfo.InvitationUrl*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.InvitationUrl
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_InvitationUrl
   name: InvitationUrl
   nameWithType: IAppointmentInfo.InvitationUrl
   fullName: SuperOffice.CRM.IAppointmentInfo.InvitationUrl
 - uid: SuperOffice.CRM.IAppointmentInfo.InvitationClickText*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.InvitationClickText
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_InvitationClickText
   name: InvitationClickText
   nameWithType: IAppointmentInfo.InvitationClickText
   fullName: SuperOffice.CRM.IAppointmentInfo.InvitationClickText
-- uid: SuperOffice.CRM.IAppointmentInfo.InvitationFormattedList*
-  commentId: Overload:SuperOffice.CRM.IAppointmentInfo.InvitationFormattedList
-  isExternal: true
-  name: InvitationFormattedList
-  nameWithType: IAppointmentInfo.InvitationFormattedList
-  fullName: SuperOffice.CRM.IAppointmentInfo.InvitationFormattedList
 - uid: SuperOffice.CRM.IAppointmentInfo.InviteeId*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.InviteeId
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_InviteeId
   name: InviteeId
   nameWithType: IAppointmentInfo.InviteeId
   fullName: SuperOffice.CRM.IAppointmentInfo.InviteeId
 - uid: SuperOffice.CRM.IAppointmentInfo.InviteeName*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.InviteeName
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_InviteeName
   name: InviteeName
   nameWithType: IAppointmentInfo.InviteeName
   fullName: SuperOffice.CRM.IAppointmentInfo.InviteeName
 - uid: SuperOffice.CRM.IAppointmentInfo.PublishStartDate*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.PublishStartDate
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_PublishStartDate
   name: PublishStartDate
   nameWithType: IAppointmentInfo.PublishStartDate
   fullName: SuperOffice.CRM.IAppointmentInfo.PublishStartDate
 - uid: SuperOffice.CRM.IAppointmentInfo.PublishEndDate*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.PublishEndDate
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_PublishEndDate
   name: PublishEndDate
   nameWithType: IAppointmentInfo.PublishEndDate
   fullName: SuperOffice.CRM.IAppointmentInfo.PublishEndDate
 - uid: SuperOffice.CRM.IAppointmentInfo.StartTime*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.StartTime
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_StartTime
   name: StartTime
   nameWithType: IAppointmentInfo.StartTime
   fullName: SuperOffice.CRM.IAppointmentInfo.StartTime
 - uid: SuperOffice.CRM.IAppointmentInfo.EndTime*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.EndTime
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_EndTime
   name: EndTime
   nameWithType: IAppointmentInfo.EndTime
   fullName: SuperOffice.CRM.IAppointmentInfo.EndTime
 - uid: SuperOffice.CRM.IAppointmentInfo.StartDate*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.StartDate
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_StartDate
   name: StartDate
   nameWithType: IAppointmentInfo.StartDate
   fullName: SuperOffice.CRM.IAppointmentInfo.StartDate
 - uid: SuperOffice.CRM.IAppointmentInfo.EndDate*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.EndDate
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_EndDate
   name: EndDate
   nameWithType: IAppointmentInfo.EndDate
   fullName: SuperOffice.CRM.IAppointmentInfo.EndDate
 - uid: SuperOffice.CRM.IAppointmentInfo.EMail*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.EMail
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_EMail
   name: EMail
   nameWithType: IAppointmentInfo.EMail
   fullName: SuperOffice.CRM.IAppointmentInfo.EMail
 - uid: SuperOffice.CRM.IAppointmentInfo.FreeBusy*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.FreeBusy
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_FreeBusy
   name: FreeBusy
   nameWithType: IAppointmentInfo.FreeBusy
   fullName: SuperOffice.CRM.IAppointmentInfo.FreeBusy
 - uid: SuperOffice.CRM.IAppointmentInfo.Location*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.Location
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_Location
   name: Location
   nameWithType: IAppointmentInfo.Location
   fullName: SuperOffice.CRM.IAppointmentInfo.Location
 - uid: SuperOffice.CRM.IAppointmentInfo.StartDateLabel*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.StartDateLabel
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_StartDateLabel
   name: StartDateLabel
   nameWithType: IAppointmentInfo.StartDateLabel
   fullName: SuperOffice.CRM.IAppointmentInfo.StartDateLabel
 - uid: SuperOffice.CRM.IAppointmentInfo.ICalPriority*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.ICalPriority
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_ICalPriority
   name: ICalPriority
   nameWithType: IAppointmentInfo.ICalPriority
   fullName: SuperOffice.CRM.IAppointmentInfo.ICalPriority
 - uid: SuperOffice.CRM.IAppointmentInfo.RepeatingTooltip*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.RepeatingTooltip
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_RepeatingTooltip
   name: RepeatingTooltip
   nameWithType: IAppointmentInfo.RepeatingTooltip
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingTooltip
 - uid: SuperOffice.CRM.IAppointmentInfo.RepeatingEndDate*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.RepeatingEndDate
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_RepeatingEndDate
   name: RepeatingEndDate
   nameWithType: IAppointmentInfo.RepeatingEndDate
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingEndDate
 - uid: SuperOffice.CRM.IAppointmentInfo.MainRepeatingPattern*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.MainRepeatingPattern
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_MainRepeatingPattern
   name: MainRepeatingPattern
   nameWithType: IAppointmentInfo.MainRepeatingPattern
   fullName: SuperOffice.CRM.IAppointmentInfo.MainRepeatingPattern
 - uid: SuperOffice.CRM.IAppointmentInfo.SubRepeatingPattern*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.SubRepeatingPattern
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_SubRepeatingPattern
   name: SubRepeatingPattern
   nameWithType: IAppointmentInfo.SubRepeatingPattern
   fullName: SuperOffice.CRM.IAppointmentInfo.SubRepeatingPattern
 - uid: SuperOffice.CRM.IAppointmentInfo.StartDateTimeAndDuration*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.StartDateTimeAndDuration
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_StartDateTimeAndDuration
   name: StartDateTimeAndDuration
   nameWithType: IAppointmentInfo.StartDateTimeAndDuration
   fullName: SuperOffice.CRM.IAppointmentInfo.StartDateTimeAndDuration
 - uid: SuperOffice.CRM.IAppointmentInfo.Priority*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.Priority
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_Priority
   name: Priority
   nameWithType: IAppointmentInfo.Priority
   fullName: SuperOffice.CRM.IAppointmentInfo.Priority
 - uid: SuperOffice.CRM.IAppointmentInfo.PriorityId*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.PriorityId
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_PriorityId
   name: PriorityId
   nameWithType: IAppointmentInfo.PriorityId
   fullName: SuperOffice.CRM.IAppointmentInfo.PriorityId
 - uid: SuperOffice.CRM.IAppointmentInfo.RepeatingPattern*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.RepeatingPattern
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_RepeatingPattern
   name: RepeatingPattern
   nameWithType: IAppointmentInfo.RepeatingPattern
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingPattern
 - uid: SuperOffice.CRM.IAppointmentInfo.RepeatingPatternEnd*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.RepeatingPatternEnd
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_RepeatingPatternEnd
   name: RepeatingPatternEnd
   nameWithType: IAppointmentInfo.RepeatingPatternEnd
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingPatternEnd
 - uid: SuperOffice.CRM.IAppointmentInfo.RepeatingPatternWeekStart*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.RepeatingPatternWeekStart
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_RepeatingPatternWeekStart
   name: RepeatingPatternWeekStart
   nameWithType: IAppointmentInfo.RepeatingPatternWeekStart
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingPatternWeekStart
 - uid: SuperOffice.CRM.IAppointmentInfo.RepeatingStartDate*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.RepeatingStartDate
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_RepeatingStartDate
   name: RepeatingStartDate
   nameWithType: IAppointmentInfo.RepeatingStartDate
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingStartDate
 - uid: SuperOffice.CRM.IAppointmentInfo.RepeatingPatternText*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.RepeatingPatternText
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_RepeatingPatternText
   name: RepeatingPatternText
   nameWithType: IAppointmentInfo.RepeatingPatternText
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingPatternText
 - uid: SuperOffice.CRM.IAppointmentInfo.RepeatingPatternText2*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.RepeatingPatternText2
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_RepeatingPatternText2
   name: RepeatingPatternText2
   nameWithType: IAppointmentInfo.RepeatingPatternText2
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingPatternText2
 - uid: SuperOffice.CRM.IAppointmentInfo.RepeatingAppointmentId*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.RepeatingAppointmentId
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_RepeatingAppointmentId
   name: RepeatingAppointmentId
   nameWithType: IAppointmentInfo.RepeatingAppointmentId
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingAppointmentId
 - uid: SuperOffice.CRM.IAppointmentInfo.ICalId*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.ICalId
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_ICalId
   name: ICalId
   nameWithType: IAppointmentInfo.ICalId
   fullName: SuperOffice.CRM.IAppointmentInfo.ICalId
 - uid: SuperOffice.CRM.IAppointmentInfo.State*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.State
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_State
   name: State
   nameWithType: IAppointmentInfo.State
   fullName: SuperOffice.CRM.IAppointmentInfo.State
 - uid: SuperOffice.CRM.IAppointmentInfo.PreferredTZLocation*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo.PreferredTZLocation
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_PreferredTZLocation
   name: PreferredTZLocation
   nameWithType: IAppointmentInfo.PreferredTZLocation
   fullName: SuperOffice.CRM.IAppointmentInfo.PreferredTZLocation
+- uid: SuperOffice.CRM.IAppointmentInfo.IsMilestone*
+  commentId: Overload:SuperOffice.CRM.IAppointmentInfo.IsMilestone
+  isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_IsMilestone
+  name: IsMilestone
+  nameWithType: IAppointmentInfo.IsMilestone
+  fullName: SuperOffice.CRM.IAppointmentInfo.IsMilestone
+- uid: SuperOffice.CRM.IAppointmentInfo.SuggestedAppointmentId*
+  commentId: Overload:SuperOffice.CRM.IAppointmentInfo.SuggestedAppointmentId
+  isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_SuggestedAppointmentId
+  name: SuggestedAppointmentId
+  nameWithType: IAppointmentInfo.SuggestedAppointmentId
+  fullName: SuperOffice.CRM.IAppointmentInfo.SuggestedAppointmentId
+- uid: SuperOffice.CRM.IAppointmentInfo.OldStartDate*
+  commentId: Overload:SuperOffice.CRM.IAppointmentInfo.OldStartDate
+  isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_OldStartDate
+  name: OldStartDate
+  nameWithType: IAppointmentInfo.OldStartDate
+  fullName: SuperOffice.CRM.IAppointmentInfo.OldStartDate
+- uid: SuperOffice.CRM.IAppointmentInfo.OldStartTime*
+  commentId: Overload:SuperOffice.CRM.IAppointmentInfo.OldStartTime
+  isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_OldStartTime
+  name: OldStartTime
+  nameWithType: IAppointmentInfo.OldStartTime
+  fullName: SuperOffice.CRM.IAppointmentInfo.OldStartTime
+- uid: SuperOffice.CRM.IAppointmentInfo.JoinMeetingUrl*
+  commentId: Overload:SuperOffice.CRM.IAppointmentInfo.JoinMeetingUrl
+  isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_JoinMeetingUrl
+  name: JoinMeetingUrl
+  nameWithType: IAppointmentInfo.JoinMeetingUrl
+  fullName: SuperOffice.CRM.IAppointmentInfo.JoinMeetingUrl

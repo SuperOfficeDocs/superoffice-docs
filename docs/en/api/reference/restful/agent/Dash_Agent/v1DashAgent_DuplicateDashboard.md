@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 430,
-  "Name": "Paucek, Strosin and Larkin"
+  "DashboardId": 139,
+  "Name": "Reichel-Veum"
 }
 ```
 
@@ -102,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 761,
-  "UniqueId": "voluptas",
-  "Name": "Romaguera, Eichmann and Ratke",
-  "Description": "Versatile bi-directional matrix",
-  "AssociateId": 536,
-  "Columns": 858,
+  "DashboardId": 830,
+  "UniqueId": "iste",
+  "Name": "Greenfelder LLC",
+  "Description": "Public-key tertiary matrices",
+  "AssociateId": 277,
+  "Columns": 739,
   "Theme": null,
-  "VisibleForAll": 767,
+  "VisibleForAll": 998,
   "VisibleForAssociates": [
-    203,
-    959
+    802,
+    360
   ],
   "VisibleForGroups": [
-    622,
-    877
+    810,
+    199
   ],
-  "PinForAll": 847,
+  "PinForAll": 918,
   "PinForAssociates": [
-    322,
-    925
+    4,
+    841
   ],
   "PinForGroups": [
-    402,
-    401
+    525,
+    532
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 549
+      "FieldLength": 604
     }
   }
 }

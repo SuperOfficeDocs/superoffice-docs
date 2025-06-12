@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 289,
-    "Name": "Koelpin Group",
-    "Tooltip": "qui",
+    "HeadingId": 738,
+    "Name": "Runolfsson-Kemmer",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 767,
-    "UdListDefinitionId": 409,
+    "Rank": 162,
+    "UdListDefinitionId": 51,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 888
+        "FieldType": "System.Int32",
+        "FieldLength": 984
       }
     }
   }

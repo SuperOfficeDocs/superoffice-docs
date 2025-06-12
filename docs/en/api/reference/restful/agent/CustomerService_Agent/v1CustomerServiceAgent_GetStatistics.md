@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "quia",
-    "excepturi"
+    "nisi",
+    "eveniet"
   ]
 }
 ```
@@ -94,82 +94,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "consequuntur",
+    "Label": "hic",
     "Values": [
       {
-        "Label": "praesentium",
-        "Value": 13259.954,
-        "Description": "Open-architected tertiary encryption",
+        "Label": "error",
+        "Value": 2043.368,
+        "Description": "Assimilated mission-critical workforce",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 373
+            "FieldType": "System.String",
+            "FieldLength": 990
           }
         }
       },
       {
-        "Label": "praesentium",
-        "Value": 13259.954,
-        "Description": "Open-architected tertiary encryption",
+        "Label": "error",
+        "Value": 2043.368,
+        "Description": "Assimilated mission-critical workforce",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 373
+            "FieldType": "System.String",
+            "FieldLength": 990
           }
         }
       }
     ],
-    "Description": "Operative executive throughput",
+    "Description": "Multi-lateral empowering software",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 247
+        "FieldLength": 103
       }
     }
   },
   {
-    "Label": "consequuntur",
+    "Label": "hic",
     "Values": [
       {
-        "Label": "praesentium",
-        "Value": 13259.954,
-        "Description": "Open-architected tertiary encryption",
+        "Label": "error",
+        "Value": 2043.368,
+        "Description": "Assimilated mission-critical workforce",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 373
+            "FieldType": "System.String",
+            "FieldLength": 990
           }
         }
       },
       {
-        "Label": "praesentium",
-        "Value": 13259.954,
-        "Description": "Open-architected tertiary encryption",
+        "Label": "error",
+        "Value": 2043.368,
+        "Description": "Assimilated mission-critical workforce",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 373
+            "FieldType": "System.String",
+            "FieldLength": 990
           }
         }
       }
     ],
-    "Description": "Operative executive throughput",
+    "Description": "Multi-lateral empowering software",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 247
+        "FieldLength": 103
       }
     }
   }

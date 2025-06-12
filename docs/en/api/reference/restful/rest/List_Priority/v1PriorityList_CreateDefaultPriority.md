@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 462,
-  "Name": "Dach-Bechtelar",
-  "Tooltip": "ipsam",
+  "Id": 114,
+  "Name": "Treutel Group",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "UdListDefinitionId": 139,
-  "Rank": 332,
+  "UdListDefinitionId": 729,
+  "Rank": 135,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 514
+      "FieldType": "System.Int32",
+      "FieldLength": 992
     }
   }
 }

@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 633,
-    "Name": "Powlowski Group",
-    "Tooltip": "occaecati",
+    "Id": 58,
+    "Name": "Barrows-Ebert",
+    "Tooltip": "ipsum",
     "Deleted": false,
-    "UdListDefinitionId": 514,
-    "Rank": 31,
+    "UdListDefinitionId": 113,
+    "Rank": 58,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 884
+        "FieldType": "System.String",
+        "FieldLength": 870
       }
     }
   }

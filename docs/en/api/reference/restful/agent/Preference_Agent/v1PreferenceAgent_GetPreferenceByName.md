@@ -89,8 +89,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "sint",
-  "PrefKey": "mollitia",
+  "PrefSection": "iusto",
+  "PrefKey": "earum",
   "PrefLevel": "Database"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "in",
+  "RawValue": "expedita",
   "Specification": null,
-  "DisplayValue": "placeat",
-  "DisplayTooltip": "praesentium",
+  "DisplayValue": "quis",
+  "DisplayTooltip": "eligendi",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 918,
-  "PrefDescId": 119,
-  "TableName": "Gerlach-O'Connell",
-  "UserPreferenceId": 699,
+  "TargetId": 52,
+  "PrefDescId": 653,
+  "TableName": "Carroll LLC",
+  "UserPreferenceId": 973,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 254
+      "FieldLength": 579
     }
   }
 }

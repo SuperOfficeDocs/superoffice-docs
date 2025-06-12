@@ -48,31 +48,36 @@ items:
   nameWithType: ParticipantSyncData
   fullName: SuperOffice.CRM.Services.ParticipantSyncData
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCarrier object for ParticipantSyncData.\nServices for the ParticipantSyncData Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IAppointmentAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Carrier object for ParticipantSyncData.
+
+    Services for the ParticipantSyncData Carrier is available from the <xref href="SuperOffice.CRM.Services.IAppointmentAgent?text=Appointment+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class ParticipantSyncData : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class ParticipantSyncData : Carrier
     content.vb: >-
-      Public Class ParticipantSyncData
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class ParticipantSyncData Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.AppointmentAgent
-    commentId: T:SuperOffice.CRM.Services.AppointmentAgent
   - linkId: SuperOffice.CRM.Services.IAppointmentAgent
     commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.#ctor
   commentId: M:SuperOffice.CRM.Services.ParticipantSyncData.#ctor
   id: '#ctor'
@@ -84,21 +89,18 @@ items:
   nameWithType: ParticipantSyncData.ParticipantSyncData()
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.ParticipantSyncData()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public ParticipantSyncData()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.ParticipantSyncData.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ParticipantSyncData.New()
+  fullName.vb: SuperOffice.CRM.Services.ParticipantSyncData.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.ToString
   commentId: M:SuperOffice.CRM.Services.ParticipantSyncData.ToString
   id: ToString
@@ -110,26 +112,18 @@ items:
   nameWithType: ParticipantSyncData.ToString()
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.ParticipantSyncData.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ParticipantSyncData.ToString(System.String)
   id: ToString(System.String)
@@ -137,17 +131,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: ParticipantSyncData.ToString(String)
-  fullName: SuperOffice.CRM.Services.ParticipantSyncData.ToString(System.String)
+  name: ToString(string)
+  nameWithType: ParticipantSyncData.ToString(string)
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -159,10 +154,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ParticipantSyncData.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ParticipantSyncData.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.ParticipantSyncData.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonId
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PersonId
   id: PersonId
@@ -174,28 +168,28 @@ items:
   nameWithType: ParticipantSyncData.PersonId
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPerson ID of person the appointment is with, may be 0 \n"
+  summary: Person ID of person the appointment is with, may be 0
+  example: []
   syntax:
-    content: public virtual int PersonId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int PersonId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property PersonId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PersonId As Integer
   overload: SuperOffice.CRM.Services.ParticipantSyncData.PersonId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonFirstName
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PersonFirstName
   id: PersonFirstName
@@ -207,28 +201,28 @@ items:
   nameWithType: ParticipantSyncData.PersonFirstName
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonFirstName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nFirst name \n"
+  summary: First name
+  example: []
   syntax:
-    content: public virtual string PersonFirstName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string PersonFirstName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property PersonFirstName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PersonFirstName As String
   overload: SuperOffice.CRM.Services.ParticipantSyncData.PersonFirstName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonMiddleName
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PersonMiddleName
   id: PersonMiddleName
@@ -240,28 +234,28 @@ items:
   nameWithType: ParticipantSyncData.PersonMiddleName
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonMiddleName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nMiddle name or &apos;van&apos; etc. \n"
+  summary: Middle name or 'van' etc.
+  example: []
   syntax:
-    content: public virtual string PersonMiddleName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string PersonMiddleName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property PersonMiddleName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PersonMiddleName As String
   overload: SuperOffice.CRM.Services.ParticipantSyncData.PersonMiddleName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonLastname
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PersonLastname
   id: PersonLastname
@@ -273,28 +267,28 @@ items:
   nameWithType: ParticipantSyncData.PersonLastname
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonLastname
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLast name \n"
+  summary: Last name
+  example: []
   syntax:
-    content: public virtual string PersonLastname { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string PersonLastname { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property PersonLastname As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PersonLastname As String
   overload: SuperOffice.CRM.Services.ParticipantSyncData.PersonLastname*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonMrmrs
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PersonMrmrs
   id: PersonMrmrs
@@ -306,28 +300,28 @@ items:
   nameWithType: ParticipantSyncData.PersonMrmrs
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonMrmrs
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\ne.g. Mrs   sex_title \n"
+  summary: e.g. Mrs   sex_title
+  example: []
   syntax:
-    content: public virtual string PersonMrmrs { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string PersonMrmrs { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property PersonMrmrs As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PersonMrmrs As String
   overload: SuperOffice.CRM.Services.ParticipantSyncData.PersonMrmrs*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonTitle
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PersonTitle
   id: PersonTitle
@@ -339,28 +333,28 @@ items:
   nameWithType: ParticipantSyncData.PersonTitle
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonTitle
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTitle \n"
+  summary: Title
+  example: []
   syntax:
-    content: public virtual string PersonTitle { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string PersonTitle { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property PersonTitle As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PersonTitle As String
   overload: SuperOffice.CRM.Services.ParticipantSyncData.PersonTitle*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonPosition
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PersonPosition
   id: PersonPosition
@@ -372,28 +366,28 @@ items:
   nameWithType: ParticipantSyncData.PersonPosition
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonPosition
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe position. This is a predefined SuperOffice value, different from Title \n"
+  summary: The position. This is a predefined SuperOffice value, different from Title
+  example: []
   syntax:
-    content: public virtual string PersonPosition { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string PersonPosition { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property PersonPosition As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PersonPosition As String
   overload: SuperOffice.CRM.Services.ParticipantSyncData.PersonPosition*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonAcademicTitle
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PersonAcademicTitle
   id: PersonAcademicTitle
@@ -405,28 +399,28 @@ items:
   nameWithType: ParticipantSyncData.PersonAcademicTitle
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonAcademicTitle
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nAcademic title, populated from Salutation list but can be overwritten with anything at all \n"
+  summary: Academic title, populated from Salutation list but can be overwritten with anything at all
+  example: []
   syntax:
-    content: public virtual string PersonAcademicTitle { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string PersonAcademicTitle { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property PersonAcademicTitle As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PersonAcademicTitle As String
   overload: SuperOffice.CRM.Services.ParticipantSyncData.PersonAcademicTitle*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonFormalName
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PersonFormalName
   id: PersonFormalName
@@ -438,28 +432,28 @@ items:
   nameWithType: ParticipantSyncData.PersonFormalName
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonFormalName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet formal name for a person, as used in labels. (Full name + person title + academic title) \n"
+  summary: Get formal name for a person, as used in labels. (Full name + person title + academic title)
+  example: []
   syntax:
-    content: public virtual string PersonFormalName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string PersonFormalName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property PersonFormalName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PersonFormalName As String
   overload: SuperOffice.CRM.Services.ParticipantSyncData.PersonFormalName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonFullName
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PersonFullName
   id: PersonFullName
@@ -471,28 +465,28 @@ items:
   nameWithType: ParticipantSyncData.PersonFullName
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonFullName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe person&apos;s full name localized to the current culture/country.  (internal name used in clients for employees) \n"
+  summary: The person's full name localized to the current culture/country.  (internal name used in clients for employees)
+  example: []
   syntax:
-    content: public virtual string PersonFullName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string PersonFullName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property PersonFullName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PersonFullName As String
   overload: SuperOffice.CRM.Services.ParticipantSyncData.PersonFullName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactId
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.ContactId
   id: ContactId
@@ -504,28 +498,28 @@ items:
   nameWithType: ParticipantSyncData.ContactId
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nContact ID of owning contact, may be 0 \n"
+  summary: Contact ID of owning contact, may be 0
+  example: []
   syntax:
-    content: public virtual int ContactId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int ContactId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property ContactId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ContactId As Integer
   overload: SuperOffice.CRM.Services.ParticipantSyncData.ContactId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactName
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.ContactName
   id: ContactName
@@ -537,28 +531,28 @@ items:
   nameWithType: ParticipantSyncData.ContactName
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nContact name \n"
+  summary: Contact name
+  example: []
   syntax:
-    content: public virtual string ContactName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string ContactName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property ContactName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ContactName As String
   overload: SuperOffice.CRM.Services.ParticipantSyncData.ContactName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactDepartment
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.ContactDepartment
   id: ContactDepartment
@@ -570,28 +564,28 @@ items:
   nameWithType: ParticipantSyncData.ContactDepartment
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactDepartment
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDepartment \n"
+  summary: Department
+  example: []
   syntax:
-    content: public virtual string ContactDepartment { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string ContactDepartment { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property ContactDepartment As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ContactDepartment As String
   overload: SuperOffice.CRM.Services.ParticipantSyncData.ContactDepartment*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactBusiness
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.ContactBusiness
   id: ContactBusiness
@@ -603,28 +597,28 @@ items:
   nameWithType: ParticipantSyncData.ContactBusiness
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactBusiness
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe business that the contact is associated with. The GUI forces the user to enter a business type. \n"
+  summary: The business that the contact is associated with. The GUI forces the user to enter a business type.
+  example: []
   syntax:
-    content: public virtual string ContactBusiness { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string ContactBusiness { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property ContactBusiness As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ContactBusiness As String
   overload: SuperOffice.CRM.Services.ParticipantSyncData.ContactBusiness*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactCountry
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.ContactCountry
   id: ContactCountry
@@ -636,28 +630,28 @@ items:
   nameWithType: ParticipantSyncData.ContactCountry
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactCountry
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: public virtual string ContactCountry { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string ContactCountry { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property ContactCountry As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ContactCountry As String
   overload: SuperOffice.CRM.Services.ParticipantSyncData.ContactCountry*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactCategory
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.ContactCategory
   id: ContactCategory
@@ -669,28 +663,28 @@ items:
   nameWithType: ParticipantSyncData.ContactCategory
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactCategory
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe category that is set on the company. The GUI forces the user to enter a category type \n"
+  summary: The category that is set on the company. The GUI forces the user to enter a category type
+  example: []
   syntax:
-    content: public virtual string ContactCategory { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string ContactCategory { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property ContactCategory As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ContactCategory As String
   overload: SuperOffice.CRM.Services.ParticipantSyncData.ContactCategory*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactFullName
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.ContactFullName
   id: ContactFullName
@@ -702,28 +696,28 @@ items:
   nameWithType: ParticipantSyncData.ContactFullName
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactFullName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: public virtual string ContactFullName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string ContactFullName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property ContactFullName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ContactFullName As String
   overload: SuperOffice.CRM.Services.ParticipantSyncData.ContactFullName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.EMail
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.EMail
   id: EMail
@@ -735,28 +729,28 @@ items:
   nameWithType: ParticipantSyncData.EMail
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.EMail
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: public virtual string[] EMail { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string[] EMail { get; set; }
     parameters: []
     return:
       type: System.String[]
-    content.vb: Public Overridable Property EMail As String()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property EMail As String()
   overload: SuperOffice.CRM.Services.ParticipantSyncData.EMail*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PhonePrivate
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PhonePrivate
   id: PhonePrivate
@@ -768,28 +762,28 @@ items:
   nameWithType: ParticipantSyncData.PhonePrivate
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PhonePrivate
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns a collection of phone numbers that belong to the contact person. \n"
+  summary: Returns a collection of phone numbers that belong to the contact person.
+  example: []
   syntax:
-    content: public virtual string[] PhonePrivate { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string[] PhonePrivate { get; set; }
     parameters: []
     return:
       type: System.String[]
-    content.vb: Public Overridable Property PhonePrivate As String()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PhonePrivate As String()
   overload: SuperOffice.CRM.Services.ParticipantSyncData.PhonePrivate*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PhoneFax
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PhoneFax
   id: PhoneFax
@@ -801,28 +795,28 @@ items:
   nameWithType: ParticipantSyncData.PhoneFax
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PhoneFax
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns a collection of fax numbers that belong to the contact person. \n"
+  summary: Returns a collection of fax numbers that belong to the contact person.
+  example: []
   syntax:
-    content: public virtual string[] PhoneFax { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string[] PhoneFax { get; set; }
     parameters: []
     return:
       type: System.String[]
-    content.vb: Public Overridable Property PhoneFax As String()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PhoneFax As String()
   overload: SuperOffice.CRM.Services.ParticipantSyncData.PhoneFax*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PhoneMobile
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PhoneMobile
   id: PhoneMobile
@@ -834,28 +828,28 @@ items:
   nameWithType: ParticipantSyncData.PhoneMobile
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PhoneMobile
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns a collection of mobile phone numbers that belong to the contact person. \n"
+  summary: Returns a collection of mobile phone numbers that belong to the contact person.
+  example: []
   syntax:
-    content: public virtual string[] PhoneMobile { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string[] PhoneMobile { get; set; }
     parameters: []
     return:
       type: System.String[]
-    content.vb: Public Overridable Property PhoneMobile As String()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PhoneMobile As String()
   overload: SuperOffice.CRM.Services.ParticipantSyncData.PhoneMobile*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PhoneDirect
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PhoneDirect
   id: PhoneDirect
@@ -867,28 +861,28 @@ items:
   nameWithType: ParticipantSyncData.PhoneDirect
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PhoneDirect
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: public virtual string[] PhoneDirect { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string[] PhoneDirect { get; set; }
     parameters: []
     return:
       type: System.String[]
-    content.vb: Public Overridable Property PhoneDirect As String()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PhoneDirect As String()
   overload: SuperOffice.CRM.Services.ParticipantSyncData.PhoneDirect*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PhoneContact
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PhoneContact
   id: PhoneContact
@@ -900,28 +894,28 @@ items:
   nameWithType: ParticipantSyncData.PhoneContact
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PhoneContact
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns a collection of office phone numbers that belong to the contact person. \n"
+  summary: Returns a collection of office phone numbers that belong to the contact person.
+  example: []
   syntax:
-    content: public virtual string[] PhoneContact { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string[] PhoneContact { get; set; }
     parameters: []
     return:
       type: System.String[]
-    content.vb: Public Overridable Property PhoneContact As String()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PhoneContact As String()
   overload: SuperOffice.CRM.Services.ParticipantSyncData.PhoneContact*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.Messenger
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.Messenger
   id: Messenger
@@ -933,28 +927,28 @@ items:
   nameWithType: ParticipantSyncData.Messenger
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.Messenger
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: public virtual string[] Messenger { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string[] Messenger { get; set; }
     parameters: []
     return:
       type: System.String[]
-    content.vb: Public Overridable Property Messenger As String()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Messenger As String()
   overload: SuperOffice.CRM.Services.ParticipantSyncData.Messenger*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.Voip
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.Voip
   id: Voip
@@ -966,28 +960,28 @@ items:
   nameWithType: ParticipantSyncData.Voip
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.Voip
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: public virtual string[] Voip { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string[] Voip { get; set; }
     parameters: []
     return:
       type: System.String[]
-    content.vb: Public Overridable Property Voip As String()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Voip As String()
   overload: SuperOffice.CRM.Services.ParticipantSyncData.Voip*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactUrl
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.ContactUrl
   id: ContactUrl
@@ -999,28 +993,28 @@ items:
   nameWithType: ParticipantSyncData.ContactUrl
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactUrl
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe contact&apos;s internet adresses \n"
+  summary: The contact's internet adresses
+  example: []
   syntax:
-    content: public virtual string[] ContactUrl { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string[] ContactUrl { get; set; }
     parameters: []
     return:
       type: System.String[]
-    content.vb: Public Overridable Property ContactUrl As String()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ContactUrl As String()
   overload: SuperOffice.CRM.Services.ParticipantSyncData.ContactUrl*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.Url
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.Url
   id: Url
@@ -1032,28 +1026,28 @@ items:
   nameWithType: ParticipantSyncData.Url
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.Url
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe urls related to this person. \n"
+  summary: The urls related to this person.
+  example: []
   syntax:
-    content: public virtual string[] Url { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string[] Url { get; set; }
     parameters: []
     return:
       type: System.String[]
-    content.vb: Public Overridable Property Url As String()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Url As String()
   overload: SuperOffice.CRM.Services.ParticipantSyncData.Url*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.StreetAddress
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.StreetAddress
   id: StreetAddress
@@ -1065,28 +1059,28 @@ items:
   nameWithType: ParticipantSyncData.StreetAddress
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.StreetAddress
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: public virtual AddressSyncData StreetAddress { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual AddressSyncData StreetAddress { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.AddressSyncData
-    content.vb: Public Overridable Property StreetAddress As AddressSyncData
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property StreetAddress As AddressSyncData
   overload: SuperOffice.CRM.Services.ParticipantSyncData.StreetAddress*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PostalAddress
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PostalAddress
   id: PostalAddress
@@ -1098,28 +1092,28 @@ items:
   nameWithType: ParticipantSyncData.PostalAddress
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PostalAddress
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: public virtual AddressSyncData PostalAddress { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual AddressSyncData PostalAddress { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.AddressSyncData
-    content.vb: Public Overridable Property PostalAddress As AddressSyncData
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PostalAddress As AddressSyncData
   overload: SuperOffice.CRM.Services.ParticipantSyncData.PostalAddress*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.Country
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.Country
   id: Country
@@ -1131,28 +1125,28 @@ items:
   nameWithType: ParticipantSyncData.Country
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.Country
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe country this contact is located in. The country a contact is saved with, affects the phone number format, and the address layout. \n"
+  summary: The country this contact is located in. The country a contact is saved with, affects the phone number format, and the address layout.
+  example: []
   syntax:
-    content: public virtual string Country { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Country { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Country As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Country As String
   overload: SuperOffice.CRM.Services.ParticipantSyncData.Country*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonAddress
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PersonAddress
   id: PersonAddress
@@ -1164,28 +1158,28 @@ items:
   nameWithType: ParticipantSyncData.PersonAddress
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonAddress
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: public virtual AddressSyncData PersonAddress { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual AddressSyncData PersonAddress { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.AddressSyncData
-    content.vb: Public Overridable Property PersonAddress As AddressSyncData
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PersonAddress As AddressSyncData
   overload: SuperOffice.CRM.Services.ParticipantSyncData.PersonAddress*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonCountry
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PersonCountry
   id: PersonCountry
@@ -1197,28 +1191,28 @@ items:
   nameWithType: ParticipantSyncData.PersonCountry
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonCountry
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe country this contact person is located in. \n"
+  summary: The country this contact person is located in.
+  example: []
   syntax:
-    content: public virtual string PersonCountry { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string PersonCountry { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property PersonCountry As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PersonCountry As String
   overload: SuperOffice.CRM.Services.ParticipantSyncData.PersonCountry*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.ParticipantStatus
   commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.ParticipantStatus
   id: ParticipantStatus
@@ -1230,57 +1224,106 @@ items:
   nameWithType: ParticipantSyncData.ParticipantStatus
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.ParticipantStatus
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe appointment status for this participant. \n"
+  summary: The appointment status for this participant.
+  example: []
   syntax:
-    content: public virtual AppointmentStatus ParticipantStatus { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual AppointmentStatus ParticipantStatus { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.AppointmentStatus
-    content.vb: Public Overridable Property ParticipantStatus As AppointmentStatus
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ParticipantStatus As AppointmentStatus
   overload: SuperOffice.CRM.Services.ParticipantSyncData.ParticipantStatus*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.AppointmentAgent
-  commentId: T:SuperOffice.CRM.Services.AppointmentAgent
-  isExternal: true
-  name: AppointmentAgent
-  nameWithType: AppointmentAgent
-  fullName: SuperOffice.CRM.Services.AppointmentAgent
 - uid: SuperOffice.CRM.Services.IAppointmentAgent
   commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IAppointmentAgent.html
   name: IAppointmentAgent
   nameWithType: IAppointmentAgent
   fullName: SuperOffice.CRM.Services.IAppointmentAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData__ctor
   name: ParticipantSyncData
   nameWithType: ParticipantSyncData.ParticipantSyncData
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.ParticipantSyncData
+  nameWithType.vb: ParticipantSyncData.New
+  fullName.vb: SuperOffice.CRM.Services.ParticipantSyncData.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_ToString
   name: ToString
   nameWithType: ParticipantSyncData.ToString
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.ToString
@@ -1288,18 +1331,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonId*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PersonId
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_PersonId
   name: PersonId
   nameWithType: ParticipantSyncData.PersonId
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonId
@@ -1307,194 +1349,222 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonFirstName*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PersonFirstName
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_PersonFirstName
   name: PersonFirstName
   nameWithType: ParticipantSyncData.PersonFirstName
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonFirstName
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonMiddleName*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PersonMiddleName
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_PersonMiddleName
   name: PersonMiddleName
   nameWithType: ParticipantSyncData.PersonMiddleName
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonMiddleName
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonLastname*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PersonLastname
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_PersonLastname
   name: PersonLastname
   nameWithType: ParticipantSyncData.PersonLastname
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonLastname
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonMrmrs*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PersonMrmrs
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_PersonMrmrs
   name: PersonMrmrs
   nameWithType: ParticipantSyncData.PersonMrmrs
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonMrmrs
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonTitle*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PersonTitle
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_PersonTitle
   name: PersonTitle
   nameWithType: ParticipantSyncData.PersonTitle
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonTitle
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonPosition*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PersonPosition
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_PersonPosition
   name: PersonPosition
   nameWithType: ParticipantSyncData.PersonPosition
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonPosition
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonAcademicTitle*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PersonAcademicTitle
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_PersonAcademicTitle
   name: PersonAcademicTitle
   nameWithType: ParticipantSyncData.PersonAcademicTitle
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonAcademicTitle
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonFormalName*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PersonFormalName
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_PersonFormalName
   name: PersonFormalName
   nameWithType: ParticipantSyncData.PersonFormalName
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonFormalName
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonFullName*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PersonFullName
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_PersonFullName
   name: PersonFullName
   nameWithType: ParticipantSyncData.PersonFullName
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonFullName
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactId*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.ContactId
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_ContactId
   name: ContactId
   nameWithType: ParticipantSyncData.ContactId
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactId
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactName*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.ContactName
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_ContactName
   name: ContactName
   nameWithType: ParticipantSyncData.ContactName
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactName
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactDepartment*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.ContactDepartment
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_ContactDepartment
   name: ContactDepartment
   nameWithType: ParticipantSyncData.ContactDepartment
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactDepartment
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactBusiness*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.ContactBusiness
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_ContactBusiness
   name: ContactBusiness
   nameWithType: ParticipantSyncData.ContactBusiness
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactBusiness
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactCountry*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.ContactCountry
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_ContactCountry
   name: ContactCountry
   nameWithType: ParticipantSyncData.ContactCountry
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactCountry
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactCategory*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.ContactCategory
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_ContactCategory
   name: ContactCategory
   nameWithType: ParticipantSyncData.ContactCategory
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactCategory
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactFullName*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.ContactFullName
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_ContactFullName
   name: ContactFullName
   nameWithType: ParticipantSyncData.ContactFullName
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactFullName
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.EMail*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.EMail
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_EMail
   name: EMail
   nameWithType: ParticipantSyncData.EMail
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.EMail
 - uid: System.String[]
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
   nameWithType.vb: String()
-  fullName.vb: System.String()
+  fullName.vb: String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PhonePrivate*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PhonePrivate
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_PhonePrivate
   name: PhonePrivate
   nameWithType: ParticipantSyncData.PhonePrivate
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PhonePrivate
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PhoneFax*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PhoneFax
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_PhoneFax
   name: PhoneFax
   nameWithType: ParticipantSyncData.PhoneFax
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PhoneFax
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PhoneMobile*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PhoneMobile
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_PhoneMobile
   name: PhoneMobile
   nameWithType: ParticipantSyncData.PhoneMobile
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PhoneMobile
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PhoneDirect*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PhoneDirect
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_PhoneDirect
   name: PhoneDirect
   nameWithType: ParticipantSyncData.PhoneDirect
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PhoneDirect
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PhoneContact*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PhoneContact
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_PhoneContact
   name: PhoneContact
   nameWithType: ParticipantSyncData.PhoneContact
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PhoneContact
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.Messenger*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.Messenger
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_Messenger
   name: Messenger
   nameWithType: ParticipantSyncData.Messenger
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.Messenger
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.Voip*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.Voip
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_Voip
   name: Voip
   nameWithType: ParticipantSyncData.Voip
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.Voip
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactUrl*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.ContactUrl
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_ContactUrl
   name: ContactUrl
   nameWithType: ParticipantSyncData.ContactUrl
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactUrl
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.Url*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.Url
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_Url
   name: Url
   nameWithType: ParticipantSyncData.Url
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.Url
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.StreetAddress*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.StreetAddress
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_StreetAddress
   name: StreetAddress
   nameWithType: ParticipantSyncData.StreetAddress
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.StreetAddress
@@ -1502,36 +1572,42 @@ references:
   commentId: T:SuperOffice.CRM.Services.AddressSyncData
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.AddressSyncData.html
   name: AddressSyncData
   nameWithType: AddressSyncData
   fullName: SuperOffice.CRM.Services.AddressSyncData
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PostalAddress*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PostalAddress
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_PostalAddress
   name: PostalAddress
   nameWithType: ParticipantSyncData.PostalAddress
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PostalAddress
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.Country*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.Country
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_Country
   name: Country
   nameWithType: ParticipantSyncData.Country
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.Country
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonAddress*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PersonAddress
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_PersonAddress
   name: PersonAddress
   nameWithType: ParticipantSyncData.PersonAddress
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonAddress
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonCountry*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PersonCountry
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_PersonCountry
   name: PersonCountry
   nameWithType: ParticipantSyncData.PersonCountry
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonCountry
 - uid: SuperOffice.CRM.Services.ParticipantSyncData.ParticipantStatus*
   commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.ParticipantStatus
   isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantSyncData.html#SuperOffice_CRM_Services_ParticipantSyncData_ParticipantStatus
   name: ParticipantStatus
   nameWithType: ParticipantSyncData.ParticipantStatus
   fullName: SuperOffice.CRM.Services.ParticipantSyncData.ParticipantStatus

@@ -22,20 +22,25 @@ items:
   nameWithType: TicketStatusEntity
   fullName: SuperOffice.WebApi.Data.TicketStatusEntity
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for TicketStatusEntity.\nEntity for a ticket status. This entity describes the meta data for a ticket status, and provides special operations on it.    \n"
+  summary: >-
+    Carrier object for TicketStatusEntity.
+
+    Entity for a ticket status. This entity describes the meta data for a ticket status, and provides special operations on it.
   example:
-  - "\nGet TicketStatusEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ListAgent(configuration);\nvar ticketStatusEntity = agent.GetTicketStatusEntity( 123 );</code></pre>\n"
+  - >-
+    Get TicketStatusEntity 123 using the WebApi client:
+
+    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
+
+    var agent = new ListAgent(configuration);
+
+    var ticketStatusEntity = agent.GetTicketStatusEntity( 123 );</code></pre>
   syntax:
     content: 'public class TicketStatusEntity : Carrier'
-    content.vb: >-
-      Public Class TicketStatusEntity
-          Inherits Carrier
+    content.vb: Public Class TicketStatusEntity Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.ListAgent
     commentId: T:SuperOffice.WebApi.Agents.ListAgent
@@ -45,12 +50,13 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.TicketStatusEntity.#ctor
   commentId: M:SuperOffice.WebApi.Data.TicketStatusEntity.#ctor
   id: '#ctor'
@@ -62,21 +68,18 @@ items:
   nameWithType: TicketStatusEntity.TicketStatusEntity()
   fullName: SuperOffice.WebApi.Data.TicketStatusEntity.TicketStatusEntity()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public TicketStatusEntity()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.TicketStatusEntity.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: TicketStatusEntity.New()
+  fullName.vb: SuperOffice.WebApi.Data.TicketStatusEntity.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.TicketStatusEntity.TicketStatusId
   commentId: P:SuperOffice.WebApi.Data.TicketStatusEntity.TicketStatusId
   id: TicketStatusId
@@ -88,13 +91,11 @@ items:
   nameWithType: TicketStatusEntity.TicketStatusId
   fullName: SuperOffice.WebApi.Data.TicketStatusEntity.TicketStatusId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe primary key (auto-incremented)\n"
+  summary: The primary key (auto-incremented)
+  example: []
   syntax:
     content: public virtual int TicketStatusId { get; set; }
     parameters: []
@@ -102,14 +103,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property TicketStatusId As Integer
   overload: SuperOffice.WebApi.Data.TicketStatusEntity.TicketStatusId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.TicketStatusEntity.Name
   commentId: P:SuperOffice.WebApi.Data.TicketStatusEntity.Name
   id: Name
@@ -121,13 +114,11 @@ items:
   nameWithType: TicketStatusEntity.Name
   fullName: SuperOffice.WebApi.Data.TicketStatusEntity.Name
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nName of user defined ticket status\n"
+  summary: Name of user defined ticket status
+  example: []
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -135,14 +126,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Name As String
   overload: SuperOffice.WebApi.Data.TicketStatusEntity.Name*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.TicketStatusEntity.Status_String
   commentId: P:SuperOffice.WebApi.Data.TicketStatusEntity.Status_String
   id: Status_String
@@ -154,29 +137,36 @@ items:
   nameWithType: TicketStatusEntity.Status_String
   fullName: SuperOffice.WebApi.Data.TicketStatusEntity.Status_String
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe &amp;apos;classic&amp;apos; ticket status. I.e. active/closed/postponed/deleted\nRaw string enum value.\n"
+  summary: >-
+    The &amp;apos;classic&amp;apos; ticket status. I.e. active/closed/postponed/deleted
+
+    Raw string enum value.
+  example: []
   syntax:
-    content: public string Status_String { get; set; }
+    content: >-
+      [JsonProperty("Status")]
+
+      public string Status_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property Status_String As String
+    content.vb: >-
+      <JsonProperty("Status")>
+
+      Public Property Status_String As String
   overload: SuperOffice.WebApi.Data.TicketStatusEntity.Status_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.TicketStatusEntity.Status
     commentId: P:SuperOffice.WebApi.Data.TicketStatusEntity.Status
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Status
 - uid: SuperOffice.WebApi.Data.TicketStatusEntity.Status
   commentId: P:SuperOffice.WebApi.Data.TicketStatusEntity.Status
   id: Status
@@ -188,29 +178,34 @@ items:
   nameWithType: TicketStatusEntity.Status
   fullName: SuperOffice.WebApi.Data.TicketStatusEntity.Status
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe &amp;apos;classic&amp;apos; ticket status. I.e. active/closed/postponed/deleted\nNULL if unknown enum value.\n"
+  summary: >-
+    The &amp;apos;classic&amp;apos; ticket status. I.e. active/closed/postponed/deleted
+
+    NULL if unknown enum value.
+  example: []
   syntax:
-    content: public Nullable<TicketBaseStatus> Status { get; set; }
+    content: >-
+      [JsonIgnore]
+
+      public TicketBaseStatus? Status { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.TicketBaseStatus}
-    content.vb: Public Property Status As Nullable(Of TicketBaseStatus)
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property Status As TicketBaseStatus?
   overload: SuperOffice.WebApi.Data.TicketStatusEntity.Status*
   seealso:
   - linkId: SuperOffice.WebApi.Data.TicketStatusEntity.Status_String
     commentId: P:SuperOffice.WebApi.Data.TicketStatusEntity.Status_String
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter_String
   commentId: P:SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter_String
   id: TimeCounter_String
@@ -222,29 +217,36 @@ items:
   nameWithType: TicketStatusEntity.TimeCounter_String
   fullName: SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter_String
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhich field in ticket we count time spent on (queue, internal, external) \nRaw string enum value.\n"
+  summary: >-
+    Which field in ticket we count time spent on (queue, internal, external) 
+
+    Raw string enum value.
+  example: []
   syntax:
-    content: public string TimeCounter_String { get; set; }
+    content: >-
+      [JsonProperty("TimeCounter")]
+
+      public string TimeCounter_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property TimeCounter_String As String
+    content.vb: >-
+      <JsonProperty("TimeCounter")>
+
+      Public Property TimeCounter_String As String
   overload: SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter
     commentId: P:SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: TimeCounter
 - uid: SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter
   commentId: P:SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter
   id: TimeCounter
@@ -256,29 +258,34 @@ items:
   nameWithType: TicketStatusEntity.TimeCounter
   fullName: SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhich field in ticket we count time spent on (queue, internal, external) \nNULL if unknown enum value.\n"
+  summary: >-
+    Which field in ticket we count time spent on (queue, internal, external) 
+
+    NULL if unknown enum value.
+  example: []
   syntax:
-    content: public Nullable<TicketStatusTimeCounter> TimeCounter { get; set; }
+    content: >-
+      [JsonIgnore]
+
+      public TicketStatusTimeCounter? TimeCounter { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.TicketStatusTimeCounter}
-    content.vb: Public Property TimeCounter As Nullable(Of TicketStatusTimeCounter)
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property TimeCounter As TicketStatusTimeCounter?
   overload: SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter*
   seealso:
   - linkId: SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter_String
     commentId: P:SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter_String
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketStatusEntity.NoEmailReopen
   commentId: P:SuperOffice.WebApi.Data.TicketStatusEntity.NoEmailReopen
   id: NoEmailReopen
@@ -290,13 +297,11 @@ items:
   nameWithType: TicketStatusEntity.NoEmailReopen
   fullName: SuperOffice.WebApi.Data.TicketStatusEntity.NoEmailReopen
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhether inbound emails can reopen requests with this status or not\n"
+  summary: Whether inbound emails can reopen requests with this status or not
+  example: []
   syntax:
     content: public virtual bool NoEmailReopen { get; set; }
     parameters: []
@@ -304,14 +309,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property NoEmailReopen As Boolean
   overload: SuperOffice.WebApi.Data.TicketStatusEntity.NoEmailReopen*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.TicketStatusEntity.IsDefault
   commentId: P:SuperOffice.WebApi.Data.TicketStatusEntity.IsDefault
   id: IsDefault
@@ -323,13 +320,11 @@ items:
   nameWithType: TicketStatusEntity.IsDefault
   fullName: SuperOffice.WebApi.Data.TicketStatusEntity.IsDefault
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nIndicates if status is default one as there might be more than one status with same internal status\n"
+  summary: Indicates if status is default one as there might be more than one status with same internal status
+  example: []
   syntax:
     content: public virtual bool IsDefault { get; set; }
     parameters: []
@@ -337,14 +332,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property IsDefault As Boolean
   overload: SuperOffice.WebApi.Data.TicketStatusEntity.IsDefault*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.TicketStatusEntity.UsedInQueue
   commentId: P:SuperOffice.WebApi.Data.TicketStatusEntity.UsedInQueue
   id: UsedInQueue
@@ -356,13 +343,11 @@ items:
   nameWithType: TicketStatusEntity.UsedInQueue
   fullName: SuperOffice.WebApi.Data.TicketStatusEntity.UsedInQueue
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nIf set, status is used in GetNext calculations\n"
+  summary: If set, status is used in GetNext calculations
+  example: []
   syntax:
     content: public virtual bool UsedInQueue { get; set; }
     parameters: []
@@ -370,32 +355,67 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property UsedInQueue As Boolean
   overload: SuperOffice.WebApi.Data.TicketStatusEntity.UsedInQueue*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ListAgent.html
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -403,6 +423,7 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -410,30 +431,250 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: SuperOffice.WebApi.Agents.ListAgent
-  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: ListAgent
-  nameWithType: ListAgent
-  fullName: SuperOffice.WebApi.Agents.ListAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.TicketStatusEntity.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.TicketStatusEntity.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketStatusEntity.html#SuperOffice_WebApi_Data_TicketStatusEntity__ctor
   name: TicketStatusEntity
   nameWithType: TicketStatusEntity.TicketStatusEntity
   fullName: SuperOffice.WebApi.Data.TicketStatusEntity.TicketStatusEntity
+  nameWithType.vb: TicketStatusEntity.New
+  fullName.vb: SuperOffice.WebApi.Data.TicketStatusEntity.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.TicketStatusEntity.TicketStatusId*
   commentId: Overload:SuperOffice.WebApi.Data.TicketStatusEntity.TicketStatusId
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketStatusEntity.html#SuperOffice_WebApi_Data_TicketStatusEntity_TicketStatusId
   name: TicketStatusId
   nameWithType: TicketStatusEntity.TicketStatusId
   fullName: SuperOffice.WebApi.Data.TicketStatusEntity.TicketStatusId
@@ -441,12 +682,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.WebApi.Data.TicketStatusEntity.Name*
   commentId: Overload:SuperOffice.WebApi.Data.TicketStatusEntity.Name
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketStatusEntity.html#SuperOffice_WebApi_Data_TicketStatusEntity_Name
   name: Name
   nameWithType: TicketStatusEntity.Name
   fullName: SuperOffice.WebApi.Data.TicketStatusEntity.Name
@@ -454,172 +700,141 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.WebApi.Data.TicketStatusEntity.Status_String*
-  commentId: Overload:SuperOffice.WebApi.Data.TicketStatusEntity.Status_String
-  isExternal: true
-  name: Status_String
-  nameWithType: TicketStatusEntity.Status_String
-  fullName: SuperOffice.WebApi.Data.TicketStatusEntity.Status_String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.TicketStatusEntity.Status
   commentId: P:SuperOffice.WebApi.Data.TicketStatusEntity.Status
   isExternal: true
-- uid: SuperOffice.WebApi.Data.TicketStatusEntity.Status*
-  commentId: Overload:SuperOffice.WebApi.Data.TicketStatusEntity.Status
-  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketStatusEntity.html#SuperOffice_WebApi_Data_TicketStatusEntity_Status
   name: Status
   nameWithType: TicketStatusEntity.Status
   fullName: SuperOffice.WebApi.Data.TicketStatusEntity.Status
+- uid: SuperOffice.WebApi.Data.TicketStatusEntity.Status_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketStatusEntity.Status_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketStatusEntity.html#SuperOffice_WebApi_Data_TicketStatusEntity_Status_String
+  name: Status_String
+  nameWithType: TicketStatusEntity.Status_String
+  fullName: SuperOffice.WebApi.Data.TicketStatusEntity.Status_String
 - uid: SuperOffice.WebApi.Data.TicketStatusEntity.Status_String
   commentId: P:SuperOffice.WebApi.Data.TicketStatusEntity.Status_String
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketStatusEntity.html#SuperOffice_WebApi_Data_TicketStatusEntity_Status_String
+  name: Status_String
+  nameWithType: TicketStatusEntity.Status_String
+  fullName: SuperOffice.WebApi.Data.TicketStatusEntity.Status_String
+- uid: SuperOffice.WebApi.Data.TicketStatusEntity.Status*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketStatusEntity.Status
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketStatusEntity.html#SuperOffice_WebApi_Data_TicketStatusEntity_Status
+  name: Status
+  nameWithType: TicketStatusEntity.Status
+  fullName: SuperOffice.WebApi.Data.TicketStatusEntity.Status
 - uid: System.Nullable{SuperOffice.WebApi.Data.TicketBaseStatus}
-  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.TicketBaseStatus}'
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.TicketBaseStatus}
+  parent: System
   definition: System.Nullable`1
-  name: Nullable<TicketBaseStatus>
-  nameWithType: Nullable<TicketBaseStatus>
-  fullName: System.Nullable<SuperOffice.WebApi.Data.TicketBaseStatus>
-  nameWithType.vb: Nullable(Of TicketBaseStatus)
-  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.TicketBaseStatus)
-  name.vb: Nullable(Of TicketBaseStatus)
+  href: SuperOffice.WebApi.Data.TicketBaseStatus.html
+  name: TicketBaseStatus?
+  nameWithType: TicketBaseStatus?
+  fullName: SuperOffice.WebApi.Data.TicketBaseStatus?
   spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.TicketBaseStatus
     name: TicketBaseStatus
-    nameWithType: TicketBaseStatus
-    fullName: SuperOffice.WebApi.Data.TicketBaseStatus
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.WebApi.Data.TicketBaseStatus.html
+  - name: '?'
   spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.TicketBaseStatus
     name: TicketBaseStatus
-    nameWithType: TicketBaseStatus
-    fullName: SuperOffice.WebApi.Data.TicketBaseStatus
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: SuperOffice.WebApi.Data.TicketBaseStatus.html
+  - name: '?'
 - uid: System.Nullable`1
+  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<>
-  nameWithType: Nullable<>
-  fullName: System.Nullable<>
-  nameWithType.vb: Nullable(Of )
-  fullName.vb: System.Nullable(Of )
-  name.vb: Nullable(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter_String*
-  commentId: Overload:SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter_String
-  isExternal: true
-  name: TimeCounter_String
-  nameWithType: TicketStatusEntity.TimeCounter_String
-  fullName: SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter_String
 - uid: SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter
   commentId: P:SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter
   isExternal: true
-- uid: SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter*
-  commentId: Overload:SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter
-  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketStatusEntity.html#SuperOffice_WebApi_Data_TicketStatusEntity_TimeCounter
   name: TimeCounter
   nameWithType: TicketStatusEntity.TimeCounter
   fullName: SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter
+- uid: SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketStatusEntity.html#SuperOffice_WebApi_Data_TicketStatusEntity_TimeCounter_String
+  name: TimeCounter_String
+  nameWithType: TicketStatusEntity.TimeCounter_String
+  fullName: SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter_String
 - uid: SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter_String
   commentId: P:SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter_String
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketStatusEntity.html#SuperOffice_WebApi_Data_TicketStatusEntity_TimeCounter_String
+  name: TimeCounter_String
+  nameWithType: TicketStatusEntity.TimeCounter_String
+  fullName: SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter_String
+- uid: SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketStatusEntity.html#SuperOffice_WebApi_Data_TicketStatusEntity_TimeCounter
+  name: TimeCounter
+  nameWithType: TicketStatusEntity.TimeCounter
+  fullName: SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter
 - uid: System.Nullable{SuperOffice.WebApi.Data.TicketStatusTimeCounter}
-  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.TicketStatusTimeCounter}'
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.TicketStatusTimeCounter}
+  parent: System
   definition: System.Nullable`1
-  name: Nullable<TicketStatusTimeCounter>
-  nameWithType: Nullable<TicketStatusTimeCounter>
-  fullName: System.Nullable<SuperOffice.WebApi.Data.TicketStatusTimeCounter>
-  nameWithType.vb: Nullable(Of TicketStatusTimeCounter)
-  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.TicketStatusTimeCounter)
-  name.vb: Nullable(Of TicketStatusTimeCounter)
+  href: SuperOffice.WebApi.Data.TicketStatusTimeCounter.html
+  name: TicketStatusTimeCounter?
+  nameWithType: TicketStatusTimeCounter?
+  fullName: SuperOffice.WebApi.Data.TicketStatusTimeCounter?
   spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.TicketStatusTimeCounter
     name: TicketStatusTimeCounter
-    nameWithType: TicketStatusTimeCounter
-    fullName: SuperOffice.WebApi.Data.TicketStatusTimeCounter
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.WebApi.Data.TicketStatusTimeCounter.html
+  - name: '?'
   spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.TicketStatusTimeCounter
     name: TicketStatusTimeCounter
-    nameWithType: TicketStatusTimeCounter
-    fullName: SuperOffice.WebApi.Data.TicketStatusTimeCounter
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: SuperOffice.WebApi.Data.TicketStatusTimeCounter.html
+  - name: '?'
 - uid: SuperOffice.WebApi.Data.TicketStatusEntity.NoEmailReopen*
   commentId: Overload:SuperOffice.WebApi.Data.TicketStatusEntity.NoEmailReopen
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketStatusEntity.html#SuperOffice_WebApi_Data_TicketStatusEntity_NoEmailReopen
   name: NoEmailReopen
   nameWithType: TicketStatusEntity.NoEmailReopen
   fullName: SuperOffice.WebApi.Data.TicketStatusEntity.NoEmailReopen
@@ -627,18 +842,24 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.WebApi.Data.TicketStatusEntity.IsDefault*
   commentId: Overload:SuperOffice.WebApi.Data.TicketStatusEntity.IsDefault
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketStatusEntity.html#SuperOffice_WebApi_Data_TicketStatusEntity_IsDefault
   name: IsDefault
   nameWithType: TicketStatusEntity.IsDefault
   fullName: SuperOffice.WebApi.Data.TicketStatusEntity.IsDefault
 - uid: SuperOffice.WebApi.Data.TicketStatusEntity.UsedInQueue*
   commentId: Overload:SuperOffice.WebApi.Data.TicketStatusEntity.UsedInQueue
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketStatusEntity.html#SuperOffice_WebApi_Data_TicketStatusEntity_UsedInQueue
   name: UsedInQueue
   nameWithType: TicketStatusEntity.UsedInQueue
   fullName: SuperOffice.WebApi.Data.TicketStatusEntity.UsedInQueue

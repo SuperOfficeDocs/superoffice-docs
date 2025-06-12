@@ -70,20 +70,20 @@ No Content
 POST /api/v1/Agents/Person/SendEmailWithEventName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "From": "ut",
-  "To": "consectetur",
-  "Subject": "recusandae",
-  "PlainBody": "enim",
-  "HtmlBody": "cum",
+  "From": "eius",
+  "To": "inventore",
+  "Subject": "veritatis",
+  "PlainBody": "ipsa",
+  "HtmlBody": "quo",
   "AttachmentIds": [
-    514,
-    525
+    251,
+    731
   ],
-  "EventName": "Deckow-Klein"
+  "EventName": "Hodkiewicz, Runolfsson and Murray"
 }
 ```
 

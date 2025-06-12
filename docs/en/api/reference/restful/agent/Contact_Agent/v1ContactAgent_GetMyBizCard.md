@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyBizCard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -120,157 +120,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 49,
-  "Name": "Hilll, Gleason and Lakin",
+  "ContactId": 783,
+  "Name": "Dietrich-Sanford",
   "Department": "",
-  "OrgNr": "1219443",
-  "Number1": "383968",
-  "Number2": "757398",
-  "UpdatedDate": "2007-10-16T16:32:38.4771663+02:00",
-  "CreatedDate": "2024-02-20T16:32:38.4771663+01:00",
+  "OrgNr": "365412",
+  "Number1": "1574372",
+  "Number2": "1175540",
+  "UpdatedDate": "2001-07-27T17:54:02.8670938+02:00",
+  "CreatedDate": "2024-06-19T17:54:02.8670938+02:00",
   "Emails": [
     {
-      "Value": "autem",
-      "StrippedValue": "quam",
-      "Description": "Digitized transitional service-desk",
+      "Value": "et",
+      "StrippedValue": "quibusdam",
+      "Description": "Cloned tertiary interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 497
+          "FieldLength": 138
         }
       }
     },
     {
-      "Value": "autem",
-      "StrippedValue": "quam",
-      "Description": "Digitized transitional service-desk",
+      "Value": "et",
+      "StrippedValue": "quibusdam",
+      "Description": "Cloned tertiary interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 497
+          "FieldLength": 138
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 657,
-      "Name": "Kulas-Goldner",
-      "ToolTip": "Autem ullam eum numquam omnis reiciendis doloremque.",
+      "Id": 961,
+      "Name": "Stiedemann-Balistreri",
+      "ToolTip": "Reiciendis voluptate nihil ullam.",
       "Deleted": false,
-      "Rank": 891,
-      "Type": "architecto",
-      "ColorBlock": 774,
-      "IconHint": "sequi",
+      "Rank": 443,
+      "Type": "distinctio",
+      "ColorBlock": 389,
+      "IconHint": "animi",
       "Selected": true,
-      "LastChanged": "2022-04-03T16:32:38.4771663+02:00",
+      "LastChanged": "2019-06-28T17:54:02.8670938+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "facilis",
-      "StyleHint": "omnis",
-      "Hidden": true,
-      "FullName": "Mrs. Hillard Sophia Schmitt",
+      "ExtraInfo": "sint",
+      "StyleHint": "laudantium",
+      "Hidden": false,
+      "FullName": "Israel Corkery",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 920
+          "FieldLength": 660
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "sint",
-      "StrippedValue": "eos",
-      "Description": "Implemented secondary frame",
+      "Value": "vel",
+      "StrippedValue": "omnis",
+      "Description": "Proactive transitional emulation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 284
+          "FieldType": "System.String",
+          "FieldLength": 918
         }
       }
     },
     {
-      "Value": "sint",
-      "StrippedValue": "eos",
-      "Description": "Implemented secondary frame",
+      "Value": "vel",
+      "StrippedValue": "omnis",
+      "Description": "Proactive transitional emulation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 284
+          "FieldType": "System.String",
+          "FieldLength": 918
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "nostrum",
-      "StrippedValue": "qui",
-      "Description": "Secured zero tolerance matrices",
+      "Value": "voluptatem",
+      "StrippedValue": "quia",
+      "Description": "Function-based multi-tasking product",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 604
+          "FieldLength": 697
         }
       }
     },
     {
-      "Value": "nostrum",
-      "StrippedValue": "qui",
-      "Description": "Secured zero tolerance matrices",
+      "Value": "voluptatem",
+      "StrippedValue": "quia",
+      "Description": "Function-based multi-tasking product",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 604
+          "FieldLength": 697
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "eaque",
-      "StrippedValue": "et",
-      "Description": "Integrated assymetric leverage",
+      "Value": "eum",
+      "StrippedValue": "nam",
+      "Description": "Multi-tiered mission-critical framework",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 73
+          "FieldLength": 487
         }
       }
     },
     {
-      "Value": "eaque",
-      "StrippedValue": "et",
-      "Description": "Integrated assymetric leverage",
+      "Value": "eum",
+      "StrippedValue": "nam",
+      "Description": "Multi-tiered mission-critical framework",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 73
+          "FieldLength": 487
         }
       }
     }
   ],
-  "Description": "Persevering object-oriented task-force",
+  "Description": "Triple-buffered incremental algorithm",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,101 +279,101 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "doloribus",
-      "PersonId": 815,
-      "Mrmrs": "accusamus",
-      "Firstname": "Mike",
-      "Lastname": "Champlin",
-      "MiddleName": "Christiansen Group",
-      "Title": "iusto",
-      "Description": "Multi-lateral coherent definition",
-      "Email": "marilie@lednerschultz.com",
-      "FullName": "Mr. Valentina Konopelski",
-      "DirectPhone": "415-648-2811",
-      "FormalName": "Ullrich-Prohaska",
-      "CountryId": 424,
-      "ContactId": 164,
-      "ContactName": "Breitenberg LLC",
-      "Retired": 678,
-      "Rank": 27,
-      "ActiveInterests": 414,
+      "Position": "consequatur",
+      "PersonId": 82,
+      "Mrmrs": "voluptates",
+      "Firstname": "Anjali",
+      "Lastname": "Feest",
+      "MiddleName": "Durgan Group",
+      "Title": "atque",
+      "Description": "Integrated zero administration moderator",
+      "Email": "kaela.marvin@frami.co.uk",
+      "FullName": "Mandy Grady",
+      "DirectPhone": "(980)713-2348 x5282",
+      "FormalName": "Grady-Ebert",
+      "CountryId": 890,
+      "ContactId": 650,
+      "ContactName": "Williamson-O'Connell",
+      "Retired": 928,
+      "Rank": 924,
+      "ActiveInterests": 954,
       "ContactDepartment": "",
-      "ContactCountryId": 562,
-      "ContactOrgNr": "963286",
-      "FaxPhone": "1-447-110-5962 x2023",
-      "MobilePhone": "171.289.9560",
-      "ContactPhone": "(126)785-3318",
-      "AssociateName": "Barton LLC",
-      "AssociateId": 535,
+      "ContactCountryId": 711,
+      "ContactOrgNr": "1679342",
+      "FaxPhone": "374.344.4685 x49845",
+      "MobilePhone": "290.015.3991 x30456",
+      "ContactPhone": "019.307.6220",
+      "AssociateName": "Hessel, Haag and Johnson",
+      "AssociateId": 473,
       "UsePersonAddress": false,
-      "ContactFax": "quibusdam",
-      "Kanafname": "consequatur",
-      "Kanalname": "temporibus",
-      "Post1": "vel",
-      "Post2": "voluptatum",
-      "Post3": "sed",
-      "EmailName": "kennedi_auer@trantow.uk",
-      "ContactFullName": "Alfonzo Green",
-      "ActiveErpLinks": 694,
-      "TicketPriorityId": 2,
-      "SupportLanguageId": 653,
-      "SupportAssociateId": 910,
+      "ContactFax": "et",
+      "Kanafname": "tempora",
+      "Kanalname": "asperiores",
+      "Post1": "aut",
+      "Post2": "nostrum",
+      "Post3": "et",
+      "EmailName": "alverta@thiel.biz",
+      "ContactFullName": "Mrs. Louie Jamal Kovacek",
+      "ActiveErpLinks": 873,
+      "TicketPriorityId": 337,
+      "SupportLanguageId": 395,
+      "SupportAssociateId": 14,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "1016229",
+      "PersonNumber": "1449799",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 671
+          "FieldLength": 391
         }
       }
     }
   ],
-  "NoMailing": false,
-  "Kananame": "et",
-  "Xstop": false,
-  "ActiveInterests": 67,
-  "GroupId": 93,
-  "ActiveStatusMonitorId": 373,
+  "NoMailing": true,
+  "Kananame": "illo",
+  "Xstop": true,
+  "ActiveInterests": 65,
+  "GroupId": 900,
+  "ActiveStatusMonitorId": 642,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 828,
-  "DbiAgentId": 477,
-  "DbiLastSyncronized": "2022-08-18T16:32:38.4927881+02:00",
-  "DbiKey": "rem",
-  "DbiLastModified": "2015-01-21T16:32:38.4927881+01:00",
+  "Deleted": 623,
+  "DbiAgentId": 606,
+  "DbiLastSyncronized": "2022-05-19T17:54:02.8827182+02:00",
+  "DbiKey": "ut",
+  "DbiLastModified": "2018-01-18T17:54:02.8827182+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 807,
-  "ActiveErpLinks": 326,
+  "Source": 408,
+  "ActiveErpLinks": 92,
   "BounceEmails": [
-    "ruthie@johns.name",
-    "tyrel@zemlak.uk"
+    "vivien.schoen@blick.ca",
+    "brittany@wunschbrown.info"
   ],
   "Domains": [
-    "repellendus",
-    "et"
+    "non",
+    "ut"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Paula Kunze",
-    "SuperOffice:2": "Darlene Connelly"
+    "SuperOffice:1": "Ms. Ross Spencer",
+    "SuperOffice:2": "Jayson Cronin"
   },
   "ExtraFields": {
-    "ExtraFields1": "quas",
-    "ExtraFields2": "veniam"
+    "ExtraFields1": "nihil",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "nobis",
-    "CustomFields2": "a"
+    "CustomFields1": "reiciendis",
+    "CustomFields2": "soluta"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 832
+      "FieldType": "System.Int32",
+      "FieldLength": 926
     }
   }
 }

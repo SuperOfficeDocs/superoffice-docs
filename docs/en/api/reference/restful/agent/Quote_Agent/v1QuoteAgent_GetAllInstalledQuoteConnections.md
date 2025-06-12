@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 144,
-    "ERPName": "Anderson-Oberbrunner",
-    "DisplayName": "Pfannerstill, Jerde and Schuster",
-    "DisplayDescription": "De-engineered logistical superstructure",
-    "Rank": 812,
-    "ConnectorName": "Wiza, Romaguera and Becker",
-    "ErpConnectionId": 565,
-    "ExtraData": "accusantium",
+    "QuoteConnectionId": 250,
+    "ERPName": "Daniel LLC",
+    "DisplayName": "Russel, Simonis and Heaney",
+    "DisplayDescription": "Compatible motivating system engine",
+    "Rank": 919,
+    "ConnectorName": "Wiegand-Altenwerth",
+    "ErpConnectionId": 23,
+    "ExtraData": "velit",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 193,
-        "ERPPriceListKey": "dolorum",
-        "QuoteConnectionId": 305,
-        "Name": "Hegmann, Dickens and Greenholt",
-        "Description": "Inverse didactic help-desk",
-        "Currency": "dolor",
-        "CurrencyName": "Smith, Bogan and Gottlieb",
-        "ValidFrom": "2013-01-04T16:32:39.7271263+01:00",
-        "ValidTo": "2012-08-08T16:32:39.7271263+02:00",
+        "PriceListId": 10,
+        "ERPPriceListKey": "sit",
+        "QuoteConnectionId": 51,
+        "Name": "Oberbrunner-Ebert",
+        "Description": "Expanded intangible concept",
+        "Currency": "quam",
+        "CurrencyName": "Boyer, Hodkiewicz and Halvorson",
+        "ValidFrom": "2011-11-03T17:54:03.5233118+01:00",
+        "ValidTo": "2005-04-29T17:54:03.5233118+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 956
+            "FieldType": "System.Int32",
+            "FieldLength": 336
           }
         }
       }
     ],
-    "AllAccess": false,
-    "Deleted": true,
+    "AllAccess": true,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      365,
-      797
+      510,
+      344
     ],
     "AssociateAccessIds": [
-      632,
-      553
+      917,
+      145
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 956
+        "FieldType": "System.String",
+        "FieldLength": 271
       }
     }
   }

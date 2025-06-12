@@ -27,7 +27,7 @@ Deletes the ServiceAuth
 | ServiceAuthId | int32 | **Required** The id of the ServiceAuth to be deleted. |
 
 ```http
-POST /api/v1/Agents/User/DeleteServiceAuth?ServiceAuthId=562
+POST /api/v1/Agents/User/DeleteServiceAuth?ServiceAuthId=391
 ```
 
 
@@ -58,7 +58,7 @@ No Content
 POST /api/v1/Agents/User/DeleteServiceAuth
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response

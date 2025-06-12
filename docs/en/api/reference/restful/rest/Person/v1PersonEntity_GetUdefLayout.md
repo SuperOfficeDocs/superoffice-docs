@@ -90,7 +90,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 408,
-    "ColumnId": 726,
-    "FieldDefault": "voluptatem",
-    "FieldHeight": 95,
-    "FieldLabel": "et",
-    "FieldLeft": 359,
-    "FieldTop": 435,
+    "UDefFieldId": 372,
+    "ColumnId": 188,
+    "FieldDefault": "quidem",
+    "FieldHeight": 824,
+    "FieldLabel": "dolores",
+    "FieldLeft": 321,
+    "FieldTop": 333,
     "FieldType": "Checkbox",
-    "FieldWidth": 495,
-    "FormatMask": "dolor",
+    "FieldWidth": 115,
+    "FormatMask": "aspernatur",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 910,
-    "LabelLeft": 753,
-    "LabelTop": 705,
-    "LabelWidth": 661,
-    "LastVersionId": 10,
-    "ListTableId": 482,
+    "LabelHeight": 200,
+    "LabelLeft": 522,
+    "LabelTop": 518,
+    "LabelWidth": 815,
+    "LastVersionId": 84,
+    "ListTableId": 503,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 654,
-    "ProgId": "dolores",
-    "IsReadOnly": true,
-    "ShortLabel": "magnam",
-    "TabOrder": 282,
-    "TextLength": 525,
-    "Tooltip": "soluta",
-    "UdefIdentity": 675,
-    "UDListDefinitionId": 747,
+    "Page1LineNo": 729,
+    "ProgId": "beatae",
+    "IsReadOnly": false,
+    "ShortLabel": "earum",
+    "TabOrder": 629,
+    "TextLength": 408,
+    "Tooltip": "porro",
+    "UdefIdentity": 558,
+    "UDListDefinitionId": 583,
     "Justification": "Center",
-    "Version": 54,
-    "TemplateVariableName": "Turner Group",
-    "HasBeenPublished": true,
-    "MdoListName": "Lynch-Labadie",
+    "Version": 851,
+    "TemplateVariableName": "Williamson, Steuber and Kutch",
+    "HasBeenPublished": false,
+    "MdoListName": "Kuhlman-O'Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 985
+        "FieldType": "System.String",
+        "FieldLength": 132
       }
     }
   }

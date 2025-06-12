@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 382,
-    "Name": "Ratke, Robel and Hauck",
-    "Tooltip": "commodi",
+    "Id": 515,
+    "Name": "Kuphal, Romaguera and Swift",
+    "Tooltip": "voluptates",
     "Deleted": false,
-    "UdListDefinitionId": 446,
-    "Rank": 645,
+    "UdListDefinitionId": 270,
+    "Rank": 446,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 898
+        "FieldType": "System.Int32",
+        "FieldLength": 27
       }
     }
   }

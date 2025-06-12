@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bode-Becker",
-    "Description": "Organic grid-enabled application",
+    "Name": "Gutkowski-Ritchie",
+    "Description": "Diverse zero tolerance focus group",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 669,
-        "Tooltip": "beatae",
-        "CanAssign": true,
-        "Free": 185,
-        "InUse": 224,
+        "Unrestricted": false,
+        "Total": 915,
+        "Tooltip": "at",
+        "CanAssign": false,
+        "Free": 316,
+        "InUse": 17,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 693,
-        "Name": "Upton-Bernier",
-        "Description": "Right-sized stable support",
-        "PrerequisiteModuleName": "Rutherford-Sipes",
-        "SortOrder": 471,
-        "ExtraFlags": 236,
+        "ModuleLicenseId": 758,
+        "Name": "O'Kon Group",
+        "Description": "Future-proofed value-added open architecture",
+        "PrerequisiteModuleName": "Paucek, Hammes and Walsh",
+        "SortOrder": 722,
+        "ExtraFlags": 133,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 296
+            "FieldType": "System.Int32",
+            "FieldLength": 772
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 217,
-        "Tooltip": "id",
-        "CanAssign": true,
-        "Free": 445,
-        "InUse": 475,
+        "Total": 536,
+        "Tooltip": "tempore",
+        "CanAssign": false,
+        "Free": 799,
+        "InUse": 996,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 526,
-        "Name": "Senger, Bednar and Luettgen",
-        "Description": "Progressive background data-warehouse",
-        "PrerequisiteModuleName": "Murazik LLC",
-        "SortOrder": 109,
-        "ExtraFlags": 5,
+        "ModuleLicenseId": 30,
+        "Name": "Stamm Group",
+        "Description": "Ameliorated non-volatile workforce",
+        "PrerequisiteModuleName": "Herman-Cruickshank",
+        "SortOrder": 115,
+        "ExtraFlags": 515,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 941
+            "FieldType": "System.String",
+            "FieldLength": 552
           }
         }
       }
@@ -132,35 +132,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 458
+        "FieldLength": 750
       }
     }
   },
   {
-    "Name": "Bode-Becker",
-    "Description": "Organic grid-enabled application",
+    "Name": "Gutkowski-Ritchie",
+    "Description": "Diverse zero tolerance focus group",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 669,
-        "Tooltip": "beatae",
-        "CanAssign": true,
-        "Free": 185,
-        "InUse": 224,
+        "Unrestricted": false,
+        "Total": 915,
+        "Tooltip": "at",
+        "CanAssign": false,
+        "Free": 316,
+        "InUse": 17,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 693,
-        "Name": "Upton-Bernier",
-        "Description": "Right-sized stable support",
-        "PrerequisiteModuleName": "Rutherford-Sipes",
-        "SortOrder": 471,
-        "ExtraFlags": 236,
+        "ModuleLicenseId": 758,
+        "Name": "O'Kon Group",
+        "Description": "Future-proofed value-added open architecture",
+        "PrerequisiteModuleName": "Paucek, Hammes and Walsh",
+        "SortOrder": 722,
+        "ExtraFlags": 133,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 296
+            "FieldType": "System.Int32",
+            "FieldLength": 772
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 217,
-        "Tooltip": "id",
-        "CanAssign": true,
-        "Free": 445,
-        "InUse": 475,
+        "Total": 536,
+        "Tooltip": "tempore",
+        "CanAssign": false,
+        "Free": 799,
+        "InUse": 996,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 526,
-        "Name": "Senger, Bednar and Luettgen",
-        "Description": "Progressive background data-warehouse",
-        "PrerequisiteModuleName": "Murazik LLC",
-        "SortOrder": 109,
-        "ExtraFlags": 5,
+        "ModuleLicenseId": 30,
+        "Name": "Stamm Group",
+        "Description": "Ameliorated non-volatile workforce",
+        "PrerequisiteModuleName": "Herman-Cruickshank",
+        "SortOrder": 115,
+        "ExtraFlags": 515,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 941
+            "FieldType": "System.String",
+            "FieldLength": 552
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 458
+        "FieldLength": 750
       }
     }
   }

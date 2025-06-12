@@ -105,32 +105,32 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 429,
-  "Name": "Schaefer Inc and Sons",
+  "WebhookId": 349,
+  "Name": "Kiehn, Casper and Gerhold",
   "Events": [
-    "nemo",
-    "aut"
+    "officia",
+    "temporibus"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "provident",
+  "Secret": "facilis",
   "State": "Active",
-  "Type": "nostrum",
+  "Type": "commodi",
   "Headers": {
-    "Headers1": "corrupti",
-    "Headers2": "dolores"
+    "Headers1": "necessitatibus",
+    "Headers2": "aut"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2012-06-18T16:32:48.4776996+02:00",
+  "Registered": "2005-05-16T17:54:08.7730557+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2002-01-15T16:32:48.4776996+01:00",
+  "Updated": "2024-12-16T17:54:08.7730557+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "malachi.boehm@huel.ca"
+  "ErrorsEmail": "candida@labadiekuphal.ca"
 }
 ```
 
@@ -141,31 +141,31 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 824,
-  "Name": "Kunze Inc and Sons",
+  "WebhookId": 848,
+  "Name": "Prohaska, Christiansen and Kessler",
   "Events": [
-    "aut",
-    "error"
+    "neque",
+    "placeat"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "laboriosam",
+  "Secret": "quos",
   "State": "Active",
-  "Type": "commodi",
+  "Type": "repellendus",
   "Headers": {
-    "Headers1": "est",
-    "Headers2": "voluptatibus"
+    "Headers1": "minus",
+    "Headers2": "blanditiis"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2021-12-29T16:32:48.4776996+01:00",
+  "Registered": "2011-09-23T17:54:08.7730557+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2022-06-22T16:32:48.4776996+02:00",
+  "Updated": "2005-12-26T17:54:08.7730557+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "royce@gorczanyfriesen.ca",
+  "ErrorsEmail": "alisa.bednar@halvorson.ca",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

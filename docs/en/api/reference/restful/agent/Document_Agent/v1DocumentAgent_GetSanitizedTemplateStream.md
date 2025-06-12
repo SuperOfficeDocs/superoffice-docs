@@ -76,9 +76,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Conn-Thompson",
+  "TemplateName": "Batz, McCullough and Jaskolski",
   "AllowPersonal": true,
-  "UiCulture": "quibusdam"
+  "UiCulture": "minima"
 }
 ```
 

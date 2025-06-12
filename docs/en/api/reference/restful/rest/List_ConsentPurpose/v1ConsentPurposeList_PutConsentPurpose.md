@@ -94,22 +94,22 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 312,
-  "Name": "Lowe, Boyer and Kuhlman",
-  "ConsentText": "pariatur",
-  "FormText": "est",
-  "Key": "sint",
-  "Tooltip": "nostrum",
-  "Active": 802,
-  "UpdatedDate": "2011-03-19T16:32:48.5714211+01:00",
+  "ConsentPurposeId": 362,
+  "Name": "Klocko, McClure and Kris",
+  "ConsentText": "fugit",
+  "FormText": "et",
+  "Key": "ea",
+  "Tooltip": "velit",
+  "Active": 454,
+  "UpdatedDate": "2006-07-05T17:54:08.8199285+02:00",
   "UpdatedBy": null,
   "Deleted": true,
-  "Rank": 195,
-  "PrivacyStatementDesc": "in",
+  "Rank": 863,
+  "PrivacyStatementDesc": "non",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 445,
-  "Name": "Upton-Gerhold",
-  "ConsentText": "voluptas",
-  "FormText": "rerum",
-  "Key": "laboriosam",
-  "Tooltip": "sapiente",
-  "Active": 21,
-  "UpdatedDate": "2012-03-25T16:32:48.5714211+02:00",
+  "ConsentPurposeId": 125,
+  "Name": "Nader LLC",
+  "ConsentText": "odio",
+  "FormText": "expedita",
+  "Key": "beatae",
+  "Tooltip": "sequi",
+  "Active": 352,
+  "UpdatedDate": "2024-02-01T17:54:08.8199285+01:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 897,
-  "PrivacyStatementDesc": "sint",
+  "Deleted": true,
+  "Rank": 374,
+  "PrivacyStatementDesc": "eaque",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 101
+      "FieldLength": 625
     }
   }
 }

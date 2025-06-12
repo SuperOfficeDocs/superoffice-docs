@@ -26,24 +26,16 @@ items:
   nameWithType: ISaintAgent
   fullName: SuperOffice.WebApi.Agents.ISaintAgent
   type: Interface
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nAdministration and maintenance of SAINT counters and statuses\n"
+  summary: Administration and maintenance of SAINT counters and statuses
+  example: []
   syntax:
     content: 'public interface ISaintAgent : IDisposable'
-    content.vb: >-
-      Public Interface ISaintAgent
-          Inherits IDisposable
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+    content.vb: Public Interface ISaintAgent Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
 - uid: SuperOffice.WebApi.Agents.ISaintAgent.CreateDefaultSaintConfigurationAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ISaintAgent.CreateDefaultSaintConfigurationAsync(SuperOffice.WebApi.RequestOptions)
   id: CreateDefaultSaintConfigurationAsync(SuperOffice.WebApi.RequestOptions)
@@ -55,19 +47,20 @@ items:
   nameWithType: ISaintAgent.CreateDefaultSaintConfigurationAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.ISaintAgent.CreateDefaultSaintConfigurationAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSet default values into a new SaintConfiguration.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  summary: >-
+    Set default values into a new SaintConfiguration.
+
+    NetServer calculates default values on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
     content: Task<SaintConfiguration> CreateDefaultSaintConfigurationAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SaintConfiguration}
       description: A blank SaintConfiguration
@@ -84,13 +77,11 @@ items:
   nameWithType: ISaintAgent.SaveSaintConfigurationAsync(SaintConfiguration, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.ISaintAgent.SaveSaintConfigurationAsync(SuperOffice.WebApi.Data.SaintConfiguration, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nUpdates the existing SaintConfiguration or creates a new SaintConfiguration if the id parameter is 0. \n"
+  summary: Updates the existing SaintConfiguration or creates a new SaintConfiguration if the id parameter is 0.
+  example: []
   syntax:
     content: Task<SaintConfiguration> SaveSaintConfigurationAsync(SaintConfiguration saintConfiguration, RequestOptions requestOptions = null)
     parameters:
@@ -99,7 +90,7 @@ items:
       description: The SaintConfiguration that is saved.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SaintConfiguration}
       description: New or updated SaintConfiguration
@@ -116,19 +107,20 @@ items:
   nameWithType: ISaintAgent.CreateDefaultStatusMonitorAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.ISaintAgent.CreateDefaultStatusMonitorAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSet default values into a new StatusMonitor.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  summary: >-
+    Set default values into a new StatusMonitor.
+
+    NetServer calculates default values on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
     content: Task<StatusMonitor> CreateDefaultStatusMonitorAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StatusMonitor}
       description: A blank StatusMonitor
@@ -145,13 +137,11 @@ items:
   nameWithType: ISaintAgent.SaveStatusMonitorAsync(StatusMonitor, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.ISaintAgent.SaveStatusMonitorAsync(SuperOffice.WebApi.Data.StatusMonitor, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nUpdates the existing StatusMonitor or creates a new StatusMonitor if the id parameter is 0. \n"
+  summary: Updates the existing StatusMonitor or creates a new StatusMonitor if the id parameter is 0.
+  example: []
   syntax:
     content: Task<StatusMonitor> SaveStatusMonitorAsync(StatusMonitor statusMonitor, RequestOptions requestOptions = null)
     parameters:
@@ -160,7 +150,7 @@ items:
       description: The StatusMonitor that is saved.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StatusMonitor}
       description: New or updated StatusMonitor
@@ -177,19 +167,20 @@ items:
   nameWithType: ISaintAgent.CreateDefaultStatusMonitorPeriodsAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.ISaintAgent.CreateDefaultStatusMonitorPeriodsAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSet default values into a new StatusMonitorPeriods.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  summary: >-
+    Set default values into a new StatusMonitorPeriods.
+
+    NetServer calculates default values on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
     content: Task<StatusMonitorPeriods> CreateDefaultStatusMonitorPeriodsAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StatusMonitorPeriods}
       description: A blank StatusMonitorPeriods
@@ -206,13 +197,11 @@ items:
   nameWithType: ISaintAgent.SaveStatusMonitorPeriodsAsync(StatusMonitorPeriods, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.ISaintAgent.SaveStatusMonitorPeriodsAsync(SuperOffice.WebApi.Data.StatusMonitorPeriods, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nUpdates the existing StatusMonitorPeriods or creates a new StatusMonitorPeriods if the id parameter is 0. \n"
+  summary: Updates the existing StatusMonitorPeriods or creates a new StatusMonitorPeriods if the id parameter is 0.
+  example: []
   syntax:
     content: Task<StatusMonitorPeriods> SaveStatusMonitorPeriodsAsync(StatusMonitorPeriods statusMonitorPeriods, RequestOptions requestOptions = null)
     parameters:
@@ -221,7 +210,7 @@ items:
       description: The StatusMonitorPeriods that is saved.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StatusMonitorPeriods}
       description: New or updated StatusMonitorPeriods
@@ -238,19 +227,17 @@ items:
   nameWithType: ISaintAgent.GetSaintConfigurationsAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.ISaintAgent.GetSaintConfigurationsAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturns the StatusMonitorPeriods entity.\n"
+  summary: Returns the StatusMonitorPeriods entity.
+  example: []
   syntax:
     content: Task<SaintConfiguration[]> GetSaintConfigurationsAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SaintConfiguration[]}
       description: The SaintConfiguration for all entities
@@ -263,17 +250,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetStatusMonitorsAsync(Int32, String, RequestOptions)
-  nameWithType: ISaintAgent.GetStatusMonitorsAsync(Int32, String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ISaintAgent.GetStatusMonitorsAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  name: GetStatusMonitorsAsync(int, string, RequestOptions)
+  nameWithType: ISaintAgent.GetStatusMonitorsAsync(int, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISaintAgent.GetStatusMonitorsAsync(int, string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet all active status monitors for a specified target\n"
+  summary: Get all active status monitors for a specified target
+  example: []
   syntax:
     content: Task<StatusMonitor[]> GetStatusMonitorsAsync(int id, string type, RequestOptions requestOptions = null)
     parameters:
@@ -282,15 +267,18 @@ items:
       description: Identity of target type(contact identity, project identity etc.)
     - id: type
       type: System.String
-      description: Type to get status monitors for(&quot;contact&quot;, &quot;project&quot;, etc.)
+      description: Type to get status monitors for("contact", "project", etc.)
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StatusMonitor[]}
       description: Active status monitors
     content.vb: Function GetStatusMonitorsAsync(id As Integer, type As String, requestOptions As RequestOptions = Nothing) As Task(Of StatusMonitor())
   overload: SuperOffice.WebApi.Agents.ISaintAgent.GetStatusMonitorsAsync*
+  nameWithType.vb: ISaintAgent.GetStatusMonitorsAsync(Integer, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISaintAgent.GetStatusMonitorsAsync(Integer, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetStatusMonitorsAsync(Integer, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ISaintAgent.GetStatusMonitorAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ISaintAgent.GetStatusMonitorAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetStatusMonitorAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -298,17 +286,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetStatusMonitorAsync(Int32, RequestOptions)
-  nameWithType: ISaintAgent.GetStatusMonitorAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ISaintAgent.GetStatusMonitorAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: GetStatusMonitorAsync(int, RequestOptions)
+  nameWithType: ISaintAgent.GetStatusMonitorAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISaintAgent.GetStatusMonitorAsync(int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet a single status monitor based on its identity\n"
+  summary: Get a single status monitor based on its identity
+  example: []
   syntax:
     content: Task<StatusMonitor> GetStatusMonitorAsync(int id, RequestOptions requestOptions = null)
     parameters:
@@ -317,12 +303,15 @@ items:
       description: Identity of status monitor
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StatusMonitor}
       description: The requested status monitor
     content.vb: Function GetStatusMonitorAsync(id As Integer, requestOptions As RequestOptions = Nothing) As Task(Of StatusMonitor)
   overload: SuperOffice.WebApi.Agents.ISaintAgent.GetStatusMonitorAsync*
+  nameWithType.vb: ISaintAgent.GetStatusMonitorAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISaintAgent.GetStatusMonitorAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetStatusMonitorAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ISaintAgent.RegenerateStatusMonitorsAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ISaintAgent.RegenerateStatusMonitorsAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
   id: RegenerateStatusMonitorsAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -330,17 +319,15 @@ items:
   langs:
   - csharp
   - vb
-  name: RegenerateStatusMonitorsAsync(Boolean, RequestOptions)
-  nameWithType: ISaintAgent.RegenerateStatusMonitorsAsync(Boolean, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ISaintAgent.RegenerateStatusMonitorsAsync(System.Boolean, SuperOffice.WebApi.RequestOptions)
+  name: RegenerateStatusMonitorsAsync(bool, RequestOptions)
+  nameWithType: ISaintAgent.RegenerateStatusMonitorsAsync(bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISaintAgent.RegenerateStatusMonitorsAsync(bool, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nRegenerate status monitors\n"
+  summary: Regenerate status monitors
+  example: []
   syntax:
     content: Task<BatchTaskInfo> RegenerateStatusMonitorsAsync(bool runAsBatch, RequestOptions requestOptions = null)
     parameters:
@@ -349,12 +336,15 @@ items:
       description: If true, then execute the regeneration as a Batch Task; the service call will return immediately. Otherwise wait until the task completes, may cause a timeout if called as a Web Service
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo}
       description: Information about the batch task, if batch execution was requested. Otherwise null
     content.vb: Function RegenerateStatusMonitorsAsync(runAsBatch As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of BatchTaskInfo)
   overload: SuperOffice.WebApi.Agents.ISaintAgent.RegenerateStatusMonitorsAsync*
+  nameWithType.vb: ISaintAgent.RegenerateStatusMonitorsAsync(Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISaintAgent.RegenerateStatusMonitorsAsync(Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: RegenerateStatusMonitorsAsync(Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ISaintAgent.SetRankOnStatusMonitorsAsync(System.String,System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ISaintAgent.SetRankOnStatusMonitorsAsync(System.String,System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: SetRankOnStatusMonitorsAsync(System.String,System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -362,37 +352,35 @@ items:
   langs:
   - csharp
   - vb
-  name: SetRankOnStatusMonitorsAsync(String, Int32[], RequestOptions)
-  nameWithType: ISaintAgent.SetRankOnStatusMonitorsAsync(String, Int32[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ISaintAgent.SetRankOnStatusMonitorsAsync(System.String, System.Int32[], SuperOffice.WebApi.RequestOptions)
+  name: SetRankOnStatusMonitorsAsync(string, int[], RequestOptions)
+  nameWithType: ISaintAgent.SetRankOnStatusMonitorsAsync(string, int[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISaintAgent.SetRankOnStatusMonitorsAsync(string, int[], SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSet rank order on status monitors\n"
+  summary: Set rank order on status monitors
+  example: []
   syntax:
     content: Task SetRankOnStatusMonitorsAsync(string type, int[] itemsIds, RequestOptions requestOptions = null)
     parameters:
     - id: type
       type: System.String
-      description: Type of status monitors to reorder (&quot;contact&quot;, &quot;project&quot;, etc.)
+      description: Type of status monitors to reorder ("contact", "project", etc.)
     - id: itemsIds
       type: System.Int32[]
       description: The ids of the items in the order you want
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
       description: This method has no return value
     content.vb: Function SetRankOnStatusMonitorsAsync(type As String, itemsIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.ISaintAgent.SetRankOnStatusMonitorsAsync*
-  nameWithType.vb: ISaintAgent.SetRankOnStatusMonitorsAsync(String, Int32(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.ISaintAgent.SetRankOnStatusMonitorsAsync(System.String, System.Int32(), SuperOffice.WebApi.RequestOptions)
-  name.vb: SetRankOnStatusMonitorsAsync(String, Int32(), RequestOptions)
+  nameWithType.vb: ISaintAgent.SetRankOnStatusMonitorsAsync(String, Integer(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISaintAgent.SetRankOnStatusMonitorsAsync(String, Integer(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetRankOnStatusMonitorsAsync(String, Integer(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ISaintAgent.RegenerateStatusMonitorAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ISaintAgent.RegenerateStatusMonitorAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: RegenerateStatusMonitorAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -400,17 +388,15 @@ items:
   langs:
   - csharp
   - vb
-  name: RegenerateStatusMonitorAsync(Int32, RequestOptions)
-  nameWithType: ISaintAgent.RegenerateStatusMonitorAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ISaintAgent.RegenerateStatusMonitorAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: RegenerateStatusMonitorAsync(int, RequestOptions)
+  nameWithType: ISaintAgent.RegenerateStatusMonitorAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISaintAgent.RegenerateStatusMonitorAsync(int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nRegenerate the given status monitor\n"
+  summary: Regenerate the given status monitor
+  example: []
   syntax:
     content: Task RegenerateStatusMonitorAsync(int statusMonitorId, RequestOptions requestOptions = null)
     parameters:
@@ -419,12 +405,15 @@ items:
       description: The id of the statusmonitor to regenerate
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
       description: This method has no return value
     content.vb: Function RegenerateStatusMonitorAsync(statusMonitorId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.ISaintAgent.RegenerateStatusMonitorAsync*
+  nameWithType.vb: ISaintAgent.RegenerateStatusMonitorAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISaintAgent.RegenerateStatusMonitorAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: RegenerateStatusMonitorAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ISaintAgent.RegenerateCountersAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ISaintAgent.RegenerateCountersAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
   id: RegenerateCountersAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -432,17 +421,15 @@ items:
   langs:
   - csharp
   - vb
-  name: RegenerateCountersAsync(Boolean, RequestOptions)
-  nameWithType: ISaintAgent.RegenerateCountersAsync(Boolean, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ISaintAgent.RegenerateCountersAsync(System.Boolean, SuperOffice.WebApi.RequestOptions)
+  name: RegenerateCountersAsync(bool, RequestOptions)
+  nameWithType: ISaintAgent.RegenerateCountersAsync(bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISaintAgent.RegenerateCountersAsync(bool, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nRegenerate the Saint counters - this can take several minutes\n"
+  summary: Regenerate the Saint counters - this can take several minutes
+  example: []
   syntax:
     content: Task<BatchTaskInfo> RegenerateCountersAsync(bool runAsBatch, RequestOptions requestOptions = null)
     parameters:
@@ -451,12 +438,15 @@ items:
       description: If true, then execute the regeneration as a Batch Task; the service call will return immediately. Otherwise wait until the task completes, may cause a timeout if called as a Web Service
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo}
       description: Information about the batch task, if batch execution was requested. Otherwise null
     content.vb: Function RegenerateCountersAsync(runAsBatch As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of BatchTaskInfo)
   overload: SuperOffice.WebApi.Agents.ISaintAgent.RegenerateCountersAsync*
+  nameWithType.vb: ISaintAgent.RegenerateCountersAsync(Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISaintAgent.RegenerateCountersAsync(Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: RegenerateCountersAsync(Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ISaintAgent.GetStatusMonitorPeriodsAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ISaintAgent.GetStatusMonitorPeriodsAsync(SuperOffice.WebApi.RequestOptions)
   id: GetStatusMonitorPeriodsAsync(SuperOffice.WebApi.RequestOptions)
@@ -468,19 +458,17 @@ items:
   nameWithType: ISaintAgent.GetStatusMonitorPeriodsAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.ISaintAgent.GetStatusMonitorPeriodsAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturns the StatusMonitorPeriods entity.\n"
+  summary: Returns the StatusMonitorPeriods entity.
+  example: []
   syntax:
     content: Task<StatusMonitorPeriods> GetStatusMonitorPeriodsAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StatusMonitorPeriods}
       description: The StatusMonitorEntity
@@ -490,12 +478,81 @@ references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Agents
   nameWithType: SuperOffice.WebApi.Agents
   fullName: SuperOffice.WebApi.Agents
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.WebApi.Agents.ISaintAgent.CreateDefaultSaintConfigurationAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISaintAgent.CreateDefaultSaintConfigurationAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ISaintAgent.html#SuperOffice_WebApi_Agents_ISaintAgent_CreateDefaultSaintConfigurationAsync_SuperOffice_WebApi_RequestOptions_
   name: CreateDefaultSaintConfigurationAsync
   nameWithType: ISaintAgent.CreateDefaultSaintConfigurationAsync
   fullName: SuperOffice.WebApi.Agents.ISaintAgent.CreateDefaultSaintConfigurationAsync
@@ -503,12 +560,15 @@ references:
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.WebApi.RequestOptions.html
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: SuperOffice.WebApi.RequestOptions
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SaintConfiguration}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SaintConfiguration}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SaintConfiguration}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<SaintConfiguration>
   nameWithType: Task<SaintConfiguration>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.SaintConfiguration>
@@ -518,84 +578,123 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.SaintConfiguration
     name: SaintConfiguration
-    nameWithType: SaintConfiguration
-    fullName: SuperOffice.WebApi.Data.SaintConfiguration
     isExternal: true
+    href: SuperOffice.WebApi.Data.SaintConfiguration.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.SaintConfiguration
     name: SaintConfiguration
-    nameWithType: SaintConfiguration
-    fullName: SuperOffice.WebApi.Data.SaintConfiguration
     isExternal: true
+    href: SuperOffice.WebApi.Data.SaintConfiguration.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
 - uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: Task<>
-  nameWithType: Task<>
-  fullName: System.Threading.Tasks.Task<>
-  nameWithType.vb: Task(Of )
-  fullName.vb: System.Threading.Tasks.Task(Of )
-  name.vb: Task(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.WebApi.Agents.ISaintAgent.SaveSaintConfigurationAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISaintAgent.SaveSaintConfigurationAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ISaintAgent.html#SuperOffice_WebApi_Agents_ISaintAgent_SaveSaintConfigurationAsync_SuperOffice_WebApi_Data_SaintConfiguration_SuperOffice_WebApi_RequestOptions_
   name: SaveSaintConfigurationAsync
   nameWithType: ISaintAgent.SaveSaintConfigurationAsync
   fullName: SuperOffice.WebApi.Agents.ISaintAgent.SaveSaintConfigurationAsync
@@ -603,24 +702,59 @@ references:
   commentId: T:SuperOffice.WebApi.Data.SaintConfiguration
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.SaintConfiguration.html
   name: SaintConfiguration
   nameWithType: SaintConfiguration
   fullName: SuperOffice.WebApi.Data.SaintConfiguration
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Agents.ISaintAgent.CreateDefaultStatusMonitorAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISaintAgent.CreateDefaultStatusMonitorAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ISaintAgent.html#SuperOffice_WebApi_Agents_ISaintAgent_CreateDefaultStatusMonitorAsync_SuperOffice_WebApi_RequestOptions_
   name: CreateDefaultStatusMonitorAsync
   nameWithType: ISaintAgent.CreateDefaultStatusMonitorAsync
   fullName: SuperOffice.WebApi.Agents.ISaintAgent.CreateDefaultStatusMonitorAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StatusMonitor}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StatusMonitor}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StatusMonitor}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<StatusMonitor>
   nameWithType: Task<StatusMonitor>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.StatusMonitor>
@@ -630,40 +764,31 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.StatusMonitor
     name: StatusMonitor
-    nameWithType: StatusMonitor
-    fullName: SuperOffice.WebApi.Data.StatusMonitor
     isExternal: true
+    href: SuperOffice.WebApi.Data.StatusMonitor.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.StatusMonitor
     name: StatusMonitor
-    nameWithType: StatusMonitor
-    fullName: SuperOffice.WebApi.Data.StatusMonitor
     isExternal: true
+    href: SuperOffice.WebApi.Data.StatusMonitor.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.ISaintAgent.SaveStatusMonitorAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISaintAgent.SaveStatusMonitorAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ISaintAgent.html#SuperOffice_WebApi_Agents_ISaintAgent_SaveStatusMonitorAsync_SuperOffice_WebApi_Data_StatusMonitor_SuperOffice_WebApi_RequestOptions_
   name: SaveStatusMonitorAsync
   nameWithType: ISaintAgent.SaveStatusMonitorAsync
   fullName: SuperOffice.WebApi.Agents.ISaintAgent.SaveStatusMonitorAsync
@@ -671,18 +796,22 @@ references:
   commentId: T:SuperOffice.WebApi.Data.StatusMonitor
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.StatusMonitor.html
   name: StatusMonitor
   nameWithType: StatusMonitor
   fullName: SuperOffice.WebApi.Data.StatusMonitor
 - uid: SuperOffice.WebApi.Agents.ISaintAgent.CreateDefaultStatusMonitorPeriodsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISaintAgent.CreateDefaultStatusMonitorPeriodsAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ISaintAgent.html#SuperOffice_WebApi_Agents_ISaintAgent_CreateDefaultStatusMonitorPeriodsAsync_SuperOffice_WebApi_RequestOptions_
   name: CreateDefaultStatusMonitorPeriodsAsync
   nameWithType: ISaintAgent.CreateDefaultStatusMonitorPeriodsAsync
   fullName: SuperOffice.WebApi.Agents.ISaintAgent.CreateDefaultStatusMonitorPeriodsAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StatusMonitorPeriods}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StatusMonitorPeriods}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StatusMonitorPeriods}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<StatusMonitorPeriods>
   nameWithType: Task<StatusMonitorPeriods>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.StatusMonitorPeriods>
@@ -692,40 +821,31 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.StatusMonitorPeriods
     name: StatusMonitorPeriods
-    nameWithType: StatusMonitorPeriods
-    fullName: SuperOffice.WebApi.Data.StatusMonitorPeriods
     isExternal: true
+    href: SuperOffice.WebApi.Data.StatusMonitorPeriods.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.StatusMonitorPeriods
     name: StatusMonitorPeriods
-    nameWithType: StatusMonitorPeriods
-    fullName: SuperOffice.WebApi.Data.StatusMonitorPeriods
     isExternal: true
+    href: SuperOffice.WebApi.Data.StatusMonitorPeriods.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.ISaintAgent.SaveStatusMonitorPeriodsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISaintAgent.SaveStatusMonitorPeriodsAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ISaintAgent.html#SuperOffice_WebApi_Agents_ISaintAgent_SaveStatusMonitorPeriodsAsync_SuperOffice_WebApi_Data_StatusMonitorPeriods_SuperOffice_WebApi_RequestOptions_
   name: SaveStatusMonitorPeriodsAsync
   nameWithType: ISaintAgent.SaveStatusMonitorPeriodsAsync
   fullName: SuperOffice.WebApi.Agents.ISaintAgent.SaveStatusMonitorPeriodsAsync
@@ -733,18 +853,22 @@ references:
   commentId: T:SuperOffice.WebApi.Data.StatusMonitorPeriods
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.StatusMonitorPeriods.html
   name: StatusMonitorPeriods
   nameWithType: StatusMonitorPeriods
   fullName: SuperOffice.WebApi.Data.StatusMonitorPeriods
 - uid: SuperOffice.WebApi.Agents.ISaintAgent.GetSaintConfigurationsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISaintAgent.GetSaintConfigurationsAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ISaintAgent.html#SuperOffice_WebApi_Agents_ISaintAgent_GetSaintConfigurationsAsync_SuperOffice_WebApi_RequestOptions_
   name: GetSaintConfigurationsAsync
   nameWithType: ISaintAgent.GetSaintConfigurationsAsync
   fullName: SuperOffice.WebApi.Agents.ISaintAgent.GetSaintConfigurationsAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SaintConfiguration[]}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SaintConfiguration[]}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SaintConfiguration[]}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<SaintConfiguration[]>
   nameWithType: Task<SaintConfiguration[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.SaintConfiguration[]>
@@ -754,46 +878,35 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.SaintConfiguration
     name: SaintConfiguration
-    nameWithType: SaintConfiguration
-    fullName: SuperOffice.WebApi.Data.SaintConfiguration
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.SaintConfiguration.html
+  - name: '['
+  - name: ']'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.SaintConfiguration
     name: SaintConfiguration
-    nameWithType: SaintConfiguration
-    fullName: SuperOffice.WebApi.Data.SaintConfiguration
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.SaintConfiguration.html
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.WebApi.Agents.ISaintAgent.GetStatusMonitorsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISaintAgent.GetStatusMonitorsAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ISaintAgent.html#SuperOffice_WebApi_Agents_ISaintAgent_GetStatusMonitorsAsync_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetStatusMonitorsAsync
   nameWithType: ISaintAgent.GetStatusMonitorsAsync
   fullName: SuperOffice.WebApi.Agents.ISaintAgent.GetStatusMonitorsAsync
@@ -801,19 +914,29 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StatusMonitor[]}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StatusMonitor[]}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StatusMonitor[]}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<StatusMonitor[]>
   nameWithType: Task<StatusMonitor[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.StatusMonitor[]>
@@ -823,58 +946,42 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.StatusMonitor
     name: StatusMonitor
-    nameWithType: StatusMonitor
-    fullName: SuperOffice.WebApi.Data.StatusMonitor
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.StatusMonitor.html
+  - name: '['
+  - name: ']'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.StatusMonitor
     name: StatusMonitor
-    nameWithType: StatusMonitor
-    fullName: SuperOffice.WebApi.Data.StatusMonitor
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.StatusMonitor.html
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  - name: )
 - uid: SuperOffice.WebApi.Agents.ISaintAgent.GetStatusMonitorAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISaintAgent.GetStatusMonitorAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ISaintAgent.html#SuperOffice_WebApi_Agents_ISaintAgent_GetStatusMonitorAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetStatusMonitorAsync
   nameWithType: ISaintAgent.GetStatusMonitorAsync
   fullName: SuperOffice.WebApi.Agents.ISaintAgent.GetStatusMonitorAsync
 - uid: SuperOffice.WebApi.Agents.ISaintAgent.RegenerateStatusMonitorsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISaintAgent.RegenerateStatusMonitorsAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ISaintAgent.html#SuperOffice_WebApi_Agents_ISaintAgent_RegenerateStatusMonitorsAsync_System_Boolean_SuperOffice_WebApi_RequestOptions_
   name: RegenerateStatusMonitorsAsync
   nameWithType: ISaintAgent.RegenerateStatusMonitorsAsync
   fullName: SuperOffice.WebApi.Agents.ISaintAgent.RegenerateStatusMonitorsAsync
@@ -882,12 +989,18 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<BatchTaskInfo>
   nameWithType: Task<BatchTaskInfo>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.BatchTaskInfo>
@@ -897,89 +1010,83 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.BatchTaskInfo
     name: BatchTaskInfo
-    nameWithType: BatchTaskInfo
-    fullName: SuperOffice.WebApi.Data.BatchTaskInfo
     isExternal: true
+    href: SuperOffice.WebApi.Data.BatchTaskInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.BatchTaskInfo
     name: BatchTaskInfo
-    nameWithType: BatchTaskInfo
-    fullName: SuperOffice.WebApi.Data.BatchTaskInfo
     isExternal: true
+    href: SuperOffice.WebApi.Data.BatchTaskInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.ISaintAgent.SetRankOnStatusMonitorsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISaintAgent.SetRankOnStatusMonitorsAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ISaintAgent.html#SuperOffice_WebApi_Agents_ISaintAgent_SetRankOnStatusMonitorsAsync_System_String_System_Int32___SuperOffice_WebApi_RequestOptions_
   name: SetRankOnStatusMonitorsAsync
   nameWithType: ISaintAgent.SetRankOnStatusMonitorsAsync
   fullName: SuperOffice.WebApi.Agents.ISaintAgent.SetRankOnStatusMonitorsAsync
 - uid: System.Int32[]
   isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
   spec.csharp:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
 - uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.WebApi.Agents.ISaintAgent.RegenerateStatusMonitorAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISaintAgent.RegenerateStatusMonitorAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ISaintAgent.html#SuperOffice_WebApi_Agents_ISaintAgent_RegenerateStatusMonitorAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: RegenerateStatusMonitorAsync
   nameWithType: ISaintAgent.RegenerateStatusMonitorAsync
   fullName: SuperOffice.WebApi.Agents.ISaintAgent.RegenerateStatusMonitorAsync
 - uid: SuperOffice.WebApi.Agents.ISaintAgent.RegenerateCountersAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISaintAgent.RegenerateCountersAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ISaintAgent.html#SuperOffice_WebApi_Agents_ISaintAgent_RegenerateCountersAsync_System_Boolean_SuperOffice_WebApi_RequestOptions_
   name: RegenerateCountersAsync
   nameWithType: ISaintAgent.RegenerateCountersAsync
   fullName: SuperOffice.WebApi.Agents.ISaintAgent.RegenerateCountersAsync
 - uid: SuperOffice.WebApi.Agents.ISaintAgent.GetStatusMonitorPeriodsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISaintAgent.GetStatusMonitorPeriodsAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ISaintAgent.html#SuperOffice_WebApi_Agents_ISaintAgent_GetStatusMonitorPeriodsAsync_SuperOffice_WebApi_RequestOptions_
   name: GetStatusMonitorPeriodsAsync
   nameWithType: ISaintAgent.GetStatusMonitorPeriodsAsync
   fullName: SuperOffice.WebApi.Agents.ISaintAgent.GetStatusMonitorPeriodsAsync

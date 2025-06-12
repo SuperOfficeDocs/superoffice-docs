@@ -16,32 +16,27 @@ items:
   name: AppointmentNotificationProvider.RowHistory
   nameWithType: AppointmentNotificationProvider.RowHistory
   fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
-  type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
+  type: Struct
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nData used to compare rows. Used to determine when to show a notification for a row, or if it&apos;s similar enough to a previously observed row that we do not need to show a new notification for it.\n"
+  summary: Data used to compare rows. Used to determine when to show a notification for a row, or if it's similar enough to a previously observed row that we do not need to show a new notification for it.
+  example: []
   syntax:
-    content: 'protected sealed class RowHistory : ValueType'
-    content.vb: >-
-      Protected NotInheritable Class RowHistory
-          Inherits ValueType
-  inheritance:
-  - System.Object
+    content: protected struct AppointmentNotificationProvider.RowHistory
+    content.vb: Protected Structure AppointmentNotificationProvider.RowHistory
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - protected
-  - sealed
-  - class
-  modifiers.vb:
-  - Protected
-  - NotInheritable
-  - Class
+  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory)
+  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.SuperOffice.Util.ObjectExtensions.GraphCopy``1
 - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.recurrenceId
   commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.recurrenceId
   id: recurrenceId
@@ -53,21 +48,14 @@ items:
   nameWithType: AppointmentNotificationProvider.RowHistory.recurrenceId
   fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.recurrenceId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public int recurrenceId
     return:
       type: System.Int32
     content.vb: Public recurrenceId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.invitedPersonId
   commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.invitedPersonId
   id: invitedPersonId
@@ -79,21 +67,14 @@ items:
   nameWithType: AppointmentNotificationProvider.RowHistory.invitedPersonId
   fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.invitedPersonId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public int invitedPersonId
     return:
       type: System.Int32
     content.vb: Public invitedPersonId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.updateType
   commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.updateType
   id: updateType
@@ -105,21 +86,14 @@ items:
   nameWithType: AppointmentNotificationProvider.RowHistory.updateType
   fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.updateType
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public int updateType
     return:
       type: System.Int32
     content.vb: Public updateType As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.notifyDateTime
   commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.notifyDateTime
   id: notifyDateTime
@@ -131,21 +105,14 @@ items:
   nameWithType: AppointmentNotificationProvider.RowHistory.notifyDateTime
   fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.notifyDateTime
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public DateTime notifyDateTime
     return:
       type: System.DateTime
-    content.vb: Public notifyDateTime As DateTime
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public notifyDateTime As Date
 - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.CreateKey
   commentId: M:SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.CreateKey
   id: CreateKey
@@ -157,114 +124,482 @@ items:
   nameWithType: AppointmentNotificationProvider.RowHistory.CreateKey()
   fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.CreateKey()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nCombines recurrenceId and invitedPersonId into a key used in a lot of dictionaries storing row-information.\n"
+  summary: Combines recurrenceId and invitedPersonId into a key used in a lot of dictionaries storing row-information.
+  example: []
   syntax:
-    content: public ValueTuple<int, int> CreateKey()
+    content: public (int recurrenceId, int invitedPersonId) CreateKey()
     return:
       type: System.ValueTuple{System.Int32,System.Int32}
-    content.vb: Public Function CreateKey As ValueTuple(Of Integer, Integer)
+      description: ''
+    content.vb: Public Function CreateKey() As (recurrenceId As Integer, invitedPersonId As Integer)
   overload: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.CreateKey*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<AppointmentNotificationProvider.RowHistory, To>()
-  nameWithType: EnumUtil.MapEnums<AppointmentNotificationProvider.RowHistory, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of AppointmentNotificationProvider.RowHistory, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory, To)()
-  name.vb: MapEnums(Of AppointmentNotificationProvider.RowHistory, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<RowHistory, To>(RowHistory)
+  nameWithType: EnumUtil.MapEnums<AppointmentNotificationProvider.RowHistory, To>(AppointmentNotificationProvider.RowHistory)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory, To>(SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory)
+  nameWithType.vb: EnumUtil.MapEnums(Of AppointmentNotificationProvider.RowHistory, To)(AppointmentNotificationProvider.RowHistory)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory, To)(SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory)
+  name.vb: MapEnums(Of RowHistory, To)(RowHistory)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<AppointmentNotificationProvider.RowHistory, To>
-    nameWithType: EnumUtil.MapEnums<AppointmentNotificationProvider.RowHistory, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+    name: RowHistory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+    name: RowHistory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of AppointmentNotificationProvider.RowHistory, To)
-    nameWithType: EnumUtil.MapEnums(Of AppointmentNotificationProvider.RowHistory, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+    name: RowHistory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+    name: RowHistory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.html
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<AppointmentNotificationProvider.RowHistory, To>()
-  nameWithType: Converters.MapEnums<AppointmentNotificationProvider.RowHistory, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory, To>()
-  nameWithType.vb: Converters.MapEnums(Of AppointmentNotificationProvider.RowHistory, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory, To)()
-  name.vb: MapEnums(Of AppointmentNotificationProvider.RowHistory, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<RowHistory, To>(RowHistory)
+  nameWithType: Converters.MapEnums<AppointmentNotificationProvider.RowHistory, To>(AppointmentNotificationProvider.RowHistory)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory, To>(SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory)
+  nameWithType.vb: Converters.MapEnums(Of AppointmentNotificationProvider.RowHistory, To)(AppointmentNotificationProvider.RowHistory)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory, To)(SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory)
+  name.vb: MapEnums(Of RowHistory, To)(RowHistory)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<AppointmentNotificationProvider.RowHistory, To>
-    nameWithType: Converters.MapEnums<AppointmentNotificationProvider.RowHistory, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+    name: RowHistory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+    name: RowHistory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of AppointmentNotificationProvider.RowHistory, To)
-    nameWithType: Converters.MapEnums(Of AppointmentNotificationProvider.RowHistory, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+    name: RowHistory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+    name: RowHistory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.html
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<RowHistory>(RowHistory, RowHistory)
+  nameWithType: ObjectExtensions.AssignByReflection<AppointmentNotificationProvider.RowHistory>(AppointmentNotificationProvider.RowHistory, AppointmentNotificationProvider.RowHistory)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory>(SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory, SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AppointmentNotificationProvider.RowHistory)(AppointmentNotificationProvider.RowHistory, AppointmentNotificationProvider.RowHistory)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory)(SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory, SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory)
+  name.vb: AssignByReflection(Of RowHistory)(RowHistory, RowHistory)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory,SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+    name: RowHistory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+    name: RowHistory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+    name: RowHistory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory,SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+    name: RowHistory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+    name: RowHistory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+    name: RowHistory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.html
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<RowHistory>(RowHistory)
+  nameWithType: ObjectExtensions.GraphCopy<AppointmentNotificationProvider.RowHistory>(AppointmentNotificationProvider.RowHistory)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory>(SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of AppointmentNotificationProvider.RowHistory)(AppointmentNotificationProvider.RowHistory)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory)(SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory)
+  name.vb: GraphCopy(Of RowHistory)(RowHistory)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+    name: RowHistory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+    name: RowHistory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+    name: RowHistory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+    name: RowHistory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.html
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -273,43 +608,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -318,171 +655,301 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.CreateKey*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.CreateKey
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.html#SuperOffice_CRM_ArchiveLists_AppointmentNotificationProvider_RowHistory_CreateKey
   name: CreateKey
   nameWithType: AppointmentNotificationProvider.RowHistory.CreateKey
   fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.CreateKey
 - uid: System.ValueTuple{System.Int32,System.Int32}
-  commentId: '!:System.ValueTuple{System.Int32,System.Int32}'
+  commentId: T:System.ValueTuple{System.Int32,System.Int32}
+  parent: System
   definition: System.ValueTuple`2
-  name: ValueTuple<Int32, Int32>
-  nameWithType: ValueTuple<Int32, Int32>
-  fullName: System.ValueTuple<System.Int32, System.Int32>
-  nameWithType.vb: ValueTuple(Of Int32, Int32)
-  fullName.vb: System.ValueTuple(Of System.Int32, System.Int32)
-  name.vb: ValueTuple(Of Int32, Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: (int recurrenceId, int invitedPersonId)
+  nameWithType: (int recurrenceId, int invitedPersonId)
+  fullName: (int recurrenceId, int invitedPersonId)
+  nameWithType.vb: (recurrenceId As Integer, invitedPersonId As Integer)
+  fullName.vb: (recurrenceId As Integer, invitedPersonId As Integer)
+  name.vb: (recurrenceId As Integer, invitedPersonId As Integer)
   spec.csharp:
-  - uid: System.ValueTuple`2
-    name: ValueTuple
-    nameWithType: ValueTuple
-    fullName: System.ValueTuple
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
+  - name: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: " "
+  - uid: System.ValueTuple{System.Int32,System.Int32}.recurrenceId
+    name: recurrenceId
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.recurrenceid
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.ValueTuple`2
-    name: ValueTuple
-    nameWithType: ValueTuple
-    fullName: System.ValueTuple
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: " "
+  - uid: System.ValueTuple{System.Int32,System.Int32}.invitedPersonId
+    name: invitedPersonId
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.invitedpersonid
   - name: )
-    nameWithType: )
-    fullName: )
+  spec.vb:
+  - name: (
+  - uid: System.ValueTuple{System.Int32,System.Int32}.recurrenceId
+    name: recurrenceId
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.recurrenceid
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.Int32,System.Int32}.invitedPersonId
+    name: invitedPersonId
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.invitedpersonid
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: System.ValueTuple`2
-  isExternal: true
-  name: ValueTuple<, >
-  nameWithType: ValueTuple<, >
-  fullName: System.ValueTuple<, >
-  nameWithType.vb: ValueTuple(Of , )
-  fullName.vb: System.ValueTuple(Of , )
-  name.vb: ValueTuple(Of , )
+  commentId: T:System.ValueTuple`2
+  name: (T1, T2)
+  nameWithType: (T1, T2)
+  fullName: (T1, T2)
   spec.csharp:
-  - uid: System.ValueTuple`2
-    name: ValueTuple
-    nameWithType: ValueTuple
-    fullName: System.ValueTuple
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.ValueTuple`2
-    name: ValueTuple
-    nameWithType: ValueTuple
-    fullName: System.ValueTuple
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
   - name: )
-    nameWithType: )
-    fullName: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )

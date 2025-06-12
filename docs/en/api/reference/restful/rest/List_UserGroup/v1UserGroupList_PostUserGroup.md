@@ -77,11 +77,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "voluptatem",
-  "Tooltip": "qui",
-  "Id": 495,
-  "Rank": 650,
-  "Deleted": true
+  "Value": "incidunt",
+  "Tooltip": "beatae",
+  "Id": 207,
+  "Rank": 208,
+  "Deleted": false
 }
 ```
 
@@ -92,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "occaecati",
-  "Tooltip": "error",
-  "Id": 96,
-  "Rank": 407,
-  "Deleted": false,
+  "Value": "non",
+  "Tooltip": "incidunt",
+  "Id": 485,
+  "Rank": 343,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldLength": 146
     }
   }
 }

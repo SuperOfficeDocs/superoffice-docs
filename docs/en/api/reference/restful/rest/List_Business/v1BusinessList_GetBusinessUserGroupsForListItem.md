@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 169,
-    "Name": "Runte Group",
-    "ToolTip": "Culpa quia soluta nulla aperiam eligendi voluptatibus ut.",
-    "Deleted": true,
-    "Rank": 847,
-    "Type": "sit",
-    "ColorBlock": 55,
-    "IconHint": "ea",
+    "Id": 678,
+    "Name": "Sipes Group",
+    "ToolTip": "Ea nesciunt.",
+    "Deleted": false,
+    "Rank": 78,
+    "Type": "quas",
+    "ColorBlock": 437,
+    "IconHint": "debitis",
     "Selected": true,
-    "LastChanged": "1998-01-01T16:32:48.5245595+01:00",
+    "LastChanged": "2011-11-25T17:54:08.7886801+01:00",
     "ChildItems": [
       {
-        "Id": 289,
-        "Name": "Kling, Pacocha and Schmitt",
-        "ToolTip": "Praesentium eveniet id totam est.",
+        "Id": 639,
+        "Name": "Collins, Mueller and Mills",
+        "ToolTip": "Eum facilis sed expedita quam.",
         "Deleted": false,
-        "Rank": 759,
-        "Type": "qui",
-        "ColorBlock": 654,
-        "IconHint": "et",
+        "Rank": 621,
+        "Type": "eos",
+        "ColorBlock": 58,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2023-08-13T16:32:48.5245595+02:00",
+        "LastChanged": "2017-02-27T17:54:08.7886801+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "dicta",
-        "Hidden": true,
-        "FullName": "Keshaun Hamill",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "sint",
+        "Hidden": false,
+        "FullName": "Shea Kozey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 669
+            "FieldLength": 266
           }
         }
       }
     ],
-    "ExtraInfo": "earum",
-    "StyleHint": "non",
+    "ExtraInfo": "ut",
+    "StyleHint": "architecto",
     "Hidden": true,
-    "FullName": "Prof. Gerald Rachael Bednar V",
+    "FullName": "Dr. Rashawn Connelly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 228
+        "FieldLength": 729
       }
     }
   }

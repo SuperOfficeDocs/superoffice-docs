@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 982,
-  "Rank": 778,
-  "DefaultTask": 662,
-  "DefaultTaskText": "voluptas",
-  "IsVisual": true,
-  "LastGenerated": "2018-06-10T16:32:39.7896101+02:00",
-  "Description": "Right-sized well-modulated framework",
-  "Name": "Champlin Inc and Sons",
-  "StatusMonitorId": 162,
-  "PictureId": 678,
+  "OwnerTable": 284,
+  "Rank": 561,
+  "DefaultTask": 566,
+  "DefaultTaskText": "expedita",
+  "IsVisual": false,
+  "LastGenerated": "2006-10-22T17:54:03.5389365+02:00",
+  "Description": "User-centric 5th generation neural-net",
+  "Name": "Greenfelder, O'Reilly and Kuhic",
+  "StatusMonitorId": 866,
+  "PictureId": 410,
   "NeedsUpdate": true,
   "Deleted": false,
-  "NumMatches": 715,
-  "NumNeedUpdate": 406,
-  "GenerationStart": "2006-12-20T16:32:39.7896101+01:00",
+  "NumMatches": 315,
+  "NumNeedUpdate": 879,
+  "GenerationStart": "2020-11-28T17:54:03.5389365+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 780
+      "FieldLength": 946
     }
   }
 }

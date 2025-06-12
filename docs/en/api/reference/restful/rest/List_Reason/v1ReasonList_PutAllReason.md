@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 576,
-    "Name": "Hilpert Group",
-    "Tooltip": "aperiam",
-    "Deleted": false,
-    "UdListDefinitionId": 749,
-    "Rank": 991
+    "Id": 357,
+    "Name": "Schinner Inc and Sons",
+    "Tooltip": "esse",
+    "Deleted": true,
+    "UdListDefinitionId": 372,
+    "Rank": 65
   },
   {
-    "Id": 576,
-    "Name": "Hilpert Group",
-    "Tooltip": "aperiam",
-    "Deleted": false,
-    "UdListDefinitionId": 749,
-    "Rank": 991
+    "Id": 357,
+    "Name": "Schinner Inc and Sons",
+    "Tooltip": "esse",
+    "Deleted": true,
+    "UdListDefinitionId": 372,
+    "Rank": 65
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 77,
-    "Name": "Cummings, Rowe and Cormier",
-    "Tooltip": "incidunt",
-    "Deleted": false,
-    "UdListDefinitionId": 157,
-    "Rank": 53,
+    "Id": 932,
+    "Name": "Mueller-Predovic",
+    "Tooltip": "hic",
+    "Deleted": true,
+    "UdListDefinitionId": 330,
+    "Rank": 878,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 190
+        "FieldLength": 815
       }
     }
   }

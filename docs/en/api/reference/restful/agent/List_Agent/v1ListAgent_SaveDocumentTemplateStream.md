@@ -82,10 +82,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 827,
+  "DocumentTemplateId": 228,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "velit",
-  "PluginId": 40
+  "LanguageCode": "distinctio",
+  "PluginId": 550
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Balistreri, Mayert and Bernhard",
-  "Description": "Cloned dedicated infrastructure",
-  "ExternalReference": "distinctio",
-  "MimeType": "voluptatibus",
-  "PluginId": 569
+  "Name": "Feeney-Jaskolski",
+  "Description": "Optional optimizing Graphic Interface",
+  "ExternalReference": "natus",
+  "MimeType": "nostrum",
+  "PluginId": 719
 }
 ```

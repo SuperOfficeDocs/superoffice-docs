@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    956,
-    277
+    193,
+    161
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 545,
-    "Name": "Cartwright-Kessler",
-    "Description": "Pre-emptive logistical ability",
+    "ProjectId": 820,
+    "Name": "Hand, Kirlin and Haag",
+    "Description": "Face to face system-worthy matrix",
     "URL": "http://www.example.com/",
-    "Type": "suscipit",
-    "AssociateId": 99,
-    "AssociateFullName": "Mr. Otilia Myriam Effertz",
-    "TypeId": 41,
-    "Updated": "2023-11-12T16:32:39.6490177+01:00",
-    "StatusId": 889,
-    "Status": "qui",
-    "TextId": 566,
-    "PublishTo": "2015-06-22T16:32:39.6490177+02:00",
-    "PublishFrom": "2012-05-13T16:32:39.6490177+02:00",
-    "IsPublished": false,
+    "Type": "temporibus",
+    "AssociateId": 474,
+    "AssociateFullName": "Porter Stiedemann",
+    "TypeId": 352,
+    "Updated": "2023-06-22T17:54:03.4920634+02:00",
+    "StatusId": 173,
+    "Status": "omnis",
+    "TextId": 264,
+    "PublishTo": "2017-06-21T17:54:03.4920634+02:00",
+    "PublishFrom": "2013-08-29T17:54:03.4920634+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "463724",
-    "ActiveErpLinks": 333,
+    "ProjectNumber": "608879",
+    "ActiveErpLinks": 763,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 991
+        "FieldType": "System.String",
+        "FieldLength": 814
       }
     }
   }

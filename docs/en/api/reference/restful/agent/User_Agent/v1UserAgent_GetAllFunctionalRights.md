@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 275,
-    "Name": "Lynch Group",
-    "ToolTip": "Aperiam quod quia ullam.",
-    "Deleted": true,
-    "Rank": 431,
-    "Type": "rerum",
-    "ColorBlock": 542,
-    "IconHint": "fugiat",
+    "Id": 965,
+    "Name": "Dickens-Kautzer",
+    "ToolTip": "Non autem possimus eaque repellat a ratione soluta.",
+    "Deleted": false,
+    "Rank": 1001,
+    "Type": "dolor",
+    "ColorBlock": 29,
+    "IconHint": "ea",
     "Selected": false,
-    "LastChanged": "2016-09-26T16:32:40.4457108+02:00",
+    "LastChanged": "2014-03-25T17:54:03.8826694+01:00",
     "ChildItems": [
       {
-        "Id": 687,
-        "Name": "Hettinger-Effertz",
-        "ToolTip": "Id et delectus quo velit.",
+        "Id": 400,
+        "Name": "King LLC",
+        "ToolTip": "Aliquam vero quibusdam facilis enim et vel cupiditate.",
         "Deleted": false,
-        "Rank": 825,
-        "Type": "corporis",
-        "ColorBlock": 628,
-        "IconHint": "corrupti",
+        "Rank": 24,
+        "Type": "fugiat",
+        "ColorBlock": 927,
+        "IconHint": "ut",
         "Selected": true,
-        "LastChanged": "2007-04-19T16:32:40.4457108+02:00",
+        "LastChanged": "2022-12-27T17:54:03.8826694+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "quis",
-        "Hidden": true,
-        "FullName": "Hayden Torp",
+        "ExtraInfo": "nihil",
+        "StyleHint": "sint",
+        "Hidden": false,
+        "FullName": "Roger Schamberger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 499
+            "FieldType": "System.String",
+            "FieldLength": 745
           }
         }
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Ms. Gregg Stanley White",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "illo",
+    "Hidden": true,
+    "FullName": "Citlalli Kautzer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 667
+        "FieldLength": 120
       }
     }
   }

@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 148,
-  "Name": "Schneider Inc and Sons",
-  "CurrencyId": 660,
-  "EnglishName": "Zulauf Group",
+  "CountryId": 67,
+  "Name": "Hilll-Fadel",
+  "CurrencyId": 130,
+  "EnglishName": "Bayer, Pfannerstill and Collins",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Persistent bi-directional functionalities",
-  "OrgNrText": "703159",
-  "InterAreaPrefix": "nulla",
-  "DialInPrefix": "repellat",
-  "ZipPrefix": "nesciunt",
-  "DomainName": "Bartell-Zulauf",
-  "AddressLayoutId": 727,
-  "DomesticAddressLayoutId": 183,
-  "ForeignAddressLayoutId": 222,
-  "Rank": 359,
-  "Tooltip": "qui",
+  "ImageDescription": "Seamless 6th generation moderator",
+  "OrgNrText": "1101722",
+  "InterAreaPrefix": "tenetur",
+  "DialInPrefix": "ratione",
+  "ZipPrefix": "aut",
+  "DomainName": "Hodkiewicz-Berge",
+  "AddressLayoutId": 746,
+  "DomesticAddressLayoutId": 735,
+  "ForeignAddressLayoutId": 808,
+  "Rank": 574,
+  "Tooltip": "quos",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldType": "System.String",
+      "FieldLength": 330
     }
   }
 }

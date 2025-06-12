@@ -70,22 +70,22 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "reprehenderit",
+  "Provider": "non",
   "Restrictions": [
     {
-      "Name": "Lang, Smith and Bins",
-      "Operator": "tenetur",
+      "Name": "Bashirian-Wilkinson",
+      "Operator": "aut",
       "Values": [
-        "et",
-        "aut"
+        "dolor",
+        "voluptas"
       ],
       "DisplayValues": [
-        "autem",
-        "ut"
+        "sit",
+        "autem"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,9 +93,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 678,
+      "InterParenthesis": 424,
       "InterOperator": "And",
-      "UniqueHash": 121
+      "UniqueHash": 600
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  779,
-  305
+  664,
+  397
 ]
 ```

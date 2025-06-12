@@ -5,11 +5,11 @@ items:
   id: DuplicateDetector
   parent: SuperOffice.CRM.Data.Util.Duplicates
   children:
-  - SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.#ctor(System.Type)
-  - SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.CreateNewEntry(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
-  - SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetAvailableRules
-  - SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetDuplicates(System.String[])
-  - SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.SetRulesStatus(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule[])
+  - SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.#ctor(System.IServiceProvider,System.Type)
+  - SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.CreateNewEntryAsync(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
+  - SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetAvailableRulesAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetDuplicatesAsync(System.Threading.CancellationToken,System.String[])
+  - SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.SetRulesStatusAsync(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule[],System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -17,283 +17,593 @@ items:
   nameWithType: DuplicateDetector
   fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Data.Util.Duplicates
-  summary: "\nDetect duplicates or similar items in database or external systems\n"
+  summary: Default implementation of <xref href="SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector" data-throw-if-not-resolved="false"></xref>
+  example: []
   syntax:
-    content: 'public class DuplicateDetector : Object'
-    content.vb: >-
-      Public Class DuplicateDetector
-          Inherits Object
+    content: 'public class DuplicateDetector : IDuplicateDetector'
+    content.vb: Public Class DuplicateDetector Implements IDuplicateDetector
   inheritance:
   - System.Object
+  implements:
+  - SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.#ctor(System.Type)
-  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.#ctor(System.Type)
-  id: '#ctor(System.Type)'
+- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.#ctor(System.IServiceProvider,System.Type)
+  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.#ctor(System.IServiceProvider,System.Type)
+  id: '#ctor(System.IServiceProvider,System.Type)'
   parent: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector
   langs:
   - csharp
   - vb
-  name: DuplicateDetector(Type)
-  nameWithType: DuplicateDetector.DuplicateDetector(Type)
-  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.DuplicateDetector(System.Type)
+  name: DuplicateDetector(IServiceProvider, Type)
+  nameWithType: DuplicateDetector.DuplicateDetector(IServiceProvider, Type)
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.DuplicateDetector(System.IServiceProvider, System.Type)
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Data.Util.Duplicates
-  summary: "\nConstructor\n"
+  summary: Default Constructor called by <xref href="SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory" data-throw-if-not-resolved="false"></xref>
+  example: []
   syntax:
-    content: public DuplicateDetector(Type ruleInterfaceType)
+    content: public DuplicateDetector(IServiceProvider serviceProvider, Type ruleInterfaceType)
     parameters:
+    - id: serviceProvider
+      type: System.IServiceProvider
     - id: ruleInterfaceType
       type: System.Type
       description: 'Interface type for rules. Ex: IContactDuplicateRule'
-    content.vb: Public Sub New(ruleInterfaceType As Type)
+    content.vb: Public Sub New(serviceProvider As IServiceProvider, ruleInterfaceType As Type)
   overload: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetDuplicates(System.String[])
-  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetDuplicates(System.String[])
-  id: GetDuplicates(System.String[])
+  nameWithType.vb: DuplicateDetector.New(IServiceProvider, Type)
+  fullName.vb: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.New(System.IServiceProvider, System.Type)
+  name.vb: New(IServiceProvider, Type)
+- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetDuplicatesAsync(System.Threading.CancellationToken,System.String[])
+  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetDuplicatesAsync(System.Threading.CancellationToken,System.String[])
+  id: GetDuplicatesAsync(System.Threading.CancellationToken,System.String[])
   parent: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector
   langs:
   - csharp
   - vb
-  name: GetDuplicates(String[])
-  nameWithType: DuplicateDetector.GetDuplicates(String[])
-  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetDuplicates(System.String[])
+  name: GetDuplicatesAsync(CancellationToken, params string[])
+  nameWithType: DuplicateDetector.GetDuplicatesAsync(CancellationToken, params string[])
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetDuplicatesAsync(System.Threading.CancellationToken, params string[])
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Data.Util.Duplicates
-  summary: "\nGet the entity duplicates\n"
+  summary: Get the entity duplicates
+  example: []
   syntax:
-    content: public DuplicateEntry[] GetDuplicates(params string[] value)
+    content: public Task<DuplicateEntry[]> GetDuplicatesAsync(CancellationToken cancellationToken, params string[] value)
     parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     - id: value
       type: System.String[]
       description: Value to be used for restrictions
     return:
-      type: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry[]}
       description: List of matching entries
-    content.vb: Public Function GetDuplicates(ParamArray value As String()) As DuplicateEntry()
-  overload: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetDuplicates*
-  nameWithType.vb: DuplicateDetector.GetDuplicates(String())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetDuplicates(System.String())
-  name.vb: GetDuplicates(String())
-- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.CreateNewEntry(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
-  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.CreateNewEntry(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
-  id: CreateNewEntry(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
+    content.vb: Public Function GetDuplicatesAsync(cancellationToken As CancellationToken, ParamArray value As String()) As Task(Of DuplicateEntry())
+  overload: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetDuplicatesAsync*
+  implements:
+  - SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.GetDuplicatesAsync(System.Threading.CancellationToken,System.String[])
+  nameWithType.vb: DuplicateDetector.GetDuplicatesAsync(CancellationToken, ParamArray String())
+  fullName.vb: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetDuplicatesAsync(System.Threading.CancellationToken, ParamArray String())
+  name.vb: GetDuplicatesAsync(CancellationToken, ParamArray String())
+- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.CreateNewEntryAsync(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
+  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.CreateNewEntryAsync(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
+  id: CreateNewEntryAsync(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
   parent: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector
   langs:
   - csharp
   - vb
-  name: CreateNewEntry(DuplicateEntry)
-  nameWithType: DuplicateDetector.CreateNewEntry(DuplicateEntry)
-  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.CreateNewEntry(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
+  name: CreateNewEntryAsync(DuplicateEntry)
+  nameWithType: DuplicateDetector.CreateNewEntryAsync(DuplicateEntry)
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.CreateNewEntryAsync(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Data.Util.Duplicates
-  summary: "\nCreate a new entity in the superoffice database, based on a duplicateentry\n"
+  summary: Create a new entity in the superoffice database, based on a duplicateentry
+  example: []
   syntax:
-    content: public int CreateNewEntry(DuplicateEntry entry)
+    content: public Task<int> CreateNewEntryAsync(DuplicateEntry entry)
     parameters:
     - id: entry
       type: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
       description: Entry to create entity from
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: Primary key from superoffice database
-    content.vb: Public Function CreateNewEntry(entry As DuplicateEntry) As Integer
-  overload: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.CreateNewEntry*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetAvailableRules
-  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetAvailableRules
-  id: GetAvailableRules
+    content.vb: Public Function CreateNewEntryAsync(entry As DuplicateEntry) As Task(Of Integer)
+  overload: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.CreateNewEntryAsync*
+  implements:
+  - SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.CreateNewEntryAsync(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
+- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetAvailableRulesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetAvailableRulesAsync(System.Threading.CancellationToken)
+  id: GetAvailableRulesAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector
   langs:
   - csharp
   - vb
-  name: GetAvailableRules()
-  nameWithType: DuplicateDetector.GetAvailableRules()
-  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetAvailableRules()
+  name: GetAvailableRulesAsync(CancellationToken)
+  nameWithType: DuplicateDetector.GetAvailableRulesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetAvailableRulesAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Data.Util.Duplicates
-  summary: "\nReturn all available rules for this entity\n"
+  summary: Return all available rules for this entity
+  example: []
   syntax:
-    content: public IDuplicateRule[] GetAvailableRules()
+    content: public Task<IDuplicateRule[]> GetAvailableRulesAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule[]}
       description: All available rules of the current type
-    content.vb: Public Function GetAvailableRules As IDuplicateRule()
-  overload: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetAvailableRules*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.SetRulesStatus(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule[])
-  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.SetRulesStatus(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule[])
-  id: SetRulesStatus(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule[])
+    content.vb: Public Function GetAvailableRulesAsync(cancellationToken As CancellationToken = Nothing) As Task(Of IDuplicateRule())
+  overload: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetAvailableRulesAsync*
+  implements:
+  - SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.GetAvailableRulesAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.SetRulesStatusAsync(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.SetRulesStatusAsync(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule[],System.Threading.CancellationToken)
+  id: SetRulesStatusAsync(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector
   langs:
   - csharp
   - vb
-  name: SetRulesStatus(IDuplicateRule[])
-  nameWithType: DuplicateDetector.SetRulesStatus(IDuplicateRule[])
-  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.SetRulesStatus(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule[])
+  name: SetRulesStatusAsync(IDuplicateRule[], CancellationToken)
+  nameWithType: DuplicateDetector.SetRulesStatusAsync(IDuplicateRule[], CancellationToken)
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.SetRulesStatusAsync(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Data.Util.Duplicates
-  summary: "\nSet whether rules are active or not\n"
+  summary: Set whether rules are active or not
+  example: []
   syntax:
-    content: public static void SetRulesStatus(IDuplicateRule[] rules)
+    content: public static Task SetRulesStatusAsync(IDuplicateRule[] rules, CancellationToken cancellationToken = default)
     parameters:
     - id: rules
       type: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule[]
       description: Rules to update status for
-    content.vb: Public Shared Sub SetRulesStatus(rules As IDuplicateRule())
-  overload: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.SetRulesStatus*
-  nameWithType.vb: DuplicateDetector.SetRulesStatus(IDuplicateRule())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.SetRulesStatus(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule())
-  name.vb: SetRulesStatus(IDuplicateRule())
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetRulesStatusAsync(rules As IDuplicateRule(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.SetRulesStatusAsync*
+  nameWithType.vb: DuplicateDetector.SetRulesStatusAsync(IDuplicateRule(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.SetRulesStatusAsync(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule(), System.Threading.CancellationToken)
+  name.vb: SetRulesStatusAsync(IDuplicateRule(), CancellationToken)
 references:
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector
+  commentId: T:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector
+  parent: SuperOffice.CRM.Data.Util.Duplicates
+  isExternal: true
+  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.html
+  name: IDuplicateDetector
+  nameWithType: IDuplicateDetector
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector
 - uid: SuperOffice.CRM.Data.Util.Duplicates
   commentId: N:SuperOffice.CRM.Data.Util.Duplicates
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data.Util.Duplicates
   nameWithType: SuperOffice.CRM.Data.Util.Duplicates
   fullName: SuperOffice.CRM.Data.Util.Duplicates
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.Util.Duplicates
+    name: Duplicates
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.Util.Duplicates
+    name: Duplicates
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<DuplicateDetector, To>()
-  nameWithType: EnumUtil.MapEnums<DuplicateDetector, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of DuplicateDetector, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector, To)()
-  name.vb: MapEnums(Of DuplicateDetector, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<DuplicateDetector, To>(DuplicateDetector)
+  nameWithType: EnumUtil.MapEnums<DuplicateDetector, To>(DuplicateDetector)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector, To>(SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector)
+  nameWithType.vb: EnumUtil.MapEnums(Of DuplicateDetector, To)(DuplicateDetector)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector, To)(SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector)
+  name.vb: MapEnums(Of DuplicateDetector, To)(DuplicateDetector)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<DuplicateDetector, To>
-    nameWithType: EnumUtil.MapEnums<DuplicateDetector, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector
+    name: DuplicateDetector
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector
+    name: DuplicateDetector
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of DuplicateDetector, To)
-    nameWithType: EnumUtil.MapEnums(Of DuplicateDetector, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector
+    name: DuplicateDetector
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector
+    name: DuplicateDetector
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.html
+  - name: )
 - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<DuplicateDetector, To>()
-  nameWithType: Converters.MapEnums<DuplicateDetector, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector, To>()
-  nameWithType.vb: Converters.MapEnums(Of DuplicateDetector, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector, To)()
-  name.vb: MapEnums(Of DuplicateDetector, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<DuplicateDetector, To>(DuplicateDetector)
+  nameWithType: Converters.MapEnums<DuplicateDetector, To>(DuplicateDetector)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector, To>(SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector)
+  nameWithType.vb: Converters.MapEnums(Of DuplicateDetector, To)(DuplicateDetector)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector, To)(SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector)
+  name.vb: MapEnums(Of DuplicateDetector, To)(DuplicateDetector)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<DuplicateDetector, To>
-    nameWithType: Converters.MapEnums<DuplicateDetector, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector
+    name: DuplicateDetector
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector
+    name: DuplicateDetector
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of DuplicateDetector, To)
-    nameWithType: Converters.MapEnums(Of DuplicateDetector, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector
+    name: DuplicateDetector
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector
+    name: DuplicateDetector
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -302,43 +612,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -347,144 +659,501 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+  commentId: T:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+  parent: SuperOffice.CRM.Data.Util.Duplicates
+  isExternal: true
+  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.html
+  name: IDuplicateDetectorFactory
+  nameWithType: IDuplicateDetectorFactory
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
 - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.#ctor*
   commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.html#SuperOffice_CRM_Data_Util_Duplicates_DuplicateDetector__ctor_System_IServiceProvider_System_Type_
   name: DuplicateDetector
   nameWithType: DuplicateDetector.DuplicateDetector
   fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.DuplicateDetector
-- uid: System.Type
+  nameWithType.vb: DuplicateDetector.New
+  fullName.vb: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.New
+  name.vb: New
+- uid: System.IServiceProvider
+  commentId: T:System.IServiceProvider
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: System.IServiceProvider
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
   name: Type
   nameWithType: Type
   fullName: System.Type
-- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetDuplicates*
-  commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetDuplicates
+- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetDuplicatesAsync*
+  commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetDuplicatesAsync
   isExternal: true
-  name: GetDuplicates
-  nameWithType: DuplicateDetector.GetDuplicates
-  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetDuplicates
+  href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.html#SuperOffice_CRM_Data_Util_Duplicates_DuplicateDetector_GetDuplicatesAsync_System_Threading_CancellationToken_System_String___
+  name: GetDuplicatesAsync
+  nameWithType: DuplicateDetector.GetDuplicatesAsync
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetDuplicatesAsync
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.GetDuplicatesAsync(System.Threading.CancellationToken,System.String[])
+  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.GetDuplicatesAsync(System.Threading.CancellationToken,System.String[])
+  parent: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector
+  isExternal: true
+  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetector_GetDuplicatesAsync_System_Threading_CancellationToken_System_String___
+  name: GetDuplicatesAsync(CancellationToken, params string[])
+  nameWithType: IDuplicateDetector.GetDuplicatesAsync(CancellationToken, params string[])
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.GetDuplicatesAsync(System.Threading.CancellationToken, params string[])
+  nameWithType.vb: IDuplicateDetector.GetDuplicatesAsync(CancellationToken, ParamArray String())
+  fullName.vb: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.GetDuplicatesAsync(System.Threading.CancellationToken, ParamArray String())
+  name.vb: GetDuplicatesAsync(CancellationToken, ParamArray String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.GetDuplicatesAsync(System.Threading.CancellationToken,System.String[])
+    name: GetDuplicatesAsync
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetector_GetDuplicatesAsync_System_Threading_CancellationToken_System_String___
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.GetDuplicatesAsync(System.Threading.CancellationToken,System.String[])
+    name: GetDuplicatesAsync
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetector_GetDuplicatesAsync_System_Threading_CancellationToken_System_String___
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
 - uid: System.String[]
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
   nameWithType.vb: String()
-  fullName.vb: System.String()
+  fullName.vb: String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry[]
-  isExternal: true
-  name: DuplicateEntry[]
-  nameWithType: DuplicateEntry[]
-  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry[]
-  nameWithType.vb: DuplicateEntry()
-  fullName.vb: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry()
-  name.vb: DuplicateEntry()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DuplicateEntry[]>
+  nameWithType: Task<DuplicateEntry[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry[]>
+  nameWithType.vb: Task(Of DuplicateEntry())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry())
+  name.vb: Task(Of DuplicateEntry())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
   - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
     name: DuplicateEntry
-    nameWithType: DuplicateEntry
-    fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry.html
+  - name: '['
+  - name: ']'
+  - name: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
     name: DuplicateEntry
-    nameWithType: DuplicateEntry
-    fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.CreateNewEntry*
-  commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.CreateNewEntry
+    href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry.html
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: CreateNewEntry
-  nameWithType: DuplicateDetector.CreateNewEntry
-  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.CreateNewEntry
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.CreateNewEntryAsync*
+  commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.CreateNewEntryAsync
+  isExternal: true
+  href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.html#SuperOffice_CRM_Data_Util_Duplicates_DuplicateDetector_CreateNewEntryAsync_SuperOffice_CRM_Data_Util_Duplicates_DuplicateEntry_
+  name: CreateNewEntryAsync
+  nameWithType: DuplicateDetector.CreateNewEntryAsync
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.CreateNewEntryAsync
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.CreateNewEntryAsync(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
+  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.CreateNewEntryAsync(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
+  parent: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector
+  isExternal: true
+  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetector_CreateNewEntryAsync_SuperOffice_CRM_Data_Util_Duplicates_DuplicateEntry_
+  name: CreateNewEntryAsync(DuplicateEntry)
+  nameWithType: IDuplicateDetector.CreateNewEntryAsync(DuplicateEntry)
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.CreateNewEntryAsync(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.CreateNewEntryAsync(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
+    name: CreateNewEntryAsync
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetector_CreateNewEntryAsync_SuperOffice_CRM_Data_Util_Duplicates_DuplicateEntry_
+  - name: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
+    name: DuplicateEntry
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.CreateNewEntryAsync(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
+    name: CreateNewEntryAsync
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetector_CreateNewEntryAsync_SuperOffice_CRM_Data_Util_Duplicates_DuplicateEntry_
+  - name: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
+    name: DuplicateEntry
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry.html
+  - name: )
 - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
   commentId: T:SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
   parent: SuperOffice.CRM.Data.Util.Duplicates
   isExternal: true
+  href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry.html
   name: DuplicateEntry
   nameWithType: DuplicateEntry
   fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetAvailableRulesAsync*
+  commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetAvailableRulesAsync
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetAvailableRules*
-  commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetAvailableRules
+  href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.html#SuperOffice_CRM_Data_Util_Duplicates_DuplicateDetector_GetAvailableRulesAsync_System_Threading_CancellationToken_
+  name: GetAvailableRulesAsync
+  nameWithType: DuplicateDetector.GetAvailableRulesAsync
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetAvailableRulesAsync
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.GetAvailableRulesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.GetAvailableRulesAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector
   isExternal: true
-  name: GetAvailableRules
-  nameWithType: DuplicateDetector.GetAvailableRules
-  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.GetAvailableRules
+  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetector_GetAvailableRulesAsync_System_Threading_CancellationToken_
+  name: GetAvailableRulesAsync(CancellationToken)
+  nameWithType: IDuplicateDetector.GetAvailableRulesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.GetAvailableRulesAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.GetAvailableRulesAsync(System.Threading.CancellationToken)
+    name: GetAvailableRulesAsync
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetector_GetAvailableRulesAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.GetAvailableRulesAsync(System.Threading.CancellationToken)
+    name: GetAvailableRulesAsync
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetector_GetAvailableRulesAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<IDuplicateRule[]>
+  nameWithType: Task<IDuplicateRule[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule[]>
+  nameWithType.vb: Task(Of IDuplicateRule())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule())
+  name.vb: Task(Of IDuplicateRule())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
+    name: IDuplicateRule
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
+    name: IDuplicateRule
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.SetRulesStatusAsync*
+  commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.SetRulesStatusAsync
+  isExternal: true
+  href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.html#SuperOffice_CRM_Data_Util_Duplicates_DuplicateDetector_SetRulesStatusAsync_SuperOffice_CRM_Data_Util_Duplicates_IDuplicateRule___System_Threading_CancellationToken_
+  name: SetRulesStatusAsync
+  nameWithType: DuplicateDetector.SetRulesStatusAsync
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.SetRulesStatusAsync
 - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule[]
   isExternal: true
+  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.html
   name: IDuplicateRule[]
   nameWithType: IDuplicateRule[]
   fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule[]
@@ -494,24 +1163,22 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
     name: IDuplicateRule
-    nameWithType: IDuplicateRule
-    fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
     name: IDuplicateRule
-    nameWithType: IDuplicateRule
-    fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.SetRulesStatus*
-  commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.SetRulesStatus
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.html
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
-  name: SetRulesStatus
-  nameWithType: DuplicateDetector.SetRulesStatus
-  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.SetRulesStatus
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task

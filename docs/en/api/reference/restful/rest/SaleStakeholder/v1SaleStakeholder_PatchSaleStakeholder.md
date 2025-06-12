@@ -126,18 +126,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "fugit",
+    "path": "maiores",
     "value": {}
   },
   {
     "op": "add",
-    "path": "fugit",
+    "path": "maiores",
     "value": {}
   }
 ]
@@ -150,36 +150,36 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Metz-Beer",
-  "Comment": "amet",
-  "StakeholderRoleId": 248,
-  "CountryId": 319,
-  "PersonId": 489,
-  "EmailDescription": "bethany@johnstongulgowski.biz",
-  "EmailId": 745,
-  "EmailAddress": "jade_yundt@nikolaus.co.uk",
-  "PhoneId": 556,
-  "ContactName": "Keeling, Davis and Powlowski",
-  "ContactId": 194,
-  "SaleId": 506,
-  "Mrmrs": "et",
-  "Firstname": "Madaline",
-  "MiddleName": "Lindgren Inc and Sons",
-  "Lastname": "Hettinger",
-  "SaleStakeholderId": 150,
-  "Rank": 396,
-  "Phone": "542-418-9682",
+  "StakeholderRoleName": "Kshlerin, Berge and Wolff",
+  "Comment": "facere",
+  "StakeholderRoleId": 446,
+  "CountryId": 382,
+  "PersonId": 654,
+  "EmailDescription": "tyree_hoeger@kub.co.uk",
+  "EmailId": 206,
+  "EmailAddress": "retha@bartell.info",
+  "PhoneId": 572,
+  "ContactName": "Jerde, Raynor and West",
+  "ContactId": 148,
+  "SaleId": 459,
+  "Mrmrs": "molestiae",
+  "Firstname": "Cathrine",
+  "MiddleName": "Luettgen-Waelchi",
+  "Lastname": "Ernser",
+  "SaleStakeholderId": 308,
+  "Rank": 674,
+  "Phone": "1-505-610-2687 x54594",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 291
+      "FieldType": "System.String",
+      "FieldLength": 669
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

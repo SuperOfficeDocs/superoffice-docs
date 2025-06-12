@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 910,
-  "Name": "Hudson-Gaylord",
-  "Tooltip": "enim",
+  "HeadingId": 202,
+  "Name": "Beer, Watsica and Ruecker",
+  "Tooltip": "libero",
   "Deleted": false,
-  "Rank": 948,
-  "UdListDefinitionId": 17
+  "Rank": 703,
+  "UdListDefinitionId": 53
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 370,
-  "Name": "Ledner Inc and Sons",
-  "Tooltip": "et",
+  "HeadingId": 539,
+  "Name": "Fisher-Nader",
+  "Tooltip": "aliquid",
   "Deleted": false,
-  "Rank": 968,
-  "UdListDefinitionId": 763,
+  "Rank": 543,
+  "UdListDefinitionId": 319,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 412
+      "FieldType": "System.String",
+      "FieldLength": 153
     }
   }
 }

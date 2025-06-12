@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 689,
-  "Name": "Brakus Group",
-  "Tooltip": "quia",
+  "Id": 618,
+  "Name": "Schuster-Huel",
+  "Tooltip": "ullam",
   "Deleted": false,
-  "UdListDefinitionId": 779,
-  "Rank": 618
+  "UdListDefinitionId": 630,
+  "Rank": 257
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 151,
-  "Name": "Pagac, Walker and Herzog",
-  "Tooltip": "libero",
+  "Id": 896,
+  "Name": "Reichert Inc and Sons",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "UdListDefinitionId": 142,
-  "Rank": 855,
+  "UdListDefinitionId": 869,
+  "Rank": 173,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 25
+      "FieldLength": 218
     }
   }
 }

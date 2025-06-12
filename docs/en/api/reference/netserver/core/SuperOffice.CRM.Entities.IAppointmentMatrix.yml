@@ -1,0 +1,3963 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix
+  commentId: T:SuperOffice.CRM.Entities.IAppointmentMatrix
+  id: IAppointmentMatrix
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptAsync(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptRejectedAppointmentAsync(SuperOffice.CRM.Services.ParticipantInfo,SuperOffice.CRM.Services.RecurrenceDate,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptRejectedAppointmentAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptWithEmailConfirmationAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.AddDateAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.RecurrenceDate[])
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.AddDateAsync(System.Threading.CancellationToken,System.DateTime[])
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.AddParticipantAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.Agenda
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.AppointmentText
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.AssignToAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.AssignToExternalOrganizerAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.BookingType
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.CalculateDaysAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.CancelAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.CurrentAppointmentRow
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.CustomFields
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.DeleteAsync
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.DeleteUnusedInvitationMatrixAsync(System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.DeleteWithEmailAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.DemandOwnership(SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.EmailWasQueued
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.ExtraFields
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.ForceChildProcessing
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.GetAllAppointmentRowsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.GetDates
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.GetIncludedAppointmentRowsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.GetInnerMatrixAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.GetLinksHelperAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.GetMailBodyFromMailBodyAsync(SuperOffice.CRM.Globalization.TemplateVariables,System.String,SuperOffice.CRM.Services.ParticipantInfo)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.GetParticipantFullNameAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.GetParticipants
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.GetRemovedAppointmentRows
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.GetTemplateVariablesAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.HasOwnership(SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.HasParticipant(SuperOffice.CRM.Services.ParticipantInfo)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.InnerRemovedMatrix
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.InternalNotes
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.IsBooking
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.IsBookingMaster
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.IsDeleted
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.IsDirty
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.IsExternalInvitation
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.IsRecurring
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.MainBooking
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.MainBookingRow
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.MoveAsync(System.DateTime,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.Ownership
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.PublishHelper
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.Recurrence
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.RecurrenceUpdateMode
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.RejectAsync(SuperOffice.CRM.Services.ParticipantInfo,SuperOffice.CRM.Services.RecurrenceDate,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.RejectAsync(SuperOffice.CRM.Services.ParticipantInfo,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.RejectAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.RejectWithEmailConfirmationAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.RemoveDateAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.RecurrenceDate[])
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.RemoveDateAsync(System.Threading.CancellationToken,System.DateTime[])
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.RemoveParticipantAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.SaveAsync
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.SendMailFunction
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.SendNewInvitations
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.SendPushMessageToOurself
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.SetDatesAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.RecurrenceDate[])
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.SetInvitationMailBody(System.String,System.String,System.String)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.SetModifiedAppointmentFields(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.SetParticipantsAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.SetSeenAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipantsAsync(System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.Task
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.Title
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.UdefHelper
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.UpdateParticipantInfoAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.ValidateDaysAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.VisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: IAppointmentMatrix
+  nameWithType: IAppointmentMatrix
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix
+  type: Interface
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public interface IAppointmentMatrix
+    content.vb: Public Interface IAppointmentMatrix
+  extensionMethods:
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptAsync(System.Threading.CancellationToken)
+  id: AcceptAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: AcceptAsync(CancellationToken)
+  nameWithType: IAppointmentMatrix.AcceptAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: >-
+    Accept all occurrences for the current appointment. If only one occurrence exist, then only
+
+    this one is accepted (not a recurring booking appointment)
+  example: []
+  syntax:
+    content: Task AcceptAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AcceptAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptAsync*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptAsync(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptAsync(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,System.Threading.CancellationToken)
+  id: AcceptAsync(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: AcceptAsync(int, RecurrenceUpdateMode, CancellationToken)
+  nameWithType: IAppointmentMatrix.AcceptAsync(int, RecurrenceUpdateMode, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptAsync(int, SuperOffice.Data.RecurrenceUpdateMode, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: >-
+    Accept all occurrences for the current appointment. If only one occurrence exist, then only
+
+    this one is accepted (not a recurring booking appointment).    The result of the rejection is saved to the database.
+  example: []
+  syntax:
+    content: Task AcceptAsync(int appointmentId, RecurrenceUpdateMode recurrenceUpdateMode, CancellationToken cancellationToken = default)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+      description: AppointmentId of Invitation or Assignment to be set to accepted.
+    - id: recurrenceUpdateMode
+      type: SuperOffice.Data.RecurrenceUpdateMode
+      description: How recurrence updates should be handled
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AcceptAsync(appointmentId As Integer, recurrenceUpdateMode As RecurrenceUpdateMode, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptAsync*
+  nameWithType.vb: IAppointmentMatrix.AcceptAsync(Integer, RecurrenceUpdateMode, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptAsync(Integer, SuperOffice.Data.RecurrenceUpdateMode, System.Threading.CancellationToken)
+  name.vb: AcceptAsync(Integer, RecurrenceUpdateMode, CancellationToken)
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  id: AcceptAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: AcceptAsync(ParticipantInfo, CancellationToken)
+  nameWithType: IAppointmentMatrix.AcceptAsync(ParticipantInfo, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptAsync(SuperOffice.CRM.Services.ParticipantInfo, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: >-
+    Accept all occurrences of the appointment for the participant. If only one occurrence exist, then only
+
+    this one is accepted (not a recurring booking appointment)
+  example: []
+  syntax:
+    content: Task AcceptAsync(ParticipantInfo participantInfo, CancellationToken cancellationToken = default)
+    parameters:
+    - id: participantInfo
+      type: SuperOffice.CRM.Services.ParticipantInfo
+      description: Participant that accepts all occurrences of the appointment
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AcceptAsync(participantInfo As ParticipantInfo, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptAsync*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptRejectedAppointmentAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptRejectedAppointmentAsync(System.Threading.CancellationToken)
+  id: AcceptRejectedAppointmentAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: AcceptRejectedAppointmentAsync(CancellationToken)
+  nameWithType: IAppointmentMatrix.AcceptRejectedAppointmentAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptRejectedAppointmentAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: >-
+    Booking owner can accept that a participant has rejected an invitation. The rejected invitation will
+
+    then NOT appear in the booking owner's Invitation dialog anymore.
+  example: []
+  syntax:
+    content: Task AcceptRejectedAppointmentAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AcceptRejectedAppointmentAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptRejectedAppointmentAsync*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptRejectedAppointmentAsync(SuperOffice.CRM.Services.ParticipantInfo,SuperOffice.CRM.Services.RecurrenceDate,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptRejectedAppointmentAsync(SuperOffice.CRM.Services.ParticipantInfo,SuperOffice.CRM.Services.RecurrenceDate,System.Threading.CancellationToken)
+  id: AcceptRejectedAppointmentAsync(SuperOffice.CRM.Services.ParticipantInfo,SuperOffice.CRM.Services.RecurrenceDate,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: AcceptRejectedAppointmentAsync(ParticipantInfo, RecurrenceDate, CancellationToken)
+  nameWithType: IAppointmentMatrix.AcceptRejectedAppointmentAsync(ParticipantInfo, RecurrenceDate, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptRejectedAppointmentAsync(SuperOffice.CRM.Services.ParticipantInfo, SuperOffice.CRM.Services.RecurrenceDate, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: >-
+    Booking owner can accept that a participant has rejected an invitation. The rejected invitation will
+
+    then NOT appear in the booking owner's Invitation dialog anymore.
+  example: []
+  syntax:
+    content: Task AcceptRejectedAppointmentAsync(ParticipantInfo participantInfo, RecurrenceDate date, CancellationToken cancellationToken = default)
+    parameters:
+    - id: participantInfo
+      type: SuperOffice.CRM.Services.ParticipantInfo
+      description: Participant that accepts the appointment
+    - id: date
+      type: SuperOffice.CRM.Services.RecurrenceDate
+      description: The date of the accepted appointment
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AcceptRejectedAppointmentAsync(participantInfo As ParticipantInfo, [date] As RecurrenceDate, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptRejectedAppointmentAsync*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptWithEmailConfirmationAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptWithEmailConfirmationAsync(System.Threading.CancellationToken)
+  id: AcceptWithEmailConfirmationAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: AcceptWithEmailConfirmationAsync(CancellationToken)
+  nameWithType: IAppointmentMatrix.AcceptWithEmailConfirmationAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptWithEmailConfirmationAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: >-
+    ...
+
+    ... send emails
+  example: []
+  syntax:
+    content: Task AcceptWithEmailConfirmationAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AcceptWithEmailConfirmationAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptWithEmailConfirmationAsync*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.AddDateAsync(System.Threading.CancellationToken,System.DateTime[])
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.AddDateAsync(System.Threading.CancellationToken,System.DateTime[])
+  id: AddDateAsync(System.Threading.CancellationToken,System.DateTime[])
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: AddDateAsync(CancellationToken, params DateTime[])
+  nameWithType: IAppointmentMatrix.AddDateAsync(CancellationToken, params DateTime[])
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.AddDateAsync(System.Threading.CancellationToken, params System.DateTime[])
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: >-
+    Add a date to the repeating appointment.
+
+    Nothing will be performed if <xref href="SuperOffice.CRM.Entities.IAppointmentMatrix.RecurrenceUpdateMode" data-throw-if-not-resolved="false"></xref> is <xref href="SuperOffice.Data.RecurrenceUpdateMode.OnlyThis" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: Task AddDateAsync(CancellationToken cancellationToken, params DateTime[] dates)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    - id: dates
+      type: System.DateTime[]
+      description: Date to add to the repeating appointment.
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AddDateAsync(cancellationToken As CancellationToken, ParamArray dates As Date()) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.AddDateAsync*
+  nameWithType.vb: IAppointmentMatrix.AddDateAsync(CancellationToken, ParamArray Date())
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.AddDateAsync(System.Threading.CancellationToken, ParamArray Date())
+  name.vb: AddDateAsync(CancellationToken, ParamArray Date())
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.AddDateAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.RecurrenceDate[])
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.AddDateAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.RecurrenceDate[])
+  id: AddDateAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.RecurrenceDate[])
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: AddDateAsync(CancellationToken, params RecurrenceDate[])
+  nameWithType: IAppointmentMatrix.AddDateAsync(CancellationToken, params RecurrenceDate[])
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.AddDateAsync(System.Threading.CancellationToken, params SuperOffice.CRM.Services.RecurrenceDate[])
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: >-
+    Add a date to the repeating appointment.
+
+    Nothing will be performed if <xref href="SuperOffice.CRM.Entities.IAppointmentMatrix.RecurrenceUpdateMode" data-throw-if-not-resolved="false"></xref> is <xref href="SuperOffice.Data.RecurrenceUpdateMode.OnlyThis" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: Task AddDateAsync(CancellationToken cancellationToken, params RecurrenceDate[] dates)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    - id: dates
+      type: SuperOffice.CRM.Services.RecurrenceDate[]
+      description: Date to add to the repeating appointment.
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AddDateAsync(cancellationToken As CancellationToken, ParamArray dates As RecurrenceDate()) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.AddDateAsync*
+  nameWithType.vb: IAppointmentMatrix.AddDateAsync(CancellationToken, ParamArray RecurrenceDate())
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.AddDateAsync(System.Threading.CancellationToken, ParamArray SuperOffice.CRM.Services.RecurrenceDate())
+  name.vb: AddDateAsync(CancellationToken, ParamArray RecurrenceDate())
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.AddParticipantAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.AddParticipantAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
+  id: AddParticipantAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: AddParticipantAsync(CancellationToken, params ParticipantInfo[])
+  nameWithType: IAppointmentMatrix.AddParticipantAsync(CancellationToken, params ParticipantInfo[])
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.AddParticipantAsync(System.Threading.CancellationToken, params SuperOffice.CRM.Services.ParticipantInfo[])
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task AddParticipantAsync(CancellationToken cancellationToken, params ParticipantInfo[] participants)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    - id: participants
+      type: SuperOffice.CRM.Services.ParticipantInfo[]
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AddParticipantAsync(cancellationToken As CancellationToken, ParamArray participants As ParticipantInfo()) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.AddParticipantAsync*
+  nameWithType.vb: IAppointmentMatrix.AddParticipantAsync(CancellationToken, ParamArray ParticipantInfo())
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.AddParticipantAsync(System.Threading.CancellationToken, ParamArray SuperOffice.CRM.Services.ParticipantInfo())
+  name.vb: AddParticipantAsync(CancellationToken, ParamArray ParticipantInfo())
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.AssignToAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.AssignToAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  id: AssignToAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: AssignToAsync(ParticipantInfo, CancellationToken)
+  nameWithType: IAppointmentMatrix.AssignToAsync(ParticipantInfo, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.AssignToAsync(SuperOffice.CRM.Services.ParticipantInfo, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: >-
+    Assign the booking to the participant given as parameter. If booking is a recurrence
+
+    then the participant is assigned as booking owner for all instances.
+  example: []
+  syntax:
+    content: Task AssignToAsync(ParticipantInfo participantInfo, CancellationToken cancellationToken = default)
+    parameters:
+    - id: participantInfo
+      type: SuperOffice.CRM.Services.ParticipantInfo
+      description: Participant to assign the booking to (will become the owner)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AssignToAsync(participantInfo As ParticipantInfo, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.AssignToAsync*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.AssignToExternalOrganizerAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.AssignToExternalOrganizerAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  id: AssignToExternalOrganizerAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: AssignToExternalOrganizerAsync(ParticipantInfo, CancellationToken)
+  nameWithType: IAppointmentMatrix.AssignToExternalOrganizerAsync(ParticipantInfo, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.AssignToExternalOrganizerAsync(SuperOffice.CRM.Services.ParticipantInfo, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: >-
+    Assign the booking to the participant given as parameter. If booking is a recurrence
+
+    then the participant is assigned as booking owner for all instances.
+  example: []
+  syntax:
+    content: Task AssignToExternalOrganizerAsync(ParticipantInfo newOwner, CancellationToken cancellationToken = default)
+    parameters:
+    - id: newOwner
+      type: SuperOffice.CRM.Services.ParticipantInfo
+      description: Participant to assign the booking to (will become the owner)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AssignToExternalOrganizerAsync(newOwner As ParticipantInfo, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.AssignToExternalOrganizerAsync*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.CalculateDaysAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.CalculateDaysAsync(System.Threading.CancellationToken)
+  id: CalculateDaysAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: CalculateDaysAsync(CancellationToken)
+  nameWithType: IAppointmentMatrix.CalculateDaysAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.CalculateDaysAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: >-
+    Calculate the days according the the recurrence pattern described.  
+
+    Nothing will be performed if <xref href="SuperOffice.CRM.Entities.IAppointmentMatrix.RecurrenceUpdateMode" data-throw-if-not-resolved="false"></xref> is <xref href="SuperOffice.Data.RecurrenceUpdateMode.OnlyThis" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: Task CalculateDaysAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function CalculateDaysAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.CalculateDaysAsync*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.CancelAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.CancelAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  id: CancelAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: CancelAsync(ParticipantInfo, CancellationToken)
+  nameWithType: IAppointmentMatrix.CancelAsync(ParticipantInfo, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.CancelAsync(SuperOffice.CRM.Services.ParticipantInfo, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task CancelAsync(ParticipantInfo participantInfo, CancellationToken cancellationToken = default)
+    parameters:
+    - id: participantInfo
+      type: SuperOffice.CRM.Services.ParticipantInfo
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function CancelAsync(participantInfo As ParticipantInfo, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.CancelAsync*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.DeleteAsync
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.DeleteAsync
+  id: DeleteAsync
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: DeleteAsync()
+  nameWithType: IAppointmentMatrix.DeleteAsync()
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.DeleteAsync()
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: Delete items in the appointment matrix.
+  example: []
+  syntax:
+    content: Task DeleteAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteAsync() As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.DeleteAsync*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.DeleteUnusedInvitationMatrixAsync(System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.DeleteUnusedInvitationMatrixAsync(System.Boolean,System.Threading.CancellationToken)
+  id: DeleteUnusedInvitationMatrixAsync(System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: DeleteUnusedInvitationMatrixAsync(bool, CancellationToken)
+  nameWithType: IAppointmentMatrix.DeleteUnusedInvitationMatrixAsync(bool, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.DeleteUnusedInvitationMatrixAsync(bool, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task DeleteUnusedInvitationMatrixAsync(bool allowCheckOnMainBooking = false, CancellationToken cancellationToken = default)
+    parameters:
+    - id: allowCheckOnMainBooking
+      type: System.Boolean
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteUnusedInvitationMatrixAsync(allowCheckOnMainBooking As Boolean = False, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.DeleteUnusedInvitationMatrixAsync*
+  nameWithType.vb: IAppointmentMatrix.DeleteUnusedInvitationMatrixAsync(Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.DeleteUnusedInvitationMatrixAsync(Boolean, System.Threading.CancellationToken)
+  name.vb: DeleteUnusedInvitationMatrixAsync(Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.DeleteWithEmailAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.DeleteWithEmailAsync(System.Threading.CancellationToken)
+  id: DeleteWithEmailAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: DeleteWithEmailAsync(CancellationToken)
+  nameWithType: IAppointmentMatrix.DeleteWithEmailAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.DeleteWithEmailAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task DeleteWithEmailAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteWithEmailAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.DeleteWithEmailAsync*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.DemandOwnership(SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.DemandOwnership(SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex)
+  id: DemandOwnership(SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: DemandOwnership(OwnershipIndex)
+  nameWithType: IAppointmentMatrix.DemandOwnership(AppointmentMatrix.OwnershipIndex)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.DemandOwnership(SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: >-
+    Demand that the logged in user has the the required ownership requested.  
+
+    If the required is less than the <xref href="SuperOffice.CRM.Entities.IAppointmentMatrix.Ownership" data-throw-if-not-resolved="false"></xref>, a SoSentryException
+
+    is thrown.
+  example: []
+  syntax:
+    content: void DemandOwnership(AppointmentMatrix.OwnershipIndex minimumRequiredOwnership)
+    parameters:
+    - id: minimumRequiredOwnership
+      type: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
+      description: The mimimum required ownership index required.
+    content.vb: Sub DemandOwnership(minimumRequiredOwnership As AppointmentMatrix.OwnershipIndex)
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.DemandOwnership*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.EmailWasQueued
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.EmailWasQueued
+  id: EmailWasQueued
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: EmailWasQueued()
+  nameWithType: IAppointmentMatrix.EmailWasQueued()
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.EmailWasQueued()
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: bool EmailWasQueued()
+    return:
+      type: System.Boolean
+    content.vb: Function EmailWasQueued() As Boolean
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.EmailWasQueued*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.GetAllAppointmentRowsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.GetAllAppointmentRowsAsync(System.Threading.CancellationToken)
+  id: GetAllAppointmentRowsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: GetAllAppointmentRowsAsync(CancellationToken)
+  nameWithType: IAppointmentMatrix.GetAllAppointmentRowsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.GetAllAppointmentRowsAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: IAsyncEnumerable<AppointmentRow> GetAllAppointmentRowsAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.AppointmentRow}
+    content.vb: Function GetAllAppointmentRowsAsync(cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of AppointmentRow)
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.GetAllAppointmentRowsAsync*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.GetDates
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.GetDates
+  id: GetDates
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: GetDates()
+  nameWithType: IAppointmentMatrix.GetDates()
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.GetDates()
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: RecurrenceDate[] GetDates()
+    return:
+      type: SuperOffice.CRM.Services.RecurrenceDate[]
+    content.vb: Function GetDates() As RecurrenceDate()
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.GetDates*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.GetMailBodyFromMailBodyAsync(SuperOffice.CRM.Globalization.TemplateVariables,System.String,SuperOffice.CRM.Services.ParticipantInfo)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.GetMailBodyFromMailBodyAsync(SuperOffice.CRM.Globalization.TemplateVariables,System.String,SuperOffice.CRM.Services.ParticipantInfo)
+  id: GetMailBodyFromMailBodyAsync(SuperOffice.CRM.Globalization.TemplateVariables,System.String,SuperOffice.CRM.Services.ParticipantInfo)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: GetMailBodyFromMailBodyAsync(TemplateVariables, string, ParticipantInfo)
+  nameWithType: IAppointmentMatrix.GetMailBodyFromMailBodyAsync(TemplateVariables, string, ParticipantInfo)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.GetMailBodyFromMailBodyAsync(SuperOffice.CRM.Globalization.TemplateVariables, string, SuperOffice.CRM.Services.ParticipantInfo)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task<string> GetMailBodyFromMailBodyAsync(TemplateVariables templateVariables, string mailBody, ParticipantInfo participant)
+    parameters:
+    - id: templateVariables
+      type: SuperOffice.CRM.Globalization.TemplateVariables
+    - id: mailBody
+      type: System.String
+    - id: participant
+      type: SuperOffice.CRM.Services.ParticipantInfo
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Function GetMailBodyFromMailBodyAsync(templateVariables As TemplateVariables, mailBody As String, participant As ParticipantInfo) As Task(Of String)
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.GetMailBodyFromMailBodyAsync*
+  nameWithType.vb: IAppointmentMatrix.GetMailBodyFromMailBodyAsync(TemplateVariables, String, ParticipantInfo)
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.GetMailBodyFromMailBodyAsync(SuperOffice.CRM.Globalization.TemplateVariables, String, SuperOffice.CRM.Services.ParticipantInfo)
+  name.vb: GetMailBodyFromMailBodyAsync(TemplateVariables, String, ParticipantInfo)
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.GetIncludedAppointmentRowsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.GetIncludedAppointmentRowsAsync(System.Threading.CancellationToken)
+  id: GetIncludedAppointmentRowsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: GetIncludedAppointmentRowsAsync(CancellationToken)
+  nameWithType: IAppointmentMatrix.GetIncludedAppointmentRowsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.GetIncludedAppointmentRowsAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: IAsyncEnumerable<AppointmentRow> GetIncludedAppointmentRowsAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.AppointmentRow}
+    content.vb: Function GetIncludedAppointmentRowsAsync(cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of AppointmentRow)
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.GetIncludedAppointmentRowsAsync*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.GetInnerMatrixAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.GetInnerMatrixAsync(System.Threading.CancellationToken)
+  id: GetInnerMatrixAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: GetInnerMatrixAsync(CancellationToken)
+  nameWithType: IAppointmentMatrix.GetInnerMatrixAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.GetInnerMatrixAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task<KeyedMatrix<ParticipantInfo, RecurrenceDate, AppointmentRow>> GetInnerMatrixAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.Util.KeyedMatrix{SuperOffice.CRM.Services.ParticipantInfo,SuperOffice.CRM.Services.RecurrenceDate,SuperOffice.CRM.Rows.AppointmentRow}}
+    content.vb: Function GetInnerMatrixAsync(cancellationToken As CancellationToken = Nothing) As Task(Of KeyedMatrix(Of ParticipantInfo, RecurrenceDate, AppointmentRow))
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.GetInnerMatrixAsync*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.GetLinksHelperAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.GetLinksHelperAsync(System.Threading.CancellationToken)
+  id: GetLinksHelperAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: GetLinksHelperAsync(CancellationToken)
+  nameWithType: IAppointmentMatrix.GetLinksHelperAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.GetLinksHelperAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task<ActivityLinksHelper> GetLinksHelperAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.ActivityLinksHelper}
+    content.vb: Function GetLinksHelperAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ActivityLinksHelper)
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.GetLinksHelperAsync*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.GetParticipantFullNameAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.GetParticipantFullNameAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  id: GetParticipantFullNameAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: GetParticipantFullNameAsync(ParticipantInfo, CancellationToken)
+  nameWithType: IAppointmentMatrix.GetParticipantFullNameAsync(ParticipantInfo, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.GetParticipantFullNameAsync(SuperOffice.CRM.Services.ParticipantInfo, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task<string> GetParticipantFullNameAsync(ParticipantInfo info, CancellationToken cancellationToken = default)
+    parameters:
+    - id: info
+      type: SuperOffice.CRM.Services.ParticipantInfo
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Function GetParticipantFullNameAsync(info As ParticipantInfo, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.GetParticipantFullNameAsync*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.GetParticipants
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.GetParticipants
+  id: GetParticipants
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: GetParticipants()
+  nameWithType: IAppointmentMatrix.GetParticipants()
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.GetParticipants()
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: ParticipantInfo[] GetParticipants()
+    return:
+      type: SuperOffice.CRM.Services.ParticipantInfo[]
+    content.vb: Function GetParticipants() As ParticipantInfo()
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.GetParticipants*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.GetRemovedAppointmentRows
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.GetRemovedAppointmentRows
+  id: GetRemovedAppointmentRows
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: GetRemovedAppointmentRows()
+  nameWithType: IAppointmentMatrix.GetRemovedAppointmentRows()
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.GetRemovedAppointmentRows()
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: IEnumerable<AppointmentRow> GetRemovedAppointmentRows()
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.AppointmentRow}
+    content.vb: Function GetRemovedAppointmentRows() As IEnumerable(Of AppointmentRow)
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.GetRemovedAppointmentRows*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.GetTemplateVariablesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.GetTemplateVariablesAsync(System.Threading.CancellationToken)
+  id: GetTemplateVariablesAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: GetTemplateVariablesAsync(CancellationToken)
+  nameWithType: IAppointmentMatrix.GetTemplateVariablesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.GetTemplateVariablesAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task<TemplateVariables> GetTemplateVariablesAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Globalization.TemplateVariables}
+    content.vb: Function GetTemplateVariablesAsync(cancellationToken As CancellationToken = Nothing) As Task(Of TemplateVariables)
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.GetTemplateVariablesAsync*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.HasOwnership(SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.HasOwnership(SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex)
+  id: HasOwnership(SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: HasOwnership(OwnershipIndex)
+  nameWithType: IAppointmentMatrix.HasOwnership(AppointmentMatrix.OwnershipIndex)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.HasOwnership(SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: >-
+    Determine if the logged in user has the the required ownershiprequested.  
+
+    If the required is the same or larger than the <xref href="SuperOffice.CRM.Entities.IAppointmentMatrix.Ownership" data-throw-if-not-resolved="false"></xref>, true is returned.
+  example: []
+  syntax:
+    content: bool HasOwnership(AppointmentMatrix.OwnershipIndex minimumRequiredOwnership)
+    parameters:
+    - id: minimumRequiredOwnership
+      type: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
+      description: The mimimum required ownership index required.
+    return:
+      type: System.Boolean
+      description: True if minimumRequiredOwnership is the same or larger than the <xref href="SuperOffice.CRM.Entities.IAppointmentMatrix.Ownership" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Function HasOwnership(minimumRequiredOwnership As AppointmentMatrix.OwnershipIndex) As Boolean
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.HasOwnership*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.HasParticipant(SuperOffice.CRM.Services.ParticipantInfo)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.HasParticipant(SuperOffice.CRM.Services.ParticipantInfo)
+  id: HasParticipant(SuperOffice.CRM.Services.ParticipantInfo)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: HasParticipant(ParticipantInfo)
+  nameWithType: IAppointmentMatrix.HasParticipant(ParticipantInfo)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.HasParticipant(SuperOffice.CRM.Services.ParticipantInfo)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: bool HasParticipant(ParticipantInfo participant)
+    parameters:
+    - id: participant
+      type: SuperOffice.CRM.Services.ParticipantInfo
+    return:
+      type: System.Boolean
+    content.vb: Function HasParticipant(participant As ParticipantInfo) As Boolean
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.HasParticipant*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.MoveAsync(System.DateTime,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.MoveAsync(System.DateTime,System.Threading.CancellationToken)
+  id: MoveAsync(System.DateTime,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: MoveAsync(DateTime, CancellationToken)
+  nameWithType: IAppointmentMatrix.MoveAsync(DateTime, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.MoveAsync(System.DateTime, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: ''
+  example: []
+  syntax:
+    content: Task MoveAsync(DateTime newStartTime, CancellationToken cancellationToken = default)
+    parameters:
+    - id: newStartTime
+      type: System.DateTime
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function MoveAsync(newStartTime As Date, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.MoveAsync*
+  nameWithType.vb: IAppointmentMatrix.MoveAsync(Date, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.MoveAsync(Date, System.Threading.CancellationToken)
+  name.vb: MoveAsync(Date, CancellationToken)
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.RejectAsync(SuperOffice.CRM.Services.ParticipantInfo,SuperOffice.CRM.Services.RecurrenceDate,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.RejectAsync(SuperOffice.CRM.Services.ParticipantInfo,SuperOffice.CRM.Services.RecurrenceDate,System.String,System.Threading.CancellationToken)
+  id: RejectAsync(SuperOffice.CRM.Services.ParticipantInfo,SuperOffice.CRM.Services.RecurrenceDate,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: RejectAsync(ParticipantInfo, RecurrenceDate, string, CancellationToken)
+  nameWithType: IAppointmentMatrix.RejectAsync(ParticipantInfo, RecurrenceDate, string, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.RejectAsync(SuperOffice.CRM.Services.ParticipantInfo, SuperOffice.CRM.Services.RecurrenceDate, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: Rejects the appointment for the provided participant at the given date
+  example: []
+  syntax:
+    content: Task RejectAsync(ParticipantInfo participantInfo, RecurrenceDate date, string rejectReason, CancellationToken cancellationToken = default)
+    parameters:
+    - id: participantInfo
+      type: SuperOffice.CRM.Services.ParticipantInfo
+      description: Participant that rejects the appointment
+    - id: date
+      type: SuperOffice.CRM.Services.RecurrenceDate
+      description: The date of the rejected appointment
+    - id: rejectReason
+      type: System.String
+      description: Text that explains why he/she can not attend
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RejectAsync(participantInfo As ParticipantInfo, [date] As RecurrenceDate, rejectReason As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.RejectAsync*
+  nameWithType.vb: IAppointmentMatrix.RejectAsync(ParticipantInfo, RecurrenceDate, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.RejectAsync(SuperOffice.CRM.Services.ParticipantInfo, SuperOffice.CRM.Services.RecurrenceDate, String, System.Threading.CancellationToken)
+  name.vb: RejectAsync(ParticipantInfo, RecurrenceDate, String, CancellationToken)
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.RejectAsync(SuperOffice.CRM.Services.ParticipantInfo,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.RejectAsync(SuperOffice.CRM.Services.ParticipantInfo,System.String,System.Threading.CancellationToken)
+  id: RejectAsync(SuperOffice.CRM.Services.ParticipantInfo,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: RejectAsync(ParticipantInfo, string, CancellationToken)
+  nameWithType: IAppointmentMatrix.RejectAsync(ParticipantInfo, string, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.RejectAsync(SuperOffice.CRM.Services.ParticipantInfo, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: >-
+    Rejects all occurrences of the appointment for the participant. If only one occurrence exist, then only
+
+    this one is rejected (not a recurring booking appointment)
+  example: []
+  syntax:
+    content: Task RejectAsync(ParticipantInfo participantInfo, string rejectReason, CancellationToken cancellationToken = default)
+    parameters:
+    - id: participantInfo
+      type: SuperOffice.CRM.Services.ParticipantInfo
+      description: Participant that rejects all occurrences of the appointment
+    - id: rejectReason
+      type: System.String
+      description: Text that explains why he/she can not attend
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RejectAsync(participantInfo As ParticipantInfo, rejectReason As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.RejectAsync*
+  nameWithType.vb: IAppointmentMatrix.RejectAsync(ParticipantInfo, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.RejectAsync(SuperOffice.CRM.Services.ParticipantInfo, String, System.Threading.CancellationToken)
+  name.vb: RejectAsync(ParticipantInfo, String, CancellationToken)
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.RejectAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.RejectAsync(System.String,System.Threading.CancellationToken)
+  id: RejectAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: RejectAsync(string, CancellationToken)
+  nameWithType: IAppointmentMatrix.RejectAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.RejectAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: >-
+    Rejects all occurrences for the current appointment. If only one occurrence exist, then only
+
+    this one is rejected (not a recurring booking appointment)
+  example: []
+  syntax:
+    content: Task RejectAsync(string rejectReason, CancellationToken cancellationToken = default)
+    parameters:
+    - id: rejectReason
+      type: System.String
+      description: Text that explains why he/she can not attend
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RejectAsync(rejectReason As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.RejectAsync*
+  nameWithType.vb: IAppointmentMatrix.RejectAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.RejectAsync(String, System.Threading.CancellationToken)
+  name.vb: RejectAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.RejectWithEmailConfirmationAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.RejectWithEmailConfirmationAsync(System.String,System.Threading.CancellationToken)
+  id: RejectWithEmailConfirmationAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: RejectWithEmailConfirmationAsync(string, CancellationToken)
+  nameWithType: IAppointmentMatrix.RejectWithEmailConfirmationAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.RejectWithEmailConfirmationAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: >-
+    Rejects all occurrences for the current appointment. If only one occurrence exist, then only
+
+    this one is rejected (not a recurring booking appointment)
+  example: []
+  syntax:
+    content: Task RejectWithEmailConfirmationAsync(string rejectReason, CancellationToken cancellationToken = default)
+    parameters:
+    - id: rejectReason
+      type: System.String
+      description: Text that explains why he/she can not attend
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RejectWithEmailConfirmationAsync(rejectReason As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.RejectWithEmailConfirmationAsync*
+  nameWithType.vb: IAppointmentMatrix.RejectWithEmailConfirmationAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.RejectWithEmailConfirmationAsync(String, System.Threading.CancellationToken)
+  name.vb: RejectWithEmailConfirmationAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.RemoveDateAsync(System.Threading.CancellationToken,System.DateTime[])
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.RemoveDateAsync(System.Threading.CancellationToken,System.DateTime[])
+  id: RemoveDateAsync(System.Threading.CancellationToken,System.DateTime[])
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: RemoveDateAsync(CancellationToken, params DateTime[])
+  nameWithType: IAppointmentMatrix.RemoveDateAsync(CancellationToken, params DateTime[])
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.RemoveDateAsync(System.Threading.CancellationToken, params System.DateTime[])
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: >-
+    Remove a date from the repeating appointment.
+
+    Nothing will be performed if <xref href="SuperOffice.CRM.Entities.IAppointmentMatrix.RecurrenceUpdateMode" data-throw-if-not-resolved="false"></xref> is <xref href="SuperOffice.Data.RecurrenceUpdateMode.OnlyThis" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: Task RemoveDateAsync(CancellationToken cancellationToken, params DateTime[] dates)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    - id: dates
+      type: System.DateTime[]
+      description: Date to remove from the repeating appointment.
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RemoveDateAsync(cancellationToken As CancellationToken, ParamArray dates As Date()) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.RemoveDateAsync*
+  nameWithType.vb: IAppointmentMatrix.RemoveDateAsync(CancellationToken, ParamArray Date())
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.RemoveDateAsync(System.Threading.CancellationToken, ParamArray Date())
+  name.vb: RemoveDateAsync(CancellationToken, ParamArray Date())
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.RemoveDateAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.RecurrenceDate[])
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.RemoveDateAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.RecurrenceDate[])
+  id: RemoveDateAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.RecurrenceDate[])
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: RemoveDateAsync(CancellationToken, params RecurrenceDate[])
+  nameWithType: IAppointmentMatrix.RemoveDateAsync(CancellationToken, params RecurrenceDate[])
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.RemoveDateAsync(System.Threading.CancellationToken, params SuperOffice.CRM.Services.RecurrenceDate[])
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: >-
+    Add a date to the repeating appointment.
+
+    Nothing will be performed if <xref href="SuperOffice.CRM.Entities.IAppointmentMatrix.RecurrenceUpdateMode" data-throw-if-not-resolved="false"></xref> is <xref href="SuperOffice.Data.RecurrenceUpdateMode.OnlyThis" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: Task RemoveDateAsync(CancellationToken cancellationToken, params RecurrenceDate[] dates)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    - id: dates
+      type: SuperOffice.CRM.Services.RecurrenceDate[]
+      description: Date to add to the repeating appointment.
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RemoveDateAsync(cancellationToken As CancellationToken, ParamArray dates As RecurrenceDate()) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.RemoveDateAsync*
+  nameWithType.vb: IAppointmentMatrix.RemoveDateAsync(CancellationToken, ParamArray RecurrenceDate())
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.RemoveDateAsync(System.Threading.CancellationToken, ParamArray SuperOffice.CRM.Services.RecurrenceDate())
+  name.vb: RemoveDateAsync(CancellationToken, ParamArray RecurrenceDate())
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.RemoveParticipantAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.RemoveParticipantAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
+  id: RemoveParticipantAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: RemoveParticipantAsync(CancellationToken, params ParticipantInfo[])
+  nameWithType: IAppointmentMatrix.RemoveParticipantAsync(CancellationToken, params ParticipantInfo[])
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.RemoveParticipantAsync(System.Threading.CancellationToken, params SuperOffice.CRM.Services.ParticipantInfo[])
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: Used to remove participants from a booking
+  example: []
+  syntax:
+    content: Task RemoveParticipantAsync(CancellationToken cancellationToken, params ParticipantInfo[] participants)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    - id: participants
+      type: SuperOffice.CRM.Services.ParticipantInfo[]
+      description: List of ParticipantInfo
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RemoveParticipantAsync(cancellationToken As CancellationToken, ParamArray participants As ParticipantInfo()) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.RemoveParticipantAsync*
+  nameWithType.vb: IAppointmentMatrix.RemoveParticipantAsync(CancellationToken, ParamArray ParticipantInfo())
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.RemoveParticipantAsync(System.Threading.CancellationToken, ParamArray SuperOffice.CRM.Services.ParticipantInfo())
+  name.vb: RemoveParticipantAsync(CancellationToken, ParamArray ParticipantInfo())
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SaveAsync
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.SaveAsync
+  id: SaveAsync
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: SaveAsync()
+  nameWithType: IAppointmentMatrix.SaveAsync()
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SaveAsync()
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task SaveAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SaveAsync() As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.SaveAsync*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SetDatesAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.RecurrenceDate[])
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.SetDatesAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.RecurrenceDate[])
+  id: SetDatesAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.RecurrenceDate[])
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: SetDatesAsync(CancellationToken, params RecurrenceDate[])
+  nameWithType: IAppointmentMatrix.SetDatesAsync(CancellationToken, params RecurrenceDate[])
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SetDatesAsync(System.Threading.CancellationToken, params SuperOffice.CRM.Services.RecurrenceDate[])
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: >-
+    Set the dates for the repeating appointment.
+
+    Nothing will be performed if <xref href="SuperOffice.CRM.Entities.IAppointmentMatrix.RecurrenceUpdateMode" data-throw-if-not-resolved="false"></xref> is <xref href="SuperOffice.Data.RecurrenceUpdateMode.OnlyThis" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: Task SetDatesAsync(CancellationToken cancellationToken, params RecurrenceDate[] dates)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    - id: dates
+      type: SuperOffice.CRM.Services.RecurrenceDate[]
+      description: Dates to set on the repeating appointment.
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetDatesAsync(cancellationToken As CancellationToken, ParamArray dates As RecurrenceDate()) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.SetDatesAsync*
+  nameWithType.vb: IAppointmentMatrix.SetDatesAsync(CancellationToken, ParamArray RecurrenceDate())
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.SetDatesAsync(System.Threading.CancellationToken, ParamArray SuperOffice.CRM.Services.RecurrenceDate())
+  name.vb: SetDatesAsync(CancellationToken, ParamArray RecurrenceDate())
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SetInvitationMailBody(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.SetInvitationMailBody(System.String,System.String,System.String)
+  id: SetInvitationMailBody(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: SetInvitationMailBody(string, string, string)
+  nameWithType: IAppointmentMatrix.SetInvitationMailBody(string, string, string)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SetInvitationMailBody(string, string, string)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: void SetInvitationMailBody(string emailBody, string subject, string templateLanguage)
+    parameters:
+    - id: emailBody
+      type: System.String
+    - id: subject
+      type: System.String
+    - id: templateLanguage
+      type: System.String
+    content.vb: Sub SetInvitationMailBody(emailBody As String, subject As String, templateLanguage As String)
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.SetInvitationMailBody*
+  nameWithType.vb: IAppointmentMatrix.SetInvitationMailBody(String, String, String)
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.SetInvitationMailBody(String, String, String)
+  name.vb: SetInvitationMailBody(String, String, String)
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SetModifiedAppointmentFields(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.SetModifiedAppointmentFields(SuperOffice.CRM.Rows.AppointmentRow)
+  id: SetModifiedAppointmentFields(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: SetModifiedAppointmentFields(AppointmentRow)
+  nameWithType: IAppointmentMatrix.SetModifiedAppointmentFields(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SetModifiedAppointmentFields(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: void SetModifiedAppointmentFields(AppointmentRow row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    content.vb: Sub SetModifiedAppointmentFields(row As AppointmentRow)
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.SetModifiedAppointmentFields*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SetParticipantsAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.SetParticipantsAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
+  id: SetParticipantsAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: SetParticipantsAsync(CancellationToken, params ParticipantInfo[])
+  nameWithType: IAppointmentMatrix.SetParticipantsAsync(CancellationToken, params ParticipantInfo[])
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SetParticipantsAsync(System.Threading.CancellationToken, params SuperOffice.CRM.Services.ParticipantInfo[])
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task SetParticipantsAsync(CancellationToken cancellationToken, params ParticipantInfo[] participants)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    - id: participants
+      type: SuperOffice.CRM.Services.ParticipantInfo[]
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetParticipantsAsync(cancellationToken As CancellationToken, ParamArray participants As ParticipantInfo()) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.SetParticipantsAsync*
+  nameWithType.vb: IAppointmentMatrix.SetParticipantsAsync(CancellationToken, ParamArray ParticipantInfo())
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.SetParticipantsAsync(System.Threading.CancellationToken, ParamArray SuperOffice.CRM.Services.ParticipantInfo())
+  name.vb: SetParticipantsAsync(CancellationToken, ParamArray ParticipantInfo())
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSeenAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.SetSeenAsync(System.Threading.CancellationToken)
+  id: SetSeenAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: SetSeenAsync(CancellationToken)
+  nameWithType: IAppointmentMatrix.SetSeenAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSeenAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: Sets an appointment Invitation or Assignment to seen.
+  remarks: >-
+    Set Seen (Booking or Assignment) or MovedSeen (Booking) depending on the previous status 
+
+    of the Appointment
+  example: []
+  syntax:
+    content: Task SetSeenAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetSeenAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSeenAsync*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean)
+  id: SetSendMailToParticipants(System.Boolean)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: SetSendMailToParticipants(bool)
+  nameWithType: IAppointmentMatrix.SetSendMailToParticipants(bool)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(bool)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: Set if e-mails are going to be sent to participants that are marked receive mails, using default e-mail options for the logged in user.
+  example: []
+  syntax:
+    content: void SetSendMailToParticipants(bool sendEmailToParticipants)
+    parameters:
+    - id: sendEmailToParticipants
+      type: System.Boolean
+      description: True if e-mails are going to be sent to participants that are marked receive mails.
+    content.vb: Sub SetSendMailToParticipants(sendEmailToParticipants As Boolean)
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants*
+  nameWithType.vb: IAppointmentMatrix.SetSendMailToParticipants(Boolean)
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(Boolean)
+  name.vb: SetSendMailToParticipants(Boolean)
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipantsAsync(System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipantsAsync(System.Boolean,System.Boolean)
+  id: SetSendMailToParticipantsAsync(System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: SetSendMailToParticipantsAsync(bool, bool)
+  nameWithType: IAppointmentMatrix.SetSendMailToParticipantsAsync(bool, bool)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipantsAsync(bool, bool)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task SetSendMailToParticipantsAsync(bool sendEmailToParticipants, bool setupConnections)
+    parameters:
+    - id: sendEmailToParticipants
+      type: System.Boolean
+    - id: setupConnections
+      type: System.Boolean
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetSendMailToParticipantsAsync(sendEmailToParticipants As Boolean, setupConnections As Boolean) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipantsAsync*
+  nameWithType.vb: IAppointmentMatrix.SetSendMailToParticipantsAsync(Boolean, Boolean)
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipantsAsync(Boolean, Boolean)
+  name.vb: SetSendMailToParticipantsAsync(Boolean, Boolean)
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String)
+  id: SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: SetSendMailToParticipants(bool, string, string, string, bool, string, string, string, bool, string)
+  nameWithType: IAppointmentMatrix.SetSendMailToParticipants(bool, string, string, string, bool, string, string, string, bool, string)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(bool, string, string, string, bool, string, string, string, bool, string)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: Set if e-mails are going to be sent to participants that are marked receive mails, with provided mail server options.
+  example: []
+  syntax:
+    content: void SetSendMailToParticipants(bool sendEmailToParticipants, string imapServer, string imapUser, string imapPassword, bool imapSSL, string smtpServer, string smtpUser, string smtpPassword, bool smtpSSL, string sentFolder)
+    parameters:
+    - id: sendEmailToParticipants
+      type: System.Boolean
+      description: True if e-mails are going to be sent to participants that are marked receive mails.
+    - id: imapServer
+      type: System.String
+      description: Name/IP with optional port (i.e. server:port)of the IMAP server for storing e-mail in the sent items folder.
+    - id: imapUser
+      type: System.String
+      description: User-name to use when authenticating against the IMAP server for storing e-mail in the sent items folder.
+    - id: imapPassword
+      type: System.String
+      description: Password to use when authenticating against the IMAP server for storing e-mail in the sent items folder.
+    - id: imapSSL
+      type: System.Boolean
+      description: Use secure connection.
+    - id: smtpServer
+      type: System.String
+      description: Name/IP with optional port (i.e. server:port)of the SMTP server for sending e-mail.
+    - id: smtpUser
+      type: System.String
+      description: User-name to use when authenticating against the SMTP server for sending e-mail.
+    - id: smtpPassword
+      type: System.String
+      description: Password to use when authenticating against the SMT server for sending e-mail.
+    - id: smtpSSL
+      type: System.Boolean
+      description: Use secure connection.
+    - id: sentFolder
+      type: System.String
+    content.vb: Sub SetSendMailToParticipants(sendEmailToParticipants As Boolean, imapServer As String, imapUser As String, imapPassword As String, imapSSL As Boolean, smtpServer As String, smtpUser As String, smtpPassword As String, smtpSSL As Boolean, sentFolder As String)
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants*
+  nameWithType.vb: IAppointmentMatrix.SetSendMailToParticipants(Boolean, String, String, String, Boolean, String, String, String, Boolean, String)
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(Boolean, String, String, String, Boolean, String, String, String, Boolean, String)
+  name.vb: SetSendMailToParticipants(Boolean, String, String, String, Boolean, String, String, String, Boolean, String)
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.String,System.String,System.String)
+  id: SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: SetSendMailToParticipants(bool, string, string, string, string, string, string)
+  nameWithType: IAppointmentMatrix.SetSendMailToParticipants(bool, string, string, string, string, string, string)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(bool, string, string, string, string, string, string)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: Set if e-mails are going to be sent to participants that are marked receive mails, with provided mail server options.
+  example: []
+  syntax:
+    content: void SetSendMailToParticipants(bool sendEmailToParticipants, string imapServer, string imapUser, string imapPassword, string smtpServer, string smtpUser, string smtpPassword)
+    parameters:
+    - id: sendEmailToParticipants
+      type: System.Boolean
+      description: True if e-mails are going to be sent to participants that are marked receive mails.
+    - id: imapServer
+      type: System.String
+      description: Name/IP with optional port (i.e. server:port)of the IMAP server for storing e-mail in the sent items folder.
+    - id: imapUser
+      type: System.String
+      description: User-name to use when authenticating against the IMAP server for storing e-mail in the sent items folder.
+    - id: imapPassword
+      type: System.String
+      description: Password to use when authenticating against the IMAP server for storing e-mail in the sent items folder.
+    - id: smtpServer
+      type: System.String
+      description: Name/IP with optional port (i.e. server:port)of the SMTP server for sending e-mail.
+    - id: smtpUser
+      type: System.String
+      description: User-name to use when authenticating against the SMTP server for sending e-mail.
+    - id: smtpPassword
+      type: System.String
+      description: Name/IP with optional port (i.e. server:port)of the SMTP server for sending e-mail.
+    content.vb: Sub SetSendMailToParticipants(sendEmailToParticipants As Boolean, imapServer As String, imapUser As String, imapPassword As String, smtpServer As String, smtpUser As String, smtpPassword As String)
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants*
+  nameWithType.vb: IAppointmentMatrix.SetSendMailToParticipants(Boolean, String, String, String, String, String, String)
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(Boolean, String, String, String, String, String, String)
+  name.vb: SetSendMailToParticipants(Boolean, String, String, String, String, String, String)
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.UpdateParticipantInfoAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.UpdateParticipantInfoAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  id: UpdateParticipantInfoAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: UpdateParticipantInfoAsync(ParticipantInfo, CancellationToken)
+  nameWithType: IAppointmentMatrix.UpdateParticipantInfoAsync(ParticipantInfo, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.UpdateParticipantInfoAsync(SuperOffice.CRM.Services.ParticipantInfo, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: Updates data regarding mail sending for the participant
+  example: []
+  syntax:
+    content: Task UpdateParticipantInfoAsync(ParticipantInfo participant, CancellationToken cancellationToken = default)
+    parameters:
+    - id: participant
+      type: SuperOffice.CRM.Services.ParticipantInfo
+      description: Participant to update data for.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function UpdateParticipantInfoAsync(participant As ParticipantInfo, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.UpdateParticipantInfoAsync*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.ValidateDaysAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.ValidateDaysAsync(System.Threading.CancellationToken)
+  id: ValidateDaysAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: ValidateDaysAsync(CancellationToken)
+  nameWithType: IAppointmentMatrix.ValidateDaysAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.ValidateDaysAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task ValidateDaysAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function ValidateDaysAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.ValidateDaysAsync*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.Agenda
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.Agenda
+  id: Agenda
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: Agenda
+  nameWithType: IAppointmentMatrix.Agenda
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.Agenda
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: TextRow Agenda { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.TextRow
+    content.vb: ReadOnly Property Agenda As TextRow
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.Agenda*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.AppointmentText
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.AppointmentText
+  id: AppointmentText
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: AppointmentText
+  nameWithType: IAppointmentMatrix.AppointmentText
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.AppointmentText
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: TextRow AppointmentText { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.TextRow
+    content.vb: ReadOnly Property AppointmentText As TextRow
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.AppointmentText*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.BookingType
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.BookingType
+  id: BookingType
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: BookingType
+  nameWithType: IAppointmentMatrix.BookingType
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.BookingType
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: BookingType BookingType { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.BookingType
+    content.vb: ReadOnly Property BookingType As BookingType
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.BookingType*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.CurrentAppointmentRow
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.CurrentAppointmentRow
+  id: CurrentAppointmentRow
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: CurrentAppointmentRow
+  nameWithType: IAppointmentMatrix.CurrentAppointmentRow
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.CurrentAppointmentRow
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: AppointmentRow CurrentAppointmentRow { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    content.vb: ReadOnly Property CurrentAppointmentRow As AppointmentRow
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.CurrentAppointmentRow*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.CustomFields
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.CustomFields
+  id: CustomFields
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: CustomFields
+  nameWithType: IAppointmentMatrix.CustomFields
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.CustomFields
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: EntityCustomFieldsHelper CustomFields { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Entities.EntityCustomFieldsHelper
+    content.vb: ReadOnly Property CustomFields As EntityCustomFieldsHelper
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.CustomFields*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.ExtraFields
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.ExtraFields
+  id: ExtraFields
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: ExtraFields
+  nameWithType: IAppointmentMatrix.ExtraFields
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.ExtraFields
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: EntityExtraFieldsHelper ExtraFields { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+    content.vb: ReadOnly Property ExtraFields As EntityExtraFieldsHelper
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.ExtraFields*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.ForceChildProcessing
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.ForceChildProcessing
+  id: ForceChildProcessing
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: ForceChildProcessing
+  nameWithType: IAppointmentMatrix.ForceChildProcessing
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.ForceChildProcessing
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: bool ForceChildProcessing { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property ForceChildProcessing As Boolean
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.ForceChildProcessing*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.InnerRemovedMatrix
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.InnerRemovedMatrix
+  id: InnerRemovedMatrix
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: InnerRemovedMatrix
+  nameWithType: IAppointmentMatrix.InnerRemovedMatrix
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.InnerRemovedMatrix
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: KeyedMatrix<ParticipantInfo, RecurrenceDate, AppointmentRow> InnerRemovedMatrix { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Util.KeyedMatrix{SuperOffice.CRM.Services.ParticipantInfo,SuperOffice.CRM.Services.RecurrenceDate,SuperOffice.CRM.Rows.AppointmentRow}
+    content.vb: ReadOnly Property InnerRemovedMatrix As KeyedMatrix(Of ParticipantInfo, RecurrenceDate, AppointmentRow)
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.InnerRemovedMatrix*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.InternalNotes
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.InternalNotes
+  id: InternalNotes
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: InternalNotes
+  nameWithType: IAppointmentMatrix.InternalNotes
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.InternalNotes
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: TextRow InternalNotes { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.TextRow
+    content.vb: ReadOnly Property InternalNotes As TextRow
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.InternalNotes*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.IsBooking
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.IsBooking
+  id: IsBooking
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: IsBooking
+  nameWithType: IAppointmentMatrix.IsBooking
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.IsBooking
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: bool IsBooking { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsBooking As Boolean
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.IsBooking*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.IsBookingMaster
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.IsBookingMaster
+  id: IsBookingMaster
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: IsBookingMaster
+  nameWithType: IAppointmentMatrix.IsBookingMaster
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.IsBookingMaster
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: bool IsBookingMaster { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsBookingMaster As Boolean
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.IsBookingMaster*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.IsDeleted
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.IsDeleted
+  id: IsDeleted
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: IsDeleted
+  nameWithType: IAppointmentMatrix.IsDeleted
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.IsDeleted
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: bool IsDeleted { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsDeleted As Boolean
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.IsDeleted*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.IsDirty
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.IsDirty
+  id: IsDirty
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: IsDirty
+  nameWithType: IAppointmentMatrix.IsDirty
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.IsDirty
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: Is the object dirty?
+  example: []
+  syntax:
+    content: bool IsDirty { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsDirty As Boolean
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.IsDirty*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.IsExternalInvitation
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.IsExternalInvitation
+  id: IsExternalInvitation
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: IsExternalInvitation
+  nameWithType: IAppointmentMatrix.IsExternalInvitation
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.IsExternalInvitation
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: bool IsExternalInvitation { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsExternalInvitation As Boolean
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.IsExternalInvitation*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.IsRecurring
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.IsRecurring
+  id: IsRecurring
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: IsRecurring
+  nameWithType: IAppointmentMatrix.IsRecurring
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.IsRecurring
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: bool IsRecurring { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsRecurring As Boolean
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.IsRecurring*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.MainBooking
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.MainBooking
+  id: MainBooking
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: MainBooking
+  nameWithType: IAppointmentMatrix.MainBooking
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.MainBooking
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: Returns Main or Current Appointment entity.
+  example: []
+  syntax:
+    content: Appointment MainBooking { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Entities.Appointment
+    content.vb: ReadOnly Property MainBooking As Appointment
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.MainBooking*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.MainBookingRow
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.MainBookingRow
+  id: MainBookingRow
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: MainBookingRow
+  nameWithType: IAppointmentMatrix.MainBookingRow
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.MainBookingRow
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: AppointmentRow MainBookingRow { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    content.vb: ReadOnly Property MainBookingRow As AppointmentRow
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.MainBookingRow*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.Ownership
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.Ownership
+  id: Ownership
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: Ownership
+  nameWithType: IAppointmentMatrix.Ownership
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.Ownership
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: AppointmentMatrix.OwnershipIndex Ownership { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
+    content.vb: ReadOnly Property Ownership As AppointmentMatrix.OwnershipIndex
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.Ownership*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.PublishHelper
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.PublishHelper
+  id: PublishHelper
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: PublishHelper
+  nameWithType: IAppointmentMatrix.PublishHelper
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.PublishHelper
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: EntityPublishHelper PublishHelper { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Entities.EntityPublishHelper
+    content.vb: ReadOnly Property PublishHelper As EntityPublishHelper
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.PublishHelper*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.Recurrence
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.Recurrence
+  id: Recurrence
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: Recurrence
+  nameWithType: IAppointmentMatrix.Recurrence
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.Recurrence
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: RecurrenceInfo Recurrence { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.RecurrenceInfo
+    content.vb: Property Recurrence As RecurrenceInfo
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.Recurrence*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.RecurrenceUpdateMode
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.RecurrenceUpdateMode
+  id: RecurrenceUpdateMode
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: RecurrenceUpdateMode
+  nameWithType: IAppointmentMatrix.RecurrenceUpdateMode
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.RecurrenceUpdateMode
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: RecurrenceUpdateMode RecurrenceUpdateMode { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.RecurrenceUpdateMode
+    content.vb: ReadOnly Property RecurrenceUpdateMode As RecurrenceUpdateMode
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.RecurrenceUpdateMode*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SendMailFunction
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.SendMailFunction
+  id: SendMailFunction
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: SendMailFunction
+  nameWithType: IAppointmentMatrix.SendMailFunction
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SendMailFunction
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: AppointmentMatrix.SendMails SendMailFunction { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails
+    content.vb: Property SendMailFunction As AppointmentMatrix.SendMails
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.SendMailFunction*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SendNewInvitations
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.SendNewInvitations
+  id: SendNewInvitations
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: SendNewInvitations
+  nameWithType: IAppointmentMatrix.SendNewInvitations
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SendNewInvitations
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: List<ParticipantInfo> SendNewInvitations { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Services.ParticipantInfo}
+    content.vb: ReadOnly Property SendNewInvitations As List(Of ParticipantInfo)
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.SendNewInvitations*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SendPushMessageToOurself
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.SendPushMessageToOurself
+  id: SendPushMessageToOurself
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: SendPushMessageToOurself
+  nameWithType: IAppointmentMatrix.SendPushMessageToOurself
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SendPushMessageToOurself
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: >-
+    If true, we will also send push messages to logged in user if specified as recipient
+
+    If false, we will filter out logged in user
+  example: []
+  syntax:
+    content: bool SendPushMessageToOurself { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property SendPushMessageToOurself As Boolean
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.SendPushMessageToOurself*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.Task
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.Task
+  id: Task
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: Task
+  nameWithType: IAppointmentMatrix.Task
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.Task
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: TaskRow Task { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.TaskRow
+    content.vb: ReadOnly Property Task As TaskRow
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.Task*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.Title
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.Title
+  id: Title
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: IAppointmentMatrix.Title
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.Title
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: TextRow Title { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.TextRow
+    content.vb: ReadOnly Property Title As TextRow
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.Title*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.UdefHelper
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.UdefHelper
+  id: UdefHelper
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: UdefHelper
+  nameWithType: IAppointmentMatrix.UdefHelper
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.UdefHelper
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: EntityUdefHelper UdefHelper { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Entities.EntityUdefHelper
+    content.vb: ReadOnly Property UdefHelper As EntityUdefHelper
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.UdefHelper*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.VisibleForHelper
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.VisibleForHelper
+  id: VisibleForHelper
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: VisibleForHelper
+  nameWithType: IAppointmentMatrix.VisibleForHelper
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.VisibleForHelper
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: EntityVisibleForHelper VisibleForHelper { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Entities.EntityVisibleForHelper
+    content.vb: ReadOnly Property VisibleForHelper As EntityVisibleForHelper
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.VisibleForHelper*
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IAppointmentMatrix, To>(IAppointmentMatrix)
+  nameWithType: EnumUtil.MapEnums<IAppointmentMatrix, To>(IAppointmentMatrix)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.IAppointmentMatrix, To>(SuperOffice.CRM.Entities.IAppointmentMatrix)
+  nameWithType.vb: EnumUtil.MapEnums(Of IAppointmentMatrix, To)(IAppointmentMatrix)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.IAppointmentMatrix, To)(SuperOffice.CRM.Entities.IAppointmentMatrix)
+  name.vb: MapEnums(Of IAppointmentMatrix, To)(IAppointmentMatrix)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.IAppointmentMatrix)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.IAppointmentMatrix
+    name: IAppointmentMatrix
+    isExternal: true
+    href: SuperOffice.CRM.Entities.IAppointmentMatrix.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Entities.IAppointmentMatrix
+    name: IAppointmentMatrix
+    isExternal: true
+    href: SuperOffice.CRM.Entities.IAppointmentMatrix.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.IAppointmentMatrix)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.IAppointmentMatrix
+    name: IAppointmentMatrix
+    isExternal: true
+    href: SuperOffice.CRM.Entities.IAppointmentMatrix.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.IAppointmentMatrix
+    name: IAppointmentMatrix
+    isExternal: true
+    href: SuperOffice.CRM.Entities.IAppointmentMatrix.html
+  - name: )
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IAppointmentMatrix, To>(IAppointmentMatrix)
+  nameWithType: Converters.MapEnums<IAppointmentMatrix, To>(IAppointmentMatrix)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.IAppointmentMatrix, To>(SuperOffice.CRM.Entities.IAppointmentMatrix)
+  nameWithType.vb: Converters.MapEnums(Of IAppointmentMatrix, To)(IAppointmentMatrix)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.IAppointmentMatrix, To)(SuperOffice.CRM.Entities.IAppointmentMatrix)
+  name.vb: MapEnums(Of IAppointmentMatrix, To)(IAppointmentMatrix)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.IAppointmentMatrix)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.IAppointmentMatrix
+    name: IAppointmentMatrix
+    isExternal: true
+    href: SuperOffice.CRM.Entities.IAppointmentMatrix.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Entities.IAppointmentMatrix
+    name: IAppointmentMatrix
+    isExternal: true
+    href: SuperOffice.CRM.Entities.IAppointmentMatrix.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.IAppointmentMatrix)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.IAppointmentMatrix
+    name: IAppointmentMatrix
+    isExternal: true
+    href: SuperOffice.CRM.Entities.IAppointmentMatrix.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.IAppointmentMatrix
+    name: IAppointmentMatrix
+    isExternal: true
+    href: SuperOffice.CRM.Entities.IAppointmentMatrix.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_AcceptAsync_System_Threading_CancellationToken_
+  name: AcceptAsync
+  nameWithType: IAppointmentMatrix.AcceptAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.Data.RecurrenceUpdateMode
+  commentId: T:SuperOffice.Data.RecurrenceUpdateMode
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.RecurrenceUpdateMode.html
+  name: RecurrenceUpdateMode
+  nameWithType: RecurrenceUpdateMode
+  fullName: SuperOffice.Data.RecurrenceUpdateMode
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: SuperOffice.CRM.Services.ParticipantInfo
+  commentId: T:SuperOffice.CRM.Services.ParticipantInfo
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.ParticipantInfo.html
+  name: ParticipantInfo
+  nameWithType: ParticipantInfo
+  fullName: SuperOffice.CRM.Services.ParticipantInfo
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptRejectedAppointmentAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptRejectedAppointmentAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_AcceptRejectedAppointmentAsync_System_Threading_CancellationToken_
+  name: AcceptRejectedAppointmentAsync
+  nameWithType: IAppointmentMatrix.AcceptRejectedAppointmentAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptRejectedAppointmentAsync
+- uid: SuperOffice.CRM.Services.RecurrenceDate
+  commentId: T:SuperOffice.CRM.Services.RecurrenceDate
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.RecurrenceDate.html
+  name: RecurrenceDate
+  nameWithType: RecurrenceDate
+  fullName: SuperOffice.CRM.Services.RecurrenceDate
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptWithEmailConfirmationAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptWithEmailConfirmationAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_AcceptWithEmailConfirmationAsync_System_Threading_CancellationToken_
+  name: AcceptWithEmailConfirmationAsync
+  nameWithType: IAppointmentMatrix.AcceptWithEmailConfirmationAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.AcceptWithEmailConfirmationAsync
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.RecurrenceUpdateMode
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.RecurrenceUpdateMode
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_RecurrenceUpdateMode
+  name: RecurrenceUpdateMode
+  nameWithType: IAppointmentMatrix.RecurrenceUpdateMode
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.RecurrenceUpdateMode
+- uid: SuperOffice.Data.RecurrenceUpdateMode.OnlyThis
+  commentId: F:SuperOffice.Data.RecurrenceUpdateMode.OnlyThis
+  isExternal: true
+  name: OnlyThis
+  nameWithType: RecurrenceUpdateMode.OnlyThis
+  fullName: SuperOffice.Data.RecurrenceUpdateMode.OnlyThis
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.AddDateAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.AddDateAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_AddDateAsync_System_Threading_CancellationToken_System_DateTime___
+  name: AddDateAsync
+  nameWithType: IAppointmentMatrix.AddDateAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.AddDateAsync
+- uid: System.DateTime[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime[]
+  nameWithType: DateTime[]
+  fullName: System.DateTime[]
+  nameWithType.vb: Date()
+  fullName.vb: Date()
+  name.vb: Date()
+  spec.csharp:
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix
+  commentId: T:SuperOffice.CRM.Entities.IAppointmentMatrix
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html
+  name: IAppointmentMatrix
+  nameWithType: IAppointmentMatrix
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix
+- uid: SuperOffice.CRM.Services.RecurrenceDate[]
+  isExternal: true
+  href: SuperOffice.CRM.Services.RecurrenceDate.html
+  name: RecurrenceDate[]
+  nameWithType: RecurrenceDate[]
+  fullName: SuperOffice.CRM.Services.RecurrenceDate[]
+  nameWithType.vb: RecurrenceDate()
+  fullName.vb: SuperOffice.CRM.Services.RecurrenceDate()
+  name.vb: RecurrenceDate()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.RecurrenceDate
+    name: RecurrenceDate
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceDate.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.RecurrenceDate
+    name: RecurrenceDate
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceDate.html
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.AddParticipantAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.AddParticipantAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_AddParticipantAsync_System_Threading_CancellationToken_SuperOffice_CRM_Services_ParticipantInfo___
+  name: AddParticipantAsync
+  nameWithType: IAppointmentMatrix.AddParticipantAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.AddParticipantAsync
+- uid: SuperOffice.CRM.Services.ParticipantInfo[]
+  isExternal: true
+  name: ParticipantInfo[]
+  nameWithType: ParticipantInfo[]
+  fullName: SuperOffice.CRM.Services.ParticipantInfo[]
+  nameWithType.vb: ParticipantInfo()
+  fullName.vb: SuperOffice.CRM.Services.ParticipantInfo()
+  name.vb: ParticipantInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ParticipantInfo
+    name: ParticipantInfo
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ParticipantInfo
+    name: ParticipantInfo
+    isExternal: true
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.AssignToAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.AssignToAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_AssignToAsync_SuperOffice_CRM_Services_ParticipantInfo_System_Threading_CancellationToken_
+  name: AssignToAsync
+  nameWithType: IAppointmentMatrix.AssignToAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.AssignToAsync
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.AssignToExternalOrganizerAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.AssignToExternalOrganizerAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_AssignToExternalOrganizerAsync_SuperOffice_CRM_Services_ParticipantInfo_System_Threading_CancellationToken_
+  name: AssignToExternalOrganizerAsync
+  nameWithType: IAppointmentMatrix.AssignToExternalOrganizerAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.AssignToExternalOrganizerAsync
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.CalculateDaysAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.CalculateDaysAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_CalculateDaysAsync_System_Threading_CancellationToken_
+  name: CalculateDaysAsync
+  nameWithType: IAppointmentMatrix.CalculateDaysAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.CalculateDaysAsync
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.CancelAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.CancelAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_CancelAsync_SuperOffice_CRM_Services_ParticipantInfo_System_Threading_CancellationToken_
+  name: CancelAsync
+  nameWithType: IAppointmentMatrix.CancelAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.CancelAsync
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.DeleteAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.DeleteAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_DeleteAsync
+  name: DeleteAsync
+  nameWithType: IAppointmentMatrix.DeleteAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.DeleteAsync
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.DeleteUnusedInvitationMatrixAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.DeleteUnusedInvitationMatrixAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_DeleteUnusedInvitationMatrixAsync_System_Boolean_System_Threading_CancellationToken_
+  name: DeleteUnusedInvitationMatrixAsync
+  nameWithType: IAppointmentMatrix.DeleteUnusedInvitationMatrixAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.DeleteUnusedInvitationMatrixAsync
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.DeleteWithEmailAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.DeleteWithEmailAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_DeleteWithEmailAsync_System_Threading_CancellationToken_
+  name: DeleteWithEmailAsync
+  nameWithType: IAppointmentMatrix.DeleteWithEmailAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.DeleteWithEmailAsync
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.Ownership
+  commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.Ownership
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_Ownership
+  name: Ownership
+  nameWithType: IAppointmentMatrix.Ownership
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.Ownership
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.DemandOwnership*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.DemandOwnership
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_DemandOwnership_SuperOffice_CRM_Entities_AppointmentMatrix_OwnershipIndex_
+  name: DemandOwnership
+  nameWithType: IAppointmentMatrix.DemandOwnership
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.DemandOwnership
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
+  commentId: T:SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  href: SuperOffice.CRM.Entities.AppointmentMatrix.html
+  name: AppointmentMatrix.OwnershipIndex
+  nameWithType: AppointmentMatrix.OwnershipIndex
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.AppointmentMatrix
+    name: AppointmentMatrix
+    isExternal: true
+    href: SuperOffice.CRM.Entities.AppointmentMatrix.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
+    name: OwnershipIndex
+    isExternal: true
+    href: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.AppointmentMatrix
+    name: AppointmentMatrix
+    isExternal: true
+    href: SuperOffice.CRM.Entities.AppointmentMatrix.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
+    name: OwnershipIndex
+    isExternal: true
+    href: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex.html
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.EmailWasQueued*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.EmailWasQueued
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_EmailWasQueued
+  name: EmailWasQueued
+  nameWithType: IAppointmentMatrix.EmailWasQueued
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.EmailWasQueued
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.GetAllAppointmentRowsAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.GetAllAppointmentRowsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_GetAllAppointmentRowsAsync_System_Threading_CancellationToken_
+  name: GetAllAppointmentRowsAsync
+  nameWithType: IAppointmentMatrix.GetAllAppointmentRowsAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.GetAllAppointmentRowsAsync
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.AppointmentRow}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.AppointmentRow}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<AppointmentRow>
+  nameWithType: IAsyncEnumerable<AppointmentRow>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.AppointmentRow>
+  nameWithType.vb: IAsyncEnumerable(Of AppointmentRow)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.AppointmentRow)
+  name.vb: IAsyncEnumerable(Of AppointmentRow)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: <
+  - uid: SuperOffice.CRM.Rows.AppointmentRow
+    name: AppointmentRow
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.AppointmentRow
+    name: AppointmentRow
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.IAsyncEnumerable`1
+  isExternal: true
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: <
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.GetDates*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.GetDates
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_GetDates
+  name: GetDates
+  nameWithType: IAppointmentMatrix.GetDates
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.GetDates
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.GetMailBodyFromMailBodyAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.GetMailBodyFromMailBodyAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_GetMailBodyFromMailBodyAsync_SuperOffice_CRM_Globalization_TemplateVariables_System_String_SuperOffice_CRM_Services_ParticipantInfo_
+  name: GetMailBodyFromMailBodyAsync
+  nameWithType: IAppointmentMatrix.GetMailBodyFromMailBodyAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.GetMailBodyFromMailBodyAsync
+- uid: SuperOffice.CRM.Globalization.TemplateVariables
+  commentId: T:SuperOffice.CRM.Globalization.TemplateVariables
+  parent: SuperOffice.CRM.Globalization
+  isExternal: true
+  href: SuperOffice.CRM.Globalization.TemplateVariables.html
+  name: TemplateVariables
+  nameWithType: TemplateVariables
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.CRM.Globalization
+  commentId: N:SuperOffice.CRM.Globalization
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Globalization
+  nameWithType: SuperOffice.CRM.Globalization
+  fullName: SuperOffice.CRM.Globalization
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Globalization
+    name: Globalization
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Globalization
+    name: Globalization
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.html
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.GetIncludedAppointmentRowsAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.GetIncludedAppointmentRowsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_GetIncludedAppointmentRowsAsync_System_Threading_CancellationToken_
+  name: GetIncludedAppointmentRowsAsync
+  nameWithType: IAppointmentMatrix.GetIncludedAppointmentRowsAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.GetIncludedAppointmentRowsAsync
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.GetInnerMatrixAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.GetInnerMatrixAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_GetInnerMatrixAsync_System_Threading_CancellationToken_
+  name: GetInnerMatrixAsync
+  nameWithType: IAppointmentMatrix.GetInnerMatrixAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.GetInnerMatrixAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Util.KeyedMatrix{SuperOffice.CRM.Services.ParticipantInfo,SuperOffice.CRM.Services.RecurrenceDate,SuperOffice.CRM.Rows.AppointmentRow}}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.Util.KeyedMatrix{SuperOffice.CRM.Services.ParticipantInfo,SuperOffice.CRM.Services.RecurrenceDate,SuperOffice.CRM.Rows.AppointmentRow}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<KeyedMatrix<ParticipantInfo, RecurrenceDate, AppointmentRow>>
+  nameWithType: Task<KeyedMatrix<ParticipantInfo, RecurrenceDate, AppointmentRow>>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Util.KeyedMatrix<SuperOffice.CRM.Services.ParticipantInfo, SuperOffice.CRM.Services.RecurrenceDate, SuperOffice.CRM.Rows.AppointmentRow>>
+  nameWithType.vb: Task(Of KeyedMatrix(Of ParticipantInfo, RecurrenceDate, AppointmentRow))
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Util.KeyedMatrix(Of SuperOffice.CRM.Services.ParticipantInfo, SuperOffice.CRM.Services.RecurrenceDate, SuperOffice.CRM.Rows.AppointmentRow))
+  name.vb: Task(Of KeyedMatrix(Of ParticipantInfo, RecurrenceDate, AppointmentRow))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.Util.KeyedMatrix`3
+    name: KeyedMatrix
+    isExternal: true
+  - name: <
+  - uid: SuperOffice.CRM.Services.ParticipantInfo
+    name: ParticipantInfo
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Services.RecurrenceDate
+    name: RecurrenceDate
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.AppointmentRow
+    name: AppointmentRow
+    isExternal: true
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.KeyedMatrix`3
+    name: KeyedMatrix
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.ParticipantInfo
+    name: ParticipantInfo
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Services.RecurrenceDate
+    name: RecurrenceDate
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.AppointmentRow
+    name: AppointmentRow
+    isExternal: true
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.GetLinksHelperAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.GetLinksHelperAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_GetLinksHelperAsync_System_Threading_CancellationToken_
+  name: GetLinksHelperAsync
+  nameWithType: IAppointmentMatrix.GetLinksHelperAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.GetLinksHelperAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.ActivityLinksHelper}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Entities.ActivityLinksHelper}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ActivityLinksHelper>
+  nameWithType: Task<ActivityLinksHelper>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Entities.ActivityLinksHelper>
+  nameWithType.vb: Task(Of ActivityLinksHelper)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Entities.ActivityLinksHelper)
+  name.vb: Task(Of ActivityLinksHelper)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Entities.ActivityLinksHelper
+    name: ActivityLinksHelper
+    isExternal: true
+    href: SuperOffice.CRM.Entities.ActivityLinksHelper.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.ActivityLinksHelper
+    name: ActivityLinksHelper
+    isExternal: true
+    href: SuperOffice.CRM.Entities.ActivityLinksHelper.html
+  - name: )
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.GetParticipantFullNameAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.GetParticipantFullNameAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_GetParticipantFullNameAsync_SuperOffice_CRM_Services_ParticipantInfo_System_Threading_CancellationToken_
+  name: GetParticipantFullNameAsync
+  nameWithType: IAppointmentMatrix.GetParticipantFullNameAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.GetParticipantFullNameAsync
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.GetParticipants*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.GetParticipants
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_GetParticipants
+  name: GetParticipants
+  nameWithType: IAppointmentMatrix.GetParticipants
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.GetParticipants
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.GetRemovedAppointmentRows*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.GetRemovedAppointmentRows
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_GetRemovedAppointmentRows
+  name: GetRemovedAppointmentRows
+  nameWithType: IAppointmentMatrix.GetRemovedAppointmentRows
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.GetRemovedAppointmentRows
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.AppointmentRow}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.AppointmentRow}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<AppointmentRow>
+  nameWithType: IEnumerable<AppointmentRow>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.AppointmentRow>
+  nameWithType.vb: IEnumerable(Of AppointmentRow)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.AppointmentRow)
+  name.vb: IEnumerable(Of AppointmentRow)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.AppointmentRow
+    name: AppointmentRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AppointmentRow.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.AppointmentRow
+    name: AppointmentRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AppointmentRow.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.GetTemplateVariablesAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.GetTemplateVariablesAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_GetTemplateVariablesAsync_System_Threading_CancellationToken_
+  name: GetTemplateVariablesAsync
+  nameWithType: IAppointmentMatrix.GetTemplateVariablesAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.GetTemplateVariablesAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Globalization.TemplateVariables}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Globalization.TemplateVariables}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TemplateVariables>
+  nameWithType: Task<TemplateVariables>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Globalization.TemplateVariables>
+  nameWithType.vb: Task(Of TemplateVariables)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Globalization.TemplateVariables)
+  name.vb: Task(Of TemplateVariables)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Globalization.TemplateVariables
+    name: TemplateVariables
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Globalization.TemplateVariables
+    name: TemplateVariables
+    isExternal: true
+  - name: )
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.HasOwnership*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.HasOwnership
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_HasOwnership_SuperOffice_CRM_Entities_AppointmentMatrix_OwnershipIndex_
+  name: HasOwnership
+  nameWithType: IAppointmentMatrix.HasOwnership
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.HasOwnership
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.HasParticipant*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.HasParticipant
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_HasParticipant_SuperOffice_CRM_Services_ParticipantInfo_
+  name: HasParticipant
+  nameWithType: IAppointmentMatrix.HasParticipant
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.HasParticipant
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.MoveAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.MoveAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_MoveAsync_System_DateTime_System_Threading_CancellationToken_
+  name: MoveAsync
+  nameWithType: IAppointmentMatrix.MoveAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.MoveAsync
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.RejectAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.RejectAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_RejectAsync_SuperOffice_CRM_Services_ParticipantInfo_SuperOffice_CRM_Services_RecurrenceDate_System_String_System_Threading_CancellationToken_
+  name: RejectAsync
+  nameWithType: IAppointmentMatrix.RejectAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.RejectAsync
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.RejectWithEmailConfirmationAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.RejectWithEmailConfirmationAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_RejectWithEmailConfirmationAsync_System_String_System_Threading_CancellationToken_
+  name: RejectWithEmailConfirmationAsync
+  nameWithType: IAppointmentMatrix.RejectWithEmailConfirmationAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.RejectWithEmailConfirmationAsync
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.RemoveDateAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.RemoveDateAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_RemoveDateAsync_System_Threading_CancellationToken_System_DateTime___
+  name: RemoveDateAsync
+  nameWithType: IAppointmentMatrix.RemoveDateAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.RemoveDateAsync
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.RemoveParticipantAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.RemoveParticipantAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_RemoveParticipantAsync_System_Threading_CancellationToken_SuperOffice_CRM_Services_ParticipantInfo___
+  name: RemoveParticipantAsync
+  nameWithType: IAppointmentMatrix.RemoveParticipantAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.RemoveParticipantAsync
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SaveAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.SaveAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_SaveAsync
+  name: SaveAsync
+  nameWithType: IAppointmentMatrix.SaveAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SaveAsync
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SetDatesAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.SetDatesAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_SetDatesAsync_System_Threading_CancellationToken_SuperOffice_CRM_Services_RecurrenceDate___
+  name: SetDatesAsync
+  nameWithType: IAppointmentMatrix.SetDatesAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SetDatesAsync
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SetInvitationMailBody*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.SetInvitationMailBody
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_SetInvitationMailBody_System_String_System_String_System_String_
+  name: SetInvitationMailBody
+  nameWithType: IAppointmentMatrix.SetInvitationMailBody
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SetInvitationMailBody
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SetModifiedAppointmentFields*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.SetModifiedAppointmentFields
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_SetModifiedAppointmentFields_SuperOffice_CRM_Rows_AppointmentRow_
+  name: SetModifiedAppointmentFields
+  nameWithType: IAppointmentMatrix.SetModifiedAppointmentFields
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SetModifiedAppointmentFields
+- uid: SuperOffice.CRM.Rows.AppointmentRow
+  commentId: T:SuperOffice.CRM.Rows.AppointmentRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AppointmentRow.html
+  name: AppointmentRow
+  nameWithType: AppointmentRow
+  fullName: SuperOffice.CRM.Rows.AppointmentRow
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SetParticipantsAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.SetParticipantsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_SetParticipantsAsync_System_Threading_CancellationToken_SuperOffice_CRM_Services_ParticipantInfo___
+  name: SetParticipantsAsync
+  nameWithType: IAppointmentMatrix.SetParticipantsAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SetParticipantsAsync
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSeenAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.SetSeenAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_SetSeenAsync_System_Threading_CancellationToken_
+  name: SetSeenAsync
+  nameWithType: IAppointmentMatrix.SetSeenAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSeenAsync
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_SetSendMailToParticipants_System_Boolean_
+  name: SetSendMailToParticipants
+  nameWithType: IAppointmentMatrix.SetSendMailToParticipants
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipantsAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipantsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_SetSendMailToParticipantsAsync_System_Boolean_System_Boolean_
+  name: SetSendMailToParticipantsAsync
+  nameWithType: IAppointmentMatrix.SetSendMailToParticipantsAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipantsAsync
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.UpdateParticipantInfoAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.UpdateParticipantInfoAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_UpdateParticipantInfoAsync_SuperOffice_CRM_Services_ParticipantInfo_System_Threading_CancellationToken_
+  name: UpdateParticipantInfoAsync
+  nameWithType: IAppointmentMatrix.UpdateParticipantInfoAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.UpdateParticipantInfoAsync
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.ValidateDaysAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.ValidateDaysAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_ValidateDaysAsync_System_Threading_CancellationToken_
+  name: ValidateDaysAsync
+  nameWithType: IAppointmentMatrix.ValidateDaysAsync
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.ValidateDaysAsync
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.Agenda*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.Agenda
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_Agenda
+  name: Agenda
+  nameWithType: IAppointmentMatrix.Agenda
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.Agenda
+- uid: SuperOffice.CRM.Rows.TextRow
+  commentId: T:SuperOffice.CRM.Rows.TextRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TextRow.html
+  name: TextRow
+  nameWithType: TextRow
+  fullName: SuperOffice.CRM.Rows.TextRow
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.AppointmentText*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.AppointmentText
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_AppointmentText
+  name: AppointmentText
+  nameWithType: IAppointmentMatrix.AppointmentText
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.AppointmentText
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.BookingType*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.BookingType
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_BookingType
+  name: BookingType
+  nameWithType: IAppointmentMatrix.BookingType
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.BookingType
+- uid: SuperOffice.Data.BookingType
+  commentId: T:SuperOffice.Data.BookingType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.BookingType.html
+  name: BookingType
+  nameWithType: BookingType
+  fullName: SuperOffice.Data.BookingType
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.CurrentAppointmentRow*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.CurrentAppointmentRow
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_CurrentAppointmentRow
+  name: CurrentAppointmentRow
+  nameWithType: IAppointmentMatrix.CurrentAppointmentRow
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.CurrentAppointmentRow
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.CustomFields*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.CustomFields
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_CustomFields
+  name: CustomFields
+  nameWithType: IAppointmentMatrix.CustomFields
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.CustomFields
+- uid: SuperOffice.CRM.Entities.EntityCustomFieldsHelper
+  commentId: T:SuperOffice.CRM.Entities.EntityCustomFieldsHelper
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  href: SuperOffice.CRM.Entities.EntityCustomFieldsHelper.html
+  name: EntityCustomFieldsHelper
+  nameWithType: EntityCustomFieldsHelper
+  fullName: SuperOffice.CRM.Entities.EntityCustomFieldsHelper
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.ExtraFields*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.ExtraFields
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_ExtraFields
+  name: ExtraFields
+  nameWithType: IAppointmentMatrix.ExtraFields
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.ExtraFields
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+  commentId: T:SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  href: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.html
+  name: EntityExtraFieldsHelper
+  nameWithType: EntityExtraFieldsHelper
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.ForceChildProcessing*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.ForceChildProcessing
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_ForceChildProcessing
+  name: ForceChildProcessing
+  nameWithType: IAppointmentMatrix.ForceChildProcessing
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.ForceChildProcessing
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.InnerRemovedMatrix*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.InnerRemovedMatrix
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_InnerRemovedMatrix
+  name: InnerRemovedMatrix
+  nameWithType: IAppointmentMatrix.InnerRemovedMatrix
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.InnerRemovedMatrix
+- uid: SuperOffice.Util.KeyedMatrix{SuperOffice.CRM.Services.ParticipantInfo,SuperOffice.CRM.Services.RecurrenceDate,SuperOffice.CRM.Rows.AppointmentRow}
+  commentId: T:SuperOffice.Util.KeyedMatrix{SuperOffice.CRM.Services.ParticipantInfo,SuperOffice.CRM.Services.RecurrenceDate,SuperOffice.CRM.Rows.AppointmentRow}
+  parent: SuperOffice.Util
+  definition: SuperOffice.Util.KeyedMatrix`3
+  name: KeyedMatrix<ParticipantInfo, RecurrenceDate, AppointmentRow>
+  nameWithType: KeyedMatrix<ParticipantInfo, RecurrenceDate, AppointmentRow>
+  fullName: SuperOffice.Util.KeyedMatrix<SuperOffice.CRM.Services.ParticipantInfo, SuperOffice.CRM.Services.RecurrenceDate, SuperOffice.CRM.Rows.AppointmentRow>
+  nameWithType.vb: KeyedMatrix(Of ParticipantInfo, RecurrenceDate, AppointmentRow)
+  fullName.vb: SuperOffice.Util.KeyedMatrix(Of SuperOffice.CRM.Services.ParticipantInfo, SuperOffice.CRM.Services.RecurrenceDate, SuperOffice.CRM.Rows.AppointmentRow)
+  name.vb: KeyedMatrix(Of ParticipantInfo, RecurrenceDate, AppointmentRow)
+  spec.csharp:
+  - uid: SuperOffice.Util.KeyedMatrix`3
+    name: KeyedMatrix
+    isExternal: true
+  - name: <
+  - uid: SuperOffice.CRM.Services.ParticipantInfo
+    name: ParticipantInfo
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Services.RecurrenceDate
+    name: RecurrenceDate
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.AppointmentRow
+    name: AppointmentRow
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Util.KeyedMatrix`3
+    name: KeyedMatrix
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.ParticipantInfo
+    name: ParticipantInfo
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Services.RecurrenceDate
+    name: RecurrenceDate
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.AppointmentRow
+    name: AppointmentRow
+    isExternal: true
+  - name: )
+- uid: SuperOffice.Util.KeyedMatrix`3
+  commentId: T:SuperOffice.Util.KeyedMatrix`3
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.KeyedMatrix-3.html
+  name: KeyedMatrix<TKeyColumn, TKeyRow, TItem>
+  nameWithType: KeyedMatrix<TKeyColumn, TKeyRow, TItem>
+  fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>
+  nameWithType.vb: KeyedMatrix(Of TKeyColumn, TKeyRow, TItem)
+  fullName.vb: SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem)
+  name.vb: KeyedMatrix(Of TKeyColumn, TKeyRow, TItem)
+  spec.csharp:
+  - uid: SuperOffice.Util.KeyedMatrix`3
+    name: KeyedMatrix
+    isExternal: true
+    href: SuperOffice.Util.KeyedMatrix-3.html
+  - name: <
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Util.KeyedMatrix`3
+    name: KeyedMatrix
+    isExternal: true
+    href: SuperOffice.Util.KeyedMatrix-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: )
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.InternalNotes*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.InternalNotes
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_InternalNotes
+  name: InternalNotes
+  nameWithType: IAppointmentMatrix.InternalNotes
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.InternalNotes
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.IsBooking*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.IsBooking
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_IsBooking
+  name: IsBooking
+  nameWithType: IAppointmentMatrix.IsBooking
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.IsBooking
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.IsBookingMaster*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.IsBookingMaster
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_IsBookingMaster
+  name: IsBookingMaster
+  nameWithType: IAppointmentMatrix.IsBookingMaster
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.IsBookingMaster
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.IsDeleted*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.IsDeleted
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_IsDeleted
+  name: IsDeleted
+  nameWithType: IAppointmentMatrix.IsDeleted
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.IsDeleted
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.IsDirty*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.IsDirty
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_IsDirty
+  name: IsDirty
+  nameWithType: IAppointmentMatrix.IsDirty
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.IsDirty
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.IsExternalInvitation*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.IsExternalInvitation
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_IsExternalInvitation
+  name: IsExternalInvitation
+  nameWithType: IAppointmentMatrix.IsExternalInvitation
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.IsExternalInvitation
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.IsRecurring*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.IsRecurring
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_IsRecurring
+  name: IsRecurring
+  nameWithType: IAppointmentMatrix.IsRecurring
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.IsRecurring
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.MainBooking*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.MainBooking
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_MainBooking
+  name: MainBooking
+  nameWithType: IAppointmentMatrix.MainBooking
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.MainBooking
+- uid: SuperOffice.CRM.Entities.Appointment
+  commentId: T:SuperOffice.CRM.Entities.Appointment
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  href: SuperOffice.CRM.Entities.Appointment.html
+  name: Appointment
+  nameWithType: Appointment
+  fullName: SuperOffice.CRM.Entities.Appointment
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.MainBookingRow*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.MainBookingRow
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_MainBookingRow
+  name: MainBookingRow
+  nameWithType: IAppointmentMatrix.MainBookingRow
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.MainBookingRow
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.Ownership*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.Ownership
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_Ownership
+  name: Ownership
+  nameWithType: IAppointmentMatrix.Ownership
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.Ownership
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.PublishHelper*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.PublishHelper
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_PublishHelper
+  name: PublishHelper
+  nameWithType: IAppointmentMatrix.PublishHelper
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.PublishHelper
+- uid: SuperOffice.CRM.Entities.EntityPublishHelper
+  commentId: T:SuperOffice.CRM.Entities.EntityPublishHelper
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  href: SuperOffice.CRM.Entities.EntityPublishHelper.html
+  name: EntityPublishHelper
+  nameWithType: EntityPublishHelper
+  fullName: SuperOffice.CRM.Entities.EntityPublishHelper
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.Recurrence*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.Recurrence
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_Recurrence
+  name: Recurrence
+  nameWithType: IAppointmentMatrix.Recurrence
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.Recurrence
+- uid: SuperOffice.CRM.Services.RecurrenceInfo
+  commentId: T:SuperOffice.CRM.Services.RecurrenceInfo
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.RecurrenceInfo.html
+  name: RecurrenceInfo
+  nameWithType: RecurrenceInfo
+  fullName: SuperOffice.CRM.Services.RecurrenceInfo
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.RecurrenceUpdateMode*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.RecurrenceUpdateMode
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_RecurrenceUpdateMode
+  name: RecurrenceUpdateMode
+  nameWithType: IAppointmentMatrix.RecurrenceUpdateMode
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.RecurrenceUpdateMode
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SendMailFunction*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.SendMailFunction
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_SendMailFunction
+  name: SendMailFunction
+  nameWithType: IAppointmentMatrix.SendMailFunction
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SendMailFunction
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails
+  commentId: T:SuperOffice.CRM.Entities.AppointmentMatrix.SendMails
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  href: SuperOffice.CRM.Entities.AppointmentMatrix.html
+  name: AppointmentMatrix.SendMails
+  nameWithType: AppointmentMatrix.SendMails
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.AppointmentMatrix
+    name: AppointmentMatrix
+    isExternal: true
+    href: SuperOffice.CRM.Entities.AppointmentMatrix.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails
+    name: SendMails
+    isExternal: true
+    href: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.AppointmentMatrix
+    name: AppointmentMatrix
+    isExternal: true
+    href: SuperOffice.CRM.Entities.AppointmentMatrix.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails
+    name: SendMails
+    isExternal: true
+    href: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.html
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SendNewInvitations*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.SendNewInvitations
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_SendNewInvitations
+  name: SendNewInvitations
+  nameWithType: IAppointmentMatrix.SendNewInvitations
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SendNewInvitations
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Services.ParticipantInfo}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Services.ParticipantInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<ParticipantInfo>
+  nameWithType: List<ParticipantInfo>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Services.ParticipantInfo>
+  nameWithType.vb: List(Of ParticipantInfo)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Services.ParticipantInfo)
+  name.vb: List(Of ParticipantInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.ParticipantInfo
+    name: ParticipantInfo
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.ParticipantInfo
+    name: ParticipantInfo
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SendPushMessageToOurself*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.SendPushMessageToOurself
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_SendPushMessageToOurself
+  name: SendPushMessageToOurself
+  nameWithType: IAppointmentMatrix.SendPushMessageToOurself
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SendPushMessageToOurself
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.Task*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.Task
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_Task
+  name: Task
+  nameWithType: IAppointmentMatrix.Task
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.Task
+- uid: SuperOffice.CRM.Rows.TaskRow
+  commentId: T:SuperOffice.CRM.Rows.TaskRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TaskRow.html
+  name: TaskRow
+  nameWithType: TaskRow
+  fullName: SuperOffice.CRM.Rows.TaskRow
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.Title*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.Title
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_Title
+  name: Title
+  nameWithType: IAppointmentMatrix.Title
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.Title
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.UdefHelper*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.UdefHelper
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_UdefHelper
+  name: UdefHelper
+  nameWithType: IAppointmentMatrix.UdefHelper
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.UdefHelper
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper
+  commentId: T:SuperOffice.CRM.Entities.EntityUdefHelper
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  href: SuperOffice.CRM.Entities.EntityUdefHelper.html
+  name: EntityUdefHelper
+  nameWithType: EntityUdefHelper
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.VisibleForHelper*
+  commentId: Overload:SuperOffice.CRM.Entities.IAppointmentMatrix.VisibleForHelper
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_VisibleForHelper
+  name: VisibleForHelper
+  nameWithType: IAppointmentMatrix.VisibleForHelper
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.VisibleForHelper
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  commentId: T:SuperOffice.CRM.Entities.EntityVisibleForHelper
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  href: SuperOffice.CRM.Entities.EntityVisibleForHelper.html
+  name: EntityVisibleForHelper
+  nameWithType: EntityVisibleForHelper
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper

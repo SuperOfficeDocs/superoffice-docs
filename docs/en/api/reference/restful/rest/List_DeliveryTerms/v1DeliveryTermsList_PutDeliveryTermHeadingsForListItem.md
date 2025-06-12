@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 595,
-    "Name": "Grimes, McLaughlin and Harvey",
-    "ToolTip": "Quis qui ut modi doloremque sapiente dolore.",
-    "Deleted": false,
-    "Rank": 770,
-    "Type": "dignissimos",
-    "ColorBlock": 862,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2020-04-10T16:32:48.6495307+02:00",
+    "Id": 598,
+    "Name": "Nolan-Satterfield",
+    "ToolTip": "Aut modi molestias debitis aliquam sit.",
+    "Deleted": true,
+    "Rank": 592,
+    "Type": "ea",
+    "ColorBlock": 283,
+    "IconHint": "ea",
+    "Selected": false,
+    "LastChanged": "2016-06-05T17:54:08.8980498+02:00",
     "ChildItems": [
       {
-        "Id": 682,
-        "Name": "Huel LLC",
-        "ToolTip": "Rerum architecto eius dolorum officia reprehenderit saepe doloremque.",
+        "Id": 105,
+        "Name": "Bartoletti, Nader and Leffler",
+        "ToolTip": "Odio ea incidunt mollitia molestias excepturi dolorum unde.",
         "Deleted": false,
-        "Rank": 785,
-        "Type": "rem",
-        "ColorBlock": 445,
-        "IconHint": "minus",
-        "Selected": true,
-        "LastChanged": "2024-09-17T16:32:48.6495307+02:00",
+        "Rank": 357,
+        "Type": "ipsum",
+        "ColorBlock": 416,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2019-09-23T17:54:08.8980498+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Morton Huels"
+        "ExtraInfo": "ipsa",
+        "StyleHint": "laboriosam",
+        "Hidden": false,
+        "FullName": "Ms. Ronaldo Jewell Cole"
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "repellat",
+    "ExtraInfo": "unde",
+    "StyleHint": "laudantium",
     "Hidden": true,
-    "FullName": "Miss David Deshaun Grimes"
+    "FullName": "Francisca Aimee Wisozk DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 183,
-    "Name": "Batz Group",
-    "ToolTip": "Aliquam exercitationem praesentium corrupti voluptas.",
+    "Id": 392,
+    "Name": "Reinger, O'Kon and Ritchie",
+    "ToolTip": "Eos et autem mollitia.",
     "Deleted": false,
-    "Rank": 227,
-    "Type": "error",
-    "ColorBlock": 278,
-    "IconHint": "quia",
+    "Rank": 777,
+    "Type": "aut",
+    "ColorBlock": 793,
+    "IconHint": "dignissimos",
     "Selected": false,
-    "LastChanged": "2015-12-20T16:32:48.6495307+01:00",
+    "LastChanged": "2003-06-01T17:54:08.8980498+02:00",
     "ChildItems": [
       {
-        "Id": 168,
-        "Name": "Murazik-Russel",
-        "ToolTip": "Debitis laboriosam qui.",
-        "Deleted": false,
-        "Rank": 766,
-        "Type": "beatae",
-        "ColorBlock": 80,
-        "IconHint": "sapiente",
+        "Id": 916,
+        "Name": "Lesch LLC",
+        "ToolTip": "In itaque quos iusto.",
+        "Deleted": true,
+        "Rank": 66,
+        "Type": "fugit",
+        "ColorBlock": 904,
+        "IconHint": "nemo",
         "Selected": false,
-        "LastChanged": "2015-08-20T16:32:48.6495307+02:00",
+        "LastChanged": "2014-05-07T17:54:08.8980498+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "et",
-        "StyleHint": "sit",
+        "StyleHint": "quod",
         "Hidden": false,
-        "FullName": "Alene VonRueden",
+        "FullName": "Mrs. Cody Liliane Keeling Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 33
+            "FieldType": "System.String",
+            "FieldLength": 327
           }
         }
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "eos",
+    "ExtraInfo": "vel",
+    "StyleHint": "ut",
     "Hidden": true,
-    "FullName": "Marilou Miles Bergnaum DDS",
+    "FullName": "Forrest Bosco V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 956
+        "FieldType": "System.Int32",
+        "FieldLength": 196
       }
     }
   }

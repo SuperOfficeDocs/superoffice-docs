@@ -1,0 +1,694 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.FieldKeysBase
+  commentId: T:SuperOffice.ErpSync.FieldKeysBase
+  id: FieldKeysBase
+  parent: SuperOffice.ErpSync
+  children:
+  - SuperOffice.ErpSync.FieldKeysBase.#ctor
+  - SuperOffice.ErpSync.FieldKeysBase.Fields
+  - SuperOffice.ErpSync.FieldKeysBase.Flush
+  - SuperOffice.ErpSync.FieldKeysBase.GetFieldsAsync(SuperOffice.Data.CrmActorType,System.Threading.CancellationToken)
+  - SuperOffice.ErpSync.FieldKeysBase.InitFieldsAsync(System.Threading.CancellationToken)
+  - SuperOffice.ErpSync.FieldKeysBase.Udef
+  langs:
+  - csharp
+  - vb
+  name: FieldKeysBase
+  nameWithType: FieldKeysBase
+  fullName: SuperOffice.ErpSync.FieldKeysBase
+  type: Class
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Base class for classes that declare field metadata for the Crm side of the ERP integration system
+  example: []
+  syntax:
+    content: public abstract class FieldKeysBase
+    content.vb: Public MustInherit Class FieldKeysBase
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.ErpSync.ContactFieldKeys
+  - SuperOffice.ErpSync.PersonFieldKeys
+  - SuperOffice.ErpSync.ProjectFieldKeys
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.ErpSync.FieldKeysBase.InitFieldsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.FieldKeysBase.InitFieldsAsync(System.Threading.CancellationToken)
+  id: InitFieldsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.FieldKeysBase
+  langs:
+  - csharp
+  - vb
+  name: InitFieldsAsync(CancellationToken)
+  nameWithType: FieldKeysBase.InitFieldsAsync(CancellationToken)
+  fullName: SuperOffice.ErpSync.FieldKeysBase.InitFieldsAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Get metadata about the fields supported for the given CRM ActorType, as represented by the subclass
+  example: []
+  syntax:
+    content: protected Task<FieldMetadataInfo[]> InitFieldsAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.FieldMetadataInfo[]}
+      description: ''
+    content.vb: Protected Function InitFieldsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of FieldMetadataInfo())
+  overload: SuperOffice.ErpSync.FieldKeysBase.InitFieldsAsync*
+- uid: SuperOffice.ErpSync.FieldKeysBase.GetFieldsAsync(SuperOffice.Data.CrmActorType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.FieldKeysBase.GetFieldsAsync(SuperOffice.Data.CrmActorType,System.Threading.CancellationToken)
+  id: GetFieldsAsync(SuperOffice.Data.CrmActorType,System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.FieldKeysBase
+  langs:
+  - csharp
+  - vb
+  name: GetFieldsAsync(CrmActorType, CancellationToken)
+  nameWithType: FieldKeysBase.GetFieldsAsync(CrmActorType, CancellationToken)
+  fullName: SuperOffice.ErpSync.FieldKeysBase.GetFieldsAsync(SuperOffice.Data.CrmActorType, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Get metadata for all fields supported by a given CRM Actor type
+  example: []
+  syntax:
+    content: public static Task<FieldMetadataInfo[]> GetFieldsAsync(CrmActorType actorType, CancellationToken cancellationToken = default)
+    parameters:
+    - id: actorType
+      type: SuperOffice.Data.CrmActorType
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.FieldMetadataInfo[]}
+      description: ''
+    content.vb: Public Shared Function GetFieldsAsync(actorType As CrmActorType, cancellationToken As CancellationToken = Nothing) As Task(Of FieldMetadataInfo())
+  overload: SuperOffice.ErpSync.FieldKeysBase.GetFieldsAsync*
+- uid: SuperOffice.ErpSync.FieldKeysBase.Flush
+  commentId: M:SuperOffice.ErpSync.FieldKeysBase.Flush
+  id: Flush
+  parent: SuperOffice.ErpSync.FieldKeysBase
+  langs:
+  - csharp
+  - vb
+  name: Flush()
+  nameWithType: FieldKeysBase.Flush()
+  fullName: SuperOffice.ErpSync.FieldKeysBase.Flush()
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public void Flush()
+    content.vb: Public Sub Flush()
+  overload: SuperOffice.ErpSync.FieldKeysBase.Flush*
+- uid: SuperOffice.ErpSync.FieldKeysBase.#ctor
+  commentId: M:SuperOffice.ErpSync.FieldKeysBase.#ctor
+  id: '#ctor'
+  parent: SuperOffice.ErpSync.FieldKeysBase
+  langs:
+  - csharp
+  - vb
+  name: FieldKeysBase()
+  nameWithType: FieldKeysBase.FieldKeysBase()
+  fullName: SuperOffice.ErpSync.FieldKeysBase.FieldKeysBase()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: protected FieldKeysBase()
+    content.vb: Protected Sub New()
+  overload: SuperOffice.ErpSync.FieldKeysBase.#ctor*
+  nameWithType.vb: FieldKeysBase.New()
+  fullName.vb: SuperOffice.ErpSync.FieldKeysBase.New()
+  name.vb: New()
+- uid: SuperOffice.ErpSync.FieldKeysBase.Udef
+  commentId: P:SuperOffice.ErpSync.FieldKeysBase.Udef
+  id: Udef
+  parent: SuperOffice.ErpSync.FieldKeysBase
+  langs:
+  - csharp
+  - vb
+  name: Udef
+  nameWithType: FieldKeysBase.Udef
+  fullName: SuperOffice.ErpSync.FieldKeysBase.Udef
+  type: Property
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Subclass must tell what udef type it has, if any
+  example: []
+  syntax:
+    content: protected abstract UDefType Udef { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.UDefType
+    content.vb: Protected MustOverride ReadOnly Property Udef As UDefType
+  overload: SuperOffice.ErpSync.FieldKeysBase.Udef*
+- uid: SuperOffice.ErpSync.FieldKeysBase.Fields
+  commentId: P:SuperOffice.ErpSync.FieldKeysBase.Fields
+  id: Fields
+  parent: SuperOffice.ErpSync.FieldKeysBase
+  langs:
+  - csharp
+  - vb
+  name: Fields
+  nameWithType: FieldKeysBase.Fields
+  fullName: SuperOffice.ErpSync.FieldKeysBase.Fields
+  type: Property
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: protected AsyncLazy<FieldMetadataInfo[]> Fields { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Threading.AsyncLazy{SuperOffice.CRM.FieldMetadataInfo[]}
+    content.vb: Protected ReadOnly Property Fields As AsyncLazy(Of FieldMetadataInfo())
+  overload: SuperOffice.ErpSync.FieldKeysBase.Fields*
+references:
+- uid: SuperOffice.ErpSync
+  commentId: N:SuperOffice.ErpSync
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync
+  nameWithType: SuperOffice.ErpSync
+  fullName: SuperOffice.ErpSync
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.ErpSync.FieldKeysBase.InitFieldsAsync*
+  commentId: Overload:SuperOffice.ErpSync.FieldKeysBase.InitFieldsAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.FieldKeysBase.html#SuperOffice_ErpSync_FieldKeysBase_InitFieldsAsync_System_Threading_CancellationToken_
+  name: InitFieldsAsync
+  nameWithType: FieldKeysBase.InitFieldsAsync
+  fullName: SuperOffice.ErpSync.FieldKeysBase.InitFieldsAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.FieldMetadataInfo[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.FieldMetadataInfo[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<FieldMetadataInfo[]>
+  nameWithType: Task<FieldMetadataInfo[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.FieldMetadataInfo[]>
+  nameWithType.vb: Task(Of FieldMetadataInfo())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.FieldMetadataInfo())
+  name.vb: Task(Of FieldMetadataInfo())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.FieldMetadataInfo
+    name: FieldMetadataInfo
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.FieldMetadataInfo
+    name: FieldMetadataInfo
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.ErpSync.FieldKeysBase.GetFieldsAsync*
+  commentId: Overload:SuperOffice.ErpSync.FieldKeysBase.GetFieldsAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.FieldKeysBase.html#SuperOffice_ErpSync_FieldKeysBase_GetFieldsAsync_SuperOffice_Data_CrmActorType_System_Threading_CancellationToken_
+  name: GetFieldsAsync
+  nameWithType: FieldKeysBase.GetFieldsAsync
+  fullName: SuperOffice.ErpSync.FieldKeysBase.GetFieldsAsync
+- uid: SuperOffice.Data.CrmActorType
+  isExternal: true
+  name: CrmActorType
+  nameWithType: CrmActorType
+  fullName: SuperOffice.Data.CrmActorType
+- uid: SuperOffice.ErpSync.FieldKeysBase.Flush*
+  commentId: Overload:SuperOffice.ErpSync.FieldKeysBase.Flush
+  isExternal: true
+  href: SuperOffice.ErpSync.FieldKeysBase.html#SuperOffice_ErpSync_FieldKeysBase_Flush
+  name: Flush
+  nameWithType: FieldKeysBase.Flush
+  fullName: SuperOffice.ErpSync.FieldKeysBase.Flush
+- uid: SuperOffice.ErpSync.FieldKeysBase.#ctor*
+  commentId: Overload:SuperOffice.ErpSync.FieldKeysBase.#ctor
+  isExternal: true
+  href: SuperOffice.ErpSync.FieldKeysBase.html#SuperOffice_ErpSync_FieldKeysBase__ctor
+  name: FieldKeysBase
+  nameWithType: FieldKeysBase.FieldKeysBase
+  fullName: SuperOffice.ErpSync.FieldKeysBase.FieldKeysBase
+  nameWithType.vb: FieldKeysBase.New
+  fullName.vb: SuperOffice.ErpSync.FieldKeysBase.New
+  name.vb: New
+- uid: SuperOffice.ErpSync.FieldKeysBase.Udef*
+  commentId: Overload:SuperOffice.ErpSync.FieldKeysBase.Udef
+  isExternal: true
+  href: SuperOffice.ErpSync.FieldKeysBase.html#SuperOffice_ErpSync_FieldKeysBase_Udef
+  name: Udef
+  nameWithType: FieldKeysBase.Udef
+  fullName: SuperOffice.ErpSync.FieldKeysBase.Udef
+- uid: SuperOffice.Data.UDefType
+  isExternal: true
+  name: UDefType
+  nameWithType: UDefType
+  fullName: SuperOffice.Data.UDefType
+- uid: SuperOffice.ErpSync.FieldKeysBase.Fields*
+  commentId: Overload:SuperOffice.ErpSync.FieldKeysBase.Fields
+  isExternal: true
+  href: SuperOffice.ErpSync.FieldKeysBase.html#SuperOffice_ErpSync_FieldKeysBase_Fields
+  name: Fields
+  nameWithType: FieldKeysBase.Fields
+  fullName: SuperOffice.ErpSync.FieldKeysBase.Fields
+- uid: SuperOffice.Threading.AsyncLazy{SuperOffice.CRM.FieldMetadataInfo[]}
+  commentId: '!:SuperOffice.Threading.AsyncLazy{SuperOffice.CRM.FieldMetadataInfo[]}'
+  definition: SuperOffice.Threading.AsyncLazy`1
+  name: AsyncLazy<FieldMetadataInfo[]>
+  nameWithType: AsyncLazy<FieldMetadataInfo[]>
+  fullName: SuperOffice.Threading.AsyncLazy<SuperOffice.CRM.FieldMetadataInfo[]>
+  nameWithType.vb: AsyncLazy(Of FieldMetadataInfo())
+  fullName.vb: SuperOffice.Threading.AsyncLazy(Of SuperOffice.CRM.FieldMetadataInfo())
+  name.vb: AsyncLazy(Of FieldMetadataInfo())
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncLazy`1
+    name: AsyncLazy
+    isExternal: true
+  - name: <
+  - uid: SuperOffice.CRM.FieldMetadataInfo
+    name: FieldMetadataInfo
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncLazy`1
+    name: AsyncLazy
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.FieldMetadataInfo
+    name: FieldMetadataInfo
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.Threading.AsyncLazy`1
+  commentId: '!:SuperOffice.Threading.AsyncLazy`1'
+  isExternal: true
+  name: AsyncLazy<>
+  nameWithType: AsyncLazy<>
+  fullName: SuperOffice.Threading.AsyncLazy<>
+  nameWithType.vb: AsyncLazy(Of )
+  fullName.vb: SuperOffice.Threading.AsyncLazy(Of )
+  name.vb: AsyncLazy(Of )
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncLazy`1
+    name: AsyncLazy
+    isExternal: true
+  - name: <
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncLazy`1
+    name: AsyncLazy
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

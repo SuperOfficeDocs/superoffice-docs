@@ -15,27 +15,24 @@ items:
   nameWithType: SaleFilterDialogDataHandler
   fullName: SuperOffice.CRM.SaleFilterDialogDataHandler
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\nData fetch/save class for the Sale Filter dialog. \n"
+  summary: Data fetch/save class for the Sale Filter dialog.
+  example: []
   syntax:
-    content: 'public static class SaleFilterDialogDataHandler : Object'
-    content.vb: >-
-      Public Module SaleFilterDialogDataHandler
-          Inherits Object
+    content: public static class SaleFilterDialogDataHandler
+    content.vb: Public Module SaleFilterDialogDataHandler
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.SaleFilterDialogDataHandler.GetToDate
   commentId: M:SuperOffice.CRM.SaleFilterDialogDataHandler.GetToDate
   id: GetToDate
@@ -47,26 +44,21 @@ items:
   nameWithType: SaleFilterDialogDataHandler.GetToDate()
   fullName: SuperOffice.CRM.SaleFilterDialogDataHandler.GetToDate()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\nGet the &apos;to date&apos;, i.e., the date of the newest visible sales. The date is recalculated based on the &apos;days after&apos; (today)\nvalue every time this method is called, and so moves with real time.\n"
+  summary: >-
+    Get the 'to date', i.e., the date of the newest visible sales. The date is recalculated based on the 'days after' (today)
+
+    value every time this method is called, and so moves with real time.
+  example: []
   syntax:
     content: public static DateTime GetToDate()
     return:
       type: System.DateTime
       description: Date of latest visible activity, always greater than today
-    content.vb: Public Shared Function GetToDate As DateTime
+    content.vb: Public Shared Function GetToDate() As Date
   overload: SuperOffice.CRM.SaleFilterDialogDataHandler.GetToDate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.SaleFilterDialogDataHandler.Save(System.Int32)
   commentId: M:SuperOffice.CRM.SaleFilterDialogDataHandler.Save(System.Int32)
   id: Save(System.Int32)
@@ -74,18 +66,16 @@ items:
   langs:
   - csharp
   - vb
-  name: Save(Int32)
-  nameWithType: SaleFilterDialogDataHandler.Save(Int32)
-  fullName: SuperOffice.CRM.SaleFilterDialogDataHandler.Save(System.Int32)
+  name: Save(int)
+  nameWithType: SaleFilterDialogDataHandler.Save(int)
+  fullName: SuperOffice.CRM.SaleFilterDialogDataHandler.Save(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\n"
-  remarks: "\n"
+  summary: ''
+  remarks: ''
+  example: []
   syntax:
     content: public static void Save(int saleAdvanceDays)
     parameters:
@@ -94,12 +84,9 @@ items:
       description: Number of days ahead of Today
     content.vb: Public Shared Sub Save(saleAdvanceDays As Integer)
   overload: SuperOffice.CRM.SaleFilterDialogDataHandler.Save*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: SaleFilterDialogDataHandler.Save(Integer)
+  fullName.vb: SuperOffice.CRM.SaleFilterDialogDataHandler.Save(Integer)
+  name.vb: Save(Integer)
 - uid: SuperOffice.CRM.SaleFilterDialogDataHandler.AddFilterRestrictions(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.SaleFilterDialogDataHandler.AddFilterRestrictions(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo)
   id: AddFilterRestrictions(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo)
@@ -111,9 +98,6 @@ items:
   nameWithType: SaleFilterDialogDataHandler.AddFilterRestrictions(Select, FieldInfo)
   fullName: SuperOffice.CRM.SaleFilterDialogDataHandler.AddFilterRestrictions(SuperOffice.Data.SQL.Select, SuperOffice.Data.SQL.FieldInfo)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -124,48 +108,295 @@ items:
       type: SuperOffice.Data.SQL.Select
     - id: dateField
       type: SuperOffice.Data.SQL.FieldInfo
-    content.vb: Public Shared Sub AddFilterRestrictions(query As  Select, dateField As FieldInfo)
+    content.vb: Public Shared Sub AddFilterRestrictions(query As [Select], dateField As FieldInfo)
   overload: SuperOffice.CRM.SaleFilterDialogDataHandler.AddFilterRestrictions*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.SaleFilterDialogDataHandler.GetToDate*
   commentId: Overload:SuperOffice.CRM.SaleFilterDialogDataHandler.GetToDate
   isExternal: true
+  href: SuperOffice.CRM.SaleFilterDialogDataHandler.html#SuperOffice_CRM_SaleFilterDialogDataHandler_GetToDate
   name: GetToDate
   nameWithType: SaleFilterDialogDataHandler.GetToDate
   fullName: SuperOffice.CRM.SaleFilterDialogDataHandler.GetToDate
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.SaleFilterDialogDataHandler.Save*
   commentId: Overload:SuperOffice.CRM.SaleFilterDialogDataHandler.Save
   isExternal: true
+  href: SuperOffice.CRM.SaleFilterDialogDataHandler.html#SuperOffice_CRM_SaleFilterDialogDataHandler_Save_System_Int32_
   name: Save
   nameWithType: SaleFilterDialogDataHandler.Save
   fullName: SuperOffice.CRM.SaleFilterDialogDataHandler.Save
@@ -173,12 +404,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.SaleFilterDialogDataHandler.AddFilterRestrictions*
   commentId: Overload:SuperOffice.CRM.SaleFilterDialogDataHandler.AddFilterRestrictions
   isExternal: true
+  href: SuperOffice.CRM.SaleFilterDialogDataHandler.html#SuperOffice_CRM_SaleFilterDialogDataHandler_AddFilterRestrictions_SuperOffice_Data_SQL_Select_SuperOffice_Data_SQL_FieldInfo_
   name: AddFilterRestrictions
   nameWithType: SaleFilterDialogDataHandler.AddFilterRestrictions
   fullName: SuperOffice.CRM.SaleFilterDialogDataHandler.AddFilterRestrictions
@@ -186,6 +422,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.Select
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.Select.html
   name: Select
   nameWithType: Select
   fullName: SuperOffice.Data.SQL.Select
@@ -193,12 +430,44 @@ references:
   commentId: T:SuperOffice.Data.SQL.FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.FieldInfo.html
   name: FieldInfo
   nameWithType: FieldInfo
   fullName: SuperOffice.Data.SQL.FieldInfo
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html

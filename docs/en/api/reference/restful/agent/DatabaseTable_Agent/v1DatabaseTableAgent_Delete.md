@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Tromp, Weimann and Altenwerth",
+  "TableName": "Monahan-Rolfson",
   "IDs": [
-    997,
-    292
+    433,
+    997
   ]
 }
 ```
@@ -98,41 +98,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "modi",
-  "Inserts": 265,
-  "Updates": 813,
-  "Deletes": 38,
+  "Success": true,
+  "Message": "deleniti",
+  "Inserts": 320,
+  "Updates": 268,
+  "Deletes": 457,
   "RowStatus": [
     {
-      "PrimaryKey": 162,
+      "PrimaryKey": 631,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "eveniet",
-        "ipsum"
+        "modi",
+        "velit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 543
+          "FieldType": "System.Int32",
+          "FieldLength": 284
         }
       }
     },
     {
-      "PrimaryKey": 162,
+      "PrimaryKey": 631,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "eveniet",
-        "ipsum"
+        "modi",
+        "velit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 543
+          "FieldType": "System.Int32",
+          "FieldLength": 284
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 203
+      "FieldLength": 779
     }
   }
 }

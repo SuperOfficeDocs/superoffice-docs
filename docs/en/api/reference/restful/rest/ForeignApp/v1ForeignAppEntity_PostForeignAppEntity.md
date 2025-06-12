@@ -88,27 +88,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 902,
-  "Name": "Marvin, Kilback and Schaefer",
-  "CreatedDate": "1999-12-05T16:32:47.5402031+01:00",
-  "UpdatedDate": "2006-09-06T16:32:47.5402031+02:00",
+  "ForeignAppId": 360,
+  "Name": "Jacobson-Bins",
+  "CreatedDate": "1998-10-05T17:54:08.2574567+02:00",
+  "UpdatedDate": "2007-07-11T17:54:08.2574567+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 129,
-      "Name": "Rowe-Jaskolski",
-      "CreatedDate": "2006-09-07T16:32:47.5402031+02:00",
-      "UpdatedDate": "2022-01-09T16:32:47.5402031+01:00",
-      "AssociateFullName": "Dr. Roger Glover DDS",
-      "CreatedBy": "magni",
-      "UpdatedBy": "consequatur",
-      "DeviceIdentifier": "veniam",
-      "ForeignAppId": 418
+      "ForeignDeviceId": 493,
+      "Name": "Turner LLC",
+      "CreatedDate": "2007-09-22T17:54:08.2574567+02:00",
+      "UpdatedDate": "2001-03-13T17:54:08.2574567+01:00",
+      "AssociateFullName": "Jaqueline Osvaldo Crona PhD",
+      "CreatedBy": "reiciendis",
+      "UpdatedBy": "nobis",
+      "DeviceIdentifier": "minus",
+      "ForeignAppId": 221
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 738,
-  "Name": "Huels-Gottlieb",
-  "CreatedDate": "2007-09-17T16:32:47.5402031+02:00",
-  "UpdatedDate": "2021-01-12T16:32:47.5402031+01:00",
+  "ForeignAppId": 598,
+  "Name": "Wisoky-Lynch",
+  "CreatedDate": "2019-12-15T17:54:08.2574567+01:00",
+  "UpdatedDate": "2022-06-18T17:54:08.2574567+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 185,
-      "Name": "Parker-Rice",
-      "CreatedDate": "2016-02-26T16:32:47.5402031+01:00",
-      "UpdatedDate": "2020-02-09T16:32:47.5402031+01:00",
-      "AssociateFullName": "Rowan Christiansen",
-      "CreatedBy": "voluptatem",
-      "UpdatedBy": "placeat",
-      "DeviceIdentifier": "numquam",
-      "ForeignAppId": 760,
+      "ForeignDeviceId": 495,
+      "Name": "Lang Inc and Sons",
+      "CreatedDate": "2016-07-31T17:54:08.2574567+02:00",
+      "UpdatedDate": "2017-12-16T17:54:08.2574567+01:00",
+      "AssociateFullName": "Cathrine Kutch",
+      "CreatedBy": "dicta",
+      "UpdatedBy": "ea",
+      "DeviceIdentifier": "tempore",
+      "ForeignAppId": 790,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 378
+          "FieldType": "System.Int32",
+          "FieldLength": 562
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 302
+      "FieldLength": 13
     }
   },
   "_Links": {

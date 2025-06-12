@@ -6,6 +6,15 @@ items:
   parent: SuperOffice.CRM.ArchiveLists.Archive
   children:
   - SuperOffice.CRM.ArchiveLists.Archive.Combinator.#ctor(SuperOffice.CRM.ArchiveLists.IArchiveProvider,SuperOffice.CRM.ArchiveLists.IArchiveProvider,SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase)
+  - SuperOffice.CRM.ArchiveLists.Archive.Combinator.DoRowCount(System.String)
+  - SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetResultInformationAsync
+  - SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRowKey(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  - SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRowsAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ArchiveLists.Archive.Combinator.HasDuplicate(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  - SuperOffice.CRM.ArchiveLists.Archive.Combinator.LeftEnum
+  - SuperOffice.CRM.ArchiveLists.Archive.Combinator.RightEnum
+  - SuperOffice.CRM.ArchiveLists.Archive.Combinator.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  - SuperOffice.CRM.ArchiveLists.Archive.Combinator.SetPagingInfo(System.Int32,System.Int32)
   - SuperOffice.CRM.ArchiveLists.Archive.Combinator._duplicateList
   - SuperOffice.CRM.ArchiveLists.Archive.Combinator._leftProvider
   - SuperOffice.CRM.ArchiveLists.Archive.Combinator._options
@@ -15,15 +24,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.Archive.Combinator._rightProvider
   - SuperOffice.CRM.ArchiveLists.Archive.Combinator._rowComparer
   - SuperOffice.CRM.ArchiveLists.Archive.Combinator._rowCount
-  - SuperOffice.CRM.ArchiveLists.Archive.Combinator.DoRowCount(System.String)
-  - SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetResultInformation
-  - SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRowKey(SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  - SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRows(System.String)
-  - SuperOffice.CRM.ArchiveLists.Archive.Combinator.HasDuplicate(SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  - SuperOffice.CRM.ArchiveLists.Archive.Combinator.LeftEnum
-  - SuperOffice.CRM.ArchiveLists.Archive.Combinator.RightEnum
-  - SuperOffice.CRM.ArchiveLists.Archive.Combinator.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
-  - SuperOffice.CRM.ArchiveLists.Archive.Combinator.SetPagingInfo(System.Int32,System.Int32)
   langs:
   - csharp
   - vb
@@ -31,18 +31,17 @@ items:
   nameWithType: Combinator
   fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.Archive
-  summary: "\nImplements the base functionality for combining data from two providers using\na specific operator (up to the base classes to decide).\n"
+  summary: >-
+    Implements the base functionality for combining data from two providers using
+
+    a specific operator (up to the base classes to decide).
+  example: []
   syntax:
-    content: 'public abstract class Combinator : Object'
-    content.vb: >-
-      Public MustInherit Class Combinator
-          Inherits Object
+    content: public abstract class Combinator
+    content.vb: Public MustInherit Class Combinator
   inheritance:
   - System.Object
   derivedClasses:
@@ -51,17 +50,17 @@ items:
   - SuperOffice.CRM.ArchiveLists.Archive.SubtractCombinator
   - SuperOffice.CRM.ArchiveLists.Archive.UnionCombinator
   - SuperOffice.CRM.ArchiveLists.Archive.XORCombinator
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.Archive.Combinator.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.Archive.Combinator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - abstract
-  - class
-  modifiers.vb:
-  - Public
-  - MustInherit
-  - Class
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator._leftProvider
   commentId: F:SuperOffice.CRM.ArchiveLists.Archive.Combinator._leftProvider
   id: _leftProvider
@@ -73,22 +72,16 @@ items:
   nameWithType: Combinator._leftProvider
   fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator._leftProvider
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.Archive
-  summary: "\nSub-provider on the left hand side of the combine operation\n"
+  summary: Sub-provider on the left hand side of the combine operation
+  example: []
   syntax:
     content: protected IArchiveProvider _leftProvider
     return:
       type: SuperOffice.CRM.ArchiveLists.IArchiveProvider
     content.vb: Protected _leftProvider As IArchiveProvider
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator._rightProvider
   commentId: F:SuperOffice.CRM.ArchiveLists.Archive.Combinator._rightProvider
   id: _rightProvider
@@ -100,22 +93,16 @@ items:
   nameWithType: Combinator._rightProvider
   fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator._rightProvider
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.Archive
-  summary: "\nSub-provider on the right-hand side of the combination operation\n"
+  summary: Sub-provider on the right-hand side of the combination operation
+  example: []
   syntax:
     content: protected IArchiveProvider _rightProvider
     return:
       type: SuperOffice.CRM.ArchiveLists.IArchiveProvider
     content.vb: Protected _rightProvider As IArchiveProvider
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator._options
   commentId: F:SuperOffice.CRM.ArchiveLists.Archive.Combinator._options
   id: _options
@@ -127,22 +114,16 @@ items:
   nameWithType: Combinator._options
   fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator._options
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.Archive
-  summary: "\nOptions for the getRows function\n"
+  summary: Options for the getRows function
+  example: []
   syntax:
     content: protected string _options
     return:
       type: System.String
     content.vb: Protected _options As String
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator._duplicateList
   commentId: F:SuperOffice.CRM.ArchiveLists.Archive.Combinator._duplicateList
   id: _duplicateList
@@ -154,22 +135,16 @@ items:
   nameWithType: Combinator._duplicateList
   fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator._duplicateList
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.Archive
-  summary: "\nList for duplicate check\n"
+  summary: List for duplicate check
+  example: []
   syntax:
     content: protected List<long> _duplicateList
     return:
       type: System.Collections.Generic.List{System.Int64}
     content.vb: Protected _duplicateList As List(Of Long)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator._rowComparer
   commentId: F:SuperOffice.CRM.ArchiveLists.Archive.Combinator._rowComparer
   id: _rowComparer
@@ -181,22 +156,16 @@ items:
   nameWithType: Combinator._rowComparer
   fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator._rowComparer
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.Archive
-  summary: "\nRow comparer\n"
+  summary: Row comparer
+  example: []
   syntax:
     content: protected ArchiveRowIteratorComparer _rowComparer
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveRowIteratorComparer
     content.vb: Protected _rowComparer As ArchiveRowIteratorComparer
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator._pageSize
   commentId: F:SuperOffice.CRM.ArchiveLists.Archive.Combinator._pageSize
   id: _pageSize
@@ -208,22 +177,16 @@ items:
   nameWithType: Combinator._pageSize
   fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator._pageSize
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.Archive
-  summary: "\nPage size\n"
+  summary: Page size
+  example: []
   syntax:
     content: protected int _pageSize
     return:
       type: System.Int32
     content.vb: Protected _pageSize As Integer
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator._pageNumber
   commentId: F:SuperOffice.CRM.ArchiveLists.Archive.Combinator._pageNumber
   id: _pageNumber
@@ -235,22 +198,16 @@ items:
   nameWithType: Combinator._pageNumber
   fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator._pageNumber
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.Archive
-  summary: "\nPage number\n"
+  summary: Page number
+  example: []
   syntax:
     content: protected int _pageNumber
     return:
       type: System.Int32
     content.vb: Protected _pageNumber As Integer
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator._parent
   commentId: F:SuperOffice.CRM.ArchiveLists.Archive.Combinator._parent
   id: _parent
@@ -262,22 +219,16 @@ items:
   nameWithType: Combinator._parent
   fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator._parent
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.Archive
-  summary: "\nPoints to the provider using this combinator.\n"
+  summary: Points to the provider using this combinator.
+  example: []
   syntax:
     content: protected CombinedSelectionProviderBase _parent
     return:
       type: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
     content.vb: Protected _parent As CombinedSelectionProviderBase
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator._rowCount
   commentId: F:SuperOffice.CRM.ArchiveLists.Archive.Combinator._rowCount
   id: _rowCount
@@ -289,21 +240,14 @@ items:
   nameWithType: Combinator._rowCount
   fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator._rowCount
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.Archive
   syntax:
     content: protected int _rowCount
     return:
       type: System.Int32
     content.vb: Protected _rowCount As Integer
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.#ctor(SuperOffice.CRM.ArchiveLists.IArchiveProvider,SuperOffice.CRM.ArchiveLists.IArchiveProvider,SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase)
   commentId: M:SuperOffice.CRM.ArchiveLists.Archive.Combinator.#ctor(SuperOffice.CRM.ArchiveLists.IArchiveProvider,SuperOffice.CRM.ArchiveLists.IArchiveProvider,SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase)
   id: '#ctor(SuperOffice.CRM.ArchiveLists.IArchiveProvider,SuperOffice.CRM.ArchiveLists.IArchiveProvider,SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase)'
@@ -315,28 +259,27 @@ items:
   nameWithType: Combinator.Combinator(IArchiveProvider, IArchiveProvider, CombinedSelectionProviderBase)
   fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.Combinator(SuperOffice.CRM.ArchiveLists.IArchiveProvider, SuperOffice.CRM.ArchiveLists.IArchiveProvider, SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase)
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.Archive
-  summary: "\nConstructor\n"
+  summary: Constructor
+  example: []
   syntax:
     content: public Combinator(IArchiveProvider left, IArchiveProvider right, CombinedSelectionProviderBase parent)
     parameters:
     - id: left
       type: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+      description: ''
     - id: right
       type: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+      description: ''
     - id: parent
       type: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
     content.vb: Public Sub New(left As IArchiveProvider, right As IArchiveProvider, parent As CombinedSelectionProviderBase)
   overload: SuperOffice.CRM.ArchiveLists.Archive.Combinator.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: Combinator.New(IArchiveProvider, IArchiveProvider, CombinedSelectionProviderBase)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.Combinator.New(SuperOffice.CRM.ArchiveLists.IArchiveProvider, SuperOffice.CRM.ArchiveLists.IArchiveProvider, SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase)
+  name.vb: New(IArchiveProvider, IArchiveProvider, CombinedSelectionProviderBase)
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.SetPagingInfo(System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.Archive.Combinator.SetPagingInfo(System.Int32,System.Int32)
   id: SetPagingInfo(System.Int32,System.Int32)
@@ -344,93 +287,85 @@ items:
   langs:
   - csharp
   - vb
-  name: SetPagingInfo(Int32, Int32)
-  nameWithType: Combinator.SetPagingInfo(Int32, Int32)
-  fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.SetPagingInfo(System.Int32, System.Int32)
+  name: SetPagingInfo(int, int)
+  nameWithType: Combinator.SetPagingInfo(int, int)
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.SetPagingInfo(int, int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.Archive
-  summary: "\nSet paging information. \n"
+  summary: Set paging information.
+  example: []
   syntax:
     content: public void SetPagingInfo(int pageSize, int pageNumber)
     parameters:
     - id: pageSize
       type: System.Int32
+      description: ''
     - id: pageNumber
       type: System.Int32
+      description: ''
     content.vb: Public Sub SetPagingInfo(pageSize As Integer, pageNumber As Integer)
   overload: SuperOffice.CRM.ArchiveLists.Archive.Combinator.SetPagingInfo*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetResultInformation
-  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetResultInformation
-  id: GetResultInformation
+  nameWithType.vb: Combinator.SetPagingInfo(Integer, Integer)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.Combinator.SetPagingInfo(Integer, Integer)
+  name.vb: SetPagingInfo(Integer, Integer)
+- uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetResultInformationAsync
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetResultInformationAsync
+  id: GetResultInformationAsync
   parent: SuperOffice.CRM.ArchiveLists.Archive.Combinator
   langs:
   - csharp
   - vb
-  name: GetResultInformation()
-  nameWithType: Combinator.GetResultInformation()
-  fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetResultInformation()
+  name: GetResultInformationAsync()
+  nameWithType: Combinator.GetResultInformationAsync()
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetResultInformationAsync()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.Archive
-  summary: "\nReturns the results-information found when enumerating the rows\n"
+  summary: Returns the results-information found when enumerating the rows
+  example: []
   syntax:
-    content: public virtual ArchiveResultInformation GetResultInformation()
+    content: public virtual Task<ArchiveResultInformation> GetResultInformationAsync()
     return:
-      type: SuperOffice.CRM.ArchiveLists.ArchiveResultInformation
-    content.vb: Public Overridable Function GetResultInformation As ArchiveResultInformation
-  overload: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetResultInformation*
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
-- uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRows(System.String)
-  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRows(System.String)
-  id: GetRows(System.String)
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.ArchiveLists.ArchiveResultInformation}
+      description: ''
+    content.vb: Public Overridable Function GetResultInformationAsync() As Task(Of ArchiveResultInformation)
+  overload: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetResultInformationAsync*
+- uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRowsAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRowsAsync(System.String,System.Threading.CancellationToken)
+  id: GetRowsAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ArchiveLists.Archive.Combinator
   langs:
   - csharp
   - vb
-  name: GetRows(String)
-  nameWithType: Combinator.GetRows(String)
-  fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRows(System.String)
+  name: GetRowsAsync(string, CancellationToken)
+  nameWithType: Combinator.GetRowsAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRowsAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.Archive
-  summary: "\nReturns the enumeration for the combination of the two selections\n"
+  summary: Returns the enumeration for the combination of the two selections
+  example: []
   syntax:
-    content: public abstract IEnumerable<ArchiveRow> GetRows(string options)
+    content: public abstract IAsyncEnumerable<ArchiveRow> GetRowsAsync(string options, CancellationToken cancellationToken = default)
     parameters:
     - id: options
       type: System.String
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
-    content.vb: Public MustOverride Function GetRows(options As String) As IEnumerable(Of ArchiveRow)
-  overload: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRows*
-  modifiers.csharp:
-  - public
-  - abstract
-  modifiers.vb:
-  - Public
-  - MustOverride
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
+      description: ''
+    content.vb: Public MustOverride Function GetRowsAsync(options As String, cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of ArchiveRow)
+  overload: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRowsAsync*
+  nameWithType.vb: Combinator.GetRowsAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRowsAsync(String, System.Threading.CancellationToken)
+  name.vb: GetRowsAsync(String, CancellationToken)
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
   commentId: M:SuperOffice.CRM.ArchiveLists.Archive.Combinator.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
   id: SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
@@ -438,31 +373,26 @@ items:
   langs:
   - csharp
   - vb
-  name: SetOrderBy(ArchiveOrderByInfo[])
-  nameWithType: Combinator.SetOrderBy(ArchiveOrderByInfo[])
-  fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  name: SetOrderBy(params ArchiveOrderByInfo[])
+  nameWithType: Combinator.SetOrderBy(params ArchiveOrderByInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.SetOrderBy(params SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.Archive
-  summary: "\nSets the Order by array\n"
+  summary: Sets the Order by array
+  example: []
   syntax:
     content: public void SetOrderBy(params ArchiveOrderByInfo[] orderBy)
     parameters:
     - id: orderBy
       type: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+      description: ''
     content.vb: Public Sub SetOrderBy(ParamArray orderBy As ArchiveOrderByInfo())
   overload: SuperOffice.CRM.ArchiveLists.Archive.Combinator.SetOrderBy*
-  nameWithType.vb: Combinator.SetOrderBy(ArchiveOrderByInfo())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.Combinator.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo())
-  name.vb: SetOrderBy(ArchiveOrderByInfo())
+  nameWithType.vb: Combinator.SetOrderBy(ParamArray ArchiveOrderByInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.Combinator.SetOrderBy(ParamArray SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo())
+  name.vb: SetOrderBy(ParamArray ArchiveOrderByInfo())
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.HasDuplicate(SuperOffice.CRM.ArchiveLists.ArchiveRow)
   commentId: M:SuperOffice.CRM.ArchiveLists.Archive.Combinator.HasDuplicate(SuperOffice.CRM.ArchiveLists.ArchiveRow)
   id: HasDuplicate(SuperOffice.CRM.ArchiveLists.ArchiveRow)
@@ -474,26 +404,29 @@ items:
   nameWithType: Combinator.HasDuplicate(ArchiveRow)
   fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.HasDuplicate(SuperOffice.CRM.ArchiveLists.ArchiveRow)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.Archive
-  summary: "\nTest to see if an item exists in a given list to avoid dupliates. The \nfunction will test wether or not the item&apos;s key exists in a list, \nand add the item&apos;s key to the list if it doesnt. The list&apos;s count will\nbe used to return the number of items in the GetResultInformation method.\n"
+  summary: >-
+    Test to see if an item exists in a given list to avoid dupliates. The 
+
+    function will test wether or not the item's key exists in a list, 
+
+    and add the item's key to the list if it doesnt. The list's count will
+
+    be used to return the number of items in the GetResultInformation method.
+  example: []
   syntax:
     content: protected bool HasDuplicate(ArchiveRow row)
     parameters:
     - id: row
       type: SuperOffice.CRM.ArchiveLists.ArchiveRow
+      description: ''
     return:
       type: System.Boolean
+      description: ''
     content.vb: Protected Function HasDuplicate(row As ArchiveRow) As Boolean
   overload: SuperOffice.CRM.ArchiveLists.Archive.Combinator.HasDuplicate*
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRowKey(SuperOffice.CRM.ArchiveLists.ArchiveRow)
   commentId: M:SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRowKey(SuperOffice.CRM.ArchiveLists.ArchiveRow)
   id: GetRowKey(SuperOffice.CRM.ArchiveLists.ArchiveRow)
@@ -505,27 +438,25 @@ items:
   nameWithType: Combinator.GetRowKey(ArchiveRow)
   fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRowKey(SuperOffice.CRM.ArchiveLists.ArchiveRow)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.Archive
-  summary: "\nBuilds a correct row key for the row. This is needed so that rows that combines\nperson and contact gets a combined key ((contactid &lt;&lt; 32) + personid)\n"
+  summary: >-
+    Builds a correct row key for the row. This is needed so that rows that combines
+
+    person and contact gets a combined key ((contactid &lt;&lt; 32) + personid)
+  example: []
   syntax:
     content: protected long GetRowKey(ArchiveRow row)
     parameters:
     - id: row
       type: SuperOffice.CRM.ArchiveLists.ArchiveRow
+      description: ''
     return:
       type: System.Int64
       description: Either single-entity key, or combined contact/person key. Note that the return value is 64-bit to accomodate two keys
     content.vb: Protected Function GetRowKey(row As ArchiveRow) As Long
   overload: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRowKey*
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.DoRowCount(System.String)
   commentId: M:SuperOffice.CRM.ArchiveLists.Archive.Combinator.DoRowCount(System.String)
   id: DoRowCount(System.String)
@@ -533,30 +464,29 @@ items:
   langs:
   - csharp
   - vb
-  name: DoRowCount(String)
-  nameWithType: Combinator.DoRowCount(String)
-  fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.DoRowCount(System.String)
+  name: DoRowCount(string)
+  nameWithType: Combinator.DoRowCount(string)
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.DoRowCount(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.Archive
-  summary: "\nCheck if options contains rowcount=true\n"
+  summary: Check if options contains rowcount=true
+  example: []
   syntax:
     content: protected bool DoRowCount(string options)
     parameters:
     - id: options
       type: System.String
+      description: ''
     return:
       type: System.Boolean
+      description: ''
     content.vb: Protected Function DoRowCount(options As String) As Boolean
   overload: SuperOffice.CRM.ArchiveLists.Archive.Combinator.DoRowCount*
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
+  nameWithType.vb: Combinator.DoRowCount(String)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.Combinator.DoRowCount(String)
+  name.vb: DoRowCount(String)
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.LeftEnum
   commentId: P:SuperOffice.CRM.ArchiveLists.Archive.Combinator.LeftEnum
   id: LeftEnum
@@ -568,26 +498,18 @@ items:
   nameWithType: Combinator.LeftEnum
   fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.LeftEnum
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.Archive
-  summary: "\nReturns the enumerator for the left list\n"
+  summary: Returns the enumerator for the left list
+  example: []
   syntax:
-    content: protected IEnumerator<ArchiveRow> LeftEnum { get; }
+    content: protected IAsyncEnumerator<ArchiveRow> LeftEnum { get; }
     parameters: []
     return:
-      type: System.Collections.Generic.IEnumerator{SuperOffice.CRM.ArchiveLists.ArchiveRow}
-    content.vb: Protected ReadOnly Property LeftEnum As IEnumerator(Of ArchiveRow)
+      type: System.Collections.Generic.IAsyncEnumerator{SuperOffice.CRM.ArchiveLists.ArchiveRow}
+    content.vb: Protected ReadOnly Property LeftEnum As IAsyncEnumerator(Of ArchiveRow)
   overload: SuperOffice.CRM.ArchiveLists.Archive.Combinator.LeftEnum*
-  modifiers.csharp:
-  - protected
-  - get
-  modifiers.vb:
-  - Protected
-  - ReadOnly
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.RightEnum
   commentId: P:SuperOffice.CRM.ArchiveLists.Archive.Combinator.RightEnum
   id: RightEnum
@@ -599,117 +521,413 @@ items:
   nameWithType: Combinator.RightEnum
   fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.RightEnum
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.Archive
-  summary: "\nReturns the enumerator for the right list\n"
+  summary: Returns the enumerator for the right list
+  example: []
   syntax:
-    content: protected IEnumerator<ArchiveRow> RightEnum { get; }
+    content: protected IAsyncEnumerator<ArchiveRow> RightEnum { get; }
     parameters: []
     return:
-      type: System.Collections.Generic.IEnumerator{SuperOffice.CRM.ArchiveLists.ArchiveRow}
-    content.vb: Protected ReadOnly Property RightEnum As IEnumerator(Of ArchiveRow)
+      type: System.Collections.Generic.IAsyncEnumerator{SuperOffice.CRM.ArchiveLists.ArchiveRow}
+    content.vb: Protected ReadOnly Property RightEnum As IAsyncEnumerator(Of ArchiveRow)
   overload: SuperOffice.CRM.ArchiveLists.Archive.Combinator.RightEnum*
-  modifiers.csharp:
-  - protected
-  - get
-  modifiers.vb:
-  - Protected
-  - ReadOnly
 references:
 - uid: SuperOffice.CRM.ArchiveLists.Archive
   commentId: N:SuperOffice.CRM.ArchiveLists.Archive
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists.Archive
   nameWithType: SuperOffice.CRM.ArchiveLists.Archive
   fullName: SuperOffice.CRM.ArchiveLists.Archive
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists.Archive
+    name: Archive
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.Archive.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists.Archive
+    name: Archive
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.Archive.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<Combinator, To>()
-  nameWithType: EnumUtil.MapEnums<Combinator, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.Archive.Combinator, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of Combinator, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.Archive.Combinator, To)()
-  name.vb: MapEnums(Of Combinator, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<Combinator, To>(Combinator)
+  nameWithType: EnumUtil.MapEnums<Combinator, To>(Combinator)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.Archive.Combinator, To>(SuperOffice.CRM.ArchiveLists.Archive.Combinator)
+  nameWithType.vb: EnumUtil.MapEnums(Of Combinator, To)(Combinator)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.Archive.Combinator, To)(SuperOffice.CRM.ArchiveLists.Archive.Combinator)
+  name.vb: MapEnums(Of Combinator, To)(Combinator)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<Combinator, To>
-    nameWithType: EnumUtil.MapEnums<Combinator, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.Archive.Combinator, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.Archive.Combinator)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator
+    name: Combinator
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.Archive.Combinator.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator
+    name: Combinator
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.Archive.Combinator.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of Combinator, To)
-    nameWithType: EnumUtil.MapEnums(Of Combinator, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.Archive.Combinator, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.Archive.Combinator)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator
+    name: Combinator
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.Archive.Combinator.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator
+    name: Combinator
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.Archive.Combinator.html
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<Combinator, To>()
-  nameWithType: Converters.MapEnums<Combinator, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.Archive.Combinator, To>()
-  nameWithType.vb: Converters.MapEnums(Of Combinator, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.Archive.Combinator, To)()
-  name.vb: MapEnums(Of Combinator, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<Combinator, To>(Combinator)
+  nameWithType: Converters.MapEnums<Combinator, To>(Combinator)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.Archive.Combinator, To>(SuperOffice.CRM.ArchiveLists.Archive.Combinator)
+  nameWithType.vb: Converters.MapEnums(Of Combinator, To)(Combinator)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.Archive.Combinator, To)(SuperOffice.CRM.ArchiveLists.Archive.Combinator)
+  name.vb: MapEnums(Of Combinator, To)(Combinator)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<Combinator, To>
-    nameWithType: Converters.MapEnums<Combinator, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.Archive.Combinator, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.Archive.Combinator)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator
+    name: Combinator
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.Archive.Combinator.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator
+    name: Combinator
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.Archive.Combinator.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of Combinator, To)
-    nameWithType: Converters.MapEnums(Of Combinator, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.Archive.Combinator, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.Archive.Combinator)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator
+    name: Combinator
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.Archive.Combinator.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator
+    name: Combinator
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.Archive.Combinator.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -718,43 +936,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -763,152 +983,240 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProvider
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.IArchiveProvider.html
   name: IArchiveProvider
   nameWithType: IArchiveProvider
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProvider
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Collections.Generic.List{System.Int64}
-  commentId: '!:System.Collections.Generic.List{System.Int64}'
+  commentId: T:System.Collections.Generic.List{System.Int64}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.List`1
-  name: List<Int64>
-  nameWithType: List<Int64>
-  fullName: System.Collections.Generic.List<System.Int64>
-  nameWithType.vb: List(Of Int64)
-  fullName.vb: System.Collections.Generic.List(Of System.Int64)
-  name.vb: List(Of Int64)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<long>
+  nameWithType: List<long>
+  fullName: System.Collections.Generic.List<long>
+  nameWithType.vb: List(Of Long)
+  fullName.vb: System.Collections.Generic.List(Of Long)
+  name.vb: List(Of Long)
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.Int64
-    name: Int64
-    nameWithType: Int64
-    fullName: System.Int64
+    name: long
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int64
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Int64
-    name: Int64
-    nameWithType: Int64
-    fullName: System.Int64
+    name: Long
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int64
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<>
-  nameWithType: List<>
-  fullName: System.Collections.Generic.List<>
-  nameWithType.vb: List(Of )
-  fullName.vb: System.Collections.Generic.List(Of )
-  name.vb: List(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowIteratorComparer
   commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRowIteratorComparer
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ArchiveRowIteratorComparer.html
   name: ArchiveRowIteratorComparer
   nameWithType: ArchiveRowIteratorComparer
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowIteratorComparer
@@ -916,136 +1224,247 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
   commentId: T:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
   parent: SuperOffice.CRM.ArchiveLists.Archive
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.html
   name: CombinedSelectionProviderBase
   nameWithType: CombinedSelectionProviderBase
   fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.#ctor*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.Combinator.#ctor
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Archive.Combinator.html#SuperOffice_CRM_ArchiveLists_Archive_Combinator__ctor_SuperOffice_CRM_ArchiveLists_IArchiveProvider_SuperOffice_CRM_ArchiveLists_IArchiveProvider_SuperOffice_CRM_ArchiveLists_Archive_CombinedSelectionProviderBase_
   name: Combinator
   nameWithType: Combinator.Combinator
   fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.Combinator
+  nameWithType.vb: Combinator.New
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.Combinator.New
+  name.vb: New
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.SetPagingInfo*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.Combinator.SetPagingInfo
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Archive.Combinator.html#SuperOffice_CRM_ArchiveLists_Archive_Combinator_SetPagingInfo_System_Int32_System_Int32_
   name: SetPagingInfo
   nameWithType: Combinator.SetPagingInfo
   fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.SetPagingInfo
-- uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetResultInformation*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetResultInformation
+- uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetResultInformationAsync*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetResultInformationAsync
   isExternal: true
-  name: GetResultInformation
-  nameWithType: Combinator.GetResultInformation
-  fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetResultInformation
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveResultInformation
-  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveResultInformation
-  parent: SuperOffice.CRM.ArchiveLists
-  isExternal: true
-  name: ArchiveResultInformation
-  nameWithType: ArchiveResultInformation
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveResultInformation
-- uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRows*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRows
-  isExternal: true
-  name: GetRows
-  nameWithType: Combinator.GetRows
-  fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRows
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<ArchiveRow>
-  nameWithType: IEnumerable<ArchiveRow>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.ArchiveLists.ArchiveRow>
-  nameWithType.vb: IEnumerable(Of ArchiveRow)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  name.vb: IEnumerable(Of ArchiveRow)
+  href: SuperOffice.CRM.ArchiveLists.Archive.Combinator.html#SuperOffice_CRM_ArchiveLists_Archive_Combinator_GetResultInformationAsync
+  name: GetResultInformationAsync
+  nameWithType: Combinator.GetResultInformationAsync
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetResultInformationAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.ArchiveLists.ArchiveResultInformation}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.ArchiveLists.ArchiveResultInformation}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ArchiveResultInformation>
+  nameWithType: Task<ArchiveResultInformation>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.ArchiveLists.ArchiveResultInformation>
+  nameWithType.vb: Task(Of ArchiveResultInformation)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.ArchiveLists.ArchiveResultInformation)
+  name.vb: Task(Of ArchiveResultInformation)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    name: ArchiveRow
-    nameWithType: ArchiveRow
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveResultInformation
+    name: ArchiveResultInformation
     isExternal: true
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    name: ArchiveRow
-    nameWithType: ArchiveRow
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveResultInformation
+    name: ArchiveResultInformation
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRowsAsync*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRowsAsync
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Archive.Combinator.html#SuperOffice_CRM_ArchiveLists_Archive_Combinator_GetRowsAsync_System_String_System_Threading_CancellationToken_
+  name: GetRowsAsync
+  nameWithType: Combinator.GetRowsAsync
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRowsAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<ArchiveRow>
+  nameWithType: IAsyncEnumerable<ArchiveRow>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.ArchiveLists.ArchiveRow>
+  nameWithType.vb: IAsyncEnumerable(Of ArchiveRow)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  name.vb: IAsyncEnumerable(Of ArchiveRow)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
     isExternal: true
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Collections.Generic.IAsyncEnumerable`1
+  isExternal: true
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: <
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.SetOrderBy*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.Combinator.SetOrderBy
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Archive.Combinator.html#SuperOffice_CRM_ArchiveLists_Archive_Combinator_SetOrderBy_SuperOffice_CRM_ArchiveLists_ArchiveOrderByInfo___
   name: SetOrderBy
   nameWithType: Combinator.SetOrderBy
   fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.SetOrderBy
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.html
   name: ArchiveOrderByInfo[]
   nameWithType: ArchiveOrderByInfo[]
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
@@ -1055,24 +1474,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
     name: ArchiveOrderByInfo
-    nameWithType: ArchiveOrderByInfo
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
     name: ArchiveOrderByInfo
-    nameWithType: ArchiveOrderByInfo
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.html
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.HasDuplicate*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.Combinator.HasDuplicate
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Archive.Combinator.html#SuperOffice_CRM_ArchiveLists_Archive_Combinator_HasDuplicate_SuperOffice_CRM_ArchiveLists_ArchiveRow_
   name: HasDuplicate
   nameWithType: Combinator.HasDuplicate
   fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.HasDuplicate
@@ -1080,6 +1496,7 @@ references:
   commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRow
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ArchiveRow.html
   name: ArchiveRow
   nameWithType: ArchiveRow
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
@@ -1087,12 +1504,17 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRowKey*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRowKey
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Archive.Combinator.html#SuperOffice_CRM_ArchiveLists_Archive_Combinator_GetRowKey_SuperOffice_CRM_ArchiveLists_ArchiveRow_
   name: GetRowKey
   nameWithType: Combinator.GetRowKey
   fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRowKey
@@ -1100,105 +1522,86 @@ references:
   commentId: T:System.Int64
   parent: System
   isExternal: true
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.DoRowCount*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.Combinator.DoRowCount
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Archive.Combinator.html#SuperOffice_CRM_ArchiveLists_Archive_Combinator_DoRowCount_System_String_
   name: DoRowCount
   nameWithType: Combinator.DoRowCount
   fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.DoRowCount
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.LeftEnum*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.Combinator.LeftEnum
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Archive.Combinator.html#SuperOffice_CRM_ArchiveLists_Archive_Combinator_LeftEnum
   name: LeftEnum
   nameWithType: Combinator.LeftEnum
   fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.LeftEnum
-- uid: System.Collections.Generic.IEnumerator{SuperOffice.CRM.ArchiveLists.ArchiveRow}
-  commentId: '!:System.Collections.Generic.IEnumerator{SuperOffice.CRM.ArchiveLists.ArchiveRow}'
-  definition: System.Collections.Generic.IEnumerator`1
-  name: IEnumerator<ArchiveRow>
-  nameWithType: IEnumerator<ArchiveRow>
-  fullName: System.Collections.Generic.IEnumerator<SuperOffice.CRM.ArchiveLists.ArchiveRow>
-  nameWithType.vb: IEnumerator(Of ArchiveRow)
-  fullName.vb: System.Collections.Generic.IEnumerator(Of SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  name.vb: IEnumerator(Of ArchiveRow)
+- uid: System.Collections.Generic.IAsyncEnumerator{SuperOffice.CRM.ArchiveLists.ArchiveRow}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerator{SuperOffice.CRM.ArchiveLists.ArchiveRow}'
+  definition: System.Collections.Generic.IAsyncEnumerator`1
+  href: SuperOffice.CRM.ArchiveLists.ArchiveRow.html
+  name: IAsyncEnumerator<ArchiveRow>
+  nameWithType: IAsyncEnumerator<ArchiveRow>
+  fullName: System.Collections.Generic.IAsyncEnumerator<SuperOffice.CRM.ArchiveLists.ArchiveRow>
+  nameWithType.vb: IAsyncEnumerator(Of ArchiveRow)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerator(Of SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  name.vb: IAsyncEnumerator(Of ArchiveRow)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerator`1
-    name: IEnumerator
-    nameWithType: IEnumerator
-    fullName: System.Collections.Generic.IEnumerator
+  - uid: System.Collections.Generic.IAsyncEnumerator`1
+    name: IAsyncEnumerator
     isExternal: true
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
     name: ArchiveRow
-    nameWithType: ArchiveRow
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
     isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ArchiveRow.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerator`1
-    name: IEnumerator
-    nameWithType: IEnumerator
-    fullName: System.Collections.Generic.IEnumerator
+  - uid: System.Collections.Generic.IAsyncEnumerator`1
+    name: IAsyncEnumerator
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
     name: ArchiveRow
-    nameWithType: ArchiveRow
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
     isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ArchiveRow.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IEnumerator`1
+- uid: System.Collections.Generic.IAsyncEnumerator`1
   isExternal: true
-  name: IEnumerator<>
-  nameWithType: IEnumerator<>
-  fullName: System.Collections.Generic.IEnumerator<>
-  nameWithType.vb: IEnumerator(Of )
-  fullName.vb: System.Collections.Generic.IEnumerator(Of )
-  name.vb: IEnumerator(Of )
+  name: IAsyncEnumerator<>
+  nameWithType: IAsyncEnumerator<>
+  fullName: System.Collections.Generic.IAsyncEnumerator<>
+  nameWithType.vb: IAsyncEnumerator(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerator(Of )
+  name.vb: IAsyncEnumerator(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerator`1
-    name: IEnumerator
-    nameWithType: IEnumerator
-    fullName: System.Collections.Generic.IEnumerator
+  - uid: System.Collections.Generic.IAsyncEnumerator`1
+    name: IAsyncEnumerator
     isExternal: true
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerator`1
-    name: IEnumerator
-    nameWithType: IEnumerator
-    fullName: System.Collections.Generic.IEnumerator
+  - uid: System.Collections.Generic.IAsyncEnumerator`1
+    name: IAsyncEnumerator
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+  - name: (
+  - name: Of
+  - name: " "
   - name: ''
-    nameWithType: ''
-    fullName: ''
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator.RightEnum*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.Combinator.RightEnum
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Archive.Combinator.html#SuperOffice_CRM_ArchiveLists_Archive_Combinator_RightEnum
   name: RightEnum
   nameWithType: Combinator.RightEnum
   fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.RightEnum

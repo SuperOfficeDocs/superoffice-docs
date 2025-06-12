@@ -12,15 +12,15 @@ so.envir: onsite
 
 Service methods defined on <see cref='T:IFavouriteAgent'>FavouriteAgent</see> that can trigger server-side event scripts.
 
-* [AddFavourite](addfavourite.md)
-* [AddFavourites](addfavourites.md)
-* [AddTicketsToFavouritesByProvider](addticketstofavouritesbyprovider.md)
-* [GetFavourites](getfavourites.md)
-* [IsFavourite](isfavourite.md)
-* [RemoveAllFavourites](removeallfavourites.md)
-* [RemoveFavourite](removefavourite.md)
-* [RemoveFavourites](removefavourites.md)
-* [RemoveFavouritesById](removefavouritesbyid.md)
-* [RemoveTicketsFromFavouritesByProvider](removeticketsfromfavouritesbyprovider.md)
-* [ToggleFavourite](togglefavourite.md)
+* [AddFavouriteAsync](addfavouriteasync.md)
+* [AddFavouritesAsync](addfavouritesasync.md)
+* [AddTicketsToFavouritesByProviderAsync](addticketstofavouritesbyproviderasync.md)
+* [GetFavouritesAsync](getfavouritesasync.md)
+* [IsFavouriteAsync](isfavouriteasync.md)
+* [RemoveAllFavouritesAsync](removeallfavouritesasync.md)
+* [RemoveFavouriteAsync](removefavouriteasync.md)
+* [RemoveFavouritesAsync](removefavouritesasync.md)
+* [RemoveFavouritesByIdAsync](removefavouritesbyidasync.md)
+* [RemoveTicketsFromFavouritesByProviderAsync](removeticketsfromfavouritesbyproviderasync.md)
+* [ToggleFavouriteAsync](togglefavouriteasync.md)
 

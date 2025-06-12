@@ -26,27 +26,24 @@ items:
   nameWithType: DBC.RecurrenceRuleFields
   fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nFields for RecurrenceRule, The recurrency pattern for a recurring event. Each recurring event has an appointment.recurrenceRuleId pointing to its pattern.\n"
+  summary: Fields for RecurrenceRule, The recurrency pattern for a recurring event. Each recurring event has an appointment.recurrenceRuleId pointing to its pattern.
+  example: []
   syntax:
-    content: 'public static class RecurrenceRuleFields : Object'
-    content.vb: >-
-      Public Module RecurrenceRuleFields
-          Inherits Object
+    content: public static class DBC.RecurrenceRuleFields
+    content.vb: Public Module DBC.RecurrenceRuleFields
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.RecurrenceRuleId
   commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.RecurrenceRuleId
   id: RecurrenceRuleId
@@ -58,24 +55,16 @@ items:
   nameWithType: DBC.RecurrenceRuleFields.RecurrenceRuleId
   fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.RecurrenceRuleId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nRecurrenceRule.RecurrenceRuleId: Primary key\n"
+  summary: 'RecurrenceRule.RecurrenceRuleId: Primary key'
+  example: []
   syntax:
     content: public const string RecurrenceRuleId = "RecurrenceRule_id"
     return:
       type: System.String
     content.vb: Public Const RecurrenceRuleId As String = "RecurrenceRule_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Pattern
   commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Pattern
   id: Pattern
@@ -87,24 +76,16 @@ items:
   nameWithType: DBC.RecurrenceRuleFields.Pattern
   fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Pattern
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nRecurrenceRule.Pattern: Recurrence pattern (daily, weekly etc)\n"
+  summary: 'RecurrenceRule.Pattern: Recurrence pattern (daily, weekly etc)'
+  example: []
   syntax:
     content: public const string Pattern = "pattern"
     return:
       type: System.String
     content.vb: Public Const Pattern As String = "pattern"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.SubPattern
   commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.SubPattern
   id: SubPattern
@@ -116,24 +97,16 @@ items:
   nameWithType: DBC.RecurrenceRuleFields.SubPattern
   fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.SubPattern
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nRecurrenceRule.SubPattern: Subpattern (workday, everyday, weekday etc)\n"
+  summary: 'RecurrenceRule.SubPattern: Subpattern (workday, everyday, weekday etc)'
+  example: []
   syntax:
     content: public const string SubPattern = "subPattern"
     return:
       type: System.String
     content.vb: Public Const SubPattern As String = "subPattern"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Weekdays
   commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Weekdays
   id: Weekdays
@@ -145,24 +118,16 @@ items:
   nameWithType: DBC.RecurrenceRuleFields.Weekdays
   fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Weekdays
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nRecurrenceRule.Weekdays: Weekdays used, bitmask based on  ERecurrenceWeekDays enumeration\n"
+  summary: 'RecurrenceRule.Weekdays: Weekdays used, bitmask based on  ERecurrenceWeekDays enumeration'
+  example: []
   syntax:
     content: public const string Weekdays = "weekdays"
     return:
       type: System.String
     content.vb: Public Const Weekdays As String = "weekdays"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.StartDate
   commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.StartDate
   id: StartDate
@@ -174,24 +139,16 @@ items:
   nameWithType: DBC.RecurrenceRuleFields.StartDate
   fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.StartDate
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nRecurrenceRule.StartDate: Start date for repetition pattern\n"
+  summary: 'RecurrenceRule.StartDate: Start date for repetition pattern'
+  example: []
   syntax:
     content: public const string StartDate = "startDate"
     return:
       type: System.String
     content.vb: Public Const StartDate As String = "startDate"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.EndDate
   commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.EndDate
   id: EndDate
@@ -203,24 +160,16 @@ items:
   nameWithType: DBC.RecurrenceRuleFields.EndDate
   fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.EndDate
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nRecurrenceRule.EndDate: End date for repetition pattern\n"
+  summary: 'RecurrenceRule.EndDate: End date for repetition pattern'
+  example: []
   syntax:
     content: public const string EndDate = "endDate"
     return:
       type: System.String
     content.vb: Public Const EndDate As String = "endDate"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.CyclicDay
   commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.CyclicDay
   id: CyclicDay
@@ -232,24 +181,16 @@ items:
   nameWithType: DBC.RecurrenceRuleFields.CyclicDay
   fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.CyclicDay
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nRecurrenceRule.CyclicDay: Every nth day, in cyclic patterns\n"
+  summary: 'RecurrenceRule.CyclicDay: Every nth day, in cyclic patterns'
+  example: []
   syntax:
     content: public const string CyclicDay = "cyclicDay"
     return:
       type: System.String
     content.vb: Public Const CyclicDay As String = "cyclicDay"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.CyclicWeek
   commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.CyclicWeek
   id: CyclicWeek
@@ -261,24 +202,16 @@ items:
   nameWithType: DBC.RecurrenceRuleFields.CyclicWeek
   fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.CyclicWeek
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nRecurrenceRule.CyclicWeek: Every nth week, in cyclic patterns\n"
+  summary: 'RecurrenceRule.CyclicWeek: Every nth week, in cyclic patterns'
+  example: []
   syntax:
     content: public const string CyclicWeek = "cyclicWeek"
     return:
       type: System.String
     content.vb: Public Const CyclicWeek As String = "cyclicWeek"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.CyclicMonth
   commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.CyclicMonth
   id: CyclicMonth
@@ -290,24 +223,16 @@ items:
   nameWithType: DBC.RecurrenceRuleFields.CyclicMonth
   fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.CyclicMonth
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nRecurrenceRule.CyclicMonth: Every nth month, in cyclic patterns\n"
+  summary: 'RecurrenceRule.CyclicMonth: Every nth month, in cyclic patterns'
+  example: []
   syntax:
     content: public const string CyclicMonth = "cyclicMonth"
     return:
       type: System.String
     content.vb: Public Const CyclicMonth As String = "cyclicMonth"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Registered
   commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Registered
   id: Registered
@@ -319,24 +244,16 @@ items:
   nameWithType: DBC.RecurrenceRuleFields.Registered
   fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Registered
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nRecurrenceRule.Registered: Registered when\n"
+  summary: 'RecurrenceRule.Registered: Registered when'
+  example: []
   syntax:
     content: public const string Registered = "registered"
     return:
       type: System.String
     content.vb: Public Const Registered As String = "registered"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -348,24 +265,16 @@ items:
   nameWithType: DBC.RecurrenceRuleFields.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.RegisteredAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nRecurrenceRule.RegisteredAssociateId: Registered by whom\n"
+  summary: 'RecurrenceRule.RegisteredAssociateId: Registered by whom'
+  example: []
   syntax:
     content: public const string RegisteredAssociateId = "registered_associate_id"
     return:
       type: System.String
     content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Updated
   commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Updated
   id: Updated
@@ -377,24 +286,16 @@ items:
   nameWithType: DBC.RecurrenceRuleFields.Updated
   fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Updated
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nRecurrenceRule.Updated: Last updated when\n"
+  summary: 'RecurrenceRule.Updated: Last updated when'
+  example: []
   syntax:
     content: public const string Updated = "updated"
     return:
       type: System.String
     content.vb: Public Const Updated As String = "updated"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -406,24 +307,16 @@ items:
   nameWithType: DBC.RecurrenceRuleFields.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.UpdatedAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nRecurrenceRule.UpdatedAssociateId: Last updated by whom\n"
+  summary: 'RecurrenceRule.UpdatedAssociateId: Last updated by whom'
+  example: []
   syntax:
     content: public const string UpdatedAssociateId = "updated_associate_id"
     return:
       type: System.String
     content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.UpdatedCount
   commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.UpdatedCount
   id: UpdatedCount
@@ -435,41 +328,288 @@ items:
   nameWithType: DBC.RecurrenceRuleFields.UpdatedCount
   fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.UpdatedCount
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nRecurrenceRule.UpdatedCount: Number of updates made to this record\n"
+  summary: 'RecurrenceRule.UpdatedCount: Number of updates made to this record'
+  example: []
   syntax:
     content: public const string UpdatedCount = "updatedCount"
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -477,6 +617,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

@@ -1,0 +1,205 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.ErpFieldProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.ErpFieldProvider
+  id: ErpFieldProvider
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.ErpFieldProvider.#ctor
+  - SuperOffice.CRM.ArchiveLists.ErpFieldProvider.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  - SuperOffice.CRM.ArchiveLists.ErpFieldProvider.ProviderName
+  - SuperOffice.CRM.ArchiveLists.ErpFieldProvider.RowTypeErpField
+  langs:
+  - csharp
+  - vb
+  name: ErpFieldProvider
+  nameWithType: ErpFieldProvider
+  fullName: SuperOffice.CRM.ArchiveLists.ErpFieldProvider
+  type: Class
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: Archive provider for the list of Erp Fields (among else to list their default values)
+  example: []
+  syntax:
+    content: 'public class ErpFieldProvider : TypedQueryProviderBase<ArchiveRow, ErpFieldErpFieldExtender>'
+    content.vb: Public Class ErpFieldProvider Inherits TypedQueryProviderBase(Of ArchiveRow, ErpFieldErpFieldExtender)
+  inheritance:
+  - System.Object
+- uid: SuperOffice.CRM.ArchiveLists.ErpFieldProvider.ProviderName
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpFieldProvider.ProviderName
+  id: ProviderName
+  parent: SuperOffice.CRM.ArchiveLists.ErpFieldProvider
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: ErpFieldProvider.ProviderName
+  fullName: SuperOffice.CRM.ArchiveLists.ErpFieldProvider.ProviderName
+  type: Field
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ProviderName = "ErpField"
+    return:
+      type: System.String
+    content.vb: Public Const ProviderName As String = "ErpField"
+- uid: SuperOffice.CRM.ArchiveLists.ErpFieldProvider.RowTypeErpField
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpFieldProvider.RowTypeErpField
+  id: RowTypeErpField
+  parent: SuperOffice.CRM.ArchiveLists.ErpFieldProvider
+  langs:
+  - csharp
+  - vb
+  name: RowTypeErpField
+  nameWithType: ErpFieldProvider.RowTypeErpField
+  fullName: SuperOffice.CRM.ArchiveLists.ErpFieldProvider.RowTypeErpField
+  type: Field
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string RowTypeErpField = "erpfield"
+    return:
+      type: System.String
+    content.vb: Public Const RowTypeErpField As String = "erpfield"
+- uid: SuperOffice.CRM.ArchiveLists.ErpFieldProvider.#ctor
+  commentId: M:SuperOffice.CRM.ArchiveLists.ErpFieldProvider.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.ArchiveLists.ErpFieldProvider
+  langs:
+  - csharp
+  - vb
+  name: ErpFieldProvider()
+  nameWithType: ErpFieldProvider.ErpFieldProvider()
+  fullName: SuperOffice.CRM.ArchiveLists.ErpFieldProvider.ErpFieldProvider()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public ErpFieldProvider()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.ArchiveLists.ErpFieldProvider.#ctor*
+  nameWithType.vb: ErpFieldProvider.New()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ErpFieldProvider.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.ArchiveLists.ErpFieldProvider.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ErpFieldProvider.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  id: InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  parent: SuperOffice.CRM.ArchiveLists.ErpFieldProvider
+  langs:
+  - csharp
+  - vb
+  name: InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
+  nameWithType: ErpFieldProvider.InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
+  fullName: SuperOffice.CRM.ArchiveLists.ErpFieldProvider.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  example: []
+  syntax:
+    content: protected override void InnerPopulateRowFromReader(SoDataReader reader, ArchiveRow row)
+    parameters:
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+    - id: row
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    content.vb: Protected Overrides Sub InnerPopulateRowFromReader(reader As SoDataReader, row As ArchiveRow)
+  overload: SuperOffice.CRM.ArchiveLists.ErpFieldProvider.InnerPopulateRowFromReader*
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.ArchiveLists.ErpFieldProvider.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ErpFieldProvider.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpFieldProvider.html#SuperOffice_CRM_ArchiveLists_ErpFieldProvider__ctor
+  name: ErpFieldProvider
+  nameWithType: ErpFieldProvider.ErpFieldProvider
+  fullName: SuperOffice.CRM.ArchiveLists.ErpFieldProvider.ErpFieldProvider
+  nameWithType.vb: ErpFieldProvider.New
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ErpFieldProvider.New
+  name.vb: New
+- uid: SuperOffice.CRM.ArchiveLists.ErpFieldProvider.InnerPopulateRowFromReader*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ErpFieldProvider.InnerPopulateRowFromReader
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpFieldProvider.html#SuperOffice_CRM_ArchiveLists_ErpFieldProvider_InnerPopulateRowFromReader_SuperOffice_Data_SoDataReader_SuperOffice_CRM_ArchiveLists_ArchiveRow_
+  name: InnerPopulateRowFromReader
+  nameWithType: ErpFieldProvider.InnerPopulateRowFromReader
+  fullName: SuperOffice.CRM.ArchiveLists.ErpFieldProvider.InnerPopulateRowFromReader
+- uid: SuperOffice.Data.SoDataReader
+  isExternal: true
+  name: SoDataReader
+  nameWithType: SoDataReader
+  fullName: SuperOffice.Data.SoDataReader
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+  isExternal: true
+  name: ArchiveRow
+  nameWithType: ArchiveRow
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow

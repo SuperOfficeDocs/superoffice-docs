@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 813,
-    "Name": "Effertz-Lynch",
-    "ToolTip": "Aut ut.",
+    "Id": 13,
+    "Name": "Lebsack, Cummerata and Schinner",
+    "ToolTip": "Quia odio et dolore temporibus et vel consectetur.",
     "Deleted": false,
-    "Rank": 793,
-    "Type": "quibusdam",
-    "ColorBlock": 116,
-    "IconHint": "quia",
+    "Rank": 170,
+    "Type": "amet",
+    "ColorBlock": 82,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2017-02-07T16:32:40.4457108+01:00",
+    "LastChanged": "2023-09-25T17:54:03.8826694+02:00",
     "ChildItems": [
       {
-        "Id": 134,
-        "Name": "Zemlak Inc and Sons",
-        "ToolTip": "Aut sit.",
-        "Deleted": true,
-        "Rank": 316,
-        "Type": "dolor",
-        "ColorBlock": 966,
-        "IconHint": "voluptatem",
+        "Id": 222,
+        "Name": "Mayert-Robel",
+        "ToolTip": "Sunt nobis aut.",
+        "Deleted": false,
+        "Rank": 479,
+        "Type": "ut",
+        "ColorBlock": 506,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2015-09-19T16:32:40.4457108+02:00",
+        "LastChanged": "1999-11-30T17:54:03.8826694+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Schuyler Gilberto Pacocha II",
+        "ExtraInfo": "rerum",
+        "StyleHint": "molestias",
+        "Hidden": true,
+        "FullName": "Allie Gleichner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 215
+            "FieldLength": 843
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "itaque",
+    "ExtraInfo": "omnis",
+    "StyleHint": "ipsam",
     "Hidden": false,
-    "FullName": "Verla Adams",
+    "FullName": "Kavon Herman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 547
+        "FieldLength": 734
       }
     }
   }

@@ -1,0 +1,563 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.RowModification
+  commentId: T:SuperOffice.Util.RowModification
+  id: RowModification
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.RowModification.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.Util.RowModification.BeginInvoke(SuperOffice.CRM.Rows.AppointmentRow,System.AsyncCallback,System.Object)
+  - SuperOffice.Util.RowModification.EndInvoke(System.IAsyncResult)
+  - SuperOffice.Util.RowModification.Invoke(SuperOffice.CRM.Rows.AppointmentRow)
+  langs:
+  - csharp
+  - vb
+  name: RowModification
+  nameWithType: RowModification
+  fullName: SuperOffice.Util.RowModification
+  type: Delegate
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public delegate Task RowModification(AppointmentRow row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Delegate Function RowModification(row As AppointmentRow) As Task
+  extensionMethods:
+  - SuperOffice.Util.RowModification.EnumUtil.MapEnums``2
+  - SuperOffice.Util.RowModification.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Util.RowModification.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.Util.RowModification.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.Util.RowModification
+  langs:
+  - csharp
+  - vb
+  name: RowModification(object, IntPtr)
+  nameWithType: RowModification.RowModification(object, IntPtr)
+  fullName: SuperOffice.Util.RowModification.RowModification(object, System.IntPtr)
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public RowModification(object @object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New([object] As Object, method As IntPtr)
+  overload: SuperOffice.Util.RowModification.#ctor*
+  nameWithType.vb: RowModification.New(Object, IntPtr)
+  fullName.vb: SuperOffice.Util.RowModification.New(Object, System.IntPtr)
+  name.vb: New(Object, IntPtr)
+- uid: SuperOffice.Util.RowModification.Invoke(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.Util.RowModification.Invoke(SuperOffice.CRM.Rows.AppointmentRow)
+  id: Invoke(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.Util.RowModification
+  langs:
+  - csharp
+  - vb
+  name: Invoke(AppointmentRow)
+  nameWithType: RowModification.Invoke(AppointmentRow)
+  fullName: SuperOffice.Util.RowModification.Invoke(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public virtual Task Invoke(AppointmentRow row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Overridable Function Invoke(row As AppointmentRow) As Task
+  overload: SuperOffice.Util.RowModification.Invoke*
+- uid: SuperOffice.Util.RowModification.BeginInvoke(SuperOffice.CRM.Rows.AppointmentRow,System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.Util.RowModification.BeginInvoke(SuperOffice.CRM.Rows.AppointmentRow,System.AsyncCallback,System.Object)
+  id: BeginInvoke(SuperOffice.CRM.Rows.AppointmentRow,System.AsyncCallback,System.Object)
+  parent: SuperOffice.Util.RowModification
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(AppointmentRow, AsyncCallback, object)
+  nameWithType: RowModification.BeginInvoke(AppointmentRow, AsyncCallback, object)
+  fullName: SuperOffice.Util.RowModification.BeginInvoke(SuperOffice.CRM.Rows.AppointmentRow, System.AsyncCallback, object)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(AppointmentRow row, AsyncCallback callback, object @object)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(row As AppointmentRow, callback As AsyncCallback, [object] As Object) As IAsyncResult
+  overload: SuperOffice.Util.RowModification.BeginInvoke*
+  nameWithType.vb: RowModification.BeginInvoke(AppointmentRow, AsyncCallback, Object)
+  fullName.vb: SuperOffice.Util.RowModification.BeginInvoke(SuperOffice.CRM.Rows.AppointmentRow, System.AsyncCallback, Object)
+  name.vb: BeginInvoke(AppointmentRow, AsyncCallback, Object)
+- uid: SuperOffice.Util.RowModification.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.Util.RowModification.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.Util.RowModification
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: RowModification.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.Util.RowModification.EndInvoke(System.IAsyncResult)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public virtual Task EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Overridable Function EndInvoke(result As IAsyncResult) As Task
+  overload: SuperOffice.Util.RowModification.EndInvoke*
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.Util.RowModification.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<RowModification, To>(RowModification)
+  nameWithType: EnumUtil.MapEnums<RowModification, To>(RowModification)
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.RowModification, To>(SuperOffice.Util.RowModification)
+  nameWithType.vb: EnumUtil.MapEnums(Of RowModification, To)(RowModification)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.RowModification, To)(SuperOffice.Util.RowModification)
+  name.vb: MapEnums(Of RowModification, To)(RowModification)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.RowModification)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.RowModification
+    name: RowModification
+    isExternal: true
+    href: SuperOffice.Util.RowModification.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.RowModification
+    name: RowModification
+    isExternal: true
+    href: SuperOffice.Util.RowModification.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.RowModification)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.RowModification
+    name: RowModification
+    isExternal: true
+    href: SuperOffice.Util.RowModification.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.RowModification
+    name: RowModification
+    isExternal: true
+    href: SuperOffice.Util.RowModification.html
+  - name: )
+- uid: SuperOffice.Util.RowModification.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<RowModification, To>(RowModification)
+  nameWithType: Converters.MapEnums<RowModification, To>(RowModification)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.RowModification, To>(SuperOffice.Util.RowModification)
+  nameWithType.vb: Converters.MapEnums(Of RowModification, To)(RowModification)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.RowModification, To)(SuperOffice.Util.RowModification)
+  name.vb: MapEnums(Of RowModification, To)(RowModification)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.RowModification)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.RowModification
+    name: RowModification
+    isExternal: true
+    href: SuperOffice.Util.RowModification.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.RowModification
+    name: RowModification
+    isExternal: true
+    href: SuperOffice.Util.RowModification.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.RowModification)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.RowModification
+    name: RowModification
+    isExternal: true
+    href: SuperOffice.Util.RowModification.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.RowModification
+    name: RowModification
+    isExternal: true
+    href: SuperOffice.Util.RowModification.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.AppointmentRow
+  commentId: T:SuperOffice.CRM.Rows.AppointmentRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AppointmentRow.html
+  name: AppointmentRow
+  nameWithType: AppointmentRow
+  fullName: SuperOffice.CRM.Rows.AppointmentRow
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util.RowModification.#ctor*
+  commentId: Overload:SuperOffice.Util.RowModification.#ctor
+  isExternal: true
+  href: SuperOffice.Util.RowModification.html#SuperOffice_Util_RowModification__ctor_System_Object_System_IntPtr_
+  name: RowModification
+  nameWithType: RowModification.RowModification
+  fullName: SuperOffice.Util.RowModification.RowModification
+  nameWithType.vb: RowModification.New
+  fullName.vb: SuperOffice.Util.RowModification.New
+  name.vb: New
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Util.RowModification.Invoke*
+  commentId: Overload:SuperOffice.Util.RowModification.Invoke
+  isExternal: true
+  href: SuperOffice.Util.RowModification.html#SuperOffice_Util_RowModification_Invoke_SuperOffice_CRM_Rows_AppointmentRow_
+  name: Invoke
+  nameWithType: RowModification.Invoke
+  fullName: SuperOffice.Util.RowModification.Invoke
+- uid: SuperOffice.Util.RowModification.BeginInvoke*
+  commentId: Overload:SuperOffice.Util.RowModification.BeginInvoke
+  isExternal: true
+  href: SuperOffice.Util.RowModification.html#SuperOffice_Util_RowModification_BeginInvoke_SuperOffice_CRM_Rows_AppointmentRow_System_AsyncCallback_System_Object_
+  name: BeginInvoke
+  nameWithType: RowModification.BeginInvoke
+  fullName: SuperOffice.Util.RowModification.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.asynccallback
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iasyncresult
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.Util.RowModification.EndInvoke*
+  commentId: Overload:SuperOffice.Util.RowModification.EndInvoke
+  isExternal: true
+  href: SuperOffice.Util.RowModification.html#SuperOffice_Util_RowModification_EndInvoke_System_IAsyncResult_
+  name: EndInvoke
+  nameWithType: RowModification.EndInvoke
+  fullName: SuperOffice.Util.RowModification.EndInvoke

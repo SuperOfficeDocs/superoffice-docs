@@ -97,20 +97,20 @@ OK
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 101,
-  "Name": "Kunze-Wolff",
+  "ScreenChooserId": 256,
+  "Name": "Weber, Fahey and Sporer",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "adipisci",
-  "Source": "inventore",
-  "Registered": "2000-09-21T16:32:48.2745849+02:00",
-  "RegisteredAssociateId": 621,
-  "Updated": "2019-04-13T16:32:48.2745849+02:00",
-  "UpdatedAssociateId": 373
+  "Enabled": true,
+  "UniqueIdentifier": "omnis",
+  "Source": "vel",
+  "Registered": "2023-07-21T17:54:08.6793184+02:00",
+  "RegisteredAssociateId": 779,
+  "Updated": "2000-06-03T17:54:08.6793184+02:00",
+  "UpdatedAssociateId": 648
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 824,
-  "Name": "Wilkinson Inc and Sons",
+  "ScreenChooserId": 593,
+  "Name": "Wolff-Lynch",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "natus",
-  "Source": "vel",
-  "Registered": "2014-03-17T16:32:48.2745849+01:00",
-  "RegisteredAssociateId": 47,
-  "Updated": "2024-09-25T16:32:48.2745849+02:00",
-  "UpdatedAssociateId": 628,
+  "UniqueIdentifier": "est",
+  "Source": "iste",
+  "Registered": "2001-09-20T17:54:08.6793184+02:00",
+  "RegisteredAssociateId": 903,
+  "Updated": "2011-08-15T17:54:08.6793184+02:00",
+  "UpdatedAssociateId": 332,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 826
+      "FieldType": "System.String",
+      "FieldLength": 689
     }
   },
   "_Links": {

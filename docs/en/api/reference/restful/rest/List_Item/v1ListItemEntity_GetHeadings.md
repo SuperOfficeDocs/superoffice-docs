@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 33,
-    "Name": "Hammes, Douglas and Stamm",
-    "ToolTip": "Earum aliquam officia.",
-    "Deleted": false,
-    "Rank": 962,
-    "Type": "culpa",
-    "ColorBlock": 12,
-    "IconHint": "reiciendis",
-    "Selected": false,
-    "LastChanged": "2014-03-25T16:32:48.4933163+01:00",
+    "Id": 188,
+    "Name": "Bergnaum LLC",
+    "ToolTip": "Rerum maxime aut id repellat blanditiis.",
+    "Deleted": true,
+    "Rank": 883,
+    "Type": "sequi",
+    "ColorBlock": 402,
+    "IconHint": "cumque",
+    "Selected": true,
+    "LastChanged": "2017-04-20T17:54:08.7730557+02:00",
     "ChildItems": [
       {
-        "Id": 932,
-        "Name": "Swift-Rath",
-        "ToolTip": "Sint molestiae ut.",
-        "Deleted": true,
-        "Rank": 599,
-        "Type": "reprehenderit",
-        "ColorBlock": 134,
-        "IconHint": "delectus",
+        "Id": 221,
+        "Name": "Pollich, Krajcik and Watsica",
+        "ToolTip": "Quia aut consequuntur fugit consectetur sunt ex.",
+        "Deleted": false,
+        "Rank": 336,
+        "Type": "nisi",
+        "ColorBlock": 138,
+        "IconHint": "repellendus",
         "Selected": false,
-        "LastChanged": "2005-11-05T16:32:48.4933163+01:00",
+        "LastChanged": "2005-11-21T17:54:08.7730557+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Dr. Sydnee Irwin Abbott I",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "provident",
+        "Hidden": false,
+        "FullName": "Santos Frami",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 537
+            "FieldLength": 728
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "culpa",
+    "ExtraInfo": "ipsa",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Darion Towne",
+    "FullName": "Alysson Gislason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 518
+        "FieldType": "System.Int32",
+        "FieldLength": 611
       }
     }
   }

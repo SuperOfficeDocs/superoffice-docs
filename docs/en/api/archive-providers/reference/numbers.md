@@ -52,6 +52,7 @@ Archive provider for the list of numbers, for the number allocation system. Not 
 |updated\_associate/contactName|string|By - Owning company: Name of the company the user belongs to| x |
 |updated\_associate/contactDepartment|string|By - Owning department: Name of the department at the company the user belongs to| x |
 |updated\_associate/usergroup|userGroup|By - Primary group: The user's primary user group| x |
+|updated\_associate/usergroupId|int|By - Group ID: The user's primary user group| x |
 |updated\_associate/contactFullName|string|By - Owner: Name and department of the company the user belongs to| x |
 |updated\_associate/contactCategory|listAny|By - Category: Category| x |
 |updated\_associate/role|listAny|By - Role: Role| x |
@@ -76,7 +77,7 @@ Archive provider for the list of numbers, for the number allocation system. Not 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Numbers?$select=nextnum,updated_associate/title
+GET /api/v1/archive/Numbers?$select=unique,updated_associate/userName,field
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -29,33 +29,61 @@ items:
   nameWithType: Webhook
   fullName: SuperOffice.CRM.Services.Webhook
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nWebhook definitions. Webhooks broadcast events from NetServer to remote servers.\n<p></p>\nCarrier object for Webhook.\nServices for the Webhook Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IWebhookAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Webhook definitions. Webhooks broadcast events from NetServer to remote servers.
+
+    <p></p>
+
+    Carrier object for Webhook.
+
+    Services for the Webhook Carrier is available from the <xref href="SuperOffice.CRM.Services.IWebhookAgent?text=Webhook+Agent" data-throw-if-not-resolved="false"></xref>.
   example:
-  - "\nGet Webhook 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new WebhookAgent();\n    var webhook = agent.GetWebhook( 123 );\n }</code></pre>\n"
+  - >-
+    Get Webhook 123 using the agent:
+
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       var agent = new WebhookAgent();
+       var webhook = agent.GetWebhook( 123 );
+    }</code></pre>
   syntax:
-    content: 'public class Webhook : Object'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class Webhook
     content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
       Public Class Webhook
-          Inherits Object
   seealso:
-  - linkId: SuperOffice.CRM.Services.WebhookAgent
-    commentId: T:SuperOffice.CRM.Services.WebhookAgent
   - linkId: SuperOffice.CRM.Services.IWebhookAgent
     commentId: T:SuperOffice.CRM.Services.IWebhookAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.Webhook.#ctor
   commentId: M:SuperOffice.CRM.Services.Webhook.#ctor
   id: '#ctor'
@@ -67,21 +95,18 @@ items:
   nameWithType: Webhook.Webhook()
   fullName: SuperOffice.CRM.Services.Webhook.Webhook()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public Webhook()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.Webhook.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: Webhook.New()
+  fullName.vb: SuperOffice.CRM.Services.Webhook.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.Webhook.ToString
   commentId: M:SuperOffice.CRM.Services.Webhook.ToString
   id: ToString
@@ -93,26 +118,19 @@ items:
   nameWithType: Webhook.ToString()
   fullName: SuperOffice.CRM.Services.Webhook.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
   overload: SuperOffice.CRM.Services.Webhook.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.Webhook.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.Webhook.ToString(System.String)
   id: ToString(System.String)
@@ -120,17 +138,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: Webhook.ToString(String)
-  fullName: SuperOffice.CRM.Services.Webhook.ToString(System.String)
+  name: ToString(string)
+  nameWithType: Webhook.ToString(string)
+  fullName: SuperOffice.CRM.Services.Webhook.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -142,10 +161,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.Webhook.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: Webhook.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.Webhook.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.Webhook.WebhookId
   commentId: P:SuperOffice.CRM.Services.Webhook.WebhookId
   id: WebhookId
@@ -157,28 +175,28 @@ items:
   nameWithType: Webhook.WebhookId
   fullName: SuperOffice.CRM.Services.Webhook.WebhookId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPrimary Key. Unique id for this webhook. \n"
+  summary: Primary Key. Unique id for this webhook.
+  example: []
   syntax:
-    content: public virtual int WebhookId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int WebhookId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property WebhookId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property WebhookId As Integer
   overload: SuperOffice.CRM.Services.Webhook.WebhookId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Webhook.Name
   commentId: P:SuperOffice.CRM.Services.Webhook.Name
   id: Name
@@ -190,28 +208,28 @@ items:
   nameWithType: Webhook.Name
   fullName: SuperOffice.CRM.Services.Webhook.Name
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nName to identify this webhook. Does not have to be unique. \n"
+  summary: Name to identify this webhook. Does not have to be unique.
+  example: []
   syntax:
-    content: public virtual string Name { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Name As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Name As String
   overload: SuperOffice.CRM.Services.Webhook.Name*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Webhook.Events
   commentId: P:SuperOffice.CRM.Services.Webhook.Events
   id: Events
@@ -223,28 +241,28 @@ items:
   nameWithType: Webhook.Events
   fullName: SuperOffice.CRM.Services.Webhook.Events
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nArray of event names that trigger this webhook: [&apos;contact.created&apos;, &apos;sale.changed&apos;]  \n"
+  summary: "Array of event names that trigger this webhook: ['contact.created', 'sale.changed']"
+  example: []
   syntax:
-    content: public virtual string[] Events { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string[] Events { get; set; }
     parameters: []
     return:
       type: System.String[]
-    content.vb: Public Overridable Property Events As String()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Events As String()
   overload: SuperOffice.CRM.Services.Webhook.Events*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Webhook.TargetUrl
   commentId: P:SuperOffice.CRM.Services.Webhook.TargetUrl
   id: TargetUrl
@@ -256,28 +274,28 @@ items:
   nameWithType: Webhook.TargetUrl
   fullName: SuperOffice.CRM.Services.Webhook.TargetUrl
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDestination to POST event info to. URL for webhooks. Id for CRM scripts \n"
+  summary: Destination to POST event info to. URL for webhooks. Id for CRM scripts
+  example: []
   syntax:
-    content: public virtual string TargetUrl { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string TargetUrl { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property TargetUrl As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TargetUrl As String
   overload: SuperOffice.CRM.Services.Webhook.TargetUrl*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Webhook.Secret
   commentId: P:SuperOffice.CRM.Services.Webhook.Secret
   id: Secret
@@ -289,28 +307,28 @@ items:
   nameWithType: Webhook.Secret
   fullName: SuperOffice.CRM.Services.Webhook.Secret
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nShared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server \n"
+  summary: Shared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server
+  example: []
   syntax:
-    content: public virtual string Secret { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Secret { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Secret As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Secret As String
   overload: SuperOffice.CRM.Services.Webhook.Secret*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Webhook.State
   commentId: P:SuperOffice.CRM.Services.Webhook.State
   id: State
@@ -322,28 +340,28 @@ items:
   nameWithType: Webhook.State
   fullName: SuperOffice.CRM.Services.Webhook.State
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nWebhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors \n"
+  summary: Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors
+  example: []
   syntax:
-    content: public virtual WebhookState State { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual WebhookState State { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.WebhookState
-    content.vb: Public Overridable Property State As WebhookState
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property State As WebhookState
   overload: SuperOffice.CRM.Services.Webhook.State*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Webhook.Type
   commentId: P:SuperOffice.CRM.Services.Webhook.Type
   id: Type
@@ -355,28 +373,28 @@ items:
   nameWithType: Webhook.Type
   fullName: SuperOffice.CRM.Services.Webhook.Type
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nName of plugin that handles this webhook. &apos;webhook&apos; for HTTP POST notifications, &apos;crmscript&apos; for script invocations. \n"
+  summary: Name of plugin that handles this webhook. 'webhook' for HTTP POST notifications, 'crmscript' for script invocations.
+  example: []
   syntax:
-    content: public virtual string Type { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Type { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Type As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Type As String
   overload: SuperOffice.CRM.Services.Webhook.Type*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Webhook.Headers
   commentId: P:SuperOffice.CRM.Services.Webhook.Headers
   id: Headers
@@ -388,28 +406,28 @@ items:
   nameWithType: Webhook.Headers
   fullName: SuperOffice.CRM.Services.Webhook.Headers
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCustom HTTP Headers to add to webhook requests. \n"
+  summary: Custom HTTP Headers to add to webhook requests.
+  example: []
   syntax:
-    content: public virtual StringDictionary Headers { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual StringDictionary Headers { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.StringDictionary
-    content.vb: Public Overridable Property Headers As StringDictionary
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Headers As StringDictionary
   overload: SuperOffice.CRM.Services.Webhook.Headers*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Webhook.Properties
   commentId: P:SuperOffice.CRM.Services.Webhook.Properties
   id: Properties
@@ -421,28 +439,28 @@ items:
   nameWithType: Webhook.Properties
   fullName: SuperOffice.CRM.Services.Webhook.Properties
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCustom values to inject into JSON body of webhook call. \n"
+  summary: Custom values to inject into JSON body of webhook call.
+  example: []
   syntax:
-    content: public virtual StringObjectDictionary Properties { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual StringObjectDictionary Properties { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.StringObjectDictionary
-    content.vb: Public Overridable Property Properties As StringObjectDictionary
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Properties As StringObjectDictionary
   overload: SuperOffice.CRM.Services.Webhook.Properties*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Webhook.Registered
   commentId: P:SuperOffice.CRM.Services.Webhook.Registered
   id: Registered
@@ -454,28 +472,28 @@ items:
   nameWithType: Webhook.Registered
   fullName: SuperOffice.CRM.Services.Webhook.Registered
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRegistered when  in UTC.\n"
+  summary: Registered when  in UTC.
+  example: []
   syntax:
-    content: public virtual DateTime Registered { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime Registered { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Registered As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Registered As Date
   overload: SuperOffice.CRM.Services.Webhook.Registered*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Webhook.RegisteredAssociate
   commentId: P:SuperOffice.CRM.Services.Webhook.RegisteredAssociate
   id: RegisteredAssociate
@@ -487,28 +505,28 @@ items:
   nameWithType: Webhook.RegisteredAssociate
   fullName: SuperOffice.CRM.Services.Webhook.RegisteredAssociate
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe user that created the webhook. \n"
+  summary: The user that created the webhook.
+  example: []
   syntax:
-    content: public virtual Associate RegisteredAssociate { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual Associate RegisteredAssociate { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.Associate
-    content.vb: Public Overridable Property RegisteredAssociate As Associate
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property RegisteredAssociate As Associate
   overload: SuperOffice.CRM.Services.Webhook.RegisteredAssociate*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Webhook.Updated
   commentId: P:SuperOffice.CRM.Services.Webhook.Updated
   id: Updated
@@ -520,28 +538,28 @@ items:
   nameWithType: Webhook.Updated
   fullName: SuperOffice.CRM.Services.Webhook.Updated
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLast updated when  in UTC.\n"
+  summary: Last updated when  in UTC.
+  example: []
   syntax:
-    content: public virtual DateTime Updated { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime Updated { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Updated As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Updated As Date
   overload: SuperOffice.CRM.Services.Webhook.Updated*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Webhook.UpdatedAssociate
   commentId: P:SuperOffice.CRM.Services.Webhook.UpdatedAssociate
   id: UpdatedAssociate
@@ -553,28 +571,28 @@ items:
   nameWithType: Webhook.UpdatedAssociate
   fullName: SuperOffice.CRM.Services.Webhook.UpdatedAssociate
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe user that last updated the webhook. \n"
+  summary: The user that last updated the webhook.
+  example: []
   syntax:
-    content: public virtual Associate UpdatedAssociate { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual Associate UpdatedAssociate { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.Associate
-    content.vb: Public Overridable Property UpdatedAssociate As Associate
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UpdatedAssociate As Associate
   overload: SuperOffice.CRM.Services.Webhook.UpdatedAssociate*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Webhook.ErrorsEmail
   commentId: P:SuperOffice.CRM.Services.Webhook.ErrorsEmail
   id: ErrorsEmail
@@ -586,57 +604,325 @@ items:
   nameWithType: Webhook.ErrorsEmail
   fullName: SuperOffice.CRM.Services.Webhook.ErrorsEmail
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nEmail address to send error message to when this webhook state changes to too-many errors. \n"
+  summary: Email address to send error message to when this webhook state changes to too-many errors.
+  example: []
   syntax:
-    content: public virtual string ErrorsEmail { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string ErrorsEmail { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property ErrorsEmail As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ErrorsEmail As String
   overload: SuperOffice.CRM.Services.Webhook.ErrorsEmail*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.WebhookAgent
-  commentId: T:SuperOffice.CRM.Services.WebhookAgent
-  isExternal: true
-  name: WebhookAgent
-  nameWithType: WebhookAgent
-  fullName: SuperOffice.CRM.Services.WebhookAgent
 - uid: SuperOffice.CRM.Services.IWebhookAgent
   commentId: T:SuperOffice.CRM.Services.IWebhookAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IWebhookAgent.html
   name: IWebhookAgent
   nameWithType: IWebhookAgent
   fullName: SuperOffice.CRM.Services.IWebhookAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.Webhook.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.Webhook.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.Webhook.html#SuperOffice_CRM_Services_Webhook__ctor
   name: Webhook
   nameWithType: Webhook.Webhook
   fullName: SuperOffice.CRM.Services.Webhook.Webhook
+  nameWithType.vb: Webhook.New
+  fullName.vb: SuperOffice.CRM.Services.Webhook.New
+  name.vb: New
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.Webhook.ToString*
   commentId: Overload:SuperOffice.CRM.Services.Webhook.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.Webhook.html#SuperOffice_CRM_Services_Webhook_ToString
   name: ToString
   nameWithType: Webhook.ToString
   fullName: SuperOffice.CRM.Services.Webhook.ToString
@@ -644,18 +930,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.Webhook.WebhookId*
   commentId: Overload:SuperOffice.CRM.Services.Webhook.WebhookId
   isExternal: true
+  href: SuperOffice.CRM.Services.Webhook.html#SuperOffice_CRM_Services_Webhook_WebhookId
   name: WebhookId
   nameWithType: Webhook.WebhookId
   fullName: SuperOffice.CRM.Services.Webhook.WebhookId
@@ -663,62 +948,68 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.Webhook.Name*
   commentId: Overload:SuperOffice.CRM.Services.Webhook.Name
   isExternal: true
+  href: SuperOffice.CRM.Services.Webhook.html#SuperOffice_CRM_Services_Webhook_Name
   name: Name
   nameWithType: Webhook.Name
   fullName: SuperOffice.CRM.Services.Webhook.Name
 - uid: SuperOffice.CRM.Services.Webhook.Events*
   commentId: Overload:SuperOffice.CRM.Services.Webhook.Events
   isExternal: true
+  href: SuperOffice.CRM.Services.Webhook.html#SuperOffice_CRM_Services_Webhook_Events
   name: Events
   nameWithType: Webhook.Events
   fullName: SuperOffice.CRM.Services.Webhook.Events
 - uid: System.String[]
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
   nameWithType.vb: String()
-  fullName.vb: System.String()
+  fullName.vb: String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.Webhook.TargetUrl*
   commentId: Overload:SuperOffice.CRM.Services.Webhook.TargetUrl
   isExternal: true
+  href: SuperOffice.CRM.Services.Webhook.html#SuperOffice_CRM_Services_Webhook_TargetUrl
   name: TargetUrl
   nameWithType: Webhook.TargetUrl
   fullName: SuperOffice.CRM.Services.Webhook.TargetUrl
 - uid: SuperOffice.CRM.Services.Webhook.Secret*
   commentId: Overload:SuperOffice.CRM.Services.Webhook.Secret
   isExternal: true
+  href: SuperOffice.CRM.Services.Webhook.html#SuperOffice_CRM_Services_Webhook_Secret
   name: Secret
   nameWithType: Webhook.Secret
   fullName: SuperOffice.CRM.Services.Webhook.Secret
 - uid: SuperOffice.CRM.Services.Webhook.State*
   commentId: Overload:SuperOffice.CRM.Services.Webhook.State
   isExternal: true
+  href: SuperOffice.CRM.Services.Webhook.html#SuperOffice_CRM_Services_Webhook_State
   name: State
   nameWithType: Webhook.State
   fullName: SuperOffice.CRM.Services.Webhook.State
@@ -730,12 +1021,14 @@ references:
 - uid: SuperOffice.CRM.Services.Webhook.Type*
   commentId: Overload:SuperOffice.CRM.Services.Webhook.Type
   isExternal: true
+  href: SuperOffice.CRM.Services.Webhook.html#SuperOffice_CRM_Services_Webhook_Type
   name: Type
   nameWithType: Webhook.Type
   fullName: SuperOffice.CRM.Services.Webhook.Type
 - uid: SuperOffice.CRM.Services.Webhook.Headers*
   commentId: Overload:SuperOffice.CRM.Services.Webhook.Headers
   isExternal: true
+  href: SuperOffice.CRM.Services.Webhook.html#SuperOffice_CRM_Services_Webhook_Headers
   name: Headers
   nameWithType: Webhook.Headers
   fullName: SuperOffice.CRM.Services.Webhook.Headers
@@ -747,6 +1040,7 @@ references:
 - uid: SuperOffice.CRM.Services.Webhook.Properties*
   commentId: Overload:SuperOffice.CRM.Services.Webhook.Properties
   isExternal: true
+  href: SuperOffice.CRM.Services.Webhook.html#SuperOffice_CRM_Services_Webhook_Properties
   name: Properties
   nameWithType: Webhook.Properties
   fullName: SuperOffice.CRM.Services.Webhook.Properties
@@ -758,17 +1052,25 @@ references:
 - uid: SuperOffice.CRM.Services.Webhook.Registered*
   commentId: Overload:SuperOffice.CRM.Services.Webhook.Registered
   isExternal: true
+  href: SuperOffice.CRM.Services.Webhook.html#SuperOffice_CRM_Services_Webhook_Registered
   name: Registered
   nameWithType: Webhook.Registered
   fullName: SuperOffice.CRM.Services.Webhook.Registered
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.Services.Webhook.RegisteredAssociate*
   commentId: Overload:SuperOffice.CRM.Services.Webhook.RegisteredAssociate
   isExternal: true
+  href: SuperOffice.CRM.Services.Webhook.html#SuperOffice_CRM_Services_Webhook_RegisteredAssociate
   name: RegisteredAssociate
   nameWithType: Webhook.RegisteredAssociate
   fullName: SuperOffice.CRM.Services.Webhook.RegisteredAssociate
@@ -776,24 +1078,28 @@ references:
   commentId: T:SuperOffice.CRM.Services.Associate
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.Associate.html
   name: Associate
   nameWithType: Associate
   fullName: SuperOffice.CRM.Services.Associate
 - uid: SuperOffice.CRM.Services.Webhook.Updated*
   commentId: Overload:SuperOffice.CRM.Services.Webhook.Updated
   isExternal: true
+  href: SuperOffice.CRM.Services.Webhook.html#SuperOffice_CRM_Services_Webhook_Updated
   name: Updated
   nameWithType: Webhook.Updated
   fullName: SuperOffice.CRM.Services.Webhook.Updated
 - uid: SuperOffice.CRM.Services.Webhook.UpdatedAssociate*
   commentId: Overload:SuperOffice.CRM.Services.Webhook.UpdatedAssociate
   isExternal: true
+  href: SuperOffice.CRM.Services.Webhook.html#SuperOffice_CRM_Services_Webhook_UpdatedAssociate
   name: UpdatedAssociate
   nameWithType: Webhook.UpdatedAssociate
   fullName: SuperOffice.CRM.Services.Webhook.UpdatedAssociate
 - uid: SuperOffice.CRM.Services.Webhook.ErrorsEmail*
   commentId: Overload:SuperOffice.CRM.Services.Webhook.ErrorsEmail
   isExternal: true
+  href: SuperOffice.CRM.Services.Webhook.html#SuperOffice_CRM_Services_Webhook_ErrorsEmail
   name: ErrorsEmail
   nameWithType: Webhook.ErrorsEmail
   fullName: SuperOffice.CRM.Services.Webhook.ErrorsEmail

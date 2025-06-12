@@ -89,34 +89,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 766,
-    "Name": "Ullrich-Lubowitz",
-    "Tooltip": "voluptatum",
+    "WebPanelId": 348,
+    "Name": "Feil, Upton and Lakin",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "Rank": 348,
+    "Rank": 478,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
-    "OnSatellite": true,
+    "OnCentral": true,
+    "OnSatellite": false,
     "OnTravel": true,
-    "OnSalesMarketingWeb": true,
+    "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": true,
+    "ShowInMenuBar": false,
     "ShowInToolBar": false,
-    "ShowInAddressBar": true,
-    "ShowInStatusBar": false,
-    "WindowName": "Streich LLC",
+    "ShowInAddressBar": false,
+    "ShowInStatusBar": true,
+    "WindowName": "Hermann Inc and Sons",
     "Url": "http://www.example.com/",
-    "ProgId": "reprehenderit",
-    "Icon": 924,
-    "AlwaysReloadOnShow": false,
+    "ProgId": "nostrum",
+    "Icon": 32,
+    "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 208
+        "FieldLength": 568
       }
     }
   }

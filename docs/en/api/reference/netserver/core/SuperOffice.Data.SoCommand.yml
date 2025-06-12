@@ -9,11 +9,15 @@ items:
   - SuperOffice.Data.SoCommand.Connection
   - SuperOffice.Data.SoCommand.Dispose
   - SuperOffice.Data.SoCommand.ExecuteNonQuery
+  - SuperOffice.Data.SoCommand.ExecuteNonQueryAsync(System.Threading.CancellationToken)
   - SuperOffice.Data.SoCommand.ExecuteReader
   - SuperOffice.Data.SoCommand.ExecuteReader(System.Data.CommandBehavior)
-  - SuperOffice.Data.SoCommand.ExecuteReader(System.Data.CommandBehavior,System.Int32,System.Int32)
   - SuperOffice.Data.SoCommand.ExecuteReader(System.Int32,System.Int32)
+  - SuperOffice.Data.SoCommand.ExecuteReaderAsync(System.Data.CommandBehavior,System.Threading.CancellationToken)
+  - SuperOffice.Data.SoCommand.ExecuteReaderAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Data.SoCommand.ExecuteReaderAsync(System.Threading.CancellationToken)
   - SuperOffice.Data.SoCommand.ExecuteScalar
+  - SuperOffice.Data.SoCommand.ExecuteScalarAsync(System.Threading.CancellationToken)
   - SuperOffice.Data.SoCommand.IsAutoSentry
   - SuperOffice.Data.SoCommand.IsDefaultTransaction
   - SuperOffice.Data.SoCommand.LogNonQuery(System.TimeSpan,System.Int32,System.String)
@@ -31,35 +35,29 @@ items:
   nameWithType: SoCommand
   fullName: SuperOffice.Data.SoCommand
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nImplements the IDbCommand.\n"
+  summary: Implements the IDbCommand.
+  example: []
   syntax:
-    content: 'public sealed class SoCommand : Object, IDbCommand, IDisposable'
-    content.vb: >-
-      Public NotInheritable Class SoCommand
-          Inherits Object
-          Implements IDbCommand, IDisposable
+    content: 'public sealed class SoCommand : IDbCommand, IDisposable'
+    content.vb: Public NotInheritable Class SoCommand Implements IDbCommand, IDisposable
   inheritance:
   - System.Object
   implements:
   - System.Data.IDbCommand
   - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
   extensionMethods:
   - SuperOffice.Data.SoCommand.EnumUtil.MapEnums``2
   - SuperOffice.Data.SoCommand.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
 - uid: SuperOffice.Data.SoCommand.LogQueryReader(System.TimeSpan,System.Int32,System.String)
   commentId: M:SuperOffice.Data.SoCommand.LogQueryReader(System.TimeSpan,System.Int32,System.String)
   id: LogQueryReader(System.TimeSpan,System.Int32,System.String)
@@ -67,13 +65,10 @@ items:
   langs:
   - csharp
   - vb
-  name: LogQueryReader(TimeSpan, Int32, String)
-  nameWithType: SoCommand.LogQueryReader(TimeSpan, Int32, String)
-  fullName: SuperOffice.Data.SoCommand.LogQueryReader(System.TimeSpan, System.Int32, System.String)
+  name: LogQueryReader(TimeSpan, int, string)
+  nameWithType: SoCommand.LogQueryReader(TimeSpan, int, string)
+  fullName: SuperOffice.Data.SoCommand.LogQueryReader(System.TimeSpan, int, string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -88,10 +83,9 @@ items:
       type: System.String
     content.vb: Public Sub LogQueryReader(executionTime As TimeSpan, rowsAffected As Integer, exceptionMessage As String)
   overload: SuperOffice.Data.SoCommand.LogQueryReader*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SoCommand.LogQueryReader(TimeSpan, Integer, String)
+  fullName.vb: SuperOffice.Data.SoCommand.LogQueryReader(System.TimeSpan, Integer, String)
+  name.vb: LogQueryReader(TimeSpan, Integer, String)
 - uid: SuperOffice.Data.SoCommand.LogQueryScalar(System.TimeSpan,System.Int32,System.String)
   commentId: M:SuperOffice.Data.SoCommand.LogQueryScalar(System.TimeSpan,System.Int32,System.String)
   id: LogQueryScalar(System.TimeSpan,System.Int32,System.String)
@@ -99,13 +93,10 @@ items:
   langs:
   - csharp
   - vb
-  name: LogQueryScalar(TimeSpan, Int32, String)
-  nameWithType: SoCommand.LogQueryScalar(TimeSpan, Int32, String)
-  fullName: SuperOffice.Data.SoCommand.LogQueryScalar(System.TimeSpan, System.Int32, System.String)
+  name: LogQueryScalar(TimeSpan, int, string)
+  nameWithType: SoCommand.LogQueryScalar(TimeSpan, int, string)
+  fullName: SuperOffice.Data.SoCommand.LogQueryScalar(System.TimeSpan, int, string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -120,10 +111,9 @@ items:
       type: System.String
     content.vb: Public Sub LogQueryScalar(executionTime As TimeSpan, rowsAffected As Integer, exceptionMessage As String)
   overload: SuperOffice.Data.SoCommand.LogQueryScalar*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SoCommand.LogQueryScalar(TimeSpan, Integer, String)
+  fullName.vb: SuperOffice.Data.SoCommand.LogQueryScalar(System.TimeSpan, Integer, String)
+  name.vb: LogQueryScalar(TimeSpan, Integer, String)
 - uid: SuperOffice.Data.SoCommand.LogNonQuery(System.TimeSpan,System.Int32,System.String)
   commentId: M:SuperOffice.Data.SoCommand.LogNonQuery(System.TimeSpan,System.Int32,System.String)
   id: LogNonQuery(System.TimeSpan,System.Int32,System.String)
@@ -131,13 +121,10 @@ items:
   langs:
   - csharp
   - vb
-  name: LogNonQuery(TimeSpan, Int32, String)
-  nameWithType: SoCommand.LogNonQuery(TimeSpan, Int32, String)
-  fullName: SuperOffice.Data.SoCommand.LogNonQuery(System.TimeSpan, System.Int32, System.String)
+  name: LogNonQuery(TimeSpan, int, string)
+  nameWithType: SoCommand.LogNonQuery(TimeSpan, int, string)
+  fullName: SuperOffice.Data.SoCommand.LogNonQuery(System.TimeSpan, int, string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -152,10 +139,9 @@ items:
       type: System.String
     content.vb: Public Sub LogNonQuery(executionTime As TimeSpan, rowsAffected As Integer, exceptionMessage As String)
   overload: SuperOffice.Data.SoCommand.LogNonQuery*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SoCommand.LogNonQuery(TimeSpan, Integer, String)
+  fullName.vb: SuperOffice.Data.SoCommand.LogNonQuery(System.TimeSpan, Integer, String)
+  name.vb: LogNonQuery(TimeSpan, Integer, String)
 - uid: SuperOffice.Data.SoCommand.Dispose
   commentId: M:SuperOffice.Data.SoCommand.Dispose
   id: Dispose
@@ -167,21 +153,17 @@ items:
   nameWithType: SoCommand.Dispose()
   fullName: SuperOffice.Data.SoCommand.Dispose()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nPerforms application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.\n"
+  summary: Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+  example: []
   syntax:
     content: public void Dispose()
-    content.vb: Public Sub Dispose
+    content.vb: Public Sub Dispose()
   overload: SuperOffice.Data.SoCommand.Dispose*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  implements:
+  - System.IDisposable.Dispose
 - uid: SuperOffice.Data.SoCommand.Cancel
   commentId: M:SuperOffice.Data.SoCommand.Cancel
   id: Cancel
@@ -193,21 +175,277 @@ items:
   nameWithType: SoCommand.Cancel()
   fullName: SuperOffice.Data.SoCommand.Cancel()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nAttempts to cancels the execution of an <xref href=\"System.Data.IDbCommand\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Attempts to cancels the execution of an <xref href="System.Data.IDbCommand" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public void Cancel()
-    content.vb: Public Sub Cancel
+    content.vb: Public Sub Cancel()
   overload: SuperOffice.Data.SoCommand.Cancel*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  implements:
+  - System.Data.IDbCommand.Cancel
+- uid: SuperOffice.Data.SoCommand.ExecuteNonQueryAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoCommand.ExecuteNonQueryAsync(System.Threading.CancellationToken)
+  id: ExecuteNonQueryAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Data.SoCommand
+  langs:
+  - csharp
+  - vb
+  name: ExecuteNonQueryAsync(CancellationToken)
+  nameWithType: SoCommand.ExecuteNonQueryAsync(CancellationToken)
+  fullName: SuperOffice.Data.SoCommand.ExecuteNonQueryAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: Executes an SQL statement against the Connection object of a .NET Framework data provider, and returns the number of rows affected.
+  example: []
+  syntax:
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public Task<int> ExecuteNonQueryAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: The number of rows affected.
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Function ExecuteNonQueryAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.Data.SoCommand.ExecuteNonQueryAsync*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: The connection does not exist.-or- The connection is not open.
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+- uid: SuperOffice.Data.SoCommand.ExecuteReaderAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoCommand.ExecuteReaderAsync(System.Threading.CancellationToken)
+  id: ExecuteReaderAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Data.SoCommand
+  langs:
+  - csharp
+  - vb
+  name: ExecuteReaderAsync(CancellationToken)
+  nameWithType: SoCommand.ExecuteReaderAsync(CancellationToken)
+  fullName: SuperOffice.Data.SoCommand.ExecuteReaderAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    Execute the <xref href="System.Data.IDbCommand.CommandText" data-throw-if-not-resolved="false"></xref> on the <xref href="SuperOffice.Data.SoCommand.Connection" data-throw-if-not-resolved="false"></xref>, create an
+
+    SoDataReader to read the results, and return it. The reader will start on row 1 and go
+
+    through the whole result set.
+  example: []
+  syntax:
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public Task<SoDataReader> ExecuteReaderAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SoDataReader}
+      description: SoDataReader, which implements the IDataReader interface as well as SuperOffice functionality
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Function ExecuteReaderAsync(cancellationToken As CancellationToken = Nothing) As Task(Of SoDataReader)
+  overload: SuperOffice.Data.SoCommand.ExecuteReaderAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+- uid: SuperOffice.Data.SoCommand.ExecuteReaderAsync(System.Data.CommandBehavior,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoCommand.ExecuteReaderAsync(System.Data.CommandBehavior,System.Threading.CancellationToken)
+  id: ExecuteReaderAsync(System.Data.CommandBehavior,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.SoCommand
+  langs:
+  - csharp
+  - vb
+  name: ExecuteReaderAsync(CommandBehavior, CancellationToken)
+  nameWithType: SoCommand.ExecuteReaderAsync(CommandBehavior, CancellationToken)
+  fullName: SuperOffice.Data.SoCommand.ExecuteReaderAsync(System.Data.CommandBehavior, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    Execute the <xref href="System.Data.IDbCommand.CommandText" data-throw-if-not-resolved="false"></xref> on the <xref href="SuperOffice.Data.SoCommand.Connection" data-throw-if-not-resolved="false"></xref>, create an
+
+    SoDataReader to read the results, and return it. The reader will start on row 1 and go
+
+    through the whole result set.
+  example: []
+  syntax:
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public Task<SoDataReader> ExecuteReaderAsync(CommandBehavior behaviour, CancellationToken cancellationToken = default)
+    parameters:
+    - id: behaviour
+      type: System.Data.CommandBehavior
+      description: Command behaviour, passed through to the underlying ADO.NET provider
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SoDataReader}
+      description: SoDataReader, which implements the IDataReader interface as well as SuperOffice functionality
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Function ExecuteReaderAsync(behaviour As CommandBehavior, cancellationToken As CancellationToken = Nothing) As Task(Of SoDataReader)
+  overload: SuperOffice.Data.SoCommand.ExecuteReaderAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+- uid: SuperOffice.Data.SoCommand.ExecuteReaderAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoCommand.ExecuteReaderAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: ExecuteReaderAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.SoCommand
+  langs:
+  - csharp
+  - vb
+  name: ExecuteReaderAsync(int, int, CancellationToken)
+  nameWithType: SoCommand.ExecuteReaderAsync(int, int, CancellationToken)
+  fullName: SuperOffice.Data.SoCommand.ExecuteReaderAsync(int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    Execute the <xref href="System.Data.IDbCommand.CommandText" data-throw-if-not-resolved="false"></xref> on the <xref href="SuperOffice.Data.SoCommand.Connection" data-throw-if-not-resolved="false"></xref>, create an
+
+    SoDataReader to read the results, and return it. The reader will return one page of records,
+
+    as defined by the page size and starting point.
+  example: []
+  syntax:
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public Task<SoDataReader> ExecuteReaderAsync(int pageSize, int pageWanted, CancellationToken cancellationToken = default)
+    parameters:
+    - id: pageSize
+      type: System.Int32
+      description: Number of records per page; only one page will be returned by the reader
+    - id: pageWanted
+      type: System.Int32
+      description: Desired page, starting at 0.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SoDataReader}
+      description: SoDataReader, which implements the IDataReader interface as well as SuperOffice functionality
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Function ExecuteReaderAsync(pageSize As Integer, pageWanted As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of SoDataReader)
+  overload: SuperOffice.Data.SoCommand.ExecuteReaderAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: SoCommand.ExecuteReaderAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.Data.SoCommand.ExecuteReaderAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: ExecuteReaderAsync(Integer, Integer, CancellationToken)
+- uid: SuperOffice.Data.SoCommand.ExecuteScalarAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoCommand.ExecuteScalarAsync(System.Threading.CancellationToken)
+  id: ExecuteScalarAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Data.SoCommand
+  langs:
+  - csharp
+  - vb
+  name: ExecuteScalarAsync(CancellationToken)
+  nameWithType: SoCommand.ExecuteScalarAsync(CancellationToken)
+  fullName: SuperOffice.Data.SoCommand.ExecuteScalarAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    Executes the query, and returns the first column of the first row in the resultset returned by the query.
+
+    Extra columns or rows are ignored.
+  example: []
+  syntax:
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public Task<object> ExecuteScalarAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Object}
+      description: The first column of the first row in the resultset.
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Function ExecuteScalarAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Object)
+  overload: SuperOffice.Data.SoCommand.ExecuteScalarAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+- uid: SuperOffice.Data.SoCommand.Prepare
+  commentId: M:SuperOffice.Data.SoCommand.Prepare
+  id: Prepare
+  parent: SuperOffice.Data.SoCommand
+  langs:
+  - csharp
+  - vb
+  name: Prepare()
+  nameWithType: SoCommand.Prepare()
+  fullName: SuperOffice.Data.SoCommand.Prepare()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: Creates a prepared (or compiled) version of the command on the data source.
+  example: []
+  syntax:
+    content: public void Prepare()
+    content.vb: Public Sub Prepare()
+  overload: SuperOffice.Data.SoCommand.Prepare*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: The <xref href="System.Data.OleDb.OleDbCommand.Connection" data-throw-if-not-resolved="false"></xref> is not set.-or- The <xref href="System.Data.OleDb.OleDbCommand.Connection" data-throw-if-not-resolved="false"></xref> is not System.Data.OleDb.OleDbConnection.Open.
+  implements:
+  - System.Data.IDbCommand.Prepare
 - uid: SuperOffice.Data.SoCommand.ExecuteNonQuery
   commentId: M:SuperOffice.Data.SoCommand.ExecuteNonQuery
   id: ExecuteNonQuery
@@ -219,28 +457,24 @@ items:
   nameWithType: SoCommand.ExecuteNonQuery()
   fullName: SuperOffice.Data.SoCommand.ExecuteNonQuery()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nExecutes an SQL statement against the Connection object of a .NET Framework data provider, and returns the number of rows affected.\n"
+  summary: Executes an SQL statement against the Connection object of a .NET Framework data provider, and returns the number of rows affected.
+  example: []
   syntax:
     content: public int ExecuteNonQuery()
     return:
       type: System.Int32
       description: The number of rows affected.
-    content.vb: Public Function ExecuteNonQuery As Integer
+    content.vb: Public Function ExecuteNonQuery() As Integer
   overload: SuperOffice.Data.SoCommand.ExecuteNonQuery*
   exceptions:
   - type: System.InvalidOperationException
     commentId: T:System.InvalidOperationException
-    description: 'The connection does not exist.-or- The connection is not open. '
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    description: The connection does not exist.-or- The connection is not open.
+  implements:
+  - System.Data.IDbCommand.ExecuteNonQuery
 - uid: SuperOffice.Data.SoCommand.ExecuteReader
   commentId: M:SuperOffice.Data.SoCommand.ExecuteReader
   id: ExecuteReader
@@ -252,24 +486,23 @@ items:
   nameWithType: SoCommand.ExecuteReader()
   fullName: SuperOffice.Data.SoCommand.ExecuteReader()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nExecute the <see cref=\"!:CommandText\"></see> on the <xref href=\"SuperOffice.Data.SoCommand.Connection\" data-throw-if-not-resolved=\"false\"></xref>, create an\nSoDataReader to read the results, and return it. The reader will start on row 1 and go\nthrough the whole result set.\n"
+  summary: >-
+    Execute the <xref href="System.Data.IDbCommand.CommandText" data-throw-if-not-resolved="false"></xref> on the <xref href="SuperOffice.Data.SoCommand.Connection" data-throw-if-not-resolved="false"></xref>, create an
+
+    SoDataReader to read the results, and return it. The reader will start on row 1 and go
+
+    through the whole result set.
+  example: []
   syntax:
     content: public SoDataReader ExecuteReader()
     return:
       type: SuperOffice.Data.SoDataReader
       description: SoDataReader, which implements the IDataReader interface as well as SuperOffice functionality
-    content.vb: Public Function ExecuteReader As SoDataReader
+    content.vb: Public Function ExecuteReader() As SoDataReader
   overload: SuperOffice.Data.SoCommand.ExecuteReader*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SoCommand.ExecuteReader(System.Data.CommandBehavior)
   commentId: M:SuperOffice.Data.SoCommand.ExecuteReader(System.Data.CommandBehavior)
   id: ExecuteReader(System.Data.CommandBehavior)
@@ -281,13 +514,16 @@ items:
   nameWithType: SoCommand.ExecuteReader(CommandBehavior)
   fullName: SuperOffice.Data.SoCommand.ExecuteReader(System.Data.CommandBehavior)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nExecute the <see cref=\"!:CommandText\"></see> on the <xref href=\"SuperOffice.Data.SoCommand.Connection\" data-throw-if-not-resolved=\"false\"></xref>, create an\nSoDataReader to read the results, and return it. The reader will start on row 1 and go\nthrough the whole result set.\n"
+  summary: >-
+    Execute the <xref href="System.Data.IDbCommand.CommandText" data-throw-if-not-resolved="false"></xref> on the <xref href="SuperOffice.Data.SoCommand.Connection" data-throw-if-not-resolved="false"></xref>, create an
+
+    SoDataReader to read the results, and return it. The reader will start on row 1 and go
+
+    through the whole result set.
+  example: []
   syntax:
     content: public SoDataReader ExecuteReader(CommandBehavior behaviour)
     parameters:
@@ -299,49 +535,6 @@ items:
       description: SoDataReader, which implements the IDataReader interface as well as SuperOffice functionality
     content.vb: Public Function ExecuteReader(behaviour As CommandBehavior) As SoDataReader
   overload: SuperOffice.Data.SoCommand.ExecuteReader*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.Data.SoCommand.ExecuteReader(System.Data.CommandBehavior,System.Int32,System.Int32)
-  commentId: M:SuperOffice.Data.SoCommand.ExecuteReader(System.Data.CommandBehavior,System.Int32,System.Int32)
-  id: ExecuteReader(System.Data.CommandBehavior,System.Int32,System.Int32)
-  parent: SuperOffice.Data.SoCommand
-  langs:
-  - csharp
-  - vb
-  name: ExecuteReader(CommandBehavior, Int32, Int32)
-  nameWithType: SoCommand.ExecuteReader(CommandBehavior, Int32, Int32)
-  fullName: SuperOffice.Data.SoCommand.ExecuteReader(System.Data.CommandBehavior, System.Int32, System.Int32)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: "\nExecute the <see cref=\"!:CommandText\"></see> on the <xref href=\"SuperOffice.Data.SoCommand.Connection\" data-throw-if-not-resolved=\"false\"></xref>, create an\nSoDataReader to read the results, and return it. The reader will return one page of records,\nas defined by the page size and starting point.\n"
-  syntax:
-    content: public SoDataReader ExecuteReader(CommandBehavior behaviour, int pageSize, int pageWanted)
-    parameters:
-    - id: behaviour
-      type: System.Data.CommandBehavior
-      description: Command behaviour, passed through to the underlying ADO.NET provider
-    - id: pageSize
-      type: System.Int32
-      description: Number of records per page; only one page will be returned by the reader
-    - id: pageWanted
-      type: System.Int32
-      description: Desired page, starting at 0.
-    return:
-      type: SuperOffice.Data.SoDataReader
-      description: SoDataReader, which implements the IDataReader interface as well as SuperOffice functionality
-    content.vb: Public Function ExecuteReader(behaviour As CommandBehavior, pageSize As Integer, pageWanted As Integer) As SoDataReader
-  overload: SuperOffice.Data.SoCommand.ExecuteReader*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SoCommand.ExecuteReader(System.Int32,System.Int32)
   commentId: M:SuperOffice.Data.SoCommand.ExecuteReader(System.Int32,System.Int32)
   id: ExecuteReader(System.Int32,System.Int32)
@@ -349,17 +542,20 @@ items:
   langs:
   - csharp
   - vb
-  name: ExecuteReader(Int32, Int32)
-  nameWithType: SoCommand.ExecuteReader(Int32, Int32)
-  fullName: SuperOffice.Data.SoCommand.ExecuteReader(System.Int32, System.Int32)
+  name: ExecuteReader(int, int)
+  nameWithType: SoCommand.ExecuteReader(int, int)
+  fullName: SuperOffice.Data.SoCommand.ExecuteReader(int, int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nExecute the <see cref=\"!:CommandText\"></see> on the <xref href=\"SuperOffice.Data.SoCommand.Connection\" data-throw-if-not-resolved=\"false\"></xref>, create an\nSoDataReader to read the results, and return it. The reader will return one page of records,\nas defined by the page size and starting point.\n"
+  summary: >-
+    Execute the <xref href="System.Data.IDbCommand.CommandText" data-throw-if-not-resolved="false"></xref> on the <xref href="SuperOffice.Data.SoCommand.Connection" data-throw-if-not-resolved="false"></xref>, create an
+
+    SoDataReader to read the results, and return it. The reader will return one page of records,
+
+    as defined by the page size and starting point.
+  example: []
   syntax:
     content: public SoDataReader ExecuteReader(int pageSize, int pageWanted)
     parameters:
@@ -374,10 +570,9 @@ items:
       description: SoDataReader, which implements the IDataReader interface as well as SuperOffice functionality
     content.vb: Public Function ExecuteReader(pageSize As Integer, pageWanted As Integer) As SoDataReader
   overload: SuperOffice.Data.SoCommand.ExecuteReader*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SoCommand.ExecuteReader(Integer, Integer)
+  fullName.vb: SuperOffice.Data.SoCommand.ExecuteReader(Integer, Integer)
+  name.vb: ExecuteReader(Integer, Integer)
 - uid: SuperOffice.Data.SoCommand.ExecuteScalar
   commentId: M:SuperOffice.Data.SoCommand.ExecuteScalar
   id: ExecuteScalar
@@ -389,54 +584,23 @@ items:
   nameWithType: SoCommand.ExecuteScalar()
   fullName: SuperOffice.Data.SoCommand.ExecuteScalar()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nExecutes the query, and returns the first column of the first row in the resultset returned by the query.\nExtra columns or rows are ignored.\n"
+  summary: >-
+    Executes the query, and returns the first column of the first row in the resultset returned by the query.
+
+    Extra columns or rows are ignored.
+  example: []
   syntax:
     content: public object ExecuteScalar()
     return:
       type: System.Object
-      description: "\nThe first column of the first row in the resultset.\n"
-    content.vb: Public Function ExecuteScalar As Object
+      description: The first column of the first row in the resultset.
+    content.vb: Public Function ExecuteScalar() As Object
   overload: SuperOffice.Data.SoCommand.ExecuteScalar*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.Data.SoCommand.Prepare
-  commentId: M:SuperOffice.Data.SoCommand.Prepare
-  id: Prepare
-  parent: SuperOffice.Data.SoCommand
-  langs:
-  - csharp
-  - vb
-  name: Prepare()
-  nameWithType: SoCommand.Prepare()
-  fullName: SuperOffice.Data.SoCommand.Prepare()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: "\nCreates a prepared (or compiled) version of the command on the data source.\n"
-  syntax:
-    content: public void Prepare()
-    content.vb: Public Sub Prepare
-  overload: SuperOffice.Data.SoCommand.Prepare*
-  exceptions:
-  - type: System.InvalidOperationException
-    commentId: T:System.InvalidOperationException
-    description: 'The <xref href="System.Data.OleDb.OleDbCommand.Connection" data-throw-if-not-resolved="false"></xref> is not set.-or- The <xref href="System.Data.OleDb.OleDbCommand.Connection" data-throw-if-not-resolved="false"></xref> is not <see cref="!:System.Data.OleDb.OleDbConnection.Open"></see>. '
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  implements:
+  - System.Data.IDbCommand.ExecuteScalar
 - uid: SuperOffice.Data.SoCommand.SqlCommand
   commentId: P:SuperOffice.Data.SoCommand.SqlCommand
   id: SqlCommand
@@ -448,13 +612,11 @@ items:
   nameWithType: SoCommand.SqlCommand
   fullName: SuperOffice.Data.SoCommand.SqlCommand
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nThe sql command to be processed\n"
+  summary: The sql command to be processed
+  example: []
   syntax:
     content: public SqlCommand SqlCommand { get; set; }
     parameters: []
@@ -462,12 +624,6 @@ items:
       type: SuperOffice.Data.SQL.SqlCommand
     content.vb: Public Property SqlCommand As SqlCommand
   overload: SuperOffice.Data.SoCommand.SqlCommand*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SoCommand.Connection
   commentId: P:SuperOffice.Data.SoCommand.Connection
   id: Connection
@@ -479,13 +635,11 @@ items:
   nameWithType: SoCommand.Connection
   fullName: SuperOffice.Data.SoCommand.Connection
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nConnection to be used for execution of this command\n"
+  summary: Connection to be used for execution of this command
+  example: []
   syntax:
     content: public SoConnection Connection { get; set; }
     parameters: []
@@ -493,12 +647,6 @@ items:
       type: SuperOffice.Data.SoConnection
     content.vb: Public Property Connection As SoConnection
   overload: SuperOffice.Data.SoCommand.Connection*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SoCommand.IsDefaultTransaction
   commentId: P:SuperOffice.Data.SoCommand.IsDefaultTransaction
   id: IsDefaultTransaction
@@ -510,13 +658,16 @@ items:
   nameWithType: SoCommand.IsDefaultTransaction
   fullName: SuperOffice.Data.SoCommand.IsDefaultTransaction
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nFlag indicating whether the <xref href=\"SuperOffice.Data.SoCommand.Transaction\" data-throw-if-not-resolved=\"false\"></xref> property is an internally-generated\ndefault transaction. If false, then the transaction was created by the calling code and is\nthat code&apos;s responsibility.\n"
+  summary: >-
+    Flag indicating whether the <xref href="SuperOffice.Data.SoCommand.Transaction" data-throw-if-not-resolved="false"></xref> property is an internally-generated
+
+    default transaction. If false, then the transaction was created by the calling code and is
+
+    that code's responsibility.
+  example: []
   syntax:
     content: public bool IsDefaultTransaction { get; }
     parameters: []
@@ -524,12 +675,6 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property IsDefaultTransaction As Boolean
   overload: SuperOffice.Data.SoCommand.IsDefaultTransaction*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.Data.SoCommand.Transaction
   commentId: P:SuperOffice.Data.SoCommand.Transaction
   id: Transaction
@@ -541,13 +686,11 @@ items:
   nameWithType: SoCommand.Transaction
   fullName: SuperOffice.Data.SoCommand.Transaction
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nTransaction that this command will be a member of\n"
+  summary: Transaction that this command will be a member of
+  example: []
   syntax:
     content: public SoTransaction Transaction { get; set; }
     parameters: []
@@ -555,12 +698,6 @@ items:
       type: SuperOffice.Data.SoTransaction
     content.vb: Public Property Transaction As SoTransaction
   overload: SuperOffice.Data.SoCommand.Transaction*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SoCommand.UpdatedRowSource
   commentId: P:SuperOffice.Data.SoCommand.UpdatedRowSource
   id: UpdatedRowSource
@@ -572,12 +709,10 @@ items:
   nameWithType: SoCommand.UpdatedRowSource
   fullName: SuperOffice.Data.SoCommand.UpdatedRowSource
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
+  example: []
   syntax:
     content: public UpdateRowSource UpdatedRowSource { get; set; }
     parameters: []
@@ -585,12 +720,8 @@ items:
       type: System.Data.UpdateRowSource
     content.vb: Public Property UpdatedRowSource As UpdateRowSource
   overload: SuperOffice.Data.SoCommand.UpdatedRowSource*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  implements:
+  - System.Data.IDbCommand.UpdatedRowSource
 - uid: SuperOffice.Data.SoCommand.Sentries
   commentId: P:SuperOffice.Data.SoCommand.Sentries
   id: Sentries
@@ -602,13 +733,11 @@ items:
   nameWithType: SoCommand.Sentries
   fullName: SuperOffice.Data.SoCommand.Sentries
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nCollection of Sentries relevant to the execution of this command\n"
+  summary: Collection of Sentries relevant to the execution of this command
+  example: []
   syntax:
     content: public SentryCollection Sentries { get; }
     parameters: []
@@ -616,12 +745,6 @@ items:
       type: SuperOffice.CRM.Security.SentryCollection
     content.vb: Public ReadOnly Property Sentries As SentryCollection
   overload: SuperOffice.Data.SoCommand.Sentries*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.Data.SoCommand.IsAutoSentry
   commentId: P:SuperOffice.Data.SoCommand.IsAutoSentry
   id: IsAutoSentry
@@ -633,13 +756,11 @@ items:
   nameWithType: SoCommand.IsAutoSentry
   fullName: SuperOffice.Data.SoCommand.IsAutoSentry
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nDoes this command use the AutoSentry system, where sentries are automatically created based on an analysis of the command\n"
+  summary: Does this command use the AutoSentry system, where sentries are automatically created based on an analysis of the command
+  example: []
   syntax:
     content: public bool IsAutoSentry { get; set; }
     parameters: []
@@ -647,114 +768,400 @@ items:
       type: System.Boolean
     content.vb: Public Property IsAutoSentry As Boolean
   overload: SuperOffice.Data.SoCommand.IsAutoSentry*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System.Data.IDbCommand
-  commentId: '!:System.Data.IDbCommand'
+  commentId: T:System.Data.IDbCommand
+  parent: System.Data
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.idbcommand
   name: IDbCommand
   nameWithType: IDbCommand
   fullName: System.Data.IDbCommand
 - uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.SoCommand.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<SoCommand, To>()
-  nameWithType: EnumUtil.MapEnums<SoCommand, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.SoCommand, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of SoCommand, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SoCommand, To)()
-  name.vb: MapEnums(Of SoCommand, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<SoCommand, To>(SoCommand)
+  nameWithType: EnumUtil.MapEnums<SoCommand, To>(SoCommand)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SoCommand, To>(SuperOffice.Data.SoCommand)
+  nameWithType.vb: EnumUtil.MapEnums(Of SoCommand, To)(SoCommand)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SoCommand, To)(SuperOffice.Data.SoCommand)
+  name.vb: MapEnums(Of SoCommand, To)(SoCommand)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<SoCommand, To>
-    nameWithType: EnumUtil.MapEnums<SoCommand, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.SoCommand, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SoCommand)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.SoCommand
+    name: SoCommand
+    isExternal: true
+    href: SuperOffice.Data.SoCommand.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.SoCommand
+    name: SoCommand
+    isExternal: true
+    href: SuperOffice.Data.SoCommand.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of SoCommand, To)
-    nameWithType: EnumUtil.MapEnums(Of SoCommand, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SoCommand, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SoCommand)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SoCommand
+    name: SoCommand
+    isExternal: true
+    href: SuperOffice.Data.SoCommand.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.SoCommand
+    name: SoCommand
+    isExternal: true
+    href: SuperOffice.Data.SoCommand.html
+  - name: )
 - uid: SuperOffice.Data.SoCommand.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<SoCommand, To>()
-  nameWithType: Converters.MapEnums<SoCommand, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SoCommand, To>()
-  nameWithType.vb: Converters.MapEnums(Of SoCommand, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SoCommand, To)()
-  name.vb: MapEnums(Of SoCommand, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<SoCommand, To>(SoCommand)
+  nameWithType: Converters.MapEnums<SoCommand, To>(SoCommand)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SoCommand, To>(SuperOffice.Data.SoCommand)
+  nameWithType.vb: Converters.MapEnums(Of SoCommand, To)(SoCommand)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SoCommand, To)(SuperOffice.Data.SoCommand)
+  name.vb: MapEnums(Of SoCommand, To)(SoCommand)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<SoCommand, To>
-    nameWithType: Converters.MapEnums<SoCommand, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SoCommand, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SoCommand)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.SoCommand
+    name: SoCommand
+    isExternal: true
+    href: SuperOffice.Data.SoCommand.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.SoCommand
+    name: SoCommand
+    isExternal: true
+    href: SuperOffice.Data.SoCommand.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of SoCommand, To)
-    nameWithType: Converters.MapEnums(Of SoCommand, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SoCommand, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SoCommand)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SoCommand
+    name: SoCommand
+    isExternal: true
+    href: SuperOffice.Data.SoCommand.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.SoCommand
+    name: SoCommand
+    isExternal: true
+    href: SuperOffice.Data.SoCommand.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
+- uid: System.Data
+  commentId: N:System.Data
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Data
+  nameWithType: System.Data
+  fullName: System.Data
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Data
+    name: Data
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Data
+    name: Data
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -763,43 +1170,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -808,55 +1217,91 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Data.SoCommand.LogQueryReader*
   commentId: Overload:SuperOffice.Data.SoCommand.LogQueryReader
   isExternal: true
+  href: SuperOffice.Data.SoCommand.html#SuperOffice_Data_SoCommand_LogQueryReader_System_TimeSpan_System_Int32_System_String_
   name: LogQueryReader
   nameWithType: SoCommand.LogQueryReader
   fullName: SuperOffice.Data.SoCommand.LogQueryReader
 - uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
   name: TimeSpan
   nameWithType: TimeSpan
   fullName: System.TimeSpan
@@ -864,52 +1309,416 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.Data.SoCommand.LogQueryScalar*
   commentId: Overload:SuperOffice.Data.SoCommand.LogQueryScalar
   isExternal: true
+  href: SuperOffice.Data.SoCommand.html#SuperOffice_Data_SoCommand_LogQueryScalar_System_TimeSpan_System_Int32_System_String_
   name: LogQueryScalar
   nameWithType: SoCommand.LogQueryScalar
   fullName: SuperOffice.Data.SoCommand.LogQueryScalar
 - uid: SuperOffice.Data.SoCommand.LogNonQuery*
   commentId: Overload:SuperOffice.Data.SoCommand.LogNonQuery
   isExternal: true
+  href: SuperOffice.Data.SoCommand.html#SuperOffice_Data_SoCommand_LogNonQuery_System_TimeSpan_System_Int32_System_String_
   name: LogNonQuery
   nameWithType: SoCommand.LogNonQuery
   fullName: SuperOffice.Data.SoCommand.LogNonQuery
 - uid: SuperOffice.Data.SoCommand.Dispose*
   commentId: Overload:SuperOffice.Data.SoCommand.Dispose
   isExternal: true
+  href: SuperOffice.Data.SoCommand.html#SuperOffice_Data_SoCommand_Dispose
   name: Dispose
   nameWithType: SoCommand.Dispose
   fullName: SuperOffice.Data.SoCommand.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.SoCommand.Cancel*
   commentId: Overload:SuperOffice.Data.SoCommand.Cancel
   isExternal: true
+  href: SuperOffice.Data.SoCommand.html#SuperOffice_Data_SoCommand_Cancel
   name: Cancel
   nameWithType: SoCommand.Cancel
   fullName: SuperOffice.Data.SoCommand.Cancel
-- uid: SuperOffice.Data.SoCommand.ExecuteNonQuery*
-  commentId: Overload:SuperOffice.Data.SoCommand.ExecuteNonQuery
+- uid: System.Data.IDbCommand.Cancel
+  commentId: M:System.Data.IDbCommand.Cancel
+  parent: System.Data.IDbCommand
   isExternal: true
-  name: ExecuteNonQuery
-  nameWithType: SoCommand.ExecuteNonQuery
-  fullName: SuperOffice.Data.SoCommand.ExecuteNonQuery
+  href: https://learn.microsoft.com/dotnet/api/system.data.idbcommand.cancel
+  name: Cancel()
+  nameWithType: IDbCommand.Cancel()
+  fullName: System.Data.IDbCommand.Cancel()
+  spec.csharp:
+  - uid: System.Data.IDbCommand.Cancel
+    name: Cancel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.idbcommand.cancel
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.IDbCommand.Cancel
+    name: Cancel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.idbcommand.cancel
+  - name: (
+  - name: )
 - uid: System.InvalidOperationException
   commentId: T:System.InvalidOperationException
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.invalidoperationexception
+  name: InvalidOperationException
+  nameWithType: InvalidOperationException
+  fullName: System.InvalidOperationException
+- uid: SuperOffice.Data.SoCommand.ExecuteNonQueryAsync*
+  commentId: Overload:SuperOffice.Data.SoCommand.ExecuteNonQueryAsync
+  isExternal: true
+  href: SuperOffice.Data.SoCommand.html#SuperOffice_Data_SoCommand_ExecuteNonQueryAsync_System_Threading_CancellationToken_
+  name: ExecuteNonQueryAsync
+  nameWithType: SoCommand.ExecuteNonQueryAsync
+  fullName: SuperOffice.Data.SoCommand.ExecuteNonQueryAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: System.Data.IDbCommand.CommandText
+  commentId: P:System.Data.IDbCommand.CommandText
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.idbcommand.commandtext
+  name: CommandText
+  nameWithType: IDbCommand.CommandText
+  fullName: System.Data.IDbCommand.CommandText
+- uid: SuperOffice.Data.SoCommand.Connection
+  commentId: P:SuperOffice.Data.SoCommand.Connection
+  isExternal: true
+  href: SuperOffice.Data.SoCommand.html#SuperOffice_Data_SoCommand_Connection
+  name: Connection
+  nameWithType: SoCommand.Connection
+  fullName: SuperOffice.Data.SoCommand.Connection
+- uid: SuperOffice.Data.SoCommand.ExecuteReaderAsync*
+  commentId: Overload:SuperOffice.Data.SoCommand.ExecuteReaderAsync
+  isExternal: true
+  href: SuperOffice.Data.SoCommand.html#SuperOffice_Data_SoCommand_ExecuteReaderAsync_System_Threading_CancellationToken_
+  name: ExecuteReaderAsync
+  nameWithType: SoCommand.ExecuteReaderAsync
+  fullName: SuperOffice.Data.SoCommand.ExecuteReaderAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SoDataReader}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.Data.SoDataReader}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<SoDataReader>
+  nameWithType: Task<SoDataReader>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SoDataReader>
+  nameWithType.vb: Task(Of SoDataReader)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SoDataReader)
+  name.vb: Task(Of SoDataReader)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    isExternal: true
+    href: SuperOffice.Data.SoDataReader.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    isExternal: true
+    href: SuperOffice.Data.SoDataReader.html
+  - name: )
+- uid: System.Data.CommandBehavior
+  commentId: T:System.Data.CommandBehavior
+  parent: System.Data
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.commandbehavior
+  name: CommandBehavior
+  nameWithType: CommandBehavior
+  fullName: System.Data.CommandBehavior
+- uid: SuperOffice.Data.SoCommand.ExecuteScalarAsync*
+  commentId: Overload:SuperOffice.Data.SoCommand.ExecuteScalarAsync
+  isExternal: true
+  href: SuperOffice.Data.SoCommand.html#SuperOffice_Data_SoCommand_ExecuteScalarAsync_System_Threading_CancellationToken_
+  name: ExecuteScalarAsync
+  nameWithType: SoCommand.ExecuteScalarAsync
+  fullName: SuperOffice.Data.SoCommand.ExecuteScalarAsync
+- uid: System.Threading.Tasks.Task{System.Object}
+  commentId: T:System.Threading.Tasks.Task{System.Object}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<object>
+  nameWithType: Task<object>
+  fullName: System.Threading.Tasks.Task<object>
+  nameWithType.vb: Task(Of Object)
+  fullName.vb: System.Threading.Tasks.Task(Of Object)
+  name.vb: Task(Of Object)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Data.OleDb.OleDbCommand.Connection
+  commentId: P:System.Data.OleDb.OleDbCommand.Connection
+  isExternal: true
+- uid: SuperOffice.Data.SoCommand.Prepare*
+  commentId: Overload:SuperOffice.Data.SoCommand.Prepare
+  isExternal: true
+  href: SuperOffice.Data.SoCommand.html#SuperOffice_Data_SoCommand_Prepare
+  name: Prepare
+  nameWithType: SoCommand.Prepare
+  fullName: SuperOffice.Data.SoCommand.Prepare
+- uid: System.Data.IDbCommand.Prepare
+  commentId: M:System.Data.IDbCommand.Prepare
+  parent: System.Data.IDbCommand
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.idbcommand.prepare
+  name: Prepare()
+  nameWithType: IDbCommand.Prepare()
+  fullName: System.Data.IDbCommand.Prepare()
+  spec.csharp:
+  - uid: System.Data.IDbCommand.Prepare
+    name: Prepare
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.idbcommand.prepare
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.IDbCommand.Prepare
+    name: Prepare
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.idbcommand.prepare
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.SoCommand.ExecuteNonQuery*
+  commentId: Overload:SuperOffice.Data.SoCommand.ExecuteNonQuery
+  isExternal: true
+  href: SuperOffice.Data.SoCommand.html#SuperOffice_Data_SoCommand_ExecuteNonQuery
+  name: ExecuteNonQuery
+  nameWithType: SoCommand.ExecuteNonQuery
+  fullName: SuperOffice.Data.SoCommand.ExecuteNonQuery
+- uid: System.Data.IDbCommand.ExecuteNonQuery
+  commentId: M:System.Data.IDbCommand.ExecuteNonQuery
+  parent: System.Data.IDbCommand
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.idbcommand.executenonquery
+  name: ExecuteNonQuery()
+  nameWithType: IDbCommand.ExecuteNonQuery()
+  fullName: System.Data.IDbCommand.ExecuteNonQuery()
+  spec.csharp:
+  - uid: System.Data.IDbCommand.ExecuteNonQuery
+    name: ExecuteNonQuery
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.idbcommand.executenonquery
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.IDbCommand.ExecuteNonQuery
+    name: ExecuteNonQuery
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.idbcommand.executenonquery
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.SoCommand.ExecuteReader*
   commentId: Overload:SuperOffice.Data.SoCommand.ExecuteReader
   isExternal: true
+  href: SuperOffice.Data.SoCommand.html#SuperOffice_Data_SoCommand_ExecuteReader
   name: ExecuteReader
   nameWithType: SoCommand.ExecuteReader
   fullName: SuperOffice.Data.SoCommand.ExecuteReader
@@ -917,29 +1726,43 @@ references:
   commentId: T:SuperOffice.Data.SoDataReader
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.SoDataReader.html
   name: SoDataReader
   nameWithType: SoDataReader
   fullName: SuperOffice.Data.SoDataReader
-- uid: System.Data.CommandBehavior
-  isExternal: true
-  name: CommandBehavior
-  nameWithType: CommandBehavior
-  fullName: System.Data.CommandBehavior
 - uid: SuperOffice.Data.SoCommand.ExecuteScalar*
   commentId: Overload:SuperOffice.Data.SoCommand.ExecuteScalar
   isExternal: true
+  href: SuperOffice.Data.SoCommand.html#SuperOffice_Data_SoCommand_ExecuteScalar
   name: ExecuteScalar
   nameWithType: SoCommand.ExecuteScalar
   fullName: SuperOffice.Data.SoCommand.ExecuteScalar
-- uid: SuperOffice.Data.SoCommand.Prepare*
-  commentId: Overload:SuperOffice.Data.SoCommand.Prepare
+- uid: System.Data.IDbCommand.ExecuteScalar
+  commentId: M:System.Data.IDbCommand.ExecuteScalar
+  parent: System.Data.IDbCommand
   isExternal: true
-  name: Prepare
-  nameWithType: SoCommand.Prepare
-  fullName: SuperOffice.Data.SoCommand.Prepare
+  href: https://learn.microsoft.com/dotnet/api/system.data.idbcommand.executescalar
+  name: ExecuteScalar()
+  nameWithType: IDbCommand.ExecuteScalar()
+  fullName: System.Data.IDbCommand.ExecuteScalar()
+  spec.csharp:
+  - uid: System.Data.IDbCommand.ExecuteScalar
+    name: ExecuteScalar
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.idbcommand.executescalar
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.IDbCommand.ExecuteScalar
+    name: ExecuteScalar
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.idbcommand.executescalar
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.SoCommand.SqlCommand*
   commentId: Overload:SuperOffice.Data.SoCommand.SqlCommand
   isExternal: true
+  href: SuperOffice.Data.SoCommand.html#SuperOffice_Data_SoCommand_SqlCommand
   name: SqlCommand
   nameWithType: SoCommand.SqlCommand
   fullName: SuperOffice.Data.SoCommand.SqlCommand
@@ -947,18 +1770,51 @@ references:
   commentId: T:SuperOffice.Data.SQL.SqlCommand
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.SqlCommand.html
   name: SqlCommand
   nameWithType: SqlCommand
   fullName: SuperOffice.Data.SQL.SqlCommand
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
 - uid: SuperOffice.Data.SoCommand.Connection*
   commentId: Overload:SuperOffice.Data.SoCommand.Connection
   isExternal: true
+  href: SuperOffice.Data.SoCommand.html#SuperOffice_Data_SoCommand_Connection
   name: Connection
   nameWithType: SoCommand.Connection
   fullName: SuperOffice.Data.SoCommand.Connection
@@ -966,12 +1822,21 @@ references:
   commentId: T:SuperOffice.Data.SoConnection
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.SoConnection.html
   name: SoConnection
   nameWithType: SoConnection
   fullName: SuperOffice.Data.SoConnection
+- uid: SuperOffice.Data.SoCommand.Transaction
+  commentId: P:SuperOffice.Data.SoCommand.Transaction
+  isExternal: true
+  href: SuperOffice.Data.SoCommand.html#SuperOffice_Data_SoCommand_Transaction
+  name: Transaction
+  nameWithType: SoCommand.Transaction
+  fullName: SuperOffice.Data.SoCommand.Transaction
 - uid: SuperOffice.Data.SoCommand.IsDefaultTransaction*
   commentId: Overload:SuperOffice.Data.SoCommand.IsDefaultTransaction
   isExternal: true
+  href: SuperOffice.Data.SoCommand.html#SuperOffice_Data_SoCommand_IsDefaultTransaction
   name: IsDefaultTransaction
   nameWithType: SoCommand.IsDefaultTransaction
   fullName: SuperOffice.Data.SoCommand.IsDefaultTransaction
@@ -979,12 +1844,17 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.Data.SoCommand.Transaction*
   commentId: Overload:SuperOffice.Data.SoCommand.Transaction
   isExternal: true
+  href: SuperOffice.Data.SoCommand.html#SuperOffice_Data_SoCommand_Transaction
   name: Transaction
   nameWithType: SoCommand.Transaction
   fullName: SuperOffice.Data.SoCommand.Transaction
@@ -992,24 +1862,37 @@ references:
   commentId: T:SuperOffice.Data.SoTransaction
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.SoTransaction.html
   name: SoTransaction
   nameWithType: SoTransaction
   fullName: SuperOffice.Data.SoTransaction
 - uid: SuperOffice.Data.SoCommand.UpdatedRowSource*
   commentId: Overload:SuperOffice.Data.SoCommand.UpdatedRowSource
   isExternal: true
+  href: SuperOffice.Data.SoCommand.html#SuperOffice_Data_SoCommand_UpdatedRowSource
   name: UpdatedRowSource
   nameWithType: SoCommand.UpdatedRowSource
   fullName: SuperOffice.Data.SoCommand.UpdatedRowSource
-- uid: System.Data.UpdateRowSource
-  commentId: '!:System.Data.UpdateRowSource'
+- uid: System.Data.IDbCommand.UpdatedRowSource
+  commentId: P:System.Data.IDbCommand.UpdatedRowSource
+  parent: System.Data.IDbCommand
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.idbcommand.updatedrowsource
+  name: UpdatedRowSource
+  nameWithType: IDbCommand.UpdatedRowSource
+  fullName: System.Data.IDbCommand.UpdatedRowSource
+- uid: System.Data.UpdateRowSource
+  commentId: T:System.Data.UpdateRowSource
+  parent: System.Data
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.updaterowsource
   name: UpdateRowSource
   nameWithType: UpdateRowSource
   fullName: System.Data.UpdateRowSource
 - uid: SuperOffice.Data.SoCommand.Sentries*
   commentId: Overload:SuperOffice.Data.SoCommand.Sentries
   isExternal: true
+  href: SuperOffice.Data.SoCommand.html#SuperOffice_Data_SoCommand_Sentries
   name: Sentries
   nameWithType: SoCommand.Sentries
   fullName: SuperOffice.Data.SoCommand.Sentries
@@ -1017,18 +1900,51 @@ references:
   commentId: T:SuperOffice.CRM.Security.SentryCollection
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.SentryCollection.html
   name: SentryCollection
   nameWithType: SentryCollection
   fullName: SuperOffice.CRM.Security.SentryCollection
 - uid: SuperOffice.CRM.Security
   commentId: N:SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Security
   nameWithType: SuperOffice.CRM.Security
   fullName: SuperOffice.CRM.Security
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.CRM.Security.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.CRM.Security.html
 - uid: SuperOffice.Data.SoCommand.IsAutoSentry*
   commentId: Overload:SuperOffice.Data.SoCommand.IsAutoSentry
   isExternal: true
+  href: SuperOffice.Data.SoCommand.html#SuperOffice_Data_SoCommand_IsAutoSentry
   name: IsAutoSentry
   nameWithType: SoCommand.IsAutoSentry
   fullName: SuperOffice.Data.SoCommand.IsAutoSentry

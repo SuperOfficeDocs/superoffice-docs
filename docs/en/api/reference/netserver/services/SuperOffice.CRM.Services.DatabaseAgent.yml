@@ -5,9 +5,10 @@ items:
   id: DatabaseAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.DatabaseAgent.#ctor
-  - SuperOffice.CRM.Services.DatabaseAgent.GetStepsFromNetServerCode
-  - SuperOffice.CRM.Services.DatabaseAgent.GetStepsInDatabase
+  - SuperOffice.CRM.Services.DatabaseAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDictionaryStepInformationImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  - SuperOffice.CRM.Services.DatabaseAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDictionaryStepInformationImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.DatabaseAgent.GetStepsFromNetServerCodeAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.DatabaseAgent.GetStepsInDatabaseAsync(System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -15,184 +16,200 @@ items:
   nameWithType: DatabaseAgent
   fullName: SuperOffice.CRM.Services.DatabaseAgent
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nFacade for the Database Agent\nDatabase schema queries and changes\n"
-  example:
-  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (DatabaseAgent agent = new DatabaseAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  summary: >-
+    Proxy class for the Database Agent
+
+    Used when communicating remote using WebServices.
+
+    Avoid using directly. Use the AgentFactory to create the proxy instead.
+  example: []
   syntax:
-    content: 'public class DatabaseAgent : AgentBase<IDatabaseAgent>, IDisposable, IDatabaseAgent, IAgent'
-    content.vb: >-
-      Public Class DatabaseAgent
-          Inherits AgentBase(Of IDatabaseAgent)
-          Implements IDisposable, IDatabaseAgent, IAgent
+    content: 'public class DatabaseAgent : IDatabaseAgent, IAgent'
+    content.vb: Public Class DatabaseAgent Implements IDatabaseAgent, IAgent
   inheritance:
   - System.Object
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseAgent}
   implements:
-  - System.IDisposable
   - SuperOffice.CRM.Services.IDatabaseAgent
   - SuperOffice.CRM.Services.IAgent
   inheritedMembers:
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseAgent}.Dispose
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseAgent}.InnerAgent
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.CRM.Services.DatabaseAgent.GetStepsInDatabase
-  commentId: M:SuperOffice.CRM.Services.DatabaseAgent.GetStepsInDatabase
-  id: GetStepsInDatabase
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Services.DatabaseAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDictionaryStepInformationImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  commentId: M:SuperOffice.CRM.Services.DatabaseAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDictionaryStepInformationImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDictionaryStepInformationImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
   parent: SuperOffice.CRM.Services.DatabaseAgent
   langs:
   - csharp
   - vb
-  name: GetStepsInDatabase()
-  nameWithType: DatabaseAgent.GetStepsInDatabase()
-  fullName: SuperOffice.CRM.Services.DatabaseAgent.GetStepsInDatabase()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nGet information about the dictionary steps that are in the currently-loggedon database\n"
-  syntax:
-    content: public DictionaryStepInformation[] GetStepsInDatabase()
-    return:
-      type: SuperOffice.CRM.Services.DictionaryStepInformation[]
-      description: Array of dictionary steps in the database, listing only the highest number for each step
-    content.vb: Public Function GetStepsInDatabase As DictionaryStepInformation()
-  overload: SuperOffice.CRM.Services.DatabaseAgent.GetStepsInDatabase*
-  implements:
-  - SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabase
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.DatabaseAgent.GetStepsFromNetServerCode
-  commentId: M:SuperOffice.CRM.Services.DatabaseAgent.GetStepsFromNetServerCode
-  id: GetStepsFromNetServerCode
-  parent: SuperOffice.CRM.Services.DatabaseAgent
-  langs:
-  - csharp
-  - vb
-  name: GetStepsFromNetServerCode()
-  nameWithType: DatabaseAgent.GetStepsFromNetServerCode()
-  fullName: SuperOffice.CRM.Services.DatabaseAgent.GetStepsFromNetServerCode()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nGet information about the dictionary steps that NetServer was generated for\n"
-  syntax:
-    content: public DictionaryStepInformation[] GetStepsFromNetServerCode()
-    return:
-      type: SuperOffice.CRM.Services.DictionaryStepInformation[]
-      description: Array of dictionary steps used when NetServer was generated, listing only the highest number for each step
-    content.vb: Public Function GetStepsFromNetServerCode As DictionaryStepInformation()
-  overload: SuperOffice.CRM.Services.DatabaseAgent.GetStepsFromNetServerCode*
-  implements:
-  - SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCode
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.DatabaseAgent.#ctor
-  commentId: M:SuperOffice.CRM.Services.DatabaseAgent.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.Services.DatabaseAgent
-  langs:
-  - csharp
-  - vb
-  name: DatabaseAgent()
-  nameWithType: DatabaseAgent.DatabaseAgent()
-  fullName: SuperOffice.CRM.Services.DatabaseAgent.DatabaseAgent()
+  name: DatabaseAgent(IDictionaryStepInformationImplementation, ISoRequestItemsAccessor)
+  nameWithType: DatabaseAgent.DatabaseAgent(IDictionaryStepInformationImplementation, ISoRequestItemsAccessor)
+  fullName: SuperOffice.CRM.Services.DatabaseAgent.DatabaseAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDictionaryStepInformationImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public DatabaseAgent()
-    content.vb: Public Sub New
+    content: public DatabaseAgent(IDictionaryStepInformationImplementation dictionaryStepInformationImplementation, ISoRequestItemsAccessor accessor)
+    parameters:
+    - id: dictionaryStepInformationImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IDictionaryStepInformationImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    content.vb: Public Sub New(dictionaryStepInformationImplementation As IDictionaryStepInformationImplementation, accessor As ISoRequestItemsAccessor)
   overload: SuperOffice.CRM.Services.DatabaseAgent.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: DatabaseAgent.New(IDictionaryStepInformationImplementation, ISoRequestItemsAccessor)
+  fullName.vb: SuperOffice.CRM.Services.DatabaseAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDictionaryStepInformationImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name.vb: New(IDictionaryStepInformationImplementation, ISoRequestItemsAccessor)
+- uid: SuperOffice.CRM.Services.DatabaseAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDictionaryStepInformationImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.DatabaseAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDictionaryStepInformationImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDictionaryStepInformationImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+  parent: SuperOffice.CRM.Services.DatabaseAgent
+  langs:
+  - csharp
+  - vb
+  name: DatabaseAgent(IDictionaryStepInformationImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: DatabaseAgent.DatabaseAgent(IDictionaryStepInformationImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.DatabaseAgent.DatabaseAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDictionaryStepInformationImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public DatabaseAgent(IDictionaryStepInformationImplementation dictionaryStepInformationImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    parameters:
+    - id: dictionaryStepInformationImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IDictionaryStepInformationImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    - id: debugUser
+      type: SuperOffice.Data.IDebugUser
+    - id: serviceCallsRepository
+      type: SuperOffice.Diagnostics.IServiceCallsRepository
+    content.vb: Public Sub New(dictionaryStepInformationImplementation As IDictionaryStepInformationImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+  overload: SuperOffice.CRM.Services.DatabaseAgent.#ctor*
+  nameWithType.vb: DatabaseAgent.New(IDictionaryStepInformationImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.DatabaseAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDictionaryStepInformationImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(IDictionaryStepInformationImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+- uid: SuperOffice.CRM.Services.DatabaseAgent.GetStepsInDatabaseAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.DatabaseAgent.GetStepsInDatabaseAsync(System.Threading.CancellationToken)
+  id: GetStepsInDatabaseAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.DatabaseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetStepsInDatabaseAsync(CancellationToken)
+  nameWithType: DatabaseAgent.GetStepsInDatabaseAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.DatabaseAgent.GetStepsInDatabaseAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Get information about the dictionary steps that are in the currently-loggedon database
+  example: []
+  syntax:
+    content: public Task<DictionaryStepInformation[]> GetStepsInDatabaseAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DictionaryStepInformation[]}
+      description: Array of dictionary steps in the database, listing only the highest number for each step
+    content.vb: Public Function GetStepsInDatabaseAsync(cancellationToken As CancellationToken = Nothing) As Task(Of DictionaryStepInformation())
+  overload: SuperOffice.CRM.Services.DatabaseAgent.GetStepsInDatabaseAsync*
+  implements:
+  - SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabaseAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.DatabaseAgent.GetStepsFromNetServerCodeAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.DatabaseAgent.GetStepsFromNetServerCodeAsync(System.Threading.CancellationToken)
+  id: GetStepsFromNetServerCodeAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.DatabaseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetStepsFromNetServerCodeAsync(CancellationToken)
+  nameWithType: DatabaseAgent.GetStepsFromNetServerCodeAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.DatabaseAgent.GetStepsFromNetServerCodeAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Get information about the dictionary steps that NetServer was generated for
+  example: []
+  syntax:
+    content: public Task<DictionaryStepInformation[]> GetStepsFromNetServerCodeAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DictionaryStepInformation[]}
+      description: Array of dictionary steps used when NetServer was generated, listing only the highest number for each step
+    content.vb: Public Function GetStepsFromNetServerCodeAsync(cancellationToken As CancellationToken = Nothing) As Task(Of DictionaryStepInformation())
+  overload: SuperOffice.CRM.Services.DatabaseAgent.GetStepsFromNetServerCodeAsync*
+  implements:
+  - SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCodeAsync(System.Threading.CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseAgent}
-  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseAgent}
-  parent: SuperOffice.CRM.Services
-  definition: SuperOffice.CRM.Services.AgentBase`1
-  name: AgentBase<IDatabaseAgent>
-  nameWithType: AgentBase<IDatabaseAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDatabaseAgent>
-  nameWithType.vb: AgentBase(Of IDatabaseAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IDatabaseAgent)
-  name.vb: AgentBase(Of IDatabaseAgent)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.Services.IDatabaseAgent
-    name: IDatabaseAgent
-    nameWithType: IDatabaseAgent
-    fullName: SuperOffice.CRM.Services.IDatabaseAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.CRM.Services.IDatabaseAgent
-    name: IDatabaseAgent
-    nameWithType: IDatabaseAgent
-    fullName: SuperOffice.CRM.Services.IDatabaseAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IDisposable
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Services.IDatabaseAgent
   commentId: T:SuperOffice.CRM.Services.IDatabaseAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IDatabaseAgent.html
   name: IDatabaseAgent
   nameWithType: IDatabaseAgent
   fullName: SuperOffice.CRM.Services.IDatabaseAgent
@@ -200,233 +217,542 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IAgent.html
   name: IAgent
   nameWithType: IAgent
   fullName: SuperOffice.CRM.Services.IAgent
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseAgent}.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseAgent}.Dispose
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  name: Dispose()
-  nameWithType: AgentBase<IDatabaseAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDatabaseAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of IDatabaseAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IDatabaseAgent).Dispose()
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<IDatabaseAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDatabaseAgent>.Dispose
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of IDatabaseAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IDatabaseAgent).Dispose
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseAgent}.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseAgent}.InnerAgent
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  name: InnerAgent
-  nameWithType: AgentBase<IDatabaseAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDatabaseAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of IDatabaseAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IDatabaseAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.AgentBase`1
-  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
   isExternal: true
-  name: AgentBase<TAgent>
-  nameWithType: AgentBase<TAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
-  nameWithType.vb: AgentBase(Of TAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
-  name.vb: AgentBase(Of TAgent)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: Dispose()
-  nameWithType: AgentBase<TAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of TAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<TAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of TAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: InnerAgent
-  nameWithType: AgentBase<TAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.DatabaseAgent.GetStepsInDatabase*
-  commentId: Overload:SuperOffice.CRM.Services.DatabaseAgent.GetStepsInDatabase
-  isExternal: true
-  name: GetStepsInDatabase
-  nameWithType: DatabaseAgent.GetStepsInDatabase
-  fullName: SuperOffice.CRM.Services.DatabaseAgent.GetStepsInDatabase
-- uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabase
-  commentId: M:SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabase
-  parent: SuperOffice.CRM.Services.IDatabaseAgent
-  isExternal: true
-  name: GetStepsInDatabase()
-  nameWithType: IDatabaseAgent.GetStepsInDatabase()
-  fullName: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabase()
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabase
-    name: GetStepsInDatabase
-    nameWithType: IDatabaseAgent.GetStepsInDatabase
-    fullName: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabase
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabase
-    name: GetStepsInDatabase
-    nameWithType: IDatabaseAgent.GetStepsInDatabase
-    fullName: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabase
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.DictionaryStepInformation[]
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
   isExternal: true
-  name: DictionaryStepInformation[]
-  nameWithType: DictionaryStepInformation[]
-  fullName: SuperOffice.CRM.Services.DictionaryStepInformation[]
-  nameWithType.vb: DictionaryStepInformation()
-  fullName.vb: SuperOffice.CRM.Services.DictionaryStepInformation()
-  name.vb: DictionaryStepInformation()
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.DictionaryStepInformation
-    name: DictionaryStepInformation
-    nameWithType: DictionaryStepInformation
-    fullName: SuperOffice.CRM.Services.DictionaryStepInformation
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.DictionaryStepInformation
-    name: DictionaryStepInformation
-    nameWithType: DictionaryStepInformation
-    fullName: SuperOffice.CRM.Services.DictionaryStepInformation
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.DatabaseAgent.GetStepsFromNetServerCode*
-  commentId: Overload:SuperOffice.CRM.Services.DatabaseAgent.GetStepsFromNetServerCode
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
   isExternal: true
-  name: GetStepsFromNetServerCode
-  nameWithType: DatabaseAgent.GetStepsFromNetServerCode
-  fullName: SuperOffice.CRM.Services.DatabaseAgent.GetStepsFromNetServerCode
-- uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCode
-  commentId: M:SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCode
-  parent: SuperOffice.CRM.Services.IDatabaseAgent
-  isExternal: true
-  name: GetStepsFromNetServerCode()
-  nameWithType: IDatabaseAgent.GetStepsFromNetServerCode()
-  fullName: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCode()
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCode
-    name: GetStepsFromNetServerCode
-    nameWithType: IDatabaseAgent.GetStepsFromNetServerCode
-    fullName: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCode
+  - uid: System.Object.GetType
+    name: GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCode
-    name: GetStepsFromNetServerCode
-    nameWithType: IDatabaseAgent.GetStepsFromNetServerCode
-    fullName: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCode
+  - uid: System.Object.GetType
+    name: GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.DatabaseAgent.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.DatabaseAgent.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.DatabaseAgent.html#SuperOffice_CRM_Services_DatabaseAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_IDictionaryStepInformationImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
   name: DatabaseAgent
   nameWithType: DatabaseAgent.DatabaseAgent
   fullName: SuperOffice.CRM.Services.DatabaseAgent.DatabaseAgent
+  nameWithType.vb: DatabaseAgent.New
+  fullName.vb: SuperOffice.CRM.Services.DatabaseAgent.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.IDictionaryStepInformationImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.IDictionaryStepInformationImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.IDictionaryStepInformationImplementation.html
+  name: IDictionaryStepInformationImplementation
+  nameWithType: IDictionaryStepInformationImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.IDictionaryStepInformationImplementation
+- uid: SuperOffice.Factory.ISoRequestItemsAccessor
+  isExternal: true
+  name: ISoRequestItemsAccessor
+  nameWithType: ISoRequestItemsAccessor
+  fullName: SuperOffice.Factory.ISoRequestItemsAccessor
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  commentId: N:SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  nameWithType: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+- uid: SuperOffice.Data.IDebugUser
+  isExternal: true
+  name: IDebugUser
+  nameWithType: IDebugUser
+  fullName: SuperOffice.Data.IDebugUser
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository
+  isExternal: true
+  name: IServiceCallsRepository
+  nameWithType: IServiceCallsRepository
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.CRM.Services.DatabaseAgent.GetStepsInDatabaseAsync*
+  commentId: Overload:SuperOffice.CRM.Services.DatabaseAgent.GetStepsInDatabaseAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.DatabaseAgent.html#SuperOffice_CRM_Services_DatabaseAgent_GetStepsInDatabaseAsync_System_Threading_CancellationToken_
+  name: GetStepsInDatabaseAsync
+  nameWithType: DatabaseAgent.GetStepsInDatabaseAsync
+  fullName: SuperOffice.CRM.Services.DatabaseAgent.GetStepsInDatabaseAsync
+- uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabaseAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabaseAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IDatabaseAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetStepsInDatabaseAsync(CancellationToken)
+  nameWithType: IDatabaseAgent.GetStepsInDatabaseAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabaseAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabaseAsync(System.Threading.CancellationToken)
+    name: GetStepsInDatabaseAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabaseAsync(System.Threading.CancellationToken)
+    name: GetStepsInDatabaseAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DictionaryStepInformation[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.DictionaryStepInformation[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DictionaryStepInformation[]>
+  nameWithType: Task<DictionaryStepInformation[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.DictionaryStepInformation[]>
+  nameWithType.vb: Task(Of DictionaryStepInformation())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.DictionaryStepInformation())
+  name.vb: Task(Of DictionaryStepInformation())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.DictionaryStepInformation
+    name: DictionaryStepInformation
+    isExternal: true
+    href: SuperOffice.CRM.Services.DictionaryStepInformation.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.DictionaryStepInformation
+    name: DictionaryStepInformation
+    isExternal: true
+    href: SuperOffice.CRM.Services.DictionaryStepInformation.html
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.DatabaseAgent.GetStepsFromNetServerCodeAsync*
+  commentId: Overload:SuperOffice.CRM.Services.DatabaseAgent.GetStepsFromNetServerCodeAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.DatabaseAgent.html#SuperOffice_CRM_Services_DatabaseAgent_GetStepsFromNetServerCodeAsync_System_Threading_CancellationToken_
+  name: GetStepsFromNetServerCodeAsync
+  nameWithType: DatabaseAgent.GetStepsFromNetServerCodeAsync
+  fullName: SuperOffice.CRM.Services.DatabaseAgent.GetStepsFromNetServerCodeAsync
+- uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCodeAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCodeAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IDatabaseAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetStepsFromNetServerCodeAsync(CancellationToken)
+  nameWithType: IDatabaseAgent.GetStepsFromNetServerCodeAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCodeAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCodeAsync(System.Threading.CancellationToken)
+    name: GetStepsFromNetServerCodeAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCodeAsync(System.Threading.CancellationToken)
+    name: GetStepsFromNetServerCodeAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )

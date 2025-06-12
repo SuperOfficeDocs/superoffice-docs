@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Zboncak, Abbott and O'Keefe",
-  "AdditionalInfo": "deleniti",
-  "SearchValue": "quasi"
+  "Name": "Lehner Inc and Sons",
+  "AdditionalInfo": "tenetur",
+  "SearchValue": "expedita"
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 413,
-    "Name": "Jerde Inc and Sons",
-    "ToolTip": "Omnis suscipit.",
+    "Id": 524,
+    "Name": "Champlin-Heaney",
+    "ToolTip": "Ab et veritatis excepturi dolor.",
     "Deleted": false,
-    "Rank": 168,
-    "Type": "quos",
-    "ColorBlock": 114,
-    "IconHint": "sit",
+    "Rank": 704,
+    "Type": "dolorum",
+    "ColorBlock": 568,
+    "IconHint": "odit",
     "Selected": true,
-    "LastChanged": "2014-12-03T16:32:39.3519666+01:00",
+    "LastChanged": "2015-05-27T17:54:03.3358211+02:00",
     "ChildItems": [
       {
-        "Id": 355,
-        "Name": "Auer-Collier",
-        "ToolTip": "Qui sit dolor et modi est ad.",
-        "Deleted": true,
-        "Rank": 957,
-        "Type": "magnam",
-        "ColorBlock": 525,
-        "IconHint": "aut",
+        "Id": 450,
+        "Name": "Kuhn, Larkin and Schmitt",
+        "ToolTip": "Cumque perferendis aliquid.",
+        "Deleted": false,
+        "Rank": 452,
+        "Type": "qui",
+        "ColorBlock": 248,
+        "IconHint": "repellendus",
         "Selected": false,
-        "LastChanged": "2012-12-15T16:32:39.3519666+01:00",
+        "LastChanged": "2018-12-23T17:54:03.3358211+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "vitae",
+        "ExtraInfo": "aut",
+        "StyleHint": "quas",
         "Hidden": false,
-        "FullName": "Isaac Brown",
+        "FullName": "Mrs. Dejah Mayert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 699
+            "FieldLength": 749
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "impedit",
-    "Hidden": true,
-    "FullName": "Prof. Breanne Lester Senger",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "assumenda",
+    "Hidden": false,
+    "FullName": "Glen Swaniawski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 209
+        "FieldType": "System.Int32",
+        "FieldLength": 632
       }
     }
   }

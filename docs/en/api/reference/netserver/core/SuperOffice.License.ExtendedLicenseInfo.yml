@@ -20,32 +20,43 @@ items:
   nameWithType: ExtendedLicenseInfo
   fullName: SuperOffice.License.ExtendedLicenseInfo
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
   syntax:
-    content: 'public class ExtendedLicenseInfo : Object'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class ExtendedLicenseInfo
     content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
       Public Class ExtendedLicenseInfo
-          Inherits Object
   inheritance:
   - System.Object
   derivedClasses:
   - SuperOffice.License.ExtendedLicenseInfoWithAssignments
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.License.ExtendedLicenseInfo.EnumUtil.MapEnums``2
+  - SuperOffice.License.ExtendedLicenseInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.License.ExtendedLicenseInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.License.ExtendedLicenseInfo)
   - SuperOffice.License.ExtendedLicenseInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.License.ExtendedLicenseInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.License.ExtendedLicenseInfo.#ctor
   commentId: M:SuperOffice.License.ExtendedLicenseInfo.#ctor
   id: '#ctor'
@@ -57,20 +68,16 @@ items:
   nameWithType: ExtendedLicenseInfo.ExtendedLicenseInfo()
   fullName: SuperOffice.License.ExtendedLicenseInfo.ExtendedLicenseInfo()
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
   syntax:
     content: public ExtendedLicenseInfo()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.License.ExtendedLicenseInfo.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ExtendedLicenseInfo.New()
+  fullName.vb: SuperOffice.License.ExtendedLicenseInfo.New()
+  name.vb: New()
 - uid: SuperOffice.License.ExtendedLicenseInfo.Item(System.String)
   commentId: P:SuperOffice.License.ExtendedLicenseInfo.Item(System.String)
   id: Item(System.String)
@@ -78,17 +85,15 @@ items:
   langs:
   - csharp
   - vb
-  name: Item[String]
-  nameWithType: ExtendedLicenseInfo.Item[String]
-  fullName: SuperOffice.License.ExtendedLicenseInfo.Item[System.String]
+  name: this[string]
+  nameWithType: ExtendedLicenseInfo.this[string]
+  fullName: SuperOffice.License.ExtendedLicenseInfo.this[string]
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nGet the extended module license from the module name.\n"
+  summary: Get the extended module license from the module name.
+  example: []
   syntax:
     content: public ExtendedModuleLicense this[string moduleName] { get; }
     parameters:
@@ -98,17 +103,11 @@ items:
     return:
       type: SuperOffice.License.ExtendedModuleLicense
       description: The extended module license foound.  Null if no module is found.
-    content.vb: Public ReadOnly Property Item(moduleName As String) As ExtendedModuleLicense
+    content.vb: Public ReadOnly Default Property this[](moduleName As String) As ExtendedModuleLicense
   overload: SuperOffice.License.ExtendedLicenseInfo.Item*
-  nameWithType.vb: ExtendedLicenseInfo.Item(String)
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-  fullName.vb: SuperOffice.License.ExtendedLicenseInfo.Item(System.String)
-  name.vb: Item(String)
+  nameWithType.vb: ExtendedLicenseInfo.this[](String)
+  fullName.vb: SuperOffice.License.ExtendedLicenseInfo.this[](String)
+  name.vb: this[](String)
 - uid: SuperOffice.License.ExtendedLicenseInfo.Reason
   commentId: P:SuperOffice.License.ExtendedLicenseInfo.Reason
   id: Reason
@@ -120,25 +119,26 @@ items:
   nameWithType: ExtendedLicenseInfo.Reason
   fullName: SuperOffice.License.ExtendedLicenseInfo.Reason
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
   syntax:
-    content: public string Reason { get; set; }
+    content: >-
+      [DataMember]
+
+      public string Reason { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property Reason As String
+    content.vb: >-
+      <DataMember>
+
+      Public Property Reason As String
   overload: SuperOffice.License.ExtendedLicenseInfo.Reason*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.License.ExtendedLicenseInfo.CanBeActivated
   commentId: P:SuperOffice.License.ExtendedLicenseInfo.CanBeActivated
   id: CanBeActivated
@@ -150,25 +150,26 @@ items:
   nameWithType: ExtendedLicenseInfo.CanBeActivated
   fullName: SuperOffice.License.ExtendedLicenseInfo.CanBeActivated
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
   syntax:
-    content: public bool CanBeActivated { get; set; }
+    content: >-
+      [DataMember]
+
+      public bool CanBeActivated { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Property CanBeActivated As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Property CanBeActivated As Boolean
   overload: SuperOffice.License.ExtendedLicenseInfo.CanBeActivated*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.License.ExtendedLicenseInfo.New
   commentId: P:SuperOffice.License.ExtendedLicenseInfo.New
   id: New
@@ -180,25 +181,26 @@ items:
   nameWithType: ExtendedLicenseInfo.New
   fullName: SuperOffice.License.ExtendedLicenseInfo.New
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
   syntax:
-    content: public LicenseInfo New { get; set; }
+    content: >-
+      [DataMember]
+
+      public LicenseInfo New { get; set; }
     parameters: []
     return:
       type: SuperOffice.License.LicenseInfo
-    content.vb: Public Property New As LicenseInfo
+    content.vb: >-
+      <DataMember>
+
+      Public Property [New] As LicenseInfo
   overload: SuperOffice.License.ExtendedLicenseInfo.New*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.License.ExtendedLicenseInfo.Current
   commentId: P:SuperOffice.License.ExtendedLicenseInfo.Current
   id: Current
@@ -210,25 +212,26 @@ items:
   nameWithType: ExtendedLicenseInfo.Current
   fullName: SuperOffice.License.ExtendedLicenseInfo.Current
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
   syntax:
-    content: public LicenseInfo Current { get; set; }
+    content: >-
+      [DataMember]
+
+      public LicenseInfo Current { get; set; }
     parameters: []
     return:
       type: SuperOffice.License.LicenseInfo
-    content.vb: Public Property Current As LicenseInfo
+    content.vb: >-
+      <DataMember>
+
+      Public Property Current As LicenseInfo
   overload: SuperOffice.License.ExtendedLicenseInfo.Current*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.License.ExtendedLicenseInfo.ExtendedModuleLicenses
   commentId: P:SuperOffice.License.ExtendedLicenseInfo.ExtendedModuleLicenses
   id: ExtendedModuleLicenses
@@ -240,25 +243,26 @@ items:
   nameWithType: ExtendedLicenseInfo.ExtendedModuleLicenses
   fullName: SuperOffice.License.ExtendedLicenseInfo.ExtendedModuleLicenses
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
   syntax:
-    content: public ExtendedModuleLicense[] ExtendedModuleLicenses { get; set; }
+    content: >-
+      [DataMember]
+
+      public ExtendedModuleLicense[] ExtendedModuleLicenses { get; set; }
     parameters: []
     return:
       type: SuperOffice.License.ExtendedModuleLicense[]
-    content.vb: Public Property ExtendedModuleLicenses As ExtendedModuleLicense()
+    content.vb: >-
+      <DataMember>
+
+      Public Property ExtendedModuleLicenses As ExtendedModuleLicense()
   overload: SuperOffice.License.ExtendedLicenseInfo.ExtendedModuleLicenses*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.License.ExtendedLicenseInfo.AccumulatedNextCheckDate
   commentId: P:SuperOffice.License.ExtendedLicenseInfo.AccumulatedNextCheckDate
   id: AccumulatedNextCheckDate
@@ -270,194 +274,507 @@ items:
   nameWithType: ExtendedLicenseInfo.AccumulatedNextCheckDate
   fullName: SuperOffice.License.ExtendedLicenseInfo.AccumulatedNextCheckDate
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
   syntax:
-    content: public DateTime AccumulatedNextCheckDate { get; set; }
+    content: >-
+      [DataMember]
+
+      public DateTime AccumulatedNextCheckDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property AccumulatedNextCheckDate As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Property AccumulatedNextCheckDate As Date
   overload: SuperOffice.License.ExtendedLicenseInfo.AccumulatedNextCheckDate*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.License
   commentId: N:SuperOffice.License
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.License
   nameWithType: SuperOffice.License
   fullName: SuperOffice.License
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.License
+    name: License
+    isExternal: true
+    href: SuperOffice.License.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.License
+    name: License
+    isExternal: true
+    href: SuperOffice.License.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.License.ExtendedLicenseInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ExtendedLicenseInfo, To>()
-  nameWithType: EnumUtil.MapEnums<ExtendedLicenseInfo, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.License.ExtendedLicenseInfo, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ExtendedLicenseInfo, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.License.ExtendedLicenseInfo, To)()
-  name.vb: MapEnums(Of ExtendedLicenseInfo, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ExtendedLicenseInfo, To>(ExtendedLicenseInfo)
+  nameWithType: EnumUtil.MapEnums<ExtendedLicenseInfo, To>(ExtendedLicenseInfo)
+  fullName: EnumUtil.MapEnums<SuperOffice.License.ExtendedLicenseInfo, To>(SuperOffice.License.ExtendedLicenseInfo)
+  nameWithType.vb: EnumUtil.MapEnums(Of ExtendedLicenseInfo, To)(ExtendedLicenseInfo)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.License.ExtendedLicenseInfo, To)(SuperOffice.License.ExtendedLicenseInfo)
+  name.vb: MapEnums(Of ExtendedLicenseInfo, To)(ExtendedLicenseInfo)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ExtendedLicenseInfo, To>
-    nameWithType: EnumUtil.MapEnums<ExtendedLicenseInfo, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.License.ExtendedLicenseInfo, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.License.ExtendedLicenseInfo)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ExtendedLicenseInfo, To)
-    nameWithType: EnumUtil.MapEnums(Of ExtendedLicenseInfo, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.License.ExtendedLicenseInfo, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.License.ExtendedLicenseInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.License.ExtendedLicenseInfo)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<ExtendedLicenseInfo>(ExtendedLicenseInfo)
-  nameWithType: ObjectExtensions.AssignByReflection<ExtendedLicenseInfo>(ExtendedLicenseInfo)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.License.ExtendedLicenseInfo>(SuperOffice.License.ExtendedLicenseInfo)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ExtendedLicenseInfo)(ExtendedLicenseInfo)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.License.ExtendedLicenseInfo)(SuperOffice.License.ExtendedLicenseInfo)
-  name.vb: AssignByReflection(Of ExtendedLicenseInfo)(ExtendedLicenseInfo)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<ExtendedLicenseInfo>
-    nameWithType: ObjectExtensions.AssignByReflection<ExtendedLicenseInfo>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.License.ExtendedLicenseInfo>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.License.ExtendedLicenseInfo
     name: ExtendedLicenseInfo
-    nameWithType: ExtendedLicenseInfo
-    fullName: SuperOffice.License.ExtendedLicenseInfo
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of ExtendedLicenseInfo)
-    nameWithType: ObjectExtensions.AssignByReflection(Of ExtendedLicenseInfo)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.License.ExtendedLicenseInfo)
-    isExternal: true
+    href: SuperOffice.License.ExtendedLicenseInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.License.ExtendedLicenseInfo
     name: ExtendedLicenseInfo
-    nameWithType: ExtendedLicenseInfo
-    fullName: SuperOffice.License.ExtendedLicenseInfo
     isExternal: true
+    href: SuperOffice.License.ExtendedLicenseInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.License.ExtendedLicenseInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<ExtendedLicenseInfo>()
-  nameWithType: ObjectExtensions.GraphCopy<ExtendedLicenseInfo>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.License.ExtendedLicenseInfo>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ExtendedLicenseInfo)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.License.ExtendedLicenseInfo)()
-  name.vb: GraphCopy(Of ExtendedLicenseInfo)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<ExtendedLicenseInfo>
-    nameWithType: ObjectExtensions.GraphCopy<ExtendedLicenseInfo>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.License.ExtendedLicenseInfo>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of ExtendedLicenseInfo)
-    nameWithType: ObjectExtensions.GraphCopy(Of ExtendedLicenseInfo)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.License.ExtendedLicenseInfo)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.License.ExtendedLicenseInfo)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.License.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    isExternal: true
+    href: SuperOffice.License.ExtendedLicenseInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.License.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    isExternal: true
+    href: SuperOffice.License.ExtendedLicenseInfo.html
+  - name: )
 - uid: SuperOffice.License.ExtendedLicenseInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ExtendedLicenseInfo, To>()
-  nameWithType: Converters.MapEnums<ExtendedLicenseInfo, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.License.ExtendedLicenseInfo, To>()
-  nameWithType.vb: Converters.MapEnums(Of ExtendedLicenseInfo, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.License.ExtendedLicenseInfo, To)()
-  name.vb: MapEnums(Of ExtendedLicenseInfo, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ExtendedLicenseInfo, To>(ExtendedLicenseInfo)
+  nameWithType: Converters.MapEnums<ExtendedLicenseInfo, To>(ExtendedLicenseInfo)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.License.ExtendedLicenseInfo, To>(SuperOffice.License.ExtendedLicenseInfo)
+  nameWithType.vb: Converters.MapEnums(Of ExtendedLicenseInfo, To)(ExtendedLicenseInfo)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.License.ExtendedLicenseInfo, To)(SuperOffice.License.ExtendedLicenseInfo)
+  name.vb: MapEnums(Of ExtendedLicenseInfo, To)(ExtendedLicenseInfo)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ExtendedLicenseInfo, To>
-    nameWithType: Converters.MapEnums<ExtendedLicenseInfo, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.License.ExtendedLicenseInfo, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.License.ExtendedLicenseInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.License.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    isExternal: true
+    href: SuperOffice.License.ExtendedLicenseInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.License.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    isExternal: true
+    href: SuperOffice.License.ExtendedLicenseInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ExtendedLicenseInfo, To)
-    nameWithType: Converters.MapEnums(Of ExtendedLicenseInfo, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.License.ExtendedLicenseInfo, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.License.ExtendedLicenseInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.License.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    isExternal: true
+    href: SuperOffice.License.ExtendedLicenseInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.License.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    isExternal: true
+    href: SuperOffice.License.ExtendedLicenseInfo.html
+  - name: )
+- uid: SuperOffice.License.ExtendedLicenseInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.License.ExtendedLicenseInfo)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<ExtendedLicenseInfo>(ExtendedLicenseInfo, ExtendedLicenseInfo)
+  nameWithType: ObjectExtensions.AssignByReflection<ExtendedLicenseInfo>(ExtendedLicenseInfo, ExtendedLicenseInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.License.ExtendedLicenseInfo>(SuperOffice.License.ExtendedLicenseInfo, SuperOffice.License.ExtendedLicenseInfo)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ExtendedLicenseInfo)(ExtendedLicenseInfo, ExtendedLicenseInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.License.ExtendedLicenseInfo)(SuperOffice.License.ExtendedLicenseInfo, SuperOffice.License.ExtendedLicenseInfo)
+  name.vb: AssignByReflection(Of ExtendedLicenseInfo)(ExtendedLicenseInfo, ExtendedLicenseInfo)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.License.ExtendedLicenseInfo,SuperOffice.License.ExtendedLicenseInfo)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.License.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    isExternal: true
+    href: SuperOffice.License.ExtendedLicenseInfo.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.License.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    isExternal: true
+    href: SuperOffice.License.ExtendedLicenseInfo.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.License.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    isExternal: true
+    href: SuperOffice.License.ExtendedLicenseInfo.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.License.ExtendedLicenseInfo,SuperOffice.License.ExtendedLicenseInfo)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.License.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    isExternal: true
+    href: SuperOffice.License.ExtendedLicenseInfo.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.License.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    isExternal: true
+    href: SuperOffice.License.ExtendedLicenseInfo.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.License.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    isExternal: true
+    href: SuperOffice.License.ExtendedLicenseInfo.html
+  - name: )
+- uid: SuperOffice.License.ExtendedLicenseInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<ExtendedLicenseInfo>(ExtendedLicenseInfo)
+  nameWithType: ObjectExtensions.GraphCopy<ExtendedLicenseInfo>(ExtendedLicenseInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.License.ExtendedLicenseInfo>(SuperOffice.License.ExtendedLicenseInfo)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ExtendedLicenseInfo)(ExtendedLicenseInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.License.ExtendedLicenseInfo)(SuperOffice.License.ExtendedLicenseInfo)
+  name.vb: GraphCopy(Of ExtendedLicenseInfo)(ExtendedLicenseInfo)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.License.ExtendedLicenseInfo)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.License.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    isExternal: true
+    href: SuperOffice.License.ExtendedLicenseInfo.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.License.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    isExternal: true
+    href: SuperOffice.License.ExtendedLicenseInfo.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.License.ExtendedLicenseInfo)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.License.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    isExternal: true
+    href: SuperOffice.License.ExtendedLicenseInfo.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.License.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    isExternal: true
+    href: SuperOffice.License.ExtendedLicenseInfo.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -466,140 +783,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -608,88 +830,238 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.License.ExtendedLicenseInfo.#ctor*
   commentId: Overload:SuperOffice.License.ExtendedLicenseInfo.#ctor
   isExternal: true
+  href: SuperOffice.License.ExtendedLicenseInfo.html#SuperOffice_License_ExtendedLicenseInfo__ctor
   name: ExtendedLicenseInfo
   nameWithType: ExtendedLicenseInfo.ExtendedLicenseInfo
   fullName: SuperOffice.License.ExtendedLicenseInfo.ExtendedLicenseInfo
+  nameWithType.vb: ExtendedLicenseInfo.New
+  fullName.vb: SuperOffice.License.ExtendedLicenseInfo.New
+  name.vb: New
 - uid: SuperOffice.License.ExtendedLicenseInfo.Item*
   commentId: Overload:SuperOffice.License.ExtendedLicenseInfo.Item
   isExternal: true
-  name: Item
-  nameWithType: ExtendedLicenseInfo.Item
-  fullName: SuperOffice.License.ExtendedLicenseInfo.Item
+  href: SuperOffice.License.ExtendedLicenseInfo.html#SuperOffice_License_ExtendedLicenseInfo_Item_System_String_
+  name: this
+  nameWithType: ExtendedLicenseInfo.this
+  fullName: SuperOffice.License.ExtendedLicenseInfo.this
+  nameWithType.vb: ExtendedLicenseInfo.this[]
+  fullName.vb: SuperOffice.License.ExtendedLicenseInfo.this[]
+  name.vb: this[]
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.License.ExtendedModuleLicense
   commentId: T:SuperOffice.License.ExtendedModuleLicense
   parent: SuperOffice.License
   isExternal: true
+  href: SuperOffice.License.ExtendedModuleLicense.html
   name: ExtendedModuleLicense
   nameWithType: ExtendedModuleLicense
   fullName: SuperOffice.License.ExtendedModuleLicense
 - uid: SuperOffice.License.ExtendedLicenseInfo.Reason*
   commentId: Overload:SuperOffice.License.ExtendedLicenseInfo.Reason
   isExternal: true
+  href: SuperOffice.License.ExtendedLicenseInfo.html#SuperOffice_License_ExtendedLicenseInfo_Reason
   name: Reason
   nameWithType: ExtendedLicenseInfo.Reason
   fullName: SuperOffice.License.ExtendedLicenseInfo.Reason
 - uid: SuperOffice.License.ExtendedLicenseInfo.CanBeActivated*
   commentId: Overload:SuperOffice.License.ExtendedLicenseInfo.CanBeActivated
   isExternal: true
+  href: SuperOffice.License.ExtendedLicenseInfo.html#SuperOffice_License_ExtendedLicenseInfo_CanBeActivated
   name: CanBeActivated
   nameWithType: ExtendedLicenseInfo.CanBeActivated
   fullName: SuperOffice.License.ExtendedLicenseInfo.CanBeActivated
@@ -697,16 +1069,23 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.License.ExtendedLicenseInfo.New*
   commentId: Overload:SuperOffice.License.ExtendedLicenseInfo.New
   isExternal: true
+  href: SuperOffice.License.ExtendedLicenseInfo.html#SuperOffice_License_ExtendedLicenseInfo_New
   name: New
   nameWithType: ExtendedLicenseInfo.New
   fullName: SuperOffice.License.ExtendedLicenseInfo.New
 - uid: SuperOffice.License.LicenseInfo
+  commentId: T:SuperOffice.License.LicenseInfo
+  parent: SuperOffice.License
   isExternal: true
   name: LicenseInfo
   nameWithType: LicenseInfo
@@ -714,17 +1093,20 @@ references:
 - uid: SuperOffice.License.ExtendedLicenseInfo.Current*
   commentId: Overload:SuperOffice.License.ExtendedLicenseInfo.Current
   isExternal: true
+  href: SuperOffice.License.ExtendedLicenseInfo.html#SuperOffice_License_ExtendedLicenseInfo_Current
   name: Current
   nameWithType: ExtendedLicenseInfo.Current
   fullName: SuperOffice.License.ExtendedLicenseInfo.Current
 - uid: SuperOffice.License.ExtendedLicenseInfo.ExtendedModuleLicenses*
   commentId: Overload:SuperOffice.License.ExtendedLicenseInfo.ExtendedModuleLicenses
   isExternal: true
+  href: SuperOffice.License.ExtendedLicenseInfo.html#SuperOffice_License_ExtendedLicenseInfo_ExtendedModuleLicenses
   name: ExtendedModuleLicenses
   nameWithType: ExtendedLicenseInfo.ExtendedModuleLicenses
   fullName: SuperOffice.License.ExtendedLicenseInfo.ExtendedModuleLicenses
 - uid: SuperOffice.License.ExtendedModuleLicense[]
   isExternal: true
+  href: SuperOffice.License.ExtendedModuleLicense.html
   name: ExtendedModuleLicense[]
   nameWithType: ExtendedModuleLicense[]
   fullName: SuperOffice.License.ExtendedModuleLicense[]
@@ -734,29 +1116,32 @@ references:
   spec.csharp:
   - uid: SuperOffice.License.ExtendedModuleLicense
     name: ExtendedModuleLicense
-    nameWithType: ExtendedModuleLicense
-    fullName: SuperOffice.License.ExtendedModuleLicense
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.License.ExtendedModuleLicense.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.License.ExtendedModuleLicense
     name: ExtendedModuleLicense
-    nameWithType: ExtendedModuleLicense
-    fullName: SuperOffice.License.ExtendedModuleLicense
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.License.ExtendedModuleLicense.html
+  - name: (
+  - name: )
 - uid: SuperOffice.License.ExtendedLicenseInfo.AccumulatedNextCheckDate*
   commentId: Overload:SuperOffice.License.ExtendedLicenseInfo.AccumulatedNextCheckDate
   isExternal: true
+  href: SuperOffice.License.ExtendedLicenseInfo.html#SuperOffice_License_ExtendedLicenseInfo_AccumulatedNextCheckDate
   name: AccumulatedNextCheckDate
   nameWithType: ExtendedLicenseInfo.AccumulatedNextCheckDate
   fullName: SuperOffice.License.ExtendedLicenseInfo.AccumulatedNextCheckDate
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date

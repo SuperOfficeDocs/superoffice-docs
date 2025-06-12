@@ -4,23 +4,21 @@ items:
   commentId: N:SuperOffice.WebApi.Agents
   id: SuperOffice.WebApi.Agents
   children:
-  - SuperOffice.WebApi.Agents.AgentBase
   - SuperOffice.WebApi.Agents.AIAgent
+  - SuperOffice.WebApi.Agents.AgentBase
   - SuperOffice.WebApi.Agents.ApiAgent
   - SuperOffice.WebApi.Agents.AppointmentAgent
   - SuperOffice.WebApi.Agents.ArchiveAgent
   - SuperOffice.WebApi.Agents.AssociateAgent
-  - SuperOffice.WebApi.Agents.AudienceAgent
-  - SuperOffice.WebApi.Agents.BatchAgent
   - SuperOffice.WebApi.Agents.BLOBAgent
+  - SuperOffice.WebApi.Agents.BatchAgent
   - SuperOffice.WebApi.Agents.BulkUpdateAgent
+  - SuperOffice.WebApi.Agents.CRMScriptAgent
   - SuperOffice.WebApi.Agents.ChatAgent
   - SuperOffice.WebApi.Agents.ConfigurationAgent
   - SuperOffice.WebApi.Agents.ContactAgent
-  - SuperOffice.WebApi.Agents.CRMScriptAgent
   - SuperOffice.WebApi.Agents.CustomerServiceAgent
   - SuperOffice.WebApi.Agents.DashAgent
-  - SuperOffice.WebApi.Agents.DashboardAgent
   - SuperOffice.WebApi.Agents.DatabaseAgent
   - SuperOffice.WebApi.Agents.DatabaseTableAgent
   - SuperOffice.WebApi.Agents.DiagnosticsAgent
@@ -37,17 +35,15 @@ items:
   - SuperOffice.WebApi.Agents.IAppointmentAgent
   - SuperOffice.WebApi.Agents.IArchiveAgent
   - SuperOffice.WebApi.Agents.IAssociateAgent
-  - SuperOffice.WebApi.Agents.IAudienceAgent
-  - SuperOffice.WebApi.Agents.IBatchAgent
   - SuperOffice.WebApi.Agents.IBLOBAgent
+  - SuperOffice.WebApi.Agents.IBatchAgent
   - SuperOffice.WebApi.Agents.IBulkUpdateAgent
+  - SuperOffice.WebApi.Agents.ICRMScriptAgent
   - SuperOffice.WebApi.Agents.IChatAgent
   - SuperOffice.WebApi.Agents.IConfigurationAgent
   - SuperOffice.WebApi.Agents.IContactAgent
-  - SuperOffice.WebApi.Agents.ICRMScriptAgent
   - SuperOffice.WebApi.Agents.ICustomerServiceAgent
   - SuperOffice.WebApi.Agents.IDashAgent
-  - SuperOffice.WebApi.Agents.IDashboardAgent
   - SuperOffice.WebApi.Agents.IDatabaseAgent
   - SuperOffice.WebApi.Agents.IDatabaseTableAgent
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent
@@ -62,10 +58,9 @@ items:
   - SuperOffice.WebApi.Agents.IImportAgent
   - SuperOffice.WebApi.Agents.ILicenseAgent
   - SuperOffice.WebApi.Agents.IListAgent
-  - SuperOffice.WebApi.Agents.IMarketingAgent
   - SuperOffice.WebApi.Agents.IMDOAgent
+  - SuperOffice.WebApi.Agents.IMarketingAgent
   - SuperOffice.WebApi.Agents.IMessagingAgent
-  - SuperOffice.WebApi.Agents.ImportAgent
   - SuperOffice.WebApi.Agents.INavigatorAgent
   - SuperOffice.WebApi.Agents.INumberAllocationAgent
   - SuperOffice.WebApi.Agents.IPersonAgent
@@ -76,7 +71,6 @@ items:
   - SuperOffice.WebApi.Agents.IProjectAgent
   - SuperOffice.WebApi.Agents.IQuoteAgent
   - SuperOffice.WebApi.Agents.IRelationAgent
-  - SuperOffice.WebApi.Agents.IReplicationAgent
   - SuperOffice.WebApi.Agents.IReportAgent
   - SuperOffice.WebApi.Agents.IResourceAgent
   - SuperOffice.WebApi.Agents.ISaintAgent
@@ -92,10 +86,11 @@ items:
   - SuperOffice.WebApi.Agents.IViewStateAgent
   - SuperOffice.WebApi.Agents.IWebhookAgent
   - SuperOffice.WebApi.Agents.IWorkflowAgent
+  - SuperOffice.WebApi.Agents.ImportAgent
   - SuperOffice.WebApi.Agents.LicenseAgent
   - SuperOffice.WebApi.Agents.ListAgent
-  - SuperOffice.WebApi.Agents.MarketingAgent
   - SuperOffice.WebApi.Agents.MDOAgent
+  - SuperOffice.WebApi.Agents.MarketingAgent
   - SuperOffice.WebApi.Agents.MessagingAgent
   - SuperOffice.WebApi.Agents.NavigatorAgent
   - SuperOffice.WebApi.Agents.NumberAllocationAgent
@@ -107,7 +102,6 @@ items:
   - SuperOffice.WebApi.Agents.ProjectAgent
   - SuperOffice.WebApi.Agents.QuoteAgent
   - SuperOffice.WebApi.Agents.RelationAgent
-  - SuperOffice.WebApi.Agents.ReplicationAgent
   - SuperOffice.WebApi.Agents.ReportAgent
   - SuperOffice.WebApi.Agents.ResourceAgent
   - SuperOffice.WebApi.Agents.SaintAgent
@@ -137,6 +131,7 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.AgentBase
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html
   name: AgentBase
   nameWithType: AgentBase
   fullName: SuperOffice.WebApi.Agents.AgentBase
@@ -144,18 +139,21 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IApiAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IApiAgent.html
   name: IApiAgent
   nameWithType: IApiAgent
   fullName: SuperOffice.WebApi.Agents.IApiAgent
 - uid: SuperOffice.WebApi.Agents.ApiAgent
   commentId: T:SuperOffice.WebApi.Agents.ApiAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ApiAgent.html
   name: ApiAgent
   nameWithType: ApiAgent
   fullName: SuperOffice.WebApi.Agents.ApiAgent
 - uid: SuperOffice.WebApi.Agents.DocumentAgent
   commentId: T:SuperOffice.WebApi.Agents.DocumentAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.DocumentAgent.html
   name: DocumentAgent
   nameWithType: DocumentAgent
   fullName: SuperOffice.WebApi.Agents.DocumentAgent
@@ -163,12 +161,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IAIAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html
   name: IAIAgent
   nameWithType: IAIAgent
   fullName: SuperOffice.WebApi.Agents.IAIAgent
 - uid: SuperOffice.WebApi.Agents.AIAgent
   commentId: T:SuperOffice.WebApi.Agents.AIAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.AIAgent.html
   name: AIAgent
   nameWithType: AIAgent
   fullName: SuperOffice.WebApi.Agents.AIAgent
@@ -176,12 +176,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IAppointmentAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAppointmentAgent.html
   name: IAppointmentAgent
   nameWithType: IAppointmentAgent
   fullName: SuperOffice.WebApi.Agents.IAppointmentAgent
 - uid: SuperOffice.WebApi.Agents.AppointmentAgent
   commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.AppointmentAgent.html
   name: AppointmentAgent
   nameWithType: AppointmentAgent
   fullName: SuperOffice.WebApi.Agents.AppointmentAgent
@@ -189,12 +191,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IArchiveAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IArchiveAgent.html
   name: IArchiveAgent
   nameWithType: IArchiveAgent
   fullName: SuperOffice.WebApi.Agents.IArchiveAgent
 - uid: SuperOffice.WebApi.Agents.ArchiveAgent
   commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ArchiveAgent.html
   name: ArchiveAgent
   nameWithType: ArchiveAgent
   fullName: SuperOffice.WebApi.Agents.ArchiveAgent
@@ -202,38 +206,29 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IAssociateAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAssociateAgent.html
   name: IAssociateAgent
   nameWithType: IAssociateAgent
   fullName: SuperOffice.WebApi.Agents.IAssociateAgent
 - uid: SuperOffice.WebApi.Agents.AssociateAgent
   commentId: T:SuperOffice.WebApi.Agents.AssociateAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.AssociateAgent.html
   name: AssociateAgent
   nameWithType: AssociateAgent
   fullName: SuperOffice.WebApi.Agents.AssociateAgent
-- uid: SuperOffice.WebApi.Agents.IAudienceAgent
-  commentId: T:SuperOffice.WebApi.Agents.IAudienceAgent
-  parent: SuperOffice.WebApi.Agents
-  isExternal: true
-  name: IAudienceAgent
-  nameWithType: IAudienceAgent
-  fullName: SuperOffice.WebApi.Agents.IAudienceAgent
-- uid: SuperOffice.WebApi.Agents.AudienceAgent
-  commentId: T:SuperOffice.WebApi.Agents.AudienceAgent
-  isExternal: true
-  name: AudienceAgent
-  nameWithType: AudienceAgent
-  fullName: SuperOffice.WebApi.Agents.AudienceAgent
 - uid: SuperOffice.WebApi.Agents.IBatchAgent
   commentId: T:SuperOffice.WebApi.Agents.IBatchAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IBatchAgent.html
   name: IBatchAgent
   nameWithType: IBatchAgent
   fullName: SuperOffice.WebApi.Agents.IBatchAgent
 - uid: SuperOffice.WebApi.Agents.BatchAgent
   commentId: T:SuperOffice.WebApi.Agents.BatchAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.BatchAgent.html
   name: BatchAgent
   nameWithType: BatchAgent
   fullName: SuperOffice.WebApi.Agents.BatchAgent
@@ -241,12 +236,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IBLOBAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IBLOBAgent.html
   name: IBLOBAgent
   nameWithType: IBLOBAgent
   fullName: SuperOffice.WebApi.Agents.IBLOBAgent
 - uid: SuperOffice.WebApi.Agents.BLOBAgent
   commentId: T:SuperOffice.WebApi.Agents.BLOBAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.BLOBAgent.html
   name: BLOBAgent
   nameWithType: BLOBAgent
   fullName: SuperOffice.WebApi.Agents.BLOBAgent
@@ -254,12 +251,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IBulkUpdateAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IBulkUpdateAgent.html
   name: IBulkUpdateAgent
   nameWithType: IBulkUpdateAgent
   fullName: SuperOffice.WebApi.Agents.IBulkUpdateAgent
 - uid: SuperOffice.WebApi.Agents.BulkUpdateAgent
   commentId: T:SuperOffice.WebApi.Agents.BulkUpdateAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.BulkUpdateAgent.html
   name: BulkUpdateAgent
   nameWithType: BulkUpdateAgent
   fullName: SuperOffice.WebApi.Agents.BulkUpdateAgent
@@ -267,12 +266,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IChatAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html
   name: IChatAgent
   nameWithType: IChatAgent
   fullName: SuperOffice.WebApi.Agents.IChatAgent
 - uid: SuperOffice.WebApi.Agents.ChatAgent
   commentId: T:SuperOffice.WebApi.Agents.ChatAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ChatAgent.html
   name: ChatAgent
   nameWithType: ChatAgent
   fullName: SuperOffice.WebApi.Agents.ChatAgent
@@ -280,12 +281,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IConfigurationAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IConfigurationAgent.html
   name: IConfigurationAgent
   nameWithType: IConfigurationAgent
   fullName: SuperOffice.WebApi.Agents.IConfigurationAgent
 - uid: SuperOffice.WebApi.Agents.ConfigurationAgent
   commentId: T:SuperOffice.WebApi.Agents.ConfigurationAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ConfigurationAgent.html
   name: ConfigurationAgent
   nameWithType: ConfigurationAgent
   fullName: SuperOffice.WebApi.Agents.ConfigurationAgent
@@ -293,12 +296,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IContactAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IContactAgent.html
   name: IContactAgent
   nameWithType: IContactAgent
   fullName: SuperOffice.WebApi.Agents.IContactAgent
 - uid: SuperOffice.WebApi.Agents.ContactAgent
   commentId: T:SuperOffice.WebApi.Agents.ContactAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ContactAgent.html
   name: ContactAgent
   nameWithType: ContactAgent
   fullName: SuperOffice.WebApi.Agents.ContactAgent
@@ -306,12 +311,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.ICRMScriptAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ICRMScriptAgent.html
   name: ICRMScriptAgent
   nameWithType: ICRMScriptAgent
   fullName: SuperOffice.WebApi.Agents.ICRMScriptAgent
 - uid: SuperOffice.WebApi.Agents.CRMScriptAgent
   commentId: T:SuperOffice.WebApi.Agents.CRMScriptAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.CRMScriptAgent.html
   name: CRMScriptAgent
   nameWithType: CRMScriptAgent
   fullName: SuperOffice.WebApi.Agents.CRMScriptAgent
@@ -319,12 +326,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.ICustomerServiceAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ICustomerServiceAgent.html
   name: ICustomerServiceAgent
   nameWithType: ICustomerServiceAgent
   fullName: SuperOffice.WebApi.Agents.ICustomerServiceAgent
 - uid: SuperOffice.WebApi.Agents.CustomerServiceAgent
   commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.CustomerServiceAgent.html
   name: CustomerServiceAgent
   nameWithType: CustomerServiceAgent
   fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent
@@ -332,38 +341,29 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IDashAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDashAgent.html
   name: IDashAgent
   nameWithType: IDashAgent
   fullName: SuperOffice.WebApi.Agents.IDashAgent
 - uid: SuperOffice.WebApi.Agents.DashAgent
   commentId: T:SuperOffice.WebApi.Agents.DashAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.DashAgent.html
   name: DashAgent
   nameWithType: DashAgent
   fullName: SuperOffice.WebApi.Agents.DashAgent
-- uid: SuperOffice.WebApi.Agents.IDashboardAgent
-  commentId: T:SuperOffice.WebApi.Agents.IDashboardAgent
-  parent: SuperOffice.WebApi.Agents
-  isExternal: true
-  name: IDashboardAgent
-  nameWithType: IDashboardAgent
-  fullName: SuperOffice.WebApi.Agents.IDashboardAgent
-- uid: SuperOffice.WebApi.Agents.DashboardAgent
-  commentId: T:SuperOffice.WebApi.Agents.DashboardAgent
-  isExternal: true
-  name: DashboardAgent
-  nameWithType: DashboardAgent
-  fullName: SuperOffice.WebApi.Agents.DashboardAgent
 - uid: SuperOffice.WebApi.Agents.IDatabaseAgent
   commentId: T:SuperOffice.WebApi.Agents.IDatabaseAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDatabaseAgent.html
   name: IDatabaseAgent
   nameWithType: IDatabaseAgent
   fullName: SuperOffice.WebApi.Agents.IDatabaseAgent
 - uid: SuperOffice.WebApi.Agents.DatabaseAgent
   commentId: T:SuperOffice.WebApi.Agents.DatabaseAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.DatabaseAgent.html
   name: DatabaseAgent
   nameWithType: DatabaseAgent
   fullName: SuperOffice.WebApi.Agents.DatabaseAgent
@@ -371,12 +371,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IDatabaseTableAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDatabaseTableAgent.html
   name: IDatabaseTableAgent
   nameWithType: IDatabaseTableAgent
   fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent
 - uid: SuperOffice.WebApi.Agents.DatabaseTableAgent
   commentId: T:SuperOffice.WebApi.Agents.DatabaseTableAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.DatabaseTableAgent.html
   name: DatabaseTableAgent
   nameWithType: DatabaseTableAgent
   fullName: SuperOffice.WebApi.Agents.DatabaseTableAgent
@@ -384,12 +386,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IDiagnosticsAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html
   name: IDiagnosticsAgent
   nameWithType: IDiagnosticsAgent
   fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent
   commentId: T:SuperOffice.WebApi.Agents.DiagnosticsAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html
   name: DiagnosticsAgent
   nameWithType: DiagnosticsAgent
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent
@@ -397,6 +401,7 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IDocumentAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDocumentAgent.html
   name: IDocumentAgent
   nameWithType: IDocumentAgent
   fullName: SuperOffice.WebApi.Agents.IDocumentAgent
@@ -404,12 +409,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IDocumentMigrationAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.html
   name: IDocumentMigrationAgent
   nameWithType: IDocumentMigrationAgent
   fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent
 - uid: SuperOffice.WebApi.Agents.DocumentMigrationAgent
   commentId: T:SuperOffice.WebApi.Agents.DocumentMigrationAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.DocumentMigrationAgent.html
   name: DocumentMigrationAgent
   nameWithType: DocumentMigrationAgent
   fullName: SuperOffice.WebApi.Agents.DocumentMigrationAgent
@@ -417,12 +424,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IEMailAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IEMailAgent.html
   name: IEMailAgent
   nameWithType: IEMailAgent
   fullName: SuperOffice.WebApi.Agents.IEMailAgent
 - uid: SuperOffice.WebApi.Agents.EMailAgent
   commentId: T:SuperOffice.WebApi.Agents.EMailAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.EMailAgent.html
   name: EMailAgent
   nameWithType: EMailAgent
   fullName: SuperOffice.WebApi.Agents.EMailAgent
@@ -430,12 +439,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IErpSyncAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IErpSyncAgent.html
   name: IErpSyncAgent
   nameWithType: IErpSyncAgent
   fullName: SuperOffice.WebApi.Agents.IErpSyncAgent
 - uid: SuperOffice.WebApi.Agents.ErpSyncAgent
   commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ErpSyncAgent.html
   name: ErpSyncAgent
   nameWithType: ErpSyncAgent
   fullName: SuperOffice.WebApi.Agents.ErpSyncAgent
@@ -443,12 +454,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IFavouriteAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IFavouriteAgent.html
   name: IFavouriteAgent
   nameWithType: IFavouriteAgent
   fullName: SuperOffice.WebApi.Agents.IFavouriteAgent
 - uid: SuperOffice.WebApi.Agents.FavouriteAgent
   commentId: T:SuperOffice.WebApi.Agents.FavouriteAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.FavouriteAgent.html
   name: FavouriteAgent
   nameWithType: FavouriteAgent
   fullName: SuperOffice.WebApi.Agents.FavouriteAgent
@@ -456,12 +469,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IFindAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IFindAgent.html
   name: IFindAgent
   nameWithType: IFindAgent
   fullName: SuperOffice.WebApi.Agents.IFindAgent
 - uid: SuperOffice.WebApi.Agents.FindAgent
   commentId: T:SuperOffice.WebApi.Agents.FindAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.FindAgent.html
   name: FindAgent
   nameWithType: FindAgent
   fullName: SuperOffice.WebApi.Agents.FindAgent
@@ -469,12 +484,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IForeignSystemAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IForeignSystemAgent.html
   name: IForeignSystemAgent
   nameWithType: IForeignSystemAgent
   fullName: SuperOffice.WebApi.Agents.IForeignSystemAgent
 - uid: SuperOffice.WebApi.Agents.ForeignSystemAgent
   commentId: T:SuperOffice.WebApi.Agents.ForeignSystemAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ForeignSystemAgent.html
   name: ForeignSystemAgent
   nameWithType: ForeignSystemAgent
   fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent
@@ -482,12 +499,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IFreeTextAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IFreeTextAgent.html
   name: IFreeTextAgent
   nameWithType: IFreeTextAgent
   fullName: SuperOffice.WebApi.Agents.IFreeTextAgent
 - uid: SuperOffice.WebApi.Agents.FreeTextAgent
   commentId: T:SuperOffice.WebApi.Agents.FreeTextAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.FreeTextAgent.html
   name: FreeTextAgent
   nameWithType: FreeTextAgent
   fullName: SuperOffice.WebApi.Agents.FreeTextAgent
@@ -495,12 +514,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IImportAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IImportAgent.html
   name: IImportAgent
   nameWithType: IImportAgent
   fullName: SuperOffice.WebApi.Agents.IImportAgent
 - uid: SuperOffice.WebApi.Agents.ImportAgent
   commentId: T:SuperOffice.WebApi.Agents.ImportAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ImportAgent.html
   name: ImportAgent
   nameWithType: ImportAgent
   fullName: SuperOffice.WebApi.Agents.ImportAgent
@@ -508,12 +529,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.ILicenseAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ILicenseAgent.html
   name: ILicenseAgent
   nameWithType: ILicenseAgent
   fullName: SuperOffice.WebApi.Agents.ILicenseAgent
 - uid: SuperOffice.WebApi.Agents.LicenseAgent
   commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.LicenseAgent.html
   name: LicenseAgent
   nameWithType: LicenseAgent
   fullName: SuperOffice.WebApi.Agents.LicenseAgent
@@ -521,12 +544,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IListAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IListAgent.html
   name: IListAgent
   nameWithType: IListAgent
   fullName: SuperOffice.WebApi.Agents.IListAgent
 - uid: SuperOffice.WebApi.Agents.ListAgent
   commentId: T:SuperOffice.WebApi.Agents.ListAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ListAgent.html
   name: ListAgent
   nameWithType: ListAgent
   fullName: SuperOffice.WebApi.Agents.ListAgent
@@ -534,12 +559,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IMarketingAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IMarketingAgent.html
   name: IMarketingAgent
   nameWithType: IMarketingAgent
   fullName: SuperOffice.WebApi.Agents.IMarketingAgent
 - uid: SuperOffice.WebApi.Agents.MarketingAgent
   commentId: T:SuperOffice.WebApi.Agents.MarketingAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.MarketingAgent.html
   name: MarketingAgent
   nameWithType: MarketingAgent
   fullName: SuperOffice.WebApi.Agents.MarketingAgent
@@ -547,12 +574,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IMDOAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IMDOAgent.html
   name: IMDOAgent
   nameWithType: IMDOAgent
   fullName: SuperOffice.WebApi.Agents.IMDOAgent
 - uid: SuperOffice.WebApi.Agents.MDOAgent
   commentId: T:SuperOffice.WebApi.Agents.MDOAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.MDOAgent.html
   name: MDOAgent
   nameWithType: MDOAgent
   fullName: SuperOffice.WebApi.Agents.MDOAgent
@@ -560,12 +589,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IMessagingAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IMessagingAgent.html
   name: IMessagingAgent
   nameWithType: IMessagingAgent
   fullName: SuperOffice.WebApi.Agents.IMessagingAgent
 - uid: SuperOffice.WebApi.Agents.MessagingAgent
   commentId: T:SuperOffice.WebApi.Agents.MessagingAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.MessagingAgent.html
   name: MessagingAgent
   nameWithType: MessagingAgent
   fullName: SuperOffice.WebApi.Agents.MessagingAgent
@@ -573,12 +604,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.INavigatorAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.INavigatorAgent.html
   name: INavigatorAgent
   nameWithType: INavigatorAgent
   fullName: SuperOffice.WebApi.Agents.INavigatorAgent
 - uid: SuperOffice.WebApi.Agents.NavigatorAgent
   commentId: T:SuperOffice.WebApi.Agents.NavigatorAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.NavigatorAgent.html
   name: NavigatorAgent
   nameWithType: NavigatorAgent
   fullName: SuperOffice.WebApi.Agents.NavigatorAgent
@@ -586,12 +619,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.INumberAllocationAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.INumberAllocationAgent.html
   name: INumberAllocationAgent
   nameWithType: INumberAllocationAgent
   fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent
 - uid: SuperOffice.WebApi.Agents.NumberAllocationAgent
   commentId: T:SuperOffice.WebApi.Agents.NumberAllocationAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.NumberAllocationAgent.html
   name: NumberAllocationAgent
   nameWithType: NumberAllocationAgent
   fullName: SuperOffice.WebApi.Agents.NumberAllocationAgent
@@ -599,12 +634,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IPersonAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IPersonAgent.html
   name: IPersonAgent
   nameWithType: IPersonAgent
   fullName: SuperOffice.WebApi.Agents.IPersonAgent
 - uid: SuperOffice.WebApi.Agents.PersonAgent
   commentId: T:SuperOffice.WebApi.Agents.PersonAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.PersonAgent.html
   name: PersonAgent
   nameWithType: PersonAgent
   fullName: SuperOffice.WebApi.Agents.PersonAgent
@@ -612,12 +649,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IPhoneListAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IPhoneListAgent.html
   name: IPhoneListAgent
   nameWithType: IPhoneListAgent
   fullName: SuperOffice.WebApi.Agents.IPhoneListAgent
 - uid: SuperOffice.WebApi.Agents.PhoneListAgent
   commentId: T:SuperOffice.WebApi.Agents.PhoneListAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.PhoneListAgent.html
   name: PhoneListAgent
   nameWithType: PhoneListAgent
   fullName: SuperOffice.WebApi.Agents.PhoneListAgent
@@ -625,12 +664,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IPocketAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IPocketAgent.html
   name: IPocketAgent
   nameWithType: IPocketAgent
   fullName: SuperOffice.WebApi.Agents.IPocketAgent
 - uid: SuperOffice.WebApi.Agents.PocketAgent
   commentId: T:SuperOffice.WebApi.Agents.PocketAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.PocketAgent.html
   name: PocketAgent
   nameWithType: PocketAgent
   fullName: SuperOffice.WebApi.Agents.PocketAgent
@@ -638,12 +679,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IPreferenceAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html
   name: IPreferenceAgent
   nameWithType: IPreferenceAgent
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent
 - uid: SuperOffice.WebApi.Agents.PreferenceAgent
   commentId: T:SuperOffice.WebApi.Agents.PreferenceAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.PreferenceAgent.html
   name: PreferenceAgent
   nameWithType: PreferenceAgent
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent
@@ -651,12 +694,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IPreviewsAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IPreviewsAgent.html
   name: IPreviewsAgent
   nameWithType: IPreviewsAgent
   fullName: SuperOffice.WebApi.Agents.IPreviewsAgent
 - uid: SuperOffice.WebApi.Agents.PreviewsAgent
   commentId: T:SuperOffice.WebApi.Agents.PreviewsAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.PreviewsAgent.html
   name: PreviewsAgent
   nameWithType: PreviewsAgent
   fullName: SuperOffice.WebApi.Agents.PreviewsAgent
@@ -664,12 +709,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IProjectAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IProjectAgent.html
   name: IProjectAgent
   nameWithType: IProjectAgent
   fullName: SuperOffice.WebApi.Agents.IProjectAgent
 - uid: SuperOffice.WebApi.Agents.ProjectAgent
   commentId: T:SuperOffice.WebApi.Agents.ProjectAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ProjectAgent.html
   name: ProjectAgent
   nameWithType: ProjectAgent
   fullName: SuperOffice.WebApi.Agents.ProjectAgent
@@ -677,12 +724,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IQuoteAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IQuoteAgent.html
   name: IQuoteAgent
   nameWithType: IQuoteAgent
   fullName: SuperOffice.WebApi.Agents.IQuoteAgent
 - uid: SuperOffice.WebApi.Agents.QuoteAgent
   commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.QuoteAgent.html
   name: QuoteAgent
   nameWithType: QuoteAgent
   fullName: SuperOffice.WebApi.Agents.QuoteAgent
@@ -690,38 +739,29 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IRelationAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IRelationAgent.html
   name: IRelationAgent
   nameWithType: IRelationAgent
   fullName: SuperOffice.WebApi.Agents.IRelationAgent
 - uid: SuperOffice.WebApi.Agents.RelationAgent
   commentId: T:SuperOffice.WebApi.Agents.RelationAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.RelationAgent.html
   name: RelationAgent
   nameWithType: RelationAgent
   fullName: SuperOffice.WebApi.Agents.RelationAgent
-- uid: SuperOffice.WebApi.Agents.IReplicationAgent
-  commentId: T:SuperOffice.WebApi.Agents.IReplicationAgent
-  parent: SuperOffice.WebApi.Agents
-  isExternal: true
-  name: IReplicationAgent
-  nameWithType: IReplicationAgent
-  fullName: SuperOffice.WebApi.Agents.IReplicationAgent
-- uid: SuperOffice.WebApi.Agents.ReplicationAgent
-  commentId: T:SuperOffice.WebApi.Agents.ReplicationAgent
-  isExternal: true
-  name: ReplicationAgent
-  nameWithType: ReplicationAgent
-  fullName: SuperOffice.WebApi.Agents.ReplicationAgent
 - uid: SuperOffice.WebApi.Agents.IReportAgent
   commentId: T:SuperOffice.WebApi.Agents.IReportAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IReportAgent.html
   name: IReportAgent
   nameWithType: IReportAgent
   fullName: SuperOffice.WebApi.Agents.IReportAgent
 - uid: SuperOffice.WebApi.Agents.ReportAgent
   commentId: T:SuperOffice.WebApi.Agents.ReportAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ReportAgent.html
   name: ReportAgent
   nameWithType: ReportAgent
   fullName: SuperOffice.WebApi.Agents.ReportAgent
@@ -729,12 +769,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IResourceAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IResourceAgent.html
   name: IResourceAgent
   nameWithType: IResourceAgent
   fullName: SuperOffice.WebApi.Agents.IResourceAgent
 - uid: SuperOffice.WebApi.Agents.ResourceAgent
   commentId: T:SuperOffice.WebApi.Agents.ResourceAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ResourceAgent.html
   name: ResourceAgent
   nameWithType: ResourceAgent
   fullName: SuperOffice.WebApi.Agents.ResourceAgent
@@ -742,12 +784,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.ISaintAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ISaintAgent.html
   name: ISaintAgent
   nameWithType: ISaintAgent
   fullName: SuperOffice.WebApi.Agents.ISaintAgent
 - uid: SuperOffice.WebApi.Agents.SaintAgent
   commentId: T:SuperOffice.WebApi.Agents.SaintAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.SaintAgent.html
   name: SaintAgent
   nameWithType: SaintAgent
   fullName: SuperOffice.WebApi.Agents.SaintAgent
@@ -755,12 +799,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.ISaleAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ISaleAgent.html
   name: ISaleAgent
   nameWithType: ISaleAgent
   fullName: SuperOffice.WebApi.Agents.ISaleAgent
 - uid: SuperOffice.WebApi.Agents.SaleAgent
   commentId: T:SuperOffice.WebApi.Agents.SaleAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.SaleAgent.html
   name: SaleAgent
   nameWithType: SaleAgent
   fullName: SuperOffice.WebApi.Agents.SaleAgent
@@ -768,12 +814,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.ISelectionAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ISelectionAgent.html
   name: ISelectionAgent
   nameWithType: ISelectionAgent
   fullName: SuperOffice.WebApi.Agents.ISelectionAgent
 - uid: SuperOffice.WebApi.Agents.SelectionAgent
   commentId: T:SuperOffice.WebApi.Agents.SelectionAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.SelectionAgent.html
   name: SelectionAgent
   nameWithType: SelectionAgent
   fullName: SuperOffice.WebApi.Agents.SelectionAgent
@@ -781,12 +829,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.ISentryAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ISentryAgent.html
   name: ISentryAgent
   nameWithType: ISentryAgent
   fullName: SuperOffice.WebApi.Agents.ISentryAgent
 - uid: SuperOffice.WebApi.Agents.SentryAgent
   commentId: T:SuperOffice.WebApi.Agents.SentryAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.SentryAgent.html
   name: SentryAgent
   nameWithType: SentryAgent
   fullName: SuperOffice.WebApi.Agents.SentryAgent
@@ -794,12 +844,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.ITargetsAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ITargetsAgent.html
   name: ITargetsAgent
   nameWithType: ITargetsAgent
   fullName: SuperOffice.WebApi.Agents.ITargetsAgent
 - uid: SuperOffice.WebApi.Agents.TargetsAgent
   commentId: T:SuperOffice.WebApi.Agents.TargetsAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.TargetsAgent.html
   name: TargetsAgent
   nameWithType: TargetsAgent
   fullName: SuperOffice.WebApi.Agents.TargetsAgent
@@ -807,12 +859,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.ITicketAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ITicketAgent.html
   name: ITicketAgent
   nameWithType: ITicketAgent
   fullName: SuperOffice.WebApi.Agents.ITicketAgent
 - uid: SuperOffice.WebApi.Agents.TicketAgent
   commentId: T:SuperOffice.WebApi.Agents.TicketAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.TicketAgent.html
   name: TicketAgent
   nameWithType: TicketAgent
   fullName: SuperOffice.WebApi.Agents.TicketAgent
@@ -820,12 +874,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.ITimeZoneAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ITimeZoneAgent.html
   name: ITimeZoneAgent
   nameWithType: ITimeZoneAgent
   fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent
 - uid: SuperOffice.WebApi.Agents.TimeZoneAgent
   commentId: T:SuperOffice.WebApi.Agents.TimeZoneAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.TimeZoneAgent.html
   name: TimeZoneAgent
   nameWithType: TimeZoneAgent
   fullName: SuperOffice.WebApi.Agents.TimeZoneAgent
@@ -833,12 +889,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.ITooltipsAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ITooltipsAgent.html
   name: ITooltipsAgent
   nameWithType: ITooltipsAgent
   fullName: SuperOffice.WebApi.Agents.ITooltipsAgent
 - uid: SuperOffice.WebApi.Agents.TooltipsAgent
   commentId: T:SuperOffice.WebApi.Agents.TooltipsAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.TooltipsAgent.html
   name: TooltipsAgent
   nameWithType: TooltipsAgent
   fullName: SuperOffice.WebApi.Agents.TooltipsAgent
@@ -846,12 +904,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IUserAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserAgent.html
   name: IUserAgent
   nameWithType: IUserAgent
   fullName: SuperOffice.WebApi.Agents.IUserAgent
 - uid: SuperOffice.WebApi.Agents.UserAgent
   commentId: T:SuperOffice.WebApi.Agents.UserAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.UserAgent.html
   name: UserAgent
   nameWithType: UserAgent
   fullName: SuperOffice.WebApi.Agents.UserAgent
@@ -859,12 +919,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html
   name: IUserDefinedFieldInfoAgent
   nameWithType: IUserDefinedFieldInfoAgent
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent
 - uid: SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
   commentId: T:SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent.html
   name: UserDefinedFieldInfoAgent
   nameWithType: UserDefinedFieldInfoAgent
   fullName: SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
@@ -872,12 +934,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IViewStateAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IViewStateAgent.html
   name: IViewStateAgent
   nameWithType: IViewStateAgent
   fullName: SuperOffice.WebApi.Agents.IViewStateAgent
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent
   commentId: T:SuperOffice.WebApi.Agents.ViewStateAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.ViewStateAgent.html
   name: ViewStateAgent
   nameWithType: ViewStateAgent
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent
@@ -885,12 +949,14 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IWebhookAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IWebhookAgent.html
   name: IWebhookAgent
   nameWithType: IWebhookAgent
   fullName: SuperOffice.WebApi.Agents.IWebhookAgent
 - uid: SuperOffice.WebApi.Agents.WebhookAgent
   commentId: T:SuperOffice.WebApi.Agents.WebhookAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.WebhookAgent.html
   name: WebhookAgent
   nameWithType: WebhookAgent
   fullName: SuperOffice.WebApi.Agents.WebhookAgent
@@ -898,18 +964,51 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IWorkflowAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IWorkflowAgent.html
   name: IWorkflowAgent
   nameWithType: IWorkflowAgent
   fullName: SuperOffice.WebApi.Agents.IWorkflowAgent
 - uid: SuperOffice.WebApi.Agents.WorkflowAgent
   commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.WorkflowAgent.html
   name: WorkflowAgent
   nameWithType: WorkflowAgent
   fullName: SuperOffice.WebApi.Agents.WorkflowAgent
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Agents
   nameWithType: SuperOffice.WebApi.Agents
   fullName: SuperOffice.WebApi.Agents
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html

@@ -56,6 +56,8 @@ Download [WSDL file for Services88/Configuration](../Services88-Configuration.md
 * [GetWindowPosSizesOnPersonId](GetWindowPosSizesOnPersonId.md)
 * [GetWwwUrl](GetWwwUrl.md)
 * [GetWwwUrlForSMWeb](GetWwwUrlForSMWeb.md)
+* [RebuildCustomObjectArchivePanelDeltas](RebuildCustomObjectArchivePanelDeltas.md)
+* [RebuildTaskMenuDeltas](RebuildTaskMenuDeltas.md)
 * [RebuildUdefDeltas](RebuildUdefDeltas.md)
 * [RebuildWebpanelDeltas](RebuildWebpanelDeltas.md)
 * [SaveAndPublish](SaveAndPublish.md)

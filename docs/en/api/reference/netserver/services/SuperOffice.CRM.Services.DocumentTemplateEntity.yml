@@ -30,9 +30,9 @@ items:
   - SuperOffice.CRM.Services.DocumentTemplateEntity.SenderEmailAddress
   - SuperOffice.CRM.Services.DocumentTemplateEntity.SenderEmailMode
   - SuperOffice.CRM.Services.DocumentTemplateEntity.ShowCurrents
-  - SuperOffice.CRM.Services.DocumentTemplateEntity.Tooltip
   - SuperOffice.CRM.Services.DocumentTemplateEntity.ToString
   - SuperOffice.CRM.Services.DocumentTemplateEntity.ToString(System.String)
+  - SuperOffice.CRM.Services.DocumentTemplateEntity.Tooltip
   langs:
   - csharp
   - vb
@@ -40,33 +40,54 @@ items:
   nameWithType: DocumentTemplateEntity
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe template a document is based on is stored in the SO_arc\\template folder on the server. This will return the name as displayed in the GUI, and not the physical document name, of the template the document object is based on.\n<p></p>\nCarrier object for DocumentTemplateEntity.\nServices for the DocumentTemplateEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IListAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    The template a document is based on is stored in the SO_arc\template folder on the server. This will return the name as displayed in the GUI, and not the physical document name, of the template the document object is based on.
+
+    <p></p>
+
+    Carrier object for DocumentTemplateEntity.
+
+    Services for the DocumentTemplateEntity Carrier is available from the <xref href="SuperOffice.CRM.Services.IListAgent?text=List+Agent" data-throw-if-not-resolved="false"></xref>.
   example:
-  - "\nGet DocumentTemplateEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ListAgent();\n    var documentTemplateEntity = agent.GetDocumentTemplateEntity( 123 );\n }</code></pre>\n"
+  - >-
+    Get DocumentTemplateEntity 123 using the agent:
+
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       var agent = new ListAgent();
+       var documentTemplateEntity = agent.GetDocumentTemplateEntity( 123 );
+    }</code></pre>
   syntax:
-    content: 'public class DocumentTemplateEntity : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class DocumentTemplateEntity : Carrier
     content.vb: >-
-      Public Class DocumentTemplateEntity
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class DocumentTemplateEntity Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.ListAgent
-    commentId: T:SuperOffice.CRM.Services.ListAgent
   - linkId: SuperOffice.CRM.Services.IListAgent
     commentId: T:SuperOffice.CRM.Services.IListAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.DocumentTemplateEntity.#ctor
   id: '#ctor'
@@ -78,21 +99,18 @@ items:
   nameWithType: DocumentTemplateEntity.DocumentTemplateEntity()
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.DocumentTemplateEntity()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public DocumentTemplateEntity()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: DocumentTemplateEntity.New()
+  fullName.vb: SuperOffice.CRM.Services.DocumentTemplateEntity.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.ToString
   commentId: M:SuperOffice.CRM.Services.DocumentTemplateEntity.ToString
   id: ToString
@@ -104,26 +122,18 @@ items:
   nameWithType: DocumentTemplateEntity.ToString()
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.DocumentTemplateEntity.ToString(System.String)
   id: ToString(System.String)
@@ -131,17 +141,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: DocumentTemplateEntity.ToString(String)
-  fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.ToString(System.String)
+  name: ToString(string)
+  nameWithType: DocumentTemplateEntity.ToString(string)
+  fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -153,10 +164,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: DocumentTemplateEntity.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.DocumentTemplateEntity.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.DocumentTemplateId
   commentId: P:SuperOffice.CRM.Services.DocumentTemplateEntity.DocumentTemplateId
   id: DocumentTemplateId
@@ -168,28 +178,28 @@ items:
   nameWithType: DocumentTemplateEntity.DocumentTemplateId
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.DocumentTemplateId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
-    content: public virtual int DocumentTemplateId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int DocumentTemplateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property DocumentTemplateId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property DocumentTemplateId As Integer
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.DocumentTemplateId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.Name
   commentId: P:SuperOffice.CRM.Services.DocumentTemplateEntity.Name
   id: Name
@@ -201,28 +211,28 @@ items:
   nameWithType: DocumentTemplateEntity.Name
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.Name
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe template list item \n"
+  summary: The template list item
+  example: []
   syntax:
-    content: public virtual string Name { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Name As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Name As String
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.Name*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.Tooltip
   commentId: P:SuperOffice.CRM.Services.DocumentTemplateEntity.Tooltip
   id: Tooltip
@@ -234,28 +244,28 @@ items:
   nameWithType: DocumentTemplateEntity.Tooltip
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.Tooltip
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTooltip or other description \n"
+  summary: Tooltip or other description
+  example: []
   syntax:
-    content: public virtual string Tooltip { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Tooltip { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Tooltip As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Tooltip As String
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.Tooltip*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.SaveInDb
   commentId: P:SuperOffice.CRM.Services.DocumentTemplateEntity.SaveInDb
   id: SaveInDb
@@ -267,28 +277,28 @@ items:
   nameWithType: DocumentTemplateEntity.SaveInDb
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.SaveInDb
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n1 = save document records in DB; otherwise not. \n"
+  summary: 1 = save document records in DB; otherwise not.
+  example: []
   syntax:
-    content: public virtual short SaveInDb { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual short SaveInDb { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: Public Overridable Property SaveInDb As Short
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SaveInDb As Short
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.SaveInDb*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.Filename
   commentId: P:SuperOffice.CRM.Services.DocumentTemplateEntity.Filename
   id: Filename
@@ -300,28 +310,28 @@ items:
   nameWithType: DocumentTemplateEntity.Filename
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.Filename
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRelative to TemplatePath, or extref for other document plugins. i.e URL or full path. \n"
+  summary: Relative to TemplatePath, or extref for other document plugins. i.e URL or full path.
+  example: []
   syntax:
-    content: public virtual string Filename { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Filename { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Filename As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Filename As String
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.Filename*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.DefaultOref
   commentId: P:SuperOffice.CRM.Services.DocumentTemplateEntity.DefaultOref
   id: DefaultOref
@@ -333,28 +343,28 @@ items:
   nameWithType: DocumentTemplateEntity.DefaultOref
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.DefaultOref
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nProcessed via tag substitution to give document reference \n"
+  summary: Processed via tag substitution to give document reference
+  example: []
   syntax:
-    content: public virtual string DefaultOref { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string DefaultOref { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property DefaultOref As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property DefaultOref As String
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.DefaultOref*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.RecordType
   commentId: P:SuperOffice.CRM.Services.DocumentTemplateEntity.RecordType
   id: RecordType
@@ -366,28 +376,28 @@ items:
   nameWithType: DocumentTemplateEntity.RecordType
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.RecordType
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes \n"
+  summary: 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes
+  example: []
   syntax:
-    content: public virtual DocTmplType RecordType { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DocTmplType RecordType { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.DocTmplType
-    content.vb: Public Overridable Property RecordType As DocTmplType
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property RecordType As DocTmplType
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.RecordType*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.Deleted
   commentId: P:SuperOffice.CRM.Services.DocumentTemplateEntity.Deleted
   id: Deleted
@@ -399,28 +409,28 @@ items:
   nameWithType: DocumentTemplateEntity.Deleted
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.Deleted
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTrue if deleted \n"
+  summary: True if deleted
+  example: []
   syntax:
-    content: public virtual bool Deleted { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool Deleted { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property Deleted As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Deleted As Boolean
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.Deleted*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.Direction
   commentId: P:SuperOffice.CRM.Services.DocumentTemplateEntity.Direction
   id: Direction
@@ -432,28 +442,28 @@ items:
   nameWithType: DocumentTemplateEntity.Direction
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.Direction
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n1 = incoming, 2 = outgoing, see EAppntDirection \n"
+  summary: 1 = incoming, 2 = outgoing, see EAppntDirection
+  example: []
   syntax:
-    content: public virtual DocTmplDirection Direction { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DocTmplDirection Direction { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.DocTmplDirection
-    content.vb: Public Overridable Property Direction As DocTmplDirection
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Direction As DocTmplDirection
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.Direction*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.AutoeventId
   commentId: P:SuperOffice.CRM.Services.DocumentTemplateEntity.AutoeventId
   id: AutoeventId
@@ -465,28 +475,28 @@ items:
   nameWithType: DocumentTemplateEntity.AutoeventId
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.AutoeventId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nWhich document plugin is responsible for the documents generated from this template \n"
+  summary: Which document plugin is responsible for the documents generated from this template
+  example: []
   syntax:
-    content: public virtual int AutoeventId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int AutoeventId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property AutoeventId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property AutoeventId As Integer
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.AutoeventId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.IntentId
   commentId: P:SuperOffice.CRM.Services.DocumentTemplateEntity.IntentId
   id: IntentId
@@ -498,28 +508,28 @@ items:
   nameWithType: DocumentTemplateEntity.IntentId
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.IntentId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nWhat is the intention of this document (used by SAINT) \n"
+  summary: What is the intention of this document (used by SAINT)
+  example: []
   syntax:
-    content: public virtual int IntentId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int IntentId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property IntentId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IntentId As Integer
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.IntentId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.IsDefaultPublished
   commentId: P:SuperOffice.CRM.Services.DocumentTemplateEntity.IsDefaultPublished
   id: IsDefaultPublished
@@ -531,28 +541,28 @@ items:
   nameWithType: DocumentTemplateEntity.IsDefaultPublished
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.IsDefaultPublished
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPublished to external persons \n"
+  summary: Published to external persons
+  example: []
   syntax:
-    content: public virtual bool IsDefaultPublished { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool IsDefaultPublished { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property IsDefaultPublished As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsDefaultPublished As Boolean
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.IsDefaultPublished*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.Rank
   commentId: P:SuperOffice.CRM.Services.DocumentTemplateEntity.Rank
   id: Rank
@@ -564,28 +574,28 @@ items:
   nameWithType: DocumentTemplateEntity.Rank
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.Rank
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRank order \n"
+  summary: Rank order
+  example: []
   syntax:
-    content: public virtual short Rank { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual short Rank { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: Public Overridable Property Rank As Short
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Rank As Short
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.Rank*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.LoadTemplateFromPlugin
   commentId: P:SuperOffice.CRM.Services.DocumentTemplateEntity.LoadTemplateFromPlugin
   id: LoadTemplateFromPlugin
@@ -597,28 +607,28 @@ items:
   nameWithType: DocumentTemplateEntity.LoadTemplateFromPlugin
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.LoadTemplateFromPlugin
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nWhich document plugin is responsible for this template&apos;s contents \n"
+  summary: Which document plugin is responsible for this template's contents
+  example: []
   syntax:
-    content: public virtual int LoadTemplateFromPlugin { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int LoadTemplateFromPlugin { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property LoadTemplateFromPlugin As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property LoadTemplateFromPlugin As Integer
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.LoadTemplateFromPlugin*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.MimeType
   commentId: P:SuperOffice.CRM.Services.DocumentTemplateEntity.MimeType
   id: MimeType
@@ -630,28 +640,28 @@ items:
   nameWithType: DocumentTemplateEntity.MimeType
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.MimeType
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe mime type \n"
+  summary: The mime type
+  example: []
   syntax:
-    content: public virtual string MimeType { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string MimeType { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property MimeType As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property MimeType As String
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.MimeType*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.IsInUseInGuides
   commentId: P:SuperOffice.CRM.Services.DocumentTemplateEntity.IsInUseInGuides
   id: IsInUseInGuides
@@ -663,28 +673,28 @@ items:
   nameWithType: DocumentTemplateEntity.IsInUseInGuides
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.IsInUseInGuides
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTrue if the template is in use in a project or sales guide \n"
+  summary: True if the template is in use in a project or sales guide
+  example: []
   syntax:
-    content: public virtual bool IsInUseInGuides { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool IsInUseInGuides { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property IsInUseInGuides As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsInUseInGuides As Boolean
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.IsInUseInGuides*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.DocumentTypeKey
   commentId: P:SuperOffice.CRM.Services.DocumentTemplateEntity.DocumentTypeKey
   id: DocumentTypeKey
@@ -696,28 +706,28 @@ items:
   nameWithType: DocumentTemplateEntity.DocumentTypeKey
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.DocumentTypeKey
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe document type to use when creating a blank document. Plugin-specific. Used when not creating template from a local file. \n"
+  summary: The document type to use when creating a blank document. Plugin-specific. Used when not creating template from a local file.
+  example: []
   syntax:
-    content: public virtual int DocumentTypeKey { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int DocumentTypeKey { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property DocumentTypeKey As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property DocumentTypeKey As Integer
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.DocumentTypeKey*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.QuoteDocType
   commentId: P:SuperOffice.CRM.Services.DocumentTemplateEntity.QuoteDocType
   id: QuoteDocType
@@ -729,28 +739,28 @@ items:
   nameWithType: DocumentTemplateEntity.QuoteDocType
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.QuoteDocType
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe role this document plays in the Quote system, if any \n"
+  summary: The role this document plays in the Quote system, if any
+  example: []
   syntax:
-    content: public virtual DocTmplQuoteType QuoteDocType { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DocTmplQuoteType QuoteDocType { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.DocTmplQuoteType
-    content.vb: Public Overridable Property QuoteDocType As DocTmplQuoteType
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property QuoteDocType As DocTmplQuoteType
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.QuoteDocType*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.PrivacyDocType
   commentId: P:SuperOffice.CRM.Services.DocumentTemplateEntity.PrivacyDocType
   id: PrivacyDocType
@@ -762,28 +772,28 @@ items:
   nameWithType: DocumentTemplateEntity.PrivacyDocType
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.PrivacyDocType
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nIndicator that this document template has a functional role, related to privacy/GDPR \n"
+  summary: Indicator that this document template has a functional role, related to privacy/GDPR
+  example: []
   syntax:
-    content: public virtual DocTmplPrivacyType PrivacyDocType { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DocTmplPrivacyType PrivacyDocType { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.DocTmplPrivacyType
-    content.vb: Public Overridable Property PrivacyDocType As DocTmplPrivacyType
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PrivacyDocType As DocTmplPrivacyType
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.PrivacyDocType*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.EmailSubject
   commentId: P:SuperOffice.CRM.Services.DocumentTemplateEntity.EmailSubject
   id: EmailSubject
@@ -795,28 +805,28 @@ items:
   nameWithType: DocumentTemplateEntity.EmailSubject
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.EmailSubject
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSubject to use if document template is an email. \n"
+  summary: Subject to use if document template is an email.
+  example: []
   syntax:
-    content: public virtual string EmailSubject { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string EmailSubject { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property EmailSubject As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property EmailSubject As String
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.EmailSubject*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.IncludeSignature
   commentId: P:SuperOffice.CRM.Services.DocumentTemplateEntity.IncludeSignature
   id: IncludeSignature
@@ -828,28 +838,28 @@ items:
   nameWithType: DocumentTemplateEntity.IncludeSignature
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.IncludeSignature
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTrue if the email signature should be added in bottom of mail if this an email template \n"
+  summary: True if the email signature should be added in bottom of mail if this an email template
+  example: []
   syntax:
-    content: public virtual bool IncludeSignature { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool IncludeSignature { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property IncludeSignature As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IncludeSignature As Boolean
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.IncludeSignature*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.ShowCurrents
   commentId: P:SuperOffice.CRM.Services.DocumentTemplateEntity.ShowCurrents
   id: ShowCurrents
@@ -861,28 +871,28 @@ items:
   nameWithType: DocumentTemplateEntity.ShowCurrents
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.ShowCurrents
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTrue if when using this template there should be shown a place for editing current choices of person, compant, sale, project etc \n"
+  summary: True if when using this template there should be shown a place for editing current choices of person, compant, sale, project etc
+  example: []
   syntax:
-    content: public virtual bool ShowCurrents { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool ShowCurrents { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property ShowCurrents As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ShowCurrents As Boolean
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.ShowCurrents*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.SenderEmailMode
   commentId: P:SuperOffice.CRM.Services.DocumentTemplateEntity.SenderEmailMode
   id: SenderEmailMode
@@ -894,28 +904,28 @@ items:
   nameWithType: DocumentTemplateEntity.SenderEmailMode
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.SenderEmailMode
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nIf email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address \n"
+  summary: If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address
+  example: []
   syntax:
-    content: public virtual SenderMailMode SenderEmailMode { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual SenderMailMode SenderEmailMode { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.SenderMailMode
-    content.vb: Public Overridable Property SenderEmailMode As SenderMailMode
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SenderEmailMode As SenderMailMode
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.SenderEmailMode*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.SenderEmailAddress
   commentId: P:SuperOffice.CRM.Services.DocumentTemplateEntity.SenderEmailAddress
   id: SenderEmailAddress
@@ -927,28 +937,28 @@ items:
   nameWithType: DocumentTemplateEntity.SenderEmailAddress
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.SenderEmailAddress
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nIf email template, default senderaddress when template is of type quote email or privacy email. \n"
+  summary: If email template, default senderaddress when template is of type quote email or privacy email.
+  example: []
   syntax:
-    content: public virtual string SenderEmailAddress { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string SenderEmailAddress { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property SenderEmailAddress As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SenderEmailAddress As String
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.SenderEmailAddress*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.InvitationDocType
   commentId: P:SuperOffice.CRM.Services.DocumentTemplateEntity.InvitationDocType
   id: InvitationDocType
@@ -960,57 +970,106 @@ items:
   nameWithType: DocumentTemplateEntity.InvitationDocType
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.InvitationDocType
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nType for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 \n"
+  summary: Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3
+  example: []
   syntax:
-    content: public virtual DocTmplInvitationType InvitationDocType { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DocTmplInvitationType InvitationDocType { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.DocTmplInvitationType
-    content.vb: Public Overridable Property InvitationDocType As DocTmplInvitationType
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property InvitationDocType As DocTmplInvitationType
   overload: SuperOffice.CRM.Services.DocumentTemplateEntity.InvitationDocType*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.ListAgent
-  commentId: T:SuperOffice.CRM.Services.ListAgent
-  isExternal: true
-  name: ListAgent
-  nameWithType: ListAgent
-  fullName: SuperOffice.CRM.Services.ListAgent
 - uid: SuperOffice.CRM.Services.IListAgent
   commentId: T:SuperOffice.CRM.Services.IListAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IListAgent.html
   name: IListAgent
   nameWithType: IListAgent
   fullName: SuperOffice.CRM.Services.IListAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity__ctor
   name: DocumentTemplateEntity
   nameWithType: DocumentTemplateEntity.DocumentTemplateEntity
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.DocumentTemplateEntity
+  nameWithType.vb: DocumentTemplateEntity.New
+  fullName.vb: SuperOffice.CRM.Services.DocumentTemplateEntity.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.ToString*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_ToString
   name: ToString
   nameWithType: DocumentTemplateEntity.ToString
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.ToString
@@ -1018,18 +1077,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.DocumentTemplateId*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.DocumentTemplateId
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_DocumentTemplateId
   name: DocumentTemplateId
   nameWithType: DocumentTemplateEntity.DocumentTemplateId
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.DocumentTemplateId
@@ -1037,24 +1095,31 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.Name*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.Name
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_Name
   name: Name
   nameWithType: DocumentTemplateEntity.Name
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.Name
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.Tooltip*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.Tooltip
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_Tooltip
   name: Tooltip
   nameWithType: DocumentTemplateEntity.Tooltip
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.Tooltip
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.SaveInDb*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.SaveInDb
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_SaveInDb
   name: SaveInDb
   nameWithType: DocumentTemplateEntity.SaveInDb
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.SaveInDb
@@ -1062,24 +1127,31 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.Filename*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.Filename
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_Filename
   name: Filename
   nameWithType: DocumentTemplateEntity.Filename
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.Filename
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.DefaultOref*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.DefaultOref
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_DefaultOref
   name: DefaultOref
   nameWithType: DocumentTemplateEntity.DefaultOref
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.DefaultOref
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.RecordType*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.RecordType
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_RecordType
   name: RecordType
   nameWithType: DocumentTemplateEntity.RecordType
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.RecordType
@@ -1091,6 +1163,7 @@ references:
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.Deleted*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.Deleted
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_Deleted
   name: Deleted
   nameWithType: DocumentTemplateEntity.Deleted
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.Deleted
@@ -1098,12 +1171,17 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.Direction*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.Direction
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_Direction
   name: Direction
   nameWithType: DocumentTemplateEntity.Direction
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.Direction
@@ -1115,54 +1193,63 @@ references:
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.AutoeventId*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.AutoeventId
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_AutoeventId
   name: AutoeventId
   nameWithType: DocumentTemplateEntity.AutoeventId
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.AutoeventId
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.IntentId*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.IntentId
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_IntentId
   name: IntentId
   nameWithType: DocumentTemplateEntity.IntentId
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.IntentId
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.IsDefaultPublished*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.IsDefaultPublished
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_IsDefaultPublished
   name: IsDefaultPublished
   nameWithType: DocumentTemplateEntity.IsDefaultPublished
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.IsDefaultPublished
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.Rank*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.Rank
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_Rank
   name: Rank
   nameWithType: DocumentTemplateEntity.Rank
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.Rank
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.LoadTemplateFromPlugin*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.LoadTemplateFromPlugin
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_LoadTemplateFromPlugin
   name: LoadTemplateFromPlugin
   nameWithType: DocumentTemplateEntity.LoadTemplateFromPlugin
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.LoadTemplateFromPlugin
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.MimeType*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.MimeType
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_MimeType
   name: MimeType
   nameWithType: DocumentTemplateEntity.MimeType
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.MimeType
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.IsInUseInGuides*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.IsInUseInGuides
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_IsInUseInGuides
   name: IsInUseInGuides
   nameWithType: DocumentTemplateEntity.IsInUseInGuides
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.IsInUseInGuides
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.DocumentTypeKey*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.DocumentTypeKey
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_DocumentTypeKey
   name: DocumentTypeKey
   nameWithType: DocumentTemplateEntity.DocumentTypeKey
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.DocumentTypeKey
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.QuoteDocType*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.QuoteDocType
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_QuoteDocType
   name: QuoteDocType
   nameWithType: DocumentTemplateEntity.QuoteDocType
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.QuoteDocType
@@ -1174,6 +1261,7 @@ references:
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.PrivacyDocType*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.PrivacyDocType
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_PrivacyDocType
   name: PrivacyDocType
   nameWithType: DocumentTemplateEntity.PrivacyDocType
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.PrivacyDocType
@@ -1186,24 +1274,28 @@ references:
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.EmailSubject*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.EmailSubject
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_EmailSubject
   name: EmailSubject
   nameWithType: DocumentTemplateEntity.EmailSubject
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.EmailSubject
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.IncludeSignature*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.IncludeSignature
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_IncludeSignature
   name: IncludeSignature
   nameWithType: DocumentTemplateEntity.IncludeSignature
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.IncludeSignature
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.ShowCurrents*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.ShowCurrents
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_ShowCurrents
   name: ShowCurrents
   nameWithType: DocumentTemplateEntity.ShowCurrents
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.ShowCurrents
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.SenderEmailMode*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.SenderEmailMode
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_SenderEmailMode
   name: SenderEmailMode
   nameWithType: DocumentTemplateEntity.SenderEmailMode
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.SenderEmailMode
@@ -1216,12 +1308,14 @@ references:
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.SenderEmailAddress*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.SenderEmailAddress
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_SenderEmailAddress
   name: SenderEmailAddress
   nameWithType: DocumentTemplateEntity.SenderEmailAddress
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.SenderEmailAddress
 - uid: SuperOffice.CRM.Services.DocumentTemplateEntity.InvitationDocType*
   commentId: Overload:SuperOffice.CRM.Services.DocumentTemplateEntity.InvitationDocType
   isExternal: true
+  href: SuperOffice.CRM.Services.DocumentTemplateEntity.html#SuperOffice_CRM_Services_DocumentTemplateEntity_InvitationDocType
   name: InvitationDocType
   nameWithType: DocumentTemplateEntity.InvitationDocType
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity.InvitationDocType

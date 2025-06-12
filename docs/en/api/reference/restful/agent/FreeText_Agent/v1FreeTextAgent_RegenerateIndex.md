@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 771,
-  "Name": "Hoppe Group",
-  "AssociateId": 824,
-  "DetailsTable": 298,
-  "DetailsRecord": 688,
-  "IsSystemTask": true,
+  "Id": 652,
+  "Name": "Rutherford, Oberbrunner and Kuhlman",
+  "AssociateId": 489,
+  "DetailsTable": 18,
+  "DetailsRecord": 512,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "ut",
-    "ParameterObject2": "excepturi"
+    "ParameterObject1": "sunt",
+    "ParameterObject2": "et"
   },
-  "LastStarted": "2018-05-23T16:32:39.180141+02:00",
-  "Created": "2020-10-01T16:32:39.180141+02:00",
-  "StartCount": 219,
-  "DatabaseSerialNumber": "1306335",
-  "Context": "quia",
-  "Result": "corrupti",
+  "LastStarted": "2002-11-27T17:54:03.1795788+01:00",
+  "Created": "2019-01-22T17:54:03.1795788+01:00",
+  "StartCount": 173,
+  "DatabaseSerialNumber": "1045950",
+  "Context": "dolores",
+  "Result": "dolorem",
   "State": "All",
-  "Description": "Re-engineered intermediate initiative",
-  "Response": "dolorem",
-  "Request": "voluptas",
-  "ProgressDescription": "Devolved mobile policy",
-  "ProgressPercent": 60,
-  "FileName": "Ritchie-Hegmann",
+  "Description": "Monitored exuding orchestration",
+  "Response": "nostrum",
+  "Request": "harum",
+  "ProgressDescription": "Distributed neutral protocol",
+  "ProgressPercent": 861,
+  "FileName": "Ratke, Bradtke and Ernser",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 270
+      "FieldLength": 476
     }
   }
 }

@@ -131,12 +131,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "itaque",
+    "path": "sed",
     "value": {}
   },
   {
     "op": "add",
-    "path": "itaque",
+    "path": "sed",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 979,
-  "SourcePersonId": 75,
-  "DestinationContactId": 791,
-  "DestinationPersonId": 844,
-  "RelationId": 904,
-  "Comment": "alias",
-  "RelationDefinitionId": 730,
-  "Reversed": 730,
-  "UpdatedDate": "2005-06-14T16:32:47.4152322+02:00",
-  "CreatedDate": "1999-09-13T16:32:47.4152322+02:00",
+  "SourceContactId": 471,
+  "SourcePersonId": 142,
+  "DestinationContactId": 824,
+  "DestinationPersonId": 479,
+  "RelationId": 587,
+  "Comment": "quis",
+  "RelationDefinitionId": 964,
+  "Reversed": 317,
+  "UpdatedDate": "2021-11-03T17:54:08.1324619+01:00",
+  "CreatedDate": "2001-12-04T17:54:08.1324619+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Hane, Corwin and McGlynn",
-  "SourcePersonName": "Goldner-Brakus",
-  "DestinationContactName": "Walter-Price",
-  "DestinationPersonName": "Miller LLC",
-  "ActiveText": "perferendis",
-  "PassiveText": "excepturi",
+  "SourceContactName": "O'Kon Group",
+  "SourcePersonName": "Klein-Bahringer",
+  "DestinationContactName": "Rosenbaum Group",
+  "DestinationPersonName": "Casper Inc and Sons",
+  "ActiveText": "enim",
+  "PassiveText": "incidunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 406
+      "FieldLength": 903
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/List/UpdateHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "id",
+  "Path": "ut",
   "Entity": null
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 323,
+  "HierarchyId": 761,
   "Domain": "Dashboards",
-  "Name": "Keeling-Kshlerin",
-  "Fullname": "placeat",
-  "ParentId": 403,
+  "Name": "Hessel, Deckow and Lakin",
+  "Fullname": "voluptas",
+  "ParentId": 347,
   "Children": [
     {
-      "HierarchyId": 138,
+      "HierarchyId": 844,
       "Domain": "Dashboards",
-      "Name": "Maggio, Beahan and Towne",
-      "Fullname": "quam",
-      "ParentId": 740,
+      "Name": "Hauck-Kertzmann",
+      "Fullname": "recusandae",
+      "ParentId": 970,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2013-06-15T16:32:39.3051024+02:00",
-      "RegisteredAssociateId": 255,
-      "Updated": "2008-08-05T16:32:39.3051024+02:00",
-      "UpdatedAssociateId": 525,
+      "Registered": "2005-04-20T17:54:03.3045907+02:00",
+      "RegisteredAssociateId": 839,
+      "Updated": "2003-12-20T17:54:03.3045907+01:00",
+      "UpdatedAssociateId": 842,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 253
+          "FieldType": "System.Int32",
+          "FieldLength": 693
         }
       }
     }
   ],
-  "Registered": "2007-11-01T16:32:39.3051024+01:00",
-  "RegisteredAssociateId": 609,
-  "Updated": "1999-06-15T16:32:39.3051024+02:00",
-  "UpdatedAssociateId": 915,
+  "Registered": "2023-06-10T17:54:03.3045907+02:00",
+  "RegisteredAssociateId": 271,
+  "Updated": "2002-11-12T17:54:03.3045907+01:00",
+  "UpdatedAssociateId": 389,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 738
+      "FieldLength": 937
     }
   }
 }

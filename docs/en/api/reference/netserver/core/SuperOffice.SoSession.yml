@@ -11,11 +11,9 @@ items:
   - SuperOffice.SoSession.Authenticate(System.Security.Claims.ClaimsIdentity,System.Security.Claims.Claim[])
   - SuperOffice.SoSession.Authenticate(System.String,System.String)
   - SuperOffice.SoSession.Close
-  - SuperOffice.SoSession.Continue(System.String)
   - SuperOffice.SoSession.Dispose
   - SuperOffice.SoSession.IsOpen
   - SuperOffice.SoSession.Principal
-  - SuperOffice.SoSession.Suspend
   langs:
   - csharp
   - vb
@@ -23,37 +21,109 @@ items:
   nameWithType: SoSession
   fullName: SuperOffice.SoSession
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nSession object used to authenticate and handle a SuperOffice session\n"
-  remarks: "\nNetServer is designed to be both deployed locally and server-side.  \n<ul><li>Local: \n		A local application is an application that does something for \n		one user.  The application starts of by authenticating the \n		user and provides some functionality to him.  On completion, \n		the user will log out.  The entire time the application \n		provides functionality to the user, there is a valid session \n		on behalf of this user.\n</li><li>Server-side: \n	A server-side application serves several users.  Users are \n	performing operations or requests.  There is a valid session \n	for the user while he is performing the operation and the \n	session is suspended between operations.  An example of this \n	is a web application.  The user clicks something on the \n	browser and sends off a request to the server.  While the \n	server is processing the request, the session is valid.  \n	Between the requests, the session is suspended.\n</li></ul>\n<p>\nThe first operation performed against NetServer in a local application \nwill be to <xref href=\"SuperOffice.SoSession.Authenticate\" data-throw-if-not-resolved=\"false\"></xref> and the last will be to \n<xref href=\"SuperOffice.SoSession.Close\" data-throw-if-not-resolved=\"false\"></xref> the session.  The session object will not be used \nin extent of this in a local application.\n</p>\n<p>\nIn a server-side application, the user will be authenticated, by an \nunderlying call to the <xref href=\"SuperOffice.SoSession.Authenticate\" data-throw-if-not-resolved=\"false\"></xref> method.  As each request is \ncompleted, a <xref href=\"SuperOffice.SoSession.Suspend\" data-throw-if-not-resolved=\"false\"></xref> should be called.  As the next request starts, the \nsuspended session will be continued using the <xref href=\"SuperOffice.SoSession.Continue(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method.\n</p>\n<p>\nThe suspend method returns a string that represents the \nauthenticated user.  This string should be stored in the web-\napplications session-state.  As it is needed for a continuation of \nthe session, it should be fetched back from the web-applications \nsession-state.  \n</p>\n<p>\nThe <xref href=\"SuperOffice.SoSession.Suspend\" data-throw-if-not-resolved=\"false\"></xref> method will return a <xref href=\"SuperOffice.Security.Principal.SoCredentials\" data-throw-if-not-resolved=\"false\"></xref> object, serialized \nand decrypted using \n<xref href=\"SuperOffice.Security.Principal.Private.PrincipalHelper.SerializeCredentials(SuperOffice.Security.Principal.SoCredentials)\" data-throw-if-not-resolved=\"false\"></xref>.  \nthe <xref href=\"SuperOffice.SoSession.Continue(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method will use \n<xref href=\"SuperOffice.Security.Principal.Private.PrincipalHelper.DeserializeCredentials(System.String)\" data-throw-if-not-resolved=\"false\"></xref> \nto decrypt end deserialize the credentials.\n</p>\n"
+  summary: Session object used to authenticate and handle a SuperOffice session
+  remarks: >-
+    NetServer is designed to be both deployed locally and server-side.  
+
+    <ul><li><span class="term">Local: </span>
+    		A local application is an application that does something for 
+    		one user.  The application starts of by authenticating the 
+    		user and provides some functionality to him.  On completion, 
+    		the user will log out.  The entire time the application 
+    		provides functionality to the user, there is a valid session 
+    		on behalf of this user.
+    	</li><li><span class="term">Server-side: </span>
+    		A server-side application serves several users.  Users are 
+    		performing operations or requests.  There is a valid session 
+    		for the user while he is performing the operation and the 
+    		session is suspended between operations.  An example of this 
+    		is a web application.  The user clicks something on the 
+    		browser and sends off a request to the server.  While the 
+    		server is processing the request, the session is valid.  
+    		Between the requests, the session is suspended.
+    	</li></ul>
+    <p>
+
+    The first operation performed against NetServer in a local application 
+
+    will be to <xref href="SuperOffice.SoSession.Authenticate" data-throw-if-not-resolved="false"></xref> and the last will be to 
+
+    <xref href="SuperOffice.SoSession.Close" data-throw-if-not-resolved="false"></xref> the session.  The session object will not be used 
+
+    in extent of this in a local application.
+
+    </p>
+
+    <p>
+
+    In a server-side application, the user will be authenticated, by an 
+
+    underlying call to the <xref href="SuperOffice.SoSession.Authenticate" data-throw-if-not-resolved="false"></xref> method.  As each request is 
+
+    completed, a Suspend should be called.  As the next request starts, the 
+
+    suspended session will be continued using the Continue method.
+
+    </p>
+
+    <p>
+
+    The suspend method returns a string that represents the 
+
+    authenticated user.  This string should be stored in the web-
+
+    applications session-state.  As it is needed for a continuation of 
+
+    the session, it should be fetched back from the web-applications 
+
+    session-state.  
+
+    </p>
+
+    <p>
+
+    The Suspend method will return a <xref href="SuperOffice.Security.Principal.SoCredentials" data-throw-if-not-resolved="false"></xref> object, serialized 
+
+    and decrypted using 
+
+    SuperOffice.Security.Principal.Private.PrincipalHelper.SerializeCredentials.  
+
+    the Continue method will use 
+
+    SuperOffice.Security.Principal.Private.PrincipalHelper.DeserializeCredentials 
+
+    to decrypt end deserialize the credentials.
+
+    </p>
   example:
-  - "\nThe user is authenticated using the Authenticate method:\n<pre><code>SoSession session = SoSession.Authenticate(&quot;user&quot;, &quot;Password&quot;);\n// Do some stuff.\nsession.Close();</code></pre>\n"
+  - >-
+    The user is authenticated using the Authenticate method:
+
+    <pre><code class="lang-csharp">SoSession session = SoSession.Authenticate("user", "Password");
+
+    // Do some stuff.
+
+    session.Close();</code></pre>
   syntax:
-    content: 'public sealed class SoSession : Object, IDisposable'
-    content.vb: >-
-      Public NotInheritable Class SoSession
-          Inherits Object
-          Implements IDisposable
+    content: 'public sealed class SoSession : IDisposable'
+    content.vb: Public NotInheritable Class SoSession Implements IDisposable
   inheritance:
   - System.Object
   implements:
   - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
   extensionMethods:
   - SuperOffice.SoSession.EnumUtil.MapEnums``2
   - SuperOffice.SoSession.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
 - uid: SuperOffice.SoSession.Authenticate(System.String,System.String)
   commentId: M:SuperOffice.SoSession.Authenticate(System.String,System.String)
   id: Authenticate(System.String,System.String)
@@ -61,18 +131,16 @@ items:
   langs:
   - csharp
   - vb
-  name: Authenticate(String, String)
-  nameWithType: SoSession.Authenticate(String, String)
-  fullName: SuperOffice.SoSession.Authenticate(System.String, System.String)
+  name: Authenticate(string, string)
+  nameWithType: SoSession.Authenticate(string, string)
+  fullName: SuperOffice.SoSession.Authenticate(string, string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nAuthenticate a user using the CRM5 username and password; the username can also be a ticket string\n"
-  remarks: 'If password is not provided, or null, we will attempt to threat the <code data-dev-comment-type="paramref" class="paramref">user</code> parameter as a token: Ticket, access token, etc. '
+  summary: Authenticate a user using the CRM5 username and password; the username can also be a ticket string
+  remarks: 'If password is not provided, or null, we will attempt to threat the <code class="paramref">user</code> parameter as a token: Ticket, access token, etc.'
+  example: []
   syntax:
     content: public static SoSession Authenticate(string user, string password = null)
     parameters:
@@ -87,12 +155,9 @@ items:
       description: SoSession object representing the session if succeeded, and null if failed.
     content.vb: Public Shared Function Authenticate(user As String, password As String = Nothing) As SoSession
   overload: SuperOffice.SoSession.Authenticate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: SoSession.Authenticate(String, String)
+  fullName.vb: SuperOffice.SoSession.Authenticate(String, String)
+  name.vb: Authenticate(String, String)
 - uid: SuperOffice.SoSession.Authenticate(System.Security.Claims.ClaimsIdentity,System.Security.Claims.Claim[])
   commentId: M:SuperOffice.SoSession.Authenticate(System.Security.Claims.ClaimsIdentity,System.Security.Claims.Claim[])
   id: Authenticate(System.Security.Claims.ClaimsIdentity,System.Security.Claims.Claim[])
@@ -100,17 +165,15 @@ items:
   langs:
   - csharp
   - vb
-  name: Authenticate(ClaimsIdentity, Claim[])
-  nameWithType: SoSession.Authenticate(ClaimsIdentity, Claim[])
-  fullName: SuperOffice.SoSession.Authenticate(System.Security.Claims.ClaimsIdentity, System.Security.Claims.Claim[])
+  name: Authenticate(ClaimsIdentity, params Claim[])
+  nameWithType: SoSession.Authenticate(ClaimsIdentity, params Claim[])
+  fullName: SuperOffice.SoSession.Authenticate(System.Security.Claims.ClaimsIdentity, params System.Security.Claims.Claim[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nAuthenticate the user from an <xref href=\"System.Security.Claims.ClaimsIdentity\" data-throw-if-not-resolved=\"false\"></xref> object. \n"
+  summary: Authenticate the user from an <xref href="System.Security.Claims.ClaimsIdentity" data-throw-if-not-resolved="false"></xref> object.
+  example: []
   syntax:
     content: public static SoSession Authenticate(ClaimsIdentity identity, params Claim[] additionalClaims)
     parameters:
@@ -124,15 +187,9 @@ items:
       description: SoSession object representing the session if succeeded, and null if failed.
     content.vb: Public Shared Function Authenticate(identity As ClaimsIdentity, ParamArray additionalClaims As Claim()) As SoSession
   overload: SuperOffice.SoSession.Authenticate*
-  nameWithType.vb: SoSession.Authenticate(ClaimsIdentity, Claim())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.SoSession.Authenticate(System.Security.Claims.ClaimsIdentity, System.Security.Claims.Claim())
-  name.vb: Authenticate(ClaimsIdentity, Claim())
+  nameWithType.vb: SoSession.Authenticate(ClaimsIdentity, ParamArray Claim())
+  fullName.vb: SuperOffice.SoSession.Authenticate(System.Security.Claims.ClaimsIdentity, ParamArray System.Security.Claims.Claim())
+  name.vb: Authenticate(ClaimsIdentity, ParamArray Claim())
 - uid: SuperOffice.SoSession.Authenticate(SuperOffice.Security.Principal.SoCredentials)
   commentId: M:SuperOffice.SoSession.Authenticate(SuperOffice.Security.Principal.SoCredentials)
   id: Authenticate(SuperOffice.Security.Principal.SoCredentials)
@@ -144,13 +201,16 @@ items:
   nameWithType: SoSession.Authenticate(SoCredentials)
   fullName: SuperOffice.SoSession.Authenticate(SuperOffice.Security.Principal.SoCredentials)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nAuthenticate the user from an <xref href=\"SuperOffice.Security.Principal.SoCredentials\" data-throw-if-not-resolved=\"false\"></xref> object.  \nIf you are authenticating with WindowsAuthentication and not logged \nin as this user, a valid <xref href=\"System.Security.Principal.WindowsIdentity\" data-throw-if-not-resolved=\"false\"></xref> needs to be provided as well.\n"
+  summary: >-
+    Authenticate the user from an <xref href="SuperOffice.Security.Principal.SoCredentials" data-throw-if-not-resolved="false"></xref> object.  
+
+    If you are authenticating with WindowsAuthentication and not logged 
+
+    in as this user, a valid <xref href="System.Security.Principal.WindowsIdentity" data-throw-if-not-resolved="false"></xref> needs to be provided as well.
+  example: []
   syntax:
     content: public static SoSession Authenticate(SoCredentials credentials)
     parameters:
@@ -162,12 +222,6 @@ items:
       description: SoSession object representing the session if succeeded, and null if failed.
     content.vb: Public Shared Function Authenticate(credentials As SoCredentials) As SoSession
   overload: SuperOffice.SoSession.Authenticate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.SoSession.Authenticate(SuperOffice.Security.Principal.SoCredentials,System.Security.Principal.WindowsIdentity)
   commentId: M:SuperOffice.SoSession.Authenticate(SuperOffice.Security.Principal.SoCredentials,System.Security.Principal.WindowsIdentity)
   id: Authenticate(SuperOffice.Security.Principal.SoCredentials,System.Security.Principal.WindowsIdentity)
@@ -179,13 +233,11 @@ items:
   nameWithType: SoSession.Authenticate(SoCredentials, WindowsIdentity)
   fullName: SuperOffice.SoSession.Authenticate(SuperOffice.Security.Principal.SoCredentials, System.Security.Principal.WindowsIdentity)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nAuthenticate the user from an <xref href=\"SuperOffice.Security.Principal.SoCredentials\" data-throw-if-not-resolved=\"false\"></xref> object with a provided <xref href=\"System.Security.Principal.WindowsIdentity\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Authenticate the user from an <xref href="SuperOffice.Security.Principal.SoCredentials" data-throw-if-not-resolved="false"></xref> object with a provided <xref href="System.Security.Principal.WindowsIdentity" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public static SoSession Authenticate(SoCredentials credentials, WindowsIdentity identity)
     parameters:
@@ -197,14 +249,9 @@ items:
       description: <xref href="System.Security.Principal.WindowsIdentity" data-throw-if-not-resolved="false"></xref> backing up the <xref href="SuperOffice.Security.Principal.SoCredentials" data-throw-if-not-resolved="false"></xref>
     return:
       type: SuperOffice.SoSession
+      description: ''
     content.vb: Public Shared Function Authenticate(credentials As SoCredentials, identity As WindowsIdentity) As SoSession
   overload: SuperOffice.SoSession.Authenticate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.SoSession.Authenticate
   commentId: M:SuperOffice.SoSession.Authenticate
   id: Authenticate
@@ -216,90 +263,18 @@ items:
   nameWithType: SoSession.Authenticate()
   fullName: SuperOffice.SoSession.Authenticate()
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nAutehnticate the user based upon the currently loggged in windows user.\n"
+  summary: Autehnticate the user based upon the currently loggged in windows user.
+  example: []
   syntax:
     content: public static SoSession Authenticate()
     return:
       type: SuperOffice.SoSession
       description: SoSession object representing the session if succeeded, and null if failed.
-    content.vb: Public Shared Function Authenticate As SoSession
+    content.vb: Public Shared Function Authenticate() As SoSession
   overload: SuperOffice.SoSession.Authenticate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.SoSession.Continue(System.String)
-  commentId: M:SuperOffice.SoSession.Continue(System.String)
-  id: Continue(System.String)
-  parent: SuperOffice.SoSession
-  langs:
-  - csharp
-  - vb
-  name: Continue(String)
-  nameWithType: SoSession.Continue(String)
-  fullName: SuperOffice.SoSession.Continue(System.String)
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice
-  summary: "\nContinue a session that has ben suspended.\n"
-  syntax:
-    content: public static SoSession Continue(string state)
-    parameters:
-    - id: state
-      type: System.String
-      description: State as returned by the Suspend method
-    return:
-      type: SuperOffice.SoSession
-      description: SoSession object representing the session if succeeded, and null if failed.
-    content.vb: Public Shared Function Continue(state As String) As SoSession
-  overload: SuperOffice.SoSession.Continue*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.SoSession.Suspend
-  commentId: M:SuperOffice.SoSession.Suspend
-  id: Suspend
-  parent: SuperOffice.SoSession
-  langs:
-  - csharp
-  - vb
-  name: Suspend()
-  nameWithType: SoSession.Suspend()
-  fullName: SuperOffice.SoSession.Suspend()
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice
-  summary: "\nSuspend the session and retrieve a &quot;session-id&quot;\n"
-  syntax:
-    content: public string Suspend()
-    return:
-      type: System.String
-      description: '&quot;Session id&quot; or state of the current session.'
-    content.vb: Public Function Suspend As String
-  overload: SuperOffice.SoSession.Suspend*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.SoSession.Close
   commentId: M:SuperOffice.SoSession.Close
   id: Close
@@ -311,21 +286,15 @@ items:
   nameWithType: SoSession.Close()
   fullName: SuperOffice.SoSession.Close()
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nClose the session.\n"
+  summary: Close the session.
+  example: []
   syntax:
     content: public void Close()
-    content.vb: Public Sub Close
+    content.vb: Public Sub Close()
   overload: SuperOffice.SoSession.Close*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.SoSession.Dispose
   commentId: M:SuperOffice.SoSession.Dispose
   id: Dispose
@@ -337,21 +306,17 @@ items:
   nameWithType: SoSession.Dispose()
   fullName: SuperOffice.SoSession.Dispose()
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nDispose session by closing if still open\n"
+  summary: Dispose session by closing if still open
+  example: []
   syntax:
     content: public void Dispose()
-    content.vb: Public Sub Dispose
+    content.vb: Public Sub Dispose()
   overload: SuperOffice.SoSession.Dispose*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  implements:
+  - System.IDisposable.Dispose
 - uid: SuperOffice.SoSession.Principal
   commentId: P:SuperOffice.SoSession.Principal
   id: Principal
@@ -363,26 +328,18 @@ items:
   nameWithType: SoSession.Principal
   fullName: SuperOffice.SoSession.Principal
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nThe principal the session represents\n"
+  summary: The principal the session represents
+  example: []
   syntax:
-    content: public SoPrincipal Principal { get; }
+    content: public ClaimsPrincipal Principal { get; }
     parameters: []
     return:
-      type: SuperOffice.Security.Principal.SoPrincipal
-    content.vb: Public ReadOnly Property Principal As SoPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    content.vb: Public ReadOnly Property Principal As ClaimsPrincipal
   overload: SuperOffice.SoSession.Principal*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.SoSession.IsOpen
   commentId: P:SuperOffice.SoSession.IsOpen
   id: IsOpen
@@ -394,13 +351,11 @@ items:
   nameWithType: SoSession.IsOpen
   fullName: SuperOffice.SoSession.IsOpen
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nCheck if the session is active/open.\n"
+  summary: Check if the session is active/open.
+  example: []
   syntax:
     content: public bool IsOpen { get; }
     parameters: []
@@ -408,16 +363,61 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property IsOpen As Boolean
   overload: SuperOffice.SoSession.IsOpen*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 references:
+- uid: SuperOffice.SoSession.Authenticate
+  commentId: M:SuperOffice.SoSession.Authenticate
+  isExternal: true
+  href: SuperOffice.SoSession.html#SuperOffice_SoSession_Authenticate
+  name: Authenticate()
+  nameWithType: SoSession.Authenticate()
+  fullName: SuperOffice.SoSession.Authenticate()
+  spec.csharp:
+  - uid: SuperOffice.SoSession.Authenticate
+    name: Authenticate
+    isExternal: true
+    href: SuperOffice.SoSession.html#SuperOffice_SoSession_Authenticate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.SoSession.Authenticate
+    name: Authenticate
+    isExternal: true
+    href: SuperOffice.SoSession.html#SuperOffice_SoSession_Authenticate
+  - name: (
+  - name: )
+- uid: SuperOffice.SoSession.Close
+  commentId: M:SuperOffice.SoSession.Close
+  isExternal: true
+  href: SuperOffice.SoSession.html#SuperOffice_SoSession_Close
+  name: Close()
+  nameWithType: SoSession.Close()
+  fullName: SuperOffice.SoSession.Close()
+  spec.csharp:
+  - uid: SuperOffice.SoSession.Close
+    name: Close
+    isExternal: true
+    href: SuperOffice.SoSession.html#SuperOffice_SoSession_Close
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.SoSession.Close
+    name: Close
+    isExternal: true
+    href: SuperOffice.SoSession.html#SuperOffice_SoSession_Close
+  - name: (
+  - name: )
+- uid: SuperOffice.Security.Principal.SoCredentials
+  commentId: T:SuperOffice.Security.Principal.SoCredentials
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  href: SuperOffice.Security.Principal.SoCredentials.html
+  name: SoCredentials
+  nameWithType: SoCredentials
+  fullName: SuperOffice.Security.Principal.SoCredentials
 - uid: SuperOffice
   commentId: N:SuperOffice
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice
   nameWithType: SuperOffice
   fullName: SuperOffice
@@ -425,91 +425,370 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
 - uid: SuperOffice.SoSession.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<SoSession, To>()
-  nameWithType: EnumUtil.MapEnums<SoSession, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.SoSession, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of SoSession, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.SoSession, To)()
-  name.vb: MapEnums(Of SoSession, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<SoSession, To>(SoSession)
+  nameWithType: EnumUtil.MapEnums<SoSession, To>(SoSession)
+  fullName: EnumUtil.MapEnums<SuperOffice.SoSession, To>(SuperOffice.SoSession)
+  nameWithType.vb: EnumUtil.MapEnums(Of SoSession, To)(SoSession)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.SoSession, To)(SuperOffice.SoSession)
+  name.vb: MapEnums(Of SoSession, To)(SoSession)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<SoSession, To>
-    nameWithType: EnumUtil.MapEnums<SoSession, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.SoSession, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.SoSession)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.SoSession
+    name: SoSession
+    isExternal: true
+    href: SuperOffice.SoSession.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.SoSession
+    name: SoSession
+    isExternal: true
+    href: SuperOffice.SoSession.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of SoSession, To)
-    nameWithType: EnumUtil.MapEnums(Of SoSession, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.SoSession, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.SoSession)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.SoSession
+    name: SoSession
+    isExternal: true
+    href: SuperOffice.SoSession.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.SoSession
+    name: SoSession
+    isExternal: true
+    href: SuperOffice.SoSession.html
+  - name: )
 - uid: SuperOffice.SoSession.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<SoSession, To>()
-  nameWithType: Converters.MapEnums<SoSession, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.SoSession, To>()
-  nameWithType.vb: Converters.MapEnums(Of SoSession, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.SoSession, To)()
-  name.vb: MapEnums(Of SoSession, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<SoSession, To>(SoSession)
+  nameWithType: Converters.MapEnums<SoSession, To>(SoSession)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.SoSession, To>(SuperOffice.SoSession)
+  nameWithType.vb: Converters.MapEnums(Of SoSession, To)(SoSession)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.SoSession, To)(SuperOffice.SoSession)
+  name.vb: MapEnums(Of SoSession, To)(SoSession)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<SoSession, To>
-    nameWithType: Converters.MapEnums<SoSession, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.SoSession, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.SoSession)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.SoSession
+    name: SoSession
+    isExternal: true
+    href: SuperOffice.SoSession.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.SoSession
+    name: SoSession
+    isExternal: true
+    href: SuperOffice.SoSession.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of SoSession, To)
-    nameWithType: Converters.MapEnums(Of SoSession, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.SoSession, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.SoSession)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.SoSession
+    name: SoSession
+    isExternal: true
+    href: SuperOffice.SoSession.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.SoSession
+    name: SoSession
+    isExternal: true
+    href: SuperOffice.SoSession.html
+  - name: )
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Principal
+    name: Principal
+    isExternal: true
+    href: SuperOffice.Security.Principal.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Principal
+    name: Principal
+    isExternal: true
+    href: SuperOffice.Security.Principal.html
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -518,43 +797,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -563,50 +844,83 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.SoSession.Authenticate*
   commentId: Overload:SuperOffice.SoSession.Authenticate
   isExternal: true
+  href: SuperOffice.SoSession.html#SuperOffice_SoSession_Authenticate_System_String_System_String_
   name: Authenticate
   nameWithType: SoSession.Authenticate
   fullName: SuperOffice.SoSession.Authenticate
@@ -614,23 +928,32 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.SoSession
   commentId: T:SuperOffice.SoSession
   parent: SuperOffice
   isExternal: true
+  href: SuperOffice.SoSession.html
   name: SoSession
   nameWithType: SoSession
   fullName: SuperOffice.SoSession
 - uid: System.Security.Claims.ClaimsIdentity
+  commentId: T:System.Security.Claims.ClaimsIdentity
+  parent: System.Security.Claims
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
   name: ClaimsIdentity
   nameWithType: ClaimsIdentity
   fullName: System.Security.Claims.ClaimsIdentity
 - uid: System.Security.Claims.Claim[]
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.security.claims.claim
   name: Claim[]
   nameWithType: Claim[]
   fullName: System.Security.Claims.Claim[]
@@ -640,79 +963,154 @@ references:
   spec.csharp:
   - uid: System.Security.Claims.Claim
     name: Claim
-    nameWithType: Claim
-    fullName: System.Security.Claims.Claim
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claim
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Security.Claims.Claim
     name: Claim
-    nameWithType: Claim
-    fullName: System.Security.Claims.Claim
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.Security.Principal.SoCredentials
-  commentId: T:SuperOffice.Security.Principal.SoCredentials
-  parent: SuperOffice.Security.Principal
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claim
+  - name: (
+  - name: )
+- uid: System.Security.Claims
+  commentId: N:System.Security.Claims
   isExternal: true
-  name: SoCredentials
-  nameWithType: SoCredentials
-  fullName: SuperOffice.Security.Principal.SoCredentials
-- uid: SuperOffice.Security.Principal
-  commentId: N:SuperOffice.Security.Principal
-  isExternal: true
-  name: SuperOffice.Security.Principal
-  nameWithType: SuperOffice.Security.Principal
-  fullName: SuperOffice.Security.Principal
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Security.Claims
+  nameWithType: System.Security.Claims
+  fullName: System.Security.Claims
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Security
+    name: Security
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security
+  - name: .
+  - uid: System.Security.Claims
+    name: Claims
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Security
+    name: Security
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security
+  - name: .
+  - uid: System.Security.Claims
+    name: Claims
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims
 - uid: System.Security.Principal.WindowsIdentity
+  commentId: T:System.Security.Principal.WindowsIdentity
+  parent: System.Security.Principal
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.security.principal.windowsidentity
   name: WindowsIdentity
   nameWithType: WindowsIdentity
   fullName: System.Security.Principal.WindowsIdentity
-- uid: SuperOffice.SoSession.Continue*
-  commentId: Overload:SuperOffice.SoSession.Continue
+- uid: System.Security.Principal
+  commentId: N:System.Security.Principal
   isExternal: true
-  name: Continue
-  nameWithType: SoSession.Continue
-  fullName: SuperOffice.SoSession.Continue
-- uid: SuperOffice.SoSession.Suspend*
-  commentId: Overload:SuperOffice.SoSession.Suspend
-  isExternal: true
-  name: Suspend
-  nameWithType: SoSession.Suspend
-  fullName: SuperOffice.SoSession.Suspend
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Security.Principal
+  nameWithType: System.Security.Principal
+  fullName: System.Security.Principal
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Security
+    name: Security
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security
+  - name: .
+  - uid: System.Security.Principal
+    name: Principal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.principal
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Security
+    name: Security
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security
+  - name: .
+  - uid: System.Security.Principal
+    name: Principal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.principal
 - uid: SuperOffice.SoSession.Close*
   commentId: Overload:SuperOffice.SoSession.Close
   isExternal: true
+  href: SuperOffice.SoSession.html#SuperOffice_SoSession_Close
   name: Close
   nameWithType: SoSession.Close
   fullName: SuperOffice.SoSession.Close
 - uid: SuperOffice.SoSession.Dispose*
   commentId: Overload:SuperOffice.SoSession.Dispose
   isExternal: true
+  href: SuperOffice.SoSession.html#SuperOffice_SoSession_Dispose
   name: Dispose
   nameWithType: SoSession.Dispose
   fullName: SuperOffice.SoSession.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
 - uid: SuperOffice.SoSession.Principal*
   commentId: Overload:SuperOffice.SoSession.Principal
   isExternal: true
+  href: SuperOffice.SoSession.html#SuperOffice_SoSession_Principal
   name: Principal
   nameWithType: SoSession.Principal
   fullName: SuperOffice.SoSession.Principal
-- uid: SuperOffice.Security.Principal.SoPrincipal
-  commentId: T:SuperOffice.Security.Principal.SoPrincipal
-  parent: SuperOffice.Security.Principal
+- uid: System.Security.Claims.ClaimsPrincipal
+  commentId: T:System.Security.Claims.ClaimsPrincipal
+  parent: System.Security.Claims
   isExternal: true
-  name: SoPrincipal
-  nameWithType: SoPrincipal
-  fullName: SuperOffice.Security.Principal.SoPrincipal
+  href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsprincipal
+  name: ClaimsPrincipal
+  nameWithType: ClaimsPrincipal
+  fullName: System.Security.Claims.ClaimsPrincipal
 - uid: SuperOffice.SoSession.IsOpen*
   commentId: Overload:SuperOffice.SoSession.IsOpen
   isExternal: true
+  href: SuperOffice.SoSession.html#SuperOffice_SoSession_IsOpen
   name: IsOpen
   nameWithType: SoSession.IsOpen
   fullName: SuperOffice.SoSession.IsOpen
@@ -720,6 +1118,10 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

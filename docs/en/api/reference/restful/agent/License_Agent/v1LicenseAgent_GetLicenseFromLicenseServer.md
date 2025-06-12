@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Herman-Harris"
+  "OwnerName": "Leffler, Spencer and O'Reilly"
 }
 ```
 
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "exploit revolutionary experiences",
+  "Reason": "",
   "CanBeActivated": false,
   "New": null,
   "Current": null,
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 162,
-      "NumberOfLicensesFree": 150,
-      "NumberOfLicensesAdded": 920,
-      "NumberOfLicensesNewTotal": 43,
-      "NumberOfLicensesNewFree": 901,
-      "NumberOfLicensesTotal": 475
+      "NumberOfLicensesInUse": 360,
+      "NumberOfLicensesFree": 238,
+      "NumberOfLicensesAdded": 359,
+      "NumberOfLicensesNewTotal": 564,
+      "NumberOfLicensesNewFree": 359,
+      "NumberOfLicensesTotal": 507
     }
   ],
-  "AccumulatedNextCheckDate": "2021-11-25T16:32:39.180141+01:00"
+  "AccumulatedNextCheckDate": "2024-12-16T17:54:03.1795788+01:00"
 }
 ```

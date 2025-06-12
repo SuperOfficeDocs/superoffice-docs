@@ -18,31 +18,40 @@ items:
   nameWithType: TargetChange
   fullName: SuperOffice.CRM.Services.TargetChange
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTarget field change\n<p></p>\nCarrier object for TargetChange.\nServices for the TargetChange Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ITargetsAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Target field change
+
+    <p></p>
+
+    Carrier object for TargetChange.
+
+    Services for the TargetChange Carrier is available from the <xref href="SuperOffice.CRM.Services.ITargetsAgent?text=Targets+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class TargetChange : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class TargetChange : Carrier
     content.vb: >-
-      Public Class TargetChange
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class TargetChange Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.TargetsAgent
-    commentId: T:SuperOffice.CRM.Services.TargetsAgent
   - linkId: SuperOffice.CRM.Services.ITargetsAgent
     commentId: T:SuperOffice.CRM.Services.ITargetsAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.TargetChange.#ctor
   commentId: M:SuperOffice.CRM.Services.TargetChange.#ctor
   id: '#ctor'
@@ -54,21 +63,18 @@ items:
   nameWithType: TargetChange.TargetChange()
   fullName: SuperOffice.CRM.Services.TargetChange.TargetChange()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public TargetChange()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.TargetChange.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: TargetChange.New()
+  fullName.vb: SuperOffice.CRM.Services.TargetChange.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.TargetChange.ToString
   commentId: M:SuperOffice.CRM.Services.TargetChange.ToString
   id: ToString
@@ -80,26 +86,18 @@ items:
   nameWithType: TargetChange.ToString()
   fullName: SuperOffice.CRM.Services.TargetChange.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.TargetChange.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.TargetChange.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.TargetChange.ToString(System.String)
   id: ToString(System.String)
@@ -107,17 +105,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: TargetChange.ToString(String)
-  fullName: SuperOffice.CRM.Services.TargetChange.ToString(System.String)
+  name: ToString(string)
+  nameWithType: TargetChange.ToString(string)
+  fullName: SuperOffice.CRM.Services.TargetChange.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -129,10 +128,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.TargetChange.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: TargetChange.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.TargetChange.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.TargetChange.FieldIdentifier
   commentId: P:SuperOffice.CRM.Services.TargetChange.FieldIdentifier
   id: FieldIdentifier
@@ -144,28 +142,28 @@ items:
   nameWithType: TargetChange.FieldIdentifier
   fullName: SuperOffice.CRM.Services.TargetChange.FieldIdentifier
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nWhat field was changed - target_group.period_type or target_assignment_value.month01.target_value or target_assignment_value.quarter01.target_value etc. \n"
+  summary: What field was changed - target_group.period_type or target_assignment_value.month01.target_value or target_assignment_value.quarter01.target_value etc.
+  example: []
   syntax:
-    content: public virtual string FieldIdentifier { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string FieldIdentifier { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property FieldIdentifier As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FieldIdentifier As String
   overload: SuperOffice.CRM.Services.TargetChange.FieldIdentifier*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TargetChange.ValueChangeFrom
   commentId: P:SuperOffice.CRM.Services.TargetChange.ValueChangeFrom
   id: ValueChangeFrom
@@ -177,28 +175,28 @@ items:
   nameWithType: TargetChange.ValueChangeFrom
   fullName: SuperOffice.CRM.Services.TargetChange.ValueChangeFrom
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPrevious value \n"
+  summary: Previous value
+  example: []
   syntax:
-    content: public virtual double ValueChangeFrom { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual double ValueChangeFrom { get; set; }
     parameters: []
     return:
       type: System.Double
-    content.vb: Public Overridable Property ValueChangeFrom As Double
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ValueChangeFrom As Double
   overload: SuperOffice.CRM.Services.TargetChange.ValueChangeFrom*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TargetChange.ValueChangeTo
   commentId: P:SuperOffice.CRM.Services.TargetChange.ValueChangeTo
   id: ValueChangeTo
@@ -210,57 +208,106 @@ items:
   nameWithType: TargetChange.ValueChangeTo
   fullName: SuperOffice.CRM.Services.TargetChange.ValueChangeTo
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nNew value \n"
+  summary: New value
+  example: []
   syntax:
-    content: public virtual double ValueChangeTo { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual double ValueChangeTo { get; set; }
     parameters: []
     return:
       type: System.Double
-    content.vb: Public Overridable Property ValueChangeTo As Double
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ValueChangeTo As Double
   overload: SuperOffice.CRM.Services.TargetChange.ValueChangeTo*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.TargetsAgent
-  commentId: T:SuperOffice.CRM.Services.TargetsAgent
-  isExternal: true
-  name: TargetsAgent
-  nameWithType: TargetsAgent
-  fullName: SuperOffice.CRM.Services.TargetsAgent
 - uid: SuperOffice.CRM.Services.ITargetsAgent
   commentId: T:SuperOffice.CRM.Services.ITargetsAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.ITargetsAgent.html
   name: ITargetsAgent
   nameWithType: ITargetsAgent
   fullName: SuperOffice.CRM.Services.ITargetsAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.TargetChange.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.TargetChange.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.TargetChange.html#SuperOffice_CRM_Services_TargetChange__ctor
   name: TargetChange
   nameWithType: TargetChange.TargetChange
   fullName: SuperOffice.CRM.Services.TargetChange.TargetChange
+  nameWithType.vb: TargetChange.New
+  fullName.vb: SuperOffice.CRM.Services.TargetChange.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.TargetChange.ToString*
   commentId: Overload:SuperOffice.CRM.Services.TargetChange.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.TargetChange.html#SuperOffice_CRM_Services_TargetChange_ToString
   name: ToString
   nameWithType: TargetChange.ToString
   fullName: SuperOffice.CRM.Services.TargetChange.ToString
@@ -268,24 +315,24 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.TargetChange.FieldIdentifier*
   commentId: Overload:SuperOffice.CRM.Services.TargetChange.FieldIdentifier
   isExternal: true
+  href: SuperOffice.CRM.Services.TargetChange.html#SuperOffice_CRM_Services_TargetChange_FieldIdentifier
   name: FieldIdentifier
   nameWithType: TargetChange.FieldIdentifier
   fullName: SuperOffice.CRM.Services.TargetChange.FieldIdentifier
 - uid: SuperOffice.CRM.Services.TargetChange.ValueChangeFrom*
   commentId: Overload:SuperOffice.CRM.Services.TargetChange.ValueChangeFrom
   isExternal: true
+  href: SuperOffice.CRM.Services.TargetChange.html#SuperOffice_CRM_Services_TargetChange_ValueChangeFrom
   name: ValueChangeFrom
   nameWithType: TargetChange.ValueChangeFrom
   fullName: SuperOffice.CRM.Services.TargetChange.ValueChangeFrom
@@ -293,12 +340,17 @@ references:
   commentId: T:System.Double
   parent: System
   isExternal: true
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
 - uid: SuperOffice.CRM.Services.TargetChange.ValueChangeTo*
   commentId: Overload:SuperOffice.CRM.Services.TargetChange.ValueChangeTo
   isExternal: true
+  href: SuperOffice.CRM.Services.TargetChange.html#SuperOffice_CRM_Services_TargetChange_ValueChangeTo
   name: ValueChangeTo
   nameWithType: TargetChange.ValueChangeTo
   fullName: SuperOffice.CRM.Services.TargetChange.ValueChangeTo

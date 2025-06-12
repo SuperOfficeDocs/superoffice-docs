@@ -27,7 +27,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=dolor
+GET /api/v1/List/ProductCategory/MDOItems?query=odio
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 360,
-    "Name": "Leuschke, Trantow and Mertz",
-    "ToolTip": "Tempore sunt cupiditate eligendi fugiat laborum expedita.",
-    "Deleted": false,
-    "Rank": 4,
-    "Type": "nihil",
+    "Id": 767,
+    "Name": "Tremblay, Hodkiewicz and Walker",
+    "ToolTip": "Facilis dolorem dolore fugiat quo voluptate.",
+    "Deleted": true,
+    "Rank": 60,
+    "Type": "ipsum",
     "ChildItems": [
       {
-        "Id": 774,
-        "Name": "Leuschke-Lubowitz",
-        "ToolTip": "Consequatur facere consequatur.",
+        "Id": 749,
+        "Name": "O'Conner Group",
+        "ToolTip": "Voluptate et voluptates facere voluptatem.",
         "Deleted": false,
-        "Rank": 354,
-        "Type": "molestiae",
+        "Rank": 448,
+        "Type": "deserunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "necessitatibus",
-        "ColorBlock": 462,
-        "ExtraInfo": "vero",
-        "StyleHint": "sit",
-        "FullName": "Tracy Mosciski",
+        "IconHint": "laborum",
+        "ColorBlock": 972,
+        "ExtraInfo": "quod",
+        "StyleHint": "vero",
+        "FullName": "Neha O'Kon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 402
+            "FieldType": "System.Int32",
+            "FieldLength": 72
           }
         }
       }
     ],
-    "IconHint": "tempora",
-    "ColorBlock": 68,
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "laborum",
-    "FullName": "Leonie Bode",
+    "IconHint": "inventore",
+    "ColorBlock": 90,
+    "ExtraInfo": "est",
+    "StyleHint": "quia",
+    "FullName": "Cole Carter DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 939
+        "FieldType": "System.Int32",
+        "FieldLength": 336
       }
     }
   }

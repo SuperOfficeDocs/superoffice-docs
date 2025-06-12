@@ -13,27 +13,20 @@ items:
   nameWithType: ISentryPluginQueryTableUpdater
   fullName: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater
   type: Interface
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: "\nInterface that has to be implemented by sentry plug-in query table updater for one particular table \nin order to modify queries sent to the database.\n"
+  summary: >-
+    Interface that has to be implemented by sentry plug-in query table updater for one particular table 
+
+    in order to modify queries sent to the database.
+  example: []
   syntax:
-    content: 'public interface ISentryPluginQueryTableUpdater : IPlugin'
-    content.vb: >-
-      Public Interface ISentryPluginQueryTableUpdater
-          Inherits IPlugin
+    content: public interface ISentryPluginQueryTableUpdater
+    content.vb: Public Interface ISentryPluginQueryTableUpdater
   extensionMethods:
   - SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
 - uid: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater.ModifySelect(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater.ModifySelect(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo)
   id: ModifySelect(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo)
@@ -45,13 +38,11 @@ items:
   nameWithType: ISentryPluginQueryTableUpdater.ModifySelect(Select, TableInfo)
   fullName: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater.ModifySelect(SuperOffice.Data.SQL.Select, SuperOffice.Data.SQL.TableInfo)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: "\nModify the given select, viewing the given table info as the &apos;main table&apos; of the query\n"
+  summary: Modify the given select, viewing the given table info as the 'main table' of the query
+  example: []
   syntax:
     content: void ModifySelect(Select sql, TableInfo tableInfo)
     parameters:
@@ -61,86 +52,156 @@ items:
     - id: tableInfo
       type: SuperOffice.Data.SQL.TableInfo
       description: Main table of query
-    content.vb: Sub ModifySelect(sql As  Select, tableInfo As TableInfo)
+    content.vb: Sub ModifySelect(sql As [Select], tableInfo As TableInfo)
   overload: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater.ModifySelect*
 references:
 - uid: SuperOffice.CRM.Security
   commentId: N:SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Security
   nameWithType: SuperOffice.CRM.Security
   fullName: SuperOffice.CRM.Security
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.CRM.Security.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.CRM.Security.html
 - uid: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ISentryPluginQueryTableUpdater, To>()
-  nameWithType: EnumUtil.MapEnums<ISentryPluginQueryTableUpdater, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ISentryPluginQueryTableUpdater, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater, To)()
-  name.vb: MapEnums(Of ISentryPluginQueryTableUpdater, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ISentryPluginQueryTableUpdater, To>(ISentryPluginQueryTableUpdater)
+  nameWithType: EnumUtil.MapEnums<ISentryPluginQueryTableUpdater, To>(ISentryPluginQueryTableUpdater)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater, To>(SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater)
+  nameWithType.vb: EnumUtil.MapEnums(Of ISentryPluginQueryTableUpdater, To)(ISentryPluginQueryTableUpdater)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater, To)(SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater)
+  name.vb: MapEnums(Of ISentryPluginQueryTableUpdater, To)(ISentryPluginQueryTableUpdater)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ISentryPluginQueryTableUpdater, To>
-    nameWithType: EnumUtil.MapEnums<ISentryPluginQueryTableUpdater, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater
+    name: ISentryPluginQueryTableUpdater
+    isExternal: true
+    href: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater
+    name: ISentryPluginQueryTableUpdater
+    isExternal: true
+    href: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ISentryPluginQueryTableUpdater, To)
-    nameWithType: EnumUtil.MapEnums(Of ISentryPluginQueryTableUpdater, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater
+    name: ISentryPluginQueryTableUpdater
+    isExternal: true
+    href: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater
+    name: ISentryPluginQueryTableUpdater
+    isExternal: true
+    href: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater.html
+  - name: )
 - uid: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ISentryPluginQueryTableUpdater, To>()
-  nameWithType: Converters.MapEnums<ISentryPluginQueryTableUpdater, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater, To>()
-  nameWithType.vb: Converters.MapEnums(Of ISentryPluginQueryTableUpdater, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater, To)()
-  name.vb: MapEnums(Of ISentryPluginQueryTableUpdater, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ISentryPluginQueryTableUpdater, To>(ISentryPluginQueryTableUpdater)
+  nameWithType: Converters.MapEnums<ISentryPluginQueryTableUpdater, To>(ISentryPluginQueryTableUpdater)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater, To>(SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater)
+  nameWithType.vb: Converters.MapEnums(Of ISentryPluginQueryTableUpdater, To)(ISentryPluginQueryTableUpdater)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater, To)(SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater)
+  name.vb: MapEnums(Of ISentryPluginQueryTableUpdater, To)(ISentryPluginQueryTableUpdater)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ISentryPluginQueryTableUpdater, To>
-    nameWithType: Converters.MapEnums<ISentryPluginQueryTableUpdater, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater
+    name: ISentryPluginQueryTableUpdater
+    isExternal: true
+    href: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater
+    name: ISentryPluginQueryTableUpdater
+    isExternal: true
+    href: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ISentryPluginQueryTableUpdater, To)
-    nameWithType: Converters.MapEnums(Of ISentryPluginQueryTableUpdater, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater
+    name: ISentryPluginQueryTableUpdater
+    isExternal: true
+    href: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater
+    name: ISentryPluginQueryTableUpdater
+    isExternal: true
+    href: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater.html
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -149,43 +210,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -194,50 +257,83 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater.ModifySelect*
   commentId: Overload:SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater.ModifySelect
   isExternal: true
+  href: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater.html#SuperOffice_CRM_Security_ISentryPluginQueryTableUpdater_ModifySelect_SuperOffice_Data_SQL_Select_SuperOffice_Data_SQL_TableInfo_
   name: ModifySelect
   nameWithType: ISentryPluginQueryTableUpdater.ModifySelect
   fullName: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater.ModifySelect
@@ -245,6 +341,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.Select
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.Select.html
   name: Select
   nameWithType: Select
   fullName: SuperOffice.Data.SQL.Select
@@ -252,12 +349,44 @@ references:
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html

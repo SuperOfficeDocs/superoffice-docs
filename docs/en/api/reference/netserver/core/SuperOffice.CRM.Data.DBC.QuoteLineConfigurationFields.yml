@@ -27,27 +27,24 @@ items:
   nameWithType: DBC.QuoteLineConfigurationFields
   fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nFields for QuoteLineConfiguration, Configuration of quote lines - which fields are in use, rights, labels etc\n"
+  summary: Fields for QuoteLineConfiguration, Configuration of quote lines - which fields are in use, rights, labels etc
+  example: []
   syntax:
-    content: 'public static class QuoteLineConfigurationFields : Object'
-    content.vb: >-
-      Public Module QuoteLineConfigurationFields
-          Inherits Object
+    content: public static class DBC.QuoteLineConfigurationFields
+    content.vb: Public Module DBC.QuoteLineConfigurationFields
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.QuoteLineConfigurationId
   commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.QuoteLineConfigurationId
   id: QuoteLineConfigurationId
@@ -59,24 +56,16 @@ items:
   nameWithType: DBC.QuoteLineConfigurationFields.QuoteLineConfigurationId
   fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.QuoteLineConfigurationId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nQuoteLineConfiguration.QuoteLineConfigurationId: Primary key\n"
+  summary: 'QuoteLineConfiguration.QuoteLineConfigurationId: Primary key'
+  example: []
   syntax:
     content: public const string QuoteLineConfigurationId = "quotelineconfiguration_id"
     return:
       type: System.String
     content.vb: Public Const QuoteLineConfigurationId As String = "quotelineconfiguration_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.FieldName
   commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.FieldName
   id: FieldName
@@ -88,24 +77,16 @@ items:
   nameWithType: DBC.QuoteLineConfigurationFields.FieldName
   fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.FieldName
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nQuoteLineConfiguration.FieldName: The name of the field being configured, from data dictionary\n"
+  summary: 'QuoteLineConfiguration.FieldName: The name of the field being configured, from data dictionary'
+  example: []
   syntax:
     content: public const string FieldName = "FieldName"
     return:
       type: System.String
     content.vb: Public Const FieldName As String = "FieldName"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.LabelRes
   commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.LabelRes
   id: LabelRes
@@ -117,24 +98,16 @@ items:
   nameWithType: DBC.QuoteLineConfigurationFields.LabelRes
   fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.LabelRes
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nQuoteLineConfiguration.LabelRes: The name of the label resource, without square brackets\n"
+  summary: 'QuoteLineConfiguration.LabelRes: The name of the label resource, without square brackets'
+  example: []
   syntax:
     content: public const string LabelRes = "LabelRes"
     return:
       type: System.String
     content.vb: Public Const LabelRes As String = "LabelRes"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.TooltipRes
   commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.TooltipRes
   id: TooltipRes
@@ -146,24 +119,16 @@ items:
   nameWithType: DBC.QuoteLineConfigurationFields.TooltipRes
   fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.TooltipRes
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nQuoteLineConfiguration.TooltipRes: The name of the tooltip/description resource, without square brackets\n"
+  summary: 'QuoteLineConfiguration.TooltipRes: The name of the tooltip/description resource, without square brackets'
+  example: []
   syntax:
     content: public const string TooltipRes = "TooltipRes"
     return:
       type: System.String
     content.vb: Public Const TooltipRes As String = "TooltipRes"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.InUse
   commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.InUse
   id: InUse
@@ -175,24 +140,16 @@ items:
   nameWithType: DBC.QuoteLineConfigurationFields.InUse
   fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.InUse
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nQuoteLineConfiguration.InUse: Is this field in use (visible)\n"
+  summary: 'QuoteLineConfiguration.InUse: Is this field in use (visible)'
+  example: []
   syntax:
     content: public const string InUse = "InUse"
     return:
       type: System.String
     content.vb: Public Const InUse As String = "InUse"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Mandatory
   commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Mandatory
   id: Mandatory
@@ -204,24 +161,16 @@ items:
   nameWithType: DBC.QuoteLineConfigurationFields.Mandatory
   fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Mandatory
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nQuoteLineConfiguration.Mandatory: Is this field mandatory (must have a value\n"
+  summary: 'QuoteLineConfiguration.Mandatory: Is this field mandatory (must have a value'
+  example: []
   syntax:
     content: public const string Mandatory = "Mandatory"
     return:
       type: System.String
     content.vb: Public Const Mandatory As String = "Mandatory"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Editable
   commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Editable
   id: Editable
@@ -233,24 +182,16 @@ items:
   nameWithType: DBC.QuoteLineConfigurationFields.Editable
   fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Editable
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nQuoteLineConfiguration.Editable: Is this field editable, as opposed to read-only\n"
+  summary: 'QuoteLineConfiguration.Editable: Is this field editable, as opposed to read-only'
+  example: []
   syntax:
     content: public const string Editable = "Editable"
     return:
       type: System.String
     content.vb: Public Const Editable As String = "Editable"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Rank
   commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Rank
   id: Rank
@@ -262,24 +203,16 @@ items:
   nameWithType: DBC.QuoteLineConfigurationFields.Rank
   fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Rank
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nQuoteLineConfiguration.Rank: Rank order of configuration lines\n"
+  summary: 'QuoteLineConfiguration.Rank: Rank order of configuration lines'
+  example: []
   syntax:
     content: public const string Rank = "Rank"
     return:
       type: System.String
     content.vb: Public Const Rank As String = "Rank"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.PreventHide
   commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.PreventHide
   id: PreventHide
@@ -291,24 +224,16 @@ items:
   nameWithType: DBC.QuoteLineConfigurationFields.PreventHide
   fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.PreventHide
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nQuoteLineConfiguration.PreventHide: If true, then this field cannot be hidden from the GUI\n"
+  summary: 'QuoteLineConfiguration.PreventHide: If true, then this field cannot be hidden from the GUI'
+  example: []
   syntax:
     content: public const string PreventHide = "PreventHide"
     return:
       type: System.String
     content.vb: Public Const PreventHide As String = "PreventHide"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.RestrictEdit
   commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.RestrictEdit
   id: RestrictEdit
@@ -320,24 +245,16 @@ items:
   nameWithType: DBC.QuoteLineConfigurationFields.RestrictEdit
   fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.RestrictEdit
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nQuoteLineConfiguration.RestrictEdit: If true, then this field cannot be set readwrite or mandatory: It&apos;s bound to be readonly\n"
+  summary: "QuoteLineConfiguration.RestrictEdit: If true, then this field cannot be set readwrite or mandatory: It's bound to be readonly"
+  example: []
   syntax:
     content: public const string RestrictEdit = "RestrictEdit"
     return:
       type: System.String
     content.vb: Public Const RestrictEdit As String = "RestrictEdit"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Registered
   commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Registered
   id: Registered
@@ -349,24 +266,16 @@ items:
   nameWithType: DBC.QuoteLineConfigurationFields.Registered
   fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Registered
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nQuoteLineConfiguration.Registered: Registered when\n"
+  summary: 'QuoteLineConfiguration.Registered: Registered when'
+  example: []
   syntax:
     content: public const string Registered = "registered"
     return:
       type: System.String
     content.vb: Public Const Registered As String = "registered"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -378,24 +287,16 @@ items:
   nameWithType: DBC.QuoteLineConfigurationFields.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.RegisteredAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nQuoteLineConfiguration.RegisteredAssociateId: Registered by whom\n"
+  summary: 'QuoteLineConfiguration.RegisteredAssociateId: Registered by whom'
+  example: []
   syntax:
     content: public const string RegisteredAssociateId = "registered_associate_id"
     return:
       type: System.String
     content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Updated
   commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Updated
   id: Updated
@@ -407,24 +308,16 @@ items:
   nameWithType: DBC.QuoteLineConfigurationFields.Updated
   fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Updated
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nQuoteLineConfiguration.Updated: Last updated when\n"
+  summary: 'QuoteLineConfiguration.Updated: Last updated when'
+  example: []
   syntax:
     content: public const string Updated = "updated"
     return:
       type: System.String
     content.vb: Public Const Updated As String = "updated"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -436,24 +329,16 @@ items:
   nameWithType: DBC.QuoteLineConfigurationFields.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.UpdatedAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nQuoteLineConfiguration.UpdatedAssociateId: Last updated by whom\n"
+  summary: 'QuoteLineConfiguration.UpdatedAssociateId: Last updated by whom'
+  example: []
   syntax:
     content: public const string UpdatedAssociateId = "updated_associate_id"
     return:
       type: System.String
     content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.UpdatedCount
   commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.UpdatedCount
   id: UpdatedCount
@@ -465,41 +350,288 @@ items:
   nameWithType: DBC.QuoteLineConfigurationFields.UpdatedCount
   fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.UpdatedCount
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nQuoteLineConfiguration.UpdatedCount: Number of updates made to this record\n"
+  summary: 'QuoteLineConfiguration.UpdatedCount: Number of updates made to this record'
+  example: []
   syntax:
     content: public const string UpdatedCount = "updatedCount"
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -507,6 +639,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

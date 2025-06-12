@@ -67,24 +67,24 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ipsum",
-  "ProviderName": "Schaefer-Kuvalis",
-  "StorageKey": "debitis",
+  "StorageType": "id",
+  "ProviderName": "Quigley-Bradtke",
+  "StorageKey": "rerum",
   "Restrictions": [
     {
-      "Name": "Paucek Inc and Sons",
-      "Operator": "provident",
+      "Name": "Champlin Group",
+      "Operator": "sequi",
       "Values": [
-        "nisi",
-        "qui"
+        "ea",
+        "et"
       ],
       "DisplayValues": [
-        "incidunt",
-        "tempora"
+        "deleniti",
+        "debitis"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -92,9 +92,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 773,
+      "InterParenthesis": 244,
       "InterOperator": "And",
-      "UniqueHash": 959
+      "UniqueHash": 294
     }
   ]
 }

@@ -14,33 +14,35 @@ items:
   nameWithType: TemporaryFeatureToggle
   fullName: SuperOffice.Util.TemporaryFeatureToggle
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Util
-  summary: "\nForce a given FeatureToggle to the desired state, cleanup on Dispose\n"
-  remarks: "\n<seealso cref=\"!:TemporaryFunctionRight\"></seealso>\n<seealso cref=\"!:TemporaryModuleLicense\"></seealso>\n<xref href=\"SuperOffice.Util.TemporaryConfigOverride\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  summary: Force a given FeatureToggle to the desired state, cleanup on Dispose
+  remarks: >-
+    TemporaryFunctionRight
+
+    TemporaryModuleLicense
+
+    <xref href="SuperOffice.Util.TemporaryConfigOverride" data-throw-if-not-resolved="false"></xref>
+  example: []
   syntax:
-    content: 'public class TemporaryFeatureToggle : Object, IDisposable'
-    content.vb: >-
-      Public Class TemporaryFeatureToggle
-          Inherits Object
-          Implements IDisposable
+    content: 'public class TemporaryFeatureToggle : IDisposable'
+    content.vb: Public Class TemporaryFeatureToggle Implements IDisposable
   inheritance:
   - System.Object
   implements:
   - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Util.TemporaryFeatureToggle.EnumUtil.MapEnums``2
   - SuperOffice.Util.TemporaryFeatureToggle.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.Util.TemporaryFeatureToggle.#ctor(System.String,System.Boolean)
   commentId: M:SuperOffice.Util.TemporaryFeatureToggle.#ctor(System.String,System.Boolean)
   id: '#ctor(System.String,System.Boolean)'
@@ -48,15 +50,12 @@ items:
   langs:
   - csharp
   - vb
-  name: TemporaryFeatureToggle(String, Boolean)
-  nameWithType: TemporaryFeatureToggle.TemporaryFeatureToggle(String, Boolean)
-  fullName: SuperOffice.Util.TemporaryFeatureToggle.TemporaryFeatureToggle(System.String, System.Boolean)
+  name: TemporaryFeatureToggle(string, bool)
+  nameWithType: TemporaryFeatureToggle.TemporaryFeatureToggle(string, bool)
+  fullName: SuperOffice.Util.TemporaryFeatureToggle.TemporaryFeatureToggle(string, bool)
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Util
   syntax:
     content: public TemporaryFeatureToggle(string name, bool enabled = true)
@@ -67,10 +66,9 @@ items:
       type: System.Boolean
     content.vb: Public Sub New(name As String, enabled As Boolean = True)
   overload: SuperOffice.Util.TemporaryFeatureToggle.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: TemporaryFeatureToggle.New(String, Boolean)
+  fullName.vb: SuperOffice.Util.TemporaryFeatureToggle.New(String, Boolean)
+  name.vb: New(String, Boolean)
 - uid: SuperOffice.Util.TemporaryFeatureToggle.Dispose
   commentId: M:SuperOffice.Util.TemporaryFeatureToggle.Dispose
   id: Dispose
@@ -82,116 +80,406 @@ items:
   nameWithType: TemporaryFeatureToggle.Dispose()
   fullName: SuperOffice.Util.TemporaryFeatureToggle.Dispose()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Util
+  example: []
   syntax:
     content: public void Dispose()
-    content.vb: Public Sub Dispose
+    content.vb: Public Sub Dispose()
   overload: SuperOffice.Util.TemporaryFeatureToggle.Dispose*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  implements:
+  - System.IDisposable.Dispose
 references:
+- uid: SuperOffice.Util.TemporaryConfigOverride
+  commentId: T:SuperOffice.Util.TemporaryConfigOverride
+  isExternal: true
+  href: SuperOffice.Util.TemporaryConfigOverride.html
+  name: TemporaryConfigOverride
+  nameWithType: TemporaryConfigOverride
+  fullName: SuperOffice.Util.TemporaryConfigOverride
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.Util.TemporaryFeatureToggle.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<TemporaryFeatureToggle, To>()
-  nameWithType: EnumUtil.MapEnums<TemporaryFeatureToggle, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Util.TemporaryFeatureToggle, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of TemporaryFeatureToggle, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.TemporaryFeatureToggle, To)()
-  name.vb: MapEnums(Of TemporaryFeatureToggle, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<TemporaryFeatureToggle, To>(TemporaryFeatureToggle)
+  nameWithType: EnumUtil.MapEnums<TemporaryFeatureToggle, To>(TemporaryFeatureToggle)
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.TemporaryFeatureToggle, To>(SuperOffice.Util.TemporaryFeatureToggle)
+  nameWithType.vb: EnumUtil.MapEnums(Of TemporaryFeatureToggle, To)(TemporaryFeatureToggle)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.TemporaryFeatureToggle, To)(SuperOffice.Util.TemporaryFeatureToggle)
+  name.vb: MapEnums(Of TemporaryFeatureToggle, To)(TemporaryFeatureToggle)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<TemporaryFeatureToggle, To>
-    nameWithType: EnumUtil.MapEnums<TemporaryFeatureToggle, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Util.TemporaryFeatureToggle, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.TemporaryFeatureToggle)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.TemporaryFeatureToggle
+    name: TemporaryFeatureToggle
+    isExternal: true
+    href: SuperOffice.Util.TemporaryFeatureToggle.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Util.TemporaryFeatureToggle
+    name: TemporaryFeatureToggle
+    isExternal: true
+    href: SuperOffice.Util.TemporaryFeatureToggle.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of TemporaryFeatureToggle, To)
-    nameWithType: EnumUtil.MapEnums(Of TemporaryFeatureToggle, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.TemporaryFeatureToggle, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.TemporaryFeatureToggle)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.TemporaryFeatureToggle
+    name: TemporaryFeatureToggle
+    isExternal: true
+    href: SuperOffice.Util.TemporaryFeatureToggle.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Util.TemporaryFeatureToggle
+    name: TemporaryFeatureToggle
+    isExternal: true
+    href: SuperOffice.Util.TemporaryFeatureToggle.html
+  - name: )
 - uid: SuperOffice.Util.TemporaryFeatureToggle.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<TemporaryFeatureToggle, To>()
-  nameWithType: Converters.MapEnums<TemporaryFeatureToggle, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.TemporaryFeatureToggle, To>()
-  nameWithType.vb: Converters.MapEnums(Of TemporaryFeatureToggle, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.TemporaryFeatureToggle, To)()
-  name.vb: MapEnums(Of TemporaryFeatureToggle, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<TemporaryFeatureToggle, To>(TemporaryFeatureToggle)
+  nameWithType: Converters.MapEnums<TemporaryFeatureToggle, To>(TemporaryFeatureToggle)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.TemporaryFeatureToggle, To>(SuperOffice.Util.TemporaryFeatureToggle)
+  nameWithType.vb: Converters.MapEnums(Of TemporaryFeatureToggle, To)(TemporaryFeatureToggle)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.TemporaryFeatureToggle, To)(SuperOffice.Util.TemporaryFeatureToggle)
+  name.vb: MapEnums(Of TemporaryFeatureToggle, To)(TemporaryFeatureToggle)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<TemporaryFeatureToggle, To>
-    nameWithType: Converters.MapEnums<TemporaryFeatureToggle, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.TemporaryFeatureToggle, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.TemporaryFeatureToggle)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.TemporaryFeatureToggle
+    name: TemporaryFeatureToggle
+    isExternal: true
+    href: SuperOffice.Util.TemporaryFeatureToggle.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Util.TemporaryFeatureToggle
+    name: TemporaryFeatureToggle
+    isExternal: true
+    href: SuperOffice.Util.TemporaryFeatureToggle.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of TemporaryFeatureToggle, To)
-    nameWithType: Converters.MapEnums(Of TemporaryFeatureToggle, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.TemporaryFeatureToggle, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.TemporaryFeatureToggle)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.TemporaryFeatureToggle
+    name: TemporaryFeatureToggle
+    isExternal: true
+    href: SuperOffice.Util.TemporaryFeatureToggle.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Util.TemporaryFeatureToggle
+    name: TemporaryFeatureToggle
+    isExternal: true
+    href: SuperOffice.Util.TemporaryFeatureToggle.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -200,43 +488,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -245,70 +535,137 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Util.TemporaryFeatureToggle.#ctor*
   commentId: Overload:SuperOffice.Util.TemporaryFeatureToggle.#ctor
   isExternal: true
+  href: SuperOffice.Util.TemporaryFeatureToggle.html#SuperOffice_Util_TemporaryFeatureToggle__ctor_System_String_System_Boolean_
   name: TemporaryFeatureToggle
   nameWithType: TemporaryFeatureToggle.TemporaryFeatureToggle
   fullName: SuperOffice.Util.TemporaryFeatureToggle.TemporaryFeatureToggle
+  nameWithType.vb: TemporaryFeatureToggle.New
+  fullName.vb: SuperOffice.Util.TemporaryFeatureToggle.New
+  name.vb: New
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.Util.TemporaryFeatureToggle.Dispose*
   commentId: Overload:SuperOffice.Util.TemporaryFeatureToggle.Dispose
   isExternal: true
+  href: SuperOffice.Util.TemporaryFeatureToggle.html#SuperOffice_Util_TemporaryFeatureToggle_Dispose
   name: Dispose
   nameWithType: TemporaryFeatureToggle.Dispose
   fullName: SuperOffice.Util.TemporaryFeatureToggle.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )

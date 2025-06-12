@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldName": "Braun, Cartwright and Zboncak"
+  "FieldName": "Kuhn-Torphy"
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 86,
-  "FieldName": "Waelchi, Kemmer and Schroeder",
-  "Label": "illum",
-  "Tooltip": "minus",
-  "Editable": false,
-  "InUse": false,
+  "QuoteLineConfigurationId": 189,
+  "FieldName": "Jaskolski Group",
+  "Label": "dolore",
+  "Tooltip": "atque",
+  "Editable": true,
+  "InUse": true,
   "Mandatory": true,
-  "Rank": 553,
+  "Rank": 187,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 278
+      "FieldLength": 459
     }
   }
 }

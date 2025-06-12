@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 578,
-  "Name": "Rice LLC",
-  "Tooltip": "enim",
-  "Rank": 760,
-  "DoctmplId": 165,
-  "Header": "ullam",
-  "OurRef": "provident",
-  "Deleted": false,
+  "SuggestedDocumentId": 745,
+  "Name": "Zulauf, Brown and Osinski",
+  "Tooltip": "non",
+  "Rank": 572,
+  "DoctmplId": 635,
+  "Header": "placeat",
+  "OurRef": "nobis",
+  "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null
@@ -108,13 +108,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 139,
-  "Name": "Langworth LLC",
-  "Tooltip": "quia",
-  "Rank": 100,
-  "DoctmplId": 547,
-  "Header": "aliquam",
-  "OurRef": "quae",
+  "SuggestedDocumentId": 296,
+  "Name": "Stiedemann, Bartoletti and Satterfield",
+  "Tooltip": "quo",
+  "Rank": 721,
+  "DoctmplId": 943,
+  "Header": "possimus",
+  "OurRef": "temporibus",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 644
+      "FieldLength": 334
     }
   }
 }

@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 374,
-  "Name": "Klein-Buckridge",
-  "Tooltip": "mollitia",
-  "Deleted": false,
-  "Rank": 10,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "Id": 199,
+  "Name": "Pouros Inc and Sons",
+  "Tooltip": "consequatur",
+  "Deleted": true,
+  "Rank": 743,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "id",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 721,
-  "Name": "Hermiston-Willms",
-  "Tooltip": "eum",
-  "Deleted": true,
-  "Rank": 279,
+  "Id": 631,
+  "Name": "Hauck, Hickle and Rolfson",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "Rank": 792,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "nihil",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "sed",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 900
+      "FieldType": "System.Int32",
+      "FieldLength": 95
     }
   }
 }

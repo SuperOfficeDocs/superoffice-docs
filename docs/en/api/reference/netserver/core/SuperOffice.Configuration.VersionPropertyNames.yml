@@ -18,27 +18,24 @@ items:
   nameWithType: VersionPropertyNames
   fullName: SuperOffice.Configuration.VersionPropertyNames
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nString constants for VersionProperties. Please add new constants here, this is the <strong>only</strong> place we have for their documentation\n"
+  summary: String constants for VersionProperties. Please add new constants here, this is the <b>only</b> place we have for their documentation
+  example: []
   syntax:
-    content: 'public static class VersionPropertyNames : Object'
-    content.vb: >-
-      Public Module VersionPropertyNames
-          Inherits Object
+    content: public static class VersionPropertyNames
+    content.vb: Public Module VersionPropertyNames
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.Configuration.VersionPropertyNames.DecorateSql
   commentId: F:SuperOffice.Configuration.VersionPropertyNames.DecorateSql
   id: DecorateSql
@@ -50,24 +47,19 @@ items:
   nameWithType: VersionPropertyNames.DecorateSql
   fullName: SuperOffice.Configuration.VersionPropertyNames.DecorateSql
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nTurn on decoration of SQL queries with Origin, User and whatever else we may know. Negatively\nimpacts reuse of query plans, since cached query plans are keyed by the sql text including comments.\n"
+  summary: >-
+    Turn on decoration of SQL queries with Origin, User and whatever else we may know. Negatively
+
+    impacts reuse of query plans, since cached query plans are keyed by the sql text including comments.
+  example: []
   syntax:
     content: public const string DecorateSql = "DecorateSql"
     return:
       type: System.String
     content.vb: Public Const DecorateSql As String = "DecorateSql"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Configuration.VersionPropertyNames.DecorateSqlWithCallstack
   commentId: F:SuperOffice.Configuration.VersionPropertyNames.DecorateSqlWithCallstack
   id: DecorateSqlWithCallstack
@@ -79,24 +71,16 @@ items:
   nameWithType: VersionPropertyNames.DecorateSqlWithCallstack
   fullName: SuperOffice.Configuration.VersionPropertyNames.DecorateSqlWithCallstack
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nDecorate any sql that contains the value text with a full call stack. <strong>This can seriously impact performance!</strong>. The value needs to be at least 10 characters long to be taken into account, this to avoid really bad accidents\n"
+  summary: Decorate any sql that contains the value text with a full call stack. <b>This can seriously impact performance!</b>. The value needs to be at least 10 characters long to be taken into account, this to avoid really bad accidents
+  example: []
   syntax:
     content: public const string DecorateSqlWithCallstack = "DecorateSqlWithCallstack"
     return:
       type: System.String
     content.vb: Public Const DecorateSqlWithCallstack As String = "DecorateSqlWithCallstack"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Configuration.VersionPropertyNames.AppiAllSqlCalls
   commentId: F:SuperOffice.Configuration.VersionPropertyNames.AppiAllSqlCalls
   id: AppiAllSqlCalls
@@ -108,24 +92,16 @@ items:
   nameWithType: VersionPropertyNames.AppiAllSqlCalls
   fullName: SuperOffice.Configuration.VersionPropertyNames.AppiAllSqlCalls
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nAll SQL calls will be logged to Application Insights as an SQL Dependence telemetry item. Enable this to override any other filtering criterias. CAUTION! This will produce a lot of SQL Dependency telemetry items.\n"
+  summary: All SQL calls will be logged to Application Insights as an SQL Dependence telemetry item. Enable this to override any other filtering criterias. CAUTION! This will produce a lot of SQL Dependency telemetry items.
+  example: []
   syntax:
     content: public const string AppiAllSqlCalls = "AppiAllSqlCalls"
     return:
       type: System.String
     content.vb: Public Const AppiAllSqlCalls As String = "AppiAllSqlCalls"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Configuration.VersionPropertyNames.AppiSqlQueryText
   commentId: F:SuperOffice.Configuration.VersionPropertyNames.AppiSqlQueryText
   id: AppiSqlQueryText
@@ -137,24 +113,16 @@ items:
   nameWithType: VersionPropertyNames.AppiSqlQueryText
   fullName: SuperOffice.Configuration.VersionPropertyNames.AppiSqlQueryText
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nSQL calls being logged to Application Insights will have the SQL Query text (parameterized, no parameter values) set on the Command Text property of the SQL Dependency telemetry item. CAUTION! This will add a lot of bytes to each SQL Dependency telemetry item.\n"
+  summary: SQL calls being logged to Application Insights will have the SQL Query text (parameterized, no parameter values) set on the Command Text property of the SQL Dependency telemetry item. CAUTION! This will add a lot of bytes to each SQL Dependency telemetry item.
+  example: []
   syntax:
     content: public const string AppiSqlQueryText = "AppiSqlQueryText"
     return:
       type: System.String
     content.vb: Public Const AppiSqlQueryText As String = "AppiSqlQueryText"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Configuration.VersionPropertyNames.DebugUser
   commentId: F:SuperOffice.Configuration.VersionPropertyNames.DebugUser
   id: DebugUser
@@ -166,24 +134,16 @@ items:
   nameWithType: VersionPropertyNames.DebugUser
   fullName: SuperOffice.Configuration.VersionPropertyNames.DebugUser
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nAssociate id (integer) provided will enable AppiAllSqlCalls, AppiSqlQueryText, DecorateSqlWithCallstack, override Appi adaptive sampling result to include telemetry, log all API parameters to Appi customDimensions.\n"
+  summary: Associate id (integer) provided will enable AppiAllSqlCalls, AppiSqlQueryText, DecorateSqlWithCallstack, override Appi adaptive sampling result to include telemetry, log all API parameters to Appi customDimensions.
+  example: []
   syntax:
     content: public const string DebugUser = "DebugUser"
     return:
       type: System.String
     content.vb: Public Const DebugUser As String = "DebugUser"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Configuration.VersionPropertyNames.SampleInCustomCrmScript
   commentId: F:SuperOffice.Configuration.VersionPropertyNames.SampleInCustomCrmScript
   id: SampleInCustomCrmScript
@@ -195,41 +155,278 @@ items:
   nameWithType: VersionPropertyNames.SampleInCustomCrmScript
   fullName: SuperOffice.Configuration.VersionPropertyNames.SampleInCustomCrmScript
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nSet to false to disable the logic forcing that all custom CRMScripts are sampled in.  Default value is true.\n"
+  summary: Set to false to disable the logic forcing that all custom CRMScripts are sampled in.  Default value is true.
+  example: []
   syntax:
     content: public const string SampleInCustomCrmScript = "SampleInCustomCrmScript"
     return:
       type: System.String
     content.vb: Public Const SampleInCustomCrmScript As String = "SampleInCustomCrmScript"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.Configuration
   commentId: N:SuperOffice.Configuration
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Configuration
   nameWithType: SuperOffice.Configuration
   fullName: SuperOffice.Configuration
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -237,6 +434,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

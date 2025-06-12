@@ -77,15 +77,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 14,
-  "Value": "velit",
-  "Tooltip": "aliquid",
+  "Id": 688,
+  "Value": "ut",
+  "Tooltip": "dolorum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 210
+      "FieldType": "System.Int32",
+      "FieldLength": 55
     }
   }
 }

@@ -16,9 +16,9 @@ items:
   - SuperOffice.Data.EMailFolderAttributeConstants.Junk
   - SuperOffice.Data.EMailFolderAttributeConstants.Marked
   - SuperOffice.Data.EMailFolderAttributeConstants.NoInferiors
-  - SuperOffice.Data.EMailFolderAttributeConstants.None
-  - SuperOffice.Data.EMailFolderAttributeConstants.NonExistent
   - SuperOffice.Data.EMailFolderAttributeConstants.NoSelect
+  - SuperOffice.Data.EMailFolderAttributeConstants.NonExistent
+  - SuperOffice.Data.EMailFolderAttributeConstants.None
   - SuperOffice.Data.EMailFolderAttributeConstants.Remote
   - SuperOffice.Data.EMailFolderAttributeConstants.Sent
   - SuperOffice.Data.EMailFolderAttributeConstants.Subscribed
@@ -31,26 +31,22 @@ items:
   nameWithType: EMailFolderAttributeConstants
   fullName: SuperOffice.Data.EMailFolderAttributeConstants
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: 'public static class EMailFolderAttributeConstants : Object'
-    content.vb: >-
-      Public Module EMailFolderAttributeConstants
-          Inherits Object
+    content: public static class EMailFolderAttributeConstants
+    content.vb: Public Module EMailFolderAttributeConstants
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.Data.EMailFolderAttributeConstants.None
   commentId: F:SuperOffice.Data.EMailFolderAttributeConstants.None
   id: None
@@ -62,9 +58,6 @@ items:
   nameWithType: EMailFolderAttributeConstants.None
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.None
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
@@ -73,12 +66,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public Const None As Integer = 0
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.EMailFolderAttributeConstants.NoInferiors
   commentId: F:SuperOffice.Data.EMailFolderAttributeConstants.NoInferiors
   id: NoInferiors
@@ -90,9 +77,6 @@ items:
   nameWithType: EMailFolderAttributeConstants.NoInferiors
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.NoInferiors
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
@@ -101,12 +85,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public Const NoInferiors As Integer = 1
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.EMailFolderAttributeConstants.NoSelect
   commentId: F:SuperOffice.Data.EMailFolderAttributeConstants.NoSelect
   id: NoSelect
@@ -118,9 +96,6 @@ items:
   nameWithType: EMailFolderAttributeConstants.NoSelect
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.NoSelect
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
@@ -129,12 +104,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public Const NoSelect As Integer = 2
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.EMailFolderAttributeConstants.Marked
   commentId: F:SuperOffice.Data.EMailFolderAttributeConstants.Marked
   id: Marked
@@ -146,9 +115,6 @@ items:
   nameWithType: EMailFolderAttributeConstants.Marked
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.Marked
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
@@ -157,12 +123,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public Const Marked As Integer = 4
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.EMailFolderAttributeConstants.Unmarked
   commentId: F:SuperOffice.Data.EMailFolderAttributeConstants.Unmarked
   id: Unmarked
@@ -174,9 +134,6 @@ items:
   nameWithType: EMailFolderAttributeConstants.Unmarked
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.Unmarked
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
@@ -185,12 +142,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public Const Unmarked As Integer = 8
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.EMailFolderAttributeConstants.NonExistent
   commentId: F:SuperOffice.Data.EMailFolderAttributeConstants.NonExistent
   id: NonExistent
@@ -202,9 +153,6 @@ items:
   nameWithType: EMailFolderAttributeConstants.NonExistent
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.NonExistent
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
@@ -213,12 +161,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public Const NonExistent As Integer = 16
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.EMailFolderAttributeConstants.Subscribed
   commentId: F:SuperOffice.Data.EMailFolderAttributeConstants.Subscribed
   id: Subscribed
@@ -230,9 +172,6 @@ items:
   nameWithType: EMailFolderAttributeConstants.Subscribed
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.Subscribed
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
@@ -241,12 +180,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public Const Subscribed As Integer = 32
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.EMailFolderAttributeConstants.Remote
   commentId: F:SuperOffice.Data.EMailFolderAttributeConstants.Remote
   id: Remote
@@ -258,9 +191,6 @@ items:
   nameWithType: EMailFolderAttributeConstants.Remote
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.Remote
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
@@ -269,12 +199,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public Const Remote As Integer = 64
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.EMailFolderAttributeConstants.HasChildren
   commentId: F:SuperOffice.Data.EMailFolderAttributeConstants.HasChildren
   id: HasChildren
@@ -286,9 +210,6 @@ items:
   nameWithType: EMailFolderAttributeConstants.HasChildren
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.HasChildren
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
@@ -297,12 +218,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public Const HasChildren As Integer = 128
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.EMailFolderAttributeConstants.HasNoChildren
   commentId: F:SuperOffice.Data.EMailFolderAttributeConstants.HasNoChildren
   id: HasNoChildren
@@ -314,9 +229,6 @@ items:
   nameWithType: EMailFolderAttributeConstants.HasNoChildren
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.HasNoChildren
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
@@ -325,12 +237,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public Const HasNoChildren As Integer = 256
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.EMailFolderAttributeConstants.All
   commentId: F:SuperOffice.Data.EMailFolderAttributeConstants.All
   id: All
@@ -342,9 +248,6 @@ items:
   nameWithType: EMailFolderAttributeConstants.All
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.All
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
@@ -353,12 +256,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public Const All As Integer = 512
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.EMailFolderAttributeConstants.Archive
   commentId: F:SuperOffice.Data.EMailFolderAttributeConstants.Archive
   id: Archive
@@ -370,9 +267,6 @@ items:
   nameWithType: EMailFolderAttributeConstants.Archive
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.Archive
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
@@ -381,12 +275,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public Const Archive As Integer = 1024
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.EMailFolderAttributeConstants.Drafts
   commentId: F:SuperOffice.Data.EMailFolderAttributeConstants.Drafts
   id: Drafts
@@ -398,9 +286,6 @@ items:
   nameWithType: EMailFolderAttributeConstants.Drafts
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.Drafts
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
@@ -409,12 +294,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public Const Drafts As Integer = 2048
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.EMailFolderAttributeConstants.Flagged
   commentId: F:SuperOffice.Data.EMailFolderAttributeConstants.Flagged
   id: Flagged
@@ -426,9 +305,6 @@ items:
   nameWithType: EMailFolderAttributeConstants.Flagged
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.Flagged
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
@@ -437,12 +313,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public Const Flagged As Integer = 4096
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.EMailFolderAttributeConstants.Important
   commentId: F:SuperOffice.Data.EMailFolderAttributeConstants.Important
   id: Important
@@ -454,9 +324,6 @@ items:
   nameWithType: EMailFolderAttributeConstants.Important
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.Important
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
@@ -465,12 +332,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public Const Important As Integer = 8192
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.EMailFolderAttributeConstants.Inbox
   commentId: F:SuperOffice.Data.EMailFolderAttributeConstants.Inbox
   id: Inbox
@@ -482,9 +343,6 @@ items:
   nameWithType: EMailFolderAttributeConstants.Inbox
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.Inbox
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
@@ -493,12 +351,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public Const Inbox As Integer = 16384
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.EMailFolderAttributeConstants.Junk
   commentId: F:SuperOffice.Data.EMailFolderAttributeConstants.Junk
   id: Junk
@@ -510,9 +362,6 @@ items:
   nameWithType: EMailFolderAttributeConstants.Junk
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.Junk
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
@@ -521,12 +370,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public Const Junk As Integer = 32768
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.EMailFolderAttributeConstants.Sent
   commentId: F:SuperOffice.Data.EMailFolderAttributeConstants.Sent
   id: Sent
@@ -538,9 +381,6 @@ items:
   nameWithType: EMailFolderAttributeConstants.Sent
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.Sent
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
@@ -549,12 +389,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public Const Sent As Integer = 65536
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.EMailFolderAttributeConstants.Trash
   commentId: F:SuperOffice.Data.EMailFolderAttributeConstants.Trash
   id: Trash
@@ -566,9 +400,6 @@ items:
   nameWithType: EMailFolderAttributeConstants.Trash
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.Trash
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
@@ -577,29 +408,268 @@ items:
     return:
       type: System.Int32
     content.vb: Public Const Trash As Integer = 131072
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -607,6 +677,10 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

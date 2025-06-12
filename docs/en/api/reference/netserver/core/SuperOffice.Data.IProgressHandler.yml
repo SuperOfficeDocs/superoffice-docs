@@ -1,0 +1,499 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.IProgressHandler
+  commentId: T:SuperOffice.Data.IProgressHandler
+  id: IProgressHandler
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.IProgressHandler.IncrementProgressAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Data.IProgressHandler.NumOperations
+  - SuperOffice.Data.IProgressHandler.SetProgressDescriptionAsync(System.String,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: IProgressHandler
+  nameWithType: IProgressHandler
+  fullName: SuperOffice.Data.IProgressHandler
+  type: Interface
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public interface IProgressHandler
+    content.vb: Public Interface IProgressHandler
+  extensionMethods:
+  - SuperOffice.Data.IProgressHandler.EnumUtil.MapEnums``2
+  - SuperOffice.Data.IProgressHandler.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Data.IProgressHandler.IncrementProgressAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.IProgressHandler.IncrementProgressAsync(System.Int32,System.Threading.CancellationToken)
+  id: IncrementProgressAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.IProgressHandler
+  langs:
+  - csharp
+  - vb
+  name: IncrementProgressAsync(int, CancellationToken)
+  nameWithType: IProgressHandler.IncrementProgressAsync(int, CancellationToken)
+  fullName: SuperOffice.Data.IProgressHandler.IncrementProgressAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task IncrementProgressAsync(int numOperationsDone, CancellationToken cancellationToken = default)
+    parameters:
+    - id: numOperationsDone
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function IncrementProgressAsync(numOperationsDone As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Data.IProgressHandler.IncrementProgressAsync*
+  nameWithType.vb: IProgressHandler.IncrementProgressAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.Data.IProgressHandler.IncrementProgressAsync(Integer, System.Threading.CancellationToken)
+  name.vb: IncrementProgressAsync(Integer, CancellationToken)
+- uid: SuperOffice.Data.IProgressHandler.SetProgressDescriptionAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.IProgressHandler.SetProgressDescriptionAsync(System.String,System.Threading.CancellationToken)
+  id: SetProgressDescriptionAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.IProgressHandler
+  langs:
+  - csharp
+  - vb
+  name: SetProgressDescriptionAsync(string, CancellationToken)
+  nameWithType: IProgressHandler.SetProgressDescriptionAsync(string, CancellationToken)
+  fullName: SuperOffice.Data.IProgressHandler.SetProgressDescriptionAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task SetProgressDescriptionAsync(string description, CancellationToken cancellationToken = default)
+    parameters:
+    - id: description
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetProgressDescriptionAsync(description As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Data.IProgressHandler.SetProgressDescriptionAsync*
+  nameWithType.vb: IProgressHandler.SetProgressDescriptionAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.Data.IProgressHandler.SetProgressDescriptionAsync(String, System.Threading.CancellationToken)
+  name.vb: SetProgressDescriptionAsync(String, CancellationToken)
+- uid: SuperOffice.Data.IProgressHandler.NumOperations
+  commentId: P:SuperOffice.Data.IProgressHandler.NumOperations
+  id: NumOperations
+  parent: SuperOffice.Data.IProgressHandler
+  langs:
+  - csharp
+  - vb
+  name: NumOperations
+  nameWithType: IProgressHandler.NumOperations
+  fullName: SuperOffice.Data.IProgressHandler.NumOperations
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: int NumOperations { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property NumOperations As Integer
+  overload: SuperOffice.Data.IProgressHandler.NumOperations*
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: SuperOffice.Data.IProgressHandler.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IProgressHandler, To>(IProgressHandler)
+  nameWithType: EnumUtil.MapEnums<IProgressHandler, To>(IProgressHandler)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.IProgressHandler, To>(SuperOffice.Data.IProgressHandler)
+  nameWithType.vb: EnumUtil.MapEnums(Of IProgressHandler, To)(IProgressHandler)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.IProgressHandler, To)(SuperOffice.Data.IProgressHandler)
+  name.vb: MapEnums(Of IProgressHandler, To)(IProgressHandler)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.IProgressHandler)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.IProgressHandler
+    name: IProgressHandler
+    isExternal: true
+    href: SuperOffice.Data.IProgressHandler.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.IProgressHandler
+    name: IProgressHandler
+    isExternal: true
+    href: SuperOffice.Data.IProgressHandler.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.IProgressHandler)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.IProgressHandler
+    name: IProgressHandler
+    isExternal: true
+    href: SuperOffice.Data.IProgressHandler.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.IProgressHandler
+    name: IProgressHandler
+    isExternal: true
+    href: SuperOffice.Data.IProgressHandler.html
+  - name: )
+- uid: SuperOffice.Data.IProgressHandler.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IProgressHandler, To>(IProgressHandler)
+  nameWithType: Converters.MapEnums<IProgressHandler, To>(IProgressHandler)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.IProgressHandler, To>(SuperOffice.Data.IProgressHandler)
+  nameWithType.vb: Converters.MapEnums(Of IProgressHandler, To)(IProgressHandler)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.IProgressHandler, To)(SuperOffice.Data.IProgressHandler)
+  name.vb: MapEnums(Of IProgressHandler, To)(IProgressHandler)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.IProgressHandler)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.IProgressHandler
+    name: IProgressHandler
+    isExternal: true
+    href: SuperOffice.Data.IProgressHandler.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.IProgressHandler
+    name: IProgressHandler
+    isExternal: true
+    href: SuperOffice.Data.IProgressHandler.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.IProgressHandler)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.IProgressHandler
+    name: IProgressHandler
+    isExternal: true
+    href: SuperOffice.Data.IProgressHandler.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.IProgressHandler
+    name: IProgressHandler
+    isExternal: true
+    href: SuperOffice.Data.IProgressHandler.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Data.IProgressHandler.IncrementProgressAsync*
+  commentId: Overload:SuperOffice.Data.IProgressHandler.IncrementProgressAsync
+  isExternal: true
+  href: SuperOffice.Data.IProgressHandler.html#SuperOffice_Data_IProgressHandler_IncrementProgressAsync_System_Int32_System_Threading_CancellationToken_
+  name: IncrementProgressAsync
+  nameWithType: IProgressHandler.IncrementProgressAsync
+  fullName: SuperOffice.Data.IProgressHandler.IncrementProgressAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.Data.IProgressHandler.SetProgressDescriptionAsync*
+  commentId: Overload:SuperOffice.Data.IProgressHandler.SetProgressDescriptionAsync
+  isExternal: true
+  href: SuperOffice.Data.IProgressHandler.html#SuperOffice_Data_IProgressHandler_SetProgressDescriptionAsync_System_String_System_Threading_CancellationToken_
+  name: SetProgressDescriptionAsync
+  nameWithType: IProgressHandler.SetProgressDescriptionAsync
+  fullName: SuperOffice.Data.IProgressHandler.SetProgressDescriptionAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.Data.IProgressHandler.NumOperations*
+  commentId: Overload:SuperOffice.Data.IProgressHandler.NumOperations
+  isExternal: true
+  href: SuperOffice.Data.IProgressHandler.html#SuperOffice_Data_IProgressHandler_NumOperations
+  name: NumOperations
+  nameWithType: IProgressHandler.NumOperations
+  fullName: SuperOffice.Data.IProgressHandler.NumOperations

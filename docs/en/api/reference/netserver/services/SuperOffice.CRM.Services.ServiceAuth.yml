@@ -21,33 +21,54 @@ items:
   nameWithType: ServiceAuth
   fullName: SuperOffice.CRM.Services.ServiceAuth
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nProperties for service authentication\n<p></p>\nCarrier object for ServiceAuth.\nServices for the ServiceAuth Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IUserAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Properties for service authentication
+
+    <p></p>
+
+    Carrier object for ServiceAuth.
+
+    Services for the ServiceAuth Carrier is available from the <xref href="SuperOffice.CRM.Services.IUserAgent?text=User+Agent" data-throw-if-not-resolved="false"></xref>.
   example:
-  - "\nGet ServiceAuth 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new UserAgent();\n    var serviceAuth = agent.GetServiceAuth( 123 );\n }</code></pre>\n"
+  - >-
+    Get ServiceAuth 123 using the agent:
+
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       var agent = new UserAgent();
+       var serviceAuth = agent.GetServiceAuth( 123 );
+    }</code></pre>
   syntax:
-    content: 'public class ServiceAuth : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class ServiceAuth : Carrier
     content.vb: >-
-      Public Class ServiceAuth
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class ServiceAuth Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.UserAgent
-    commentId: T:SuperOffice.CRM.Services.UserAgent
   - linkId: SuperOffice.CRM.Services.IUserAgent
     commentId: T:SuperOffice.CRM.Services.IUserAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.ServiceAuth.#ctor
   commentId: M:SuperOffice.CRM.Services.ServiceAuth.#ctor
   id: '#ctor'
@@ -59,21 +80,18 @@ items:
   nameWithType: ServiceAuth.ServiceAuth()
   fullName: SuperOffice.CRM.Services.ServiceAuth.ServiceAuth()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public ServiceAuth()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.ServiceAuth.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ServiceAuth.New()
+  fullName.vb: SuperOffice.CRM.Services.ServiceAuth.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.ServiceAuth.ToString
   commentId: M:SuperOffice.CRM.Services.ServiceAuth.ToString
   id: ToString
@@ -85,26 +103,18 @@ items:
   nameWithType: ServiceAuth.ToString()
   fullName: SuperOffice.CRM.Services.ServiceAuth.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.ServiceAuth.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.ServiceAuth.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ServiceAuth.ToString(System.String)
   id: ToString(System.String)
@@ -112,17 +122,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: ServiceAuth.ToString(String)
-  fullName: SuperOffice.CRM.Services.ServiceAuth.ToString(System.String)
+  name: ToString(string)
+  nameWithType: ServiceAuth.ToString(string)
+  fullName: SuperOffice.CRM.Services.ServiceAuth.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -134,10 +145,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ServiceAuth.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ServiceAuth.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.ServiceAuth.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.ServiceAuth.ServiceAuthId
   commentId: P:SuperOffice.CRM.Services.ServiceAuth.ServiceAuthId
   id: ServiceAuthId
@@ -149,28 +159,28 @@ items:
   nameWithType: ServiceAuth.ServiceAuthId
   fullName: SuperOffice.CRM.Services.ServiceAuth.ServiceAuthId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe primary key \n"
+  summary: The primary key
+  example: []
   syntax:
-    content: public virtual int ServiceAuthId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int ServiceAuthId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property ServiceAuthId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ServiceAuthId As Integer
   overload: SuperOffice.CRM.Services.ServiceAuth.ServiceAuthId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ServiceAuth.Server
   commentId: P:SuperOffice.CRM.Services.ServiceAuth.Server
   id: Server
@@ -182,28 +192,28 @@ items:
   nameWithType: ServiceAuth.Server
   fullName: SuperOffice.CRM.Services.ServiceAuth.Server
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe mail server \n"
+  summary: The mail server
+  example: []
   syntax:
-    content: public virtual string Server { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Server { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Server As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Server As String
   overload: SuperOffice.CRM.Services.ServiceAuth.Server*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ServiceAuth.Port
   commentId: P:SuperOffice.CRM.Services.ServiceAuth.Port
   id: Port
@@ -215,28 +225,28 @@ items:
   nameWithType: ServiceAuth.Port
   fullName: SuperOffice.CRM.Services.ServiceAuth.Port
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe server port \n"
+  summary: The server port
+  example: []
   syntax:
-    content: public virtual int Port { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int Port { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property Port As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Port As Integer
   overload: SuperOffice.CRM.Services.ServiceAuth.Port*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ServiceAuth.AuthType
   commentId: P:SuperOffice.CRM.Services.ServiceAuth.AuthType
   id: AuthType
@@ -248,28 +258,28 @@ items:
   nameWithType: ServiceAuth.AuthType
   fullName: SuperOffice.CRM.Services.ServiceAuth.AuthType
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe type of authentication, plain-text, OAuth... \n"
+  summary: The type of authentication, plain-text, OAuth...
+  example: []
   syntax:
-    content: public virtual string AuthType { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string AuthType { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property AuthType As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property AuthType As String
   overload: SuperOffice.CRM.Services.ServiceAuth.AuthType*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ServiceAuth.Username
   commentId: P:SuperOffice.CRM.Services.ServiceAuth.Username
   id: Username
@@ -281,28 +291,28 @@ items:
   nameWithType: ServiceAuth.Username
   fullName: SuperOffice.CRM.Services.ServiceAuth.Username
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe username \n"
+  summary: The username
+  example: []
   syntax:
-    content: public virtual string Username { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Username { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Username As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Username As String
   overload: SuperOffice.CRM.Services.ServiceAuth.Username*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ServiceAuth.Password
   commentId: P:SuperOffice.CRM.Services.ServiceAuth.Password
   id: Password
@@ -314,57 +324,106 @@ items:
   nameWithType: ServiceAuth.Password
   fullName: SuperOffice.CRM.Services.ServiceAuth.Password
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe (decrypted) password or token \n"
+  summary: The (decrypted) password or token
+  example: []
   syntax:
-    content: public virtual string Password { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Password { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Password As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Password As String
   overload: SuperOffice.CRM.Services.ServiceAuth.Password*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.UserAgent
-  commentId: T:SuperOffice.CRM.Services.UserAgent
-  isExternal: true
-  name: UserAgent
-  nameWithType: UserAgent
-  fullName: SuperOffice.CRM.Services.UserAgent
 - uid: SuperOffice.CRM.Services.IUserAgent
   commentId: T:SuperOffice.CRM.Services.IUserAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IUserAgent.html
   name: IUserAgent
   nameWithType: IUserAgent
   fullName: SuperOffice.CRM.Services.IUserAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ServiceAuth.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ServiceAuth.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.ServiceAuth.html#SuperOffice_CRM_Services_ServiceAuth__ctor
   name: ServiceAuth
   nameWithType: ServiceAuth.ServiceAuth
   fullName: SuperOffice.CRM.Services.ServiceAuth.ServiceAuth
+  nameWithType.vb: ServiceAuth.New
+  fullName.vb: SuperOffice.CRM.Services.ServiceAuth.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.ServiceAuth.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ServiceAuth.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.ServiceAuth.html#SuperOffice_CRM_Services_ServiceAuth_ToString
   name: ToString
   nameWithType: ServiceAuth.ToString
   fullName: SuperOffice.CRM.Services.ServiceAuth.ToString
@@ -372,18 +431,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.ServiceAuth.ServiceAuthId*
   commentId: Overload:SuperOffice.CRM.Services.ServiceAuth.ServiceAuthId
   isExternal: true
+  href: SuperOffice.CRM.Services.ServiceAuth.html#SuperOffice_CRM_Services_ServiceAuth_ServiceAuthId
   name: ServiceAuthId
   nameWithType: ServiceAuth.ServiceAuthId
   fullName: SuperOffice.CRM.Services.ServiceAuth.ServiceAuthId
@@ -391,36 +449,45 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.ServiceAuth.Server*
   commentId: Overload:SuperOffice.CRM.Services.ServiceAuth.Server
   isExternal: true
+  href: SuperOffice.CRM.Services.ServiceAuth.html#SuperOffice_CRM_Services_ServiceAuth_Server
   name: Server
   nameWithType: ServiceAuth.Server
   fullName: SuperOffice.CRM.Services.ServiceAuth.Server
 - uid: SuperOffice.CRM.Services.ServiceAuth.Port*
   commentId: Overload:SuperOffice.CRM.Services.ServiceAuth.Port
   isExternal: true
+  href: SuperOffice.CRM.Services.ServiceAuth.html#SuperOffice_CRM_Services_ServiceAuth_Port
   name: Port
   nameWithType: ServiceAuth.Port
   fullName: SuperOffice.CRM.Services.ServiceAuth.Port
 - uid: SuperOffice.CRM.Services.ServiceAuth.AuthType*
   commentId: Overload:SuperOffice.CRM.Services.ServiceAuth.AuthType
   isExternal: true
+  href: SuperOffice.CRM.Services.ServiceAuth.html#SuperOffice_CRM_Services_ServiceAuth_AuthType
   name: AuthType
   nameWithType: ServiceAuth.AuthType
   fullName: SuperOffice.CRM.Services.ServiceAuth.AuthType
 - uid: SuperOffice.CRM.Services.ServiceAuth.Username*
   commentId: Overload:SuperOffice.CRM.Services.ServiceAuth.Username
   isExternal: true
+  href: SuperOffice.CRM.Services.ServiceAuth.html#SuperOffice_CRM_Services_ServiceAuth_Username
   name: Username
   nameWithType: ServiceAuth.Username
   fullName: SuperOffice.CRM.Services.ServiceAuth.Username
 - uid: SuperOffice.CRM.Services.ServiceAuth.Password*
   commentId: Overload:SuperOffice.CRM.Services.ServiceAuth.Password
   isExternal: true
+  href: SuperOffice.CRM.Services.ServiceAuth.html#SuperOffice_CRM_Services_ServiceAuth_Password
   name: Password
   nameWithType: ServiceAuth.Password
   fullName: SuperOffice.CRM.Services.ServiceAuth.Password

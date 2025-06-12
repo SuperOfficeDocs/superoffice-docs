@@ -5,15 +5,16 @@ items:
   id: DatabaseTableAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.DatabaseTableAgent.#ctor
-  - SuperOffice.CRM.Services.DatabaseTableAgent.Delete(System.String,System.Int32[])
-  - SuperOffice.CRM.Services.DatabaseTableAgent.DeleteRow(System.String,System.Int32)
-  - SuperOffice.CRM.Services.DatabaseTableAgent.Insert(System.String,System.String[],System.String[][])
-  - SuperOffice.CRM.Services.DatabaseTableAgent.InsertRow(System.String,SuperOffice.CRM.Services.StringDictionary)
-  - SuperOffice.CRM.Services.DatabaseTableAgent.ReadRow(System.String,System.Int32)
-  - SuperOffice.CRM.Services.DatabaseTableAgent.Truncate(System.String)
-  - SuperOffice.CRM.Services.DatabaseTableAgent.UpdateRow(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary)
-  - SuperOffice.CRM.Services.DatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
+  - SuperOffice.CRM.Services.DatabaseTableAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  - SuperOffice.CRM.Services.DatabaseTableAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.DatabaseTableAgent.DeleteAsync(System.String,System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.DatabaseTableAgent.DeleteRowAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.DatabaseTableAgent.InsertAsync(System.String,System.String[],System.String[][],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.DatabaseTableAgent.InsertRowAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.DatabaseTableAgent.ReadRowAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.DatabaseTableAgent.TruncateAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.DatabaseTableAgent.UpdateRowAsync(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.DatabaseTableAgent.UpsertAsync(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -21,206 +22,265 @@ items:
   nameWithType: DatabaseTableAgent
   fullName: SuperOffice.CRM.Services.DatabaseTableAgent
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nFacade for the DatabaseTable Agent\nAgent used for CRUD operations on database tables. Read, add, update, delete rows in tables.\n"
-  example:
-  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (DatabaseTableAgent agent = new DatabaseTableAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  summary: >-
+    Proxy class for the DatabaseTable Agent
+
+    Used when communicating remote using WebServices.
+
+    Avoid using directly. Use the AgentFactory to create the proxy instead.
+  example: []
   syntax:
-    content: 'public class DatabaseTableAgent : AgentBase<IDatabaseTableAgent>, IDisposable, IDatabaseTableAgent, IAgent'
-    content.vb: >-
-      Public Class DatabaseTableAgent
-          Inherits AgentBase(Of IDatabaseTableAgent)
-          Implements IDisposable, IDatabaseTableAgent, IAgent
+    content: 'public class DatabaseTableAgent : IDatabaseTableAgent, IAgent'
+    content.vb: Public Class DatabaseTableAgent Implements IDatabaseTableAgent, IAgent
   inheritance:
   - System.Object
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseTableAgent}
   implements:
-  - System.IDisposable
   - SuperOffice.CRM.Services.IDatabaseTableAgent
   - SuperOffice.CRM.Services.IAgent
   inheritedMembers:
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseTableAgent}.Dispose
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseTableAgent}.InnerAgent
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.CRM.Services.DatabaseTableAgent.ReadRow(System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.DatabaseTableAgent.ReadRow(System.String,System.Int32)
-  id: ReadRow(System.String,System.Int32)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Services.DatabaseTableAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  commentId: M:SuperOffice.CRM.Services.DatabaseTableAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
   parent: SuperOffice.CRM.Services.DatabaseTableAgent
   langs:
   - csharp
   - vb
-  name: ReadRow(String, Int32)
-  nameWithType: DatabaseTableAgent.ReadRow(String, Int32)
-  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.ReadRow(System.String, System.Int32)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
+  name: DatabaseTableAgent(ITableRecordImplementation, IMassOperationResultImplementation, ISoRequestItemsAccessor)
+  nameWithType: DatabaseTableAgent.DatabaseTableAgent(ITableRecordImplementation, IMassOperationResultImplementation, ISoRequestItemsAccessor)
+  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.DatabaseTableAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  type: Constructor
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nRead a row from a table\n"
   syntax:
-    content: public TableRecord ReadRow(string tableName, int id)
+    content: public DatabaseTableAgent(ITableRecordImplementation tableRecordImplementation, IMassOperationResultImplementation massOperationResultImplementation, ISoRequestItemsAccessor accessor)
+    parameters:
+    - id: tableRecordImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation
+    - id: massOperationResultImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    content.vb: Public Sub New(tableRecordImplementation As ITableRecordImplementation, massOperationResultImplementation As IMassOperationResultImplementation, accessor As ISoRequestItemsAccessor)
+  overload: SuperOffice.CRM.Services.DatabaseTableAgent.#ctor*
+  nameWithType.vb: DatabaseTableAgent.New(ITableRecordImplementation, IMassOperationResultImplementation, ISoRequestItemsAccessor)
+  fullName.vb: SuperOffice.CRM.Services.DatabaseTableAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name.vb: New(ITableRecordImplementation, IMassOperationResultImplementation, ISoRequestItemsAccessor)
+- uid: SuperOffice.CRM.Services.DatabaseTableAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.DatabaseTableAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+  parent: SuperOffice.CRM.Services.DatabaseTableAgent
+  langs:
+  - csharp
+  - vb
+  name: DatabaseTableAgent(ITableRecordImplementation, IMassOperationResultImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: DatabaseTableAgent.DatabaseTableAgent(ITableRecordImplementation, IMassOperationResultImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.DatabaseTableAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public DatabaseTableAgent(ITableRecordImplementation tableRecordImplementation, IMassOperationResultImplementation massOperationResultImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    parameters:
+    - id: tableRecordImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation
+    - id: massOperationResultImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    - id: debugUser
+      type: SuperOffice.Data.IDebugUser
+    - id: serviceCallsRepository
+      type: SuperOffice.Diagnostics.IServiceCallsRepository
+    content.vb: Public Sub New(tableRecordImplementation As ITableRecordImplementation, massOperationResultImplementation As IMassOperationResultImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+  overload: SuperOffice.CRM.Services.DatabaseTableAgent.#ctor*
+  nameWithType.vb: DatabaseTableAgent.New(ITableRecordImplementation, IMassOperationResultImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.DatabaseTableAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(ITableRecordImplementation, IMassOperationResultImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+- uid: SuperOffice.CRM.Services.DatabaseTableAgent.ReadRowAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.DatabaseTableAgent.ReadRowAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  id: ReadRowAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.DatabaseTableAgent
+  langs:
+  - csharp
+  - vb
+  name: ReadRowAsync(string, int, CancellationToken)
+  nameWithType: DatabaseTableAgent.ReadRowAsync(string, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.ReadRowAsync(string, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Read a row from a table
+  example: []
+  syntax:
+    content: public Task<TableRecord> ReadRowAsync(string tableName, int id, CancellationToken cancellationToken = default)
     parameters:
     - id: tableName
       type: System.String
-      description: The name of the table to fetch; in the current release this must be an &apos;extratable&apos;. Use the database name, on the form y_aTable
+      description: The name of the table to fetch; in the current release this must be an 'extratable'. Use the database name, on the form y_aTable
     - id: id
       type: System.Int32
       description: The id of the row to fetch
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.TableRecord
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TableRecord}
       description: The row from the table
-    content.vb: Public Function ReadRow(tableName As String, id As Integer) As TableRecord
-  overload: SuperOffice.CRM.Services.DatabaseTableAgent.ReadRow*
+    content.vb: Public Function ReadRowAsync(tableName As String, id As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TableRecord)
+  overload: SuperOffice.CRM.Services.DatabaseTableAgent.ReadRowAsync*
   implements:
-  - SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow(System.String,System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.DatabaseTableAgent.InsertRow(System.String,SuperOffice.CRM.Services.StringDictionary)
-  commentId: M:SuperOffice.CRM.Services.DatabaseTableAgent.InsertRow(System.String,SuperOffice.CRM.Services.StringDictionary)
-  id: InsertRow(System.String,SuperOffice.CRM.Services.StringDictionary)
+  - SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRowAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: DatabaseTableAgent.ReadRowAsync(String, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.DatabaseTableAgent.ReadRowAsync(String, Integer, System.Threading.CancellationToken)
+  name.vb: ReadRowAsync(String, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.DatabaseTableAgent.InsertRowAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.DatabaseTableAgent.InsertRowAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  id: InsertRowAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.DatabaseTableAgent
   langs:
   - csharp
   - vb
-  name: InsertRow(String, StringDictionary)
-  nameWithType: DatabaseTableAgent.InsertRow(String, StringDictionary)
-  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.InsertRow(System.String, SuperOffice.CRM.Services.StringDictionary)
+  name: InsertRowAsync(string, StringDictionary, CancellationToken)
+  nameWithType: DatabaseTableAgent.InsertRowAsync(string, StringDictionary, CancellationToken)
+  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.InsertRowAsync(string, SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nInsert a row into a table\n"
+  summary: Insert a row into a table
+  example: []
   syntax:
-    content: public int InsertRow(string tableName, StringDictionary values)
+    content: public Task<int> InsertRowAsync(string tableName, StringDictionary values, CancellationToken cancellationToken = default)
     parameters:
     - id: tableName
       type: System.String
-      description: The name of the table to insert into; in the current release this must be an &apos;extratable&apos;. Use the database name, on the form y_aTable
+      description: The name of the table to insert into; in the current release this must be an 'extratable'. Use the database name, on the form y_aTable
     - id: values
       type: SuperOffice.CRM.Services.StringDictionary
       description: A StringDictionary with the values to insert. You do not need to specify all the values in the table. The omitted ones will get default values
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: The id of the newly inserted row
-    content.vb: Public Function InsertRow(tableName As String, values As StringDictionary) As Integer
-  overload: SuperOffice.CRM.Services.DatabaseTableAgent.InsertRow*
+    content.vb: Public Function InsertRowAsync(tableName As String, values As StringDictionary, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Services.DatabaseTableAgent.InsertRowAsync*
   implements:
-  - SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow(System.String,SuperOffice.CRM.Services.StringDictionary)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.DatabaseTableAgent.UpdateRow(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary)
-  commentId: M:SuperOffice.CRM.Services.DatabaseTableAgent.UpdateRow(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary)
-  id: UpdateRow(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary)
+  - SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRowAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  nameWithType.vb: DatabaseTableAgent.InsertRowAsync(String, StringDictionary, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.DatabaseTableAgent.InsertRowAsync(String, SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
+  name.vb: InsertRowAsync(String, StringDictionary, CancellationToken)
+- uid: SuperOffice.CRM.Services.DatabaseTableAgent.UpdateRowAsync(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.DatabaseTableAgent.UpdateRowAsync(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  id: UpdateRowAsync(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.DatabaseTableAgent
   langs:
   - csharp
   - vb
-  name: UpdateRow(String, Int32, StringDictionary)
-  nameWithType: DatabaseTableAgent.UpdateRow(String, Int32, StringDictionary)
-  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.UpdateRow(System.String, System.Int32, SuperOffice.CRM.Services.StringDictionary)
+  name: UpdateRowAsync(string, int, StringDictionary, CancellationToken)
+  nameWithType: DatabaseTableAgent.UpdateRowAsync(string, int, StringDictionary, CancellationToken)
+  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.UpdateRowAsync(string, int, SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nUpdate a row in a table\n"
+  summary: Update a row in a table
+  example: []
   syntax:
-    content: public void UpdateRow(string tableName, int id, StringDictionary values)
+    content: public Task UpdateRowAsync(string tableName, int id, StringDictionary values, CancellationToken cancellationToken = default)
     parameters:
     - id: tableName
       type: System.String
-      description: The name of the table to update; in the current release this must be an &apos;extratable&apos;. Use the database name, on the form y_aTable
+      description: The name of the table to update; in the current release this must be an 'extratable'. Use the database name, on the form y_aTable
     - id: id
       type: System.Int32
       description: The id of the row to update
     - id: values
       type: SuperOffice.CRM.Services.StringDictionary
       description: A StringDictionary with the values to update. You do not need to specify all the values in the table. The omitted ones will remain unchanged
-    content.vb: Public Sub UpdateRow(tableName As String, id As Integer, values As StringDictionary)
-  overload: SuperOffice.CRM.Services.DatabaseTableAgent.UpdateRow*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function UpdateRowAsync(tableName As String, id As Integer, values As StringDictionary, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.DatabaseTableAgent.UpdateRowAsync*
   implements:
-  - SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.DatabaseTableAgent.DeleteRow(System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.DatabaseTableAgent.DeleteRow(System.String,System.Int32)
-  id: DeleteRow(System.String,System.Int32)
+  - SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRowAsync(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  nameWithType.vb: DatabaseTableAgent.UpdateRowAsync(String, Integer, StringDictionary, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.DatabaseTableAgent.UpdateRowAsync(String, Integer, SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
+  name.vb: UpdateRowAsync(String, Integer, StringDictionary, CancellationToken)
+- uid: SuperOffice.CRM.Services.DatabaseTableAgent.DeleteRowAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.DatabaseTableAgent.DeleteRowAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  id: DeleteRowAsync(System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.DatabaseTableAgent
   langs:
   - csharp
   - vb
-  name: DeleteRow(String, Int32)
-  nameWithType: DatabaseTableAgent.DeleteRow(String, Int32)
-  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.DeleteRow(System.String, System.Int32)
+  name: DeleteRowAsync(string, int, CancellationToken)
+  nameWithType: DatabaseTableAgent.DeleteRowAsync(string, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.DeleteRowAsync(string, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nDelete a row from a table\n"
+  summary: Delete a row from a table
+  example: []
   syntax:
-    content: public void DeleteRow(string tableName, int id)
+    content: public Task DeleteRowAsync(string tableName, int id, CancellationToken cancellationToken = default)
     parameters:
     - id: tableName
       type: System.String
-      description: The name of the table to delete from; in the current release this must be an &apos;extratable&apos;. Use the database name, on the form y_aTable
+      description: The name of the table to delete from; in the current release this must be an 'extratable'. Use the database name, on the form y_aTable
     - id: id
       type: System.Int32
       description: The id of the row to delete
-    content.vb: Public Sub DeleteRow(tableName As String, id As Integer)
-  overload: SuperOffice.CRM.Services.DatabaseTableAgent.DeleteRow*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function DeleteRowAsync(tableName As String, id As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.DatabaseTableAgent.DeleteRowAsync*
   implements:
-  - SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRow(System.String,System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.DatabaseTableAgent.Insert(System.String,System.String[],System.String[][])
-  commentId: M:SuperOffice.CRM.Services.DatabaseTableAgent.Insert(System.String,System.String[],System.String[][])
-  id: Insert(System.String,System.String[],System.String[][])
+  - SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRowAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: DatabaseTableAgent.DeleteRowAsync(String, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.DatabaseTableAgent.DeleteRowAsync(String, Integer, System.Threading.CancellationToken)
+  name.vb: DeleteRowAsync(String, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.DatabaseTableAgent.InsertAsync(System.String,System.String[],System.String[][],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.DatabaseTableAgent.InsertAsync(System.String,System.String[],System.String[][],System.Threading.CancellationToken)
+  id: InsertAsync(System.String,System.String[],System.String[][],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.DatabaseTableAgent
   langs:
   - csharp
   - vb
-  name: Insert(String, String[], String[][])
-  nameWithType: DatabaseTableAgent.Insert(String, String[], String[][])
-  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.Insert(System.String, System.String[], System.String[][])
+  name: InsertAsync(string, string[], string[][], CancellationToken)
+  nameWithType: DatabaseTableAgent.InsertAsync(string, string[], string[][], CancellationToken)
+  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.InsertAsync(string, string[], string[][], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nMass-insert rows, with or without primary keys specified. Works on physical tables with no special processing for udef etc.; traveltransactionlog and WebHooks are supported\n"
+  summary: Mass-insert rows, with or without primary keys specified. Works on physical tables with no special processing for udef etc.; traveltransactionlog and WebHooks are supported
+  example: []
   syntax:
-    content: public MassOperationResult Insert(string tableName, string[] columns, string[][] data)
+    content: public Task<MassOperationResult> InsertAsync(string tableName, string[] columns, string[][] data, CancellationToken cancellationToken = default)
     parameters:
     - id: tableName
       type: System.String
@@ -230,76 +290,73 @@ items:
       description: List of column names, in the same order as in the Data parameter
     - id: data
       type: System.String[][]
-      description: Outer array = rows, inner = columns in specified order; use CultureDataFormatter to format values that aren&apos;t string or int
+      description: Outer array = rows, inner = columns in specified order; use CultureDataFormatter to format values that aren't string or int
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.MassOperationResult
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MassOperationResult}
       description: Summary of results
-    content.vb: Public Function Insert(tableName As String, columns As String(), data As String()()) As MassOperationResult
-  overload: SuperOffice.CRM.Services.DatabaseTableAgent.Insert*
+    content.vb: Public Function InsertAsync(tableName As String, columns As String(), data As String()(), cancellationToken As CancellationToken = Nothing) As Task(Of MassOperationResult)
+  overload: SuperOffice.CRM.Services.DatabaseTableAgent.InsertAsync*
   implements:
-  - SuperOffice.CRM.Services.IDatabaseTableAgent.Insert(System.String,System.String[],System.String[][])
-  nameWithType.vb: DatabaseTableAgent.Insert(String, String(), String()())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.DatabaseTableAgent.Insert(System.String, System.String(), System.String()())
-  name.vb: Insert(String, String(), String()())
-- uid: SuperOffice.CRM.Services.DatabaseTableAgent.Truncate(System.String)
-  commentId: M:SuperOffice.CRM.Services.DatabaseTableAgent.Truncate(System.String)
-  id: Truncate(System.String)
+  - SuperOffice.CRM.Services.IDatabaseTableAgent.InsertAsync(System.String,System.String[],System.String[][],System.Threading.CancellationToken)
+  nameWithType.vb: DatabaseTableAgent.InsertAsync(String, String(), String()(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.DatabaseTableAgent.InsertAsync(String, String(), String()(), System.Threading.CancellationToken)
+  name.vb: InsertAsync(String, String(), String()(), CancellationToken)
+- uid: SuperOffice.CRM.Services.DatabaseTableAgent.TruncateAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.DatabaseTableAgent.TruncateAsync(System.String,System.Threading.CancellationToken)
+  id: TruncateAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.DatabaseTableAgent
   langs:
   - csharp
   - vb
-  name: Truncate(String)
-  nameWithType: DatabaseTableAgent.Truncate(String)
-  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.Truncate(System.String)
+  name: TruncateAsync(string, CancellationToken)
+  nameWithType: DatabaseTableAgent.TruncateAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.TruncateAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nDrop all rows in a table. This clearance is not individually logged in TravelTransactionlog or Webhook/script calls\n"
+  summary: Drop all rows in a table. This clearance is not individually logged in TravelTransactionlog or Webhook/script calls
+  example: []
   syntax:
-    content: public MassOperationResult Truncate(string tableName)
+    content: public Task<MassOperationResult> TruncateAsync(string tableName, CancellationToken cancellationToken = default)
     parameters:
     - id: tableName
       type: System.String
       description: Name of table to be truncated
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.MassOperationResult
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MassOperationResult}
       description: Summary of results
-    content.vb: Public Function Truncate(tableName As String) As MassOperationResult
-  overload: SuperOffice.CRM.Services.DatabaseTableAgent.Truncate*
+    content.vb: Public Function TruncateAsync(tableName As String, cancellationToken As CancellationToken = Nothing) As Task(Of MassOperationResult)
+  overload: SuperOffice.CRM.Services.DatabaseTableAgent.TruncateAsync*
   implements:
-  - SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate(System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.DatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.DatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
-  id: Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
+  - SuperOffice.CRM.Services.IDatabaseTableAgent.TruncateAsync(System.String,System.Threading.CancellationToken)
+  nameWithType.vb: DatabaseTableAgent.TruncateAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.DatabaseTableAgent.TruncateAsync(String, System.Threading.CancellationToken)
+  name.vb: TruncateAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.DatabaseTableAgent.UpsertAsync(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.DatabaseTableAgent.UpsertAsync(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean,System.Threading.CancellationToken)
+  id: UpsertAsync(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.DatabaseTableAgent
   langs:
   - csharp
   - vb
-  name: Upsert(String, String[], String[], String[][], UpsertNomatchAction, Boolean)
-  nameWithType: DatabaseTableAgent.Upsert(String, String[], String[], String[][], UpsertNomatchAction, Boolean)
-  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.Upsert(System.String, System.String[], System.String[], System.String[][], SuperOffice.Data.UpsertNomatchAction, System.Boolean)
+  name: UpsertAsync(string, string[], string[], string[][], UpsertNomatchAction, bool, CancellationToken)
+  nameWithType: DatabaseTableAgent.UpsertAsync(string, string[], string[], string[][], UpsertNomatchAction, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.UpsertAsync(string, string[], string[], string[][], SuperOffice.Data.UpsertNomatchAction, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nInsert or update rows, optionally deleting/zeroing &apos;leftover&apos; rows. Special support for UDEF, as well as optional extensive information return. Traveltransactionlog and WebHooks are supported\n"
+  summary: Insert or update rows, optionally deleting/zeroing 'leftover' rows. Special support for UDEF, as well as optional extensive information return. Traveltransactionlog and WebHooks are supported
+  example: []
   syntax:
-    content: public MassOperationResult Upsert(string tableName, string[] columns, string[] keys, string[][] data, UpsertNomatchAction nomatchAction, bool returnRowStatus)
+    content: public Task<MassOperationResult> UpsertAsync(string tableName, string[] columns, string[] keys, string[][] data, UpsertNomatchAction nomatchAction, bool returnRowStatus, CancellationToken cancellationToken = default)
     parameters:
     - id: tableName
       type: System.String
@@ -318,41 +375,38 @@ items:
       description: Action to take on rows in the target table, that are not matched by any rows in the incoming data. Use the deletion options with care. NEVER use deletion if your Upsert is so large you need to divide it into multiple batches.
     - id: returnRowStatus
       type: System.Boolean
-      description: If true, then the &apos;RowStatus&apos; member of the return carrier will be populated with a per-row status, for each incoming row
+      description: If true, then the 'RowStatus' member of the return carrier will be populated with a per-row status, for each incoming row
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.MassOperationResult
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MassOperationResult}
       description: Summary of results
-    content.vb: Public Function Upsert(tableName As String, columns As String(), keys As String(), data As String()(), nomatchAction As UpsertNomatchAction, returnRowStatus As Boolean) As MassOperationResult
-  overload: SuperOffice.CRM.Services.DatabaseTableAgent.Upsert*
+    content.vb: Public Function UpsertAsync(tableName As String, columns As String(), keys As String(), data As String()(), nomatchAction As UpsertNomatchAction, returnRowStatus As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of MassOperationResult)
+  overload: SuperOffice.CRM.Services.DatabaseTableAgent.UpsertAsync*
   implements:
-  - SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
-  nameWithType.vb: DatabaseTableAgent.Upsert(String, String(), String(), String()(), UpsertNomatchAction, Boolean)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.DatabaseTableAgent.Upsert(System.String, System.String(), System.String(), System.String()(), SuperOffice.Data.UpsertNomatchAction, System.Boolean)
-  name.vb: Upsert(String, String(), String(), String()(), UpsertNomatchAction, Boolean)
-- uid: SuperOffice.CRM.Services.DatabaseTableAgent.Delete(System.String,System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.DatabaseTableAgent.Delete(System.String,System.Int32[])
-  id: Delete(System.String,System.Int32[])
+  - SuperOffice.CRM.Services.IDatabaseTableAgent.UpsertAsync(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean,System.Threading.CancellationToken)
+  nameWithType.vb: DatabaseTableAgent.UpsertAsync(String, String(), String(), String()(), UpsertNomatchAction, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.DatabaseTableAgent.UpsertAsync(String, String(), String(), String()(), SuperOffice.Data.UpsertNomatchAction, Boolean, System.Threading.CancellationToken)
+  name.vb: UpsertAsync(String, String(), String(), String()(), UpsertNomatchAction, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.DatabaseTableAgent.DeleteAsync(System.String,System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.DatabaseTableAgent.DeleteAsync(System.String,System.Int32[],System.Threading.CancellationToken)
+  id: DeleteAsync(System.String,System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.DatabaseTableAgent
   langs:
   - csharp
   - vb
-  name: Delete(String, Int32[])
-  nameWithType: DatabaseTableAgent.Delete(String, Int32[])
-  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.Delete(System.String, System.Int32[])
+  name: DeleteAsync(string, int[], CancellationToken)
+  nameWithType: DatabaseTableAgent.DeleteAsync(string, int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.DeleteAsync(string, int[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nDelete rows, by primary key; traveltransactionlog and WebHooks are supported\n"
+  summary: Delete rows, by primary key; traveltransactionlog and WebHooks are supported
+  example: []
   syntax:
-    content: public MassOperationResult Delete(string tableName, int[] iDs)
+    content: public Task<MassOperationResult> DeleteAsync(string tableName, int[] iDs, CancellationToken cancellationToken = default)
     parameters:
     - id: tableName
       type: System.String
@@ -360,105 +414,73 @@ items:
     - id: iDs
       type: System.Int32[]
       description: Primary keys of the rows to be deleted
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.MassOperationResult
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MassOperationResult}
       description: Summary of results
-    content.vb: Public Function Delete(tableName As String, iDs As Integer()) As MassOperationResult
-  overload: SuperOffice.CRM.Services.DatabaseTableAgent.Delete*
+    content.vb: Public Function DeleteAsync(tableName As String, iDs As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of MassOperationResult)
+  overload: SuperOffice.CRM.Services.DatabaseTableAgent.DeleteAsync*
   implements:
-  - SuperOffice.CRM.Services.IDatabaseTableAgent.Delete(System.String,System.Int32[])
-  nameWithType.vb: DatabaseTableAgent.Delete(String, Int32())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.DatabaseTableAgent.Delete(System.String, System.Int32())
-  name.vb: Delete(String, Int32())
-- uid: SuperOffice.CRM.Services.DatabaseTableAgent.#ctor
-  commentId: M:SuperOffice.CRM.Services.DatabaseTableAgent.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.Services.DatabaseTableAgent
-  langs:
-  - csharp
-  - vb
-  name: DatabaseTableAgent()
-  nameWithType: DatabaseTableAgent.DatabaseTableAgent()
-  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.DatabaseTableAgent()
-  type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  syntax:
-    content: public DatabaseTableAgent()
-    content.vb: Public Sub New
-  overload: SuperOffice.CRM.Services.DatabaseTableAgent.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteAsync(System.String,System.Int32[],System.Threading.CancellationToken)
+  nameWithType.vb: DatabaseTableAgent.DeleteAsync(String, Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.DatabaseTableAgent.DeleteAsync(String, Integer(), System.Threading.CancellationToken)
+  name.vb: DeleteAsync(String, Integer(), CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseTableAgent}
-  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseTableAgent}
-  parent: SuperOffice.CRM.Services
-  definition: SuperOffice.CRM.Services.AgentBase`1
-  name: AgentBase<IDatabaseTableAgent>
-  nameWithType: AgentBase<IDatabaseTableAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDatabaseTableAgent>
-  nameWithType.vb: AgentBase(Of IDatabaseTableAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IDatabaseTableAgent)
-  name.vb: AgentBase(Of IDatabaseTableAgent)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent
-    name: IDatabaseTableAgent
-    nameWithType: IDatabaseTableAgent
-    fullName: SuperOffice.CRM.Services.IDatabaseTableAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent
-    name: IDatabaseTableAgent
-    nameWithType: IDatabaseTableAgent
-    fullName: SuperOffice.CRM.Services.IDatabaseTableAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IDisposable
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Services.IDatabaseTableAgent
   commentId: T:SuperOffice.CRM.Services.IDatabaseTableAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IDatabaseTableAgent.html
   name: IDatabaseTableAgent
   nameWithType: IDatabaseTableAgent
   fullName: SuperOffice.CRM.Services.IDatabaseTableAgent
@@ -466,796 +488,1150 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IAgent.html
   name: IAgent
   nameWithType: IAgent
   fullName: SuperOffice.CRM.Services.IAgent
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseTableAgent}.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseTableAgent}.Dispose
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseTableAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  name: Dispose()
-  nameWithType: AgentBase<IDatabaseTableAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDatabaseTableAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of IDatabaseTableAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IDatabaseTableAgent).Dispose()
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<IDatabaseTableAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDatabaseTableAgent>.Dispose
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of IDatabaseTableAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IDatabaseTableAgent).Dispose
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseTableAgent}.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseTableAgent}.InnerAgent
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseTableAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  name: InnerAgent
-  nameWithType: AgentBase<IDatabaseTableAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDatabaseTableAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of IDatabaseTableAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IDatabaseTableAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.AgentBase`1
-  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
   isExternal: true
-  name: AgentBase<TAgent>
-  nameWithType: AgentBase<TAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
-  nameWithType.vb: AgentBase(Of TAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
-  name.vb: AgentBase(Of TAgent)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: Dispose()
-  nameWithType: AgentBase<TAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of TAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<TAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of TAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: InnerAgent
-  nameWithType: AgentBase<TAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.DatabaseTableAgent.ReadRow*
-  commentId: Overload:SuperOffice.CRM.Services.DatabaseTableAgent.ReadRow
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
   isExternal: true
-  name: ReadRow
-  nameWithType: DatabaseTableAgent.ReadRow
-  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.ReadRow
-- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow(System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow(System.String,System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.DatabaseTableAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.DatabaseTableAgent.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.DatabaseTableAgent.html#SuperOffice_CRM_Services_DatabaseTableAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_ITableRecordImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IMassOperationResultImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
+  name: DatabaseTableAgent
+  nameWithType: DatabaseTableAgent.DatabaseTableAgent
+  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.DatabaseTableAgent
+  nameWithType.vb: DatabaseTableAgent.New
+  fullName.vb: SuperOffice.CRM.Services.DatabaseTableAgent.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation.html
+  name: ITableRecordImplementation
+  nameWithType: ITableRecordImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation.html
+  name: IMassOperationResultImplementation
+  nameWithType: IMassOperationResultImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation
+- uid: SuperOffice.Factory.ISoRequestItemsAccessor
+  isExternal: true
+  name: ISoRequestItemsAccessor
+  nameWithType: ISoRequestItemsAccessor
+  fullName: SuperOffice.Factory.ISoRequestItemsAccessor
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  commentId: N:SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  nameWithType: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+- uid: SuperOffice.Data.IDebugUser
+  isExternal: true
+  name: IDebugUser
+  nameWithType: IDebugUser
+  fullName: SuperOffice.Data.IDebugUser
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository
+  isExternal: true
+  name: IServiceCallsRepository
+  nameWithType: IServiceCallsRepository
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.CRM.Services.DatabaseTableAgent.ReadRowAsync*
+  commentId: Overload:SuperOffice.CRM.Services.DatabaseTableAgent.ReadRowAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.DatabaseTableAgent.html#SuperOffice_CRM_Services_DatabaseTableAgent_ReadRowAsync_System_String_System_Int32_System_Threading_CancellationToken_
+  name: ReadRowAsync
+  nameWithType: DatabaseTableAgent.ReadRowAsync
+  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.ReadRowAsync
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRowAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRowAsync(System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDatabaseTableAgent
   isExternal: true
-  name: ReadRow(String, Int32)
-  nameWithType: IDatabaseTableAgent.ReadRow(String, Int32)
-  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow(System.String, System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: ReadRowAsync(string, int, CancellationToken)
+  nameWithType: IDatabaseTableAgent.ReadRowAsync(string, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRowAsync(string, int, System.Threading.CancellationToken)
+  nameWithType.vb: IDatabaseTableAgent.ReadRowAsync(String, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRowAsync(String, Integer, System.Threading.CancellationToken)
+  name.vb: ReadRowAsync(String, Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow(System.String,System.Int32)
-    name: ReadRow
-    nameWithType: IDatabaseTableAgent.ReadRow
-    fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow
+  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRowAsync(System.String,System.Int32,System.Threading.CancellationToken)
+    name: ReadRowAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow(System.String,System.Int32)
-    name: ReadRow
-    nameWithType: IDatabaseTableAgent.ReadRow
-    fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow
+  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRowAsync(System.String,System.Int32,System.Threading.CancellationToken)
+    name: ReadRowAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.CRM.Services.TableRecord
-  commentId: T:SuperOffice.CRM.Services.TableRecord
-  parent: SuperOffice.CRM.Services
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: TableRecord
-  nameWithType: TableRecord
-  fullName: SuperOffice.CRM.Services.TableRecord
-- uid: System
-  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TableRecord}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TableRecord}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TableRecord>
+  nameWithType: Task<TableRecord>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TableRecord>
+  nameWithType.vb: Task(Of TableRecord)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TableRecord)
+  name.vb: Task(Of TableRecord)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.TableRecord
+    name: TableRecord
+    isExternal: true
+    href: SuperOffice.CRM.Services.TableRecord.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.TableRecord
+    name: TableRecord
+    isExternal: true
+    href: SuperOffice.CRM.Services.TableRecord.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.CRM.Services.DatabaseTableAgent.InsertRow*
-  commentId: Overload:SuperOffice.CRM.Services.DatabaseTableAgent.InsertRow
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: InsertRow
-  nameWithType: DatabaseTableAgent.InsertRow
-  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.InsertRow
-- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow(System.String,SuperOffice.CRM.Services.StringDictionary)
-  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow(System.String,SuperOffice.CRM.Services.StringDictionary)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.DatabaseTableAgent.InsertRowAsync*
+  commentId: Overload:SuperOffice.CRM.Services.DatabaseTableAgent.InsertRowAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.DatabaseTableAgent.html#SuperOffice_CRM_Services_DatabaseTableAgent_InsertRowAsync_System_String_SuperOffice_CRM_Services_StringDictionary_System_Threading_CancellationToken_
+  name: InsertRowAsync
+  nameWithType: DatabaseTableAgent.InsertRowAsync
+  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.InsertRowAsync
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRowAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRowAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDatabaseTableAgent
   isExternal: true
-  name: InsertRow(String, StringDictionary)
-  nameWithType: IDatabaseTableAgent.InsertRow(String, StringDictionary)
-  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow(System.String, SuperOffice.CRM.Services.StringDictionary)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: InsertRowAsync(string, StringDictionary, CancellationToken)
+  nameWithType: IDatabaseTableAgent.InsertRowAsync(string, StringDictionary, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRowAsync(string, SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
+  nameWithType.vb: IDatabaseTableAgent.InsertRowAsync(String, StringDictionary, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRowAsync(String, SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
+  name.vb: InsertRowAsync(String, StringDictionary, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow(System.String,SuperOffice.CRM.Services.StringDictionary)
-    name: InsertRow
-    nameWithType: IDatabaseTableAgent.InsertRow
-    fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow
+  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRowAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+    name: InsertRowAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Services.StringDictionary
     name: StringDictionary
-    nameWithType: StringDictionary
-    fullName: SuperOffice.CRM.Services.StringDictionary
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow(System.String,SuperOffice.CRM.Services.StringDictionary)
-    name: InsertRow
-    nameWithType: IDatabaseTableAgent.InsertRow
-    fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow
+  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRowAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+    name: InsertRowAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Services.StringDictionary
     name: StringDictionary
-    nameWithType: StringDictionary
-    fullName: SuperOffice.CRM.Services.StringDictionary
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Services.StringDictionary
   isExternal: true
   name: StringDictionary
   nameWithType: StringDictionary
   fullName: SuperOffice.CRM.Services.StringDictionary
-- uid: SuperOffice.CRM.Services.DatabaseTableAgent.UpdateRow*
-  commentId: Overload:SuperOffice.CRM.Services.DatabaseTableAgent.UpdateRow
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.CRM.Services.DatabaseTableAgent.UpdateRowAsync*
+  commentId: Overload:SuperOffice.CRM.Services.DatabaseTableAgent.UpdateRowAsync
   isExternal: true
-  name: UpdateRow
-  nameWithType: DatabaseTableAgent.UpdateRow
-  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.UpdateRow
-- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary)
-  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary)
+  href: SuperOffice.CRM.Services.DatabaseTableAgent.html#SuperOffice_CRM_Services_DatabaseTableAgent_UpdateRowAsync_System_String_System_Int32_SuperOffice_CRM_Services_StringDictionary_System_Threading_CancellationToken_
+  name: UpdateRowAsync
+  nameWithType: DatabaseTableAgent.UpdateRowAsync
+  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.UpdateRowAsync
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRowAsync(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRowAsync(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDatabaseTableAgent
   isExternal: true
-  name: UpdateRow(String, Int32, StringDictionary)
-  nameWithType: IDatabaseTableAgent.UpdateRow(String, Int32, StringDictionary)
-  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow(System.String, System.Int32, SuperOffice.CRM.Services.StringDictionary)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: UpdateRowAsync(string, int, StringDictionary, CancellationToken)
+  nameWithType: IDatabaseTableAgent.UpdateRowAsync(string, int, StringDictionary, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRowAsync(string, int, SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
+  nameWithType.vb: IDatabaseTableAgent.UpdateRowAsync(String, Integer, StringDictionary, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRowAsync(String, Integer, SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
+  name.vb: UpdateRowAsync(String, Integer, StringDictionary, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary)
-    name: UpdateRow
-    nameWithType: IDatabaseTableAgent.UpdateRow
-    fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow
+  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRowAsync(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+    name: UpdateRowAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Services.StringDictionary
     name: StringDictionary
-    nameWithType: StringDictionary
-    fullName: SuperOffice.CRM.Services.StringDictionary
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary)
-    name: UpdateRow
-    nameWithType: IDatabaseTableAgent.UpdateRow
-    fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow
+  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRowAsync(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+    name: UpdateRowAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Services.StringDictionary
     name: StringDictionary
-    nameWithType: StringDictionary
-    fullName: SuperOffice.CRM.Services.StringDictionary
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.DatabaseTableAgent.DeleteRow*
-  commentId: Overload:SuperOffice.CRM.Services.DatabaseTableAgent.DeleteRow
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
-  name: DeleteRow
-  nameWithType: DatabaseTableAgent.DeleteRow
-  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.DeleteRow
-- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRow(System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRow(System.String,System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Services.DatabaseTableAgent.DeleteRowAsync*
+  commentId: Overload:SuperOffice.CRM.Services.DatabaseTableAgent.DeleteRowAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.DatabaseTableAgent.html#SuperOffice_CRM_Services_DatabaseTableAgent_DeleteRowAsync_System_String_System_Int32_System_Threading_CancellationToken_
+  name: DeleteRowAsync
+  nameWithType: DatabaseTableAgent.DeleteRowAsync
+  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.DeleteRowAsync
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRowAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRowAsync(System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDatabaseTableAgent
   isExternal: true
-  name: DeleteRow(String, Int32)
-  nameWithType: IDatabaseTableAgent.DeleteRow(String, Int32)
-  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRow(System.String, System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: DeleteRowAsync(string, int, CancellationToken)
+  nameWithType: IDatabaseTableAgent.DeleteRowAsync(string, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRowAsync(string, int, System.Threading.CancellationToken)
+  nameWithType.vb: IDatabaseTableAgent.DeleteRowAsync(String, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRowAsync(String, Integer, System.Threading.CancellationToken)
+  name.vb: DeleteRowAsync(String, Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRow(System.String,System.Int32)
-    name: DeleteRow
-    nameWithType: IDatabaseTableAgent.DeleteRow
-    fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRow
+  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRowAsync(System.String,System.Int32,System.Threading.CancellationToken)
+    name: DeleteRowAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRow(System.String,System.Int32)
-    name: DeleteRow
-    nameWithType: IDatabaseTableAgent.DeleteRow
-    fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRow
+  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRowAsync(System.String,System.Int32,System.Threading.CancellationToken)
+    name: DeleteRowAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.DatabaseTableAgent.Insert*
-  commentId: Overload:SuperOffice.CRM.Services.DatabaseTableAgent.Insert
+- uid: SuperOffice.CRM.Services.DatabaseTableAgent.InsertAsync*
+  commentId: Overload:SuperOffice.CRM.Services.DatabaseTableAgent.InsertAsync
   isExternal: true
-  name: Insert
-  nameWithType: DatabaseTableAgent.Insert
-  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.Insert
-- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Insert(System.String,System.String[],System.String[][])
-  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.Insert(System.String,System.String[],System.String[][])
+  href: SuperOffice.CRM.Services.DatabaseTableAgent.html#SuperOffice_CRM_Services_DatabaseTableAgent_InsertAsync_System_String_System_String___System_String_____System_Threading_CancellationToken_
+  name: InsertAsync
+  nameWithType: DatabaseTableAgent.InsertAsync
+  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.InsertAsync
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertAsync(System.String,System.String[],System.String[][],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.InsertAsync(System.String,System.String[],System.String[][],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDatabaseTableAgent
   isExternal: true
-  name: Insert(String, String[], String[][])
-  nameWithType: IDatabaseTableAgent.Insert(String, String[], String[][])
-  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Insert(System.String, System.String[], System.String[][])
-  nameWithType.vb: IDatabaseTableAgent.Insert(String, String(), String()())
-  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.Insert(System.String, System.String(), System.String()())
-  name.vb: Insert(String, String(), String()())
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: InsertAsync(string, string[], string[][], CancellationToken)
+  nameWithType: IDatabaseTableAgent.InsertAsync(string, string[], string[][], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertAsync(string, string[], string[][], System.Threading.CancellationToken)
+  nameWithType.vb: IDatabaseTableAgent.InsertAsync(String, String(), String()(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertAsync(String, String(), String()(), System.Threading.CancellationToken)
+  name.vb: InsertAsync(String, String(), String()(), CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Insert(System.String,System.String[],System.String[][])
-    name: Insert
-    nameWithType: IDatabaseTableAgent.Insert
-    fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Insert
+  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertAsync(System.String,System.String[],System.String[][],System.Threading.CancellationToken)
+    name: InsertAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Insert(System.String,System.String[],System.String[][])
-    name: Insert
-    nameWithType: IDatabaseTableAgent.Insert
-    fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Insert
+  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertAsync(System.String,System.String[],System.String[][],System.Threading.CancellationToken)
+    name: InsertAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: System.String[]
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
   nameWithType.vb: String()
-  fullName.vb: System.String()
+  fullName.vb: String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
 - uid: System.String[][]
   isExternal: true
-  name: String[][]
-  nameWithType: String[][]
-  fullName: System.String[][]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[][]
+  nameWithType: string[][]
+  fullName: string[][]
   nameWithType.vb: String()()
-  fullName.vb: System.String()()
+  fullName.vb: String()()
   name.vb: String()()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.MassOperationResult
-  commentId: T:SuperOffice.CRM.Services.MassOperationResult
-  parent: SuperOffice.CRM.Services
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MassOperationResult}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.MassOperationResult}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<MassOperationResult>
+  nameWithType: Task<MassOperationResult>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.MassOperationResult>
+  nameWithType.vb: Task(Of MassOperationResult)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.MassOperationResult)
+  name.vb: Task(Of MassOperationResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.MassOperationResult
+    name: MassOperationResult
+    isExternal: true
+    href: SuperOffice.CRM.Services.MassOperationResult.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.MassOperationResult
+    name: MassOperationResult
+    isExternal: true
+    href: SuperOffice.CRM.Services.MassOperationResult.html
+  - name: )
+- uid: SuperOffice.CRM.Services.DatabaseTableAgent.TruncateAsync*
+  commentId: Overload:SuperOffice.CRM.Services.DatabaseTableAgent.TruncateAsync
   isExternal: true
-  name: MassOperationResult
-  nameWithType: MassOperationResult
-  fullName: SuperOffice.CRM.Services.MassOperationResult
-- uid: SuperOffice.CRM.Services.DatabaseTableAgent.Truncate*
-  commentId: Overload:SuperOffice.CRM.Services.DatabaseTableAgent.Truncate
-  isExternal: true
-  name: Truncate
-  nameWithType: DatabaseTableAgent.Truncate
-  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.Truncate
-- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate(System.String)
-  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate(System.String)
+  href: SuperOffice.CRM.Services.DatabaseTableAgent.html#SuperOffice_CRM_Services_DatabaseTableAgent_TruncateAsync_System_String_System_Threading_CancellationToken_
+  name: TruncateAsync
+  nameWithType: DatabaseTableAgent.TruncateAsync
+  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.TruncateAsync
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.TruncateAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.TruncateAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDatabaseTableAgent
   isExternal: true
-  name: Truncate(String)
-  nameWithType: IDatabaseTableAgent.Truncate(String)
-  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate(System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: TruncateAsync(string, CancellationToken)
+  nameWithType: IDatabaseTableAgent.TruncateAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.TruncateAsync(string, System.Threading.CancellationToken)
+  nameWithType.vb: IDatabaseTableAgent.TruncateAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.TruncateAsync(String, System.Threading.CancellationToken)
+  name.vb: TruncateAsync(String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate(System.String)
-    name: Truncate
-    nameWithType: IDatabaseTableAgent.Truncate
-    fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate
+  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.TruncateAsync(System.String,System.Threading.CancellationToken)
+    name: TruncateAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate(System.String)
-    name: Truncate
-    nameWithType: IDatabaseTableAgent.Truncate
-    fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate
+  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.TruncateAsync(System.String,System.Threading.CancellationToken)
+    name: TruncateAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.DatabaseTableAgent.Upsert*
-  commentId: Overload:SuperOffice.CRM.Services.DatabaseTableAgent.Upsert
+- uid: SuperOffice.CRM.Services.DatabaseTableAgent.UpsertAsync*
+  commentId: Overload:SuperOffice.CRM.Services.DatabaseTableAgent.UpsertAsync
   isExternal: true
-  name: Upsert
-  nameWithType: DatabaseTableAgent.Upsert
-  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.Upsert
-- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
+  href: SuperOffice.CRM.Services.DatabaseTableAgent.html#SuperOffice_CRM_Services_DatabaseTableAgent_UpsertAsync_System_String_System_String___System_String___System_String_____SuperOffice_Data_UpsertNomatchAction_System_Boolean_System_Threading_CancellationToken_
+  name: UpsertAsync
+  nameWithType: DatabaseTableAgent.UpsertAsync
+  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.UpsertAsync
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.UpsertAsync(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.UpsertAsync(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDatabaseTableAgent
   isExternal: true
-  name: Upsert(String, String[], String[], String[][], UpsertNomatchAction, Boolean)
-  nameWithType: IDatabaseTableAgent.Upsert(String, String[], String[], String[][], UpsertNomatchAction, Boolean)
-  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String, System.String[], System.String[], System.String[][], SuperOffice.Data.UpsertNomatchAction, System.Boolean)
-  nameWithType.vb: IDatabaseTableAgent.Upsert(String, String(), String(), String()(), UpsertNomatchAction, Boolean)
-  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String, System.String(), System.String(), System.String()(), SuperOffice.Data.UpsertNomatchAction, System.Boolean)
-  name.vb: Upsert(String, String(), String(), String()(), UpsertNomatchAction, Boolean)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: UpsertAsync(string, string[], string[], string[][], UpsertNomatchAction, bool, CancellationToken)
+  nameWithType: IDatabaseTableAgent.UpsertAsync(string, string[], string[], string[][], UpsertNomatchAction, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.UpsertAsync(string, string[], string[], string[][], SuperOffice.Data.UpsertNomatchAction, bool, System.Threading.CancellationToken)
+  nameWithType.vb: IDatabaseTableAgent.UpsertAsync(String, String(), String(), String()(), UpsertNomatchAction, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.UpsertAsync(String, String(), String(), String()(), SuperOffice.Data.UpsertNomatchAction, Boolean, System.Threading.CancellationToken)
+  name.vb: UpsertAsync(String, String(), String(), String()(), UpsertNomatchAction, Boolean, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
-    name: Upsert
-    nameWithType: IDatabaseTableAgent.Upsert
-    fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert
+  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.UpsertAsync(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean,System.Threading.CancellationToken)
+    name: UpsertAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.UpsertNomatchAction
     name: UpsertNomatchAction
-    nameWithType: UpsertNomatchAction
-    fullName: SuperOffice.Data.UpsertNomatchAction
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
-    name: Upsert
-    nameWithType: IDatabaseTableAgent.Upsert
-    fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert
+  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.UpsertAsync(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean,System.Threading.CancellationToken)
+    name: UpsertAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.UpsertNomatchAction
     name: UpsertNomatchAction
-    nameWithType: UpsertNomatchAction
-    fullName: SuperOffice.Data.UpsertNomatchAction
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.UpsertNomatchAction
   isExternal: true
   name: UpsertNomatchAction
@@ -1265,110 +1641,99 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: SuperOffice.CRM.Services.DatabaseTableAgent.Delete*
-  commentId: Overload:SuperOffice.CRM.Services.DatabaseTableAgent.Delete
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.CRM.Services.DatabaseTableAgent.DeleteAsync*
+  commentId: Overload:SuperOffice.CRM.Services.DatabaseTableAgent.DeleteAsync
   isExternal: true
-  name: Delete
-  nameWithType: DatabaseTableAgent.Delete
-  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.Delete
-- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Delete(System.String,System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.Delete(System.String,System.Int32[])
+  href: SuperOffice.CRM.Services.DatabaseTableAgent.html#SuperOffice_CRM_Services_DatabaseTableAgent_DeleteAsync_System_String_System_Int32___System_Threading_CancellationToken_
+  name: DeleteAsync
+  nameWithType: DatabaseTableAgent.DeleteAsync
+  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.DeleteAsync
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteAsync(System.String,System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteAsync(System.String,System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDatabaseTableAgent
   isExternal: true
-  name: Delete(String, Int32[])
-  nameWithType: IDatabaseTableAgent.Delete(String, Int32[])
-  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Delete(System.String, System.Int32[])
-  nameWithType.vb: IDatabaseTableAgent.Delete(String, Int32())
-  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.Delete(System.String, System.Int32())
-  name.vb: Delete(String, Int32())
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: DeleteAsync(string, int[], CancellationToken)
+  nameWithType: IDatabaseTableAgent.DeleteAsync(string, int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteAsync(string, int[], System.Threading.CancellationToken)
+  nameWithType.vb: IDatabaseTableAgent.DeleteAsync(String, Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteAsync(String, Integer(), System.Threading.CancellationToken)
+  name.vb: DeleteAsync(String, Integer(), CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Delete(System.String,System.Int32[])
-    name: Delete
-    nameWithType: IDatabaseTableAgent.Delete
-    fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Delete
+  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteAsync(System.String,System.Int32[],System.Threading.CancellationToken)
+    name: DeleteAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Delete(System.String,System.Int32[])
-    name: Delete
-    nameWithType: IDatabaseTableAgent.Delete
-    fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Delete
+  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteAsync(System.String,System.Int32[],System.Threading.CancellationToken)
+    name: DeleteAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: System.Int32[]
   isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
   spec.csharp:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.DatabaseTableAgent.#ctor*
-  commentId: Overload:SuperOffice.CRM.Services.DatabaseTableAgent.#ctor
-  isExternal: true
-  name: DatabaseTableAgent
-  nameWithType: DatabaseTableAgent.DatabaseTableAgent
-  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.DatabaseTableAgent
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )

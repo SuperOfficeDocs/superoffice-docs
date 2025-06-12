@@ -91,25 +91,25 @@ OK
 POST /api/v1/Agents/Saint/SaveStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 843,
-  "Rank": 183,
-  "DefaultTask": 258,
-  "DefaultTaskText": "quasi",
+  "OwnerTable": 43,
+  "Rank": 975,
+  "DefaultTask": 585,
+  "DefaultTaskText": "quia",
   "IsVisual": false,
-  "LastGenerated": "1999-04-25T16:32:39.7896101+02:00",
-  "Description": "Vision-oriented hybrid productivity",
-  "Name": "Beatty, Rowe and Schinner",
-  "StatusMonitorId": 757,
-  "PictureId": 646,
-  "NeedsUpdate": true,
-  "Deleted": false,
-  "NumMatches": 637,
-  "NumNeedUpdate": 134,
-  "GenerationStart": "2008-03-14T16:32:39.7896101+01:00"
+  "LastGenerated": "2006-12-26T17:54:03.5389365+01:00",
+  "Description": "Profit-focused upward-trending framework",
+  "Name": "Johns LLC",
+  "StatusMonitorId": 698,
+  "PictureId": 506,
+  "NeedsUpdate": false,
+  "Deleted": true,
+  "NumMatches": 779,
+  "NumNeedUpdate": 372,
+  "GenerationStart": "2010-06-25T17:54:03.5389365+02:00"
 }
 ```
 
@@ -120,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 608,
-  "Rank": 158,
-  "DefaultTask": 617,
-  "DefaultTaskText": "provident",
+  "OwnerTable": 894,
+  "Rank": 35,
+  "DefaultTask": 431,
+  "DefaultTaskText": "pariatur",
   "IsVisual": false,
-  "LastGenerated": "2001-01-02T16:32:39.7896101+01:00",
-  "Description": "Total reciprocal firmware",
-  "Name": "Nicolas-Deckow",
-  "StatusMonitorId": 850,
-  "PictureId": 318,
-  "NeedsUpdate": false,
+  "LastGenerated": "2020-09-02T17:54:03.5389365+02:00",
+  "Description": "Multi-lateral maximized hub",
+  "Name": "Lueilwitz-Powlowski",
+  "StatusMonitorId": 639,
+  "PictureId": 950,
+  "NeedsUpdate": true,
   "Deleted": true,
-  "NumMatches": 857,
-  "NumNeedUpdate": 927,
-  "GenerationStart": "2015-12-04T16:32:39.7896101+01:00",
+  "NumMatches": 579,
+  "NumNeedUpdate": 52,
+  "GenerationStart": "2007-10-12T17:54:03.5389365+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 996
+      "FieldType": "System.String",
+      "FieldLength": 884
     }
   }
 }

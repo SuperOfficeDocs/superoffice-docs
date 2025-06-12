@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 449,
-    "Name": "Schneider LLC",
-    "ToolTip": "Aperiam autem qui sequi veritatis neque enim.",
+    "Id": 445,
+    "Name": "Anderson Group",
+    "ToolTip": "Quibusdam hic eligendi sit blanditiis voluptatibus.",
     "Deleted": true,
-    "Rank": 762,
-    "Type": "ea",
-    "ColorBlock": 501,
-    "IconHint": "amet",
+    "Rank": 177,
+    "Type": "dicta",
+    "ColorBlock": 836,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2004-06-24T16:32:48.8838567+02:00",
+    "LastChanged": "2004-08-08T17:54:09.0230434+02:00",
     "ChildItems": [
       {
-        "Id": 681,
-        "Name": "Ruecker, Roberts and Lubowitz",
-        "ToolTip": "Minima excepturi ullam animi quibusdam maxime debitis expedita.",
+        "Id": 930,
+        "Name": "Wilderman Inc and Sons",
+        "ToolTip": "Ut voluptas.",
         "Deleted": false,
-        "Rank": 505,
-        "Type": "voluptas",
-        "ColorBlock": 334,
-        "IconHint": "rerum",
-        "Selected": true,
-        "LastChanged": "2007-10-19T16:32:48.8838567+02:00",
+        "Rank": 527,
+        "Type": "consequatur",
+        "ColorBlock": 802,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "1998-08-08T17:54:09.0230434+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "eos",
-        "Hidden": false,
-        "FullName": "Jazmyne Olson"
+        "ExtraInfo": "sint",
+        "StyleHint": "sequi",
+        "Hidden": true,
+        "FullName": "Ole Rogers Blick PhD"
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Cesar Schoen"
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "aspernatur",
+    "Hidden": true,
+    "FullName": "Elvis Dietrich"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 120,
-    "Name": "Cremin-Powlowski",
-    "ToolTip": "Laudantium et occaecati et sunt qui porro aspernatur.",
-    "Deleted": false,
-    "Rank": 699,
-    "Type": "porro",
-    "ColorBlock": 134,
-    "IconHint": "nemo",
+    "Id": 825,
+    "Name": "Kuphal-Simonis",
+    "ToolTip": "Voluptatem voluptatem et et est.",
+    "Deleted": true,
+    "Rank": 756,
+    "Type": "ab",
+    "ColorBlock": 281,
+    "IconHint": "non",
     "Selected": true,
-    "LastChanged": "2008-09-05T16:32:48.8838567+02:00",
+    "LastChanged": "2014-04-19T17:54:09.0230434+02:00",
     "ChildItems": [
       {
-        "Id": 691,
-        "Name": "Rice, Breitenberg and O'Keefe",
-        "ToolTip": "Quis aut.",
-        "Deleted": true,
-        "Rank": 121,
-        "Type": "sequi",
-        "ColorBlock": 142,
-        "IconHint": "quos",
-        "Selected": true,
-        "LastChanged": "2009-03-29T16:32:48.8838567+02:00",
+        "Id": 891,
+        "Name": "Johnson, Mueller and Quigley",
+        "ToolTip": "Ut soluta earum quam.",
+        "Deleted": false,
+        "Rank": 913,
+        "Type": "delectus",
+        "ColorBlock": 271,
+        "IconHint": "suscipit",
+        "Selected": false,
+        "LastChanged": "2014-06-08T17:54:09.0230434+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "cupiditate",
-        "Hidden": false,
-        "FullName": "Miss Marjolaine Marcelle Jones",
+        "ExtraInfo": "error",
+        "StyleHint": "dolores",
+        "Hidden": true,
+        "FullName": "Tiffany Dare",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 115
+            "FieldLength": 263
           }
         }
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "totam",
-    "Hidden": false,
-    "FullName": "Ms. Annabelle Koby Stehr MD",
+    "ExtraInfo": "at",
+    "StyleHint": "similique",
+    "Hidden": true,
+    "FullName": "Mr. Joseph Lakin Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 33
+        "FieldType": "System.Int32",
+        "FieldLength": 288
       }
     }
   }

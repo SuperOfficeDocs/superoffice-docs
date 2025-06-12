@@ -5,10 +5,12 @@ items:
   id: SuperOffice.Security
   children:
   - SuperOffice.Security.CredentialsManager
+  - SuperOffice.Security.ICredentialsManager
   - SuperOffice.Security.IImplicitIdentitySupplier
-  - SuperOffice.Security.ImplicitIdentitySupplierAttribute
   - SuperOffice.Security.ISoIdentityResolver
+  - SuperOffice.Security.ISoImpersonationService
   - SuperOffice.Security.ISoSecurityTokenValidator
+  - SuperOffice.Security.ImplicitIdentitySupplierAttribute
   - SuperOffice.Security.SoIdentityResolverAttribute
   - SuperOffice.Security.SoImpersonationContext
   - SuperOffice.Security.SoSecurityTokenValidatorAttribute
@@ -28,20 +30,37 @@ references:
   commentId: T:SuperOffice.Security.SoImpersonationContext
   parent: SuperOffice.Security
   isExternal: true
+  href: SuperOffice.Security.SoImpersonationContext.html
   name: SoImpersonationContext
   nameWithType: SoImpersonationContext
   fullName: SuperOffice.Security.SoImpersonationContext
+- uid: SuperOffice.Security.ISoImpersonationService
+  commentId: T:SuperOffice.Security.ISoImpersonationService
+  isExternal: true
+  href: SuperOffice.Security.ISoImpersonationService.html
+  name: ISoImpersonationService
+  nameWithType: ISoImpersonationService
+  fullName: SuperOffice.Security.ISoImpersonationService
 - uid: SuperOffice.Security.CredentialsManager
   commentId: T:SuperOffice.Security.CredentialsManager
-  parent: SuperOffice.Security
   isExternal: true
+  href: SuperOffice.Security.CredentialsManager.html
   name: CredentialsManager
   nameWithType: CredentialsManager
   fullName: SuperOffice.Security.CredentialsManager
+- uid: SuperOffice.Security.ICredentialsManager
+  commentId: T:SuperOffice.Security.ICredentialsManager
+  parent: SuperOffice.Security
+  isExternal: true
+  href: SuperOffice.Security.ICredentialsManager.html
+  name: ICredentialsManager
+  nameWithType: ICredentialsManager
+  fullName: SuperOffice.Security.ICredentialsManager
 - uid: SuperOffice.Security.ISoIdentityResolver
   commentId: T:SuperOffice.Security.ISoIdentityResolver
   parent: SuperOffice.Security
   isExternal: true
+  href: SuperOffice.Security.ISoIdentityResolver.html
   name: ISoIdentityResolver
   nameWithType: ISoIdentityResolver
   fullName: SuperOffice.Security.ISoIdentityResolver
@@ -49,6 +68,7 @@ references:
   commentId: T:SuperOffice.Security.SoIdentityResolverAttribute
   parent: SuperOffice.Security
   isExternal: true
+  href: SuperOffice.Security.SoIdentityResolverAttribute.html
   name: SoIdentityResolverAttribute
   nameWithType: SoIdentityResolverAttribute
   fullName: SuperOffice.Security.SoIdentityResolverAttribute
@@ -56,6 +76,7 @@ references:
   commentId: T:SuperOffice.Security.UntrustedCredentials
   parent: SuperOffice.Security
   isExternal: true
+  href: SuperOffice.Security.UntrustedCredentials.html
   name: UntrustedCredentials
   nameWithType: UntrustedCredentials
   fullName: SuperOffice.Security.UntrustedCredentials
@@ -63,6 +84,7 @@ references:
   commentId: T:SuperOffice.Security.ImplicitIdentitySupplierAttribute
   parent: SuperOffice.Security
   isExternal: true
+  href: SuperOffice.Security.ImplicitIdentitySupplierAttribute.html
   name: ImplicitIdentitySupplierAttribute
   nameWithType: ImplicitIdentitySupplierAttribute
   fullName: SuperOffice.Security.ImplicitIdentitySupplierAttribute
@@ -70,6 +92,7 @@ references:
   commentId: T:SuperOffice.Security.IImplicitIdentitySupplier
   parent: SuperOffice.Security
   isExternal: true
+  href: SuperOffice.Security.IImplicitIdentitySupplier.html
   name: IImplicitIdentitySupplier
   nameWithType: IImplicitIdentitySupplier
   fullName: SuperOffice.Security.IImplicitIdentitySupplier
@@ -77,24 +100,48 @@ references:
   commentId: T:SuperOffice.Security.TokenValidationResult
   parent: SuperOffice.Security
   isExternal: true
+  href: SuperOffice.Security.TokenValidationResult.html
   name: TokenValidationResult
   nameWithType: TokenValidationResult
   fullName: SuperOffice.Security.TokenValidationResult
 - uid: SuperOffice.Security.ISoSecurityTokenValidator
   commentId: T:SuperOffice.Security.ISoSecurityTokenValidator
   isExternal: true
+  href: SuperOffice.Security.ISoSecurityTokenValidator.html
   name: ISoSecurityTokenValidator
   nameWithType: ISoSecurityTokenValidator
   fullName: SuperOffice.Security.ISoSecurityTokenValidator
 - uid: SuperOffice.Security.SoSecurityTokenValidatorAttribute
   commentId: T:SuperOffice.Security.SoSecurityTokenValidatorAttribute
   isExternal: true
+  href: SuperOffice.Security.SoSecurityTokenValidatorAttribute.html
   name: SoSecurityTokenValidatorAttribute
   nameWithType: SoSecurityTokenValidatorAttribute
   fullName: SuperOffice.Security.SoSecurityTokenValidatorAttribute
 - uid: SuperOffice.Security
   commentId: N:SuperOffice.Security
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Security
   nameWithType: SuperOffice.Security
   fullName: SuperOffice.Security
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html

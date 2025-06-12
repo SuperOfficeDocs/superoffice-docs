@@ -44,7 +44,7 @@ can be added to messages. They are a special kind of attachment, and conencted t
 ## Sample
 
 ```http!
-GET /api/v1/archive/externaldocumentitems?$select=contentType,created,isInHistory
+GET /api/v1/archive/externaldocumentitems?$select=created,isInHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

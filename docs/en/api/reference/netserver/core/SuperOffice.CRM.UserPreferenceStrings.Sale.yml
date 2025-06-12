@@ -29,27 +29,24 @@ items:
   nameWithType: UserPreferenceStrings.Sale
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nPreference keys for sales settings\n"
+  summary: Preference keys for sales settings
+  example: []
   syntax:
-    content: 'public static class Sale : Object'
-    content.vb: >-
-      Public Module Sale
-          Inherits Object
+    content: public static class UserPreferenceStrings.Sale
+    content.vb: Public Module UserPreferenceStrings.Sale
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.UserPreferenceStrings.Sale.Section
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Sale.Section
   id: Section
@@ -61,24 +58,16 @@ items:
   nameWithType: UserPreferenceStrings.Sale.Section
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.Section
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nSection heading\n"
+  summary: Section heading
+  example: []
   syntax:
     content: public const string Section = "Sale"
     return:
       type: System.String
     content.vb: Public Const Section As String = "Sale"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Sale.SkipCompletedSales
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Sale.SkipCompletedSales
   id: SkipCompletedSales
@@ -90,24 +79,16 @@ items:
   nameWithType: UserPreferenceStrings.Sale.SkipCompletedSales
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.SkipCompletedSales
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nSet to true to skip completed sales when searching or stepping in sales.\n"
+  summary: Set to true to skip completed sales when searching or stepping in sales.
+  example: []
   syntax:
     content: public const string SkipCompletedSales = "SkipCompletedSales"
     return:
       type: System.String
     content.vb: Public Const SkipCompletedSales As String = "SkipCompletedSales"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Sale.ConfirmCreateSuggAppointment
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Sale.ConfirmCreateSuggAppointment
   id: ConfirmCreateSuggAppointment
@@ -119,24 +100,19 @@ items:
   nameWithType: UserPreferenceStrings.Sale.ConfirmCreateSuggAppointment
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.ConfirmCreateSuggAppointment
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nSet to false to skip showing the dialog that asks you if you want to create a new appointment\nfrom a suggestion.\n"
+  summary: >-
+    Set to false to skip showing the dialog that asks you if you want to create a new appointment
+
+    from a suggestion.
+  example: []
   syntax:
     content: public const string ConfirmCreateSuggAppointment = "ConfirmCreateSuggAppointment"
     return:
       type: System.String
     content.vb: Public Const ConfirmCreateSuggAppointment As String = "ConfirmCreateSuggAppointment"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Sale.EnableSaleStakeholders
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Sale.EnableSaleStakeholders
   id: EnableSaleStakeholders
@@ -148,24 +124,16 @@ items:
   nameWithType: UserPreferenceStrings.Sale.EnableSaleStakeholders
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.EnableSaleStakeholders
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nEnable/disable stakeholders archives and functionality\n"
+  summary: Enable/disable stakeholders archives and functionality
+  example: []
   syntax:
     content: public const string EnableSaleStakeholders = "EnableSaleStakeholders"
     return:
       type: System.String
     content.vb: Public Const EnableSaleStakeholders As String = "EnableSaleStakeholders"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Sale.UseCompanyPostalAddressForQuote
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Sale.UseCompanyPostalAddressForQuote
   id: UseCompanyPostalAddressForQuote
@@ -177,24 +145,16 @@ items:
   nameWithType: UserPreferenceStrings.Sale.UseCompanyPostalAddressForQuote
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.UseCompanyPostalAddressForQuote
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nSet to true to always use company postal address for the delivery address if no custom delivery address is defined.\n"
+  summary: Set to true to always use company postal address for the delivery address if no custom delivery address is defined.
+  example: []
   syntax:
     content: public const string UseCompanyPostalAddressForQuote = "UseCompanyPostalAddressForQuote"
     return:
       type: System.String
     content.vb: Public Const UseCompanyPostalAddressForQuote As String = "UseCompanyPostalAddressForQuote"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Sale.CreateQuoteFollowup
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Sale.CreateQuoteFollowup
   id: CreateQuoteFollowup
@@ -206,24 +166,16 @@ items:
   nameWithType: UserPreferenceStrings.Sale.CreateQuoteFollowup
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.CreateQuoteFollowup
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nDefault create new followup when sending quote.\n"
+  summary: Default create new followup when sending quote.
+  example: []
   syntax:
     content: public const string CreateQuoteFollowup = "CreateQuoteFollowup"
     return:
       type: System.String
     content.vb: Public Const CreateQuoteFollowup As String = "CreateQuoteFollowup"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Sale.FollowupDaysBeforeQuoteExpiry
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Sale.FollowupDaysBeforeQuoteExpiry
   id: FollowupDaysBeforeQuoteExpiry
@@ -235,24 +187,16 @@ items:
   nameWithType: UserPreferenceStrings.Sale.FollowupDaysBeforeQuoteExpiry
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.FollowupDaysBeforeQuoteExpiry
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nNumber of days before the quote expiry date to default the follow-up.\n"
+  summary: Number of days before the quote expiry date to default the follow-up.
+  example: []
   syntax:
     content: public const string FollowupDaysBeforeQuoteExpiry = "FollowupDaysBeforeQuoteExpiry"
     return:
       type: System.String
     content.vb: Public Const FollowupDaysBeforeQuoteExpiry As String = "FollowupDaysBeforeQuoteExpiry"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Sale.SendOrderAsEmail
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Sale.SendOrderAsEmail
   id: SendOrderAsEmail
@@ -264,24 +208,16 @@ items:
   nameWithType: UserPreferenceStrings.Sale.SendOrderAsEmail
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.SendOrderAsEmail
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nDefault choose to send the order confirmation of the quote as an email.\n"
+  summary: Default choose to send the order confirmation of the quote as an email.
+  example: []
   syntax:
     content: public const string SendOrderAsEmail = "SendOrderAsEmail"
     return:
       type: System.String
     content.vb: Public Const SendOrderAsEmail As String = "SendOrderAsEmail"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Sale.SendQuoteAsEmail
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Sale.SendQuoteAsEmail
   id: SendQuoteAsEmail
@@ -293,24 +229,16 @@ items:
   nameWithType: UserPreferenceStrings.Sale.SendQuoteAsEmail
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.SendQuoteAsEmail
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nDefault choose to send the quote as an email.\n"
+  summary: Default choose to send the quote as an email.
+  example: []
   syntax:
     content: public const string SendQuoteAsEmail = "SendQuoteAsEmail"
     return:
       type: System.String
     content.vb: Public Const SendQuoteAsEmail As String = "SendQuoteAsEmail"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Sale.MarkSaleSold
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Sale.MarkSaleSold
   id: MarkSaleSold
@@ -322,24 +250,16 @@ items:
   nameWithType: UserPreferenceStrings.Sale.MarkSaleSold
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.MarkSaleSold
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nDefault choose to Mark sale as sold when place order on quote.\n"
+  summary: Default choose to Mark sale as sold when place order on quote.
+  example: []
   syntax:
     content: public const string MarkSaleSold = "MarkSaleSold"
     return:
       type: System.String
     content.vb: Public Const MarkSaleSold As String = "MarkSaleSold"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Sale.DefaultQuoteDeliveryTerm
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Sale.DefaultQuoteDeliveryTerm
   id: DefaultQuoteDeliveryTerm
@@ -351,24 +271,19 @@ items:
   nameWithType: UserPreferenceStrings.Sale.DefaultQuoteDeliveryTerm
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.DefaultQuoteDeliveryTerm
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nDefault delivery term for new quote\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  summary: >-
+    Default delivery term for new quote
+
+    <p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard
+  example: []
   syntax:
     content: public const string DefaultQuoteDeliveryTerm = "DefaultQuoteDeliveryTerm"
     return:
       type: System.String
     content.vb: Public Const DefaultQuoteDeliveryTerm As String = "DefaultQuoteDeliveryTerm"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Sale.DefaultQuoteDeliveryType
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Sale.DefaultQuoteDeliveryType
   id: DefaultQuoteDeliveryType
@@ -380,24 +295,19 @@ items:
   nameWithType: UserPreferenceStrings.Sale.DefaultQuoteDeliveryType
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.DefaultQuoteDeliveryType
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nDefault delivery type for new quote\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  summary: >-
+    Default delivery type for new quote
+
+    <p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard
+  example: []
   syntax:
     content: public const string DefaultQuoteDeliveryType = "DefaultQuoteDeliveryType"
     return:
       type: System.String
     content.vb: Public Const DefaultQuoteDeliveryType As String = "DefaultQuoteDeliveryType"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Sale.DefaultQuotePaymentTerm
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Sale.DefaultQuotePaymentTerm
   id: DefaultQuotePaymentTerm
@@ -409,24 +319,19 @@ items:
   nameWithType: UserPreferenceStrings.Sale.DefaultQuotePaymentTerm
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.DefaultQuotePaymentTerm
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nDefault payment term for new quote\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  summary: >-
+    Default payment term for new quote
+
+    <p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard
+  example: []
   syntax:
     content: public const string DefaultQuotePaymentTerm = "DefaultQuotePaymentTerm"
     return:
       type: System.String
     content.vb: Public Const DefaultQuotePaymentTerm As String = "DefaultQuotePaymentTerm"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Sale.DefaultQuotePaymentType
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Sale.DefaultQuotePaymentType
   id: DefaultQuotePaymentType
@@ -438,24 +343,19 @@ items:
   nameWithType: UserPreferenceStrings.Sale.DefaultQuotePaymentType
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.DefaultQuotePaymentType
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nDefault payment type for new quote\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  summary: >-
+    Default payment type for new quote
+
+    <p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard
+  example: []
   syntax:
     content: public const string DefaultQuotePaymentType = "DefaultQuotePaymentType"
     return:
       type: System.String
     content.vb: Public Const DefaultQuotePaymentType As String = "DefaultQuotePaymentType"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Sale.SendQuoteFavouriteOnly
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Sale.SendQuoteFavouriteOnly
   id: SendQuoteFavouriteOnly
@@ -467,24 +367,16 @@ items:
   nameWithType: UserPreferenceStrings.Sale.SendQuoteFavouriteOnly
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.SendQuoteFavouriteOnly
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nLast state of checkbox in Send Quote dialog\n"
+  summary: Last state of checkbox in Send Quote dialog
+  example: []
   syntax:
     content: public const string SendQuoteFavouriteOnly = "SendQuoteFavouriteOnly"
     return:
       type: System.String
     content.vb: Public Const SendQuoteFavouriteOnly As String = "SendQuoteFavouriteOnly"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Sale.ImageSize
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Sale.ImageSize
   id: ImageSize
@@ -496,24 +388,16 @@ items:
   nameWithType: UserPreferenceStrings.Sale.ImageSize
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.ImageSize
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nMaximum product image size, largest dimension\n"
+  summary: Maximum product image size, largest dimension
+  example: []
   syntax:
     content: public const string ImageSize = "ImageSize"
     return:
       type: System.String
     content.vb: Public Const ImageSize As String = "ImageSize"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Sale.ThumbnailSize
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Sale.ThumbnailSize
   id: ThumbnailSize
@@ -525,41 +409,278 @@ items:
   nameWithType: UserPreferenceStrings.Sale.ThumbnailSize
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.ThumbnailSize
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nMaximum thumbnail size, largest dimension\n"
+  summary: Maximum thumbnail size, largest dimension
+  example: []
   syntax:
     content: public const string ThumbnailSize = "ThumbnailSize"
     return:
       type: System.String
     content.vb: Public Const ThumbnailSize As String = "ThumbnailSize"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -567,6 +688,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

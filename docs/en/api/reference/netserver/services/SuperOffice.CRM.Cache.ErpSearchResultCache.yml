@@ -1,0 +1,579 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Cache.ErpSearchResultCache
+  commentId: T:SuperOffice.CRM.Cache.ErpSearchResultCache
+  id: ErpSearchResultCache
+  parent: SuperOffice.CRM.Cache
+  children:
+  - SuperOffice.CRM.Cache.ErpSearchResultCache.#ctor
+  - SuperOffice.CRM.Cache.ErpSearchResultCache.GetSearchResult(System.Int32,SuperOffice.Data.ErpActorType,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[])
+  - SuperOffice.CRM.Cache.ErpSearchResultCache.OnLoad
+  - SuperOffice.CRM.Cache.ErpSearchResultCache.OnLoadAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Cache.ErpSearchResultCache.SetSearchResult(System.Int32,SuperOffice.Data.ErpActorType,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRow})
+  - SuperOffice.CRM.Cache.ErpSearchResultCache.TableNames
+  langs:
+  - csharp
+  - vb
+  name: ErpSearchResultCache
+  nameWithType: ErpSearchResultCache
+  fullName: SuperOffice.CRM.Cache.ErpSearchResultCache
+  type: Class
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: 'public class ErpSearchResultCache : CacheBaseV2'
+    content.vb: Public Class ErpSearchResultCache Inherits CacheBaseV2
+  inheritance:
+  - System.Object
+- uid: SuperOffice.CRM.Cache.ErpSearchResultCache.GetSearchResult(System.Int32,SuperOffice.Data.ErpActorType,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[])
+  commentId: M:SuperOffice.CRM.Cache.ErpSearchResultCache.GetSearchResult(System.Int32,SuperOffice.Data.ErpActorType,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[])
+  id: GetSearchResult(System.Int32,SuperOffice.Data.ErpActorType,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[])
+  parent: SuperOffice.CRM.Cache.ErpSearchResultCache
+  langs:
+  - csharp
+  - vb
+  name: GetSearchResult(int, ErpActorType, ArchiveRestrictionInfo[], string[])
+  nameWithType: ErpSearchResultCache.GetSearchResult(int, ErpActorType, ArchiveRestrictionInfo[], string[])
+  fullName: SuperOffice.CRM.Cache.ErpSearchResultCache.GetSearchResult(int, SuperOffice.Data.ErpActorType, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], string[])
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: public List<ArchiveRow> GetSearchResult(int connectionId, ErpActorType erpActorType, ArchiveRestrictionInfo[] restrictions, string[] fieldKeys)
+    parameters:
+    - id: connectionId
+      type: System.Int32
+    - id: erpActorType
+      type: SuperOffice.Data.ErpActorType
+    - id: restrictions
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+    - id: fieldKeys
+      type: System.String[]
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRow}
+    content.vb: Public Function GetSearchResult(connectionId As Integer, erpActorType As ErpActorType, restrictions As ArchiveRestrictionInfo(), fieldKeys As String()) As List(Of ArchiveRow)
+  overload: SuperOffice.CRM.Cache.ErpSearchResultCache.GetSearchResult*
+  nameWithType.vb: ErpSearchResultCache.GetSearchResult(Integer, ErpActorType, ArchiveRestrictionInfo(), String())
+  fullName.vb: SuperOffice.CRM.Cache.ErpSearchResultCache.GetSearchResult(Integer, SuperOffice.Data.ErpActorType, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), String())
+  name.vb: GetSearchResult(Integer, ErpActorType, ArchiveRestrictionInfo(), String())
+- uid: SuperOffice.CRM.Cache.ErpSearchResultCache.SetSearchResult(System.Int32,SuperOffice.Data.ErpActorType,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRow})
+  commentId: M:SuperOffice.CRM.Cache.ErpSearchResultCache.SetSearchResult(System.Int32,SuperOffice.Data.ErpActorType,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRow})
+  id: SetSearchResult(System.Int32,SuperOffice.Data.ErpActorType,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRow})
+  parent: SuperOffice.CRM.Cache.ErpSearchResultCache
+  langs:
+  - csharp
+  - vb
+  name: SetSearchResult(int, ErpActorType, ArchiveRestrictionInfo[], string[], List<ArchiveRow>)
+  nameWithType: ErpSearchResultCache.SetSearchResult(int, ErpActorType, ArchiveRestrictionInfo[], string[], List<ArchiveRow>)
+  fullName: SuperOffice.CRM.Cache.ErpSearchResultCache.SetSearchResult(int, SuperOffice.Data.ErpActorType, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], string[], System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveRow>)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: public void SetSearchResult(int connectionId, ErpActorType erpActorType, ArchiveRestrictionInfo[] restrictions, string[] fieldKeys, List<ArchiveRow> archiveRows)
+    parameters:
+    - id: connectionId
+      type: System.Int32
+    - id: erpActorType
+      type: SuperOffice.Data.ErpActorType
+    - id: restrictions
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+    - id: fieldKeys
+      type: System.String[]
+    - id: archiveRows
+      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRow}
+    content.vb: Public Sub SetSearchResult(connectionId As Integer, erpActorType As ErpActorType, restrictions As ArchiveRestrictionInfo(), fieldKeys As String(), archiveRows As List(Of ArchiveRow))
+  overload: SuperOffice.CRM.Cache.ErpSearchResultCache.SetSearchResult*
+  nameWithType.vb: ErpSearchResultCache.SetSearchResult(Integer, ErpActorType, ArchiveRestrictionInfo(), String(), List(Of ArchiveRow))
+  fullName.vb: SuperOffice.CRM.Cache.ErpSearchResultCache.SetSearchResult(Integer, SuperOffice.Data.ErpActorType, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), String(), System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveRow))
+  name.vb: SetSearchResult(Integer, ErpActorType, ArchiveRestrictionInfo(), String(), List(Of ArchiveRow))
+- uid: SuperOffice.CRM.Cache.ErpSearchResultCache.OnLoadAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Cache.ErpSearchResultCache.OnLoadAsync(System.Threading.CancellationToken)
+  id: OnLoadAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Cache.ErpSearchResultCache
+  langs:
+  - csharp
+  - vb
+  name: OnLoadAsync(CancellationToken)
+  nameWithType: ErpSearchResultCache.OnLoadAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Cache.ErpSearchResultCache.OnLoadAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Cache
+  example: []
+  syntax:
+    content: protected override Task OnLoadAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function OnLoadAsync(cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.CRM.Cache.ErpSearchResultCache.OnLoadAsync*
+- uid: SuperOffice.CRM.Cache.ErpSearchResultCache.OnLoad
+  commentId: M:SuperOffice.CRM.Cache.ErpSearchResultCache.OnLoad
+  id: OnLoad
+  parent: SuperOffice.CRM.Cache.ErpSearchResultCache
+  langs:
+  - csharp
+  - vb
+  name: OnLoad()
+  nameWithType: ErpSearchResultCache.OnLoad()
+  fullName: SuperOffice.CRM.Cache.ErpSearchResultCache.OnLoad()
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Cache
+  example: []
+  syntax:
+    content: protected override void OnLoad()
+    content.vb: Protected Overrides Sub OnLoad()
+  overload: SuperOffice.CRM.Cache.ErpSearchResultCache.OnLoad*
+- uid: SuperOffice.CRM.Cache.ErpSearchResultCache.#ctor
+  commentId: M:SuperOffice.CRM.Cache.ErpSearchResultCache.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Cache.ErpSearchResultCache
+  langs:
+  - csharp
+  - vb
+  name: ErpSearchResultCache()
+  nameWithType: ErpSearchResultCache.ErpSearchResultCache()
+  fullName: SuperOffice.CRM.Cache.ErpSearchResultCache.ErpSearchResultCache()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: public ErpSearchResultCache()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Cache.ErpSearchResultCache.#ctor*
+  nameWithType.vb: ErpSearchResultCache.New()
+  fullName.vb: SuperOffice.CRM.Cache.ErpSearchResultCache.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Cache.ErpSearchResultCache.TableNames
+  commentId: P:SuperOffice.CRM.Cache.ErpSearchResultCache.TableNames
+  id: TableNames
+  parent: SuperOffice.CRM.Cache.ErpSearchResultCache
+  langs:
+  - csharp
+  - vb
+  name: TableNames
+  nameWithType: ErpSearchResultCache.TableNames
+  fullName: SuperOffice.CRM.Cache.ErpSearchResultCache.TableNames
+  type: Property
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Cache
+  example: []
+  syntax:
+    content: protected override IEnumerable<string> TableNames { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: Protected Overrides ReadOnly Property TableNames As IEnumerable(Of String)
+  overload: SuperOffice.CRM.Cache.ErpSearchResultCache.TableNames*
+references:
+- uid: SuperOffice.CRM.Cache
+  commentId: N:SuperOffice.CRM.Cache
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Cache
+  nameWithType: SuperOffice.CRM.Cache
+  fullName: SuperOffice.CRM.Cache
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Cache.ErpSearchResultCache.GetSearchResult*
+  commentId: Overload:SuperOffice.CRM.Cache.ErpSearchResultCache.GetSearchResult
+  isExternal: true
+  href: SuperOffice.CRM.Cache.ErpSearchResultCache.html#SuperOffice_CRM_Cache_ErpSearchResultCache_GetSearchResult_System_Int32_SuperOffice_Data_ErpActorType_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___System_String___
+  name: GetSearchResult
+  nameWithType: ErpSearchResultCache.GetSearchResult
+  fullName: SuperOffice.CRM.Cache.ErpSearchResultCache.GetSearchResult
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.Data.ErpActorType
+  isExternal: true
+  name: ErpActorType
+  nameWithType: ErpActorType
+  fullName: SuperOffice.Data.ErpActorType
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRow}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRow}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<ArchiveRow>
+  nameWithType: List<ArchiveRow>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveRow>
+  nameWithType.vb: List(Of ArchiveRow)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  name.vb: List(Of ArchiveRow)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.CRM.Cache.ErpSearchResultCache.SetSearchResult*
+  commentId: Overload:SuperOffice.CRM.Cache.ErpSearchResultCache.SetSearchResult
+  isExternal: true
+  href: SuperOffice.CRM.Cache.ErpSearchResultCache.html#SuperOffice_CRM_Cache_ErpSearchResultCache_SetSearchResult_System_Int32_SuperOffice_Data_ErpActorType_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___System_String___System_Collections_Generic_List_SuperOffice_CRM_ArchiveLists_ArchiveRow__
+  name: SetSearchResult
+  nameWithType: ErpSearchResultCache.SetSearchResult
+  fullName: SuperOffice.CRM.Cache.ErpSearchResultCache.SetSearchResult
+- uid: SuperOffice.CRM.Cache.ErpSearchResultCache.OnLoadAsync*
+  commentId: Overload:SuperOffice.CRM.Cache.ErpSearchResultCache.OnLoadAsync
+  isExternal: true
+  href: SuperOffice.CRM.Cache.ErpSearchResultCache.html#SuperOffice_CRM_Cache_ErpSearchResultCache_OnLoadAsync_System_Threading_CancellationToken_
+  name: OnLoadAsync
+  nameWithType: ErpSearchResultCache.OnLoadAsync
+  fullName: SuperOffice.CRM.Cache.ErpSearchResultCache.OnLoadAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Cache.ErpSearchResultCache.OnLoad*
+  commentId: Overload:SuperOffice.CRM.Cache.ErpSearchResultCache.OnLoad
+  isExternal: true
+  href: SuperOffice.CRM.Cache.ErpSearchResultCache.html#SuperOffice_CRM_Cache_ErpSearchResultCache_OnLoad
+  name: OnLoad
+  nameWithType: ErpSearchResultCache.OnLoad
+  fullName: SuperOffice.CRM.Cache.ErpSearchResultCache.OnLoad
+- uid: SuperOffice.CRM.Cache.ErpSearchResultCache.#ctor*
+  commentId: Overload:SuperOffice.CRM.Cache.ErpSearchResultCache.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Cache.ErpSearchResultCache.html#SuperOffice_CRM_Cache_ErpSearchResultCache__ctor
+  name: ErpSearchResultCache
+  nameWithType: ErpSearchResultCache.ErpSearchResultCache
+  fullName: SuperOffice.CRM.Cache.ErpSearchResultCache.ErpSearchResultCache
+  nameWithType.vb: ErpSearchResultCache.New
+  fullName.vb: SuperOffice.CRM.Cache.ErpSearchResultCache.New
+  name.vb: New
+- uid: SuperOffice.CRM.Cache.ErpSearchResultCache.TableNames*
+  commentId: Overload:SuperOffice.CRM.Cache.ErpSearchResultCache.TableNames
+  isExternal: true
+  href: SuperOffice.CRM.Cache.ErpSearchResultCache.html#SuperOffice_CRM_Cache_ErpSearchResultCache_TableNames
+  name: TableNames
+  nameWithType: ErpSearchResultCache.TableNames
+  fullName: SuperOffice.CRM.Cache.ErpSearchResultCache.TableNames
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<string>
+  nameWithType: IEnumerable<string>
+  fullName: System.Collections.Generic.IEnumerable<string>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

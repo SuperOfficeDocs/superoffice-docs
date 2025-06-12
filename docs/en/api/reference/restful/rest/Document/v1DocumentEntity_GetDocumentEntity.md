@@ -109,7 +109,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -117,91 +117,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 04 Feb 2010 16:32:47 G2T
+Last-Modified: Tue, 09 Nov 2010 17:54:08 G11T
 
 {
-  "DocumentId": 670,
+  "DocumentId": 29,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "eum",
-  "Header": "doloribus",
-  "Name": "Ortiz-Bogisich",
-  "OurRef": "aperiam",
-  "YourRef": "quia",
-  "CreatedDate": "2019-05-13T16:32:47.4620973+02:00",
-  "UpdatedDate": "2010-02-04T16:32:47.4620973+01:00",
-  "Description": "Centralized interactive Graphical User Interface",
+  "Attention": "quibusdam",
+  "Header": "numquam",
+  "Name": "Mills, Harris and Rolfson",
+  "OurRef": "veniam",
+  "YourRef": "qui",
+  "CreatedDate": "2013-03-14T17:54:08.2108433+01:00",
+  "UpdatedDate": "2010-11-09T17:54:08.2108433+01:00",
+  "Description": "Intuitive stable service-desk",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2009-01-19T16:32:47.4620973+01:00",
-  "ExternalRef": "quo",
+  "Date": "2022-06-03T17:54:08.2108433+02:00",
+  "ExternalRef": "et",
   "Completed": "Completed",
-  "ActiveLinks": 246,
+  "ActiveLinks": 247,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Lynch, Lehner and Leannon",
-      "Id": 895,
-      "Description": "Self-enabling zero administration algorithm",
-      "ExtraInfo": "iste",
-      "LinkId": 373,
+      "EntityName": "Ullrich Inc and Sons",
+      "Id": 800,
+      "Description": "Ameliorated hybrid complexity",
+      "ExtraInfo": "et",
+      "LinkId": 262,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 990
+          "FieldType": "System.Int32",
+          "FieldLength": 122
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 196,
-  "Snum": 13,
+  "SuggestedDocumentId": 969,
+  "Snum": 466,
   "UserDefinedFields": {
-    "SuperOffice:1": "1353789876",
-    "SuperOffice:2": "Chelsea Ratke V"
+    "SuperOffice:1": "Dan Kris",
+    "SuperOffice:2": "1453785763"
   },
   "ExtraFields": {
-    "ExtraFields1": "reiciendis",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "et",
+    "ExtraFields2": "laborum"
   },
   "CustomFields": {
-    "CustomFields1": "vero",
-    "CustomFields2": "explicabo"
+    "CustomFields1": "quo",
+    "CustomFields2": "non"
   },
-  "PublishEventDate": "1999-07-13T16:32:47.4620973+02:00",
-  "PublishTo": "2013-03-20T16:32:47.4620973+01:00",
-  "PublishFrom": "2005-06-13T16:32:47.4620973+02:00",
+  "PublishEventDate": "2019-06-18T17:54:08.2108433+02:00",
+  "PublishTo": "1998-02-07T17:54:08.2108433+01:00",
+  "PublishFrom": "2005-11-26T17:54:08.2108433+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 454,
+      "VisibleId": 200,
       "Visibility": "All",
-      "DisplayValue": "ullam",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 92
+          "FieldLength": 535
         }
       }
     },
     {
-      "VisibleId": 454,
+      "VisibleId": 200,
       "Visibility": "All",
-      "DisplayValue": "ullam",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 92
+          "FieldLength": 535
         }
       }
     }
@@ -210,8 +210,8 @@ Last-Modified: Thu, 04 Feb 2010 16:32:47 G2T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 406
+      "FieldType": "System.Int32",
+      "FieldLength": 527
     }
   },
   "_Links": {

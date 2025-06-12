@@ -9,64 +9,21 @@ items:
   - SuperOffice.WebApi.Data.NotifyChannel.PopUp
   - SuperOffice.WebApi.Data.NotifyChannel.Sms
   - SuperOffice.WebApi.Data.NotifyChannel.Unknown
-  - SuperOffice.WebApi.Data.NotifyChannel.value__
   langs:
   - csharp
   - vb
   name: NotifyChannel
   nameWithType: NotifyChannel
   fullName: SuperOffice.WebApi.Data.NotifyChannel
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe different channels to send notifications over\n"
+  summary: The different channels to send notifications over
+  example: []
   syntax:
-    content: 'public sealed class NotifyChannel : Enum'
-    content.vb: >-
-      Public NotInheritable Class NotifyChannel
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.NotifyChannel.value__
-  commentId: F:SuperOffice.WebApi.Data.NotifyChannel.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.NotifyChannel
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: NotifyChannel.value__
-  fullName: SuperOffice.WebApi.Data.NotifyChannel.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum NotifyChannel
+    content.vb: Public Enum NotifyChannel
 - uid: SuperOffice.WebApi.Data.NotifyChannel.Unknown
   commentId: F:SuperOffice.WebApi.Data.NotifyChannel.Unknown
   id: Unknown
@@ -78,24 +35,26 @@ items:
   nameWithType: NotifyChannel.Unknown
   fullName: SuperOffice.WebApi.Data.NotifyChannel.Unknown
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Unknown notification type\n"
+  summary: '0: Unknown notification type'
+  example: []
   syntax:
-    content: public const NotifyChannel Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.WebApi.Data.NotifyChannel
-    content.vb: Public Const Unknown As NotifyChannel
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.NotifyChannel.PopUp
   commentId: F:SuperOffice.WebApi.Data.NotifyChannel.PopUp
   id: PopUp
@@ -107,24 +66,26 @@ items:
   nameWithType: NotifyChannel.PopUp
   fullName: SuperOffice.WebApi.Data.NotifyChannel.PopUp
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Notifications sent as a popup message\n"
+  summary: '1: Notifications sent as a popup message'
+  example: []
   syntax:
-    content: public const NotifyChannel PopUp
+    content: >-
+      [EnumMember]
+
+      PopUp = 1
     return:
       type: SuperOffice.WebApi.Data.NotifyChannel
-    content.vb: Public Const PopUp As NotifyChannel
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      PopUp = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.NotifyChannel.Email
   commentId: F:SuperOffice.WebApi.Data.NotifyChannel.Email
   id: Email
@@ -136,24 +97,26 @@ items:
   nameWithType: NotifyChannel.Email
   fullName: SuperOffice.WebApi.Data.NotifyChannel.Email
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Notifications sent as an email\n"
+  summary: '2: Notifications sent as an email'
+  example: []
   syntax:
-    content: public const NotifyChannel Email
+    content: >-
+      [EnumMember]
+
+      Email = 2
     return:
       type: SuperOffice.WebApi.Data.NotifyChannel
-    content.vb: Public Const Email As NotifyChannel
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Email = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.NotifyChannel.Sms
   commentId: F:SuperOffice.WebApi.Data.NotifyChannel.Sms
   id: Sms
@@ -165,55 +128,69 @@ items:
   nameWithType: NotifyChannel.Sms
   fullName: SuperOffice.WebApi.Data.NotifyChannel.Sms
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Notifications sent as a sms\n"
+  summary: '3: Notifications sent as a sms'
+  example: []
   syntax:
-    content: public const NotifyChannel Sms
+    content: >-
+      [EnumMember]
+
+      Sms = 3
     return:
       type: SuperOffice.WebApi.Data.NotifyChannel
-    content.vb: Public Const Sms As NotifyChannel
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Sms = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.NotifyChannel
   commentId: T:SuperOffice.WebApi.Data.NotifyChannel
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.NotifyChannel.html
   name: NotifyChannel
   nameWithType: NotifyChannel
   fullName: SuperOffice.WebApi.Data.NotifyChannel

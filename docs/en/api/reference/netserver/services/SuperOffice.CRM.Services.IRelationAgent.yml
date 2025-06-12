@@ -5,10 +5,10 @@ items:
   id: IRelationAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity
-  - SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation(System.Int32)
-  - SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity(System.Int32)
-  - SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
+  - SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntityAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelationAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IRelationAgent.SaveContactRelationAsync(SuperOffice.CRM.Services.ContactRelationEntity,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -16,15 +16,28 @@ items:
   nameWithType: IRelationAgent
   fullName: SuperOffice.CRM.Services.IRelationAgent
   type: Interface
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nInterface for the Relation Agent\nContact/Person relations\n"
+  summary: >-
+    Interface for the Relation Agent
+
+    Contact/Person relations
   example:
-  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (RelationAgent agent = new RelationAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  - >-
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       using (RelationAgent agent = new RelationAgent())
+       {
+          // call methods on agent here...
+       }
+    }</code></pre>
   syntax:
     content: >-
       [Agent("Relation Agent", "Interface for the Relation Agent. Contact/Person relations")]
@@ -33,8 +46,7 @@ items:
     content.vb: >-
       <Agent("Relation Agent", "Interface for the Relation Agent. Contact/Person relations")>
 
-      Public Interface IRelationAgent
-          Inherits IAgent
+      Public Interface IRelationAgent Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
     ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
@@ -43,169 +55,360 @@ items:
       value: Relation Agent
     - type: System.String
       value: Interface for the Relation Agent. Contact/Person relations
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
-- uid: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity
-  commentId: M:SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity
-  id: CreateDefaultContactRelationEntity
+- uid: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultContactRelationEntityAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IRelationAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultContactRelationEntity()
-  nameWithType: IRelationAgent.CreateDefaultContactRelationEntity()
-  fullName: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity()
+  name: CreateDefaultContactRelationEntityAsync(CancellationToken)
+  nameWithType: IRelationAgent.CreateDefaultContactRelationEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntityAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new ContactRelationEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  summary: >-
+    Loading default values into a new ContactRelationEntity.
+
+    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
-    content: ContactRelationEntity CreateDefaultContactRelationEntity()
+    content: Task<ContactRelationEntity> CreateDefaultContactRelationEntityAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ContactRelationEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ContactRelationEntity}
       description: New ContactRelationEntity with default values
-    content.vb: Function CreateDefaultContactRelationEntity As ContactRelationEntity
-  overload: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity*
-- uid: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity(System.Int32)
-  id: GetContactRelationEntity(System.Int32)
+    content.vb: Function CreateDefaultContactRelationEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ContactRelationEntity)
+  overload: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntityAsync*
+- uid: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetContactRelationEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IRelationAgent
   langs:
   - csharp
   - vb
-  name: GetContactRelationEntity(Int32)
-  nameWithType: IRelationAgent.GetContactRelationEntity(Int32)
-  fullName: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity(System.Int32)
+  name: GetContactRelationEntityAsync(int, CancellationToken)
+  nameWithType: IRelationAgent.GetContactRelationEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntityAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets a ContactRelationEntity object.                        \n"
+  summary: Gets a ContactRelationEntity object.
+  example: []
   syntax:
-    content: ContactRelationEntity GetContactRelationEntity(int contactRelationEntityId)
+    content: Task<ContactRelationEntity> GetContactRelationEntityAsync(int contactRelationEntityId, CancellationToken cancellationToken = default)
     parameters:
     - id: contactRelationEntityId
       type: System.Int32
       description: The identifier of the ContactRelationEntity object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ContactRelationEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ContactRelationEntity}
       description: ContactRelationEntity
-    content.vb: Function GetContactRelationEntity(contactRelationEntityId As Integer) As ContactRelationEntity
-  overload: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity*
-- uid: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
-  commentId: M:SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
-  id: SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
+    content.vb: Function GetContactRelationEntityAsync(contactRelationEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ContactRelationEntity)
+  overload: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntityAsync*
+  nameWithType.vb: IRelationAgent.GetContactRelationEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetContactRelationEntityAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelationAsync(SuperOffice.CRM.Services.ContactRelationEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IRelationAgent.SaveContactRelationAsync(SuperOffice.CRM.Services.ContactRelationEntity,System.Threading.CancellationToken)
+  id: SaveContactRelationAsync(SuperOffice.CRM.Services.ContactRelationEntity,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IRelationAgent
   langs:
   - csharp
   - vb
-  name: SaveContactRelation(ContactRelationEntity)
-  nameWithType: IRelationAgent.SaveContactRelation(ContactRelationEntity)
-  fullName: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
+  name: SaveContactRelationAsync(ContactRelationEntity, CancellationToken)
+  nameWithType: IRelationAgent.SaveContactRelationAsync(ContactRelationEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelationAsync(SuperOffice.CRM.Services.ContactRelationEntity, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCreates a new or updates an existing contact relation.\n"
+  summary: Creates a new or updates an existing contact relation.
+  example: []
   syntax:
-    content: ContactRelationEntity SaveContactRelation(ContactRelationEntity contactRelationEntity)
+    content: Task<ContactRelationEntity> SaveContactRelationAsync(ContactRelationEntity contactRelationEntity, CancellationToken cancellationToken = default)
     parameters:
     - id: contactRelationEntity
       type: SuperOffice.CRM.Services.ContactRelationEntity
       description: Relation to save
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ContactRelationEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ContactRelationEntity}
       description: Saved relation
-    content.vb: Function SaveContactRelation(contactRelationEntity As ContactRelationEntity) As ContactRelationEntity
-  overload: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation*
-- uid: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation(System.Int32)
-  id: DeleteContactRelation(System.Int32)
+    content.vb: Function SaveContactRelationAsync(contactRelationEntity As ContactRelationEntity, cancellationToken As CancellationToken = Nothing) As Task(Of ContactRelationEntity)
+  overload: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelationAsync*
+- uid: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelationAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelationAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteContactRelationAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IRelationAgent
   langs:
   - csharp
   - vb
-  name: DeleteContactRelation(Int32)
-  nameWithType: IRelationAgent.DeleteContactRelation(Int32)
-  fullName: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation(System.Int32)
+  name: DeleteContactRelationAsync(int, CancellationToken)
+  nameWithType: IRelationAgent.DeleteContactRelationAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelationAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDeletes the spesified contact relation.\n"
+  summary: Deletes the spesified contact relation.
+  example: []
   syntax:
-    content: void DeleteContactRelation(int contactRelationEntityId)
+    content: Task DeleteContactRelationAsync(int contactRelationEntityId, CancellationToken cancellationToken = default)
     parameters:
     - id: contactRelationEntityId
       type: System.Int32
       description: Relation to delete
-    content.vb: Sub DeleteContactRelation(contactRelationEntityId As Integer)
-  overload: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function DeleteContactRelationAsync(contactRelationEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelationAsync*
+  nameWithType.vb: IRelationAgent.DeleteContactRelationAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelationAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteContactRelationAsync(Integer, CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntityAsync
   isExternal: true
-  name: CreateDefaultContactRelationEntity
-  nameWithType: IRelationAgent.CreateDefaultContactRelationEntity
-  fullName: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity
-- uid: SuperOffice.CRM.Services.ContactRelationEntity
-  commentId: T:SuperOffice.CRM.Services.ContactRelationEntity
-  parent: SuperOffice.CRM.Services
+  href: SuperOffice.CRM.Services.IRelationAgent.html#SuperOffice_CRM_Services_IRelationAgent_CreateDefaultContactRelationEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultContactRelationEntityAsync
+  nameWithType: IRelationAgent.CreateDefaultContactRelationEntityAsync
+  fullName: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntityAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: ContactRelationEntity
-  nameWithType: ContactRelationEntity
-  fullName: SuperOffice.CRM.Services.ContactRelationEntity
-- uid: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ContactRelationEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ContactRelationEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ContactRelationEntity>
+  nameWithType: Task<ContactRelationEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ContactRelationEntity>
+  nameWithType.vb: Task(Of ContactRelationEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ContactRelationEntity)
+  name.vb: Task(Of ContactRelationEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.ContactRelationEntity
+    name: ContactRelationEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.ContactRelationEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.ContactRelationEntity
+    name: ContactRelationEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.ContactRelationEntity.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: GetContactRelationEntity
-  nameWithType: IRelationAgent.GetContactRelationEntity
-  fullName: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IRelationAgent.html#SuperOffice_CRM_Services_IRelationAgent_GetContactRelationEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetContactRelationEntityAsync
+  nameWithType: IRelationAgent.GetContactRelationEntityAsync
+  fullName: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntityAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation*
-  commentId: Overload:SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation
+- uid: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelationAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IRelationAgent.SaveContactRelationAsync
   isExternal: true
-  name: SaveContactRelation
-  nameWithType: IRelationAgent.SaveContactRelation
-  fullName: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation
-- uid: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation*
-  commentId: Overload:SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation
+  href: SuperOffice.CRM.Services.IRelationAgent.html#SuperOffice_CRM_Services_IRelationAgent_SaveContactRelationAsync_SuperOffice_CRM_Services_ContactRelationEntity_System_Threading_CancellationToken_
+  name: SaveContactRelationAsync
+  nameWithType: IRelationAgent.SaveContactRelationAsync
+  fullName: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelationAsync
+- uid: SuperOffice.CRM.Services.ContactRelationEntity
+  commentId: T:SuperOffice.CRM.Services.ContactRelationEntity
+  parent: SuperOffice.CRM.Services
   isExternal: true
-  name: DeleteContactRelation
-  nameWithType: IRelationAgent.DeleteContactRelation
-  fullName: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation
+  href: SuperOffice.CRM.Services.ContactRelationEntity.html
+  name: ContactRelationEntity
+  nameWithType: ContactRelationEntity
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity
+- uid: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelationAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelationAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IRelationAgent.html#SuperOffice_CRM_Services_IRelationAgent_DeleteContactRelationAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteContactRelationAsync
+  nameWithType: IRelationAgent.DeleteContactRelationAsync
+  fullName: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelationAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task

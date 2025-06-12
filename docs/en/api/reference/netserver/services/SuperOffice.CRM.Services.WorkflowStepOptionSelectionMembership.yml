@@ -16,21 +16,28 @@ items:
   nameWithType: WorkflowStepOptionSelectionMembership
   fullName: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nOption that splits on selection membership\n<p></p>\nCarrier object for WorkflowStepOptionSelectionMembership.\nServices for the WorkflowStepOptionSelectionMembership Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IWorkflowAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Option that splits on selection membership
+
+    <p></p>
+
+    Carrier object for WorkflowStepOptionSelectionMembership.
+
+    Services for the WorkflowStepOptionSelectionMembership Carrier is available from the <xref href="SuperOffice.CRM.Services.IWorkflowAgent?text=Workflow+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class WorkflowStepOptionSelectionMembership : WorkflowStepOptionBase'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class WorkflowStepOptionSelectionMembership : WorkflowStepOptionBase
     content.vb: >-
-      Public Class WorkflowStepOptionSelectionMembership
-          Inherits WorkflowStepOptionBase
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class WorkflowStepOptionSelectionMembership Inherits WorkflowStepOptionBase
   seealso:
-  - linkId: SuperOffice.CRM.Services.WorkflowAgent
-    commentId: T:SuperOffice.CRM.Services.WorkflowAgent
   - linkId: SuperOffice.CRM.Services.IWorkflowAgent
     commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
   inheritance:
@@ -44,12 +51,20 @@ items:
   - SuperOffice.CRM.Services.WorkflowStepOptionBase.Name
   - SuperOffice.CRM.Services.WorkflowStepOptionBase.Rank
   - SuperOffice.CRM.Services.WorkflowStepOptionBase.Steps
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.#ctor
   commentId: M:SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.#ctor
   id: '#ctor'
@@ -61,21 +76,18 @@ items:
   nameWithType: WorkflowStepOptionSelectionMembership.WorkflowStepOptionSelectionMembership()
   fullName: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.WorkflowStepOptionSelectionMembership()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public WorkflowStepOptionSelectionMembership()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: WorkflowStepOptionSelectionMembership.New()
+  fullName.vb: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.ToString
   commentId: M:SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.ToString
   id: ToString
@@ -87,27 +99,19 @@ items:
   nameWithType: WorkflowStepOptionSelectionMembership.ToString()
   fullName: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overridden: SuperOffice.CRM.Services.WorkflowStepOptionBase.ToString
   overload: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.ToString(System.String)
   id: ToString(System.String)
@@ -115,17 +119,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: WorkflowStepOptionSelectionMembership.ToString(String)
-  fullName: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.ToString(System.String)
+  name: ToString(string)
+  nameWithType: WorkflowStepOptionSelectionMembership.ToString(string)
+  fullName: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public override string ToString(string prefix)
     parameters:
@@ -138,12 +143,9 @@ items:
     content.vb: Public Overrides Function ToString(prefix As String) As String
   overridden: SuperOffice.CRM.Services.WorkflowStepOptionBase.ToString(System.String)
   overload: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
+  nameWithType.vb: WorkflowStepOptionSelectionMembership.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.SelectionId
   commentId: P:SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.SelectionId
   id: SelectionId
@@ -155,39 +157,90 @@ items:
   nameWithType: WorkflowStepOptionSelectionMembership.SelectionId
   fullName: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.SelectionId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe id of the selection \n"
+  summary: The id of the selection
+  example: []
   syntax:
-    content: public virtual int SelectionId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int SelectionId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property SelectionId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SelectionId As Integer
   overload: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.SelectionId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
+- uid: SuperOffice.CRM.Services.IWorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IWorkflowAgent.html
+  name: IWorkflowAgent
+  nameWithType: IWorkflowAgent
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Services.WorkflowStepOptionBase
   commentId: T:SuperOffice.CRM.Services.WorkflowStepOptionBase
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowStepOptionBase.html
   name: WorkflowStepOptionBase
   nameWithType: WorkflowStepOptionBase
   fullName: SuperOffice.CRM.Services.WorkflowStepOptionBase
@@ -195,6 +248,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.WorkflowStepOptionBase.OptionType
   parent: SuperOffice.CRM.Services.WorkflowStepOptionBase
   isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowStepOptionBase.html#SuperOffice_CRM_Services_WorkflowStepOptionBase_OptionType
   name: OptionType
   nameWithType: WorkflowStepOptionBase.OptionType
   fullName: SuperOffice.CRM.Services.WorkflowStepOptionBase.OptionType
@@ -202,6 +256,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.WorkflowStepOptionBase.WorkflowStepOptionId
   parent: SuperOffice.CRM.Services.WorkflowStepOptionBase
   isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowStepOptionBase.html#SuperOffice_CRM_Services_WorkflowStepOptionBase_WorkflowStepOptionId
   name: WorkflowStepOptionId
   nameWithType: WorkflowStepOptionBase.WorkflowStepOptionId
   fullName: SuperOffice.CRM.Services.WorkflowStepOptionBase.WorkflowStepOptionId
@@ -209,6 +264,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.WorkflowStepOptionBase.WorkflowStepId
   parent: SuperOffice.CRM.Services.WorkflowStepOptionBase
   isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowStepOptionBase.html#SuperOffice_CRM_Services_WorkflowStepOptionBase_WorkflowStepId
   name: WorkflowStepId
   nameWithType: WorkflowStepOptionBase.WorkflowStepId
   fullName: SuperOffice.CRM.Services.WorkflowStepOptionBase.WorkflowStepId
@@ -216,6 +272,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.WorkflowStepOptionBase.WorkflowId
   parent: SuperOffice.CRM.Services.WorkflowStepOptionBase
   isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowStepOptionBase.html#SuperOffice_CRM_Services_WorkflowStepOptionBase_WorkflowId
   name: WorkflowId
   nameWithType: WorkflowStepOptionBase.WorkflowId
   fullName: SuperOffice.CRM.Services.WorkflowStepOptionBase.WorkflowId
@@ -223,6 +280,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.WorkflowStepOptionBase.Name
   parent: SuperOffice.CRM.Services.WorkflowStepOptionBase
   isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowStepOptionBase.html#SuperOffice_CRM_Services_WorkflowStepOptionBase_Name
   name: Name
   nameWithType: WorkflowStepOptionBase.Name
   fullName: SuperOffice.CRM.Services.WorkflowStepOptionBase.Name
@@ -230,6 +288,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.WorkflowStepOptionBase.Rank
   parent: SuperOffice.CRM.Services.WorkflowStepOptionBase
   isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowStepOptionBase.html#SuperOffice_CRM_Services_WorkflowStepOptionBase_Rank
   name: Rank
   nameWithType: WorkflowStepOptionBase.Rank
   fullName: SuperOffice.CRM.Services.WorkflowStepOptionBase.Rank
@@ -237,62 +296,248 @@ references:
   commentId: P:SuperOffice.CRM.Services.WorkflowStepOptionBase.Steps
   parent: SuperOffice.CRM.Services.WorkflowStepOptionBase
   isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowStepOptionBase.html#SuperOffice_CRM_Services_WorkflowStepOptionBase_Steps
   name: Steps
   nameWithType: WorkflowStepOptionBase.Steps
   fullName: SuperOffice.CRM.Services.WorkflowStepOptionBase.Steps
-- uid: SuperOffice.CRM.Services.WorkflowAgent
-  commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
   isExternal: true
-  name: WorkflowAgent
-  nameWithType: WorkflowAgent
-  fullName: SuperOffice.CRM.Services.WorkflowAgent
-- uid: SuperOffice.CRM.Services.IWorkflowAgent
-  commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
-  parent: SuperOffice.CRM.Services
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: IWorkflowAgent
-  nameWithType: IWorkflowAgent
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.html#SuperOffice_CRM_Services_WorkflowStepOptionSelectionMembership__ctor
   name: WorkflowStepOptionSelectionMembership
   nameWithType: WorkflowStepOptionSelectionMembership.WorkflowStepOptionSelectionMembership
   fullName: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.WorkflowStepOptionSelectionMembership
+  nameWithType.vb: WorkflowStepOptionSelectionMembership.New
+  fullName.vb: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.WorkflowStepOptionBase.ToString
   commentId: M:SuperOffice.CRM.Services.WorkflowStepOptionBase.ToString
   parent: SuperOffice.CRM.Services.WorkflowStepOptionBase
   isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowStepOptionBase.html#SuperOffice_CRM_Services_WorkflowStepOptionBase_ToString
   name: ToString()
   nameWithType: WorkflowStepOptionBase.ToString()
   fullName: SuperOffice.CRM.Services.WorkflowStepOptionBase.ToString()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.WorkflowStepOptionBase.ToString
     name: ToString
-    nameWithType: WorkflowStepOptionBase.ToString
-    fullName: SuperOffice.CRM.Services.WorkflowStepOptionBase.ToString
     isExternal: true
+    href: SuperOffice.CRM.Services.WorkflowStepOptionBase.html#SuperOffice_CRM_Services_WorkflowStepOptionBase_ToString
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.WorkflowStepOptionBase.ToString
     name: ToString
-    nameWithType: WorkflowStepOptionBase.ToString
-    fullName: SuperOffice.CRM.Services.WorkflowStepOptionBase.ToString
     isExternal: true
+    href: SuperOffice.CRM.Services.WorkflowStepOptionBase.html#SuperOffice_CRM_Services_WorkflowStepOptionBase_ToString
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.ToString*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.html#SuperOffice_CRM_Services_WorkflowStepOptionSelectionMembership_ToString
   name: ToString
   nameWithType: WorkflowStepOptionSelectionMembership.ToString
   fullName: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.ToString
@@ -300,59 +545,50 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.WorkflowStepOptionBase.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.WorkflowStepOptionBase.ToString(System.String)
   parent: SuperOffice.CRM.Services.WorkflowStepOptionBase
   isExternal: true
-  name: ToString(String)
-  nameWithType: WorkflowStepOptionBase.ToString(String)
-  fullName: SuperOffice.CRM.Services.WorkflowStepOptionBase.ToString(System.String)
+  href: SuperOffice.CRM.Services.WorkflowStepOptionBase.html#SuperOffice_CRM_Services_WorkflowStepOptionBase_ToString_System_String_
+  name: ToString(string)
+  nameWithType: WorkflowStepOptionBase.ToString(string)
+  fullName: SuperOffice.CRM.Services.WorkflowStepOptionBase.ToString(string)
+  nameWithType.vb: WorkflowStepOptionBase.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.WorkflowStepOptionBase.ToString(String)
+  name.vb: ToString(String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.WorkflowStepOptionBase.ToString(System.String)
     name: ToString
-    nameWithType: WorkflowStepOptionBase.ToString
-    fullName: SuperOffice.CRM.Services.WorkflowStepOptionBase.ToString
     isExternal: true
+    href: SuperOffice.CRM.Services.WorkflowStepOptionBase.html#SuperOffice_CRM_Services_WorkflowStepOptionBase_ToString_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.WorkflowStepOptionBase.ToString(System.String)
     name: ToString
-    nameWithType: WorkflowStepOptionBase.ToString
-    fullName: SuperOffice.CRM.Services.WorkflowStepOptionBase.ToString
     isExternal: true
+    href: SuperOffice.CRM.Services.WorkflowStepOptionBase.html#SuperOffice_CRM_Services_WorkflowStepOptionBase_ToString_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.SelectionId*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.SelectionId
   isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.html#SuperOffice_CRM_Services_WorkflowStepOptionSelectionMembership_SelectionId
   name: SelectionId
   nameWithType: WorkflowStepOptionSelectionMembership.SelectionId
   fullName: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership.SelectionId
@@ -360,6 +596,10 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

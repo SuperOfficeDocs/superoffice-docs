@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 768,
-  "PlainMessage": "repellendus",
-  "HtmlMessage": "sed",
-  "SmsMessage": "blanditiis",
-  "Description": "Advanced static instruction set",
-  "Subject": "et",
-  "FolderId": 470,
-  "HeaderField": "expedita",
-  "Design": "adipisci",
+  "ShipmentMessageId": 10,
+  "PlainMessage": "natus",
+  "HtmlMessage": "quia",
+  "SmsMessage": "error",
+  "Description": "Reactive intangible groupware",
+  "Subject": "enim",
+  "FolderId": 773,
+  "HeaderField": "sapiente",
+  "Design": "nisi",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Digitized discrete orchestration",
-  "AccessKey": "minima",
-  "DocumentMessage": 661,
-  "Registered": "2012-06-08T16:32:39.3363462+02:00",
-  "RegisteredAssociateId": 433,
-  "Updated": "1997-12-24T16:32:39.3363462+01:00",
-  "UpdatedAssociateId": 222,
-  "UpdatedCount": 658
+  "LongDescription": "Optional disintermediate policy",
+  "AccessKey": "assumenda",
+  "DocumentMessage": 973,
+  "Registered": "2014-10-26T17:54:03.3202006+01:00",
+  "RegisteredAssociateId": 492,
+  "Updated": "2011-06-13T17:54:03.3202006+02:00",
+  "UpdatedAssociateId": 808,
+  "UpdatedCount": 793
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 344,
-  "PlainMessage": "doloremque",
-  "HtmlMessage": "quo",
-  "SmsMessage": "ut",
-  "Description": "Upgradable client-driven adapter",
-  "Subject": "aut",
-  "FolderId": 494,
-  "HeaderField": "quia",
-  "Design": "exercitationem",
+  "ShipmentMessageId": 611,
+  "PlainMessage": "sequi",
+  "HtmlMessage": "maxime",
+  "SmsMessage": "sunt",
+  "Description": "Reverse-engineered responsive flexibility",
+  "Subject": "maiores",
+  "FolderId": 105,
+  "HeaderField": "reprehenderit",
+  "Design": "nesciunt",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Grass-roots eco-centric matrix",
-  "AccessKey": "voluptatem",
-  "DocumentMessage": 759,
-  "Registered": "2011-05-30T16:32:39.3363462+02:00",
-  "RegisteredAssociateId": 235,
-  "Updated": "2020-05-16T16:32:39.3363462+02:00",
-  "UpdatedAssociateId": 396,
-  "UpdatedCount": 165,
+  "LongDescription": "Distributed global methodology",
+  "AccessKey": "eos",
+  "DocumentMessage": 949,
+  "Registered": "2008-02-27T17:54:03.3202006+01:00",
+  "RegisteredAssociateId": 264,
+  "Updated": "2002-01-13T17:54:03.3202006+01:00",
+  "UpdatedAssociateId": 479,
+  "UpdatedCount": 744,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 408
+      "FieldType": "System.String",
+      "FieldLength": 601
     }
   }
 }

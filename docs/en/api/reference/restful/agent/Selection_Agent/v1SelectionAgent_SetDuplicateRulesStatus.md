@@ -70,16 +70,16 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Little Inc and Sons",
-      "DisplayName": "Satterfield LLC",
-      "DisplayTooltip": "repellendus",
-      "IsActive": false
+      "Name": "Hessel, Wintheiser and Treutel",
+      "DisplayName": "Wiza-Kassulke",
+      "DisplayTooltip": "non",
+      "IsActive": true
     },
     {
-      "Name": "Little Inc and Sons",
-      "DisplayName": "Satterfield LLC",
-      "DisplayTooltip": "repellendus",
-      "IsActive": false
+      "Name": "Hessel, Wintheiser and Treutel",
+      "DisplayName": "Wiza-Kassulke",
+      "DisplayTooltip": "non",
+      "IsActive": true
     }
   ]
 }

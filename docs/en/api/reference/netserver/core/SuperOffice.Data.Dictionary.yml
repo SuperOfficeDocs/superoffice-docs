@@ -29,6 +29,7 @@ references:
 - uid: SuperOffice.Data.Dictionary.DictionaryVersion
   commentId: T:SuperOffice.Data.Dictionary.DictionaryVersion
   isExternal: true
+  href: SuperOffice.Data.Dictionary.DictionaryVersion.html
   name: DictionaryVersion
   nameWithType: DictionaryVersion
   fullName: SuperOffice.Data.Dictionary.DictionaryVersion
@@ -36,6 +37,7 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.ListInfo
   parent: SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.Data.Dictionary.ListInfo.html
   name: ListInfo
   nameWithType: ListInfo
   fullName: SuperOffice.Data.Dictionary.ListInfo
@@ -43,6 +45,7 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.CodeGenerationState
   parent: SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.Data.Dictionary.CodeGenerationState.html
   name: CodeGenerationState
   nameWithType: CodeGenerationState
   fullName: SuperOffice.Data.Dictionary.CodeGenerationState
@@ -50,19 +53,42 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoDictionary
   parent: SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoDictionary.html
   name: SoDictionary
   nameWithType: SoDictionary
   fullName: SuperOffice.Data.Dictionary.SoDictionary
 - uid: SuperOffice.Data.Dictionary.SoDictionary.PatchNames
   commentId: T:SuperOffice.Data.Dictionary.SoDictionary.PatchNames
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoDictionary.html
   name: SoDictionary.PatchNames
   nameWithType: SoDictionary.PatchNames
   fullName: SuperOffice.Data.Dictionary.SoDictionary.PatchNames
+  spec.csharp:
+  - uid: SuperOffice.Data.Dictionary.SoDictionary
+    name: SoDictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoDictionary.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary.SoDictionary.PatchNames
+    name: PatchNames
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoDictionary.PatchNames.html
+  spec.vb:
+  - uid: SuperOffice.Data.Dictionary.SoDictionary
+    name: SoDictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoDictionary.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary.SoDictionary.PatchNames
+    name: PatchNames
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoDictionary.PatchNames.html
 - uid: SuperOffice.Data.Dictionary.SoField
   commentId: T:SuperOffice.Data.Dictionary.SoField
   parent: SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoField.html
   name: SoField
   nameWithType: SoField
   fullName: SuperOffice.Data.Dictionary.SoField
@@ -70,12 +96,34 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoField.TextExtensionType
   parent: SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoField.html
   name: SoField.TextExtensionType
   nameWithType: SoField.TextExtensionType
   fullName: SuperOffice.Data.Dictionary.SoField.TextExtensionType
+  spec.csharp:
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary.SoField.TextExtensionType
+    name: TextExtensionType
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.TextExtensionType.html
+  spec.vb:
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary.SoField.TextExtensionType
+    name: TextExtensionType
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.TextExtensionType.html
 - uid: SuperOffice.Data.Dictionary.SoRelation
   commentId: T:SuperOffice.Data.Dictionary.SoRelation
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoRelation.html
   name: SoRelation
   nameWithType: SoRelation
   fullName: SuperOffice.Data.Dictionary.SoRelation
@@ -83,6 +131,7 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoRelationDetail
   parent: SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoRelationDetail.html
   name: SoRelationDetail
   nameWithType: SoRelationDetail
   fullName: SuperOffice.Data.Dictionary.SoRelationDetail
@@ -90,6 +139,7 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoTable
   parent: SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable
   nameWithType: SoTable
   fullName: SuperOffice.Data.Dictionary.SoTable
@@ -97,19 +147,92 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoTable.TableKind
   parent: SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable.TableKind
   nameWithType: SoTable.TableKind
   fullName: SuperOffice.Data.Dictionary.SoTable.TableKind
+  spec.csharp:
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoTable.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary.SoTable.TableKind
+    name: TableKind
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoTable.TableKind.html
+  spec.vb:
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoTable.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary.SoTable.TableKind
+    name: TableKind
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoTable.TableKind.html
 - uid: SuperOffice.Data.Dictionary.SoTable.BlockKind
   commentId: T:SuperOffice.Data.Dictionary.SoTable.BlockKind
   parent: SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable.BlockKind
   nameWithType: SoTable.BlockKind
   fullName: SuperOffice.Data.Dictionary.SoTable.BlockKind
+  spec.csharp:
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoTable.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary.SoTable.BlockKind
+    name: BlockKind
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoTable.BlockKind.html
+  spec.vb:
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoTable.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary.SoTable.BlockKind
+    name: BlockKind
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoTable.BlockKind.html
 - uid: SuperOffice.Data.Dictionary
   commentId: N:SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.Dictionary
   nameWithType: SuperOffice.Data.Dictionary
   fullName: SuperOffice.Data.Dictionary
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html

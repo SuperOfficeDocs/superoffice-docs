@@ -1,0 +1,1322 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.ErpConnectorClient
+  commentId: T:SuperOffice.ErpSync.ErpConnectorClient
+  id: ErpConnectorClient
+  parent: SuperOffice.ErpSync
+  children:
+  - SuperOffice.ErpSync.ErpConnectorClient.CreateActor(System.Guid,SuperOffice.CRM.ErpActor)
+  - SuperOffice.ErpSync.ErpConnectorClient.CreateAsync(System.String,SuperOffice.CRM.IConfiguration,System.Threading.CancellationToken)
+  - SuperOffice.ErpSync.ErpConnectorClient.DeleteConnection(System.Guid)
+  - SuperOffice.ErpSync.ErpConnectorClient.GetActors(System.Guid,System.String,System.String[],System.String[])
+  - SuperOffice.ErpSync.ErpConnectorClient.GetActorsByTimestamp(System.Guid,System.String,System.String,System.String[])
+  - SuperOffice.ErpSync.ErpConnectorClient.GetConfigData
+  - SuperOffice.ErpSync.ErpConnectorClient.GetList(System.Guid,System.String)
+  - SuperOffice.ErpSync.ErpConnectorClient.GetListItems(System.Guid,System.String,System.String[])
+  - SuperOffice.ErpSync.ErpConnectorClient.GetSearchableFields(System.Guid,System.String)
+  - SuperOffice.ErpSync.ErpConnectorClient.GetSupportedActorTypeFields(System.Guid,System.String)
+  - SuperOffice.ErpSync.ErpConnectorClient.GetSupportedActorTypes(System.Guid)
+  - SuperOffice.ErpSync.ErpConnectorClient.SaveActors(System.Guid,SuperOffice.CRM.ErpActor[])
+  - SuperOffice.ErpSync.ErpConnectorClient.SaveConnection(System.Guid,System.Collections.Generic.Dictionary{System.String,System.String})
+  - SuperOffice.ErpSync.ErpConnectorClient.SearchActorByParent(System.Guid,System.String,System.String,System.String,System.String,System.String[])
+  - SuperOffice.ErpSync.ErpConnectorClient.SearchActors(System.Guid,System.String,System.String,System.String[])
+  - SuperOffice.ErpSync.ErpConnectorClient.SearchActorsAdvanced(System.Guid,System.String,SuperOffice.CRM.SearchRestrictionInfo[],System.String[])
+  - SuperOffice.ErpSync.ErpConnectorClient.TestConfigData(System.Collections.Generic.Dictionary{System.String,System.String})
+  - SuperOffice.ErpSync.ErpConnectorClient.TestConnection(System.Guid)
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectorClient
+  nameWithType: ErpConnectorClient
+  fullName: SuperOffice.ErpSync.ErpConnectorClient
+  type: Class
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Wrapper for calling ERP connectors, either local or remote
+  example: []
+  syntax:
+    content: 'public class ErpConnectorClient : IntegrationServerWcfClientBase<IErpConnectorWS>, IErpConnector'
+    content.vb: Public Class ErpConnectorClient Inherits IntegrationServerWcfClientBase(Of IErpConnectorWS) Implements IErpConnector
+  inheritance:
+  - System.Object
+  - SuperOffice.ErpSync.IntegrationServerWcfClientBase{SuperOffice.ErpSync.IErpConnectorWS}
+  implements:
+  - SuperOffice.CRM.IErpConnector
+  inheritedMembers:
+  - SuperOffice.ErpSync.IntegrationServerWcfClientBase{SuperOffice.ErpSync.IErpConnectorWS}.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
+- uid: SuperOffice.ErpSync.ErpConnectorClient.CreateAsync(System.String,SuperOffice.CRM.IConfiguration,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.ErpConnectorClient.CreateAsync(System.String,SuperOffice.CRM.IConfiguration,System.Threading.CancellationToken)
+  id: CreateAsync(System.String,SuperOffice.CRM.IConfiguration,System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.ErpConnectorClient
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync(string, IConfiguration, CancellationToken)
+  nameWithType: ErpConnectorClient.CreateAsync(string, IConfiguration, CancellationToken)
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.CreateAsync(string, SuperOffice.CRM.IConfiguration, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Creation of a new ErpConnectorClient instance
+  example: []
+  syntax:
+    content: public static Task<ErpConnectorClient> CreateAsync(string targetUrl, IConfiguration config, CancellationToken cancellationToken = default)
+    parameters:
+    - id: targetUrl
+      type: System.String
+      description: 'Either plugin: or http(s): path to connector'
+    - id: config
+      type: SuperOffice.CRM.IConfiguration
+      description: Configuration parameters for connector
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.ErpSync.ErpConnectorClient}
+    content.vb: Public Shared Function CreateAsync(targetUrl As String, config As IConfiguration, cancellationToken As CancellationToken = Nothing) As Task(Of ErpConnectorClient)
+  overload: SuperOffice.ErpSync.ErpConnectorClient.CreateAsync*
+  nameWithType.vb: ErpConnectorClient.CreateAsync(String, IConfiguration, CancellationToken)
+  fullName.vb: SuperOffice.ErpSync.ErpConnectorClient.CreateAsync(String, SuperOffice.CRM.IConfiguration, System.Threading.CancellationToken)
+  name.vb: CreateAsync(String, IConfiguration, CancellationToken)
+- uid: SuperOffice.ErpSync.ErpConnectorClient.GetConfigData
+  commentId: M:SuperOffice.ErpSync.ErpConnectorClient.GetConfigData
+  id: GetConfigData
+  parent: SuperOffice.ErpSync.ErpConnectorClient
+  langs:
+  - csharp
+  - vb
+  name: GetConfigData()
+  nameWithType: ErpConnectorClient.GetConfigData()
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.GetConfigData()
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Wrapper for GetConfigData
+  example: []
+  syntax:
+    content: public FieldMetadataInfoArrayPluginResponse GetConfigData()
+    return:
+      type: SuperOffice.CRM.FieldMetadataInfoArrayPluginResponse
+      description: ''
+    content.vb: Public Function GetConfigData() As FieldMetadataInfoArrayPluginResponse
+  overload: SuperOffice.ErpSync.ErpConnectorClient.GetConfigData*
+- uid: SuperOffice.ErpSync.ErpConnectorClient.TestConfigData(System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.ErpSync.ErpConnectorClient.TestConfigData(System.Collections.Generic.Dictionary{System.String,System.String})
+  id: TestConfigData(System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.ErpSync.ErpConnectorClient
+  langs:
+  - csharp
+  - vb
+  name: TestConfigData(Dictionary<string, string>)
+  nameWithType: ErpConnectorClient.TestConfigData(Dictionary<string, string>)
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.TestConfigData(System.Collections.Generic.Dictionary<string, string>)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Wrapper for TestConfigData
+  example: []
+  syntax:
+    content: public PluginResponseInfo TestConfigData(Dictionary<string, string> connectionInfo)
+    parameters:
+    - id: connectionInfo
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: ''
+    return:
+      type: SuperOffice.CRM.PluginResponseInfo
+      description: ''
+    content.vb: Public Function TestConfigData(connectionInfo As Dictionary(Of String, String)) As PluginResponseInfo
+  overload: SuperOffice.ErpSync.ErpConnectorClient.TestConfigData*
+  nameWithType.vb: ErpConnectorClient.TestConfigData(Dictionary(Of String, String))
+  fullName.vb: SuperOffice.ErpSync.ErpConnectorClient.TestConfigData(System.Collections.Generic.Dictionary(Of String, String))
+  name.vb: TestConfigData(Dictionary(Of String, String))
+- uid: SuperOffice.ErpSync.ErpConnectorClient.SaveConnection(System.Guid,System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.ErpSync.ErpConnectorClient.SaveConnection(System.Guid,System.Collections.Generic.Dictionary{System.String,System.String})
+  id: SaveConnection(System.Guid,System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.ErpSync.ErpConnectorClient
+  langs:
+  - csharp
+  - vb
+  name: SaveConnection(Guid, Dictionary<string, string>)
+  nameWithType: ErpConnectorClient.SaveConnection(Guid, Dictionary<string, string>)
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.SaveConnection(System.Guid, System.Collections.Generic.Dictionary<string, string>)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Wrapper for SaveConnection
+  example: []
+  syntax:
+    content: public PluginResponseInfo SaveConnection(Guid connectionID, Dictionary<string, string> connectionInfo)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+      description: ''
+    - id: connectionInfo
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: ''
+    return:
+      type: SuperOffice.CRM.PluginResponseInfo
+      description: ''
+    content.vb: Public Function SaveConnection(connectionID As Guid, connectionInfo As Dictionary(Of String, String)) As PluginResponseInfo
+  overload: SuperOffice.ErpSync.ErpConnectorClient.SaveConnection*
+  nameWithType.vb: ErpConnectorClient.SaveConnection(Guid, Dictionary(Of String, String))
+  fullName.vb: SuperOffice.ErpSync.ErpConnectorClient.SaveConnection(System.Guid, System.Collections.Generic.Dictionary(Of String, String))
+  name.vb: SaveConnection(Guid, Dictionary(Of String, String))
+- uid: SuperOffice.ErpSync.ErpConnectorClient.TestConnection(System.Guid)
+  commentId: M:SuperOffice.ErpSync.ErpConnectorClient.TestConnection(System.Guid)
+  id: TestConnection(System.Guid)
+  parent: SuperOffice.ErpSync.ErpConnectorClient
+  langs:
+  - csharp
+  - vb
+  name: TestConnection(Guid)
+  nameWithType: ErpConnectorClient.TestConnection(Guid)
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.TestConnection(System.Guid)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Wrapper for TestConnection
+  example: []
+  syntax:
+    content: public PluginResponseInfo TestConnection(Guid connectionID)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+      description: ''
+    return:
+      type: SuperOffice.CRM.PluginResponseInfo
+      description: ''
+    content.vb: Public Function TestConnection(connectionID As Guid) As PluginResponseInfo
+  overload: SuperOffice.ErpSync.ErpConnectorClient.TestConnection*
+- uid: SuperOffice.ErpSync.ErpConnectorClient.DeleteConnection(System.Guid)
+  commentId: M:SuperOffice.ErpSync.ErpConnectorClient.DeleteConnection(System.Guid)
+  id: DeleteConnection(System.Guid)
+  parent: SuperOffice.ErpSync.ErpConnectorClient
+  langs:
+  - csharp
+  - vb
+  name: DeleteConnection(Guid)
+  nameWithType: ErpConnectorClient.DeleteConnection(Guid)
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.DeleteConnection(System.Guid)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Wrapper for DeleteConnection
+  example: []
+  syntax:
+    content: public PluginResponseInfo DeleteConnection(Guid connectionID)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+      description: ''
+    return:
+      type: SuperOffice.CRM.PluginResponseInfo
+      description: ''
+    content.vb: Public Function DeleteConnection(connectionID As Guid) As PluginResponseInfo
+  overload: SuperOffice.ErpSync.ErpConnectorClient.DeleteConnection*
+- uid: SuperOffice.ErpSync.ErpConnectorClient.GetSupportedActorTypes(System.Guid)
+  commentId: M:SuperOffice.ErpSync.ErpConnectorClient.GetSupportedActorTypes(System.Guid)
+  id: GetSupportedActorTypes(System.Guid)
+  parent: SuperOffice.ErpSync.ErpConnectorClient
+  langs:
+  - csharp
+  - vb
+  name: GetSupportedActorTypes(Guid)
+  nameWithType: ErpConnectorClient.GetSupportedActorTypes(Guid)
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.GetSupportedActorTypes(System.Guid)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Wrapper for GetSupportedActorTypes
+  example: []
+  syntax:
+    content: public StringArrayPluginResponse GetSupportedActorTypes(Guid connectionID)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+      description: ''
+    return:
+      type: SuperOffice.CRM.StringArrayPluginResponse
+      description: ''
+    content.vb: Public Function GetSupportedActorTypes(connectionID As Guid) As StringArrayPluginResponse
+  overload: SuperOffice.ErpSync.ErpConnectorClient.GetSupportedActorTypes*
+- uid: SuperOffice.ErpSync.ErpConnectorClient.GetSupportedActorTypeFields(System.Guid,System.String)
+  commentId: M:SuperOffice.ErpSync.ErpConnectorClient.GetSupportedActorTypeFields(System.Guid,System.String)
+  id: GetSupportedActorTypeFields(System.Guid,System.String)
+  parent: SuperOffice.ErpSync.ErpConnectorClient
+  langs:
+  - csharp
+  - vb
+  name: GetSupportedActorTypeFields(Guid, string)
+  nameWithType: ErpConnectorClient.GetSupportedActorTypeFields(Guid, string)
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.GetSupportedActorTypeFields(System.Guid, string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Wrapper for GetSupportedActorTypeFields
+  example: []
+  syntax:
+    content: public FieldMetadataInfoArrayPluginResponse GetSupportedActorTypeFields(Guid connectionID, string actorType)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+      description: ''
+    - id: actorType
+      type: System.String
+      description: ''
+    return:
+      type: SuperOffice.CRM.FieldMetadataInfoArrayPluginResponse
+      description: ''
+    content.vb: Public Function GetSupportedActorTypeFields(connectionID As Guid, actorType As String) As FieldMetadataInfoArrayPluginResponse
+  overload: SuperOffice.ErpSync.ErpConnectorClient.GetSupportedActorTypeFields*
+  nameWithType.vb: ErpConnectorClient.GetSupportedActorTypeFields(Guid, String)
+  fullName.vb: SuperOffice.ErpSync.ErpConnectorClient.GetSupportedActorTypeFields(System.Guid, String)
+  name.vb: GetSupportedActorTypeFields(Guid, String)
+- uid: SuperOffice.ErpSync.ErpConnectorClient.GetActors(System.Guid,System.String,System.String[],System.String[])
+  commentId: M:SuperOffice.ErpSync.ErpConnectorClient.GetActors(System.Guid,System.String,System.String[],System.String[])
+  id: GetActors(System.Guid,System.String,System.String[],System.String[])
+  parent: SuperOffice.ErpSync.ErpConnectorClient
+  langs:
+  - csharp
+  - vb
+  name: GetActors(Guid, string, string[], string[])
+  nameWithType: ErpConnectorClient.GetActors(Guid, string, string[], string[])
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.GetActors(System.Guid, string, string[], string[])
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Wrapper for GetActors
+  example: []
+  syntax:
+    content: public ActorArrayPluginResponse GetActors(Guid connectionID, string actorType, string[] erpKeys, string[] fieldKeys)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+      description: ''
+    - id: actorType
+      type: System.String
+      description: ''
+    - id: erpKeys
+      type: System.String[]
+      description: ''
+    - id: fieldKeys
+      type: System.String[]
+      description: ''
+    return:
+      type: SuperOffice.CRM.ActorArrayPluginResponse
+      description: ''
+    content.vb: Public Function GetActors(connectionID As Guid, actorType As String, erpKeys As String(), fieldKeys As String()) As ActorArrayPluginResponse
+  overload: SuperOffice.ErpSync.ErpConnectorClient.GetActors*
+  nameWithType.vb: ErpConnectorClient.GetActors(Guid, String, String(), String())
+  fullName.vb: SuperOffice.ErpSync.ErpConnectorClient.GetActors(System.Guid, String, String(), String())
+  name.vb: GetActors(Guid, String, String(), String())
+- uid: SuperOffice.ErpSync.ErpConnectorClient.GetSearchableFields(System.Guid,System.String)
+  commentId: M:SuperOffice.ErpSync.ErpConnectorClient.GetSearchableFields(System.Guid,System.String)
+  id: GetSearchableFields(System.Guid,System.String)
+  parent: SuperOffice.ErpSync.ErpConnectorClient
+  langs:
+  - csharp
+  - vb
+  name: GetSearchableFields(Guid, string)
+  nameWithType: ErpConnectorClient.GetSearchableFields(Guid, string)
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.GetSearchableFields(System.Guid, string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Wrapper for GetSearchableFields
+  example: []
+  syntax:
+    content: public StringArrayPluginResponse GetSearchableFields(Guid connectionID, string actorType)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+      description: ''
+    - id: actorType
+      type: System.String
+      description: ''
+    return:
+      type: SuperOffice.CRM.StringArrayPluginResponse
+      description: ''
+    content.vb: Public Function GetSearchableFields(connectionID As Guid, actorType As String) As StringArrayPluginResponse
+  overload: SuperOffice.ErpSync.ErpConnectorClient.GetSearchableFields*
+  nameWithType.vb: ErpConnectorClient.GetSearchableFields(Guid, String)
+  fullName.vb: SuperOffice.ErpSync.ErpConnectorClient.GetSearchableFields(System.Guid, String)
+  name.vb: GetSearchableFields(Guid, String)
+- uid: SuperOffice.ErpSync.ErpConnectorClient.SearchActorsAdvanced(System.Guid,System.String,SuperOffice.CRM.SearchRestrictionInfo[],System.String[])
+  commentId: M:SuperOffice.ErpSync.ErpConnectorClient.SearchActorsAdvanced(System.Guid,System.String,SuperOffice.CRM.SearchRestrictionInfo[],System.String[])
+  id: SearchActorsAdvanced(System.Guid,System.String,SuperOffice.CRM.SearchRestrictionInfo[],System.String[])
+  parent: SuperOffice.ErpSync.ErpConnectorClient
+  langs:
+  - csharp
+  - vb
+  name: SearchActorsAdvanced(Guid, string, SearchRestrictionInfo[], string[])
+  nameWithType: ErpConnectorClient.SearchActorsAdvanced(Guid, string, SearchRestrictionInfo[], string[])
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.SearchActorsAdvanced(System.Guid, string, SuperOffice.CRM.SearchRestrictionInfo[], string[])
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Wrapper for SearchActorsAdvanced
+  example: []
+  syntax:
+    content: public ActorArrayPluginResponse SearchActorsAdvanced(Guid connectionID, string actorType, SearchRestrictionInfo[] restrictions, string[] fieldKeys)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+      description: ''
+    - id: actorType
+      type: System.String
+      description: ''
+    - id: restrictions
+      type: SuperOffice.CRM.SearchRestrictionInfo[]
+      description: ''
+    - id: fieldKeys
+      type: System.String[]
+      description: ''
+    return:
+      type: SuperOffice.CRM.ActorArrayPluginResponse
+      description: ''
+    content.vb: Public Function SearchActorsAdvanced(connectionID As Guid, actorType As String, restrictions As SearchRestrictionInfo(), fieldKeys As String()) As ActorArrayPluginResponse
+  overload: SuperOffice.ErpSync.ErpConnectorClient.SearchActorsAdvanced*
+  nameWithType.vb: ErpConnectorClient.SearchActorsAdvanced(Guid, String, SearchRestrictionInfo(), String())
+  fullName.vb: SuperOffice.ErpSync.ErpConnectorClient.SearchActorsAdvanced(System.Guid, String, SuperOffice.CRM.SearchRestrictionInfo(), String())
+  name.vb: SearchActorsAdvanced(Guid, String, SearchRestrictionInfo(), String())
+- uid: SuperOffice.ErpSync.ErpConnectorClient.SearchActors(System.Guid,System.String,System.String,System.String[])
+  commentId: M:SuperOffice.ErpSync.ErpConnectorClient.SearchActors(System.Guid,System.String,System.String,System.String[])
+  id: SearchActors(System.Guid,System.String,System.String,System.String[])
+  parent: SuperOffice.ErpSync.ErpConnectorClient
+  langs:
+  - csharp
+  - vb
+  name: SearchActors(Guid, string, string, string[])
+  nameWithType: ErpConnectorClient.SearchActors(Guid, string, string, string[])
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.SearchActors(System.Guid, string, string, string[])
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Wrapper for SearchActors
+  example: []
+  syntax:
+    content: public ActorArrayPluginResponse SearchActors(Guid connectionID, string actorType, string searchText, string[] fieldKeys)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+      description: ''
+    - id: actorType
+      type: System.String
+      description: ''
+    - id: searchText
+      type: System.String
+      description: ''
+    - id: fieldKeys
+      type: System.String[]
+      description: ''
+    return:
+      type: SuperOffice.CRM.ActorArrayPluginResponse
+      description: ''
+    content.vb: Public Function SearchActors(connectionID As Guid, actorType As String, searchText As String, fieldKeys As String()) As ActorArrayPluginResponse
+  overload: SuperOffice.ErpSync.ErpConnectorClient.SearchActors*
+  nameWithType.vb: ErpConnectorClient.SearchActors(Guid, String, String, String())
+  fullName.vb: SuperOffice.ErpSync.ErpConnectorClient.SearchActors(System.Guid, String, String, String())
+  name.vb: SearchActors(Guid, String, String, String())
+- uid: SuperOffice.ErpSync.ErpConnectorClient.SearchActorByParent(System.Guid,System.String,System.String,System.String,System.String,System.String[])
+  commentId: M:SuperOffice.ErpSync.ErpConnectorClient.SearchActorByParent(System.Guid,System.String,System.String,System.String,System.String,System.String[])
+  id: SearchActorByParent(System.Guid,System.String,System.String,System.String,System.String,System.String[])
+  parent: SuperOffice.ErpSync.ErpConnectorClient
+  langs:
+  - csharp
+  - vb
+  name: SearchActorByParent(Guid, string, string, string, string, string[])
+  nameWithType: ErpConnectorClient.SearchActorByParent(Guid, string, string, string, string, string[])
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.SearchActorByParent(System.Guid, string, string, string, string, string[])
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Wrapper for SearchActorByParent
+  example: []
+  syntax:
+    content: public ActorArrayPluginResponse SearchActorByParent(Guid connectionID, string actorType, string searchText, string parentActorType, string parentActorErpKey, string[] fieldKeys)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+      description: ''
+    - id: actorType
+      type: System.String
+      description: ''
+    - id: searchText
+      type: System.String
+      description: ''
+    - id: parentActorType
+      type: System.String
+      description: ''
+    - id: parentActorErpKey
+      type: System.String
+      description: ''
+    - id: fieldKeys
+      type: System.String[]
+      description: ''
+    return:
+      type: SuperOffice.CRM.ActorArrayPluginResponse
+      description: ''
+    content.vb: Public Function SearchActorByParent(connectionID As Guid, actorType As String, searchText As String, parentActorType As String, parentActorErpKey As String, fieldKeys As String()) As ActorArrayPluginResponse
+  overload: SuperOffice.ErpSync.ErpConnectorClient.SearchActorByParent*
+  nameWithType.vb: ErpConnectorClient.SearchActorByParent(Guid, String, String, String, String, String())
+  fullName.vb: SuperOffice.ErpSync.ErpConnectorClient.SearchActorByParent(System.Guid, String, String, String, String, String())
+  name.vb: SearchActorByParent(Guid, String, String, String, String, String())
+- uid: SuperOffice.ErpSync.ErpConnectorClient.CreateActor(System.Guid,SuperOffice.CRM.ErpActor)
+  commentId: M:SuperOffice.ErpSync.ErpConnectorClient.CreateActor(System.Guid,SuperOffice.CRM.ErpActor)
+  id: CreateActor(System.Guid,SuperOffice.CRM.ErpActor)
+  parent: SuperOffice.ErpSync.ErpConnectorClient
+  langs:
+  - csharp
+  - vb
+  name: CreateActor(Guid, ErpActor)
+  nameWithType: ErpConnectorClient.CreateActor(Guid, ErpActor)
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.CreateActor(System.Guid, SuperOffice.CRM.ErpActor)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Wrapper for CreateActor
+  example: []
+  syntax:
+    content: public ActorPluginResponse CreateActor(Guid connectionID, ErpActor act)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+      description: ''
+    - id: act
+      type: SuperOffice.CRM.ErpActor
+      description: ''
+    return:
+      type: SuperOffice.CRM.ActorPluginResponse
+      description: ''
+    content.vb: Public Function CreateActor(connectionID As Guid, act As ErpActor) As ActorPluginResponse
+  overload: SuperOffice.ErpSync.ErpConnectorClient.CreateActor*
+- uid: SuperOffice.ErpSync.ErpConnectorClient.SaveActors(System.Guid,SuperOffice.CRM.ErpActor[])
+  commentId: M:SuperOffice.ErpSync.ErpConnectorClient.SaveActors(System.Guid,SuperOffice.CRM.ErpActor[])
+  id: SaveActors(System.Guid,SuperOffice.CRM.ErpActor[])
+  parent: SuperOffice.ErpSync.ErpConnectorClient
+  langs:
+  - csharp
+  - vb
+  name: SaveActors(Guid, ErpActor[])
+  nameWithType: ErpConnectorClient.SaveActors(Guid, ErpActor[])
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.SaveActors(System.Guid, SuperOffice.CRM.ErpActor[])
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Wrapper for SaveActors
+  example: []
+  syntax:
+    content: public ActorArrayPluginResponse SaveActors(Guid connectionID, ErpActor[] actors)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+      description: ''
+    - id: actors
+      type: SuperOffice.CRM.ErpActor[]
+      description: ''
+    return:
+      type: SuperOffice.CRM.ActorArrayPluginResponse
+      description: ''
+    content.vb: Public Function SaveActors(connectionID As Guid, actors As ErpActor()) As ActorArrayPluginResponse
+  overload: SuperOffice.ErpSync.ErpConnectorClient.SaveActors*
+  nameWithType.vb: ErpConnectorClient.SaveActors(Guid, ErpActor())
+  fullName.vb: SuperOffice.ErpSync.ErpConnectorClient.SaveActors(System.Guid, SuperOffice.CRM.ErpActor())
+  name.vb: SaveActors(Guid, ErpActor())
+- uid: SuperOffice.ErpSync.ErpConnectorClient.GetList(System.Guid,System.String)
+  commentId: M:SuperOffice.ErpSync.ErpConnectorClient.GetList(System.Guid,System.String)
+  id: GetList(System.Guid,System.String)
+  parent: SuperOffice.ErpSync.ErpConnectorClient
+  langs:
+  - csharp
+  - vb
+  name: GetList(Guid, string)
+  nameWithType: ErpConnectorClient.GetList(Guid, string)
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.GetList(System.Guid, string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Wrapper for GetList
+  example: []
+  syntax:
+    content: public ListItemArrayPluginResponse GetList(Guid connectionID, string listName)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+      description: ''
+    - id: listName
+      type: System.String
+      description: ''
+    return:
+      type: SuperOffice.CRM.ListItemArrayPluginResponse
+      description: ''
+    content.vb: Public Function GetList(connectionID As Guid, listName As String) As ListItemArrayPluginResponse
+  overload: SuperOffice.ErpSync.ErpConnectorClient.GetList*
+  nameWithType.vb: ErpConnectorClient.GetList(Guid, String)
+  fullName.vb: SuperOffice.ErpSync.ErpConnectorClient.GetList(System.Guid, String)
+  name.vb: GetList(Guid, String)
+- uid: SuperOffice.ErpSync.ErpConnectorClient.GetListItems(System.Guid,System.String,System.String[])
+  commentId: M:SuperOffice.ErpSync.ErpConnectorClient.GetListItems(System.Guid,System.String,System.String[])
+  id: GetListItems(System.Guid,System.String,System.String[])
+  parent: SuperOffice.ErpSync.ErpConnectorClient
+  langs:
+  - csharp
+  - vb
+  name: GetListItems(Guid, string, string[])
+  nameWithType: ErpConnectorClient.GetListItems(Guid, string, string[])
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.GetListItems(System.Guid, string, string[])
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Wrapper for GetListItems
+  example: []
+  syntax:
+    content: public ListItemArrayPluginResponse GetListItems(Guid connectionID, string listName, string[] listItemKeys)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+      description: ''
+    - id: listName
+      type: System.String
+      description: ''
+    - id: listItemKeys
+      type: System.String[]
+      description: ''
+    return:
+      type: SuperOffice.CRM.ListItemArrayPluginResponse
+      description: ''
+    content.vb: Public Function GetListItems(connectionID As Guid, listName As String, listItemKeys As String()) As ListItemArrayPluginResponse
+  overload: SuperOffice.ErpSync.ErpConnectorClient.GetListItems*
+  nameWithType.vb: ErpConnectorClient.GetListItems(Guid, String, String())
+  fullName.vb: SuperOffice.ErpSync.ErpConnectorClient.GetListItems(System.Guid, String, String())
+  name.vb: GetListItems(Guid, String, String())
+- uid: SuperOffice.ErpSync.ErpConnectorClient.GetActorsByTimestamp(System.Guid,System.String,System.String,System.String[])
+  commentId: M:SuperOffice.ErpSync.ErpConnectorClient.GetActorsByTimestamp(System.Guid,System.String,System.String,System.String[])
+  id: GetActorsByTimestamp(System.Guid,System.String,System.String,System.String[])
+  parent: SuperOffice.ErpSync.ErpConnectorClient
+  langs:
+  - csharp
+  - vb
+  name: GetActorsByTimestamp(Guid, string, string, string[])
+  nameWithType: ErpConnectorClient.GetActorsByTimestamp(Guid, string, string, string[])
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.GetActorsByTimestamp(System.Guid, string, string, string[])
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Wrapper for GetActorsByTimestamp
+  example: []
+  syntax:
+    content: public ActorArrayPluginResponse GetActorsByTimestamp(Guid connectionID, string updatedOnOrAfter, string actorType, string[] fieldKeys)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+      description: ''
+    - id: updatedOnOrAfter
+      type: System.String
+      description: ''
+    - id: actorType
+      type: System.String
+      description: ''
+    - id: fieldKeys
+      type: System.String[]
+      description: ''
+    return:
+      type: SuperOffice.CRM.ActorArrayPluginResponse
+      description: ''
+    content.vb: Public Function GetActorsByTimestamp(connectionID As Guid, updatedOnOrAfter As String, actorType As String, fieldKeys As String()) As ActorArrayPluginResponse
+  overload: SuperOffice.ErpSync.ErpConnectorClient.GetActorsByTimestamp*
+  nameWithType.vb: ErpConnectorClient.GetActorsByTimestamp(Guid, String, String, String())
+  fullName.vb: SuperOffice.ErpSync.ErpConnectorClient.GetActorsByTimestamp(System.Guid, String, String, String())
+  name.vb: GetActorsByTimestamp(Guid, String, String, String())
+references:
+- uid: SuperOffice.ErpSync
+  commentId: N:SuperOffice.ErpSync
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync
+  nameWithType: SuperOffice.ErpSync
+  fullName: SuperOffice.ErpSync
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.ErpSync.IntegrationServerWcfClientBase{SuperOffice.ErpSync.IErpConnectorWS}
+  commentId: T:SuperOffice.ErpSync.IntegrationServerWcfClientBase{SuperOffice.ErpSync.IErpConnectorWS}
+  parent: SuperOffice.ErpSync
+  definition: SuperOffice.ErpSync.IntegrationServerWcfClientBase`1
+  href: SuperOffice.ErpSync.IntegrationServerWcfClientBase-1.html
+  name: IntegrationServerWcfClientBase<IErpConnectorWS>
+  nameWithType: IntegrationServerWcfClientBase<IErpConnectorWS>
+  fullName: SuperOffice.ErpSync.IntegrationServerWcfClientBase<SuperOffice.ErpSync.IErpConnectorWS>
+  nameWithType.vb: IntegrationServerWcfClientBase(Of IErpConnectorWS)
+  fullName.vb: SuperOffice.ErpSync.IntegrationServerWcfClientBase(Of SuperOffice.ErpSync.IErpConnectorWS)
+  name.vb: IntegrationServerWcfClientBase(Of IErpConnectorWS)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.IntegrationServerWcfClientBase`1
+    name: IntegrationServerWcfClientBase
+    isExternal: true
+    href: SuperOffice.ErpSync.IntegrationServerWcfClientBase-1.html
+  - name: <
+  - uid: SuperOffice.ErpSync.IErpConnectorWS
+    name: IErpConnectorWS
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.ErpSync.IntegrationServerWcfClientBase`1
+    name: IntegrationServerWcfClientBase
+    isExternal: true
+    href: SuperOffice.ErpSync.IntegrationServerWcfClientBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.ErpSync.IErpConnectorWS
+    name: IErpConnectorWS
+    isExternal: true
+  - name: )
+- uid: SuperOffice.CRM.IErpConnector
+  commentId: '!:SuperOffice.CRM.IErpConnector'
+  isExternal: true
+  name: IErpConnector
+  nameWithType: IErpConnector
+  fullName: SuperOffice.CRM.IErpConnector
+- uid: SuperOffice.ErpSync.IntegrationServerWcfClientBase{SuperOffice.ErpSync.IErpConnectorWS}.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
+  commentId: M:SuperOffice.ErpSync.IntegrationServerWcfClientBase{SuperOffice.ErpSync.IErpConnectorWS}.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
+  parent: SuperOffice.ErpSync.IntegrationServerWcfClientBase{SuperOffice.ErpSync.IErpConnectorWS}
+  definition: SuperOffice.ErpSync.IntegrationServerWcfClientBase`1.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
+  href: SuperOffice.ErpSync.IntegrationServerWcfClientBase-1.html#SuperOffice_ErpSync_IntegrationServerWcfClientBase_1_ConfigureBinding_System_ServiceModel_BasicHttpBinding_
+  name: ConfigureBinding(BasicHttpBinding)
+  nameWithType: IntegrationServerWcfClientBase<IErpConnectorWS>.ConfigureBinding(BasicHttpBinding)
+  fullName: SuperOffice.ErpSync.IntegrationServerWcfClientBase<SuperOffice.ErpSync.IErpConnectorWS>.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
+  nameWithType.vb: IntegrationServerWcfClientBase(Of IErpConnectorWS).ConfigureBinding(BasicHttpBinding)
+  fullName.vb: SuperOffice.ErpSync.IntegrationServerWcfClientBase(Of SuperOffice.ErpSync.IErpConnectorWS).ConfigureBinding(System.ServiceModel.BasicHttpBinding)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.IntegrationServerWcfClientBase{SuperOffice.ErpSync.IErpConnectorWS}.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
+    name: ConfigureBinding
+    isExternal: true
+    href: SuperOffice.ErpSync.IntegrationServerWcfClientBase-1.html#SuperOffice_ErpSync_IntegrationServerWcfClientBase_1_ConfigureBinding_System_ServiceModel_BasicHttpBinding_
+  - name: (
+  - uid: System.ServiceModel.BasicHttpBinding
+    name: BasicHttpBinding
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.IntegrationServerWcfClientBase{SuperOffice.ErpSync.IErpConnectorWS}.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
+    name: ConfigureBinding
+    isExternal: true
+    href: SuperOffice.ErpSync.IntegrationServerWcfClientBase-1.html#SuperOffice_ErpSync_IntegrationServerWcfClientBase_1_ConfigureBinding_System_ServiceModel_BasicHttpBinding_
+  - name: (
+  - uid: System.ServiceModel.BasicHttpBinding
+    name: BasicHttpBinding
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.ErpSync.IntegrationServerWcfClientBase`1
+  commentId: T:SuperOffice.ErpSync.IntegrationServerWcfClientBase`1
+  isExternal: true
+  href: SuperOffice.ErpSync.IntegrationServerWcfClientBase-1.html
+  name: IntegrationServerWcfClientBase<TService>
+  nameWithType: IntegrationServerWcfClientBase<TService>
+  fullName: SuperOffice.ErpSync.IntegrationServerWcfClientBase<TService>
+  nameWithType.vb: IntegrationServerWcfClientBase(Of TService)
+  fullName.vb: SuperOffice.ErpSync.IntegrationServerWcfClientBase(Of TService)
+  name.vb: IntegrationServerWcfClientBase(Of TService)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.IntegrationServerWcfClientBase`1
+    name: IntegrationServerWcfClientBase
+    isExternal: true
+    href: SuperOffice.ErpSync.IntegrationServerWcfClientBase-1.html
+  - name: <
+  - name: TService
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.ErpSync.IntegrationServerWcfClientBase`1
+    name: IntegrationServerWcfClientBase
+    isExternal: true
+    href: SuperOffice.ErpSync.IntegrationServerWcfClientBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TService
+  - name: )
+- uid: SuperOffice.ErpSync.IntegrationServerWcfClientBase`1.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
+  commentId: M:SuperOffice.ErpSync.IntegrationServerWcfClientBase`1.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
+  isExternal: true
+  href: SuperOffice.ErpSync.IntegrationServerWcfClientBase-1.html#SuperOffice_ErpSync_IntegrationServerWcfClientBase_1_ConfigureBinding_System_ServiceModel_BasicHttpBinding_
+  name: ConfigureBinding(BasicHttpBinding)
+  nameWithType: IntegrationServerWcfClientBase<TService>.ConfigureBinding(BasicHttpBinding)
+  fullName: SuperOffice.ErpSync.IntegrationServerWcfClientBase<TService>.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
+  nameWithType.vb: IntegrationServerWcfClientBase(Of TService).ConfigureBinding(BasicHttpBinding)
+  fullName.vb: SuperOffice.ErpSync.IntegrationServerWcfClientBase(Of TService).ConfigureBinding(System.ServiceModel.BasicHttpBinding)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.IntegrationServerWcfClientBase`1.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
+    name: ConfigureBinding
+    isExternal: true
+    href: SuperOffice.ErpSync.IntegrationServerWcfClientBase-1.html#SuperOffice_ErpSync_IntegrationServerWcfClientBase_1_ConfigureBinding_System_ServiceModel_BasicHttpBinding_
+  - name: (
+  - uid: System.ServiceModel.BasicHttpBinding
+    name: BasicHttpBinding
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.IntegrationServerWcfClientBase`1.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
+    name: ConfigureBinding
+    isExternal: true
+    href: SuperOffice.ErpSync.IntegrationServerWcfClientBase-1.html#SuperOffice_ErpSync_IntegrationServerWcfClientBase_1_ConfigureBinding_System_ServiceModel_BasicHttpBinding_
+  - name: (
+  - uid: System.ServiceModel.BasicHttpBinding
+    name: BasicHttpBinding
+    isExternal: true
+  - name: )
+- uid: SuperOffice.ErpSync.ErpConnectorClient.CreateAsync*
+  commentId: Overload:SuperOffice.ErpSync.ErpConnectorClient.CreateAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpConnectorClient.html#SuperOffice_ErpSync_ErpConnectorClient_CreateAsync_System_String_SuperOffice_CRM_IConfiguration_System_Threading_CancellationToken_
+  name: CreateAsync
+  nameWithType: ErpConnectorClient.CreateAsync
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.CreateAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.IConfiguration
+  commentId: '!:SuperOffice.CRM.IConfiguration'
+  isExternal: true
+  name: IConfiguration
+  nameWithType: IConfiguration
+  fullName: SuperOffice.CRM.IConfiguration
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.ErpSync.ErpConnectorClient}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.ErpSync.ErpConnectorClient}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ErpConnectorClient>
+  nameWithType: Task<ErpConnectorClient>
+  fullName: System.Threading.Tasks.Task<SuperOffice.ErpSync.ErpConnectorClient>
+  nameWithType.vb: Task(Of ErpConnectorClient)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.ErpSync.ErpConnectorClient)
+  name.vb: Task(Of ErpConnectorClient)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.ErpSync.ErpConnectorClient
+    name: ErpConnectorClient
+    isExternal: true
+    href: SuperOffice.ErpSync.ErpConnectorClient.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.ErpSync.ErpConnectorClient
+    name: ErpConnectorClient
+    isExternal: true
+    href: SuperOffice.ErpSync.ErpConnectorClient.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.ErpSync.ErpConnectorClient.GetConfigData*
+  commentId: Overload:SuperOffice.ErpSync.ErpConnectorClient.GetConfigData
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpConnectorClient.html#SuperOffice_ErpSync_ErpConnectorClient_GetConfigData
+  name: GetConfigData
+  nameWithType: ErpConnectorClient.GetConfigData
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.GetConfigData
+- uid: SuperOffice.CRM.FieldMetadataInfoArrayPluginResponse
+  isExternal: true
+  name: FieldMetadataInfoArrayPluginResponse
+  nameWithType: FieldMetadataInfoArrayPluginResponse
+  fullName: SuperOffice.CRM.FieldMetadataInfoArrayPluginResponse
+- uid: SuperOffice.ErpSync.ErpConnectorClient.TestConfigData*
+  commentId: Overload:SuperOffice.ErpSync.ErpConnectorClient.TestConfigData
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpConnectorClient.html#SuperOffice_ErpSync_ErpConnectorClient_TestConfigData_System_Collections_Generic_Dictionary_System_String_System_String__
+  name: TestConfigData
+  nameWithType: ErpConnectorClient.TestConfigData
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.TestConfigData
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, string>
+  nameWithType: Dictionary<string, string>
+  fullName: System.Collections.Generic.Dictionary<string, string>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.CRM.PluginResponseInfo
+  isExternal: true
+  name: PluginResponseInfo
+  nameWithType: PluginResponseInfo
+  fullName: SuperOffice.CRM.PluginResponseInfo
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.ErpSync.ErpConnectorClient.SaveConnection*
+  commentId: Overload:SuperOffice.ErpSync.ErpConnectorClient.SaveConnection
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpConnectorClient.html#SuperOffice_ErpSync_ErpConnectorClient_SaveConnection_System_Guid_System_Collections_Generic_Dictionary_System_String_System_String__
+  name: SaveConnection
+  nameWithType: ErpConnectorClient.SaveConnection
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.SaveConnection
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: SuperOffice.ErpSync.ErpConnectorClient.TestConnection*
+  commentId: Overload:SuperOffice.ErpSync.ErpConnectorClient.TestConnection
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpConnectorClient.html#SuperOffice_ErpSync_ErpConnectorClient_TestConnection_System_Guid_
+  name: TestConnection
+  nameWithType: ErpConnectorClient.TestConnection
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.TestConnection
+- uid: SuperOffice.ErpSync.ErpConnectorClient.DeleteConnection*
+  commentId: Overload:SuperOffice.ErpSync.ErpConnectorClient.DeleteConnection
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpConnectorClient.html#SuperOffice_ErpSync_ErpConnectorClient_DeleteConnection_System_Guid_
+  name: DeleteConnection
+  nameWithType: ErpConnectorClient.DeleteConnection
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.DeleteConnection
+- uid: SuperOffice.ErpSync.ErpConnectorClient.GetSupportedActorTypes*
+  commentId: Overload:SuperOffice.ErpSync.ErpConnectorClient.GetSupportedActorTypes
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpConnectorClient.html#SuperOffice_ErpSync_ErpConnectorClient_GetSupportedActorTypes_System_Guid_
+  name: GetSupportedActorTypes
+  nameWithType: ErpConnectorClient.GetSupportedActorTypes
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.GetSupportedActorTypes
+- uid: SuperOffice.CRM.StringArrayPluginResponse
+  isExternal: true
+  name: StringArrayPluginResponse
+  nameWithType: StringArrayPluginResponse
+  fullName: SuperOffice.CRM.StringArrayPluginResponse
+- uid: SuperOffice.ErpSync.ErpConnectorClient.GetSupportedActorTypeFields*
+  commentId: Overload:SuperOffice.ErpSync.ErpConnectorClient.GetSupportedActorTypeFields
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpConnectorClient.html#SuperOffice_ErpSync_ErpConnectorClient_GetSupportedActorTypeFields_System_Guid_System_String_
+  name: GetSupportedActorTypeFields
+  nameWithType: ErpConnectorClient.GetSupportedActorTypeFields
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.GetSupportedActorTypeFields
+- uid: SuperOffice.ErpSync.ErpConnectorClient.GetActors*
+  commentId: Overload:SuperOffice.ErpSync.ErpConnectorClient.GetActors
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpConnectorClient.html#SuperOffice_ErpSync_ErpConnectorClient_GetActors_System_Guid_System_String_System_String___System_String___
+  name: GetActors
+  nameWithType: ErpConnectorClient.GetActors
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.GetActors
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.ActorArrayPluginResponse
+  isExternal: true
+  name: ActorArrayPluginResponse
+  nameWithType: ActorArrayPluginResponse
+  fullName: SuperOffice.CRM.ActorArrayPluginResponse
+- uid: SuperOffice.ErpSync.ErpConnectorClient.GetSearchableFields*
+  commentId: Overload:SuperOffice.ErpSync.ErpConnectorClient.GetSearchableFields
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpConnectorClient.html#SuperOffice_ErpSync_ErpConnectorClient_GetSearchableFields_System_Guid_System_String_
+  name: GetSearchableFields
+  nameWithType: ErpConnectorClient.GetSearchableFields
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.GetSearchableFields
+- uid: SuperOffice.ErpSync.ErpConnectorClient.SearchActorsAdvanced*
+  commentId: Overload:SuperOffice.ErpSync.ErpConnectorClient.SearchActorsAdvanced
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpConnectorClient.html#SuperOffice_ErpSync_ErpConnectorClient_SearchActorsAdvanced_System_Guid_System_String_SuperOffice_CRM_SearchRestrictionInfo___System_String___
+  name: SearchActorsAdvanced
+  nameWithType: ErpConnectorClient.SearchActorsAdvanced
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.SearchActorsAdvanced
+- uid: SuperOffice.CRM.SearchRestrictionInfo[]
+  isExternal: true
+  name: SearchRestrictionInfo[]
+  nameWithType: SearchRestrictionInfo[]
+  fullName: SuperOffice.CRM.SearchRestrictionInfo[]
+  nameWithType.vb: SearchRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.SearchRestrictionInfo()
+  name.vb: SearchRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.SearchRestrictionInfo
+    name: SearchRestrictionInfo
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.SearchRestrictionInfo
+    name: SearchRestrictionInfo
+    isExternal: true
+  - name: (
+  - name: )
+- uid: SuperOffice.ErpSync.ErpConnectorClient.SearchActors*
+  commentId: Overload:SuperOffice.ErpSync.ErpConnectorClient.SearchActors
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpConnectorClient.html#SuperOffice_ErpSync_ErpConnectorClient_SearchActors_System_Guid_System_String_System_String_System_String___
+  name: SearchActors
+  nameWithType: ErpConnectorClient.SearchActors
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.SearchActors
+- uid: SuperOffice.ErpSync.ErpConnectorClient.SearchActorByParent*
+  commentId: Overload:SuperOffice.ErpSync.ErpConnectorClient.SearchActorByParent
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpConnectorClient.html#SuperOffice_ErpSync_ErpConnectorClient_SearchActorByParent_System_Guid_System_String_System_String_System_String_System_String_System_String___
+  name: SearchActorByParent
+  nameWithType: ErpConnectorClient.SearchActorByParent
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.SearchActorByParent
+- uid: SuperOffice.ErpSync.ErpConnectorClient.CreateActor*
+  commentId: Overload:SuperOffice.ErpSync.ErpConnectorClient.CreateActor
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpConnectorClient.html#SuperOffice_ErpSync_ErpConnectorClient_CreateActor_System_Guid_SuperOffice_CRM_ErpActor_
+  name: CreateActor
+  nameWithType: ErpConnectorClient.CreateActor
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.CreateActor
+- uid: SuperOffice.CRM.ErpActor
+  isExternal: true
+  name: ErpActor
+  nameWithType: ErpActor
+  fullName: SuperOffice.CRM.ErpActor
+- uid: SuperOffice.CRM.ActorPluginResponse
+  commentId: '!:SuperOffice.CRM.ActorPluginResponse'
+  isExternal: true
+  name: ActorPluginResponse
+  nameWithType: ActorPluginResponse
+  fullName: SuperOffice.CRM.ActorPluginResponse
+- uid: SuperOffice.ErpSync.ErpConnectorClient.SaveActors*
+  commentId: Overload:SuperOffice.ErpSync.ErpConnectorClient.SaveActors
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpConnectorClient.html#SuperOffice_ErpSync_ErpConnectorClient_SaveActors_System_Guid_SuperOffice_CRM_ErpActor___
+  name: SaveActors
+  nameWithType: ErpConnectorClient.SaveActors
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.SaveActors
+- uid: SuperOffice.CRM.ErpActor[]
+  isExternal: true
+  name: ErpActor[]
+  nameWithType: ErpActor[]
+  fullName: SuperOffice.CRM.ErpActor[]
+  nameWithType.vb: ErpActor()
+  fullName.vb: SuperOffice.CRM.ErpActor()
+  name.vb: ErpActor()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ErpActor
+    name: ErpActor
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.ErpActor
+    name: ErpActor
+    isExternal: true
+  - name: (
+  - name: )
+- uid: SuperOffice.ErpSync.ErpConnectorClient.GetList*
+  commentId: Overload:SuperOffice.ErpSync.ErpConnectorClient.GetList
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpConnectorClient.html#SuperOffice_ErpSync_ErpConnectorClient_GetList_System_Guid_System_String_
+  name: GetList
+  nameWithType: ErpConnectorClient.GetList
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.GetList
+- uid: SuperOffice.CRM.ListItemArrayPluginResponse
+  isExternal: true
+  name: ListItemArrayPluginResponse
+  nameWithType: ListItemArrayPluginResponse
+  fullName: SuperOffice.CRM.ListItemArrayPluginResponse
+- uid: SuperOffice.ErpSync.ErpConnectorClient.GetListItems*
+  commentId: Overload:SuperOffice.ErpSync.ErpConnectorClient.GetListItems
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpConnectorClient.html#SuperOffice_ErpSync_ErpConnectorClient_GetListItems_System_Guid_System_String_System_String___
+  name: GetListItems
+  nameWithType: ErpConnectorClient.GetListItems
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.GetListItems
+- uid: SuperOffice.ErpSync.ErpConnectorClient.GetActorsByTimestamp*
+  commentId: Overload:SuperOffice.ErpSync.ErpConnectorClient.GetActorsByTimestamp
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpConnectorClient.html#SuperOffice_ErpSync_ErpConnectorClient_GetActorsByTimestamp_System_Guid_System_String_System_String_System_String___
+  name: GetActorsByTimestamp
+  nameWithType: ErpConnectorClient.GetActorsByTimestamp
+  fullName: SuperOffice.ErpSync.ErpConnectorClient.GetActorsByTimestamp

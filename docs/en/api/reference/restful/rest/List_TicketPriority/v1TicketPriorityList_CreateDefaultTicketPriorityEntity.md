@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 493,
-  "Name": "Barrows Inc and Sons",
+  "TicketPriorityId": 177,
+  "Name": "Ondricka, Gibson and Cummerata",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 175,
+  "SortOrder": 127,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 710,
-  "MonStart": "2013-05-02T16:32:49.0244447+02:00",
-  "MonStop": "1999-03-23T16:32:49.0244447+01:00",
-  "TueStart": "2008-07-09T16:32:49.0244447+02:00",
-  "TueStop": "2016-10-31T16:32:49.0244447+01:00",
-  "WedStart": "2003-06-16T16:32:49.0244447+02:00",
-  "WedStop": "2024-11-25T16:32:49.0244447+01:00",
-  "ThuStart": "2015-04-30T16:32:49.0244447+02:00",
-  "ThuStop": "1998-01-19T16:32:49.0244447+01:00",
-  "FriStart": "2019-03-16T16:32:49.0244447+01:00",
-  "FriStop": "2016-08-26T16:32:49.0244447+02:00",
-  "SatStart": "2006-03-25T16:32:49.0244447+01:00",
-  "SatStop": "2003-11-29T16:32:49.0244447+01:00",
-  "SunStart": "2009-10-10T16:32:49.0244447+02:00",
-  "SunStop": "2018-01-29T16:32:49.0244447+01:00",
+  "Deadline": 538,
+  "MonStart": "2024-08-03T17:54:09.148042+02:00",
+  "MonStop": "2011-12-13T17:54:09.148042+01:00",
+  "TueStart": "2015-04-22T17:54:09.148042+02:00",
+  "TueStop": "2023-01-27T17:54:09.148042+01:00",
+  "WedStart": "2020-08-18T17:54:09.148042+02:00",
+  "WedStop": "2006-10-30T17:54:09.148042+01:00",
+  "ThuStart": "2001-03-05T17:54:09.148042+01:00",
+  "ThuStop": "2010-02-24T17:54:09.148042+01:00",
+  "FriStart": "2024-08-24T17:54:09.148042+02:00",
+  "FriStop": "2021-11-26T17:54:09.148042+01:00",
+  "SatStart": "2009-02-13T17:54:09.148042+01:00",
+  "SatStop": "2013-11-30T17:54:09.148042+01:00",
+  "SunStart": "2016-12-28T17:54:09.148042+01:00",
+  "SunStop": "2007-11-21T17:54:09.148042+01:00",
   "NonDates": [
-    "velit",
-    "earum"
+    "et",
+    "ut"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 752,
-      "AlertLevel": 543,
-      "AlertTimeout": 650,
-      "Action": 238,
-      "DelegateTo": 374,
-      "ScriptId": 709,
-      "EmailTo": "raphaelle@wunsch.name",
-      "SmsTo": "magni",
-      "ReplyTemplateIdCustomer": 199,
-      "ReplyTemplateIdUser": 632,
-      "ReplyTemplateIdCatmast": 703,
-      "ReplyTemplateIdEmail": 141,
-      "RtiCustomerSms": 756,
-      "ReplyTemplateIdUserSms": 31,
-      "ReplyTemplateIdCatmastSms": 551,
-      "ReplyTemplateIdSms": 702,
+      "TicketAlertId": 445,
+      "AlertLevel": 410,
+      "AlertTimeout": 457,
+      "Action": 622,
+      "DelegateTo": 606,
+      "ScriptId": 290,
+      "EmailTo": "theodora.jewess@predovic.uk",
+      "SmsTo": "saepe",
+      "ReplyTemplateIdCustomer": 859,
+      "ReplyTemplateIdUser": 83,
+      "ReplyTemplateIdCatmast": 453,
+      "ReplyTemplateIdEmail": 870,
+      "RtiCustomerSms": 209,
+      "ReplyTemplateIdUserSms": 519,
+      "ReplyTemplateIdCatmastSms": 519,
+      "ReplyTemplateIdSms": 103,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 89
+          "FieldLength": 116
         }
       }
     }
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 493
+      "FieldType": "System.Int32",
+      "FieldLength": 755
     }
   }
 }

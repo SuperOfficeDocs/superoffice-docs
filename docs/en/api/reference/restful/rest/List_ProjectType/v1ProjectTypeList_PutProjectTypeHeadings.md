@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 128,
-    "Name": "Borer LLC",
-    "Tooltip": "est",
+    "HeadingId": 299,
+    "Name": "Kirlin-Blanda",
+    "Tooltip": "iure",
     "Deleted": true,
-    "Rank": 517,
-    "UdListDefinitionId": 327
+    "Rank": 993,
+    "UdListDefinitionId": 637
   },
   {
-    "HeadingId": 128,
-    "Name": "Borer LLC",
-    "Tooltip": "est",
+    "HeadingId": 299,
+    "Name": "Kirlin-Blanda",
+    "Tooltip": "iure",
     "Deleted": true,
-    "Rank": 517,
-    "UdListDefinitionId": 327
+    "Rank": 993,
+    "UdListDefinitionId": 637
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 753,
-    "Name": "Parker Inc and Sons",
-    "Tooltip": "in",
-    "Deleted": false,
-    "Rank": 756,
-    "UdListDefinitionId": 117,
+    "HeadingId": 941,
+    "Name": "Terry Inc and Sons",
+    "Tooltip": "maxime",
+    "Deleted": true,
+    "Rank": 790,
+    "UdListDefinitionId": 512,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 63
+        "FieldLength": 979
       }
     }
   }

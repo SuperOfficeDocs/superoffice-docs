@@ -21,33 +21,54 @@ items:
   nameWithType: TargetGroup
   fullName: SuperOffice.CRM.Services.TargetGroup
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTarget Group carrier\n<p></p>\nCarrier object for TargetGroup.\nServices for the TargetGroup Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ITargetsAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Target Group carrier
+
+    <p></p>
+
+    Carrier object for TargetGroup.
+
+    Services for the TargetGroup Carrier is available from the <xref href="SuperOffice.CRM.Services.ITargetsAgent?text=Targets+Agent" data-throw-if-not-resolved="false"></xref>.
   example:
-  - "\nGet TargetGroup 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new TargetsAgent();\n    var targetGroup = agent.GetTargetGroup( 123 );\n }</code></pre>\n"
+  - >-
+    Get TargetGroup 123 using the agent:
+
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       var agent = new TargetsAgent();
+       var targetGroup = agent.GetTargetGroup( 123 );
+    }</code></pre>
   syntax:
-    content: 'public class TargetGroup : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class TargetGroup : Carrier
     content.vb: >-
-      Public Class TargetGroup
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class TargetGroup Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.TargetsAgent
-    commentId: T:SuperOffice.CRM.Services.TargetsAgent
   - linkId: SuperOffice.CRM.Services.ITargetsAgent
     commentId: T:SuperOffice.CRM.Services.ITargetsAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.TargetGroup.#ctor
   commentId: M:SuperOffice.CRM.Services.TargetGroup.#ctor
   id: '#ctor'
@@ -59,21 +80,18 @@ items:
   nameWithType: TargetGroup.TargetGroup()
   fullName: SuperOffice.CRM.Services.TargetGroup.TargetGroup()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public TargetGroup()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.TargetGroup.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: TargetGroup.New()
+  fullName.vb: SuperOffice.CRM.Services.TargetGroup.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.TargetGroup.ToString
   commentId: M:SuperOffice.CRM.Services.TargetGroup.ToString
   id: ToString
@@ -85,26 +103,18 @@ items:
   nameWithType: TargetGroup.ToString()
   fullName: SuperOffice.CRM.Services.TargetGroup.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.TargetGroup.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.TargetGroup.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.TargetGroup.ToString(System.String)
   id: ToString(System.String)
@@ -112,17 +122,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: TargetGroup.ToString(String)
-  fullName: SuperOffice.CRM.Services.TargetGroup.ToString(System.String)
+  name: ToString(string)
+  nameWithType: TargetGroup.ToString(string)
+  fullName: SuperOffice.CRM.Services.TargetGroup.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -134,10 +145,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.TargetGroup.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: TargetGroup.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.TargetGroup.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.TargetGroup.TargetGroupId
   commentId: P:SuperOffice.CRM.Services.TargetGroup.TargetGroupId
   id: TargetGroupId
@@ -149,28 +159,28 @@ items:
   nameWithType: TargetGroup.TargetGroupId
   fullName: SuperOffice.CRM.Services.TargetGroup.TargetGroupId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
-    content: public virtual int TargetGroupId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int TargetGroupId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property TargetGroupId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TargetGroupId As Integer
   overload: SuperOffice.CRM.Services.TargetGroup.TargetGroupId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TargetGroup.Year
   commentId: P:SuperOffice.CRM.Services.TargetGroup.Year
   id: Year
@@ -182,28 +192,28 @@ items:
   nameWithType: TargetGroup.Year
   fullName: SuperOffice.CRM.Services.TargetGroup.Year
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe year this set of targets are associated with (2020, 2021...) \n"
+  summary: The year this set of targets are associated with (2020, 2021...)
+  example: []
   syntax:
-    content: public virtual int Year { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int Year { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property Year As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Year As Integer
   overload: SuperOffice.CRM.Services.TargetGroup.Year*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TargetGroup.EntityType
   commentId: P:SuperOffice.CRM.Services.TargetGroup.EntityType
   id: EntityType
@@ -215,28 +225,28 @@ items:
   nameWithType: TargetGroup.EntityType
   fullName: SuperOffice.CRM.Services.TargetGroup.EntityType
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nEntity type for this set of targets (Sale, Project, Selection, Appointment...) \n"
+  summary: Entity type for this set of targets (Sale, Project, Selection, Appointment...)
+  example: []
   syntax:
-    content: public virtual TargetEntityType EntityType { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual TargetEntityType EntityType { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.TargetEntityType
-    content.vb: Public Overridable Property EntityType As TargetEntityType
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property EntityType As TargetEntityType
   overload: SuperOffice.CRM.Services.TargetGroup.EntityType*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TargetGroup.PeriodType
   commentId: P:SuperOffice.CRM.Services.TargetGroup.PeriodType
   id: PeriodType
@@ -248,28 +258,28 @@ items:
   nameWithType: TargetGroup.PeriodType
   fullName: SuperOffice.CRM.Services.TargetGroup.PeriodType
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPeriod type for editing this set of targets (Year, Quarter...) \n"
+  summary: Period type for editing this set of targets (Year, Quarter...)
+  example: []
   syntax:
-    content: public virtual TargetPeriodType PeriodType { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual TargetPeriodType PeriodType { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.TargetPeriodType
-    content.vb: Public Overridable Property PeriodType As TargetPeriodType
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PeriodType As TargetPeriodType
   overload: SuperOffice.CRM.Services.TargetGroup.PeriodType*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TargetGroup.TargetAssignments
   commentId: P:SuperOffice.CRM.Services.TargetGroup.TargetAssignments
   id: TargetAssignments
@@ -281,28 +291,28 @@ items:
   nameWithType: TargetGroup.TargetAssignments
   fullName: SuperOffice.CRM.Services.TargetGroup.TargetAssignments
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCollection of target values \n"
+  summary: Collection of target values
+  example: []
   syntax:
-    content: public virtual TargetAssignment[] TargetAssignments { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual TargetAssignment[] TargetAssignments { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.TargetAssignment[]
-    content.vb: Public Overridable Property TargetAssignments As TargetAssignment()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TargetAssignments As TargetAssignment()
   overload: SuperOffice.CRM.Services.TargetGroup.TargetAssignments*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TargetGroup.TargetDimension
   commentId: P:SuperOffice.CRM.Services.TargetGroup.TargetDimension
   id: TargetDimension
@@ -314,57 +324,106 @@ items:
   nameWithType: TargetGroup.TargetDimension
   fullName: SuperOffice.CRM.Services.TargetGroup.TargetDimension
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nInfo about the target dimensions \n"
+  summary: Info about the target dimensions
+  example: []
   syntax:
-    content: public virtual TargetDimension TargetDimension { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual TargetDimension TargetDimension { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.TargetDimension
-    content.vb: Public Overridable Property TargetDimension As TargetDimension
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TargetDimension As TargetDimension
   overload: SuperOffice.CRM.Services.TargetGroup.TargetDimension*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.TargetsAgent
-  commentId: T:SuperOffice.CRM.Services.TargetsAgent
-  isExternal: true
-  name: TargetsAgent
-  nameWithType: TargetsAgent
-  fullName: SuperOffice.CRM.Services.TargetsAgent
 - uid: SuperOffice.CRM.Services.ITargetsAgent
   commentId: T:SuperOffice.CRM.Services.ITargetsAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.ITargetsAgent.html
   name: ITargetsAgent
   nameWithType: ITargetsAgent
   fullName: SuperOffice.CRM.Services.ITargetsAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.TargetGroup.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.TargetGroup.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.TargetGroup.html#SuperOffice_CRM_Services_TargetGroup__ctor
   name: TargetGroup
   nameWithType: TargetGroup.TargetGroup
   fullName: SuperOffice.CRM.Services.TargetGroup.TargetGroup
+  nameWithType.vb: TargetGroup.New
+  fullName.vb: SuperOffice.CRM.Services.TargetGroup.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.TargetGroup.ToString*
   commentId: Overload:SuperOffice.CRM.Services.TargetGroup.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.TargetGroup.html#SuperOffice_CRM_Services_TargetGroup_ToString
   name: ToString
   nameWithType: TargetGroup.ToString
   fullName: SuperOffice.CRM.Services.TargetGroup.ToString
@@ -372,18 +431,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.TargetGroup.TargetGroupId*
   commentId: Overload:SuperOffice.CRM.Services.TargetGroup.TargetGroupId
   isExternal: true
+  href: SuperOffice.CRM.Services.TargetGroup.html#SuperOffice_CRM_Services_TargetGroup_TargetGroupId
   name: TargetGroupId
   nameWithType: TargetGroup.TargetGroupId
   fullName: SuperOffice.CRM.Services.TargetGroup.TargetGroupId
@@ -391,18 +449,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.TargetGroup.Year*
   commentId: Overload:SuperOffice.CRM.Services.TargetGroup.Year
   isExternal: true
+  href: SuperOffice.CRM.Services.TargetGroup.html#SuperOffice_CRM_Services_TargetGroup_Year
   name: Year
   nameWithType: TargetGroup.Year
   fullName: SuperOffice.CRM.Services.TargetGroup.Year
 - uid: SuperOffice.CRM.Services.TargetGroup.EntityType*
   commentId: Overload:SuperOffice.CRM.Services.TargetGroup.EntityType
   isExternal: true
+  href: SuperOffice.CRM.Services.TargetGroup.html#SuperOffice_CRM_Services_TargetGroup_EntityType
   name: EntityType
   nameWithType: TargetGroup.EntityType
   fullName: SuperOffice.CRM.Services.TargetGroup.EntityType
@@ -414,6 +478,7 @@ references:
 - uid: SuperOffice.CRM.Services.TargetGroup.PeriodType*
   commentId: Overload:SuperOffice.CRM.Services.TargetGroup.PeriodType
   isExternal: true
+  href: SuperOffice.CRM.Services.TargetGroup.html#SuperOffice_CRM_Services_TargetGroup_PeriodType
   name: PeriodType
   nameWithType: TargetGroup.PeriodType
   fullName: SuperOffice.CRM.Services.TargetGroup.PeriodType
@@ -426,11 +491,13 @@ references:
 - uid: SuperOffice.CRM.Services.TargetGroup.TargetAssignments*
   commentId: Overload:SuperOffice.CRM.Services.TargetGroup.TargetAssignments
   isExternal: true
+  href: SuperOffice.CRM.Services.TargetGroup.html#SuperOffice_CRM_Services_TargetGroup_TargetAssignments
   name: TargetAssignments
   nameWithType: TargetGroup.TargetAssignments
   fullName: SuperOffice.CRM.Services.TargetGroup.TargetAssignments
 - uid: SuperOffice.CRM.Services.TargetAssignment[]
   isExternal: true
+  href: SuperOffice.CRM.Services.TargetAssignment.html
   name: TargetAssignment[]
   nameWithType: TargetAssignment[]
   fullName: SuperOffice.CRM.Services.TargetAssignment[]
@@ -440,24 +507,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.TargetAssignment
     name: TargetAssignment
-    nameWithType: TargetAssignment
-    fullName: SuperOffice.CRM.Services.TargetAssignment
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.TargetAssignment.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.TargetAssignment
     name: TargetAssignment
-    nameWithType: TargetAssignment
-    fullName: SuperOffice.CRM.Services.TargetAssignment
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.Services.TargetAssignment.html
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.TargetGroup.TargetDimension*
   commentId: Overload:SuperOffice.CRM.Services.TargetGroup.TargetDimension
   isExternal: true
+  href: SuperOffice.CRM.Services.TargetGroup.html#SuperOffice_CRM_Services_TargetGroup_TargetDimension
   name: TargetDimension
   nameWithType: TargetGroup.TargetDimension
   fullName: SuperOffice.CRM.Services.TargetGroup.TargetDimension
@@ -465,6 +529,7 @@ references:
   commentId: T:SuperOffice.CRM.Services.TargetDimension
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.TargetDimension.html
   name: TargetDimension
   nameWithType: TargetDimension
   fullName: SuperOffice.CRM.Services.TargetDimension

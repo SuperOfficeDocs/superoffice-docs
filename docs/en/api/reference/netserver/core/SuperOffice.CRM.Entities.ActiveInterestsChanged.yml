@@ -15,32 +15,22 @@ items:
   name: ActiveInterestsChanged
   nameWithType: ActiveInterestsChanged
   fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged
-  type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
+  type: Delegate
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nDelegate used for raising events when the number of active interests are changed.\n"
+  summary: Delegate used for raising events when the number of active interests are changed.
+  example: []
   syntax:
-    content: 'public sealed class ActiveInterestsChanged : MulticastDelegate'
-    content.vb: >-
-      Public NotInheritable Class ActiveInterestsChanged
-          Inherits MulticastDelegate
-  inheritance:
-  - System.Object
+    content: public delegate void ActiveInterestsChanged(int activeInterests)
+    parameters:
+    - id: activeInterests
+      type: System.Int32
+      description: New number of active interests.
+    content.vb: Public Delegate Sub ActiveInterestsChanged(activeInterests As Integer)
   extensionMethods:
   - SuperOffice.CRM.Entities.ActiveInterestsChanged.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Entities.ActiveInterestsChanged.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
 - uid: SuperOffice.CRM.Entities.ActiveInterestsChanged.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.CRM.Entities.ActiveInterestsChanged.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -48,29 +38,25 @@ items:
   langs:
   - csharp
   - vb
-  name: ActiveInterestsChanged(Object, IntPtr)
-  nameWithType: ActiveInterestsChanged.ActiveInterestsChanged(Object, IntPtr)
-  fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged.ActiveInterestsChanged(System.Object, System.IntPtr)
+  name: ActiveInterestsChanged(object, IntPtr)
+  nameWithType: ActiveInterestsChanged.ActiveInterestsChanged(object, IntPtr)
+  fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged.ActiveInterestsChanged(object, System.IntPtr)
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public ActiveInterestsChanged(object object, IntPtr method)
+    content: public ActiveInterestsChanged(object @object, IntPtr method)
     parameters:
     - id: object
       type: System.Object
     - id: method
       type: System.IntPtr
-    content.vb: Public Sub New(object As Object, method As IntPtr)
+    content.vb: Public Sub New([object] As Object, method As IntPtr)
   overload: SuperOffice.CRM.Entities.ActiveInterestsChanged.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ActiveInterestsChanged.New(Object, IntPtr)
+  fullName.vb: SuperOffice.CRM.Entities.ActiveInterestsChanged.New(Object, System.IntPtr)
+  name.vb: New(Object, IntPtr)
 - uid: SuperOffice.CRM.Entities.ActiveInterestsChanged.Invoke(System.Int32)
   commentId: M:SuperOffice.CRM.Entities.ActiveInterestsChanged.Invoke(System.Int32)
   id: Invoke(System.Int32)
@@ -78,13 +64,10 @@ items:
   langs:
   - csharp
   - vb
-  name: Invoke(Int32)
-  nameWithType: ActiveInterestsChanged.Invoke(Int32)
-  fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged.Invoke(System.Int32)
+  name: Invoke(int)
+  nameWithType: ActiveInterestsChanged.Invoke(int)
+  fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged.Invoke(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
@@ -95,12 +78,9 @@ items:
       type: System.Int32
     content.vb: Public Overridable Sub Invoke(activeInterests As Integer)
   overload: SuperOffice.CRM.Entities.ActiveInterestsChanged.Invoke*
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
+  nameWithType.vb: ActiveInterestsChanged.Invoke(Integer)
+  fullName.vb: SuperOffice.CRM.Entities.ActiveInterestsChanged.Invoke(Integer)
+  name.vb: Invoke(Integer)
 - uid: SuperOffice.CRM.Entities.ActiveInterestsChanged.BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
   commentId: M:SuperOffice.CRM.Entities.ActiveInterestsChanged.BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
   id: BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
@@ -108,18 +88,15 @@ items:
   langs:
   - csharp
   - vb
-  name: BeginInvoke(Int32, AsyncCallback, Object)
-  nameWithType: ActiveInterestsChanged.BeginInvoke(Int32, AsyncCallback, Object)
-  fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged.BeginInvoke(System.Int32, System.AsyncCallback, System.Object)
+  name: BeginInvoke(int, AsyncCallback, object)
+  nameWithType: ActiveInterestsChanged.BeginInvoke(int, AsyncCallback, object)
+  fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged.BeginInvoke(int, System.AsyncCallback, object)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public virtual IAsyncResult BeginInvoke(int activeInterests, AsyncCallback callback, object object)
+    content: public virtual IAsyncResult BeginInvoke(int activeInterests, AsyncCallback callback, object @object)
     parameters:
     - id: activeInterests
       type: System.Int32
@@ -129,14 +106,11 @@ items:
       type: System.Object
     return:
       type: System.IAsyncResult
-    content.vb: Public Overridable Function BeginInvoke(activeInterests As Integer, callback As AsyncCallback, object As Object) As IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(activeInterests As Integer, callback As AsyncCallback, [object] As Object) As IAsyncResult
   overload: SuperOffice.CRM.Entities.ActiveInterestsChanged.BeginInvoke*
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
+  nameWithType.vb: ActiveInterestsChanged.BeginInvoke(Integer, AsyncCallback, Object)
+  fullName.vb: SuperOffice.CRM.Entities.ActiveInterestsChanged.BeginInvoke(Integer, System.AsyncCallback, Object)
+  name.vb: BeginInvoke(Integer, AsyncCallback, Object)
 - uid: SuperOffice.CRM.Entities.ActiveInterestsChanged.EndInvoke(System.IAsyncResult)
   commentId: M:SuperOffice.CRM.Entities.ActiveInterestsChanged.EndInvoke(System.IAsyncResult)
   id: EndInvoke(System.IAsyncResult)
@@ -148,9 +122,6 @@ items:
   nameWithType: ActiveInterestsChanged.EndInvoke(IAsyncResult)
   fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged.EndInvoke(System.IAsyncResult)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
@@ -161,103 +132,165 @@ items:
       type: System.IAsyncResult
     content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
   overload: SuperOffice.CRM.Entities.ActiveInterestsChanged.EndInvoke*
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
 - uid: SuperOffice.CRM.Entities
   commentId: N:SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Entities
   nameWithType: SuperOffice.CRM.Entities
   fullName: SuperOffice.CRM.Entities
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
 - uid: SuperOffice.CRM.Entities.ActiveInterestsChanged.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ActiveInterestsChanged, To>()
-  nameWithType: EnumUtil.MapEnums<ActiveInterestsChanged, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.ActiveInterestsChanged, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ActiveInterestsChanged, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.ActiveInterestsChanged, To)()
-  name.vb: MapEnums(Of ActiveInterestsChanged, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ActiveInterestsChanged, To>(ActiveInterestsChanged)
+  nameWithType: EnumUtil.MapEnums<ActiveInterestsChanged, To>(ActiveInterestsChanged)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.ActiveInterestsChanged, To>(SuperOffice.CRM.Entities.ActiveInterestsChanged)
+  nameWithType.vb: EnumUtil.MapEnums(Of ActiveInterestsChanged, To)(ActiveInterestsChanged)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.ActiveInterestsChanged, To)(SuperOffice.CRM.Entities.ActiveInterestsChanged)
+  name.vb: MapEnums(Of ActiveInterestsChanged, To)(ActiveInterestsChanged)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ActiveInterestsChanged, To>
-    nameWithType: EnumUtil.MapEnums<ActiveInterestsChanged, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.ActiveInterestsChanged, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.ActiveInterestsChanged)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.ActiveInterestsChanged
+    name: ActiveInterestsChanged
+    isExternal: true
+    href: SuperOffice.CRM.Entities.ActiveInterestsChanged.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Entities.ActiveInterestsChanged
+    name: ActiveInterestsChanged
+    isExternal: true
+    href: SuperOffice.CRM.Entities.ActiveInterestsChanged.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ActiveInterestsChanged, To)
-    nameWithType: EnumUtil.MapEnums(Of ActiveInterestsChanged, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.ActiveInterestsChanged, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.ActiveInterestsChanged)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.ActiveInterestsChanged
+    name: ActiveInterestsChanged
+    isExternal: true
+    href: SuperOffice.CRM.Entities.ActiveInterestsChanged.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.ActiveInterestsChanged
+    name: ActiveInterestsChanged
+    isExternal: true
+    href: SuperOffice.CRM.Entities.ActiveInterestsChanged.html
+  - name: )
 - uid: SuperOffice.CRM.Entities.ActiveInterestsChanged.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ActiveInterestsChanged, To>()
-  nameWithType: Converters.MapEnums<ActiveInterestsChanged, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.ActiveInterestsChanged, To>()
-  nameWithType.vb: Converters.MapEnums(Of ActiveInterestsChanged, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.ActiveInterestsChanged, To)()
-  name.vb: MapEnums(Of ActiveInterestsChanged, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ActiveInterestsChanged, To>(ActiveInterestsChanged)
+  nameWithType: Converters.MapEnums<ActiveInterestsChanged, To>(ActiveInterestsChanged)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.ActiveInterestsChanged, To>(SuperOffice.CRM.Entities.ActiveInterestsChanged)
+  nameWithType.vb: Converters.MapEnums(Of ActiveInterestsChanged, To)(ActiveInterestsChanged)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.ActiveInterestsChanged, To)(SuperOffice.CRM.Entities.ActiveInterestsChanged)
+  name.vb: MapEnums(Of ActiveInterestsChanged, To)(ActiveInterestsChanged)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ActiveInterestsChanged, To>
-    nameWithType: Converters.MapEnums<ActiveInterestsChanged, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.ActiveInterestsChanged, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.ActiveInterestsChanged)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.ActiveInterestsChanged
+    name: ActiveInterestsChanged
+    isExternal: true
+    href: SuperOffice.CRM.Entities.ActiveInterestsChanged.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Entities.ActiveInterestsChanged
+    name: ActiveInterestsChanged
+    isExternal: true
+    href: SuperOffice.CRM.Entities.ActiveInterestsChanged.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ActiveInterestsChanged, To)
-    nameWithType: Converters.MapEnums(Of ActiveInterestsChanged, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.ActiveInterestsChanged, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.ActiveInterestsChanged)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.ActiveInterestsChanged
+    name: ActiveInterestsChanged
+    isExternal: true
+    href: SuperOffice.CRM.Entities.ActiveInterestsChanged.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
+  - name: (
+  - uid: SuperOffice.CRM.Entities.ActiveInterestsChanged
+    name: ActiveInterestsChanged
+    isExternal: true
+    href: SuperOffice.CRM.Entities.ActiveInterestsChanged.html
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -266,43 +299,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -311,92 +346,149 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Entities.ActiveInterestsChanged.#ctor*
   commentId: Overload:SuperOffice.CRM.Entities.ActiveInterestsChanged.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Entities.ActiveInterestsChanged.html#SuperOffice_CRM_Entities_ActiveInterestsChanged__ctor_System_Object_System_IntPtr_
   name: ActiveInterestsChanged
   nameWithType: ActiveInterestsChanged.ActiveInterestsChanged
   fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged.ActiveInterestsChanged
+  nameWithType.vb: ActiveInterestsChanged.New
+  fullName.vb: SuperOffice.CRM.Entities.ActiveInterestsChanged.New
+  name.vb: New
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
 - uid: SuperOffice.CRM.Entities.ActiveInterestsChanged.Invoke*
   commentId: Overload:SuperOffice.CRM.Entities.ActiveInterestsChanged.Invoke
   isExternal: true
+  href: SuperOffice.CRM.Entities.ActiveInterestsChanged.html#SuperOffice_CRM_Entities_ActiveInterestsChanged_Invoke_System_Int32_
   name: Invoke
   nameWithType: ActiveInterestsChanged.Invoke
   fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged.Invoke
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: SuperOffice.CRM.Entities.ActiveInterestsChanged.BeginInvoke*
   commentId: Overload:SuperOffice.CRM.Entities.ActiveInterestsChanged.BeginInvoke
   isExternal: true
+  href: SuperOffice.CRM.Entities.ActiveInterestsChanged.html#SuperOffice_CRM_Entities_ActiveInterestsChanged_BeginInvoke_System_Int32_System_AsyncCallback_System_Object_
   name: BeginInvoke
   nameWithType: ActiveInterestsChanged.BeginInvoke
   fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged.BeginInvoke
 - uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.asynccallback
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iasyncresult
   name: IAsyncResult
   nameWithType: IAsyncResult
   fullName: System.IAsyncResult
 - uid: SuperOffice.CRM.Entities.ActiveInterestsChanged.EndInvoke*
   commentId: Overload:SuperOffice.CRM.Entities.ActiveInterestsChanged.EndInvoke
   isExternal: true
+  href: SuperOffice.CRM.Entities.ActiveInterestsChanged.html#SuperOffice_CRM_Entities_ActiveInterestsChanged_EndInvoke_System_IAsyncResult_
   name: EndInvoke
   nameWithType: ActiveInterestsChanged.EndInvoke
   fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged.EndInvoke

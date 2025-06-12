@@ -9,11 +9,11 @@ items:
   - SuperOffice.CRM.Documents.SoArc2Helper.EnsureDirectoryExists(System.IO.DirectoryInfo)
   - SuperOffice.CRM.Documents.SoArc2Helper.GetArchivePath
   - SuperOffice.CRM.Documents.SoArc2Helper.GetArchivePaths
-  - SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateName(System.Int32)
+  - SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateNameAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.IDocumentInfo,System.String)
-  - SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.Rows.DocumentRow)
+  - SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPathAsync(SuperOffice.CRM.Rows.DocumentRow,System.Threading.CancellationToken)
   - SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.IDocumentInfo,System.String)
-  - SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.Rows.DocumentRow)
+  - SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePathAsync(SuperOffice.CRM.Rows.DocumentRow,System.Threading.CancellationToken)
   - SuperOffice.CRM.Documents.SoArc2Helper.GetUniqueFileName(System.String)
   - SuperOffice.CRM.Documents.SoArc2Helper.GetUniqueFilePath(System.String)
   - SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalFileName(System.String)
@@ -26,27 +26,24 @@ items:
   nameWithType: SoArc2Helper
   fullName: SuperOffice.CRM.Documents.SoArc2Helper
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
-  summary: "\nHelper class containing utility methods (e.g to retrieve data from ForeignKey Table)\n"
+  summary: Helper class containing utility methods (e.g to retrieve data from ForeignKey Table)
+  example: []
   syntax:
-    content: 'public static class SoArc2Helper : Object'
-    content.vb: >-
-      Public Module SoArc2Helper
-          Inherits Object
+    content: public static class SoArc2Helper
+    content.vb: Public Module SoArc2Helper
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.GetArchivePath
   commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.GetArchivePath
   id: GetArchivePath
@@ -58,26 +55,18 @@ items:
   nameWithType: SoArc2Helper.GetArchivePath()
   fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetArchivePath()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
-  summary: "\nPath to the main document archive.\n"
+  summary: Path to the main document archive.
+  example: []
   syntax:
     content: public static string GetArchivePath()
     return:
       type: System.String
-      description: '&quot;\\server\so_arc&quot;'
-    content.vb: Public Shared Function GetArchivePath As String
+      description: "\"\\\\server\\so_arc\""
+    content.vb: Public Shared Function GetArchivePath() As String
   overload: SuperOffice.CRM.Documents.SoArc2Helper.GetArchivePath*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.GetArchivePaths
   commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.GetArchivePaths
   id: GetArchivePaths
@@ -89,26 +78,18 @@ items:
   nameWithType: SoArc2Helper.GetArchivePaths()
   fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetArchivePaths()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
-  summary: "\nPath to the document archives, including the main document archive.\n"
+  summary: Path to the document archives, including the main document archive.
+  example: []
   syntax:
     content: public static string[] GetArchivePaths()
     return:
       type: System.String[]
-      description: (&quot;\\server\so_arc&quot;, &quot;\\other\so_arc2&quot;)
-    content.vb: Public Shared Function GetArchivePaths As String()
+      description: ("\\server\so_arc", "\\other\so_arc2")
+    content.vb: Public Shared Function GetArchivePaths() As String()
   overload: SuperOffice.CRM.Documents.SoArc2Helper.GetArchivePaths*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.IDocumentInfo,System.String)
   commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.IDocumentInfo,System.String)
   id: GetFullArchivePath(SuperOffice.CRM.IDocumentInfo,System.String)
@@ -116,23 +97,21 @@ items:
   langs:
   - csharp
   - vb
-  name: GetFullArchivePath(IDocumentInfo, String)
-  nameWithType: SoArc2Helper.GetFullArchivePath(IDocumentInfo, String)
-  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.IDocumentInfo, System.String)
+  name: GetFullArchivePath(IDocumentInfo, string)
+  nameWithType: SoArc2Helper.GetFullArchivePath(IDocumentInfo, string)
+  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.IDocumentInfo, string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
-  summary: "\nThis method will return the physical location of the given document based on the provided IDocumentInfo.\n"
+  summary: This method will return the physical location of the given document based on the provided IDocumentInfo.
+  example: []
   syntax:
     content: public static string GetFullArchivePath(IDocumentInfo documentInfo, string filename = null)
     parameters:
     - id: documentInfo
       type: SuperOffice.CRM.IDocumentInfo
-      description: 'DocumentInfo object containing the document information '
+      description: DocumentInfo object containing the document information
     - id: filename
       type: System.String
       description: Optional filename override for generated filename - used if the documentInfo.Name is blank.
@@ -141,47 +120,38 @@ items:
       description: Full Archive Path
     content.vb: Public Shared Function GetFullArchivePath(documentInfo As IDocumentInfo, filename As String = Nothing) As String
   overload: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.Rows.DocumentRow)
-  commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.Rows.DocumentRow)
-  id: GetFullArchivePath(SuperOffice.CRM.Rows.DocumentRow)
+  nameWithType.vb: SoArc2Helper.GetFullArchivePath(IDocumentInfo, String)
+  fullName.vb: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.IDocumentInfo, String)
+  name.vb: GetFullArchivePath(IDocumentInfo, String)
+- uid: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePathAsync(SuperOffice.CRM.Rows.DocumentRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePathAsync(SuperOffice.CRM.Rows.DocumentRow,System.Threading.CancellationToken)
+  id: GetFullArchivePathAsync(SuperOffice.CRM.Rows.DocumentRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Documents.SoArc2Helper
   langs:
   - csharp
   - vb
-  name: GetFullArchivePath(DocumentRow)
-  nameWithType: SoArc2Helper.GetFullArchivePath(DocumentRow)
-  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.Rows.DocumentRow)
+  name: GetFullArchivePathAsync(DocumentRow, CancellationToken)
+  nameWithType: SoArc2Helper.GetFullArchivePathAsync(DocumentRow, CancellationToken)
+  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePathAsync(SuperOffice.CRM.Rows.DocumentRow, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
-  summary: "\nThis method will return the physical location of the given document based on the provided IDocumentInfo.\n"
+  summary: This method will return the physical location of the given document based on the provided IDocumentInfo.
+  example: []
   syntax:
-    content: public static string GetFullArchivePath(DocumentRow documentRow)
+    content: public static Task<string> GetFullArchivePathAsync(DocumentRow documentRow, CancellationToken cancellationToken = default)
     parameters:
     - id: documentRow
       type: SuperOffice.CRM.Rows.DocumentRow
-      description: 'DocumentRow object containing the document information '
+      description: DocumentRow object containing the document information
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: Full Archive Path
-    content.vb: Public Shared Function GetFullArchivePath(documentRow As DocumentRow) As String
-  overload: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+    content.vb: Public Shared Function GetFullArchivePathAsync(documentRow As DocumentRow, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePathAsync*
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.EnsureDirectoryExists(System.IO.DirectoryInfo)
   commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.EnsureDirectoryExists(System.IO.DirectoryInfo)
   id: EnsureDirectoryExists(System.IO.DirectoryInfo)
@@ -193,26 +163,19 @@ items:
   nameWithType: SoArc2Helper.EnsureDirectoryExists(DirectoryInfo)
   fullName: SuperOffice.CRM.Documents.SoArc2Helper.EnsureDirectoryExists(System.IO.DirectoryInfo)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
-  summary: "\nVerify that a directory exists, and if not, create all missing folders\n"
+  summary: Verify that a directory exists, and if not, create all missing folders
+  example: []
   syntax:
     content: public static void EnsureDirectoryExists(DirectoryInfo dirInfo)
     parameters:
     - id: dirInfo
       type: System.IO.DirectoryInfo
+      description: ''
     content.vb: Public Shared Sub EnsureDirectoryExists(dirInfo As DirectoryInfo)
   overload: SuperOffice.CRM.Documents.SoArc2Helper.EnsureDirectoryExists*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.GetUniqueFileName(System.String)
   commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.GetUniqueFileName(System.String)
   id: GetUniqueFileName(System.String)
@@ -220,18 +183,21 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUniqueFileName(String)
-  nameWithType: SoArc2Helper.GetUniqueFileName(String)
-  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetUniqueFileName(System.String)
+  name: GetUniqueFileName(string)
+  nameWithType: SoArc2Helper.GetUniqueFileName(string)
+  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetUniqueFileName(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
-  summary: "\nThis will get a unique file name in the given path.\n"
-  remarks: "\nthis will ensure to return an unique file name for the given location If it finds a file(s)\nwith the same name it will create a filename with a suffix with a proper index.\ne.g It&apos;ll create Test[2].docx (if it finds the Test.docx &amp; Test[1].docx in the requested location\n"
+  summary: This will get a unique file name in the given path.
+  remarks: >-
+    this will ensure to return an unique file name for the given location If it finds a file(s)
+
+    with the same name it will create a filename with a suffix with a proper index.
+
+    e.g It'll create Test[2].docx (if it finds the Test.docx &amp; Test[1].docx in the requested location
+  example: []
   syntax:
     content: public static string GetUniqueFileName(string completeFilePath)
     parameters:
@@ -243,12 +209,9 @@ items:
       description: A string to a unique filename with no path which is guaranteed not to exist in the path provided.
     content.vb: Public Shared Function GetUniqueFileName(completeFilePath As String) As String
   overload: SuperOffice.CRM.Documents.SoArc2Helper.GetUniqueFileName*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: SoArc2Helper.GetUniqueFileName(String)
+  fullName.vb: SuperOffice.CRM.Documents.SoArc2Helper.GetUniqueFileName(String)
+  name.vb: GetUniqueFileName(String)
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.GetUniqueFilePath(System.String)
   commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.GetUniqueFilePath(System.String)
   id: GetUniqueFilePath(System.String)
@@ -256,18 +219,21 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUniqueFilePath(String)
-  nameWithType: SoArc2Helper.GetUniqueFilePath(String)
-  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetUniqueFilePath(System.String)
+  name: GetUniqueFilePath(string)
+  nameWithType: SoArc2Helper.GetUniqueFilePath(string)
+  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetUniqueFilePath(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
-  summary: "\nThis will get a unique file name and path in the given path.\n"
-  remarks: "\nthis will ensure to return an unique file name for the given location If it finds a file(s)\nwith the same name it will create a filename with a suffix with a proper randomized string.\ne.g It&apos;ll create Test[xyz].docx (if it finds the Test.docx &amp; Test[xyz].docx in the requested location\n"
+  summary: This will get a unique file name and path in the given path.
+  remarks: >-
+    this will ensure to return an unique file name for the given location If it finds a file(s)
+
+    with the same name it will create a filename with a suffix with a proper randomized string.
+
+    e.g It'll create Test[xyz].docx (if it finds the Test.docx &amp; Test[xyz].docx in the requested location
+  example: []
   syntax:
     content: public static string GetUniqueFilePath(string completeFilePath)
     parameters:
@@ -279,12 +245,9 @@ items:
       description: A string to a complete filename and path which is guaranteed not to exist.
     content.vb: Public Shared Function GetUniqueFilePath(completeFilePath As String) As String
   overload: SuperOffice.CRM.Documents.SoArc2Helper.GetUniqueFilePath*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: SoArc2Helper.GetUniqueFilePath(String)
+  fullName.vb: SuperOffice.CRM.Documents.SoArc2Helper.GetUniqueFilePath(String)
+  name.vb: GetUniqueFilePath(String)
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalFileName(System.String)
   commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalFileName(System.String)
   id: MakeLegalFileName(System.String)
@@ -292,32 +255,29 @@ items:
   langs:
   - csharp
   - vb
-  name: MakeLegalFileName(String)
-  nameWithType: SoArc2Helper.MakeLegalFileName(String)
-  fullName: SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalFileName(System.String)
+  name: MakeLegalFileName(string)
+  nameWithType: SoArc2Helper.MakeLegalFileName(string)
+  fullName: SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalFileName(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
-  summary: "\nSanitize a file name (no path); this removes backslash and other dangerous characters\n"
+  summary: Sanitize a file name (no path); this removes backslash and other dangerous characters
+  example: []
   syntax:
     content: public static string MakeLegalFileName(string fileNameWithoutPath)
     parameters:
     - id: fileNameWithoutPath
       type: System.String
+      description: ''
     return:
       type: System.String
+      description: ''
     content.vb: Public Shared Function MakeLegalFileName(fileNameWithoutPath As String) As String
   overload: SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalFileName*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: SoArc2Helper.MakeLegalFileName(String)
+  fullName.vb: SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalFileName(String)
+  name.vb: MakeLegalFileName(String)
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalPathName(System.String)
   commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalPathName(System.String)
   id: MakeLegalPathName(System.String)
@@ -325,17 +285,15 @@ items:
   langs:
   - csharp
   - vb
-  name: MakeLegalPathName(String)
-  nameWithType: SoArc2Helper.MakeLegalPathName(String)
-  fullName: SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalPathName(System.String)
+  name: MakeLegalPathName(string)
+  nameWithType: SoArc2Helper.MakeLegalPathName(string)
+  fullName: SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalPathName(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
-  summary: "\nSanitize a file name (no path); this removes backslash and other dangerous characters\n"
+  summary: Sanitize a file name (no path); this removes backslash and other dangerous characters
+  example: []
   syntax:
     content: public static string MakeLegalPathName(string path)
     parameters:
@@ -343,14 +301,12 @@ items:
       type: System.String
     return:
       type: System.String
+      description: ''
     content.vb: Public Shared Function MakeLegalPathName(path As String) As String
   overload: SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalPathName*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: SoArc2Helper.MakeLegalPathName(String)
+  fullName.vb: SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalPathName(String)
+  name.vb: MakeLegalPathName(String)
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalFileNameAndDirectory(System.String,System.Boolean)
   commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalFileNameAndDirectory(System.String,System.Boolean)
   id: MakeLegalFileNameAndDirectory(System.String,System.Boolean)
@@ -358,70 +314,74 @@ items:
   langs:
   - csharp
   - vb
-  name: MakeLegalFileNameAndDirectory(String, Boolean)
-  nameWithType: SoArc2Helper.MakeLegalFileNameAndDirectory(String, Boolean)
-  fullName: SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalFileNameAndDirectory(System.String, System.Boolean)
+  name: MakeLegalFileNameAndDirectory(string, bool)
+  nameWithType: SoArc2Helper.MakeLegalFileNameAndDirectory(string, bool)
+  fullName: SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalFileNameAndDirectory(string, bool)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
-  summary: "\nGiven a suggested file name (typically derived from a document.header), and make it legal;\ncreate directories on the way\n"
-  remarks: "\nThis is in fact rather complicated. There can be a volume designator, such as q: or \\\\?\\q: at the\nbeginning of a path - colon is legal there, as is the question mark, but only in these very special\nplaces. Elsewhere the illegal-characters set applies. And we also want to guard against upwards navigation\nusing \\..\\ syntax.\n"
+  summary: >-
+    Given a suggested file name (typically derived from a document.header), and make it legal;
+
+    create directories on the way
+  remarks: >-
+    This is in fact rather complicated. There can be a volume designator, such as q: or \\?\q: at the
+
+    beginning of a path - colon is legal there, as is the question mark, but only in these very special
+
+    places. Elsewhere the illegal-characters set applies. And we also want to guard against upwards navigation
+
+    using \..\ syntax.
+  example: []
   syntax:
     content: public static string MakeLegalFileNameAndDirectory(string suggestedFullPathWithExtension, bool skipExistenceCheck = false)
     parameters:
     - id: suggestedFullPathWithExtension
       type: System.String
+      description: ''
     - id: skipExistenceCheck
       type: System.Boolean
     return:
       type: System.String
+      description: ''
     content.vb: Public Shared Function MakeLegalFileNameAndDirectory(suggestedFullPathWithExtension As String, skipExistenceCheck As Boolean = False) As String
   overload: SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalFileNameAndDirectory*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateName(System.Int32)
-  commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateName(System.Int32)
-  id: GetAssociateName(System.Int32)
+  nameWithType.vb: SoArc2Helper.MakeLegalFileNameAndDirectory(String, Boolean)
+  fullName.vb: SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalFileNameAndDirectory(String, Boolean)
+  name.vb: MakeLegalFileNameAndDirectory(String, Boolean)
+- uid: SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateNameAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateNameAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetAssociateNameAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Documents.SoArc2Helper
   langs:
   - csharp
   - vb
-  name: GetAssociateName(Int32)
-  nameWithType: SoArc2Helper.GetAssociateName(Int32)
-  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateName(System.Int32)
+  name: GetAssociateNameAsync(int, CancellationToken)
+  nameWithType: SoArc2Helper.GetAssociateNameAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateNameAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
-  summary: "\nGet the associate name for a given associate id\n"
+  summary: Get the associate name for a given associate id
+  example: []
   syntax:
-    content: public static string GetAssociateName(int associateId)
+    content: public static Task<string> GetAssociateNameAsync(int associateId, CancellationToken cancellationToken = default)
     parameters:
     - id: associateId
       type: System.Int32
       description: Associate Id
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: Associate Name
-    content.vb: Public Shared Function GetAssociateName(associateId As Integer) As String
-  overload: SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateName*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+    content.vb: Public Shared Function GetAssociateNameAsync(associateId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateNameAsync*
+  nameWithType.vb: SoArc2Helper.GetAssociateNameAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateNameAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetAssociateNameAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.CreateReturnInfo(System.Boolean,System.String,System.String,SuperOffice.CRM.ReturnType,System.String,System.String)
   commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.CreateReturnInfo(System.Boolean,System.String,System.String,SuperOffice.CRM.ReturnType,System.String,System.String)
   id: CreateReturnInfo(System.Boolean,System.String,System.String,SuperOffice.CRM.ReturnType,System.String,System.String)
@@ -429,17 +389,15 @@ items:
   langs:
   - csharp
   - vb
-  name: CreateReturnInfo(Boolean, String, String, ReturnType, String, String)
-  nameWithType: SoArc2Helper.CreateReturnInfo(Boolean, String, String, ReturnType, String, String)
-  fullName: SuperOffice.CRM.Documents.SoArc2Helper.CreateReturnInfo(System.Boolean, System.String, System.String, SuperOffice.CRM.ReturnType, System.String, System.String)
+  name: CreateReturnInfo(bool, string, string, ReturnType, string, string)
+  nameWithType: SoArc2Helper.CreateReturnInfo(bool, string, string, ReturnType, string, string)
+  fullName: SuperOffice.CRM.Documents.SoArc2Helper.CreateReturnInfo(bool, string, string, SuperOffice.CRM.ReturnType, string, string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
-  summary: "\nCreate a ReturnInfo object\n"
+  summary: Create a ReturnInfo object
+  example: []
   syntax:
     content: public static ReturnInfo CreateReturnInfo(bool success, string externalReference, string versionId, ReturnType type, string value, string additionalInfo)
     parameters:
@@ -466,12 +424,9 @@ items:
       description: ReturnInfo
     content.vb: Public Shared Function CreateReturnInfo(success As Boolean, externalReference As String, versionId As String, type As ReturnType, value As String, additionalInfo As String) As ReturnInfo
   overload: SuperOffice.CRM.Documents.SoArc2Helper.CreateReturnInfo*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: SoArc2Helper.CreateReturnInfo(Boolean, String, String, ReturnType, String, String)
+  fullName.vb: SuperOffice.CRM.Documents.SoArc2Helper.CreateReturnInfo(Boolean, String, String, SuperOffice.CRM.ReturnType, String, String)
+  name.vb: CreateReturnInfo(Boolean, String, String, ReturnType, String, String)
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.IDocumentInfo,System.String)
   commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.IDocumentInfo,System.String)
   id: GetCurrentVersionFolderPath(SuperOffice.CRM.IDocumentInfo,System.String)
@@ -479,17 +434,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetCurrentVersionFolderPath(IDocumentInfo, String)
-  nameWithType: SoArc2Helper.GetCurrentVersionFolderPath(IDocumentInfo, String)
-  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.IDocumentInfo, System.String)
+  name: GetCurrentVersionFolderPath(IDocumentInfo, string)
+  nameWithType: SoArc2Helper.GetCurrentVersionFolderPath(IDocumentInfo, string)
+  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.IDocumentInfo, string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
-  summary: "\nThis is the folder path where the latest document is in\n"
+  summary: This is the folder path where the latest document is in
+  example: []
   syntax:
     content: public static string GetCurrentVersionFolderPath(IDocumentInfo documentInfo, string filename = null)
     parameters:
@@ -504,70 +457,317 @@ items:
       description: '\\server\so_arc\user\1999.1'
     content.vb: Public Shared Function GetCurrentVersionFolderPath(documentInfo As IDocumentInfo, filename As String = Nothing) As String
   overload: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.Rows.DocumentRow)
-  commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.Rows.DocumentRow)
-  id: GetCurrentVersionFolderPath(SuperOffice.CRM.Rows.DocumentRow)
+  nameWithType.vb: SoArc2Helper.GetCurrentVersionFolderPath(IDocumentInfo, String)
+  fullName.vb: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.IDocumentInfo, String)
+  name.vb: GetCurrentVersionFolderPath(IDocumentInfo, String)
+- uid: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPathAsync(SuperOffice.CRM.Rows.DocumentRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPathAsync(SuperOffice.CRM.Rows.DocumentRow,System.Threading.CancellationToken)
+  id: GetCurrentVersionFolderPathAsync(SuperOffice.CRM.Rows.DocumentRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Documents.SoArc2Helper
   langs:
   - csharp
   - vb
-  name: GetCurrentVersionFolderPath(DocumentRow)
-  nameWithType: SoArc2Helper.GetCurrentVersionFolderPath(DocumentRow)
-  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.Rows.DocumentRow)
+  name: GetCurrentVersionFolderPathAsync(DocumentRow, CancellationToken)
+  nameWithType: SoArc2Helper.GetCurrentVersionFolderPathAsync(DocumentRow, CancellationToken)
+  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPathAsync(SuperOffice.CRM.Rows.DocumentRow, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
-  summary: "\nThis is the folder path where the latest document is located.\n"
+  summary: This is the folder path where the latest document is located.
+  example: []
   syntax:
-    content: public static string GetCurrentVersionFolderPath(DocumentRow documentRow)
+    content: public static Task<string> GetCurrentVersionFolderPathAsync(DocumentRow documentRow, CancellationToken cancellationToken = default)
     parameters:
     - id: documentRow
       type: SuperOffice.CRM.Rows.DocumentRow
       description: document id, name, heading etc
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: '\\server\so_arc\user\1999.2'
-    content.vb: Public Shared Function GetCurrentVersionFolderPath(documentRow As DocumentRow) As String
-  overload: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+    content.vb: Public Shared Function GetCurrentVersionFolderPathAsync(documentRow As DocumentRow, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPathAsync*
 references:
 - uid: SuperOffice.CRM.Documents
   commentId: N:SuperOffice.CRM.Documents
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Documents
   nameWithType: SuperOffice.CRM.Documents
   fullName: SuperOffice.CRM.Documents
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Documents
+    name: Documents
+    isExternal: true
+    href: SuperOffice.CRM.Documents.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Documents
+    name: Documents
+    isExternal: true
+    href: SuperOffice.CRM.Documents.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.GetArchivePath*
   commentId: Overload:SuperOffice.CRM.Documents.SoArc2Helper.GetArchivePath
   isExternal: true
+  href: SuperOffice.CRM.Documents.SoArc2Helper.html#SuperOffice_CRM_Documents_SoArc2Helper_GetArchivePath
   name: GetArchivePath
   nameWithType: SoArc2Helper.GetArchivePath
   fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetArchivePath
@@ -575,44 +775,47 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.GetArchivePaths*
   commentId: Overload:SuperOffice.CRM.Documents.SoArc2Helper.GetArchivePaths
   isExternal: true
+  href: SuperOffice.CRM.Documents.SoArc2Helper.html#SuperOffice_CRM_Documents_SoArc2Helper_GetArchivePaths
   name: GetArchivePaths
   nameWithType: SoArc2Helper.GetArchivePaths
   fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetArchivePaths
 - uid: System.String[]
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
   nameWithType.vb: String()
-  fullName.vb: System.String()
+  fullName.vb: String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath*
   commentId: Overload:SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath
   isExternal: true
+  href: SuperOffice.CRM.Documents.SoArc2Helper.html#SuperOffice_CRM_Documents_SoArc2Helper_GetFullArchivePath_SuperOffice_CRM_IDocumentInfo_System_String_
   name: GetFullArchivePath
   nameWithType: SoArc2Helper.GetFullArchivePath
   fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath
@@ -620,67 +823,298 @@ references:
   commentId: T:SuperOffice.CRM.IDocumentInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IDocumentInfo.html
   name: IDocumentInfo
   nameWithType: IDocumentInfo
   fullName: SuperOffice.CRM.IDocumentInfo
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+- uid: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePathAsync*
+  commentId: Overload:SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePathAsync
+  isExternal: true
+  href: SuperOffice.CRM.Documents.SoArc2Helper.html#SuperOffice_CRM_Documents_SoArc2Helper_GetFullArchivePathAsync_SuperOffice_CRM_Rows_DocumentRow_System_Threading_CancellationToken_
+  name: GetFullArchivePathAsync
+  nameWithType: SoArc2Helper.GetFullArchivePathAsync
+  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePathAsync
 - uid: SuperOffice.CRM.Rows.DocumentRow
   commentId: T:SuperOffice.CRM.Rows.DocumentRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.DocumentRow.html
   name: DocumentRow
   nameWithType: DocumentRow
   fullName: SuperOffice.CRM.Rows.DocumentRow
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.EnsureDirectoryExists*
   commentId: Overload:SuperOffice.CRM.Documents.SoArc2Helper.EnsureDirectoryExists
   isExternal: true
+  href: SuperOffice.CRM.Documents.SoArc2Helper.html#SuperOffice_CRM_Documents_SoArc2Helper_EnsureDirectoryExists_System_IO_DirectoryInfo_
   name: EnsureDirectoryExists
   nameWithType: SoArc2Helper.EnsureDirectoryExists
   fullName: SuperOffice.CRM.Documents.SoArc2Helper.EnsureDirectoryExists
 - uid: System.IO.DirectoryInfo
-  commentId: '!:System.IO.DirectoryInfo'
+  commentId: T:System.IO.DirectoryInfo
+  parent: System.IO
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.directoryinfo
   name: DirectoryInfo
   nameWithType: DirectoryInfo
   fullName: System.IO.DirectoryInfo
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.GetUniqueFileName*
   commentId: Overload:SuperOffice.CRM.Documents.SoArc2Helper.GetUniqueFileName
   isExternal: true
+  href: SuperOffice.CRM.Documents.SoArc2Helper.html#SuperOffice_CRM_Documents_SoArc2Helper_GetUniqueFileName_System_String_
   name: GetUniqueFileName
   nameWithType: SoArc2Helper.GetUniqueFileName
   fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetUniqueFileName
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.GetUniqueFilePath*
   commentId: Overload:SuperOffice.CRM.Documents.SoArc2Helper.GetUniqueFilePath
   isExternal: true
+  href: SuperOffice.CRM.Documents.SoArc2Helper.html#SuperOffice_CRM_Documents_SoArc2Helper_GetUniqueFilePath_System_String_
   name: GetUniqueFilePath
   nameWithType: SoArc2Helper.GetUniqueFilePath
   fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetUniqueFilePath
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalFileName*
   commentId: Overload:SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalFileName
   isExternal: true
+  href: SuperOffice.CRM.Documents.SoArc2Helper.html#SuperOffice_CRM_Documents_SoArc2Helper_MakeLegalFileName_System_String_
   name: MakeLegalFileName
   nameWithType: SoArc2Helper.MakeLegalFileName
   fullName: SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalFileName
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalPathName*
   commentId: Overload:SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalPathName
   isExternal: true
+  href: SuperOffice.CRM.Documents.SoArc2Helper.html#SuperOffice_CRM_Documents_SoArc2Helper_MakeLegalPathName_System_String_
   name: MakeLegalPathName
   nameWithType: SoArc2Helper.MakeLegalPathName
   fullName: SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalPathName
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalFileNameAndDirectory*
   commentId: Overload:SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalFileNameAndDirectory
   isExternal: true
+  href: SuperOffice.CRM.Documents.SoArc2Helper.html#SuperOffice_CRM_Documents_SoArc2Helper_MakeLegalFileNameAndDirectory_System_String_System_Boolean_
   name: MakeLegalFileNameAndDirectory
   nameWithType: SoArc2Helper.MakeLegalFileNameAndDirectory
   fullName: SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalFileNameAndDirectory
@@ -688,25 +1122,35 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateName*
-  commentId: Overload:SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateName
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateNameAsync*
+  commentId: Overload:SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateNameAsync
   isExternal: true
-  name: GetAssociateName
-  nameWithType: SoArc2Helper.GetAssociateName
-  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateName
+  href: SuperOffice.CRM.Documents.SoArc2Helper.html#SuperOffice_CRM_Documents_SoArc2Helper_GetAssociateNameAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetAssociateNameAsync
+  nameWithType: SoArc2Helper.GetAssociateNameAsync
+  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateNameAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.CreateReturnInfo*
   commentId: Overload:SuperOffice.CRM.Documents.SoArc2Helper.CreateReturnInfo
   isExternal: true
+  href: SuperOffice.CRM.Documents.SoArc2Helper.html#SuperOffice_CRM_Documents_SoArc2Helper_CreateReturnInfo_System_Boolean_System_String_System_String_SuperOffice_CRM_ReturnType_System_String_System_String_
   name: CreateReturnInfo
   nameWithType: SoArc2Helper.CreateReturnInfo
   fullName: SuperOffice.CRM.Documents.SoArc2Helper.CreateReturnInfo
@@ -714,6 +1158,7 @@ references:
   commentId: T:SuperOffice.CRM.ReturnType
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ReturnType.html
   name: ReturnType
   nameWithType: ReturnType
   fullName: SuperOffice.CRM.ReturnType
@@ -721,12 +1166,21 @@ references:
   commentId: T:SuperOffice.CRM.ReturnInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ReturnInfo.html
   name: ReturnInfo
   nameWithType: ReturnInfo
   fullName: SuperOffice.CRM.ReturnInfo
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath*
   commentId: Overload:SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath
   isExternal: true
+  href: SuperOffice.CRM.Documents.SoArc2Helper.html#SuperOffice_CRM_Documents_SoArc2Helper_GetCurrentVersionFolderPath_SuperOffice_CRM_IDocumentInfo_System_String_
   name: GetCurrentVersionFolderPath
   nameWithType: SoArc2Helper.GetCurrentVersionFolderPath
   fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath
+- uid: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPathAsync*
+  commentId: Overload:SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPathAsync
+  isExternal: true
+  href: SuperOffice.CRM.Documents.SoArc2Helper.html#SuperOffice_CRM_Documents_SoArc2Helper_GetCurrentVersionFolderPathAsync_SuperOffice_CRM_Rows_DocumentRow_System_Threading_CancellationToken_
+  name: GetCurrentVersionFolderPathAsync
+  nameWithType: SoArc2Helper.GetCurrentVersionFolderPathAsync
+  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPathAsync

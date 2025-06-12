@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 471,
-    "Name": "Daniel Inc and Sons",
-    "Tooltip": "ea",
+    "HeadingId": 666,
+    "Name": "Lakin, Ritchie and Huels",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 93,
-    "UdListDefinitionId": 672,
+    "Rank": 509,
+    "UdListDefinitionId": 257,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 431
+        "FieldLength": 628
       }
     }
   }

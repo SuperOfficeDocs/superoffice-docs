@@ -1,0 +1,1553 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Sale.QuoteManagerFactory
+  commentId: T:SuperOffice.CRM.Sale.QuoteManagerFactory
+  id: QuoteManagerFactory
+  parent: SuperOffice.CRM.Sale
+  children:
+  - SuperOffice.CRM.Sale.QuoteManagerFactory.#ctor
+  - SuperOffice.CRM.Sale.QuoteManagerFactory.FromCachedQuoteVersionIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.QuoteManagerFactory.FromCachedSaleIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteAlternativeIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteLineIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteVersionIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.QuoteManagerFactory.FromSaleIdAsync(System.Int32,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: QuoteManagerFactory
+  nameWithType: QuoteManagerFactory
+  fullName: SuperOffice.CRM.Sale.QuoteManagerFactory
+  type: Class
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: 'public class QuoteManagerFactory : IQuoteManagerFactory'
+    content.vb: Public Class QuoteManagerFactory Implements IQuoteManagerFactory
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.Sale.IQuoteManagerFactory
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Sale.QuoteManagerFactory.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Sale.QuoteManagerFactory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.CRM.Sale.QuoteManagerFactory.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Sale.QuoteManagerFactory)
+  - SuperOffice.CRM.Sale.QuoteManagerFactory.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+- uid: SuperOffice.CRM.Sale.QuoteManagerFactory.FromSaleIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.QuoteManagerFactory.FromSaleIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: FromSaleIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.QuoteManagerFactory
+  langs:
+  - csharp
+  - vb
+  name: FromSaleIdAsync(int, CancellationToken)
+  nameWithType: QuoteManagerFactory.FromSaleIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.QuoteManagerFactory.FromSaleIdAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Sale
+  summary: Creates a new <xref href="SuperOffice.CRM.Sale.QuoteManager" data-throw-if-not-resolved="false"></xref> based on quoteId. Does not use cache - loads everything from database.
+  example: []
+  syntax:
+    content: public Task<IQuoteManager> FromSaleIdAsync(int saleId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: saleId
+      type: System.Int32
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Sale.IQuoteManager}
+      description: A new instance of <xref href="SuperOffice.CRM.Sale.QuoteManager" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Function FromSaleIdAsync(saleId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of IQuoteManager)
+  overload: SuperOffice.CRM.Sale.QuoteManagerFactory.FromSaleIdAsync*
+  implements:
+  - SuperOffice.CRM.Sale.IQuoteManagerFactory.FromSaleIdAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: QuoteManagerFactory.FromSaleIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.QuoteManagerFactory.FromSaleIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: FromSaleIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Sale.QuoteManagerFactory.FromCachedSaleIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.QuoteManagerFactory.FromCachedSaleIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: FromCachedSaleIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.QuoteManagerFactory
+  langs:
+  - csharp
+  - vb
+  name: FromCachedSaleIdAsync(int, CancellationToken)
+  nameWithType: QuoteManagerFactory.FromCachedSaleIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.QuoteManagerFactory.FromCachedSaleIdAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Sale
+  summary: Gets a cached copy of <xref href="SuperOffice.CRM.Sale.QuoteManager" data-throw-if-not-resolved="false"></xref>, or creates a new instance based on quoteId if cache is empty.
+  example: []
+  syntax:
+    content: public Task<IQuoteManager> FromCachedSaleIdAsync(int saleId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: saleId
+      type: System.Int32
+      description: Primary key of sale
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Sale.IQuoteManager}
+      description: An instance of <xref href="SuperOffice.CRM.Sale.QuoteManager" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Function FromCachedSaleIdAsync(saleId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of IQuoteManager)
+  overload: SuperOffice.CRM.Sale.QuoteManagerFactory.FromCachedSaleIdAsync*
+  implements:
+  - SuperOffice.CRM.Sale.IQuoteManagerFactory.FromCachedSaleIdAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: QuoteManagerFactory.FromCachedSaleIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.QuoteManagerFactory.FromCachedSaleIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: FromCachedSaleIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: FromQuoteIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.QuoteManagerFactory
+  langs:
+  - csharp
+  - vb
+  name: FromQuoteIdAsync(int, CancellationToken)
+  nameWithType: QuoteManagerFactory.FromQuoteIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteIdAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Sale
+  summary: Creates a new <xref href="SuperOffice.CRM.Sale.QuoteManager" data-throw-if-not-resolved="false"></xref> based on quoteId.
+  example: []
+  syntax:
+    content: public Task<IQuoteManager> FromQuoteIdAsync(int quoteId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteId
+      type: System.Int32
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Sale.IQuoteManager}
+      description: A new instance of <xref href="SuperOffice.CRM.Sale.QuoteManager" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Function FromQuoteIdAsync(quoteId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of IQuoteManager)
+  overload: SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteIdAsync*
+  implements:
+  - SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteIdAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: QuoteManagerFactory.FromQuoteIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: FromQuoteIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteVersionIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteVersionIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: FromQuoteVersionIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.QuoteManagerFactory
+  langs:
+  - csharp
+  - vb
+  name: FromQuoteVersionIdAsync(int, CancellationToken)
+  nameWithType: QuoteManagerFactory.FromQuoteVersionIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteVersionIdAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Sale
+  summary: Creates a new QuoteManager from a quoteVersionInfo
+  example: []
+  syntax:
+    content: public Task<IQuoteManager> FromQuoteVersionIdAsync(int quoteVersionId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteVersionId
+      type: System.Int32
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Sale.IQuoteManager}
+      description: A new instance of <xref href="SuperOffice.CRM.Sale.QuoteManager" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Function FromQuoteVersionIdAsync(quoteVersionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of IQuoteManager)
+  overload: SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteVersionIdAsync*
+  implements:
+  - SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteVersionIdAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: QuoteManagerFactory.FromQuoteVersionIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteVersionIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: FromQuoteVersionIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Sale.QuoteManagerFactory.FromCachedQuoteVersionIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.QuoteManagerFactory.FromCachedQuoteVersionIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: FromCachedQuoteVersionIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.QuoteManagerFactory
+  langs:
+  - csharp
+  - vb
+  name: FromCachedQuoteVersionIdAsync(int, CancellationToken)
+  nameWithType: QuoteManagerFactory.FromCachedQuoteVersionIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.QuoteManagerFactory.FromCachedQuoteVersionIdAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Sale
+  summary: Gets QuoteManager from cache if present, via the quoteVersionId
+  example: []
+  syntax:
+    content: public Task<IQuoteManager> FromCachedQuoteVersionIdAsync(int quoteVersionId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteVersionId
+      type: System.Int32
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Sale.IQuoteManager}
+      description: A new instance of <xref href="SuperOffice.CRM.Sale.QuoteManager" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Function FromCachedQuoteVersionIdAsync(quoteVersionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of IQuoteManager)
+  overload: SuperOffice.CRM.Sale.QuoteManagerFactory.FromCachedQuoteVersionIdAsync*
+  implements:
+  - SuperOffice.CRM.Sale.IQuoteManagerFactory.FromCachedQuoteVersionIdAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: QuoteManagerFactory.FromCachedQuoteVersionIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.QuoteManagerFactory.FromCachedQuoteVersionIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: FromCachedQuoteVersionIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteAlternativeIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteAlternativeIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: FromQuoteAlternativeIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.QuoteManagerFactory
+  langs:
+  - csharp
+  - vb
+  name: FromQuoteAlternativeIdAsync(int, CancellationToken)
+  nameWithType: QuoteManagerFactory.FromQuoteAlternativeIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteAlternativeIdAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Sale
+  summary: Creates a new QuoteManager from a quoteAlternativeId
+  example: []
+  syntax:
+    content: public Task<IQuoteManager> FromQuoteAlternativeIdAsync(int quoteAlternativeId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteAlternativeId
+      type: System.Int32
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Sale.IQuoteManager}
+      description: A new instance of <xref href="SuperOffice.CRM.Sale.QuoteManager" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Function FromQuoteAlternativeIdAsync(quoteAlternativeId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of IQuoteManager)
+  overload: SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteAlternativeIdAsync*
+  implements:
+  - SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteAlternativeIdAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: QuoteManagerFactory.FromQuoteAlternativeIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteAlternativeIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: FromQuoteAlternativeIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteLineIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteLineIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: FromQuoteLineIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.QuoteManagerFactory
+  langs:
+  - csharp
+  - vb
+  name: FromQuoteLineIdAsync(int, CancellationToken)
+  nameWithType: QuoteManagerFactory.FromQuoteLineIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteLineIdAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Sale
+  summary: Creates a QuoteManager from a quotelineId
+  example: []
+  syntax:
+    content: public Task<IQuoteManager> FromQuoteLineIdAsync(int quoteLineId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteLineId
+      type: System.Int32
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Sale.IQuoteManager}
+      description: A new instance of <xref href="SuperOffice.CRM.Sale.QuoteManager" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Function FromQuoteLineIdAsync(quoteLineId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of IQuoteManager)
+  overload: SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteLineIdAsync*
+  implements:
+  - SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteLineIdAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: QuoteManagerFactory.FromQuoteLineIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteLineIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: FromQuoteLineIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Sale.QuoteManagerFactory.#ctor
+  commentId: M:SuperOffice.CRM.Sale.QuoteManagerFactory.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Sale.QuoteManagerFactory
+  langs:
+  - csharp
+  - vb
+  name: QuoteManagerFactory()
+  nameWithType: QuoteManagerFactory.QuoteManagerFactory()
+  fullName: SuperOffice.CRM.Sale.QuoteManagerFactory.QuoteManagerFactory()
+  type: Constructor
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: public QuoteManagerFactory()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Sale.QuoteManagerFactory.#ctor*
+  nameWithType.vb: QuoteManagerFactory.New()
+  fullName.vb: SuperOffice.CRM.Sale.QuoteManagerFactory.New()
+  name.vb: New()
+references:
+- uid: SuperOffice.CRM.Sale
+  commentId: N:SuperOffice.CRM.Sale
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Sale
+  nameWithType: SuperOffice.CRM.Sale
+  fullName: SuperOffice.CRM.Sale
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Sale
+    name: Sale
+    isExternal: true
+    href: SuperOffice.CRM.Sale.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Sale
+    name: Sale
+    isExternal: true
+    href: SuperOffice.CRM.Sale.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.CRM.Sale.IQuoteManagerFactory
+  commentId: T:SuperOffice.CRM.Sale.IQuoteManagerFactory
+  parent: SuperOffice.CRM.Sale
+  isExternal: true
+  href: SuperOffice.CRM.Sale.IQuoteManagerFactory.html
+  name: IQuoteManagerFactory
+  nameWithType: IQuoteManagerFactory
+  fullName: SuperOffice.CRM.Sale.IQuoteManagerFactory
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Sale.QuoteManagerFactory.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<QuoteManagerFactory, To>(QuoteManagerFactory)
+  nameWithType: EnumUtil.MapEnums<QuoteManagerFactory, To>(QuoteManagerFactory)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Sale.QuoteManagerFactory, To>(SuperOffice.CRM.Sale.QuoteManagerFactory)
+  nameWithType.vb: EnumUtil.MapEnums(Of QuoteManagerFactory, To)(QuoteManagerFactory)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Sale.QuoteManagerFactory, To)(SuperOffice.CRM.Sale.QuoteManagerFactory)
+  name.vb: MapEnums(Of QuoteManagerFactory, To)(QuoteManagerFactory)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Sale.QuoteManagerFactory)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Sale.QuoteManagerFactory
+    name: QuoteManagerFactory
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteManagerFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Sale.QuoteManagerFactory
+    name: QuoteManagerFactory
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteManagerFactory.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Sale.QuoteManagerFactory)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Sale.QuoteManagerFactory
+    name: QuoteManagerFactory
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteManagerFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Sale.QuoteManagerFactory
+    name: QuoteManagerFactory
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteManagerFactory.html
+  - name: )
+- uid: SuperOffice.CRM.Sale.QuoteManagerFactory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<QuoteManagerFactory, To>(QuoteManagerFactory)
+  nameWithType: Converters.MapEnums<QuoteManagerFactory, To>(QuoteManagerFactory)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Sale.QuoteManagerFactory, To>(SuperOffice.CRM.Sale.QuoteManagerFactory)
+  nameWithType.vb: Converters.MapEnums(Of QuoteManagerFactory, To)(QuoteManagerFactory)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Sale.QuoteManagerFactory, To)(SuperOffice.CRM.Sale.QuoteManagerFactory)
+  name.vb: MapEnums(Of QuoteManagerFactory, To)(QuoteManagerFactory)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Sale.QuoteManagerFactory)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Sale.QuoteManagerFactory
+    name: QuoteManagerFactory
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteManagerFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Sale.QuoteManagerFactory
+    name: QuoteManagerFactory
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteManagerFactory.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Sale.QuoteManagerFactory)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Sale.QuoteManagerFactory
+    name: QuoteManagerFactory
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteManagerFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Sale.QuoteManagerFactory
+    name: QuoteManagerFactory
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteManagerFactory.html
+  - name: )
+- uid: SuperOffice.CRM.Sale.QuoteManagerFactory.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Sale.QuoteManagerFactory)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<QuoteManagerFactory>(QuoteManagerFactory, QuoteManagerFactory)
+  nameWithType: ObjectExtensions.AssignByReflection<QuoteManagerFactory>(QuoteManagerFactory, QuoteManagerFactory)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Sale.QuoteManagerFactory>(SuperOffice.CRM.Sale.QuoteManagerFactory, SuperOffice.CRM.Sale.QuoteManagerFactory)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of QuoteManagerFactory)(QuoteManagerFactory, QuoteManagerFactory)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Sale.QuoteManagerFactory)(SuperOffice.CRM.Sale.QuoteManagerFactory, SuperOffice.CRM.Sale.QuoteManagerFactory)
+  name.vb: AssignByReflection(Of QuoteManagerFactory)(QuoteManagerFactory, QuoteManagerFactory)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Sale.QuoteManagerFactory,SuperOffice.CRM.Sale.QuoteManagerFactory)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Sale.QuoteManagerFactory
+    name: QuoteManagerFactory
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteManagerFactory.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Sale.QuoteManagerFactory
+    name: QuoteManagerFactory
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteManagerFactory.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Sale.QuoteManagerFactory
+    name: QuoteManagerFactory
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteManagerFactory.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Sale.QuoteManagerFactory,SuperOffice.CRM.Sale.QuoteManagerFactory)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Sale.QuoteManagerFactory
+    name: QuoteManagerFactory
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteManagerFactory.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Sale.QuoteManagerFactory
+    name: QuoteManagerFactory
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteManagerFactory.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Sale.QuoteManagerFactory
+    name: QuoteManagerFactory
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteManagerFactory.html
+  - name: )
+- uid: SuperOffice.CRM.Sale.QuoteManagerFactory.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<QuoteManagerFactory>(QuoteManagerFactory)
+  nameWithType: ObjectExtensions.GraphCopy<QuoteManagerFactory>(QuoteManagerFactory)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Sale.QuoteManagerFactory>(SuperOffice.CRM.Sale.QuoteManagerFactory)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of QuoteManagerFactory)(QuoteManagerFactory)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Sale.QuoteManagerFactory)(SuperOffice.CRM.Sale.QuoteManagerFactory)
+  name.vb: GraphCopy(Of QuoteManagerFactory)(QuoteManagerFactory)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Sale.QuoteManagerFactory)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Sale.QuoteManagerFactory
+    name: QuoteManagerFactory
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteManagerFactory.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Sale.QuoteManagerFactory
+    name: QuoteManagerFactory
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteManagerFactory.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Sale.QuoteManagerFactory)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Sale.QuoteManagerFactory
+    name: QuoteManagerFactory
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteManagerFactory.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Sale.QuoteManagerFactory
+    name: QuoteManagerFactory
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteManagerFactory.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.CRM.Sale.QuoteManager
+  commentId: T:SuperOffice.CRM.Sale.QuoteManager
+  isExternal: true
+  href: SuperOffice.CRM.Sale.QuoteManager.html
+  name: QuoteManager
+  nameWithType: QuoteManager
+  fullName: SuperOffice.CRM.Sale.QuoteManager
+- uid: SuperOffice.CRM.Sale.QuoteManagerFactory.FromSaleIdAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.QuoteManagerFactory.FromSaleIdAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.QuoteManagerFactory.html#SuperOffice_CRM_Sale_QuoteManagerFactory_FromSaleIdAsync_System_Int32_System_Threading_CancellationToken_
+  name: FromSaleIdAsync
+  nameWithType: QuoteManagerFactory.FromSaleIdAsync
+  fullName: SuperOffice.CRM.Sale.QuoteManagerFactory.FromSaleIdAsync
+- uid: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromSaleIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteManagerFactory.FromSaleIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteManagerFactory
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: FromSaleIdAsync(int, CancellationToken)
+  nameWithType: IQuoteManagerFactory.FromSaleIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromSaleIdAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IQuoteManagerFactory.FromSaleIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromSaleIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: FromSaleIdAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromSaleIdAsync(System.Int32,System.Threading.CancellationToken)
+    name: FromSaleIdAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromSaleIdAsync(System.Int32,System.Threading.CancellationToken)
+    name: FromSaleIdAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Sale.IQuoteManager}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Sale.IQuoteManager}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<IQuoteManager>
+  nameWithType: Task<IQuoteManager>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Sale.IQuoteManager>
+  nameWithType.vb: Task(Of IQuoteManager)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Sale.IQuoteManager)
+  name.vb: Task(Of IQuoteManager)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Sale.IQuoteManager
+    name: IQuoteManager
+    isExternal: true
+    href: SuperOffice.CRM.Sale.IQuoteManager.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Sale.IQuoteManager
+    name: IQuoteManager
+    isExternal: true
+    href: SuperOffice.CRM.Sale.IQuoteManager.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Sale.QuoteManagerFactory.FromCachedSaleIdAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.QuoteManagerFactory.FromCachedSaleIdAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.QuoteManagerFactory.html#SuperOffice_CRM_Sale_QuoteManagerFactory_FromCachedSaleIdAsync_System_Int32_System_Threading_CancellationToken_
+  name: FromCachedSaleIdAsync
+  nameWithType: QuoteManagerFactory.FromCachedSaleIdAsync
+  fullName: SuperOffice.CRM.Sale.QuoteManagerFactory.FromCachedSaleIdAsync
+- uid: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromCachedSaleIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteManagerFactory.FromCachedSaleIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteManagerFactory
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: FromCachedSaleIdAsync(int, CancellationToken)
+  nameWithType: IQuoteManagerFactory.FromCachedSaleIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromCachedSaleIdAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IQuoteManagerFactory.FromCachedSaleIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromCachedSaleIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: FromCachedSaleIdAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromCachedSaleIdAsync(System.Int32,System.Threading.CancellationToken)
+    name: FromCachedSaleIdAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromCachedSaleIdAsync(System.Int32,System.Threading.CancellationToken)
+    name: FromCachedSaleIdAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteIdAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteIdAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.QuoteManagerFactory.html#SuperOffice_CRM_Sale_QuoteManagerFactory_FromQuoteIdAsync_System_Int32_System_Threading_CancellationToken_
+  name: FromQuoteIdAsync
+  nameWithType: QuoteManagerFactory.FromQuoteIdAsync
+  fullName: SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteIdAsync
+- uid: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteManagerFactory
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: FromQuoteIdAsync(int, CancellationToken)
+  nameWithType: IQuoteManagerFactory.FromQuoteIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteIdAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IQuoteManagerFactory.FromQuoteIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: FromQuoteIdAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteIdAsync(System.Int32,System.Threading.CancellationToken)
+    name: FromQuoteIdAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteIdAsync(System.Int32,System.Threading.CancellationToken)
+    name: FromQuoteIdAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteVersionIdAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteVersionIdAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.QuoteManagerFactory.html#SuperOffice_CRM_Sale_QuoteManagerFactory_FromQuoteVersionIdAsync_System_Int32_System_Threading_CancellationToken_
+  name: FromQuoteVersionIdAsync
+  nameWithType: QuoteManagerFactory.FromQuoteVersionIdAsync
+  fullName: SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteVersionIdAsync
+- uid: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteVersionIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteVersionIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteManagerFactory
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: FromQuoteVersionIdAsync(int, CancellationToken)
+  nameWithType: IQuoteManagerFactory.FromQuoteVersionIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteVersionIdAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IQuoteManagerFactory.FromQuoteVersionIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteVersionIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: FromQuoteVersionIdAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteVersionIdAsync(System.Int32,System.Threading.CancellationToken)
+    name: FromQuoteVersionIdAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteVersionIdAsync(System.Int32,System.Threading.CancellationToken)
+    name: FromQuoteVersionIdAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Sale.QuoteManagerFactory.FromCachedQuoteVersionIdAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.QuoteManagerFactory.FromCachedQuoteVersionIdAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.QuoteManagerFactory.html#SuperOffice_CRM_Sale_QuoteManagerFactory_FromCachedQuoteVersionIdAsync_System_Int32_System_Threading_CancellationToken_
+  name: FromCachedQuoteVersionIdAsync
+  nameWithType: QuoteManagerFactory.FromCachedQuoteVersionIdAsync
+  fullName: SuperOffice.CRM.Sale.QuoteManagerFactory.FromCachedQuoteVersionIdAsync
+- uid: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromCachedQuoteVersionIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteManagerFactory.FromCachedQuoteVersionIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteManagerFactory
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: FromCachedQuoteVersionIdAsync(int, CancellationToken)
+  nameWithType: IQuoteManagerFactory.FromCachedQuoteVersionIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromCachedQuoteVersionIdAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IQuoteManagerFactory.FromCachedQuoteVersionIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromCachedQuoteVersionIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: FromCachedQuoteVersionIdAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromCachedQuoteVersionIdAsync(System.Int32,System.Threading.CancellationToken)
+    name: FromCachedQuoteVersionIdAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromCachedQuoteVersionIdAsync(System.Int32,System.Threading.CancellationToken)
+    name: FromCachedQuoteVersionIdAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteAlternativeIdAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteAlternativeIdAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.QuoteManagerFactory.html#SuperOffice_CRM_Sale_QuoteManagerFactory_FromQuoteAlternativeIdAsync_System_Int32_System_Threading_CancellationToken_
+  name: FromQuoteAlternativeIdAsync
+  nameWithType: QuoteManagerFactory.FromQuoteAlternativeIdAsync
+  fullName: SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteAlternativeIdAsync
+- uid: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteAlternativeIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteAlternativeIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteManagerFactory
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: FromQuoteAlternativeIdAsync(int, CancellationToken)
+  nameWithType: IQuoteManagerFactory.FromQuoteAlternativeIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteAlternativeIdAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IQuoteManagerFactory.FromQuoteAlternativeIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteAlternativeIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: FromQuoteAlternativeIdAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteAlternativeIdAsync(System.Int32,System.Threading.CancellationToken)
+    name: FromQuoteAlternativeIdAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteAlternativeIdAsync(System.Int32,System.Threading.CancellationToken)
+    name: FromQuoteAlternativeIdAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteLineIdAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteLineIdAsync
+  isExternal: true
+  href: SuperOffice.CRM.Sale.QuoteManagerFactory.html#SuperOffice_CRM_Sale_QuoteManagerFactory_FromQuoteLineIdAsync_System_Int32_System_Threading_CancellationToken_
+  name: FromQuoteLineIdAsync
+  nameWithType: QuoteManagerFactory.FromQuoteLineIdAsync
+  fullName: SuperOffice.CRM.Sale.QuoteManagerFactory.FromQuoteLineIdAsync
+- uid: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteLineIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteLineIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Sale.IQuoteManagerFactory
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: FromQuoteLineIdAsync(int, CancellationToken)
+  nameWithType: IQuoteManagerFactory.FromQuoteLineIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteLineIdAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IQuoteManagerFactory.FromQuoteLineIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteLineIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: FromQuoteLineIdAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteLineIdAsync(System.Int32,System.Threading.CancellationToken)
+    name: FromQuoteLineIdAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Sale.IQuoteManagerFactory.FromQuoteLineIdAsync(System.Int32,System.Threading.CancellationToken)
+    name: FromQuoteLineIdAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Sale.QuoteManagerFactory.#ctor*
+  commentId: Overload:SuperOffice.CRM.Sale.QuoteManagerFactory.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Sale.QuoteManagerFactory.html#SuperOffice_CRM_Sale_QuoteManagerFactory__ctor
+  name: QuoteManagerFactory
+  nameWithType: QuoteManagerFactory.QuoteManagerFactory
+  fullName: SuperOffice.CRM.Sale.QuoteManagerFactory.QuoteManagerFactory
+  nameWithType.vb: QuoteManagerFactory.New
+  fullName.vb: SuperOffice.CRM.Sale.QuoteManagerFactory.New
+  name.vb: New

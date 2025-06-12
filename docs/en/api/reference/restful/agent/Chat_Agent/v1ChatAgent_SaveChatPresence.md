@@ -70,23 +70,23 @@ Content-Type: application/json; charset=utf-8
 {
   "ChatPresence": [
     {
-      "UserId": 688,
-      "DisplayName": "Morissette-Hermann",
-      "OngoingChats": 790,
+      "UserId": 128,
+      "DisplayName": "Feest LLC",
+      "OngoingChats": 65,
       "Present": false,
       "ChatTopics": [
-        824,
-        742
+        990,
+        73
       ]
     },
     {
-      "UserId": 688,
-      "DisplayName": "Morissette-Hermann",
-      "OngoingChats": 790,
+      "UserId": 128,
+      "DisplayName": "Feest LLC",
+      "OngoingChats": 65,
       "Present": false,
       "ChatTopics": [
-        824,
-        742
+        990,
+        73
       ]
     }
   ]

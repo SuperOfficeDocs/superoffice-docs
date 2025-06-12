@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Competitor/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 439,
-  "Name": "Terry, Grant and Aufderhar",
-  "Tooltip": "nobis",
+  "Id": 863,
+  "Name": "Murphy LLC",
+  "Tooltip": "ad",
   "Deleted": false,
-  "UdListDefinitionId": 547,
-  "Rank": 186,
+  "UdListDefinitionId": 240,
+  "Rank": 980,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 947
+      "FieldLength": 789
     }
   }
 }

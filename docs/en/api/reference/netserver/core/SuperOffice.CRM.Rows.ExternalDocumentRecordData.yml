@@ -24,33 +24,41 @@ items:
   nameWithType: ExternalDocumentRecordData
   fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordData
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the external_document table.\n"
-  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.ExternalDocumentRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.ExternalDocumentTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  summary: >-
+    POCO (Plain Old CLR Object) class that can be used to hold data corresponding
+
+    to a row from the external_document table.
+  remarks: >-
+    Please use this class instead of a full <xref href="SuperOffice.CRM.Rows.ExternalDocumentRow" data-throw-if-not-resolved="false"></xref> object when
+
+    you do not need to <b>create or update</b> a value in the database. Row objects have a large overhead
+
+    since they carry the corresponding <xref href="SuperOffice.CRM.Data.ExternalDocumentTableInfo" data-throw-if-not-resolved="false"></xref> object, which
+
+    in turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.
+  example: []
   syntax:
-    content: 'public class ExternalDocumentRecordData : Object'
-    content.vb: >-
-      Public Class ExternalDocumentRecordData
-          Inherits Object
+    content: public class ExternalDocumentRecordData
+    content.vb: Public Class ExternalDocumentRecordData
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.ExternalDocumentRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.ExternalDocumentRecordData.SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.ExternalDocumentRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.ExternalDocumentRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ExternalDocumentRecordData)
   - SuperOffice.CRM.Rows.ExternalDocumentRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ExternalDocumentRecordData.SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsert
-  - SuperOffice.CRM.Rows.ExternalDocumentRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData.ExternalDocumentId
   commentId: F:SuperOffice.CRM.Rows.ExternalDocumentRecordData.ExternalDocumentId
   id: ExternalDocumentId
@@ -62,22 +70,16 @@ items:
   nameWithType: ExternalDocumentRecordData.ExternalDocumentId
   fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordData.ExternalDocumentId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
     content: public int ExternalDocumentId
     return:
       type: System.Int32
     content.vb: Public ExternalDocumentId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData.HierarchyId
   commentId: F:SuperOffice.CRM.Rows.ExternalDocumentRecordData.HierarchyId
   id: HierarchyId
@@ -89,22 +91,16 @@ items:
   nameWithType: ExternalDocumentRecordData.HierarchyId
   fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordData.HierarchyId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThis document belongs to the following folder \n"
+  summary: This document belongs to the following folder
+  example: []
   syntax:
     content: public int HierarchyId
     return:
       type: System.Int32
     content.vb: Public HierarchyId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData.AttachmentId
   commentId: F:SuperOffice.CRM.Rows.ExternalDocumentRecordData.AttachmentId
   id: AttachmentId
@@ -116,22 +112,16 @@ items:
   nameWithType: ExternalDocumentRecordData.AttachmentId
   fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordData.AttachmentId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe attachment.id for the attachment associated with this external document. \n"
+  summary: The attachment.id for the attachment associated with this external document.
+  example: []
   syntax:
     content: public int AttachmentId
     return:
       type: System.Int32
     content.vb: Public AttachmentId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData.Title
   commentId: F:SuperOffice.CRM.Rows.ExternalDocumentRecordData.Title
   id: Title
@@ -143,22 +133,16 @@ items:
   nameWithType: ExternalDocumentRecordData.Title
   fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordData.Title
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe title for the document \n"
+  summary: The title for the document
+  example: []
   syntax:
     content: public string Title
     return:
       type: System.String
     content.vb: Public Title As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData.Description
   commentId: F:SuperOffice.CRM.Rows.ExternalDocumentRecordData.Description
   id: Description
@@ -170,22 +154,16 @@ items:
   nameWithType: ExternalDocumentRecordData.Description
   fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordData.Description
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe description of the external document \n"
+  summary: The description of the external document
+  example: []
   syntax:
     content: public string Description
     return:
       type: System.String
     content.vb: Public Description As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData.CreatedAt
   commentId: F:SuperOffice.CRM.Rows.ExternalDocumentRecordData.CreatedAt
   id: CreatedAt
@@ -197,22 +175,16 @@ items:
   nameWithType: ExternalDocumentRecordData.CreatedAt
   fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordData.CreatedAt
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nWhen the document was created \n"
+  summary: When the document was created
+  example: []
   syntax:
     content: public DateTime CreatedAt
     return:
       type: System.DateTime
-    content.vb: Public CreatedAt As DateTime
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public CreatedAt As Date
 - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData.CreatedBy
   commentId: F:SuperOffice.CRM.Rows.ExternalDocumentRecordData.CreatedBy
   id: CreatedBy
@@ -224,22 +196,16 @@ items:
   nameWithType: ExternalDocumentRecordData.CreatedBy
   fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordData.CreatedBy
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nWho created the document \n"
+  summary: Who created the document
+  example: []
   syntax:
     content: public int CreatedBy
     return:
       type: System.Int32
     content.vb: Public CreatedBy As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData.LastChanged
   commentId: F:SuperOffice.CRM.Rows.ExternalDocumentRecordData.LastChanged
   id: LastChanged
@@ -251,22 +217,16 @@ items:
   nameWithType: ExternalDocumentRecordData.LastChanged
   fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordData.LastChanged
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nWhen the document last was changed \n"
+  summary: When the document last was changed
+  example: []
   syntax:
     content: public DateTime LastChanged
     return:
       type: System.DateTime
-    content.vb: Public LastChanged As DateTime
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public LastChanged As Date
 - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData.ChangedBy
   commentId: F:SuperOffice.CRM.Rows.ExternalDocumentRecordData.ChangedBy
   id: ChangedBy
@@ -278,22 +238,16 @@ items:
   nameWithType: ExternalDocumentRecordData.ChangedBy
   fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordData.ChangedBy
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nWho last changed the document \n"
+  summary: Who last changed the document
+  example: []
   syntax:
     content: public int ChangedBy
     return:
       type: System.Int32
     content.vb: Public ChangedBy As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData.Deleted
   commentId: F:SuperOffice.CRM.Rows.ExternalDocumentRecordData.Deleted
   id: Deleted
@@ -305,22 +259,16 @@ items:
   nameWithType: ExternalDocumentRecordData.Deleted
   fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordData.Deleted
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nA boolean telling if the external document is to be treated as deleted \n"
+  summary: A boolean telling if the external document is to be treated as deleted
+  example: []
   syntax:
     content: public short Deleted
     return:
       type: System.Int16
     content.vb: Public Deleted As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData.SMessage
   commentId: F:SuperOffice.CRM.Rows.ExternalDocumentRecordData.SMessage
   id: SMessage
@@ -332,22 +280,16 @@ items:
   nameWithType: ExternalDocumentRecordData.SMessage
   fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordData.SMessage
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nRelation to s_message if this document is an image in a newsletter \n"
+  summary: Relation to s_message if this document is an image in a newsletter
+  example: []
   syntax:
     content: public int SMessage
     return:
       type: System.Int32
     content.vb: Public SMessage As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.ExternalDocumentRecordData.#ctor
   id: '#ctor'
@@ -359,220 +301,602 @@ items:
   nameWithType: ExternalDocumentRecordData.ExternalDocumentRecordData()
   fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordData.ExternalDocumentRecordData()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public ExternalDocumentRecordData()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Rows.ExternalDocumentRecordData.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ExternalDocumentRecordData.New()
+  fullName.vb: SuperOffice.CRM.Rows.ExternalDocumentRecordData.New()
+  name.vb: New()
 references:
+- uid: SuperOffice.CRM.Rows.ExternalDocumentRow
+  commentId: T:SuperOffice.CRM.Rows.ExternalDocumentRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ExternalDocumentRow.html
+  name: ExternalDocumentRow
+  nameWithType: ExternalDocumentRow
+  fullName: SuperOffice.CRM.Rows.ExternalDocumentRow
+- uid: SuperOffice.CRM.Data.ExternalDocumentTableInfo
+  commentId: T:SuperOffice.CRM.Data.ExternalDocumentTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.ExternalDocumentTableInfo.html
+  name: ExternalDocumentTableInfo
+  nameWithType: ExternalDocumentTableInfo
+  fullName: SuperOffice.CRM.Data.ExternalDocumentTableInfo
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ExternalDocumentRecordData, To>()
-  nameWithType: EnumUtil.MapEnums<ExternalDocumentRecordData, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ExternalDocumentRecordData, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ExternalDocumentRecordData, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ExternalDocumentRecordData, To)()
-  name.vb: MapEnums(Of ExternalDocumentRecordData, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ExternalDocumentRecordData, To>(ExternalDocumentRecordData)
+  nameWithType: EnumUtil.MapEnums<ExternalDocumentRecordData, To>(ExternalDocumentRecordData)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ExternalDocumentRecordData, To>(SuperOffice.CRM.Rows.ExternalDocumentRecordData)
+  nameWithType.vb: EnumUtil.MapEnums(Of ExternalDocumentRecordData, To)(ExternalDocumentRecordData)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ExternalDocumentRecordData, To)(SuperOffice.CRM.Rows.ExternalDocumentRecordData)
+  name.vb: MapEnums(Of ExternalDocumentRecordData, To)(ExternalDocumentRecordData)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ExternalDocumentRecordData, To>
-    nameWithType: EnumUtil.MapEnums<ExternalDocumentRecordData, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ExternalDocumentRecordData, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.ExternalDocumentRecordData)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ExternalDocumentRecordData, To)
-    nameWithType: EnumUtil.MapEnums(Of ExternalDocumentRecordData, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ExternalDocumentRecordData, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ExternalDocumentRecordData)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<ExternalDocumentRecordData>(ExternalDocumentRecordData)
-  nameWithType: ObjectExtensions.AssignByReflection<ExternalDocumentRecordData>(ExternalDocumentRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ExternalDocumentRecordData>(SuperOffice.CRM.Rows.ExternalDocumentRecordData)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ExternalDocumentRecordData)(ExternalDocumentRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ExternalDocumentRecordData)(SuperOffice.CRM.Rows.ExternalDocumentRecordData)
-  name.vb: AssignByReflection(Of ExternalDocumentRecordData)(ExternalDocumentRecordData)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<ExternalDocumentRecordData>
-    nameWithType: ObjectExtensions.AssignByReflection<ExternalDocumentRecordData>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ExternalDocumentRecordData>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData
     name: ExternalDocumentRecordData
-    nameWithType: ExternalDocumentRecordData
-    fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordData
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of ExternalDocumentRecordData)
-    nameWithType: ObjectExtensions.AssignByReflection(Of ExternalDocumentRecordData)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ExternalDocumentRecordData)
-    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData
     name: ExternalDocumentRecordData
-    nameWithType: ExternalDocumentRecordData
-    fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordData.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<ExternalDocumentRecordData>()
-  nameWithType: ObjectExtensions.GraphCopy<ExternalDocumentRecordData>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ExternalDocumentRecordData>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ExternalDocumentRecordData)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ExternalDocumentRecordData)()
-  name.vb: GraphCopy(Of ExternalDocumentRecordData)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<ExternalDocumentRecordData>
-    nameWithType: ObjectExtensions.GraphCopy<ExternalDocumentRecordData>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ExternalDocumentRecordData>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of ExternalDocumentRecordData)
-    nameWithType: ObjectExtensions.GraphCopy(Of ExternalDocumentRecordData)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ExternalDocumentRecordData)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.ExternalDocumentRecordData)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData
+    name: ExternalDocumentRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData.SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExternalDocumentRecordData)
+  - name: (
+  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData
+    name: ExternalDocumentRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData.SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExternalDocumentRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExternalDocumentRecordData)
-  name: ToInsert()
-  nameWithType: ExternalDocumentRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExternalDocumentRecordData,System.Threading.CancellationToken)
+  href: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.html#SuperOffice_CRM_Rows_ExternalDocumentRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_ExternalDocumentRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync(ExternalDocumentRecordData, CancellationToken)
+  nameWithType: ExternalDocumentRecordDataExtensions.ToInsertAsync(ExternalDocumentRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExternalDocumentRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ExternalDocumentRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExternalDocumentRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.html#SuperOffice_CRM_Rows_ExternalDocumentRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_ExternalDocumentRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData
+    name: ExternalDocumentRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ExternalDocumentRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExternalDocumentRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.html#SuperOffice_CRM_Rows_ExternalDocumentRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_ExternalDocumentRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData
+    name: ExternalDocumentRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ExternalDocumentRecordData, To>()
-  nameWithType: Converters.MapEnums<ExternalDocumentRecordData, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ExternalDocumentRecordData, To>()
-  nameWithType.vb: Converters.MapEnums(Of ExternalDocumentRecordData, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ExternalDocumentRecordData, To)()
-  name.vb: MapEnums(Of ExternalDocumentRecordData, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ExternalDocumentRecordData, To>(ExternalDocumentRecordData)
+  nameWithType: Converters.MapEnums<ExternalDocumentRecordData, To>(ExternalDocumentRecordData)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ExternalDocumentRecordData, To>(SuperOffice.CRM.Rows.ExternalDocumentRecordData)
+  nameWithType.vb: Converters.MapEnums(Of ExternalDocumentRecordData, To)(ExternalDocumentRecordData)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ExternalDocumentRecordData, To)(SuperOffice.CRM.Rows.ExternalDocumentRecordData)
+  name.vb: MapEnums(Of ExternalDocumentRecordData, To)(ExternalDocumentRecordData)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ExternalDocumentRecordData, To>
-    nameWithType: Converters.MapEnums<ExternalDocumentRecordData, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ExternalDocumentRecordData, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.ExternalDocumentRecordData)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData
+    name: ExternalDocumentRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData
+    name: ExternalDocumentRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordData.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ExternalDocumentRecordData, To)
-    nameWithType: Converters.MapEnums(Of ExternalDocumentRecordData, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ExternalDocumentRecordData, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.ExternalDocumentRecordData)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData
+    name: ExternalDocumentRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData
+    name: ExternalDocumentRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ExternalDocumentRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<ExternalDocumentRecordData>(ExternalDocumentRecordData, ExternalDocumentRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<ExternalDocumentRecordData>(ExternalDocumentRecordData, ExternalDocumentRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ExternalDocumentRecordData>(SuperOffice.CRM.Rows.ExternalDocumentRecordData, SuperOffice.CRM.Rows.ExternalDocumentRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ExternalDocumentRecordData)(ExternalDocumentRecordData, ExternalDocumentRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ExternalDocumentRecordData)(SuperOffice.CRM.Rows.ExternalDocumentRecordData, SuperOffice.CRM.Rows.ExternalDocumentRecordData)
+  name.vb: AssignByReflection(Of ExternalDocumentRecordData)(ExternalDocumentRecordData, ExternalDocumentRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ExternalDocumentRecordData,SuperOffice.CRM.Rows.ExternalDocumentRecordData)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData
+    name: ExternalDocumentRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordData.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData
+    name: ExternalDocumentRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordData.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData
+    name: ExternalDocumentRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ExternalDocumentRecordData,SuperOffice.CRM.Rows.ExternalDocumentRecordData)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData
+    name: ExternalDocumentRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordData.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData
+    name: ExternalDocumentRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordData.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData
+    name: ExternalDocumentRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<ExternalDocumentRecordData>(ExternalDocumentRecordData)
+  nameWithType: ObjectExtensions.GraphCopy<ExternalDocumentRecordData>(ExternalDocumentRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ExternalDocumentRecordData>(SuperOffice.CRM.Rows.ExternalDocumentRecordData)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ExternalDocumentRecordData)(ExternalDocumentRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ExternalDocumentRecordData)(SuperOffice.CRM.Rows.ExternalDocumentRecordData)
+  name.vb: GraphCopy(Of ExternalDocumentRecordData)(ExternalDocumentRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.ExternalDocumentRecordData)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData
+    name: ExternalDocumentRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordData.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData
+    name: ExternalDocumentRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.ExternalDocumentRecordData)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData
+    name: ExternalDocumentRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordData.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData
+    name: ExternalDocumentRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -581,187 +905,94 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+- uid: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExternalDocumentRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExternalDocumentRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
+  href: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.html#SuperOffice_CRM_Rows_ExternalDocumentRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_ExternalDocumentRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync(ExternalDocumentRecordData, CancellationToken)
+  nameWithType: ExternalDocumentRecordDataExtensions.ToInsertAsync(ExternalDocumentRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExternalDocumentRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExternalDocumentRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.html#SuperOffice_CRM_Rows_ExternalDocumentRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_ExternalDocumentRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExternalDocumentRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExternalDocumentRecordData)
-  isExternal: true
-  name: ToInsert(ExternalDocumentRecordData)
-  nameWithType: ExternalDocumentRecordDataExtensions.ToInsert(ExternalDocumentRecordData)
-  fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExternalDocumentRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExternalDocumentRecordData)
-    name: ToInsert
-    nameWithType: ExternalDocumentRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsert
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData
     name: ExternalDocumentRecordData
-    nameWithType: ExternalDocumentRecordData
-    fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExternalDocumentRecordData)
-    name: ToInsert
-    nameWithType: ExternalDocumentRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExternalDocumentRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.html#SuperOffice_CRM_Rows_ExternalDocumentRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_ExternalDocumentRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData
     name: ExternalDocumentRecordData
-    nameWithType: ExternalDocumentRecordData
-    fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalDocumentRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions
   commentId: T:SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions.html
   name: ExternalDocumentRecordDataExtensions
   nameWithType: ExternalDocumentRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordDataExtensions
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -770,82 +1001,239 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: SuperOffice.CRM.Rows.ExternalDocumentRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.ExternalDocumentRecordData.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Rows.ExternalDocumentRecordData.html#SuperOffice_CRM_Rows_ExternalDocumentRecordData__ctor
   name: ExternalDocumentRecordData
   nameWithType: ExternalDocumentRecordData.ExternalDocumentRecordData
   fullName: SuperOffice.CRM.Rows.ExternalDocumentRecordData.ExternalDocumentRecordData
+  nameWithType.vb: ExternalDocumentRecordData.New
+  fullName.vb: SuperOffice.CRM.Rows.ExternalDocumentRecordData.New
+  name.vb: New

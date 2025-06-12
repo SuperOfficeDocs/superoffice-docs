@@ -73,14 +73,14 @@ OK
 POST /api/v1/Agents/User/GetValidUserName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 340,
+  "AssociateId": 886,
   "Type": "AnonymousAssociate",
-  "PersonId": 324,
-  "UserName": "Harris Group"
+  "PersonId": 683,
+  "UserName": "Metz-Hilll"
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Wilderman-Blanda"
+"Leffler, Erdman and Effertz"
 ```

@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/Document/GetDocumentLength
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 860,
-  "VersionId": "dignissimos"
+  "DocumentId": 665,
+  "VersionId": "architecto"
 }
 ```
 

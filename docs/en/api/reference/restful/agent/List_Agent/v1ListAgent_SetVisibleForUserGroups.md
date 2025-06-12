@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 56,
-  "ListItemId": 9,
+  "UdListDefinitionId": 168,
+  "ListItemId": 776,
   "UserGroups": [
     {
-      "Id": 506,
-      "Name": "DuBuque-McCullough",
-      "ToolTip": "Vero alias nulla occaecati.",
+      "Id": 127,
+      "Name": "Daugherty, Powlowski and Hintz",
+      "ToolTip": "Ab consequatur ex minus dolores.",
       "Deleted": false,
-      "Rank": 253,
-      "Type": "iusto",
-      "ColorBlock": 173,
-      "IconHint": "cumque",
+      "Rank": 76,
+      "Type": "tempore",
+      "ColorBlock": 90,
+      "IconHint": "a",
       "Selected": false,
-      "LastChanged": "2022-07-22T16:32:39.2426162+02:00",
+      "LastChanged": "2020-08-16T17:54:03.2108272+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eaque",
-      "StyleHint": "perspiciatis",
+      "ExtraInfo": "ea",
+      "StyleHint": "possimus",
       "Hidden": false,
-      "FullName": "Prof. Rylee Vella Murazik Sr."
+      "FullName": "Kenyon Kautzer"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 569,
-    "Name": "Connelly, Windler and Yundt",
-    "ToolTip": "Delectus quia et ipsa.",
+    "Id": 291,
+    "Name": "Macejkovic Group",
+    "ToolTip": "Voluptatem repudiandae iste velit.",
     "Deleted": false,
-    "Rank": 265,
-    "Type": "excepturi",
-    "ColorBlock": 64,
-    "IconHint": "ut",
+    "Rank": 743,
+    "Type": "ut",
+    "ColorBlock": 660,
+    "IconHint": "libero",
     "Selected": false,
-    "LastChanged": "2007-07-20T16:32:39.2426162+02:00",
+    "LastChanged": "2018-04-15T17:54:03.2108272+02:00",
     "ChildItems": [
       {
-        "Id": 902,
-        "Name": "Wilderman, Douglas and Deckow",
-        "ToolTip": "Soluta eos nihil consequatur natus dolor magni odio.",
+        "Id": 688,
+        "Name": "Spencer, Hickle and Nolan",
+        "ToolTip": "Qui quidem rerum et.",
         "Deleted": false,
-        "Rank": 542,
-        "Type": "alias",
-        "ColorBlock": 946,
-        "IconHint": "sed",
+        "Rank": 576,
+        "Type": "assumenda",
+        "ColorBlock": 275,
+        "IconHint": "deleniti",
         "Selected": false,
-        "LastChanged": "2013-08-30T16:32:39.2426162+02:00",
+        "LastChanged": "1999-12-14T17:54:03.2108272+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "ipsum",
+        "ExtraInfo": "sit",
+        "StyleHint": "amet",
         "Hidden": false,
-        "FullName": "Mrs. Laisha Stroman",
+        "FullName": "Dr. Lorenz Nigel Terry",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 525
+            "FieldType": "System.Int32",
+            "FieldLength": 919
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "sed",
-    "Hidden": false,
-    "FullName": "Nyasia Cynthia Mueller PhD",
+    "ExtraInfo": "commodi",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Talon Larson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 89
+        "FieldLength": 590
       }
     }
   }

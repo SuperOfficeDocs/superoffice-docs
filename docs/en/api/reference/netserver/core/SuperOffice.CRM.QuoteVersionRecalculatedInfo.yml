@@ -17,31 +17,39 @@ items:
   nameWithType: QuoteVersionRecalculatedInfo
   fullName: SuperOffice.CRM.QuoteVersionRecalculatedInfo
   type: Class
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: 'public class QuoteVersionRecalculatedInfo : Object'
+    content: >-
+      [Obsolete]
+
+      public class QuoteVersionRecalculatedInfo
     content.vb: >-
+      <Obsolete>
+
       Public Class QuoteVersionRecalculatedInfo
-          Inherits Object
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.QuoteVersionRecalculatedInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.QuoteVersionRecalculatedInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.QuoteVersionRecalculatedInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.QuoteVersionRecalculatedInfo)
   - SuperOffice.CRM.QuoteVersionRecalculatedInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.QuoteVersionRecalculatedInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo.#ctor
   commentId: M:SuperOffice.CRM.QuoteVersionRecalculatedInfo.#ctor
   id: '#ctor'
@@ -53,20 +61,16 @@ items:
   nameWithType: QuoteVersionRecalculatedInfo.QuoteVersionRecalculatedInfo()
   fullName: SuperOffice.CRM.QuoteVersionRecalculatedInfo.QuoteVersionRecalculatedInfo()
   type: Constructor
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
   syntax:
     content: public QuoteVersionRecalculatedInfo()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.QuoteVersionRecalculatedInfo.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: QuoteVersionRecalculatedInfo.New()
+  fullName.vb: SuperOffice.CRM.QuoteVersionRecalculatedInfo.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedSale
   commentId: P:SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedSale
   id: ChangedSale
@@ -78,13 +82,11 @@ items:
   nameWithType: QuoteVersionRecalculatedInfo.ChangedSale
   fullName: SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedSale
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nIf the sale has been changed, the interface will be set\n"
+  summary: If the sale has been changed, the interface will be set
+  example: []
   syntax:
     content: public ISaleInfo ChangedSale { get; set; }
     parameters: []
@@ -92,12 +94,6 @@ items:
       type: SuperOffice.CRM.ISaleInfo
     content.vb: Public Property ChangedSale As ISaleInfo
   overload: SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedSale*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedQuote
   commentId: P:SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedQuote
   id: ChangedQuote
@@ -109,13 +105,11 @@ items:
   nameWithType: QuoteVersionRecalculatedInfo.ChangedQuote
   fullName: SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedQuote
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe recalculated version is a member of Quote\n"
+  summary: The recalculated version is a member of Quote
+  example: []
   syntax:
     content: public QuoteInfo ChangedQuote { get; set; }
     parameters: []
@@ -123,12 +117,6 @@ items:
       type: SuperOffice.CRM.QuoteInfo
     content.vb: Public Property ChangedQuote As QuoteInfo
   overload: SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedQuote*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedQuoteVersion
   commentId: P:SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedQuoteVersion
   id: ChangedQuoteVersion
@@ -140,13 +128,11 @@ items:
   nameWithType: QuoteVersionRecalculatedInfo.ChangedQuoteVersion
   fullName: SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedQuoteVersion
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe recalculated QuoteVersion\n"
+  summary: The recalculated QuoteVersion
+  example: []
   syntax:
     content: public QuoteVersionInfo ChangedQuoteVersion { get; set; }
     parameters: []
@@ -154,12 +140,6 @@ items:
       type: SuperOffice.CRM.QuoteVersionInfo
     content.vb: Public Property ChangedQuoteVersion As QuoteVersionInfo
   overload: SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedQuoteVersion*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedQuoteAlternatives
   commentId: P:SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedQuoteAlternatives
   id: ChangedQuoteAlternatives
@@ -171,13 +151,11 @@ items:
   nameWithType: QuoteVersionRecalculatedInfo.ChangedQuoteAlternatives
   fullName: SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedQuoteAlternatives
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe changed QuoteAlternatives\n"
+  summary: The changed QuoteAlternatives
+  example: []
   syntax:
     content: public QuoteAlternativeRecalculatedInfo[] ChangedQuoteAlternatives { get; set; }
     parameters: []
@@ -185,181 +163,487 @@ items:
       type: SuperOffice.CRM.QuoteAlternativeRecalculatedInfo[]
     content.vb: Public Property ChangedQuoteAlternatives As QuoteAlternativeRecalculatedInfo()
   overload: SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedQuoteAlternatives*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<QuoteVersionRecalculatedInfo, To>()
-  nameWithType: EnumUtil.MapEnums<QuoteVersionRecalculatedInfo, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.QuoteVersionRecalculatedInfo, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of QuoteVersionRecalculatedInfo, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.QuoteVersionRecalculatedInfo, To)()
-  name.vb: MapEnums(Of QuoteVersionRecalculatedInfo, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<QuoteVersionRecalculatedInfo, To>(QuoteVersionRecalculatedInfo)
+  nameWithType: EnumUtil.MapEnums<QuoteVersionRecalculatedInfo, To>(QuoteVersionRecalculatedInfo)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.QuoteVersionRecalculatedInfo, To>(SuperOffice.CRM.QuoteVersionRecalculatedInfo)
+  nameWithType.vb: EnumUtil.MapEnums(Of QuoteVersionRecalculatedInfo, To)(QuoteVersionRecalculatedInfo)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.QuoteVersionRecalculatedInfo, To)(SuperOffice.CRM.QuoteVersionRecalculatedInfo)
+  name.vb: MapEnums(Of QuoteVersionRecalculatedInfo, To)(QuoteVersionRecalculatedInfo)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<QuoteVersionRecalculatedInfo, To>
-    nameWithType: EnumUtil.MapEnums<QuoteVersionRecalculatedInfo, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.QuoteVersionRecalculatedInfo, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.QuoteVersionRecalculatedInfo)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of QuoteVersionRecalculatedInfo, To)
-    nameWithType: EnumUtil.MapEnums(Of QuoteVersionRecalculatedInfo, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.QuoteVersionRecalculatedInfo, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.QuoteVersionRecalculatedInfo)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<QuoteVersionRecalculatedInfo>(QuoteVersionRecalculatedInfo)
-  nameWithType: ObjectExtensions.AssignByReflection<QuoteVersionRecalculatedInfo>(QuoteVersionRecalculatedInfo)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.QuoteVersionRecalculatedInfo>(SuperOffice.CRM.QuoteVersionRecalculatedInfo)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of QuoteVersionRecalculatedInfo)(QuoteVersionRecalculatedInfo)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.QuoteVersionRecalculatedInfo)(SuperOffice.CRM.QuoteVersionRecalculatedInfo)
-  name.vb: AssignByReflection(Of QuoteVersionRecalculatedInfo)(QuoteVersionRecalculatedInfo)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<QuoteVersionRecalculatedInfo>
-    nameWithType: ObjectExtensions.AssignByReflection<QuoteVersionRecalculatedInfo>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.QuoteVersionRecalculatedInfo>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo
     name: QuoteVersionRecalculatedInfo
-    nameWithType: QuoteVersionRecalculatedInfo
-    fullName: SuperOffice.CRM.QuoteVersionRecalculatedInfo
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of QuoteVersionRecalculatedInfo)
-    nameWithType: ObjectExtensions.AssignByReflection(Of QuoteVersionRecalculatedInfo)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.QuoteVersionRecalculatedInfo)
-    isExternal: true
+    href: SuperOffice.CRM.QuoteVersionRecalculatedInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo
     name: QuoteVersionRecalculatedInfo
-    nameWithType: QuoteVersionRecalculatedInfo
-    fullName: SuperOffice.CRM.QuoteVersionRecalculatedInfo
     isExternal: true
+    href: SuperOffice.CRM.QuoteVersionRecalculatedInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<QuoteVersionRecalculatedInfo>()
-  nameWithType: ObjectExtensions.GraphCopy<QuoteVersionRecalculatedInfo>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.QuoteVersionRecalculatedInfo>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of QuoteVersionRecalculatedInfo)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.QuoteVersionRecalculatedInfo)()
-  name.vb: GraphCopy(Of QuoteVersionRecalculatedInfo)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<QuoteVersionRecalculatedInfo>
-    nameWithType: ObjectExtensions.GraphCopy<QuoteVersionRecalculatedInfo>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.QuoteVersionRecalculatedInfo>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of QuoteVersionRecalculatedInfo)
-    nameWithType: ObjectExtensions.GraphCopy(Of QuoteVersionRecalculatedInfo)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.QuoteVersionRecalculatedInfo)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.QuoteVersionRecalculatedInfo)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo
+    name: QuoteVersionRecalculatedInfo
+    isExternal: true
+    href: SuperOffice.CRM.QuoteVersionRecalculatedInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo
+    name: QuoteVersionRecalculatedInfo
+    isExternal: true
+    href: SuperOffice.CRM.QuoteVersionRecalculatedInfo.html
+  - name: )
 - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<QuoteVersionRecalculatedInfo, To>()
-  nameWithType: Converters.MapEnums<QuoteVersionRecalculatedInfo, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.QuoteVersionRecalculatedInfo, To>()
-  nameWithType.vb: Converters.MapEnums(Of QuoteVersionRecalculatedInfo, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.QuoteVersionRecalculatedInfo, To)()
-  name.vb: MapEnums(Of QuoteVersionRecalculatedInfo, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<QuoteVersionRecalculatedInfo, To>(QuoteVersionRecalculatedInfo)
+  nameWithType: Converters.MapEnums<QuoteVersionRecalculatedInfo, To>(QuoteVersionRecalculatedInfo)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.QuoteVersionRecalculatedInfo, To>(SuperOffice.CRM.QuoteVersionRecalculatedInfo)
+  nameWithType.vb: Converters.MapEnums(Of QuoteVersionRecalculatedInfo, To)(QuoteVersionRecalculatedInfo)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.QuoteVersionRecalculatedInfo, To)(SuperOffice.CRM.QuoteVersionRecalculatedInfo)
+  name.vb: MapEnums(Of QuoteVersionRecalculatedInfo, To)(QuoteVersionRecalculatedInfo)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<QuoteVersionRecalculatedInfo, To>
-    nameWithType: Converters.MapEnums<QuoteVersionRecalculatedInfo, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.QuoteVersionRecalculatedInfo, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.QuoteVersionRecalculatedInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo
+    name: QuoteVersionRecalculatedInfo
+    isExternal: true
+    href: SuperOffice.CRM.QuoteVersionRecalculatedInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo
+    name: QuoteVersionRecalculatedInfo
+    isExternal: true
+    href: SuperOffice.CRM.QuoteVersionRecalculatedInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of QuoteVersionRecalculatedInfo, To)
-    nameWithType: Converters.MapEnums(Of QuoteVersionRecalculatedInfo, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.QuoteVersionRecalculatedInfo, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.QuoteVersionRecalculatedInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo
+    name: QuoteVersionRecalculatedInfo
+    isExternal: true
+    href: SuperOffice.CRM.QuoteVersionRecalculatedInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo
+    name: QuoteVersionRecalculatedInfo
+    isExternal: true
+    href: SuperOffice.CRM.QuoteVersionRecalculatedInfo.html
+  - name: )
+- uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.QuoteVersionRecalculatedInfo)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<QuoteVersionRecalculatedInfo>(QuoteVersionRecalculatedInfo, QuoteVersionRecalculatedInfo)
+  nameWithType: ObjectExtensions.AssignByReflection<QuoteVersionRecalculatedInfo>(QuoteVersionRecalculatedInfo, QuoteVersionRecalculatedInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.QuoteVersionRecalculatedInfo>(SuperOffice.CRM.QuoteVersionRecalculatedInfo, SuperOffice.CRM.QuoteVersionRecalculatedInfo)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of QuoteVersionRecalculatedInfo)(QuoteVersionRecalculatedInfo, QuoteVersionRecalculatedInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.QuoteVersionRecalculatedInfo)(SuperOffice.CRM.QuoteVersionRecalculatedInfo, SuperOffice.CRM.QuoteVersionRecalculatedInfo)
+  name.vb: AssignByReflection(Of QuoteVersionRecalculatedInfo)(QuoteVersionRecalculatedInfo, QuoteVersionRecalculatedInfo)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.QuoteVersionRecalculatedInfo,SuperOffice.CRM.QuoteVersionRecalculatedInfo)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo
+    name: QuoteVersionRecalculatedInfo
+    isExternal: true
+    href: SuperOffice.CRM.QuoteVersionRecalculatedInfo.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo
+    name: QuoteVersionRecalculatedInfo
+    isExternal: true
+    href: SuperOffice.CRM.QuoteVersionRecalculatedInfo.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo
+    name: QuoteVersionRecalculatedInfo
+    isExternal: true
+    href: SuperOffice.CRM.QuoteVersionRecalculatedInfo.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.QuoteVersionRecalculatedInfo,SuperOffice.CRM.QuoteVersionRecalculatedInfo)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo
+    name: QuoteVersionRecalculatedInfo
+    isExternal: true
+    href: SuperOffice.CRM.QuoteVersionRecalculatedInfo.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo
+    name: QuoteVersionRecalculatedInfo
+    isExternal: true
+    href: SuperOffice.CRM.QuoteVersionRecalculatedInfo.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo
+    name: QuoteVersionRecalculatedInfo
+    isExternal: true
+    href: SuperOffice.CRM.QuoteVersionRecalculatedInfo.html
+  - name: )
+- uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<QuoteVersionRecalculatedInfo>(QuoteVersionRecalculatedInfo)
+  nameWithType: ObjectExtensions.GraphCopy<QuoteVersionRecalculatedInfo>(QuoteVersionRecalculatedInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.QuoteVersionRecalculatedInfo>(SuperOffice.CRM.QuoteVersionRecalculatedInfo)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of QuoteVersionRecalculatedInfo)(QuoteVersionRecalculatedInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.QuoteVersionRecalculatedInfo)(SuperOffice.CRM.QuoteVersionRecalculatedInfo)
+  name.vb: GraphCopy(Of QuoteVersionRecalculatedInfo)(QuoteVersionRecalculatedInfo)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.QuoteVersionRecalculatedInfo)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo
+    name: QuoteVersionRecalculatedInfo
+    isExternal: true
+    href: SuperOffice.CRM.QuoteVersionRecalculatedInfo.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo
+    name: QuoteVersionRecalculatedInfo
+    isExternal: true
+    href: SuperOffice.CRM.QuoteVersionRecalculatedInfo.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.QuoteVersionRecalculatedInfo)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo
+    name: QuoteVersionRecalculatedInfo
+    isExternal: true
+    href: SuperOffice.CRM.QuoteVersionRecalculatedInfo.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo
+    name: QuoteVersionRecalculatedInfo
+    isExternal: true
+    href: SuperOffice.CRM.QuoteVersionRecalculatedInfo.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -368,140 +652,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -510,62 +699,202 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo.#ctor*
   commentId: Overload:SuperOffice.CRM.QuoteVersionRecalculatedInfo.#ctor
   isExternal: true
+  href: SuperOffice.CRM.QuoteVersionRecalculatedInfo.html#SuperOffice_CRM_QuoteVersionRecalculatedInfo__ctor
   name: QuoteVersionRecalculatedInfo
   nameWithType: QuoteVersionRecalculatedInfo.QuoteVersionRecalculatedInfo
   fullName: SuperOffice.CRM.QuoteVersionRecalculatedInfo.QuoteVersionRecalculatedInfo
+  nameWithType.vb: QuoteVersionRecalculatedInfo.New
+  fullName.vb: SuperOffice.CRM.QuoteVersionRecalculatedInfo.New
+  name.vb: New
 - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedSale*
   commentId: Overload:SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedSale
   isExternal: true
+  href: SuperOffice.CRM.QuoteVersionRecalculatedInfo.html#SuperOffice_CRM_QuoteVersionRecalculatedInfo_ChangedSale
   name: ChangedSale
   nameWithType: QuoteVersionRecalculatedInfo.ChangedSale
   fullName: SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedSale
@@ -573,12 +902,14 @@ references:
   commentId: T:SuperOffice.CRM.ISaleInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ISaleInfo.html
   name: ISaleInfo
   nameWithType: ISaleInfo
   fullName: SuperOffice.CRM.ISaleInfo
 - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedQuote*
   commentId: Overload:SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedQuote
   isExternal: true
+  href: SuperOffice.CRM.QuoteVersionRecalculatedInfo.html#SuperOffice_CRM_QuoteVersionRecalculatedInfo_ChangedQuote
   name: ChangedQuote
   nameWithType: QuoteVersionRecalculatedInfo.ChangedQuote
   fullName: SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedQuote
@@ -586,12 +917,14 @@ references:
   commentId: T:SuperOffice.CRM.QuoteInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteInfo.html
   name: QuoteInfo
   nameWithType: QuoteInfo
   fullName: SuperOffice.CRM.QuoteInfo
 - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedQuoteVersion*
   commentId: Overload:SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedQuoteVersion
   isExternal: true
+  href: SuperOffice.CRM.QuoteVersionRecalculatedInfo.html#SuperOffice_CRM_QuoteVersionRecalculatedInfo_ChangedQuoteVersion
   name: ChangedQuoteVersion
   nameWithType: QuoteVersionRecalculatedInfo.ChangedQuoteVersion
   fullName: SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedQuoteVersion
@@ -599,17 +932,20 @@ references:
   commentId: T:SuperOffice.CRM.QuoteVersionInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteVersionInfo.html
   name: QuoteVersionInfo
   nameWithType: QuoteVersionInfo
   fullName: SuperOffice.CRM.QuoteVersionInfo
 - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedQuoteAlternatives*
   commentId: Overload:SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedQuoteAlternatives
   isExternal: true
+  href: SuperOffice.CRM.QuoteVersionRecalculatedInfo.html#SuperOffice_CRM_QuoteVersionRecalculatedInfo_ChangedQuoteAlternatives
   name: ChangedQuoteAlternatives
   nameWithType: QuoteVersionRecalculatedInfo.ChangedQuoteAlternatives
   fullName: SuperOffice.CRM.QuoteVersionRecalculatedInfo.ChangedQuoteAlternatives
 - uid: SuperOffice.CRM.QuoteAlternativeRecalculatedInfo[]
   isExternal: true
+  href: SuperOffice.CRM.QuoteAlternativeRecalculatedInfo.html
   name: QuoteAlternativeRecalculatedInfo[]
   nameWithType: QuoteAlternativeRecalculatedInfo[]
   fullName: SuperOffice.CRM.QuoteAlternativeRecalculatedInfo[]
@@ -619,18 +955,14 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.QuoteAlternativeRecalculatedInfo
     name: QuoteAlternativeRecalculatedInfo
-    nameWithType: QuoteAlternativeRecalculatedInfo
-    fullName: SuperOffice.CRM.QuoteAlternativeRecalculatedInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.QuoteAlternativeRecalculatedInfo.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.QuoteAlternativeRecalculatedInfo
     name: QuoteAlternativeRecalculatedInfo
-    nameWithType: QuoteAlternativeRecalculatedInfo
-    fullName: SuperOffice.CRM.QuoteAlternativeRecalculatedInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.QuoteAlternativeRecalculatedInfo.html
+  - name: (
+  - name: )

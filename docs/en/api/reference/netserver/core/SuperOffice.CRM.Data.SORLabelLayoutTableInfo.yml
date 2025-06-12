@@ -38,14 +38,21 @@ items:
   nameWithType: SORLabelLayoutTableInfo
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTable &apos;SORLabelLayout&apos;: SuperOffice reporter data\n"
-  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetSORLabelLayoutInfo()\"></see>.\n"
+  summary: "Table 'SORLabelLayout': SuperOffice reporter data"
+  remarks: >-
+    An instance of this class represents one instance of this table in an SQL statement. In most
+
+    cases each table appears only once in a SELECT, but in cases where you need to self-join, or
+
+    there are multiple occurrences for other reasons (typically additional restrictions in the joins),
+
+    then you will need multiple instances. <br />
+
+    Instances of this class are created by calling TablesInfo.GetSORLabelLayoutInfo().
+  example: []
   syntax:
     content: >-
       [DatabaseTable("SORLabelLayout")]
@@ -54,9 +61,7 @@ items:
     content.vb: >-
       <DatabaseTable("SORLabelLayout")>
 
-      Public Class SORLabelLayoutTableInfo
-          Inherits TableInfo
-          Implements ICloneable
+      Public Class SORLabelLayoutTableInfo Inherits TableInfo Implements ICloneable
   inheritance:
   - System.Object
   - SuperOffice.Data.SQL.TableInfo
@@ -77,6 +82,12 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.SORLabelLayoutTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.SORLabelLayoutTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -86,12 +97,6 @@ items:
     arguments:
     - type: System.String
       value: SORLabelLayout
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.DictionaryTableName
   commentId: F:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.DictionaryTableName
   id: DictionaryTableName
@@ -103,24 +108,16 @@ items:
   nameWithType: SORLabelLayoutTableInfo.DictionaryTableName
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.DictionaryTableName
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nConceptual name of table SORLabelLayout in the database dictionary: SORLabelLayout\n"
+  summary: 'Conceptual name of table SORLabelLayout in the database dictionary: SORLabelLayout'
+  example: []
   syntax:
     content: public const string DictionaryTableName = "SORLabelLayout"
     return:
       type: System.String
     content.vb: Public Const DictionaryTableName As String = "SORLabelLayout"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.DictionaryTableNumber
   commentId: P:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.DictionaryTableNumber
   id: DictionaryTableNumber
@@ -132,13 +129,14 @@ items:
   nameWithType: SORLabelLayoutTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.DictionaryTableNumber
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTable number for table SORLabelLayout in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
+  summary: >-
+    Table number for table SORLabelLayout in the database dictionary; potentially changes between databases, but
+
+    always the same over the lifetime of any single database
+  example: []
   syntax:
     content: public int DictionaryTableNumber { get; }
     parameters: []
@@ -146,12 +144,6 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
   overload: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.DictionaryTableNumber*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RuntimeDefinition
   commentId: P:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RuntimeDefinition
   id: RuntimeDefinition
@@ -163,28 +155,32 @@ items:
   nameWithType: SORLabelLayoutTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RuntimeDefinition
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  summary: Definition of the table as described in the deployed runtime dictionary
+  example: []
   syntax:
-    content: public static SoTable RuntimeDefinition { get; }
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RuntimeDefinition*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Definition
   commentId: P:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Definition
   id: Definition
@@ -196,13 +192,11 @@ items:
   nameWithType: SORLabelLayoutTableInfo.Definition
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Definition
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  summary: Definition of the table as described in the deployed runtime dictionary
+  example: []
   syntax:
     content: public override SoTable Definition { get; }
     parameters: []
@@ -211,14 +205,6 @@ items:
     content.vb: Public Overrides ReadOnly Property Definition As SoTable
   overridden: SuperOffice.Data.SQL.TableInfo.Definition
   overload: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Definition*
-  modifiers.csharp:
-  - public
-  - override
-  - get
-  modifiers.vb:
-  - Public
-  - Overrides
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.SORLabelLayoutId
   commentId: P:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.SORLabelLayoutId
   id: SORLabelLayoutId
@@ -230,13 +216,14 @@ items:
   nameWithType: SORLabelLayoutTableInfo.SORLabelLayoutId
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.SORLabelLayoutId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;SORLabelLayout_id&apos; in table &apos;SORLabelLayout&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrimary key\n"
+  summary: >-
+    Field 'SORLabelLayout_id' in table 'SORLabelLayout': Dictionary type PK, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Primary key
+  example: []
   syntax:
     content: public Int32FieldInfo SORLabelLayoutId { get; }
     parameters: []
@@ -244,12 +231,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property SORLabelLayoutId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.SORLabelLayoutId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Name
   commentId: P:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Name
   id: Name
@@ -261,13 +242,14 @@ items:
   nameWithType: SORLabelLayoutTableInfo.Name
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Name
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;name&apos; in table &apos;SORLabelLayout&apos;: Dictionary type String[240], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nName of the label layout\n"
+  summary: >-
+    Field 'name' in table 'SORLabelLayout': Dictionary type String[240], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Name of the label layout
+  example: []
   syntax:
     content: public StringFieldInfo Name { get; }
     parameters: []
@@ -275,12 +257,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Name As StringFieldInfo
   overload: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Name*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.PaperWidth
   commentId: P:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.PaperWidth
   id: PaperWidth
@@ -292,13 +268,14 @@ items:
   nameWithType: SORLabelLayoutTableInfo.PaperWidth
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.PaperWidth
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;paperWidth&apos; in table &apos;SORLabelLayout&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPaper width in twips\n"
+  summary: >-
+    Field 'paperWidth' in table 'SORLabelLayout': Dictionary type UInt, .NET type: <xref href="System.UInt32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Paper width in twips
+  example: []
   syntax:
     content: public FieldInfo PaperWidth { get; }
     parameters: []
@@ -306,12 +283,6 @@ items:
       type: SuperOffice.Data.SQL.FieldInfo
     content.vb: Public ReadOnly Property PaperWidth As FieldInfo
   overload: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.PaperWidth*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.PaperHeight
   commentId: P:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.PaperHeight
   id: PaperHeight
@@ -323,13 +294,14 @@ items:
   nameWithType: SORLabelLayoutTableInfo.PaperHeight
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.PaperHeight
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;paperHeight&apos; in table &apos;SORLabelLayout&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPaper height in twips\n"
+  summary: >-
+    Field 'paperHeight' in table 'SORLabelLayout': Dictionary type UInt, .NET type: <xref href="System.UInt32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Paper height in twips
+  example: []
   syntax:
     content: public FieldInfo PaperHeight { get; }
     parameters: []
@@ -337,12 +309,6 @@ items:
       type: SuperOffice.Data.SQL.FieldInfo
     content.vb: Public ReadOnly Property PaperHeight As FieldInfo
   overload: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.PaperHeight*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.TopMargin
   commentId: P:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.TopMargin
   id: TopMargin
@@ -354,13 +320,14 @@ items:
   nameWithType: SORLabelLayoutTableInfo.TopMargin
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.TopMargin
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;topMargin&apos; in table &apos;SORLabelLayout&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTop margin in twips\n"
+  summary: >-
+    Field 'topMargin' in table 'SORLabelLayout': Dictionary type UInt, .NET type: <xref href="System.UInt32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Top margin in twips
+  example: []
   syntax:
     content: public FieldInfo TopMargin { get; }
     parameters: []
@@ -368,12 +335,6 @@ items:
       type: SuperOffice.Data.SQL.FieldInfo
     content.vb: Public ReadOnly Property TopMargin As FieldInfo
   overload: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.TopMargin*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.BottomMargin
   commentId: P:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.BottomMargin
   id: BottomMargin
@@ -385,13 +346,14 @@ items:
   nameWithType: SORLabelLayoutTableInfo.BottomMargin
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.BottomMargin
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;bottomMargin&apos; in table &apos;SORLabelLayout&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nBottom margin in twips\n"
+  summary: >-
+    Field 'bottomMargin' in table 'SORLabelLayout': Dictionary type UInt, .NET type: <xref href="System.UInt32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Bottom margin in twips
+  example: []
   syntax:
     content: public FieldInfo BottomMargin { get; }
     parameters: []
@@ -399,12 +361,6 @@ items:
       type: SuperOffice.Data.SQL.FieldInfo
     content.vb: Public ReadOnly Property BottomMargin As FieldInfo
   overload: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.BottomMargin*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.LeftMargin
   commentId: P:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.LeftMargin
   id: LeftMargin
@@ -416,13 +372,14 @@ items:
   nameWithType: SORLabelLayoutTableInfo.LeftMargin
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.LeftMargin
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;leftMargin&apos; in table &apos;SORLabelLayout&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLeft margin in twips\n"
+  summary: >-
+    Field 'leftMargin' in table 'SORLabelLayout': Dictionary type UInt, .NET type: <xref href="System.UInt32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Left margin in twips
+  example: []
   syntax:
     content: public FieldInfo LeftMargin { get; }
     parameters: []
@@ -430,12 +387,6 @@ items:
       type: SuperOffice.Data.SQL.FieldInfo
     content.vb: Public ReadOnly Property LeftMargin As FieldInfo
   overload: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.LeftMargin*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RightMargin
   commentId: P:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RightMargin
   id: RightMargin
@@ -447,13 +398,14 @@ items:
   nameWithType: SORLabelLayoutTableInfo.RightMargin
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RightMargin
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;rightMargin&apos; in table &apos;SORLabelLayout&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRight margin in twips\n"
+  summary: >-
+    Field 'rightMargin' in table 'SORLabelLayout': Dictionary type UInt, .NET type: <xref href="System.UInt32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Right margin in twips
+  example: []
   syntax:
     content: public FieldInfo RightMargin { get; }
     parameters: []
@@ -461,12 +413,6 @@ items:
       type: SuperOffice.Data.SQL.FieldInfo
     content.vb: Public ReadOnly Property RightMargin As FieldInfo
   overload: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RightMargin*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.CountColumns
   commentId: P:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.CountColumns
   id: CountColumns
@@ -478,13 +424,14 @@ items:
   nameWithType: SORLabelLayoutTableInfo.CountColumns
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.CountColumns
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;countColumns&apos; in table &apos;SORLabelLayout&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber og columns\n"
+  summary: >-
+    Field 'countColumns' in table 'SORLabelLayout': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Number og columns
+  example: []
   syntax:
     content: public UInt16FieldInfo CountColumns { get; }
     parameters: []
@@ -492,12 +439,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property CountColumns As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.CountColumns*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.CountRows
   commentId: P:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.CountRows
   id: CountRows
@@ -509,13 +450,14 @@ items:
   nameWithType: SORLabelLayoutTableInfo.CountRows
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.CountRows
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;countRows&apos; in table &apos;SORLabelLayout&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of rows\n"
+  summary: >-
+    Field 'countRows' in table 'SORLabelLayout': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Number of rows
+  example: []
   syntax:
     content: public UInt16FieldInfo CountRows { get; }
     parameters: []
@@ -523,12 +465,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property CountRows As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.CountRows*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Orientation
   commentId: P:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Orientation
   id: Orientation
@@ -540,13 +476,14 @@ items:
   nameWithType: SORLabelLayoutTableInfo.Orientation
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Orientation
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;orientation&apos; in table &apos;SORLabelLayout&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPaper orientation: 1=portrait, 2=landscape\n"
+  summary: >-
+    Field 'orientation' in table 'SORLabelLayout': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Paper orientation: 1=portrait, 2=landscape
+  example: []
   syntax:
     content: public UInt16FieldInfo Orientation { get; }
     parameters: []
@@ -554,12 +491,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property Orientation As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Orientation*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.PrintWidth
   commentId: P:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.PrintWidth
   id: PrintWidth
@@ -571,13 +502,14 @@ items:
   nameWithType: SORLabelLayoutTableInfo.PrintWidth
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.PrintWidth
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;printWidth&apos; in table &apos;SORLabelLayout&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nCalculated: (paperWidth - leftMargin - rightMargin) / countColumns\n"
+  summary: >-
+    Field 'printWidth' in table 'SORLabelLayout': Dictionary type UInt, .NET type: <xref href="System.UInt32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Calculated: (paperWidth - leftMargin - rightMargin) / countColumns
+  example: []
   syntax:
     content: public FieldInfo PrintWidth { get; }
     parameters: []
@@ -585,12 +517,6 @@ items:
       type: SuperOffice.Data.SQL.FieldInfo
     content.vb: Public ReadOnly Property PrintWidth As FieldInfo
   overload: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.PrintWidth*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.LabelHeight
   commentId: P:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.LabelHeight
   id: LabelHeight
@@ -602,13 +528,14 @@ items:
   nameWithType: SORLabelLayoutTableInfo.LabelHeight
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.LabelHeight
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;labelHeight&apos; in table &apos;SORLabelLayout&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nCalculated: (paperHeight - topMargin - bottomMargin) / countRows\n"
+  summary: >-
+    Field 'labelHeight' in table 'SORLabelLayout': Dictionary type UInt, .NET type: <xref href="System.UInt32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Calculated: (paperHeight - topMargin - bottomMargin) / countRows
+  example: []
   syntax:
     content: public FieldInfo LabelHeight { get; }
     parameters: []
@@ -616,12 +543,6 @@ items:
       type: SuperOffice.Data.SQL.FieldInfo
     content.vb: Public ReadOnly Property LabelHeight As FieldInfo
   overload: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.LabelHeight*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Registered
   commentId: P:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Registered
   id: Registered
@@ -633,13 +554,14 @@ items:
   nameWithType: SORLabelLayoutTableInfo.Registered
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Registered
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;registered&apos; in table &apos;SORLabelLayout&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered when\n"
+  summary: >-
+    Field 'registered' in table 'SORLabelLayout': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Registered when
+  example: []
   syntax:
     content: public DateTimeFieldInfo Registered { get; }
     parameters: []
@@ -647,12 +569,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property Registered As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Registered*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -664,13 +580,14 @@ items:
   nameWithType: SORLabelLayoutTableInfo.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RegisteredAssociateId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;registered_associate_id&apos; in table &apos;SORLabelLayout&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
+  summary: >-
+    Field 'registered_associate_id' in table 'SORLabelLayout': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Registered by whom
+  example: []
   syntax:
     content: public Int32FieldInfo RegisteredAssociateId { get; }
     parameters: []
@@ -678,12 +595,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property RegisteredAssociateId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RegisteredAssociateId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Updated
   commentId: P:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Updated
   id: Updated
@@ -695,13 +606,14 @@ items:
   nameWithType: SORLabelLayoutTableInfo.Updated
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Updated
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;updated&apos; in table &apos;SORLabelLayout&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated when\n"
+  summary: >-
+    Field 'updated' in table 'SORLabelLayout': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Last updated when
+  example: []
   syntax:
     content: public DateTimeFieldInfo Updated { get; }
     parameters: []
@@ -709,12 +621,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property Updated As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Updated*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.UpdatedAssociateId
   commentId: P:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -726,13 +632,14 @@ items:
   nameWithType: SORLabelLayoutTableInfo.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.UpdatedAssociateId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;updated_associate_id&apos; in table &apos;SORLabelLayout&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
+  summary: >-
+    Field 'updated_associate_id' in table 'SORLabelLayout': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Last updated by whom
+  example: []
   syntax:
     content: public Int32FieldInfo UpdatedAssociateId { get; }
     parameters: []
@@ -740,12 +647,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property UpdatedAssociateId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.UpdatedAssociateId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.UpdatedCount
   commentId: P:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.UpdatedCount
   id: UpdatedCount
@@ -757,13 +658,14 @@ items:
   nameWithType: SORLabelLayoutTableInfo.UpdatedCount
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.UpdatedCount
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;updatedCount&apos; in table &apos;SORLabelLayout&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of updates made to this record\n"
+  summary: >-
+    Field 'updatedCount' in table 'SORLabelLayout': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Number of updates made to this record
+  example: []
   syntax:
     content: public UInt16FieldInfo UpdatedCount { get; }
     parameters: []
@@ -771,12 +673,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.UpdatedCount*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Description
   commentId: P:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Description
   id: Description
@@ -788,13 +684,14 @@ items:
   nameWithType: SORLabelLayoutTableInfo.Description
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Description
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;description&apos; in table &apos;SORLabelLayout&apos;: Dictionary type String[2048], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDescription\n"
+  summary: >-
+    Field 'description' in table 'SORLabelLayout': Dictionary type String[2048], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Description
+  example: []
   syntax:
     content: public StringFieldInfo Description { get; }
     parameters: []
@@ -802,12 +699,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Description As StringFieldInfo
   overload: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Description*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RegisteredAssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RegisteredAssociateId_InnerJoin_Associate
   id: RegisteredAssociateId_InnerJoin_Associate
@@ -819,13 +710,11 @@ items:
   nameWithType: SORLabelLayoutTableInfo.RegisteredAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RegisteredAssociateId_InnerJoin_Associate
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedInnerJoin<AssociateTableInfo> RegisteredAssociateId_InnerJoin_Associate { get; }
     parameters: []
@@ -833,12 +722,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
     content.vb: Public ReadOnly Property RegisteredAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
   overload: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RegisteredAssociateId_InnerJoin_Associate*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.UpdatedAssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.UpdatedAssociateId_InnerJoin_Associate
   id: UpdatedAssociateId_InnerJoin_Associate
@@ -850,13 +733,11 @@ items:
   nameWithType: SORLabelLayoutTableInfo.UpdatedAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.UpdatedAssociateId_InnerJoin_Associate
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedInnerJoin<AssociateTableInfo> UpdatedAssociateId_InnerJoin_Associate { get; }
     parameters: []
@@ -864,12 +745,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
     content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
   overload: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.UpdatedAssociateId_InnerJoin_Associate*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.LeftOuterJoin_SORPublish_DefaultLabelLayout
   commentId: P:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.LeftOuterJoin_SORPublish_DefaultLabelLayout
   id: LeftOuterJoin_SORPublish_DefaultLabelLayout
@@ -881,13 +756,11 @@ items:
   nameWithType: SORLabelLayoutTableInfo.LeftOuterJoin_SORPublish_DefaultLabelLayout
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.LeftOuterJoin_SORPublish_DefaultLabelLayout
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key SORLabelLayoutId on this table, to SORPublish.<xref href=\"SuperOffice.CRM.Data.SORPublishTableInfo.DefaultLabelLayout\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key SORLabelLayoutId on this table, to SORPublish.<xref href="SuperOffice.CRM.Data.SORPublishTableInfo.DefaultLabelLayout" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<SORPublishTableInfo> LeftOuterJoin_SORPublish_DefaultLabelLayout { get; }
     parameters: []
@@ -895,35 +768,68 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SORPublishTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_SORPublish_DefaultLabelLayout As TargetedLeftOuterJoin(Of SORPublishTableInfo)
   overload: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.LeftOuterJoin_SORPublish_DefaultLabelLayout*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.Data.SQL.TableInfo
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icloneable
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
@@ -931,241 +837,185 @@ references:
   commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   name: ToString()
   nameWithType: TableInfo.ToString()
   fullName: SuperOffice.Data.SQL.TableInfo.ToString()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
-    nameWithType: TableInfo.ToString
-    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
-    nameWithType: TableInfo.ToString
-    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  name: RegisterFields(FieldInfo[])
-  nameWithType: TableInfo.RegisterFields(FieldInfo[])
-  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
-  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
-  name.vb: RegisterFields(FieldInfo())
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
+  name: RegisterFields(params FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(params FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(params SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(ParamArray FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(ParamArray SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(ParamArray FieldInfo())
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
-    nameWithType: TableInfo.RegisterFields
-    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: params
+  - name: " "
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: '['
+  - name: ']'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
-    nameWithType: TableInfo.RegisterFields
-    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: ParamArray
+  - name: " "
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   name: FieldInfoFromSoField(SoField)
   nameWithType: TableInfo.FieldInfoFromSoField(SoField)
   fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
-    nameWithType: TableInfo.FieldInfoFromSoField
-    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
-    nameWithType: SoField
-    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
-    nameWithType: TableInfo.FieldInfoFromSoField
-    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
-    nameWithType: SoField
-    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.Clone
   commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   name: Clone()
   nameWithType: TableInfo.Clone()
   fullName: SuperOffice.Data.SQL.TableInfo.Clone()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
-    nameWithType: TableInfo.Clone
-    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
-    nameWithType: TableInfo.Clone
-    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   name: IsSameTable(TableInfo)
   nameWithType: TableInfo.IsSameTable(TableInfo)
   fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
-    nameWithType: TableInfo.IsSameTable
-    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
-    nameWithType: TableInfo.IsSameTable
-    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  name: FindField(String)
-  nameWithType: TableInfo.FindField(String)
-  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
+  name: FindField(string)
+  nameWithType: TableInfo.FindField(string)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(string)
+  nameWithType.vb: TableInfo.FindField(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.FindField(String)
+  name.vb: FindField(String)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
-    nameWithType: TableInfo.FindField
-    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
-    nameWithType: TableInfo.FindField
-    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.ProtAll
   commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ProtAll
   name: ProtAll
   nameWithType: TableInfo.ProtAll
   fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
@@ -1173,6 +1023,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_HashCheckFields
   name: HashCheckFields
   nameWithType: TableInfo.HashCheckFields
   fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
@@ -1180,6 +1031,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_TableName
   name: TableName
   nameWithType: TableInfo.TableName
   fullName: SuperOffice.Data.SQL.TableInfo.TableName
@@ -1187,6 +1039,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_DbName
   name: DbName
   nameWithType: TableInfo.DbName
   fullName: SuperOffice.Data.SQL.TableInfo.DbName
@@ -1194,6 +1047,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsDictionaryTable
   name: IsDictionaryTable
   nameWithType: TableInfo.IsDictionaryTable
   fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
@@ -1201,6 +1055,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.All
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_All
   name: All
   nameWithType: TableInfo.All
   fullName: SuperOffice.Data.SQL.TableInfo.All
@@ -1208,136 +1063,389 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  name: Item[String]
-  nameWithType: TableInfo.Item[String]
-  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
-  nameWithType.vb: TableInfo.Item(String)
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-  name.vb: Item(String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: this[string]
+  nameWithType: TableInfo.this[string]
+  fullName: SuperOffice.Data.SQL.TableInfo.this[string]
+  nameWithType.vb: TableInfo.this[](String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.this[](String)
+  name.vb: this[](String)
   spec.csharp:
-  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-    name: Item
-    nameWithType: TableInfo.Item
-    fullName: SuperOffice.Data.SQL.TableInfo.Item
-    isExternal: true
+  - name: this
   - name: '['
-    nameWithType: '['
-    fullName: '['
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ']'
-    nameWithType: ']'
-    fullName: ']'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-    name: Item
-    nameWithType: TableInfo.Item
-    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    name: this[]
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Item_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_PrimaryKeyField
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<SORLabelLayoutTableInfo, To>()
-  nameWithType: EnumUtil.MapEnums<SORLabelLayoutTableInfo, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.SORLabelLayoutTableInfo, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of SORLabelLayoutTableInfo, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.SORLabelLayoutTableInfo, To)()
-  name.vb: MapEnums(Of SORLabelLayoutTableInfo, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<SORLabelLayoutTableInfo, To>(SORLabelLayoutTableInfo)
+  nameWithType: EnumUtil.MapEnums<SORLabelLayoutTableInfo, To>(SORLabelLayoutTableInfo)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.SORLabelLayoutTableInfo, To>(SuperOffice.CRM.Data.SORLabelLayoutTableInfo)
+  nameWithType.vb: EnumUtil.MapEnums(Of SORLabelLayoutTableInfo, To)(SORLabelLayoutTableInfo)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.SORLabelLayoutTableInfo, To)(SuperOffice.CRM.Data.SORLabelLayoutTableInfo)
+  name.vb: MapEnums(Of SORLabelLayoutTableInfo, To)(SORLabelLayoutTableInfo)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<SORLabelLayoutTableInfo, To>
-    nameWithType: EnumUtil.MapEnums<SORLabelLayoutTableInfo, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.SORLabelLayoutTableInfo, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.SORLabelLayoutTableInfo)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo
+    name: SORLabelLayoutTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo
+    name: SORLabelLayoutTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of SORLabelLayoutTableInfo, To)
-    nameWithType: EnumUtil.MapEnums(Of SORLabelLayoutTableInfo, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.SORLabelLayoutTableInfo, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.SORLabelLayoutTableInfo)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo
+    name: SORLabelLayoutTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo
+    name: SORLabelLayoutTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html
+  - name: )
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<SORLabelLayoutTableInfo, To>()
-  nameWithType: Converters.MapEnums<SORLabelLayoutTableInfo, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.SORLabelLayoutTableInfo, To>()
-  nameWithType.vb: Converters.MapEnums(Of SORLabelLayoutTableInfo, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.SORLabelLayoutTableInfo, To)()
-  name.vb: MapEnums(Of SORLabelLayoutTableInfo, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<SORLabelLayoutTableInfo, To>(SORLabelLayoutTableInfo)
+  nameWithType: Converters.MapEnums<SORLabelLayoutTableInfo, To>(SORLabelLayoutTableInfo)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.SORLabelLayoutTableInfo, To>(SuperOffice.CRM.Data.SORLabelLayoutTableInfo)
+  nameWithType.vb: Converters.MapEnums(Of SORLabelLayoutTableInfo, To)(SORLabelLayoutTableInfo)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.SORLabelLayoutTableInfo, To)(SuperOffice.CRM.Data.SORLabelLayoutTableInfo)
+  name.vb: MapEnums(Of SORLabelLayoutTableInfo, To)(SORLabelLayoutTableInfo)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<SORLabelLayoutTableInfo, To>
-    nameWithType: Converters.MapEnums<SORLabelLayoutTableInfo, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.SORLabelLayoutTableInfo, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.SORLabelLayoutTableInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo
+    name: SORLabelLayoutTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo
+    name: SORLabelLayoutTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of SORLabelLayoutTableInfo, To)
-    nameWithType: Converters.MapEnums(Of SORLabelLayoutTableInfo, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.SORLabelLayoutTableInfo, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.SORLabelLayoutTableInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo
+    name: SORLabelLayoutTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo
+    name: SORLabelLayoutTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1346,43 +1454,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1391,57 +1501,94 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.DictionaryTableNumber*
   commentId: Overload:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.DictionaryTableNumber
   isExternal: true
+  href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html#SuperOffice_CRM_Data_SORLabelLayoutTableInfo_DictionaryTableNumber
   name: DictionaryTableNumber
   nameWithType: SORLabelLayoutTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.DictionaryTableNumber
@@ -1449,12 +1596,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RuntimeDefinition*
   commentId: Overload:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RuntimeDefinition
   isExternal: true
+  href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html#SuperOffice_CRM_Data_SORLabelLayoutTableInfo_RuntimeDefinition
   name: RuntimeDefinition
   nameWithType: SORLabelLayoutTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RuntimeDefinition
@@ -1462,31 +1614,66 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoTable
   parent: SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable
   nameWithType: SoTable
   fullName: SuperOffice.Data.Dictionary.SoTable
 - uid: SuperOffice.Data.Dictionary
   commentId: N:SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.Dictionary
   nameWithType: SuperOffice.Data.Dictionary
   fullName: SuperOffice.Data.Dictionary
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
 - uid: SuperOffice.Data.SQL.TableInfo.Definition
   commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Definition
   name: Definition
   nameWithType: TableInfo.Definition
   fullName: SuperOffice.Data.SQL.TableInfo.Definition
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Definition*
   commentId: Overload:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Definition
   isExternal: true
+  href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html#SuperOffice_CRM_Data_SORLabelLayoutTableInfo_Definition
   name: Definition
   nameWithType: SORLabelLayoutTableInfo.Definition
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Definition
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.SORLabelLayoutId*
   commentId: Overload:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.SORLabelLayoutId
   isExternal: true
+  href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html#SuperOffice_CRM_Data_SORLabelLayoutTableInfo_SORLabelLayoutId
   name: SORLabelLayoutId
   nameWithType: SORLabelLayoutTableInfo.SORLabelLayoutId
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.SORLabelLayoutId
@@ -1494,12 +1681,14 @@ references:
   commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.Int32FieldInfo.html
   name: Int32FieldInfo
   nameWithType: Int32FieldInfo
   fullName: SuperOffice.Data.SQL.Int32FieldInfo
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Name*
   commentId: Overload:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Name
   isExternal: true
+  href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html#SuperOffice_CRM_Data_SORLabelLayoutTableInfo_Name
   name: Name
   nameWithType: SORLabelLayoutTableInfo.Name
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Name
@@ -1507,12 +1696,25 @@ references:
   commentId: T:SuperOffice.Data.SQL.StringFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.StringFieldInfo.html
   name: StringFieldInfo
   nameWithType: StringFieldInfo
   fullName: SuperOffice.Data.SQL.StringFieldInfo
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.PaperWidth*
   commentId: Overload:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.PaperWidth
   isExternal: true
+  href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html#SuperOffice_CRM_Data_SORLabelLayoutTableInfo_PaperWidth
   name: PaperWidth
   nameWithType: SORLabelLayoutTableInfo.PaperWidth
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.PaperWidth
@@ -1520,42 +1722,60 @@ references:
   commentId: T:SuperOffice.Data.SQL.FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.FieldInfo.html
   name: FieldInfo
   nameWithType: FieldInfo
   fullName: SuperOffice.Data.SQL.FieldInfo
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.PaperHeight*
   commentId: Overload:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.PaperHeight
   isExternal: true
+  href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html#SuperOffice_CRM_Data_SORLabelLayoutTableInfo_PaperHeight
   name: PaperHeight
   nameWithType: SORLabelLayoutTableInfo.PaperHeight
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.PaperHeight
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.TopMargin*
   commentId: Overload:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.TopMargin
   isExternal: true
+  href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html#SuperOffice_CRM_Data_SORLabelLayoutTableInfo_TopMargin
   name: TopMargin
   nameWithType: SORLabelLayoutTableInfo.TopMargin
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.TopMargin
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.BottomMargin*
   commentId: Overload:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.BottomMargin
   isExternal: true
+  href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html#SuperOffice_CRM_Data_SORLabelLayoutTableInfo_BottomMargin
   name: BottomMargin
   nameWithType: SORLabelLayoutTableInfo.BottomMargin
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.BottomMargin
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.LeftMargin*
   commentId: Overload:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.LeftMargin
   isExternal: true
+  href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html#SuperOffice_CRM_Data_SORLabelLayoutTableInfo_LeftMargin
   name: LeftMargin
   nameWithType: SORLabelLayoutTableInfo.LeftMargin
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.LeftMargin
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RightMargin*
   commentId: Overload:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RightMargin
   isExternal: true
+  href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html#SuperOffice_CRM_Data_SORLabelLayoutTableInfo_RightMargin
   name: RightMargin
   nameWithType: SORLabelLayoutTableInfo.RightMargin
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RightMargin
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.CountColumns*
   commentId: Overload:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.CountColumns
   isExternal: true
+  href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html#SuperOffice_CRM_Data_SORLabelLayoutTableInfo_CountColumns
   name: CountColumns
   nameWithType: SORLabelLayoutTableInfo.CountColumns
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.CountColumns
@@ -1563,36 +1783,53 @@ references:
   commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.UInt16FieldInfo.html
   name: UInt16FieldInfo
   nameWithType: UInt16FieldInfo
   fullName: SuperOffice.Data.SQL.UInt16FieldInfo
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.CountRows*
   commentId: Overload:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.CountRows
   isExternal: true
+  href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html#SuperOffice_CRM_Data_SORLabelLayoutTableInfo_CountRows
   name: CountRows
   nameWithType: SORLabelLayoutTableInfo.CountRows
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.CountRows
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Orientation*
   commentId: Overload:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Orientation
   isExternal: true
+  href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html#SuperOffice_CRM_Data_SORLabelLayoutTableInfo_Orientation
   name: Orientation
   nameWithType: SORLabelLayoutTableInfo.Orientation
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Orientation
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.PrintWidth*
   commentId: Overload:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.PrintWidth
   isExternal: true
+  href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html#SuperOffice_CRM_Data_SORLabelLayoutTableInfo_PrintWidth
   name: PrintWidth
   nameWithType: SORLabelLayoutTableInfo.PrintWidth
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.PrintWidth
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.LabelHeight*
   commentId: Overload:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.LabelHeight
   isExternal: true
+  href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html#SuperOffice_CRM_Data_SORLabelLayoutTableInfo_LabelHeight
   name: LabelHeight
   nameWithType: SORLabelLayoutTableInfo.LabelHeight
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.LabelHeight
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Registered*
   commentId: Overload:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Registered
   isExternal: true
+  href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html#SuperOffice_CRM_Data_SORLabelLayoutTableInfo_Registered
   name: Registered
   nameWithType: SORLabelLayoutTableInfo.Registered
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Registered
@@ -1600,42 +1837,57 @@ references:
   commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.DateTimeFieldInfo.html
   name: DateTimeFieldInfo
   nameWithType: DateTimeFieldInfo
   fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RegisteredAssociateId*
   commentId: Overload:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RegisteredAssociateId
   isExternal: true
+  href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html#SuperOffice_CRM_Data_SORLabelLayoutTableInfo_RegisteredAssociateId
   name: RegisteredAssociateId
   nameWithType: SORLabelLayoutTableInfo.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RegisteredAssociateId
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Updated*
   commentId: Overload:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Updated
   isExternal: true
+  href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html#SuperOffice_CRM_Data_SORLabelLayoutTableInfo_Updated
   name: Updated
   nameWithType: SORLabelLayoutTableInfo.Updated
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Updated
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.UpdatedAssociateId*
   commentId: Overload:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.UpdatedAssociateId
   isExternal: true
+  href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html#SuperOffice_CRM_Data_SORLabelLayoutTableInfo_UpdatedAssociateId
   name: UpdatedAssociateId
   nameWithType: SORLabelLayoutTableInfo.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.UpdatedAssociateId
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.UpdatedCount*
   commentId: Overload:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.UpdatedCount
   isExternal: true
+  href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html#SuperOffice_CRM_Data_SORLabelLayoutTableInfo_UpdatedCount
   name: UpdatedCount
   nameWithType: SORLabelLayoutTableInfo.UpdatedCount
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.UpdatedCount
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Description*
   commentId: Overload:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Description
   isExternal: true
+  href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html#SuperOffice_CRM_Data_SORLabelLayoutTableInfo_Description
   name: Description
   nameWithType: SORLabelLayoutTableInfo.Description
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.Description
+- uid: SuperOffice.CRM.Data.AssociateTableInfo
+  commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html
+  name: AssociateTableInfo
+  nameWithType: AssociateTableInfo
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RegisteredAssociateId_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RegisteredAssociateId_InnerJoin_Associate
   isExternal: true
+  href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html#SuperOffice_CRM_Data_SORLabelLayoutTableInfo_RegisteredAssociateId_InnerJoin_Associate
   name: RegisteredAssociateId_InnerJoin_Associate
   nameWithType: SORLabelLayoutTableInfo.RegisteredAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.RegisteredAssociateId_InnerJoin_Associate
@@ -1643,6 +1895,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<AssociateTableInfo>
   nameWithType: TargetedInnerJoin<AssociateTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.AssociateTableInfo>
@@ -1652,40 +1905,31 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.AssociateTableInfo
     name: AssociateTableInfo
-    nameWithType: AssociateTableInfo
-    fullName: SuperOffice.CRM.Data.AssociateTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.AssociateTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.AssociateTableInfo
     name: AssociateTableInfo
-    nameWithType: AssociateTableInfo
-    fullName: SuperOffice.CRM.Data.AssociateTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.AssociateTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
   isExternal: true
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<TargetTableInfo>
   nameWithType: TargetedInnerJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
@@ -1695,42 +1939,39 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.UpdatedAssociateId_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.UpdatedAssociateId_InnerJoin_Associate
   isExternal: true
+  href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html#SuperOffice_CRM_Data_SORLabelLayoutTableInfo_UpdatedAssociateId_InnerJoin_Associate
   name: UpdatedAssociateId_InnerJoin_Associate
   nameWithType: SORLabelLayoutTableInfo.UpdatedAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.UpdatedAssociateId_InnerJoin_Associate
+- uid: SuperOffice.CRM.Data.SORPublishTableInfo.DefaultLabelLayout
+  commentId: P:SuperOffice.CRM.Data.SORPublishTableInfo.DefaultLabelLayout
+  isExternal: true
+  href: SuperOffice.CRM.Data.SORPublishTableInfo.html#SuperOffice_CRM_Data_SORPublishTableInfo_DefaultLabelLayout
+  name: DefaultLabelLayout
+  nameWithType: SORPublishTableInfo.DefaultLabelLayout
+  fullName: SuperOffice.CRM.Data.SORPublishTableInfo.DefaultLabelLayout
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.LeftOuterJoin_SORPublish_DefaultLabelLayout*
   commentId: Overload:SuperOffice.CRM.Data.SORLabelLayoutTableInfo.LeftOuterJoin_SORPublish_DefaultLabelLayout
   isExternal: true
+  href: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.html#SuperOffice_CRM_Data_SORLabelLayoutTableInfo_LeftOuterJoin_SORPublish_DefaultLabelLayout
   name: LeftOuterJoin_SORPublish_DefaultLabelLayout
   nameWithType: SORLabelLayoutTableInfo.LeftOuterJoin_SORPublish_DefaultLabelLayout
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo.LeftOuterJoin_SORPublish_DefaultLabelLayout
@@ -1738,6 +1979,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SORPublishTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<SORPublishTableInfo>
   nameWithType: TargetedLeftOuterJoin<SORPublishTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.SORPublishTableInfo>
@@ -1747,40 +1989,31 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.SORPublishTableInfo
     name: SORPublishTableInfo
-    nameWithType: SORPublishTableInfo
-    fullName: SuperOffice.CRM.Data.SORPublishTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.SORPublishTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.SORPublishTableInfo
     name: SORPublishTableInfo
-    nameWithType: SORPublishTableInfo
-    fullName: SuperOffice.CRM.Data.SORPublishTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.SORPublishTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
   isExternal: true
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<TargetTableInfo>
   nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
@@ -1790,30 +2023,18 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: )
-    nameWithType: )
-    fullName: )

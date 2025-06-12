@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDomainDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "sit"
+  "Domain": "rerum"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Rowe-Wisoky",
-    "SoPrimaryKey": 441,
-    "EntryName": "Pfannerstill-Schroeder",
-    "EntryIdentifier": "laudantium",
-    "RuleDisplayName": "Flatley, Parisian and Konopelski",
+    "RuleName": "Lockman, Raynor and Gerlach",
+    "SoPrimaryKey": 507,
+    "EntryName": "Altenwerth Group",
+    "EntryIdentifier": "nam",
+    "RuleDisplayName": "Howe-Schulist",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 705
+        "FieldLength": 90
       }
     }
   }

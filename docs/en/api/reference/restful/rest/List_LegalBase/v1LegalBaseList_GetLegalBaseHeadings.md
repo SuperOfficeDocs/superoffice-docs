@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 949,
-    "Name": "Wuckert, Daugherty and Rodriguez",
-    "Tooltip": "error",
+    "HeadingId": 311,
+    "Name": "Jones-Ziemann",
+    "Tooltip": "provident",
     "Deleted": false,
-    "Rank": 415,
-    "UdListDefinitionId": 92,
+    "Rank": 46,
+    "UdListDefinitionId": 744,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 908
+        "FieldType": "System.Int32",
+        "FieldLength": 95
       }
     }
   }

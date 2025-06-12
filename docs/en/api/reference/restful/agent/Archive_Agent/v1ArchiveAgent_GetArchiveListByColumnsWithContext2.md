@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Torphy, Gaylord and Brown",
-  "Columns": "omnis",
-  "SortOrder": "sapiente",
-  "Restriction": "quia",
-  "Entities": "dolorem",
-  "Page": 552,
-  "PageSize": 107,
-  "Context": "repudiandae"
+  "ProviderName": "Dickens Group",
+  "Columns": "dolorum",
+  "SortOrder": "architecto",
+  "Restriction": "consequatur",
+  "Entities": "ipsam",
+  "Page": 84,
+  "PageSize": 85,
+  "Context": "laborum"
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Bogisich Inc and Sons",
-    "PrimaryKey": 761,
+    "EntityName": "D'Amore Group",
+    "PrimaryKey": 359,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "nisi",
-        "TooltipHint": "dolores",
-        "LinkHint": "aliquam"
+        "DisplayValue": "doloribus",
+        "TooltipHint": "aut",
+        "LinkHint": "aliquid"
       }
     },
-    "LinkHint": "et",
-    "StyleHint": "non",
+    "LinkHint": "nihil",
+    "StyleHint": "atque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 496
+        "FieldLength": 107
       }
     }
   }

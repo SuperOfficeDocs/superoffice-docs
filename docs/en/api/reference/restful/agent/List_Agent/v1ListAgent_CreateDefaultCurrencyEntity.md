@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 780,
-  "Name": "Kulas, Aufderhar and Schuster",
-  "Tooltip": "corporis",
-  "Rank": 985,
-  "Rate": 19227.09,
-  "Units": 27369.221999999998,
-  "Deleted": false,
+  "CurrencyId": 424,
+  "Name": "Runolfsson-Schimmel",
+  "Tooltip": "vero",
+  "Rank": 480,
+  "Rate": 12344.826,
+  "Units": 21273.592,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 857
+      "FieldLength": 21
     }
   }
 }

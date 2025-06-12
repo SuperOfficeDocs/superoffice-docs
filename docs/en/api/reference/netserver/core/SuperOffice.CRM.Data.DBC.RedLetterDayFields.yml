@@ -22,27 +22,24 @@ items:
   nameWithType: DBC.RedLetterDayFields
   fullName: SuperOffice.CRM.Data.DBC.RedLetterDayFields
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nFields for RedLetterDay, Red letter days for calendar (holidays, birthday of king etc)\n"
+  summary: Fields for RedLetterDay, Red letter days for calendar (holidays, birthday of king etc)
+  example: []
   syntax:
-    content: 'public static class RedLetterDayFields : Object'
-    content.vb: >-
-      Public Module RedLetterDayFields
-          Inherits Object
+    content: public static class DBC.RedLetterDayFields
+    content.vb: Public Module DBC.RedLetterDayFields
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Data.DBC.RedLetterDayFields.RedletterdayId
   commentId: F:SuperOffice.CRM.Data.DBC.RedLetterDayFields.RedletterdayId
   id: RedletterdayId
@@ -54,24 +51,16 @@ items:
   nameWithType: DBC.RedLetterDayFields.RedletterdayId
   fullName: SuperOffice.CRM.Data.DBC.RedLetterDayFields.RedletterdayId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nRedLetterDay.RedletterdayId: Primary key\n"
+  summary: 'RedLetterDay.RedletterdayId: Primary key'
+  example: []
   syntax:
     content: public const string RedletterdayId = "redletterday_id"
     return:
       type: System.String
     content.vb: Public Const RedletterdayId As String = "redletterday_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.RedLetterDayFields.Reddate
   commentId: F:SuperOffice.CRM.Data.DBC.RedLetterDayFields.Reddate
   id: Reddate
@@ -83,24 +72,16 @@ items:
   nameWithType: DBC.RedLetterDayFields.Reddate
   fullName: SuperOffice.CRM.Data.DBC.RedLetterDayFields.Reddate
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nRedLetterDay.Reddate: The date \n"
+  summary: 'RedLetterDay.Reddate: The date'
+  example: []
   syntax:
     content: public const string Reddate = "reddate"
     return:
       type: System.String
     content.vb: Public Const Reddate As String = "reddate"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.RedLetterDayFields.CountryId
   commentId: F:SuperOffice.CRM.Data.DBC.RedLetterDayFields.CountryId
   id: CountryId
@@ -112,24 +93,16 @@ items:
   nameWithType: DBC.RedLetterDayFields.CountryId
   fullName: SuperOffice.CRM.Data.DBC.RedLetterDayFields.CountryId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nRedLetterDay.CountryId: Which country does this red letter day belong to. It will show up in the diary for associates with this country as homecountry.\n"
+  summary: 'RedLetterDay.CountryId: Which country does this red letter day belong to. It will show up in the diary for associates with this country as homecountry.'
+  example: []
   syntax:
     content: public const string CountryId = "country_id"
     return:
       type: System.String
     content.vb: Public Const CountryId As String = "country_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.RedLetterDayFields.Reds
   commentId: F:SuperOffice.CRM.Data.DBC.RedLetterDayFields.Reds
   id: Reds
@@ -141,24 +114,16 @@ items:
   nameWithType: DBC.RedLetterDayFields.Reds
   fullName: SuperOffice.CRM.Data.DBC.RedLetterDayFields.Reds
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nRedLetterDay.Reds: The n´th bit corresponding to the date in dates month, is true if the color is active.\n"
+  summary: 'RedLetterDay.Reds: The n´th bit corresponding to the date in dates month, is true if the color is active.'
+  example: []
   syntax:
     content: public const string Reds = "reds"
     return:
       type: System.String
     content.vb: Public Const Reds As String = "reds"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.RedLetterDayFields.Colored
   commentId: F:SuperOffice.CRM.Data.DBC.RedLetterDayFields.Colored
   id: Colored
@@ -170,24 +135,16 @@ items:
   nameWithType: DBC.RedLetterDayFields.Colored
   fullName: SuperOffice.CRM.Data.DBC.RedLetterDayFields.Colored
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nRedLetterDay.Colored: The n´th bit corresponding to the date in dates month, is true if the color is active.\n"
+  summary: 'RedLetterDay.Colored: The n´th bit corresponding to the date in dates month, is true if the color is active.'
+  example: []
   syntax:
     content: public const string Colored = "colored"
     return:
       type: System.String
     content.vb: Public Const Colored As String = "colored"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.RedLetterDayFields.Color
   commentId: F:SuperOffice.CRM.Data.DBC.RedLetterDayFields.Color
   id: Color
@@ -199,24 +156,16 @@ items:
   nameWithType: DBC.RedLetterDayFields.Color
   fullName: SuperOffice.CRM.Data.DBC.RedLetterDayFields.Color
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nRedLetterDay.Color: color can be one of the following: RLD_COLOR_BLACK, RLD_COLOR_RED, RLD_COLOR_SPES\n"
+  summary: 'RedLetterDay.Color: color can be one of the following: RLD_COLOR_BLACK, RLD_COLOR_RED, RLD_COLOR_SPES'
+  example: []
   syntax:
     content: public const string Color = "color"
     return:
       type: System.String
     content.vb: Public Const Color As String = "color"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.RedLetterDayFields.Text
   commentId: F:SuperOffice.CRM.Data.DBC.RedLetterDayFields.Text
   id: Text
@@ -228,24 +177,16 @@ items:
   nameWithType: DBC.RedLetterDayFields.Text
   fullName: SuperOffice.CRM.Data.DBC.RedLetterDayFields.Text
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nRedLetterDay.Text: Text to show on the date\n"
+  summary: 'RedLetterDay.Text: Text to show on the date'
+  example: []
   syntax:
     content: public const string Text = "text"
     return:
       type: System.String
     content.vb: Public Const Text As String = "text"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.RedLetterDayFields.UpdatedCount
   commentId: F:SuperOffice.CRM.Data.DBC.RedLetterDayFields.UpdatedCount
   id: UpdatedCount
@@ -257,24 +198,16 @@ items:
   nameWithType: DBC.RedLetterDayFields.UpdatedCount
   fullName: SuperOffice.CRM.Data.DBC.RedLetterDayFields.UpdatedCount
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nRedLetterDay.UpdatedCount: Number of updates made to this record\n"
+  summary: 'RedLetterDay.UpdatedCount: Number of updates made to this record'
+  example: []
   syntax:
     content: public const string UpdatedCount = "updatedCount"
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.RedLetterDayFields.RgbColour
   commentId: F:SuperOffice.CRM.Data.DBC.RedLetterDayFields.RgbColour
   id: RgbColour
@@ -286,24 +219,16 @@ items:
   nameWithType: DBC.RedLetterDayFields.RgbColour
   fullName: SuperOffice.CRM.Data.DBC.RedLetterDayFields.RgbColour
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nRedLetterDay.RgbColour: Actual RGB colour index\n"
+  summary: 'RedLetterDay.RgbColour: Actual RGB colour index'
+  example: []
   syntax:
     content: public const string RgbColour = "rgbColour"
     return:
       type: System.String
     content.vb: Public Const RgbColour As String = "rgbColour"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.RedLetterDayFields.ExtraFlags
   commentId: F:SuperOffice.CRM.Data.DBC.RedLetterDayFields.ExtraFlags
   id: ExtraFlags
@@ -315,41 +240,288 @@ items:
   nameWithType: DBC.RedLetterDayFields.ExtraFlags
   fullName: SuperOffice.CRM.Data.DBC.RedLetterDayFields.ExtraFlags
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nRedLetterDay.ExtraFlags: Extra flags, spare field\n"
+  summary: 'RedLetterDay.ExtraFlags: Extra flags, spare field'
+  example: []
   syntax:
     content: public const string ExtraFlags = "extraFlags"
     return:
       type: System.String
     content.vb: Public Const ExtraFlags As String = "extraFlags"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -357,6 +529,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

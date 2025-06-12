@@ -41,27 +41,24 @@ items:
   nameWithType: UserPreferenceStrings.NetServices
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nSuperOffice Web Services settings\n"
+  summary: SuperOffice Web Services settings
+  example: []
   syntax:
-    content: 'public static class NetServices : Object'
-    content.vb: >-
-      Public Module NetServices
-          Inherits Object
+    content: public static class UserPreferenceStrings.NetServices
+    content.vb: Public Module UserPreferenceStrings.NetServices
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.Section
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.Section
   id: Section
@@ -73,24 +70,16 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.Section
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.Section
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nSection heading. \n"
+  summary: Section heading.
+  example: []
   syntax:
     content: public const string Section = "NetServices"
     return:
       type: System.String
     content.vb: Public Const Section As String = "NetServices"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.ELearningUrl
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.ELearningUrl
   id: ELearningUrl
@@ -102,24 +91,19 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.ELearningUrl
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.ELearningUrl
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nURL to E-Learning\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  summary: >-
+    URL to E-Learning
+
+    <p></p>Control type: Text, access: Admin, Admin users, Wizard
+  example: []
   syntax:
     content: public const string ELearningUrl = "ELearningUrl"
     return:
       type: System.String
     content.vb: Public Const ELearningUrl As String = "ELearningUrl"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.EnableNetServicesOnCentral
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.EnableNetServicesOnCentral
   id: EnableNetServicesOnCentral
@@ -131,24 +115,29 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.EnableNetServicesOnCentral
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.EnableNetServicesOnCentral
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nMake Web Services available on your central and satellite databases. (Default = YES)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  summary: >-
+    Make Web Services available on your central and satellite databases. (Default = YES)
+
+    <p></p>Control type: Bool, access: Admin, Admin users, Wizard
+  example: []
   syntax:
-    content: public const string EnableNetServicesOnCentral = "EnableNetServicesOnCentral"
+    content: >-
+      [Obsolete]
+
+      public const string EnableNetServicesOnCentral = "EnableNetServicesOnCentral"
     return:
       type: System.String
-    content.vb: Public Const EnableNetServicesOnCentral As String = "EnableNetServicesOnCentral"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <Obsolete>
+
+      Public Const EnableNetServicesOnCentral As String = "EnableNetServicesOnCentral"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.EnableNetServicesOnTravel
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.EnableNetServicesOnTravel
   id: EnableNetServicesOnTravel
@@ -160,24 +149,29 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.EnableNetServicesOnTravel
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.EnableNetServicesOnTravel
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nMake Web Services available on your Travel databases. (Default = YES)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  summary: >-
+    Make Web Services available on your Travel databases. (Default = YES)
+
+    <p></p>Control type: Bool, access: Admin, Admin users, Wizard
+  example: []
   syntax:
-    content: public const string EnableNetServicesOnTravel = "EnableNetServicesOnTravel"
+    content: >-
+      [Obsolete]
+
+      public const string EnableNetServicesOnTravel = "EnableNetServicesOnTravel"
     return:
       type: System.String
-    content.vb: Public Const EnableNetServicesOnTravel As String = "EnableNetServicesOnTravel"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <Obsolete>
+
+      Public Const EnableNetServicesOnTravel As String = "EnableNetServicesOnTravel"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.LastPage
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.LastPage
   id: LastPage
@@ -189,24 +183,29 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.LastPage
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.LastPage
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nLast page read\n<p></p>Control type: Number, access: Wizard\n"
+  summary: >-
+    Last page read
+
+    <p></p>Control type: Number, access: Wizard
+  example: []
   syntax:
-    content: public const string LastPage = "LastPage"
+    content: >-
+      [Obsolete]
+
+      public const string LastPage = "LastPage"
     return:
       type: System.String
-    content.vb: Public Const LastPage As String = "LastPage"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <Obsolete>
+
+      Public Const LastPage As String = "LastPage"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.NewsURL
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.NewsURL
   id: NewsURL
@@ -218,24 +217,29 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.NewsURL
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.NewsURL
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nNews URL\n<p></p>Control type: Text, access: Wizard\n"
+  summary: >-
+    News URL
+
+    <p></p>Control type: Text, access: Wizard
+  example: []
   syntax:
-    content: public const string NewsURL = "NewsURL"
+    content: >-
+      [Obsolete]
+
+      public const string NewsURL = "NewsURL"
     return:
       type: System.String
-    content.vb: Public Const NewsURL As String = "NewsURL"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <Obsolete>
+
+      Public Const NewsURL As String = "NewsURL"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.NextDate
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.NextDate
   id: NextDate
@@ -247,24 +251,19 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.NextDate
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.NextDate
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nNext date CRM should check for news on Web Services (yyyy.mm.dd)\n<p></p>Control type: Text, access: Wizard\n"
+  summary: >-
+    Next date CRM should check for news on Web Services (yyyy.mm.dd)
+
+    <p></p>Control type: Text, access: Wizard
+  example: []
   syntax:
     content: public const string NextDate = "NextDate"
     return:
       type: System.String
     content.vb: Public Const NextDate As String = "NextDate"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.PageURL
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.PageURL
   id: PageURL
@@ -276,26 +275,24 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.PageURL
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.PageURL
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWWW Page URL - show when the Logo clicked in the client.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\n<p></p>Control type: Text, access: Wizard\n"
+  summary: >-
+    WWW Page URL - show when the Logo clicked in the client.
+
+    Note that URL in this preference will have merge tags that need to 
+
+    be substituted before use.
+
+    <p></p>Control type: Text, access: Wizard
   example:
-  - "\nhttps://help.superoffice.com/SODispatcher/v1/wwwPage?ver=&lt;ver#>&amp;langiso=&lt;lani>\n"
+  - https://help.superoffice.com/SODispatcher/v1/wwwPage?ver=&lt;ver#&gt;&amp;langiso=&lt;lani&gt;
   syntax:
     content: public const string PageURL = "PageURL"
     return:
       type: System.String
     content.vb: Public Const PageURL As String = "PageURL"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.SeenTeaserDlg
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.SeenTeaserDlg
   id: SeenTeaserDlg
@@ -307,24 +304,29 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.SeenTeaserDlg
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.SeenTeaserDlg
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe user has read the teaser from Web Services.\n<p></p>Control type: Bool, access: Wizard\n"
+  summary: >-
+    The user has read the teaser from Web Services.
+
+    <p></p>Control type: Bool, access: Wizard
+  example: []
   syntax:
-    content: public const string SeenTeaserDlg = "SeenTeaserDlg"
+    content: >-
+      [Obsolete]
+
+      public const string SeenTeaserDlg = "SeenTeaserDlg"
     return:
       type: System.String
-    content.vb: Public Const SeenTeaserDlg As String = "SeenTeaserDlg"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <Obsolete>
+
+      Public Const SeenTeaserDlg As String = "SeenTeaserDlg"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.ShowOnStartup
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.ShowOnStartup
   id: ShowOnStartup
@@ -336,24 +338,29 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.ShowOnStartup
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.ShowOnStartup
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nShow news from SuperOffice Web Services on startup. (Default = YES)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  summary: >-
+    Show news from SuperOffice Web Services on startup. (Default = YES)
+
+    <p></p>Control type: Bool, access: Admin, Admin users, Wizard
+  example: []
   syntax:
-    content: public const string ShowOnStartup = "ShowOnStartup"
+    content: >-
+      [Obsolete]
+
+      public const string ShowOnStartup = "ShowOnStartup"
     return:
       type: System.String
-    content.vb: Public Const ShowOnStartup As String = "ShowOnStartup"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <Obsolete>
+
+      Public Const ShowOnStartup As String = "ShowOnStartup"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.StatusCheckTimeout
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.StatusCheckTimeout
   id: StatusCheckTimeout
@@ -365,24 +372,29 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.StatusCheckTimeout
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.StatusCheckTimeout
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nTimeout for reading status from Web Services in seconds. (Default = 60)\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  summary: >-
+    Timeout for reading status from Web Services in seconds. (Default = 60)
+
+    <p></p>Control type: Number, access: Admin, Admin users, Wizard
+  example: []
   syntax:
-    content: public const string StatusCheckTimeout = "StatusCheckTimeout"
+    content: >-
+      [Obsolete]
+
+      public const string StatusCheckTimeout = "StatusCheckTimeout"
     return:
       type: System.String
-    content.vb: Public Const StatusCheckTimeout As String = "StatusCheckTimeout"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <Obsolete>
+
+      Public Const StatusCheckTimeout As String = "StatusCheckTimeout"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.StatusURL
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.StatusURL
   id: StatusURL
@@ -394,26 +406,24 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.StatusURL
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.StatusURL
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nStatus URL - returns XML or JSON with list of links to update NetServices preferences with.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\n<p></p>Control type: Text, access: Wizard\n"
+  summary: >-
+    Status URL - returns XML or JSON with list of links to update NetServices preferences with.
+
+    Note that URL in this preference will have merge tags that need to 
+
+    be substituted before use.
+
+    <p></p>Control type: Text, access: Wizard
   example:
-  - "\nhttps://help.superoffice.com/SODispatcher/v1/Status?ver=&lt;ver#>&amp;langiso=&lt;lani>\n"
+  - https://help.superoffice.com/SODispatcher/v1/Status?ver=&lt;ver#&gt;&amp;langiso=&lt;lani&gt;
   syntax:
     content: public const string StatusURL = "StatusURL"
     return:
       type: System.String
     content.vb: Public Const StatusURL As String = "StatusURL"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.WebtoolsDownloadUrl
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.WebtoolsDownloadUrl
   id: WebtoolsDownloadUrl
@@ -425,24 +435,16 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.WebtoolsDownloadUrl
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.WebtoolsDownloadUrl
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nPreferencekey for DownloadService dispatcher-provided URL template string.\n"
+  summary: Preferencekey for DownloadService dispatcher-provided URL template string.
+  example: []
   syntax:
     content: public const string WebtoolsDownloadUrl = "WebtoolsDownloadUrl"
     return:
       type: System.String
     content.vb: Public Const WebtoolsDownloadUrl As String = "WebtoolsDownloadUrl"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.TeaserURL
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.TeaserURL
   id: TeaserURL
@@ -454,24 +456,29 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.TeaserURL
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.TeaserURL
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nTeaser URL\n<p></p>Control type: Text, access: Wizard\n"
+  summary: >-
+    Teaser URL
+
+    <p></p>Control type: Text, access: Wizard
+  example: []
   syntax:
-    content: public const string TeaserURL = "TeaserURL"
+    content: >-
+      [Obsolete]
+
+      public const string TeaserURL = "TeaserURL"
     return:
       type: System.String
-    content.vb: Public Const TeaserURL As String = "TeaserURL"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <Obsolete>
+
+      Public Const TeaserURL As String = "TeaserURL"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.UserPassportId
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.UserPassportId
   id: UserPassportId
@@ -483,24 +490,29 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.UserPassportId
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.UserPassportId
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe Microsoft Passport ID of this associate (not the e-mail address)\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  summary: >-
+    The Microsoft Passport ID of this associate (not the e-mail address)
+
+    <p></p>Control type: Text, access: Admin, Admin users, Wizard
+  example: []
   syntax:
-    content: public const string UserPassportId = "UserPassportId"
+    content: >-
+      [Obsolete]
+
+      public const string UserPassportId = "UserPassportId"
     return:
       type: System.String
-    content.vb: Public Const UserPassportId As String = "UserPassportId"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <Obsolete>
+
+      Public Const UserPassportId As String = "UserPassportId"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.WhatsNewUrl
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.WhatsNewUrl
   id: WhatsNewUrl
@@ -512,26 +524,33 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.WhatsNewUrl
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.WhatsNewUrl
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhatsNew URL - call this to get the URL to the latest news page.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\nClient should compare the returned URL with the WhatsNewLatestWeb or\nWhatsNewLatestPocket, depending on the client.\n<p></p>Control type: Text, access: Wizard\n"
+  summary: >-
+    WhatsNew URL - call this to get the URL to the latest news page.
+
+    Note that URL in this preference will have merge tags that need to 
+
+    be substituted before use.
+
+    Client should compare the returned URL with the WhatsNewLatestWeb or
+
+    WhatsNewLatestPocket, depending on the client.
+
+    <p></p>Control type: Text, access: Wizard
   example:
-  - "\nhttps://help.superoffice.com/SODispatcher/v1/WhatsNew?ver=&lt;ver#>&amp;langiso=&lt;lani>\nreturns JSON object when called:\n{ url: &quot;https://help.superoffice.com/news/web/8.0.10/default.htm&quot; }\n"
+  - >-
+    https://help.superoffice.com/SODispatcher/v1/WhatsNew?ver=&lt;ver#&gt;&amp;langiso=&lt;lani&gt;
+
+    returns JSON object when called:
+
+    { url: "https://help.superoffice.com/news/web/8.0.10/default.htm" }
   syntax:
     content: public const string WhatsNewUrl = "WhatsNewUrl"
     return:
       type: System.String
     content.vb: Public Const WhatsNewUrl As String = "WhatsNewUrl"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.WhatsNewSeenWeb
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.WhatsNewSeenWeb
   id: WhatsNewSeenWeb
@@ -543,26 +562,22 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.WhatsNewSeenWeb
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.WhatsNewSeenWeb
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhatsNew Seen on Web client. The latest WhatsNew URL we have seen in the web client.\nUpdated by the client when the WhatsNewUrl has been changed.\n<p></p>Control type: Text, access: Wizard\n"
+  summary: >-
+    WhatsNew Seen on Web client. The latest WhatsNew URL we have seen in the web client.
+
+    Updated by the client when the WhatsNewUrl has been changed.
+
+    <p></p>Control type: Text, access: Wizard
   example:
-  - "\nhttps://help.superoffice.com/news/web/8.0.10/default.htm\n"
+  - https://help.superoffice.com/news/web/8.0.10/default.htm
   syntax:
     content: public const string WhatsNewSeenWeb = "WhatsNewSeenWeb"
     return:
       type: System.String
     content.vb: Public Const WhatsNewSeenWeb As String = "WhatsNewSeenWeb"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.WhatsNewConfirmedWeb
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.WhatsNewConfirmedWeb
   id: WhatsNewConfirmedWeb
@@ -574,26 +589,22 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.WhatsNewConfirmedWeb
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.WhatsNewConfirmedWeb
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhatsNew Latest confirmed on web client. The latests WhatsNew URL the user has confirmed on the web client.\nUpdated by the client when teh user clicks GOT IT in the whats new dialog.\n<p></p>Control type: Text, access: Wizard\n"
+  summary: >-
+    WhatsNew Latest confirmed on web client. The latests WhatsNew URL the user has confirmed on the web client.
+
+    Updated by the client when teh user clicks GOT IT in the whats new dialog.
+
+    <p></p>Control type: Text, access: Wizard
   example:
-  - "\nhttps://help.superoffice.com/news/web/8.0.10/default.htm\n"
+  - https://help.superoffice.com/news/web/8.0.10/default.htm
   syntax:
     content: public const string WhatsNewConfirmedWeb = "WhatsNewConfirmedWeb"
     return:
       type: System.String
     content.vb: Public Const WhatsNewConfirmedWeb As String = "WhatsNewConfirmedWeb"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.WhatsNewSeenWin
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.WhatsNewSeenWin
   id: WhatsNewSeenWin
@@ -605,26 +616,22 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.WhatsNewSeenWin
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.WhatsNewSeenWin
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhatsNew Seen on Web client. The latest WhatsNew URL we have seen in the web client.\nUpdated by the client when the WhatsNewUrl has been changed.\n<p></p>Control type: Text, access: Wizard\n"
+  summary: >-
+    WhatsNew Seen on Web client. The latest WhatsNew URL we have seen in the web client.
+
+    Updated by the client when the WhatsNewUrl has been changed.
+
+    <p></p>Control type: Text, access: Wizard
   example:
-  - "\nhttps://help.superoffice.com/news/win/8.0.10/default.htm\n"
+  - https://help.superoffice.com/news/win/8.0.10/default.htm
   syntax:
     content: public const string WhatsNewSeenWin = "WhatsNewSeenWin"
     return:
       type: System.String
     content.vb: Public Const WhatsNewSeenWin As String = "WhatsNewSeenWin"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.WhatsNewConfirmedWin
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.WhatsNewConfirmedWin
   id: WhatsNewConfirmedWin
@@ -636,26 +643,22 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.WhatsNewConfirmedWin
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.WhatsNewConfirmedWin
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhatsNew Latest confirmed on web client. The latests WhatsNew URL the user has confirmed on the web client.\nUpdated by the client when teh user clicks GOT IT in the whats new dialog.\n<p></p>Control type: Text, access: Wizard\n"
+  summary: >-
+    WhatsNew Latest confirmed on web client. The latests WhatsNew URL the user has confirmed on the web client.
+
+    Updated by the client when teh user clicks GOT IT in the whats new dialog.
+
+    <p></p>Control type: Text, access: Wizard
   example:
-  - "\nhttps://help.superoffice.com/news/win/8.0.10/default.htm\n"
+  - https://help.superoffice.com/news/win/8.0.10/default.htm
   syntax:
     content: public const string WhatsNewConfirmedWin = "WhatsNewConfirmedWin"
     return:
       type: System.String
     content.vb: Public Const WhatsNewConfirmedWin As String = "WhatsNewConfirmedWin"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.WhatsNewSeenPocket
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.WhatsNewSeenPocket
   id: WhatsNewSeenPocket
@@ -667,26 +670,22 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.WhatsNewSeenPocket
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.WhatsNewSeenPocket
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhatsNew Seen on Web client. The latest WhatsNew URL we have seen in the web client.\nUpdated by the client when the WhatsNewUrl has been changed.\n<p></p>Control type: Text, access: Wizard\n"
+  summary: >-
+    WhatsNew Seen on Web client. The latest WhatsNew URL we have seen in the web client.
+
+    Updated by the client when the WhatsNewUrl has been changed.
+
+    <p></p>Control type: Text, access: Wizard
   example:
-  - "\nhttps://help.superoffice.com/news/pocket/8.0.10/default.htm\n"
+  - https://help.superoffice.com/news/pocket/8.0.10/default.htm
   syntax:
     content: public const string WhatsNewSeenPocket = "WhatsNewSeenPocket"
     return:
       type: System.String
     content.vb: Public Const WhatsNewSeenPocket As String = "WhatsNewSeenPocket"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.WhatsNewConfirmedPocket
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.WhatsNewConfirmedPocket
   id: WhatsNewConfirmedPocket
@@ -698,26 +697,22 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.WhatsNewConfirmedPocket
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.WhatsNewConfirmedPocket
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhatsNew Latest confirmed on web client. The latests WhatsNew URL the user has confirmed on the web client.\nUpdated by the client when teh user clicks GOT IT in the whats new dialog.\n<p></p>Control type: Text, access: Wizard\n"
+  summary: >-
+    WhatsNew Latest confirmed on web client. The latests WhatsNew URL the user has confirmed on the web client.
+
+    Updated by the client when teh user clicks GOT IT in the whats new dialog.
+
+    <p></p>Control type: Text, access: Wizard
   example:
-  - "\nhttps://help.superoffice.com/news/pocket/8.0.10/default.htm\n"
+  - https://help.superoffice.com/news/pocket/8.0.10/default.htm
   syntax:
     content: public const string WhatsNewConfirmedPocket = "WhatsNewConfirmedPocket"
     return:
       type: System.String
     content.vb: Public Const WhatsNewConfirmedPocket As String = "WhatsNewConfirmedPocket"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.CommunityUrl
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.CommunityUrl
   id: CommunityUrl
@@ -729,26 +724,24 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.CommunityUrl
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.CommunityUrl
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCommunity URL - Link to the Customer Community homepage.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\n<p></p>Control type: Text, access: Wizard\n"
+  summary: >-
+    Community URL - Link to the Customer Community homepage.
+
+    Note that URL in this preference will have merge tags that need to 
+
+    be substituted before use.
+
+    <p></p>Control type: Text, access: Wizard
   example:
-  - "\nhttps://help.superoffice.com/SODispatcher/v1/Community?ver=&lt;ver#>&amp;langiso=&lt;lani>\n"
+  - https://help.superoffice.com/SODispatcher/v1/Community?ver=&lt;ver#&gt;&amp;langiso=&lt;lani&gt;
   syntax:
     content: public const string CommunityUrl = "CommunityUrl"
     return:
       type: System.String
     content.vb: Public Const CommunityUrl As String = "CommunityUrl"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.FeedbackUrl
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.FeedbackUrl
   id: FeedbackUrl
@@ -760,26 +753,24 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.FeedbackUrl
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.FeedbackUrl
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nFeedback URL - Link to the Feedback form.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\n<p></p>Control type: Text, access: Wizard\n"
+  summary: >-
+    Feedback URL - Link to the Feedback form.
+
+    Note that URL in this preference will have merge tags that need to 
+
+    be substituted before use.
+
+    <p></p>Control type: Text, access: Wizard
   example:
-  - "\nhttps://help.superoffice.com/SODispatcher/v1/Feedback?ver=&lt;ver#>&amp;langiso=&lt;lani>\n"
+  - https://help.superoffice.com/SODispatcher/v1/Feedback?ver=&lt;ver#&gt;&amp;langiso=&lt;lani&gt;
   syntax:
     content: public const string FeedbackUrl = "FeedbackUrl"
     return:
       type: System.String
     content.vb: Public Const FeedbackUrl As String = "FeedbackUrl"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.TechSupportUrl
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.TechSupportUrl
   id: TechSupportUrl
@@ -791,26 +782,24 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.TechSupportUrl
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.TechSupportUrl
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nTech Support URL - Link to the Tech Support page.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\n<p></p>Control type: Text, access: Wizard\n"
+  summary: >-
+    Tech Support URL - Link to the Tech Support page.
+
+    Note that URL in this preference will have merge tags that need to 
+
+    be substituted before use.
+
+    <p></p>Control type: Text, access: Wizard
   example:
-  - "\nhttps://help.superoffice.com/SODispatcher/v1/TechSupport?ver=&lt;ver#>&amp;langiso=&lt;lani>\n"
+  - https://help.superoffice.com/SODispatcher/v1/TechSupport?ver=&lt;ver#&gt;&amp;langiso=&lt;lani&gt;
   syntax:
     content: public const string TechSupportUrl = "TechSupportUrl"
     return:
       type: System.String
     content.vb: Public Const TechSupportUrl As String = "TechSupportUrl"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.HelpUrl
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.HelpUrl
   id: HelpUrl
@@ -822,26 +811,24 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.HelpUrl
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.HelpUrl
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nHelp URL - Link to the context sensitive Help page.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\n<p></p>Control type: Text, access: Wizard\n"
+  summary: >-
+    Help URL - Link to the context sensitive Help page.
+
+    Note that URL in this preference will have merge tags that need to 
+
+    be substituted before use.
+
+    <p></p>Control type: Text, access: Wizard
   example:
-  - "\nhttps://help.superoffice.com/SODispatcher/v1/Help?ver=&lt;ver#>&amp;langiso=&lt;lani>\n"
+  - https://help.superoffice.com/SODispatcher/v1/Help?ver=&lt;ver#&gt;&amp;langiso=&lt;lani&gt;
   syntax:
     content: public const string HelpUrl = "HelpUrl"
     return:
       type: System.String
     content.vb: Public Const HelpUrl As String = "HelpUrl"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.HelpIndexUrl
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.HelpIndexUrl
   id: HelpIndexUrl
@@ -853,26 +840,24 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.HelpIndexUrl
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.HelpIndexUrl
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nHelp Index URL - Link to the Help home page.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\n<p></p>Control type: Text, access: Wizard\n"
+  summary: >-
+    Help Index URL - Link to the Help home page.
+
+    Note that URL in this preference will have merge tags that need to 
+
+    be substituted before use.
+
+    <p></p>Control type: Text, access: Wizard
   example:
-  - "\nhttps://help.superoffice.com/SODispatcher/v1/HelpIndex?ver=&lt;ver#>&amp;langiso=&lt;lani>\n"
+  - https://help.superoffice.com/SODispatcher/v1/HelpIndex?ver=&lt;ver#&gt;&amp;langiso=&lt;lani&gt;
   syntax:
     content: public const string HelpIndexUrl = "HelpIndexUrl"
     return:
       type: System.String
     content.vb: Public Const HelpIndexUrl As String = "HelpIndexUrl"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.ResourceCtrUrl
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.ResourceCtrUrl
   id: ResourceCtrUrl
@@ -884,29 +869,26 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.ResourceCtrUrl
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.ResourceCtrUrl
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nResource Center URL - Link to the Resource Center home page.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\n<p></p>Control type: Text, access: Wizard\n"
-  example:
-  - >
-    1
+  summary: >-
+    Resource Center URL - Link to the Resource Center home page.
 
-    https://help.superoffice.com/SODispatcher/v1/ResiyrceCtr?ver=&lt;ver#>&amp;langiso=&lt;lani>
+    Note that URL in this preference will have merge tags that need to 
+
+    be substituted before use.
+
+    <p></p>Control type: Text, access: Wizard
+  example:
+  - >-
+    1
+                https://help.superoffice.com/SODispatcher/v1/ResiyrceCtr?ver=&lt;ver#&gt;&amp;langiso=&lt;lani&gt;
   syntax:
     content: public const string ResourceCtrUrl = "ResourceCtrUrl"
     return:
       type: System.String
     content.vb: Public Const ResourceCtrUrl As String = "ResourceCtrUrl"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.MeteredServicesUrl
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.MeteredServicesUrl
   id: MeteredServicesUrl
@@ -918,9 +900,6 @@ items:
   nameWithType: UserPreferenceStrings.NetServices.MeteredServicesUrl
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices.MeteredServicesUrl
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
@@ -929,29 +908,278 @@ items:
     return:
       type: System.String
     content.vb: Public Const MeteredServicesUrl As String = "MeteredServicesUrl"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -959,6 +1187,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

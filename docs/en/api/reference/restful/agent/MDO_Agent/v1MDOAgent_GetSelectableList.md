@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Dietrich Inc and Sons",
+  "Name": "Veum, Moen and Crist",
   "ForceFlatList": false,
-  "AdditionalInfo": "quas",
-  "OnlyHistory": false
+  "AdditionalInfo": "ut",
+  "OnlyHistory": true
 }
 ```
 
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 242,
-    "Name": "Wolff, D'Amore and Barton",
-    "ToolTip": "Eum aut et.",
+    "Id": 735,
+    "Name": "Blanda-Predovic",
+    "ToolTip": "Corrupti blanditiis eaque dolorem.",
     "Deleted": false,
-    "Rank": 302,
-    "Type": "voluptatum",
-    "ColorBlock": 960,
-    "IconHint": "eum",
-    "Selected": true,
-    "LastChanged": "2021-01-08T16:32:39.3675885+01:00",
+    "Rank": 159,
+    "Type": "nulla",
+    "ColorBlock": 140,
+    "IconHint": "asperiores",
+    "Selected": false,
+    "LastChanged": "2010-08-01T17:54:03.3358211+02:00",
     "ChildItems": [
       {
-        "Id": 460,
-        "Name": "Cummerata LLC",
-        "ToolTip": "Quia quos quia rem veniam harum.",
-        "Deleted": true,
-        "Rank": 229,
-        "Type": "minima",
-        "ColorBlock": 130,
-        "IconHint": "totam",
+        "Id": 464,
+        "Name": "Kshlerin LLC",
+        "ToolTip": "Libero nihil temporibus qui voluptas quasi.",
+        "Deleted": false,
+        "Rank": 555,
+        "Type": "laborum",
+        "ColorBlock": 394,
+        "IconHint": "neque",
         "Selected": false,
-        "LastChanged": "2024-02-25T16:32:39.3675885+01:00",
+        "LastChanged": "2009-12-24T17:54:03.3358211+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "nulla",
-        "Hidden": true,
-        "FullName": "Mervin Harvey",
+        "ExtraInfo": "veniam",
+        "StyleHint": "tempora",
+        "Hidden": false,
+        "FullName": "Ms. Fernando Vita Konopelski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 286
+            "FieldLength": 317
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "cumque",
+    "ExtraInfo": "quia",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Quincy Tromp",
+    "FullName": "Genesis Jast",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 988
+        "FieldType": "System.String",
+        "FieldLength": 898
       }
     }
   }

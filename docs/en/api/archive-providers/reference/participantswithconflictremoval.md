@@ -64,6 +64,7 @@ inner participants provider, so that the conflict checking is performed.
 |contactName|string|Owning company: Name of the company the user belongs to|  |
 |contactDepartment|string|Owning department: Name of the department at the company the user belongs to|  |
 |usergroup|userGroup|Primary group: The user's primary user group|  |
+|usergroupId|int|Group ID: The user's primary user group|  |
 |contactFullName|string|Owner: Name and department of the company the user belongs to|  |
 |contactCategory|listAny|Category: Category|  |
 |role|listAny|Role : Role|  |
@@ -132,11 +133,11 @@ inner participants provider, so that the conflict checking is performed.
 |email/emailDescription|string|Description|  |
 |email/emailId|int|ID|  |
 |email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address|  |
-|email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address|  |
 |email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address|  |
 |email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.|  |
 |personUrl/URLAddress|string|URL|  |
@@ -192,7 +193,7 @@ inner participants provider, so that the conflict checking is performed.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=personEmailsInformation,personRegisteredByFullName
+GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=personRegisteredByFullName,isLocation,personRegisteredBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

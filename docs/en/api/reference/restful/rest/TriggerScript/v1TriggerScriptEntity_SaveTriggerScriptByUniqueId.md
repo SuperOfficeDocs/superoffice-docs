@@ -90,20 +90,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 162,
-  "Name": "Kassulke, Kuphal and Bogisich",
+  "ScreenChooserId": 145,
+  "Name": "Strosin, Boyer and Hammes",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "et",
-  "Source": "voluptatem",
-  "Registered": "2021-07-05T16:32:48.2745849+02:00",
-  "RegisteredAssociateId": 691,
-  "Updated": "1997-12-31T16:32:48.2745849+01:00",
-  "UpdatedAssociateId": 439
+  "UniqueIdentifier": "dolores",
+  "Source": "repellendus",
+  "Registered": "2021-05-11T17:54:08.6793184+02:00",
+  "RegisteredAssociateId": 332,
+  "Updated": "2019-10-02T17:54:08.6793184+02:00",
+  "UpdatedAssociateId": 195
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 495,
-  "Name": "Torp-Cremin",
+  "ScreenChooserId": 941,
+  "Name": "Ward Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "quam",
-  "Source": "et",
-  "Registered": "2020-07-27T16:32:48.2745849+02:00",
-  "RegisteredAssociateId": 607,
-  "Updated": "2001-08-16T16:32:48.2745849+02:00",
-  "UpdatedAssociateId": 506,
+  "Enabled": true,
+  "UniqueIdentifier": "ea",
+  "Source": "impedit",
+  "Registered": "2021-01-03T17:54:08.6793184+01:00",
+  "RegisteredAssociateId": 702,
+  "Updated": "2004-09-27T17:54:08.6793184+02:00",
+  "UpdatedAssociateId": 160,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldLength": 602
     }
   }
 }

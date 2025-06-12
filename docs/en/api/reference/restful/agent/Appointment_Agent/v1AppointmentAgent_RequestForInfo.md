@@ -88,14 +88,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 817,
-  "Channel": "doloremque",
-  "Regarding": "et",
-  "ContactName": "McCullough-Runolfsdottir",
-  "PersonFirstname": "Shayna",
-  "PersonLastname": "Medhurst",
-  "EmailAddress": "favian@dare.us",
-  "PhoneNumber": "1205161"
+  "AssociateIdForNewContact": 213,
+  "Channel": "earum",
+  "Regarding": "deleniti",
+  "ContactName": "Zulauf-Block",
+  "PersonFirstname": "Katheryn",
+  "PersonLastname": "Koepp",
+  "EmailAddress": "wallace@rice.com",
+  "PhoneNumber": "553715"
 }
 ```
 
@@ -108,36 +108,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 32,
-      "Name": "Mann, O'Hara and Dach",
-      "OrgNr": "461879",
+      "ContactId": 666,
+      "Name": "Mills, Schaefer and Padberg",
+      "OrgNr": "1246629",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "voluptatem",
-      "DirectPhone": "(299)711-0707 x59199",
-      "AssociateId": 492,
-      "CountryId": 86,
-      "EmailAddress": "sierra_maggio@cronin.co.uk",
-      "Kananame": "ut",
-      "EmailAddressName": "britney.osinski@borer.name",
+      "City": "repellat",
+      "DirectPhone": "138.268.5447",
+      "AssociateId": 480,
+      "CountryId": 217,
+      "EmailAddress": "vanessa_sporer@kunze.biz",
+      "Kananame": "animi",
+      "EmailAddressName": "marilou_mcclure@sengerlowe.name",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Mr. Ayla Mina Crona",
+      "AssociateFullName": "Willy Wunsch",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "rem",
-      "FullName": "Mrs. Rosamond Larkin I",
-      "IsOwnerContact": false,
-      "ActiveErpLinks": 720,
-      "Number1": "675778",
-      "Number2": "1189457",
+      "FormattedAddress": "maiores",
+      "FullName": "Mrs. Gardner Hallie Pagac DDS",
+      "IsOwnerContact": true,
+      "ActiveErpLinks": 979,
+      "Number1": "637728",
+      "Number2": "490065",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 33
+          "FieldType": "System.Int32",
+          "FieldLength": 414
         }
       }
     }
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 572
+      "FieldType": "System.String",
+      "FieldLength": 434
     }
   }
 }

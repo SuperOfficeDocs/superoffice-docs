@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Reynolds, Ledner and Sanford",
-  "DeviceName": "Swift, Lindgren and Gleichner",
-  "DeviceIdentifier": "temporibus"
+  "ApplicationName": "Mante-Keebler",
+  "DeviceName": "Schultz-Hyatt",
+  "DeviceIdentifier": "et"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 236,
-  "Name": "Rogahn, Steuber and Wolff",
-  "CreatedDate": "1999-07-26T16:32:39.1645096+02:00",
-  "UpdatedDate": "2006-06-07T16:32:39.1645096+02:00",
-  "AssociateFullName": "Mr. Malika Billy Koss IV",
-  "CreatedBy": "in",
-  "UpdatedBy": "ea",
-  "DeviceIdentifier": "dolorem",
-  "ForeignAppId": 238,
+  "ForeignDeviceId": 103,
+  "Name": "Dickinson LLC",
+  "CreatedDate": "2022-06-25T17:54:03.1639551+02:00",
+  "UpdatedDate": "2007-03-29T17:54:03.1639551+02:00",
+  "AssociateFullName": "Connie Littel Sr.",
+  "CreatedBy": "neque",
+  "UpdatedBy": "voluptatum",
+  "DeviceIdentifier": "ut",
+  "ForeignAppId": 268,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 837
+      "FieldType": "System.Int32",
+      "FieldLength": 663
     }
   }
 }

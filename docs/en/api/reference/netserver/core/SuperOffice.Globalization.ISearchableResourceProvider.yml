@@ -13,27 +13,20 @@ items:
   nameWithType: ISearchableResourceProvider
   fullName: SuperOffice.Globalization.ISearchableResourceProvider
   type: Interface
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Globalization
-  summary: "\nInterface for searchable resource providers classes\nResource providers that need to return a list of resources for a given search string should implement this\n"
+  summary: >-
+    Interface for searchable resource providers classes
+
+    Resource providers that need to return a list of resources for a given search string should implement this
+  example: []
   syntax:
-    content: 'public interface ISearchableResourceProvider : IPlugin'
-    content.vb: >-
-      Public Interface ISearchableResourceProvider
-          Inherits IPlugin
+    content: public interface ISearchableResourceProvider
+    content.vb: Public Interface ISearchableResourceProvider
   extensionMethods:
   - SuperOffice.Globalization.ISearchableResourceProvider.EnumUtil.MapEnums``2
   - SuperOffice.Globalization.ISearchableResourceProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
 - uid: SuperOffice.Globalization.ISearchableResourceProvider.FindResourceStrings(System.String,System.String)
   commentId: M:SuperOffice.Globalization.ISearchableResourceProvider.FindResourceStrings(System.String,System.String)
   id: FindResourceStrings(System.String,System.String)
@@ -41,17 +34,15 @@ items:
   langs:
   - csharp
   - vb
-  name: FindResourceStrings(String, String)
-  nameWithType: ISearchableResourceProvider.FindResourceStrings(String, String)
-  fullName: SuperOffice.Globalization.ISearchableResourceProvider.FindResourceStrings(System.String, System.String)
+  name: FindResourceStrings(string, string)
+  nameWithType: ISearchableResourceProvider.FindResourceStrings(string, string)
+  fullName: SuperOffice.Globalization.ISearchableResourceProvider.FindResourceStrings(string, string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Globalization
-  summary: "\nReturns all resource strings containing searchString in the specified culture\n"
+  summary: Returns all resource strings containing searchString in the specified culture
+  example: []
   syntax:
     content: string[] FindResourceStrings(string searchString, string cultureName)
     parameters:
@@ -66,84 +57,147 @@ items:
       description: Array of resource names matching searchString
     content.vb: Function FindResourceStrings(searchString As String, cultureName As String) As String()
   overload: SuperOffice.Globalization.ISearchableResourceProvider.FindResourceStrings*
+  nameWithType.vb: ISearchableResourceProvider.FindResourceStrings(String, String)
+  fullName.vb: SuperOffice.Globalization.ISearchableResourceProvider.FindResourceStrings(String, String)
+  name.vb: FindResourceStrings(String, String)
 references:
 - uid: SuperOffice.Globalization
   commentId: N:SuperOffice.Globalization
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Globalization
   nameWithType: SuperOffice.Globalization
   fullName: SuperOffice.Globalization
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Globalization
+    name: Globalization
+    isExternal: true
+    href: SuperOffice.Globalization.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Globalization
+    name: Globalization
+    isExternal: true
+    href: SuperOffice.Globalization.html
 - uid: SuperOffice.Globalization.ISearchableResourceProvider.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ISearchableResourceProvider, To>()
-  nameWithType: EnumUtil.MapEnums<ISearchableResourceProvider, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Globalization.ISearchableResourceProvider, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ISearchableResourceProvider, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Globalization.ISearchableResourceProvider, To)()
-  name.vb: MapEnums(Of ISearchableResourceProvider, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ISearchableResourceProvider, To>(ISearchableResourceProvider)
+  nameWithType: EnumUtil.MapEnums<ISearchableResourceProvider, To>(ISearchableResourceProvider)
+  fullName: EnumUtil.MapEnums<SuperOffice.Globalization.ISearchableResourceProvider, To>(SuperOffice.Globalization.ISearchableResourceProvider)
+  nameWithType.vb: EnumUtil.MapEnums(Of ISearchableResourceProvider, To)(ISearchableResourceProvider)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Globalization.ISearchableResourceProvider, To)(SuperOffice.Globalization.ISearchableResourceProvider)
+  name.vb: MapEnums(Of ISearchableResourceProvider, To)(ISearchableResourceProvider)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ISearchableResourceProvider, To>
-    nameWithType: EnumUtil.MapEnums<ISearchableResourceProvider, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Globalization.ISearchableResourceProvider, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Globalization.ISearchableResourceProvider)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Globalization.ISearchableResourceProvider
+    name: ISearchableResourceProvider
+    isExternal: true
+    href: SuperOffice.Globalization.ISearchableResourceProvider.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Globalization.ISearchableResourceProvider
+    name: ISearchableResourceProvider
+    isExternal: true
+    href: SuperOffice.Globalization.ISearchableResourceProvider.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ISearchableResourceProvider, To)
-    nameWithType: EnumUtil.MapEnums(Of ISearchableResourceProvider, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Globalization.ISearchableResourceProvider, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Globalization.ISearchableResourceProvider)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Globalization.ISearchableResourceProvider
+    name: ISearchableResourceProvider
+    isExternal: true
+    href: SuperOffice.Globalization.ISearchableResourceProvider.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Globalization.ISearchableResourceProvider
+    name: ISearchableResourceProvider
+    isExternal: true
+    href: SuperOffice.Globalization.ISearchableResourceProvider.html
+  - name: )
 - uid: SuperOffice.Globalization.ISearchableResourceProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ISearchableResourceProvider, To>()
-  nameWithType: Converters.MapEnums<ISearchableResourceProvider, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Globalization.ISearchableResourceProvider, To>()
-  nameWithType.vb: Converters.MapEnums(Of ISearchableResourceProvider, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Globalization.ISearchableResourceProvider, To)()
-  name.vb: MapEnums(Of ISearchableResourceProvider, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ISearchableResourceProvider, To>(ISearchableResourceProvider)
+  nameWithType: Converters.MapEnums<ISearchableResourceProvider, To>(ISearchableResourceProvider)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Globalization.ISearchableResourceProvider, To>(SuperOffice.Globalization.ISearchableResourceProvider)
+  nameWithType.vb: Converters.MapEnums(Of ISearchableResourceProvider, To)(ISearchableResourceProvider)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Globalization.ISearchableResourceProvider, To)(SuperOffice.Globalization.ISearchableResourceProvider)
+  name.vb: MapEnums(Of ISearchableResourceProvider, To)(ISearchableResourceProvider)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ISearchableResourceProvider, To>
-    nameWithType: Converters.MapEnums<ISearchableResourceProvider, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Globalization.ISearchableResourceProvider, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Globalization.ISearchableResourceProvider)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Globalization.ISearchableResourceProvider
+    name: ISearchableResourceProvider
+    isExternal: true
+    href: SuperOffice.Globalization.ISearchableResourceProvider.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Globalization.ISearchableResourceProvider
+    name: ISearchableResourceProvider
+    isExternal: true
+    href: SuperOffice.Globalization.ISearchableResourceProvider.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ISearchableResourceProvider, To)
-    nameWithType: Converters.MapEnums(Of ISearchableResourceProvider, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Globalization.ISearchableResourceProvider, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Globalization.ISearchableResourceProvider)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Globalization.ISearchableResourceProvider
+    name: ISearchableResourceProvider
+    isExternal: true
+    href: SuperOffice.Globalization.ISearchableResourceProvider.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Globalization.ISearchableResourceProvider
+    name: ISearchableResourceProvider
+    isExternal: true
+    href: SuperOffice.Globalization.ISearchableResourceProvider.html
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -152,43 +206,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -197,50 +253,83 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Globalization.ISearchableResourceProvider.FindResourceStrings*
   commentId: Overload:SuperOffice.Globalization.ISearchableResourceProvider.FindResourceStrings
   isExternal: true
+  href: SuperOffice.Globalization.ISearchableResourceProvider.html#SuperOffice_Globalization_ISearchableResourceProvider_FindResourceStrings_System_String_System_String_
   name: FindResourceStrings
   nameWithType: ISearchableResourceProvider.FindResourceStrings
   fullName: SuperOffice.Globalization.ISearchableResourceProvider.FindResourceStrings
@@ -248,38 +337,40 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.String[]
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
   nameWithType.vb: String()
-  fullName.vb: System.String()
+  fullName.vb: String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System

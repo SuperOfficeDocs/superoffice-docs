@@ -21,31 +21,47 @@ items:
   nameWithType: KbCategory
   fullName: SuperOffice.CRM.Services.KbCategory
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nKnowledge base category. Groups knowledge base articles into hierarchy.\n<p></p>\nCarrier object for KbCategory.\nServices for the KbCategory Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ICustomerServiceAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Knowledge base category. Groups knowledge base articles into hierarchy.
+
+    <p></p>
+
+    Carrier object for KbCategory.
+
+    Services for the KbCategory Carrier is available from the <xref href="SuperOffice.CRM.Services.ICustomerServiceAgent?text=CustomerService+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class KbCategory : Object'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class KbCategory
     content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
       Public Class KbCategory
-          Inherits Object
   seealso:
-  - linkId: SuperOffice.CRM.Services.CustomerServiceAgent
-    commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
   - linkId: SuperOffice.CRM.Services.ICustomerServiceAgent
     commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.KbCategory.#ctor
   commentId: M:SuperOffice.CRM.Services.KbCategory.#ctor
   id: '#ctor'
@@ -57,21 +73,18 @@ items:
   nameWithType: KbCategory.KbCategory()
   fullName: SuperOffice.CRM.Services.KbCategory.KbCategory()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public KbCategory()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.KbCategory.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: KbCategory.New()
+  fullName.vb: SuperOffice.CRM.Services.KbCategory.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.KbCategory.ToString
   commentId: M:SuperOffice.CRM.Services.KbCategory.ToString
   id: ToString
@@ -83,26 +96,19 @@ items:
   nameWithType: KbCategory.ToString()
   fullName: SuperOffice.CRM.Services.KbCategory.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
   overload: SuperOffice.CRM.Services.KbCategory.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.KbCategory.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.KbCategory.ToString(System.String)
   id: ToString(System.String)
@@ -110,17 +116,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: KbCategory.ToString(String)
-  fullName: SuperOffice.CRM.Services.KbCategory.ToString(System.String)
+  name: ToString(string)
+  nameWithType: KbCategory.ToString(string)
+  fullName: SuperOffice.CRM.Services.KbCategory.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -132,10 +139,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.KbCategory.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: KbCategory.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.KbCategory.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.KbCategory.KbCategoryId
   commentId: P:SuperOffice.CRM.Services.KbCategory.KbCategoryId
   id: KbCategoryId
@@ -147,28 +153,28 @@ items:
   nameWithType: KbCategory.KbCategoryId
   fullName: SuperOffice.CRM.Services.KbCategory.KbCategoryId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe primary key (auto-incremented) \n"
+  summary: The primary key (auto-incremented)
+  example: []
   syntax:
-    content: public virtual int KbCategoryId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int KbCategoryId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property KbCategoryId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property KbCategoryId As Integer
   overload: SuperOffice.CRM.Services.KbCategory.KbCategoryId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.KbCategory.Name
   commentId: P:SuperOffice.CRM.Services.KbCategory.Name
   id: Name
@@ -180,28 +186,28 @@ items:
   nameWithType: KbCategory.Name
   fullName: SuperOffice.CRM.Services.KbCategory.Name
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe name of this category. \n"
+  summary: The name of this category.
+  example: []
   syntax:
-    content: public virtual string Name { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Name As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Name As String
   overload: SuperOffice.CRM.Services.KbCategory.Name*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.KbCategory.Description
   commentId: P:SuperOffice.CRM.Services.KbCategory.Description
   id: Description
@@ -213,28 +219,28 @@ items:
   nameWithType: KbCategory.Description
   fullName: SuperOffice.CRM.Services.KbCategory.Description
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe description of this category. \n"
+  summary: The description of this category.
+  example: []
   syntax:
-    content: public virtual string Description { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Description { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Description As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Description As String
   overload: SuperOffice.CRM.Services.KbCategory.Description*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.KbCategory.Fullname
   commentId: P:SuperOffice.CRM.Services.KbCategory.Fullname
   id: Fullname
@@ -246,28 +252,28 @@ items:
   nameWithType: KbCategory.Fullname
   fullName: SuperOffice.CRM.Services.KbCategory.Fullname
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe full name of this category, i.e. Foo/bar/test. \n"
+  summary: The full name of this category, i.e. Foo/bar/test.
+  example: []
   syntax:
-    content: public virtual string Fullname { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Fullname { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Fullname As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Fullname As String
   overload: SuperOffice.CRM.Services.KbCategory.Fullname*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.KbCategory.ParentId
   commentId: P:SuperOffice.CRM.Services.KbCategory.ParentId
   id: ParentId
@@ -279,28 +285,28 @@ items:
   nameWithType: KbCategory.ParentId
   fullName: SuperOffice.CRM.Services.KbCategory.ParentId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThis entry contains a reference to the parent category. NULL or -1 if this is a toplevel category. \n"
+  summary: This entry contains a reference to the parent category. NULL or -1 if this is a toplevel category.
+  example: []
   syntax:
-    content: public virtual int ParentId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int ParentId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property ParentId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ParentId As Integer
   overload: SuperOffice.CRM.Services.KbCategory.ParentId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.KbCategory.SortOrder
   commentId: P:SuperOffice.CRM.Services.KbCategory.SortOrder
   id: SortOrder
@@ -312,57 +318,325 @@ items:
   nameWithType: KbCategory.SortOrder
   fullName: SuperOffice.CRM.Services.KbCategory.SortOrder
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nA strictly ascending number used for sorting categories when they are listed. \n"
+  summary: A strictly ascending number used for sorting categories when they are listed.
+  example: []
   syntax:
-    content: public virtual int SortOrder { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int SortOrder { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property SortOrder As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SortOrder As Integer
   overload: SuperOffice.CRM.Services.KbCategory.SortOrder*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.CustomerServiceAgent
-  commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
-  isExternal: true
-  name: CustomerServiceAgent
-  nameWithType: CustomerServiceAgent
-  fullName: SuperOffice.CRM.Services.CustomerServiceAgent
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent
   commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html
   name: ICustomerServiceAgent
   nameWithType: ICustomerServiceAgent
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.KbCategory.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.KbCategory.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.KbCategory.html#SuperOffice_CRM_Services_KbCategory__ctor
   name: KbCategory
   nameWithType: KbCategory.KbCategory
   fullName: SuperOffice.CRM.Services.KbCategory.KbCategory
+  nameWithType.vb: KbCategory.New
+  fullName.vb: SuperOffice.CRM.Services.KbCategory.New
+  name.vb: New
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.KbCategory.ToString*
   commentId: Overload:SuperOffice.CRM.Services.KbCategory.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.KbCategory.html#SuperOffice_CRM_Services_KbCategory_ToString
   name: ToString
   nameWithType: KbCategory.ToString
   fullName: SuperOffice.CRM.Services.KbCategory.ToString
@@ -370,18 +644,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.KbCategory.KbCategoryId*
   commentId: Overload:SuperOffice.CRM.Services.KbCategory.KbCategoryId
   isExternal: true
+  href: SuperOffice.CRM.Services.KbCategory.html#SuperOffice_CRM_Services_KbCategory_KbCategoryId
   name: KbCategoryId
   nameWithType: KbCategory.KbCategoryId
   fullName: SuperOffice.CRM.Services.KbCategory.KbCategoryId
@@ -389,36 +662,45 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.KbCategory.Name*
   commentId: Overload:SuperOffice.CRM.Services.KbCategory.Name
   isExternal: true
+  href: SuperOffice.CRM.Services.KbCategory.html#SuperOffice_CRM_Services_KbCategory_Name
   name: Name
   nameWithType: KbCategory.Name
   fullName: SuperOffice.CRM.Services.KbCategory.Name
 - uid: SuperOffice.CRM.Services.KbCategory.Description*
   commentId: Overload:SuperOffice.CRM.Services.KbCategory.Description
   isExternal: true
+  href: SuperOffice.CRM.Services.KbCategory.html#SuperOffice_CRM_Services_KbCategory_Description
   name: Description
   nameWithType: KbCategory.Description
   fullName: SuperOffice.CRM.Services.KbCategory.Description
 - uid: SuperOffice.CRM.Services.KbCategory.Fullname*
   commentId: Overload:SuperOffice.CRM.Services.KbCategory.Fullname
   isExternal: true
+  href: SuperOffice.CRM.Services.KbCategory.html#SuperOffice_CRM_Services_KbCategory_Fullname
   name: Fullname
   nameWithType: KbCategory.Fullname
   fullName: SuperOffice.CRM.Services.KbCategory.Fullname
 - uid: SuperOffice.CRM.Services.KbCategory.ParentId*
   commentId: Overload:SuperOffice.CRM.Services.KbCategory.ParentId
   isExternal: true
+  href: SuperOffice.CRM.Services.KbCategory.html#SuperOffice_CRM_Services_KbCategory_ParentId
   name: ParentId
   nameWithType: KbCategory.ParentId
   fullName: SuperOffice.CRM.Services.KbCategory.ParentId
 - uid: SuperOffice.CRM.Services.KbCategory.SortOrder*
   commentId: Overload:SuperOffice.CRM.Services.KbCategory.SortOrder
   isExternal: true
+  href: SuperOffice.CRM.Services.KbCategory.html#SuperOffice_CRM_Services_KbCategory_SortOrder
   name: SortOrder
   nameWithType: KbCategory.SortOrder
   fullName: SuperOffice.CRM.Services.KbCategory.SortOrder

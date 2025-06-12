@@ -21,6 +21,7 @@ references:
 - uid: SuperOffice.Services.WcfService.SoWcfRequestInterceptor
   commentId: T:SuperOffice.Services.WcfService.SoWcfRequestInterceptor
   isExternal: true
+  href: SuperOffice.Services.WcfService.SoWcfRequestInterceptor.html
   name: SoWcfRequestInterceptor
   nameWithType: SoWcfRequestInterceptor
   fullName: SuperOffice.Services.WcfService.SoWcfRequestInterceptor
@@ -28,6 +29,7 @@ references:
   commentId: T:SuperOffice.Services.WcfService.OnAuthenticateResponse
   parent: SuperOffice.Services.WcfService
   isExternal: true
+  href: SuperOffice.Services.WcfService.OnAuthenticateResponse.html
   name: OnAuthenticateResponse
   nameWithType: OnAuthenticateResponse
   fullName: SuperOffice.Services.WcfService.OnAuthenticateResponse
@@ -35,6 +37,7 @@ references:
   commentId: T:SuperOffice.Services.WcfService.WcfRequestInterceptorState
   parent: SuperOffice.Services.WcfService
   isExternal: true
+  href: SuperOffice.Services.WcfService.WcfRequestInterceptorState.html
   name: WcfRequestInterceptorState
   nameWithType: WcfRequestInterceptorState
   fullName: SuperOffice.Services.WcfService.WcfRequestInterceptorState
@@ -42,12 +45,44 @@ references:
   commentId: T:SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin
   parent: SuperOffice.Services.WcfService
   isExternal: true
+  href: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.html
   name: ISoWcfRequestInterceptorPlugin
   nameWithType: ISoWcfRequestInterceptorPlugin
   fullName: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin
 - uid: SuperOffice.Services.WcfService
   commentId: N:SuperOffice.Services.WcfService
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Services.WcfService
   nameWithType: SuperOffice.Services.WcfService
   fullName: SuperOffice.Services.WcfService
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.Services.html
+  - name: .
+  - uid: SuperOffice.Services.WcfService
+    name: WcfService
+    isExternal: true
+    href: SuperOffice.Services.WcfService.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.Services.html
+  - name: .
+  - uid: SuperOffice.Services.WcfService
+    name: WcfService
+    isExternal: true
+    href: SuperOffice.Services.WcfService.html

@@ -105,51 +105,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 210,
-  "Name": "Gaylord Group",
-  "Tooltip": "cum",
-  "Rank": 744,
+  "SaleTypeId": 154,
+  "Name": "Wilkinson, Bogan and Langosh",
+  "Tooltip": "aliquid",
+  "Rank": 622,
   "DurationUnit": "Century",
-  "SaleDuration": 294,
-  "SaleTypeCatId": 560,
+  "SaleDuration": 167,
+  "SaleTypeCatId": 887,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 672,
-  "QuoteLinesTemplate": 891,
-  "ConfirmationLinesTemplate": 359,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 750,
-  "MinEarningPercent": 638,
-  "GroupQuoteLinesBy": 196,
-  "SortGroupLinesBy": 381,
+  "DefaultQuoteValidity": 497,
+  "QuoteLinesTemplate": 836,
+  "ConfirmationLinesTemplate": 825,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 569,
+  "MinEarningPercent": 456,
+  "GroupQuoteLinesBy": 573,
+  "SortGroupLinesBy": 124,
   "Stages": [
     {
-      "Id": 867,
-      "Name": "Bergnaum-Pouros",
-      "ToolTip": "Fugiat quisquam animi et.",
-      "Deleted": true,
-      "Rank": 583,
-      "Type": "facilis",
-      "ColorBlock": 311,
-      "IconHint": "exercitationem",
-      "Selected": false,
-      "LastChanged": "2011-09-08T16:32:39.320696+02:00",
+      "Id": 850,
+      "Name": "Green LLC",
+      "ToolTip": "Eius et architecto doloribus dolor eos.",
+      "Deleted": false,
+      "Rank": 754,
+      "Type": "dicta",
+      "ColorBlock": 98,
+      "IconHint": "dolorem",
+      "Selected": true,
+      "LastChanged": "2003-03-20T17:54:03.3202006+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "neque",
-      "Hidden": false,
-      "FullName": "Miss Alisa Hermann Stiedemann"
+      "ExtraInfo": "magnam",
+      "StyleHint": "voluptas",
+      "Hidden": true,
+      "FullName": "Regan Friesen"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 593,
-  "Name": "Effertz-O'Kon",
-  "Tooltip": "eos",
-  "Rank": 884,
+  "SaleTypeId": 682,
+  "Name": "Homenick-O'Connell",
+  "Tooltip": "omnis",
+  "Rank": 5,
   "DurationUnit": "Century",
-  "SaleDuration": 565,
-  "SaleTypeCatId": 124,
+  "SaleDuration": 83,
+  "SaleTypeCatId": 163,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 739,
-  "QuoteLinesTemplate": 579,
-  "ConfirmationLinesTemplate": 527,
+  "DefaultQuoteValidity": 503,
+  "QuoteLinesTemplate": 598,
+  "ConfirmationLinesTemplate": 570,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 965,
-  "MinEarningPercent": 123,
-  "GroupQuoteLinesBy": 299,
-  "SortGroupLinesBy": 628,
+  "MaxDiscountPercent": 873,
+  "MinEarningPercent": 384,
+  "GroupQuoteLinesBy": 910,
+  "SortGroupLinesBy": 29,
   "Stages": [
     {
-      "Id": 727,
-      "Name": "Nader, Wolff and Miller",
-      "ToolTip": "Consequatur culpa eos provident odit alias non et.",
-      "Deleted": true,
-      "Rank": 472,
-      "Type": "voluptas",
-      "ColorBlock": 491,
-      "IconHint": "et",
-      "Selected": false,
-      "LastChanged": "2005-01-31T16:32:39.320696+01:00",
+      "Id": 641,
+      "Name": "Runolfsdottir Inc and Sons",
+      "ToolTip": "Nulla asperiores officiis corporis voluptas vel ut id.",
+      "Deleted": false,
+      "Rank": 298,
+      "Type": "qui",
+      "ColorBlock": 284,
+      "IconHint": "eius",
+      "Selected": true,
+      "LastChanged": "2022-11-28T17:54:03.3202006+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "assumenda",
-      "StyleHint": "id",
+      "ExtraInfo": "quibusdam",
+      "StyleHint": "eligendi",
       "Hidden": true,
-      "FullName": "Mr. Chauncey Lilian Davis",
+      "FullName": "Chance Ritchie",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 860
+          "FieldLength": 812
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 193
+      "FieldLength": 461
     }
   }
 }

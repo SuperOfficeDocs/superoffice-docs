@@ -5,22 +5,23 @@ items:
   id: BatchAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.BatchAgent.#ctor
-  - SuperOffice.CRM.Services.BatchAgent.DeleteBatchTask(System.Int32)
-  - SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasks(System.Int32[])
-  - SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByName(System.String)
-  - SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
-  - SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfo(System.Int32)
-  - SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociates(System.Int32[])
-  - SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndState(System.Int32[],SuperOffice.Data.BatchTaskState)
-  - SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociates(System.String,System.Int32[])
-  - SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
-  - SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByState(SuperOffice.Data.BatchTaskState)
-  - SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByName(System.String)
-  - SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
-  - SuperOffice.CRM.Services.BatchAgent.StartBatchJob(SuperOffice.CRM.Services.BatchTaskInfo)
-  - SuperOffice.CRM.Services.BatchAgent.StopBatchJob(System.Int32)
-  - SuperOffice.CRM.Services.BatchAgent.UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
+  - SuperOffice.CRM.Services.BatchAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBatchImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  - SuperOffice.CRM.Services.BatchAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBatchImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.BatchAgent.DeleteBatchTaskAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasksAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfoAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(System.Int32[],SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(System.String,System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByStateAsync(SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.BatchAgent.StartBatchJobAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.BatchAgent.StopBatchJobAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.BatchAgent.UpdateBatchTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -28,270 +29,307 @@ items:
   nameWithType: BatchAgent
   fullName: SuperOffice.CRM.Services.BatchAgent
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nFacade for the Batch Agent\nStart, stop and monitor predefined batch tasks\n"
-  example:
-  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (BatchAgent agent = new BatchAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  summary: >-
+    Proxy class for the Batch Agent
+
+    Used when communicating remote using WebServices.
+
+    Avoid using directly. Use the AgentFactory to create the proxy instead.
+  example: []
   syntax:
-    content: 'public class BatchAgent : AgentBase<IBatchAgent>, IDisposable, IBatchAgent, IAgent'
-    content.vb: >-
-      Public Class BatchAgent
-          Inherits AgentBase(Of IBatchAgent)
-          Implements IDisposable, IBatchAgent, IAgent
+    content: 'public class BatchAgent : IBatchAgent, IAgent'
+    content.vb: Public Class BatchAgent Implements IBatchAgent, IAgent
   inheritance:
   - System.Object
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBatchAgent}
   implements:
-  - System.IDisposable
   - SuperOffice.CRM.Services.IBatchAgent
   - SuperOffice.CRM.Services.IAgent
   inheritedMembers:
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBatchAgent}.Dispose
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBatchAgent}.InnerAgent
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfo(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfo(System.Int32)
-  id: GetBatchTaskInfo(System.Int32)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Services.BatchAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBatchImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  commentId: M:SuperOffice.CRM.Services.BatchAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBatchImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBatchImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
   parent: SuperOffice.CRM.Services.BatchAgent
   langs:
   - csharp
   - vb
-  name: GetBatchTaskInfo(Int32)
-  nameWithType: BatchAgent.GetBatchTaskInfo(Int32)
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfo(System.Int32)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
+  name: BatchAgent(IBatchImplementation, ISoRequestItemsAccessor)
+  nameWithType: BatchAgent.BatchAgent(IBatchImplementation, ISoRequestItemsAccessor)
+  fullName: SuperOffice.CRM.Services.BatchAgent.BatchAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBatchImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  type: Constructor
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet a single BatchTaskInfo based on Id.\n"
   syntax:
-    content: public BatchTaskInfo GetBatchTaskInfo(int id)
+    content: public BatchAgent(IBatchImplementation batchImplementation, ISoRequestItemsAccessor accessor)
+    parameters:
+    - id: batchImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IBatchImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    content.vb: Public Sub New(batchImplementation As IBatchImplementation, accessor As ISoRequestItemsAccessor)
+  overload: SuperOffice.CRM.Services.BatchAgent.#ctor*
+  nameWithType.vb: BatchAgent.New(IBatchImplementation, ISoRequestItemsAccessor)
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBatchImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name.vb: New(IBatchImplementation, ISoRequestItemsAccessor)
+- uid: SuperOffice.CRM.Services.BatchAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBatchImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.BatchAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBatchImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBatchImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+  parent: SuperOffice.CRM.Services.BatchAgent
+  langs:
+  - csharp
+  - vb
+  name: BatchAgent(IBatchImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: BatchAgent.BatchAgent(IBatchImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.BatchAgent.BatchAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBatchImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public BatchAgent(IBatchImplementation batchImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    parameters:
+    - id: batchImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IBatchImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    - id: debugUser
+      type: SuperOffice.Data.IDebugUser
+    - id: serviceCallsRepository
+      type: SuperOffice.Diagnostics.IServiceCallsRepository
+    content.vb: Public Sub New(batchImplementation As IBatchImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+  overload: SuperOffice.CRM.Services.BatchAgent.#ctor*
+  nameWithType.vb: BatchAgent.New(IBatchImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBatchImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(IBatchImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+- uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfoAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfoAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetBatchTaskInfoAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.BatchAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBatchTaskInfoAsync(int, CancellationToken)
+  nameWithType: BatchAgent.GetBatchTaskInfoAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfoAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Get a single BatchTaskInfo based on Id.
+  example: []
+  syntax:
+    content: public Task<BatchTaskInfo> GetBatchTaskInfoAsync(int id, CancellationToken cancellationToken = default)
     parameters:
     - id: id
       type: System.Int32
       description: Id of the BatchTaskInfo to get.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.BatchTaskInfo
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BatchTaskInfo}
       description: Returns a BatchTaskInfo.
-    content.vb: Public Function GetBatchTaskInfo(id As Integer) As BatchTaskInfo
-  overload: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfo*
+    content.vb: Public Function GetBatchTaskInfoAsync(id As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of BatchTaskInfo)
+  overload: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfoAsync*
   implements:
-  - SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfo(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociates(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociates(System.Int32[])
-  id: GetBatchTaskInfosByAssociates(System.Int32[])
+  - SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfoAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: BatchAgent.GetBatchTaskInfoAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfoAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetBatchTaskInfoAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAsync(System.Int32[],System.Threading.CancellationToken)
+  id: GetBatchTaskInfosByAssociatesAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.BatchAgent
   langs:
   - csharp
   - vb
-  name: GetBatchTaskInfosByAssociates(Int32[])
-  nameWithType: BatchAgent.GetBatchTaskInfosByAssociates(Int32[])
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociates(System.Int32[])
+  name: GetBatchTaskInfosByAssociatesAsync(int[], CancellationToken)
+  nameWithType: BatchAgent.GetBatchTaskInfosByAssociatesAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAsync(int[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet an array of BatchTaskInfo for the provided associate id&apos;s.\n"
+  summary: Get an array of BatchTaskInfo for the provided associate id's.
+  example: []
   syntax:
-    content: public BatchTaskInfo[] GetBatchTaskInfosByAssociates(int[] associateIds)
+    content: public Task<BatchTaskInfo[]> GetBatchTaskInfosByAssociatesAsync(int[] associateIds, CancellationToken cancellationToken = default)
     parameters:
     - id: associateIds
       type: System.Int32[]
-      description: Array of associate id&apos;s. empty array = all tasks, 0 = system tasks, -1 = all user tasks.
+      description: Array of associate id's. empty array = all tasks, 0 = system tasks, -1 = all user tasks.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.BatchTaskInfo[]
-      description: Returns an array of user&apos;s BatchTaskInfo.
-    content.vb: Public Function GetBatchTaskInfosByAssociates(associateIds As Integer()) As BatchTaskInfo()
-  overload: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociates*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BatchTaskInfo[]}
+      description: Returns an array of user's BatchTaskInfo.
+    content.vb: Public Function GetBatchTaskInfosByAssociatesAsync(associateIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of BatchTaskInfo())
+  overload: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAsync*
   implements:
-  - SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociates(System.Int32[])
-  nameWithType.vb: BatchAgent.GetBatchTaskInfosByAssociates(Int32())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociates(System.Int32())
-  name.vb: GetBatchTaskInfosByAssociates(Int32())
-- uid: SuperOffice.CRM.Services.BatchAgent.StartBatchJob(SuperOffice.CRM.Services.BatchTaskInfo)
-  commentId: M:SuperOffice.CRM.Services.BatchAgent.StartBatchJob(SuperOffice.CRM.Services.BatchTaskInfo)
-  id: StartBatchJob(SuperOffice.CRM.Services.BatchTaskInfo)
+  - SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAsync(System.Int32[],System.Threading.CancellationToken)
+  nameWithType.vb: BatchAgent.GetBatchTaskInfosByAssociatesAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: GetBatchTaskInfosByAssociatesAsync(Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Services.BatchAgent.StartBatchJobAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.BatchAgent.StartBatchJobAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
+  id: StartBatchJobAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.BatchAgent
   langs:
   - csharp
   - vb
-  name: StartBatchJob(BatchTaskInfo)
-  nameWithType: BatchAgent.StartBatchJob(BatchTaskInfo)
-  fullName: SuperOffice.CRM.Services.BatchAgent.StartBatchJob(SuperOffice.CRM.Services.BatchTaskInfo)
+  name: StartBatchJobAsync(BatchTaskInfo, CancellationToken)
+  nameWithType: BatchAgent.StartBatchJobAsync(BatchTaskInfo, CancellationToken)
+  fullName: SuperOffice.CRM.Services.BatchAgent.StartBatchJobAsync(SuperOffice.CRM.Services.BatchTaskInfo, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nStart a batch job based on BatchTaskInfo.\n"
+  summary: Start a batch job based on BatchTaskInfo.
+  example: []
   syntax:
-    content: public int StartBatchJob(BatchTaskInfo batchTaskInfo)
+    content: public Task<int> StartBatchJobAsync(BatchTaskInfo batchTaskInfo, CancellationToken cancellationToken = default)
     parameters:
     - id: batchTaskInfo
       type: SuperOffice.CRM.Services.BatchTaskInfo
       description: Use BatchTaskInfo to describe the new batch job.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: Returns the id of the created batch job.
-    content.vb: Public Function StartBatchJob(batchTaskInfo As BatchTaskInfo) As Integer
-  overload: SuperOffice.CRM.Services.BatchAgent.StartBatchJob*
+    content.vb: Public Function StartBatchJobAsync(batchTaskInfo As BatchTaskInfo, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Services.BatchAgent.StartBatchJobAsync*
   implements:
-  - SuperOffice.CRM.Services.IBatchAgent.StartBatchJob(SuperOffice.CRM.Services.BatchTaskInfo)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.BatchAgent.StopBatchJob(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.BatchAgent.StopBatchJob(System.Int32)
-  id: StopBatchJob(System.Int32)
+  - SuperOffice.CRM.Services.IBatchAgent.StartBatchJobAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.BatchAgent.StopBatchJobAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.BatchAgent.StopBatchJobAsync(System.Int32,System.Threading.CancellationToken)
+  id: StopBatchJobAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.BatchAgent
   langs:
   - csharp
   - vb
-  name: StopBatchJob(Int32)
-  nameWithType: BatchAgent.StopBatchJob(Int32)
-  fullName: SuperOffice.CRM.Services.BatchAgent.StopBatchJob(System.Int32)
+  name: StopBatchJobAsync(int, CancellationToken)
+  nameWithType: BatchAgent.StopBatchJobAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.BatchAgent.StopBatchJobAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nStop a batch job based on Id.\n"
+  summary: Stop a batch job based on Id.
+  example: []
   syntax:
-    content: public bool StopBatchJob(int id)
+    content: public Task<bool> StopBatchJobAsync(int id, CancellationToken cancellationToken = default)
     parameters:
     - id: id
       type: System.Int32
       description: Id of the batch job to stop.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: Returns true if the job was stopped successfully.
-    content.vb: Public Function StopBatchJob(id As Integer) As Boolean
-  overload: SuperOffice.CRM.Services.BatchAgent.StopBatchJob*
+    content.vb: Public Function StopBatchJobAsync(id As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.BatchAgent.StopBatchJobAsync*
   implements:
-  - SuperOffice.CRM.Services.IBatchAgent.StopBatchJob(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByState(SuperOffice.Data.BatchTaskState)
-  commentId: M:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByState(SuperOffice.Data.BatchTaskState)
-  id: GetBatchTaskInfosByState(SuperOffice.Data.BatchTaskState)
+  - SuperOffice.CRM.Services.IBatchAgent.StopBatchJobAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: BatchAgent.StopBatchJobAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.StopBatchJobAsync(Integer, System.Threading.CancellationToken)
+  name.vb: StopBatchJobAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByStateAsync(SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByStateAsync(SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+  id: GetBatchTaskInfosByStateAsync(SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.BatchAgent
   langs:
   - csharp
   - vb
-  name: GetBatchTaskInfosByState(BatchTaskState)
-  nameWithType: BatchAgent.GetBatchTaskInfosByState(BatchTaskState)
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByState(SuperOffice.Data.BatchTaskState)
+  name: GetBatchTaskInfosByStateAsync(BatchTaskState, CancellationToken)
+  nameWithType: BatchAgent.GetBatchTaskInfosByStateAsync(BatchTaskState, CancellationToken)
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByStateAsync(SuperOffice.Data.BatchTaskState, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets an array of user BatchTaskInfo with state defined by a BatchTaskState.\n"
+  summary: Gets an array of user BatchTaskInfo with state defined by a BatchTaskState.
+  example: []
   syntax:
-    content: public BatchTaskInfo[] GetBatchTaskInfosByState(BatchTaskState state)
+    content: public Task<BatchTaskInfo[]> GetBatchTaskInfosByStateAsync(BatchTaskState state, CancellationToken cancellationToken = default)
     parameters:
     - id: state
       type: SuperOffice.Data.BatchTaskState
       description: The BatchTaskState to get batch tasks for.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.BatchTaskInfo[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BatchTaskInfo[]}
       description: Returns an array of user BatchTaskInfo. System tasks are excluded.
-    content.vb: Public Function GetBatchTaskInfosByState(state As BatchTaskState) As BatchTaskInfo()
-  overload: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByState*
+    content.vb: Public Function GetBatchTaskInfosByStateAsync(state As BatchTaskState, cancellationToken As CancellationToken = Nothing) As Task(Of BatchTaskInfo())
+  overload: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByStateAsync*
   implements:
-  - SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByState(SuperOffice.Data.BatchTaskState)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.BatchAgent.UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
-  commentId: M:SuperOffice.CRM.Services.BatchAgent.UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
-  id: UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
+  - SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByStateAsync(SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.BatchAgent.UpdateBatchTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.BatchAgent.UpdateBatchTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
+  id: UpdateBatchTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.BatchAgent
   langs:
   - csharp
   - vb
-  name: UpdateBatchTask(BatchTaskInfo)
-  nameWithType: BatchAgent.UpdateBatchTask(BatchTaskInfo)
-  fullName: SuperOffice.CRM.Services.BatchAgent.UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
+  name: UpdateBatchTaskAsync(BatchTaskInfo, CancellationToken)
+  nameWithType: BatchAgent.UpdateBatchTaskAsync(BatchTaskInfo, CancellationToken)
+  fullName: SuperOffice.CRM.Services.BatchAgent.UpdateBatchTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nUpdate information about a BatchTask. Only the following properties can be updated: State, Description, Response and Request.\n"
+  summary: 'Update information about a BatchTask. Only the following properties can be updated: State, Description, Response and Request.'
+  example: []
   syntax:
-    content: public BatchTaskInfo UpdateBatchTask(BatchTaskInfo batchTaskInfo)
+    content: public Task<BatchTaskInfo> UpdateBatchTaskAsync(BatchTaskInfo batchTaskInfo, CancellationToken cancellationToken = default)
     parameters:
     - id: batchTaskInfo
       type: SuperOffice.CRM.Services.BatchTaskInfo
       description: The updated information to save.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.BatchTaskInfo
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BatchTaskInfo}
       description: The updated BatchTaskInfo
-    content.vb: Public Function UpdateBatchTask(batchTaskInfo As BatchTaskInfo) As BatchTaskInfo
-  overload: SuperOffice.CRM.Services.BatchAgent.UpdateBatchTask*
+    content.vb: Public Function UpdateBatchTaskAsync(batchTaskInfo As BatchTaskInfo, cancellationToken As CancellationToken = Nothing) As Task(Of BatchTaskInfo)
+  overload: SuperOffice.CRM.Services.BatchAgent.UpdateBatchTaskAsync*
   implements:
-  - SuperOffice.CRM.Services.IBatchAgent.UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
-  commentId: M:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
-  id: GetBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
+  - SuperOffice.CRM.Services.IBatchAgent.UpdateBatchTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+  id: GetBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.BatchAgent
   langs:
   - csharp
   - vb
-  name: GetBatchTaskInfosByNameAndState(String, BatchTaskState)
-  nameWithType: BatchAgent.GetBatchTaskInfosByNameAndState(String, BatchTaskState)
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndState(System.String, SuperOffice.Data.BatchTaskState)
+  name: GetBatchTaskInfosByNameAndStateAsync(string, BatchTaskState, CancellationToken)
+  nameWithType: BatchAgent.GetBatchTaskInfosByNameAndStateAsync(string, BatchTaskState, CancellationToken)
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndStateAsync(string, SuperOffice.Data.BatchTaskState, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets an array of user BatchTaskInfo with state defined by a BatchTaskState and the batchtask definition name.\n"
+  summary: Gets an array of user BatchTaskInfo with state defined by a BatchTaskState and the batchtask definition name.
+  example: []
   syntax:
-    content: public BatchTaskInfo[] GetBatchTaskInfosByNameAndState(string name, BatchTaskState state)
+    content: public Task<BatchTaskInfo[]> GetBatchTaskInfosByNameAndStateAsync(string name, BatchTaskState state, CancellationToken cancellationToken = default)
     parameters:
     - id: name
       type: System.String
@@ -299,221 +337,218 @@ items:
     - id: state
       type: SuperOffice.Data.BatchTaskState
       description: The BatchTaskState to get batch tasks for.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.BatchTaskInfo[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BatchTaskInfo[]}
       description: Returns an array of user BatchTaskInfo. System tasks are excluded.
-    content.vb: Public Function GetBatchTaskInfosByNameAndState(name As String, state As BatchTaskState) As BatchTaskInfo()
-  overload: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndState*
+    content.vb: Public Function GetBatchTaskInfosByNameAndStateAsync(name As String, state As BatchTaskState, cancellationToken As CancellationToken = Nothing) As Task(Of BatchTaskInfo())
+  overload: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndStateAsync*
   implements:
-  - SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociates(System.String,System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociates(System.String,System.Int32[])
-  id: GetBatchTaskInfosByNameAndAssociates(System.String,System.Int32[])
+  - SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+  nameWithType.vb: BatchAgent.GetBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndStateAsync(String, SuperOffice.Data.BatchTaskState, System.Threading.CancellationToken)
+  name.vb: GetBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, CancellationToken)
+- uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(System.String,System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(System.String,System.Int32[],System.Threading.CancellationToken)
+  id: GetBatchTaskInfosByNameAndAssociatesAsync(System.String,System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.BatchAgent
   langs:
   - csharp
   - vb
-  name: GetBatchTaskInfosByNameAndAssociates(String, Int32[])
-  nameWithType: BatchAgent.GetBatchTaskInfosByNameAndAssociates(String, Int32[])
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociates(System.String, System.Int32[])
+  name: GetBatchTaskInfosByNameAndAssociatesAsync(string, int[], CancellationToken)
+  nameWithType: BatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(string, int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(string, int[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet an array of BatchTaskInfo for the provided associate id&apos;s and batch task definition name.\n"
+  summary: Get an array of BatchTaskInfo for the provided associate id's and batch task definition name.
+  example: []
   syntax:
-    content: public BatchTaskInfo[] GetBatchTaskInfosByNameAndAssociates(string name, int[] associateIds)
+    content: public Task<BatchTaskInfo[]> GetBatchTaskInfosByNameAndAssociatesAsync(string name, int[] associateIds, CancellationToken cancellationToken = default)
     parameters:
     - id: name
       type: System.String
       description: Batchtask definition name. Blank for all tasks.
     - id: associateIds
       type: System.Int32[]
-      description: Array of associate id&apos;s. Empty array for all. 0 for system tasks, -1 for all users, or specific user ids.
+      description: Array of associate id's. Empty array for all. 0 for system tasks, -1 for all users, or specific user ids.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.BatchTaskInfo[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BatchTaskInfo[]}
       description: Returns an array of BatchTaskInfo.
-    content.vb: Public Function GetBatchTaskInfosByNameAndAssociates(name As String, associateIds As Integer()) As BatchTaskInfo()
-  overload: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociates*
+    content.vb: Public Function GetBatchTaskInfosByNameAndAssociatesAsync(name As String, associateIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of BatchTaskInfo())
+  overload: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync*
   implements:
-  - SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociates(System.String,System.Int32[])
-  nameWithType.vb: BatchAgent.GetBatchTaskInfosByNameAndAssociates(String, Int32())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociates(System.String, System.Int32())
-  name.vb: GetBatchTaskInfosByNameAndAssociates(String, Int32())
-- uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndState(System.Int32[],SuperOffice.Data.BatchTaskState)
-  commentId: M:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndState(System.Int32[],SuperOffice.Data.BatchTaskState)
-  id: GetBatchTaskInfosByAssociatesAndState(System.Int32[],SuperOffice.Data.BatchTaskState)
+  - SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(System.String,System.Int32[],System.Threading.CancellationToken)
+  nameWithType.vb: BatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(String, Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(String, Integer(), System.Threading.CancellationToken)
+  name.vb: GetBatchTaskInfosByNameAndAssociatesAsync(String, Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(System.Int32[],SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(System.Int32[],SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+  id: GetBatchTaskInfosByAssociatesAndStateAsync(System.Int32[],SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.BatchAgent
   langs:
   - csharp
   - vb
-  name: GetBatchTaskInfosByAssociatesAndState(Int32[], BatchTaskState)
-  nameWithType: BatchAgent.GetBatchTaskInfosByAssociatesAndState(Int32[], BatchTaskState)
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndState(System.Int32[], SuperOffice.Data.BatchTaskState)
+  name: GetBatchTaskInfosByAssociatesAndStateAsync(int[], BatchTaskState, CancellationToken)
+  nameWithType: BatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(int[], BatchTaskState, CancellationToken)
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(int[], SuperOffice.Data.BatchTaskState, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet an array of BatchTaskInfo for the provided associate id&apos;s and batch task state.\n"
+  summary: Get an array of BatchTaskInfo for the provided associate id's and batch task state.
+  example: []
   syntax:
-    content: public BatchTaskInfo[] GetBatchTaskInfosByAssociatesAndState(int[] associateIds, BatchTaskState state)
+    content: public Task<BatchTaskInfo[]> GetBatchTaskInfosByAssociatesAndStateAsync(int[] associateIds, BatchTaskState state, CancellationToken cancellationToken = default)
     parameters:
     - id: associateIds
       type: System.Int32[]
-      description: Array of associate id&apos;s. Empty array for all. 0 for system tasks, -1 for all users, or specific user ids.
+      description: Array of associate id's. Empty array for all. 0 for system tasks, -1 for all users, or specific user ids.
     - id: state
       type: SuperOffice.Data.BatchTaskState
       description: The BatchTaskState to get batch tasks for.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.BatchTaskInfo[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BatchTaskInfo[]}
       description: Returns an array of BatchTaskInfo.
-    content.vb: Public Function GetBatchTaskInfosByAssociatesAndState(associateIds As Integer(), state As BatchTaskState) As BatchTaskInfo()
-  overload: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndState*
+    content.vb: Public Function GetBatchTaskInfosByAssociatesAndStateAsync(associateIds As Integer(), state As BatchTaskState, cancellationToken As CancellationToken = Nothing) As Task(Of BatchTaskInfo())
+  overload: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync*
   implements:
-  - SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndState(System.Int32[],SuperOffice.Data.BatchTaskState)
-  nameWithType.vb: BatchAgent.GetBatchTaskInfosByAssociatesAndState(Int32(), BatchTaskState)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndState(System.Int32(), SuperOffice.Data.BatchTaskState)
-  name.vb: GetBatchTaskInfosByAssociatesAndState(Int32(), BatchTaskState)
-- uid: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasks(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasks(System.Int32[])
-  id: DeleteBatchTasks(System.Int32[])
+  - SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(System.Int32[],SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+  nameWithType.vb: BatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(Integer(), BatchTaskState, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(Integer(), SuperOffice.Data.BatchTaskState, System.Threading.CancellationToken)
+  name.vb: GetBatchTaskInfosByAssociatesAndStateAsync(Integer(), BatchTaskState, CancellationToken)
+- uid: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasksAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasksAsync(System.Int32[],System.Threading.CancellationToken)
+  id: DeleteBatchTasksAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.BatchAgent
   langs:
   - csharp
   - vb
-  name: DeleteBatchTasks(Int32[])
-  nameWithType: BatchAgent.DeleteBatchTasks(Int32[])
-  fullName: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasks(System.Int32[])
+  name: DeleteBatchTasksAsync(int[], CancellationToken)
+  nameWithType: BatchAgent.DeleteBatchTasksAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasksAsync(int[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nDelete batch tasks from the database.\n"
+  summary: Delete batch tasks from the database.
+  example: []
   syntax:
-    content: public void DeleteBatchTasks(int[] batchTaskIds)
+    content: public Task DeleteBatchTasksAsync(int[] batchTaskIds, CancellationToken cancellationToken = default)
     parameters:
     - id: batchTaskIds
       type: System.Int32[]
       description: Array of batchTask ids to delete.
-    content.vb: Public Sub DeleteBatchTasks(batchTaskIds As Integer())
-  overload: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasks*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function DeleteBatchTasksAsync(batchTaskIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasksAsync*
   implements:
-  - SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasks(System.Int32[])
-  nameWithType.vb: BatchAgent.DeleteBatchTasks(Int32())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasks(System.Int32())
-  name.vb: DeleteBatchTasks(Int32())
-- uid: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTask(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.BatchAgent.DeleteBatchTask(System.Int32)
-  id: DeleteBatchTask(System.Int32)
+  - SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasksAsync(System.Int32[],System.Threading.CancellationToken)
+  nameWithType.vb: BatchAgent.DeleteBatchTasksAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasksAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: DeleteBatchTasksAsync(Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTaskAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.BatchAgent.DeleteBatchTaskAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteBatchTaskAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.BatchAgent
   langs:
   - csharp
   - vb
-  name: DeleteBatchTask(Int32)
-  nameWithType: BatchAgent.DeleteBatchTask(Int32)
-  fullName: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTask(System.Int32)
+  name: DeleteBatchTaskAsync(int, CancellationToken)
+  nameWithType: BatchAgent.DeleteBatchTaskAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTaskAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nDelete a batch task from the database.\n"
+  summary: Delete a batch task from the database.
+  example: []
   syntax:
-    content: public void DeleteBatchTask(int batchTaskId)
+    content: public Task DeleteBatchTaskAsync(int batchTaskId, CancellationToken cancellationToken = default)
     parameters:
     - id: batchTaskId
       type: System.Int32
       description: The batchTask id to delete.
-    content.vb: Public Sub DeleteBatchTask(batchTaskId As Integer)
-  overload: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTask*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function DeleteBatchTaskAsync(batchTaskId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTaskAsync*
   implements:
-  - SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTask(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByName(System.String)
-  commentId: M:SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByName(System.String)
-  id: GetAllBatchTaskInfosByName(System.String)
+  - SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTaskAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: BatchAgent.DeleteBatchTaskAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTaskAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteBatchTaskAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAsync(System.String,System.Threading.CancellationToken)
+  id: GetAllBatchTaskInfosByNameAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.BatchAgent
   langs:
   - csharp
   - vb
-  name: GetAllBatchTaskInfosByName(String)
-  nameWithType: BatchAgent.GetAllBatchTaskInfosByName(String)
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByName(System.String)
+  name: GetAllBatchTaskInfosByNameAsync(string, CancellationToken)
+  nameWithType: BatchAgent.GetAllBatchTaskInfosByNameAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet an array of system and user BatchTaskInfo for the provided task name.\n"
+  summary: Get an array of system and user BatchTaskInfo for the provided task name.
+  example: []
   syntax:
-    content: public BatchTaskInfo[] GetAllBatchTaskInfosByName(string taskName)
+    content: public Task<BatchTaskInfo[]> GetAllBatchTaskInfosByNameAsync(string taskName, CancellationToken cancellationToken = default)
     parameters:
     - id: taskName
       type: System.String
       description: A task name, NULL or blank to get all tasks
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.BatchTaskInfo[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BatchTaskInfo[]}
       description: Returns an array of user and system BatchTaskInfos.
-    content.vb: Public Function GetAllBatchTaskInfosByName(taskName As String) As BatchTaskInfo()
-  overload: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByName*
+    content.vb: Public Function GetAllBatchTaskInfosByNameAsync(taskName As String, cancellationToken As CancellationToken = Nothing) As Task(Of BatchTaskInfo())
+  overload: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAsync*
   implements:
-  - SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByName(System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
-  commentId: M:SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
-  id: GetAllBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
+  - SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAsync(System.String,System.Threading.CancellationToken)
+  nameWithType.vb: BatchAgent.GetAllBatchTaskInfosByNameAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAsync(String, System.Threading.CancellationToken)
+  name.vb: GetAllBatchTaskInfosByNameAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+  id: GetAllBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.BatchAgent
   langs:
   - csharp
   - vb
-  name: GetAllBatchTaskInfosByNameAndState(String, BatchTaskState)
-  nameWithType: BatchAgent.GetAllBatchTaskInfosByNameAndState(String, BatchTaskState)
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndState(System.String, SuperOffice.Data.BatchTaskState)
+  name: GetAllBatchTaskInfosByNameAndStateAsync(string, BatchTaskState, CancellationToken)
+  nameWithType: BatchAgent.GetAllBatchTaskInfosByNameAndStateAsync(string, BatchTaskState, CancellationToken)
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndStateAsync(string, SuperOffice.Data.BatchTaskState, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet an array of system and user BatchTaskInfo for the provided task name and state.\n"
+  summary: Get an array of system and user BatchTaskInfo for the provided task name and state.
+  example: []
   syntax:
-    content: public BatchTaskInfo[] GetAllBatchTaskInfosByNameAndState(string taskName, BatchTaskState state)
+    content: public Task<BatchTaskInfo[]> GetAllBatchTaskInfosByNameAndStateAsync(string taskName, BatchTaskState state, CancellationToken cancellationToken = default)
     parameters:
     - id: taskName
       type: System.String
@@ -521,72 +556,72 @@ items:
     - id: state
       type: SuperOffice.Data.BatchTaskState
       description: The BatchTaskState to get batch tasks for.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.BatchTaskInfo[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BatchTaskInfo[]}
       description: Returns an array of user and system BatchTaskInfos.
-    content.vb: Public Function GetAllBatchTaskInfosByNameAndState(taskName As String, state As BatchTaskState) As BatchTaskInfo()
-  overload: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndState*
+    content.vb: Public Function GetAllBatchTaskInfosByNameAndStateAsync(taskName As String, state As BatchTaskState, cancellationToken As CancellationToken = Nothing) As Task(Of BatchTaskInfo())
+  overload: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndStateAsync*
   implements:
-  - SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByName(System.String)
-  commentId: M:SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByName(System.String)
-  id: GetSystemBatchTaskInfosByName(System.String)
+  - SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+  nameWithType.vb: BatchAgent.GetAllBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndStateAsync(String, SuperOffice.Data.BatchTaskState, System.Threading.CancellationToken)
+  name.vb: GetAllBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, CancellationToken)
+- uid: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAsync(System.String,System.Threading.CancellationToken)
+  id: GetSystemBatchTaskInfosByNameAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.BatchAgent
   langs:
   - csharp
   - vb
-  name: GetSystemBatchTaskInfosByName(String)
-  nameWithType: BatchAgent.GetSystemBatchTaskInfosByName(String)
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByName(System.String)
+  name: GetSystemBatchTaskInfosByNameAsync(string, CancellationToken)
+  nameWithType: BatchAgent.GetSystemBatchTaskInfosByNameAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet an array of system BatchTaskInfo for the provided task name.\n"
+  summary: Get an array of system BatchTaskInfo for the provided task name.
+  example: []
   syntax:
-    content: public BatchTaskInfo[] GetSystemBatchTaskInfosByName(string taskName)
+    content: public Task<BatchTaskInfo[]> GetSystemBatchTaskInfosByNameAsync(string taskName, CancellationToken cancellationToken = default)
     parameters:
     - id: taskName
       type: System.String
       description: A task name, NULL or blank to get all tasks
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.BatchTaskInfo[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BatchTaskInfo[]}
       description: Returns an array of system BatchTaskInfos.
-    content.vb: Public Function GetSystemBatchTaskInfosByName(taskName As String) As BatchTaskInfo()
-  overload: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByName*
+    content.vb: Public Function GetSystemBatchTaskInfosByNameAsync(taskName As String, cancellationToken As CancellationToken = Nothing) As Task(Of BatchTaskInfo())
+  overload: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAsync*
   implements:
-  - SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByName(System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
-  commentId: M:SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
-  id: GetSystemBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
+  - SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAsync(System.String,System.Threading.CancellationToken)
+  nameWithType.vb: BatchAgent.GetSystemBatchTaskInfosByNameAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAsync(String, System.Threading.CancellationToken)
+  name.vb: GetSystemBatchTaskInfosByNameAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+  id: GetSystemBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.BatchAgent
   langs:
   - csharp
   - vb
-  name: GetSystemBatchTaskInfosByNameAndState(String, BatchTaskState)
-  nameWithType: BatchAgent.GetSystemBatchTaskInfosByNameAndState(String, BatchTaskState)
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndState(System.String, SuperOffice.Data.BatchTaskState)
+  name: GetSystemBatchTaskInfosByNameAndStateAsync(string, BatchTaskState, CancellationToken)
+  nameWithType: BatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync(string, BatchTaskState, CancellationToken)
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync(string, SuperOffice.Data.BatchTaskState, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet an array of system BatchTaskInfo for the provided task name and state.\n"
+  summary: Get an array of system BatchTaskInfo for the provided task name and state.
+  example: []
   syntax:
-    content: public BatchTaskInfo[] GetSystemBatchTaskInfosByNameAndState(string taskName, BatchTaskState state)
+    content: public Task<BatchTaskInfo[]> GetSystemBatchTaskInfosByNameAndStateAsync(string taskName, BatchTaskState state, CancellationToken cancellationToken = default)
     parameters:
     - id: taskName
       type: System.String
@@ -594,102 +629,73 @@ items:
     - id: state
       type: SuperOffice.Data.BatchTaskState
       description: The BatchTaskState to get batch tasks for.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.BatchTaskInfo[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BatchTaskInfo[]}
       description: Returns an array of system BatchTaskInfos.
-    content.vb: Public Function GetSystemBatchTaskInfosByNameAndState(taskName As String, state As BatchTaskState) As BatchTaskInfo()
-  overload: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndState*
+    content.vb: Public Function GetSystemBatchTaskInfosByNameAndStateAsync(taskName As String, state As BatchTaskState, cancellationToken As CancellationToken = Nothing) As Task(Of BatchTaskInfo())
+  overload: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync*
   implements:
-  - SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.BatchAgent.#ctor
-  commentId: M:SuperOffice.CRM.Services.BatchAgent.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.Services.BatchAgent
-  langs:
-  - csharp
-  - vb
-  name: BatchAgent()
-  nameWithType: BatchAgent.BatchAgent()
-  fullName: SuperOffice.CRM.Services.BatchAgent.BatchAgent()
-  type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  syntax:
-    content: public BatchAgent()
-    content.vb: Public Sub New
-  overload: SuperOffice.CRM.Services.BatchAgent.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+  nameWithType.vb: BatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync(String, SuperOffice.Data.BatchTaskState, System.Threading.CancellationToken)
+  name.vb: GetSystemBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBatchAgent}
-  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBatchAgent}
-  parent: SuperOffice.CRM.Services
-  definition: SuperOffice.CRM.Services.AgentBase`1
-  name: AgentBase<IBatchAgent>
-  nameWithType: AgentBase<IBatchAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IBatchAgent>
-  nameWithType.vb: AgentBase(Of IBatchAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IBatchAgent)
-  name.vb: AgentBase(Of IBatchAgent)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.Services.IBatchAgent
-    name: IBatchAgent
-    nameWithType: IBatchAgent
-    fullName: SuperOffice.CRM.Services.IBatchAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.CRM.Services.IBatchAgent
-    name: IBatchAgent
-    nameWithType: IBatchAgent
-    fullName: SuperOffice.CRM.Services.IBatchAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IDisposable
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Services.IBatchAgent
   commentId: T:SuperOffice.CRM.Services.IBatchAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IBatchAgent.html
   name: IBatchAgent
   nameWithType: IBatchAgent
   fullName: SuperOffice.CRM.Services.IBatchAgent
@@ -697,1045 +703,1446 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IAgent.html
   name: IAgent
   nameWithType: IAgent
   fullName: SuperOffice.CRM.Services.IAgent
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBatchAgent}.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBatchAgent}.Dispose
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBatchAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  name: Dispose()
-  nameWithType: AgentBase<IBatchAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IBatchAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of IBatchAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IBatchAgent).Dispose()
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<IBatchAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IBatchAgent>.Dispose
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of IBatchAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IBatchAgent).Dispose
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBatchAgent}.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBatchAgent}.InnerAgent
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBatchAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  name: InnerAgent
-  nameWithType: AgentBase<IBatchAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IBatchAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of IBatchAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IBatchAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.AgentBase`1
-  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
   isExternal: true
-  name: AgentBase<TAgent>
-  nameWithType: AgentBase<TAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
-  nameWithType.vb: AgentBase(Of TAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
-  name.vb: AgentBase(Of TAgent)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: Dispose()
-  nameWithType: AgentBase<TAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of TAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<TAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of TAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: InnerAgent
-  nameWithType: AgentBase<TAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfo*
-  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfo
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
   isExternal: true
-  name: GetBatchTaskInfo
-  nameWithType: BatchAgent.GetBatchTaskInfo
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfo
-- uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfo(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfo(System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.BatchAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_IBatchImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
+  name: BatchAgent
+  nameWithType: BatchAgent.BatchAgent
+  fullName: SuperOffice.CRM.Services.BatchAgent.BatchAgent
+  nameWithType.vb: BatchAgent.New
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.IBatchImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.IBatchImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.IBatchImplementation.html
+  name: IBatchImplementation
+  nameWithType: IBatchImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.IBatchImplementation
+- uid: SuperOffice.Factory.ISoRequestItemsAccessor
+  isExternal: true
+  name: ISoRequestItemsAccessor
+  nameWithType: ISoRequestItemsAccessor
+  fullName: SuperOffice.Factory.ISoRequestItemsAccessor
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  commentId: N:SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  nameWithType: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+- uid: SuperOffice.Data.IDebugUser
+  isExternal: true
+  name: IDebugUser
+  nameWithType: IDebugUser
+  fullName: SuperOffice.Data.IDebugUser
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository
+  isExternal: true
+  name: IServiceCallsRepository
+  nameWithType: IServiceCallsRepository
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfoAsync*
+  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfoAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_GetBatchTaskInfoAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetBatchTaskInfoAsync
+  nameWithType: BatchAgent.GetBatchTaskInfoAsync
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfoAsync
+- uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfoAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfoAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
-  name: GetBatchTaskInfo(Int32)
-  nameWithType: IBatchAgent.GetBatchTaskInfo(Int32)
-  fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfo(System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetBatchTaskInfoAsync(int, CancellationToken)
+  nameWithType: IBatchAgent.GetBatchTaskInfoAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfoAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IBatchAgent.GetBatchTaskInfoAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfoAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetBatchTaskInfoAsync(Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfo(System.Int32)
-    name: GetBatchTaskInfo
-    nameWithType: IBatchAgent.GetBatchTaskInfo
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfo
+  - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfoAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetBatchTaskInfoAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfo(System.Int32)
-    name: GetBatchTaskInfo
-    nameWithType: IBatchAgent.GetBatchTaskInfo
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfo
+  - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfoAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetBatchTaskInfoAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BatchTaskInfo}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.BatchTaskInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<BatchTaskInfo>
+  nameWithType: Task<BatchTaskInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.BatchTaskInfo>
+  nameWithType.vb: Task(Of BatchTaskInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.BatchTaskInfo)
+  name.vb: Task(Of BatchTaskInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.BatchTaskInfo
+    name: BatchTaskInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.BatchTaskInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.BatchTaskInfo
+    name: BatchTaskInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.BatchTaskInfo.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_GetBatchTaskInfosByAssociatesAsync_System_Int32___System_Threading_CancellationToken_
+  name: GetBatchTaskInfosByAssociatesAsync
+  nameWithType: BatchAgent.GetBatchTaskInfosByAssociatesAsync
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAsync
+- uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAsync(System.Int32[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IBatchAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetBatchTaskInfosByAssociatesAsync(int[], CancellationToken)
+  nameWithType: IBatchAgent.GetBatchTaskInfosByAssociatesAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAsync(int[], System.Threading.CancellationToken)
+  nameWithType.vb: IBatchAgent.GetBatchTaskInfosByAssociatesAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: GetBatchTaskInfosByAssociatesAsync(Integer(), CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAsync(System.Int32[],System.Threading.CancellationToken)
+    name: GetBatchTaskInfosByAssociatesAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAsync(System.Int32[],System.Threading.CancellationToken)
+    name: GetBatchTaskInfosByAssociatesAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BatchTaskInfo[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.BatchTaskInfo[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<BatchTaskInfo[]>
+  nameWithType: Task<BatchTaskInfo[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.BatchTaskInfo[]>
+  nameWithType.vb: Task(Of BatchTaskInfo())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.BatchTaskInfo())
+  name.vb: Task(Of BatchTaskInfo())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.BatchTaskInfo
+    name: BatchTaskInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.BatchTaskInfo.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.BatchTaskInfo
+    name: BatchTaskInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.BatchTaskInfo.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.BatchAgent.StartBatchJobAsync*
+  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.StartBatchJobAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_StartBatchJobAsync_SuperOffice_CRM_Services_BatchTaskInfo_System_Threading_CancellationToken_
+  name: StartBatchJobAsync
+  nameWithType: BatchAgent.StartBatchJobAsync
+  fullName: SuperOffice.CRM.Services.BatchAgent.StartBatchJobAsync
+- uid: SuperOffice.CRM.Services.IBatchAgent.StartBatchJobAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBatchAgent.StartBatchJobAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IBatchAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: StartBatchJobAsync(BatchTaskInfo, CancellationToken)
+  nameWithType: IBatchAgent.StartBatchJobAsync(BatchTaskInfo, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBatchAgent.StartBatchJobAsync(SuperOffice.CRM.Services.BatchTaskInfo, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBatchAgent.StartBatchJobAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
+    name: StartBatchJobAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.BatchTaskInfo
+    name: BatchTaskInfo
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBatchAgent.StartBatchJobAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
+    name: StartBatchJobAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.BatchTaskInfo
+    name: BatchTaskInfo
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: SuperOffice.CRM.Services.BatchTaskInfo
   commentId: T:SuperOffice.CRM.Services.BatchTaskInfo
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.BatchTaskInfo.html
   name: BatchTaskInfo
   nameWithType: BatchTaskInfo
   fullName: SuperOffice.CRM.Services.BatchTaskInfo
-- uid: System
-  commentId: N:System
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.CRM.Services.BatchAgent.StopBatchJobAsync*
+  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.StopBatchJobAsync
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociates*
-  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociates
-  isExternal: true
-  name: GetBatchTaskInfosByAssociates
-  nameWithType: BatchAgent.GetBatchTaskInfosByAssociates
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociates
-- uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociates(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociates(System.Int32[])
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_StopBatchJobAsync_System_Int32_System_Threading_CancellationToken_
+  name: StopBatchJobAsync
+  nameWithType: BatchAgent.StopBatchJobAsync
+  fullName: SuperOffice.CRM.Services.BatchAgent.StopBatchJobAsync
+- uid: SuperOffice.CRM.Services.IBatchAgent.StopBatchJobAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBatchAgent.StopBatchJobAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
-  name: GetBatchTaskInfosByAssociates(Int32[])
-  nameWithType: IBatchAgent.GetBatchTaskInfosByAssociates(Int32[])
-  fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociates(System.Int32[])
-  nameWithType.vb: IBatchAgent.GetBatchTaskInfosByAssociates(Int32())
-  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociates(System.Int32())
-  name.vb: GetBatchTaskInfosByAssociates(Int32())
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: StopBatchJobAsync(int, CancellationToken)
+  nameWithType: IBatchAgent.StopBatchJobAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBatchAgent.StopBatchJobAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IBatchAgent.StopBatchJobAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.StopBatchJobAsync(Integer, System.Threading.CancellationToken)
+  name.vb: StopBatchJobAsync(Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociates(System.Int32[])
-    name: GetBatchTaskInfosByAssociates
-    nameWithType: IBatchAgent.GetBatchTaskInfosByAssociates
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociates
+  - uid: SuperOffice.CRM.Services.IBatchAgent.StopBatchJobAsync(System.Int32,System.Threading.CancellationToken)
+    name: StopBatchJobAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociates(System.Int32[])
-    name: GetBatchTaskInfosByAssociates
-    nameWithType: IBatchAgent.GetBatchTaskInfosByAssociates
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociates
+  - uid: SuperOffice.CRM.Services.IBatchAgent.StopBatchJobAsync(System.Int32,System.Threading.CancellationToken)
+    name: StopBatchJobAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Int32[]
-  isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
   spec.csharp:
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
   spec.vb:
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.BatchTaskInfo[]
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByStateAsync*
+  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByStateAsync
   isExternal: true
-  name: BatchTaskInfo[]
-  nameWithType: BatchTaskInfo[]
-  fullName: SuperOffice.CRM.Services.BatchTaskInfo[]
-  nameWithType.vb: BatchTaskInfo()
-  fullName.vb: SuperOffice.CRM.Services.BatchTaskInfo()
-  name.vb: BatchTaskInfo()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.BatchTaskInfo
-    name: BatchTaskInfo
-    nameWithType: BatchTaskInfo
-    fullName: SuperOffice.CRM.Services.BatchTaskInfo
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.BatchTaskInfo
-    name: BatchTaskInfo
-    nameWithType: BatchTaskInfo
-    fullName: SuperOffice.CRM.Services.BatchTaskInfo
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.BatchAgent.StartBatchJob*
-  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.StartBatchJob
-  isExternal: true
-  name: StartBatchJob
-  nameWithType: BatchAgent.StartBatchJob
-  fullName: SuperOffice.CRM.Services.BatchAgent.StartBatchJob
-- uid: SuperOffice.CRM.Services.IBatchAgent.StartBatchJob(SuperOffice.CRM.Services.BatchTaskInfo)
-  commentId: M:SuperOffice.CRM.Services.IBatchAgent.StartBatchJob(SuperOffice.CRM.Services.BatchTaskInfo)
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_GetBatchTaskInfosByStateAsync_SuperOffice_Data_BatchTaskState_System_Threading_CancellationToken_
+  name: GetBatchTaskInfosByStateAsync
+  nameWithType: BatchAgent.GetBatchTaskInfosByStateAsync
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByStateAsync
+- uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByStateAsync(SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByStateAsync(SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
-  name: StartBatchJob(BatchTaskInfo)
-  nameWithType: IBatchAgent.StartBatchJob(BatchTaskInfo)
-  fullName: SuperOffice.CRM.Services.IBatchAgent.StartBatchJob(SuperOffice.CRM.Services.BatchTaskInfo)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetBatchTaskInfosByStateAsync(BatchTaskState, CancellationToken)
+  nameWithType: IBatchAgent.GetBatchTaskInfosByStateAsync(BatchTaskState, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByStateAsync(SuperOffice.Data.BatchTaskState, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.StartBatchJob(SuperOffice.CRM.Services.BatchTaskInfo)
-    name: StartBatchJob
-    nameWithType: IBatchAgent.StartBatchJob
-    fullName: SuperOffice.CRM.Services.IBatchAgent.StartBatchJob
+  - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByStateAsync(SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+    name: GetBatchTaskInfosByStateAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Services.BatchTaskInfo
-    name: BatchTaskInfo
-    nameWithType: BatchTaskInfo
-    fullName: SuperOffice.CRM.Services.BatchTaskInfo
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.StartBatchJob(SuperOffice.CRM.Services.BatchTaskInfo)
-    name: StartBatchJob
-    nameWithType: IBatchAgent.StartBatchJob
-    fullName: SuperOffice.CRM.Services.IBatchAgent.StartBatchJob
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Services.BatchTaskInfo
-    name: BatchTaskInfo
-    nameWithType: BatchTaskInfo
-    fullName: SuperOffice.CRM.Services.BatchTaskInfo
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.BatchAgent.StopBatchJob*
-  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.StopBatchJob
-  isExternal: true
-  name: StopBatchJob
-  nameWithType: BatchAgent.StopBatchJob
-  fullName: SuperOffice.CRM.Services.BatchAgent.StopBatchJob
-- uid: SuperOffice.CRM.Services.IBatchAgent.StopBatchJob(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IBatchAgent.StopBatchJob(System.Int32)
-  parent: SuperOffice.CRM.Services.IBatchAgent
-  isExternal: true
-  name: StopBatchJob(Int32)
-  nameWithType: IBatchAgent.StopBatchJob(Int32)
-  fullName: SuperOffice.CRM.Services.IBatchAgent.StopBatchJob(System.Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.StopBatchJob(System.Int32)
-    name: StopBatchJob
-    nameWithType: IBatchAgent.StopBatchJob
-    fullName: SuperOffice.CRM.Services.IBatchAgent.StopBatchJob
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.StopBatchJob(System.Int32)
-    name: StopBatchJob
-    nameWithType: IBatchAgent.StopBatchJob
-    fullName: SuperOffice.CRM.Services.IBatchAgent.StopBatchJob
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByState*
-  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByState
-  isExternal: true
-  name: GetBatchTaskInfosByState
-  nameWithType: BatchAgent.GetBatchTaskInfosByState
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByState
-- uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByState(SuperOffice.Data.BatchTaskState)
-  commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByState(SuperOffice.Data.BatchTaskState)
-  parent: SuperOffice.CRM.Services.IBatchAgent
-  isExternal: true
-  name: GetBatchTaskInfosByState(BatchTaskState)
-  nameWithType: IBatchAgent.GetBatchTaskInfosByState(BatchTaskState)
-  fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByState(SuperOffice.Data.BatchTaskState)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByState(SuperOffice.Data.BatchTaskState)
-    name: GetBatchTaskInfosByState
-    nameWithType: IBatchAgent.GetBatchTaskInfosByState
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByState
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.BatchTaskState
     name: BatchTaskState
-    nameWithType: BatchTaskState
-    fullName: SuperOffice.Data.BatchTaskState
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByState(SuperOffice.Data.BatchTaskState)
-    name: GetBatchTaskInfosByState
-    nameWithType: IBatchAgent.GetBatchTaskInfosByState
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByState
+  - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByStateAsync(SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+    name: GetBatchTaskInfosByStateAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.BatchTaskState
     name: BatchTaskState
-    nameWithType: BatchTaskState
-    fullName: SuperOffice.Data.BatchTaskState
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.BatchTaskState
   isExternal: true
   name: BatchTaskState
   nameWithType: BatchTaskState
   fullName: SuperOffice.Data.BatchTaskState
-- uid: SuperOffice.CRM.Services.BatchAgent.UpdateBatchTask*
-  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.UpdateBatchTask
+- uid: SuperOffice.CRM.Services.BatchAgent.UpdateBatchTaskAsync*
+  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.UpdateBatchTaskAsync
   isExternal: true
-  name: UpdateBatchTask
-  nameWithType: BatchAgent.UpdateBatchTask
-  fullName: SuperOffice.CRM.Services.BatchAgent.UpdateBatchTask
-- uid: SuperOffice.CRM.Services.IBatchAgent.UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
-  commentId: M:SuperOffice.CRM.Services.IBatchAgent.UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_UpdateBatchTaskAsync_SuperOffice_CRM_Services_BatchTaskInfo_System_Threading_CancellationToken_
+  name: UpdateBatchTaskAsync
+  nameWithType: BatchAgent.UpdateBatchTaskAsync
+  fullName: SuperOffice.CRM.Services.BatchAgent.UpdateBatchTaskAsync
+- uid: SuperOffice.CRM.Services.IBatchAgent.UpdateBatchTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBatchAgent.UpdateBatchTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
-  name: UpdateBatchTask(BatchTaskInfo)
-  nameWithType: IBatchAgent.UpdateBatchTask(BatchTaskInfo)
-  fullName: SuperOffice.CRM.Services.IBatchAgent.UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: UpdateBatchTaskAsync(BatchTaskInfo, CancellationToken)
+  nameWithType: IBatchAgent.UpdateBatchTaskAsync(BatchTaskInfo, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBatchAgent.UpdateBatchTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
-    name: UpdateBatchTask
-    nameWithType: IBatchAgent.UpdateBatchTask
-    fullName: SuperOffice.CRM.Services.IBatchAgent.UpdateBatchTask
+  - uid: SuperOffice.CRM.Services.IBatchAgent.UpdateBatchTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
+    name: UpdateBatchTaskAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Services.BatchTaskInfo
     name: BatchTaskInfo
-    nameWithType: BatchTaskInfo
-    fullName: SuperOffice.CRM.Services.BatchTaskInfo
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
-    name: UpdateBatchTask
-    nameWithType: IBatchAgent.UpdateBatchTask
-    fullName: SuperOffice.CRM.Services.IBatchAgent.UpdateBatchTask
+  - uid: SuperOffice.CRM.Services.IBatchAgent.UpdateBatchTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
+    name: UpdateBatchTaskAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Services.BatchTaskInfo
     name: BatchTaskInfo
-    nameWithType: BatchTaskInfo
-    fullName: SuperOffice.CRM.Services.BatchTaskInfo
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndState*
-  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndState
+- uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndStateAsync*
+  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndStateAsync
   isExternal: true
-  name: GetBatchTaskInfosByNameAndState
-  nameWithType: BatchAgent.GetBatchTaskInfosByNameAndState
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndState
-- uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
-  commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_GetBatchTaskInfosByNameAndStateAsync_System_String_SuperOffice_Data_BatchTaskState_System_Threading_CancellationToken_
+  name: GetBatchTaskInfosByNameAndStateAsync
+  nameWithType: BatchAgent.GetBatchTaskInfosByNameAndStateAsync
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndStateAsync
+- uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
-  name: GetBatchTaskInfosByNameAndState(String, BatchTaskState)
-  nameWithType: IBatchAgent.GetBatchTaskInfosByNameAndState(String, BatchTaskState)
-  fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndState(System.String, SuperOffice.Data.BatchTaskState)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetBatchTaskInfosByNameAndStateAsync(string, BatchTaskState, CancellationToken)
+  nameWithType: IBatchAgent.GetBatchTaskInfosByNameAndStateAsync(string, BatchTaskState, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndStateAsync(string, SuperOffice.Data.BatchTaskState, System.Threading.CancellationToken)
+  nameWithType.vb: IBatchAgent.GetBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndStateAsync(String, SuperOffice.Data.BatchTaskState, System.Threading.CancellationToken)
+  name.vb: GetBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
-    name: GetBatchTaskInfosByNameAndState
-    nameWithType: IBatchAgent.GetBatchTaskInfosByNameAndState
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndState
+  - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+    name: GetBatchTaskInfosByNameAndStateAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.BatchTaskState
     name: BatchTaskState
-    nameWithType: BatchTaskState
-    fullName: SuperOffice.Data.BatchTaskState
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
-    name: GetBatchTaskInfosByNameAndState
-    nameWithType: IBatchAgent.GetBatchTaskInfosByNameAndState
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndState
+  - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+    name: GetBatchTaskInfosByNameAndStateAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.BatchTaskState
     name: BatchTaskState
-    nameWithType: BatchTaskState
-    fullName: SuperOffice.Data.BatchTaskState
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociates*
-  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociates
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync
   isExternal: true
-  name: GetBatchTaskInfosByNameAndAssociates
-  nameWithType: BatchAgent.GetBatchTaskInfosByNameAndAssociates
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociates
-- uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociates(System.String,System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociates(System.String,System.Int32[])
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_GetBatchTaskInfosByNameAndAssociatesAsync_System_String_System_Int32___System_Threading_CancellationToken_
+  name: GetBatchTaskInfosByNameAndAssociatesAsync
+  nameWithType: BatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync
+- uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(System.String,System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(System.String,System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
-  name: GetBatchTaskInfosByNameAndAssociates(String, Int32[])
-  nameWithType: IBatchAgent.GetBatchTaskInfosByNameAndAssociates(String, Int32[])
-  fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociates(System.String, System.Int32[])
-  nameWithType.vb: IBatchAgent.GetBatchTaskInfosByNameAndAssociates(String, Int32())
-  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociates(System.String, System.Int32())
-  name.vb: GetBatchTaskInfosByNameAndAssociates(String, Int32())
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetBatchTaskInfosByNameAndAssociatesAsync(string, int[], CancellationToken)
+  nameWithType: IBatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(string, int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(string, int[], System.Threading.CancellationToken)
+  nameWithType.vb: IBatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(String, Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(String, Integer(), System.Threading.CancellationToken)
+  name.vb: GetBatchTaskInfosByNameAndAssociatesAsync(String, Integer(), CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociates(System.String,System.Int32[])
-    name: GetBatchTaskInfosByNameAndAssociates
-    nameWithType: IBatchAgent.GetBatchTaskInfosByNameAndAssociates
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociates
+  - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(System.String,System.Int32[],System.Threading.CancellationToken)
+    name: GetBatchTaskInfosByNameAndAssociatesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociates(System.String,System.Int32[])
-    name: GetBatchTaskInfosByNameAndAssociates
-    nameWithType: IBatchAgent.GetBatchTaskInfosByNameAndAssociates
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociates
+  - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(System.String,System.Int32[],System.Threading.CancellationToken)
+    name: GetBatchTaskInfosByNameAndAssociatesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndState*
-  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndState
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync*
+  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync
   isExternal: true
-  name: GetBatchTaskInfosByAssociatesAndState
-  nameWithType: BatchAgent.GetBatchTaskInfosByAssociatesAndState
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndState
-- uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndState(System.Int32[],SuperOffice.Data.BatchTaskState)
-  commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndState(System.Int32[],SuperOffice.Data.BatchTaskState)
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_GetBatchTaskInfosByAssociatesAndStateAsync_System_Int32___SuperOffice_Data_BatchTaskState_System_Threading_CancellationToken_
+  name: GetBatchTaskInfosByAssociatesAndStateAsync
+  nameWithType: BatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync
+- uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(System.Int32[],SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(System.Int32[],SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
-  name: GetBatchTaskInfosByAssociatesAndState(Int32[], BatchTaskState)
-  nameWithType: IBatchAgent.GetBatchTaskInfosByAssociatesAndState(Int32[], BatchTaskState)
-  fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndState(System.Int32[], SuperOffice.Data.BatchTaskState)
-  nameWithType.vb: IBatchAgent.GetBatchTaskInfosByAssociatesAndState(Int32(), BatchTaskState)
-  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndState(System.Int32(), SuperOffice.Data.BatchTaskState)
-  name.vb: GetBatchTaskInfosByAssociatesAndState(Int32(), BatchTaskState)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetBatchTaskInfosByAssociatesAndStateAsync(int[], BatchTaskState, CancellationToken)
+  nameWithType: IBatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(int[], BatchTaskState, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(int[], SuperOffice.Data.BatchTaskState, System.Threading.CancellationToken)
+  nameWithType.vb: IBatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(Integer(), BatchTaskState, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(Integer(), SuperOffice.Data.BatchTaskState, System.Threading.CancellationToken)
+  name.vb: GetBatchTaskInfosByAssociatesAndStateAsync(Integer(), BatchTaskState, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndState(System.Int32[],SuperOffice.Data.BatchTaskState)
-    name: GetBatchTaskInfosByAssociatesAndState
-    nameWithType: IBatchAgent.GetBatchTaskInfosByAssociatesAndState
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndState
+  - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(System.Int32[],SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+    name: GetBatchTaskInfosByAssociatesAndStateAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.BatchTaskState
     name: BatchTaskState
-    nameWithType: BatchTaskState
-    fullName: SuperOffice.Data.BatchTaskState
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndState(System.Int32[],SuperOffice.Data.BatchTaskState)
-    name: GetBatchTaskInfosByAssociatesAndState
-    nameWithType: IBatchAgent.GetBatchTaskInfosByAssociatesAndState
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndState
+  - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(System.Int32[],SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+    name: GetBatchTaskInfosByAssociatesAndStateAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.BatchTaskState
     name: BatchTaskState
-    nameWithType: BatchTaskState
-    fullName: SuperOffice.Data.BatchTaskState
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasks*
-  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasks
+- uid: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasksAsync*
+  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasksAsync
   isExternal: true
-  name: DeleteBatchTasks
-  nameWithType: BatchAgent.DeleteBatchTasks
-  fullName: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasks
-- uid: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasks(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasks(System.Int32[])
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_DeleteBatchTasksAsync_System_Int32___System_Threading_CancellationToken_
+  name: DeleteBatchTasksAsync
+  nameWithType: BatchAgent.DeleteBatchTasksAsync
+  fullName: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasksAsync
+- uid: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasksAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasksAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
-  name: DeleteBatchTasks(Int32[])
-  nameWithType: IBatchAgent.DeleteBatchTasks(Int32[])
-  fullName: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasks(System.Int32[])
-  nameWithType.vb: IBatchAgent.DeleteBatchTasks(Int32())
-  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasks(System.Int32())
-  name.vb: DeleteBatchTasks(Int32())
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DeleteBatchTasksAsync(int[], CancellationToken)
+  nameWithType: IBatchAgent.DeleteBatchTasksAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasksAsync(int[], System.Threading.CancellationToken)
+  nameWithType.vb: IBatchAgent.DeleteBatchTasksAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasksAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: DeleteBatchTasksAsync(Integer(), CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasks(System.Int32[])
-    name: DeleteBatchTasks
-    nameWithType: IBatchAgent.DeleteBatchTasks
-    fullName: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasks
+  - uid: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasksAsync(System.Int32[],System.Threading.CancellationToken)
+    name: DeleteBatchTasksAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasks(System.Int32[])
-    name: DeleteBatchTasks
-    nameWithType: IBatchAgent.DeleteBatchTasks
-    fullName: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasks
+  - uid: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasksAsync(System.Int32[],System.Threading.CancellationToken)
+    name: DeleteBatchTasksAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTask*
-  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.DeleteBatchTask
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
-  name: DeleteBatchTask
-  nameWithType: BatchAgent.DeleteBatchTask
-  fullName: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTask
-- uid: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTask(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTask(System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTaskAsync*
+  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.DeleteBatchTaskAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_DeleteBatchTaskAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteBatchTaskAsync
+  nameWithType: BatchAgent.DeleteBatchTaskAsync
+  fullName: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTaskAsync
+- uid: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTaskAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTaskAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
-  name: DeleteBatchTask(Int32)
-  nameWithType: IBatchAgent.DeleteBatchTask(Int32)
-  fullName: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTask(System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DeleteBatchTaskAsync(int, CancellationToken)
+  nameWithType: IBatchAgent.DeleteBatchTaskAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTaskAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IBatchAgent.DeleteBatchTaskAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTaskAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteBatchTaskAsync(Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTask(System.Int32)
-    name: DeleteBatchTask
-    nameWithType: IBatchAgent.DeleteBatchTask
-    fullName: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTask
+  - uid: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTaskAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteBatchTaskAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTask(System.Int32)
-    name: DeleteBatchTask
-    nameWithType: IBatchAgent.DeleteBatchTask
-    fullName: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTask
+  - uid: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTaskAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteBatchTaskAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByName*
-  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByName
+- uid: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAsync*
+  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAsync
   isExternal: true
-  name: GetAllBatchTaskInfosByName
-  nameWithType: BatchAgent.GetAllBatchTaskInfosByName
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByName
-- uid: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByName(System.String)
-  commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByName(System.String)
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_GetAllBatchTaskInfosByNameAsync_System_String_System_Threading_CancellationToken_
+  name: GetAllBatchTaskInfosByNameAsync
+  nameWithType: BatchAgent.GetAllBatchTaskInfosByNameAsync
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAsync
+- uid: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
-  name: GetAllBatchTaskInfosByName(String)
-  nameWithType: IBatchAgent.GetAllBatchTaskInfosByName(String)
-  fullName: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByName(System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetAllBatchTaskInfosByNameAsync(string, CancellationToken)
+  nameWithType: IBatchAgent.GetAllBatchTaskInfosByNameAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAsync(string, System.Threading.CancellationToken)
+  nameWithType.vb: IBatchAgent.GetAllBatchTaskInfosByNameAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAsync(String, System.Threading.CancellationToken)
+  name.vb: GetAllBatchTaskInfosByNameAsync(String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByName(System.String)
-    name: GetAllBatchTaskInfosByName
-    nameWithType: IBatchAgent.GetAllBatchTaskInfosByName
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByName
+  - uid: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAsync(System.String,System.Threading.CancellationToken)
+    name: GetAllBatchTaskInfosByNameAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAsync(System.String,System.Threading.CancellationToken)
+    name: GetAllBatchTaskInfosByNameAsync
+    isExternal: true
+  - name: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByName(System.String)
-    name: GetAllBatchTaskInfosByName
-    nameWithType: IBatchAgent.GetAllBatchTaskInfosByName
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByName
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndState*
-  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndState
+- uid: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndStateAsync*
+  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndStateAsync
   isExternal: true
-  name: GetAllBatchTaskInfosByNameAndState
-  nameWithType: BatchAgent.GetAllBatchTaskInfosByNameAndState
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndState
-- uid: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
-  commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_GetAllBatchTaskInfosByNameAndStateAsync_System_String_SuperOffice_Data_BatchTaskState_System_Threading_CancellationToken_
+  name: GetAllBatchTaskInfosByNameAndStateAsync
+  nameWithType: BatchAgent.GetAllBatchTaskInfosByNameAndStateAsync
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndStateAsync
+- uid: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
-  name: GetAllBatchTaskInfosByNameAndState(String, BatchTaskState)
-  nameWithType: IBatchAgent.GetAllBatchTaskInfosByNameAndState(String, BatchTaskState)
-  fullName: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAndState(System.String, SuperOffice.Data.BatchTaskState)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetAllBatchTaskInfosByNameAndStateAsync(string, BatchTaskState, CancellationToken)
+  nameWithType: IBatchAgent.GetAllBatchTaskInfosByNameAndStateAsync(string, BatchTaskState, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAndStateAsync(string, SuperOffice.Data.BatchTaskState, System.Threading.CancellationToken)
+  nameWithType.vb: IBatchAgent.GetAllBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAndStateAsync(String, SuperOffice.Data.BatchTaskState, System.Threading.CancellationToken)
+  name.vb: GetAllBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
-    name: GetAllBatchTaskInfosByNameAndState
-    nameWithType: IBatchAgent.GetAllBatchTaskInfosByNameAndState
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAndState
+  - uid: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+    name: GetAllBatchTaskInfosByNameAndStateAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.BatchTaskState
     name: BatchTaskState
-    nameWithType: BatchTaskState
-    fullName: SuperOffice.Data.BatchTaskState
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
-    name: GetAllBatchTaskInfosByNameAndState
-    nameWithType: IBatchAgent.GetAllBatchTaskInfosByNameAndState
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAndState
+  - uid: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+    name: GetAllBatchTaskInfosByNameAndStateAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.BatchTaskState
     name: BatchTaskState
-    nameWithType: BatchTaskState
-    fullName: SuperOffice.Data.BatchTaskState
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByName*
-  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByName
+- uid: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAsync*
+  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAsync
   isExternal: true
-  name: GetSystemBatchTaskInfosByName
-  nameWithType: BatchAgent.GetSystemBatchTaskInfosByName
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByName
-- uid: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByName(System.String)
-  commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByName(System.String)
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_GetSystemBatchTaskInfosByNameAsync_System_String_System_Threading_CancellationToken_
+  name: GetSystemBatchTaskInfosByNameAsync
+  nameWithType: BatchAgent.GetSystemBatchTaskInfosByNameAsync
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAsync
+- uid: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
-  name: GetSystemBatchTaskInfosByName(String)
-  nameWithType: IBatchAgent.GetSystemBatchTaskInfosByName(String)
-  fullName: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByName(System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetSystemBatchTaskInfosByNameAsync(string, CancellationToken)
+  nameWithType: IBatchAgent.GetSystemBatchTaskInfosByNameAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAsync(string, System.Threading.CancellationToken)
+  nameWithType.vb: IBatchAgent.GetSystemBatchTaskInfosByNameAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAsync(String, System.Threading.CancellationToken)
+  name.vb: GetSystemBatchTaskInfosByNameAsync(String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByName(System.String)
-    name: GetSystemBatchTaskInfosByName
-    nameWithType: IBatchAgent.GetSystemBatchTaskInfosByName
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByName
+  - uid: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAsync(System.String,System.Threading.CancellationToken)
+    name: GetSystemBatchTaskInfosByNameAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByName(System.String)
-    name: GetSystemBatchTaskInfosByName
-    nameWithType: IBatchAgent.GetSystemBatchTaskInfosByName
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByName
+  - uid: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAsync(System.String,System.Threading.CancellationToken)
+    name: GetSystemBatchTaskInfosByNameAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndState*
-  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndState
+- uid: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync*
+  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync
   isExternal: true
-  name: GetSystemBatchTaskInfosByNameAndState
-  nameWithType: BatchAgent.GetSystemBatchTaskInfosByNameAndState
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndState
-- uid: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
-  commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_GetSystemBatchTaskInfosByNameAndStateAsync_System_String_SuperOffice_Data_BatchTaskState_System_Threading_CancellationToken_
+  name: GetSystemBatchTaskInfosByNameAndStateAsync
+  nameWithType: BatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync
+- uid: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
-  name: GetSystemBatchTaskInfosByNameAndState(String, BatchTaskState)
-  nameWithType: IBatchAgent.GetSystemBatchTaskInfosByNameAndState(String, BatchTaskState)
-  fullName: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAndState(System.String, SuperOffice.Data.BatchTaskState)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetSystemBatchTaskInfosByNameAndStateAsync(string, BatchTaskState, CancellationToken)
+  nameWithType: IBatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync(string, BatchTaskState, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync(string, SuperOffice.Data.BatchTaskState, System.Threading.CancellationToken)
+  nameWithType.vb: IBatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync(String, SuperOffice.Data.BatchTaskState, System.Threading.CancellationToken)
+  name.vb: GetSystemBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
-    name: GetSystemBatchTaskInfosByNameAndState
-    nameWithType: IBatchAgent.GetSystemBatchTaskInfosByNameAndState
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAndState
+  - uid: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+    name: GetSystemBatchTaskInfosByNameAndStateAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.BatchTaskState
     name: BatchTaskState
-    nameWithType: BatchTaskState
-    fullName: SuperOffice.Data.BatchTaskState
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
-    name: GetSystemBatchTaskInfosByNameAndState
-    nameWithType: IBatchAgent.GetSystemBatchTaskInfosByNameAndState
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAndState
+  - uid: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.Data.BatchTaskState,System.Threading.CancellationToken)
+    name: GetSystemBatchTaskInfosByNameAndStateAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.BatchTaskState
     name: BatchTaskState
-    nameWithType: BatchTaskState
-    fullName: SuperOffice.Data.BatchTaskState
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.BatchAgent.#ctor*
-  commentId: Overload:SuperOffice.CRM.Services.BatchAgent.#ctor
-  isExternal: true
-  name: BatchAgent
-  nameWithType: BatchAgent.BatchAgent
-  fullName: SuperOffice.CRM.Services.BatchAgent.BatchAgent

@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 838,
-  "Name": "Von-Koch",
-  "AssociateId": 451,
-  "DetailsTable": 945,
-  "DetailsRecord": 438,
+  "Id": 673,
+  "Name": "Dicki-Hilll",
+  "AssociateId": 501,
+  "DetailsTable": 989,
+  "DetailsRecord": 359,
   "IsSystemTask": false,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "fugit",
-    "ParameterObject2": "porro"
+    "ParameterObject1": "eum",
+    "ParameterObject2": "dicta"
   },
-  "LastStarted": "2024-05-18T16:32:48.2902385+02:00",
-  "Created": "2010-07-18T16:32:48.2902385+02:00",
-  "StartCount": 168,
-  "DatabaseSerialNumber": "339579",
-  "Context": "voluptatem",
-  "Result": "aliquam",
+  "LastStarted": "2006-12-12T17:54:08.6793184+01:00",
+  "Created": "2024-02-16T17:54:08.6793184+01:00",
+  "StartCount": 382,
+  "DatabaseSerialNumber": "1341527",
+  "Context": "voluptas",
+  "Result": "totam",
   "State": "All",
-  "Description": "Proactive scalable implementation",
-  "Response": "et",
-  "Request": "quasi",
-  "ProgressDescription": "Programmable mission-critical infrastructure",
-  "ProgressPercent": 934,
-  "FileName": "Volkman Inc and Sons",
+  "Description": "Reduced 4th generation orchestration",
+  "Response": "eum",
+  "Request": "odio",
+  "ProgressDescription": "Organic fresh-thinking intranet",
+  "ProgressPercent": 630,
+  "FileName": "Ledner Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldType": "System.String",
+      "FieldLength": 429
     }
   }
 }

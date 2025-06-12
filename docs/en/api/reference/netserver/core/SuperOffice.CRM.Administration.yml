@@ -32,11 +32,26 @@ items:
   fullName: SuperOffice.CRM.Administration
   type: Namespace
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
 references:
+- uid: SuperOffice.CRM.Administration.SoRole
+  commentId: T:SuperOffice.CRM.Administration.SoRole
+  isExternal: true
+  href: SuperOffice.CRM.Administration.SoRole.html
+  name: SoRole
+  nameWithType: SoRole
+  fullName: SuperOffice.CRM.Administration.SoRole
+- uid: SuperOffice.CRM.Administration.SoPasswordCredentialPlugin
+  commentId: T:SuperOffice.CRM.Administration.SoPasswordCredentialPlugin
+  isExternal: true
+  href: SuperOffice.CRM.Administration.SoPasswordCredentialPlugin.html
+  name: SoPasswordCredentialPlugin
+  nameWithType: SoPasswordCredentialPlugin
+  fullName: SuperOffice.CRM.Administration.SoPasswordCredentialPlugin
 - uid: SuperOffice.CRM.Administration.EjUserHelper
   commentId: T:SuperOffice.CRM.Administration.EjUserHelper
   isExternal: true
+  href: SuperOffice.CRM.Administration.EjUserHelper.html
   name: EjUserHelper
   nameWithType: EjUserHelper
   fullName: SuperOffice.CRM.Administration.EjUserHelper
@@ -44,25 +59,15 @@ references:
   commentId: T:SuperOffice.CRM.Administration.SoResource
   parent: SuperOffice.CRM.Administration
   isExternal: true
+  href: SuperOffice.CRM.Administration.SoResource.html
   name: SoResource
   nameWithType: SoResource
   fullName: SuperOffice.CRM.Administration.SoResource
-- uid: SuperOffice.CRM.Administration.SoRole
-  commentId: T:SuperOffice.CRM.Administration.SoRole
-  isExternal: true
-  name: SoRole
-  nameWithType: SoRole
-  fullName: SuperOffice.CRM.Administration.SoRole
-- uid: SuperOffice.CRM.Administration.SoPasswordCredentialPlugin
-  commentId: T:SuperOffice.CRM.Administration.SoPasswordCredentialPlugin
-  isExternal: true
-  name: SoPasswordCredentialPlugin
-  nameWithType: SoPasswordCredentialPlugin
-  fullName: SuperOffice.CRM.Administration.SoPasswordCredentialPlugin
 - uid: SuperOffice.CRM.Administration.SoUser
   commentId: T:SuperOffice.CRM.Administration.SoUser
   parent: SuperOffice.CRM.Administration
   isExternal: true
+  href: SuperOffice.CRM.Administration.SoUser.html
   name: SoUser
   nameWithType: SoUser
   fullName: SuperOffice.CRM.Administration.SoUser
@@ -70,12 +75,34 @@ references:
   commentId: T:SuperOffice.CRM.Administration.SoUser.PermissionType
   parent: SuperOffice.CRM.Administration
   isExternal: true
+  href: SuperOffice.CRM.Administration.SoUser.html
   name: SoUser.PermissionType
   nameWithType: SoUser.PermissionType
   fullName: SuperOffice.CRM.Administration.SoUser.PermissionType
+  spec.csharp:
+  - uid: SuperOffice.CRM.Administration.SoUser
+    name: SoUser
+    isExternal: true
+    href: SuperOffice.CRM.Administration.SoUser.html
+  - name: .
+  - uid: SuperOffice.CRM.Administration.SoUser.PermissionType
+    name: PermissionType
+    isExternal: true
+    href: SuperOffice.CRM.Administration.SoUser.PermissionType.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Administration.SoUser
+    name: SoUser
+    isExternal: true
+    href: SuperOffice.CRM.Administration.SoUser.html
+  - name: .
+  - uid: SuperOffice.CRM.Administration.SoUser.PermissionType
+    name: PermissionType
+    isExternal: true
+    href: SuperOffice.CRM.Administration.SoUser.PermissionType.html
 - uid: SuperOffice.CRM.Administration.SoUserCredential
   commentId: T:SuperOffice.CRM.Administration.SoUserCredential
   isExternal: true
+  href: SuperOffice.CRM.Administration.SoUserCredential.html
   name: SoUserCredential
   nameWithType: SoUserCredential
   fullName: SuperOffice.CRM.Administration.SoUserCredential
@@ -83,6 +110,7 @@ references:
   commentId: T:SuperOffice.CRM.Administration.UserCredentialPluginAttribute
   parent: SuperOffice.CRM.Administration
   isExternal: true
+  href: SuperOffice.CRM.Administration.UserCredentialPluginAttribute.html
   name: UserCredentialPluginAttribute
   nameWithType: UserCredentialPluginAttribute
   fullName: SuperOffice.CRM.Administration.UserCredentialPluginAttribute
@@ -90,25 +118,28 @@ references:
   commentId: T:SuperOffice.CRM.Administration.IUserCredentialPlugin
   parent: SuperOffice.CRM.Administration
   isExternal: true
+  href: SuperOffice.CRM.Administration.IUserCredentialPlugin.html
   name: IUserCredentialPlugin
   nameWithType: IUserCredentialPlugin
   fullName: SuperOffice.CRM.Administration.IUserCredentialPlugin
 - uid: SuperOffice.CRM.Administration.UserCredentialGroup
   commentId: T:SuperOffice.CRM.Administration.UserCredentialGroup
   isExternal: true
+  href: SuperOffice.CRM.Administration.UserCredentialGroup.html
   name: UserCredentialGroup
   nameWithType: UserCredentialGroup
   fullName: SuperOffice.CRM.Administration.UserCredentialGroup
 - uid: SuperOffice.CRM.Administration.UserCredentialList
   commentId: T:SuperOffice.CRM.Administration.UserCredentialList
-  parent: SuperOffice.CRM.Administration
   isExternal: true
+  href: SuperOffice.CRM.Administration.UserCredentialList.html
   name: UserCredentialList
   nameWithType: UserCredentialList
   fullName: SuperOffice.CRM.Administration.UserCredentialList
 - uid: SuperOffice.CRM.Administration.UserCredentialInfo
   commentId: T:SuperOffice.CRM.Administration.UserCredentialInfo
   isExternal: true
+  href: SuperOffice.CRM.Administration.UserCredentialInfo.html
   name: UserCredentialInfo
   nameWithType: UserCredentialInfo
   fullName: SuperOffice.CRM.Administration.UserCredentialInfo
@@ -116,6 +147,7 @@ references:
   commentId: T:SuperOffice.CRM.Administration.UserPluginAttribute
   parent: SuperOffice.CRM.Administration
   isExternal: true
+  href: SuperOffice.CRM.Administration.UserPluginAttribute.html
   name: UserPluginAttribute
   nameWithType: UserPluginAttribute
   fullName: SuperOffice.CRM.Administration.UserPluginAttribute
@@ -123,12 +155,14 @@ references:
   commentId: T:SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
   parent: SuperOffice.CRM.Administration
   isExternal: true
+  href: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.html
   name: CheckIfAssociateNameIsLegal
   nameWithType: CheckIfAssociateNameIsLegal
   fullName: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
 - uid: SuperOffice.CRM.Administration.CheckIfAssociateUserNameIsLegal
   commentId: T:SuperOffice.CRM.Administration.CheckIfAssociateUserNameIsLegal
   isExternal: true
+  href: SuperOffice.CRM.Administration.CheckIfAssociateUserNameIsLegal.html
   name: CheckIfAssociateUserNameIsLegal
   nameWithType: CheckIfAssociateUserNameIsLegal
   fullName: SuperOffice.CRM.Administration.CheckIfAssociateUserNameIsLegal
@@ -136,12 +170,14 @@ references:
   commentId: T:SuperOffice.CRM.Administration.IUserPlugin
   parent: SuperOffice.CRM.Administration
   isExternal: true
+  href: SuperOffice.CRM.Administration.IUserPlugin.html
   name: IUserPlugin
   nameWithType: IUserPlugin
   fullName: SuperOffice.CRM.Administration.IUserPlugin
 - uid: SuperOffice.CRM.Administration.UserPlugin
   commentId: T:SuperOffice.CRM.Administration.UserPlugin
   isExternal: true
+  href: SuperOffice.CRM.Administration.UserPlugin.html
   name: UserPlugin
   nameWithType: UserPlugin
   fullName: SuperOffice.CRM.Administration.UserPlugin
@@ -149,6 +185,7 @@ references:
   commentId: T:SuperOffice.CRM.Administration.UserValidatorPluginAttribute
   parent: SuperOffice.CRM.Administration
   isExternal: true
+  href: SuperOffice.CRM.Administration.UserValidatorPluginAttribute.html
   name: UserValidatorPluginAttribute
   nameWithType: UserValidatorPluginAttribute
   fullName: SuperOffice.CRM.Administration.UserValidatorPluginAttribute
@@ -156,18 +193,51 @@ references:
   commentId: T:SuperOffice.CRM.Administration.IUserValidatorPlugin
   parent: SuperOffice.CRM.Administration
   isExternal: true
+  href: SuperOffice.CRM.Administration.IUserValidatorPlugin.html
   name: IUserValidatorPlugin
   nameWithType: IUserValidatorPlugin
   fullName: SuperOffice.CRM.Administration.IUserValidatorPlugin
 - uid: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin
   commentId: T:SuperOffice.CRM.Administration.DefualtUserValidatorPlugin
   isExternal: true
+  href: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.html
   name: DefualtUserValidatorPlugin
   nameWithType: DefualtUserValidatorPlugin
   fullName: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin
 - uid: SuperOffice.CRM.Administration
   commentId: N:SuperOffice.CRM.Administration
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Administration
   nameWithType: SuperOffice.CRM.Administration
   fullName: SuperOffice.CRM.Administration
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Administration
+    name: Administration
+    isExternal: true
+    href: SuperOffice.CRM.Administration.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Administration
+    name: Administration
+    isExternal: true
+    href: SuperOffice.CRM.Administration.html

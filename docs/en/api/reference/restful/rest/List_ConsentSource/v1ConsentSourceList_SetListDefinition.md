@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 1002,
-  "Name": "Heidenreich Inc and Sons",
-  "Tooltip": "culpa",
+  "Id": 576,
+  "Name": "Abernathy Inc and Sons",
+  "Tooltip": "distinctio",
   "Deleted": false,
-  "Rank": 155,
+  "Rank": 695,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "nostrum",
-  "InUseByUserDefinedFields": false
+  "ListType": "nulla",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 569,
-  "Name": "Gislason, Brekke and Mraz",
-  "Tooltip": "est",
+  "Id": 7,
+  "Name": "Kihn-Smitham",
+  "Tooltip": "voluptatum",
   "Deleted": false,
-  "Rank": 709,
+  "Rank": 17,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptas",
-  "InUseByUserDefinedFields": false,
+  "ListType": "sit",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 604
+      "FieldLength": 535
     }
   }
 }

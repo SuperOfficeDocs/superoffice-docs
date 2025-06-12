@@ -12,12 +12,12 @@ so.envir: onsite
 
 Service methods defined on <see cref='T:ISentryAgent'>SentryAgent</see> that can trigger server-side event scripts.
 
-* [CanCreateAppointmentInAllDiaries](cancreateappointmentinalldiaries.md)
-* [CanCreateAppointmentInAssociateDiaries](cancreateappointmentinassociatediaries.md)
-* [CanCreateAppointmentInEachAssociatesDiary](cancreateappointmentineachassociatesdiary.md)
-* [GetFunctionRights](getfunctionrights.md)
-* [GetNewTableRight](getnewtableright.md)
-* [GetTableRightByContactOwnership](gettablerightbycontactownership.md)
-* [GetTableRightByOwnership](gettablerightbyownership.md)
-* [HasFunctionRight](hasfunctionright.md)
+* [CanCreateAppointmentInAllDiariesAsync](cancreateappointmentinalldiariesasync.md)
+* [CanCreateAppointmentInAssociateDiariesAsync](cancreateappointmentinassociatediariesasync.md)
+* [CanCreateAppointmentInEachAssociatesDiaryAsync](cancreateappointmentineachassociatesdiaryasync.md)
+* [GetFunctionRightsAsync](getfunctionrightsasync.md)
+* [GetNewTableRightAsync](getnewtablerightasync.md)
+* [GetTableRightByContactOwnershipAsync](gettablerightbycontactownershipasync.md)
+* [GetTableRightByOwnershipAsync](gettablerightbyownershipasync.md)
+* [HasFunctionRightAsync](hasfunctionrightasync.md)
 

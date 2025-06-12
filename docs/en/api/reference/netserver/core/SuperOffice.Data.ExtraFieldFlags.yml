@@ -12,22 +12,21 @@ items:
   - SuperOffice.Data.ExtraFieldFlags.Hidden
   - SuperOffice.Data.ExtraFieldFlags.HideFunctions
   - SuperOffice.Data.ExtraFieldFlags.HideHeaderIfEmpty
-  - SuperOffice.Data.ExtraFieldFlags.Indexed
   - SuperOffice.Data.ExtraFieldFlags.InNewTicket
+  - SuperOffice.Data.ExtraFieldFlags.Indexed
   - SuperOffice.Data.ExtraFieldFlags.IsForeignId
   - SuperOffice.Data.ExtraFieldFlags.IsId
   - SuperOffice.Data.ExtraFieldFlags.ListRelations
   - SuperOffice.Data.ExtraFieldFlags.Neutral
   - SuperOffice.Data.ExtraFieldFlags.NotEmpty
   - SuperOffice.Data.ExtraFieldFlags.Public
-  - SuperOffice.Data.ExtraFieldFlags.Readable
   - SuperOffice.Data.ExtraFieldFlags.ReadOnly
+  - SuperOffice.Data.ExtraFieldFlags.Readable
   - SuperOffice.Data.ExtraFieldFlags.Searchable
   - SuperOffice.Data.ExtraFieldFlags.SetWhenClicked
   - SuperOffice.Data.ExtraFieldFlags.ShowRelationInArchives
   - SuperOffice.Data.ExtraFieldFlags.ShowWithProperties
   - SuperOffice.Data.ExtraFieldFlags.UseDefault
-  - SuperOffice.Data.ExtraFieldFlags.value__
   - SuperOffice.Data.ExtraFieldFlags.ViewInList
   - SuperOffice.Data.ExtraFieldFlags.ViewInSearch
   langs:
@@ -36,60 +35,34 @@ items:
   name: ExtraFieldFlags
   nameWithType: ExtraFieldFlags
   fullName: SuperOffice.Data.ExtraFieldFlags
-  type: Class
-  source:
-    path: SoCore
-    isExternal: true
+  type: Enum
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\nFlag values for the CS extrafields dictionary\nThis Enum consists of flag values that can be combined.\n"
-  syntax:
-    content: 'public sealed class ExtraFieldFlags : Enum'
-    content.vb: >-
-      Public NotInheritable Class ExtraFieldFlags
-          Inherits
+  summary: >-
+    Flag values for the CS extrafields dictionary
 
-           Enum
-  inheritance:
-  - System.Object
+    This Enum consists of flag values that can be combined.
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum ExtraFieldFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum ExtraFieldFlags
   extensionMethods:
   - SuperOffice.Data.ExtraFieldFlags.EnumUtil.MapEnums``2
   - SuperOffice.Data.ExtraFieldFlags.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.Data.ExtraFieldFlags.value__
-  commentId: F:SuperOffice.Data.ExtraFieldFlags.value__
-  id: value__
-  parent: SuperOffice.Data.ExtraFieldFlags
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: ExtraFieldFlags.value__
-  fullName: SuperOffice.Data.ExtraFieldFlags.value__
-  type: Field
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.Data.ExtraFieldFlags.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ExtraFieldFlags)
+  - SuperOffice.Data.ExtraFieldFlags.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - System.Enum.EnumUtil.GetDescription
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ExtraFieldFlags.Neutral
   commentId: F:SuperOffice.Data.ExtraFieldFlags.Neutral
   id: Neutral
@@ -101,24 +74,15 @@ items:
   nameWithType: ExtraFieldFlags.Neutral
   fullName: SuperOffice.Data.ExtraFieldFlags.Neutral
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n0: No flags set\n"
+  summary: '0: No flags set'
+  example: []
   syntax:
-    content: public const ExtraFieldFlags Neutral
+    content: Neutral = 0
     return:
       type: SuperOffice.Data.ExtraFieldFlags
-    content.vb: Public Const Neutral As ExtraFieldFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ExtraFieldFlags.Searchable
   commentId: F:SuperOffice.Data.ExtraFieldFlags.Searchable
   id: Searchable
@@ -130,24 +94,15 @@ items:
   nameWithType: ExtraFieldFlags.Searchable
   fullName: SuperOffice.Data.ExtraFieldFlags.Searchable
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1: The field is searchable\n"
+  summary: '1: The field is searchable'
+  example: []
   syntax:
-    content: public const ExtraFieldFlags Searchable
+    content: Searchable = 1
     return:
       type: SuperOffice.Data.ExtraFieldFlags
-    content.vb: Public Const Searchable As ExtraFieldFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ExtraFieldFlags.Public
   commentId: F:SuperOffice.Data.ExtraFieldFlags.Public
   id: Public
@@ -159,24 +114,15 @@ items:
   nameWithType: ExtraFieldFlags.Public
   fullName: SuperOffice.Data.ExtraFieldFlags.Public
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n2: The field is public (external)\n"
+  summary: '2: The field is public (external)'
+  example: []
   syntax:
-    content: public const ExtraFieldFlags Public
+    content: Public = 2
     return:
       type: SuperOffice.Data.ExtraFieldFlags
-    content.vb: Public Const Public As ExtraFieldFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ExtraFieldFlags.InNewTicket
   commentId: F:SuperOffice.Data.ExtraFieldFlags.InNewTicket
   id: InNewTicket
@@ -188,24 +134,15 @@ items:
   nameWithType: ExtraFieldFlags.InNewTicket
   fullName: SuperOffice.Data.ExtraFieldFlags.InNewTicket
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n4: The field is viewed in new-ticket form\n"
+  summary: '4: The field is viewed in new-ticket form'
+  example: []
   syntax:
-    content: public const ExtraFieldFlags InNewTicket
+    content: InNewTicket = 4
     return:
       type: SuperOffice.Data.ExtraFieldFlags
-    content.vb: Public Const InNewTicket As ExtraFieldFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ExtraFieldFlags.SetWhenClicked
   commentId: F:SuperOffice.Data.ExtraFieldFlags.SetWhenClicked
   id: SetWhenClicked
@@ -217,24 +154,15 @@ items:
   nameWithType: ExtraFieldFlags.SetWhenClicked
   fullName: SuperOffice.Data.ExtraFieldFlags.SetWhenClicked
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n8: The field is set (datetime) when clicked\n"
+  summary: '8: The field is set (datetime) when clicked'
+  example: []
   syntax:
-    content: public const ExtraFieldFlags SetWhenClicked
+    content: SetWhenClicked = 8
     return:
       type: SuperOffice.Data.ExtraFieldFlags
-    content.vb: Public Const SetWhenClicked As ExtraFieldFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ExtraFieldFlags.CannotChange
   commentId: F:SuperOffice.Data.ExtraFieldFlags.CannotChange
   id: CannotChange
@@ -246,24 +174,15 @@ items:
   nameWithType: ExtraFieldFlags.CannotChange
   fullName: SuperOffice.Data.ExtraFieldFlags.CannotChange
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n16: The field cannot change after being set\n"
+  summary: '16: The field cannot change after being set'
+  example: []
   syntax:
-    content: public const ExtraFieldFlags CannotChange
+    content: CannotChange = 16
     return:
       type: SuperOffice.Data.ExtraFieldFlags
-    content.vb: Public Const CannotChange As ExtraFieldFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ExtraFieldFlags.DropDown
   commentId: F:SuperOffice.Data.ExtraFieldFlags.DropDown
   id: DropDown
@@ -275,24 +194,15 @@ items:
   nameWithType: ExtraFieldFlags.DropDown
   fullName: SuperOffice.Data.ExtraFieldFlags.DropDown
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n32: The field is a dropdown (extra string fields)\n"
+  summary: '32: The field is a dropdown (extra string fields)'
+  example: []
   syntax:
-    content: public const ExtraFieldFlags DropDown
+    content: DropDown = 32
     return:
       type: SuperOffice.Data.ExtraFieldFlags
-    content.vb: Public Const DropDown As ExtraFieldFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ExtraFieldFlags.Readable
   commentId: F:SuperOffice.Data.ExtraFieldFlags.Readable
   id: Readable
@@ -304,24 +214,15 @@ items:
   nameWithType: ExtraFieldFlags.Readable
   fullName: SuperOffice.Data.ExtraFieldFlags.Readable
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n64: The field is directly readable from database\n"
+  summary: '64: The field is directly readable from database'
+  example: []
   syntax:
-    content: public const ExtraFieldFlags Readable
+    content: Readable = 64
     return:
       type: SuperOffice.Data.ExtraFieldFlags
-    content.vb: Public Const Readable As ExtraFieldFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ExtraFieldFlags.DontEscape
   commentId: F:SuperOffice.Data.ExtraFieldFlags.DontEscape
   id: DontEscape
@@ -333,24 +234,15 @@ items:
   nameWithType: ExtraFieldFlags.DontEscape
   fullName: SuperOffice.Data.ExtraFieldFlags.DontEscape
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n128: Do not HTML-escape the value when displaying field\n"
+  summary: '128: Do not HTML-escape the value when displaying field'
+  example: []
   syntax:
-    content: public const ExtraFieldFlags DontEscape
+    content: DontEscape = 128
     return:
       type: SuperOffice.Data.ExtraFieldFlags
-    content.vb: Public Const DontEscape As ExtraFieldFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ExtraFieldFlags.Deleted
   commentId: F:SuperOffice.Data.ExtraFieldFlags.Deleted
   id: Deleted
@@ -362,24 +254,15 @@ items:
   nameWithType: ExtraFieldFlags.Deleted
   fullName: SuperOffice.Data.ExtraFieldFlags.Deleted
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n256: The field is deleted\n"
+  summary: '256: The field is deleted'
+  example: []
   syntax:
-    content: public const ExtraFieldFlags Deleted
+    content: Deleted = 256
     return:
       type: SuperOffice.Data.ExtraFieldFlags
-    content.vb: Public Const Deleted As ExtraFieldFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ExtraFieldFlags.IsId
   commentId: F:SuperOffice.Data.ExtraFieldFlags.IsId
   id: IsId
@@ -391,24 +274,15 @@ items:
   nameWithType: ExtraFieldFlags.IsId
   fullName: SuperOffice.Data.ExtraFieldFlags.IsId
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n512: The field is the id\n"
+  summary: '512: The field is the id'
+  example: []
   syntax:
-    content: public const ExtraFieldFlags IsId
+    content: IsId = 512
     return:
       type: SuperOffice.Data.ExtraFieldFlags
-    content.vb: Public Const IsId As ExtraFieldFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ExtraFieldFlags.IsForeignId
   commentId: F:SuperOffice.Data.ExtraFieldFlags.IsForeignId
   id: IsForeignId
@@ -420,24 +294,15 @@ items:
   nameWithType: ExtraFieldFlags.IsForeignId
   fullName: SuperOffice.Data.ExtraFieldFlags.IsForeignId
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1024: The field is a foreign id\n"
+  summary: '1024: The field is a foreign id'
+  example: []
   syntax:
-    content: public const ExtraFieldFlags IsForeignId
+    content: IsForeignId = 1024
     return:
       type: SuperOffice.Data.ExtraFieldFlags
-    content.vb: Public Const IsForeignId As ExtraFieldFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ExtraFieldFlags.ReadOnly
   commentId: F:SuperOffice.Data.ExtraFieldFlags.ReadOnly
   id: ReadOnly
@@ -449,24 +314,15 @@ items:
   nameWithType: ExtraFieldFlags.ReadOnly
   fullName: SuperOffice.Data.ExtraFieldFlags.ReadOnly
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n2048: The field is not writeable\n"
+  summary: '2048: The field is not writeable'
+  example: []
   syntax:
-    content: public const ExtraFieldFlags ReadOnly
+    content: ReadOnly = 2048
     return:
       type: SuperOffice.Data.ExtraFieldFlags
-    content.vb: Public Const ReadOnly As ExtraFieldFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ExtraFieldFlags.UseDefault
   commentId: F:SuperOffice.Data.ExtraFieldFlags.UseDefault
   id: UseDefault
@@ -478,24 +334,15 @@ items:
   nameWithType: ExtraFieldFlags.UseDefault
   fullName: SuperOffice.Data.ExtraFieldFlags.UseDefault
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n4096: Use default value for field if no value is supplied\n"
+  summary: '4096: Use default value for field if no value is supplied'
+  example: []
   syntax:
-    content: public const ExtraFieldFlags UseDefault
+    content: UseDefault = 4096
     return:
       type: SuperOffice.Data.ExtraFieldFlags
-    content.vb: Public Const UseDefault As ExtraFieldFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ExtraFieldFlags.ListRelations
   commentId: F:SuperOffice.Data.ExtraFieldFlags.ListRelations
   id: ListRelations
@@ -507,24 +354,15 @@ items:
   nameWithType: ExtraFieldFlags.ListRelations
   fullName: SuperOffice.Data.ExtraFieldFlags.ListRelations
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n8192: List relations\n"
+  summary: '8192: List relations'
+  example: []
   syntax:
-    content: public const ExtraFieldFlags ListRelations
+    content: ListRelations = 8192
     return:
       type: SuperOffice.Data.ExtraFieldFlags
-    content.vb: Public Const ListRelations As ExtraFieldFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ExtraFieldFlags.ViewInList
   commentId: F:SuperOffice.Data.ExtraFieldFlags.ViewInList
   id: ViewInList
@@ -536,24 +374,15 @@ items:
   nameWithType: ExtraFieldFlags.ViewInList
   fullName: SuperOffice.Data.ExtraFieldFlags.ViewInList
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n16384: View this field when listing rows\n"
+  summary: '16384: View this field when listing rows'
+  example: []
   syntax:
-    content: public const ExtraFieldFlags ViewInList
+    content: ViewInList = 16384
     return:
       type: SuperOffice.Data.ExtraFieldFlags
-    content.vb: Public Const ViewInList As ExtraFieldFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ExtraFieldFlags.HideHeaderIfEmpty
   commentId: F:SuperOffice.Data.ExtraFieldFlags.HideHeaderIfEmpty
   id: HideHeaderIfEmpty
@@ -565,24 +394,15 @@ items:
   nameWithType: ExtraFieldFlags.HideHeaderIfEmpty
   fullName: SuperOffice.Data.ExtraFieldFlags.HideHeaderIfEmpty
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n32768: Hide the header for this list if there are no entries\n"
+  summary: '32768: Hide the header for this list if there are no entries'
+  example: []
   syntax:
-    content: public const ExtraFieldFlags HideHeaderIfEmpty
+    content: HideHeaderIfEmpty = 32768
     return:
       type: SuperOffice.Data.ExtraFieldFlags
-    content.vb: Public Const HideHeaderIfEmpty As ExtraFieldFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ExtraFieldFlags.HideFunctions
   commentId: F:SuperOffice.Data.ExtraFieldFlags.HideFunctions
   id: HideFunctions
@@ -594,24 +414,15 @@ items:
   nameWithType: ExtraFieldFlags.HideFunctions
   fullName: SuperOffice.Data.ExtraFieldFlags.HideFunctions
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n65536: Hide the function buttons for this relation\n"
+  summary: '65536: Hide the function buttons for this relation'
+  example: []
   syntax:
-    content: public const ExtraFieldFlags HideFunctions
+    content: HideFunctions = 65536
     return:
       type: SuperOffice.Data.ExtraFieldFlags
-    content.vb: Public Const HideFunctions As ExtraFieldFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ExtraFieldFlags.NotEmpty
   commentId: F:SuperOffice.Data.ExtraFieldFlags.NotEmpty
   id: NotEmpty
@@ -623,24 +434,15 @@ items:
   nameWithType: ExtraFieldFlags.NotEmpty
   fullName: SuperOffice.Data.ExtraFieldFlags.NotEmpty
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n131072: The field cannot be empty\n"
+  summary: '131072: The field cannot be empty'
+  example: []
   syntax:
-    content: public const ExtraFieldFlags NotEmpty
+    content: NotEmpty = 131072
     return:
       type: SuperOffice.Data.ExtraFieldFlags
-    content.vb: Public Const NotEmpty As ExtraFieldFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ExtraFieldFlags.Hidden
   commentId: F:SuperOffice.Data.ExtraFieldFlags.Hidden
   id: Hidden
@@ -652,24 +454,15 @@ items:
   nameWithType: ExtraFieldFlags.Hidden
   fullName: SuperOffice.Data.ExtraFieldFlags.Hidden
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n262144: The field is not shown anywhere\n"
+  summary: '262144: The field is not shown anywhere'
+  example: []
   syntax:
-    content: public const ExtraFieldFlags Hidden
+    content: Hidden = 262144
     return:
       type: SuperOffice.Data.ExtraFieldFlags
-    content.vb: Public Const Hidden As ExtraFieldFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ExtraFieldFlags.Indexed
   commentId: F:SuperOffice.Data.ExtraFieldFlags.Indexed
   id: Indexed
@@ -681,24 +474,15 @@ items:
   nameWithType: ExtraFieldFlags.Indexed
   fullName: SuperOffice.Data.ExtraFieldFlags.Indexed
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n524288: The field is indexed\n"
+  summary: '524288: The field is indexed'
+  example: []
   syntax:
-    content: public const ExtraFieldFlags Indexed
+    content: Indexed = 524288
     return:
       type: SuperOffice.Data.ExtraFieldFlags
-    content.vb: Public Const Indexed As ExtraFieldFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ExtraFieldFlags.ViewInSearch
   commentId: F:SuperOffice.Data.ExtraFieldFlags.ViewInSearch
   id: ViewInSearch
@@ -710,24 +494,15 @@ items:
   nameWithType: ExtraFieldFlags.ViewInSearch
   fullName: SuperOffice.Data.ExtraFieldFlags.ViewInSearch
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1048576: The field is viewed in relational searches\n"
+  summary: '1048576: The field is viewed in relational searches'
+  example: []
   syntax:
-    content: public const ExtraFieldFlags ViewInSearch
+    content: ViewInSearch = 1048576
     return:
       type: SuperOffice.Data.ExtraFieldFlags
-    content.vb: Public Const ViewInSearch As ExtraFieldFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ExtraFieldFlags.ShowWithProperties
   commentId: F:SuperOffice.Data.ExtraFieldFlags.ShowWithProperties
   id: ShowWithProperties
@@ -739,24 +514,15 @@ items:
   nameWithType: ExtraFieldFlags.ShowWithProperties
   fullName: SuperOffice.Data.ExtraFieldFlags.ShowWithProperties
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n2097152: The field listed with the other main properties for the entity (i.e. for &quot;Edit ticket&quot; it is shown on the first pane)\n"
+  summary: '2097152: The field listed with the other main properties for the entity (i.e. for "Edit ticket" it is shown on the first pane)'
+  example: []
   syntax:
-    content: public const ExtraFieldFlags ShowWithProperties
+    content: ShowWithProperties = 2097152
     return:
       type: SuperOffice.Data.ExtraFieldFlags
-    content.vb: Public Const ShowWithProperties As ExtraFieldFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.ExtraFieldFlags.ShowRelationInArchives
   commentId: F:SuperOffice.Data.ExtraFieldFlags.ShowRelationInArchives
   id: ShowRelationInArchives
@@ -768,115 +534,289 @@ items:
   nameWithType: ExtraFieldFlags.ShowRelationInArchives
   fullName: SuperOffice.Data.ExtraFieldFlags.ShowRelationInArchives
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n4194304: The field is a FK, and in Archives this relation should be followed and columns in the target table should be available in the archive\n"
+  summary: '4194304: The field is a FK, and in Archives this relation should be followed and columns in the target table should be available in the archive'
+  example: []
   syntax:
-    content: public const ExtraFieldFlags ShowRelationInArchives
+    content: ShowRelationInArchives = 4194304
     return:
       type: SuperOffice.Data.ExtraFieldFlags
-    content.vb: Public Const ShowRelationInArchives As ExtraFieldFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.ExtraFieldFlags.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ExtraFieldFlags, To>()
-  nameWithType: EnumUtil.MapEnums<ExtraFieldFlags, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.ExtraFieldFlags, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ExtraFieldFlags, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ExtraFieldFlags, To)()
-  name.vb: MapEnums(Of ExtraFieldFlags, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ExtraFieldFlags, To>(ExtraFieldFlags)
+  nameWithType: EnumUtil.MapEnums<ExtraFieldFlags, To>(ExtraFieldFlags)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ExtraFieldFlags, To>(SuperOffice.Data.ExtraFieldFlags)
+  nameWithType.vb: EnumUtil.MapEnums(Of ExtraFieldFlags, To)(ExtraFieldFlags)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ExtraFieldFlags, To)(SuperOffice.Data.ExtraFieldFlags)
+  name.vb: MapEnums(Of ExtraFieldFlags, To)(ExtraFieldFlags)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ExtraFieldFlags, To>
-    nameWithType: EnumUtil.MapEnums<ExtraFieldFlags, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.ExtraFieldFlags, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ExtraFieldFlags)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.ExtraFieldFlags
+    name: ExtraFieldFlags
+    isExternal: true
+    href: SuperOffice.Data.ExtraFieldFlags.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.ExtraFieldFlags
+    name: ExtraFieldFlags
+    isExternal: true
+    href: SuperOffice.Data.ExtraFieldFlags.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ExtraFieldFlags, To)
-    nameWithType: EnumUtil.MapEnums(Of ExtraFieldFlags, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ExtraFieldFlags, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ExtraFieldFlags)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ExtraFieldFlags
+    name: ExtraFieldFlags
+    isExternal: true
+    href: SuperOffice.Data.ExtraFieldFlags.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.ExtraFieldFlags
+    name: ExtraFieldFlags
+    isExternal: true
+    href: SuperOffice.Data.ExtraFieldFlags.html
+  - name: )
 - uid: SuperOffice.Data.ExtraFieldFlags.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ExtraFieldFlags, To>()
-  nameWithType: Converters.MapEnums<ExtraFieldFlags, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ExtraFieldFlags, To>()
-  nameWithType.vb: Converters.MapEnums(Of ExtraFieldFlags, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ExtraFieldFlags, To)()
-  name.vb: MapEnums(Of ExtraFieldFlags, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ExtraFieldFlags, To>(ExtraFieldFlags)
+  nameWithType: Converters.MapEnums<ExtraFieldFlags, To>(ExtraFieldFlags)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ExtraFieldFlags, To>(SuperOffice.Data.ExtraFieldFlags)
+  nameWithType.vb: Converters.MapEnums(Of ExtraFieldFlags, To)(ExtraFieldFlags)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ExtraFieldFlags, To)(SuperOffice.Data.ExtraFieldFlags)
+  name.vb: MapEnums(Of ExtraFieldFlags, To)(ExtraFieldFlags)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ExtraFieldFlags, To>
-    nameWithType: Converters.MapEnums<ExtraFieldFlags, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ExtraFieldFlags, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ExtraFieldFlags)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.ExtraFieldFlags
+    name: ExtraFieldFlags
+    isExternal: true
+    href: SuperOffice.Data.ExtraFieldFlags.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.ExtraFieldFlags
+    name: ExtraFieldFlags
+    isExternal: true
+    href: SuperOffice.Data.ExtraFieldFlags.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ExtraFieldFlags, To)
-    nameWithType: Converters.MapEnums(Of ExtraFieldFlags, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ExtraFieldFlags, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ExtraFieldFlags)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ExtraFieldFlags
+    name: ExtraFieldFlags
+    isExternal: true
+    href: SuperOffice.Data.ExtraFieldFlags.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  - name: (
+  - uid: SuperOffice.Data.ExtraFieldFlags
+    name: ExtraFieldFlags
+    isExternal: true
+    href: SuperOffice.Data.ExtraFieldFlags.html
+  - name: )
+- uid: SuperOffice.Data.ExtraFieldFlags.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ExtraFieldFlags)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<ExtraFieldFlags>(ExtraFieldFlags, ExtraFieldFlags)
+  nameWithType: ObjectExtensions.AssignByReflection<ExtraFieldFlags>(ExtraFieldFlags, ExtraFieldFlags)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ExtraFieldFlags>(SuperOffice.Data.ExtraFieldFlags, SuperOffice.Data.ExtraFieldFlags)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ExtraFieldFlags)(ExtraFieldFlags, ExtraFieldFlags)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ExtraFieldFlags)(SuperOffice.Data.ExtraFieldFlags, SuperOffice.Data.ExtraFieldFlags)
+  name.vb: AssignByReflection(Of ExtraFieldFlags)(ExtraFieldFlags, ExtraFieldFlags)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ExtraFieldFlags,SuperOffice.Data.ExtraFieldFlags)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.ExtraFieldFlags
+    name: ExtraFieldFlags
+    isExternal: true
+    href: SuperOffice.Data.ExtraFieldFlags.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.ExtraFieldFlags
+    name: ExtraFieldFlags
+    isExternal: true
+    href: SuperOffice.Data.ExtraFieldFlags.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.ExtraFieldFlags
+    name: ExtraFieldFlags
+    isExternal: true
+    href: SuperOffice.Data.ExtraFieldFlags.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ExtraFieldFlags,SuperOffice.Data.ExtraFieldFlags)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ExtraFieldFlags
+    name: ExtraFieldFlags
+    isExternal: true
+    href: SuperOffice.Data.ExtraFieldFlags.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.ExtraFieldFlags
+    name: ExtraFieldFlags
+    isExternal: true
+    href: SuperOffice.Data.ExtraFieldFlags.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.ExtraFieldFlags
+    name: ExtraFieldFlags
+    isExternal: true
+    href: SuperOffice.Data.ExtraFieldFlags.html
+  - name: )
+- uid: SuperOffice.Data.ExtraFieldFlags.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<ExtraFieldFlags>(ExtraFieldFlags)
+  nameWithType: ObjectExtensions.GraphCopy<ExtraFieldFlags>(ExtraFieldFlags)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ExtraFieldFlags>(SuperOffice.Data.ExtraFieldFlags)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ExtraFieldFlags)(ExtraFieldFlags)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ExtraFieldFlags)(SuperOffice.Data.ExtraFieldFlags)
+  name.vb: GraphCopy(Of ExtraFieldFlags)(ExtraFieldFlags)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ExtraFieldFlags)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.ExtraFieldFlags
+    name: ExtraFieldFlags
+    isExternal: true
+    href: SuperOffice.Data.ExtraFieldFlags.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.ExtraFieldFlags
+    name: ExtraFieldFlags
+    isExternal: true
+    href: SuperOffice.Data.ExtraFieldFlags.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ExtraFieldFlags)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ExtraFieldFlags
+    name: ExtraFieldFlags
+    isExternal: true
+    href: SuperOffice.Data.ExtraFieldFlags.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.ExtraFieldFlags
+    name: ExtraFieldFlags
+    isExternal: true
+    href: SuperOffice.Data.ExtraFieldFlags.html
+  - name: )
+- uid: System.Enum.EnumUtil.GetDescription
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  parent: EnumUtil
+  definition: EnumUtil.GetDescription(System.Enum)
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -885,43 +825,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -930,58 +872,222 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: EnumUtil.GetDescription(System.Enum)
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.Data.ExtraFieldFlags
   commentId: T:SuperOffice.Data.ExtraFieldFlags
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.ExtraFieldFlags.html
   name: ExtraFieldFlags
   nameWithType: ExtraFieldFlags
   fullName: SuperOffice.Data.ExtraFieldFlags

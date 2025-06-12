@@ -10,64 +10,21 @@ items:
   - SuperOffice.WebApi.Data.MessageActionType.None
   - SuperOffice.WebApi.Data.MessageActionType.Reply
   - SuperOffice.WebApi.Data.MessageActionType.ReplyAll
-  - SuperOffice.WebApi.Data.MessageActionType.value__
   langs:
   - csharp
   - vb
   name: MessageActionType
   nameWithType: MessageActionType
   fullName: SuperOffice.WebApi.Data.MessageActionType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nTicket message actions\n"
+  summary: Ticket message actions
+  example: []
   syntax:
-    content: 'public sealed class MessageActionType : Enum'
-    content.vb: >-
-      Public NotInheritable Class MessageActionType
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.MessageActionType.value__
-  commentId: F:SuperOffice.WebApi.Data.MessageActionType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.MessageActionType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: MessageActionType.value__
-  fullName: SuperOffice.WebApi.Data.MessageActionType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum MessageActionType
+    content.vb: Public Enum MessageActionType
 - uid: SuperOffice.WebApi.Data.MessageActionType.None
   commentId: F:SuperOffice.WebApi.Data.MessageActionType.None
   id: None
@@ -79,24 +36,26 @@ items:
   nameWithType: MessageActionType.None
   fullName: SuperOffice.WebApi.Data.MessageActionType.None
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: None\n"
+  summary: '0: None'
+  example: []
   syntax:
-    content: public const MessageActionType None
+    content: >-
+      [EnumMember]
+
+      None = 0
     return:
       type: SuperOffice.WebApi.Data.MessageActionType
-    content.vb: Public Const None As MessageActionType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      None = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.MessageActionType.Reply
   commentId: F:SuperOffice.WebApi.Data.MessageActionType.Reply
   id: Reply
@@ -108,24 +67,26 @@ items:
   nameWithType: MessageActionType.Reply
   fullName: SuperOffice.WebApi.Data.MessageActionType.Reply
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Reply to message\n"
+  summary: '1: Reply to message'
+  example: []
   syntax:
-    content: public const MessageActionType Reply
+    content: >-
+      [EnumMember]
+
+      Reply = 1
     return:
       type: SuperOffice.WebApi.Data.MessageActionType
-    content.vb: Public Const Reply As MessageActionType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Reply = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.MessageActionType.ReplyAll
   commentId: F:SuperOffice.WebApi.Data.MessageActionType.ReplyAll
   id: ReplyAll
@@ -137,24 +98,26 @@ items:
   nameWithType: MessageActionType.ReplyAll
   fullName: SuperOffice.WebApi.Data.MessageActionType.ReplyAll
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Reply to all\n"
+  summary: '2: Reply to all'
+  example: []
   syntax:
-    content: public const MessageActionType ReplyAll
+    content: >-
+      [EnumMember]
+
+      ReplyAll = 2
     return:
       type: SuperOffice.WebApi.Data.MessageActionType
-    content.vb: Public Const ReplyAll As MessageActionType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyAll = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.MessageActionType.Forward
   commentId: F:SuperOffice.WebApi.Data.MessageActionType.Forward
   id: Forward
@@ -166,24 +129,26 @@ items:
   nameWithType: MessageActionType.Forward
   fullName: SuperOffice.WebApi.Data.MessageActionType.Forward
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Forward message\n"
+  summary: '3: Forward message'
+  example: []
   syntax:
-    content: public const MessageActionType Forward
+    content: >-
+      [EnumMember]
+
+      Forward = 3
     return:
       type: SuperOffice.WebApi.Data.MessageActionType
-    content.vb: Public Const Forward As MessageActionType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Forward = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.MessageActionType.InternalComment
   commentId: F:SuperOffice.WebApi.Data.MessageActionType.InternalComment
   id: InternalComment
@@ -195,55 +160,69 @@ items:
   nameWithType: MessageActionType.InternalComment
   fullName: SuperOffice.WebApi.Data.MessageActionType.InternalComment
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Add internal commnet\n"
+  summary: '4: Add internal commnet'
+  example: []
   syntax:
-    content: public const MessageActionType InternalComment
+    content: >-
+      [EnumMember]
+
+      InternalComment = 4
     return:
       type: SuperOffice.WebApi.Data.MessageActionType
-    content.vb: Public Const InternalComment As MessageActionType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      InternalComment = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.MessageActionType
   commentId: T:SuperOffice.WebApi.Data.MessageActionType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.MessageActionType.html
   name: MessageActionType
   nameWithType: MessageActionType
   fullName: SuperOffice.WebApi.Data.MessageActionType

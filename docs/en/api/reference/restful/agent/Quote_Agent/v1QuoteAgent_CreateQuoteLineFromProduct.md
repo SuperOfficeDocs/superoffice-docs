@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 496,
+  "QuoteAlternativeId": 7,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 330,
-  "ERPQuoteLineKey": "in",
-  "QuoteAlternativeId": 750,
-  "ERPProductKey": "voluptatem",
+  "QuoteLineId": 863,
+  "ERPQuoteLineKey": "et",
+  "QuoteAlternativeId": 650,
+  "ERPProductKey": "quasi",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 20659.327999999998,
-  "DeliveredQuantity": 19794.344,
-  "Rank": 322,
-  "Name": "Dibbert LLC",
-  "Description": "Robust fault-tolerant budgetary management",
-  "Code": "ut",
-  "QuantityUnit": "velit",
-  "PriceUnit": "ad",
-  "ItemNumber": "492129",
+  "Quantity": 3202.948,
+  "DeliveredQuantity": 8781.4679999999989,
+  "Rank": 754,
+  "Name": "Grant LLC",
+  "Description": "Organic bifurcated core",
+  "Code": "quia",
+  "QuantityUnit": "aut",
+  "PriceUnit": "porro",
+  "ItemNumber": "872485",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quo",
-  "ProductTypeKey": "pariatur",
-  "Supplier": "dolor",
-  "SupplierCode": "aut",
-  "Thumbnail": "temporibus",
-  "VATInfo": "aliquam",
-  "VAT": 29813.742,
-  "UnitCost": 12263.341999999999,
-  "UnitMinimumPrice": 3202.948,
-  "UnitListPrice": 28212.268,
+  "ProductFamilyKey": "aut",
+  "ProductTypeKey": "sapiente",
+  "Supplier": "provident",
+  "SupplierCode": "ab",
+  "Thumbnail": "quas",
+  "VATInfo": "illo",
+  "VAT": 19355.584,
+  "UnitCost": 18202.272,
+  "UnitMinimumPrice": 12275.877999999999,
+  "UnitListPrice": 19289.77,
   "ExtraInfo": [
     {
-      "Name": "Mueller Inc and Sons",
-      "Value": "eaque",
+      "Name": "Hegmann-Kreiger",
+      "Value": "praesentium",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 528
+          "FieldLength": 329
         }
       }
     },
     {
-      "Name": "Mueller Inc and Sons",
-      "Value": "eaque",
+      "Name": "Hegmann-Kreiger",
+      "Value": "praesentium",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 528
+          "FieldLength": 329
         }
       }
     }
   ],
-  "RawExtraInfo": "temporibus",
-  "IsSubscription": true,
-  "SubscriptionUnit": "dolorem",
-  "SubscriptionQuantity": 824.242,
-  "SubscriptionStart": "2013-06-24T16:32:39.74275+02:00",
-  "ERPDiscountPercent": 23150.858,
-  "ERPDiscountAmount": 5935.7959999999994,
-  "DiscountPercent": 2347.366,
-  "DiscountAmount": 1535.6599999999999,
+  "RawExtraInfo": "nam",
+  "IsSubscription": false,
+  "SubscriptionUnit": "ut",
+  "SubscriptionQuantity": 6311.876,
+  "SubscriptionStart": "2010-05-20T17:54:03.5389365+02:00",
+  "ERPDiscountPercent": 21872.185999999998,
+  "ERPDiscountAmount": 14391.328,
+  "DiscountPercent": 4848.298,
+  "DiscountAmount": 15917.586,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 29111.726,
-  "EarningAmount": 4986.1939999999995,
-  "SubTotal": 5938.9299999999994,
-  "TotalPrice": 23887.347999999998,
-  "Rights": "numquam",
-  "Rule": "quae",
-  "ExtraField1": "in",
-  "ExtraField2": "qui",
-  "ExtraField3": "quam",
-  "ExtraField4": "vitae",
-  "ExtraField5": "harum",
+  "EarningPercent": 21445.962,
+  "EarningAmount": 21402.086,
+  "SubTotal": 14751.738,
+  "TotalPrice": 19067.255999999998,
+  "Rights": "similique",
+  "Rule": "in",
+  "ExtraField1": "et",
+  "ExtraField2": "officia",
+  "ExtraField3": "sint",
+  "ExtraField4": "voluptatem",
+  "ExtraField5": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 864
+      "FieldType": "System.String",
+      "FieldLength": 233
     }
   }
 }

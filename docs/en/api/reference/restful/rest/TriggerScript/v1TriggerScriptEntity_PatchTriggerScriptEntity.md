@@ -120,18 +120,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "expedita",
+    "path": "sunt",
     "value": {}
   },
   {
     "op": "add",
-    "path": "expedita",
+    "path": "sunt",
     "value": {}
   }
 ]
@@ -144,22 +144,22 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 989,
-  "Name": "Lehner, Sawayn and Friesen",
+  "ScreenChooserId": 251,
+  "Name": "Pfeffer-Koch",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "sed",
-  "Source": "et",
-  "Registered": "2010-01-07T16:32:48.2745849+01:00",
-  "RegisteredAssociateId": 30,
-  "Updated": "2004-12-27T16:32:48.2745849+01:00",
-  "UpdatedAssociateId": 472,
+  "UniqueIdentifier": "corporis",
+  "Source": "culpa",
+  "Registered": "2003-07-26T17:54:08.6793184+02:00",
+  "RegisteredAssociateId": 848,
+  "Updated": "2006-05-28T17:54:08.6793184+02:00",
+  "UpdatedAssociateId": 42,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 756
+      "FieldType": "System.String",
+      "FieldLength": 793
     }
   },
   "_Links": {

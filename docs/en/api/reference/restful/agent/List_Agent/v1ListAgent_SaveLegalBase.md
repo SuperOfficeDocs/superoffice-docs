@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 314,
-  "Name": "Bayer-Dare",
-  "Tooltip": "laudantium",
-  "Rank": 905,
-  "Key": "voluptatem",
+  "LegalBaseId": 686,
+  "Name": "Dach-Champlin",
+  "Tooltip": "iusto",
+  "Rank": 695,
+  "Key": "iste",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 4
+      "FieldType": "System.String",
+      "FieldLength": 967
     }
   }
 }

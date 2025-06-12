@@ -19,29 +19,30 @@ items:
   nameWithType: KbCategory
   fullName: SuperOffice.WebApi.Data.KbCategory
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for KbCategory.\nKnowledge base category. Groups knowledge base articles into hierarchy.    \n"
+  summary: >-
+    Carrier object for KbCategory.
+
+    Knowledge base category. Groups knowledge base articles into hierarchy.
+  example: []
   syntax:
-    content: 'public class KbCategory : Object'
-    content.vb: >-
-      Public Class KbCategory
-          Inherits Object
+    content: public class KbCategory
+    content.vb: Public Class KbCategory
   seealso:
   - linkId: SuperOffice.WebApi.Agents.CustomerServiceAgent
     commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.KbCategory.#ctor
   commentId: M:SuperOffice.WebApi.Data.KbCategory.#ctor
   id: '#ctor'
@@ -53,21 +54,18 @@ items:
   nameWithType: KbCategory.KbCategory()
   fullName: SuperOffice.WebApi.Data.KbCategory.KbCategory()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public KbCategory()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.KbCategory.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: KbCategory.New()
+  fullName.vb: SuperOffice.WebApi.Data.KbCategory.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.KbCategory.KbCategoryId
   commentId: P:SuperOffice.WebApi.Data.KbCategory.KbCategoryId
   id: KbCategoryId
@@ -79,13 +77,11 @@ items:
   nameWithType: KbCategory.KbCategoryId
   fullName: SuperOffice.WebApi.Data.KbCategory.KbCategoryId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe primary key (auto-incremented)\n"
+  summary: The primary key (auto-incremented)
+  example: []
   syntax:
     content: public virtual int KbCategoryId { get; set; }
     parameters: []
@@ -93,14 +89,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property KbCategoryId As Integer
   overload: SuperOffice.WebApi.Data.KbCategory.KbCategoryId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.KbCategory.Name
   commentId: P:SuperOffice.WebApi.Data.KbCategory.Name
   id: Name
@@ -112,13 +100,11 @@ items:
   nameWithType: KbCategory.Name
   fullName: SuperOffice.WebApi.Data.KbCategory.Name
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe name of this category.\n"
+  summary: The name of this category.
+  example: []
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -126,14 +112,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Name As String
   overload: SuperOffice.WebApi.Data.KbCategory.Name*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.KbCategory.Description
   commentId: P:SuperOffice.WebApi.Data.KbCategory.Description
   id: Description
@@ -145,13 +123,11 @@ items:
   nameWithType: KbCategory.Description
   fullName: SuperOffice.WebApi.Data.KbCategory.Description
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe description of this category.\n"
+  summary: The description of this category.
+  example: []
   syntax:
     content: public virtual string Description { get; set; }
     parameters: []
@@ -159,14 +135,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Description As String
   overload: SuperOffice.WebApi.Data.KbCategory.Description*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.KbCategory.Fullname
   commentId: P:SuperOffice.WebApi.Data.KbCategory.Fullname
   id: Fullname
@@ -178,13 +146,11 @@ items:
   nameWithType: KbCategory.Fullname
   fullName: SuperOffice.WebApi.Data.KbCategory.Fullname
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe full name of this category, i.e. Foo/bar/test.\n"
+  summary: The full name of this category, i.e. Foo/bar/test.
+  example: []
   syntax:
     content: public virtual string Fullname { get; set; }
     parameters: []
@@ -192,14 +158,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Fullname As String
   overload: SuperOffice.WebApi.Data.KbCategory.Fullname*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.KbCategory.ParentId
   commentId: P:SuperOffice.WebApi.Data.KbCategory.ParentId
   id: ParentId
@@ -211,13 +169,11 @@ items:
   nameWithType: KbCategory.ParentId
   fullName: SuperOffice.WebApi.Data.KbCategory.ParentId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThis entry contains a reference to the parent category. NULL or -1 if this is a toplevel category.\n"
+  summary: This entry contains a reference to the parent category. NULL or -1 if this is a toplevel category.
+  example: []
   syntax:
     content: public virtual int ParentId { get; set; }
     parameters: []
@@ -225,14 +181,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ParentId As Integer
   overload: SuperOffice.WebApi.Data.KbCategory.ParentId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.KbCategory.SortOrder
   commentId: P:SuperOffice.WebApi.Data.KbCategory.SortOrder
   id: SortOrder
@@ -244,13 +192,11 @@ items:
   nameWithType: KbCategory.SortOrder
   fullName: SuperOffice.WebApi.Data.KbCategory.SortOrder
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nA strictly ascending number used for sorting categories when they are listed.\n"
+  summary: A strictly ascending number used for sorting categories when they are listed.
+  example: []
   syntax:
     content: public virtual int SortOrder { get; set; }
     parameters: []
@@ -258,49 +204,302 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property SortOrder As Integer
   overload: SuperOffice.WebApi.Data.KbCategory.SortOrder*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.CustomerServiceAgent.html
+  name: CustomerServiceAgent
+  nameWithType: CustomerServiceAgent
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent
-  commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: CustomerServiceAgent
-  nameWithType: CustomerServiceAgent
-  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.KbCategory.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.KbCategory.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.KbCategory.html#SuperOffice_WebApi_Data_KbCategory__ctor
   name: KbCategory
   nameWithType: KbCategory.KbCategory
   fullName: SuperOffice.WebApi.Data.KbCategory.KbCategory
+  nameWithType.vb: KbCategory.New
+  fullName.vb: SuperOffice.WebApi.Data.KbCategory.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.KbCategory.KbCategoryId*
   commentId: Overload:SuperOffice.WebApi.Data.KbCategory.KbCategoryId
   isExternal: true
+  href: SuperOffice.WebApi.Data.KbCategory.html#SuperOffice_WebApi_Data_KbCategory_KbCategoryId
   name: KbCategoryId
   nameWithType: KbCategory.KbCategoryId
   fullName: SuperOffice.WebApi.Data.KbCategory.KbCategoryId
@@ -308,12 +507,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.WebApi.Data.KbCategory.Name*
   commentId: Overload:SuperOffice.WebApi.Data.KbCategory.Name
   isExternal: true
+  href: SuperOffice.WebApi.Data.KbCategory.html#SuperOffice_WebApi_Data_KbCategory_Name
   name: Name
   nameWithType: KbCategory.Name
   fullName: SuperOffice.WebApi.Data.KbCategory.Name
@@ -321,30 +525,38 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.KbCategory.Description*
   commentId: Overload:SuperOffice.WebApi.Data.KbCategory.Description
   isExternal: true
+  href: SuperOffice.WebApi.Data.KbCategory.html#SuperOffice_WebApi_Data_KbCategory_Description
   name: Description
   nameWithType: KbCategory.Description
   fullName: SuperOffice.WebApi.Data.KbCategory.Description
 - uid: SuperOffice.WebApi.Data.KbCategory.Fullname*
   commentId: Overload:SuperOffice.WebApi.Data.KbCategory.Fullname
   isExternal: true
+  href: SuperOffice.WebApi.Data.KbCategory.html#SuperOffice_WebApi_Data_KbCategory_Fullname
   name: Fullname
   nameWithType: KbCategory.Fullname
   fullName: SuperOffice.WebApi.Data.KbCategory.Fullname
 - uid: SuperOffice.WebApi.Data.KbCategory.ParentId*
   commentId: Overload:SuperOffice.WebApi.Data.KbCategory.ParentId
   isExternal: true
+  href: SuperOffice.WebApi.Data.KbCategory.html#SuperOffice_WebApi_Data_KbCategory_ParentId
   name: ParentId
   nameWithType: KbCategory.ParentId
   fullName: SuperOffice.WebApi.Data.KbCategory.ParentId
 - uid: SuperOffice.WebApi.Data.KbCategory.SortOrder*
   commentId: Overload:SuperOffice.WebApi.Data.KbCategory.SortOrder
   isExternal: true
+  href: SuperOffice.WebApi.Data.KbCategory.html#SuperOffice_WebApi_Data_KbCategory_SortOrder
   name: SortOrder
   nameWithType: KbCategory.SortOrder
   fullName: SuperOffice.WebApi.Data.KbCategory.SortOrder

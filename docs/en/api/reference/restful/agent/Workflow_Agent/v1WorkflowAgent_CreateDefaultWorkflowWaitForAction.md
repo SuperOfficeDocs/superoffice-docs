@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,25 +72,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 326,
-  "WorkflowStepId": 938,
-  "WorkflowId": 238,
-  "Rank": 643,
+  "WorkflowWaitForActionId": 494,
+  "WorkflowStepId": 969,
+  "WorkflowId": 977,
+  "Rank": 642,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Abbott Inc and Sons",
-      "Description": "Configurable coherent policy",
-      "Rank": 763,
+      "Name": "Spencer-Schuster",
+      "Description": "Customer-focused tangible synergy",
+      "Rank": 120,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Abbott Inc and Sons",
-      "Description": "Configurable coherent policy",
-      "Rank": 763,
+      "Name": "Spencer-Schuster",
+      "Description": "Customer-focused tangible synergy",
+      "Rank": 120,
       "Restrictions": [
         {},
         {}
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 820
+      "FieldLength": 356
     }
   }
 }

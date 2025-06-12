@@ -1,0 +1,680 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+  commentId: T:SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+  id: ConfigFile.OnlineEnvironment
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.OnlineEnvironment.Development
+  - SuperOffice.Configuration.ConfigFile.OnlineEnvironment.PreSod
+  - SuperOffice.Configuration.ConfigFile.OnlineEnvironment.Production
+  - SuperOffice.Configuration.ConfigFile.OnlineEnvironment.Stage
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.OnlineEnvironment
+  nameWithType: ConfigFile.OnlineEnvironment
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+  type: Enum
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Online Environment Name
+  example: []
+  syntax:
+    content: public enum ConfigFile.OnlineEnvironment
+    content.vb: Public Enum ConfigFile.OnlineEnvironment
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.OnlineEnvironment.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.OnlineEnvironment.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.OnlineEnvironment.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Configuration.ConfigFile.OnlineEnvironment)
+  - SuperOffice.Configuration.ConfigFile.OnlineEnvironment.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - System.Enum.EnumUtil.GetDescription
+- uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.Development
+  commentId: F:SuperOffice.Configuration.ConfigFile.OnlineEnvironment.Development
+  id: Development
+  parent: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+  langs:
+  - csharp
+  - vb
+  name: Development
+  nameWithType: ConfigFile.OnlineEnvironment.Development
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.Development
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: 'SuperOffice Online Developemnt: SOD'
+  example: []
+  syntax:
+    content: Development = 0
+    return:
+      type: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+- uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.Stage
+  commentId: F:SuperOffice.Configuration.ConfigFile.OnlineEnvironment.Stage
+  id: Stage
+  parent: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+  langs:
+  - csharp
+  - vb
+  name: Stage
+  nameWithType: ConfigFile.OnlineEnvironment.Stage
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.Stage
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: SuperOffice Online Stage
+  example: []
+  syntax:
+    content: Stage = 1
+    return:
+      type: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+- uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.Production
+  commentId: F:SuperOffice.Configuration.ConfigFile.OnlineEnvironment.Production
+  id: Production
+  parent: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+  langs:
+  - csharp
+  - vb
+  name: Production
+  nameWithType: ConfigFile.OnlineEnvironment.Production
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.Production
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: SuperOffice Online Production
+  example: []
+  syntax:
+    content: Production = 2
+    return:
+      type: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+- uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.PreSod
+  commentId: F:SuperOffice.Configuration.ConfigFile.OnlineEnvironment.PreSod
+  id: PreSod
+  parent: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+  langs:
+  - csharp
+  - vb
+  name: PreSod
+  nameWithType: ConfigFile.OnlineEnvironment.PreSod
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.PreSod
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: SuperOffice Test environment before SOD, located in South East Asia
+  example: []
+  syntax:
+    content: PreSod = 3
+    return:
+      type: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
+- uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<OnlineEnvironment, To>(OnlineEnvironment)
+  nameWithType: EnumUtil.MapEnums<ConfigFile.OnlineEnvironment, To>(ConfigFile.OnlineEnvironment)
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.OnlineEnvironment, To>(SuperOffice.Configuration.ConfigFile.OnlineEnvironment)
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.OnlineEnvironment, To)(ConfigFile.OnlineEnvironment)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.OnlineEnvironment, To)(SuperOffice.Configuration.ConfigFile.OnlineEnvironment)
+  name.vb: MapEnums(Of OnlineEnvironment, To)(OnlineEnvironment)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Configuration.ConfigFile.OnlineEnvironment)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    name: OnlineEnvironment
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    name: OnlineEnvironment
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Configuration.ConfigFile.OnlineEnvironment)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    name: OnlineEnvironment
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    name: OnlineEnvironment
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.html
+  - name: )
+- uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<OnlineEnvironment, To>(OnlineEnvironment)
+  nameWithType: Converters.MapEnums<ConfigFile.OnlineEnvironment, To>(ConfigFile.OnlineEnvironment)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.OnlineEnvironment, To>(SuperOffice.Configuration.ConfigFile.OnlineEnvironment)
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.OnlineEnvironment, To)(ConfigFile.OnlineEnvironment)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.OnlineEnvironment, To)(SuperOffice.Configuration.ConfigFile.OnlineEnvironment)
+  name.vb: MapEnums(Of OnlineEnvironment, To)(OnlineEnvironment)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Configuration.ConfigFile.OnlineEnvironment)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    name: OnlineEnvironment
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    name: OnlineEnvironment
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Configuration.ConfigFile.OnlineEnvironment)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    name: OnlineEnvironment
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    name: OnlineEnvironment
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.html
+  - name: )
+- uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Configuration.ConfigFile.OnlineEnvironment)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<OnlineEnvironment>(OnlineEnvironment, OnlineEnvironment)
+  nameWithType: ObjectExtensions.AssignByReflection<ConfigFile.OnlineEnvironment>(ConfigFile.OnlineEnvironment, ConfigFile.OnlineEnvironment)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Configuration.ConfigFile.OnlineEnvironment>(SuperOffice.Configuration.ConfigFile.OnlineEnvironment, SuperOffice.Configuration.ConfigFile.OnlineEnvironment)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ConfigFile.OnlineEnvironment)(ConfigFile.OnlineEnvironment, ConfigFile.OnlineEnvironment)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Configuration.ConfigFile.OnlineEnvironment)(SuperOffice.Configuration.ConfigFile.OnlineEnvironment, SuperOffice.Configuration.ConfigFile.OnlineEnvironment)
+  name.vb: AssignByReflection(Of OnlineEnvironment)(OnlineEnvironment, OnlineEnvironment)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Configuration.ConfigFile.OnlineEnvironment,SuperOffice.Configuration.ConfigFile.OnlineEnvironment)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    name: OnlineEnvironment
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    name: OnlineEnvironment
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    name: OnlineEnvironment
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Configuration.ConfigFile.OnlineEnvironment,SuperOffice.Configuration.ConfigFile.OnlineEnvironment)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    name: OnlineEnvironment
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    name: OnlineEnvironment
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    name: OnlineEnvironment
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.html
+  - name: )
+- uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<OnlineEnvironment>(OnlineEnvironment)
+  nameWithType: ObjectExtensions.GraphCopy<ConfigFile.OnlineEnvironment>(ConfigFile.OnlineEnvironment)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Configuration.ConfigFile.OnlineEnvironment>(SuperOffice.Configuration.ConfigFile.OnlineEnvironment)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ConfigFile.OnlineEnvironment)(ConfigFile.OnlineEnvironment)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Configuration.ConfigFile.OnlineEnvironment)(SuperOffice.Configuration.ConfigFile.OnlineEnvironment)
+  name.vb: GraphCopy(Of OnlineEnvironment)(OnlineEnvironment)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Configuration.ConfigFile.OnlineEnvironment)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    name: OnlineEnvironment
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    name: OnlineEnvironment
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Configuration.ConfigFile.OnlineEnvironment)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    name: OnlineEnvironment
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    name: OnlineEnvironment
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.html
+  - name: )
+- uid: System.Enum.EnumUtil.GetDescription
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  parent: EnumUtil
+  definition: EnumUtil.GetDescription(System.Enum)
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: EnumUtil.GetDescription(System.Enum)
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+  commentId: T:SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+  parent: SuperOffice.Configuration
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.html
+  name: ConfigFile.OnlineEnvironment
+  nameWithType: ConfigFile.OnlineEnvironment
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+  spec.csharp:
+  - uid: SuperOffice.Configuration.ConfigFile
+    name: ConfigFile
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.html
+  - name: .
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    name: OnlineEnvironment
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.html
+  spec.vb:
+  - uid: SuperOffice.Configuration.ConfigFile
+    name: ConfigFile
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.html
+  - name: .
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    name: OnlineEnvironment
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.html

@@ -6,8 +6,8 @@ items:
   parent: SuperOffice.CRM.AI
   children:
   - SuperOffice.CRM.AI.CategoryGuessing.#ctor
-  - SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationRequestItem(System.Int32)
-  - SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationTrainingItems(System.Int32,System.Int32,System.Int32)
+  - SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationRequestItemAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationTrainingItemsAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -15,63 +15,60 @@ items:
   nameWithType: CategoryGuessing
   fullName: SuperOffice.CRM.AI.CategoryGuessing
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.AI
-  summary: "\nImplementation of AI functions for category guessing\n"
+  summary: Implementation of AI functions for category guessing
+  example: []
   syntax:
     content: >-
       [SoInject("Database")]
 
-      public class CategoryGuessing : Object
+      public class CategoryGuessing
     content.vb: >-
       <SoInject("Database")>
 
       Public Class CategoryGuessing
-          Inherits Object
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.AI.CategoryGuessing.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.AI.CategoryGuessing.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.AI.CategoryGuessing.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.AI.CategoryGuessing)
   - SuperOffice.CRM.AI.CategoryGuessing.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.AI.CategoryGuessing.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   attributes:
   - type: SuperOffice.Factory.SoInjectAttribute
     ctor: SuperOffice.Factory.SoInjectAttribute.#ctor(System.String)
     arguments:
     - type: System.String
       value: Database
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationTrainingItems(System.Int32,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationTrainingItems(System.Int32,System.Int32,System.Int32)
-  id: GetCategorizationTrainingItems(System.Int32,System.Int32,System.Int32)
+- uid: SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationTrainingItemsAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationTrainingItemsAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetCategorizationTrainingItemsAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.AI.CategoryGuessing
   langs:
   - csharp
   - vb
-  name: GetCategorizationTrainingItems(Int32, Int32, Int32)
-  nameWithType: CategoryGuessing.GetCategorizationTrainingItems(Int32, Int32, Int32)
-  fullName: SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationTrainingItems(System.Int32, System.Int32, System.Int32)
+  name: GetCategorizationTrainingItemsAsync(int, int, int, CancellationToken)
+  nameWithType: CategoryGuessing.GetCategorizationTrainingItemsAsync(int, int, int, CancellationToken)
+  fullName: SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationTrainingItemsAsync(int, int, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.AI
-  summary: "\nThe category guesser training API will be called with an array of CategorizationTrainingItem during the (background, Batch) execution of this call\n"
-  remarks: "\nSee class diagram in Modelling\\Diagrams\\Ticket_Message.cd for the database structure that&apos;s referred here\n"
+  summary: The category guesser training API will be called with an array of CategorizationTrainingItem during the (background, Batch) execution of this call
+  remarks: See class diagram in Modelling\Diagrams\Ticket_Message.cd for the database structure that's referred here
+  example: []
   syntax:
-    content: public List<CategoryGuessing.CategorizationTrainingItem> GetCategorizationTrainingItems(int selectionId, int maxItems, int maxTextLength)
+    content: public IAsyncEnumerable<CategoryGuessing.CategorizationTrainingItem> GetCategorizationTrainingItemsAsync(int selectionId, int maxItems, int maxTextLength, CancellationToken cancellationToken = default)
     parameters:
     - id: selectionId
       type: System.Int32
@@ -82,46 +79,48 @@ items:
     - id: maxTextLength
       type: System.Int32
       description: Maximum length of PlainTextBody or any other large text, truncated to nearest word boundary
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.List{SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem}
       description: Placeholder for result...  should this be a BatchTaskId?  maybe not useful?
-    content.vb: Public Function GetCategorizationTrainingItems(selectionId As Integer, maxItems As Integer, maxTextLength As Integer) As List(Of CategoryGuessing.CategorizationTrainingItem)
-  overload: SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationTrainingItems*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationRequestItem(System.Int32)
-  commentId: M:SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationRequestItem(System.Int32)
-  id: GetCategorizationRequestItem(System.Int32)
+    content.vb: Public Function GetCategorizationTrainingItemsAsync(selectionId As Integer, maxItems As Integer, maxTextLength As Integer, cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of CategoryGuessing.CategorizationTrainingItem)
+  overload: SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationTrainingItemsAsync*
+  nameWithType.vb: CategoryGuessing.GetCategorizationTrainingItemsAsync(Integer, Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationTrainingItemsAsync(Integer, Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetCategorizationTrainingItemsAsync(Integer, Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationRequestItemAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationRequestItemAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetCategorizationRequestItemAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.AI.CategoryGuessing
   langs:
   - csharp
   - vb
-  name: GetCategorizationRequestItem(Int32)
-  nameWithType: CategoryGuessing.GetCategorizationRequestItem(Int32)
-  fullName: SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationRequestItem(System.Int32)
+  name: GetCategorizationRequestItemAsync(int, CancellationToken)
+  nameWithType: CategoryGuessing.GetCategorizationRequestItemAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationRequestItemAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.AI
-  summary: "\nGet the data required by the Category Guesser\n"
+  summary: Get the data required by the Category Guesser
+  example: []
   syntax:
-    content: public CategoryGuessing.CategorizationRequestItem GetCategorizationRequestItem(int ticketId)
+    content: public Task<CategoryGuessing.CategorizationRequestItem> GetCategorizationRequestItemAsync(int ticketId, CancellationToken cancellationToken = default)
     parameters:
     - id: ticketId
       type: System.Int32
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem
-    content.vb: Public Function GetCategorizationRequestItem(ticketId As Integer) As CategoryGuessing.CategorizationRequestItem
-  overload: SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationRequestItem*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem}
+      description: ''
+    content.vb: Public Function GetCategorizationRequestItemAsync(ticketId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of CategoryGuessing.CategorizationRequestItem)
+  overload: SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationRequestItemAsync*
+  nameWithType.vb: CategoryGuessing.GetCategorizationRequestItemAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationRequestItemAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetCategorizationRequestItemAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.AI.CategoryGuessing.#ctor
   commentId: M:SuperOffice.CRM.AI.CategoryGuessing.#ctor
   id: '#ctor'
@@ -133,189 +132,507 @@ items:
   nameWithType: CategoryGuessing.CategoryGuessing()
   fullName: SuperOffice.CRM.AI.CategoryGuessing.CategoryGuessing()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.AI
   syntax:
     content: public CategoryGuessing()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.AI.CategoryGuessing.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: CategoryGuessing.New()
+  fullName.vb: SuperOffice.CRM.AI.CategoryGuessing.New()
+  name.vb: New()
 references:
 - uid: SuperOffice.CRM.AI
   commentId: N:SuperOffice.CRM.AI
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.AI
   nameWithType: SuperOffice.CRM.AI
   fullName: SuperOffice.CRM.AI
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.AI
+    name: AI
+    isExternal: true
+    href: SuperOffice.CRM.AI.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.AI
+    name: AI
+    isExternal: true
+    href: SuperOffice.CRM.AI.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.AI.CategoryGuessing.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<CategoryGuessing, To>()
-  nameWithType: EnumUtil.MapEnums<CategoryGuessing, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.AI.CategoryGuessing, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of CategoryGuessing, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.AI.CategoryGuessing, To)()
-  name.vb: MapEnums(Of CategoryGuessing, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<CategoryGuessing, To>(CategoryGuessing)
+  nameWithType: EnumUtil.MapEnums<CategoryGuessing, To>(CategoryGuessing)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.AI.CategoryGuessing, To>(SuperOffice.CRM.AI.CategoryGuessing)
+  nameWithType.vb: EnumUtil.MapEnums(Of CategoryGuessing, To)(CategoryGuessing)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.AI.CategoryGuessing, To)(SuperOffice.CRM.AI.CategoryGuessing)
+  name.vb: MapEnums(Of CategoryGuessing, To)(CategoryGuessing)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<CategoryGuessing, To>
-    nameWithType: EnumUtil.MapEnums<CategoryGuessing, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.AI.CategoryGuessing, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.AI.CategoryGuessing)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of CategoryGuessing, To)
-    nameWithType: EnumUtil.MapEnums(Of CategoryGuessing, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.AI.CategoryGuessing, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.AI.CategoryGuessing.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.AI.CategoryGuessing)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<CategoryGuessing>(CategoryGuessing)
-  nameWithType: ObjectExtensions.AssignByReflection<CategoryGuessing>(CategoryGuessing)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.AI.CategoryGuessing>(SuperOffice.CRM.AI.CategoryGuessing)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CategoryGuessing)(CategoryGuessing)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.AI.CategoryGuessing)(SuperOffice.CRM.AI.CategoryGuessing)
-  name.vb: AssignByReflection(Of CategoryGuessing)(CategoryGuessing)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<CategoryGuessing>
-    nameWithType: ObjectExtensions.AssignByReflection<CategoryGuessing>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.AI.CategoryGuessing>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.AI.CategoryGuessing
     name: CategoryGuessing
-    nameWithType: CategoryGuessing
-    fullName: SuperOffice.CRM.AI.CategoryGuessing
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of CategoryGuessing)
-    nameWithType: ObjectExtensions.AssignByReflection(Of CategoryGuessing)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.AI.CategoryGuessing)
-    isExternal: true
+    href: SuperOffice.CRM.AI.CategoryGuessing.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.AI.CategoryGuessing
     name: CategoryGuessing
-    nameWithType: CategoryGuessing
-    fullName: SuperOffice.CRM.AI.CategoryGuessing
     isExternal: true
+    href: SuperOffice.CRM.AI.CategoryGuessing.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.AI.CategoryGuessing.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<CategoryGuessing>()
-  nameWithType: ObjectExtensions.GraphCopy<CategoryGuessing>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.AI.CategoryGuessing>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of CategoryGuessing)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.AI.CategoryGuessing)()
-  name.vb: GraphCopy(Of CategoryGuessing)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<CategoryGuessing>
-    nameWithType: ObjectExtensions.GraphCopy<CategoryGuessing>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.AI.CategoryGuessing>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of CategoryGuessing)
-    nameWithType: ObjectExtensions.GraphCopy(Of CategoryGuessing)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.AI.CategoryGuessing)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.AI.CategoryGuessing)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.AI.CategoryGuessing
+    name: CategoryGuessing
+    isExternal: true
+    href: SuperOffice.CRM.AI.CategoryGuessing.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.AI.CategoryGuessing
+    name: CategoryGuessing
+    isExternal: true
+    href: SuperOffice.CRM.AI.CategoryGuessing.html
+  - name: )
 - uid: SuperOffice.CRM.AI.CategoryGuessing.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<CategoryGuessing, To>()
-  nameWithType: Converters.MapEnums<CategoryGuessing, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.AI.CategoryGuessing, To>()
-  nameWithType.vb: Converters.MapEnums(Of CategoryGuessing, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.AI.CategoryGuessing, To)()
-  name.vb: MapEnums(Of CategoryGuessing, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<CategoryGuessing, To>(CategoryGuessing)
+  nameWithType: Converters.MapEnums<CategoryGuessing, To>(CategoryGuessing)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.AI.CategoryGuessing, To>(SuperOffice.CRM.AI.CategoryGuessing)
+  nameWithType.vb: Converters.MapEnums(Of CategoryGuessing, To)(CategoryGuessing)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.AI.CategoryGuessing, To)(SuperOffice.CRM.AI.CategoryGuessing)
+  name.vb: MapEnums(Of CategoryGuessing, To)(CategoryGuessing)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<CategoryGuessing, To>
-    nameWithType: Converters.MapEnums<CategoryGuessing, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.AI.CategoryGuessing, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.AI.CategoryGuessing)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.AI.CategoryGuessing
+    name: CategoryGuessing
+    isExternal: true
+    href: SuperOffice.CRM.AI.CategoryGuessing.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.AI.CategoryGuessing
+    name: CategoryGuessing
+    isExternal: true
+    href: SuperOffice.CRM.AI.CategoryGuessing.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of CategoryGuessing, To)
-    nameWithType: Converters.MapEnums(Of CategoryGuessing, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.AI.CategoryGuessing, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.AI.CategoryGuessing)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.AI.CategoryGuessing
+    name: CategoryGuessing
+    isExternal: true
+    href: SuperOffice.CRM.AI.CategoryGuessing.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.AI.CategoryGuessing
+    name: CategoryGuessing
+    isExternal: true
+    href: SuperOffice.CRM.AI.CategoryGuessing.html
+  - name: )
+- uid: SuperOffice.CRM.AI.CategoryGuessing.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.AI.CategoryGuessing)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<CategoryGuessing>(CategoryGuessing, CategoryGuessing)
+  nameWithType: ObjectExtensions.AssignByReflection<CategoryGuessing>(CategoryGuessing, CategoryGuessing)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.AI.CategoryGuessing>(SuperOffice.CRM.AI.CategoryGuessing, SuperOffice.CRM.AI.CategoryGuessing)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CategoryGuessing)(CategoryGuessing, CategoryGuessing)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.AI.CategoryGuessing)(SuperOffice.CRM.AI.CategoryGuessing, SuperOffice.CRM.AI.CategoryGuessing)
+  name.vb: AssignByReflection(Of CategoryGuessing)(CategoryGuessing, CategoryGuessing)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.AI.CategoryGuessing,SuperOffice.CRM.AI.CategoryGuessing)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.AI.CategoryGuessing
+    name: CategoryGuessing
+    isExternal: true
+    href: SuperOffice.CRM.AI.CategoryGuessing.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.AI.CategoryGuessing
+    name: CategoryGuessing
+    isExternal: true
+    href: SuperOffice.CRM.AI.CategoryGuessing.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.AI.CategoryGuessing
+    name: CategoryGuessing
+    isExternal: true
+    href: SuperOffice.CRM.AI.CategoryGuessing.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.AI.CategoryGuessing,SuperOffice.CRM.AI.CategoryGuessing)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.AI.CategoryGuessing
+    name: CategoryGuessing
+    isExternal: true
+    href: SuperOffice.CRM.AI.CategoryGuessing.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.AI.CategoryGuessing
+    name: CategoryGuessing
+    isExternal: true
+    href: SuperOffice.CRM.AI.CategoryGuessing.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.AI.CategoryGuessing
+    name: CategoryGuessing
+    isExternal: true
+    href: SuperOffice.CRM.AI.CategoryGuessing.html
+  - name: )
+- uid: SuperOffice.CRM.AI.CategoryGuessing.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<CategoryGuessing>(CategoryGuessing)
+  nameWithType: ObjectExtensions.GraphCopy<CategoryGuessing>(CategoryGuessing)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.AI.CategoryGuessing>(SuperOffice.CRM.AI.CategoryGuessing)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of CategoryGuessing)(CategoryGuessing)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.AI.CategoryGuessing)(SuperOffice.CRM.AI.CategoryGuessing)
+  name.vb: GraphCopy(Of CategoryGuessing)(CategoryGuessing)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.AI.CategoryGuessing)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.AI.CategoryGuessing
+    name: CategoryGuessing
+    isExternal: true
+    href: SuperOffice.CRM.AI.CategoryGuessing.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.AI.CategoryGuessing
+    name: CategoryGuessing
+    isExternal: true
+    href: SuperOffice.CRM.AI.CategoryGuessing.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.AI.CategoryGuessing)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.AI.CategoryGuessing
+    name: CategoryGuessing
+    isExternal: true
+    href: SuperOffice.CRM.AI.CategoryGuessing.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.AI.CategoryGuessing
+    name: CategoryGuessing
+    isExternal: true
+    href: SuperOffice.CRM.AI.CategoryGuessing.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -324,140 +641,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -466,163 +688,420 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationTrainingItems*
-  commentId: Overload:SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationTrainingItems
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
-  name: GetCategorizationTrainingItems
-  nameWithType: CategoryGuessing.GetCategorizationTrainingItems
-  fullName: SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationTrainingItems
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationTrainingItemsAsync*
+  commentId: Overload:SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationTrainingItemsAsync
+  isExternal: true
+  href: SuperOffice.CRM.AI.CategoryGuessing.html#SuperOffice_CRM_AI_CategoryGuessing_GetCategorizationTrainingItemsAsync_System_Int32_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: GetCategorizationTrainingItemsAsync
+  nameWithType: CategoryGuessing.GetCategorizationTrainingItemsAsync
+  fullName: SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationTrainingItemsAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Collections.Generic.List{SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem}
-  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem}'
-  definition: System.Collections.Generic.List`1
-  name: List<CategoryGuessing.CategorizationTrainingItem>
-  nameWithType: List<CategoryGuessing.CategorizationTrainingItem>
-  fullName: System.Collections.Generic.List<SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem>
-  nameWithType.vb: List(Of CategoryGuessing.CategorizationTrainingItem)
-  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem)
-  name.vb: List(Of CategoryGuessing.CategorizationTrainingItem)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  href: SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem.html
+  name: IAsyncEnumerable<CategorizationTrainingItem>
+  nameWithType: IAsyncEnumerable<CategoryGuessing.CategorizationTrainingItem>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem>
+  nameWithType.vb: IAsyncEnumerable(Of CategoryGuessing.CategorizationTrainingItem)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem)
+  name.vb: IAsyncEnumerable(Of CategorizationTrainingItem)
   spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
     isExternal: true
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem
-    name: CategoryGuessing.CategorizationTrainingItem
-    nameWithType: CategoryGuessing.CategorizationTrainingItem
-    fullName: SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem
+    name: CategorizationTrainingItem
     isExternal: true
+    href: SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem
-    name: CategoryGuessing.CategorizationTrainingItem
-    nameWithType: CategoryGuessing.CategorizationTrainingItem
-    fullName: SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem
+    name: CategorizationTrainingItem
     isExternal: true
+    href: SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.List`1
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: List<>
-  nameWithType: List<>
-  fullName: System.Collections.Generic.List<>
-  nameWithType.vb: List(Of )
-  fullName.vb: System.Collections.Generic.List(Of )
-  name.vb: List(Of )
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
   spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Collections.Generic.IAsyncEnumerable`1
+  isExternal: true
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
     isExternal: true
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+  - name: (
+  - name: Of
+  - name: " "
   - name: ''
-    nameWithType: ''
-    fullName: ''
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationRequestItem*
-  commentId: Overload:SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationRequestItem
+- uid: SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationRequestItemAsync*
+  commentId: Overload:SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationRequestItemAsync
   isExternal: true
-  name: GetCategorizationRequestItem
-  nameWithType: CategoryGuessing.GetCategorizationRequestItem
-  fullName: SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationRequestItem
-- uid: SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem
-  commentId: T:SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem
-  parent: SuperOffice.CRM.AI
+  href: SuperOffice.CRM.AI.CategoryGuessing.html#SuperOffice_CRM_AI_CategoryGuessing_GetCategorizationRequestItemAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetCategorizationRequestItemAsync
+  nameWithType: CategoryGuessing.GetCategorizationRequestItemAsync
+  fullName: SuperOffice.CRM.AI.CategoryGuessing.GetCategorizationRequestItemAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<CategoryGuessing.CategorizationRequestItem>
+  nameWithType: Task<CategoryGuessing.CategorizationRequestItem>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem>
+  nameWithType.vb: Task(Of CategoryGuessing.CategorizationRequestItem)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem)
+  name.vb: Task(Of CategoryGuessing.CategorizationRequestItem)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.AI.CategoryGuessing
+    name: CategoryGuessing
+    isExternal: true
+    href: SuperOffice.CRM.AI.CategoryGuessing.html
+  - name: .
+  - uid: SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem
+    name: CategorizationRequestItem
+    isExternal: true
+    href: SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.AI.CategoryGuessing
+    name: CategoryGuessing
+    isExternal: true
+    href: SuperOffice.CRM.AI.CategoryGuessing.html
+  - name: .
+  - uid: SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem
+    name: CategorizationRequestItem
+    isExternal: true
+    href: SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem.html
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: CategoryGuessing.CategorizationRequestItem
-  nameWithType: CategoryGuessing.CategorizationRequestItem
-  fullName: SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.CRM.AI.CategoryGuessing.#ctor*
   commentId: Overload:SuperOffice.CRM.AI.CategoryGuessing.#ctor
   isExternal: true
+  href: SuperOffice.CRM.AI.CategoryGuessing.html#SuperOffice_CRM_AI_CategoryGuessing__ctor
   name: CategoryGuessing
   nameWithType: CategoryGuessing.CategoryGuessing
   fullName: SuperOffice.CRM.AI.CategoryGuessing.CategoryGuessing
+  nameWithType.vb: CategoryGuessing.New
+  fullName.vb: SuperOffice.CRM.AI.CategoryGuessing.New
+  name.vb: New

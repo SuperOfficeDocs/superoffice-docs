@@ -26,7 +26,7 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=17
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=109
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,28 +89,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 984,
-  "Name": "Corkery, Murray and Kessler",
-  "Description": "Configurable logistical Graphical User Interface",
-  "DeltaJson": "doloremque",
+  "ConfigurableScreenDeltaId": 406,
+  "Name": "Veum Inc and Sons",
+  "Description": "Open-architected solution-oriented encryption",
+  "DeltaJson": "non",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "et",
-  "UpdatedDate": "2003-04-15T16:32:38.3678168+02:00",
-  "CreatedDate": "2020-10-13T16:32:38.3678168+02:00",
+  "RecipeId": "impedit",
+  "UpdatedDate": "2008-07-13T17:54:02.8202276+02:00",
+  "CreatedDate": "2013-09-01T17:54:02.8202276+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    509,
-    879
+    378,
+    779
   ],
-  "AppliesToKey": "qui",
+  "AppliesToKey": "nam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 737
+      "FieldLength": 2
     }
   }
 }

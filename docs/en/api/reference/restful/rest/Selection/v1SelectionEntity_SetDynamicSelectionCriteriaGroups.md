@@ -73,25 +73,25 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Konopelski LLC",
-    "Description": "Monitored tertiary matrix",
-    "Rank": 955,
+    "Name": "Satterfield, Strosin and Schulist",
+    "Description": "Organized bandwidth-monitored encryption",
+    "Rank": 184,
     "Restrictions": [
       {
-        "Name": "Corwin, Powlowski and Fisher",
-        "Operator": "quas",
+        "Name": "Schiller-Aufderhar",
+        "Operator": "vitae",
         "Values": [
-          "nemo",
-          "ut"
+          "sit",
+          "voluptate"
         ],
         "DisplayValues": [
-          "corporis",
-          "dolor"
+          "ratione",
+          "ut"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 633,
+        "InterParenthesis": 217,
         "InterOperator": "And",
-        "UniqueHash": 879
+        "UniqueHash": 316
       }
     ]
   },
   {
-    "Name": "Konopelski LLC",
-    "Description": "Monitored tertiary matrix",
-    "Rank": 955,
+    "Name": "Satterfield, Strosin and Schulist",
+    "Description": "Organized bandwidth-monitored encryption",
+    "Rank": 184,
     "Restrictions": [
       {
-        "Name": "Corwin, Powlowski and Fisher",
-        "Operator": "quas",
+        "Name": "Schiller-Aufderhar",
+        "Operator": "vitae",
         "Values": [
-          "nemo",
-          "ut"
+          "sit",
+          "voluptate"
         ],
         "DisplayValues": [
-          "corporis",
-          "dolor"
+          "ratione",
+          "ut"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -127,9 +127,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 633,
+        "InterParenthesis": 217,
         "InterOperator": "And",
-        "UniqueHash": 879
+        "UniqueHash": 316
       }
     ]
   }
@@ -144,58 +144,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Boyer LLC",
-    "Description": "Digitized scalable hub",
-    "Rank": 920,
+    "Name": "Zemlak-Schulist",
+    "Description": "Innovative next generation installation",
+    "Rank": 605,
     "Restrictions": [
       {
-        "Name": "Orn-Hayes",
-        "Operator": "sit",
+        "Name": "Howe Group",
+        "Operator": "nisi",
         "Values": [
-          "id",
-          "dignissimos"
+          "rerum",
+          "voluptatem"
         ],
         "DisplayValues": [
-          "aut",
-          "et"
+          "alias",
+          "sed"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 784,
+        "InterParenthesis": 982,
         "InterOperator": "And",
-        "UniqueHash": 854
+        "UniqueHash": 333
       }
     ]
   },
   {
-    "Name": "Boyer LLC",
-    "Description": "Digitized scalable hub",
-    "Rank": 920,
+    "Name": "Zemlak-Schulist",
+    "Description": "Innovative next generation installation",
+    "Rank": 605,
     "Restrictions": [
       {
-        "Name": "Orn-Hayes",
-        "Operator": "sit",
+        "Name": "Howe Group",
+        "Operator": "nisi",
         "Values": [
-          "id",
-          "dignissimos"
+          "rerum",
+          "voluptatem"
         ],
         "DisplayValues": [
-          "aut",
-          "et"
+          "alias",
+          "sed"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 784,
+        "InterParenthesis": 982,
         "InterOperator": "And",
-        "UniqueHash": 854
+        "UniqueHash": 333
       }
     ]
   }

@@ -26,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=839
+POST /api/v1/Agents/List/GetCountry?countryId=266
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 154,
-  "Name": "Berge-Rodriguez",
-  "CurrencyId": 794,
-  "EnglishName": "Thiel Group",
+  "CountryId": 151,
+  "Name": "Reichert, Spencer and Kihn",
+  "CurrencyId": 689,
+  "EnglishName": "Kuvalis, Boyle and Larson",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Re-contextualized radical software",
-  "OrgNrText": "1204845",
-  "InterAreaPrefix": "facere",
-  "DialInPrefix": "voluptatum",
-  "ZipPrefix": "quo",
-  "DomainName": "Boyle-Wuckert",
-  "AddressLayoutId": 21,
-  "DomesticAddressLayoutId": 339,
-  "ForeignAddressLayoutId": 986,
-  "Rank": 67,
-  "Tooltip": "corporis",
+  "ImageDescription": "Ameliorated explicit protocol",
+  "OrgNrText": "1004172",
+  "InterAreaPrefix": "aut",
+  "DialInPrefix": "accusantium",
+  "ZipPrefix": "blanditiis",
+  "DomainName": "Waters-Rosenbaum",
+  "AddressLayoutId": 349,
+  "DomesticAddressLayoutId": 450,
+  "ForeignAddressLayoutId": 742,
+  "Rank": 27,
+  "Tooltip": "in",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 346
+      "FieldLength": 975
     }
   }
 }

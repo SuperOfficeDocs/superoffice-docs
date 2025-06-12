@@ -1,0 +1,778 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider
+  id: ErpSyncLogProvider
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.#ctor
+  - SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.InnerMapFieldsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  - SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.PrimaryTable
+  - SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.ProviderName
+  - SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.Query
+  - SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.RootExtenders
+  - SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  - SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  - SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colConnection
+  - SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colCrmFieldKey
+  - SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colId
+  - SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colNewValue
+  - SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colOldValue
+  - SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colRegistered
+  - SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colSource
+  - SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colTarget
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncLogProvider
+  nameWithType: ErpSyncLogProvider
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider
+  type: Class
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: 'public class ErpSyncLogProvider : QueryProviderBase<ArchiveRow>'
+    content.vb: Public Class ErpSyncLogProvider Inherits QueryProviderBase(Of ArchiveRow)
+  inheritance:
+  - System.Object
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.ProviderName
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.ProviderName
+  id: ProviderName
+  parent: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: ErpSyncLogProvider.ProviderName
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.ProviderName
+  type: Field
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ProviderName = "ErpSyncLog"
+    return:
+      type: System.String
+    content.vb: Public Const ProviderName As String = "ErpSyncLog"
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colId
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colId
+  id: _colId
+  parent: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider
+  langs:
+  - csharp
+  - vb
+  name: _colId
+  nameWithType: ErpSyncLogProvider._colId
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colId
+  type: Field
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colId
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colId As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colConnection
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colConnection
+  id: _colConnection
+  parent: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider
+  langs:
+  - csharp
+  - vb
+  name: _colConnection
+  nameWithType: ErpSyncLogProvider._colConnection
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colConnection
+  type: Field
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colConnection
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colConnection As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colSource
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colSource
+  id: _colSource
+  parent: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider
+  langs:
+  - csharp
+  - vb
+  name: _colSource
+  nameWithType: ErpSyncLogProvider._colSource
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colSource
+  type: Field
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colSource
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colSource As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colTarget
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colTarget
+  id: _colTarget
+  parent: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider
+  langs:
+  - csharp
+  - vb
+  name: _colTarget
+  nameWithType: ErpSyncLogProvider._colTarget
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colTarget
+  type: Field
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colTarget
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colTarget As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colCrmFieldKey
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colCrmFieldKey
+  id: _colCrmFieldKey
+  parent: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider
+  langs:
+  - csharp
+  - vb
+  name: _colCrmFieldKey
+  nameWithType: ErpSyncLogProvider._colCrmFieldKey
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colCrmFieldKey
+  type: Field
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colCrmFieldKey
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colCrmFieldKey As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colOldValue
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colOldValue
+  id: _colOldValue
+  parent: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider
+  langs:
+  - csharp
+  - vb
+  name: _colOldValue
+  nameWithType: ErpSyncLogProvider._colOldValue
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colOldValue
+  type: Field
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colOldValue
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colOldValue As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colNewValue
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colNewValue
+  id: _colNewValue
+  parent: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider
+  langs:
+  - csharp
+  - vb
+  name: _colNewValue
+  nameWithType: ErpSyncLogProvider._colNewValue
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colNewValue
+  type: Field
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colNewValue
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colNewValue As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colRegistered
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colRegistered
+  id: _colRegistered
+  parent: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider
+  langs:
+  - csharp
+  - vb
+  name: _colRegistered
+  nameWithType: ErpSyncLogProvider._colRegistered
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider._colRegistered
+  type: Field
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colRegistered
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colRegistered As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.#ctor
+  commentId: M:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncLogProvider()
+  nameWithType: ErpSyncLogProvider.ErpSyncLogProvider()
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.ErpSyncLogProvider()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ErpSyncLogProvider()
+    content.vb: Protected Sub New()
+  overload: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.#ctor*
+  nameWithType.vb: ErpSyncLogProvider.New()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  id: SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider
+  langs:
+  - csharp
+  - vb
+  name: SetRestriction(params ArchiveRestrictionInfo[])
+  nameWithType: ErpSyncLogProvider.SetRestriction(params ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.SetRestriction(params SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  example: []
+  syntax:
+    content: public override bool SetRestriction(params ArchiveRestrictionInfo[] restrictions)
+    parameters:
+    - id: restrictions
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function SetRestriction(ParamArray restrictions As ArchiveRestrictionInfo()) As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.SetRestriction*
+  nameWithType.vb: ErpSyncLogProvider.SetRestriction(ParamArray ArchiveRestrictionInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.SetRestriction(ParamArray SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: SetRestriction(ParamArray ArchiveRestrictionInfo())
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.InnerMapFieldsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.InnerMapFieldsAsync(System.Threading.CancellationToken)
+  id: InnerMapFieldsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider
+  langs:
+  - csharp
+  - vb
+  name: InnerMapFieldsAsync(CancellationToken)
+  nameWithType: ErpSyncLogProvider.InnerMapFieldsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.InnerMapFieldsAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  example: []
+  syntax:
+    content: public override Task InnerMapFieldsAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Overrides Function InnerMapFieldsAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.InnerMapFieldsAsync*
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  id: InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  parent: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider
+  langs:
+  - csharp
+  - vb
+  name: InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
+  nameWithType: ErpSyncLogProvider.InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  example: []
+  syntax:
+    content: protected override void InnerPopulateRowFromReader(SoDataReader reader, ArchiveRow row)
+    parameters:
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+    - id: row
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    content.vb: Protected Overrides Sub InnerPopulateRowFromReader(reader As SoDataReader, row As ArchiveRow)
+  overload: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.InnerPopulateRowFromReader*
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  id: SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider
+  langs:
+  - csharp
+  - vb
+  name: SetOrderBy(ArchiveOrderByInfo[])
+  nameWithType: ErpSyncLogProvider.SetOrderBy(ArchiveOrderByInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  example: []
+  syntax:
+    content: public override void SetOrderBy(ArchiveOrderByInfo[] orderBy)
+    parameters:
+    - id: orderBy
+      type: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+    content.vb: Public Overrides Sub SetOrderBy(orderBy As ArchiveOrderByInfo())
+  overload: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.SetOrderBy*
+  nameWithType.vb: ErpSyncLogProvider.SetOrderBy(ArchiveOrderByInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo())
+  name.vb: SetOrderBy(ArchiveOrderByInfo())
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.Query
+  commentId: P:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.Query
+  id: Query
+  parent: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider
+  langs:
+  - csharp
+  - vb
+  name: Query
+  nameWithType: ErpSyncLogProvider.Query
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.Query
+  type: Property
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  example: []
+  syntax:
+    content: public override ArchiveSelect Query { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveSelect
+    content.vb: Public Overrides ReadOnly Property Query As ArchiveSelect
+  overload: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.Query*
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.RootExtenders
+  commentId: P:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.RootExtenders
+  id: RootExtenders
+  parent: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider
+  langs:
+  - csharp
+  - vb
+  name: RootExtenders
+  nameWithType: ErpSyncLogProvider.RootExtenders
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.RootExtenders
+  type: Property
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  example: []
+  syntax:
+    content: protected override List<IArchiveExtender> RootExtenders { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.IArchiveExtender}
+    content.vb: Protected Overrides ReadOnly Property RootExtenders As List(Of IArchiveExtender)
+  overload: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.RootExtenders*
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.PrimaryTable
+  commentId: P:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.PrimaryTable
+  id: PrimaryTable
+  parent: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider
+  langs:
+  - csharp
+  - vb
+  name: PrimaryTable
+  nameWithType: ErpSyncLogProvider.PrimaryTable
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.PrimaryTable
+  type: Property
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  example: []
+  syntax:
+    content: public override TableInfo PrimaryTable { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TableInfo
+    content.vb: Public Overrides ReadOnly Property PrimaryTable As TableInfo
+  overload: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.PrimaryTable*
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+  isExternal: true
+  name: ArchiveColumnInfo
+  nameWithType: ArchiveColumnInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.html#SuperOffice_CRM_ArchiveLists_ErpSyncLogProvider__ctor
+  name: ErpSyncLogProvider
+  nameWithType: ErpSyncLogProvider.ErpSyncLogProvider
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.ErpSyncLogProvider
+  nameWithType.vb: ErpSyncLogProvider.New
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.New
+  name.vb: New
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.SetRestriction*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.SetRestriction
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.html#SuperOffice_CRM_ArchiveLists_ErpSyncLogProvider_SetRestriction_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___
+  name: SetRestriction
+  nameWithType: ErpSyncLogProvider.SetRestriction
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.SetRestriction
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.InnerMapFieldsAsync*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.InnerMapFieldsAsync
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.html#SuperOffice_CRM_ArchiveLists_ErpSyncLogProvider_InnerMapFieldsAsync_System_Threading_CancellationToken_
+  name: InnerMapFieldsAsync
+  nameWithType: ErpSyncLogProvider.InnerMapFieldsAsync
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.InnerMapFieldsAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.InnerPopulateRowFromReader*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.InnerPopulateRowFromReader
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.html#SuperOffice_CRM_ArchiveLists_ErpSyncLogProvider_InnerPopulateRowFromReader_SuperOffice_Data_SoDataReader_SuperOffice_CRM_ArchiveLists_ArchiveRow_
+  name: InnerPopulateRowFromReader
+  nameWithType: ErpSyncLogProvider.InnerPopulateRowFromReader
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.InnerPopulateRowFromReader
+- uid: SuperOffice.Data.SoDataReader
+  isExternal: true
+  name: SoDataReader
+  nameWithType: SoDataReader
+  fullName: SuperOffice.Data.SoDataReader
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+  isExternal: true
+  name: ArchiveRow
+  nameWithType: ArchiveRow
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.SetOrderBy*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.SetOrderBy
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.html#SuperOffice_CRM_ArchiveLists_ErpSyncLogProvider_SetOrderBy_SuperOffice_CRM_ArchiveLists_ArchiveOrderByInfo___
+  name: SetOrderBy
+  nameWithType: ErpSyncLogProvider.SetOrderBy
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.SetOrderBy
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+  isExternal: true
+  name: ArchiveOrderByInfo[]
+  nameWithType: ArchiveOrderByInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+  nameWithType.vb: ArchiveOrderByInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo()
+  name.vb: ArchiveOrderByInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    isExternal: true
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.Query*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.Query
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.html#SuperOffice_CRM_ArchiveLists_ErpSyncLogProvider_Query
+  name: Query
+  nameWithType: ErpSyncLogProvider.Query
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.Query
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveSelect
+  commentId: '!:SuperOffice.CRM.ArchiveLists.ArchiveSelect'
+  isExternal: true
+  name: ArchiveSelect
+  nameWithType: ArchiveSelect
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveSelect
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.RootExtenders*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.RootExtenders
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.html#SuperOffice_CRM_ArchiveLists_ErpSyncLogProvider_RootExtenders
+  name: RootExtenders
+  nameWithType: ErpSyncLogProvider.RootExtenders
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.RootExtenders
+- uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.IArchiveExtender}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.IArchiveExtender}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<IArchiveExtender>
+  nameWithType: List<IArchiveExtender>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.IArchiveExtender>
+  nameWithType.vb: List(Of IArchiveExtender)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.IArchiveExtender)
+  name.vb: List(Of IArchiveExtender)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveExtender
+    name: IArchiveExtender
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveExtender
+    name: IArchiveExtender
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.PrimaryTable*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.PrimaryTable
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.html#SuperOffice_CRM_ArchiveLists_ErpSyncLogProvider_PrimaryTable
+  name: PrimaryTable
+  nameWithType: ErpSyncLogProvider.PrimaryTable
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.PrimaryTable
+- uid: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo

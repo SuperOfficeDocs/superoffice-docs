@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 703,
-  "CountryId": 769
+  "ContactId": 48,
+  "CountryId": 531
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 13849.145999999999,
-  "Wgs84Longitude": 28867.273999999998,
+  "Wgs84Latitude": 8361.512,
+  "Wgs84Longitude": 9050.992,
   "LocalizedAddress": [
     [
       {
-        "Name": "Schultz, Glover and Bruen",
-        "Value": "ratione",
-        "Tooltip": "reiciendis",
-        "Label": "harum",
-        "ValueLength": 914,
-        "AddressType": "repellendus",
+        "Name": "Mohr Group",
+        "Value": "vel",
+        "Tooltip": "eligendi",
+        "Label": "et",
+        "ValueLength": 39,
+        "AddressType": "quidem",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 104
+            "FieldLength": 917
           }
         }
       }
     ],
     [
       {
-        "Name": "Howe, Hermann and Bogan",
-        "Value": "reprehenderit",
-        "Tooltip": "et",
-        "Label": "unde",
-        "ValueLength": 957,
-        "AddressType": "voluptates",
+        "Name": "Pfannerstill Group",
+        "Value": "tenetur",
+        "Tooltip": "sit",
+        "Label": "quia",
+        "ValueLength": 177,
+        "AddressType": "dolores",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 478
+            "FieldType": "System.String",
+            "FieldLength": 358
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "maiores",
+  "Formatted": "iste",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 833
+      "FieldType": "System.String",
+      "FieldLength": 288
     }
   }
 }

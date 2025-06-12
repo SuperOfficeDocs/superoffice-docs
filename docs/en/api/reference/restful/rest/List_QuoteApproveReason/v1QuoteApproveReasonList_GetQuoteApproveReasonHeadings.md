@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 28,
-    "Name": "Ullrich Inc and Sons",
-    "Tooltip": "culpa",
-    "Deleted": false,
-    "Rank": 310,
-    "UdListDefinitionId": 387,
+    "HeadingId": 857,
+    "Name": "Watsica, Heathcote and Kuvalis",
+    "Tooltip": "corporis",
+    "Deleted": true,
+    "Rank": 710,
+    "UdListDefinitionId": 616,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 644
+        "FieldType": "System.String",
+        "FieldLength": 145
       }
     }
   }

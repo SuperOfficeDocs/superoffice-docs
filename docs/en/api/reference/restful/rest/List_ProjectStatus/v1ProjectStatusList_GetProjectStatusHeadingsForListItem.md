@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 762,
-    "Name": "Ebert Group",
-    "ToolTip": "Voluptatibus est aut doloribus.",
+    "Id": 713,
+    "Name": "Treutel, Terry and Terry",
+    "ToolTip": "Possimus voluptas aut.",
     "Deleted": false,
-    "Rank": 176,
-    "Type": "voluptatem",
-    "ColorBlock": 674,
-    "IconHint": "facere",
-    "Selected": false,
-    "LastChanged": "2024-07-19T16:32:48.8369917+02:00",
+    "Rank": 494,
+    "Type": "nostrum",
+    "ColorBlock": 129,
+    "IconHint": "temporibus",
+    "Selected": true,
+    "LastChanged": "2008-08-13T17:54:08.9917951+02:00",
     "ChildItems": [
       {
-        "Id": 997,
-        "Name": "Romaguera, Price and Satterfield",
-        "ToolTip": "Rerum quae maxime dolores blanditiis officia.",
+        "Id": 810,
+        "Name": "Medhurst, Maggio and Rau",
+        "ToolTip": "Et sunt voluptatem nobis officiis assumenda voluptatem praesentium.",
         "Deleted": true,
-        "Rank": 280,
-        "Type": "sed",
-        "ColorBlock": 787,
-        "IconHint": "debitis",
-        "Selected": true,
-        "LastChanged": "2000-03-18T16:32:48.8369917+01:00",
+        "Rank": 991,
+        "Type": "corporis",
+        "ColorBlock": 683,
+        "IconHint": "facilis",
+        "Selected": false,
+        "LastChanged": "2022-12-06T17:54:08.9917951+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "beatae",
+        "ExtraInfo": "et",
+        "StyleHint": "labore",
         "Hidden": false,
-        "FullName": "Walton Orn",
+        "FullName": "Bryana Okuneva",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 226
+            "FieldLength": 452
           }
         }
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "sunt",
+    "ExtraInfo": "officia",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Prof. Domingo Kunze DDS",
+    "FullName": "Stewart Sporer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 390
+        "FieldType": "System.Int32",
+        "FieldLength": 180
       }
     }
   }

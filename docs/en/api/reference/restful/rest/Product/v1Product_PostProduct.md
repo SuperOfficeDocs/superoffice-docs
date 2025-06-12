@@ -141,55 +141,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 33,
-  "ERPProductKey": "praesentium",
-  "ERPPriceListKey": "iusto",
-  "Name": "Fadel-Macejkovic",
-  "Description": "Secured coherent instruction set",
-  "Code": "consequatur",
-  "PriceUnit": "occaecati",
-  "QuantityUnit": "molestiae",
-  "IsSubscription": false,
-  "SubscriptionUnit": "necessitatibus",
-  "DefaultSubscriptionQuantity": 10665.002,
-  "ItemNumber": "711649",
+  "ProductId": 493,
+  "ERPProductKey": "aliquam",
+  "ERPPriceListKey": "sapiente",
+  "Name": "Cummerata-Sawayn",
+  "Description": "Assimilated well-modulated artificial intelligence",
+  "Code": "aliquam",
+  "PriceUnit": "quo",
+  "QuantityUnit": "ipsum",
+  "IsSubscription": true,
+  "SubscriptionUnit": "aut",
+  "DefaultSubscriptionQuantity": 30327.718,
+  "ItemNumber": "1379136",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "accusamus",
-  "ProductTypeKey": "adipisci",
-  "VAT": 17656.956,
-  "VATInfo": "iusto",
-  "UnitCost": 11213.452,
-  "UnitMinimumPrice": 28017.96,
-  "UnitListPrice": 19549.892,
+  "ProductFamilyKey": "ab",
+  "ProductTypeKey": "corporis",
+  "VAT": 11514.315999999999,
+  "VATInfo": "temporibus",
+  "UnitCost": 25940.118,
+  "UnitMinimumPrice": 6130.1039999999994,
+  "UnitListPrice": 26845.843999999997,
   "InAssortment": true,
-  "Supplier": "dicta",
-  "SupplierCode": "sapiente",
-  "Rights": "nihil",
-  "Rule": "dolores",
+  "Supplier": "consequatur",
+  "SupplierCode": "recusandae",
+  "Rights": "maxime",
+  "Rule": "explicabo",
   "ExtraInfo": [
     {
-      "Name": "Fay Group",
-      "Value": "blanditiis",
+      "Name": "Pagac, Toy and Konopelski",
+      "Value": "nulla",
       "Type": "Image"
     },
     {
-      "Name": "Fay Group",
-      "Value": "blanditiis",
+      "Name": "Pagac, Toy and Konopelski",
+      "Value": "nulla",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "sit",
-  "ExtraField1": "quia",
-  "ExtraField2": "velit",
-  "ExtraField3": "dolorum",
-  "ExtraField4": "debitis",
-  "ExtraField5": "aut",
-  "InStock": 20759.615999999998
+  "RawExtraInfo": "et",
+  "ExtraField1": "ea",
+  "ExtraField2": "doloremque",
+  "ExtraField3": "consequatur",
+  "ExtraField4": "sed",
+  "ExtraField5": "autem",
+  "InStock": 23915.554
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 525,
-  "ERPProductKey": "at",
-  "ERPPriceListKey": "vero",
-  "Name": "Nader, Von and Lubowitz",
-  "Description": "Open-architected dedicated structure",
-  "Code": "est",
-  "PriceUnit": "soluta",
-  "QuantityUnit": "ut",
+  "ProductId": 642,
+  "ERPProductKey": "totam",
+  "ERPPriceListKey": "perferendis",
+  "Name": "Kshlerin-Heller",
+  "Description": "Universal well-modulated analyzer",
+  "Code": "eos",
+  "PriceUnit": "dolorem",
+  "QuantityUnit": "eveniet",
   "IsSubscription": false,
-  "SubscriptionUnit": "aliquid",
-  "DefaultSubscriptionQuantity": 19045.318,
-  "ItemNumber": "1661178",
+  "SubscriptionUnit": "quisquam",
+  "DefaultSubscriptionQuantity": 21251.654,
+  "ItemNumber": "1591048",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "harum",
-  "ProductTypeKey": "eaque",
-  "VAT": 20110.878,
-  "VATInfo": "aperiam",
-  "UnitCost": 26704.814,
-  "UnitMinimumPrice": 4425.208,
-  "UnitListPrice": 15096.478,
-  "InAssortment": true,
-  "Supplier": "aut",
-  "SupplierCode": "laboriosam",
-  "Rights": "animi",
-  "Rule": "rerum",
+  "ProductFamilyKey": "non",
+  "ProductTypeKey": "velit",
+  "VAT": 7969.762,
+  "VATInfo": "autem",
+  "UnitCost": 9213.96,
+  "UnitMinimumPrice": 28538.203999999998,
+  "UnitListPrice": 13673.642,
+  "InAssortment": false,
+  "Supplier": "pariatur",
+  "SupplierCode": "ipsa",
+  "Rights": "maiores",
+  "Rule": "nulla",
   "ExtraInfo": [
     {
-      "Name": "D'Amore-Rosenbaum",
-      "Value": "ducimus",
+      "Name": "DuBuque, Olson and Batz",
+      "Value": "veniam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 513
+          "FieldLength": 129
         }
       }
     },
     {
-      "Name": "D'Amore-Rosenbaum",
-      "Value": "ducimus",
+      "Name": "DuBuque, Olson and Batz",
+      "Value": "veniam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 513
+          "FieldLength": 129
         }
       }
     }
   ],
-  "RawExtraInfo": "porro",
-  "ExtraField1": "debitis",
-  "ExtraField2": "itaque",
-  "ExtraField3": "veniam",
-  "ExtraField4": "ab",
-  "ExtraField5": "non",
-  "InStock": 11247.926,
+  "RawExtraInfo": "aut",
+  "ExtraField1": "iste",
+  "ExtraField2": "debitis",
+  "ExtraField3": "ut",
+  "ExtraField4": "maiores",
+  "ExtraField5": "dolorum",
+  "InStock": 12228.868,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 132
+      "FieldLength": 897
     }
   }
 }

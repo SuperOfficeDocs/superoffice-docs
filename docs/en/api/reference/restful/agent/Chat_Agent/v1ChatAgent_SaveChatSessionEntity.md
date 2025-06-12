@@ -123,41 +123,41 @@ OK
 POST /api/v1/Agents/Chat/SaveChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 55,
-  "TopicId": 102,
+  "ChatSessionId": 711,
+  "TopicId": 912,
   "User": null,
   "Person": null,
-  "CustomerAlias": "vitae",
-  "CustomerHost": "exercitationem",
-  "CustomerName": "Rath LLC",
-  "CustomerEmail": "kennith@connelly.uk",
-  "CustomerPhone": "1-747-904-2037 x0888",
+  "CustomerAlias": "maiores",
+  "CustomerHost": "enim",
+  "CustomerName": "Murazik LLC",
+  "CustomerEmail": "jayda_mcglynn@kulasfeil.uk",
+  "CustomerPhone": "388-209-7354 x14712",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Bednar Group",
+  "CustomerCompanyName": "Weber-Smitham",
   "Status": "Closed",
-  "FirstMessage": "enim",
-  "LastMessage": "ad",
-  "WhenRequested": "2024-07-25T16:32:38.2428454+02:00",
-  "WhenStarted": "2016-10-07T16:32:38.2428454+02:00",
-  "WhenEnded": "2008-10-13T16:32:38.2428454+02:00",
-  "WhenIdle": "2020-01-05T16:32:38.2428454+01:00",
-  "WhenFetched": "2007-07-21T16:32:38.2428454+02:00",
-  "SessionKey": "rerum",
-  "InitialQueuePos": 70,
-  "AlertLevel": 978,
-  "Rank": 301,
+  "FirstMessage": "quia",
+  "LastMessage": "laborum",
+  "WhenRequested": "2018-04-24T17:54:02.6952273+02:00",
+  "WhenStarted": "2009-01-20T17:54:02.6952273+01:00",
+  "WhenEnded": "2004-11-17T17:54:02.6952273+01:00",
+  "WhenIdle": "2010-10-07T17:54:02.6952273+02:00",
+  "WhenFetched": "2020-12-31T17:54:02.6952273+01:00",
+  "SessionKey": "molestiae",
+  "InitialQueuePos": 873,
+  "AlertLevel": 44,
+  "Rank": 80,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 212
+  "ChatbotIsActive": true,
+  "Rating": 707
 }
 ```
 
@@ -168,29 +168,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 864,
-  "TopicId": 195,
+  "ChatSessionId": 839,
+  "TopicId": 351,
   "User": null,
   "Person": null,
-  "CustomerAlias": "dolorem",
-  "CustomerHost": "recusandae",
-  "CustomerName": "Kuhic, Ankunding and Dooley",
-  "CustomerEmail": "cory@heaney.name",
-  "CustomerPhone": "171.117.6960 x606",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Cronin Group",
+  "CustomerAlias": "impedit",
+  "CustomerHost": "culpa",
+  "CustomerName": "Konopelski LLC",
+  "CustomerEmail": "donny@hauck.name",
+  "CustomerPhone": "(549)699-1846 x7364",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Rolfson-Hermann",
   "Status": "Closed",
-  "FirstMessage": "expedita",
-  "LastMessage": "nostrum",
-  "WhenRequested": "2014-01-31T16:32:38.2428454+01:00",
-  "WhenStarted": "2016-01-03T16:32:38.2428454+01:00",
-  "WhenEnded": "1999-05-04T16:32:38.2428454+02:00",
-  "WhenIdle": "2016-06-23T16:32:38.2428454+02:00",
-  "WhenFetched": "2021-10-06T16:32:38.2428454+02:00",
-  "SessionKey": "iure",
-  "InitialQueuePos": 919,
-  "AlertLevel": 838,
-  "Rank": 496,
+  "FirstMessage": "eligendi",
+  "LastMessage": "facere",
+  "WhenRequested": "2020-05-15T17:54:02.6952273+02:00",
+  "WhenStarted": "2014-02-11T17:54:02.6952273+01:00",
+  "WhenEnded": "2012-11-27T17:54:02.6952273+01:00",
+  "WhenIdle": "2001-01-14T17:54:02.6952273+01:00",
+  "WhenFetched": "2023-05-16T17:54:02.6952273+02:00",
+  "SessionKey": "magni",
+  "InitialQueuePos": 438,
+  "AlertLevel": 784,
+  "Rank": 830,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -198,13 +198,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 441,
+  "Rating": 386,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 578
     }
   }
 }

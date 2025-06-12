@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 814,
-    "Name": "Mertz-Erdman",
-    "ToolTip": "Illum voluptas magnam rerum voluptas quasi veritatis.",
+    "Id": 123,
+    "Name": "Wolf, Haag and Jakubowski",
+    "ToolTip": "Voluptatem omnis eos at rem recusandae tempore iste.",
     "Deleted": false,
-    "Rank": 591,
-    "Type": "et",
-    "ColorBlock": 523,
-    "IconHint": "libero",
-    "Selected": true,
-    "LastChanged": "1998-07-10T16:32:48.8526096+02:00",
+    "Rank": 375,
+    "Type": "perferendis",
+    "ColorBlock": 624,
+    "IconHint": "possimus",
+    "Selected": false,
+    "LastChanged": "1999-07-08T17:54:08.9917951+02:00",
     "ChildItems": [
       {
-        "Id": 616,
-        "Name": "Beatty, McDermott and Bogisich",
-        "ToolTip": "Sunt est quod a praesentium placeat.",
-        "Deleted": false,
-        "Rank": 171,
-        "Type": "consectetur",
-        "ColorBlock": 211,
-        "IconHint": "sit",
+        "Id": 922,
+        "Name": "Wintheiser-Daugherty",
+        "ToolTip": "Porro mollitia recusandae et ut doloremque quo aut.",
+        "Deleted": true,
+        "Rank": 278,
+        "Type": "autem",
+        "ColorBlock": 841,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2017-02-04T16:32:48.8526096+01:00",
+        "LastChanged": "2011-05-19T17:54:08.9917951+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "ex",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "occaecati",
         "Hidden": false,
-        "FullName": "Iva Strosin",
+        "FullName": "Haylee Flatley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 606
+            "FieldType": "System.String",
+            "FieldLength": 284
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Alex Hand",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "minus",
+    "Hidden": true,
+    "FullName": "Aurelio Nicolas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 297
+        "FieldType": "System.String",
+        "FieldLength": 555
       }
     }
   }

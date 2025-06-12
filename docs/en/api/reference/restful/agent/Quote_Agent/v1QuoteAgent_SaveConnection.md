@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 247,
-  "ERPName": "Witting Group",
-  "DisplayName": "Welch-Jaskolski",
-  "DisplayDescription": "Re-engineered explicit database",
-  "Rank": 384,
-  "ConnectorName": "Moore-Swift",
-  "ErpConnectionId": 572,
-  "ExtraData": "enim",
+  "QuoteConnectionId": 323,
+  "ERPName": "Reinger, Fisher and Pfannerstill",
+  "DisplayName": "Wilkinson Group",
+  "DisplayDescription": "Persistent client-driven project",
+  "Rank": 253,
+  "ConnectorName": "Hirthe-Reilly",
+  "ErpConnectionId": 646,
+  "ExtraData": "dolor",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 400,
-      "ERPPriceListKey": "culpa",
-      "QuoteConnectionId": 9,
-      "Name": "Stiedemann LLC",
-      "Description": "Inverse assymetric portal",
-      "Currency": "sequi",
-      "CurrencyName": "Paucek, Gusikowski and Kiehn",
-      "ValidFrom": "2013-04-21T16:32:39.7271263+02:00",
-      "ValidTo": "2004-04-24T16:32:39.7271263+02:00",
-      "IsActive": false,
+      "PriceListId": 837,
+      "ERPPriceListKey": "itaque",
+      "QuoteConnectionId": 207,
+      "Name": "Kub LLC",
+      "Description": "Adaptive dedicated artificial intelligence",
+      "Currency": "unde",
+      "CurrencyName": "Fadel Inc and Sons",
+      "ValidFrom": "2022-08-23T17:54:03.5233118+02:00",
+      "ValidTo": "2010-05-06T17:54:03.5233118+02:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 504
+          "FieldLength": 110
         }
       }
     }
   ],
-  "AllAccess": false,
+  "AllAccess": true,
   "Deleted": false,
   "UserGroupAccessIds": [
-    466,
-    479
+    739,
+    744
   ],
   "AssociateAccessIds": [
-    491,
-    957
+    423,
+    945
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 174
+      "FieldLength": 471
     }
   }
 }

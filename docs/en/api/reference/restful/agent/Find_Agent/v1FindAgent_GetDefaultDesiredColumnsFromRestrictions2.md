@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Mohr, Hermiston and Kreiger",
-  "Restrictions": "architecto"
+  "ProviderName": "Altenwerth LLC",
+  "Restrictions": "ea"
 }
 ```
 
@@ -186,18 +186,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Daugherty-Nader",
-    "DisplayTooltip": "sit",
-    "DisplayType": "labore",
+    "DisplayName": "Davis, Lemke and Runolfsson",
+    "DisplayTooltip": "impedit",
+    "DisplayType": "facilis",
     "CanOrderBy": false,
-    "Name": "Ritchie Inc and Sons",
-    "CanRestrictBy": false,
-    "RestrictionType": "omnis",
-    "RestrictionListName": "Moen, Jakubowski and Moen",
+    "Name": "Mosciski-Schmidt",
+    "CanRestrictBy": true,
+    "RestrictionType": "dolorem",
+    "RestrictionListName": "Bauch, Greenfelder and Rolfson",
     "IsVisible": false,
-    "ExtraInfo": "consequatur",
-    "Width": "vel",
-    "IconHint": "veritatis",
+    "ExtraInfo": "iure",
+    "Width": "distinctio",
+    "IconHint": "id",
     "HeadingIconHint": "dolore"
   }
 ]

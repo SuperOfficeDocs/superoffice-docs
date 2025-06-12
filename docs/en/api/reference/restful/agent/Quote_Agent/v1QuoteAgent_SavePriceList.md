@@ -85,15 +85,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 149,
-  "ERPPriceListKey": "cupiditate",
-  "QuoteConnectionId": 159,
-  "Name": "Larkin, Lang and Leannon",
-  "Description": "Profit-focused discrete solution",
-  "Currency": "voluptatem",
-  "CurrencyName": "Larkin, Rau and Murray",
-  "ValidFrom": "2018-10-08T16:32:39.6958859+02:00",
-  "ValidTo": "1998-05-04T16:32:39.6958859+02:00",
+  "PriceListId": 110,
+  "ERPPriceListKey": "rerum",
+  "QuoteConnectionId": 852,
+  "Name": "Marvin, Hudson and Strosin",
+  "Description": "Customer-focused web-enabled model",
+  "Currency": "sint",
+  "CurrencyName": "Casper-Altenwerth",
+  "ValidFrom": "1998-07-29T17:54:03.5076876+02:00",
+  "ValidTo": "2022-09-12T17:54:03.5076876+02:00",
   "IsActive": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 545,
-  "ERPPriceListKey": "totam",
-  "QuoteConnectionId": 713,
-  "Name": "Vandervort-Moore",
-  "Description": "Synergistic context-sensitive superstructure",
-  "Currency": "fugit",
-  "CurrencyName": "Mayer, Price and Christiansen",
-  "ValidFrom": "2002-11-16T16:32:39.6958859+01:00",
-  "ValidTo": "2020-09-10T16:32:39.6958859+02:00",
-  "IsActive": true,
+  "PriceListId": 624,
+  "ERPPriceListKey": "quaerat",
+  "QuoteConnectionId": 157,
+  "Name": "Zboncak, Lind and Mayer",
+  "Description": "Balanced intermediate groupware",
+  "Currency": "harum",
+  "CurrencyName": "Pollich, Hickle and Hermiston",
+  "ValidFrom": "2001-02-15T17:54:03.5076876+01:00",
+  "ValidTo": "2024-06-29T17:54:03.5076876+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 472
+      "FieldLength": 683
     }
   }
 }

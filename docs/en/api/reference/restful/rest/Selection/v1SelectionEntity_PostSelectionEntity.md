@@ -156,60 +156,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Digitized maximized project",
-  "Postit": "dolores",
+  "Description": "Expanded hybrid hub",
+  "Postit": "atque",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 311,
-  "IncludePerson": 152,
+  "GroupIdx": 407,
+  "IncludePerson": 835,
   "MemberCount": 99.99,
-  "Name": "Lang LLC",
-  "PostitTextId": 264,
-  "CreatedDate": "2017-08-21T16:32:48.0713331+02:00",
-  "SelectionId": 345,
-  "SoundEx": "tempore",
-  "Source": 563,
-  "TextId": 832,
-  "UpdatedDate": "2014-12-17T16:32:48.0713331+01:00",
-  "UpdatedCount": 158,
-  "Visibility": 514,
+  "Name": "Ward-Kilback",
+  "PostitTextId": 769,
+  "CreatedDate": "2017-02-15T17:54:08.5230811+01:00",
+  "SelectionId": 912,
+  "SoundEx": "ipsa",
+  "Source": 380,
+  "TextId": 525,
+  "UpdatedDate": "2023-10-04T17:54:08.5230811+02:00",
+  "UpdatedCount": 307,
+  "Visibility": 379,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 544,
-  "TargetTableName": "McLaughlin, Kohler and Mertz",
+  "TargetTableNumber": 189,
+  "TargetTableName": "Pacocha Group",
   "Completed": false,
-  "LeftSelectionId": 931,
-  "RightSelectionId": 948,
+  "LeftSelectionId": 564,
+  "RightSelectionId": 831,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Fisher Inc and Sons",
-  "ShadowProviderName": "Nienow, Harvey and Mills",
-  "ChartKey": "harum",
-  "LastLoaded": "2005-06-07T16:32:48.0713331+02:00",
-  "LastLoadedBy": 28,
+  "MainProviderName": "Prosacco Inc and Sons",
+  "ShadowProviderName": "Kreiger Inc and Sons",
+  "ChartKey": "voluptatem",
+  "LastLoaded": "2001-10-06T17:54:08.5230811+02:00",
+  "LastLoadedBy": 66,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2016-07-04T16:32:48.0713331+02:00",
-  "LastMembershipChangeBy": 434,
+  "LastMembershipChange": "2008-12-18T17:54:08.5230811+01:00",
+  "LastMembershipChangeBy": 996,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "at",
-  "MemberTabHeading": "sapiente",
-  "MailingsProviderName": "Corkery, O'Conner and Larson",
-  "DashboardTileDefinitionId": 383,
+  "MainHeading": "possimus",
+  "MemberTabHeading": "optio",
+  "MailingsProviderName": "Bartoletti-Abernathy",
+  "DashboardTileDefinitionId": 574,
   "VisibleFor": [
     {
-      "VisibleId": 559,
+      "VisibleId": 895,
       "Visibility": "All",
-      "DisplayValue": "illum"
+      "DisplayValue": "consequuntur"
     },
     {
-      "VisibleId": 559,
+      "VisibleId": 895,
       "Visibility": "All",
-      "DisplayValue": "illum"
+      "DisplayValue": "consequuntur"
     }
   ]
 }
@@ -222,70 +222,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Switchable secondary help-desk",
-  "Postit": "ea",
+  "Description": "Adaptive fault-tolerant hierarchy",
+  "Postit": "voluptatibus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 450,
-  "IncludePerson": 140,
+  "GroupIdx": 394,
+  "IncludePerson": 846,
   "MemberCount": 99.99,
-  "Name": "Jakubowski LLC",
-  "PostitTextId": 664,
-  "CreatedDate": "2006-09-10T16:32:48.0713331+02:00",
-  "SelectionId": 424,
-  "SoundEx": "rerum",
-  "Source": 847,
-  "TextId": 526,
-  "UpdatedDate": "1998-08-18T16:32:48.0713331+02:00",
-  "UpdatedCount": 32,
-  "Visibility": 563,
+  "Name": "Donnelly, Hand and Stehr",
+  "PostitTextId": 959,
+  "CreatedDate": "2020-04-10T17:54:08.5386928+02:00",
+  "SelectionId": 178,
+  "SoundEx": "sint",
+  "Source": 207,
+  "TextId": 195,
+  "UpdatedDate": "2008-02-05T17:54:08.5386928+01:00",
+  "UpdatedCount": 862,
+  "Visibility": 519,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 44,
-  "TargetTableName": "Stracke, Towne and Stracke",
-  "Completed": false,
-  "LeftSelectionId": 655,
-  "RightSelectionId": 841,
+  "CompanyUnique": true,
+  "TargetTableNumber": 252,
+  "TargetTableName": "Ullrich, Hyatt and Sauer",
+  "Completed": true,
+  "LeftSelectionId": 131,
+  "RightSelectionId": 738,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Turcotte-Ratke",
-  "ShadowProviderName": "Fritsch, Hayes and Wuckert",
-  "ChartKey": "porro",
-  "LastLoaded": "2013-01-06T16:32:48.0713331+01:00",
-  "LastLoadedBy": 89,
+  "MainProviderName": "Brown-Steuber",
+  "ShadowProviderName": "Hansen Group",
+  "ChartKey": "accusantium",
+  "LastLoaded": "2015-09-05T17:54:08.5386928+02:00",
+  "LastLoadedBy": 459,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2007-08-04T16:32:48.0713331+02:00",
-  "LastMembershipChangeBy": 743,
+  "LastMembershipChange": "2015-03-15T17:54:08.5386928+01:00",
+  "LastMembershipChangeBy": 531,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quia",
-  "MemberTabHeading": "tempore",
-  "MailingsProviderName": "Hermiston-Hegmann",
-  "DashboardTileDefinitionId": 158,
+  "MainHeading": "dolor",
+  "MemberTabHeading": "eligendi",
+  "MailingsProviderName": "Bode-Champlin",
+  "DashboardTileDefinitionId": 512,
   "VisibleFor": [
     {
-      "VisibleId": 547,
+      "VisibleId": 499,
       "Visibility": "All",
-      "DisplayValue": "eos",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 889
+          "FieldLength": 833
         }
       }
     },
     {
-      "VisibleId": 547,
+      "VisibleId": 499,
       "Visibility": "All",
-      "DisplayValue": "eos",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 889
+          "FieldLength": 833
         }
       }
     }
@@ -295,7 +295,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldLength": 571
     }
   },
   "_Links": {

@@ -99,16 +99,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiaryInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    138,
-    478
+    292,
+    161
   ],
-  "StartTime": "2019-12-10T16:32:37.6646595+01:00",
-  "EndTime": "2021-12-30T16:32:37.6646595+01:00"
+  "StartTime": "2023-03-23T17:54:02.3983677+01:00",
+  "EndTime": "1998-04-05T17:54:02.3983677+02:00"
 }
 ```
 
@@ -120,37 +120,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 523,
-    "AssociateId": 561,
-    "MotherId": 812,
-    "StartDate": "2008-04-05T16:32:37.6646595+02:00",
-    "EndDate": "2009-05-12T16:32:37.6646595+02:00",
+    "AppointmentId": 895,
+    "AssociateId": 137,
+    "MotherId": 363,
+    "StartDate": "2021-05-12T17:54:02.3983677+02:00",
+    "EndDate": "2023-08-15T17:54:02.3983677+02:00",
     "ColorIndex": "BlueAlt1",
-    "TaskName": "Emmerich LLC",
-    "ContactName": "Leffler, Abernathy and Leffler",
-    "ProjectName": "Dietrich-Bosco",
-    "Title": "asperiores",
-    "Agenda": "ut",
-    "IsAllDay": false,
-    "IsBusy": true,
+    "TaskName": "Windler-Barton",
+    "ContactName": "Hodkiewicz-Marvin",
+    "ProjectName": "Murphy LLC",
+    "Title": "quia",
+    "Agenda": "et",
+    "IsAllDay": true,
+    "IsBusy": false,
     "IsRecurring": false,
     "IsVideoMeeting": false,
     "HasAlarm": false,
     "IsCompleted": false,
     "IsTentative": false,
     "IsBookingMain": false,
-    "SendEmail": true,
+    "SendEmail": false,
     "AnySendEmail": false,
-    "IsPrivate": false,
+    "IsPrivate": true,
     "RecurrenceInfo": null,
-    "PersonName": "Romaguera, Homenick and Mueller",
+    "PersonName": "Bartoletti LLC",
     "IsBooking": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 24
+        "FieldLength": 360
       }
     }
   }

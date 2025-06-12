@@ -1,0 +1,672 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Webhooks.IWebhookTransmitter
+  commentId: T:SuperOffice.CRM.Webhooks.IWebhookTransmitter
+  id: IWebhookTransmitter
+  parent: SuperOffice.CRM.Webhooks
+  children:
+  - SuperOffice.CRM.Webhooks.IWebhookTransmitter.CallWebhookAsync(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload,System.Threading.CancellationToken,System.Int32,System.Boolean)
+  - SuperOffice.CRM.Webhooks.IWebhookTransmitter.ProcessRetryAttemptAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}},System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: IWebhookTransmitter
+  nameWithType: IWebhookTransmitter
+  fullName: SuperOffice.CRM.Webhooks.IWebhookTransmitter
+  type: Interface
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Webhooks
+  summary: Interface for implementing transmission of webhooks.  Used by webhook plugins and retry processors.
+  example: []
+  syntax:
+    content: public interface IWebhookTransmitter
+    content.vb: Public Interface IWebhookTransmitter
+  extensionMethods:
+  - SuperOffice.CRM.Webhooks.IWebhookTransmitter.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Webhooks.IWebhookTransmitter.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.CRM.Webhooks.IWebhookTransmitter.CallWebhookAsync(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload,System.Threading.CancellationToken,System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Webhooks.IWebhookTransmitter.CallWebhookAsync(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload,System.Threading.CancellationToken,System.Int32,System.Boolean)
+  id: CallWebhookAsync(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload,System.Threading.CancellationToken,System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Webhooks.IWebhookTransmitter
+  langs:
+  - csharp
+  - vb
+  name: CallWebhookAsync(Webhook, WebhookPayload, CancellationToken, int, bool)
+  nameWithType: IWebhookTransmitter.CallWebhookAsync(Webhook, WebhookPayload, CancellationToken, int, bool)
+  fullName: SuperOffice.CRM.Webhooks.IWebhookTransmitter.CallWebhookAsync(SuperOffice.CRM.Webhooks.Webhook, SuperOffice.CRM.Webhooks.WebhookPayload, System.Threading.CancellationToken, int, bool)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Webhooks
+  summary: Call a webhook
+  remarks: Responsible for scheduling wailed webooks for retry attempts.
+  example: []
+  syntax:
+    content: Task<WebhookResponse> CallWebhookAsync(Webhook webhook, WebhookPayload eventInfo, CancellationToken cancellationToken, int maxRetries = 3, bool isTest = false)
+    parameters:
+    - id: webhook
+      type: SuperOffice.CRM.Webhooks.Webhook
+      description: ''
+    - id: eventInfo
+      type: SuperOffice.CRM.Webhooks.WebhookPayload
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    - id: maxRetries
+      type: System.Int32
+      description: ''
+    - id: isTest
+      type: System.Boolean
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Webhooks.WebhookResponse}
+      description: ''
+    content.vb: Function CallWebhookAsync(webhook As Webhook, eventInfo As WebhookPayload, cancellationToken As CancellationToken, maxRetries As Integer = 3, isTest As Boolean = False) As Task(Of WebhookResponse)
+  overload: SuperOffice.CRM.Webhooks.IWebhookTransmitter.CallWebhookAsync*
+  nameWithType.vb: IWebhookTransmitter.CallWebhookAsync(Webhook, WebhookPayload, CancellationToken, Integer, Boolean)
+  fullName.vb: SuperOffice.CRM.Webhooks.IWebhookTransmitter.CallWebhookAsync(SuperOffice.CRM.Webhooks.Webhook, SuperOffice.CRM.Webhooks.WebhookPayload, System.Threading.CancellationToken, Integer, Boolean)
+  name.vb: CallWebhookAsync(Webhook, WebhookPayload, CancellationToken, Integer, Boolean)
+- uid: SuperOffice.CRM.Webhooks.IWebhookTransmitter.ProcessRetryAttemptAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Webhooks.IWebhookTransmitter.ProcessRetryAttemptAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}},System.Threading.CancellationToken)
+  id: ProcessRetryAttemptAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}},System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Webhooks.IWebhookTransmitter
+  langs:
+  - csharp
+  - vb
+  name: ProcessRetryAttemptAsync(IAsyncQueueProcessItemContext<DelayedItem<RetryWebhook>>, CancellationToken)
+  nameWithType: IWebhookTransmitter.ProcessRetryAttemptAsync(IAsyncQueueProcessItemContext<DelayedItem<RetryWebhook>>, CancellationToken)
+  fullName: SuperOffice.CRM.Webhooks.IWebhookTransmitter.ProcessRetryAttemptAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext<SuperOffice.Threading.DelayedItem<SuperOffice.CRM.Webhooks.RetryWebhook>>, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Webhooks
+  summary: Process retry attempts, that has been added to a queue.
+  example: []
+  syntax:
+    content: Task<WebhookResponse> ProcessRetryAttemptAsync(IAsyncQueueProcessItemContext<DelayedItem<RetryWebhook>> context, CancellationToken cancellationToken)
+    parameters:
+    - id: context
+      type: SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Webhooks.WebhookResponse}
+      description: ''
+    content.vb: Function ProcessRetryAttemptAsync(context As IAsyncQueueProcessItemContext(Of DelayedItem(Of RetryWebhook)), cancellationToken As CancellationToken) As Task(Of WebhookResponse)
+  overload: SuperOffice.CRM.Webhooks.IWebhookTransmitter.ProcessRetryAttemptAsync*
+  nameWithType.vb: IWebhookTransmitter.ProcessRetryAttemptAsync(IAsyncQueueProcessItemContext(Of DelayedItem(Of RetryWebhook)), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Webhooks.IWebhookTransmitter.ProcessRetryAttemptAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext(Of SuperOffice.Threading.DelayedItem(Of SuperOffice.CRM.Webhooks.RetryWebhook)), System.Threading.CancellationToken)
+  name.vb: ProcessRetryAttemptAsync(IAsyncQueueProcessItemContext(Of DelayedItem(Of RetryWebhook)), CancellationToken)
+references:
+- uid: SuperOffice.CRM.Webhooks
+  commentId: N:SuperOffice.CRM.Webhooks
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Webhooks
+  nameWithType: SuperOffice.CRM.Webhooks
+  fullName: SuperOffice.CRM.Webhooks
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Webhooks
+    name: Webhooks
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Webhooks
+    name: Webhooks
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.html
+- uid: SuperOffice.CRM.Webhooks.IWebhookTransmitter.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IWebhookTransmitter, To>(IWebhookTransmitter)
+  nameWithType: EnumUtil.MapEnums<IWebhookTransmitter, To>(IWebhookTransmitter)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Webhooks.IWebhookTransmitter, To>(SuperOffice.CRM.Webhooks.IWebhookTransmitter)
+  nameWithType.vb: EnumUtil.MapEnums(Of IWebhookTransmitter, To)(IWebhookTransmitter)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Webhooks.IWebhookTransmitter, To)(SuperOffice.CRM.Webhooks.IWebhookTransmitter)
+  name.vb: MapEnums(Of IWebhookTransmitter, To)(IWebhookTransmitter)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Webhooks.IWebhookTransmitter)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Webhooks.IWebhookTransmitter
+    name: IWebhookTransmitter
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.IWebhookTransmitter.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Webhooks.IWebhookTransmitter
+    name: IWebhookTransmitter
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.IWebhookTransmitter.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Webhooks.IWebhookTransmitter)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Webhooks.IWebhookTransmitter
+    name: IWebhookTransmitter
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.IWebhookTransmitter.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Webhooks.IWebhookTransmitter
+    name: IWebhookTransmitter
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.IWebhookTransmitter.html
+  - name: )
+- uid: SuperOffice.CRM.Webhooks.IWebhookTransmitter.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IWebhookTransmitter, To>(IWebhookTransmitter)
+  nameWithType: Converters.MapEnums<IWebhookTransmitter, To>(IWebhookTransmitter)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Webhooks.IWebhookTransmitter, To>(SuperOffice.CRM.Webhooks.IWebhookTransmitter)
+  nameWithType.vb: Converters.MapEnums(Of IWebhookTransmitter, To)(IWebhookTransmitter)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Webhooks.IWebhookTransmitter, To)(SuperOffice.CRM.Webhooks.IWebhookTransmitter)
+  name.vb: MapEnums(Of IWebhookTransmitter, To)(IWebhookTransmitter)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Webhooks.IWebhookTransmitter)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Webhooks.IWebhookTransmitter
+    name: IWebhookTransmitter
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.IWebhookTransmitter.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Webhooks.IWebhookTransmitter
+    name: IWebhookTransmitter
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.IWebhookTransmitter.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Webhooks.IWebhookTransmitter)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Webhooks.IWebhookTransmitter
+    name: IWebhookTransmitter
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.IWebhookTransmitter.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Webhooks.IWebhookTransmitter
+    name: IWebhookTransmitter
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.IWebhookTransmitter.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.Webhooks.IWebhookTransmitter.CallWebhookAsync*
+  commentId: Overload:SuperOffice.CRM.Webhooks.IWebhookTransmitter.CallWebhookAsync
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.IWebhookTransmitter.html#SuperOffice_CRM_Webhooks_IWebhookTransmitter_CallWebhookAsync_SuperOffice_CRM_Webhooks_Webhook_SuperOffice_CRM_Webhooks_WebhookPayload_System_Threading_CancellationToken_System_Int32_System_Boolean_
+  name: CallWebhookAsync
+  nameWithType: IWebhookTransmitter.CallWebhookAsync
+  fullName: SuperOffice.CRM.Webhooks.IWebhookTransmitter.CallWebhookAsync
+- uid: SuperOffice.CRM.Webhooks.Webhook
+  commentId: T:SuperOffice.CRM.Webhooks.Webhook
+  parent: SuperOffice.CRM.Webhooks
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.Webhook.html
+  name: Webhook
+  nameWithType: Webhook
+  fullName: SuperOffice.CRM.Webhooks.Webhook
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload
+  commentId: T:SuperOffice.CRM.Webhooks.WebhookPayload
+  parent: SuperOffice.CRM.Webhooks
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.WebhookPayload.html
+  name: WebhookPayload
+  nameWithType: WebhookPayload
+  fullName: SuperOffice.CRM.Webhooks.WebhookPayload
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Webhooks.WebhookResponse}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Webhooks.WebhookResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<WebhookResponse>
+  nameWithType: Task<WebhookResponse>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Webhooks.WebhookResponse>
+  nameWithType.vb: Task(Of WebhookResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Webhooks.WebhookResponse)
+  name.vb: Task(Of WebhookResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Webhooks.WebhookResponse
+    name: WebhookResponse
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.WebhookResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Webhooks.WebhookResponse
+    name: WebhookResponse
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.WebhookResponse.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Webhooks.IWebhookTransmitter.ProcessRetryAttemptAsync*
+  commentId: Overload:SuperOffice.CRM.Webhooks.IWebhookTransmitter.ProcessRetryAttemptAsync
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.IWebhookTransmitter.html#SuperOffice_CRM_Webhooks_IWebhookTransmitter_ProcessRetryAttemptAsync_SuperOffice_Threading_IAsyncQueueProcessItemContext_SuperOffice_Threading_DelayedItem_SuperOffice_CRM_Webhooks_RetryWebhook___System_Threading_CancellationToken_
+  name: ProcessRetryAttemptAsync
+  nameWithType: IWebhookTransmitter.ProcessRetryAttemptAsync
+  fullName: SuperOffice.CRM.Webhooks.IWebhookTransmitter.ProcessRetryAttemptAsync
+- uid: SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}}
+  commentId: T:SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}}
+  parent: SuperOffice.Threading
+  definition: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+  href: SuperOffice.CRM.Webhooks.RetryWebhook.html
+  name: IAsyncQueueProcessItemContext<DelayedItem<RetryWebhook>>
+  nameWithType: IAsyncQueueProcessItemContext<DelayedItem<RetryWebhook>>
+  fullName: SuperOffice.Threading.IAsyncQueueProcessItemContext<SuperOffice.Threading.DelayedItem<SuperOffice.CRM.Webhooks.RetryWebhook>>
+  nameWithType.vb: IAsyncQueueProcessItemContext(Of DelayedItem(Of RetryWebhook))
+  fullName.vb: SuperOffice.Threading.IAsyncQueueProcessItemContext(Of SuperOffice.Threading.DelayedItem(Of SuperOffice.CRM.Webhooks.RetryWebhook))
+  name.vb: IAsyncQueueProcessItemContext(Of DelayedItem(Of RetryWebhook))
+  spec.csharp:
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: <
+  - uid: SuperOffice.Threading.DelayedItem`1
+    name: DelayedItem
+    isExternal: true
+  - name: <
+  - uid: SuperOffice.CRM.Webhooks.RetryWebhook
+    name: RetryWebhook
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.RetryWebhook.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Threading.DelayedItem`1
+    name: DelayedItem
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Webhooks.RetryWebhook
+    name: RetryWebhook
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.RetryWebhook.html
+  - name: )
+  - name: )
+- uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+  commentId: T:SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+  isExternal: true
+  href: SuperOffice.Threading.IAsyncQueueProcessItemContext-1.html
+  name: IAsyncQueueProcessItemContext<TItem>
+  nameWithType: IAsyncQueueProcessItemContext<TItem>
+  fullName: SuperOffice.Threading.IAsyncQueueProcessItemContext<TItem>
+  nameWithType.vb: IAsyncQueueProcessItemContext(Of TItem)
+  fullName.vb: SuperOffice.Threading.IAsyncQueueProcessItemContext(Of TItem)
+  name.vb: IAsyncQueueProcessItemContext(Of TItem)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueProcessItemContext-1.html
+  - name: <
+  - name: TItem
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueProcessItemContext-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TItem
+  - name: )
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Threading
+    name: Threading
+    isExternal: true
+    href: SuperOffice.Threading.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Threading
+    name: Threading
+    isExternal: true
+    href: SuperOffice.Threading.html

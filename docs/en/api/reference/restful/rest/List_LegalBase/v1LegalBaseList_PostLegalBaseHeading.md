@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 250,
-  "Name": "Fadel, Kohler and Kassulke",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 206,
-  "UdListDefinitionId": 799
+  "HeadingId": 449,
+  "Name": "Ortiz LLC",
+  "Tooltip": "assumenda",
+  "Deleted": false,
+  "Rank": 1002,
+  "UdListDefinitionId": 877
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 439,
-  "Name": "Gusikowski-Flatley",
-  "Tooltip": "iusto",
+  "HeadingId": 833,
+  "Name": "Johnston-Berge",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 775,
-  "UdListDefinitionId": 528,
+  "Rank": 617,
+  "UdListDefinitionId": 190,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 459
+      "FieldLength": 27
     }
   }
 }

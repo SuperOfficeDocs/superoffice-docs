@@ -15,29 +15,46 @@ items:
   nameWithType: ColumnNormalizer
   fullName: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.Archive
-  summary: "\nImplements a class that can take two providers and normalize their column sets. This is used\nwhen the names of the columns in two providers are not equal, and will typically be used \nwhen we have a contact-selection combined with a project, sale, doc or appointment.\n\nThe logic here is that the columns provided to the SetColumns function does not contain\nperson/ prefixes, since they come from a contact selection. All columns in the non-contact\nselection provider will there need to receive normalized columns, ie. those that ends with \nthe same as the ones in the columnIds array.\n\nIn addition, when retrieving rows, we need to rename the column names for the non-contact \nprovider so that the user interface will see it.\n\n"
+  summary: >-
+    Implements a class that can take two providers and normalize their column sets. This is used
+
+    when the names of the columns in two providers are not equal, and will typically be used 
+
+    when we have a contact-selection combined with a project, sale, doc or appointment.
+
+
+    The logic here is that the columns provided to the SetColumns function does not contain
+
+    person/ prefixes, since they come from a contact selection. All columns in the non-contact
+
+    selection provider will there need to receive normalized columns, ie. those that ends with 
+
+    the same as the ones in the columnIds array.
+
+
+    In addition, when retrieving rows, we need to rename the column names for the non-contact 
+
+    provider so that the user interface will see it.
+  example: []
   syntax:
-    content: 'public class ColumnNormalizer : Object'
-    content.vb: >-
-      Public Class ColumnNormalizer
-          Inherits Object
+    content: public class ColumnNormalizer
+    content.vb: Public Class ColumnNormalizer
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.#ctor(SuperOffice.CRM.ArchiveLists.IArchiveProvider,SuperOffice.CRM.ArchiveLists.IArchiveProvider)
   commentId: M:SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.#ctor(SuperOffice.CRM.ArchiveLists.IArchiveProvider,SuperOffice.CRM.ArchiveLists.IArchiveProvider)
   id: '#ctor(SuperOffice.CRM.ArchiveLists.IArchiveProvider,SuperOffice.CRM.ArchiveLists.IArchiveProvider)'
@@ -49,26 +66,25 @@ items:
   nameWithType: ColumnNormalizer.ColumnNormalizer(IArchiveProvider, IArchiveProvider)
   fullName: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.ColumnNormalizer(SuperOffice.CRM.ArchiveLists.IArchiveProvider, SuperOffice.CRM.ArchiveLists.IArchiveProvider)
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.Archive
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public ColumnNormalizer(IArchiveProvider leftProvider, IArchiveProvider rightProvider)
     parameters:
     - id: leftProvider
       type: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+      description: ''
     - id: rightProvider
       type: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+      description: ''
     content.vb: Public Sub New(leftProvider As IArchiveProvider, rightProvider As IArchiveProvider)
   overload: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ColumnNormalizer.New(IArchiveProvider, IArchiveProvider)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.New(SuperOffice.CRM.ArchiveLists.IArchiveProvider, SuperOffice.CRM.ArchiveLists.IArchiveProvider)
+  name.vb: New(IArchiveProvider, IArchiveProvider)
 - uid: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.SetColumns(System.String[])
   commentId: M:SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.SetColumns(System.String[])
   id: SetColumns(System.String[])
@@ -76,30 +92,25 @@ items:
   langs:
   - csharp
   - vb
-  name: SetColumns(String[])
-  nameWithType: ColumnNormalizer.SetColumns(String[])
-  fullName: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.SetColumns(System.String[])
+  name: SetColumns(string[])
+  nameWithType: ColumnNormalizer.SetColumns(string[])
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.SetColumns(string[])
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.Archive
-  summary: "\nSets columns on the two providers, harmonized.\n"
+  summary: Sets columns on the two providers, harmonized.
+  example: []
   syntax:
     content: public void SetColumns(string[] columnIds)
     parameters:
     - id: columnIds
       type: System.String[]
+      description: ''
     content.vb: Public Sub SetColumns(columnIds As String())
   overload: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.SetColumns*
   nameWithType.vb: ColumnNormalizer.SetColumns(String())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.SetColumns(System.String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.SetColumns(String())
   name.vb: SetColumns(String())
 - uid: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.NormalizeColumns(SuperOffice.CRM.ArchiveLists.ArchiveRow)
   commentId: M:SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.NormalizeColumns(SuperOffice.CRM.ArchiveLists.ArchiveRow)
@@ -112,115 +123,414 @@ items:
   nameWithType: ColumnNormalizer.NormalizeColumns(ArchiveRow)
   fullName: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.NormalizeColumns(SuperOffice.CRM.ArchiveLists.ArchiveRow)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.Archive
-  summary: "\nHandle an archive row and it&apos;s column names\n"
+  summary: Handle an archive row and it's column names
+  example: []
   syntax:
     content: public void NormalizeColumns(ArchiveRow row)
     parameters:
     - id: row
       type: SuperOffice.CRM.ArchiveLists.ArchiveRow
+      description: ''
     content.vb: Public Sub NormalizeColumns(row As ArchiveRow)
   overload: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.NormalizeColumns*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: SuperOffice.CRM.ArchiveLists.Archive
   commentId: N:SuperOffice.CRM.ArchiveLists.Archive
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists.Archive
   nameWithType: SuperOffice.CRM.ArchiveLists.Archive
   fullName: SuperOffice.CRM.ArchiveLists.Archive
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists.Archive
+    name: Archive
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.Archive.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists.Archive
+    name: Archive
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.Archive.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ColumnNormalizer, To>()
-  nameWithType: EnumUtil.MapEnums<ColumnNormalizer, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ColumnNormalizer, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer, To)()
-  name.vb: MapEnums(Of ColumnNormalizer, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ColumnNormalizer, To>(ColumnNormalizer)
+  nameWithType: EnumUtil.MapEnums<ColumnNormalizer, To>(ColumnNormalizer)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer, To>(SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer)
+  nameWithType.vb: EnumUtil.MapEnums(Of ColumnNormalizer, To)(ColumnNormalizer)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer, To)(SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer)
+  name.vb: MapEnums(Of ColumnNormalizer, To)(ColumnNormalizer)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ColumnNormalizer, To>
-    nameWithType: EnumUtil.MapEnums<ColumnNormalizer, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer
+    name: ColumnNormalizer
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer
+    name: ColumnNormalizer
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ColumnNormalizer, To)
-    nameWithType: EnumUtil.MapEnums(Of ColumnNormalizer, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer
+    name: ColumnNormalizer
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer
+    name: ColumnNormalizer
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.html
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ColumnNormalizer, To>()
-  nameWithType: Converters.MapEnums<ColumnNormalizer, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer, To>()
-  nameWithType.vb: Converters.MapEnums(Of ColumnNormalizer, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer, To)()
-  name.vb: MapEnums(Of ColumnNormalizer, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ColumnNormalizer, To>(ColumnNormalizer)
+  nameWithType: Converters.MapEnums<ColumnNormalizer, To>(ColumnNormalizer)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer, To>(SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer)
+  nameWithType.vb: Converters.MapEnums(Of ColumnNormalizer, To)(ColumnNormalizer)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer, To)(SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer)
+  name.vb: MapEnums(Of ColumnNormalizer, To)(ColumnNormalizer)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ColumnNormalizer, To>
-    nameWithType: Converters.MapEnums<ColumnNormalizer, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer
+    name: ColumnNormalizer
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer
+    name: ColumnNormalizer
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ColumnNormalizer, To)
-    nameWithType: Converters.MapEnums(Of ColumnNormalizer, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer
+    name: ColumnNormalizer
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer
+    name: ColumnNormalizer
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -229,43 +539,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -274,101 +586,168 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.#ctor*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.#ctor
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.html#SuperOffice_CRM_ArchiveLists_Archive_ColumnNormalizer__ctor_SuperOffice_CRM_ArchiveLists_IArchiveProvider_SuperOffice_CRM_ArchiveLists_IArchiveProvider_
   name: ColumnNormalizer
   nameWithType: ColumnNormalizer.ColumnNormalizer
   fullName: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.ColumnNormalizer
+  nameWithType.vb: ColumnNormalizer.New
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.New
+  name.vb: New
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProvider
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.IArchiveProvider.html
   name: IArchiveProvider
   nameWithType: IArchiveProvider
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProvider
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
 - uid: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.SetColumns*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.SetColumns
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.html#SuperOffice_CRM_ArchiveLists_Archive_ColumnNormalizer_SetColumns_System_String___
   name: SetColumns
   nameWithType: ColumnNormalizer.SetColumns
   fullName: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.SetColumns
 - uid: System.String[]
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
   nameWithType.vb: String()
-  fullName.vb: System.String()
+  fullName.vb: String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.NormalizeColumns*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.NormalizeColumns
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.html#SuperOffice_CRM_ArchiveLists_Archive_ColumnNormalizer_NormalizeColumns_SuperOffice_CRM_ArchiveLists_ArchiveRow_
   name: NormalizeColumns
   nameWithType: ColumnNormalizer.NormalizeColumns
   fullName: SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer.NormalizeColumns
@@ -376,6 +755,7 @@ references:
   commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRow
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ArchiveRow.html
   name: ArchiveRow
   nameWithType: ArchiveRow
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow

@@ -8,67 +8,41 @@ items:
   - SuperOffice.Data.FreeTextOperator.Contains
   - SuperOffice.Data.FreeTextOperator.ExactMatch
   - SuperOffice.Data.FreeTextOperator.StartsWith
-  - SuperOffice.Data.FreeTextOperator.value__
   langs:
   - csharp
   - vb
   name: FreeTextOperator
   nameWithType: FreeTextOperator
   fullName: SuperOffice.Data.FreeTextOperator
-  type: Class
-  source:
-    path: SoCore
-    isExternal: true
+  type: Enum
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\nFreetext operator\n"
+  summary: Freetext operator
+  example: []
   syntax:
-    content: 'public sealed class FreeTextOperator : Enum'
-    content.vb: >-
-      Public NotInheritable Class FreeTextOperator
-          Inherits
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
 
-           Enum
-  inheritance:
-  - System.Object
+      public enum FreeTextOperator
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Enum FreeTextOperator
   extensionMethods:
   - SuperOffice.Data.FreeTextOperator.EnumUtil.MapEnums``2
   - SuperOffice.Data.FreeTextOperator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.Data.FreeTextOperator.value__
-  commentId: F:SuperOffice.Data.FreeTextOperator.value__
-  id: value__
-  parent: SuperOffice.Data.FreeTextOperator
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: FreeTextOperator.value__
-  fullName: SuperOffice.Data.FreeTextOperator.value__
-  type: Field
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.Data.FreeTextOperator.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.FreeTextOperator)
+  - SuperOffice.Data.FreeTextOperator.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - System.Enum.EnumUtil.GetDescription
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.Data.FreeTextOperator.Contains
   commentId: F:SuperOffice.Data.FreeTextOperator.Contains
   id: Contains
@@ -80,24 +54,26 @@ items:
   nameWithType: FreeTextOperator.Contains
   fullName: SuperOffice.Data.FreeTextOperator.Contains
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1: Contains\n"
+  summary: '1: Contains'
+  example: []
   syntax:
-    content: public const FreeTextOperator Contains
+    content: >-
+      [EnumMember]
+
+      Contains = 1
     return:
       type: SuperOffice.Data.FreeTextOperator
-    content.vb: Public Const Contains As FreeTextOperator
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Contains = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.FreeTextOperator.StartsWith
   commentId: F:SuperOffice.Data.FreeTextOperator.StartsWith
   id: StartsWith
@@ -109,24 +85,26 @@ items:
   nameWithType: FreeTextOperator.StartsWith
   fullName: SuperOffice.Data.FreeTextOperator.StartsWith
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n2: Starts with\n"
+  summary: '2: Starts with'
+  example: []
   syntax:
-    content: public const FreeTextOperator StartsWith
+    content: >-
+      [EnumMember]
+
+      StartsWith = 2
     return:
       type: SuperOffice.Data.FreeTextOperator
-    content.vb: Public Const StartsWith As FreeTextOperator
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      StartsWith = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.FreeTextOperator.ExactMatch
   commentId: F:SuperOffice.Data.FreeTextOperator.ExactMatch
   id: ExactMatch
@@ -138,115 +116,300 @@ items:
   nameWithType: FreeTextOperator.ExactMatch
   fullName: SuperOffice.Data.FreeTextOperator.ExactMatch
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n3: Exact match\n"
+  summary: '3: Exact match'
+  example: []
   syntax:
-    content: public const FreeTextOperator ExactMatch
+    content: >-
+      [EnumMember]
+
+      ExactMatch = 3
     return:
       type: SuperOffice.Data.FreeTextOperator
-    content.vb: Public Const ExactMatch As FreeTextOperator
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ExactMatch = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.FreeTextOperator.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<FreeTextOperator, To>()
-  nameWithType: EnumUtil.MapEnums<FreeTextOperator, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.FreeTextOperator, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of FreeTextOperator, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.FreeTextOperator, To)()
-  name.vb: MapEnums(Of FreeTextOperator, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<FreeTextOperator, To>(FreeTextOperator)
+  nameWithType: EnumUtil.MapEnums<FreeTextOperator, To>(FreeTextOperator)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.FreeTextOperator, To>(SuperOffice.Data.FreeTextOperator)
+  nameWithType.vb: EnumUtil.MapEnums(Of FreeTextOperator, To)(FreeTextOperator)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.FreeTextOperator, To)(SuperOffice.Data.FreeTextOperator)
+  name.vb: MapEnums(Of FreeTextOperator, To)(FreeTextOperator)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<FreeTextOperator, To>
-    nameWithType: EnumUtil.MapEnums<FreeTextOperator, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.FreeTextOperator, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.FreeTextOperator)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.FreeTextOperator
+    name: FreeTextOperator
+    isExternal: true
+    href: SuperOffice.Data.FreeTextOperator.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.FreeTextOperator
+    name: FreeTextOperator
+    isExternal: true
+    href: SuperOffice.Data.FreeTextOperator.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of FreeTextOperator, To)
-    nameWithType: EnumUtil.MapEnums(Of FreeTextOperator, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.FreeTextOperator, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.FreeTextOperator)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.FreeTextOperator
+    name: FreeTextOperator
+    isExternal: true
+    href: SuperOffice.Data.FreeTextOperator.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.FreeTextOperator
+    name: FreeTextOperator
+    isExternal: true
+    href: SuperOffice.Data.FreeTextOperator.html
+  - name: )
 - uid: SuperOffice.Data.FreeTextOperator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<FreeTextOperator, To>()
-  nameWithType: Converters.MapEnums<FreeTextOperator, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.FreeTextOperator, To>()
-  nameWithType.vb: Converters.MapEnums(Of FreeTextOperator, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.FreeTextOperator, To)()
-  name.vb: MapEnums(Of FreeTextOperator, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<FreeTextOperator, To>(FreeTextOperator)
+  nameWithType: Converters.MapEnums<FreeTextOperator, To>(FreeTextOperator)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.FreeTextOperator, To>(SuperOffice.Data.FreeTextOperator)
+  nameWithType.vb: Converters.MapEnums(Of FreeTextOperator, To)(FreeTextOperator)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.FreeTextOperator, To)(SuperOffice.Data.FreeTextOperator)
+  name.vb: MapEnums(Of FreeTextOperator, To)(FreeTextOperator)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<FreeTextOperator, To>
-    nameWithType: Converters.MapEnums<FreeTextOperator, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.FreeTextOperator, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.FreeTextOperator)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.FreeTextOperator
+    name: FreeTextOperator
+    isExternal: true
+    href: SuperOffice.Data.FreeTextOperator.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.FreeTextOperator
+    name: FreeTextOperator
+    isExternal: true
+    href: SuperOffice.Data.FreeTextOperator.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of FreeTextOperator, To)
-    nameWithType: Converters.MapEnums(Of FreeTextOperator, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.FreeTextOperator, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.FreeTextOperator)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.FreeTextOperator
+    name: FreeTextOperator
+    isExternal: true
+    href: SuperOffice.Data.FreeTextOperator.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  - name: (
+  - uid: SuperOffice.Data.FreeTextOperator
+    name: FreeTextOperator
+    isExternal: true
+    href: SuperOffice.Data.FreeTextOperator.html
+  - name: )
+- uid: SuperOffice.Data.FreeTextOperator.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.FreeTextOperator)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<FreeTextOperator>(FreeTextOperator, FreeTextOperator)
+  nameWithType: ObjectExtensions.AssignByReflection<FreeTextOperator>(FreeTextOperator, FreeTextOperator)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.FreeTextOperator>(SuperOffice.Data.FreeTextOperator, SuperOffice.Data.FreeTextOperator)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FreeTextOperator)(FreeTextOperator, FreeTextOperator)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.FreeTextOperator)(SuperOffice.Data.FreeTextOperator, SuperOffice.Data.FreeTextOperator)
+  name.vb: AssignByReflection(Of FreeTextOperator)(FreeTextOperator, FreeTextOperator)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.FreeTextOperator,SuperOffice.Data.FreeTextOperator)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.FreeTextOperator
+    name: FreeTextOperator
+    isExternal: true
+    href: SuperOffice.Data.FreeTextOperator.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.FreeTextOperator
+    name: FreeTextOperator
+    isExternal: true
+    href: SuperOffice.Data.FreeTextOperator.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.FreeTextOperator
+    name: FreeTextOperator
+    isExternal: true
+    href: SuperOffice.Data.FreeTextOperator.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.FreeTextOperator,SuperOffice.Data.FreeTextOperator)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.FreeTextOperator
+    name: FreeTextOperator
+    isExternal: true
+    href: SuperOffice.Data.FreeTextOperator.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.FreeTextOperator
+    name: FreeTextOperator
+    isExternal: true
+    href: SuperOffice.Data.FreeTextOperator.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.FreeTextOperator
+    name: FreeTextOperator
+    isExternal: true
+    href: SuperOffice.Data.FreeTextOperator.html
+  - name: )
+- uid: SuperOffice.Data.FreeTextOperator.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<FreeTextOperator>(FreeTextOperator)
+  nameWithType: ObjectExtensions.GraphCopy<FreeTextOperator>(FreeTextOperator)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.FreeTextOperator>(SuperOffice.Data.FreeTextOperator)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of FreeTextOperator)(FreeTextOperator)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.FreeTextOperator)(SuperOffice.Data.FreeTextOperator)
+  name.vb: GraphCopy(Of FreeTextOperator)(FreeTextOperator)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.FreeTextOperator)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.FreeTextOperator
+    name: FreeTextOperator
+    isExternal: true
+    href: SuperOffice.Data.FreeTextOperator.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.FreeTextOperator
+    name: FreeTextOperator
+    isExternal: true
+    href: SuperOffice.Data.FreeTextOperator.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.FreeTextOperator)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.FreeTextOperator
+    name: FreeTextOperator
+    isExternal: true
+    href: SuperOffice.Data.FreeTextOperator.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.FreeTextOperator
+    name: FreeTextOperator
+    isExternal: true
+    href: SuperOffice.Data.FreeTextOperator.html
+  - name: )
+- uid: System.Enum.EnumUtil.GetDescription
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  parent: EnumUtil
+  definition: EnumUtil.GetDescription(System.Enum)
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -255,43 +418,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -300,58 +465,222 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: EnumUtil.GetDescription(System.Enum)
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.Data.FreeTextOperator
   commentId: T:SuperOffice.Data.FreeTextOperator
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.FreeTextOperator.html
   name: FreeTextOperator
   nameWithType: FreeTextOperator
   fullName: SuperOffice.Data.FreeTextOperator

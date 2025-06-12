@@ -721,6 +721,32 @@ title: Services88.LicenseAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetCentralLicense">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetCentralLicenseResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfLicenseOwner" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveCentralLicense">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="License" nillable="true" type="tns:ArrayOfLicenseOwner" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveCentralLicenseResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfLicenseOwner" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
     </xs:schema>
     <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
       <xs:element name="anyType" nillable="true" type="xs:anyType" />
@@ -1132,6 +1158,40 @@ title: Services88.LicenseAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetCentralLicenseRequest">
+    <wsdl:part name="parameters" element="tns:GetCentralLicense" />
+  </wsdl:message>
+  <wsdl:message name="GetCentralLicenseRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetCentralLicenseResponse">
+    <wsdl:part name="parameters" element="tns:GetCentralLicenseResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCentralLicenseResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveCentralLicenseRequest">
+    <wsdl:part name="parameters" element="tns:SaveCentralLicense" />
+  </wsdl:message>
+  <wsdl:message name="SaveCentralLicenseRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveCentralLicenseResponse">
+    <wsdl:part name="parameters" element="tns:SaveCentralLicenseResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveCentralLicenseResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:portType name="License">
     <wsdl:operation name="GetLicenseForAllOwnersFromDB">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/License/GetLicenseForAllOwnersFromDB" name="GetLicenseForAllOwnersFromDBRequest" message="tns:GetLicenseForAllOwnersFromDBRequest" />
@@ -1212,6 +1272,14 @@ title: Services88.LicenseAgent WSDL
     <wsdl:operation name="UnassignThirdPartyLicenses">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/License/UnassignThirdPartyLicenses" name="UnassignThirdPartyLicensesRequest" message="tns:UnassignThirdPartyLicensesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/License/UnassignThirdPartyLicensesResponse" name="UnassignThirdPartyLicensesResponse" message="tns:UnassignThirdPartyLicensesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCentralLicense">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/License/GetCentralLicense" name="GetCentralLicenseRequest" message="tns:GetCentralLicenseRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/License/GetCentralLicenseResponse" name="GetCentralLicenseResponse" message="tns:GetCentralLicenseResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveCentralLicense">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/License/SaveCentralLicense" name="SaveCentralLicenseRequest" message="tns:SaveCentralLicenseRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/License/SaveCentralLicenseResponse" name="SaveCentralLicenseResponse" message="tns:SaveCentralLicenseResponse" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_License" type="tns:License">
@@ -1533,6 +1601,38 @@ title: Services88.LicenseAgent WSDL
         <soap:header message="tns:UnassignThirdPartyLicensesResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:UnassignThirdPartyLicensesResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:UnassignThirdPartyLicensesResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCentralLicense">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/License/GetCentralLicense" style="document" />
+      <wsdl:input name="GetCentralLicenseRequest">
+        <soap:header message="tns:GetCentralLicenseRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetCentralLicenseRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetCentralLicenseRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetCentralLicenseResponse">
+        <soap:header message="tns:GetCentralLicenseResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetCentralLicenseResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetCentralLicenseResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetCentralLicenseResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveCentralLicense">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/License/SaveCentralLicense" style="document" />
+      <wsdl:input name="SaveCentralLicenseRequest">
+        <soap:header message="tns:SaveCentralLicenseRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SaveCentralLicenseRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SaveCentralLicenseRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SaveCentralLicenseResponse">
+        <soap:header message="tns:SaveCentralLicenseResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SaveCentralLicenseResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SaveCentralLicenseResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SaveCentralLicenseResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

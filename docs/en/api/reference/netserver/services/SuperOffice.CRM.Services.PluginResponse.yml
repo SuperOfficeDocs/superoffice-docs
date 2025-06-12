@@ -21,31 +21,40 @@ items:
   nameWithType: PluginResponse
   fullName: SuperOffice.CRM.Services.PluginResponse
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPluginResponse exists to be able to respond with more than just a true/false, but also an explanation. Such an explanation can be displayed on for instance a disabled “Place Order” button.\n<p></p>\nCarrier object for PluginResponse.\nServices for the PluginResponse Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IQuoteAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    PluginResponse exists to be able to respond with more than just a true/false, but also an explanation. Such an explanation can be displayed on for instance a disabled “Place Order” button.
+
+    <p></p>
+
+    Carrier object for PluginResponse.
+
+    Services for the PluginResponse Carrier is available from the <xref href="SuperOffice.CRM.Services.IQuoteAgent?text=Quote+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class PluginResponse : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class PluginResponse : Carrier
     content.vb: >-
-      Public Class PluginResponse
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class PluginResponse Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.QuoteAgent
-    commentId: T:SuperOffice.CRM.Services.QuoteAgent
   - linkId: SuperOffice.CRM.Services.IQuoteAgent
     commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.PluginResponse.#ctor
   commentId: M:SuperOffice.CRM.Services.PluginResponse.#ctor
   id: '#ctor'
@@ -57,21 +66,18 @@ items:
   nameWithType: PluginResponse.PluginResponse()
   fullName: SuperOffice.CRM.Services.PluginResponse.PluginResponse()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public PluginResponse()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.PluginResponse.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: PluginResponse.New()
+  fullName.vb: SuperOffice.CRM.Services.PluginResponse.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.PluginResponse.ToString
   commentId: M:SuperOffice.CRM.Services.PluginResponse.ToString
   id: ToString
@@ -83,26 +89,18 @@ items:
   nameWithType: PluginResponse.ToString()
   fullName: SuperOffice.CRM.Services.PluginResponse.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.PluginResponse.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.PluginResponse.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.PluginResponse.ToString(System.String)
   id: ToString(System.String)
@@ -110,17 +108,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: PluginResponse.ToString(String)
-  fullName: SuperOffice.CRM.Services.PluginResponse.ToString(System.String)
+  name: ToString(string)
+  nameWithType: PluginResponse.ToString(string)
+  fullName: SuperOffice.CRM.Services.PluginResponse.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -132,10 +131,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.PluginResponse.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: PluginResponse.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.PluginResponse.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.PluginResponse.IsOk
   commentId: P:SuperOffice.CRM.Services.PluginResponse.IsOk
   id: IsOk
@@ -147,28 +145,28 @@ items:
   nameWithType: PluginResponse.IsOk
   fullName: SuperOffice.CRM.Services.PluginResponse.IsOk
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nAnswer to the question / An indication if the operation went well. Equivalent to Status != Error \n"
+  summary: Answer to the question / An indication if the operation went well. Equivalent to Status != Error
+  example: []
   syntax:
-    content: public virtual bool IsOk { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool IsOk { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property IsOk As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsOk As Boolean
   overload: SuperOffice.CRM.Services.PluginResponse.IsOk*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.PluginResponse.UserExplanation
   commentId: P:SuperOffice.CRM.Services.PluginResponse.UserExplanation
   id: UserExplanation
@@ -180,28 +178,28 @@ items:
   nameWithType: PluginResponse.UserExplanation
   fullName: SuperOffice.CRM.Services.PluginResponse.UserExplanation
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nA localized explanation to the answer. Text here is displayed to the user. \n"
+  summary: A localized explanation to the answer. Text here is displayed to the user.
+  example: []
   syntax:
-    content: public virtual string UserExplanation { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string UserExplanation { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property UserExplanation As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UserExplanation As String
   overload: SuperOffice.CRM.Services.PluginResponse.UserExplanation*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.PluginResponse.TechExplanation
   commentId: P:SuperOffice.CRM.Services.PluginResponse.TechExplanation
   id: TechExplanation
@@ -213,28 +211,28 @@ items:
   nameWithType: PluginResponse.TechExplanation
   fullName: SuperOffice.CRM.Services.PluginResponse.TechExplanation
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nAlways in English \n"
+  summary: Always in English
+  example: []
   syntax:
-    content: public virtual string TechExplanation { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string TechExplanation { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property TechExplanation As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TechExplanation As String
   overload: SuperOffice.CRM.Services.PluginResponse.TechExplanation*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.PluginResponse.ErrorCode
   commentId: P:SuperOffice.CRM.Services.PluginResponse.ErrorCode
   id: ErrorCode
@@ -246,28 +244,28 @@ items:
   nameWithType: PluginResponse.ErrorCode
   fullName: SuperOffice.CRM.Services.PluginResponse.ErrorCode
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nAn error code, if available. \n"
+  summary: An error code, if available.
+  example: []
   syntax:
-    content: public virtual string ErrorCode { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string ErrorCode { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property ErrorCode As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ErrorCode As String
   overload: SuperOffice.CRM.Services.PluginResponse.ErrorCode*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.PluginResponse.Changes
   commentId: P:SuperOffice.CRM.Services.PluginResponse.Changes
   id: Changes
@@ -279,28 +277,28 @@ items:
   nameWithType: PluginResponse.Changes
   fullName: SuperOffice.CRM.Services.PluginResponse.Changes
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTablename/recordid of data changed by this method, that the client may need to reload \n"
+  summary: Tablename/recordid of data changed by this method, that the client may need to reload
+  example: []
   syntax:
-    content: public virtual ChangedData Changes { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual ChangedData Changes { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.ChangedData
-    content.vb: Public Overridable Property Changes As ChangedData
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Changes As ChangedData
   overload: SuperOffice.CRM.Services.PluginResponse.Changes*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.PluginResponse.Status
   commentId: P:SuperOffice.CRM.Services.PluginResponse.Status
   id: Status
@@ -312,57 +310,106 @@ items:
   nameWithType: PluginResponse.Status
   fullName: SuperOffice.CRM.Services.PluginResponse.Status
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nQuoteStatus = Ok / OkWithInfo / Warn / Error. Error implies IsOk = false. \n"
+  summary: QuoteStatus = Ok / OkWithInfo / Warn / Error. Error implies IsOk = false.
+  example: []
   syntax:
-    content: public virtual QuoteStatus Status { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual QuoteStatus Status { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.QuoteStatus
-    content.vb: Public Overridable Property Status As QuoteStatus
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Status As QuoteStatus
   overload: SuperOffice.CRM.Services.PluginResponse.Status*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.QuoteAgent
-  commentId: T:SuperOffice.CRM.Services.QuoteAgent
-  isExternal: true
-  name: QuoteAgent
-  nameWithType: QuoteAgent
-  fullName: SuperOffice.CRM.Services.QuoteAgent
 - uid: SuperOffice.CRM.Services.IQuoteAgent
   commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IQuoteAgent.html
   name: IQuoteAgent
   nameWithType: IQuoteAgent
   fullName: SuperOffice.CRM.Services.IQuoteAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.PluginResponse.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.PluginResponse.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.PluginResponse.html#SuperOffice_CRM_Services_PluginResponse__ctor
   name: PluginResponse
   nameWithType: PluginResponse.PluginResponse
   fullName: SuperOffice.CRM.Services.PluginResponse.PluginResponse
+  nameWithType.vb: PluginResponse.New
+  fullName.vb: SuperOffice.CRM.Services.PluginResponse.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.PluginResponse.ToString*
   commentId: Overload:SuperOffice.CRM.Services.PluginResponse.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.PluginResponse.html#SuperOffice_CRM_Services_PluginResponse_ToString
   name: ToString
   nameWithType: PluginResponse.ToString
   fullName: SuperOffice.CRM.Services.PluginResponse.ToString
@@ -370,18 +417,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.PluginResponse.IsOk*
   commentId: Overload:SuperOffice.CRM.Services.PluginResponse.IsOk
   isExternal: true
+  href: SuperOffice.CRM.Services.PluginResponse.html#SuperOffice_CRM_Services_PluginResponse_IsOk
   name: IsOk
   nameWithType: PluginResponse.IsOk
   fullName: SuperOffice.CRM.Services.PluginResponse.IsOk
@@ -389,30 +435,38 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.Services.PluginResponse.UserExplanation*
   commentId: Overload:SuperOffice.CRM.Services.PluginResponse.UserExplanation
   isExternal: true
+  href: SuperOffice.CRM.Services.PluginResponse.html#SuperOffice_CRM_Services_PluginResponse_UserExplanation
   name: UserExplanation
   nameWithType: PluginResponse.UserExplanation
   fullName: SuperOffice.CRM.Services.PluginResponse.UserExplanation
 - uid: SuperOffice.CRM.Services.PluginResponse.TechExplanation*
   commentId: Overload:SuperOffice.CRM.Services.PluginResponse.TechExplanation
   isExternal: true
+  href: SuperOffice.CRM.Services.PluginResponse.html#SuperOffice_CRM_Services_PluginResponse_TechExplanation
   name: TechExplanation
   nameWithType: PluginResponse.TechExplanation
   fullName: SuperOffice.CRM.Services.PluginResponse.TechExplanation
 - uid: SuperOffice.CRM.Services.PluginResponse.ErrorCode*
   commentId: Overload:SuperOffice.CRM.Services.PluginResponse.ErrorCode
   isExternal: true
+  href: SuperOffice.CRM.Services.PluginResponse.html#SuperOffice_CRM_Services_PluginResponse_ErrorCode
   name: ErrorCode
   nameWithType: PluginResponse.ErrorCode
   fullName: SuperOffice.CRM.Services.PluginResponse.ErrorCode
 - uid: SuperOffice.CRM.Services.PluginResponse.Changes*
   commentId: Overload:SuperOffice.CRM.Services.PluginResponse.Changes
   isExternal: true
+  href: SuperOffice.CRM.Services.PluginResponse.html#SuperOffice_CRM_Services_PluginResponse_Changes
   name: Changes
   nameWithType: PluginResponse.Changes
   fullName: SuperOffice.CRM.Services.PluginResponse.Changes
@@ -420,12 +474,14 @@ references:
   commentId: T:SuperOffice.CRM.Services.ChangedData
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.ChangedData.html
   name: ChangedData
   nameWithType: ChangedData
   fullName: SuperOffice.CRM.Services.ChangedData
 - uid: SuperOffice.CRM.Services.PluginResponse.Status*
   commentId: Overload:SuperOffice.CRM.Services.PluginResponse.Status
   isExternal: true
+  href: SuperOffice.CRM.Services.PluginResponse.html#SuperOffice_CRM_Services_PluginResponse_Status
   name: Status
   nameWithType: PluginResponse.Status
   fullName: SuperOffice.CRM.Services.PluginResponse.Status

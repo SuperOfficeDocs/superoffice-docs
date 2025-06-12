@@ -21,7 +21,7 @@ items:
   - SuperOffice.Util.ImageUtilities.Max(System.Drawing.Size,System.Drawing.Size)
   - SuperOffice.Util.ImageUtilities.Min(System.Drawing.Size,System.Drawing.Size)
   - SuperOffice.Util.ImageUtilities.ProductImageSize
-  - SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image(System.String,System.Int32)
+  - SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync(System.String,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction(System.String)
   - SuperOffice.Util.ImageUtilities.ScaleImage(System.Drawing.Image,SuperOffice.Util.ImageUtilities.ImageSize,SuperOffice.Util.ImageUtilities.VerticalAlignment)
   - SuperOffice.Util.ImageUtilities.ScaleImage(System.Drawing.Image,System.Double,System.Double,System.Drawing.Size,System.Drawing.Size,System.Drawing.Color,SuperOffice.Util.ImageUtilities.VerticalAlignment)
@@ -34,26 +34,22 @@ items:
   nameWithType: ImageUtilities
   fullName: SuperOffice.Util.ImageUtilities
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
   syntax:
-    content: 'public static class ImageUtilities : Object'
-    content.vb: >-
-      Public Module ImageUtilities
-          Inherits Object
+    content: public static class ImageUtilities
+    content.vb: Public Module ImageUtilities
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.Util.ImageUtilities.ThumbnailSize
   commentId: F:SuperOffice.Util.ImageUtilities.ThumbnailSize
   id: ThumbnailSize
@@ -65,24 +61,16 @@ items:
   nameWithType: ImageUtilities.ThumbnailSize
   fullName: SuperOffice.Util.ImageUtilities.ThumbnailSize
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nDefault thumbnail size\n"
+  summary: Default thumbnail size
+  example: []
   syntax:
     content: public const int ThumbnailSize = 150
     return:
       type: System.Int32
     content.vb: Public Const ThumbnailSize As Integer = 150
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.ImageUtilities.ProductImageSize
   commentId: F:SuperOffice.Util.ImageUtilities.ProductImageSize
   id: ProductImageSize
@@ -94,24 +82,16 @@ items:
   nameWithType: ImageUtilities.ProductImageSize
   fullName: SuperOffice.Util.ImageUtilities.ProductImageSize
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nDefault max size for product images (largest edge)\n"
+  summary: Default max size for product images (largest edge)
+  example: []
   syntax:
     content: public const int ProductImageSize = 2000
     return:
       type: System.Int32
     content.vb: Public Const ProductImageSize As Integer = 2000
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.ImageUtilities.FitTo(System.Drawing.Image,System.Int32,System.Int32)
   commentId: M:SuperOffice.Util.ImageUtilities.FitTo(System.Drawing.Image,System.Int32,System.Int32)
   id: FitTo(System.Drawing.Image,System.Int32,System.Int32)
@@ -120,17 +100,20 @@ items:
   langs:
   - csharp
   - vb
-  name: FitTo(Image, Int32, Int32)
-  nameWithType: ImageUtilities.FitTo(Image, Int32, Int32)
-  fullName: SuperOffice.Util.ImageUtilities.FitTo(System.Drawing.Image, System.Int32, System.Int32)
+  name: FitTo(Image, int, int)
+  nameWithType: ImageUtilities.FitTo(Image, int, int)
+  fullName: SuperOffice.Util.ImageUtilities.FitTo(System.Drawing.Image, int, int)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nIf needed, resize the image to make it fit the given dimensions, while keeping the aspect ratio.\n<p></p>If you are creating thumbnails, please use the <xref href=\"SuperOffice.Util.ImageUtilities.GetThumbnail(System.Drawing.Image%2cSystem.Int32%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref>, which is more efficient for\nradical scaling of that sort.\n"
+  summary: >-
+    If needed, resize the image to make it fit the given dimensions, while keeping the aspect ratio.
+
+    <p></p>If you are creating thumbnails, please use the <xref href="SuperOffice.Util.ImageUtilities.GetThumbnail(System.Drawing.Image%2cSystem.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref>, which is more efficient for
+
+    radical scaling of that sort.
+  example: []
   syntax:
     content: public static Image FitTo(this Image image, int width, int height)
     parameters:
@@ -146,17 +129,11 @@ items:
     return:
       type: System.Drawing.Image
       description: Possibly rescaled image
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function FitTo(image As Image, width As Integer, height As Integer) As Image
+    content.vb: Public Shared Function FitTo(image As Image, width As Integer, height As Integer) As Image
   overload: SuperOffice.Util.ImageUtilities.FitTo*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: ImageUtilities.FitTo(Image, Integer, Integer)
+  fullName.vb: SuperOffice.Util.ImageUtilities.FitTo(System.Drawing.Image, Integer, Integer)
+  name.vb: FitTo(Image, Integer, Integer)
 - uid: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
   commentId: M:SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
   id: GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
@@ -165,13 +142,10 @@ items:
   langs:
   - csharp
   - vb
-  name: GetThumbnailImage(Stream, Int32, Int32)
-  nameWithType: ImageUtilities.GetThumbnailImage(Stream, Int32, Int32)
-  fullName: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream, System.Int32, System.Int32)
+  name: GetThumbnailImage(Stream, int, int)
+  nameWithType: ImageUtilities.GetThumbnailImage(Stream, int, int)
+  fullName: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream, int, int)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -186,17 +160,11 @@ items:
       type: System.Int32
     return:
       type: System.Drawing.Image
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function GetThumbnailImage(input As Stream, width As Integer = 150, height As Integer = 150) As Image
+    content.vb: Public Shared Function GetThumbnailImage(input As Stream, width As Integer = 150, height As Integer = 150) As Image
   overload: SuperOffice.Util.ImageUtilities.GetThumbnailImage*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: ImageUtilities.GetThumbnailImage(Stream, Integer, Integer)
+  fullName.vb: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream, Integer, Integer)
+  name.vb: GetThumbnailImage(Stream, Integer, Integer)
 - uid: SuperOffice.Util.ImageUtilities.GetBytes(System.Drawing.Image)
   commentId: M:SuperOffice.Util.ImageUtilities.GetBytes(System.Drawing.Image)
   id: GetBytes(System.Drawing.Image)
@@ -209,9 +177,6 @@ items:
   nameWithType: ImageUtilities.GetBytes(Image)
   fullName: SuperOffice.Util.ImageUtilities.GetBytes(System.Drawing.Image)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -222,17 +187,8 @@ items:
       type: System.Drawing.Image
     return:
       type: System.Byte[]
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function GetBytes(input As Image) As Byte()
+    content.vb: Public Shared Function GetBytes(input As Image) As Byte()
   overload: SuperOffice.Util.ImageUtilities.GetBytes*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Util.ImageUtilities.GetThumbnail(System.Drawing.Image,System.Int32,System.Int32)
   commentId: M:SuperOffice.Util.ImageUtilities.GetThumbnail(System.Drawing.Image,System.Int32,System.Int32)
   id: GetThumbnail(System.Drawing.Image,System.Int32,System.Int32)
@@ -241,17 +197,18 @@ items:
   langs:
   - csharp
   - vb
-  name: GetThumbnail(Image, Int32, Int32)
-  nameWithType: ImageUtilities.GetThumbnail(Image, Int32, Int32)
-  fullName: SuperOffice.Util.ImageUtilities.GetThumbnail(System.Drawing.Image, System.Int32, System.Int32)
+  name: GetThumbnail(Image, int, int)
+  nameWithType: ImageUtilities.GetThumbnail(Image, int, int)
+  fullName: SuperOffice.Util.ImageUtilities.GetThumbnail(System.Drawing.Image, int, int)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nGet a thumbnail of the incoming image; the quiality of the scaling is not quite as good as for\n<xref href=\"SuperOffice.Util.ImageUtilities.FitTo(System.Drawing.Image%2cSystem.Int32%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref>, but is more efficient. Aspect ratio is maintained.\n"
+  summary: >-
+    Get a thumbnail of the incoming image; the quiality of the scaling is not quite as good as for
+
+    <xref href="SuperOffice.Util.ImageUtilities.FitTo(System.Drawing.Image%2cSystem.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref>, but is more efficient. Aspect ratio is maintained.
+  example: []
   syntax:
     content: public static Image GetThumbnail(this Image image, int width = 150, int height = 150)
     parameters:
@@ -267,17 +224,11 @@ items:
     return:
       type: System.Drawing.Image
       description: Thumbnail image
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function GetThumbnail(image As Image, width As Integer = 150, height As Integer = 150) As Image
+    content.vb: Public Shared Function GetThumbnail(image As Image, width As Integer = 150, height As Integer = 150) As Image
   overload: SuperOffice.Util.ImageUtilities.GetThumbnail*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: ImageUtilities.GetThumbnail(Image, Integer, Integer)
+  fullName.vb: SuperOffice.Util.ImageUtilities.GetThumbnail(System.Drawing.Image, Integer, Integer)
+  name.vb: GetThumbnail(Image, Integer, Integer)
 - uid: SuperOffice.Util.ImageUtilities.GetThumbnail(System.String,System.Int32,System.Int32)
   commentId: M:SuperOffice.Util.ImageUtilities.GetThumbnail(System.String,System.Int32,System.Int32)
   id: GetThumbnail(System.String,System.Int32,System.Int32)
@@ -285,17 +236,18 @@ items:
   langs:
   - csharp
   - vb
-  name: GetThumbnail(String, Int32, Int32)
-  nameWithType: ImageUtilities.GetThumbnail(String, Int32, Int32)
-  fullName: SuperOffice.Util.ImageUtilities.GetThumbnail(System.String, System.Int32, System.Int32)
+  name: GetThumbnail(string, int, int)
+  nameWithType: ImageUtilities.GetThumbnail(string, int, int)
+  fullName: SuperOffice.Util.ImageUtilities.GetThumbnail(string, int, int)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nGet a thumbnail from a string-encoded image; output size is not guaranteed as short input strings\nwill cause an immediate return in the interest of performance (a string of less than 1500 can&apos;t be a big image!)\n"
+  summary: >-
+    Get a thumbnail from a string-encoded image; output size is not guaranteed as short input strings
+
+    will cause an immediate return in the interest of performance (a string of less than 1500 can't be a big image!)
+  example: []
   syntax:
     content: public static string GetThumbnail(string input, int width = 150, int height = 150)
     parameters:
@@ -310,14 +262,12 @@ items:
       description: Maximum height, default <xref href="SuperOffice.Util.ImageUtilities.ThumbnailSize" data-throw-if-not-resolved="false"></xref>
     return:
       type: System.String
+      description: ''
     content.vb: Public Shared Function GetThumbnail(input As String, width As Integer = 150, height As Integer = 150) As String
   overload: SuperOffice.Util.ImageUtilities.GetThumbnail*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: ImageUtilities.GetThumbnail(String, Integer, Integer)
+  fullName.vb: SuperOffice.Util.ImageUtilities.GetThumbnail(String, Integer, Integer)
+  name.vb: GetThumbnail(String, Integer, Integer)
 - uid: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.String,System.Int32,System.Int32)
   commentId: M:SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.String,System.Int32,System.Int32)
   id: GetThumbnailImage(System.String,System.Int32,System.Int32)
@@ -325,17 +275,18 @@ items:
   langs:
   - csharp
   - vb
-  name: GetThumbnailImage(String, Int32, Int32)
-  nameWithType: ImageUtilities.GetThumbnailImage(String, Int32, Int32)
-  fullName: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.String, System.Int32, System.Int32)
+  name: GetThumbnailImage(string, int, int)
+  nameWithType: ImageUtilities.GetThumbnailImage(string, int, int)
+  fullName: SuperOffice.Util.ImageUtilities.GetThumbnailImage(string, int, int)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nGet a thumbnail from a string-encoded image; output size is not guaranteed as short input strings\nwill cause an immediate return in the interest of performance (a string of less than 1500 can&apos;t be a big image!)\n"
+  summary: >-
+    Get a thumbnail from a string-encoded image; output size is not guaranteed as short input strings
+
+    will cause an immediate return in the interest of performance (a string of less than 1500 can't be a big image!)
+  example: []
   syntax:
     content: public static Image GetThumbnailImage(string input, int width = 150, int height = 150)
     parameters:
@@ -350,35 +301,34 @@ items:
       description: Maximum height, default <xref href="SuperOffice.Util.ImageUtilities.ThumbnailSize" data-throw-if-not-resolved="false"></xref>
     return:
       type: System.Drawing.Image
+      description: ''
     content.vb: Public Shared Function GetThumbnailImage(input As String, width As Integer = 150, height As Integer = 150) As Image
   overload: SuperOffice.Util.ImageUtilities.GetThumbnailImage*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image(System.String,System.Int32)
-  commentId: M:SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image(System.String,System.Int32)
-  id: ResolveUrlOrBase64Image(System.String,System.Int32)
+  nameWithType.vb: ImageUtilities.GetThumbnailImage(String, Integer, Integer)
+  fullName.vb: SuperOffice.Util.ImageUtilities.GetThumbnailImage(String, Integer, Integer)
+  name.vb: GetThumbnailImage(String, Integer, Integer)
+- uid: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  id: ResolveUrlOrBase64ImageAsync(System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.Util.ImageUtilities
   langs:
   - csharp
   - vb
-  name: ResolveUrlOrBase64Image(String, Int32)
-  nameWithType: ImageUtilities.ResolveUrlOrBase64Image(String, Int32)
-  fullName: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image(System.String, System.Int32)
+  name: ResolveUrlOrBase64ImageAsync(string, int, CancellationToken)
+  nameWithType: ImageUtilities.ResolveUrlOrBase64ImageAsync(string, int, CancellationToken)
+  fullName: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync(string, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nIf the input is a well-formed absolute URI, then assume that it leads to an image, and fetch that image; otherwise just pass the input straight out again.\nImages are scaled down to 1000/1000 if needed\n"
-  remarks: "\nEventually this should do some caching, have a cache-retention policy, flush etc... but in this prototype version we just fetch the data directly\n"
+  summary: >-
+    If the input is a well-formed absolute URI, then assume that it leads to an image, and fetch that image; otherwise just pass the input straight out again.
+
+    Images are scaled down to 1000/1000 if needed
+  remarks: Eventually this should do some caching, have a cache-retention policy, flush etc... but in this prototype version we just fetch the data directly
+  example: []
   syntax:
-    content: public static string ResolveUrlOrBase64Image(string input, int maxPixelSize = 2000)
+    content: public static Task<string> ResolveUrlOrBase64ImageAsync(string input, int maxPixelSize = 2000, CancellationToken cancellationToken = default)
     parameters:
     - id: input
       type: System.String
@@ -387,18 +337,17 @@ items:
       type: System.Int32
       description: >-
         Maximum image size, of longest side. Images larger than this in any direction
-
-        will be shrunk (keeping the aspect ratio intact). Stretching will never occur.
+                    will be shrunk (keeping the aspect ratio intact). Stretching will never occur.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function ResolveUrlOrBase64Image(input As String, maxPixelSize As Integer = 2000) As String
-  overload: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+      type: System.Threading.Tasks.Task{System.String}
+      description: ''
+    content.vb: Public Shared Function ResolveUrlOrBase64ImageAsync(input As String, maxPixelSize As Integer = 2000, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync*
+  nameWithType.vb: ImageUtilities.ResolveUrlOrBase64ImageAsync(String, Integer, CancellationToken)
+  fullName.vb: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync(String, Integer, System.Threading.CancellationToken)
+  name.vb: ResolveUrlOrBase64ImageAsync(String, Integer, CancellationToken)
 - uid: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction(System.String)
   commentId: M:SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction(System.String)
   id: ResolveUrlOrBase64ImageNoReduction(System.String)
@@ -406,18 +355,16 @@ items:
   langs:
   - csharp
   - vb
-  name: ResolveUrlOrBase64ImageNoReduction(String)
-  nameWithType: ImageUtilities.ResolveUrlOrBase64ImageNoReduction(String)
-  fullName: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction(System.String)
+  name: ResolveUrlOrBase64ImageNoReduction(string)
+  nameWithType: ImageUtilities.ResolveUrlOrBase64ImageNoReduction(string)
+  fullName: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction(string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nIf the input is a well-formed absolute URI, then assume that it leads to an image, and fetch that image; otherwise just pass the input straight out again.\n"
-  remarks: "\nEventually this should do some caching, have a cache-retention policy, flush etc... but in this prototype version we just fetch the data directly\n"
+  summary: If the input is a well-formed absolute URI, then assume that it leads to an image, and fetch that image; otherwise just pass the input straight out again.
+  remarks: Eventually this should do some caching, have a cache-retention policy, flush etc... but in this prototype version we just fetch the data directly
+  example: []
   syntax:
     content: public static string ResolveUrlOrBase64ImageNoReduction(string input)
     parameters:
@@ -426,14 +373,12 @@ items:
       description: The input, which may be a base64 encoded image or a URL
     return:
       type: System.String
+      description: ''
     content.vb: Public Shared Function ResolveUrlOrBase64ImageNoReduction(input As String) As String
   overload: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: ImageUtilities.ResolveUrlOrBase64ImageNoReduction(String)
+  fullName.vb: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction(String)
+  name.vb: ResolveUrlOrBase64ImageNoReduction(String)
 - uid: SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String(System.String,System.String)
   commentId: M:SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String(System.String,System.String)
   id: GetImageTypeFromBase64String(System.String,System.String)
@@ -441,13 +386,10 @@ items:
   langs:
   - csharp
   - vb
-  name: GetImageTypeFromBase64String(String, String)
-  nameWithType: ImageUtilities.GetImageTypeFromBase64String(String, String)
-  fullName: SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String(System.String, System.String)
+  name: GetImageTypeFromBase64String(string, string)
+  nameWithType: ImageUtilities.GetImageTypeFromBase64String(string, string)
+  fullName: SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String(string, string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -462,12 +404,9 @@ items:
       type: System.String
     content.vb: Public Shared Function GetImageTypeFromBase64String(base64String As String, defaultType As String) As String
   overload: SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: ImageUtilities.GetImageTypeFromBase64String(String, String)
+  fullName.vb: SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String(String, String)
+  name.vb: GetImageTypeFromBase64String(String, String)
 - uid: SuperOffice.Util.ImageUtilities.TryFitImage(System.Byte[],System.Int32,System.Int32,System.Boolean)
   commentId: M:SuperOffice.Util.ImageUtilities.TryFitImage(System.Byte[],System.Int32,System.Int32,System.Boolean)
   id: TryFitImage(System.Byte[],System.Int32,System.Int32,System.Boolean)
@@ -475,13 +414,10 @@ items:
   langs:
   - csharp
   - vb
-  name: TryFitImage(Byte[], Int32, Int32, Boolean)
-  nameWithType: ImageUtilities.TryFitImage(Byte[], Int32, Int32, Boolean)
-  fullName: SuperOffice.Util.ImageUtilities.TryFitImage(System.Byte[], System.Int32, System.Int32, System.Boolean)
+  name: TryFitImage(byte[], int, int, bool)
+  nameWithType: ImageUtilities.TryFitImage(byte[], int, int, bool)
+  fullName: SuperOffice.Util.ImageUtilities.TryFitImage(byte[], int, int, bool)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -500,15 +436,9 @@ items:
       type: System.Byte[]
     content.vb: Public Shared Function TryFitImage(imageData As Byte(), maxWidth As Integer, maxHeight As Integer, alwaysTryConvert As Boolean = False) As Byte()
   overload: SuperOffice.Util.ImageUtilities.TryFitImage*
-  nameWithType.vb: ImageUtilities.TryFitImage(Byte(), Int32, Int32, Boolean)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Util.ImageUtilities.TryFitImage(System.Byte(), System.Int32, System.Int32, System.Boolean)
-  name.vb: TryFitImage(Byte(), Int32, Int32, Boolean)
+  nameWithType.vb: ImageUtilities.TryFitImage(Byte(), Integer, Integer, Boolean)
+  fullName.vb: SuperOffice.Util.ImageUtilities.TryFitImage(Byte(), Integer, Integer, Boolean)
+  name.vb: TryFitImage(Byte(), Integer, Integer, Boolean)
 - uid: SuperOffice.Util.ImageUtilities.GetClearPixel(System.Drawing.Size)
   commentId: M:SuperOffice.Util.ImageUtilities.GetClearPixel(System.Drawing.Size)
   id: GetClearPixel(System.Drawing.Size)
@@ -520,28 +450,22 @@ items:
   nameWithType: ImageUtilities.GetClearPixel(Size)
   fullName: SuperOffice.Util.ImageUtilities.GetClearPixel(System.Drawing.Size)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nGet an image containing a transperant background\n"
+  summary: Get an image containing a transperant background
+  example: []
   syntax:
     content: public static Image GetClearPixel(Size size)
     parameters:
     - id: size
       type: System.Drawing.Size
+      description: ''
     return:
       type: System.Drawing.Image
+      description: ''
     content.vb: Public Shared Function GetClearPixel(size As Size) As Image
   overload: SuperOffice.Util.ImageUtilities.GetClearPixel*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Util.ImageUtilities.GetSrNoPhoto(System.Drawing.Size,System.Drawing.Color,System.Drawing.Color,System.Boolean,System.String)
   commentId: M:SuperOffice.Util.ImageUtilities.GetSrNoPhoto(System.Drawing.Size,System.Drawing.Color,System.Drawing.Color,System.Boolean,System.String)
   id: GetSrNoPhoto(System.Drawing.Size,System.Drawing.Color,System.Drawing.Color,System.Boolean,System.String)
@@ -549,17 +473,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetSrNoPhoto(Size, Color, Color, Boolean, String)
-  nameWithType: ImageUtilities.GetSrNoPhoto(Size, Color, Color, Boolean, String)
-  fullName: SuperOffice.Util.ImageUtilities.GetSrNoPhoto(System.Drawing.Size, System.Drawing.Color, System.Drawing.Color, System.Boolean, System.String)
+  name: GetSrNoPhoto(Size, Color, Color, bool, string)
+  nameWithType: ImageUtilities.GetSrNoPhoto(Size, Color, Color, bool, string)
+  fullName: SuperOffice.Util.ImageUtilities.GetSrNoPhoto(System.Drawing.Size, System.Drawing.Color, System.Drawing.Color, bool, string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nGet an image containing the string represented by the resource value of SR_NO_PHOTO.\n"
+  summary: Get an image containing the string represented by the resource value of SR_NO_PHOTO.
+  example: []
   syntax:
     content: public static Image GetSrNoPhoto(Size size, Color bgColor, Color borderColor, bool hasBorder, string text = "NO PHOTO")
     parameters:
@@ -580,12 +502,9 @@ items:
       description: Image containing the text represented by the resource value of SR_NO_PHOTO.
     content.vb: Public Shared Function GetSrNoPhoto(size As Size, bgColor As Color, borderColor As Color, hasBorder As Boolean, text As String = "NO PHOTO") As Image
   overload: SuperOffice.Util.ImageUtilities.GetSrNoPhoto*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: ImageUtilities.GetSrNoPhoto(Size, Color, Color, Boolean, String)
+  fullName.vb: SuperOffice.Util.ImageUtilities.GetSrNoPhoto(System.Drawing.Size, System.Drawing.Color, System.Drawing.Color, Boolean, String)
+  name.vb: GetSrNoPhoto(Size, Color, Color, Boolean, String)
 - uid: SuperOffice.Util.ImageUtilities.GetTextImage(System.Drawing.Size,System.String,System.Drawing.Font,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Boolean)
   commentId: M:SuperOffice.Util.ImageUtilities.GetTextImage(System.Drawing.Size,System.String,System.Drawing.Font,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Boolean)
   id: GetTextImage(System.Drawing.Size,System.String,System.Drawing.Font,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Boolean)
@@ -593,17 +512,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetTextImage(Size, String, Font, Color, Color, Color, Boolean)
-  nameWithType: ImageUtilities.GetTextImage(Size, String, Font, Color, Color, Color, Boolean)
-  fullName: SuperOffice.Util.ImageUtilities.GetTextImage(System.Drawing.Size, System.String, System.Drawing.Font, System.Drawing.Color, System.Drawing.Color, System.Drawing.Color, System.Boolean)
+  name: GetTextImage(Size, string, Font, Color, Color, Color, bool)
+  nameWithType: ImageUtilities.GetTextImage(Size, string, Font, Color, Color, Color, bool)
+  fullName: SuperOffice.Util.ImageUtilities.GetTextImage(System.Drawing.Size, string, System.Drawing.Font, System.Drawing.Color, System.Drawing.Color, System.Drawing.Color, bool)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nGet an image containing a text center both horizontally and vertically.\n"
+  summary: Get an image containing a text center both horizontally and vertically.
+  example: []
   syntax:
     content: public static Image GetTextImage(Size size, string text, Font font, Color textColor, Color bgColor, Color borderColor, bool border)
     parameters:
@@ -631,12 +548,9 @@ items:
       description: An image containing a text center both horizontally and vertically.
     content.vb: Public Shared Function GetTextImage(size As Size, text As String, font As Font, textColor As Color, bgColor As Color, borderColor As Color, border As Boolean) As Image
   overload: SuperOffice.Util.ImageUtilities.GetTextImage*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: ImageUtilities.GetTextImage(Size, String, Font, Color, Color, Color, Boolean)
+  fullName.vb: SuperOffice.Util.ImageUtilities.GetTextImage(System.Drawing.Size, String, System.Drawing.Font, System.Drawing.Color, System.Drawing.Color, System.Drawing.Color, Boolean)
+  name.vb: GetTextImage(Size, String, Font, Color, Color, Color, Boolean)
 - uid: SuperOffice.Util.ImageUtilities.Max(System.Drawing.Size,System.Drawing.Size)
   commentId: M:SuperOffice.Util.ImageUtilities.Max(System.Drawing.Size,System.Drawing.Size)
   id: Max(System.Drawing.Size,System.Drawing.Size)
@@ -648,13 +562,11 @@ items:
   nameWithType: ImageUtilities.Max(Size, Size)
   fullName: SuperOffice.Util.ImageUtilities.Max(System.Drawing.Size, System.Drawing.Size)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nGet the minimum value for height and width induvidually.  Values of 0 are considered none-values.\n"
+  summary: Get the minimum value for height and width induvidually.  Values of 0 are considered none-values.
+  example: []
   syntax:
     content: public static Size Max(Size s1, Size s2)
     parameters:
@@ -669,12 +581,6 @@ items:
       description: Resulting Size
     content.vb: Public Shared Function Max(s1 As Size, s2 As Size) As Size
   overload: SuperOffice.Util.ImageUtilities.Max*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Util.ImageUtilities.Min(System.Drawing.Size,System.Drawing.Size)
   commentId: M:SuperOffice.Util.ImageUtilities.Min(System.Drawing.Size,System.Drawing.Size)
   id: Min(System.Drawing.Size,System.Drawing.Size)
@@ -686,13 +592,11 @@ items:
   nameWithType: ImageUtilities.Min(Size, Size)
   fullName: SuperOffice.Util.ImageUtilities.Min(System.Drawing.Size, System.Drawing.Size)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nGet the minimum value for height and width induvidually.  Values of 0 are considered none-values.\n"
+  summary: Get the minimum value for height and width induvidually.  Values of 0 are considered none-values.
+  example: []
   syntax:
     content: public static Size Min(Size s1, Size s2)
     parameters:
@@ -707,12 +611,6 @@ items:
       description: Resulting Size
     content.vb: Public Shared Function Min(s1 As Size, s2 As Size) As Size
   overload: SuperOffice.Util.ImageUtilities.Min*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Util.ImageUtilities.GetScaledImageOrDefaultImage(System.Drawing.Image,SuperOffice.Util.ImageUtilities.ImageSize,SuperOffice.Util.ImageUtilities.FallbackStrategy,System.Func{System.Drawing.Image},System.Boolean,System.Drawing.Color)
   commentId: M:SuperOffice.Util.ImageUtilities.GetScaledImageOrDefaultImage(System.Drawing.Image,SuperOffice.Util.ImageUtilities.ImageSize,SuperOffice.Util.ImageUtilities.FallbackStrategy,System.Func{System.Drawing.Image},System.Boolean,System.Drawing.Color)
   id: GetScaledImageOrDefaultImage(System.Drawing.Image,SuperOffice.Util.ImageUtilities.ImageSize,SuperOffice.Util.ImageUtilities.FallbackStrategy,System.Func{System.Drawing.Image},System.Boolean,System.Drawing.Color)
@@ -720,18 +618,16 @@ items:
   langs:
   - csharp
   - vb
-  name: GetScaledImageOrDefaultImage(Image, ImageUtilities.ImageSize, ImageUtilities.FallbackStrategy, Func<Image>, Boolean, Color)
-  nameWithType: ImageUtilities.GetScaledImageOrDefaultImage(Image, ImageUtilities.ImageSize, ImageUtilities.FallbackStrategy, Func<Image>, Boolean, Color)
-  fullName: SuperOffice.Util.ImageUtilities.GetScaledImageOrDefaultImage(System.Drawing.Image, SuperOffice.Util.ImageUtilities.ImageSize, SuperOffice.Util.ImageUtilities.FallbackStrategy, System.Func<System.Drawing.Image>, System.Boolean, System.Drawing.Color)
+  name: GetScaledImageOrDefaultImage(Image, ImageSize, FallbackStrategy, Func<Image>, bool, Color)
+  nameWithType: ImageUtilities.GetScaledImageOrDefaultImage(Image, ImageUtilities.ImageSize, ImageUtilities.FallbackStrategy, Func<Image>, bool, Color)
+  fullName: SuperOffice.Util.ImageUtilities.GetScaledImageOrDefaultImage(System.Drawing.Image, SuperOffice.Util.ImageUtilities.ImageSize, SuperOffice.Util.ImageUtilities.FallbackStrategy, System.Func<System.Drawing.Image>, bool, System.Drawing.Color)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nGet image or default image provided by a callback function.\n"
-  remarks: "\nThis function does not access the database. Does not require a session. Entirely in-memory.\n"
+  summary: Get image or default image provided by a callback function.
+  remarks: This function does not access the database. Does not require a session. Entirely in-memory.
+  example: []
   syntax:
     content: public static Image GetScaledImageOrDefaultImage(Image image, ImageUtilities.ImageSize imageSize, ImageUtilities.FallbackStrategy fallbackStrategy, Func<Image> defaultImageFunc, bool borderOnSrNoPhoto, Color borderColor)
     parameters:
@@ -758,14 +654,8 @@ items:
     content.vb: Public Shared Function GetScaledImageOrDefaultImage(image As Image, imageSize As ImageUtilities.ImageSize, fallbackStrategy As ImageUtilities.FallbackStrategy, defaultImageFunc As Func(Of Image), borderOnSrNoPhoto As Boolean, borderColor As Color) As Image
   overload: SuperOffice.Util.ImageUtilities.GetScaledImageOrDefaultImage*
   nameWithType.vb: ImageUtilities.GetScaledImageOrDefaultImage(Image, ImageUtilities.ImageSize, ImageUtilities.FallbackStrategy, Func(Of Image), Boolean, Color)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Util.ImageUtilities.GetScaledImageOrDefaultImage(System.Drawing.Image, SuperOffice.Util.ImageUtilities.ImageSize, SuperOffice.Util.ImageUtilities.FallbackStrategy, System.Func(Of System.Drawing.Image), System.Boolean, System.Drawing.Color)
-  name.vb: GetScaledImageOrDefaultImage(Image, ImageUtilities.ImageSize, ImageUtilities.FallbackStrategy, Func(Of Image), Boolean, Color)
+  fullName.vb: SuperOffice.Util.ImageUtilities.GetScaledImageOrDefaultImage(System.Drawing.Image, SuperOffice.Util.ImageUtilities.ImageSize, SuperOffice.Util.ImageUtilities.FallbackStrategy, System.Func(Of System.Drawing.Image), Boolean, System.Drawing.Color)
+  name.vb: GetScaledImageOrDefaultImage(Image, ImageSize, FallbackStrategy, Func(Of Image), Boolean, Color)
 - uid: SuperOffice.Util.ImageUtilities.GetAspect(System.Int32,System.Int32)
   commentId: M:SuperOffice.Util.ImageUtilities.GetAspect(System.Int32,System.Int32)
   id: GetAspect(System.Int32,System.Int32)
@@ -773,35 +663,32 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAspect(Int32, Int32)
-  nameWithType: ImageUtilities.GetAspect(Int32, Int32)
-  fullName: SuperOffice.Util.ImageUtilities.GetAspect(System.Int32, System.Int32)
+  name: GetAspect(int, int)
+  nameWithType: ImageUtilities.GetAspect(int, int)
+  fullName: SuperOffice.Util.ImageUtilities.GetAspect(int, int)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nGet the aspect of an image.\n"
+  summary: Get the aspect of an image.
+  example: []
   syntax:
     content: public static double GetAspect(int width, int height)
     parameters:
     - id: width
       type: System.Int32
+      description: ''
     - id: height
       type: System.Int32
+      description: ''
     return:
       type: System.Double
-      description: 'Aspect for an image (width/height). 1 is a squere. '
+      description: Aspect for an image (width/height). 1 is a squere.
     content.vb: Public Shared Function GetAspect(width As Integer, height As Integer) As Double
   overload: SuperOffice.Util.ImageUtilities.GetAspect*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: ImageUtilities.GetAspect(Integer, Integer)
+  fullName.vb: SuperOffice.Util.ImageUtilities.GetAspect(Integer, Integer)
+  name.vb: GetAspect(Integer, Integer)
 - uid: SuperOffice.Util.ImageUtilities.GetIntersectionRectangle(System.Drawing.Size,System.Drawing.Size,SuperOffice.Util.ImageUtilities.VerticalAlignment)
   commentId: M:SuperOffice.Util.ImageUtilities.GetIntersectionRectangle(System.Drawing.Size,System.Drawing.Size,SuperOffice.Util.ImageUtilities.VerticalAlignment)
   id: GetIntersectionRectangle(System.Drawing.Size,System.Drawing.Size,SuperOffice.Util.ImageUtilities.VerticalAlignment)
@@ -809,17 +696,18 @@ items:
   langs:
   - csharp
   - vb
-  name: GetIntersectionRectangle(Size, Size, ImageUtilities.VerticalAlignment)
+  name: GetIntersectionRectangle(Size, Size, VerticalAlignment)
   nameWithType: ImageUtilities.GetIntersectionRectangle(Size, Size, ImageUtilities.VerticalAlignment)
   fullName: SuperOffice.Util.ImageUtilities.GetIntersectionRectangle(System.Drawing.Size, System.Drawing.Size, SuperOffice.Util.ImageUtilities.VerticalAlignment)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nGet the Rectangle in the destination that is covered by the source.  \nThe arguments represents the size of two rectangles that are centered on top of each other.\n"
+  summary: >-
+    Get the Rectangle in the destination that is covered by the source.  
+
+    The arguments represents the size of two rectangles that are centered on top of each other.
+  example: []
   syntax:
     content: public static Rectangle GetIntersectionRectangle(Size destination, Size source, ImageUtilities.VerticalAlignment align)
     parameters:
@@ -836,12 +724,6 @@ items:
       description: Rectangle in the destination that is covered by the source.
     content.vb: Public Shared Function GetIntersectionRectangle(destination As Size, source As Size, align As ImageUtilities.VerticalAlignment) As Rectangle
   overload: SuperOffice.Util.ImageUtilities.GetIntersectionRectangle*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Util.ImageUtilities.ScaleImage(System.Drawing.Image,System.Double,System.Double,System.Drawing.Size,System.Drawing.Size,System.Drawing.Color,SuperOffice.Util.ImageUtilities.VerticalAlignment)
   commentId: M:SuperOffice.Util.ImageUtilities.ScaleImage(System.Drawing.Image,System.Double,System.Double,System.Drawing.Size,System.Drawing.Size,System.Drawing.Color,SuperOffice.Util.ImageUtilities.VerticalAlignment)
   id: ScaleImage(System.Drawing.Image,System.Double,System.Double,System.Drawing.Size,System.Drawing.Size,System.Drawing.Color,SuperOffice.Util.ImageUtilities.VerticalAlignment)
@@ -849,17 +731,15 @@ items:
   langs:
   - csharp
   - vb
-  name: ScaleImage(Image, Double, Double, Size, Size, Color, ImageUtilities.VerticalAlignment)
-  nameWithType: ImageUtilities.ScaleImage(Image, Double, Double, Size, Size, Color, ImageUtilities.VerticalAlignment)
-  fullName: SuperOffice.Util.ImageUtilities.ScaleImage(System.Drawing.Image, System.Double, System.Double, System.Drawing.Size, System.Drawing.Size, System.Drawing.Color, SuperOffice.Util.ImageUtilities.VerticalAlignment)
+  name: ScaleImage(Image, double, double, Size, Size, Color, VerticalAlignment)
+  nameWithType: ImageUtilities.ScaleImage(Image, double, double, Size, Size, Color, ImageUtilities.VerticalAlignment)
+  fullName: SuperOffice.Util.ImageUtilities.ScaleImage(System.Drawing.Image, double, double, System.Drawing.Size, System.Drawing.Size, System.Drawing.Color, SuperOffice.Util.ImageUtilities.VerticalAlignment)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nScale an image\n"
+  summary: Scale an image
+  example: []
   syntax:
     content: public static Image ScaleImage(Image image, double scaleX, double scaleY, Size minSize, Size maxSize, Color fillColor, ImageUtilities.VerticalAlignment align)
     parameters:
@@ -888,12 +768,9 @@ items:
       description: The scaled image.
     content.vb: Public Shared Function ScaleImage(image As Image, scaleX As Double, scaleY As Double, minSize As Size, maxSize As Size, fillColor As Color, align As ImageUtilities.VerticalAlignment) As Image
   overload: SuperOffice.Util.ImageUtilities.ScaleImage*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: ImageUtilities.ScaleImage(Image, Double, Double, Size, Size, Color, ImageUtilities.VerticalAlignment)
+  fullName.vb: SuperOffice.Util.ImageUtilities.ScaleImage(System.Drawing.Image, Double, Double, System.Drawing.Size, System.Drawing.Size, System.Drawing.Color, SuperOffice.Util.ImageUtilities.VerticalAlignment)
+  name.vb: ScaleImage(Image, Double, Double, Size, Size, Color, VerticalAlignment)
 - uid: SuperOffice.Util.ImageUtilities.ScaleImage(System.Drawing.Image,SuperOffice.Util.ImageUtilities.ImageSize,SuperOffice.Util.ImageUtilities.VerticalAlignment)
   commentId: M:SuperOffice.Util.ImageUtilities.ScaleImage(System.Drawing.Image,SuperOffice.Util.ImageUtilities.ImageSize,SuperOffice.Util.ImageUtilities.VerticalAlignment)
   id: ScaleImage(System.Drawing.Image,SuperOffice.Util.ImageUtilities.ImageSize,SuperOffice.Util.ImageUtilities.VerticalAlignment)
@@ -901,17 +778,15 @@ items:
   langs:
   - csharp
   - vb
-  name: ScaleImage(Image, ImageUtilities.ImageSize, ImageUtilities.VerticalAlignment)
+  name: ScaleImage(Image, ImageSize, VerticalAlignment)
   nameWithType: ImageUtilities.ScaleImage(Image, ImageUtilities.ImageSize, ImageUtilities.VerticalAlignment)
   fullName: SuperOffice.Util.ImageUtilities.ScaleImage(System.Drawing.Image, SuperOffice.Util.ImageUtilities.ImageSize, SuperOffice.Util.ImageUtilities.VerticalAlignment)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nScale an image to comply with the <see cref=\"!:ImageDescription\"></see>\n"
+  summary: Scale an image to comply with the ImageDescription
+  example: []
   syntax:
     content: public static Image ScaleImage(Image image, ImageUtilities.ImageSize imageSize, ImageUtilities.VerticalAlignment align)
     parameters:
@@ -928,29 +803,268 @@ items:
       description: The scaled image.
     content.vb: Public Shared Function ScaleImage(image As Image, imageSize As ImageUtilities.ImageSize, align As ImageUtilities.VerticalAlignment) As Image
   overload: SuperOffice.Util.ImageUtilities.ScaleImage*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -958,66 +1072,250 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.Util.ImageUtilities.GetThumbnail(System.Drawing.Image,System.Int32,System.Int32)
+  commentId: M:SuperOffice.Util.ImageUtilities.GetThumbnail(System.Drawing.Image,System.Int32,System.Int32)
+  isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_GetThumbnail_System_Drawing_Image_System_Int32_System_Int32_
+  name: GetThumbnail(Image, int, int)
+  nameWithType: ImageUtilities.GetThumbnail(Image, int, int)
+  fullName: SuperOffice.Util.ImageUtilities.GetThumbnail(System.Drawing.Image, int, int)
+  nameWithType.vb: ImageUtilities.GetThumbnail(Image, Integer, Integer)
+  fullName.vb: SuperOffice.Util.ImageUtilities.GetThumbnail(System.Drawing.Image, Integer, Integer)
+  name.vb: GetThumbnail(Image, Integer, Integer)
+  spec.csharp:
+  - uid: SuperOffice.Util.ImageUtilities.GetThumbnail(System.Drawing.Image,System.Int32,System.Int32)
+    name: GetThumbnail
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_GetThumbnail_System_Drawing_Image_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Drawing.Image
+    name: Image
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.image
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ImageUtilities.GetThumbnail(System.Drawing.Image,System.Int32,System.Int32)
+    name: GetThumbnail
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_GetThumbnail_System_Drawing_Image_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Drawing.Image
+    name: Image
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.image
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.Util.ImageUtilities.FitTo*
   commentId: Overload:SuperOffice.Util.ImageUtilities.FitTo
   isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_FitTo_System_Drawing_Image_System_Int32_System_Int32_
   name: FitTo
   nameWithType: ImageUtilities.FitTo
   fullName: SuperOffice.Util.ImageUtilities.FitTo
 - uid: System.Drawing.Image
+  commentId: T:System.Drawing.Image
+  parent: System.Drawing
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.image
   name: Image
   nameWithType: Image
   fullName: System.Drawing.Image
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
 - uid: SuperOffice.Util.ImageUtilities.GetThumbnailImage*
   commentId: Overload:SuperOffice.Util.ImageUtilities.GetThumbnailImage
   isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_GetThumbnailImage_System_IO_Stream_System_Int32_System_Int32_
   name: GetThumbnailImage
   nameWithType: ImageUtilities.GetThumbnailImage
   fullName: SuperOffice.Util.ImageUtilities.GetThumbnailImage
 - uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.stream
   name: Stream
   nameWithType: Stream
   fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
 - uid: SuperOffice.Util.ImageUtilities.GetBytes*
   commentId: Overload:SuperOffice.Util.ImageUtilities.GetBytes
   isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_GetBytes_System_Drawing_Image_
   name: GetBytes
   nameWithType: ImageUtilities.GetBytes
   fullName: SuperOffice.Util.ImageUtilities.GetBytes
 - uid: System.Byte[]
   isExternal: true
-  name: Byte[]
-  nameWithType: Byte[]
-  fullName: System.Byte[]
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
   nameWithType.vb: Byte()
-  fullName.vb: System.Byte()
+  fullName.vb: Byte()
   name.vb: Byte()
   spec.csharp:
   - uid: System.Byte
-    name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
+    name: byte
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Byte
     name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: SuperOffice.Util.ImageUtilities.FitTo(System.Drawing.Image,System.Int32,System.Int32)
+  commentId: M:SuperOffice.Util.ImageUtilities.FitTo(System.Drawing.Image,System.Int32,System.Int32)
+  isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_FitTo_System_Drawing_Image_System_Int32_System_Int32_
+  name: FitTo(Image, int, int)
+  nameWithType: ImageUtilities.FitTo(Image, int, int)
+  fullName: SuperOffice.Util.ImageUtilities.FitTo(System.Drawing.Image, int, int)
+  nameWithType.vb: ImageUtilities.FitTo(Image, Integer, Integer)
+  fullName.vb: SuperOffice.Util.ImageUtilities.FitTo(System.Drawing.Image, Integer, Integer)
+  name.vb: FitTo(Image, Integer, Integer)
+  spec.csharp:
+  - uid: SuperOffice.Util.ImageUtilities.FitTo(System.Drawing.Image,System.Int32,System.Int32)
+    name: FitTo
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_FitTo_System_Drawing_Image_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Drawing.Image
+    name: Image
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.image
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ImageUtilities.FitTo(System.Drawing.Image,System.Int32,System.Int32)
+    name: FitTo
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_FitTo_System_Drawing_Image_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Drawing.Image
+    name: Image
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.image
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.Util.ImageUtilities.ThumbnailSize
+  commentId: F:SuperOffice.Util.ImageUtilities.ThumbnailSize
+  isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_ThumbnailSize
+  name: ThumbnailSize
+  nameWithType: ImageUtilities.ThumbnailSize
+  fullName: SuperOffice.Util.ImageUtilities.ThumbnailSize
 - uid: SuperOffice.Util.ImageUtilities.GetThumbnail*
   commentId: Overload:SuperOffice.Util.ImageUtilities.GetThumbnail
   isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_GetThumbnail_System_Drawing_Image_System_Int32_System_Int32_
   name: GetThumbnail
   nameWithType: ImageUtilities.GetThumbnail
   fullName: SuperOffice.Util.ImageUtilities.GetThumbnail
@@ -1025,30 +1323,173 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image*
-  commentId: Overload:SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync
   isExternal: true
-  name: ResolveUrlOrBase64Image
-  nameWithType: ImageUtilities.ResolveUrlOrBase64Image
-  fullName: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image
+  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_ResolveUrlOrBase64ImageAsync_System_String_System_Int32_System_Threading_CancellationToken_
+  name: ResolveUrlOrBase64ImageAsync
+  nameWithType: ImageUtilities.ResolveUrlOrBase64ImageAsync
+  fullName: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction*
   commentId: Overload:SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction
   isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_ResolveUrlOrBase64ImageNoReduction_System_String_
   name: ResolveUrlOrBase64ImageNoReduction
   nameWithType: ImageUtilities.ResolveUrlOrBase64ImageNoReduction
   fullName: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction
 - uid: SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String*
   commentId: Overload:SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String
   isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_GetImageTypeFromBase64String_System_String_System_String_
   name: GetImageTypeFromBase64String
   nameWithType: ImageUtilities.GetImageTypeFromBase64String
   fullName: SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String
 - uid: SuperOffice.Util.ImageUtilities.TryFitImage*
   commentId: Overload:SuperOffice.Util.ImageUtilities.TryFitImage
   isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_TryFitImage_System_Byte___System_Int32_System_Int32_System_Boolean_
   name: TryFitImage
   nameWithType: ImageUtilities.TryFitImage
   fullName: SuperOffice.Util.ImageUtilities.TryFitImage
@@ -1056,58 +1497,76 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.Util.ImageUtilities.GetClearPixel*
   commentId: Overload:SuperOffice.Util.ImageUtilities.GetClearPixel
   isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_GetClearPixel_System_Drawing_Size_
   name: GetClearPixel
   nameWithType: ImageUtilities.GetClearPixel
   fullName: SuperOffice.Util.ImageUtilities.GetClearPixel
 - uid: System.Drawing.Size
+  commentId: T:System.Drawing.Size
+  parent: System.Drawing
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.size
   name: Size
   nameWithType: Size
   fullName: System.Drawing.Size
 - uid: SuperOffice.Util.ImageUtilities.GetSrNoPhoto*
   commentId: Overload:SuperOffice.Util.ImageUtilities.GetSrNoPhoto
   isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_GetSrNoPhoto_System_Drawing_Size_System_Drawing_Color_System_Drawing_Color_System_Boolean_System_String_
   name: GetSrNoPhoto
   nameWithType: ImageUtilities.GetSrNoPhoto
   fullName: SuperOffice.Util.ImageUtilities.GetSrNoPhoto
 - uid: System.Drawing.Color
+  commentId: T:System.Drawing.Color
+  parent: System.Drawing
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
   name: Color
   nameWithType: Color
   fullName: System.Drawing.Color
 - uid: SuperOffice.Util.ImageUtilities.GetTextImage*
   commentId: Overload:SuperOffice.Util.ImageUtilities.GetTextImage
   isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_GetTextImage_System_Drawing_Size_System_String_System_Drawing_Font_System_Drawing_Color_System_Drawing_Color_System_Drawing_Color_System_Boolean_
   name: GetTextImage
   nameWithType: ImageUtilities.GetTextImage
   fullName: SuperOffice.Util.ImageUtilities.GetTextImage
 - uid: System.Drawing.Font
-  commentId: '!:System.Drawing.Font'
+  commentId: T:System.Drawing.Font
+  parent: System.Drawing
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.font
   name: Font
   nameWithType: Font
   fullName: System.Drawing.Font
 - uid: SuperOffice.Util.ImageUtilities.Max*
   commentId: Overload:SuperOffice.Util.ImageUtilities.Max
   isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_Max_System_Drawing_Size_System_Drawing_Size_
   name: Max
   nameWithType: ImageUtilities.Max
   fullName: SuperOffice.Util.ImageUtilities.Max
 - uid: SuperOffice.Util.ImageUtilities.Min*
   commentId: Overload:SuperOffice.Util.ImageUtilities.Min
   isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_Min_System_Drawing_Size_System_Drawing_Size_
   name: Min
   nameWithType: ImageUtilities.Min
   fullName: SuperOffice.Util.ImageUtilities.Min
 - uid: SuperOffice.Util.ImageUtilities.GetScaledImageOrDefaultImage*
   commentId: Overload:SuperOffice.Util.ImageUtilities.GetScaledImageOrDefaultImage
   isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_GetScaledImageOrDefaultImage_System_Drawing_Image_SuperOffice_Util_ImageUtilities_ImageSize_SuperOffice_Util_ImageUtilities_FallbackStrategy_System_Func_System_Drawing_Image__System_Boolean_System_Drawing_Color_
   name: GetScaledImageOrDefaultImage
   nameWithType: ImageUtilities.GetScaledImageOrDefaultImage
   fullName: SuperOffice.Util.ImageUtilities.GetScaledImageOrDefaultImage
@@ -1115,19 +1574,63 @@ references:
   commentId: T:SuperOffice.Util.ImageUtilities.ImageSize
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html
   name: ImageUtilities.ImageSize
   nameWithType: ImageUtilities.ImageSize
   fullName: SuperOffice.Util.ImageUtilities.ImageSize
+  spec.csharp:
+  - uid: SuperOffice.Util.ImageUtilities
+    name: ImageUtilities
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.html
+  - name: .
+  - uid: SuperOffice.Util.ImageUtilities.ImageSize
+    name: ImageSize
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.ImageSize.html
+  spec.vb:
+  - uid: SuperOffice.Util.ImageUtilities
+    name: ImageUtilities
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.html
+  - name: .
+  - uid: SuperOffice.Util.ImageUtilities.ImageSize
+    name: ImageSize
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.ImageSize.html
 - uid: SuperOffice.Util.ImageUtilities.FallbackStrategy
   commentId: T:SuperOffice.Util.ImageUtilities.FallbackStrategy
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html
   name: ImageUtilities.FallbackStrategy
   nameWithType: ImageUtilities.FallbackStrategy
   fullName: SuperOffice.Util.ImageUtilities.FallbackStrategy
+  spec.csharp:
+  - uid: SuperOffice.Util.ImageUtilities
+    name: ImageUtilities
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.html
+  - name: .
+  - uid: SuperOffice.Util.ImageUtilities.FallbackStrategy
+    name: FallbackStrategy
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.FallbackStrategy.html
+  spec.vb:
+  - uid: SuperOffice.Util.ImageUtilities
+    name: ImageUtilities
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.html
+  - name: .
+  - uid: SuperOffice.Util.ImageUtilities.FallbackStrategy
+    name: FallbackStrategy
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.FallbackStrategy.html
 - uid: System.Func{System.Drawing.Image}
-  commentId: '!:System.Func{System.Drawing.Image}'
+  commentId: T:System.Func{System.Drawing.Image}
+  parent: System
   definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
   name: Func<Image>
   nameWithType: Func<Image>
   fullName: System.Func<System.Drawing.Image>
@@ -1137,78 +1640,59 @@ references:
   spec.csharp:
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.Drawing.Image
     name: Image
-    nameWithType: Image
-    fullName: System.Drawing.Image
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.image
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Drawing.Image
     name: Image
-    nameWithType: Image
-    fullName: System.Drawing.Image
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.image
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Func`1
+  commentId: T:System.Func`1
   isExternal: true
-  name: Func<>
-  nameWithType: Func<>
-  fullName: System.Func<>
-  nameWithType.vb: Func(Of )
-  fullName.vb: System.Func(Of )
-  name.vb: Func(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
   spec.csharp:
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Util.ImageUtilities.GetAspect*
   commentId: Overload:SuperOffice.Util.ImageUtilities.GetAspect
   isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_GetAspect_System_Int32_System_Int32_
   name: GetAspect
   nameWithType: ImageUtilities.GetAspect
   fullName: SuperOffice.Util.ImageUtilities.GetAspect
@@ -1216,12 +1700,17 @@ references:
   commentId: T:System.Double
   parent: System
   isExternal: true
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
 - uid: SuperOffice.Util.ImageUtilities.GetIntersectionRectangle*
   commentId: Overload:SuperOffice.Util.ImageUtilities.GetIntersectionRectangle
   isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_GetIntersectionRectangle_System_Drawing_Size_System_Drawing_Size_SuperOffice_Util_ImageUtilities_VerticalAlignment_
   name: GetIntersectionRectangle
   nameWithType: ImageUtilities.GetIntersectionRectangle
   fullName: SuperOffice.Util.ImageUtilities.GetIntersectionRectangle
@@ -1229,18 +1718,42 @@ references:
   commentId: T:SuperOffice.Util.ImageUtilities.VerticalAlignment
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html
   name: ImageUtilities.VerticalAlignment
   nameWithType: ImageUtilities.VerticalAlignment
   fullName: SuperOffice.Util.ImageUtilities.VerticalAlignment
+  spec.csharp:
+  - uid: SuperOffice.Util.ImageUtilities
+    name: ImageUtilities
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.html
+  - name: .
+  - uid: SuperOffice.Util.ImageUtilities.VerticalAlignment
+    name: VerticalAlignment
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.VerticalAlignment.html
+  spec.vb:
+  - uid: SuperOffice.Util.ImageUtilities
+    name: ImageUtilities
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.html
+  - name: .
+  - uid: SuperOffice.Util.ImageUtilities.VerticalAlignment
+    name: VerticalAlignment
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.VerticalAlignment.html
 - uid: System.Drawing.Rectangle
-  commentId: '!:System.Drawing.Rectangle'
+  commentId: T:System.Drawing.Rectangle
+  parent: System.Drawing
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.rectangle
   name: Rectangle
   nameWithType: Rectangle
   fullName: System.Drawing.Rectangle
 - uid: SuperOffice.Util.ImageUtilities.ScaleImage*
   commentId: Overload:SuperOffice.Util.ImageUtilities.ScaleImage
   isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_ScaleImage_System_Drawing_Image_System_Double_System_Double_System_Drawing_Size_System_Drawing_Size_System_Drawing_Color_SuperOffice_Util_ImageUtilities_VerticalAlignment_
   name: ScaleImage
   nameWithType: ImageUtilities.ScaleImage
   fullName: SuperOffice.Util.ImageUtilities.ScaleImage

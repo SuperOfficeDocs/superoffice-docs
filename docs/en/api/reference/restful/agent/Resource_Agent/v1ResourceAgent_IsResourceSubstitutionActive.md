@@ -77,15 +77,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Senger-Cassin",
-    "Altenwerth Inc and Sons"
+    "Blick Inc and Sons",
+    "Howe-Schuster"
   ],
-  "Culture": "aut"
+  "Culture": "dolores"
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Wiza-Parisian",
-    "ResourceValue": "culpa",
-    "Culture": "quaerat",
-    "IsActive": false,
+    "ResourceName": "Metz Group",
+    "ResourceValue": "sit",
+    "Culture": "eum",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 861
+        "FieldLength": 641
       }
     }
   },
   {
-    "ResourceName": "Wiza-Parisian",
-    "ResourceValue": "culpa",
-    "Culture": "quaerat",
-    "IsActive": false,
+    "ResourceName": "Metz Group",
+    "ResourceValue": "sit",
+    "Culture": "eum",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 861
+        "FieldLength": 641
       }
     }
   }

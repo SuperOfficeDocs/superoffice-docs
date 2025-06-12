@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 654,
-  "Name": "Kreiger Group",
-  "Tooltip": "magnam",
-  "Deleted": false,
-  "UdListDefinitionId": 399,
-  "Rank": 74
+  "Id": 581,
+  "Name": "Kuphal Group",
+  "Tooltip": "in",
+  "Deleted": true,
+  "UdListDefinitionId": 735,
+  "Rank": 820
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 499,
-  "Name": "Mertz-Torphy",
-  "Tooltip": "cupiditate",
-  "Deleted": true,
-  "UdListDefinitionId": 330,
-  "Rank": 516,
+  "Id": 47,
+  "Name": "Vandervort Inc and Sons",
+  "Tooltip": "placeat",
+  "Deleted": false,
+  "UdListDefinitionId": 648,
+  "Rank": 581,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 558
+      "FieldType": "System.Int32",
+      "FieldLength": 833
     }
   }
 }

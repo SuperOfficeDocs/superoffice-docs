@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 533,
-  "Name": "Corwin Inc and Sons",
-  "Tooltip": "esse",
+  "Id": 13,
+  "Name": "Farrell-Will",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 623,
-  "IsCustomList": true,
+  "Rank": 290,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "animi",
+  "ListType": "est",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 131,
-  "Name": "Ebert Group",
-  "Tooltip": "sed",
-  "Deleted": false,
-  "Rank": 592,
-  "IsCustomList": true,
+  "Id": 697,
+  "Name": "O'Reilly, Kunze and Boyle",
+  "Tooltip": "sequi",
+  "Deleted": true,
+  "Rank": 116,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "vel",
+  "UseGroupsAndHeadings": true,
+  "ListType": "minus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 392
+      "FieldType": "System.Int32",
+      "FieldLength": 189
     }
   }
 }

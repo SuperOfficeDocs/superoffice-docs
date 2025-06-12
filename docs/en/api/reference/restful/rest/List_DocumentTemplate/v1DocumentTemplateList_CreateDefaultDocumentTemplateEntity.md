@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 110,
-  "Name": "Grant-Heidenreich",
-  "Tooltip": "sit",
-  "SaveInDb": 621,
-  "Filename": "et",
-  "DefaultOref": "ut",
+  "DocumentTemplateId": 550,
+  "Name": "Hodkiewicz, Lindgren and Skiles",
+  "Tooltip": "magnam",
+  "SaveInDb": 485,
+  "Filename": "aut",
+  "DefaultOref": "id",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 765,
-  "IntentId": 691,
-  "IsDefaultPublished": false,
-  "Rank": 659,
-  "LoadTemplateFromPlugin": 364,
-  "MimeType": "voluptate",
+  "AutoeventId": 800,
+  "IntentId": 892,
+  "IsDefaultPublished": true,
+  "Rank": 261,
+  "LoadTemplateFromPlugin": 704,
+  "MimeType": "illo",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 591,
+  "DocumentTypeKey": 971,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "sidney@schowalter.info",
+  "EmailSubject": "kacie@smithamlueilwitz.info",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "alford_lang@dicki.uk",
+  "SenderEmailAddress": "lauren@bergenikolaus.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldType": "System.String",
+      "FieldLength": 178
     }
   }
 }

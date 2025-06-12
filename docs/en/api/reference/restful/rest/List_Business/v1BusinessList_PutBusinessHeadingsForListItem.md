@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 298,
-    "Name": "Mayert, Stracke and Sawayn",
-    "ToolTip": "Perspiciatis eius et quo.",
+    "Id": 569,
+    "Name": "Breitenberg-Anderson",
+    "ToolTip": "Eum aliquid.",
     "Deleted": false,
-    "Rank": 575,
-    "Type": "quasi",
-    "ColorBlock": 517,
-    "IconHint": "quo",
+    "Rank": 766,
+    "Type": "quis",
+    "ColorBlock": 710,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2011-06-12T16:32:48.5245595+02:00",
+    "LastChanged": "2008-06-30T17:54:08.7886801+02:00",
     "ChildItems": [
       {
-        "Id": 129,
-        "Name": "Daugherty Group",
-        "ToolTip": "Dolores illum.",
-        "Deleted": true,
-        "Rank": 651,
-        "Type": "optio",
-        "ColorBlock": 211,
-        "IconHint": "neque",
+        "Id": 919,
+        "Name": "Kshlerin, Rutherford and Schmitt",
+        "ToolTip": "Accusamus libero impedit ut omnis deleniti.",
+        "Deleted": false,
+        "Rank": 990,
+        "Type": "modi",
+        "ColorBlock": 935,
+        "IconHint": "nobis",
         "Selected": false,
-        "LastChanged": "2011-04-10T16:32:48.5245595+02:00",
+        "LastChanged": "2008-07-20T17:54:08.7886801+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "ducimus",
-        "Hidden": false,
-        "FullName": "Jayme Buckridge"
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "distinctio",
+        "Hidden": true,
+        "FullName": "Kaitlin Gerlach"
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "blanditiis",
-    "Hidden": false,
-    "FullName": "Litzy Marvin"
+    "ExtraInfo": "esse",
+    "StyleHint": "deserunt",
+    "Hidden": true,
+    "FullName": "Humberto Jones"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 70,
-    "Name": "Gorczany-Reynolds",
-    "ToolTip": "Iusto est odit ad rerum.",
+    "Id": 572,
+    "Name": "Altenwerth, Monahan and Armstrong",
+    "ToolTip": "Quia nulla ea vitae repellat voluptate.",
     "Deleted": false,
-    "Rank": 382,
-    "Type": "excepturi",
-    "ColorBlock": 874,
-    "IconHint": "perspiciatis",
+    "Rank": 636,
+    "Type": "aliquam",
+    "ColorBlock": 302,
+    "IconHint": "atque",
     "Selected": false,
-    "LastChanged": "2001-04-07T16:32:48.5245595+02:00",
+    "LastChanged": "2014-03-31T17:54:08.8043048+02:00",
     "ChildItems": [
       {
-        "Id": 812,
-        "Name": "Stroman-Romaguera",
-        "ToolTip": "Vitae asperiores dolores ut.",
-        "Deleted": false,
-        "Rank": 805,
-        "Type": "numquam",
-        "ColorBlock": 660,
-        "IconHint": "maxime",
-        "Selected": false,
-        "LastChanged": "2023-08-07T16:32:48.5245595+02:00",
+        "Id": 598,
+        "Name": "Crona, Hahn and Conroy",
+        "ToolTip": "Numquam quas nesciunt.",
+        "Deleted": true,
+        "Rank": 685,
+        "Type": "eligendi",
+        "ColorBlock": 829,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2016-12-10T17:54:08.8043048+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "impedit",
+        "ExtraInfo": "odio",
+        "StyleHint": "dolorem",
         "Hidden": false,
-        "FullName": "Miss Gaetano Nestor Rosenbaum",
+        "FullName": "Ms. Jess Uriah Crona",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 100
+            "FieldLength": 237
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "unde",
+    "ExtraInfo": "quo",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Francisca Jerde",
+    "FullName": "Chase Langworth",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 172
+        "FieldType": "System.String",
+        "FieldLength": 268
       }
     }
   }

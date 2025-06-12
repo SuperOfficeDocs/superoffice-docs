@@ -157,12 +157,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "praesentium",
+    "path": "quasi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "praesentium",
+    "path": "quasi",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "explicabo",
+  "SaleText": "voluptas",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2006-09-06T16:32:48.0244695+02:00",
-  "Amount": 620.53199999999993,
-  "SaleId": 907,
-  "Earning": 9834.492,
-  "EarningPercent": 17553.534,
-  "Heading": "et",
-  "Number": "607528",
-  "Probability": 377,
-  "CreatedDate": "2003-02-12T16:32:48.0244695+01:00",
-  "UpdatedDate": "2000-07-05T16:32:48.0244695+02:00",
+  "Saledate": "1998-05-18T17:54:08.5076972+02:00",
+  "Amount": 16976.878,
+  "SaleId": 46,
+  "Earning": 2378.706,
+  "EarningPercent": 8236.152,
+  "Heading": "praesentium",
+  "Number": "1735966",
+  "Probability": 563,
+  "CreatedDate": "2024-07-08T17:54:08.5076972+02:00",
+  "UpdatedDate": "1999-02-02T17:54:08.5076972+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 883,
+  "ActiveLinks": 412,
   "Links": [
     {
-      "EntityName": "Skiles Group",
-      "Id": 529,
-      "Description": "Organic intangible encryption",
-      "ExtraInfo": "sint",
-      "LinkId": 901,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 944
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2011-03-31T16:32:48.0244695+02:00",
-  "Postit": "harum",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2011-01-29T16:32:48.0244695+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Lowe LLC",
-      "Comment": "est",
-      "StakeholderRoleId": 952,
-      "CountryId": 399,
-      "PersonId": 508,
-      "EmailDescription": "deangelo.friesen@breitenberg.ca",
-      "EmailId": 116,
-      "EmailAddress": "cody_durgan@kertzmannbeatty.us",
-      "PhoneId": 812,
-      "ContactName": "Thiel-Ebert",
-      "ContactId": 449,
-      "SaleId": 19,
-      "Mrmrs": "eveniet",
-      "Firstname": "Breana",
-      "MiddleName": "Jakubowski, Zieme and Schumm",
-      "Lastname": "Block",
-      "SaleStakeholderId": 488,
-      "Rank": 628,
-      "Phone": "914.618.8724 x3705",
+      "EntityName": "Hagenes-Brown",
+      "Id": 400,
+      "Description": "Intuitive client-server superstructure",
+      "ExtraInfo": "aut",
+      "LinkId": 159,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 9
+          "FieldLength": 281
         }
       }
     }
   ],
-  "ActiveErpLinks": 448,
-  "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "False"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "iusto",
-    "ExtraFields2": "omnis"
-  },
-  "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "sed"
-  },
-  "PublishEventDate": "2013-11-09T16:32:48.0244695+01:00",
-  "PublishTo": "2020-07-16T16:32:48.0244695+02:00",
-  "PublishFrom": "2000-09-16T16:32:48.0244695+02:00",
-  "IsPublished": true,
-  "VisibleFor": [
+  "NextDueDate": "2021-07-27T17:54:08.5076972+02:00",
+  "Postit": "amet",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2016-10-26T17:54:08.5076972+02:00",
+  "SaleStakeholders": [
     {
-      "VisibleId": 440,
-      "Visibility": "All",
-      "DisplayValue": "deleniti",
+      "StakeholderRoleName": "Kunze, Wuckert and Watsica",
+      "Comment": "quaerat",
+      "StakeholderRoleId": 504,
+      "CountryId": 676,
+      "PersonId": 3,
+      "EmailDescription": "ricky_mills@runolfsson.co.uk",
+      "EmailId": 83,
+      "EmailAddress": "alba@thielmarks.ca",
+      "PhoneId": 424,
+      "ContactName": "Kilback, Zemlak and Hackett",
+      "ContactId": 920,
+      "SaleId": 306,
+      "Mrmrs": "officia",
+      "Firstname": "Gerda",
+      "MiddleName": "Mann, Schaden and Hahn",
+      "Lastname": "Lynch",
+      "SaleStakeholderId": 912,
+      "Rank": 171,
+      "Phone": "1-950-225-9645 x8477",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 856
+          "FieldLength": 462
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 952,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Holly Sipes I",
+    "SuperOffice:2": "Horace Lueilwitz"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "ad",
+    "ExtraFields2": "velit"
+  },
+  "CustomFields": {
+    "CustomFields1": "natus",
+    "CustomFields2": "corrupti"
+  },
+  "PublishEventDate": "2021-02-01T17:54:08.5230811+01:00",
+  "PublishTo": "2005-06-24T17:54:08.5230811+02:00",
+  "PublishFrom": "2010-02-24T17:54:08.5230811+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 628,
+      "Visibility": "All",
+      "DisplayValue": "fugit",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 15
         }
       }
     },
     {
-      "VisibleId": 440,
+      "VisibleId": 628,
       "Visibility": "All",
-      "DisplayValue": "deleniti",
+      "DisplayValue": "fugit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 856
+          "FieldLength": 15
         }
       }
     }
@@ -306,12 +306,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 327
+      "FieldLength": 969
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

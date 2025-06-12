@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 814,
-  "Name": "Upton-Spencer",
-  "Rank": 234,
-  "Tooltip": "tenetur",
-  "Icon": "quia",
-  "DefaultTicketStatus": 636,
+  "TicketTypeId": 502,
+  "Name": "Torp Inc and Sons",
+  "Rank": 553,
+  "Tooltip": "amet",
+  "Icon": "quibusdam",
+  "DefaultTicketStatus": 994,
   "TicketStatuses": [
-    955,
-    301
+    531,
+    999
   ],
-  "DefaultTicketPriority": 364,
+  "DefaultTicketPriority": 740,
   "TicketPriorities": [
-    729,
-    674
+    556,
+    445
   ],
-  "ReplyTemplate": 90,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 413,
+  "IsExternalVisible": true,
   "IsDefault": false,
-  "ShowInNew": true,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ShowInNew": false,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    521,
-    957
+    945,
+    949
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 463
+      "FieldLength": 970
     }
   }
 }

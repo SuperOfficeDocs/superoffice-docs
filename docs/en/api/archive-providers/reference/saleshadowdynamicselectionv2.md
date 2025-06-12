@@ -203,6 +203,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |person/personUdef/SuperOffice:10|string|page1marketingonly| x |
 |person/personUdef/SuperOffice:11|string|page1adminonly| x |
 |person/personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
+|person/personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 |person/personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |person/personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |person/personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -224,11 +225,11 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |person/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |person/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
-|person/personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
 |person/personAssociate/firstName|string|First name: Displays the contact's first name| x |
 |person/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -241,6 +242,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |person/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |person/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |person/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|person/personAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |person/personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |person/personAssociate/contactCategory|listAny|Category: Category| x |
 |person/personAssociate/role|listAny|Role : Role| x |
@@ -273,6 +275,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |person/correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |person/correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |person/correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|person/correspondingAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |person/correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |person/correspondingAssociate/contactCategory|listAny|Category: Category| x |
 |person/correspondingAssociate/role|listAny|Role : Role| x |
@@ -326,13 +329,13 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |contact/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |contact/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |contact/contactSource|listAny|Source: Source (Company)| x |
-|contact/contactDeleted|bool|Deleted: Deleted| x |
-|contact/phone/formattedNumber|string|Phone : Displays phone number|  |
-|contact/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactDeleted|bool|Deleted: Deleted| x |
+|contact/phone/formattedNumber|string|Phone : Displays phone number|  |
+|contact/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |contact/deletedDate|datetime|Deleted date: Deleted date|  |
 |contact/mainContact| *None* |Main contact: Main contact for this company| x |
 |contact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
@@ -399,6 +402,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |contact/contactAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |contact/contactAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |contact/contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|contact/contactAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |contact/contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |contact/contactAssociate/contactCategory|listAny|Category: Category| x |
 |contact/contactAssociate/role|listAny|Role : Role| x |
@@ -429,15 +433,16 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |contact/contactUdef/SuperOffice:7|listAny|companydropdownlistbox| x |
 |contact/contactUdef/SuperOffice:8|decimal|companydecimal| x |
 |contact/contactUdef/SuperOffice:9|string|page1saleonly| x |
-|contact/contactUdef/SuperOffice:10|string|page1marketingonly| x |
-|contact/contactUdef/SuperOffice:11|string|page1adminonly| x |
-|contact/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
-|contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactUdef/SuperOffice:10|string|page1marketingonly| x |
+|contact/contactUdef/SuperOffice:11|string|page1adminonly| x |
+|contact/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
+|contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
+|contact/contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -495,6 +500,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|associate/usergroupId|int|Group ID: The user's primary user group| x |
 |associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |associate/contactCategory|listAny|Category: Category| x |
 |associate/role|listAny|Role : Role| x |
@@ -531,16 +537,16 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |appointment/recordType|string|Record type : Shows the record type| x |
 |appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |appointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointment/contactId|listAny|Company ID: Database ID of company| x |
 |appointment/personId|listAny|Contact ID: Database ID of the contact row| x |
 |appointment/projectId|listAny|Project ID: Database ID of project record| x |
 |appointment/saleId|int|Sale ID: The database ID of the sale record| x |
 |appointment/userGroup|userGroup|User group : The user group that owns the record| x |
 |appointment/who| *None* |Who: Contact and/or company|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |appointment/updatedBy|associate|Updated by: The user who last updated the data| x |
 |appointment/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |appointment/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
@@ -595,6 +601,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |appointment/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |appointment/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |appointment/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|appointment/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |appointment/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |appointment/associate/contactCategory|listAny|Category: Category| x |
 |appointment/associate/role|listAny|Role : Role| x |
@@ -634,6 +641,10 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |document/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |document/contactId|listAny|Company ID: Database ID of company| x |
 |document/personId|listAny|Contact ID: Database ID of the contact row| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |document/projectId|listAny|Project ID: Database ID of project record| x |
 |document/saleId|int|Sale ID: The database ID of the sale record| x |
 |document/userGroup|userGroup|User group : The user group that owns the record| x |
@@ -641,10 +652,6 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |document/updatedBy|associate|Updated by: The user who last updated the data| x |
 |document/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |document/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |document/registeredBy|associate|Registered by: The user who registered the data| x |
 |document/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |document/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
@@ -678,6 +685,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |document/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |document/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |document/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|document/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |document/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |document/associate/contactCategory|listAny|Category: Category| x |
 |document/associate/role|listAny|Role : Role| x |
@@ -737,6 +745,10 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |project/projectPublish/publishedBy| *None* |Published by: Published by|  |
 |project/projectEvent/isExternalEvent|bool|Event: Is this an external event| x |
 |project/projectEvent/eventDate|date|Event date: Event date| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/projectEvent/hasSignOn|bool|Sign On: Does this event have the Sign On function enabled| x |
 |project/projectEvent/hasSignOff|bool|Sign Off: Does this event have the Sign Off function enabled| x |
 |project/projectUrl/URLAddress|string|URL| x |
@@ -745,10 +757,6 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |project/projectAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |project/projectAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |project/projectAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |project/projectAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |project/projectAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |project/projectAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -757,6 +765,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |project/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |project/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |project/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|project/projectAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |project/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |project/projectAssociate/contactCategory|listAny|Category: Category| x |
 |project/projectAssociate/role|listAny|Role : Role| x |
@@ -840,6 +849,10 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |saleStakeholder/person/retired|bool|Stakeholder - Former employee: Indicates whether the contact has retired/left the company| x |
 |saleStakeholder/person/birthYear|int|Stakeholder - Birth year: Displays contact's birth year| x |
 |saleStakeholder/person/birthMonth|int|Stakeholder - Birth month: Displays contact's birth month| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/birthDay|int|Stakeholder - Birth day: Displays contact's birth day (day of month)| x |
 |saleStakeholder/person/kanaFirstName|string|Stakeholder - First name, kana: Contact's first name, in kana alphabet| x |
 |saleStakeholder/person/kanaLastName|string|Stakeholder - Last name, kana: Contact's last name, in kana alphabet| x |
@@ -849,10 +862,6 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |saleStakeholder/person/personRegisteredBy|associate|Stakeholder - Registered by: The user who registered the data| x |
 |saleStakeholder/person/personRegisteredByFullName|associate|Stakeholder - Registered by - Full name: The user who registered the data| x |
 |saleStakeholder/person/personRegisteredDate|date|Stakeholder - Registered date: The date/time the data was registered in UTC.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/portraitThumbnail| *None* |Stakeholder - Person image: Person image|  |
 |saleStakeholder/person/personActiveErpLinks|bool|Stakeholder - ERP connected: Is there an active ERP Sync?| x |
 |saleStakeholder/person/ticketPriority|listAny|Stakeholder - Service priority: Default service priority for this contact| x |
@@ -932,6 +941,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |saleStakeholder/person/personUdef/SuperOffice:10|string|Stakeholder - page1marketingonly| x |
 |saleStakeholder/person/personUdef/SuperOffice:11|string|Stakeholder - page1adminonly| x |
 |saleStakeholder/person/personExtra/x\_person\_integer|int|Stakeholder - Extra Integer: Custom person integer| x |
+|saleStakeholder/person/personExtra/x\_person\_hidden\_integer|int|Stakeholder - Extra hidden integer: Custom integer field that is hidden| x |
 |saleStakeholder/person/personExtra/x\_person\_float|decimal|Stakeholder - Extra float: Custom float field| x |
 |saleStakeholder/person/personExtra/x\_person\_longtext|string|Stakeholder - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |saleStakeholder/person/personExtra/x\_person\_date|date|Stakeholder - Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -943,6 +953,10 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |saleStakeholder/person/personExtra/x\_person\_shorttext\_list|listAny|Stakeholder - Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
 |saleStakeholder/person/personExtra/x\_person\_user\_relation|associate|Stakeholder - Extra user relation: Custom person-user relation field| x |
 |saleStakeholder/person/personExtra/x\_person\_category\_relation|listAny|Stakeholder - Extra category relation: Custom person-category relation| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/personExtra/x\_person\_priority\_relation|listAny|Stakeholder - Extra priority relation: Custom person-priority relation| x |
 |saleStakeholder/person/personExtra/x\_person\_request\_relation|stringorPK|Stakeholder - Extra request relation: Request relation on contact| x |
 |saleStakeholder/person/personExtra/x\_person\_appointment\_relation|stringorPK|Stakeholder - Extra appointment relation: Appointment relation on person| x |
@@ -953,10 +967,6 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |saleStakeholder/person/personExtra/y\_rental/x\_amount|int|Stakeholder - Rental - Amount: Number to rent. Default = 1| x |
 |saleStakeholder/person/personExtra/y\_rental/x\_contact|stringorPK|Stakeholder - Rental - Renter: Company that rents equipment| x |
 |saleStakeholder/person/personExtra/y\_rental/y\_equipment/x\_name|string|Stakeholder - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/personExtra/y\_car/id|int|Stakeholder - Car - id: Displays the row's primary key (y\_car)| x |
 |saleStakeholder/person/personAssociate/firstName|string|Stakeholder - First name: Displays the contact's first name| x |
 |saleStakeholder/person/personAssociate/lastName|string|Stakeholder - Last name: Displays the contact's last name| x |
@@ -970,6 +980,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |saleStakeholder/person/personAssociate/contactName|string|Stakeholder - Owning company: Name of the company the user belongs to| x |
 |saleStakeholder/person/personAssociate/contactDepartment|string|Stakeholder - Owning department: Name of the department at the company the user belongs to| x |
 |saleStakeholder/person/personAssociate/usergroup|userGroup|Stakeholder - Primary group: The user's primary user group| x |
+|saleStakeholder/person/personAssociate/usergroupId|int|Stakeholder - Group ID: The user's primary user group| x |
 |saleStakeholder/person/personAssociate/contactFullName|string|Stakeholder - Owner: Name and department of the company the user belongs to| x |
 |saleStakeholder/person/personAssociate/contactCategory|listAny|Stakeholder - Category: Category| x |
 |saleStakeholder/person/personAssociate/role|listAny|Stakeholder - Role: Role| x |
@@ -1002,6 +1013,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |saleStakeholder/person/correspondingAssociate/contactName|string|Stakeholder - Owning company: Name of the company the user belongs to| x |
 |saleStakeholder/person/correspondingAssociate/contactDepartment|string|Stakeholder - Owning department: Name of the department at the company the user belongs to| x |
 |saleStakeholder/person/correspondingAssociate/usergroup|userGroup|Stakeholder - Primary group: The user's primary user group| x |
+|saleStakeholder/person/correspondingAssociate/usergroupId|int|Stakeholder - Group ID: The user's primary user group| x |
 |saleStakeholder/person/correspondingAssociate/contactFullName|string|Stakeholder - Owner: Name and department of the company the user belongs to| x |
 |saleStakeholder/person/correspondingAssociate/contactCategory|listAny|Stakeholder - Category: Category| x |
 |saleStakeholder/person/correspondingAssociate/role|listAny|Stakeholder - Role: Role| x |
@@ -1045,6 +1057,10 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |saleStakeholder/contact/countryId|int|Stakeholder - Country ID: Country ID| x |
 |saleStakeholder/contact/number|string|Stakeholder - Number| x |
 |saleStakeholder/contact/code|string|Stakeholder - Code| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/orgnr|string|Stakeholder - VAT No.| x |
 |saleStakeholder/contact/stop|bool|Stakeholder - Stop| x |
 |saleStakeholder/contact/contactNoMail|bool|Stakeholder - No mailings (company)| x |
@@ -1057,10 +1073,6 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |saleStakeholder/contact/contactSource|listAny|Stakeholder - Source: Source (Company)| x |
 |saleStakeholder/contact/contactDeleted|bool|Stakeholder - Deleted: Deleted| x |
 |saleStakeholder/contact/phone/formattedNumber|string|Stakeholder - Phone: Displays phone number|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/activeErpLinks|bool|Stakeholder - ERP connected: Is there an active ERP Sync?| x |
 |saleStakeholder/contact/deletedDate|datetime|Stakeholder - Deleted date: Deleted date|  |
 |saleStakeholder/contact/mainContact| *None* |Stakeholder - Main contact: Main contact for this company| x |
@@ -1128,6 +1140,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |saleStakeholder/contact/contactAssociate/contactName|string|Stakeholder - Owning company: Name of the company the user belongs to| x |
 |saleStakeholder/contact/contactAssociate/contactDepartment|string|Stakeholder - Owning department: Name of the department at the company the user belongs to| x |
 |saleStakeholder/contact/contactAssociate/usergroup|userGroup|Stakeholder - Primary group: The user's primary user group| x |
+|saleStakeholder/contact/contactAssociate/usergroupId|int|Stakeholder - Group ID: The user's primary user group| x |
 |saleStakeholder/contact/contactAssociate/contactFullName|string|Stakeholder - Owner: Name and department of the company the user belongs to| x |
 |saleStakeholder/contact/contactAssociate/contactCategory|listAny|Stakeholder - Category: Category| x |
 |saleStakeholder/contact/contactAssociate/role|listAny|Stakeholder - Role: Role| x |
@@ -1148,6 +1161,10 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |saleStakeholder/contact/contactAssociate/personEmail|string|Stakeholder - E-mail| x |
 |saleStakeholder/contact/contactAssociate/locationAddress|string|Stakeholder - Location: Location| x |
 |saleStakeholder/contact/contactAssociate/isLocation|bool|Stakeholder - Is a location: Is a location| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/contactInterestIds|listInterest|Stakeholder - Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |saleStakeholder/contact/contactUdef/SuperOffice:1|string|Stakeholder - companyshorttext: tooltipshorttext| x |
 |saleStakeholder/contact/contactUdef/SuperOffice:2|string|Stakeholder - companylongtext: tooltiplongtext| x |
@@ -1161,12 +1178,9 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |saleStakeholder/contact/contactUdef/SuperOffice:10|string|Stakeholder - page1marketingonly| x |
 |saleStakeholder/contact/contactUdef/SuperOffice:11|string|Stakeholder - page1adminonly| x |
 |saleStakeholder/contact/contactUdef/SuperOffice:12|listAny|Stakeholder - Udlist one: Static tooltip for udlist one| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/contactUdef/SuperOffice:13|listAny|Stakeholder - Udlist two: Static tooltip for udlist two| x |
 |saleStakeholder/contact/contactExtra/x\_contact\_integer|int|Stakeholder - Extra Integer: Custom integer field| x |
+|saleStakeholder/contact/contactExtra/x\_contact\_hidden\_integer|int|Stakeholder - Extra hidden integer: Custom integer field - hidden| x |
 |saleStakeholder/contact/contactExtra/x\_contact\_default\_integer|int|Stakeholder - Extra Default Integer: Custom integer field with default value 123.| x |
 |saleStakeholder/contact/contactExtra/x\_contact\_float|decimal|Stakeholder - Extra Float: Custom float field with 3 decimals| x |
 |saleStakeholder/contact/contactExtra/x\_contact\_longtext|string|Stakeholder - Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -1251,6 +1265,10 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |quote/version/alternative/vatInfo|string|VAT Info: Information about value-added and other taxes| x |
 |quote/version/alternative/vat|decimal|VAT: Value-added and other taxes, total amount| x |
 |quote/version/alternative/earningPercent|decimal|Earnings %: Total Earnings as a percentage of the total price, of all lines in the quote alternative, including all discounts| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |quote/version/alternative/earningAmount|decimal|Earnings: Total Earnings for all lines in the quote alternative, including all discounts| x |
 |quote/version/alternative/totalPrice|decimal|Total: Total price of all items in the quote alternative, including all discounts| x |
 |quote/version/alternative/extraField1|string|Extra 1: Extra field 1 on the quote alternative| x |
@@ -1265,10 +1283,6 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |quote/version/alternative/quoteline/quoteLineId|int|Quote line ID: Database identity of the quote line| x |
 |quote/version/alternative/quoteline/quoteAlternativeId|int|Alternative ID: The database identity of the quote alternative| x |
 |quote/version/alternative/quoteline/erpProductKey|string|Product key: The foreign key of the product the quote line is based on.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |quote/version/alternative/quoteline/rank|int|Rank: Shows the rank of a product| x |
 |quote/version/alternative/quoteline/quantity|decimal|Quantity: The quantity that is offered| x |
 |quote/version/alternative/quoteline/name|string|Name: The name of the product that is being offered.  This name can be changed to accommodate the customer's needs.| x |
@@ -1313,7 +1327,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowDynamicSelectionV2?$select=registeredBy,person/personUdef/SuperOffice:2,person/personAssociate/middleName,person/correspondingAssociate/firstName,person/withdrawnStoreConsent
+GET /api/v1/archive/SaleShadowDynamicSelectionV2?$select=updatedBy,amount,originalStage,person/mrMrs,person/personExtra/x_person_shorttext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

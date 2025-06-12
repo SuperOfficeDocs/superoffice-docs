@@ -104,30 +104,30 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 538,
-  "UniqueId": "recusandae",
-  "Name": "Leuschke-Bergnaum",
-  "Description": "Self-enabling directional projection",
-  "AssociateId": 254,
-  "Columns": 157,
+  "DashboardId": 748,
+  "UniqueId": "ipsa",
+  "Name": "Parker Group",
+  "Description": "Right-sized hybrid process improvement",
+  "AssociateId": 929,
+  "Columns": 323,
   "Theme": null,
-  "VisibleForAll": 352,
+  "VisibleForAll": 617,
   "VisibleForAssociates": [
-    258,
-    550
+    745,
+    963
   ],
   "VisibleForGroups": [
-    876,
-    693
+    957,
+    524
   ],
-  "PinForAll": 709,
+  "PinForAll": 462,
   "PinForAssociates": [
-    512,
-    862
+    859,
+    775
   ],
   "PinForGroups": [
-    579,
-    938
+    922,
+    910
   ]
 }
 ```
@@ -139,37 +139,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 943,
-  "UniqueId": "id",
-  "Name": "Rosenbaum-Heller",
-  "Description": "Organized composite throughput",
-  "AssociateId": 516,
-  "Columns": 231,
+  "DashboardId": 141,
+  "UniqueId": "reprehenderit",
+  "Name": "Jakubowski-Davis",
+  "Description": "Right-sized transitional service-desk",
+  "AssociateId": 616,
+  "Columns": 72,
   "Theme": null,
-  "VisibleForAll": 201,
+  "VisibleForAll": 619,
   "VisibleForAssociates": [
-    694,
-    925
+    262,
+    223
   ],
   "VisibleForGroups": [
-    501,
-    393
+    678,
+    23
   ],
-  "PinForAll": 47,
+  "PinForAll": 764,
   "PinForAssociates": [
-    571,
-    263
+    777,
+    378
   ],
   "PinForGroups": [
-    262,
-    902
+    794,
+    884
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 815
+      "FieldType": "System.Int32",
+      "FieldLength": 56
     }
   },
   "_Links": {

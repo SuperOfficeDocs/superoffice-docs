@@ -144,12 +144,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "quia",
+    "path": "soluta",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quia",
+    "path": "soluta",
     "value": {}
   }
 ]
@@ -162,48 +162,48 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 132,
-  "Name": "Kemmer-Dietrich",
-  "Description": "Synergized zero administration process improvement",
-  "WelcomeMessage": "nemo",
+  "ChatTopicId": 133,
+  "Name": "Schumm Group",
+  "Description": "Stand-alone zero administration knowledge user",
+  "WelcomeMessage": "porro",
   "Language": null,
-  "LastAccept": "2008-05-02T16:32:47.2600112+02:00",
-  "SecondsPrAccept": 639,
-  "AlertRecipient": "qui",
+  "LastAccept": "2016-06-30T17:54:08.0543344+02:00",
+  "SecondsPrAccept": 335,
+  "AlertRecipient": "officiis",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "mollitia",
+  "BadgeHeader": "sapiente",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "aliquam",
-  "WarnNewChatMinutes": 856,
-  "WarnManagerNewChatMinutes": 702,
+  "CustomQueueText": "excepturi",
+  "WarnNewChatMinutes": 356,
+  "WarnManagerNewChatMinutes": 678,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 918,
-  "WarnManagerChatMessageMinutes": 464,
+  "WarnChatMessageMinutes": 906,
+  "WarnManagerChatMessageMinutes": 127,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 471,
-  "OfflineFormQueueLength": 749,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "aut",
+  "OfflineFormTimeLimit": 489,
+  "OfflineFormQueueLength": 515,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "nisi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 354
+      "FieldLength": 223
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

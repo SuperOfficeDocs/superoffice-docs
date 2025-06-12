@@ -16,26 +16,22 @@ items:
   nameWithType: ClaimsIdentitiesExtensions
   fullName: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions
   type: Class
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
   syntax:
-    content: 'public static class ClaimsIdentitiesExtensions : Object'
-    content.vb: >-
-      Public Module ClaimsIdentitiesExtensions
-          Inherits Object
+    content: public static class ClaimsIdentitiesExtensions
+    content.vb: Public Module ClaimsIdentitiesExtensions
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.AllClaims(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
   commentId: M:SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.AllClaims(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
   id: AllClaims(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
@@ -48,9 +44,6 @@ items:
   nameWithType: ClaimsIdentitiesExtensions.AllClaims(IEnumerable<ClaimsIdentity>)
   fullName: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.AllClaims(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
@@ -61,18 +54,9 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
     return:
       type: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function AllClaims(identities As IEnumerable(Of ClaimsIdentity)) As IEnumerable(Of Claim)
+    content.vb: Public Shared Function AllClaims(identities As IEnumerable(Of ClaimsIdentity)) As IEnumerable(Of Claim)
   overload: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.AllClaims*
   nameWithType.vb: ClaimsIdentitiesExtensions.AllClaims(IEnumerable(Of ClaimsIdentity))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
   fullName.vb: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.AllClaims(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity))
   name.vb: AllClaims(IEnumerable(Of ClaimsIdentity))
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.GetClaimValues(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.String)
@@ -83,13 +67,10 @@ items:
   langs:
   - csharp
   - vb
-  name: GetClaimValues(IEnumerable<ClaimsIdentity>, String)
-  nameWithType: ClaimsIdentitiesExtensions.GetClaimValues(IEnumerable<ClaimsIdentity>, String)
-  fullName: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.GetClaimValues(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, System.String)
+  name: GetClaimValues(IEnumerable<ClaimsIdentity>, string)
+  nameWithType: ClaimsIdentitiesExtensions.GetClaimValues(IEnumerable<ClaimsIdentity>, string)
+  fullName: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.GetClaimValues(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
@@ -102,19 +83,10 @@ items:
       type: System.String
     return:
       type: System.Collections.Generic.IEnumerable{System.String}
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function GetClaimValues(identities As IEnumerable(Of ClaimsIdentity), claimType As String) As IEnumerable(Of String)
+    content.vb: Public Shared Function GetClaimValues(identities As IEnumerable(Of ClaimsIdentity), claimType As String) As IEnumerable(Of String)
   overload: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.GetClaimValues*
   nameWithType.vb: ClaimsIdentitiesExtensions.GetClaimValues(IEnumerable(Of ClaimsIdentity), String)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.GetClaimValues(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), System.String)
+  fullName.vb: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.GetClaimValues(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), String)
   name.vb: GetClaimValues(IEnumerable(Of ClaimsIdentity), String)
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.TryGetClaimValue(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.String,System.String@,System.Boolean)
   commentId: M:SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.TryGetClaimValue(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.String,System.String@,System.Boolean)
@@ -124,13 +96,10 @@ items:
   langs:
   - csharp
   - vb
-  name: TryGetClaimValue(IEnumerable<ClaimsIdentity>, String, out String, Boolean)
-  nameWithType: ClaimsIdentitiesExtensions.TryGetClaimValue(IEnumerable<ClaimsIdentity>, String, out String, Boolean)
-  fullName: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.TryGetClaimValue(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, System.String, out System.String, System.Boolean)
+  name: TryGetClaimValue(IEnumerable<ClaimsIdentity>, string, out string, bool)
+  nameWithType: ClaimsIdentitiesExtensions.TryGetClaimValue(IEnumerable<ClaimsIdentity>, string, out string, bool)
+  fullName: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.TryGetClaimValue(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, string, out string, bool)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
@@ -147,20 +116,11 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function TryGetClaimValue(identities As IEnumerable(Of ClaimsIdentity), claimType As String, ByRef value As String, allowEmptyValues As Boolean = False) As Boolean
+    content.vb: Public Shared Function TryGetClaimValue(identities As IEnumerable(Of ClaimsIdentity), claimType As String, value As String, allowEmptyValues As Boolean = False) As Boolean
   overload: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.TryGetClaimValue*
-  nameWithType.vb: ClaimsIdentitiesExtensions.TryGetClaimValue(IEnumerable(Of ClaimsIdentity), String, ByRef String, Boolean)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.TryGetClaimValue(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), System.String, ByRef System.String, System.Boolean)
-  name.vb: TryGetClaimValue(IEnumerable(Of ClaimsIdentity), String, ByRef String, Boolean)
+  nameWithType.vb: ClaimsIdentitiesExtensions.TryGetClaimValue(IEnumerable(Of ClaimsIdentity), String, String, Boolean)
+  fullName.vb: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.TryGetClaimValue(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), String, String, Boolean)
+  name.vb: TryGetClaimValue(IEnumerable(Of ClaimsIdentity), String, String, Boolean)
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.HavingClaimsOfClaimType(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.String)
   commentId: M:SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.HavingClaimsOfClaimType(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.String)
   id: HavingClaimsOfClaimType(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.String)
@@ -169,69 +129,319 @@ items:
   langs:
   - csharp
   - vb
-  name: HavingClaimsOfClaimType(IEnumerable<ClaimsIdentity>, String)
-  nameWithType: ClaimsIdentitiesExtensions.HavingClaimsOfClaimType(IEnumerable<ClaimsIdentity>, String)
-  fullName: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.HavingClaimsOfClaimType(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, System.String)
+  name: HavingClaimsOfClaimType(IEnumerable<ClaimsIdentity>, string)
+  nameWithType: ClaimsIdentitiesExtensions.HavingClaimsOfClaimType(IEnumerable<ClaimsIdentity>, string)
+  fullName: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.HavingClaimsOfClaimType(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
-  summary: "\nFilter enumerable of <xref href=\"System.Security.Claims.ClaimsIdentity\" data-throw-if-not-resolved=\"false\"></xref> on those having claims of the provided \n"
+  summary: Filter enumerable of <xref href="System.Security.Claims.ClaimsIdentity" data-throw-if-not-resolved="false"></xref> on those having claims of the provided
+  example: []
   syntax:
     content: public static IEnumerable<ClaimsIdentity> HavingClaimsOfClaimType(this IEnumerable<ClaimsIdentity> identities, string claimType)
     parameters:
     - id: identities
       type: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
+      description: ''
     - id: claimType
       type: System.String
+      description: ''
     return:
       type: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function HavingClaimsOfClaimType(identities As IEnumerable(Of ClaimsIdentity), claimType As String) As IEnumerable(Of ClaimsIdentity)
+      description: ''
+    content.vb: Public Shared Function HavingClaimsOfClaimType(identities As IEnumerable(Of ClaimsIdentity), claimType As String) As IEnumerable(Of ClaimsIdentity)
   overload: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.HavingClaimsOfClaimType*
   nameWithType.vb: ClaimsIdentitiesExtensions.HavingClaimsOfClaimType(IEnumerable(Of ClaimsIdentity), String)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.HavingClaimsOfClaimType(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), System.String)
+  fullName.vb: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.HavingClaimsOfClaimType(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), String)
   name.vb: HavingClaimsOfClaimType(IEnumerable(Of ClaimsIdentity), String)
 references:
 - uid: SuperOffice.Security.Claims
   commentId: N:SuperOffice.Security.Claims
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Security.Claims
   nameWithType: SuperOffice.Security.Claims
   fullName: SuperOffice.Security.Claims
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Claims
+    name: Claims
+    isExternal: true
+    href: SuperOffice.Security.Claims.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Claims
+    name: Claims
+    isExternal: true
+    href: SuperOffice.Security.Claims.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.AllClaims*
   commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.AllClaims
   isExternal: true
+  href: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.html#SuperOffice_Security_Claims_ClaimsIdentitiesExtensions_AllClaims_System_Collections_Generic_IEnumerable_System_Security_Claims_ClaimsIdentity__
   name: AllClaims
   nameWithType: ClaimsIdentitiesExtensions.AllClaims
   fullName: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.AllClaims
 - uid: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
-  commentId: '!:System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}'
+  commentId: T:System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<ClaimsIdentity>
   nameWithType: IEnumerable<ClaimsIdentity>
   fullName: System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>
@@ -241,40 +451,32 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.Security.Claims.ClaimsIdentity
     name: ClaimsIdentity
-    nameWithType: ClaimsIdentity
-    fullName: System.Security.Claims.ClaimsIdentity
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Security.Claims.ClaimsIdentity
     name: ClaimsIdentity
-    nameWithType: ClaimsIdentity
-    fullName: System.Security.Claims.ClaimsIdentity
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
-  commentId: '!:System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}'
+  commentId: T:System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<Claim>
   nameWithType: IEnumerable<Claim>
   fullName: System.Collections.Generic.IEnumerable<System.Security.Claims.Claim>
@@ -284,78 +486,96 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.Security.Claims.Claim
     name: Claim
-    nameWithType: Claim
-    fullName: System.Security.Claims.Claim
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claim
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Security.Claims.Claim
     name: Claim
-    nameWithType: Claim
-    fullName: System.Security.Claims.Claim
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claim
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.GetClaimValues*
   commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.GetClaimValues
   isExternal: true
+  href: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.html#SuperOffice_Security_Claims_ClaimsIdentitiesExtensions_GetClaimValues_System_Collections_Generic_IEnumerable_System_Security_Claims_ClaimsIdentity__System_String_
   name: GetClaimValues
   nameWithType: ClaimsIdentitiesExtensions.GetClaimValues
   fullName: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.GetClaimValues
@@ -363,55 +583,52 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Collections.Generic.IEnumerable{System.String}
-  commentId: '!:System.Collections.Generic.IEnumerable{System.String}'
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<String>
-  nameWithType: IEnumerable<String>
-  fullName: System.Collections.Generic.IEnumerable<System.String>
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<string>
+  nameWithType: IEnumerable<string>
+  fullName: System.Collections.Generic.IEnumerable<string>
   nameWithType.vb: IEnumerable(Of String)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of String)
   name.vb: IEnumerable(Of String)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.TryGetClaimValue*
   commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.TryGetClaimValue
   isExternal: true
+  href: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.html#SuperOffice_Security_Claims_ClaimsIdentitiesExtensions_TryGetClaimValue_System_Collections_Generic_IEnumerable_System_Security_Claims_ClaimsIdentity__System_String_System_String__System_Boolean_
   name: TryGetClaimValue
   nameWithType: ClaimsIdentitiesExtensions.TryGetClaimValue
   fullName: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.TryGetClaimValue
@@ -419,12 +636,62 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Security.Claims.ClaimsIdentity
+  commentId: T:System.Security.Claims.ClaimsIdentity
+  parent: System.Security.Claims
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
+  name: ClaimsIdentity
+  nameWithType: ClaimsIdentity
+  fullName: System.Security.Claims.ClaimsIdentity
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.HavingClaimsOfClaimType*
   commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.HavingClaimsOfClaimType
   isExternal: true
+  href: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.html#SuperOffice_Security_Claims_ClaimsIdentitiesExtensions_HavingClaimsOfClaimType_System_Collections_Generic_IEnumerable_System_Security_Claims_ClaimsIdentity__System_String_
   name: HavingClaimsOfClaimType
   nameWithType: ClaimsIdentitiesExtensions.HavingClaimsOfClaimType
   fullName: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.HavingClaimsOfClaimType
+- uid: System.Security.Claims
+  commentId: N:System.Security.Claims
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Security.Claims
+  nameWithType: System.Security.Claims
+  fullName: System.Security.Claims
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Security
+    name: Security
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security
+  - name: .
+  - uid: System.Security.Claims
+    name: Claims
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Security
+    name: Security
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security
+  - name: .
+  - uid: System.Security.Claims
+    name: Claims
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims

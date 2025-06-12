@@ -89,46 +89,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 467,
+    "HierarchyId": 613,
     "Domain": "Dashboards",
-    "Name": "Gutmann Inc and Sons",
-    "Fullname": "autem",
-    "ParentId": 536,
+    "Name": "Gutkowski-Kuphal",
+    "Fullname": "rerum",
+    "ParentId": 910,
     "Children": [
       {
-        "HierarchyId": 991,
+        "HierarchyId": 857,
         "Domain": "Dashboards",
-        "Name": "Cartwright, Cassin and Denesik",
-        "Fullname": "aspernatur",
-        "ParentId": 217,
+        "Name": "Kling Inc and Sons",
+        "Fullname": "excepturi",
+        "ParentId": 361,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2000-09-11T16:32:47.5558268+02:00",
-        "RegisteredAssociateId": 369,
-        "Updated": "2024-11-21T16:32:47.5558268+01:00",
-        "UpdatedAssociateId": 379,
+        "Registered": "2011-09-13T17:54:08.2574567+02:00",
+        "RegisteredAssociateId": 898,
+        "Updated": "2005-10-03T17:54:08.2574567+02:00",
+        "UpdatedAssociateId": 343,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 876
+            "FieldLength": 944
           }
         }
       }
     ],
-    "Registered": "2013-03-24T16:32:47.5558268+01:00",
-    "RegisteredAssociateId": 785,
-    "Updated": "2023-04-06T16:32:47.5558268+02:00",
-    "UpdatedAssociateId": 53,
+    "Registered": "2005-03-05T17:54:08.2574567+01:00",
+    "RegisteredAssociateId": 391,
+    "Updated": "2014-08-19T17:54:08.2574567+02:00",
+    "UpdatedAssociateId": 539,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 971
+        "FieldLength": 551
       }
     }
   }

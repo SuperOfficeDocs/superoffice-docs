@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 585,
-    "Section": "voluptatem",
-    "Key": "minima",
-    "Name": "Hirthe Inc and Sons",
+    "PrefDescId": 177,
+    "Section": "sequi",
+    "Key": "sit",
+    "Name": "Thiel, Brakus and Blanda",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Persevering background migration",
-    "IsBuiltin": false,
-    "TableName": "Schoen, Erdman and Huels",
-    "UserDefinedListId": 393,
-    "Rank": 444,
-    "SubGroup": "quia",
-    "MinLevel": 658,
-    "MaxValue": 889,
-    "MinValue": 829,
-    "RequiredLicense": "quo",
+    "Description": "Persistent uniform challenge",
+    "IsBuiltin": true,
+    "TableName": "Thiel Group",
+    "UserDefinedListId": 360,
+    "Rank": 684,
+    "SubGroup": "quam",
+    "MinLevel": 443,
+    "MaxValue": 527,
+    "MinValue": 691,
+    "RequiredLicense": "dolor",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 429
+        "FieldLength": 957
       }
     }
   }

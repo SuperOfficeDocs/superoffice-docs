@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.Field
+  commentId: N:SuperOffice.ErpSync.Field
+  id: SuperOffice.ErpSync.Field
+  children:
+  - SuperOffice.ErpSync.Field.ErpFieldCache
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.ErpSync.Field
+  nameWithType: SuperOffice.ErpSync.Field
+  fullName: SuperOffice.ErpSync.Field
+  type: Namespace
+  assemblies:
+  - SuperOffice.Services.Implementation
+references:
+- uid: SuperOffice.ErpSync.Field.ErpFieldCache
+  commentId: T:SuperOffice.ErpSync.Field.ErpFieldCache
+  isExternal: true
+  href: SuperOffice.ErpSync.Field.ErpFieldCache.html
+  name: ErpFieldCache
+  nameWithType: ErpFieldCache
+  fullName: SuperOffice.ErpSync.Field.ErpFieldCache

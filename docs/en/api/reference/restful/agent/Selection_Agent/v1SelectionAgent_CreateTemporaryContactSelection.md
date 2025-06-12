@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,70 +115,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Phased 6th generation concept",
-  "Postit": "dolorum",
+  "Description": "Automated 5th generation neural-net",
+  "Postit": "est",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 550,
-  "IncludePerson": 205,
+  "GroupIdx": 242,
+  "IncludePerson": 874,
   "MemberCount": 99.99,
-  "Name": "Kuhn LLC",
-  "PostitTextId": 458,
-  "CreatedDate": "2008-04-03T16:32:39.914583+02:00",
-  "SelectionId": 545,
-  "SoundEx": "quis",
-  "Source": 661,
-  "TextId": 232,
-  "UpdatedDate": "2000-10-08T16:32:39.914583+02:00",
-  "UpdatedCount": 946,
-  "Visibility": 342,
+  "Name": "Wehner, Wisozk and Breitenberg",
+  "PostitTextId": 8,
+  "CreatedDate": "2000-08-17T17:54:03.6170572+02:00",
+  "SelectionId": 149,
+  "SoundEx": "id",
+  "Source": 962,
+  "TextId": 304,
+  "UpdatedDate": "1999-11-30T17:54:03.6170572+01:00",
+  "UpdatedCount": 735,
+  "Visibility": 128,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 157,
-  "TargetTableName": "Steuber, Hand and Metz",
-  "Completed": false,
-  "LeftSelectionId": 675,
-  "RightSelectionId": 649,
+  "TargetTableNumber": 699,
+  "TargetTableName": "Powlowski, Turcotte and Waters",
+  "Completed": true,
+  "LeftSelectionId": 344,
+  "RightSelectionId": 987,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Stroman LLC",
-  "ShadowProviderName": "Bayer, Muller and Gottlieb",
-  "ChartKey": "eius",
-  "LastLoaded": "2006-07-08T16:32:39.914583+02:00",
-  "LastLoadedBy": 215,
+  "MainProviderName": "Johnson-Gibson",
+  "ShadowProviderName": "Walker Group",
+  "ChartKey": "ea",
+  "LastLoaded": "2009-09-03T17:54:03.6170572+02:00",
+  "LastLoadedBy": 277,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-06-13T16:32:39.914583+02:00",
-  "LastMembershipChangeBy": 262,
+  "LastMembershipChange": "2004-12-24T17:54:03.6170572+01:00",
+  "LastMembershipChangeBy": 849,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ad",
-  "MemberTabHeading": "maxime",
-  "MailingsProviderName": "Rau, Bruen and Waters",
-  "DashboardTileDefinitionId": 930,
+  "MainHeading": "sit",
+  "MemberTabHeading": "quos",
+  "MailingsProviderName": "Corkery LLC",
+  "DashboardTileDefinitionId": 720,
   "VisibleFor": [
     {
-      "VisibleId": 579,
+      "VisibleId": 298,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 754
+          "FieldType": "System.Int32",
+          "FieldLength": 774
         }
       }
     },
     {
-      "VisibleId": 579,
+      "VisibleId": 298,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 754
+          "FieldType": "System.Int32",
+          "FieldLength": 774
         }
       }
     }
@@ -188,7 +188,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 689
+      "FieldLength": 456
     }
   }
 }

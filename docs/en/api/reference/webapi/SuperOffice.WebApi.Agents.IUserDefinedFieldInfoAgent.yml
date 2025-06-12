@@ -45,24 +45,16 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent
   type: Interface
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturns information about user-defined fields, like field type, field size, field label text, default value. Does not return the actual values in the user-defined fields. The values are returned on the entity objects.\n"
+  summary: Returns information about user-defined fields, like field type, field size, field label text, default value. Does not return the actual values in the user-defined fields. The values are returned on the entity objects.
+  example: []
   syntax:
     content: 'public interface IUserDefinedFieldInfoAgent : IDisposable'
-    content.vb: >-
-      Public Interface IUserDefinedFieldInfoAgent
-          Inherits IDisposable
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+    content.vb: Public Interface IUserDefinedFieldInfoAgent Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfoAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfoAsync(SuperOffice.WebApi.RequestOptions)
   id: CreateDefaultUserDefinedFieldInfoAsync(SuperOffice.WebApi.RequestOptions)
@@ -74,19 +66,20 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfoAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfoAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSet default values into a new UserDefinedFieldInfo.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  summary: >-
+    Set default values into a new UserDefinedFieldInfo.
+
+    NetServer calculates default values on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
     content: Task<UserDefinedFieldInfo> CreateDefaultUserDefinedFieldInfoAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserDefinedFieldInfo}
       description: A blank UserDefinedFieldInfo
@@ -103,13 +96,11 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfoAsync(UserDefinedFieldInfo, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfoAsync(SuperOffice.WebApi.Data.UserDefinedFieldInfo, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nUpdates the existing UserDefinedFieldInfo or creates a new UserDefinedFieldInfo if the id parameter is 0. \n"
+  summary: Updates the existing UserDefinedFieldInfo or creates a new UserDefinedFieldInfo if the id parameter is 0.
+  example: []
   syntax:
     content: Task<UserDefinedFieldInfo> SaveUserDefinedFieldInfoAsync(UserDefinedFieldInfo userDefinedFieldInfo, RequestOptions requestOptions = null)
     parameters:
@@ -118,7 +109,7 @@ items:
       description: The UserDefinedFieldInfo that is saved.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserDefinedFieldInfo}
       description: New or updated UserDefinedFieldInfo
@@ -131,17 +122,15 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteUserDefinedFieldInfoAsync(Int32, RequestOptions)
-  nameWithType: IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfoAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfoAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: DeleteUserDefinedFieldInfoAsync(int, RequestOptions)
+  nameWithType: IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfoAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfoAsync(int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nDeletes the UserDefinedFieldInfo\n"
+  summary: Deletes the UserDefinedFieldInfo
+  example: []
   syntax:
     content: Task DeleteUserDefinedFieldInfoAsync(int userDefinedFieldInfoId, RequestOptions requestOptions = null)
     parameters:
@@ -150,11 +139,14 @@ items:
       description: The identity of the UserDefinedFieldInfo
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
     content.vb: Function DeleteUserDefinedFieldInfoAsync(userDefinedFieldInfoId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfoAsync*
+  nameWithType.vb: IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfoAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfoAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteUserDefinedFieldInfoAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetCustomFieldInfoListAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetCustomFieldInfoListAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   id: GetCustomFieldInfoListAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -162,34 +154,35 @@ items:
   langs:
   - csharp
   - vb
-  name: GetCustomFieldInfoListAsync(String, Boolean, RequestOptions)
-  nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfoListAsync(String, Boolean, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetCustomFieldInfoListAsync(System.String, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  name: GetCustomFieldInfoListAsync(string, bool, RequestOptions)
+  nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfoListAsync(string, bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetCustomFieldInfoListAsync(string, bool, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturn information about all the custom fields (user-defined + extra) on a particular table\n"
+  summary: Return information about all the custom fields (user-defined + extra) on a particular table
+  example: []
   syntax:
     content: Task<FieldInfoBase[]> GetCustomFieldInfoListAsync(string tableName, bool includeStandard, RequestOptions requestOptions = null)
     parameters:
     - id: tableName
       type: System.String
-      description: The name of table that owns the custom fields. e.g. &apos;contact&apos;, &apos;person&apos;, &apos;project&apos; etc.
+      description: The name of table that owns the custom fields. e.g. 'contact', 'person', 'project' etc.
     - id: includeStandard
       type: System.Boolean
       description: Include standard fields in result. Default false.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FieldInfoBase[]}
       description: Array of user-defined and extra field info in rank order. Describes default values, mandatory, visiblity, labels and choices.
     content.vb: Function GetCustomFieldInfoListAsync(tableName As String, includeStandard As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of FieldInfoBase())
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetCustomFieldInfoListAsync*
+  nameWithType.vb: IUserDefinedFieldInfoAgent.GetCustomFieldInfoListAsync(String, Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetCustomFieldInfoListAsync(String, Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetCustomFieldInfoListAsync(String, Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetCustomFieldInfoAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetCustomFieldInfoAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   id: GetCustomFieldInfoAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
@@ -197,34 +190,35 @@ items:
   langs:
   - csharp
   - vb
-  name: GetCustomFieldInfoAsync(String, String, RequestOptions)
-  nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfoAsync(String, String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetCustomFieldInfoAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  name: GetCustomFieldInfoAsync(string, string, RequestOptions)
+  nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfoAsync(string, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetCustomFieldInfoAsync(string, string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturn information about a particular custom field (user-defined + extra) on a particular table\n"
+  summary: Return information about a particular custom field (user-defined + extra) on a particular table
+  example: []
   syntax:
     content: Task<FieldInfoBase> GetCustomFieldInfoAsync(string tableName, string fieldName, RequestOptions requestOptions = null)
     parameters:
     - id: tableName
       type: System.String
-      description: The name of table that owns the custom fields. e.g. &apos;contact&apos;, &apos;person&apos;, &apos;project&apos; etc.
+      description: The name of table that owns the custom fields. e.g. 'contact', 'person', 'project' etc.
     - id: fieldName
       type: System.String
-      description: 'The name of the field: prog:id or field name. e.g. &apos;SuperOffice:21&apos; or &apos;x_foobar&apos;'
+      description: "The name of the field: prog:id or field name. e.g. 'SuperOffice:21' or 'x_foobar'"
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FieldInfoBase}
       description: user-defined or extra field info. Describes default values, mandatory, visiblity, labels and choices.
     content.vb: Function GetCustomFieldInfoAsync(tableName As String, fieldName As String, requestOptions As RequestOptions = Nothing) As Task(Of FieldInfoBase)
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetCustomFieldInfoAsync*
+  nameWithType.vb: IUserDefinedFieldInfoAgent.GetCustomFieldInfoAsync(String, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetCustomFieldInfoAsync(String, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetCustomFieldInfoAsync(String, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfoAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfoAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetUserDefinedFieldInfoAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -232,17 +226,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedFieldInfoAsync(Int32, RequestOptions)
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfoAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfoAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: GetUserDefinedFieldInfoAsync(int, RequestOptions)
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfoAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfoAsync(int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGets a specific UserDefinedFieldInfo object.                        \n"
+  summary: Gets a specific UserDefinedFieldInfo object.
+  example: []
   syntax:
     content: Task<UserDefinedFieldInfo> GetUserDefinedFieldInfoAsync(int userDefinedFieldInfoId, RequestOptions requestOptions = null)
     parameters:
@@ -251,12 +243,15 @@ items:
       description: The identifier of the UserDefinedFieldInfo object
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserDefinedFieldInfo}
       description: UserDefinedFieldInfo
     content.vb: Function GetUserDefinedFieldInfoAsync(userDefinedFieldInfoId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of UserDefinedFieldInfo)
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfoAsync*
+  nameWithType.vb: IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfoAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfoAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetUserDefinedFieldInfoAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldListAsync(SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldListAsync(SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
   id: GetUserDefinedFieldListAsync(SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
@@ -268,25 +263,23 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldListAsync(UDefType, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldListAsync(SuperOffice.WebApi.Data.UDefType, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturn information about all the user defined fields on a particular owner type (project, contact, person, etc). Note this may be different than the currently published fields.\n"
+  summary: Return information about all the user defined fields on a particular owner type (project, contact, person, etc). Note this may be different than the currently published fields.
+  example: []
   syntax:
     content: Task<UserDefinedFieldInfo[]> GetUserDefinedFieldListAsync(UDefType ownerType, RequestOptions requestOptions = null)
     parameters:
     - id: ownerType
       type: SuperOffice.WebApi.Data.UDefType
-      description: 'The user-defined field owner-entity id.  '
+      description: The user-defined field owner-entity id.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserDefinedFieldInfo[]}
-      description: 'Returns an array of user-defined field info carriers. '
+      description: Returns an array of user-defined field info carriers.
     content.vb: Function GetUserDefinedFieldListAsync(ownerType As UDefType, requestOptions As RequestOptions = Nothing) As Task(Of UserDefinedFieldInfo())
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldListAsync*
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldListAsync(SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
@@ -300,25 +293,23 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldListAsync(UDefType, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldListAsync(SuperOffice.WebApi.Data.UDefType, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturn information about all the user defined fields on a particular owner type (project, contact, person, etc).\n"
+  summary: Return information about all the user defined fields on a particular owner type (project, contact, person, etc).
+  example: []
   syntax:
     content: Task<UserDefinedFieldInfo[]> GetPublishedUserDefinedFieldListAsync(UDefType ownerType, RequestOptions requestOptions = null)
     parameters:
     - id: ownerType
       type: SuperOffice.WebApi.Data.UDefType
-      description: 'The user-defined field owner-entity id.  '
+      description: The user-defined field owner-entity id.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserDefinedFieldInfo[]}
-      description: 'Returns an array of user-defined field info carriers. '
+      description: Returns an array of user-defined field info carriers.
     content.vb: Function GetPublishedUserDefinedFieldListAsync(ownerType As UDefType, requestOptions As RequestOptions = Nothing) As Task(Of UserDefinedFieldInfo())
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldListAsync*
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabelAsync(System.String,SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
@@ -328,34 +319,35 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedFieldFromFieldLabelAsync(String, UDefType, RequestOptions)
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabelAsync(String, UDefType, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabelAsync(System.String, SuperOffice.WebApi.Data.UDefType, SuperOffice.WebApi.RequestOptions)
+  name: GetUserDefinedFieldFromFieldLabelAsync(string, UDefType, RequestOptions)
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabelAsync(string, UDefType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabelAsync(string, SuperOffice.WebApi.Data.UDefType, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturn information about the given user defined field identified by the owner and the field label. Note that field labels are fuzzy. Leading and trailing spaces and punctuation are ignored. Note this may be different than the currently published fields.\n"
+  summary: Return information about the given user defined field identified by the owner and the field label. Note that field labels are fuzzy. Leading and trailing spaces and punctuation are ignored. Note this may be different than the currently published fields.
+  example: []
   syntax:
     content: Task<UserDefinedFieldInfo> GetUserDefinedFieldFromFieldLabelAsync(string fieldLabel, UDefType ownerType, RequestOptions requestOptions = null)
     parameters:
     - id: fieldLabel
       type: System.String
-      description: The field label - the text label shown in the user interface. Trailing spaces and punctuation (&quot;:&quot; and &quot;.&quot;) are ignored when searching.
+      description: The field label - the text label shown in the user interface. Trailing spaces and punctuation (":" and ".") are ignored when searching.
     - id: ownerType
       type: SuperOffice.WebApi.Data.UDefType
-      description: 'The user-defined field owner-entity id. '
+      description: The user-defined field owner-entity id.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserDefinedFieldInfo}
       description: Returns the user-defined field info carrier, or null if no matching field is found.
     content.vb: Function GetUserDefinedFieldFromFieldLabelAsync(fieldLabel As String, ownerType As UDefType, requestOptions As RequestOptions = Nothing) As Task(Of UserDefinedFieldInfo)
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabelAsync*
+  nameWithType.vb: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabelAsync(String, UDefType, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabelAsync(String, SuperOffice.WebApi.Data.UDefType, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetUserDefinedFieldFromFieldLabelAsync(String, UDefType, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabelAsync(System.String,SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabelAsync(System.String,SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
   id: GetPublishedUserDefinedFieldFromFieldLabelAsync(System.String,SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
@@ -363,34 +355,35 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPublishedUserDefinedFieldFromFieldLabelAsync(String, UDefType, RequestOptions)
-  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabelAsync(String, UDefType, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabelAsync(System.String, SuperOffice.WebApi.Data.UDefType, SuperOffice.WebApi.RequestOptions)
+  name: GetPublishedUserDefinedFieldFromFieldLabelAsync(string, UDefType, RequestOptions)
+  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabelAsync(string, UDefType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabelAsync(string, SuperOffice.WebApi.Data.UDefType, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturn information about the given user defined field identified by the owner and the field label. Note that field labels are fuzzy. Leading and trailing spaces and punctuation are ignored.\n"
+  summary: Return information about the given user defined field identified by the owner and the field label. Note that field labels are fuzzy. Leading and trailing spaces and punctuation are ignored.
+  example: []
   syntax:
     content: Task<UserDefinedFieldInfo> GetPublishedUserDefinedFieldFromFieldLabelAsync(string fieldLabel, UDefType ownerType, RequestOptions requestOptions = null)
     parameters:
     - id: fieldLabel
       type: System.String
-      description: The field label - the text label shown in the user interface. Trailing spaces and punctuation (&quot;:&quot; and &quot;.&quot;) are ignored when searching.
+      description: The field label - the text label shown in the user interface. Trailing spaces and punctuation (":" and ".") are ignored when searching.
     - id: ownerType
       type: SuperOffice.WebApi.Data.UDefType
-      description: 'The user-defined field owner-entity id. '
+      description: The user-defined field owner-entity id.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserDefinedFieldInfo}
       description: Returns the user-defined field info carrier, or null if no matching field is found.
     content.vb: Function GetPublishedUserDefinedFieldFromFieldLabelAsync(fieldLabel As String, ownerType As UDefType, requestOptions As RequestOptions = Nothing) As Task(Of UserDefinedFieldInfo)
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabelAsync*
+  nameWithType.vb: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabelAsync(String, UDefType, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabelAsync(String, SuperOffice.WebApi.Data.UDefType, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetPublishedUserDefinedFieldFromFieldLabelAsync(String, UDefType, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdAsync(System.String,SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdAsync(System.String,SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
   id: GetUserDefinedFieldFromProgIdAsync(System.String,SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
@@ -398,34 +391,35 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedFieldFromProgIdAsync(String, UDefType, RequestOptions)
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdAsync(String, UDefType, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdAsync(System.String, SuperOffice.WebApi.Data.UDefType, SuperOffice.WebApi.RequestOptions)
+  name: GetUserDefinedFieldFromProgIdAsync(string, UDefType, RequestOptions)
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdAsync(string, UDefType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdAsync(string, SuperOffice.WebApi.Data.UDefType, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturn information about the given user defined field identified by the owner and the prog-id. The prog-id is used as the key in the entity carriers. Note this may be different than the currently published fields.\n"
+  summary: Return information about the given user defined field identified by the owner and the prog-id. The prog-id is used as the key in the entity carriers. Note this may be different than the currently published fields.
+  example: []
   syntax:
     content: Task<UserDefinedFieldInfo> GetUserDefinedFieldFromProgIdAsync(string progId, UDefType ownerType, RequestOptions requestOptions = null)
     parameters:
     - id: progId
       type: System.String
-      description: 'The prog.id is a hidden name that uniquely identifies the field. '
+      description: The prog.id is a hidden name that uniquely identifies the field.
     - id: ownerType
       type: SuperOffice.WebApi.Data.UDefType
-      description: 'The user-defined field owner-entity id. '
+      description: The user-defined field owner-entity id.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserDefinedFieldInfo}
       description: Returns the user-defined field info carrier, or null if no matching field is found.
     content.vb: Function GetUserDefinedFieldFromProgIdAsync(progId As String, ownerType As UDefType, requestOptions As RequestOptions = Nothing) As Task(Of UserDefinedFieldInfo)
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdAsync*
+  nameWithType.vb: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdAsync(String, UDefType, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdAsync(String, SuperOffice.WebApi.Data.UDefType, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetUserDefinedFieldFromProgIdAsync(String, UDefType, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgIdAsync(System.String,SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgIdAsync(System.String,SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
   id: GetPublishedUserDefinedFieldFromProgIdAsync(System.String,SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
@@ -433,34 +427,35 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPublishedUserDefinedFieldFromProgIdAsync(String, UDefType, RequestOptions)
-  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgIdAsync(String, UDefType, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgIdAsync(System.String, SuperOffice.WebApi.Data.UDefType, SuperOffice.WebApi.RequestOptions)
+  name: GetPublishedUserDefinedFieldFromProgIdAsync(string, UDefType, RequestOptions)
+  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgIdAsync(string, UDefType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgIdAsync(string, SuperOffice.WebApi.Data.UDefType, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturn information about the given user defined field identified by the owner and the prog-id. The prog-id is used as the key in the entity carriers.\n"
+  summary: Return information about the given user defined field identified by the owner and the prog-id. The prog-id is used as the key in the entity carriers.
+  example: []
   syntax:
     content: Task<UserDefinedFieldInfo> GetPublishedUserDefinedFieldFromProgIdAsync(string progId, UDefType ownerType, RequestOptions requestOptions = null)
     parameters:
     - id: progId
       type: System.String
-      description: 'The prog.id is a hidden name that uniquely identifies the field. '
+      description: The prog.id is a hidden name that uniquely identifies the field.
     - id: ownerType
       type: SuperOffice.WebApi.Data.UDefType
-      description: 'The user-defined field owner-entity id. '
+      description: The user-defined field owner-entity id.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserDefinedFieldInfo}
       description: Returns the user-defined field info carrier, or null if no matching field is found.
     content.vb: Function GetPublishedUserDefinedFieldFromProgIdAsync(progId As String, ownerType As UDefType, requestOptions As RequestOptions = Nothing) As Task(Of UserDefinedFieldInfo)
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgIdAsync*
+  nameWithType.vb: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgIdAsync(String, UDefType, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgIdAsync(String, SuperOffice.WebApi.Data.UDefType, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetPublishedUserDefinedFieldFromProgIdAsync(String, UDefType, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: GetUserDefinedFieldFromIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -468,17 +463,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedFieldFromIdsAsync(Int32[], RequestOptions)
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync(Int32[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  name: GetUserDefinedFieldFromIdsAsync(int[], RequestOptions)
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync(int[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync(int[], SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturn an given array of user defined field identified by the ids.\n"
+  summary: Return an given array of user defined field identified by the ids.
+  example: []
   syntax:
     content: Task<UserDefinedFieldInfo[]> GetUserDefinedFieldFromIdsAsync(int[] ids, RequestOptions requestOptions = null)
     parameters:
@@ -487,15 +480,15 @@ items:
       description: Array of user defined field ids
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserDefinedFieldInfo[]}
       description: Returns an array of user-defined field info carriers
     content.vb: Function GetUserDefinedFieldFromIdsAsync(ids As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of UserDefinedFieldInfo())
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync*
-  nameWithType.vb: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync(Int32(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
-  name.vb: GetUserDefinedFieldFromIdsAsync(Int32(), RequestOptions)
+  nameWithType.vb: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync(Integer(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync(Integer(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetUserDefinedFieldFromIdsAsync(Integer(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync(System.String[],SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync(System.String[],SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
   id: GetUserDefinedFieldFromProgIdsAsync(System.String[],SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
@@ -503,36 +496,34 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedFieldFromProgIdsAsync(String[], UDefType, RequestOptions)
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync(String[], UDefType, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync(System.String[], SuperOffice.WebApi.Data.UDefType, SuperOffice.WebApi.RequestOptions)
+  name: GetUserDefinedFieldFromProgIdsAsync(string[], UDefType, RequestOptions)
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync(string[], UDefType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync(string[], SuperOffice.WebApi.Data.UDefType, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturn an given array user defined field identified by the owner and the prog-ids. The prog-id is used as the key in the entity carriers. Note this may be different than the currently published field layout.\n"
+  summary: Return an given array user defined field identified by the owner and the prog-ids. The prog-id is used as the key in the entity carriers. Note this may be different than the currently published field layout.
+  example: []
   syntax:
     content: Task<UserDefinedFieldInfo[]> GetUserDefinedFieldFromProgIdsAsync(string[] progIds, UDefType ownerType, RequestOptions requestOptions = null)
     parameters:
     - id: progIds
       type: System.String[]
-      description: 'The prog.id is a hidden name that uniquely identifies the field. '
+      description: The prog.id is a hidden name that uniquely identifies the field.
     - id: ownerType
       type: SuperOffice.WebApi.Data.UDefType
-      description: 'The user-defined field owner-entity id. '
+      description: The user-defined field owner-entity id.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserDefinedFieldInfo[]}
       description: Returns an array of user-defined field info carriers
     content.vb: Function GetUserDefinedFieldFromProgIdsAsync(progIds As String(), ownerType As UDefType, requestOptions As RequestOptions = Nothing) As Task(Of UserDefinedFieldInfo())
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync*
   nameWithType.vb: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync(String(), UDefType, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync(System.String(), SuperOffice.WebApi.Data.UDefType, SuperOffice.WebApi.RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync(String(), SuperOffice.WebApi.Data.UDefType, SuperOffice.WebApi.RequestOptions)
   name.vb: GetUserDefinedFieldFromProgIdsAsync(String(), UDefType, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfoAsync(SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.Data.UDefFieldType,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfoAsync(SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.Data.UDefFieldType,SuperOffice.WebApi.RequestOptions)
@@ -545,25 +536,23 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfoAsync(UDefType, UDefFieldType, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfoAsync(SuperOffice.WebApi.Data.UDefType, SuperOffice.WebApi.Data.UDefFieldType, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nCreate a UserDefinedFieldInfo based on a owner-entity id\n"
+  summary: Create a UserDefinedFieldInfo based on a owner-entity id
+  example: []
   syntax:
     content: Task<UserDefinedFieldInfo> CreateUserDefinedFieldInfoAsync(UDefType ownerType, UDefFieldType fieldType, RequestOptions requestOptions = null)
     parameters:
     - id: ownerType
       type: SuperOffice.WebApi.Data.UDefType
-      description: 'The user-defined field owner-entity id.  '
+      description: The user-defined field owner-entity id.
     - id: fieldType
       type: SuperOffice.WebApi.Data.UDefFieldType
       description: The field type of the new field
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserDefinedFieldInfo}
       description: Returns the user-defined field info carrier
@@ -576,17 +565,15 @@ items:
   langs:
   - csharp
   - vb
-  name: ChangeFieldTypeAsync(UserDefinedFieldInfo, UDefFieldType, Boolean, RequestOptions)
-  nameWithType: IUserDefinedFieldInfoAgent.ChangeFieldTypeAsync(UserDefinedFieldInfo, UDefFieldType, Boolean, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.ChangeFieldTypeAsync(SuperOffice.WebApi.Data.UserDefinedFieldInfo, SuperOffice.WebApi.Data.UDefFieldType, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  name: ChangeFieldTypeAsync(UserDefinedFieldInfo, UDefFieldType, bool, RequestOptions)
+  nameWithType: IUserDefinedFieldInfoAgent.ChangeFieldTypeAsync(UserDefinedFieldInfo, UDefFieldType, bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.ChangeFieldTypeAsync(SuperOffice.WebApi.Data.UserDefinedFieldInfo, SuperOffice.WebApi.Data.UDefFieldType, bool, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nCreate a UserDefinedFieldInfo based on a owner-entity id\n"
+  summary: Create a UserDefinedFieldInfo based on a owner-entity id
+  example: []
   syntax:
     content: Task<UserDefinedFieldInfo> ChangeFieldTypeAsync(UserDefinedFieldInfo info, UDefFieldType fieldType, bool isIndexed, RequestOptions requestOptions = null)
     parameters:
@@ -601,12 +588,15 @@ items:
       description: The new indexed status you want
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserDefinedFieldInfo}
       description: Returns the user-defined field info carrier
     content.vb: Function ChangeFieldTypeAsync(info As UserDefinedFieldInfo, fieldType As UDefFieldType, isIndexed As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of UserDefinedFieldInfo)
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.ChangeFieldTypeAsync*
+  nameWithType.vb: IUserDefinedFieldInfoAgent.ChangeFieldTypeAsync(UserDefinedFieldInfo, UDefFieldType, Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.ChangeFieldTypeAsync(SuperOffice.WebApi.Data.UserDefinedFieldInfo, SuperOffice.WebApi.Data.UDefFieldType, Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: ChangeFieldTypeAsync(UserDefinedFieldInfo, UDefFieldType, Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFieldsAsync(SuperOffice.WebApi.Data.UDefType,System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFieldsAsync(SuperOffice.WebApi.Data.UDefType,System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetUserDefinedPageOneFieldsAsync(SuperOffice.WebApi.Data.UDefType,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -614,17 +604,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedPageOneFieldsAsync(UDefType, Int32, RequestOptions)
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFieldsAsync(UDefType, Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFieldsAsync(SuperOffice.WebApi.Data.UDefType, System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: GetUserDefinedPageOneFieldsAsync(UDefType, int, RequestOptions)
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFieldsAsync(UDefType, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFieldsAsync(SuperOffice.WebApi.Data.UDefType, int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet a list of page one fields for given Udef type and current user group\n"
+  summary: Get a list of page one fields for given Udef type and current user group
+  example: []
   syntax:
     content: Task<UserDefinedFieldInfo[]> GetUserDefinedPageOneFieldsAsync(UDefType ownerType, int userGroupId, RequestOptions requestOptions = null)
     parameters:
@@ -636,12 +624,15 @@ items:
       description: Id of UserGroup
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserDefinedFieldInfo[]}
-      description: 'Returns an array of page one user-defined field info carriers. '
+      description: Returns an array of page one user-defined field info carriers.
     content.vb: Function GetUserDefinedPageOneFieldsAsync(ownerType As UDefType, userGroupId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of UserDefinedFieldInfo())
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFieldsAsync*
+  nameWithType.vb: IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFieldsAsync(UDefType, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFieldsAsync(SuperOffice.WebApi.Data.UDefType, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetUserDefinedPageOneFieldsAsync(UDefType, Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFieldsAsync(SuperOffice.WebApi.Data.UDefType,System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFieldsAsync(SuperOffice.WebApi.Data.UDefType,System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetPublishedUserDefinedPageOneFieldsAsync(SuperOffice.WebApi.Data.UDefType,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -649,17 +640,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPublishedUserDefinedPageOneFieldsAsync(UDefType, Int32, RequestOptions)
-  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFieldsAsync(UDefType, Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFieldsAsync(SuperOffice.WebApi.Data.UDefType, System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: GetPublishedUserDefinedPageOneFieldsAsync(UDefType, int, RequestOptions)
+  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFieldsAsync(UDefType, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFieldsAsync(SuperOffice.WebApi.Data.UDefType, int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet a list of page one fields for given Udef type and current user group\n"
+  summary: Get a list of page one fields for given Udef type and current user group
+  example: []
   syntax:
     content: Task<UserDefinedFieldInfo[]> GetPublishedUserDefinedPageOneFieldsAsync(UDefType ownerType, int userGroupId, RequestOptions requestOptions = null)
     parameters:
@@ -671,12 +660,15 @@ items:
       description: Id of UserGroup
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserDefinedFieldInfo[]}
-      description: 'Returns an array of page one user-defined field info carriers. '
+      description: Returns an array of page one user-defined field info carriers.
     content.vb: Function GetPublishedUserDefinedPageOneFieldsAsync(ownerType As UDefType, userGroupId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of UserDefinedFieldInfo())
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFieldsAsync*
+  nameWithType.vb: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFieldsAsync(UDefType, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFieldsAsync(SuperOffice.WebApi.Data.UDefType, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetPublishedUserDefinedPageOneFieldsAsync(UDefType, Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.PublishAsync(SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.PublishAsync(SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
   id: PublishAsync(SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
@@ -688,13 +680,11 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.PublishAsync(UDefType, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.PublishAsync(SuperOffice.WebApi.Data.UDefType, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nPublish changed Udef fields for the given owner type\n"
+  summary: Publish changed Udef fields for the given owner type
+  example: []
   syntax:
     content: Task<int> PublishAsync(UDefType ownerType, RequestOptions requestOptions = null)
     parameters:
@@ -703,7 +693,7 @@ items:
       description: The owner type to publish for
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Int32}
       description: Batch task id or 0 that handles publishing.
@@ -720,13 +710,11 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.RevertAsync(UDefType, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.RevertAsync(SuperOffice.WebApi.Data.UDefType, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nRevert changed Udef fields for the given owner type - all unpublished changes will be lost\n"
+  summary: Revert changed Udef fields for the given owner type - all unpublished changes will be lost
+  example: []
   syntax:
     content: Task RevertAsync(UDefType ownerType, RequestOptions requestOptions = null)
     parameters:
@@ -735,9 +723,10 @@ items:
       description: The owner type to revert fields for
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
+      description: ''
     content.vb: Function RevertAsync(ownerType As UDefType, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.RevertAsync*
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfosAsync(SuperOffice.WebApi.Data.UserDefinedFieldInfo[],SuperOffice.WebApi.RequestOptions)
@@ -751,13 +740,11 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfosAsync(UserDefinedFieldInfo[], RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfosAsync(SuperOffice.WebApi.Data.UserDefinedFieldInfo[], SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSave an array of user defined fields. This will update the unpublished layout.\n"
+  summary: Save an array of user defined fields. This will update the unpublished layout.
+  example: []
   syntax:
     content: Task SaveUserDefinedFieldInfosAsync(UserDefinedFieldInfo[] infos, RequestOptions requestOptions = null)
     parameters:
@@ -766,9 +753,10 @@ items:
       description: An array of user defined fields
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
+      description: ''
     content.vb: Function SaveUserDefinedFieldInfosAsync(infos As UserDefinedFieldInfo(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfosAsync*
   nameWithType.vb: IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfosAsync(UserDefinedFieldInfo(), RequestOptions)
@@ -785,13 +773,11 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.DetectUnpublishedChangesAsync(UDefType, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.DetectUnpublishedChangesAsync(SuperOffice.WebApi.Data.UDefType, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nDetect changes to the admin version (unpublished)\n"
+  summary: Detect changes to the admin version (unpublished)
+  example: []
   syntax:
     content: Task<bool> DetectUnpublishedChangesAsync(UDefType ownerType, RequestOptions requestOptions = null)
     parameters:
@@ -800,7 +786,7 @@ items:
       description: The owner type
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Boolean}
       description: Returns true if any changes were found. This includes cosmetic changes.
@@ -817,13 +803,11 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.DetectColumnIdChangesAsync(UDefType, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.DetectColumnIdChangesAsync(SuperOffice.WebApi.Data.UDefType, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nDetect columnid changes to the admin version (for determining publish warning)\n"
+  summary: Detect columnid changes to the admin version (for determining publish warning)
+  example: []
   syntax:
     content: Task<bool> DetectColumnIdChangesAsync(UDefType ownerType, RequestOptions requestOptions = null)
     parameters:
@@ -832,7 +816,7 @@ items:
       description: The owner type
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Boolean}
       description: Returns true if columnid changes where found. i.e. if data needs to be moved during publishing.
@@ -845,17 +829,15 @@ items:
   langs:
   - csharp
   - vb
-  name: SetUserDefinedPageOneFieldAsync(UDefType, Int32, Int32, Int32, RequestOptions)
-  nameWithType: IUserDefinedFieldInfoAgent.SetUserDefinedPageOneFieldAsync(UDefType, Int32, Int32, Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneFieldAsync(SuperOffice.WebApi.Data.UDefType, System.Int32, System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: SetUserDefinedPageOneFieldAsync(UDefType, int, int, int, RequestOptions)
+  nameWithType: IUserDefinedFieldInfoAgent.SetUserDefinedPageOneFieldAsync(UDefType, int, int, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneFieldAsync(SuperOffice.WebApi.Data.UDefType, int, int, int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSets a user defined fields as page one field.\n"
+  summary: Sets a user defined fields as page one field.
+  example: []
   syntax:
     content: Task SetUserDefinedPageOneFieldAsync(UDefType ownerType, int udefFieldId, int userGroupId, int fieldLineNo, RequestOptions requestOptions = null)
     parameters:
@@ -873,11 +855,15 @@ items:
       description: Page one line number
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
+      description: ''
     content.vb: Function SetUserDefinedPageOneFieldAsync(ownerType As UDefType, udefFieldId As Integer, userGroupId As Integer, fieldLineNo As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneFieldAsync*
+  nameWithType.vb: IUserDefinedFieldInfoAgent.SetUserDefinedPageOneFieldAsync(UDefType, Integer, Integer, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneFieldAsync(SuperOffice.WebApi.Data.UDefType, Integer, Integer, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: SetUserDefinedPageOneFieldAsync(UDefType, Integer, Integer, Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.IsPublishEventActiveAsync(SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.IsPublishEventActiveAsync(SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
   id: IsPublishEventActiveAsync(SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
@@ -889,23 +875,23 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.IsPublishEventActiveAsync(UDefType, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.IsPublishEventActiveAsync(SuperOffice.WebApi.Data.UDefType, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nCheck if the publish event is active for the given type\n"
+  summary: Check if the publish event is active for the given type
+  example: []
   syntax:
     content: Task<bool> IsPublishEventActiveAsync(UDefType type, RequestOptions requestOptions = null)
     parameters:
     - id: type
       type: SuperOffice.WebApi.Data.UDefType
+      description: ''
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Boolean}
+      description: ''
     content.vb: Function IsPublishEventActiveAsync(type As UDefType, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.IsPublishEventActiveAsync*
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.IsAnyPublishEventActiveAsync(SuperOffice.WebApi.RequestOptions)
@@ -919,21 +905,20 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.IsAnyPublishEventActiveAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.IsAnyPublishEventActiveAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nCheck if any publish events are active\n"
+  summary: Check if any publish events are active
+  example: []
   syntax:
     content: Task<bool> IsAnyPublishEventActiveAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Boolean}
+      description: ''
     content.vb: Function IsAnyPublishEventActiveAsync(requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.IsAnyPublishEventActiveAsync*
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetChangedPageOneFieldsAsync(SuperOffice.WebApi.Data.UDefType,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -943,17 +928,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetChangedPageOneFieldsAsync(UDefType, Int32, RequestOptions)
-  nameWithType: IUserDefinedFieldInfoAgent.GetChangedPageOneFieldsAsync(UDefType, Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetChangedPageOneFieldsAsync(SuperOffice.WebApi.Data.UDefType, System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: GetChangedPageOneFieldsAsync(UDefType, int, RequestOptions)
+  nameWithType: IUserDefinedFieldInfoAgent.GetChangedPageOneFieldsAsync(UDefType, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetChangedPageOneFieldsAsync(SuperOffice.WebApi.Data.UDefType, int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGets which page one fields have changed from the current version\n"
+  summary: Gets which page one fields have changed from the current version
+  example: []
   syntax:
     content: Task<bool[]> GetChangedPageOneFieldsAsync(UDefType ownerType, int userGroupId, RequestOptions requestOptions = null)
     parameters:
@@ -965,11 +948,15 @@ items:
       description: Id of UserGroup
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Boolean[]}
+      description: ''
     content.vb: Function GetChangedPageOneFieldsAsync(ownerType As UDefType, userGroupId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Boolean())
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetChangedPageOneFieldsAsync*
+  nameWithType.vb: IUserDefinedFieldInfoAgent.GetChangedPageOneFieldsAsync(UDefType, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetChangedPageOneFieldsAsync(SuperOffice.WebApi.Data.UDefType, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetChangedPageOneFieldsAsync(UDefType, Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetPageOneFieldGroupingAsync(SuperOffice.WebApi.Data.UDefType,System.Boolean,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetPageOneFieldGroupingAsync(SuperOffice.WebApi.Data.UDefType,System.Boolean,SuperOffice.WebApi.RequestOptions)
   id: SetPageOneFieldGroupingAsync(SuperOffice.WebApi.Data.UDefType,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -977,17 +964,15 @@ items:
   langs:
   - csharp
   - vb
-  name: SetPageOneFieldGroupingAsync(UDefType, Boolean, RequestOptions)
-  nameWithType: IUserDefinedFieldInfoAgent.SetPageOneFieldGroupingAsync(UDefType, Boolean, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetPageOneFieldGroupingAsync(SuperOffice.WebApi.Data.UDefType, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  name: SetPageOneFieldGroupingAsync(UDefType, bool, RequestOptions)
+  nameWithType: IUserDefinedFieldInfoAgent.SetPageOneFieldGroupingAsync(UDefType, bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetPageOneFieldGroupingAsync(SuperOffice.WebApi.Data.UDefType, bool, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSets the Page One Field grouping for a specific entity\n"
+  summary: Sets the Page One Field grouping for a specific entity
+  example: []
   syntax:
     content: Task SetPageOneFieldGroupingAsync(UDefType ownerType, bool active, RequestOptions requestOptions = null)
     parameters:
@@ -999,11 +984,15 @@ items:
       description: If true, use grouping
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
+      description: ''
     content.vb: Function SetPageOneFieldGroupingAsync(ownerType As UDefType, active As Boolean, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetPageOneFieldGroupingAsync*
+  nameWithType.vb: IUserDefinedFieldInfoAgent.SetPageOneFieldGroupingAsync(UDefType, Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetPageOneFieldGroupingAsync(SuperOffice.WebApi.Data.UDefType, Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: SetPageOneFieldGroupingAsync(UDefType, Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync(SuperOffice.WebApi.Data.UserDefinedFieldInfo,System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync(SuperOffice.WebApi.Data.UserDefinedFieldInfo,System.Int32,SuperOffice.WebApi.RequestOptions)
   id: SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync(SuperOffice.WebApi.Data.UserDefinedFieldInfo,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -1011,31 +1000,35 @@ items:
   langs:
   - csharp
   - vb
-  name: SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync(UserDefinedFieldInfo, Int32, RequestOptions)
-  nameWithType: IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync(UserDefinedFieldInfo, Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync(SuperOffice.WebApi.Data.UserDefinedFieldInfo, System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync(UserDefinedFieldInfo, int, RequestOptions)
+  nameWithType: IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync(UserDefinedFieldInfo, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync(SuperOffice.WebApi.Data.UserDefinedFieldInfo, int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nMake stuff similar to what happens in the win client\n"
+  summary: Make stuff similar to what happens in the win client
+  example: []
   syntax:
     content: Task<UserDefinedFieldInfo> SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync(UserDefinedFieldInfo info, int selectedListId, RequestOptions requestOptions = null)
     parameters:
     - id: info
       type: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+      description: ''
     - id: selectedListId
       type: System.Int32
+      description: ''
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserDefinedFieldInfo}
+      description: ''
     content.vb: Function SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync(info As UserDefinedFieldInfo, selectedListId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of UserDefinedFieldInfo)
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync*
+  nameWithType.vb: IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync(UserDefinedFieldInfo, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync(SuperOffice.WebApi.Data.UserDefinedFieldInfo, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync(UserDefinedFieldInfo, Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync(SuperOffice.WebApi.Data.UserDefinedFieldInfo,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync(SuperOffice.WebApi.Data.UserDefinedFieldInfo,SuperOffice.WebApi.RequestOptions)
   id: FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync(SuperOffice.WebApi.Data.UserDefinedFieldInfo,SuperOffice.WebApi.RequestOptions)
@@ -1047,23 +1040,23 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync(UserDefinedFieldInfo, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync(SuperOffice.WebApi.Data.UserDefinedFieldInfo, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nKind of the reverse of SetListTableIdAndUDListDefinitionIdFromSelectedListId\n"
+  summary: Kind of the reverse of SetListTableIdAndUDListDefinitionIdFromSelectedListId
+  example: []
   syntax:
     content: Task<int> FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync(UserDefinedFieldInfo info, RequestOptions requestOptions = null)
     parameters:
     - id: info
       type: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+      description: ''
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Int32}
+      description: ''
     content.vb: Function FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync(info As UserDefinedFieldInfo, requestOptions As RequestOptions = Nothing) As Task(Of Integer)
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync*
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync(SuperOffice.WebApi.Data.UDefType,System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -1073,17 +1066,15 @@ items:
   langs:
   - csharp
   - vb
-  name: SetRankOnFieldsAsync(UDefType, Int32[], RequestOptions)
-  nameWithType: IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync(UDefType, Int32[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync(SuperOffice.WebApi.Data.UDefType, System.Int32[], SuperOffice.WebApi.RequestOptions)
+  name: SetRankOnFieldsAsync(UDefType, int[], RequestOptions)
+  nameWithType: IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync(UDefType, int[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync(SuperOffice.WebApi.Data.UDefType, int[], SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nChange rank of user defined fields\n"
+  summary: Change rank of user defined fields
+  example: []
   syntax:
     content: Task SetRankOnFieldsAsync(UDefType ownerType, int[] rankedFieldsIds, RequestOptions requestOptions = null)
     parameters:
@@ -1095,14 +1086,15 @@ items:
       description: All IDs of this owner-entity in desired rank order
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
+      description: ''
     content.vb: Function SetRankOnFieldsAsync(ownerType As UDefType, rankedFieldsIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync*
-  nameWithType.vb: IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync(UDefType, Int32(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync(SuperOffice.WebApi.Data.UDefType, System.Int32(), SuperOffice.WebApi.RequestOptions)
-  name.vb: SetRankOnFieldsAsync(UDefType, Int32(), RequestOptions)
+  nameWithType.vb: IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync(UDefType, Integer(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync(SuperOffice.WebApi.Data.UDefType, Integer(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetRankOnFieldsAsync(UDefType, Integer(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetPublishStartSystemEventAsync(SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetPublishStartSystemEventAsync(SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
   id: SetPublishStartSystemEventAsync(SuperOffice.WebApi.Data.UDefType,SuperOffice.WebApi.RequestOptions)
@@ -1114,13 +1106,11 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.SetPublishStartSystemEventAsync(UDefType, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetPublishStartSystemEventAsync(SuperOffice.WebApi.Data.UDefType, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSet the start flag for udef publishing. Must be called before PUBLISH, or PUBLISH will fail. Start flag is removed when publish process completes.\n"
+  summary: Set the start flag for udef publishing. Must be called before PUBLISH, or PUBLISH will fail. Start flag is removed when publish process completes.
+  example: []
   syntax:
     content: Task SetPublishStartSystemEventAsync(UDefType ownerType, RequestOptions requestOptions = null)
     parameters:
@@ -1129,9 +1119,10 @@ items:
       description: The user-defined field owner-entity.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
+      description: ''
     content.vb: Function SetPublishStartSystemEventAsync(ownerType As UDefType, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetPublishStartSystemEventAsync*
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.ClearCachesAsync(SuperOffice.WebApi.RequestOptions)
@@ -1145,33 +1136,101 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.ClearCachesAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.ClearCachesAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nClear all relevant caches. This is normally done automatically but can be useful in certain circumstances.\n"
+  summary: Clear all relevant caches. This is normally done automatically but can be useful in certain circumstances.
+  example: []
   syntax:
     content: Task ClearCachesAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
+      description: ''
     content.vb: Function ClearCachesAsync(requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.ClearCachesAsync*
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Agents
   nameWithType: SuperOffice.WebApi.Agents
   fullName: SuperOffice.WebApi.Agents
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfoAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfoAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_CreateDefaultUserDefinedFieldInfoAsync_SuperOffice_WebApi_RequestOptions_
   name: CreateDefaultUserDefinedFieldInfoAsync
   nameWithType: IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfoAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfoAsync
@@ -1179,12 +1238,15 @@ references:
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.WebApi.RequestOptions.html
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: SuperOffice.WebApi.RequestOptions
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserDefinedFieldInfo}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserDefinedFieldInfo}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserDefinedFieldInfo}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<UserDefinedFieldInfo>
   nameWithType: Task<UserDefinedFieldInfo>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.UserDefinedFieldInfo>
@@ -1194,84 +1256,123 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo
     name: UserDefinedFieldInfo
-    nameWithType: UserDefinedFieldInfo
-    fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo
     isExternal: true
+    href: SuperOffice.WebApi.Data.UserDefinedFieldInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo
     name: UserDefinedFieldInfo
-    nameWithType: UserDefinedFieldInfo
-    fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo
     isExternal: true
+    href: SuperOffice.WebApi.Data.UserDefinedFieldInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
 - uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: Task<>
-  nameWithType: Task<>
-  fullName: System.Threading.Tasks.Task<>
-  nameWithType.vb: Task(Of )
-  fullName.vb: System.Threading.Tasks.Task(Of )
-  name.vb: Task(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfoAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfoAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_SaveUserDefinedFieldInfoAsync_SuperOffice_WebApi_Data_UserDefinedFieldInfo_SuperOffice_WebApi_RequestOptions_
   name: SaveUserDefinedFieldInfoAsync
   nameWithType: IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfoAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfoAsync
@@ -1279,18 +1380,51 @@ references:
   commentId: T:SuperOffice.WebApi.Data.UserDefinedFieldInfo
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.UserDefinedFieldInfo.html
   name: UserDefinedFieldInfo
   nameWithType: UserDefinedFieldInfo
   fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfoAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfoAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_DeleteUserDefinedFieldInfoAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: DeleteUserDefinedFieldInfoAsync
   nameWithType: IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfoAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfoAsync
@@ -1298,23 +1432,25 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetCustomFieldInfoListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetCustomFieldInfoListAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_GetCustomFieldInfoListAsync_System_String_System_Boolean_SuperOffice_WebApi_RequestOptions_
   name: GetCustomFieldInfoListAsync
   nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfoListAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetCustomFieldInfoListAsync
@@ -1322,19 +1458,29 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FieldInfoBase[]}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FieldInfoBase[]}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FieldInfoBase[]}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<FieldInfoBase[]>
   nameWithType: Task<FieldInfoBase[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.FieldInfoBase[]>
@@ -1344,52 +1490,43 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.FieldInfoBase
     name: FieldInfoBase
-    nameWithType: FieldInfoBase
-    fullName: SuperOffice.WebApi.Data.FieldInfoBase
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.FieldInfoBase.html
+  - name: '['
+  - name: ']'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.FieldInfoBase
     name: FieldInfoBase
-    nameWithType: FieldInfoBase
-    fullName: SuperOffice.WebApi.Data.FieldInfoBase
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.FieldInfoBase.html
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetCustomFieldInfoAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetCustomFieldInfoAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_GetCustomFieldInfoAsync_System_String_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetCustomFieldInfoAsync
   nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfoAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetCustomFieldInfoAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FieldInfoBase}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FieldInfoBase}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FieldInfoBase}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<FieldInfoBase>
   nameWithType: Task<FieldInfoBase>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.FieldInfoBase>
@@ -1399,46 +1536,38 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.FieldInfoBase
     name: FieldInfoBase
-    nameWithType: FieldInfoBase
-    fullName: SuperOffice.WebApi.Data.FieldInfoBase
     isExternal: true
+    href: SuperOffice.WebApi.Data.FieldInfoBase.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.FieldInfoBase
     name: FieldInfoBase
-    nameWithType: FieldInfoBase
-    fullName: SuperOffice.WebApi.Data.FieldInfoBase
     isExternal: true
+    href: SuperOffice.WebApi.Data.FieldInfoBase.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfoAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfoAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_GetUserDefinedFieldInfoAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetUserDefinedFieldInfoAsync
   nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfoAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfoAsync
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldListAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_GetUserDefinedFieldListAsync_SuperOffice_WebApi_Data_UDefType_SuperOffice_WebApi_RequestOptions_
   name: GetUserDefinedFieldListAsync
   nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldListAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldListAsync
@@ -1446,12 +1575,15 @@ references:
   commentId: T:SuperOffice.WebApi.Data.UDefType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.UDefType.html
   name: UDefType
   nameWithType: UDefType
   fullName: SuperOffice.WebApi.Data.UDefType
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserDefinedFieldInfo[]}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserDefinedFieldInfo[]}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserDefinedFieldInfo[]}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<UserDefinedFieldInfo[]>
   nameWithType: Task<UserDefinedFieldInfo[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.UserDefinedFieldInfo[]>
@@ -1461,140 +1593,130 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo
     name: UserDefinedFieldInfo
-    nameWithType: UserDefinedFieldInfo
-    fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.UserDefinedFieldInfo.html
+  - name: '['
+  - name: ']'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo
     name: UserDefinedFieldInfo
-    nameWithType: UserDefinedFieldInfo
-    fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.UserDefinedFieldInfo.html
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldListAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldListAsync_SuperOffice_WebApi_Data_UDefType_SuperOffice_WebApi_RequestOptions_
   name: GetPublishedUserDefinedFieldListAsync
   nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldListAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldListAsync
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabelAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabelAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_GetUserDefinedFieldFromFieldLabelAsync_System_String_SuperOffice_WebApi_Data_UDefType_SuperOffice_WebApi_RequestOptions_
   name: GetUserDefinedFieldFromFieldLabelAsync
   nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabelAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabelAsync
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabelAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabelAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldFromFieldLabelAsync_System_String_SuperOffice_WebApi_Data_UDefType_SuperOffice_WebApi_RequestOptions_
   name: GetPublishedUserDefinedFieldFromFieldLabelAsync
   nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabelAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabelAsync
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_GetUserDefinedFieldFromProgIdAsync_System_String_SuperOffice_WebApi_Data_UDefType_SuperOffice_WebApi_RequestOptions_
   name: GetUserDefinedFieldFromProgIdAsync
   nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdAsync
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgIdAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgIdAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldFromProgIdAsync_System_String_SuperOffice_WebApi_Data_UDefType_SuperOffice_WebApi_RequestOptions_
   name: GetPublishedUserDefinedFieldFromProgIdAsync
   nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgIdAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgIdAsync
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_GetUserDefinedFieldFromIdsAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
   name: GetUserDefinedFieldFromIdsAsync
   nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync
 - uid: System.Int32[]
   isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
   spec.csharp:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_GetUserDefinedFieldFromProgIdsAsync_System_String___SuperOffice_WebApi_Data_UDefType_SuperOffice_WebApi_RequestOptions_
   name: GetUserDefinedFieldFromProgIdsAsync
   nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync
 - uid: System.String[]
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
   nameWithType.vb: String()
-  fullName.vb: System.String()
+  fullName.vb: String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfoAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfoAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_CreateUserDefinedFieldInfoAsync_SuperOffice_WebApi_Data_UDefType_SuperOffice_WebApi_Data_UDefFieldType_SuperOffice_WebApi_RequestOptions_
   name: CreateUserDefinedFieldInfoAsync
   nameWithType: IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfoAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfoAsync
@@ -1602,90 +1724,90 @@ references:
   commentId: T:SuperOffice.WebApi.Data.UDefFieldType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.UDefFieldType.html
   name: UDefFieldType
   nameWithType: UDefFieldType
   fullName: SuperOffice.WebApi.Data.UDefFieldType
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.ChangeFieldTypeAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.ChangeFieldTypeAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_ChangeFieldTypeAsync_SuperOffice_WebApi_Data_UserDefinedFieldInfo_SuperOffice_WebApi_Data_UDefFieldType_System_Boolean_SuperOffice_WebApi_RequestOptions_
   name: ChangeFieldTypeAsync
   nameWithType: IUserDefinedFieldInfoAgent.ChangeFieldTypeAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.ChangeFieldTypeAsync
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFieldsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFieldsAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_GetUserDefinedPageOneFieldsAsync_SuperOffice_WebApi_Data_UDefType_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetUserDefinedPageOneFieldsAsync
   nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFieldsAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFieldsAsync
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFieldsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFieldsAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_GetPublishedUserDefinedPageOneFieldsAsync_SuperOffice_WebApi_Data_UDefType_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetPublishedUserDefinedPageOneFieldsAsync
   nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFieldsAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFieldsAsync
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.PublishAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.PublishAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_PublishAsync_SuperOffice_WebApi_Data_UDefType_SuperOffice_WebApi_RequestOptions_
   name: PublishAsync
   nameWithType: IUserDefinedFieldInfoAgent.PublishAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.PublishAsync
 - uid: System.Threading.Tasks.Task{System.Int32}
-  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
-  name: Task<Int32>
-  nameWithType: Task<Int32>
-  fullName: System.Threading.Tasks.Task<System.Int32>
-  nameWithType.vb: Task(Of Int32)
-  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
-  name.vb: Task(Of Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.RevertAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.RevertAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_RevertAsync_SuperOffice_WebApi_Data_UDefType_SuperOffice_WebApi_RequestOptions_
   name: RevertAsync
   nameWithType: IUserDefinedFieldInfoAgent.RevertAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.RevertAsync
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfosAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfosAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_SaveUserDefinedFieldInfosAsync_SuperOffice_WebApi_Data_UserDefinedFieldInfo___SuperOffice_WebApi_RequestOptions_
   name: SaveUserDefinedFieldInfosAsync
   nameWithType: IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfosAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfosAsync
 - uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo[]
   isExternal: true
+  href: SuperOffice.WebApi.Data.UserDefinedFieldInfo.html
   name: UserDefinedFieldInfo[]
   nameWithType: UserDefinedFieldInfo[]
   fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo[]
@@ -1695,182 +1817,172 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo
     name: UserDefinedFieldInfo
-    nameWithType: UserDefinedFieldInfo
-    fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.UserDefinedFieldInfo.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo
     name: UserDefinedFieldInfo
-    nameWithType: UserDefinedFieldInfo
-    fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.UserDefinedFieldInfo.html
+  - name: (
+  - name: )
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.DetectUnpublishedChangesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.DetectUnpublishedChangesAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_DetectUnpublishedChangesAsync_SuperOffice_WebApi_Data_UDefType_SuperOffice_WebApi_RequestOptions_
   name: DetectUnpublishedChangesAsync
   nameWithType: IUserDefinedFieldInfoAgent.DetectUnpublishedChangesAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.DetectUnpublishedChangesAsync
 - uid: System.Threading.Tasks.Task{System.Boolean}
-  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
-  name: Task<Boolean>
-  nameWithType: Task<Boolean>
-  fullName: System.Threading.Tasks.Task<System.Boolean>
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
   nameWithType.vb: Task(Of Boolean)
-  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
   name.vb: Task(Of Boolean)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.DetectColumnIdChangesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.DetectColumnIdChangesAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_DetectColumnIdChangesAsync_SuperOffice_WebApi_Data_UDefType_SuperOffice_WebApi_RequestOptions_
   name: DetectColumnIdChangesAsync
   nameWithType: IUserDefinedFieldInfoAgent.DetectColumnIdChangesAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.DetectColumnIdChangesAsync
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneFieldAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneFieldAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_SetUserDefinedPageOneFieldAsync_SuperOffice_WebApi_Data_UDefType_System_Int32_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: SetUserDefinedPageOneFieldAsync
   nameWithType: IUserDefinedFieldInfoAgent.SetUserDefinedPageOneFieldAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneFieldAsync
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.IsPublishEventActiveAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.IsPublishEventActiveAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_IsPublishEventActiveAsync_SuperOffice_WebApi_Data_UDefType_SuperOffice_WebApi_RequestOptions_
   name: IsPublishEventActiveAsync
   nameWithType: IUserDefinedFieldInfoAgent.IsPublishEventActiveAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.IsPublishEventActiveAsync
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.IsAnyPublishEventActiveAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.IsAnyPublishEventActiveAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_IsAnyPublishEventActiveAsync_SuperOffice_WebApi_RequestOptions_
   name: IsAnyPublishEventActiveAsync
   nameWithType: IUserDefinedFieldInfoAgent.IsAnyPublishEventActiveAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.IsAnyPublishEventActiveAsync
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetChangedPageOneFieldsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetChangedPageOneFieldsAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_GetChangedPageOneFieldsAsync_SuperOffice_WebApi_Data_UDefType_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetChangedPageOneFieldsAsync
   nameWithType: IUserDefinedFieldInfoAgent.GetChangedPageOneFieldsAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.GetChangedPageOneFieldsAsync
 - uid: System.Threading.Tasks.Task{System.Boolean[]}
-  commentId: '!:System.Threading.Tasks.Task{System.Boolean[]}'
+  commentId: T:System.Threading.Tasks.Task{System.Boolean[]}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
-  name: Task<Boolean[]>
-  nameWithType: Task<Boolean[]>
-  fullName: System.Threading.Tasks.Task<System.Boolean[]>
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool[]>
+  nameWithType: Task<bool[]>
+  fullName: System.Threading.Tasks.Task<bool[]>
   nameWithType.vb: Task(Of Boolean())
-  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean())
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean())
   name.vb: Task(Of Boolean())
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '['
+  - name: ']'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetPageOneFieldGroupingAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetPageOneFieldGroupingAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_SetPageOneFieldGroupingAsync_SuperOffice_WebApi_Data_UDefType_System_Boolean_SuperOffice_WebApi_RequestOptions_
   name: SetPageOneFieldGroupingAsync
   nameWithType: IUserDefinedFieldInfoAgent.SetPageOneFieldGroupingAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetPageOneFieldGroupingAsync
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync_SuperOffice_WebApi_Data_UserDefinedFieldInfo_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync
   nameWithType: IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync_SuperOffice_WebApi_Data_UserDefinedFieldInfo_SuperOffice_WebApi_RequestOptions_
   name: FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync
   nameWithType: IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_SetRankOnFieldsAsync_SuperOffice_WebApi_Data_UDefType_System_Int32___SuperOffice_WebApi_RequestOptions_
   name: SetRankOnFieldsAsync
   nameWithType: IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetPublishStartSystemEventAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetPublishStartSystemEventAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_SetPublishStartSystemEventAsync_SuperOffice_WebApi_Data_UDefType_SuperOffice_WebApi_RequestOptions_
   name: SetPublishStartSystemEventAsync
   nameWithType: IUserDefinedFieldInfoAgent.SetPublishStartSystemEventAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.SetPublishStartSystemEventAsync
 - uid: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.ClearCachesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.ClearCachesAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.html#SuperOffice_WebApi_Agents_IUserDefinedFieldInfoAgent_ClearCachesAsync_SuperOffice_WebApi_RequestOptions_
   name: ClearCachesAsync
   nameWithType: IUserDefinedFieldInfoAgent.ClearCachesAsync
   fullName: SuperOffice.WebApi.Agents.IUserDefinedFieldInfoAgent.ClearCachesAsync

@@ -21,31 +21,40 @@ items:
   nameWithType: PreviewDash
   fullName: SuperOffice.CRM.Services.PreviewDash
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDashboard preview\n<p></p>\nCarrier object for PreviewDash.\nServices for the PreviewDash Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IDashAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Dashboard preview
+
+    <p></p>
+
+    Carrier object for PreviewDash.
+
+    Services for the PreviewDash Carrier is available from the <xref href="SuperOffice.CRM.Services.IDashAgent?text=Dash+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class PreviewDash : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class PreviewDash : Carrier
     content.vb: >-
-      Public Class PreviewDash
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class PreviewDash Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.DashAgent
-    commentId: T:SuperOffice.CRM.Services.DashAgent
   - linkId: SuperOffice.CRM.Services.IDashAgent
     commentId: T:SuperOffice.CRM.Services.IDashAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.PreviewDash.#ctor
   commentId: M:SuperOffice.CRM.Services.PreviewDash.#ctor
   id: '#ctor'
@@ -57,21 +66,18 @@ items:
   nameWithType: PreviewDash.PreviewDash()
   fullName: SuperOffice.CRM.Services.PreviewDash.PreviewDash()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public PreviewDash()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.PreviewDash.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: PreviewDash.New()
+  fullName.vb: SuperOffice.CRM.Services.PreviewDash.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.PreviewDash.ToString
   commentId: M:SuperOffice.CRM.Services.PreviewDash.ToString
   id: ToString
@@ -83,26 +89,18 @@ items:
   nameWithType: PreviewDash.ToString()
   fullName: SuperOffice.CRM.Services.PreviewDash.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.PreviewDash.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.PreviewDash.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.PreviewDash.ToString(System.String)
   id: ToString(System.String)
@@ -110,17 +108,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: PreviewDash.ToString(String)
-  fullName: SuperOffice.CRM.Services.PreviewDash.ToString(System.String)
+  name: ToString(string)
+  nameWithType: PreviewDash.ToString(string)
+  fullName: SuperOffice.CRM.Services.PreviewDash.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -132,10 +131,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.PreviewDash.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: PreviewDash.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.PreviewDash.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.PreviewDash.DashboardId
   commentId: P:SuperOffice.CRM.Services.PreviewDash.DashboardId
   id: DashboardId
@@ -147,28 +145,28 @@ items:
   nameWithType: PreviewDash.DashboardId
   fullName: SuperOffice.CRM.Services.PreviewDash.DashboardId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
-    content: public virtual int DashboardId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int DashboardId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property DashboardId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property DashboardId As Integer
   overload: SuperOffice.CRM.Services.PreviewDash.DashboardId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.PreviewDash.Name
   commentId: P:SuperOffice.CRM.Services.PreviewDash.Name
   id: Name
@@ -180,28 +178,28 @@ items:
   nameWithType: PreviewDash.Name
   fullName: SuperOffice.CRM.Services.PreviewDash.Name
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe name of this dashboard \n"
+  summary: The name of this dashboard
+  example: []
   syntax:
-    content: public virtual string Name { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Name As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Name As String
   overload: SuperOffice.CRM.Services.PreviewDash.Name*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.PreviewDash.Description
   commentId: P:SuperOffice.CRM.Services.PreviewDash.Description
   id: Description
@@ -213,28 +211,28 @@ items:
   nameWithType: PreviewDash.Description
   fullName: SuperOffice.CRM.Services.PreviewDash.Description
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDetailed description \n"
+  summary: Detailed description
+  example: []
   syntax:
-    content: public virtual string Description { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Description { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Description As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Description As String
   overload: SuperOffice.CRM.Services.PreviewDash.Description*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.PreviewDash.OwnedByFullName
   commentId: P:SuperOffice.CRM.Services.PreviewDash.OwnedByFullName
   id: OwnedByFullName
@@ -246,28 +244,28 @@ items:
   nameWithType: PreviewDash.OwnedByFullName
   fullName: SuperOffice.CRM.Services.PreviewDash.OwnedByFullName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nFull name of dashboard owner \n"
+  summary: Full name of dashboard owner
+  example: []
   syntax:
-    content: public virtual string OwnedByFullName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string OwnedByFullName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property OwnedByFullName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property OwnedByFullName As String
   overload: SuperOffice.CRM.Services.PreviewDash.OwnedByFullName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.PreviewDash.Registered
   commentId: P:SuperOffice.CRM.Services.PreviewDash.Registered
   id: Registered
@@ -279,28 +277,28 @@ items:
   nameWithType: PreviewDash.Registered
   fullName: SuperOffice.CRM.Services.PreviewDash.Registered
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRegistered when  in UTC.\n"
+  summary: Registered when  in UTC.
+  example: []
   syntax:
-    content: public virtual DateTime Registered { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime Registered { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Registered As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Registered As Date
   overload: SuperOffice.CRM.Services.PreviewDash.Registered*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.PreviewDash.Tiles
   commentId: P:SuperOffice.CRM.Services.PreviewDash.Tiles
   id: Tiles
@@ -312,57 +310,106 @@ items:
   nameWithType: PreviewDash.Tiles
   fullName: SuperOffice.CRM.Services.PreviewDash.Tiles
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDashboard tiles \n"
+  summary: Dashboard tiles
+  example: []
   syntax:
-    content: public virtual PreviewDashTile[] Tiles { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual PreviewDashTile[] Tiles { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.PreviewDashTile[]
-    content.vb: Public Overridable Property Tiles As PreviewDashTile()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Tiles As PreviewDashTile()
   overload: SuperOffice.CRM.Services.PreviewDash.Tiles*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.DashAgent
-  commentId: T:SuperOffice.CRM.Services.DashAgent
-  isExternal: true
-  name: DashAgent
-  nameWithType: DashAgent
-  fullName: SuperOffice.CRM.Services.DashAgent
 - uid: SuperOffice.CRM.Services.IDashAgent
   commentId: T:SuperOffice.CRM.Services.IDashAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IDashAgent.html
   name: IDashAgent
   nameWithType: IDashAgent
   fullName: SuperOffice.CRM.Services.IDashAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.PreviewDash.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.PreviewDash.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.PreviewDash.html#SuperOffice_CRM_Services_PreviewDash__ctor
   name: PreviewDash
   nameWithType: PreviewDash.PreviewDash
   fullName: SuperOffice.CRM.Services.PreviewDash.PreviewDash
+  nameWithType.vb: PreviewDash.New
+  fullName.vb: SuperOffice.CRM.Services.PreviewDash.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.PreviewDash.ToString*
   commentId: Overload:SuperOffice.CRM.Services.PreviewDash.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.PreviewDash.html#SuperOffice_CRM_Services_PreviewDash_ToString
   name: ToString
   nameWithType: PreviewDash.ToString
   fullName: SuperOffice.CRM.Services.PreviewDash.ToString
@@ -370,18 +417,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.PreviewDash.DashboardId*
   commentId: Overload:SuperOffice.CRM.Services.PreviewDash.DashboardId
   isExternal: true
+  href: SuperOffice.CRM.Services.PreviewDash.html#SuperOffice_CRM_Services_PreviewDash_DashboardId
   name: DashboardId
   nameWithType: PreviewDash.DashboardId
   fullName: SuperOffice.CRM.Services.PreviewDash.DashboardId
@@ -389,46 +435,62 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.PreviewDash.Name*
   commentId: Overload:SuperOffice.CRM.Services.PreviewDash.Name
   isExternal: true
+  href: SuperOffice.CRM.Services.PreviewDash.html#SuperOffice_CRM_Services_PreviewDash_Name
   name: Name
   nameWithType: PreviewDash.Name
   fullName: SuperOffice.CRM.Services.PreviewDash.Name
 - uid: SuperOffice.CRM.Services.PreviewDash.Description*
   commentId: Overload:SuperOffice.CRM.Services.PreviewDash.Description
   isExternal: true
+  href: SuperOffice.CRM.Services.PreviewDash.html#SuperOffice_CRM_Services_PreviewDash_Description
   name: Description
   nameWithType: PreviewDash.Description
   fullName: SuperOffice.CRM.Services.PreviewDash.Description
 - uid: SuperOffice.CRM.Services.PreviewDash.OwnedByFullName*
   commentId: Overload:SuperOffice.CRM.Services.PreviewDash.OwnedByFullName
   isExternal: true
+  href: SuperOffice.CRM.Services.PreviewDash.html#SuperOffice_CRM_Services_PreviewDash_OwnedByFullName
   name: OwnedByFullName
   nameWithType: PreviewDash.OwnedByFullName
   fullName: SuperOffice.CRM.Services.PreviewDash.OwnedByFullName
 - uid: SuperOffice.CRM.Services.PreviewDash.Registered*
   commentId: Overload:SuperOffice.CRM.Services.PreviewDash.Registered
   isExternal: true
+  href: SuperOffice.CRM.Services.PreviewDash.html#SuperOffice_CRM_Services_PreviewDash_Registered
   name: Registered
   nameWithType: PreviewDash.Registered
   fullName: SuperOffice.CRM.Services.PreviewDash.Registered
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.Services.PreviewDash.Tiles*
   commentId: Overload:SuperOffice.CRM.Services.PreviewDash.Tiles
   isExternal: true
+  href: SuperOffice.CRM.Services.PreviewDash.html#SuperOffice_CRM_Services_PreviewDash_Tiles
   name: Tiles
   nameWithType: PreviewDash.Tiles
   fullName: SuperOffice.CRM.Services.PreviewDash.Tiles
 - uid: SuperOffice.CRM.Services.PreviewDashTile[]
   isExternal: true
+  href: SuperOffice.CRM.Services.PreviewDashTile.html
   name: PreviewDashTile[]
   nameWithType: PreviewDashTile[]
   fullName: SuperOffice.CRM.Services.PreviewDashTile[]
@@ -438,18 +500,14 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.PreviewDashTile
     name: PreviewDashTile
-    nameWithType: PreviewDashTile
-    fullName: SuperOffice.CRM.Services.PreviewDashTile
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.PreviewDashTile.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.PreviewDashTile
     name: PreviewDashTile
-    nameWithType: PreviewDashTile
-    fullName: SuperOffice.CRM.Services.PreviewDashTile
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.Services.PreviewDashTile.html
+  - name: (
+  - name: )

@@ -21,12 +21,12 @@ items:
   - SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_CounterValue_ProjectId
   - SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Email_ProjectId
   - SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_ProjectMember_ProjectId
-  - SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Sale_ProjectId
-  - SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SaleHist_ProjectId
   - SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_AddProject
   - SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_RemoveProject
   - SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_TaskProject
   - SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SShipment_ProjectId
+  - SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SaleHist_ProjectId
+  - SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Sale_ProjectId
   - SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_StatusValue_ProjectId
   - SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Ticket_ProjectId
   - SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_URL_ProjectId
@@ -67,14 +67,21 @@ items:
   nameWithType: ProjectTableInfo
   fullName: SuperOffice.CRM.Data.ProjectTableInfo
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTable &apos;project&apos;: Projects\n"
-  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetProjectInfo()\"></see>.\n"
+  summary: "Table 'project': Projects"
+  remarks: >-
+    An instance of this class represents one instance of this table in an SQL statement. In most
+
+    cases each table appears only once in a SELECT, but in cases where you need to self-join, or
+
+    there are multiple occurrences for other reasons (typically additional restrictions in the joins),
+
+    then you will need multiple instances. <br />
+
+    Instances of this class are created by calling TablesInfo.GetProjectInfo().
+  example: []
   syntax:
     content: >-
       [DatabaseTable("project")]
@@ -83,9 +90,7 @@ items:
     content.vb: >-
       <DatabaseTable("project")>
 
-      Public Class ProjectTableInfo
-          Inherits TableInfo
-          Implements ICloneable
+      Public Class ProjectTableInfo Inherits TableInfo Implements ICloneable
   inheritance:
   - System.Object
   - SuperOffice.Data.SQL.TableInfo
@@ -106,6 +111,12 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.ProjectTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.ProjectTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -115,12 +126,6 @@ items:
     arguments:
     - type: System.String
       value: project
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.DictionaryTableName
   commentId: F:SuperOffice.CRM.Data.ProjectTableInfo.DictionaryTableName
   id: DictionaryTableName
@@ -132,24 +137,16 @@ items:
   nameWithType: ProjectTableInfo.DictionaryTableName
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.DictionaryTableName
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nConceptual name of table Project in the database dictionary: project\n"
+  summary: 'Conceptual name of table Project in the database dictionary: project'
+  example: []
   syntax:
     content: public const string DictionaryTableName = "project"
     return:
       type: System.String
     content.vb: Public Const DictionaryTableName As String = "project"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.DictionaryTableNumber
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.DictionaryTableNumber
   id: DictionaryTableNumber
@@ -161,13 +158,14 @@ items:
   nameWithType: ProjectTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.DictionaryTableNumber
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTable number for table Project in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
+  summary: >-
+    Table number for table Project in the database dictionary; potentially changes between databases, but
+
+    always the same over the lifetime of any single database
+  example: []
   syntax:
     content: public int DictionaryTableNumber { get; }
     parameters: []
@@ -175,12 +173,6 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
   overload: SuperOffice.CRM.Data.ProjectTableInfo.DictionaryTableNumber*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.RuntimeDefinition
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.RuntimeDefinition
   id: RuntimeDefinition
@@ -192,28 +184,32 @@ items:
   nameWithType: ProjectTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.RuntimeDefinition
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  summary: Definition of the table as described in the deployed runtime dictionary
+  example: []
   syntax:
-    content: public static SoTable RuntimeDefinition { get; }
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.ProjectTableInfo.RuntimeDefinition*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.Definition
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.Definition
   id: Definition
@@ -225,13 +221,11 @@ items:
   nameWithType: ProjectTableInfo.Definition
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.Definition
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  summary: Definition of the table as described in the deployed runtime dictionary
+  example: []
   syntax:
     content: public override SoTable Definition { get; }
     parameters: []
@@ -240,14 +234,6 @@ items:
     content.vb: Public Overrides ReadOnly Property Definition As SoTable
   overridden: SuperOffice.Data.SQL.TableInfo.Definition
   overload: SuperOffice.CRM.Data.ProjectTableInfo.Definition*
-  modifiers.csharp:
-  - public
-  - override
-  - get
-  modifiers.vb:
-  - Public
-  - Overrides
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.ProjectId
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.ProjectId
   id: ProjectId
@@ -259,13 +245,14 @@ items:
   nameWithType: ProjectTableInfo.ProjectId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.ProjectId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;project_id&apos; in table &apos;project&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrimary key\n"
+  summary: >-
+    Field 'project_id' in table 'project': Dictionary type PK, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Primary key
+  example: []
   syntax:
     content: public Int32FieldInfo ProjectId { get; }
     parameters: []
@@ -273,12 +260,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property ProjectId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.ProjectId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.Name
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.Name
   id: Name
@@ -290,13 +271,14 @@ items:
   nameWithType: ProjectTableInfo.Name
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.Name
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;name&apos; in table &apos;project&apos;: Dictionary type String[220], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nProject name\n"
+  summary: >-
+    Field 'name' in table 'project': Dictionary type String[220], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Project name
+  example: []
   syntax:
     content: public StringFieldInfo Name { get; }
     parameters: []
@@ -304,12 +286,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Name As StringFieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.Name*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.ProjectNumber
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.ProjectNumber
   id: ProjectNumber
@@ -321,13 +297,14 @@ items:
   nameWithType: ProjectTableInfo.ProjectNumber
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.ProjectNumber
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;project_number&apos; in table &apos;project&apos;: Dictionary type String[50], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nAutomatically generated number\n"
+  summary: >-
+    Field 'project_number' in table 'project': Dictionary type String[50], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Automatically generated number
+  example: []
   syntax:
     content: public StringFieldInfo ProjectNumber { get; }
     parameters: []
@@ -335,12 +312,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property ProjectNumber As StringFieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.ProjectNumber*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.TypeIdx
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.TypeIdx
   id: TypeIdx
@@ -352,13 +323,14 @@ items:
   nameWithType: ProjectTableInfo.TypeIdx
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.TypeIdx
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;type_idx&apos; in table &apos;project&apos;: Dictionary type FK, target: ProjType, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLink to ProjType list\n"
+  summary: >-
+    Field 'type_idx' in table 'project': Dictionary type FK, target: ProjType, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Link to ProjType list
+  example: []
   syntax:
     content: public Int32FieldInfo TypeIdx { get; }
     parameters: []
@@ -366,12 +338,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property TypeIdx As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.TypeIdx*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.StatusIdx
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.StatusIdx
   id: StatusIdx
@@ -383,13 +349,14 @@ items:
   nameWithType: ProjectTableInfo.StatusIdx
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.StatusIdx
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;status_idx&apos; in table &apos;project&apos;: Dictionary type FK, target: ProjStatus, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLink to ProjStatus list\n"
+  summary: >-
+    Field 'status_idx' in table 'project': Dictionary type FK, target: ProjStatus, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Link to ProjStatus list
+  example: []
   syntax:
     content: public Int32FieldInfo StatusIdx { get; }
     parameters: []
@@ -397,12 +364,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property StatusIdx As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.StatusIdx*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.AssociateId
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.AssociateId
   id: AssociateId
@@ -414,13 +375,14 @@ items:
   nameWithType: ProjectTableInfo.AssociateId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.AssociateId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;associate_id&apos; in table &apos;project&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nProject manager/owner\n"
+  summary: >-
+    Field 'associate_id' in table 'project': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Project manager/owner
+  example: []
   syntax:
     content: public Int32FieldInfo AssociateId { get; }
     parameters: []
@@ -428,12 +390,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property AssociateId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.AssociateId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.TextId
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.TextId
   id: TextId
@@ -445,13 +401,14 @@ items:
   nameWithType: ProjectTableInfo.TextId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.TextId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;text_id&apos; in table &apos;project&apos;: Dictionary type FK, target: Text, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDescription field\n"
+  summary: >-
+    Field 'text_id' in table 'project': Dictionary type FK, target: Text, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Description field
+  example: []
   syntax:
     content: public Int32FieldInfo TextId { get; }
     parameters: []
@@ -459,12 +416,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property TextId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.TextId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.Registered
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.Registered
   id: Registered
@@ -476,13 +427,14 @@ items:
   nameWithType: ProjectTableInfo.Registered
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.Registered
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;registered&apos; in table &apos;project&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered date\n"
+  summary: >-
+    Field 'registered' in table 'project': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Registered date
+  example: []
   syntax:
     content: public DateTimeFieldInfo Registered { get; }
     parameters: []
@@ -490,12 +442,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property Registered As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.Registered*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -507,13 +453,14 @@ items:
   nameWithType: ProjectTableInfo.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.RegisteredAssociateId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;registered_associate_id&apos; in table &apos;project&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
+  summary: >-
+    Field 'registered_associate_id' in table 'project': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Registered by whom
+  example: []
   syntax:
     content: public Int32FieldInfo RegisteredAssociateId { get; }
     parameters: []
@@ -521,12 +468,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property RegisteredAssociateId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.RegisteredAssociateId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.Updated
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.Updated
   id: Updated
@@ -538,13 +479,14 @@ items:
   nameWithType: ProjectTableInfo.Updated
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.Updated
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;updated&apos; in table &apos;project&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated date\n"
+  summary: >-
+    Field 'updated' in table 'project': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Last updated date
+  example: []
   syntax:
     content: public DateTimeFieldInfo Updated { get; }
     parameters: []
@@ -552,12 +494,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property Updated As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.Updated*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.UpdatedAssociateId
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -569,13 +505,14 @@ items:
   nameWithType: ProjectTableInfo.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.UpdatedAssociateId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;updated_associate_id&apos; in table &apos;project&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
+  summary: >-
+    Field 'updated_associate_id' in table 'project': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Last updated by whom
+  example: []
   syntax:
     content: public Int32FieldInfo UpdatedAssociateId { get; }
     parameters: []
@@ -583,12 +520,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property UpdatedAssociateId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.UpdatedAssociateId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.UserdefId
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.UserdefId
   id: UserdefId
@@ -600,13 +531,14 @@ items:
   nameWithType: ProjectTableInfo.UserdefId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.UserdefId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;userdef_id&apos; in table &apos;project&apos;: Dictionary type FK, target: UDProjectSmall, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPointer to userdef small table\n"
+  summary: >-
+    Field 'userdef_id' in table 'project': Dictionary type FK, target: UDProjectSmall, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Pointer to userdef small table
+  example: []
   syntax:
     content: public Int32FieldInfo UserdefId { get; }
     parameters: []
@@ -614,12 +546,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property UserdefId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.UserdefId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.SoundEx
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.SoundEx
   id: SoundEx
@@ -631,13 +557,14 @@ items:
   nameWithType: ProjectTableInfo.SoundEx
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.SoundEx
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;soundEx&apos; in table &apos;project&apos;: Dictionary type String[10], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWhat the name sounds like, for duplicate detection\n"
+  summary: >-
+    Field 'soundEx' in table 'project': Dictionary type String[10], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    What the name sounds like, for duplicate detection
+  example: []
   syntax:
     content: public StringFieldInfo SoundEx { get; }
     parameters: []
@@ -645,12 +572,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property SoundEx As StringFieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.SoundEx*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.Source
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.Source
   id: Source
@@ -662,13 +583,14 @@ items:
   nameWithType: ProjectTableInfo.Source
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.Source
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;source&apos; in table &apos;project&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nHow did we get this project? For future integration needs\n"
+  summary: >-
+    Field 'source' in table 'project': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    How did we get this project? For future integration needs
+  example: []
   syntax:
     content: public UInt16FieldInfo Source { get; }
     parameters: []
@@ -676,12 +598,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property Source As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.Source*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.Userdef2Id
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.Userdef2Id
   id: Userdef2Id
@@ -693,13 +609,14 @@ items:
   nameWithType: ProjectTableInfo.Userdef2Id
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.Userdef2Id
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;userdef2_id&apos; in table &apos;project&apos;: Dictionary type FK, target: UDProjectLarge, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nUser defined table record 2\n"
+  summary: >-
+    Field 'userdef2_id' in table 'project': Dictionary type FK, target: UDProjectLarge, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    User defined table record 2
+  example: []
   syntax:
     content: public Int32FieldInfo Userdef2Id { get; }
     parameters: []
@@ -707,12 +624,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property Userdef2Id As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.Userdef2Id*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.PostitTextId
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.PostitTextId
   id: PostitTextId
@@ -724,13 +635,14 @@ items:
   nameWithType: ProjectTableInfo.PostitTextId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.PostitTextId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;postitText_id&apos; in table &apos;project&apos;: Dictionary type FK, target: Text, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPaperclip text\n"
+  summary: >-
+    Field 'postitText_id' in table 'project': Dictionary type FK, target: Text, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Paperclip text
+  example: []
   syntax:
     content: public Int32FieldInfo PostitTextId { get; }
     parameters: []
@@ -738,12 +650,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property PostitTextId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.PostitTextId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.UpdatedCount
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.UpdatedCount
   id: UpdatedCount
@@ -755,13 +661,14 @@ items:
   nameWithType: ProjectTableInfo.UpdatedCount
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.UpdatedCount
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;updatedCount&apos; in table &apos;project&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of updates made to this record\n"
+  summary: >-
+    Field 'updatedCount' in table 'project': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Number of updates made to this record
+  example: []
   syntax:
     content: public UInt16FieldInfo UpdatedCount { get; }
     parameters: []
@@ -769,12 +676,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.UpdatedCount*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.GroupId
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.GroupId
   id: GroupId
@@ -786,13 +687,14 @@ items:
   nameWithType: ProjectTableInfo.GroupId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.GroupId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;group_id&apos; in table &apos;project&apos;: Dictionary type FK, target: UserGroup, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nGroup id of original owning associate, semantics like appnt.grp_id\n"
+  summary: >-
+    Field 'group_id' in table 'project': Dictionary type FK, target: UserGroup, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Group id of original owning associate, semantics like appnt.grp_id
+  example: []
   syntax:
     content: public Int32FieldInfo GroupId { get; }
     parameters: []
@@ -800,12 +702,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property GroupId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.GroupId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.TzLocationId
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.TzLocationId
   id: TzLocationId
@@ -817,13 +713,14 @@ items:
   nameWithType: ProjectTableInfo.TzLocationId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.TzLocationId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;tzLocationId&apos; in table &apos;project&apos;: Dictionary type FK, target: TZLocation, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDefault timezone location for this project\n"
+  summary: >-
+    Field 'tzLocationId' in table 'project': Dictionary type FK, target: TZLocation, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Default timezone location for this project
+  example: []
   syntax:
     content: public Int32FieldInfo TzLocationId { get; }
     parameters: []
@@ -831,12 +728,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property TzLocationId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.TzLocationId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.ActiveLinks
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.ActiveLinks
   id: ActiveLinks
@@ -848,13 +739,14 @@ items:
   nameWithType: ProjectTableInfo.ActiveLinks
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.ActiveLinks
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;activeLinks&apos; in table &apos;project&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of active links to documents, other appointments, and such\n"
+  summary: >-
+    Field 'activeLinks' in table 'project': Dictionary type UInt, .NET type: <xref href="System.UInt32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Number of active links to documents, other appointments, and such
+  example: []
   syntax:
     content: public FieldInfo ActiveLinks { get; }
     parameters: []
@@ -862,12 +754,6 @@ items:
       type: SuperOffice.Data.SQL.FieldInfo
     content.vb: Public ReadOnly Property ActiveLinks As FieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.ActiveLinks*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.Done
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.Done
   id: Done
@@ -879,13 +765,14 @@ items:
   nameWithType: ProjectTableInfo.Done
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.Done
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;done&apos; in table &apos;project&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDone (0=false, 1=true). Status implies changes in which fields are shown in GUI, as well as which fields can be updated\n"
+  summary: >-
+    Field 'done' in table 'project': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Done (0=false, 1=true). Status implies changes in which fields are shown in GUI, as well as which fields can be updated
+  example: []
   syntax:
     content: public UInt16FieldInfo Done { get; }
     parameters: []
@@ -893,12 +780,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property Done As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.Done*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.EndDate
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.EndDate
   id: EndDate
@@ -910,13 +791,14 @@ items:
   nameWithType: ProjectTableInfo.EndDate
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.EndDate
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;endDate&apos; in table &apos;project&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPlanned end date for project, inhertied from type and later editable\n"
+  summary: >-
+    Field 'endDate' in table 'project': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Planned end date for project, inhertied from type and later editable
+  example: []
   syntax:
     content: public DateTimeFieldInfo EndDate { get; }
     parameters: []
@@ -924,12 +806,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property EndDate As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.EndDate*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.NextMilestoneDate
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.NextMilestoneDate
   id: NextMilestoneDate
@@ -941,13 +817,14 @@ items:
   nameWithType: ProjectTableInfo.NextMilestoneDate
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.NextMilestoneDate
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;nextMilestoneDate&apos; in table &apos;project&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nCalculated date, reflects date of closest non-complete future milestone activity\n"
+  summary: >-
+    Field 'nextMilestoneDate' in table 'project': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Calculated date, reflects date of closest non-complete future milestone activity
+  example: []
   syntax:
     content: public DateTimeFieldInfo NextMilestoneDate { get; }
     parameters: []
@@ -955,12 +832,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property NextMilestoneDate As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.NextMilestoneDate*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.NmdAppointmentId
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.NmdAppointmentId
   id: NmdAppointmentId
@@ -972,13 +843,14 @@ items:
   nameWithType: ProjectTableInfo.NmdAppointmentId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.NmdAppointmentId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;nmdAppointment_id&apos; in table &apos;project&apos;: Dictionary type FK, target: Appointment, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nID of appointment that &quot;caused&quot; the nextMilestoneDate, can be 0\n"
+  summary: >-
+    Field 'nmdAppointment_id' in table 'project': Dictionary type FK, target: Appointment, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    ID of appointment that "caused" the nextMilestoneDate, can be 0
+  example: []
   syntax:
     content: public Int32FieldInfo NmdAppointmentId { get; }
     parameters: []
@@ -986,12 +858,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property NmdAppointmentId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.NmdAppointmentId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.ActiveErpLinks
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.ActiveErpLinks
   id: ActiveErpLinks
@@ -1003,13 +869,14 @@ items:
   nameWithType: ProjectTableInfo.ActiveErpLinks
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.ActiveErpLinks
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;activeErpLinks&apos; in table &apos;project&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe number of Erp Sync connections this record is synced with; count of the ErpExternalKey+ErpInternalKey relations\n"
+  summary: >-
+    Field 'activeErpLinks' in table 'project': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The number of Erp Sync connections this record is synced with; count of the ErpExternalKey+ErpInternalKey relations
+  example: []
   syntax:
     content: public Int32FieldInfo ActiveErpLinks { get; }
     parameters: []
@@ -1017,12 +884,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property ActiveErpLinks As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.ActiveErpLinks*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.TypeIdx_InnerJoin_ProjType
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.TypeIdx_InnerJoin_ProjType
   id: TypeIdx_InnerJoin_ProjType
@@ -1034,13 +895,11 @@ items:
   nameWithType: ProjectTableInfo.TypeIdx_InnerJoin_ProjType
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.TypeIdx_InnerJoin_ProjType
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated join from the foreign key TypeIdx in this table, to its target table <xref href=\"SuperOffice.CRM.Data.ProjTypeTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated join from the foreign key TypeIdx in this table, to its target table <xref href="SuperOffice.CRM.Data.ProjTypeTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedInnerJoin<ProjTypeTableInfo> TypeIdx_InnerJoin_ProjType { get; }
     parameters: []
@@ -1048,12 +907,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ProjTypeTableInfo}
     content.vb: Public ReadOnly Property TypeIdx_InnerJoin_ProjType As TargetedInnerJoin(Of ProjTypeTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.TypeIdx_InnerJoin_ProjType*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.StatusIdx_InnerJoin_ProjStatus
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.StatusIdx_InnerJoin_ProjStatus
   id: StatusIdx_InnerJoin_ProjStatus
@@ -1065,13 +918,11 @@ items:
   nameWithType: ProjectTableInfo.StatusIdx_InnerJoin_ProjStatus
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.StatusIdx_InnerJoin_ProjStatus
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated join from the foreign key StatusIdx in this table, to its target table <xref href=\"SuperOffice.CRM.Data.ProjStatusTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated join from the foreign key StatusIdx in this table, to its target table <xref href="SuperOffice.CRM.Data.ProjStatusTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedInnerJoin<ProjStatusTableInfo> StatusIdx_InnerJoin_ProjStatus { get; }
     parameters: []
@@ -1079,12 +930,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ProjStatusTableInfo}
     content.vb: Public ReadOnly Property StatusIdx_InnerJoin_ProjStatus As TargetedInnerJoin(Of ProjStatusTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.StatusIdx_InnerJoin_ProjStatus*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.AssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.AssociateId_InnerJoin_Associate
   id: AssociateId_InnerJoin_Associate
@@ -1096,13 +941,11 @@ items:
   nameWithType: ProjectTableInfo.AssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.AssociateId_InnerJoin_Associate
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated join from the foreign key AssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated join from the foreign key AssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedInnerJoin<AssociateTableInfo> AssociateId_InnerJoin_Associate { get; }
     parameters: []
@@ -1110,12 +953,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
     content.vb: Public ReadOnly Property AssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.AssociateId_InnerJoin_Associate*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.TextId_InnerJoin_Text
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.TextId_InnerJoin_Text
   id: TextId_InnerJoin_Text
@@ -1127,13 +964,11 @@ items:
   nameWithType: ProjectTableInfo.TextId_InnerJoin_Text
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.TextId_InnerJoin_Text
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated join from the foreign key TextId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.TextTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated join from the foreign key TextId in this table, to its target table <xref href="SuperOffice.CRM.Data.TextTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedInnerJoin<TextTableInfo> TextId_InnerJoin_Text { get; }
     parameters: []
@@ -1141,12 +976,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TextTableInfo}
     content.vb: Public ReadOnly Property TextId_InnerJoin_Text As TargetedInnerJoin(Of TextTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.TextId_InnerJoin_Text*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.RegisteredAssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.RegisteredAssociateId_InnerJoin_Associate
   id: RegisteredAssociateId_InnerJoin_Associate
@@ -1158,13 +987,11 @@ items:
   nameWithType: ProjectTableInfo.RegisteredAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.RegisteredAssociateId_InnerJoin_Associate
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedInnerJoin<AssociateTableInfo> RegisteredAssociateId_InnerJoin_Associate { get; }
     parameters: []
@@ -1172,12 +999,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
     content.vb: Public ReadOnly Property RegisteredAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.RegisteredAssociateId_InnerJoin_Associate*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.UpdatedAssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.UpdatedAssociateId_InnerJoin_Associate
   id: UpdatedAssociateId_InnerJoin_Associate
@@ -1189,13 +1010,11 @@ items:
   nameWithType: ProjectTableInfo.UpdatedAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.UpdatedAssociateId_InnerJoin_Associate
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedInnerJoin<AssociateTableInfo> UpdatedAssociateId_InnerJoin_Associate { get; }
     parameters: []
@@ -1203,12 +1022,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
     content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.UpdatedAssociateId_InnerJoin_Associate*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.UserdefId_InnerJoin_UDProjectSmall
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.UserdefId_InnerJoin_UDProjectSmall
   id: UserdefId_InnerJoin_UDProjectSmall
@@ -1220,13 +1033,11 @@ items:
   nameWithType: ProjectTableInfo.UserdefId_InnerJoin_UDProjectSmall
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.UserdefId_InnerJoin_UDProjectSmall
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated join from the foreign key UserdefId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.UDProjectSmallTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated join from the foreign key UserdefId in this table, to its target table <xref href="SuperOffice.CRM.Data.UDProjectSmallTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedInnerJoin<UDProjectSmallTableInfo> UserdefId_InnerJoin_UDProjectSmall { get; }
     parameters: []
@@ -1234,12 +1045,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.UDProjectSmallTableInfo}
     content.vb: Public ReadOnly Property UserdefId_InnerJoin_UDProjectSmall As TargetedInnerJoin(Of UDProjectSmallTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.UserdefId_InnerJoin_UDProjectSmall*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.Userdef2Id_InnerJoin_UDProjectLarge
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.Userdef2Id_InnerJoin_UDProjectLarge
   id: Userdef2Id_InnerJoin_UDProjectLarge
@@ -1251,13 +1056,11 @@ items:
   nameWithType: ProjectTableInfo.Userdef2Id_InnerJoin_UDProjectLarge
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.Userdef2Id_InnerJoin_UDProjectLarge
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated join from the foreign key Userdef2Id in this table, to its target table <xref href=\"SuperOffice.CRM.Data.UDProjectLargeTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated join from the foreign key Userdef2Id in this table, to its target table <xref href="SuperOffice.CRM.Data.UDProjectLargeTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedInnerJoin<UDProjectLargeTableInfo> Userdef2Id_InnerJoin_UDProjectLarge { get; }
     parameters: []
@@ -1265,12 +1068,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.UDProjectLargeTableInfo}
     content.vb: Public ReadOnly Property Userdef2Id_InnerJoin_UDProjectLarge As TargetedInnerJoin(Of UDProjectLargeTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.Userdef2Id_InnerJoin_UDProjectLarge*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.PostitTextId_InnerJoin_Text
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.PostitTextId_InnerJoin_Text
   id: PostitTextId_InnerJoin_Text
@@ -1282,13 +1079,11 @@ items:
   nameWithType: ProjectTableInfo.PostitTextId_InnerJoin_Text
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.PostitTextId_InnerJoin_Text
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated join from the foreign key PostitTextId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.TextTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated join from the foreign key PostitTextId in this table, to its target table <xref href="SuperOffice.CRM.Data.TextTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedInnerJoin<TextTableInfo> PostitTextId_InnerJoin_Text { get; }
     parameters: []
@@ -1296,12 +1091,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TextTableInfo}
     content.vb: Public ReadOnly Property PostitTextId_InnerJoin_Text As TargetedInnerJoin(Of TextTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.PostitTextId_InnerJoin_Text*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.GroupId_InnerJoin_UserGroup
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.GroupId_InnerJoin_UserGroup
   id: GroupId_InnerJoin_UserGroup
@@ -1313,13 +1102,11 @@ items:
   nameWithType: ProjectTableInfo.GroupId_InnerJoin_UserGroup
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.GroupId_InnerJoin_UserGroup
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated join from the foreign key GroupId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.UserGroupTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated join from the foreign key GroupId in this table, to its target table <xref href="SuperOffice.CRM.Data.UserGroupTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedInnerJoin<UserGroupTableInfo> GroupId_InnerJoin_UserGroup { get; }
     parameters: []
@@ -1327,12 +1114,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.UserGroupTableInfo}
     content.vb: Public ReadOnly Property GroupId_InnerJoin_UserGroup As TargetedInnerJoin(Of UserGroupTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.GroupId_InnerJoin_UserGroup*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.TzLocationId_InnerJoin_TZLocation
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.TzLocationId_InnerJoin_TZLocation
   id: TzLocationId_InnerJoin_TZLocation
@@ -1344,13 +1125,11 @@ items:
   nameWithType: ProjectTableInfo.TzLocationId_InnerJoin_TZLocation
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.TzLocationId_InnerJoin_TZLocation
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated join from the foreign key TzLocationId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.TZLocationTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated join from the foreign key TzLocationId in this table, to its target table <xref href="SuperOffice.CRM.Data.TZLocationTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedInnerJoin<TZLocationTableInfo> TzLocationId_InnerJoin_TZLocation { get; }
     parameters: []
@@ -1358,12 +1137,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TZLocationTableInfo}
     content.vb: Public ReadOnly Property TzLocationId_InnerJoin_TZLocation As TargetedInnerJoin(Of TZLocationTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.TzLocationId_InnerJoin_TZLocation*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.NmdAppointmentId_InnerJoin_Appointment
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.NmdAppointmentId_InnerJoin_Appointment
   id: NmdAppointmentId_InnerJoin_Appointment
@@ -1375,13 +1148,11 @@ items:
   nameWithType: ProjectTableInfo.NmdAppointmentId_InnerJoin_Appointment
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.NmdAppointmentId_InnerJoin_Appointment
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated join from the foreign key NmdAppointmentId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AppointmentTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated join from the foreign key NmdAppointmentId in this table, to its target table <xref href="SuperOffice.CRM.Data.AppointmentTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedInnerJoin<AppointmentTableInfo> NmdAppointmentId_InnerJoin_Appointment { get; }
     parameters: []
@@ -1389,12 +1160,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AppointmentTableInfo}
     content.vb: Public ReadOnly Property NmdAppointmentId_InnerJoin_Appointment As TargetedInnerJoin(Of AppointmentTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.NmdAppointmentId_InnerJoin_Appointment*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Appointment_ProjectId
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Appointment_ProjectId
   id: LeftOuterJoin_Appointment_ProjectId
@@ -1406,13 +1171,11 @@ items:
   nameWithType: ProjectTableInfo.LeftOuterJoin_Appointment_ProjectId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Appointment_ProjectId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key ProjectId on this table, to Appointment.<xref href=\"SuperOffice.CRM.Data.AppointmentTableInfo.ProjectId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key ProjectId on this table, to Appointment.<xref href="SuperOffice.CRM.Data.AppointmentTableInfo.ProjectId" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<AppointmentTableInfo> LeftOuterJoin_Appointment_ProjectId { get; }
     parameters: []
@@ -1420,12 +1183,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AppointmentTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_Appointment_ProjectId As TargetedLeftOuterJoin(Of AppointmentTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Appointment_ProjectId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_ProjectMember_ProjectId
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_ProjectMember_ProjectId
   id: LeftOuterJoin_ProjectMember_ProjectId
@@ -1437,13 +1194,11 @@ items:
   nameWithType: ProjectTableInfo.LeftOuterJoin_ProjectMember_ProjectId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_ProjectMember_ProjectId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key ProjectId on this table, to ProjectMember.<xref href=\"SuperOffice.CRM.Data.ProjectMemberTableInfo.ProjectId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key ProjectId on this table, to ProjectMember.<xref href="SuperOffice.CRM.Data.ProjectMemberTableInfo.ProjectId" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<ProjectMemberTableInfo> LeftOuterJoin_ProjectMember_ProjectId { get; }
     parameters: []
@@ -1451,12 +1206,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ProjectMemberTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_ProjectMember_ProjectId As TargetedLeftOuterJoin(Of ProjectMemberTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_ProjectMember_ProjectId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Sale_ProjectId
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Sale_ProjectId
   id: LeftOuterJoin_Sale_ProjectId
@@ -1468,13 +1217,11 @@ items:
   nameWithType: ProjectTableInfo.LeftOuterJoin_Sale_ProjectId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Sale_ProjectId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key ProjectId on this table, to Sale.<xref href=\"SuperOffice.CRM.Data.SaleTableInfo.ProjectId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key ProjectId on this table, to Sale.<xref href="SuperOffice.CRM.Data.SaleTableInfo.ProjectId" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<SaleTableInfo> LeftOuterJoin_Sale_ProjectId { get; }
     parameters: []
@@ -1482,12 +1229,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SaleTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_Sale_ProjectId As TargetedLeftOuterJoin(Of SaleTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Sale_ProjectId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_URL_ProjectId
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_URL_ProjectId
   id: LeftOuterJoin_URL_ProjectId
@@ -1499,13 +1240,11 @@ items:
   nameWithType: ProjectTableInfo.LeftOuterJoin_URL_ProjectId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_URL_ProjectId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key ProjectId on this table, to URL.<xref href=\"SuperOffice.CRM.Data.URLTableInfo.ProjectId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key ProjectId on this table, to URL.<xref href="SuperOffice.CRM.Data.URLTableInfo.ProjectId" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<URLTableInfo> LeftOuterJoin_URL_ProjectId { get; }
     parameters: []
@@ -1513,12 +1252,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.URLTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_URL_ProjectId As TargetedLeftOuterJoin(Of URLTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_URL_ProjectId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Email_ProjectId
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Email_ProjectId
   id: LeftOuterJoin_Email_ProjectId
@@ -1530,13 +1263,11 @@ items:
   nameWithType: ProjectTableInfo.LeftOuterJoin_Email_ProjectId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Email_ProjectId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key ProjectId on this table, to Email.<xref href=\"SuperOffice.CRM.Data.EmailTableInfo.ProjectId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key ProjectId on this table, to Email.<xref href="SuperOffice.CRM.Data.EmailTableInfo.ProjectId" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<EmailTableInfo> LeftOuterJoin_Email_ProjectId { get; }
     parameters: []
@@ -1544,12 +1275,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.EmailTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_Email_ProjectId As TargetedLeftOuterJoin(Of EmailTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Email_ProjectId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SaleHist_ProjectId
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SaleHist_ProjectId
   id: LeftOuterJoin_SaleHist_ProjectId
@@ -1561,13 +1286,11 @@ items:
   nameWithType: ProjectTableInfo.LeftOuterJoin_SaleHist_ProjectId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SaleHist_ProjectId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key ProjectId on this table, to SaleHist.<xref href=\"SuperOffice.CRM.Data.SaleHistTableInfo.ProjectId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key ProjectId on this table, to SaleHist.<xref href="SuperOffice.CRM.Data.SaleHistTableInfo.ProjectId" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<SaleHistTableInfo> LeftOuterJoin_SaleHist_ProjectId { get; }
     parameters: []
@@ -1575,12 +1298,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SaleHistTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_SaleHist_ProjectId As TargetedLeftOuterJoin(Of SaleHistTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SaleHist_ProjectId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_CounterValue_ProjectId
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_CounterValue_ProjectId
   id: LeftOuterJoin_CounterValue_ProjectId
@@ -1592,13 +1309,11 @@ items:
   nameWithType: ProjectTableInfo.LeftOuterJoin_CounterValue_ProjectId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_CounterValue_ProjectId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key ProjectId on this table, to CounterValue.<xref href=\"SuperOffice.CRM.Data.CounterValueTableInfo.ProjectId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key ProjectId on this table, to CounterValue.<xref href="SuperOffice.CRM.Data.CounterValueTableInfo.ProjectId" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<CounterValueTableInfo> LeftOuterJoin_CounterValue_ProjectId { get; }
     parameters: []
@@ -1606,12 +1321,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CounterValueTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_CounterValue_ProjectId As TargetedLeftOuterJoin(Of CounterValueTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_CounterValue_ProjectId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_StatusValue_ProjectId
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_StatusValue_ProjectId
   id: LeftOuterJoin_StatusValue_ProjectId
@@ -1623,13 +1332,11 @@ items:
   nameWithType: ProjectTableInfo.LeftOuterJoin_StatusValue_ProjectId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_StatusValue_ProjectId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key ProjectId on this table, to StatusValue.<xref href=\"SuperOffice.CRM.Data.StatusValueTableInfo.ProjectId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key ProjectId on this table, to StatusValue.<xref href="SuperOffice.CRM.Data.StatusValueTableInfo.ProjectId" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<StatusValueTableInfo> LeftOuterJoin_StatusValue_ProjectId { get; }
     parameters: []
@@ -1637,12 +1344,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.StatusValueTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_StatusValue_ProjectId As TargetedLeftOuterJoin(Of StatusValueTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_StatusValue_ProjectId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Ticket_ProjectId
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Ticket_ProjectId
   id: LeftOuterJoin_Ticket_ProjectId
@@ -1654,13 +1355,11 @@ items:
   nameWithType: ProjectTableInfo.LeftOuterJoin_Ticket_ProjectId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Ticket_ProjectId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key ProjectId on this table, to Ticket.<xref href=\"SuperOffice.CRM.Data.TicketTableInfo.ProjectId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key ProjectId on this table, to Ticket.<xref href="SuperOffice.CRM.Data.TicketTableInfo.ProjectId" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<TicketTableInfo> LeftOuterJoin_Ticket_ProjectId { get; }
     parameters: []
@@ -1668,12 +1367,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_Ticket_ProjectId As TargetedLeftOuterJoin(Of TicketTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Ticket_ProjectId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_ChatSession_ProjectId
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_ChatSession_ProjectId
   id: LeftOuterJoin_ChatSession_ProjectId
@@ -1685,13 +1378,11 @@ items:
   nameWithType: ProjectTableInfo.LeftOuterJoin_ChatSession_ProjectId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_ChatSession_ProjectId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key ProjectId on this table, to ChatSession.<xref href=\"SuperOffice.CRM.Data.ChatSessionTableInfo.ProjectId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key ProjectId on this table, to ChatSession.<xref href="SuperOffice.CRM.Data.ChatSessionTableInfo.ProjectId" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<ChatSessionTableInfo> LeftOuterJoin_ChatSession_ProjectId { get; }
     parameters: []
@@ -1699,12 +1390,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ChatSessionTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_ChatSession_ProjectId As TargetedLeftOuterJoin(Of ChatSessionTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_ChatSession_ProjectId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SShipment_ProjectId
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SShipment_ProjectId
   id: LeftOuterJoin_SShipment_ProjectId
@@ -1716,13 +1401,11 @@ items:
   nameWithType: ProjectTableInfo.LeftOuterJoin_SShipment_ProjectId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SShipment_ProjectId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key ProjectId on this table, to SShipment.<xref href=\"SuperOffice.CRM.Data.SShipmentTableInfo.ProjectId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key ProjectId on this table, to SShipment.<xref href="SuperOffice.CRM.Data.SShipmentTableInfo.ProjectId" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<SShipmentTableInfo> LeftOuterJoin_SShipment_ProjectId { get; }
     parameters: []
@@ -1730,12 +1413,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SShipmentTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_SShipment_ProjectId As TargetedLeftOuterJoin(Of SShipmentTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SShipment_ProjectId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_AddProject
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_AddProject
   id: LeftOuterJoin_SLink_AddProject
@@ -1747,13 +1424,11 @@ items:
   nameWithType: ProjectTableInfo.LeftOuterJoin_SLink_AddProject
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_AddProject
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key ProjectId on this table, to SLink.<xref href=\"SuperOffice.CRM.Data.SLinkTableInfo.AddProject\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key ProjectId on this table, to SLink.<xref href="SuperOffice.CRM.Data.SLinkTableInfo.AddProject" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<SLinkTableInfo> LeftOuterJoin_SLink_AddProject { get; }
     parameters: []
@@ -1761,12 +1436,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SLinkTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_SLink_AddProject As TargetedLeftOuterJoin(Of SLinkTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_AddProject*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_RemoveProject
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_RemoveProject
   id: LeftOuterJoin_SLink_RemoveProject
@@ -1778,13 +1447,11 @@ items:
   nameWithType: ProjectTableInfo.LeftOuterJoin_SLink_RemoveProject
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_RemoveProject
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key ProjectId on this table, to SLink.<xref href=\"SuperOffice.CRM.Data.SLinkTableInfo.RemoveProject\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key ProjectId on this table, to SLink.<xref href="SuperOffice.CRM.Data.SLinkTableInfo.RemoveProject" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<SLinkTableInfo> LeftOuterJoin_SLink_RemoveProject { get; }
     parameters: []
@@ -1792,12 +1459,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SLinkTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_SLink_RemoveProject As TargetedLeftOuterJoin(Of SLinkTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_RemoveProject*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_TaskProject
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_TaskProject
   id: LeftOuterJoin_SLink_TaskProject
@@ -1809,13 +1470,11 @@ items:
   nameWithType: ProjectTableInfo.LeftOuterJoin_SLink_TaskProject
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_TaskProject
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key ProjectId on this table, to SLink.<xref href=\"SuperOffice.CRM.Data.SLinkTableInfo.TaskProject\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key ProjectId on this table, to SLink.<xref href="SuperOffice.CRM.Data.SLinkTableInfo.TaskProject" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<SLinkTableInfo> LeftOuterJoin_SLink_TaskProject { get; }
     parameters: []
@@ -1823,35 +1482,68 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SLinkTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_SLink_TaskProject As TargetedLeftOuterJoin(Of SLinkTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_TaskProject*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.Data.SQL.TableInfo
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icloneable
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
@@ -1859,241 +1551,185 @@ references:
   commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   name: ToString()
   nameWithType: TableInfo.ToString()
   fullName: SuperOffice.Data.SQL.TableInfo.ToString()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
-    nameWithType: TableInfo.ToString
-    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
-    nameWithType: TableInfo.ToString
-    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  name: RegisterFields(FieldInfo[])
-  nameWithType: TableInfo.RegisterFields(FieldInfo[])
-  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
-  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
-  name.vb: RegisterFields(FieldInfo())
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
+  name: RegisterFields(params FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(params FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(params SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(ParamArray FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(ParamArray SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(ParamArray FieldInfo())
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
-    nameWithType: TableInfo.RegisterFields
-    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: params
+  - name: " "
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: '['
+  - name: ']'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
-    nameWithType: TableInfo.RegisterFields
-    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: ParamArray
+  - name: " "
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   name: FieldInfoFromSoField(SoField)
   nameWithType: TableInfo.FieldInfoFromSoField(SoField)
   fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
-    nameWithType: TableInfo.FieldInfoFromSoField
-    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
-    nameWithType: SoField
-    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
-    nameWithType: TableInfo.FieldInfoFromSoField
-    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
-    nameWithType: SoField
-    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.Clone
   commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   name: Clone()
   nameWithType: TableInfo.Clone()
   fullName: SuperOffice.Data.SQL.TableInfo.Clone()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
-    nameWithType: TableInfo.Clone
-    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
-    nameWithType: TableInfo.Clone
-    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   name: IsSameTable(TableInfo)
   nameWithType: TableInfo.IsSameTable(TableInfo)
   fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
-    nameWithType: TableInfo.IsSameTable
-    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
-    nameWithType: TableInfo.IsSameTable
-    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  name: FindField(String)
-  nameWithType: TableInfo.FindField(String)
-  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
+  name: FindField(string)
+  nameWithType: TableInfo.FindField(string)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(string)
+  nameWithType.vb: TableInfo.FindField(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.FindField(String)
+  name.vb: FindField(String)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
-    nameWithType: TableInfo.FindField
-    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
-    nameWithType: TableInfo.FindField
-    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.ProtAll
   commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ProtAll
   name: ProtAll
   nameWithType: TableInfo.ProtAll
   fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
@@ -2101,6 +1737,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_HashCheckFields
   name: HashCheckFields
   nameWithType: TableInfo.HashCheckFields
   fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
@@ -2108,6 +1745,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_TableName
   name: TableName
   nameWithType: TableInfo.TableName
   fullName: SuperOffice.Data.SQL.TableInfo.TableName
@@ -2115,6 +1753,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_DbName
   name: DbName
   nameWithType: TableInfo.DbName
   fullName: SuperOffice.Data.SQL.TableInfo.DbName
@@ -2122,6 +1761,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsDictionaryTable
   name: IsDictionaryTable
   nameWithType: TableInfo.IsDictionaryTable
   fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
@@ -2129,6 +1769,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.All
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_All
   name: All
   nameWithType: TableInfo.All
   fullName: SuperOffice.Data.SQL.TableInfo.All
@@ -2136,136 +1777,389 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  name: Item[String]
-  nameWithType: TableInfo.Item[String]
-  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
-  nameWithType.vb: TableInfo.Item(String)
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-  name.vb: Item(String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: this[string]
+  nameWithType: TableInfo.this[string]
+  fullName: SuperOffice.Data.SQL.TableInfo.this[string]
+  nameWithType.vb: TableInfo.this[](String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.this[](String)
+  name.vb: this[](String)
   spec.csharp:
-  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-    name: Item
-    nameWithType: TableInfo.Item
-    fullName: SuperOffice.Data.SQL.TableInfo.Item
-    isExternal: true
+  - name: this
   - name: '['
-    nameWithType: '['
-    fullName: '['
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ']'
-    nameWithType: ']'
-    fullName: ']'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-    name: Item
-    nameWithType: TableInfo.Item
-    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    name: this[]
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Item_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_PrimaryKeyField
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ProjectTableInfo, To>()
-  nameWithType: EnumUtil.MapEnums<ProjectTableInfo, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.ProjectTableInfo, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ProjectTableInfo, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.ProjectTableInfo, To)()
-  name.vb: MapEnums(Of ProjectTableInfo, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ProjectTableInfo, To>(ProjectTableInfo)
+  nameWithType: EnumUtil.MapEnums<ProjectTableInfo, To>(ProjectTableInfo)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.ProjectTableInfo, To>(SuperOffice.CRM.Data.ProjectTableInfo)
+  nameWithType.vb: EnumUtil.MapEnums(Of ProjectTableInfo, To)(ProjectTableInfo)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.ProjectTableInfo, To)(SuperOffice.CRM.Data.ProjectTableInfo)
+  name.vb: MapEnums(Of ProjectTableInfo, To)(ProjectTableInfo)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ProjectTableInfo, To>
-    nameWithType: EnumUtil.MapEnums<ProjectTableInfo, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.ProjectTableInfo, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.ProjectTableInfo)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.ProjectTableInfo
+    name: ProjectTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ProjectTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Data.ProjectTableInfo
+    name: ProjectTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ProjectTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ProjectTableInfo, To)
-    nameWithType: EnumUtil.MapEnums(Of ProjectTableInfo, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.ProjectTableInfo, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.ProjectTableInfo)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.ProjectTableInfo
+    name: ProjectTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ProjectTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.ProjectTableInfo
+    name: ProjectTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ProjectTableInfo.html
+  - name: )
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ProjectTableInfo, To>()
-  nameWithType: Converters.MapEnums<ProjectTableInfo, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.ProjectTableInfo, To>()
-  nameWithType.vb: Converters.MapEnums(Of ProjectTableInfo, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.ProjectTableInfo, To)()
-  name.vb: MapEnums(Of ProjectTableInfo, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ProjectTableInfo, To>(ProjectTableInfo)
+  nameWithType: Converters.MapEnums<ProjectTableInfo, To>(ProjectTableInfo)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.ProjectTableInfo, To>(SuperOffice.CRM.Data.ProjectTableInfo)
+  nameWithType.vb: Converters.MapEnums(Of ProjectTableInfo, To)(ProjectTableInfo)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.ProjectTableInfo, To)(SuperOffice.CRM.Data.ProjectTableInfo)
+  name.vb: MapEnums(Of ProjectTableInfo, To)(ProjectTableInfo)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ProjectTableInfo, To>
-    nameWithType: Converters.MapEnums<ProjectTableInfo, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.ProjectTableInfo, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.ProjectTableInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.ProjectTableInfo
+    name: ProjectTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ProjectTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Data.ProjectTableInfo
+    name: ProjectTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ProjectTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ProjectTableInfo, To)
-    nameWithType: Converters.MapEnums(Of ProjectTableInfo, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.ProjectTableInfo, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.ProjectTableInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.ProjectTableInfo
+    name: ProjectTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ProjectTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.ProjectTableInfo
+    name: ProjectTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ProjectTableInfo.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -2274,43 +2168,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -2319,57 +2215,94 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.DictionaryTableNumber*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.DictionaryTableNumber
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_DictionaryTableNumber
   name: DictionaryTableNumber
   nameWithType: ProjectTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.DictionaryTableNumber
@@ -2377,12 +2310,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.RuntimeDefinition*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.RuntimeDefinition
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_RuntimeDefinition
   name: RuntimeDefinition
   nameWithType: ProjectTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.RuntimeDefinition
@@ -2390,31 +2328,66 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoTable
   parent: SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable
   nameWithType: SoTable
   fullName: SuperOffice.Data.Dictionary.SoTable
 - uid: SuperOffice.Data.Dictionary
   commentId: N:SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.Dictionary
   nameWithType: SuperOffice.Data.Dictionary
   fullName: SuperOffice.Data.Dictionary
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
 - uid: SuperOffice.Data.SQL.TableInfo.Definition
   commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Definition
   name: Definition
   nameWithType: TableInfo.Definition
   fullName: SuperOffice.Data.SQL.TableInfo.Definition
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.Definition*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.Definition
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_Definition
   name: Definition
   nameWithType: ProjectTableInfo.Definition
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.Definition
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.ProjectId*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.ProjectId
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_ProjectId
   name: ProjectId
   nameWithType: ProjectTableInfo.ProjectId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.ProjectId
@@ -2422,12 +2395,14 @@ references:
   commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.Int32FieldInfo.html
   name: Int32FieldInfo
   nameWithType: Int32FieldInfo
   fullName: SuperOffice.Data.SQL.Int32FieldInfo
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.Name*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.Name
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_Name
   name: Name
   nameWithType: ProjectTableInfo.Name
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.Name
@@ -2435,42 +2410,60 @@ references:
   commentId: T:SuperOffice.Data.SQL.StringFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.StringFieldInfo.html
   name: StringFieldInfo
   nameWithType: StringFieldInfo
   fullName: SuperOffice.Data.SQL.StringFieldInfo
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.ProjectNumber*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.ProjectNumber
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_ProjectNumber
   name: ProjectNumber
   nameWithType: ProjectTableInfo.ProjectNumber
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.ProjectNumber
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.TypeIdx*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.TypeIdx
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_TypeIdx
   name: TypeIdx
   nameWithType: ProjectTableInfo.TypeIdx
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.TypeIdx
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.StatusIdx*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.StatusIdx
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_StatusIdx
   name: StatusIdx
   nameWithType: ProjectTableInfo.StatusIdx
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.StatusIdx
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.AssociateId*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.AssociateId
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_AssociateId
   name: AssociateId
   nameWithType: ProjectTableInfo.AssociateId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.AssociateId
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.TextId*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.TextId
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_TextId
   name: TextId
   nameWithType: ProjectTableInfo.TextId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.TextId
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.Registered*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.Registered
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_Registered
   name: Registered
   nameWithType: ProjectTableInfo.Registered
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.Registered
@@ -2478,42 +2471,60 @@ references:
   commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.DateTimeFieldInfo.html
   name: DateTimeFieldInfo
   nameWithType: DateTimeFieldInfo
   fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.RegisteredAssociateId*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.RegisteredAssociateId
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_RegisteredAssociateId
   name: RegisteredAssociateId
   nameWithType: ProjectTableInfo.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.RegisteredAssociateId
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.Updated*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.Updated
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_Updated
   name: Updated
   nameWithType: ProjectTableInfo.Updated
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.Updated
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.UpdatedAssociateId*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.UpdatedAssociateId
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_UpdatedAssociateId
   name: UpdatedAssociateId
   nameWithType: ProjectTableInfo.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.UpdatedAssociateId
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.UserdefId*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.UserdefId
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_UserdefId
   name: UserdefId
   nameWithType: ProjectTableInfo.UserdefId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.UserdefId
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.SoundEx*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.SoundEx
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_SoundEx
   name: SoundEx
   nameWithType: ProjectTableInfo.SoundEx
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.SoundEx
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.Source*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.Source
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_Source
   name: Source
   nameWithType: ProjectTableInfo.Source
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.Source
@@ -2521,42 +2532,60 @@ references:
   commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.UInt16FieldInfo.html
   name: UInt16FieldInfo
   nameWithType: UInt16FieldInfo
   fullName: SuperOffice.Data.SQL.UInt16FieldInfo
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.Userdef2Id*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.Userdef2Id
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_Userdef2Id
   name: Userdef2Id
   nameWithType: ProjectTableInfo.Userdef2Id
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.Userdef2Id
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.PostitTextId*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.PostitTextId
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_PostitTextId
   name: PostitTextId
   nameWithType: ProjectTableInfo.PostitTextId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.PostitTextId
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.UpdatedCount*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.UpdatedCount
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_UpdatedCount
   name: UpdatedCount
   nameWithType: ProjectTableInfo.UpdatedCount
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.UpdatedCount
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.GroupId*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.GroupId
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_GroupId
   name: GroupId
   nameWithType: ProjectTableInfo.GroupId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.GroupId
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.TzLocationId*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.TzLocationId
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_TzLocationId
   name: TzLocationId
   nameWithType: ProjectTableInfo.TzLocationId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.TzLocationId
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.ActiveLinks*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.ActiveLinks
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_ActiveLinks
   name: ActiveLinks
   nameWithType: ProjectTableInfo.ActiveLinks
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.ActiveLinks
@@ -2564,42 +2593,57 @@ references:
   commentId: T:SuperOffice.Data.SQL.FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.FieldInfo.html
   name: FieldInfo
   nameWithType: FieldInfo
   fullName: SuperOffice.Data.SQL.FieldInfo
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.Done*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.Done
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_Done
   name: Done
   nameWithType: ProjectTableInfo.Done
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.Done
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.EndDate*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.EndDate
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_EndDate
   name: EndDate
   nameWithType: ProjectTableInfo.EndDate
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.EndDate
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.NextMilestoneDate*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.NextMilestoneDate
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_NextMilestoneDate
   name: NextMilestoneDate
   nameWithType: ProjectTableInfo.NextMilestoneDate
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.NextMilestoneDate
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.NmdAppointmentId*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.NmdAppointmentId
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_NmdAppointmentId
   name: NmdAppointmentId
   nameWithType: ProjectTableInfo.NmdAppointmentId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.NmdAppointmentId
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.ActiveErpLinks*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.ActiveErpLinks
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_ActiveErpLinks
   name: ActiveErpLinks
   nameWithType: ProjectTableInfo.ActiveErpLinks
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.ActiveErpLinks
+- uid: SuperOffice.CRM.Data.ProjTypeTableInfo
+  commentId: T:SuperOffice.CRM.Data.ProjTypeTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.ProjTypeTableInfo.html
+  name: ProjTypeTableInfo
+  nameWithType: ProjTypeTableInfo
+  fullName: SuperOffice.CRM.Data.ProjTypeTableInfo
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.TypeIdx_InnerJoin_ProjType*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.TypeIdx_InnerJoin_ProjType
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_TypeIdx_InnerJoin_ProjType
   name: TypeIdx_InnerJoin_ProjType
   nameWithType: ProjectTableInfo.TypeIdx_InnerJoin_ProjType
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.TypeIdx_InnerJoin_ProjType
@@ -2607,6 +2651,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ProjTypeTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<ProjTypeTableInfo>
   nameWithType: TargetedInnerJoin<ProjTypeTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.ProjTypeTableInfo>
@@ -2616,40 +2661,31 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.ProjTypeTableInfo
     name: ProjTypeTableInfo
-    nameWithType: ProjTypeTableInfo
-    fullName: SuperOffice.CRM.Data.ProjTypeTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.ProjTypeTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.ProjTypeTableInfo
     name: ProjTypeTableInfo
-    nameWithType: ProjTypeTableInfo
-    fullName: SuperOffice.CRM.Data.ProjTypeTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.ProjTypeTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
   isExternal: true
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<TargetTableInfo>
   nameWithType: TargetedInnerJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
@@ -2659,36 +2695,33 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.ProjStatusTableInfo
+  commentId: T:SuperOffice.CRM.Data.ProjStatusTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.ProjStatusTableInfo.html
+  name: ProjStatusTableInfo
+  nameWithType: ProjStatusTableInfo
+  fullName: SuperOffice.CRM.Data.ProjStatusTableInfo
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.StatusIdx_InnerJoin_ProjStatus*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.StatusIdx_InnerJoin_ProjStatus
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_StatusIdx_InnerJoin_ProjStatus
   name: StatusIdx_InnerJoin_ProjStatus
   nameWithType: ProjectTableInfo.StatusIdx_InnerJoin_ProjStatus
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.StatusIdx_InnerJoin_ProjStatus
@@ -2696,6 +2729,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ProjStatusTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<ProjStatusTableInfo>
   nameWithType: TargetedInnerJoin<ProjStatusTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.ProjStatusTableInfo>
@@ -2705,40 +2739,39 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.ProjStatusTableInfo
     name: ProjStatusTableInfo
-    nameWithType: ProjStatusTableInfo
-    fullName: SuperOffice.CRM.Data.ProjStatusTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.ProjStatusTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.ProjStatusTableInfo
     name: ProjStatusTableInfo
-    nameWithType: ProjStatusTableInfo
-    fullName: SuperOffice.CRM.Data.ProjStatusTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.ProjStatusTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.AssociateTableInfo
+  commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html
+  name: AssociateTableInfo
+  nameWithType: AssociateTableInfo
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.AssociateId_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.AssociateId_InnerJoin_Associate
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_AssociateId_InnerJoin_Associate
   name: AssociateId_InnerJoin_Associate
   nameWithType: ProjectTableInfo.AssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.AssociateId_InnerJoin_Associate
@@ -2746,6 +2779,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<AssociateTableInfo>
   nameWithType: TargetedInnerJoin<AssociateTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.AssociateTableInfo>
@@ -2755,40 +2789,39 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.AssociateTableInfo
     name: AssociateTableInfo
-    nameWithType: AssociateTableInfo
-    fullName: SuperOffice.CRM.Data.AssociateTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.AssociateTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.AssociateTableInfo
     name: AssociateTableInfo
-    nameWithType: AssociateTableInfo
-    fullName: SuperOffice.CRM.Data.AssociateTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.AssociateTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.TextTableInfo
+  commentId: T:SuperOffice.CRM.Data.TextTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.TextTableInfo.html
+  name: TextTableInfo
+  nameWithType: TextTableInfo
+  fullName: SuperOffice.CRM.Data.TextTableInfo
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.TextId_InnerJoin_Text*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.TextId_InnerJoin_Text
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_TextId_InnerJoin_Text
   name: TextId_InnerJoin_Text
   nameWithType: ProjectTableInfo.TextId_InnerJoin_Text
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.TextId_InnerJoin_Text
@@ -2796,6 +2829,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TextTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<TextTableInfo>
   nameWithType: TargetedInnerJoin<TextTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.TextTableInfo>
@@ -2805,52 +2839,53 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.TextTableInfo
     name: TextTableInfo
-    nameWithType: TextTableInfo
-    fullName: SuperOffice.CRM.Data.TextTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.TextTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.TextTableInfo
     name: TextTableInfo
-    nameWithType: TextTableInfo
-    fullName: SuperOffice.CRM.Data.TextTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.TextTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.RegisteredAssociateId_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.RegisteredAssociateId_InnerJoin_Associate
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_RegisteredAssociateId_InnerJoin_Associate
   name: RegisteredAssociateId_InnerJoin_Associate
   nameWithType: ProjectTableInfo.RegisteredAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.RegisteredAssociateId_InnerJoin_Associate
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.UpdatedAssociateId_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.UpdatedAssociateId_InnerJoin_Associate
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_UpdatedAssociateId_InnerJoin_Associate
   name: UpdatedAssociateId_InnerJoin_Associate
   nameWithType: ProjectTableInfo.UpdatedAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.UpdatedAssociateId_InnerJoin_Associate
+- uid: SuperOffice.CRM.Data.UDProjectSmallTableInfo
+  commentId: T:SuperOffice.CRM.Data.UDProjectSmallTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.UDProjectSmallTableInfo.html
+  name: UDProjectSmallTableInfo
+  nameWithType: UDProjectSmallTableInfo
+  fullName: SuperOffice.CRM.Data.UDProjectSmallTableInfo
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.UserdefId_InnerJoin_UDProjectSmall*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.UserdefId_InnerJoin_UDProjectSmall
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_UserdefId_InnerJoin_UDProjectSmall
   name: UserdefId_InnerJoin_UDProjectSmall
   nameWithType: ProjectTableInfo.UserdefId_InnerJoin_UDProjectSmall
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.UserdefId_InnerJoin_UDProjectSmall
@@ -2858,6 +2893,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.UDProjectSmallTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<UDProjectSmallTableInfo>
   nameWithType: TargetedInnerJoin<UDProjectSmallTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.UDProjectSmallTableInfo>
@@ -2867,40 +2903,39 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.UDProjectSmallTableInfo
     name: UDProjectSmallTableInfo
-    nameWithType: UDProjectSmallTableInfo
-    fullName: SuperOffice.CRM.Data.UDProjectSmallTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.UDProjectSmallTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.UDProjectSmallTableInfo
     name: UDProjectSmallTableInfo
-    nameWithType: UDProjectSmallTableInfo
-    fullName: SuperOffice.CRM.Data.UDProjectSmallTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.UDProjectSmallTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.UDProjectLargeTableInfo
+  commentId: T:SuperOffice.CRM.Data.UDProjectLargeTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.UDProjectLargeTableInfo.html
+  name: UDProjectLargeTableInfo
+  nameWithType: UDProjectLargeTableInfo
+  fullName: SuperOffice.CRM.Data.UDProjectLargeTableInfo
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.Userdef2Id_InnerJoin_UDProjectLarge*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.Userdef2Id_InnerJoin_UDProjectLarge
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_Userdef2Id_InnerJoin_UDProjectLarge
   name: Userdef2Id_InnerJoin_UDProjectLarge
   nameWithType: ProjectTableInfo.Userdef2Id_InnerJoin_UDProjectLarge
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.Userdef2Id_InnerJoin_UDProjectLarge
@@ -2908,6 +2943,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.UDProjectLargeTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<UDProjectLargeTableInfo>
   nameWithType: TargetedInnerJoin<UDProjectLargeTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.UDProjectLargeTableInfo>
@@ -2917,46 +2953,46 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.UDProjectLargeTableInfo
     name: UDProjectLargeTableInfo
-    nameWithType: UDProjectLargeTableInfo
-    fullName: SuperOffice.CRM.Data.UDProjectLargeTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.UDProjectLargeTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.UDProjectLargeTableInfo
     name: UDProjectLargeTableInfo
-    nameWithType: UDProjectLargeTableInfo
-    fullName: SuperOffice.CRM.Data.UDProjectLargeTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.UDProjectLargeTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.PostitTextId_InnerJoin_Text*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.PostitTextId_InnerJoin_Text
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_PostitTextId_InnerJoin_Text
   name: PostitTextId_InnerJoin_Text
   nameWithType: ProjectTableInfo.PostitTextId_InnerJoin_Text
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.PostitTextId_InnerJoin_Text
+- uid: SuperOffice.CRM.Data.UserGroupTableInfo
+  commentId: T:SuperOffice.CRM.Data.UserGroupTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.UserGroupTableInfo.html
+  name: UserGroupTableInfo
+  nameWithType: UserGroupTableInfo
+  fullName: SuperOffice.CRM.Data.UserGroupTableInfo
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.GroupId_InnerJoin_UserGroup*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.GroupId_InnerJoin_UserGroup
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_GroupId_InnerJoin_UserGroup
   name: GroupId_InnerJoin_UserGroup
   nameWithType: ProjectTableInfo.GroupId_InnerJoin_UserGroup
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.GroupId_InnerJoin_UserGroup
@@ -2964,6 +3000,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.UserGroupTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<UserGroupTableInfo>
   nameWithType: TargetedInnerJoin<UserGroupTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.UserGroupTableInfo>
@@ -2973,40 +3010,39 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.UserGroupTableInfo
     name: UserGroupTableInfo
-    nameWithType: UserGroupTableInfo
-    fullName: SuperOffice.CRM.Data.UserGroupTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.UserGroupTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.UserGroupTableInfo
     name: UserGroupTableInfo
-    nameWithType: UserGroupTableInfo
-    fullName: SuperOffice.CRM.Data.UserGroupTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.UserGroupTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo
+  commentId: T:SuperOffice.CRM.Data.TZLocationTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.TZLocationTableInfo.html
+  name: TZLocationTableInfo
+  nameWithType: TZLocationTableInfo
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.TzLocationId_InnerJoin_TZLocation*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.TzLocationId_InnerJoin_TZLocation
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_TzLocationId_InnerJoin_TZLocation
   name: TzLocationId_InnerJoin_TZLocation
   nameWithType: ProjectTableInfo.TzLocationId_InnerJoin_TZLocation
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.TzLocationId_InnerJoin_TZLocation
@@ -3014,6 +3050,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TZLocationTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<TZLocationTableInfo>
   nameWithType: TargetedInnerJoin<TZLocationTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.TZLocationTableInfo>
@@ -3023,40 +3060,39 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.TZLocationTableInfo
     name: TZLocationTableInfo
-    nameWithType: TZLocationTableInfo
-    fullName: SuperOffice.CRM.Data.TZLocationTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.TZLocationTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.TZLocationTableInfo
     name: TZLocationTableInfo
-    nameWithType: TZLocationTableInfo
-    fullName: SuperOffice.CRM.Data.TZLocationTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.TZLocationTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo
+  commentId: T:SuperOffice.CRM.Data.AppointmentTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.AppointmentTableInfo.html
+  name: AppointmentTableInfo
+  nameWithType: AppointmentTableInfo
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.NmdAppointmentId_InnerJoin_Appointment*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.NmdAppointmentId_InnerJoin_Appointment
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_NmdAppointmentId_InnerJoin_Appointment
   name: NmdAppointmentId_InnerJoin_Appointment
   nameWithType: ProjectTableInfo.NmdAppointmentId_InnerJoin_Appointment
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.NmdAppointmentId_InnerJoin_Appointment
@@ -3064,6 +3100,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AppointmentTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<AppointmentTableInfo>
   nameWithType: TargetedInnerJoin<AppointmentTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.AppointmentTableInfo>
@@ -3073,40 +3110,38 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.AppointmentTableInfo
     name: AppointmentTableInfo
-    nameWithType: AppointmentTableInfo
-    fullName: SuperOffice.CRM.Data.AppointmentTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.AppointmentTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.AppointmentTableInfo
     name: AppointmentTableInfo
-    nameWithType: AppointmentTableInfo
-    fullName: SuperOffice.CRM.Data.AppointmentTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.AppointmentTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.ProjectId
+  commentId: P:SuperOffice.CRM.Data.AppointmentTableInfo.ProjectId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AppointmentTableInfo.html#SuperOffice_CRM_Data_AppointmentTableInfo_ProjectId
+  name: ProjectId
+  nameWithType: AppointmentTableInfo.ProjectId
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.ProjectId
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Appointment_ProjectId*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Appointment_ProjectId
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_LeftOuterJoin_Appointment_ProjectId
   name: LeftOuterJoin_Appointment_ProjectId
   nameWithType: ProjectTableInfo.LeftOuterJoin_Appointment_ProjectId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Appointment_ProjectId
@@ -3114,6 +3149,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AppointmentTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<AppointmentTableInfo>
   nameWithType: TargetedLeftOuterJoin<AppointmentTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.AppointmentTableInfo>
@@ -3123,40 +3159,31 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.AppointmentTableInfo
     name: AppointmentTableInfo
-    nameWithType: AppointmentTableInfo
-    fullName: SuperOffice.CRM.Data.AppointmentTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.AppointmentTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.AppointmentTableInfo
     name: AppointmentTableInfo
-    nameWithType: AppointmentTableInfo
-    fullName: SuperOffice.CRM.Data.AppointmentTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.AppointmentTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
   isExternal: true
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<TargetTableInfo>
   nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
@@ -3166,36 +3193,32 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.ProjectMemberTableInfo.ProjectId
+  commentId: P:SuperOffice.CRM.Data.ProjectMemberTableInfo.ProjectId
+  isExternal: true
+  href: SuperOffice.CRM.Data.ProjectMemberTableInfo.html#SuperOffice_CRM_Data_ProjectMemberTableInfo_ProjectId
+  name: ProjectId
+  nameWithType: ProjectMemberTableInfo.ProjectId
+  fullName: SuperOffice.CRM.Data.ProjectMemberTableInfo.ProjectId
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_ProjectMember_ProjectId*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_ProjectMember_ProjectId
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_LeftOuterJoin_ProjectMember_ProjectId
   name: LeftOuterJoin_ProjectMember_ProjectId
   nameWithType: ProjectTableInfo.LeftOuterJoin_ProjectMember_ProjectId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_ProjectMember_ProjectId
@@ -3203,6 +3226,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ProjectMemberTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<ProjectMemberTableInfo>
   nameWithType: TargetedLeftOuterJoin<ProjectMemberTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.ProjectMemberTableInfo>
@@ -3212,40 +3236,38 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.ProjectMemberTableInfo
     name: ProjectMemberTableInfo
-    nameWithType: ProjectMemberTableInfo
-    fullName: SuperOffice.CRM.Data.ProjectMemberTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.ProjectMemberTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.ProjectMemberTableInfo
     name: ProjectMemberTableInfo
-    nameWithType: ProjectMemberTableInfo
-    fullName: SuperOffice.CRM.Data.ProjectMemberTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.ProjectMemberTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.SaleTableInfo.ProjectId
+  commentId: P:SuperOffice.CRM.Data.SaleTableInfo.ProjectId
+  isExternal: true
+  href: SuperOffice.CRM.Data.SaleTableInfo.html#SuperOffice_CRM_Data_SaleTableInfo_ProjectId
+  name: ProjectId
+  nameWithType: SaleTableInfo.ProjectId
+  fullName: SuperOffice.CRM.Data.SaleTableInfo.ProjectId
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Sale_ProjectId*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Sale_ProjectId
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_LeftOuterJoin_Sale_ProjectId
   name: LeftOuterJoin_Sale_ProjectId
   nameWithType: ProjectTableInfo.LeftOuterJoin_Sale_ProjectId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Sale_ProjectId
@@ -3253,6 +3275,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SaleTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<SaleTableInfo>
   nameWithType: TargetedLeftOuterJoin<SaleTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.SaleTableInfo>
@@ -3262,40 +3285,38 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.SaleTableInfo
     name: SaleTableInfo
-    nameWithType: SaleTableInfo
-    fullName: SuperOffice.CRM.Data.SaleTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.SaleTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.SaleTableInfo
     name: SaleTableInfo
-    nameWithType: SaleTableInfo
-    fullName: SuperOffice.CRM.Data.SaleTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.SaleTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.URLTableInfo.ProjectId
+  commentId: P:SuperOffice.CRM.Data.URLTableInfo.ProjectId
+  isExternal: true
+  href: SuperOffice.CRM.Data.URLTableInfo.html#SuperOffice_CRM_Data_URLTableInfo_ProjectId
+  name: ProjectId
+  nameWithType: URLTableInfo.ProjectId
+  fullName: SuperOffice.CRM.Data.URLTableInfo.ProjectId
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_URL_ProjectId*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_URL_ProjectId
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_LeftOuterJoin_URL_ProjectId
   name: LeftOuterJoin_URL_ProjectId
   nameWithType: ProjectTableInfo.LeftOuterJoin_URL_ProjectId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_URL_ProjectId
@@ -3303,6 +3324,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.URLTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<URLTableInfo>
   nameWithType: TargetedLeftOuterJoin<URLTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.URLTableInfo>
@@ -3312,40 +3334,38 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.URLTableInfo
     name: URLTableInfo
-    nameWithType: URLTableInfo
-    fullName: SuperOffice.CRM.Data.URLTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.URLTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.URLTableInfo
     name: URLTableInfo
-    nameWithType: URLTableInfo
-    fullName: SuperOffice.CRM.Data.URLTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.URLTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.EmailTableInfo.ProjectId
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.ProjectId
+  isExternal: true
+  href: SuperOffice.CRM.Data.EmailTableInfo.html#SuperOffice_CRM_Data_EmailTableInfo_ProjectId
+  name: ProjectId
+  nameWithType: EmailTableInfo.ProjectId
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.ProjectId
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Email_ProjectId*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Email_ProjectId
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_LeftOuterJoin_Email_ProjectId
   name: LeftOuterJoin_Email_ProjectId
   nameWithType: ProjectTableInfo.LeftOuterJoin_Email_ProjectId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Email_ProjectId
@@ -3353,6 +3373,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.EmailTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<EmailTableInfo>
   nameWithType: TargetedLeftOuterJoin<EmailTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.EmailTableInfo>
@@ -3362,40 +3383,38 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.EmailTableInfo
     name: EmailTableInfo
-    nameWithType: EmailTableInfo
-    fullName: SuperOffice.CRM.Data.EmailTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.EmailTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.EmailTableInfo
     name: EmailTableInfo
-    nameWithType: EmailTableInfo
-    fullName: SuperOffice.CRM.Data.EmailTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.EmailTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.SaleHistTableInfo.ProjectId
+  commentId: P:SuperOffice.CRM.Data.SaleHistTableInfo.ProjectId
+  isExternal: true
+  href: SuperOffice.CRM.Data.SaleHistTableInfo.html#SuperOffice_CRM_Data_SaleHistTableInfo_ProjectId
+  name: ProjectId
+  nameWithType: SaleHistTableInfo.ProjectId
+  fullName: SuperOffice.CRM.Data.SaleHistTableInfo.ProjectId
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SaleHist_ProjectId*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SaleHist_ProjectId
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_LeftOuterJoin_SaleHist_ProjectId
   name: LeftOuterJoin_SaleHist_ProjectId
   nameWithType: ProjectTableInfo.LeftOuterJoin_SaleHist_ProjectId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SaleHist_ProjectId
@@ -3403,6 +3422,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SaleHistTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<SaleHistTableInfo>
   nameWithType: TargetedLeftOuterJoin<SaleHistTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.SaleHistTableInfo>
@@ -3412,40 +3432,38 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.SaleHistTableInfo
     name: SaleHistTableInfo
-    nameWithType: SaleHistTableInfo
-    fullName: SuperOffice.CRM.Data.SaleHistTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.SaleHistTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.SaleHistTableInfo
     name: SaleHistTableInfo
-    nameWithType: SaleHistTableInfo
-    fullName: SuperOffice.CRM.Data.SaleHistTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.SaleHistTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.ProjectId
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.ProjectId
+  isExternal: true
+  href: SuperOffice.CRM.Data.CounterValueTableInfo.html#SuperOffice_CRM_Data_CounterValueTableInfo_ProjectId
+  name: ProjectId
+  nameWithType: CounterValueTableInfo.ProjectId
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.ProjectId
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_CounterValue_ProjectId*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_CounterValue_ProjectId
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_LeftOuterJoin_CounterValue_ProjectId
   name: LeftOuterJoin_CounterValue_ProjectId
   nameWithType: ProjectTableInfo.LeftOuterJoin_CounterValue_ProjectId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_CounterValue_ProjectId
@@ -3453,6 +3471,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CounterValueTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<CounterValueTableInfo>
   nameWithType: TargetedLeftOuterJoin<CounterValueTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.CounterValueTableInfo>
@@ -3462,40 +3481,38 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.CounterValueTableInfo
     name: CounterValueTableInfo
-    nameWithType: CounterValueTableInfo
-    fullName: SuperOffice.CRM.Data.CounterValueTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.CounterValueTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.CounterValueTableInfo
     name: CounterValueTableInfo
-    nameWithType: CounterValueTableInfo
-    fullName: SuperOffice.CRM.Data.CounterValueTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.CounterValueTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.StatusValueTableInfo.ProjectId
+  commentId: P:SuperOffice.CRM.Data.StatusValueTableInfo.ProjectId
+  isExternal: true
+  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_ProjectId
+  name: ProjectId
+  nameWithType: StatusValueTableInfo.ProjectId
+  fullName: SuperOffice.CRM.Data.StatusValueTableInfo.ProjectId
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_StatusValue_ProjectId*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_StatusValue_ProjectId
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_LeftOuterJoin_StatusValue_ProjectId
   name: LeftOuterJoin_StatusValue_ProjectId
   nameWithType: ProjectTableInfo.LeftOuterJoin_StatusValue_ProjectId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_StatusValue_ProjectId
@@ -3503,6 +3520,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.StatusValueTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<StatusValueTableInfo>
   nameWithType: TargetedLeftOuterJoin<StatusValueTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.StatusValueTableInfo>
@@ -3512,40 +3530,38 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.StatusValueTableInfo
     name: StatusValueTableInfo
-    nameWithType: StatusValueTableInfo
-    fullName: SuperOffice.CRM.Data.StatusValueTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.StatusValueTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.StatusValueTableInfo
     name: StatusValueTableInfo
-    nameWithType: StatusValueTableInfo
-    fullName: SuperOffice.CRM.Data.StatusValueTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.StatusValueTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.TicketTableInfo.ProjectId
+  commentId: P:SuperOffice.CRM.Data.TicketTableInfo.ProjectId
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketTableInfo.html#SuperOffice_CRM_Data_TicketTableInfo_ProjectId
+  name: ProjectId
+  nameWithType: TicketTableInfo.ProjectId
+  fullName: SuperOffice.CRM.Data.TicketTableInfo.ProjectId
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Ticket_ProjectId*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Ticket_ProjectId
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_LeftOuterJoin_Ticket_ProjectId
   name: LeftOuterJoin_Ticket_ProjectId
   nameWithType: ProjectTableInfo.LeftOuterJoin_Ticket_ProjectId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Ticket_ProjectId
@@ -3553,6 +3569,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<TicketTableInfo>
   nameWithType: TargetedLeftOuterJoin<TicketTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TicketTableInfo>
@@ -3562,40 +3579,38 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.TicketTableInfo
     name: TicketTableInfo
-    nameWithType: TicketTableInfo
-    fullName: SuperOffice.CRM.Data.TicketTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.TicketTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.TicketTableInfo
     name: TicketTableInfo
-    nameWithType: TicketTableInfo
-    fullName: SuperOffice.CRM.Data.TicketTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.TicketTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.ChatSessionTableInfo.ProjectId
+  commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.ProjectId
+  isExternal: true
+  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_ProjectId
+  name: ProjectId
+  nameWithType: ChatSessionTableInfo.ProjectId
+  fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.ProjectId
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_ChatSession_ProjectId*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_ChatSession_ProjectId
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_LeftOuterJoin_ChatSession_ProjectId
   name: LeftOuterJoin_ChatSession_ProjectId
   nameWithType: ProjectTableInfo.LeftOuterJoin_ChatSession_ProjectId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_ChatSession_ProjectId
@@ -3603,6 +3618,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ChatSessionTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<ChatSessionTableInfo>
   nameWithType: TargetedLeftOuterJoin<ChatSessionTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.ChatSessionTableInfo>
@@ -3612,40 +3628,38 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.ChatSessionTableInfo
     name: ChatSessionTableInfo
-    nameWithType: ChatSessionTableInfo
-    fullName: SuperOffice.CRM.Data.ChatSessionTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.ChatSessionTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.ChatSessionTableInfo
     name: ChatSessionTableInfo
-    nameWithType: ChatSessionTableInfo
-    fullName: SuperOffice.CRM.Data.ChatSessionTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.ChatSessionTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.ProjectId
+  commentId: P:SuperOffice.CRM.Data.SShipmentTableInfo.ProjectId
+  isExternal: true
+  href: SuperOffice.CRM.Data.SShipmentTableInfo.html#SuperOffice_CRM_Data_SShipmentTableInfo_ProjectId
+  name: ProjectId
+  nameWithType: SShipmentTableInfo.ProjectId
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.ProjectId
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SShipment_ProjectId*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SShipment_ProjectId
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_LeftOuterJoin_SShipment_ProjectId
   name: LeftOuterJoin_SShipment_ProjectId
   nameWithType: ProjectTableInfo.LeftOuterJoin_SShipment_ProjectId
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SShipment_ProjectId
@@ -3653,6 +3667,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SShipmentTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<SShipmentTableInfo>
   nameWithType: TargetedLeftOuterJoin<SShipmentTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.SShipmentTableInfo>
@@ -3662,40 +3677,38 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.SShipmentTableInfo
     name: SShipmentTableInfo
-    nameWithType: SShipmentTableInfo
-    fullName: SuperOffice.CRM.Data.SShipmentTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.SShipmentTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.SShipmentTableInfo
     name: SShipmentTableInfo
-    nameWithType: SShipmentTableInfo
-    fullName: SuperOffice.CRM.Data.SShipmentTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.SShipmentTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.SLinkTableInfo.AddProject
+  commentId: P:SuperOffice.CRM.Data.SLinkTableInfo.AddProject
+  isExternal: true
+  href: SuperOffice.CRM.Data.SLinkTableInfo.html#SuperOffice_CRM_Data_SLinkTableInfo_AddProject
+  name: AddProject
+  nameWithType: SLinkTableInfo.AddProject
+  fullName: SuperOffice.CRM.Data.SLinkTableInfo.AddProject
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_AddProject*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_AddProject
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_LeftOuterJoin_SLink_AddProject
   name: LeftOuterJoin_SLink_AddProject
   nameWithType: ProjectTableInfo.LeftOuterJoin_SLink_AddProject
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_AddProject
@@ -3703,6 +3716,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SLinkTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<SLinkTableInfo>
   nameWithType: TargetedLeftOuterJoin<SLinkTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.SLinkTableInfo>
@@ -3712,46 +3726,52 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.SLinkTableInfo
     name: SLinkTableInfo
-    nameWithType: SLinkTableInfo
-    fullName: SuperOffice.CRM.Data.SLinkTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.SLinkTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.SLinkTableInfo
     name: SLinkTableInfo
-    nameWithType: SLinkTableInfo
-    fullName: SuperOffice.CRM.Data.SLinkTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.SLinkTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.SLinkTableInfo.RemoveProject
+  commentId: P:SuperOffice.CRM.Data.SLinkTableInfo.RemoveProject
+  isExternal: true
+  href: SuperOffice.CRM.Data.SLinkTableInfo.html#SuperOffice_CRM_Data_SLinkTableInfo_RemoveProject
+  name: RemoveProject
+  nameWithType: SLinkTableInfo.RemoveProject
+  fullName: SuperOffice.CRM.Data.SLinkTableInfo.RemoveProject
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_RemoveProject*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_RemoveProject
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_LeftOuterJoin_SLink_RemoveProject
   name: LeftOuterJoin_SLink_RemoveProject
   nameWithType: ProjectTableInfo.LeftOuterJoin_SLink_RemoveProject
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_RemoveProject
+- uid: SuperOffice.CRM.Data.SLinkTableInfo.TaskProject
+  commentId: P:SuperOffice.CRM.Data.SLinkTableInfo.TaskProject
+  isExternal: true
+  href: SuperOffice.CRM.Data.SLinkTableInfo.html#SuperOffice_CRM_Data_SLinkTableInfo_TaskProject
+  name: TaskProject
+  nameWithType: SLinkTableInfo.TaskProject
+  fullName: SuperOffice.CRM.Data.SLinkTableInfo.TaskProject
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_TaskProject*
   commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_TaskProject
   isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_LeftOuterJoin_SLink_TaskProject
   name: LeftOuterJoin_SLink_TaskProject
   nameWithType: ProjectTableInfo.LeftOuterJoin_SLink_TaskProject
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_TaskProject

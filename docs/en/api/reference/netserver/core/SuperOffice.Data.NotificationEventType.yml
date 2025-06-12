@@ -17,67 +17,41 @@ items:
   - SuperOffice.Data.NotificationEventType.TicketActivated
   - SuperOffice.Data.NotificationEventType.TicketEscalated
   - SuperOffice.Data.NotificationEventType.Unknown
-  - SuperOffice.Data.NotificationEventType.value__
   langs:
   - csharp
   - vb
   name: NotificationEventType
   nameWithType: NotificationEventType
   fullName: SuperOffice.Data.NotificationEventType
-  type: Class
-  source:
-    path: SoCore
-    isExternal: true
+  type: Enum
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\nTypes of events that are sent through the Pocket Notification API, where they are paired with an entity id\n"
+  summary: Types of events that are sent through the Pocket Notification API, where they are paired with an entity id
+  example: []
   syntax:
-    content: 'public sealed class NotificationEventType : Enum'
-    content.vb: >-
-      Public NotInheritable Class NotificationEventType
-          Inherits
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
 
-           Enum
-  inheritance:
-  - System.Object
+      public enum NotificationEventType
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Enum NotificationEventType
   extensionMethods:
   - SuperOffice.Data.NotificationEventType.EnumUtil.MapEnums``2
   - SuperOffice.Data.NotificationEventType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.Data.NotificationEventType.value__
-  commentId: F:SuperOffice.Data.NotificationEventType.value__
-  id: value__
-  parent: SuperOffice.Data.NotificationEventType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: NotificationEventType.value__
-  fullName: SuperOffice.Data.NotificationEventType.value__
-  type: Field
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.Data.NotificationEventType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.NotificationEventType)
+  - SuperOffice.Data.NotificationEventType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - System.Enum.EnumUtil.GetDescription
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.Data.NotificationEventType.Unknown
   commentId: F:SuperOffice.Data.NotificationEventType.Unknown
   id: Unknown
@@ -89,24 +63,26 @@ items:
   nameWithType: NotificationEventType.Unknown
   fullName: SuperOffice.Data.NotificationEventType.Unknown
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n0: Unknown\n"
+  summary: '0: Unknown'
+  example: []
   syntax:
-    content: public const NotificationEventType Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.Data.NotificationEventType
-    content.vb: Public Const Unknown As NotificationEventType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.NotificationEventType.NewTicket
   commentId: F:SuperOffice.Data.NotificationEventType.NewTicket
   id: NewTicket
@@ -118,24 +94,26 @@ items:
   nameWithType: NotificationEventType.NewTicket
   fullName: SuperOffice.Data.NotificationEventType.NewTicket
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1: New ticket\n"
+  summary: '1: New ticket'
+  example: []
   syntax:
-    content: public const NotificationEventType NewTicket
+    content: >-
+      [EnumMember]
+
+      NewTicket = 1
     return:
       type: SuperOffice.Data.NotificationEventType
-    content.vb: Public Const NewTicket As NotificationEventType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      NewTicket = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.NotificationEventType.AppointmentInvitation
   commentId: F:SuperOffice.Data.NotificationEventType.AppointmentInvitation
   id: AppointmentInvitation
@@ -147,24 +125,26 @@ items:
   nameWithType: NotificationEventType.AppointmentInvitation
   fullName: SuperOffice.Data.NotificationEventType.AppointmentInvitation
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n2: Appointment invitation\n"
+  summary: '2: Appointment invitation'
+  example: []
   syntax:
-    content: public const NotificationEventType AppointmentInvitation
+    content: >-
+      [EnumMember]
+
+      AppointmentInvitation = 2
     return:
       type: SuperOffice.Data.NotificationEventType
-    content.vb: Public Const AppointmentInvitation As NotificationEventType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      AppointmentInvitation = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.NotificationEventType.AppointmentMoved
   commentId: F:SuperOffice.Data.NotificationEventType.AppointmentMoved
   id: AppointmentMoved
@@ -176,24 +156,26 @@ items:
   nameWithType: NotificationEventType.AppointmentMoved
   fullName: SuperOffice.Data.NotificationEventType.AppointmentMoved
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n3: Appointment moved or changed\n"
+  summary: '3: Appointment moved or changed'
+  example: []
   syntax:
-    content: public const NotificationEventType AppointmentMoved
+    content: >-
+      [EnumMember]
+
+      AppointmentMoved = 3
     return:
       type: SuperOffice.Data.NotificationEventType
-    content.vb: Public Const AppointmentMoved As NotificationEventType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      AppointmentMoved = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.NotificationEventType.AppointmentCancelled
   commentId: F:SuperOffice.Data.NotificationEventType.AppointmentCancelled
   id: AppointmentCancelled
@@ -205,24 +187,26 @@ items:
   nameWithType: NotificationEventType.AppointmentCancelled
   fullName: SuperOffice.Data.NotificationEventType.AppointmentCancelled
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n4: Appointment cancelled\n"
+  summary: '4: Appointment cancelled'
+  example: []
   syntax:
-    content: public const NotificationEventType AppointmentCancelled
+    content: >-
+      [EnumMember]
+
+      AppointmentCancelled = 4
     return:
       type: SuperOffice.Data.NotificationEventType
-    content.vb: Public Const AppointmentCancelled As NotificationEventType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      AppointmentCancelled = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.NotificationEventType.NewTicketMessage
   commentId: F:SuperOffice.Data.NotificationEventType.NewTicketMessage
   id: NewTicketMessage
@@ -234,24 +218,26 @@ items:
   nameWithType: NotificationEventType.NewTicketMessage
   fullName: SuperOffice.Data.NotificationEventType.NewTicketMessage
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n5: New ticket message\n"
+  summary: '5: New ticket message'
+  example: []
   syntax:
-    content: public const NotificationEventType NewTicketMessage
+    content: >-
+      [EnumMember]
+
+      NewTicketMessage = 5
     return:
       type: SuperOffice.Data.NotificationEventType
-    content.vb: Public Const NewTicketMessage As NotificationEventType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      NewTicketMessage = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.NotificationEventType.TicketActivated
   commentId: F:SuperOffice.Data.NotificationEventType.TicketActivated
   id: TicketActivated
@@ -263,24 +249,26 @@ items:
   nameWithType: NotificationEventType.TicketActivated
   fullName: SuperOffice.Data.NotificationEventType.TicketActivated
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n6: Ticket activated\n"
+  summary: '6: Ticket activated'
+  example: []
   syntax:
-    content: public const NotificationEventType TicketActivated
+    content: >-
+      [EnumMember]
+
+      TicketActivated = 6
     return:
       type: SuperOffice.Data.NotificationEventType
-    content.vb: Public Const TicketActivated As NotificationEventType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TicketActivated = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.NotificationEventType.TicketEscalated
   commentId: F:SuperOffice.Data.NotificationEventType.TicketEscalated
   id: TicketEscalated
@@ -292,24 +280,26 @@ items:
   nameWithType: NotificationEventType.TicketEscalated
   fullName: SuperOffice.Data.NotificationEventType.TicketEscalated
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n7: Ticket escalated\n"
+  summary: '7: Ticket escalated'
+  example: []
   syntax:
-    content: public const NotificationEventType TicketEscalated
+    content: >-
+      [EnumMember]
+
+      TicketEscalated = 7
     return:
       type: SuperOffice.Data.NotificationEventType
-    content.vb: Public Const TicketEscalated As NotificationEventType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TicketEscalated = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.NotificationEventType.QuoteApprovalRequest
   commentId: F:SuperOffice.Data.NotificationEventType.QuoteApprovalRequest
   id: QuoteApprovalRequest
@@ -321,24 +311,26 @@ items:
   nameWithType: NotificationEventType.QuoteApprovalRequest
   fullName: SuperOffice.Data.NotificationEventType.QuoteApprovalRequest
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n8: Quote approval requested\n"
+  summary: '8: Quote approval requested'
+  example: []
   syntax:
-    content: public const NotificationEventType QuoteApprovalRequest
+    content: >-
+      [EnumMember]
+
+      QuoteApprovalRequest = 8
     return:
       type: SuperOffice.Data.NotificationEventType
-    content.vb: Public Const QuoteApprovalRequest As NotificationEventType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      QuoteApprovalRequest = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.NotificationEventType.QuoteApprovalApproved
   commentId: F:SuperOffice.Data.NotificationEventType.QuoteApprovalApproved
   id: QuoteApprovalApproved
@@ -350,24 +342,26 @@ items:
   nameWithType: NotificationEventType.QuoteApprovalApproved
   fullName: SuperOffice.Data.NotificationEventType.QuoteApprovalApproved
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n9: Quote approval approved\n"
+  summary: '9: Quote approval approved'
+  example: []
   syntax:
-    content: public const NotificationEventType QuoteApprovalApproved
+    content: >-
+      [EnumMember]
+
+      QuoteApprovalApproved = 9
     return:
       type: SuperOffice.Data.NotificationEventType
-    content.vb: Public Const QuoteApprovalApproved As NotificationEventType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      QuoteApprovalApproved = 9
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.NotificationEventType.QuoteApprovalDenied
   commentId: F:SuperOffice.Data.NotificationEventType.QuoteApprovalDenied
   id: QuoteApprovalDenied
@@ -379,24 +373,26 @@ items:
   nameWithType: NotificationEventType.QuoteApprovalDenied
   fullName: SuperOffice.Data.NotificationEventType.QuoteApprovalDenied
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n10: Quote approval denied\n"
+  summary: '10: Quote approval denied'
+  example: []
   syntax:
-    content: public const NotificationEventType QuoteApprovalDenied
+    content: >-
+      [EnumMember]
+
+      QuoteApprovalDenied = 10
     return:
       type: SuperOffice.Data.NotificationEventType
-    content.vb: Public Const QuoteApprovalDenied As NotificationEventType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      QuoteApprovalDenied = 10
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.NotificationEventType.AppointmentDeclined
   commentId: F:SuperOffice.Data.NotificationEventType.AppointmentDeclined
   id: AppointmentDeclined
@@ -408,115 +404,300 @@ items:
   nameWithType: NotificationEventType.AppointmentDeclined
   fullName: SuperOffice.Data.NotificationEventType.AppointmentDeclined
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n11: Invitation or assignment declined\n"
+  summary: '11: Invitation or assignment declined'
+  example: []
   syntax:
-    content: public const NotificationEventType AppointmentDeclined
+    content: >-
+      [EnumMember]
+
+      AppointmentDeclined = 11
     return:
       type: SuperOffice.Data.NotificationEventType
-    content.vb: Public Const AppointmentDeclined As NotificationEventType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      AppointmentDeclined = 11
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.NotificationEventType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<NotificationEventType, To>()
-  nameWithType: EnumUtil.MapEnums<NotificationEventType, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.NotificationEventType, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of NotificationEventType, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.NotificationEventType, To)()
-  name.vb: MapEnums(Of NotificationEventType, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<NotificationEventType, To>(NotificationEventType)
+  nameWithType: EnumUtil.MapEnums<NotificationEventType, To>(NotificationEventType)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.NotificationEventType, To>(SuperOffice.Data.NotificationEventType)
+  nameWithType.vb: EnumUtil.MapEnums(Of NotificationEventType, To)(NotificationEventType)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.NotificationEventType, To)(SuperOffice.Data.NotificationEventType)
+  name.vb: MapEnums(Of NotificationEventType, To)(NotificationEventType)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<NotificationEventType, To>
-    nameWithType: EnumUtil.MapEnums<NotificationEventType, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.NotificationEventType, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.NotificationEventType)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.NotificationEventType
+    name: NotificationEventType
+    isExternal: true
+    href: SuperOffice.Data.NotificationEventType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.NotificationEventType
+    name: NotificationEventType
+    isExternal: true
+    href: SuperOffice.Data.NotificationEventType.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of NotificationEventType, To)
-    nameWithType: EnumUtil.MapEnums(Of NotificationEventType, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.NotificationEventType, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.NotificationEventType)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.NotificationEventType
+    name: NotificationEventType
+    isExternal: true
+    href: SuperOffice.Data.NotificationEventType.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.NotificationEventType
+    name: NotificationEventType
+    isExternal: true
+    href: SuperOffice.Data.NotificationEventType.html
+  - name: )
 - uid: SuperOffice.Data.NotificationEventType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<NotificationEventType, To>()
-  nameWithType: Converters.MapEnums<NotificationEventType, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.NotificationEventType, To>()
-  nameWithType.vb: Converters.MapEnums(Of NotificationEventType, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.NotificationEventType, To)()
-  name.vb: MapEnums(Of NotificationEventType, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<NotificationEventType, To>(NotificationEventType)
+  nameWithType: Converters.MapEnums<NotificationEventType, To>(NotificationEventType)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.NotificationEventType, To>(SuperOffice.Data.NotificationEventType)
+  nameWithType.vb: Converters.MapEnums(Of NotificationEventType, To)(NotificationEventType)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.NotificationEventType, To)(SuperOffice.Data.NotificationEventType)
+  name.vb: MapEnums(Of NotificationEventType, To)(NotificationEventType)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<NotificationEventType, To>
-    nameWithType: Converters.MapEnums<NotificationEventType, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.NotificationEventType, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.NotificationEventType)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.NotificationEventType
+    name: NotificationEventType
+    isExternal: true
+    href: SuperOffice.Data.NotificationEventType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.NotificationEventType
+    name: NotificationEventType
+    isExternal: true
+    href: SuperOffice.Data.NotificationEventType.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of NotificationEventType, To)
-    nameWithType: Converters.MapEnums(Of NotificationEventType, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.NotificationEventType, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.NotificationEventType)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.NotificationEventType
+    name: NotificationEventType
+    isExternal: true
+    href: SuperOffice.Data.NotificationEventType.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  - name: (
+  - uid: SuperOffice.Data.NotificationEventType
+    name: NotificationEventType
+    isExternal: true
+    href: SuperOffice.Data.NotificationEventType.html
+  - name: )
+- uid: SuperOffice.Data.NotificationEventType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.NotificationEventType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<NotificationEventType>(NotificationEventType, NotificationEventType)
+  nameWithType: ObjectExtensions.AssignByReflection<NotificationEventType>(NotificationEventType, NotificationEventType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.NotificationEventType>(SuperOffice.Data.NotificationEventType, SuperOffice.Data.NotificationEventType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of NotificationEventType)(NotificationEventType, NotificationEventType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.NotificationEventType)(SuperOffice.Data.NotificationEventType, SuperOffice.Data.NotificationEventType)
+  name.vb: AssignByReflection(Of NotificationEventType)(NotificationEventType, NotificationEventType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.NotificationEventType,SuperOffice.Data.NotificationEventType)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.NotificationEventType
+    name: NotificationEventType
+    isExternal: true
+    href: SuperOffice.Data.NotificationEventType.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.NotificationEventType
+    name: NotificationEventType
+    isExternal: true
+    href: SuperOffice.Data.NotificationEventType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.NotificationEventType
+    name: NotificationEventType
+    isExternal: true
+    href: SuperOffice.Data.NotificationEventType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.NotificationEventType,SuperOffice.Data.NotificationEventType)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.NotificationEventType
+    name: NotificationEventType
+    isExternal: true
+    href: SuperOffice.Data.NotificationEventType.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.NotificationEventType
+    name: NotificationEventType
+    isExternal: true
+    href: SuperOffice.Data.NotificationEventType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.NotificationEventType
+    name: NotificationEventType
+    isExternal: true
+    href: SuperOffice.Data.NotificationEventType.html
+  - name: )
+- uid: SuperOffice.Data.NotificationEventType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<NotificationEventType>(NotificationEventType)
+  nameWithType: ObjectExtensions.GraphCopy<NotificationEventType>(NotificationEventType)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.NotificationEventType>(SuperOffice.Data.NotificationEventType)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of NotificationEventType)(NotificationEventType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.NotificationEventType)(SuperOffice.Data.NotificationEventType)
+  name.vb: GraphCopy(Of NotificationEventType)(NotificationEventType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.NotificationEventType)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.NotificationEventType
+    name: NotificationEventType
+    isExternal: true
+    href: SuperOffice.Data.NotificationEventType.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.NotificationEventType
+    name: NotificationEventType
+    isExternal: true
+    href: SuperOffice.Data.NotificationEventType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.NotificationEventType)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.NotificationEventType
+    name: NotificationEventType
+    isExternal: true
+    href: SuperOffice.Data.NotificationEventType.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.NotificationEventType
+    name: NotificationEventType
+    isExternal: true
+    href: SuperOffice.Data.NotificationEventType.html
+  - name: )
+- uid: System.Enum.EnumUtil.GetDescription
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  parent: EnumUtil
+  definition: EnumUtil.GetDescription(System.Enum)
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -525,43 +706,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -570,58 +753,222 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: EnumUtil.GetDescription(System.Enum)
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.Data.NotificationEventType
   commentId: T:SuperOffice.Data.NotificationEventType
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.NotificationEventType.html
   name: NotificationEventType
   nameWithType: NotificationEventType
   fullName: SuperOffice.Data.NotificationEventType

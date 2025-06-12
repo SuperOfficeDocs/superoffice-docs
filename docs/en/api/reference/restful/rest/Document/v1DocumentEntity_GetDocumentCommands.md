@@ -73,7 +73,7 @@ OK
 GET /api/v1/Document/{documentId}/Command
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,17 +84,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Heidenreich, Ferry and Watsica",
-    "DisplayName": "Flatley-Ledner",
-    "DisplayTooltip": "beatae",
-    "IconHint": "dolor",
+    "Name": "Metz, O'Reilly and Hagenes",
+    "DisplayName": "Rosenbaum, McCullough and Quigley",
+    "DisplayTooltip": "consequuntur",
+    "IconHint": "quia",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Heidenreich, Ferry and Watsica",
-    "DisplayName": "Flatley-Ledner",
-    "DisplayTooltip": "beatae",
-    "IconHint": "dolor",
+    "Name": "Metz, O'Reilly and Hagenes",
+    "DisplayName": "Rosenbaum, McCullough and Quigley",
+    "DisplayTooltip": "consequuntur",
+    "IconHint": "quia",
     "ReturnType": "CustomGui"
   }
 ]

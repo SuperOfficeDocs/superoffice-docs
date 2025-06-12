@@ -13,64 +13,24 @@ items:
   - SuperOffice.WebApi.Data.FieldMetadataType.List
   - SuperOffice.WebApi.Data.FieldMetadataType.Password
   - SuperOffice.WebApi.Data.FieldMetadataType.Text
-  - SuperOffice.WebApi.Data.FieldMetadataType.value__
   langs:
   - csharp
   - vb
   name: FieldMetadataType
   nameWithType: FieldMetadataType
   fullName: SuperOffice.WebApi.Data.FieldMetadataType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDescribes the different types of controls that can appear in the Configure connection dialog\nThis Enum is used by:  ErpField.FieldType\n"
-  syntax:
-    content: 'public sealed class FieldMetadataType : Enum'
-    content.vb: >-
-      Public NotInheritable Class FieldMetadataType
-          Inherits
+  summary: >-
+    Describes the different types of controls that can appear in the Configure connection dialog
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.FieldMetadataType.value__
-  commentId: F:SuperOffice.WebApi.Data.FieldMetadataType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.FieldMetadataType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: FieldMetadataType.value__
-  fullName: SuperOffice.WebApi.Data.FieldMetadataType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  ErpField.FieldType
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: 'public enum FieldMetadataType : short'
+    content.vb: Public Enum FieldMetadataType As Short
 - uid: SuperOffice.WebApi.Data.FieldMetadataType.Checkbox
   commentId: F:SuperOffice.WebApi.Data.FieldMetadataType.Checkbox
   id: Checkbox
@@ -82,24 +42,26 @@ items:
   nameWithType: FieldMetadataType.Checkbox
   fullName: SuperOffice.WebApi.Data.FieldMetadataType.Checkbox
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Checkbox widget: Boolean value\n"
+  summary: '0: Checkbox widget: Boolean value'
+  example: []
   syntax:
-    content: public const FieldMetadataType Checkbox
+    content: >-
+      [EnumMember]
+
+      Checkbox = 0
     return:
       type: SuperOffice.WebApi.Data.FieldMetadataType
-    content.vb: Public Const Checkbox As FieldMetadataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Checkbox = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.FieldMetadataType.Text
   commentId: F:SuperOffice.WebApi.Data.FieldMetadataType.Text
   id: Text
@@ -111,24 +73,26 @@ items:
   nameWithType: FieldMetadataType.Text
   fullName: SuperOffice.WebApi.Data.FieldMetadataType.Text
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Single line textbox.\n"
+  summary: '1: Single line textbox.'
+  example: []
   syntax:
-    content: public const FieldMetadataType Text
+    content: >-
+      [EnumMember]
+
+      Text = 1
     return:
       type: SuperOffice.WebApi.Data.FieldMetadataType
-    content.vb: Public Const Text As FieldMetadataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Text = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.FieldMetadataType.Password
   commentId: F:SuperOffice.WebApi.Data.FieldMetadataType.Password
   id: Password
@@ -140,24 +104,26 @@ items:
   nameWithType: FieldMetadataType.Password
   fullName: SuperOffice.WebApi.Data.FieldMetadataType.Password
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Single line edit field with password characters - input is hidden.\n"
+  summary: '2: Single line edit field with password characters - input is hidden.'
+  example: []
   syntax:
-    content: public const FieldMetadataType Password
+    content: >-
+      [EnumMember]
+
+      Password = 2
     return:
       type: SuperOffice.WebApi.Data.FieldMetadataType
-    content.vb: Public Const Password As FieldMetadataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Password = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.FieldMetadataType.Integer
   commentId: F:SuperOffice.WebApi.Data.FieldMetadataType.Integer
   id: Integer
@@ -169,24 +135,26 @@ items:
   nameWithType: FieldMetadataType.Integer
   fullName: SuperOffice.WebApi.Data.FieldMetadataType.Integer
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Single line integer number field. \n"
+  summary: '3: Single line integer number field.'
+  example: []
   syntax:
-    content: public const FieldMetadataType Integer
+    content: >-
+      [EnumMember]
+
+      Integer = 3
     return:
       type: SuperOffice.WebApi.Data.FieldMetadataType
-    content.vb: Public Const Integer As FieldMetadataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Integer = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.FieldMetadataType.Double
   commentId: F:SuperOffice.WebApi.Data.FieldMetadataType.Double
   id: Double
@@ -198,24 +166,26 @@ items:
   nameWithType: FieldMetadataType.Double
   fullName: SuperOffice.WebApi.Data.FieldMetadataType.Double
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Single line decimal number field. \n"
+  summary: '4: Single line decimal number field.'
+  example: []
   syntax:
-    content: public const FieldMetadataType Double
+    content: >-
+      [EnumMember]
+
+      Double = 4
     return:
       type: SuperOffice.WebApi.Data.FieldMetadataType
-    content.vb: Public Const Double As FieldMetadataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Double = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.FieldMetadataType.List
   commentId: F:SuperOffice.WebApi.Data.FieldMetadataType.List
   id: List
@@ -227,24 +197,26 @@ items:
   nameWithType: FieldMetadataType.List
   fullName: SuperOffice.WebApi.Data.FieldMetadataType.List
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: Dropdown listbox. The list name must be provided. The list items are provided by another interface. The default value should be the list key, not the text of the list item.\n"
+  summary: '5: Dropdown listbox. The list name must be provided. The list items are provided by another interface. The default value should be the list key, not the text of the list item.'
+  example: []
   syntax:
-    content: public const FieldMetadataType List
+    content: >-
+      [EnumMember]
+
+      List = 5
     return:
       type: SuperOffice.WebApi.Data.FieldMetadataType
-    content.vb: Public Const List As FieldMetadataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      List = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.FieldMetadataType.Date
   commentId: F:SuperOffice.WebApi.Data.FieldMetadataType.Date
   id: Date
@@ -256,24 +228,26 @@ items:
   nameWithType: FieldMetadataType.Date
   fullName: SuperOffice.WebApi.Data.FieldMetadataType.Date
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n6: Date\n"
+  summary: '6: Date'
+  example: []
   syntax:
-    content: public const FieldMetadataType Date
+    content: >-
+      [EnumMember]
+
+      Date = 6
     return:
       type: SuperOffice.WebApi.Data.FieldMetadataType
-    content.vb: Public Const Date As FieldMetadataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Date = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.FieldMetadataType.Label
   commentId: F:SuperOffice.WebApi.Data.FieldMetadataType.Label
   id: Label
@@ -285,55 +259,69 @@ items:
   nameWithType: FieldMetadataType.Label
   fullName: SuperOffice.WebApi.Data.FieldMetadataType.Label
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n99: Static text - has no input widget associated with it. Can be used for spacing/layout.\n"
+  summary: '99: Static text - has no input widget associated with it. Can be used for spacing/layout.'
+  example: []
   syntax:
-    content: public const FieldMetadataType Label
+    content: >-
+      [EnumMember]
+
+      Label = 99
     return:
       type: SuperOffice.WebApi.Data.FieldMetadataType
-    content.vb: Public Const Label As FieldMetadataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Label = 99
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.FieldMetadataType
   commentId: T:SuperOffice.WebApi.Data.FieldMetadataType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.FieldMetadataType.html
   name: FieldMetadataType
   nameWithType: FieldMetadataType
   fullName: SuperOffice.WebApi.Data.FieldMetadataType

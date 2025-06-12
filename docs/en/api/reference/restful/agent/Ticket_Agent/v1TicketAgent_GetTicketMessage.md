@@ -26,7 +26,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=883
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=715
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 827,
-  "CreatedAt": "2022-09-21T16:32:40.3676056+02:00",
+  "TicketMessageId": 612,
+  "CreatedAt": "2001-10-09T17:54:03.8357967+02:00",
   "Slevel": "External",
-  "Important": false,
-  "Author": "et",
-  "PersonId": 333,
-  "PersonFullName": "Leslie Langosh",
-  "ContactId": 902,
-  "ContactName": "Johnston, Stehr and Kihn",
+  "Important": true,
+  "Author": "molestiae",
+  "PersonId": 593,
+  "PersonFullName": "Jimmie Tromp",
+  "ContactId": 104,
+  "ContactName": "Pfeffer-Schuster",
   "ContactDepartment": "",
-  "NumAttachments": 616,
-  "EmailHeader": "alisha.morar@haagstracke.co.uk",
+  "NumAttachments": 507,
+  "EmailHeader": "evan_barrows@parisian.biz",
   "MessageHeaders": [
     {
-      "Id": 391,
-      "Name": "Dickinson, Howell and Weissnat",
-      "Value": "consequatur",
+      "Id": 921,
+      "Name": "Kutch Group",
+      "Value": "ratione",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -119,23 +119,23 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 919
+          "FieldLength": 716
         }
       }
     }
   ],
-  "Language": "sint",
-  "Sentiment": 211,
-  "SentimentConfidence": 673,
-  "CreatedBy": 501,
-  "ChangedAt": "2009-11-23T16:32:40.3676056+01:00",
+  "Language": "voluptas",
+  "Sentiment": 797,
+  "SentimentConfidence": 46,
+  "CreatedBy": 678,
+  "ChangedAt": "2005-06-28T17:54:03.8357967+02:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 308
+      "FieldLength": 206
     }
   }
 }

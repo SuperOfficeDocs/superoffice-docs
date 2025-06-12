@@ -122,12 +122,12 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 481,
-  "ERPProductKey": "nihil"
+  "QuoteAlternativeId": 169,
+  "ERPProductKey": "delectus"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 811,
-  "ERPQuoteLineKey": "tenetur",
-  "QuoteAlternativeId": 923,
-  "ERPProductKey": "deserunt",
+  "QuoteLineId": 756,
+  "ERPQuoteLineKey": "nobis",
+  "QuoteAlternativeId": 311,
+  "ERPProductKey": "est",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 18559.548,
-  "DeliveredQuantity": 18775.793999999998,
-  "Rank": 392,
-  "Name": "Paucek LLC",
-  "Description": "De-engineered stable intranet",
-  "Code": "laudantium",
-  "QuantityUnit": "animi",
-  "PriceUnit": "ea",
-  "ItemNumber": "1198681",
+  "Quantity": 29133.664,
+  "DeliveredQuantity": 6734.9659999999994,
+  "Rank": 314,
+  "Name": "Roberts-Flatley",
+  "Description": "Universal context-sensitive architecture",
+  "Code": "voluptas",
+  "QuantityUnit": "et",
+  "PriceUnit": "optio",
+  "ItemNumber": "1120053",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "reiciendis",
-  "ProductTypeKey": "alias",
-  "Supplier": "aut",
-  "SupplierCode": "inventore",
-  "Thumbnail": "est",
-  "VATInfo": "provident",
-  "VAT": 29255.89,
-  "UnitCost": 29374.982,
-  "UnitMinimumPrice": 18089.448,
-  "UnitListPrice": 4791.8859999999995,
+  "ProductFamilyKey": "voluptatem",
+  "ProductTypeKey": "earum",
+  "Supplier": "voluptatem",
+  "SupplierCode": "aut",
+  "Thumbnail": "et",
+  "VATInfo": "sequi",
+  "VAT": 11031.68,
+  "UnitCost": 25059.464,
+  "UnitMinimumPrice": 28168.392,
+  "UnitListPrice": 22473.914,
   "ExtraInfo": [
     {
-      "Name": "Gorczany-Mraz",
-      "Value": "consequatur",
+      "Name": "Thiel-Little",
+      "Value": "quis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 139
+          "FieldLength": 574
         }
       }
     },
     {
-      "Name": "Gorczany-Mraz",
-      "Value": "consequatur",
+      "Name": "Thiel-Little",
+      "Value": "quis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 139
+          "FieldLength": 574
         }
       }
     }
   ],
-  "RawExtraInfo": "dolor",
-  "IsSubscription": true,
-  "SubscriptionUnit": "itaque",
-  "SubscriptionQuantity": 19104.863999999998,
-  "SubscriptionStart": "2005-12-20T16:32:39.74275+01:00",
-  "ERPDiscountPercent": 18133.324,
-  "ERPDiscountAmount": 19784.942,
-  "DiscountPercent": 10235.644,
-  "DiscountAmount": 6114.434,
+  "RawExtraInfo": "eos",
+  "IsSubscription": false,
+  "SubscriptionUnit": "voluptas",
+  "SubscriptionQuantity": 3886.16,
+  "SubscriptionStart": "2007-02-16T17:54:03.5389365+01:00",
+  "ERPDiscountPercent": 5644.334,
+  "ERPDiscountAmount": 24131.8,
+  "DiscountPercent": 19252.162,
+  "DiscountAmount": 30130.275999999998,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 17866.934,
-  "EarningAmount": 15814.163999999999,
-  "SubTotal": 12291.547999999999,
-  "TotalPrice": 2692.1059999999998,
-  "Rights": "quod",
-  "Rule": "nobis",
-  "ExtraField1": "sequi",
-  "ExtraField2": "vitae",
-  "ExtraField3": "assumenda",
-  "ExtraField4": "non",
-  "ExtraField5": "et",
+  "EarningPercent": 26466.629999999997,
+  "EarningAmount": 3629.172,
+  "SubTotal": 2999.238,
+  "TotalPrice": 17108.506,
+  "Rights": "quisquam",
+  "Rule": "nam",
+  "ExtraField1": "quia",
+  "ExtraField2": "quo",
+  "ExtraField3": "dolores",
+  "ExtraField4": "ut",
+  "ExtraField5": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldLength": 920
     }
   }
 }

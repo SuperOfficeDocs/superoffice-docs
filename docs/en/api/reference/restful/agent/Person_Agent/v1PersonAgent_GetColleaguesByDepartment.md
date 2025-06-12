@@ -115,11 +115,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 914
+  "DepartmentId": 516
 }
 ```
 
@@ -131,53 +131,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "voluptatibus",
-    "PersonId": 828,
-    "Mrmrs": "dolore",
-    "Firstname": "Heaven",
-    "Lastname": "Purdy",
-    "MiddleName": "Emmerich, Deckow and Wolf",
-    "Title": "dolorem",
-    "Description": "Future-proofed global project",
-    "Email": "sim.carroll@toybailey.ca",
-    "FullName": "Mr. Walter Marcelo Mann III",
-    "DirectPhone": "1-311-093-7323 x57180",
-    "FormalName": "Kessler, Howe and Turner",
-    "CountryId": 909,
-    "ContactId": 879,
-    "ContactName": "Orn-Shields",
-    "Retired": 65,
-    "Rank": 804,
-    "ActiveInterests": 830,
+    "Position": "repellendus",
+    "PersonId": 766,
+    "Mrmrs": "quisquam",
+    "Firstname": "Marina",
+    "Lastname": "Williamson",
+    "MiddleName": "Hackett LLC",
+    "Title": "totam",
+    "Description": "Extended radical analyzer",
+    "Email": "doug@kuphaldouglas.us",
+    "FullName": "Kavon Goldner",
+    "DirectPhone": "(173)318-0290",
+    "FormalName": "Huel-Braun",
+    "CountryId": 547,
+    "ContactId": 173,
+    "ContactName": "Kuhlman-Kassulke",
+    "Retired": 476,
+    "Rank": 644,
+    "ActiveInterests": 166,
     "ContactDepartment": "",
-    "ContactCountryId": 657,
-    "ContactOrgNr": "1038556",
-    "FaxPhone": "(161)376-6369",
-    "MobilePhone": "790.376.2605 x6173",
-    "ContactPhone": "846.499.3057 x58895",
-    "AssociateName": "Padberg-Toy",
-    "AssociateId": 938,
-    "UsePersonAddress": false,
-    "ContactFax": "accusamus",
-    "Kanafname": "tempora",
-    "Kanalname": "in",
-    "Post1": "aut",
-    "Post2": "vitae",
-    "Post3": "nihil",
-    "EmailName": "kurtis@fay.info",
-    "ContactFullName": "Prof. Adrien Grady O'Kon",
-    "ActiveErpLinks": 433,
-    "TicketPriorityId": 110,
-    "SupportLanguageId": 170,
-    "SupportAssociateId": 342,
+    "ContactCountryId": 87,
+    "ContactOrgNr": "550360",
+    "FaxPhone": "446-960-1029 x63534",
+    "MobilePhone": "1-942-224-8627",
+    "ContactPhone": "135-729-4095 x6935",
+    "AssociateName": "Bruen-Mills",
+    "AssociateId": 872,
+    "UsePersonAddress": true,
+    "ContactFax": "dolor",
+    "Kanafname": "ipsum",
+    "Kanalname": "minus",
+    "Post1": "eaque",
+    "Post2": "fugit",
+    "Post3": "odit",
+    "EmailName": "dasia_balistreri@smitham.us",
+    "ContactFullName": "Prof. Eliane Dawn Champlin",
+    "ActiveErpLinks": 863,
+    "TicketPriorityId": 435,
+    "SupportLanguageId": 59,
+    "SupportAssociateId": 229,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1455598",
+    "PersonNumber": "1347047",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 278
+        "FieldType": "System.String",
+        "FieldLength": 557
       }
     }
   }

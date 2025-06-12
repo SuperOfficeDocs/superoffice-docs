@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 497,
-  "Name": "Medhurst, Schuster and Brekke",
-  "TZLocationCode": "expedita",
-  "TZLocationCities": "placeat",
-  "IsoNumber": 553,
+  "TZLocationID": 802,
+  "Name": "Connelly-Maggio",
+  "TZLocationCode": "corrupti",
+  "TZLocationCities": "mollitia",
+  "IsoNumber": 684,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 770,
-      "StartMonth": 218,
-      "EndDay": 761,
-      "EndMonth": 633,
-      "TZOffset": 706,
-      "StartRulePattern": "tempora",
-      "EndRulePattern": "velit"
+      "StartDay": 58,
+      "StartMonth": 419,
+      "EndDay": 755,
+      "EndMonth": 296,
+      "TZOffset": 632,
+      "StartRulePattern": "corrupti",
+      "EndRulePattern": "dolores"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 492,
-      "StartMonth": 569,
-      "EndDay": 756,
-      "EndMonth": 61,
-      "TZOffset": 235,
-      "StartRulePattern": "accusamus",
-      "EndRulePattern": "totam"
+      "StartDay": 397,
+      "StartMonth": 320,
+      "EndDay": 651,
+      "EndMonth": 85,
+      "TZOffset": 513,
+      "StartRulePattern": "earum",
+      "EndRulePattern": "fugiat"
     }
   }
 }

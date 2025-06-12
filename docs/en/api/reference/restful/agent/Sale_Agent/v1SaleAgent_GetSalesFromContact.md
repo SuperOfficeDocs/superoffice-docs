@@ -102,7 +102,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 5,
+  "ContactId": 885,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Metz, Witting and Bernier",
-    "SaleDate": "2020-11-30T16:32:39.8520956+01:00",
-    "SaleId": 653,
-    "Probability": 557,
-    "Title": "iure",
-    "Amount": 18509.404,
-    "Currency": "ab",
-    "ProjectName": "Konopelski-Rempel",
-    "AssociateFullName": "Angeline Mariam Predovic IV",
-    "Description": "Fully-configurable demand-driven benchmark",
+    "ContactName": "Gutkowski, Kassulke and Langosh",
+    "SaleDate": "2002-06-30T17:54:03.5858088+02:00",
+    "SaleId": 785,
+    "Probability": 872,
+    "Title": "incidunt",
+    "Amount": 3181.0099999999998,
+    "Currency": "unde",
+    "ProjectName": "Dibbert-Block",
+    "AssociateFullName": "Thalia Michel Herman I",
+    "Description": "Profound motivating process improvement",
     "Status": "Lost",
-    "WeightedAmount": 636.202,
-    "ProjectId": 567,
-    "EarningPercent": 6402.762,
-    "Earning": 6938.6759999999995,
-    "ContactId": 430,
-    "AssociateId": 157,
-    "PersonId": 869,
-    "SaleTypeId": 642,
-    "SaleTypeName": "Klein Inc and Sons",
-    "PersonFullName": "Kevin Herzog",
+    "WeightedAmount": 18957.566,
+    "ProjectId": 81,
+    "EarningPercent": 26704.814,
+    "Earning": 26632.732,
+    "ContactId": 11,
+    "AssociateId": 875,
+    "PersonId": 366,
+    "SaleTypeId": 597,
+    "SaleTypeName": "Effertz Inc and Sons",
+    "PersonFullName": "Prof. Chadd Abdul Breitenberg IV",
     "Completed": "Completed",
-    "ActiveErpLinks": 548,
-    "NextDueDate": "2013-05-09T16:32:39.8520956+02:00",
-    "Number": "516305",
+    "ActiveErpLinks": 958,
+    "NextDueDate": "1998-08-22T17:54:03.5858088+02:00",
+    "Number": "1460897",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 319
+        "FieldLength": 68
       }
     }
   }

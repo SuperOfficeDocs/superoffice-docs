@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 632,
-    "Name": "Torphy, Brekke and Nienow",
-    "ToolTip": "Odit sed rerum.",
+    "Id": 28,
+    "Name": "Zulauf-Hodkiewicz",
+    "ToolTip": "Eum aut deleniti mollitia.",
     "Deleted": false,
-    "Rank": 742,
-    "Type": "est",
-    "ColorBlock": 691,
-    "IconHint": "quas",
+    "Rank": 838,
+    "Type": "temporibus",
+    "ColorBlock": 437,
+    "IconHint": "laudantium",
     "Selected": true,
-    "LastChanged": "2005-12-10T16:32:48.8994739+01:00",
+    "LastChanged": "2015-05-18T17:54:09.0858036+02:00",
     "ChildItems": [
       {
-        "Id": 506,
-        "Name": "Carroll, Deckow and Schowalter",
-        "ToolTip": "Culpa illo aut doloribus architecto alias qui ipsa.",
-        "Deleted": false,
-        "Rank": 140,
-        "Type": "enim",
-        "ColorBlock": 306,
-        "IconHint": "quisquam",
-        "Selected": false,
-        "LastChanged": "2019-10-14T16:32:48.8994739+02:00",
+        "Id": 550,
+        "Name": "Johns-Trantow",
+        "ToolTip": "Reprehenderit ea autem iste facere quia temporibus dolore.",
+        "Deleted": true,
+        "Rank": 679,
+        "Type": "dolorum",
+        "ColorBlock": 877,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "2008-07-28T17:54:09.0858036+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "cupiditate",
-        "Hidden": true,
-        "FullName": "Domenico King"
+        "ExtraInfo": "sit",
+        "StyleHint": "velit",
+        "Hidden": false,
+        "FullName": "Willow Beatty"
       }
     ],
-    "ExtraInfo": "natus",
-    "StyleHint": "ducimus",
-    "Hidden": false,
-    "FullName": "Mrs. Buford Floy Mueller"
+    "ExtraInfo": "rerum",
+    "StyleHint": "provident",
+    "Hidden": true,
+    "FullName": "Bessie Rohan"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 606,
-    "Name": "Russel, Paucek and Abernathy",
-    "ToolTip": "Quasi qui et aut enim.",
+    "Id": 902,
+    "Name": "Howell, Gleason and Deckow",
+    "ToolTip": "At fuga dolore qui ducimus quis natus.",
     "Deleted": false,
-    "Rank": 389,
-    "Type": "vero",
-    "ColorBlock": 481,
-    "IconHint": "ab",
+    "Rank": 556,
+    "Type": "est",
+    "ColorBlock": 208,
+    "IconHint": "aliquid",
     "Selected": false,
-    "LastChanged": "2003-07-02T16:32:48.8994739+02:00",
+    "LastChanged": "2005-05-16T17:54:09.0858036+02:00",
     "ChildItems": [
       {
-        "Id": 44,
-        "Name": "Mills-Haley",
-        "ToolTip": "Cum aperiam consequatur.",
-        "Deleted": false,
-        "Rank": 664,
-        "Type": "perspiciatis",
-        "ColorBlock": 510,
-        "IconHint": "explicabo",
+        "Id": 475,
+        "Name": "Ziemann Inc and Sons",
+        "ToolTip": "Omnis et eaque et molestiae.",
+        "Deleted": true,
+        "Rank": 16,
+        "Type": "nulla",
+        "ColorBlock": 253,
+        "IconHint": "illo",
         "Selected": true,
-        "LastChanged": "2015-02-26T16:32:48.8994739+01:00",
+        "LastChanged": "2019-01-25T17:54:09.0858036+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "iste",
+        "ExtraInfo": "ex",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Eldred Corkery",
+        "FullName": "Dr. Ima Matteo Lubowitz PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 732
+            "FieldLength": 631
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "vero",
+    "ExtraInfo": "animi",
+    "StyleHint": "modi",
     "Hidden": false,
-    "FullName": "Leila Stracke",
+    "FullName": "Mrs. Deborah Stan Monahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 132
+        "FieldType": "System.String",
+        "FieldLength": 627
       }
     }
   }

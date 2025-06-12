@@ -123,12 +123,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "magni",
+    "path": "eos",
     "value": {}
   },
   {
     "op": "add",
-    "path": "magni",
+    "path": "eos",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 47,
-  "Name": "Reichert Inc and Sons",
-  "Tooltip": "est",
+  "Id": 305,
+  "Name": "Beer, Hudson and Bashirian",
+  "Tooltip": "itaque",
   "Deleted": false,
-  "Rank": 98,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 508,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "possimus",
+  "ListType": "error",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 43
+      "FieldLength": 847
     }
   },
   "_Links": {

@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ShipmentMessageBlockId": 959,
-    "AssociateId": 644,
-    "Block": "delectus",
-    "Registered": "1999-12-17T16:32:48.1025764+01:00",
-    "RegisteredAssociateId": 587,
-    "Updated": "2012-01-13T16:32:48.1025764+01:00",
-    "UpdatedAssociateId": 974,
-    "UpdatedCount": 202,
+    "ShipmentMessageBlockId": 457,
+    "AssociateId": 818,
+    "Block": "occaecati",
+    "Registered": "2016-04-09T17:54:08.5386928+02:00",
+    "RegisteredAssociateId": 339,
+    "Updated": "2009-03-18T17:54:08.5386928+01:00",
+    "UpdatedAssociateId": 53,
+    "UpdatedCount": 726,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 667
+        "FieldType": "System.String",
+        "FieldLength": 532
       }
     }
   }

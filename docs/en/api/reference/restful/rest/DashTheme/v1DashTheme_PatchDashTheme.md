@@ -113,18 +113,18 @@ DashTheme  updated.
 PATCH /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "deserunt",
+    "path": "laudantium",
     "value": {}
   },
   {
     "op": "add",
-    "path": "deserunt",
+    "path": "laudantium",
     "value": {}
   }
 ]
@@ -137,23 +137,23 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 809,
-  "Name": "Runolfsson Group",
-  "Config": "impedit",
-  "Rank": 898,
-  "Client": "doloremque",
-  "Style": "amet",
+  "DashboardThemeId": 194,
+  "Name": "Waters LLC",
+  "Config": "natus",
+  "Rank": 760,
+  "Client": "labore",
+  "Style": "similique",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 878
+      "FieldType": "System.Int32",
+      "FieldLength": 561
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

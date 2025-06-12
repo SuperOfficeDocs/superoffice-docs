@@ -44,30 +44,35 @@ references:
 - uid: SuperOffice.CRM.Documents.AsponseInitializer
   commentId: T:SuperOffice.CRM.Documents.AsponseInitializer
   isExternal: true
+  href: SuperOffice.CRM.Documents.AsponseInitializer.html
   name: AsponseInitializer
   nameWithType: AsponseInitializer
   fullName: SuperOffice.CRM.Documents.AsponseInitializer
 - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
   commentId: T:SuperOffice.CRM.Documents.ArchiveTempFileProvider
   isExternal: true
+  href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
   name: ArchiveTempFileProvider
   nameWithType: ArchiveTempFileProvider
   fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider
 - uid: SuperOffice.CRM.Documents.DocumentEntityHelper
   commentId: T:SuperOffice.CRM.Documents.DocumentEntityHelper
   isExternal: true
+  href: SuperOffice.CRM.Documents.DocumentEntityHelper.html
   name: DocumentEntityHelper
   nameWithType: DocumentEntityHelper
   fullName: SuperOffice.CRM.Documents.DocumentEntityHelper
 - uid: SuperOffice.CRM.Documents.DocumentTemplateInfo
   commentId: T:SuperOffice.CRM.Documents.DocumentTemplateInfo
   isExternal: true
+  href: SuperOffice.CRM.Documents.DocumentTemplateInfo.html
   name: DocumentTemplateInfo
   nameWithType: DocumentTemplateInfo
   fullName: SuperOffice.CRM.Documents.DocumentTemplateInfo
 - uid: SuperOffice.CRM.Documents.HtmlToPdf
   commentId: T:SuperOffice.CRM.Documents.HtmlToPdf
   isExternal: true
+  href: SuperOffice.CRM.Documents.HtmlToPdf.html
   name: HtmlToPdf
   nameWithType: HtmlToPdf
   fullName: SuperOffice.CRM.Documents.HtmlToPdf
@@ -75,6 +80,7 @@ references:
   commentId: T:SuperOffice.CRM.Documents.PhysicalDocument
   parent: SuperOffice.CRM.Documents
   isExternal: true
+  href: SuperOffice.CRM.Documents.PhysicalDocument.html
   name: PhysicalDocument
   nameWithType: PhysicalDocument
   fullName: SuperOffice.CRM.Documents.PhysicalDocument
@@ -82,12 +88,14 @@ references:
   commentId: T:SuperOffice.CRM.Documents.PhysicalDocumentTemplate
   parent: SuperOffice.CRM.Documents
   isExternal: true
+  href: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.html
   name: PhysicalDocumentTemplate
   nameWithType: PhysicalDocumentTemplate
   fullName: SuperOffice.CRM.Documents.PhysicalDocumentTemplate
 - uid: SuperOffice.CRM.Documents.SoArc2
   commentId: T:SuperOffice.CRM.Documents.SoArc2
   isExternal: true
+  href: SuperOffice.CRM.Documents.SoArc2.html
   name: SoArc2
   nameWithType: SoArc2
   fullName: SuperOffice.CRM.Documents.SoArc2
@@ -95,6 +103,7 @@ references:
   commentId: T:SuperOffice.CRM.Documents.SoArc2CheckoutHelper
   parent: SuperOffice.CRM.Documents
   isExternal: true
+  href: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.html
   name: SoArc2CheckoutHelper
   nameWithType: SoArc2CheckoutHelper
   fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper
@@ -102,6 +111,7 @@ references:
   commentId: T:SuperOffice.CRM.Documents.ICheckinFileOperations
   parent: SuperOffice.CRM.Documents
   isExternal: true
+  href: SuperOffice.CRM.Documents.ICheckinFileOperations.html
   name: ICheckinFileOperations
   nameWithType: ICheckinFileOperations
   fullName: SuperOffice.CRM.Documents.ICheckinFileOperations
@@ -109,12 +119,14 @@ references:
   commentId: T:SuperOffice.CRM.Documents.CheckoutData
   parent: SuperOffice.CRM.Documents
   isExternal: true
+  href: SuperOffice.CRM.Documents.CheckoutData.html
   name: CheckoutData
   nameWithType: CheckoutData
   fullName: SuperOffice.CRM.Documents.CheckoutData
 - uid: SuperOffice.CRM.Documents.SoArc2Helper
   commentId: T:SuperOffice.CRM.Documents.SoArc2Helper
   isExternal: true
+  href: SuperOffice.CRM.Documents.SoArc2Helper.html
   name: SoArc2Helper
   nameWithType: SoArc2Helper
   fullName: SuperOffice.CRM.Documents.SoArc2Helper
@@ -122,6 +134,7 @@ references:
   commentId: T:SuperOffice.CRM.Documents.DocumentPlugin2Attribute
   parent: SuperOffice.CRM.Documents
   isExternal: true
+  href: SuperOffice.CRM.Documents.DocumentPlugin2Attribute.html
   name: DocumentPlugin2Attribute
   nameWithType: DocumentPlugin2Attribute
   fullName: SuperOffice.CRM.Documents.DocumentPlugin2Attribute
@@ -129,6 +142,7 @@ references:
   commentId: T:SuperOffice.CRM.Documents.DocumentLockSemantics
   parent: SuperOffice.CRM.Documents
   isExternal: true
+  href: SuperOffice.CRM.Documents.DocumentLockSemantics.html
   name: DocumentLockSemantics
   nameWithType: DocumentLockSemantics
   fullName: SuperOffice.CRM.Documents.DocumentLockSemantics
@@ -136,12 +150,14 @@ references:
   commentId: T:SuperOffice.CRM.Documents.CheckoutState
   parent: SuperOffice.CRM.Documents
   isExternal: true
+  href: SuperOffice.CRM.Documents.CheckoutState.html
   name: CheckoutState
   nameWithType: CheckoutState
   fullName: SuperOffice.CRM.Documents.CheckoutState
 - uid: SuperOffice.CRM.Documents.CommandInfo
   commentId: T:SuperOffice.CRM.Documents.CommandInfo
   isExternal: true
+  href: SuperOffice.CRM.Documents.CommandInfo.html
   name: CommandInfo
   nameWithType: CommandInfo
   fullName: SuperOffice.CRM.Documents.CommandInfo
@@ -149,75 +165,225 @@ references:
   commentId: T:SuperOffice.CRM.Documents.VersionInfo
   parent: SuperOffice.CRM.Documents
   isExternal: true
+  href: SuperOffice.CRM.Documents.VersionInfo.html
   name: VersionInfo
   nameWithType: VersionInfo
   fullName: SuperOffice.CRM.Documents.VersionInfo
 - uid: SuperOffice.CRM.Documents.TemplateInfo
   commentId: T:SuperOffice.CRM.Documents.TemplateInfo
-  parent: SuperOffice.CRM.Documents
   isExternal: true
+  href: SuperOffice.CRM.Documents.TemplateInfo.html
   name: TemplateInfo
   nameWithType: TemplateInfo
   fullName: SuperOffice.CRM.Documents.TemplateInfo
 - uid: SuperOffice.CRM.Documents.CheckoutInfo
   commentId: T:SuperOffice.CRM.Documents.CheckoutInfo
-  parent: SuperOffice.CRM.Documents
   isExternal: true
+  href: SuperOffice.CRM.Documents.CheckoutInfo.html
   name: CheckoutInfo
   nameWithType: CheckoutInfo
   fullName: SuperOffice.CRM.Documents.CheckoutInfo
 - uid: SuperOffice.CRM.Documents.Constants
   commentId: T:SuperOffice.CRM.Documents.Constants
   isExternal: true
+  href: SuperOffice.CRM.Documents.Constants.html
   name: Constants
   nameWithType: Constants
   fullName: SuperOffice.CRM.Documents.Constants
 - uid: SuperOffice.CRM.Documents.Constants.Capabilities
   commentId: T:SuperOffice.CRM.Documents.Constants.Capabilities
   isExternal: true
+  href: SuperOffice.CRM.Documents.Constants.html
   name: Constants.Capabilities
   nameWithType: Constants.Capabilities
   fullName: SuperOffice.CRM.Documents.Constants.Capabilities
+  spec.csharp:
+  - uid: SuperOffice.CRM.Documents.Constants
+    name: Constants
+    isExternal: true
+    href: SuperOffice.CRM.Documents.Constants.html
+  - name: .
+  - uid: SuperOffice.CRM.Documents.Constants.Capabilities
+    name: Capabilities
+    isExternal: true
+    href: SuperOffice.CRM.Documents.Constants.Capabilities.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Documents.Constants
+    name: Constants
+    isExternal: true
+    href: SuperOffice.CRM.Documents.Constants.html
+  - name: .
+  - uid: SuperOffice.CRM.Documents.Constants.Capabilities
+    name: Capabilities
+    isExternal: true
+    href: SuperOffice.CRM.Documents.Constants.Capabilities.html
 - uid: SuperOffice.CRM.Documents.Constants.Values
   commentId: T:SuperOffice.CRM.Documents.Constants.Values
   isExternal: true
+  href: SuperOffice.CRM.Documents.Constants.html
   name: Constants.Values
   nameWithType: Constants.Values
   fullName: SuperOffice.CRM.Documents.Constants.Values
+  spec.csharp:
+  - uid: SuperOffice.CRM.Documents.Constants
+    name: Constants
+    isExternal: true
+    href: SuperOffice.CRM.Documents.Constants.html
+  - name: .
+  - uid: SuperOffice.CRM.Documents.Constants.Values
+    name: Values
+    isExternal: true
+    href: SuperOffice.CRM.Documents.Constants.Values.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Documents.Constants
+    name: Constants
+    isExternal: true
+    href: SuperOffice.CRM.Documents.Constants.html
+  - name: .
+  - uid: SuperOffice.CRM.Documents.Constants.Values
+    name: Values
+    isExternal: true
+    href: SuperOffice.CRM.Documents.Constants.Values.html
 - uid: SuperOffice.CRM.Documents.Constants.Properties
   commentId: T:SuperOffice.CRM.Documents.Constants.Properties
   isExternal: true
+  href: SuperOffice.CRM.Documents.Constants.html
   name: Constants.Properties
   nameWithType: Constants.Properties
   fullName: SuperOffice.CRM.Documents.Constants.Properties
+  spec.csharp:
+  - uid: SuperOffice.CRM.Documents.Constants
+    name: Constants
+    isExternal: true
+    href: SuperOffice.CRM.Documents.Constants.html
+  - name: .
+  - uid: SuperOffice.CRM.Documents.Constants.Properties
+    name: Properties
+    isExternal: true
+    href: SuperOffice.CRM.Documents.Constants.Properties.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Documents.Constants
+    name: Constants
+    isExternal: true
+    href: SuperOffice.CRM.Documents.Constants.html
+  - name: .
+  - uid: SuperOffice.CRM.Documents.Constants.Properties
+    name: Properties
+    isExternal: true
+    href: SuperOffice.CRM.Documents.Constants.Properties.html
 - uid: SuperOffice.CRM.Documents.Constants.GUI
   commentId: T:SuperOffice.CRM.Documents.Constants.GUI
   isExternal: true
+  href: SuperOffice.CRM.Documents.Constants.html
   name: Constants.GUI
   nameWithType: Constants.GUI
   fullName: SuperOffice.CRM.Documents.Constants.GUI
+  spec.csharp:
+  - uid: SuperOffice.CRM.Documents.Constants
+    name: Constants
+    isExternal: true
+    href: SuperOffice.CRM.Documents.Constants.html
+  - name: .
+  - uid: SuperOffice.CRM.Documents.Constants.GUI
+    name: GUI
+    isExternal: true
+    href: SuperOffice.CRM.Documents.Constants.GUI.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Documents.Constants
+    name: Constants
+    isExternal: true
+    href: SuperOffice.CRM.Documents.Constants.html
+  - name: .
+  - uid: SuperOffice.CRM.Documents.Constants.GUI
+    name: GUI
+    isExternal: true
+    href: SuperOffice.CRM.Documents.Constants.GUI.html
 - uid: SuperOffice.CRM.Documents.Constants.GUI.Names
   commentId: T:SuperOffice.CRM.Documents.Constants.GUI.Names
   isExternal: true
+  href: SuperOffice.CRM.Documents.Constants.html
   name: Constants.GUI.Names
   nameWithType: Constants.GUI.Names
   fullName: SuperOffice.CRM.Documents.Constants.GUI.Names
+  spec.csharp:
+  - uid: SuperOffice.CRM.Documents.Constants
+    name: Constants
+    isExternal: true
+    href: SuperOffice.CRM.Documents.Constants.html
+  - name: .
+  - uid: SuperOffice.CRM.Documents.Constants.GUI
+    name: GUI
+    isExternal: true
+    href: SuperOffice.CRM.Documents.Constants.GUI.html
+  - name: .
+  - uid: SuperOffice.CRM.Documents.Constants.GUI.Names
+    name: Names
+    isExternal: true
+    href: SuperOffice.CRM.Documents.Constants.GUI.Names.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Documents.Constants
+    name: Constants
+    isExternal: true
+    href: SuperOffice.CRM.Documents.Constants.html
+  - name: .
+  - uid: SuperOffice.CRM.Documents.Constants.GUI
+    name: GUI
+    isExternal: true
+    href: SuperOffice.CRM.Documents.Constants.GUI.html
+  - name: .
+  - uid: SuperOffice.CRM.Documents.Constants.GUI.Names
+    name: Names
+    isExternal: true
+    href: SuperOffice.CRM.Documents.Constants.GUI.Names.html
 - uid: SuperOffice.CRM.Documents.IDocumentPlugin2
   commentId: T:SuperOffice.CRM.Documents.IDocumentPlugin2
   parent: SuperOffice.CRM.Documents
   isExternal: true
+  href: SuperOffice.CRM.Documents.IDocumentPlugin2.html
   name: IDocumentPlugin2
   nameWithType: IDocumentPlugin2
   fullName: SuperOffice.CRM.Documents.IDocumentPlugin2
 - uid: SuperOffice.CRM.Documents.IDocumentPluginOptional
   commentId: T:SuperOffice.CRM.Documents.IDocumentPluginOptional
   isExternal: true
+  href: SuperOffice.CRM.Documents.IDocumentPluginOptional.html
   name: IDocumentPluginOptional
   nameWithType: IDocumentPluginOptional
   fullName: SuperOffice.CRM.Documents.IDocumentPluginOptional
 - uid: SuperOffice.CRM.Documents
   commentId: N:SuperOffice.CRM.Documents
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Documents
   nameWithType: SuperOffice.CRM.Documents
   fullName: SuperOffice.CRM.Documents
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Documents
+    name: Documents
+    isExternal: true
+    href: SuperOffice.CRM.Documents.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Documents
+    name: Documents
+    isExternal: true
+    href: SuperOffice.CRM.Documents.html

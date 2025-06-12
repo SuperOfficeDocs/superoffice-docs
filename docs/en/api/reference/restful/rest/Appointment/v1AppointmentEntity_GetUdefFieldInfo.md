@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 534,
-  "ColumnId": 178,
-  "FieldDefault": "delectus",
-  "FieldHeight": 607,
-  "FieldLabel": "ipsum",
-  "FieldLeft": 768,
-  "FieldTop": 716,
+  "UDefFieldId": 682,
+  "ColumnId": 201,
+  "FieldDefault": "voluptas",
+  "FieldHeight": 948,
+  "FieldLabel": "consectetur",
+  "FieldLeft": 662,
+  "FieldTop": 79,
   "FieldType": "Checkbox",
-  "FieldWidth": 310,
+  "FieldWidth": 307,
   "FormatMask": "quia",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 112,
-  "LabelLeft": 460,
-  "LabelTop": 768,
-  "LabelWidth": 139,
-  "LastVersionId": 925,
-  "ListTableId": 23,
+  "IsIndexed": true,
+  "LabelHeight": 722,
+  "LabelLeft": 246,
+  "LabelTop": 962,
+  "LabelWidth": 697,
+  "LastVersionId": 845,
+  "ListTableId": 579,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 835,
-  "ProgId": "amet",
-  "IsReadOnly": false,
-  "ShortLabel": "voluptatem",
-  "TabOrder": 231,
-  "TextLength": 889,
-  "Tooltip": "ducimus",
-  "UdefIdentity": 120,
-  "UDListDefinitionId": 436,
+  "Page1LineNo": 993,
+  "ProgId": "et",
+  "IsReadOnly": true,
+  "ShortLabel": "minima",
+  "TabOrder": 828,
+  "TextLength": 524,
+  "Tooltip": "sequi",
+  "UdefIdentity": 203,
+  "UDListDefinitionId": 95,
   "Justification": "Center",
-  "Version": 775,
-  "TemplateVariableName": "Schuster, Harber and Jacobs",
-  "HasBeenPublished": false,
-  "MdoListName": "Rodriguez Inc and Sons",
+  "Version": 942,
+  "TemplateVariableName": "Haag, Dibbert and Greenfelder",
+  "HasBeenPublished": true,
+  "MdoListName": "Stamm Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 81
+      "FieldLength": 852
     }
   }
 }

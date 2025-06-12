@@ -1,0 +1,1696 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil
+  commentId: T:SuperOffice.CRM.Workflow.IWorkflowUtil
+  id: IWorkflowUtil
+  parent: SuperOffice.CRM.Workflow
+  children:
+  - SuperOffice.CRM.Workflow.IWorkflowUtil.BlockListApprovedAsync(System.Int32[],System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Workflow.IWorkflowUtil.CalculateTime(SuperOffice.Data.WorkflowTimeWaitIntervalType,System.Int32,System.DateTime)
+  - SuperOffice.CRM.Workflow.IWorkflowUtil.CleanRestrictions(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  - SuperOffice.CRM.Workflow.IWorkflowUtil.FilterOkAsync(System.Int32,System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Workflow.IWorkflowUtil.GetCreatedByWorkflowNameAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Workflow.IWorkflowUtil.GetOptionStepIdsAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Workflow.IWorkflowUtil.GetRootStepIdsAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Workflow.IWorkflowUtil.GetStepIdsAsync(System.Int32,SuperOffice.Data.WorkflowStepType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Workflow.IWorkflowUtil.GetValueFromCriteriaAsync(System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Workflow.IWorkflowUtil.GetWorkflowIdFromStepIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Workflow.IWorkflowUtil.GoalReachedAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Workflow.IWorkflowUtil.GoalReachedAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Workflow.IWorkflowUtil.HasEmarketingConsentAndSubscriptionAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Workflow.IWorkflowUtil.IsAddressUsedByOtherParticipantAsync(System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Workflow.IWorkflowUtil.NextStepIdAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Workflow.IWorkflowUtil.TryAddPersonsToWorkFlowAsync(System.Int32,System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Workflow.IWorkflowUtil.TryAddToSelectionAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Workflow.IWorkflowUtil.VerifySmtpSetupAsync(System.Int32,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: IWorkflowUtil
+  nameWithType: IWorkflowUtil
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil
+  type: Interface
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public interface IWorkflowUtil
+    content.vb: Public Interface IWorkflowUtil
+  extensionMethods:
+  - SuperOffice.CRM.Workflow.IWorkflowUtil.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Workflow.IWorkflowUtil.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.BlockListApprovedAsync(System.Int32[],System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Workflow.IWorkflowUtil.BlockListApprovedAsync(System.Int32[],System.Int32[],System.Threading.CancellationToken)
+  id: BlockListApprovedAsync(System.Int32[],System.Int32[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Workflow.IWorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: BlockListApprovedAsync(int[], int[], CancellationToken)
+  nameWithType: IWorkflowUtil.BlockListApprovedAsync(int[], int[], CancellationToken)
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.BlockListApprovedAsync(int[], int[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: Task<HashSet<int>> BlockListApprovedAsync(int[] selections, int[] personIds, CancellationToken cancellationToken = default)
+    parameters:
+    - id: selections
+      type: System.Int32[]
+    - id: personIds
+      type: System.Int32[]
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.HashSet{System.Int32}}
+    content.vb: Function BlockListApprovedAsync(selections As Integer(), personIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of HashSet(Of Integer))
+  overload: SuperOffice.CRM.Workflow.IWorkflowUtil.BlockListApprovedAsync*
+  nameWithType.vb: IWorkflowUtil.BlockListApprovedAsync(Integer(), Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Workflow.IWorkflowUtil.BlockListApprovedAsync(Integer(), Integer(), System.Threading.CancellationToken)
+  name.vb: BlockListApprovedAsync(Integer(), Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.CalculateTime(SuperOffice.Data.WorkflowTimeWaitIntervalType,System.Int32,System.DateTime)
+  commentId: M:SuperOffice.CRM.Workflow.IWorkflowUtil.CalculateTime(SuperOffice.Data.WorkflowTimeWaitIntervalType,System.Int32,System.DateTime)
+  id: CalculateTime(SuperOffice.Data.WorkflowTimeWaitIntervalType,System.Int32,System.DateTime)
+  parent: SuperOffice.CRM.Workflow.IWorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: CalculateTime(WorkflowTimeWaitIntervalType, int, DateTime)
+  nameWithType: IWorkflowUtil.CalculateTime(WorkflowTimeWaitIntervalType, int, DateTime)
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.CalculateTime(SuperOffice.Data.WorkflowTimeWaitIntervalType, int, System.DateTime)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: DateTime CalculateTime(WorkflowTimeWaitIntervalType intervalType, int intervalCount, DateTime defaultTime)
+    parameters:
+    - id: intervalType
+      type: SuperOffice.Data.WorkflowTimeWaitIntervalType
+    - id: intervalCount
+      type: System.Int32
+    - id: defaultTime
+      type: System.DateTime
+    return:
+      type: System.DateTime
+    content.vb: Function CalculateTime(intervalType As WorkflowTimeWaitIntervalType, intervalCount As Integer, defaultTime As Date) As Date
+  overload: SuperOffice.CRM.Workflow.IWorkflowUtil.CalculateTime*
+  nameWithType.vb: IWorkflowUtil.CalculateTime(WorkflowTimeWaitIntervalType, Integer, Date)
+  fullName.vb: SuperOffice.CRM.Workflow.IWorkflowUtil.CalculateTime(SuperOffice.Data.WorkflowTimeWaitIntervalType, Integer, Date)
+  name.vb: CalculateTime(WorkflowTimeWaitIntervalType, Integer, Date)
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.CleanRestrictions(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.Workflow.IWorkflowUtil.CleanRestrictions(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  id: CleanRestrictions(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  parent: SuperOffice.CRM.Workflow.IWorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: CleanRestrictions(ArchiveRestrictionInfo[])
+  nameWithType: IWorkflowUtil.CleanRestrictions(ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.CleanRestrictions(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: List<ArchiveRestrictionInfo> CleanRestrictions(ArchiveRestrictionInfo[] res)
+    parameters:
+    - id: res
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}
+    content.vb: Function CleanRestrictions(res As ArchiveRestrictionInfo()) As List(Of ArchiveRestrictionInfo)
+  overload: SuperOffice.CRM.Workflow.IWorkflowUtil.CleanRestrictions*
+  nameWithType.vb: IWorkflowUtil.CleanRestrictions(ArchiveRestrictionInfo())
+  fullName.vb: SuperOffice.CRM.Workflow.IWorkflowUtil.CleanRestrictions(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: CleanRestrictions(ArchiveRestrictionInfo())
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.FilterOkAsync(System.Int32,System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Workflow.IWorkflowUtil.FilterOkAsync(System.Int32,System.Int32[],System.Threading.CancellationToken)
+  id: FilterOkAsync(System.Int32,System.Int32[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Workflow.IWorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: FilterOkAsync(int, int[], CancellationToken)
+  nameWithType: IWorkflowUtil.FilterOkAsync(int, int[], CancellationToken)
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.FilterOkAsync(int, int[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: Task<HashSet<int>> FilterOkAsync(int workflowId, int[] personIds, CancellationToken cancellationToken = default)
+    parameters:
+    - id: workflowId
+      type: System.Int32
+    - id: personIds
+      type: System.Int32[]
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.HashSet{System.Int32}}
+    content.vb: Function FilterOkAsync(workflowId As Integer, personIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of HashSet(Of Integer))
+  overload: SuperOffice.CRM.Workflow.IWorkflowUtil.FilterOkAsync*
+  nameWithType.vb: IWorkflowUtil.FilterOkAsync(Integer, Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Workflow.IWorkflowUtil.FilterOkAsync(Integer, Integer(), System.Threading.CancellationToken)
+  name.vb: FilterOkAsync(Integer, Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.GetCreatedByWorkflowNameAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Workflow.IWorkflowUtil.GetCreatedByWorkflowNameAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetCreatedByWorkflowNameAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Workflow.IWorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: GetCreatedByWorkflowNameAsync(int, CancellationToken)
+  nameWithType: IWorkflowUtil.GetCreatedByWorkflowNameAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.GetCreatedByWorkflowNameAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: Task<string> GetCreatedByWorkflowNameAsync(int workflowId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: workflowId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Function GetCreatedByWorkflowNameAsync(workflowId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Workflow.IWorkflowUtil.GetCreatedByWorkflowNameAsync*
+  nameWithType.vb: IWorkflowUtil.GetCreatedByWorkflowNameAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Workflow.IWorkflowUtil.GetCreatedByWorkflowNameAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetCreatedByWorkflowNameAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.GetOptionStepIdsAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Workflow.IWorkflowUtil.GetOptionStepIdsAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetOptionStepIdsAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Workflow.IWorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: GetOptionStepIdsAsync(int, CancellationToken)
+  nameWithType: IWorkflowUtil.GetOptionStepIdsAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.GetOptionStepIdsAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: IAsyncEnumerable<int> GetOptionStepIdsAsync(int optionId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: optionId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Collections.Generic.IAsyncEnumerable{System.Int32}
+    content.vb: Function GetOptionStepIdsAsync(optionId As Integer, cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Integer)
+  overload: SuperOffice.CRM.Workflow.IWorkflowUtil.GetOptionStepIdsAsync*
+  nameWithType.vb: IWorkflowUtil.GetOptionStepIdsAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Workflow.IWorkflowUtil.GetOptionStepIdsAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetOptionStepIdsAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.GetRootStepIdsAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Workflow.IWorkflowUtil.GetRootStepIdsAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetRootStepIdsAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Workflow.IWorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: GetRootStepIdsAsync(int, CancellationToken)
+  nameWithType: IWorkflowUtil.GetRootStepIdsAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.GetRootStepIdsAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: Task<int[]> GetRootStepIdsAsync(int workflowId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: workflowId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32[]}
+    content.vb: Function GetRootStepIdsAsync(workflowId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer())
+  overload: SuperOffice.CRM.Workflow.IWorkflowUtil.GetRootStepIdsAsync*
+  nameWithType.vb: IWorkflowUtil.GetRootStepIdsAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Workflow.IWorkflowUtil.GetRootStepIdsAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetRootStepIdsAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.GetStepIdsAsync(System.Int32,SuperOffice.Data.WorkflowStepType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Workflow.IWorkflowUtil.GetStepIdsAsync(System.Int32,SuperOffice.Data.WorkflowStepType,System.Threading.CancellationToken)
+  id: GetStepIdsAsync(System.Int32,SuperOffice.Data.WorkflowStepType,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Workflow.IWorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: GetStepIdsAsync(int, WorkflowStepType, CancellationToken)
+  nameWithType: IWorkflowUtil.GetStepIdsAsync(int, WorkflowStepType, CancellationToken)
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.GetStepIdsAsync(int, SuperOffice.Data.WorkflowStepType, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: Task<List<int>> GetStepIdsAsync(int workflowId, WorkflowStepType stepType, CancellationToken cancellationToken = default)
+    parameters:
+    - id: workflowId
+      type: System.Int32
+    - id: stepType
+      type: SuperOffice.Data.WorkflowStepType
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{System.Int32}}
+    content.vb: Function GetStepIdsAsync(workflowId As Integer, stepType As WorkflowStepType, cancellationToken As CancellationToken = Nothing) As Task(Of List(Of Integer))
+  overload: SuperOffice.CRM.Workflow.IWorkflowUtil.GetStepIdsAsync*
+  nameWithType.vb: IWorkflowUtil.GetStepIdsAsync(Integer, WorkflowStepType, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Workflow.IWorkflowUtil.GetStepIdsAsync(Integer, SuperOffice.Data.WorkflowStepType, System.Threading.CancellationToken)
+  name.vb: GetStepIdsAsync(Integer, WorkflowStepType, CancellationToken)
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.GetValueFromCriteriaAsync(System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Workflow.IWorkflowUtil.GetValueFromCriteriaAsync(System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  id: GetValueFromCriteriaAsync(System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Workflow.IWorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: GetValueFromCriteriaAsync(int, int, string, CancellationToken)
+  nameWithType: IWorkflowUtil.GetValueFromCriteriaAsync(int, int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.GetValueFromCriteriaAsync(int, int, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: Task<int> GetValueFromCriteriaAsync(int ownerTable, int ownerId, string colName, CancellationToken cancellationToken = default)
+    parameters:
+    - id: ownerTable
+      type: System.Int32
+    - id: ownerId
+      type: System.Int32
+    - id: colName
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Function GetValueFromCriteriaAsync(ownerTable As Integer, ownerId As Integer, colName As String, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Workflow.IWorkflowUtil.GetValueFromCriteriaAsync*
+  nameWithType.vb: IWorkflowUtil.GetValueFromCriteriaAsync(Integer, Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Workflow.IWorkflowUtil.GetValueFromCriteriaAsync(Integer, Integer, String, System.Threading.CancellationToken)
+  name.vb: GetValueFromCriteriaAsync(Integer, Integer, String, CancellationToken)
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.GetWorkflowIdFromStepIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Workflow.IWorkflowUtil.GetWorkflowIdFromStepIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetWorkflowIdFromStepIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Workflow.IWorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: GetWorkflowIdFromStepIdAsync(int, CancellationToken)
+  nameWithType: IWorkflowUtil.GetWorkflowIdFromStepIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.GetWorkflowIdFromStepIdAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: Task<int> GetWorkflowIdFromStepIdAsync(int stepId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: stepId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Function GetWorkflowIdFromStepIdAsync(stepId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Workflow.IWorkflowUtil.GetWorkflowIdFromStepIdAsync*
+  nameWithType.vb: IWorkflowUtil.GetWorkflowIdFromStepIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Workflow.IWorkflowUtil.GetWorkflowIdFromStepIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetWorkflowIdFromStepIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.GoalReachedAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Workflow.IWorkflowUtil.GoalReachedAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GoalReachedAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Workflow.IWorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: GoalReachedAsync(int, int, int, CancellationToken)
+  nameWithType: IWorkflowUtil.GoalReachedAsync(int, int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.GoalReachedAsync(int, int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: Task<bool> GoalReachedAsync(int workflowId, int personId, int contactId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: workflowId
+      type: System.Int32
+    - id: personId
+      type: System.Int32
+    - id: contactId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function GoalReachedAsync(workflowId As Integer, personId As Integer, contactId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Workflow.IWorkflowUtil.GoalReachedAsync*
+  nameWithType.vb: IWorkflowUtil.GoalReachedAsync(Integer, Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Workflow.IWorkflowUtil.GoalReachedAsync(Integer, Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GoalReachedAsync(Integer, Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.GoalReachedAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Workflow.IWorkflowUtil.GoalReachedAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
+  id: GoalReachedAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Workflow.IWorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: GoalReachedAsync(int, int[], int[], CancellationToken)
+  nameWithType: IWorkflowUtil.GoalReachedAsync(int, int[], int[], CancellationToken)
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.GoalReachedAsync(int, int[], int[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: Task<HashSet<int>> GoalReachedAsync(int workflowId, int[] personIds, int[] contactIds, CancellationToken cancellationToken = default)
+    parameters:
+    - id: workflowId
+      type: System.Int32
+    - id: personIds
+      type: System.Int32[]
+    - id: contactIds
+      type: System.Int32[]
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.HashSet{System.Int32}}
+    content.vb: Function GoalReachedAsync(workflowId As Integer, personIds As Integer(), contactIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of HashSet(Of Integer))
+  overload: SuperOffice.CRM.Workflow.IWorkflowUtil.GoalReachedAsync*
+  nameWithType.vb: IWorkflowUtil.GoalReachedAsync(Integer, Integer(), Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Workflow.IWorkflowUtil.GoalReachedAsync(Integer, Integer(), Integer(), System.Threading.CancellationToken)
+  name.vb: GoalReachedAsync(Integer, Integer(), Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.HasEmarketingConsentAndSubscriptionAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Workflow.IWorkflowUtil.HasEmarketingConsentAndSubscriptionAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: HasEmarketingConsentAndSubscriptionAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Workflow.IWorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: HasEmarketingConsentAndSubscriptionAsync(int, int, CancellationToken)
+  nameWithType: IWorkflowUtil.HasEmarketingConsentAndSubscriptionAsync(int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.HasEmarketingConsentAndSubscriptionAsync(int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: Task<(bool, string)> HasEmarketingConsentAndSubscriptionAsync(int personId, int shipmentTypeReservationId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: personId
+      type: System.Int32
+    - id: shipmentTypeReservationId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.String}}
+    content.vb: Function HasEmarketingConsentAndSubscriptionAsync(personId As Integer, shipmentTypeReservationId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of (Boolean, String))
+  overload: SuperOffice.CRM.Workflow.IWorkflowUtil.HasEmarketingConsentAndSubscriptionAsync*
+  nameWithType.vb: IWorkflowUtil.HasEmarketingConsentAndSubscriptionAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Workflow.IWorkflowUtil.HasEmarketingConsentAndSubscriptionAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: HasEmarketingConsentAndSubscriptionAsync(Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.IsAddressUsedByOtherParticipantAsync(System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Workflow.IWorkflowUtil.IsAddressUsedByOtherParticipantAsync(System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  id: IsAddressUsedByOtherParticipantAsync(System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Workflow.IWorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: IsAddressUsedByOtherParticipantAsync(int, int, string, CancellationToken)
+  nameWithType: IWorkflowUtil.IsAddressUsedByOtherParticipantAsync(int, int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.IsAddressUsedByOtherParticipantAsync(int, int, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: Task<bool> IsAddressUsedByOtherParticipantAsync(int flowId, int personId, string address, CancellationToken cancellationToken = default)
+    parameters:
+    - id: flowId
+      type: System.Int32
+    - id: personId
+      type: System.Int32
+    - id: address
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function IsAddressUsedByOtherParticipantAsync(flowId As Integer, personId As Integer, address As String, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Workflow.IWorkflowUtil.IsAddressUsedByOtherParticipantAsync*
+  nameWithType.vb: IWorkflowUtil.IsAddressUsedByOtherParticipantAsync(Integer, Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Workflow.IWorkflowUtil.IsAddressUsedByOtherParticipantAsync(Integer, Integer, String, System.Threading.CancellationToken)
+  name.vb: IsAddressUsedByOtherParticipantAsync(Integer, Integer, String, CancellationToken)
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.NextStepIdAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Workflow.IWorkflowUtil.NextStepIdAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: NextStepIdAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Workflow.IWorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: NextStepIdAsync(int, int, CancellationToken)
+  nameWithType: IWorkflowUtil.NextStepIdAsync(int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.NextStepIdAsync(int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: Task<int> NextStepIdAsync(int workflowId, int stepId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: workflowId
+      type: System.Int32
+    - id: stepId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Function NextStepIdAsync(workflowId As Integer, stepId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Workflow.IWorkflowUtil.NextStepIdAsync*
+  nameWithType.vb: IWorkflowUtil.NextStepIdAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Workflow.IWorkflowUtil.NextStepIdAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: NextStepIdAsync(Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.TryAddPersonsToWorkFlowAsync(System.Int32,System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Workflow.IWorkflowUtil.TryAddPersonsToWorkFlowAsync(System.Int32,System.Int32[],System.Threading.CancellationToken)
+  id: TryAddPersonsToWorkFlowAsync(System.Int32,System.Int32[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Workflow.IWorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: TryAddPersonsToWorkFlowAsync(int, int[], CancellationToken)
+  nameWithType: IWorkflowUtil.TryAddPersonsToWorkFlowAsync(int, int[], CancellationToken)
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.TryAddPersonsToWorkFlowAsync(int, int[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: Task<bool[]> TryAddPersonsToWorkFlowAsync(int workflowId, int[] personIds, CancellationToken cancellationToken = default)
+    parameters:
+    - id: workflowId
+      type: System.Int32
+    - id: personIds
+      type: System.Int32[]
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean[]}
+    content.vb: Function TryAddPersonsToWorkFlowAsync(workflowId As Integer, personIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of Boolean())
+  overload: SuperOffice.CRM.Workflow.IWorkflowUtil.TryAddPersonsToWorkFlowAsync*
+  nameWithType.vb: IWorkflowUtil.TryAddPersonsToWorkFlowAsync(Integer, Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Workflow.IWorkflowUtil.TryAddPersonsToWorkFlowAsync(Integer, Integer(), System.Threading.CancellationToken)
+  name.vb: TryAddPersonsToWorkFlowAsync(Integer, Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.TryAddToSelectionAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Workflow.IWorkflowUtil.TryAddToSelectionAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: TryAddToSelectionAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Workflow.IWorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: TryAddToSelectionAsync(int, int, int, CancellationToken)
+  nameWithType: IWorkflowUtil.TryAddToSelectionAsync(int, int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.TryAddToSelectionAsync(int, int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: Task TryAddToSelectionAsync(int selectionId, int personId, int contactId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+    - id: personId
+      type: System.Int32
+    - id: contactId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function TryAddToSelectionAsync(selectionId As Integer, personId As Integer, contactId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Workflow.IWorkflowUtil.TryAddToSelectionAsync*
+  nameWithType.vb: IWorkflowUtil.TryAddToSelectionAsync(Integer, Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Workflow.IWorkflowUtil.TryAddToSelectionAsync(Integer, Integer, Integer, System.Threading.CancellationToken)
+  name.vb: TryAddToSelectionAsync(Integer, Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.VerifySmtpSetupAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Workflow.IWorkflowUtil.VerifySmtpSetupAsync(System.Int32,System.Threading.CancellationToken)
+  id: VerifySmtpSetupAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Workflow.IWorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: VerifySmtpSetupAsync(int, CancellationToken)
+  nameWithType: IWorkflowUtil.VerifySmtpSetupAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.VerifySmtpSetupAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: Task VerifySmtpSetupAsync(int shipmentId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: shipmentId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function VerifySmtpSetupAsync(shipmentId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Workflow.IWorkflowUtil.VerifySmtpSetupAsync*
+  nameWithType.vb: IWorkflowUtil.VerifySmtpSetupAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Workflow.IWorkflowUtil.VerifySmtpSetupAsync(Integer, System.Threading.CancellationToken)
+  name.vb: VerifySmtpSetupAsync(Integer, CancellationToken)
+references:
+- uid: SuperOffice.CRM.Workflow
+  commentId: N:SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Workflow
+  nameWithType: SuperOffice.CRM.Workflow
+  fullName: SuperOffice.CRM.Workflow
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Workflow
+    name: Workflow
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Workflow
+    name: Workflow
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.html
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IWorkflowUtil, To>(IWorkflowUtil)
+  nameWithType: EnumUtil.MapEnums<IWorkflowUtil, To>(IWorkflowUtil)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.IWorkflowUtil, To>(SuperOffice.CRM.Workflow.IWorkflowUtil)
+  nameWithType.vb: EnumUtil.MapEnums(Of IWorkflowUtil, To)(IWorkflowUtil)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.IWorkflowUtil, To)(SuperOffice.CRM.Workflow.IWorkflowUtil)
+  name.vb: MapEnums(Of IWorkflowUtil, To)(IWorkflowUtil)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Workflow.IWorkflowUtil)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Workflow.IWorkflowUtil
+    name: IWorkflowUtil
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.IWorkflowUtil.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.IWorkflowUtil
+    name: IWorkflowUtil
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.IWorkflowUtil.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Workflow.IWorkflowUtil)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Workflow.IWorkflowUtil
+    name: IWorkflowUtil
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.IWorkflowUtil.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.IWorkflowUtil
+    name: IWorkflowUtil
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.IWorkflowUtil.html
+  - name: )
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IWorkflowUtil, To>(IWorkflowUtil)
+  nameWithType: Converters.MapEnums<IWorkflowUtil, To>(IWorkflowUtil)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.IWorkflowUtil, To>(SuperOffice.CRM.Workflow.IWorkflowUtil)
+  nameWithType.vb: Converters.MapEnums(Of IWorkflowUtil, To)(IWorkflowUtil)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.IWorkflowUtil, To)(SuperOffice.CRM.Workflow.IWorkflowUtil)
+  name.vb: MapEnums(Of IWorkflowUtil, To)(IWorkflowUtil)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Workflow.IWorkflowUtil)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Workflow.IWorkflowUtil
+    name: IWorkflowUtil
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.IWorkflowUtil.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.IWorkflowUtil
+    name: IWorkflowUtil
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.IWorkflowUtil.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Workflow.IWorkflowUtil)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Workflow.IWorkflowUtil
+    name: IWorkflowUtil
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.IWorkflowUtil.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.IWorkflowUtil
+    name: IWorkflowUtil
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.IWorkflowUtil.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.BlockListApprovedAsync*
+  commentId: Overload:SuperOffice.CRM.Workflow.IWorkflowUtil.BlockListApprovedAsync
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.IWorkflowUtil.html#SuperOffice_CRM_Workflow_IWorkflowUtil_BlockListApprovedAsync_System_Int32___System_Int32___System_Threading_CancellationToken_
+  name: BlockListApprovedAsync
+  nameWithType: IWorkflowUtil.BlockListApprovedAsync
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.BlockListApprovedAsync
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.HashSet{System.Int32}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.HashSet{System.Int32}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<HashSet<int>>
+  nameWithType: Task<HashSet<int>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.HashSet<int>>
+  nameWithType.vb: Task(Of HashSet(Of Integer))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.HashSet(Of Integer))
+  name.vb: Task(Of HashSet(Of Integer))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.CalculateTime*
+  commentId: Overload:SuperOffice.CRM.Workflow.IWorkflowUtil.CalculateTime
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.IWorkflowUtil.html#SuperOffice_CRM_Workflow_IWorkflowUtil_CalculateTime_SuperOffice_Data_WorkflowTimeWaitIntervalType_System_Int32_System_DateTime_
+  name: CalculateTime
+  nameWithType: IWorkflowUtil.CalculateTime
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.CalculateTime
+- uid: SuperOffice.Data.WorkflowTimeWaitIntervalType
+  commentId: T:SuperOffice.Data.WorkflowTimeWaitIntervalType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.WorkflowTimeWaitIntervalType.html
+  name: WorkflowTimeWaitIntervalType
+  nameWithType: WorkflowTimeWaitIntervalType
+  fullName: SuperOffice.Data.WorkflowTimeWaitIntervalType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.CleanRestrictions*
+  commentId: Overload:SuperOffice.CRM.Workflow.IWorkflowUtil.CleanRestrictions
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.IWorkflowUtil.html#SuperOffice_CRM_Workflow_IWorkflowUtil_CleanRestrictions_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___
+  name: CleanRestrictions
+  nameWithType: IWorkflowUtil.CleanRestrictions
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.CleanRestrictions
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.html
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.html
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<ArchiveRestrictionInfo>
+  nameWithType: List<ArchiveRestrictionInfo>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo>
+  nameWithType.vb: List(Of ArchiveRestrictionInfo)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  name.vb: List(Of ArchiveRestrictionInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.FilterOkAsync*
+  commentId: Overload:SuperOffice.CRM.Workflow.IWorkflowUtil.FilterOkAsync
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.IWorkflowUtil.html#SuperOffice_CRM_Workflow_IWorkflowUtil_FilterOkAsync_System_Int32_System_Int32___System_Threading_CancellationToken_
+  name: FilterOkAsync
+  nameWithType: IWorkflowUtil.FilterOkAsync
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.FilterOkAsync
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.GetCreatedByWorkflowNameAsync*
+  commentId: Overload:SuperOffice.CRM.Workflow.IWorkflowUtil.GetCreatedByWorkflowNameAsync
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.IWorkflowUtil.html#SuperOffice_CRM_Workflow_IWorkflowUtil_GetCreatedByWorkflowNameAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetCreatedByWorkflowNameAsync
+  nameWithType: IWorkflowUtil.GetCreatedByWorkflowNameAsync
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.GetCreatedByWorkflowNameAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.GetOptionStepIdsAsync*
+  commentId: Overload:SuperOffice.CRM.Workflow.IWorkflowUtil.GetOptionStepIdsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.IWorkflowUtil.html#SuperOffice_CRM_Workflow_IWorkflowUtil_GetOptionStepIdsAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetOptionStepIdsAsync
+  nameWithType: IWorkflowUtil.GetOptionStepIdsAsync
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.GetOptionStepIdsAsync
+- uid: System.Collections.Generic.IAsyncEnumerable{System.Int32}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{System.Int32}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: IAsyncEnumerable<int>
+  nameWithType: IAsyncEnumerable<int>
+  fullName: System.Collections.Generic.IAsyncEnumerable<int>
+  nameWithType.vb: IAsyncEnumerable(Of Integer)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of Integer)
+  name.vb: IAsyncEnumerable(Of Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Collections.Generic.IAsyncEnumerable`1
+  isExternal: true
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: <
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.GetRootStepIdsAsync*
+  commentId: Overload:SuperOffice.CRM.Workflow.IWorkflowUtil.GetRootStepIdsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.IWorkflowUtil.html#SuperOffice_CRM_Workflow_IWorkflowUtil_GetRootStepIdsAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetRootStepIdsAsync
+  nameWithType: IWorkflowUtil.GetRootStepIdsAsync
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.GetRootStepIdsAsync
+- uid: System.Threading.Tasks.Task{System.Int32[]}
+  commentId: T:System.Threading.Tasks.Task{System.Int32[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int[]>
+  nameWithType: Task<int[]>
+  fullName: System.Threading.Tasks.Task<int[]>
+  nameWithType.vb: Task(Of Integer())
+  fullName.vb: System.Threading.Tasks.Task(Of Integer())
+  name.vb: Task(Of Integer())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.GetStepIdsAsync*
+  commentId: Overload:SuperOffice.CRM.Workflow.IWorkflowUtil.GetStepIdsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.IWorkflowUtil.html#SuperOffice_CRM_Workflow_IWorkflowUtil_GetStepIdsAsync_System_Int32_SuperOffice_Data_WorkflowStepType_System_Threading_CancellationToken_
+  name: GetStepIdsAsync
+  nameWithType: IWorkflowUtil.GetStepIdsAsync
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.GetStepIdsAsync
+- uid: SuperOffice.Data.WorkflowStepType
+  commentId: T:SuperOffice.Data.WorkflowStepType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.WorkflowStepType.html
+  name: WorkflowStepType
+  nameWithType: WorkflowStepType
+  fullName: SuperOffice.Data.WorkflowStepType
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{System.Int32}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{System.Int32}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<int>>
+  nameWithType: Task<List<int>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<int>>
+  nameWithType.vb: Task(Of List(Of Integer))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of Integer))
+  name.vb: Task(Of List(Of Integer))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.GetValueFromCriteriaAsync*
+  commentId: Overload:SuperOffice.CRM.Workflow.IWorkflowUtil.GetValueFromCriteriaAsync
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.IWorkflowUtil.html#SuperOffice_CRM_Workflow_IWorkflowUtil_GetValueFromCriteriaAsync_System_Int32_System_Int32_System_String_System_Threading_CancellationToken_
+  name: GetValueFromCriteriaAsync
+  nameWithType: IWorkflowUtil.GetValueFromCriteriaAsync
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.GetValueFromCriteriaAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.GetWorkflowIdFromStepIdAsync*
+  commentId: Overload:SuperOffice.CRM.Workflow.IWorkflowUtil.GetWorkflowIdFromStepIdAsync
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.IWorkflowUtil.html#SuperOffice_CRM_Workflow_IWorkflowUtil_GetWorkflowIdFromStepIdAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetWorkflowIdFromStepIdAsync
+  nameWithType: IWorkflowUtil.GetWorkflowIdFromStepIdAsync
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.GetWorkflowIdFromStepIdAsync
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.GoalReachedAsync*
+  commentId: Overload:SuperOffice.CRM.Workflow.IWorkflowUtil.GoalReachedAsync
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.IWorkflowUtil.html#SuperOffice_CRM_Workflow_IWorkflowUtil_GoalReachedAsync_System_Int32_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: GoalReachedAsync
+  nameWithType: IWorkflowUtil.GoalReachedAsync
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.GoalReachedAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.HasEmarketingConsentAndSubscriptionAsync*
+  commentId: Overload:SuperOffice.CRM.Workflow.IWorkflowUtil.HasEmarketingConsentAndSubscriptionAsync
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.IWorkflowUtil.html#SuperOffice_CRM_Workflow_IWorkflowUtil_HasEmarketingConsentAndSubscriptionAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: HasEmarketingConsentAndSubscriptionAsync
+  nameWithType: IWorkflowUtil.HasEmarketingConsentAndSubscriptionAsync
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.HasEmarketingConsentAndSubscriptionAsync
+- uid: System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.String}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.String}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(bool, string)>
+  nameWithType: Task<(bool, string)>
+  fullName: System.Threading.Tasks.Task<(bool, string)>
+  nameWithType.vb: Task(Of (Boolean, String))
+  fullName.vb: System.Threading.Tasks.Task(Of (Boolean, String))
+  name.vb: Task(Of (Boolean, String))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.IsAddressUsedByOtherParticipantAsync*
+  commentId: Overload:SuperOffice.CRM.Workflow.IWorkflowUtil.IsAddressUsedByOtherParticipantAsync
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.IWorkflowUtil.html#SuperOffice_CRM_Workflow_IWorkflowUtil_IsAddressUsedByOtherParticipantAsync_System_Int32_System_Int32_System_String_System_Threading_CancellationToken_
+  name: IsAddressUsedByOtherParticipantAsync
+  nameWithType: IWorkflowUtil.IsAddressUsedByOtherParticipantAsync
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.IsAddressUsedByOtherParticipantAsync
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.NextStepIdAsync*
+  commentId: Overload:SuperOffice.CRM.Workflow.IWorkflowUtil.NextStepIdAsync
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.IWorkflowUtil.html#SuperOffice_CRM_Workflow_IWorkflowUtil_NextStepIdAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: NextStepIdAsync
+  nameWithType: IWorkflowUtil.NextStepIdAsync
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.NextStepIdAsync
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.TryAddPersonsToWorkFlowAsync*
+  commentId: Overload:SuperOffice.CRM.Workflow.IWorkflowUtil.TryAddPersonsToWorkFlowAsync
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.IWorkflowUtil.html#SuperOffice_CRM_Workflow_IWorkflowUtil_TryAddPersonsToWorkFlowAsync_System_Int32_System_Int32___System_Threading_CancellationToken_
+  name: TryAddPersonsToWorkFlowAsync
+  nameWithType: IWorkflowUtil.TryAddPersonsToWorkFlowAsync
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.TryAddPersonsToWorkFlowAsync
+- uid: System.Threading.Tasks.Task{System.Boolean[]}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool[]>
+  nameWithType: Task<bool[]>
+  fullName: System.Threading.Tasks.Task<bool[]>
+  nameWithType.vb: Task(Of Boolean())
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean())
+  name.vb: Task(Of Boolean())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.TryAddToSelectionAsync*
+  commentId: Overload:SuperOffice.CRM.Workflow.IWorkflowUtil.TryAddToSelectionAsync
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.IWorkflowUtil.html#SuperOffice_CRM_Workflow_IWorkflowUtil_TryAddToSelectionAsync_System_Int32_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: TryAddToSelectionAsync
+  nameWithType: IWorkflowUtil.TryAddToSelectionAsync
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.TryAddToSelectionAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.VerifySmtpSetupAsync*
+  commentId: Overload:SuperOffice.CRM.Workflow.IWorkflowUtil.VerifySmtpSetupAsync
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.IWorkflowUtil.html#SuperOffice_CRM_Workflow_IWorkflowUtil_VerifySmtpSetupAsync_System_Int32_System_Threading_CancellationToken_
+  name: VerifySmtpSetupAsync
+  nameWithType: IWorkflowUtil.VerifySmtpSetupAsync
+  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.VerifySmtpSetupAsync

@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 867,
-    "Id": 576,
-    "HistoryName": "Kertzmann Inc and Sons",
-    "HistoryId": 29,
-    "AssociateId": 911,
-    "Name": "O'Keefe Inc and Sons",
-    "ItemInfo": "perferendis",
+    "Rank": 890,
+    "Id": 856,
+    "HistoryName": "Beahan Inc and Sons",
+    "HistoryId": 723,
+    "AssociateId": 410,
+    "Name": "Kozey, Cartwright and McGlynn",
+    "ItemInfo": "odit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 371
+        "FieldType": "System.String",
+        "FieldLength": 734
       }
     }
   }

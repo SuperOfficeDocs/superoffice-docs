@@ -1,0 +1,373 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.SoTask
+  commentId: T:SuperOffice.CRM.Services.SoTask
+  id: SoTask
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.SoTask.#ctor
+  - SuperOffice.CRM.Services.SoTask.Id
+  - SuperOffice.CRM.Services.SoTask.ToString
+  - SuperOffice.CRM.Services.SoTask.ToString(System.String)
+  - SuperOffice.CRM.Services.SoTask.Tooltip
+  - SuperOffice.CRM.Services.SoTask.Value
+  langs:
+  - csharp
+  - vb
+  name: SoTask
+  nameWithType: SoTask
+  fullName: SuperOffice.CRM.Services.SoTask
+  type: Class
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Type of an appointment
+
+    <p></p>
+
+    Carrier object for SoTask.
+
+    Services for the SoTask Carrier is available from the <xref href="SuperOffice.CRM.Services.IListAgent?text=List+Agent" data-throw-if-not-resolved="false"></xref>.
+  example:
+  - >-
+    Get SoTask 123 using the agent:
+
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       var agent = new ListAgent();
+       var soTask = agent.GetSoTask( 123 );
+    }</code></pre>
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0", Name = "Task")]
+
+      public class SoTask : Carrier
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0", Name:="Task")>
+
+      Public Class SoTask Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.IListAgent
+    commentId: T:SuperOffice.CRM.Services.IListAgent
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
+    - name: Name
+      type: System.String
+      value: Task
+- uid: SuperOffice.CRM.Services.SoTask.#ctor
+  commentId: M:SuperOffice.CRM.Services.SoTask.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.SoTask
+  langs:
+  - csharp
+  - vb
+  name: SoTask()
+  nameWithType: SoTask.SoTask()
+  fullName: SuperOffice.CRM.Services.SoTask.SoTask()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Default constructor
+  example: []
+  syntax:
+    content: public SoTask()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Services.SoTask.#ctor*
+  nameWithType.vb: SoTask.New()
+  fullName.vb: SuperOffice.CRM.Services.SoTask.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Services.SoTask.ToString
+  commentId: M:SuperOffice.CRM.Services.SoTask.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.SoTask
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SoTask.ToString()
+  fullName: SuperOffice.CRM.Services.SoTask.ToString()
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the carrier contents as a formatted string.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString() As String
+  overload: SuperOffice.CRM.Services.SoTask.ToString*
+- uid: SuperOffice.CRM.Services.SoTask.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.SoTask.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.SoTask
+  langs:
+  - csharp
+  - vb
+  name: ToString(string)
+  nameWithType: SoTask.ToString(string)
+  fullName: SuperOffice.CRM.Services.SoTask.ToString(string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.SoTask.ToString*
+  nameWithType.vb: SoTask.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.SoTask.ToString(String)
+  name.vb: ToString(String)
+- uid: SuperOffice.CRM.Services.SoTask.Id
+  commentId: P:SuperOffice.CRM.Services.SoTask.Id
+  id: Id
+  parent: SuperOffice.CRM.Services.SoTask
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: SoTask.Id
+  fullName: SuperOffice.CRM.Services.SoTask.Id
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: The List Item Id
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Property Id As Integer
+  overload: SuperOffice.CRM.Services.SoTask.Id*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.SoTask.Value
+  commentId: P:SuperOffice.CRM.Services.SoTask.Value
+  id: Value
+  parent: SuperOffice.CRM.Services.SoTask
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: SoTask.Value
+  fullName: SuperOffice.CRM.Services.SoTask.Value
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: The List Item Value
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Property Value As String
+  overload: SuperOffice.CRM.Services.SoTask.Value*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.SoTask.Tooltip
+  commentId: P:SuperOffice.CRM.Services.SoTask.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Services.SoTask
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: SoTask.Tooltip
+  fullName: SuperOffice.CRM.Services.SoTask.Tooltip
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: The List Item Tooltip
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Property Tooltip As String
+  overload: SuperOffice.CRM.Services.SoTask.Tooltip*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.CRM.Services.IListAgent
+  commentId: T:SuperOffice.CRM.Services.IListAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IListAgent.html
+  name: IListAgent
+  nameWithType: IListAgent
+  fullName: SuperOffice.CRM.Services.IListAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.SoTask.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.SoTask.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.SoTask.html#SuperOffice_CRM_Services_SoTask__ctor
+  name: SoTask
+  nameWithType: SoTask.SoTask
+  fullName: SuperOffice.CRM.Services.SoTask.SoTask
+  nameWithType.vb: SoTask.New
+  fullName.vb: SuperOffice.CRM.Services.SoTask.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.SoTask.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.SoTask.ToString
+  isExternal: true
+  href: SuperOffice.CRM.Services.SoTask.html#SuperOffice_CRM_Services_SoTask_ToString
+  name: ToString
+  nameWithType: SoTask.ToString
+  fullName: SuperOffice.CRM.Services.SoTask.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Services.SoTask.Id*
+  commentId: Overload:SuperOffice.CRM.Services.SoTask.Id
+  isExternal: true
+  href: SuperOffice.CRM.Services.SoTask.html#SuperOffice_CRM_Services_SoTask_Id
+  name: Id
+  nameWithType: SoTask.Id
+  fullName: SuperOffice.CRM.Services.SoTask.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Services.SoTask.Value*
+  commentId: Overload:SuperOffice.CRM.Services.SoTask.Value
+  isExternal: true
+  href: SuperOffice.CRM.Services.SoTask.html#SuperOffice_CRM_Services_SoTask_Value
+  name: Value
+  nameWithType: SoTask.Value
+  fullName: SuperOffice.CRM.Services.SoTask.Value
+- uid: SuperOffice.CRM.Services.SoTask.Tooltip*
+  commentId: Overload:SuperOffice.CRM.Services.SoTask.Tooltip
+  isExternal: true
+  href: SuperOffice.CRM.Services.SoTask.html#SuperOffice_CRM_Services_SoTask_Tooltip
+  name: Tooltip
+  nameWithType: SoTask.Tooltip
+  fullName: SuperOffice.CRM.Services.SoTask.Tooltip

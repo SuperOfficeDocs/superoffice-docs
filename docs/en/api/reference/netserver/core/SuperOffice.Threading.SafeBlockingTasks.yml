@@ -1,0 +1,619 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Threading.SafeBlockingTasks
+  commentId: T:SuperOffice.Threading.SafeBlockingTasks
+  id: SafeBlockingTasks
+  parent: SuperOffice.Threading
+  children:
+  - SuperOffice.Threading.SafeBlockingTasks.SafeBlock(System.Action)
+  - SuperOffice.Threading.SafeBlockingTasks.SafeBlock(System.Func{System.Threading.Tasks.Task})
+  - SuperOffice.Threading.SafeBlockingTasks.SafeBlock``1(System.Func{System.Threading.Tasks.Task{``0}})
+  - SuperOffice.Threading.SafeBlockingTasks.SafeBlock``1(System.Func{``0})
+  langs:
+  - csharp
+  - vb
+  name: SafeBlockingTasks
+  nameWithType: SafeBlockingTasks
+  fullName: SuperOffice.Threading.SafeBlockingTasks
+  type: Class
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public static class SafeBlockingTasks
+    content.vb: Public Module SafeBlockingTasks
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.Threading.SafeBlockingTasks.SafeBlock(System.Func{System.Threading.Tasks.Task})
+  commentId: M:SuperOffice.Threading.SafeBlockingTasks.SafeBlock(System.Func{System.Threading.Tasks.Task})
+  id: SafeBlock(System.Func{System.Threading.Tasks.Task})
+  parent: SuperOffice.Threading.SafeBlockingTasks
+  langs:
+  - csharp
+  - vb
+  name: SafeBlock(Func<Task>)
+  nameWithType: SafeBlockingTasks.SafeBlock(Func<Task>)
+  fullName: SuperOffice.Threading.SafeBlockingTasks.SafeBlock(System.Func<System.Threading.Tasks.Task>)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: >-
+    Helper method to do a "safe" block on a <xref href="System.Threading.Tasks.Task" data-throw-if-not-resolved="false"></xref> instance, by "safe" we mean that it does not deadlock.
+
+    ThreadPool starvation could be a possibility if it's overused, however this should not be a problem, because
+
+    it is only intended for the limited areas of the code that is planned to be dropped in the future. Everywhere
+
+    else should use real async/await all the way.
+  example: []
+  syntax:
+    content: public static void SafeBlock(Func<Task> task)
+    parameters:
+    - id: task
+      type: System.Func{System.Threading.Tasks.Task}
+    content.vb: Public Shared Sub SafeBlock(task As Func(Of Task))
+  overload: SuperOffice.Threading.SafeBlockingTasks.SafeBlock*
+  nameWithType.vb: SafeBlockingTasks.SafeBlock(Func(Of Task))
+  fullName.vb: SuperOffice.Threading.SafeBlockingTasks.SafeBlock(System.Func(Of System.Threading.Tasks.Task))
+  name.vb: SafeBlock(Func(Of Task))
+- uid: SuperOffice.Threading.SafeBlockingTasks.SafeBlock``1(System.Func{System.Threading.Tasks.Task{``0}})
+  commentId: M:SuperOffice.Threading.SafeBlockingTasks.SafeBlock``1(System.Func{System.Threading.Tasks.Task{``0}})
+  id: SafeBlock``1(System.Func{System.Threading.Tasks.Task{``0}})
+  parent: SuperOffice.Threading.SafeBlockingTasks
+  langs:
+  - csharp
+  - vb
+  name: SafeBlock<T>(Func<Task<T>>)
+  nameWithType: SafeBlockingTasks.SafeBlock<T>(Func<Task<T>>)
+  fullName: SuperOffice.Threading.SafeBlockingTasks.SafeBlock<T>(System.Func<System.Threading.Tasks.Task<T>>)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  example: []
+  syntax:
+    content: public static T SafeBlock<T>(Func<Task<T>> task)
+    parameters:
+    - id: task
+      type: System.Func{System.Threading.Tasks.Task{{T}}}
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function SafeBlock(Of T)(task As Func(Of Task(Of T))) As T
+  overload: SuperOffice.Threading.SafeBlockingTasks.SafeBlock*
+  nameWithType.vb: SafeBlockingTasks.SafeBlock(Of T)(Func(Of Task(Of T)))
+  fullName.vb: SuperOffice.Threading.SafeBlockingTasks.SafeBlock(Of T)(System.Func(Of System.Threading.Tasks.Task(Of T)))
+  name.vb: SafeBlock(Of T)(Func(Of Task(Of T)))
+- uid: SuperOffice.Threading.SafeBlockingTasks.SafeBlock(System.Action)
+  commentId: M:SuperOffice.Threading.SafeBlockingTasks.SafeBlock(System.Action)
+  id: SafeBlock(System.Action)
+  parent: SuperOffice.Threading.SafeBlockingTasks
+  langs:
+  - csharp
+  - vb
+  name: SafeBlock(Action)
+  nameWithType: SafeBlockingTasks.SafeBlock(Action)
+  fullName: SuperOffice.Threading.SafeBlockingTasks.SafeBlock(System.Action)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  remarks: Use this when you have a synchronous method that you know invokes sync-over-async somewhere in the call stack
+  example: []
+  syntax:
+    content: public static void SafeBlock(Action action)
+    parameters:
+    - id: action
+      type: System.Action
+    content.vb: Public Shared Sub SafeBlock(action As Action)
+  overload: SuperOffice.Threading.SafeBlockingTasks.SafeBlock*
+- uid: SuperOffice.Threading.SafeBlockingTasks.SafeBlock``1(System.Func{``0})
+  commentId: M:SuperOffice.Threading.SafeBlockingTasks.SafeBlock``1(System.Func{``0})
+  id: SafeBlock``1(System.Func{``0})
+  parent: SuperOffice.Threading.SafeBlockingTasks
+  langs:
+  - csharp
+  - vb
+  name: SafeBlock<T>(Func<T>)
+  nameWithType: SafeBlockingTasks.SafeBlock<T>(Func<T>)
+  fullName: SuperOffice.Threading.SafeBlockingTasks.SafeBlock<T>(System.Func<T>)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  remarks: Use this when you have a synchronous method that you know invokes sync-over-async somewhere in the call stack
+  example: []
+  syntax:
+    content: public static T SafeBlock<T>(Func<T> action)
+    parameters:
+    - id: action
+      type: System.Func{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function SafeBlock(Of T)(action As Func(Of T)) As T
+  overload: SuperOffice.Threading.SafeBlockingTasks.SafeBlock*
+  nameWithType.vb: SafeBlockingTasks.SafeBlock(Of T)(Func(Of T))
+  fullName.vb: SuperOffice.Threading.SafeBlockingTasks.SafeBlock(Of T)(System.Func(Of T))
+  name.vb: SafeBlock(Of T)(Func(Of T))
+references:
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Threading
+    name: Threading
+    isExternal: true
+    href: SuperOffice.Threading.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Threading
+    name: Threading
+    isExternal: true
+    href: SuperOffice.Threading.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.Threading.SafeBlockingTasks.SafeBlock*
+  commentId: Overload:SuperOffice.Threading.SafeBlockingTasks.SafeBlock
+  isExternal: true
+  href: SuperOffice.Threading.SafeBlockingTasks.html#SuperOffice_Threading_SafeBlockingTasks_SafeBlock_System_Func_System_Threading_Tasks_Task__
+  name: SafeBlock
+  nameWithType: SafeBlockingTasks.SafeBlock
+  fullName: SuperOffice.Threading.SafeBlockingTasks.SafeBlock
+- uid: System.Func{System.Threading.Tasks.Task}
+  commentId: T:System.Func{System.Threading.Tasks.Task}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<Task>
+  nameWithType: Func<Task>
+  fullName: System.Func<System.Threading.Tasks.Task>
+  nameWithType.vb: Func(Of Task)
+  fullName.vb: System.Func(Of System.Threading.Tasks.Task)
+  name.vb: Func(Of Task)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Func{System.Threading.Tasks.Task{{T}}}
+  commentId: T:System.Func{System.Threading.Tasks.Task{`0}}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<Task<T>>
+  nameWithType: Func<Task<T>>
+  fullName: System.Func<System.Threading.Tasks.Task<T>>
+  nameWithType.vb: Func(Of Task(Of T))
+  fullName.vb: System.Func(Of System.Threading.Tasks.Task(Of T))
+  name.vb: Func(Of Task(Of T))
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: System.Func{{T}}
+  commentId: T:System.Func{`0}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<T>
+  nameWithType: Func<T>
+  fullName: System.Func<T>
+  nameWithType.vb: Func(Of T)
+  fullName.vb: System.Func(Of T)
+  name.vb: Func(Of T)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

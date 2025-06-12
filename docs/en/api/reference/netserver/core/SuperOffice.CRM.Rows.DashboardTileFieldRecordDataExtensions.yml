@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.DashboardTileFieldTableInfo})
   - SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardTileFieldTableInfo})
-  - SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardTileFieldRecordData)
-  - SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardTileFieldRecordData})
+  - SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardTileFieldTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardTileFieldRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardTileFieldRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.DashboardTileFieldRow)
   langs:
   - csharp
@@ -17,71 +18,76 @@ items:
   nameWithType: DashboardTileFieldRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nExtension methods to make it easy to fetch <xref href=\"SuperOffice.CRM.Rows.DashboardTileFieldRecordData\" data-throw-if-not-resolved=\"false\"></xref> objects from the database,\nusing the <see cref=\"!:TargetedSelect\"></see> infrastructure\n"
+  summary: >-
+    Extension methods to make it easy to fetch <xref href="SuperOffice.CRM.Rows.DashboardTileFieldRecordData" data-throw-if-not-resolved="false"></xref> objects from the database,
+
+    using the TargetedSelect infrastructure
+  example: []
   syntax:
-    content: 'public static class DashboardTileFieldRecordDataExtensions : Object'
-    content.vb: >-
-      Public Module DashboardTileFieldRecordDataExtensions
-          Inherits Object
+    content: public static class DashboardTileFieldRecordDataExtensions
+    content.vb: Public Module DashboardTileFieldRecordDataExtensions
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
-- uid: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardTileFieldTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardTileFieldTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardTileFieldTableInfo})
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardTileFieldTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardTileFieldTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardTileFieldTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<DashboardTileFieldTableInfo>)
-  nameWithType: DashboardTileFieldRecordDataExtensions.FromSelect(TargetedSelect<DashboardTileFieldTableInfo>)
-  fullName: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.DashboardTileFieldTableInfo>)
+  name: FromSelectAsync(TargetedSelect<DashboardTileFieldTableInfo>, CancellationToken)
+  nameWithType: DashboardTileFieldRecordDataExtensions.FromSelectAsync(TargetedSelect<DashboardTileFieldTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.DashboardTileFieldTableInfo>, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nFrom a TargetedSelect&lt;DashboardTileFieldTableInfo>, execute it and return an IEnumerable&lt;DashboardTileFieldRecordData> with the results\n"
+  summary: From a TargetedSelect&lt;DashboardTileFieldTableInfo&gt;, execute it and return an IEnumerable&lt;DashboardTileFieldRecordData&gt; with the results
   example:
   - >-
-    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
-                var result = s.FromSelect();</code></pre>
+    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
+
+    var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<DashboardTileFieldRecordData> FromSelect(this TargetedSelect<DashboardTileFieldTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<DashboardTileFieldRecordData> FromSelectAsync(this TargetedSelect<DashboardTileFieldTableInfo> select, CancellationToken cancellationToken = default)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardTileFieldTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardTileFieldRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.DashboardTileFieldRecordData}
     content.vb: >-
-      <ExtensionAttribute>
+      <CreateSyncVersion(OmitNullableDirective:=True)>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of DashboardTileFieldTableInfo)) As IEnumerable(Of DashboardTileFieldRecordData)
-  overload: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelect*
-  nameWithType.vb: DashboardTileFieldRecordDataExtensions.FromSelect(TargetedSelect(Of DashboardTileFieldTableInfo))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.DashboardTileFieldTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of DashboardTileFieldTableInfo))
+      Public Shared Function FromSelectAsync([select] As TargetedSelect(Of DashboardTileFieldTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of DashboardTileFieldRecordData)
+  overload: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: DashboardTileFieldRecordDataExtensions.FromSelectAsync(TargetedSelect(Of DashboardTileFieldTableInfo), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.DashboardTileFieldTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of DashboardTileFieldTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.DashboardTileFieldTableInfo})
   commentId: M:SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.DashboardTileFieldTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.DashboardTileFieldTableInfo})
@@ -94,19 +100,19 @@ items:
   nameWithType: DashboardTileFieldRecordDataExtensions.FromRecord(TargetedDataRecord<DashboardTileFieldTableInfo>)
   fullName: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.DashboardTileFieldTableInfo>)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nFrom a TargetedDataRecord&lt;DashboardTileFieldTableInfo>, create and populate a <xref href=\"SuperOffice.CRM.Rows.DashboardTileFieldRecordData\" data-throw-if-not-resolved=\"false\"></xref> POCO object\n"
+  summary: From a TargetedDataRecord&lt;DashboardTileFieldTableInfo&gt;, create and populate a <xref href="SuperOffice.CRM.Rows.DashboardTileFieldRecordData" data-throw-if-not-resolved="false"></xref> POCO object
   example:
   - >-
-    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
-                /* add joins, return fields etc. as you wish */
-                s.ReturnFields.Add(s.Table.All);
-                var result = s.Records().Select(r => new { DashboardTileFieldItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
+    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
+
+    /* add joins, return fields etc. as you wish */
+
+    s.ReturnFields.Add(s.Table.All);
+
+    var result = s.Records().Select(r =&gt; new { DashboardTileFieldItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
   syntax:
     content: public static DashboardTileFieldRecordData FromRecord(this TargetedDataRecord<DashboardTileFieldTableInfo> record)
     parameters:
@@ -114,95 +120,66 @@ items:
       type: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.DashboardTileFieldTableInfo}
     return:
       type: SuperOffice.CRM.Rows.DashboardTileFieldRecordData
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function FromRecord(record As TargetedDataRecord(Of DashboardTileFieldTableInfo)) As DashboardTileFieldRecordData
+    content.vb: Public Shared Function FromRecord(record As TargetedDataRecord(Of DashboardTileFieldTableInfo)) As DashboardTileFieldRecordData
   overload: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromRecord*
   nameWithType.vb: DashboardTileFieldRecordDataExtensions.FromRecord(TargetedDataRecord(Of DashboardTileFieldTableInfo))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
   fullName.vb: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.DashboardTileFieldTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of DashboardTileFieldTableInfo))
-- uid: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardTileFieldRecordData)
-  commentId: M:SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardTileFieldRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.DashboardTileFieldRecordData)
+- uid: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardTileFieldRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardTileFieldRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.DashboardTileFieldRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(DashboardTileFieldRecordData)
-  nameWithType: DashboardTileFieldRecordDataExtensions.ToInsert(DashboardTileFieldRecordData)
-  fullName: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardTileFieldRecordData)
+  name: ToInsertAsync(DashboardTileFieldRecordData, CancellationToken)
+  nameWithType: DashboardTileFieldRecordDataExtensions.ToInsertAsync(DashboardTileFieldRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardTileFieldRecordData, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this DashboardTileFieldRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this DashboardTileFieldRecordData record, CancellationToken cancellationToken = default)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.DashboardTileFieldRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function ToInsert(record As DashboardTileFieldRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInsert*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardTileFieldRecordData})
-  commentId: M:SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardTileFieldRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardTileFieldRecordData})
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+    content.vb: Public Shared Function ToInsertAsync(record As DashboardTileFieldRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInsertAsync*
+- uid: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardTileFieldRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardTileFieldRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardTileFieldRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<DashboardTileFieldRecordData>)
-  nameWithType: DashboardTileFieldRecordDataExtensions.ToInserts(IEnumerable<DashboardTileFieldRecordData>)
-  fullName: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.DashboardTileFieldRecordData>)
+  name: ToInsertsAsync(IEnumerable<DashboardTileFieldRecordData>, CancellationToken)
+  nameWithType: DashboardTileFieldRecordDataExtensions.ToInsertsAsync(IEnumerable<DashboardTileFieldRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.DashboardTileFieldRecordData>, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<DashboardTileFieldRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<DashboardTileFieldRecordData> records, CancellationToken cancellationToken = default)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardTileFieldRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function ToInserts(records As IEnumerable(Of DashboardTileFieldRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInserts*
-  nameWithType.vb: DashboardTileFieldRecordDataExtensions.ToInserts(IEnumerable(Of DashboardTileFieldRecordData))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.DashboardTileFieldRecordData))
-  name.vb: ToInserts(IEnumerable(Of DashboardTileFieldRecordData))
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+    content.vb: Public Shared Function ToInsertsAsync(records As IEnumerable(Of DashboardTileFieldRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: DashboardTileFieldRecordDataExtensions.ToInsertsAsync(IEnumerable(Of DashboardTileFieldRecordData), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.DashboardTileFieldRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of DashboardTileFieldRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.DashboardTileFieldRow)
   commentId: M:SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.DashboardTileFieldRow)
   id: ToRecordData(SuperOffice.CRM.Rows.DashboardTileFieldRow)
@@ -215,9 +192,6 @@ items:
   nameWithType: DashboardTileFieldRecordDataExtensions.ToRecordData(DashboardTileFieldRow)
   fullName: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.DashboardTileFieldRow)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
@@ -228,47 +202,336 @@ items:
       type: SuperOffice.CRM.Rows.DashboardTileFieldRow
     return:
       type: SuperOffice.CRM.Rows.DashboardTileFieldRecordData
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function ToRecordData(row As DashboardTileFieldRow) As DashboardTileFieldRecordData
+    content.vb: Public Shared Function ToRecordData(row As DashboardTileFieldRow) As DashboardTileFieldRecordData
   overload: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToRecordData*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+- uid: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardTileFieldTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardTileFieldTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardTileFieldTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<DashboardTileFieldTableInfo>)
+  nameWithType: DashboardTileFieldRecordDataExtensions.FromSelect(TargetedSelect<DashboardTileFieldTableInfo>)
+  fullName: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.DashboardTileFieldTableInfo>)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: From a TargetedSelect&lt;DashboardTileFieldTableInfo&gt;, execute it and return an IEnumerable&lt;DashboardTileFieldRecordData&gt; with the results
+  example:
+  - >-
+    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
+
+    var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<DashboardTileFieldRecordData> FromSelect(this TargetedSelect<DashboardTileFieldTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardTileFieldTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardTileFieldRecordData}
+    content.vb: Public Shared Function FromSelect([select] As TargetedSelect(Of DashboardTileFieldTableInfo)) As IEnumerable(Of DashboardTileFieldRecordData)
+  overload: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelect*
+  nameWithType.vb: DashboardTileFieldRecordDataExtensions.FromSelect(TargetedSelect(Of DashboardTileFieldTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.DashboardTileFieldTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of DashboardTileFieldTableInfo))
 references:
+- uid: SuperOffice.CRM.Rows.DashboardTileFieldRecordData
+  commentId: T:SuperOffice.CRM.Rows.DashboardTileFieldRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.DashboardTileFieldRecordData.html
+  name: DashboardTileFieldRecordData
+  nameWithType: DashboardTileFieldRecordData
+  fullName: SuperOffice.CRM.Rows.DashboardTileFieldRecordData
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: DashboardTileFieldRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelect
+  href: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.html#SuperOffice_CRM_Rows_DashboardTileFieldRecordDataExtensions_FromSelectAsync_SuperOffice_Data_SQL_TargetedSelect_SuperOffice_CRM_Data_DashboardTileFieldTableInfo__System_Threading_CancellationToken_
+  name: FromSelectAsync
+  nameWithType: DashboardTileFieldRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardTileFieldTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardTileFieldTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedSelect`1
+  href: SuperOffice.Data.SQL.TargetedSelect-1.html
   name: TargetedSelect<DashboardTileFieldTableInfo>
   nameWithType: TargetedSelect<DashboardTileFieldTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.DashboardTileFieldTableInfo>
@@ -278,84 +541,72 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
-    nameWithType: TargetedSelect
-    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.DashboardTileFieldTableInfo
     name: DashboardTileFieldTableInfo
-    nameWithType: DashboardTileFieldTableInfo
-    fullName: SuperOffice.CRM.Data.DashboardTileFieldTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.DashboardTileFieldTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
-    nameWithType: TargetedSelect
-    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.DashboardTileFieldTableInfo
     name: DashboardTileFieldTableInfo
-    nameWithType: DashboardTileFieldTableInfo
-    fullName: SuperOffice.CRM.Data.DashboardTileFieldTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.DashboardTileFieldTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardTileFieldRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardTileFieldRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<DashboardTileFieldRecordData>
-  nameWithType: IEnumerable<DashboardTileFieldRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.DashboardTileFieldRecordData>
-  nameWithType.vb: IEnumerable(Of DashboardTileFieldRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.DashboardTileFieldRecordData)
-  name.vb: IEnumerable(Of DashboardTileFieldRecordData)
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.DashboardTileFieldRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.DashboardTileFieldRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  href: SuperOffice.CRM.Rows.DashboardTileFieldRecordData.html
+  name: IAsyncEnumerable<DashboardTileFieldRecordData>
+  nameWithType: IAsyncEnumerable<DashboardTileFieldRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.DashboardTileFieldRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of DashboardTileFieldRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.DashboardTileFieldRecordData)
+  name.vb: IAsyncEnumerable(Of DashboardTileFieldRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
     isExternal: true
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Rows.DashboardTileFieldRecordData
     name: DashboardTileFieldRecordData
-    nameWithType: DashboardTileFieldRecordData
-    fullName: SuperOffice.CRM.Rows.DashboardTileFieldRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.DashboardTileFieldRecordData.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Rows.DashboardTileFieldRecordData
     name: DashboardTileFieldRecordData
-    nameWithType: DashboardTileFieldRecordData
-    fullName: SuperOffice.CRM.Rows.DashboardTileFieldRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.DashboardTileFieldRecordData.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedSelect`1
   commentId: T:SuperOffice.Data.SQL.TargetedSelect`1
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.TargetedSelect-1.html
   name: TargetedSelect<MainTableInfo>
   nameWithType: TargetedSelect<MainTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedSelect<MainTableInfo>
@@ -365,80 +616,112 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
-    nameWithType: TargetedSelect
-    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: MainTableInfo
-    nameWithType: MainTableInfo
-    fullName: MainTableInfo
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
-    nameWithType: TargetedSelect
-    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: MainTableInfo
-    nameWithType: MainTableInfo
-    fullName: MainTableInfo
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
-  isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Collections.Generic.IAsyncEnumerable`1
+  isExternal: true
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
     isExternal: true
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+  - name: (
+  - name: Of
+  - name: " "
   - name: ''
-    nameWithType: ''
-    fullName: ''
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromRecord*
   commentId: Overload:SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromRecord
   isExternal: true
+  href: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.html#SuperOffice_CRM_Rows_DashboardTileFieldRecordDataExtensions_FromRecord_SuperOffice_Data_SQL_TargetedDataRecord_SuperOffice_CRM_Data_DashboardTileFieldTableInfo__
   name: FromRecord
   nameWithType: DashboardTileFieldRecordDataExtensions.FromRecord
   fullName: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromRecord
@@ -446,6 +729,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.DashboardTileFieldTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedDataRecord`1
+  href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   name: TargetedDataRecord<DashboardTileFieldTableInfo>
   nameWithType: TargetedDataRecord<DashboardTileFieldTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.DashboardTileFieldTableInfo>
@@ -455,47 +739,31 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
-    nameWithType: TargetedDataRecord
-    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.DashboardTileFieldTableInfo
     name: DashboardTileFieldTableInfo
-    nameWithType: DashboardTileFieldTableInfo
-    fullName: SuperOffice.CRM.Data.DashboardTileFieldTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.DashboardTileFieldTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
-    nameWithType: TargetedDataRecord
-    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.DashboardTileFieldTableInfo
     name: DashboardTileFieldTableInfo
-    nameWithType: DashboardTileFieldTableInfo
-    fullName: SuperOffice.CRM.Data.DashboardTileFieldTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.DashboardTileFieldTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.DashboardTileFieldRecordData
-  commentId: T:SuperOffice.CRM.Rows.DashboardTileFieldRecordData
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  name: DashboardTileFieldRecordData
-  nameWithType: DashboardTileFieldRecordData
-  fullName: SuperOffice.CRM.Rows.DashboardTileFieldRecordData
 - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
   commentId: T:SuperOffice.Data.SQL.TargetedDataRecord`1
   isExternal: true
+  href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   name: TargetedDataRecord<MainTableInfo>
   nameWithType: TargetedDataRecord<MainTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>
@@ -505,98 +773,271 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
-    nameWithType: TargetedDataRecord
-    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: MainTableInfo
-    nameWithType: MainTableInfo
-    fullName: MainTableInfo
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
-    nameWithType: TargetedDataRecord
-    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: MainTableInfo
-    nameWithType: MainTableInfo
-    fullName: MainTableInfo
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: DashboardTileFieldRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
+  href: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.html#SuperOffice_CRM_Rows_DashboardTileFieldRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_DashboardTileFieldRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync
+  nameWithType: DashboardTileFieldRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInserts
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
   isExternal: true
-  name: ToInserts
-  nameWithType: DashboardTileFieldRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.html#SuperOffice_CRM_Rows_DashboardTileFieldRecordDataExtensions_ToInsertsAsync_System_Collections_Generic_IEnumerable_SuperOffice_CRM_Rows_DashboardTileFieldRecordData__System_Threading_CancellationToken_
+  name: ToInsertsAsync
+  nameWithType: DashboardTileFieldRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardTileFieldRecordData}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardTileFieldRecordData}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<DashboardTileFieldRecordData>
+  nameWithType: IEnumerable<DashboardTileFieldRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.DashboardTileFieldRecordData>
+  nameWithType.vb: IEnumerable(Of DashboardTileFieldRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.DashboardTileFieldRecordData)
+  name.vb: IEnumerable(Of DashboardTileFieldRecordData)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.SQL.Insert
-    name: Insert
-    nameWithType: Insert
-    fullName: SuperOffice.Data.SQL.Insert
+  - uid: SuperOffice.CRM.Rows.DashboardTileFieldRecordData
+    name: DashboardTileFieldRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.DashboardTileFieldRecordData.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.DashboardTileFieldRecordData
+    name: DashboardTileFieldRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.DashboardTileFieldRecordData.html
+  - name: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  href: SuperOffice.Data.SQL.Insert.html
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: <
   - uid: SuperOffice.Data.SQL.Insert
     name: Insert
-    nameWithType: Insert
-    fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToRecordData*
   commentId: Overload:SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToRecordData
   isExternal: true
+  href: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.html#SuperOffice_CRM_Rows_DashboardTileFieldRecordDataExtensions_ToRecordData_SuperOffice_CRM_Rows_DashboardTileFieldRow_
   name: ToRecordData
   nameWithType: DashboardTileFieldRecordDataExtensions.ToRecordData
   fullName: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.ToRecordData
@@ -604,6 +1045,14 @@ references:
   commentId: T:SuperOffice.CRM.Rows.DashboardTileFieldRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.DashboardTileFieldRow.html
   name: DashboardTileFieldRow
   nameWithType: DashboardTileFieldRow
   fullName: SuperOffice.CRM.Rows.DashboardTileFieldRow
+- uid: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelect
+  isExternal: true
+  href: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.html#SuperOffice_CRM_Rows_DashboardTileFieldRecordDataExtensions_FromSelect_SuperOffice_Data_SQL_TargetedSelect_SuperOffice_CRM_Data_DashboardTileFieldTableInfo__
+  name: FromSelect
+  nameWithType: DashboardTileFieldRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.DashboardTileFieldRecordDataExtensions.FromSelect

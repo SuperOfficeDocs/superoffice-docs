@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 794,
-    "Name": "Crooks Group",
-    "ToolTip": "Qui temporibus voluptatem.",
+    "Id": 132,
+    "Name": "Graham, Oberbrunner and Walter",
+    "ToolTip": "Vel magni quo voluptates.",
     "Deleted": false,
-    "Rank": 166,
-    "Type": "nulla",
-    "ColorBlock": 306,
-    "IconHint": "et",
+    "Rank": 396,
+    "Type": "magni",
+    "ColorBlock": 722,
+    "IconHint": "officiis",
     "Selected": false,
-    "LastChanged": "2012-03-05T16:32:48.6495307+01:00",
+    "LastChanged": "2003-06-30T17:54:08.8980498+02:00",
     "ChildItems": [
       {
-        "Id": 948,
-        "Name": "Mosciski Group",
-        "ToolTip": "Architecto illum vel ullam excepturi reiciendis.",
+        "Id": 622,
+        "Name": "Dietrich, Zulauf and Gislason",
+        "ToolTip": "Veniam dicta aspernatur consectetur modi nemo autem.",
         "Deleted": true,
-        "Rank": 711,
-        "Type": "suscipit",
-        "ColorBlock": 402,
-        "IconHint": "ea",
-        "Selected": true,
-        "LastChanged": "2006-01-18T16:32:48.6495307+01:00",
+        "Rank": 659,
+        "Type": "repellendus",
+        "ColorBlock": 220,
+        "IconHint": "veniam",
+        "Selected": false,
+        "LastChanged": "2015-05-29T17:54:08.8980498+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "maiores",
-        "Hidden": false,
-        "FullName": "Ms. Gwen Fred Kovacek MD",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "quasi",
+        "Hidden": true,
+        "FullName": "Ashton Bergstrom",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 526
+            "FieldType": "System.String",
+            "FieldLength": 837
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "omnis",
+    "ExtraInfo": "ipsum",
+    "StyleHint": "laborum",
     "Hidden": false,
-    "FullName": "Judson Parisian",
+    "FullName": "Arch Durgan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 311
+        "FieldLength": 895
       }
     }
   }

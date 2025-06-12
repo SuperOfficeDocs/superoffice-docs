@@ -2,26 +2,14 @@
 uid: timezone
 title: timezone
 keywords: mdoprovider mdo provider timezone
-description: Provides the timezone list. If no search value is passed in the list is restricted to 'available' timezones
+description: 
 so.generated: true
 so.topic: reference
 so.envir: onsite, online
 ---
 
 # "timezone" MDO List
-Provides the timezone list.
-If no search value is passed in the list is restricted to 'available' timezones
 
-AdditionalInfo = "[all]" returns all timezones
-
-
-AdditionalInfo = "123" returns all active timezones and the specific location
-
-
-AdditionalInfo = "locationId=123" returns only the given location.
-
-
-/// AdditionalInfo = "countryFlag=true" returns an iconhint for the country's flag.
 
 
 
@@ -52,7 +40,7 @@ Accept-Language: *
 
 ## Sample Code
 ```cs
-var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("timezone", forceFlatList: true);
+var listProvider = ClassFactory.CreateRequired<SuperOffice.CRM.Lists.ISoListProviderFactory>().Create("timezone", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
     Console.WriteLine("{0} {1} {2} {3}", 
          item.Id, ResourceManager.ParseInlineResources(item.Name), item.StyleHint, item.ExtraInfo);

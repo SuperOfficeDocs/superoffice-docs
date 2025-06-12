@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 445,
-  "Name": "Welch, Mueller and Christiansen",
-  "CreatedDate": "2015-12-03T16:32:39.1488892+01:00",
-  "UpdatedDate": "2022-09-21T16:32:39.1488892+02:00",
+  "ForeignAppId": 605,
+  "Name": "Borer Group",
+  "CreatedDate": "2017-11-27T17:54:03.1639551+01:00",
+  "UpdatedDate": "2021-03-31T17:54:03.1639551+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 744,
-      "Name": "Considine-Towne",
-      "CreatedDate": "2024-04-21T16:32:39.1488892+02:00",
-      "UpdatedDate": "2017-10-15T16:32:39.1488892+02:00",
-      "AssociateFullName": "Shaylee Marvin",
-      "CreatedBy": "molestiae",
-      "UpdatedBy": "ducimus",
-      "DeviceIdentifier": "quis",
-      "ForeignAppId": 590,
+      "ForeignDeviceId": 52,
+      "Name": "Langosh, Mohr and Kuhn",
+      "CreatedDate": "2013-11-07T17:54:03.1639551+01:00",
+      "UpdatedDate": "2023-06-23T17:54:03.1639551+02:00",
+      "AssociateFullName": "Patsy Jaskolski",
+      "CreatedBy": "ipsum",
+      "UpdatedBy": "praesentium",
+      "DeviceIdentifier": "eos",
+      "ForeignAppId": 128,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 237
+          "FieldLength": 475
         }
       }
     }
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 315
+      "FieldLength": 291
     }
   }
 }

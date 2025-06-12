@@ -19,21 +19,28 @@ items:
   nameWithType: FieldInfoLongText
   fullName: SuperOffice.CRM.Services.FieldInfoLongText
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLong Text custom database field.\n<p></p>\nCarrier object for FieldInfoLongText.\nServices for the FieldInfoLongText Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Long Text custom database field.
+
+    <p></p>
+
+    Carrier object for FieldInfoLongText.
+
+    Services for the FieldInfoLongText Carrier is available from the <xref href="SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent?text=UserDefinedFieldInfo+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class FieldInfoLongText : FieldInfoBase'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class FieldInfoLongText : FieldInfoBase
     content.vb: >-
-      Public Class FieldInfoLongText
-          Inherits FieldInfoBase
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class FieldInfoLongText Inherits FieldInfoBase
   seealso:
-  - linkId: SuperOffice.CRM.Services.UserDefinedFieldInfoAgent
-    commentId: T:SuperOffice.CRM.Services.UserDefinedFieldInfoAgent
   - linkId: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
     commentId: T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   inheritance:
@@ -54,12 +61,20 @@ items:
   - SuperOffice.CRM.Services.FieldInfoBase.IsDisplayField
   - SuperOffice.CRM.Services.FieldInfoBase.Rank
   - SuperOffice.CRM.Services.FieldInfoBase.TemplateVariableName
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.FieldInfoLongText.#ctor
   commentId: M:SuperOffice.CRM.Services.FieldInfoLongText.#ctor
   id: '#ctor'
@@ -71,21 +86,18 @@ items:
   nameWithType: FieldInfoLongText.FieldInfoLongText()
   fullName: SuperOffice.CRM.Services.FieldInfoLongText.FieldInfoLongText()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public FieldInfoLongText()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.FieldInfoLongText.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: FieldInfoLongText.New()
+  fullName.vb: SuperOffice.CRM.Services.FieldInfoLongText.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.FieldInfoLongText.ToString
   commentId: M:SuperOffice.CRM.Services.FieldInfoLongText.ToString
   id: ToString
@@ -97,27 +109,19 @@ items:
   nameWithType: FieldInfoLongText.ToString()
   fullName: SuperOffice.CRM.Services.FieldInfoLongText.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overridden: SuperOffice.CRM.Services.FieldInfoBase.ToString
   overload: SuperOffice.CRM.Services.FieldInfoLongText.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.FieldInfoLongText.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.FieldInfoLongText.ToString(System.String)
   id: ToString(System.String)
@@ -125,17 +129,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: FieldInfoLongText.ToString(String)
-  fullName: SuperOffice.CRM.Services.FieldInfoLongText.ToString(System.String)
+  name: ToString(string)
+  nameWithType: FieldInfoLongText.ToString(string)
+  fullName: SuperOffice.CRM.Services.FieldInfoLongText.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public override string ToString(string prefix)
     parameters:
@@ -148,12 +153,9 @@ items:
     content.vb: Public Overrides Function ToString(prefix As String) As String
   overridden: SuperOffice.CRM.Services.FieldInfoBase.ToString(System.String)
   overload: SuperOffice.CRM.Services.FieldInfoLongText.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
+  nameWithType.vb: FieldInfoLongText.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.FieldInfoLongText.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.FieldInfoLongText.DefaultValue
   commentId: P:SuperOffice.CRM.Services.FieldInfoLongText.DefaultValue
   id: DefaultValue
@@ -165,28 +167,28 @@ items:
   nameWithType: FieldInfoLongText.DefaultValue
   fullName: SuperOffice.CRM.Services.FieldInfoLongText.DefaultValue
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault string value \n"
+  summary: Default string value
+  example: []
   syntax:
-    content: public virtual string DefaultValue { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string DefaultValue { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property DefaultValue As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property DefaultValue As String
   overload: SuperOffice.CRM.Services.FieldInfoLongText.DefaultValue*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.FieldInfoLongText.IsHtml
   commentId: P:SuperOffice.CRM.Services.FieldInfoLongText.IsHtml
   id: IsHtml
@@ -198,28 +200,28 @@ items:
   nameWithType: FieldInfoLongText.IsHtml
   fullName: SuperOffice.CRM.Services.FieldInfoLongText.IsHtml
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDo not escape HTML in field when displaying contents. \n"
+  summary: Do not escape HTML in field when displaying contents.
+  example: []
   syntax:
-    content: public virtual bool IsHtml { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool IsHtml { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property IsHtml As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsHtml As Boolean
   overload: SuperOffice.CRM.Services.FieldInfoLongText.IsHtml*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.FieldInfoLongText.UseTextArea
   commentId: P:SuperOffice.CRM.Services.FieldInfoLongText.UseTextArea
   id: UseTextArea
@@ -231,28 +233,28 @@ items:
   nameWithType: FieldInfoLongText.UseTextArea
   fullName: SuperOffice.CRM.Services.FieldInfoLongText.UseTextArea
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nUse a multi-line text area? \n"
+  summary: Use a multi-line text area?
+  example: []
   syntax:
-    content: public virtual bool UseTextArea { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool UseTextArea { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property UseTextArea As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UseTextArea As Boolean
   overload: SuperOffice.CRM.Services.FieldInfoLongText.UseTextArea*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.FieldInfoLongText.NumRows
   commentId: P:SuperOffice.CRM.Services.FieldInfoLongText.NumRows
   id: NumRows
@@ -264,39 +266,90 @@ items:
   nameWithType: FieldInfoLongText.NumRows
   fullName: SuperOffice.CRM.Services.FieldInfoLongText.NumRows
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nNumber of lines of text to show. Text area height. \n"
+  summary: Number of lines of text to show. Text area height.
+  example: []
   syntax:
-    content: public virtual int NumRows { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int NumRows { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property NumRows As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NumRows As Integer
   overload: SuperOffice.CRM.Services.FieldInfoLongText.NumRows*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
+  commentId: T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html
+  name: IUserDefinedFieldInfoAgent
+  nameWithType: IUserDefinedFieldInfoAgent
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Services.FieldInfoBase
   commentId: T:SuperOffice.CRM.Services.FieldInfoBase
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.FieldInfoBase.html
   name: FieldInfoBase
   nameWithType: FieldInfoBase
   fullName: SuperOffice.CRM.Services.FieldInfoBase
@@ -304,6 +357,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.FieldInfoBase.FieldType
   parent: SuperOffice.CRM.Services.FieldInfoBase
   isExternal: true
+  href: SuperOffice.CRM.Services.FieldInfoBase.html#SuperOffice_CRM_Services_FieldInfoBase_FieldType
   name: FieldType
   nameWithType: FieldInfoBase.FieldType
   fullName: SuperOffice.CRM.Services.FieldInfoBase.FieldType
@@ -311,6 +365,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.FieldInfoBase.FieldName
   parent: SuperOffice.CRM.Services.FieldInfoBase
   isExternal: true
+  href: SuperOffice.CRM.Services.FieldInfoBase.html#SuperOffice_CRM_Services_FieldInfoBase_FieldName
   name: FieldName
   nameWithType: FieldInfoBase.FieldName
   fullName: SuperOffice.CRM.Services.FieldInfoBase.FieldName
@@ -318,6 +373,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.FieldInfoBase.DisplayName
   parent: SuperOffice.CRM.Services.FieldInfoBase
   isExternal: true
+  href: SuperOffice.CRM.Services.FieldInfoBase.html#SuperOffice_CRM_Services_FieldInfoBase_DisplayName
   name: DisplayName
   nameWithType: FieldInfoBase.DisplayName
   fullName: SuperOffice.CRM.Services.FieldInfoBase.DisplayName
@@ -325,6 +381,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.FieldInfoBase.Description
   parent: SuperOffice.CRM.Services.FieldInfoBase
   isExternal: true
+  href: SuperOffice.CRM.Services.FieldInfoBase.html#SuperOffice_CRM_Services_FieldInfoBase_Description
   name: Description
   nameWithType: FieldInfoBase.Description
   fullName: SuperOffice.CRM.Services.FieldInfoBase.Description
@@ -332,6 +389,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.FieldInfoBase.ShortLabel
   parent: SuperOffice.CRM.Services.FieldInfoBase
   isExternal: true
+  href: SuperOffice.CRM.Services.FieldInfoBase.html#SuperOffice_CRM_Services_FieldInfoBase_ShortLabel
   name: ShortLabel
   nameWithType: FieldInfoBase.ShortLabel
   fullName: SuperOffice.CRM.Services.FieldInfoBase.ShortLabel
@@ -339,6 +397,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.FieldInfoBase.HideLabel
   parent: SuperOffice.CRM.Services.FieldInfoBase
   isExternal: true
+  href: SuperOffice.CRM.Services.FieldInfoBase.html#SuperOffice_CRM_Services_FieldInfoBase_HideLabel
   name: HideLabel
   nameWithType: FieldInfoBase.HideLabel
   fullName: SuperOffice.CRM.Services.FieldInfoBase.HideLabel
@@ -346,6 +405,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.FieldInfoBase.HideField
   parent: SuperOffice.CRM.Services.FieldInfoBase
   isExternal: true
+  href: SuperOffice.CRM.Services.FieldInfoBase.html#SuperOffice_CRM_Services_FieldInfoBase_HideField
   name: HideField
   nameWithType: FieldInfoBase.HideField
   fullName: SuperOffice.CRM.Services.FieldInfoBase.HideField
@@ -353,6 +413,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.FieldInfoBase.IsIndexed
   parent: SuperOffice.CRM.Services.FieldInfoBase
   isExternal: true
+  href: SuperOffice.CRM.Services.FieldInfoBase.html#SuperOffice_CRM_Services_FieldInfoBase_IsIndexed
   name: IsIndexed
   nameWithType: FieldInfoBase.IsIndexed
   fullName: SuperOffice.CRM.Services.FieldInfoBase.IsIndexed
@@ -360,6 +421,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.FieldInfoBase.IsMandatory
   parent: SuperOffice.CRM.Services.FieldInfoBase
   isExternal: true
+  href: SuperOffice.CRM.Services.FieldInfoBase.html#SuperOffice_CRM_Services_FieldInfoBase_IsMandatory
   name: IsMandatory
   nameWithType: FieldInfoBase.IsMandatory
   fullName: SuperOffice.CRM.Services.FieldInfoBase.IsMandatory
@@ -367,6 +429,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.FieldInfoBase.IsReadOnly
   parent: SuperOffice.CRM.Services.FieldInfoBase
   isExternal: true
+  href: SuperOffice.CRM.Services.FieldInfoBase.html#SuperOffice_CRM_Services_FieldInfoBase_IsReadOnly
   name: IsReadOnly
   nameWithType: FieldInfoBase.IsReadOnly
   fullName: SuperOffice.CRM.Services.FieldInfoBase.IsReadOnly
@@ -374,6 +437,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.FieldInfoBase.IsExternal
   parent: SuperOffice.CRM.Services.FieldInfoBase
   isExternal: true
+  href: SuperOffice.CRM.Services.FieldInfoBase.html#SuperOffice_CRM_Services_FieldInfoBase_IsExternal
   name: IsExternal
   nameWithType: FieldInfoBase.IsExternal
   fullName: SuperOffice.CRM.Services.FieldInfoBase.IsExternal
@@ -381,6 +445,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.FieldInfoBase.IsDisplayField
   parent: SuperOffice.CRM.Services.FieldInfoBase
   isExternal: true
+  href: SuperOffice.CRM.Services.FieldInfoBase.html#SuperOffice_CRM_Services_FieldInfoBase_IsDisplayField
   name: IsDisplayField
   nameWithType: FieldInfoBase.IsDisplayField
   fullName: SuperOffice.CRM.Services.FieldInfoBase.IsDisplayField
@@ -388,6 +453,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.FieldInfoBase.Rank
   parent: SuperOffice.CRM.Services.FieldInfoBase
   isExternal: true
+  href: SuperOffice.CRM.Services.FieldInfoBase.html#SuperOffice_CRM_Services_FieldInfoBase_Rank
   name: Rank
   nameWithType: FieldInfoBase.Rank
   fullName: SuperOffice.CRM.Services.FieldInfoBase.Rank
@@ -395,62 +461,248 @@ references:
   commentId: P:SuperOffice.CRM.Services.FieldInfoBase.TemplateVariableName
   parent: SuperOffice.CRM.Services.FieldInfoBase
   isExternal: true
+  href: SuperOffice.CRM.Services.FieldInfoBase.html#SuperOffice_CRM_Services_FieldInfoBase_TemplateVariableName
   name: TemplateVariableName
   nameWithType: FieldInfoBase.TemplateVariableName
   fullName: SuperOffice.CRM.Services.FieldInfoBase.TemplateVariableName
-- uid: SuperOffice.CRM.Services.UserDefinedFieldInfoAgent
-  commentId: T:SuperOffice.CRM.Services.UserDefinedFieldInfoAgent
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
   isExternal: true
-  name: UserDefinedFieldInfoAgent
-  nameWithType: UserDefinedFieldInfoAgent
-  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfoAgent
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
-  commentId: T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
-  parent: SuperOffice.CRM.Services
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: IUserDefinedFieldInfoAgent
-  nameWithType: IUserDefinedFieldInfoAgent
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.FieldInfoLongText.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.FieldInfoLongText.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.FieldInfoLongText.html#SuperOffice_CRM_Services_FieldInfoLongText__ctor
   name: FieldInfoLongText
   nameWithType: FieldInfoLongText.FieldInfoLongText
   fullName: SuperOffice.CRM.Services.FieldInfoLongText.FieldInfoLongText
+  nameWithType.vb: FieldInfoLongText.New
+  fullName.vb: SuperOffice.CRM.Services.FieldInfoLongText.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.FieldInfoBase.ToString
   commentId: M:SuperOffice.CRM.Services.FieldInfoBase.ToString
   parent: SuperOffice.CRM.Services.FieldInfoBase
   isExternal: true
+  href: SuperOffice.CRM.Services.FieldInfoBase.html#SuperOffice_CRM_Services_FieldInfoBase_ToString
   name: ToString()
   nameWithType: FieldInfoBase.ToString()
   fullName: SuperOffice.CRM.Services.FieldInfoBase.ToString()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.FieldInfoBase.ToString
     name: ToString
-    nameWithType: FieldInfoBase.ToString
-    fullName: SuperOffice.CRM.Services.FieldInfoBase.ToString
     isExternal: true
+    href: SuperOffice.CRM.Services.FieldInfoBase.html#SuperOffice_CRM_Services_FieldInfoBase_ToString
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.FieldInfoBase.ToString
     name: ToString
-    nameWithType: FieldInfoBase.ToString
-    fullName: SuperOffice.CRM.Services.FieldInfoBase.ToString
     isExternal: true
+    href: SuperOffice.CRM.Services.FieldInfoBase.html#SuperOffice_CRM_Services_FieldInfoBase_ToString
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Services.FieldInfoLongText.ToString*
   commentId: Overload:SuperOffice.CRM.Services.FieldInfoLongText.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.FieldInfoLongText.html#SuperOffice_CRM_Services_FieldInfoLongText_ToString
   name: ToString
   nameWithType: FieldInfoLongText.ToString
   fullName: SuperOffice.CRM.Services.FieldInfoLongText.ToString
@@ -458,65 +710,57 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.FieldInfoBase.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.FieldInfoBase.ToString(System.String)
   parent: SuperOffice.CRM.Services.FieldInfoBase
   isExternal: true
-  name: ToString(String)
-  nameWithType: FieldInfoBase.ToString(String)
-  fullName: SuperOffice.CRM.Services.FieldInfoBase.ToString(System.String)
+  href: SuperOffice.CRM.Services.FieldInfoBase.html#SuperOffice_CRM_Services_FieldInfoBase_ToString_System_String_
+  name: ToString(string)
+  nameWithType: FieldInfoBase.ToString(string)
+  fullName: SuperOffice.CRM.Services.FieldInfoBase.ToString(string)
+  nameWithType.vb: FieldInfoBase.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.FieldInfoBase.ToString(String)
+  name.vb: ToString(String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.FieldInfoBase.ToString(System.String)
     name: ToString
-    nameWithType: FieldInfoBase.ToString
-    fullName: SuperOffice.CRM.Services.FieldInfoBase.ToString
     isExternal: true
+    href: SuperOffice.CRM.Services.FieldInfoBase.html#SuperOffice_CRM_Services_FieldInfoBase_ToString_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.FieldInfoBase.ToString(System.String)
     name: ToString
-    nameWithType: FieldInfoBase.ToString
-    fullName: SuperOffice.CRM.Services.FieldInfoBase.ToString
     isExternal: true
+    href: SuperOffice.CRM.Services.FieldInfoBase.html#SuperOffice_CRM_Services_FieldInfoBase_ToString_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Services.FieldInfoLongText.DefaultValue*
   commentId: Overload:SuperOffice.CRM.Services.FieldInfoLongText.DefaultValue
   isExternal: true
+  href: SuperOffice.CRM.Services.FieldInfoLongText.html#SuperOffice_CRM_Services_FieldInfoLongText_DefaultValue
   name: DefaultValue
   nameWithType: FieldInfoLongText.DefaultValue
   fullName: SuperOffice.CRM.Services.FieldInfoLongText.DefaultValue
 - uid: SuperOffice.CRM.Services.FieldInfoLongText.IsHtml*
   commentId: Overload:SuperOffice.CRM.Services.FieldInfoLongText.IsHtml
   isExternal: true
+  href: SuperOffice.CRM.Services.FieldInfoLongText.html#SuperOffice_CRM_Services_FieldInfoLongText_IsHtml
   name: IsHtml
   nameWithType: FieldInfoLongText.IsHtml
   fullName: SuperOffice.CRM.Services.FieldInfoLongText.IsHtml
@@ -524,18 +768,24 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.Services.FieldInfoLongText.UseTextArea*
   commentId: Overload:SuperOffice.CRM.Services.FieldInfoLongText.UseTextArea
   isExternal: true
+  href: SuperOffice.CRM.Services.FieldInfoLongText.html#SuperOffice_CRM_Services_FieldInfoLongText_UseTextArea
   name: UseTextArea
   nameWithType: FieldInfoLongText.UseTextArea
   fullName: SuperOffice.CRM.Services.FieldInfoLongText.UseTextArea
 - uid: SuperOffice.CRM.Services.FieldInfoLongText.NumRows*
   commentId: Overload:SuperOffice.CRM.Services.FieldInfoLongText.NumRows
   isExternal: true
+  href: SuperOffice.CRM.Services.FieldInfoLongText.html#SuperOffice_CRM_Services_FieldInfoLongText_NumRows
   name: NumRows
   nameWithType: FieldInfoLongText.NumRows
   fullName: SuperOffice.CRM.Services.FieldInfoLongText.NumRows
@@ -543,6 +793,10 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

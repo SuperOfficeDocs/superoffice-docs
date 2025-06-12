@@ -20,27 +20,27 @@ items:
   nameWithType: UserPreferenceStrings.Associates
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nAssociate preferences like which radiobutton did I select the last time I used this dialog/control\nor which item did I select last time I used this dropdownlist\n"
+  summary: >-
+    Associate preferences like which radiobutton did I select the last time I used this dialog/control
+
+    or which item did I select last time I used this dropdownlist
+  example: []
   syntax:
-    content: 'public static class Associates : Object'
-    content.vb: >-
-      Public Module Associates
-          Inherits Object
+    content: public static class UserPreferenceStrings.Associates
+    content.vb: Public Module UserPreferenceStrings.Associates
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.Section
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.Section
   id: Section
@@ -52,24 +52,16 @@ items:
   nameWithType: UserPreferenceStrings.Associates.Section
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.Section
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nSection heading\n"
+  summary: Section heading
+  example: []
   syntax:
     content: public const string Section = "Associates"
     return:
       type: System.String
     content.vb: Public Const Section As String = "Associates"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.AssocSubListWeb
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.AssocSubListWeb
   id: AssocSubListWeb
@@ -81,24 +73,25 @@ items:
   nameWithType: UserPreferenceStrings.Associates.AssocSubListWeb
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.AssocSubListWeb
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nPreference used to remember what sublist in the associate selector that was last used\nValue -2    = All users\nValue -1    = History\nValue > 0   = Id of department\n<p></p>Control type: Number, access: crm\n"
+  summary: >-
+    Preference used to remember what sublist in the associate selector that was last used
+
+    Value -2    = All users
+
+    Value -1    = History
+
+    Value &gt; 0   = Id of department
+
+    <p></p>Control type: Number, access: crm
+  example: []
   syntax:
     content: public const string AssocSubListWeb = "AssocSubListWeb"
     return:
       type: System.String
     content.vb: Public Const AssocSubListWeb As String = "AssocSubListWeb"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.ResourceSubListWeb
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.ResourceSubListWeb
   id: ResourceSubListWeb
@@ -110,24 +103,25 @@ items:
   nameWithType: UserPreferenceStrings.Associates.ResourceSubListWeb
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.ResourceSubListWeb
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nPreference used to remember the setup/state of the Filter dialog\nValue -2    = All resources\nValue -1    = History\nValue > 0   = Id of resource heading\n<p></p>Control type: Number, access: crm\n"
+  summary: >-
+    Preference used to remember the setup/state of the Filter dialog
+
+    Value -2    = All resources
+
+    Value -1    = History
+
+    Value &gt; 0   = Id of resource heading
+
+    <p></p>Control type: Number, access: crm
+  example: []
   syntax:
     content: public const string ResourceSubListWeb = "ResourceSubListWeb"
     return:
       type: System.String
     content.vb: Public Const ResourceSubListWeb As String = "ResourceSubListWeb"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.AssocHomeCountry
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.AssocHomeCountry
   id: AssocHomeCountry
@@ -139,24 +133,19 @@ items:
   nameWithType: UserPreferenceStrings.Associates.AssocHomeCountry
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.AssocHomeCountry
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nHome country of associate if it differ from company\n<p></p>\n"
+  summary: >-
+    Home country of associate if it differ from company
+
+    <p></p>
+  example: []
   syntax:
     content: public const string AssocHomeCountry = "AssocHomeCountry"
     return:
       type: System.String
     content.vb: Public Const AssocHomeCountry As String = "AssocHomeCountry"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainDeleteDialog
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainDeleteDialog
   id: DontAskAgainDeleteDialog
@@ -168,24 +157,16 @@ items:
   nameWithType: UserPreferenceStrings.Associates.DontAskAgainDeleteDialog
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainDeleteDialog
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public const string DontAskAgainDeleteDialog = "DontAskAgainDeleteDialog"
     return:
       type: System.String
     content.vb: Public Const DontAskAgainDeleteDialog As String = "DontAskAgainDeleteDialog"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainRelationDialog
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainRelationDialog
   id: DontAskAgainRelationDialog
@@ -197,24 +178,16 @@ items:
   nameWithType: UserPreferenceStrings.Associates.DontAskAgainRelationDialog
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainRelationDialog
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public const string DontAskAgainRelationDialog = "DontAskAgainRelationDlg"
     return:
       type: System.String
     content.vb: Public Const DontAskAgainRelationDialog As String = "DontAskAgainRelationDlg"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainUdefPage1
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainUdefPage1
   id: DontAskAgainUdefPage1
@@ -226,24 +199,16 @@ items:
   nameWithType: UserPreferenceStrings.Associates.DontAskAgainUdefPage1
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainUdefPage1
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public const string DontAskAgainUdefPage1 = "DontAskAgainUdefPage1"
     return:
       type: System.String
     content.vb: Public Const DontAskAgainUdefPage1 As String = "DontAskAgainUdefPage1"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainEmailInvitationDialog
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainEmailInvitationDialog
   id: DontAskAgainEmailInvitationDialog
@@ -255,41 +220,288 @@ items:
   nameWithType: UserPreferenceStrings.Associates.DontAskAgainEmailInvitationDialog
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainEmailInvitationDialog
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public const string DontAskAgainEmailInvitationDialog = "DontAskAgainEmailInvitationDialog"
     return:
       type: System.String
     content.vb: Public Const DontAskAgainEmailInvitationDialog As String = "DontAskAgainEmailInvitationDialog"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -297,6 +509,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

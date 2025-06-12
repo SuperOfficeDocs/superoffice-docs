@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Hirthe, Schamberger and Turcotte",
-    "SoPrimaryKey": 380,
-    "EntryName": "Gleason Inc and Sons",
-    "EntryIdentifier": "accusantium",
-    "RuleDisplayName": "Pacocha-Bernier",
+    "RuleName": "Stanton-Rippin",
+    "SoPrimaryKey": 276,
+    "EntryName": "Wisoky Inc and Sons",
+    "EntryIdentifier": "reprehenderit",
+    "RuleDisplayName": "Emmerich Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 418
+        "FieldType": "System.String",
+        "FieldLength": 62
       }
     }
   }

@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.Archive
+  commentId: N:SuperOffice.CRM.ArchiveLists.Archive
+  id: SuperOffice.CRM.ArchiveLists.Archive
+  children:
+  - SuperOffice.CRM.ArchiveLists.Archive.ErpEntitySearchProvider
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.ArchiveLists.Archive
+  nameWithType: SuperOffice.CRM.ArchiveLists.Archive
+  fullName: SuperOffice.CRM.ArchiveLists.Archive
+  type: Namespace
+  assemblies:
+  - SuperOffice.Services.Implementation
+references:
+- uid: SuperOffice.CRM.ArchiveLists.Archive.ErpEntitySearchProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.ErpEntitySearchProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Archive.ErpEntitySearchProvider.html
+  name: ErpEntitySearchProvider
+  nameWithType: ErpEntitySearchProvider
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.ErpEntitySearchProvider

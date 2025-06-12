@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/AI/GetChatbotTurns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "voluptatem"
+  "ChatId": "sit"
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2018-12-01T16:32:37.5709257+01:00",
-    "UserPrompt": "repudiandae",
-    "UserDisplayText": "quia",
-    "BotResponse": "sed",
+    "Timestamp": "2022-06-28T17:54:02.3514942+02:00",
+    "UserPrompt": "est",
+    "UserDisplayText": "ipsam",
+    "BotResponse": "sit",
     "BotActions": {
-      "BotActions1": "sed",
-      "BotActions2": "nostrum"
+      "BotActions1": "consequatur",
+      "BotActions2": "in"
     },
     "Attachments": [
-      "sit",
-      "et"
+      "ab",
+      "doloremque"
     ]
   },
   {
-    "Timestamp": "2018-12-01T16:32:37.5709257+01:00",
-    "UserPrompt": "repudiandae",
-    "UserDisplayText": "quia",
-    "BotResponse": "sed",
+    "Timestamp": "2022-06-28T17:54:02.3514942+02:00",
+    "UserPrompt": "est",
+    "UserDisplayText": "ipsam",
+    "BotResponse": "sit",
     "BotActions": {
-      "BotActions1": "sed",
-      "BotActions2": "nostrum"
+      "BotActions1": "consequatur",
+      "BotActions2": "in"
     },
     "Attachments": [
-      "sit",
-      "et"
+      "ab",
+      "doloremque"
     ]
   }
 ]

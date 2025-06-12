@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 815,
-  "Name": "Collier Inc and Sons",
-  "Tooltip": "aut",
+  "HeadingId": 879,
+  "Name": "Conroy Group",
+  "Tooltip": "cum",
   "Deleted": false,
-  "Rank": 389,
-  "UdListDefinitionId": 317
+  "Rank": 249,
+  "UdListDefinitionId": 168
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 406,
-  "Name": "Wisoky, Harber and Schmidt",
-  "Tooltip": "est",
+  "HeadingId": 517,
+  "Name": "Little, Ratke and Fadel",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 314,
-  "UdListDefinitionId": 617,
+  "Rank": 201,
+  "UdListDefinitionId": 648,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 84
+      "FieldType": "System.String",
+      "FieldLength": 750
     }
   }
 }

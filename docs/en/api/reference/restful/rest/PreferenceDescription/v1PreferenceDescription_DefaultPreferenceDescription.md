@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 57,
-  "Section": "ratione",
-  "Key": "perspiciatis",
-  "Name": "White-Funk",
+  "PrefDescId": 575,
+  "Section": "repellat",
+  "Key": "earum",
+  "Name": "Feest, Hermiston and Prosacco",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Polarised eco-centric access",
-  "IsBuiltin": true,
-  "TableName": "Murazik-McCullough",
-  "UserDefinedListId": 889,
-  "Rank": 998,
-  "SubGroup": "quasi",
-  "MinLevel": 233,
-  "MaxValue": 532,
-  "MinValue": 903,
-  "RequiredLicense": "nam",
+  "Description": "Programmable actuating parallelism",
+  "IsBuiltin": false,
+  "TableName": "Langworth Group",
+  "UserDefinedListId": 551,
+  "Rank": 145,
+  "SubGroup": "asperiores",
+  "MinLevel": 261,
+  "MaxValue": 334,
+  "MinValue": 895,
+  "RequiredLicense": "ullam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 864
+      "FieldLength": 4
     }
   }
 }

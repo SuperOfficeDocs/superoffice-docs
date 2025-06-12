@@ -1,0 +1,251 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.CrmFieldMdoProvider
+  commentId: T:SuperOffice.ErpSync.CrmFieldMdoProvider
+  id: CrmFieldMdoProvider
+  parent: SuperOffice.ErpSync
+  children:
+  - SuperOffice.ErpSync.CrmFieldMdoProvider.#ctor
+  - SuperOffice.ErpSync.CrmFieldMdoProvider.AddItemsAsync(System.Threading.CancellationToken)
+  - SuperOffice.ErpSync.CrmFieldMdoProvider.ProviderName
+  langs:
+  - csharp
+  - vb
+  name: CrmFieldMdoProvider
+  nameWithType: CrmFieldMdoProvider
+  fullName: SuperOffice.ErpSync.CrmFieldMdoProvider
+  type: Class
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Get the list of Crm fields relevant to one particular Erp field, for field mapping.
+  remarks: >-
+    Relevant fields are those that come from the same connection/actor type as the 
+
+    target ERP field, and have matching types. Except - fields already mapped, as well
+
+    as more complex rules for list fields.
+  example: []
+  syntax:
+    content: 'public class CrmFieldMdoProvider : LiteralsOnlyBase'
+    content.vb: Public Class CrmFieldMdoProvider Inherits LiteralsOnlyBase
+  inheritance:
+  - System.Object
+- uid: SuperOffice.ErpSync.CrmFieldMdoProvider.ProviderName
+  commentId: F:SuperOffice.ErpSync.CrmFieldMdoProvider.ProviderName
+  id: ProviderName
+  parent: SuperOffice.ErpSync.CrmFieldMdoProvider
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: CrmFieldMdoProvider.ProviderName
+  fullName: SuperOffice.ErpSync.CrmFieldMdoProvider.ProviderName
+  type: Field
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public const string ProviderName = "CrmFields"
+    return:
+      type: System.String
+    content.vb: Public Const ProviderName As String = "CrmFields"
+- uid: SuperOffice.ErpSync.CrmFieldMdoProvider.AddItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.CrmFieldMdoProvider.AddItemsAsync(System.Threading.CancellationToken)
+  id: AddItemsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.CrmFieldMdoProvider
+  langs:
+  - csharp
+  - vb
+  name: AddItemsAsync(CancellationToken)
+  nameWithType: CrmFieldMdoProvider.AddItemsAsync(CancellationToken)
+  fullName: SuperOffice.ErpSync.CrmFieldMdoProvider.AddItemsAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  example: []
+  syntax:
+    content: protected override Task AddItemsAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function AddItemsAsync(cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.ErpSync.CrmFieldMdoProvider.AddItemsAsync*
+- uid: SuperOffice.ErpSync.CrmFieldMdoProvider.#ctor
+  commentId: M:SuperOffice.ErpSync.CrmFieldMdoProvider.#ctor
+  id: '#ctor'
+  parent: SuperOffice.ErpSync.CrmFieldMdoProvider
+  langs:
+  - csharp
+  - vb
+  name: CrmFieldMdoProvider()
+  nameWithType: CrmFieldMdoProvider.CrmFieldMdoProvider()
+  fullName: SuperOffice.ErpSync.CrmFieldMdoProvider.CrmFieldMdoProvider()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public CrmFieldMdoProvider()
+    content.vb: Public Sub New()
+  overload: SuperOffice.ErpSync.CrmFieldMdoProvider.#ctor*
+  nameWithType.vb: CrmFieldMdoProvider.New()
+  fullName.vb: SuperOffice.ErpSync.CrmFieldMdoProvider.New()
+  name.vb: New()
+references:
+- uid: SuperOffice.ErpSync
+  commentId: N:SuperOffice.ErpSync
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync
+  nameWithType: SuperOffice.ErpSync
+  fullName: SuperOffice.ErpSync
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.ErpSync.CrmFieldMdoProvider.AddItemsAsync*
+  commentId: Overload:SuperOffice.ErpSync.CrmFieldMdoProvider.AddItemsAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmFieldMdoProvider.html#SuperOffice_ErpSync_CrmFieldMdoProvider_AddItemsAsync_System_Threading_CancellationToken_
+  name: AddItemsAsync
+  nameWithType: CrmFieldMdoProvider.AddItemsAsync
+  fullName: SuperOffice.ErpSync.CrmFieldMdoProvider.AddItemsAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.ErpSync.CrmFieldMdoProvider.#ctor*
+  commentId: Overload:SuperOffice.ErpSync.CrmFieldMdoProvider.#ctor
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmFieldMdoProvider.html#SuperOffice_ErpSync_CrmFieldMdoProvider__ctor
+  name: CrmFieldMdoProvider
+  nameWithType: CrmFieldMdoProvider.CrmFieldMdoProvider
+  fullName: SuperOffice.ErpSync.CrmFieldMdoProvider.CrmFieldMdoProvider
+  nameWithType.vb: CrmFieldMdoProvider.New
+  fullName.vb: SuperOffice.ErpSync.CrmFieldMdoProvider.New
+  name.vb: New

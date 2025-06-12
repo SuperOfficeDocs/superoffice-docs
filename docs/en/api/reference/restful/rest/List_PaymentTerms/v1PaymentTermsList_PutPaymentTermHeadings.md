@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 821,
-    "Name": "Lang LLC",
-    "Tooltip": "accusantium",
+    "HeadingId": 365,
+    "Name": "Jacobi LLC",
+    "Tooltip": "magnam",
     "Deleted": false,
-    "Rank": 191,
-    "UdListDefinitionId": 68
+    "Rank": 759,
+    "UdListDefinitionId": 809
   },
   {
-    "HeadingId": 821,
-    "Name": "Lang LLC",
-    "Tooltip": "accusantium",
+    "HeadingId": 365,
+    "Name": "Jacobi LLC",
+    "Tooltip": "magnam",
     "Deleted": false,
-    "Rank": 191,
-    "UdListDefinitionId": 68
+    "Rank": 759,
+    "UdListDefinitionId": 809
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 747,
-    "Name": "Schaefer LLC",
-    "Tooltip": "incidunt",
-    "Deleted": true,
-    "Rank": 349,
-    "UdListDefinitionId": 777,
+    "HeadingId": 677,
+    "Name": "Kassulke Inc and Sons",
+    "Tooltip": "delectus",
+    "Deleted": false,
+    "Rank": 539,
+    "UdListDefinitionId": 948,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 768
+        "FieldType": "System.String",
+        "FieldLength": 962
       }
     }
   }

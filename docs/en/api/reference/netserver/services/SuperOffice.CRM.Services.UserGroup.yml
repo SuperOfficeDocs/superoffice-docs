@@ -9,9 +9,9 @@ items:
   - SuperOffice.CRM.Services.UserGroup.Deleted
   - SuperOffice.CRM.Services.UserGroup.Id
   - SuperOffice.CRM.Services.UserGroup.Rank
-  - SuperOffice.CRM.Services.UserGroup.Tooltip
   - SuperOffice.CRM.Services.UserGroup.ToString
   - SuperOffice.CRM.Services.UserGroup.ToString(System.String)
+  - SuperOffice.CRM.Services.UserGroup.Tooltip
   - SuperOffice.CRM.Services.UserGroup.Value
   langs:
   - csharp
@@ -20,33 +20,54 @@ items:
   nameWithType: UserGroup
   fullName: SuperOffice.CRM.Services.UserGroup
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe main user group that this user belongs to\n<p></p>\nCarrier object for UserGroup.\nServices for the UserGroup Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IUserAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    The main user group that this user belongs to
+
+    <p></p>
+
+    Carrier object for UserGroup.
+
+    Services for the UserGroup Carrier is available from the <xref href="SuperOffice.CRM.Services.IUserAgent?text=User+Agent" data-throw-if-not-resolved="false"></xref>.
   example:
-  - "\nGet UserGroup 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new UserAgent();\n    var userGroup = agent.GetUserGroup( 123 );\n }</code></pre>\n"
+  - >-
+    Get UserGroup 123 using the agent:
+
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       var agent = new UserAgent();
+       var userGroup = agent.GetUserGroup( 123 );
+    }</code></pre>
   syntax:
-    content: 'public class UserGroup : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class UserGroup : Carrier
     content.vb: >-
-      Public Class UserGroup
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class UserGroup Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.UserAgent
-    commentId: T:SuperOffice.CRM.Services.UserAgent
   - linkId: SuperOffice.CRM.Services.IUserAgent
     commentId: T:SuperOffice.CRM.Services.IUserAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.UserGroup.#ctor
   commentId: M:SuperOffice.CRM.Services.UserGroup.#ctor
   id: '#ctor'
@@ -58,21 +79,18 @@ items:
   nameWithType: UserGroup.UserGroup()
   fullName: SuperOffice.CRM.Services.UserGroup.UserGroup()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public UserGroup()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.UserGroup.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: UserGroup.New()
+  fullName.vb: SuperOffice.CRM.Services.UserGroup.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.UserGroup.ToString
   commentId: M:SuperOffice.CRM.Services.UserGroup.ToString
   id: ToString
@@ -84,26 +102,18 @@ items:
   nameWithType: UserGroup.ToString()
   fullName: SuperOffice.CRM.Services.UserGroup.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.UserGroup.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.UserGroup.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.UserGroup.ToString(System.String)
   id: ToString(System.String)
@@ -111,17 +121,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: UserGroup.ToString(String)
-  fullName: SuperOffice.CRM.Services.UserGroup.ToString(System.String)
+  name: ToString(string)
+  nameWithType: UserGroup.ToString(string)
+  fullName: SuperOffice.CRM.Services.UserGroup.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -133,10 +144,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.UserGroup.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: UserGroup.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.UserGroup.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.UserGroup.Value
   commentId: P:SuperOffice.CRM.Services.UserGroup.Value
   id: Value
@@ -148,28 +158,28 @@ items:
   nameWithType: UserGroup.Value
   fullName: SuperOffice.CRM.Services.UserGroup.Value
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nUserGroup name \n"
+  summary: UserGroup name
+  example: []
   syntax:
-    content: public virtual string Value { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Value { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Value As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Value As String
   overload: SuperOffice.CRM.Services.UserGroup.Value*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.UserGroup.Tooltip
   commentId: P:SuperOffice.CRM.Services.UserGroup.Tooltip
   id: Tooltip
@@ -181,28 +191,28 @@ items:
   nameWithType: UserGroup.Tooltip
   fullName: SuperOffice.CRM.Services.UserGroup.Tooltip
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTooltip or other description \n"
+  summary: Tooltip or other description
+  example: []
   syntax:
-    content: public virtual string Tooltip { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Tooltip { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Tooltip As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Tooltip As String
   overload: SuperOffice.CRM.Services.UserGroup.Tooltip*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.UserGroup.Id
   commentId: P:SuperOffice.CRM.Services.UserGroup.Id
   id: Id
@@ -214,28 +224,28 @@ items:
   nameWithType: UserGroup.Id
   fullName: SuperOffice.CRM.Services.UserGroup.Id
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
-    content: public virtual int Id { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int Id { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property Id As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Id As Integer
   overload: SuperOffice.CRM.Services.UserGroup.Id*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.UserGroup.Rank
   commentId: P:SuperOffice.CRM.Services.UserGroup.Rank
   id: Rank
@@ -247,28 +257,28 @@ items:
   nameWithType: UserGroup.Rank
   fullName: SuperOffice.CRM.Services.UserGroup.Rank
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRank order  \n"
+  summary: Rank order
+  example: []
   syntax:
-    content: public virtual short Rank { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual short Rank { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: Public Overridable Property Rank As Short
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Rank As Short
   overload: SuperOffice.CRM.Services.UserGroup.Rank*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.UserGroup.Deleted
   commentId: P:SuperOffice.CRM.Services.UserGroup.Deleted
   id: Deleted
@@ -280,57 +290,106 @@ items:
   nameWithType: UserGroup.Deleted
   fullName: SuperOffice.CRM.Services.UserGroup.Deleted
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDeleted equal to true means that this is a user group that no longer can be selected by the user.  It is not permitted to delete a UserGroup. \n"
+  summary: Deleted equal to true means that this is a user group that no longer can be selected by the user.  It is not permitted to delete a UserGroup.
+  example: []
   syntax:
-    content: public virtual bool Deleted { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool Deleted { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property Deleted As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Deleted As Boolean
   overload: SuperOffice.CRM.Services.UserGroup.Deleted*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.UserAgent
-  commentId: T:SuperOffice.CRM.Services.UserAgent
-  isExternal: true
-  name: UserAgent
-  nameWithType: UserAgent
-  fullName: SuperOffice.CRM.Services.UserAgent
 - uid: SuperOffice.CRM.Services.IUserAgent
   commentId: T:SuperOffice.CRM.Services.IUserAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IUserAgent.html
   name: IUserAgent
   nameWithType: IUserAgent
   fullName: SuperOffice.CRM.Services.IUserAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.UserGroup.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.UserGroup.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.UserGroup.html#SuperOffice_CRM_Services_UserGroup__ctor
   name: UserGroup
   nameWithType: UserGroup.UserGroup
   fullName: SuperOffice.CRM.Services.UserGroup.UserGroup
+  nameWithType.vb: UserGroup.New
+  fullName.vb: SuperOffice.CRM.Services.UserGroup.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.UserGroup.ToString*
   commentId: Overload:SuperOffice.CRM.Services.UserGroup.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.UserGroup.html#SuperOffice_CRM_Services_UserGroup_ToString
   name: ToString
   nameWithType: UserGroup.ToString
   fullName: SuperOffice.CRM.Services.UserGroup.ToString
@@ -338,30 +397,31 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.UserGroup.Value*
   commentId: Overload:SuperOffice.CRM.Services.UserGroup.Value
   isExternal: true
+  href: SuperOffice.CRM.Services.UserGroup.html#SuperOffice_CRM_Services_UserGroup_Value
   name: Value
   nameWithType: UserGroup.Value
   fullName: SuperOffice.CRM.Services.UserGroup.Value
 - uid: SuperOffice.CRM.Services.UserGroup.Tooltip*
   commentId: Overload:SuperOffice.CRM.Services.UserGroup.Tooltip
   isExternal: true
+  href: SuperOffice.CRM.Services.UserGroup.html#SuperOffice_CRM_Services_UserGroup_Tooltip
   name: Tooltip
   nameWithType: UserGroup.Tooltip
   fullName: SuperOffice.CRM.Services.UserGroup.Tooltip
 - uid: SuperOffice.CRM.Services.UserGroup.Id*
   commentId: Overload:SuperOffice.CRM.Services.UserGroup.Id
   isExternal: true
+  href: SuperOffice.CRM.Services.UserGroup.html#SuperOffice_CRM_Services_UserGroup_Id
   name: Id
   nameWithType: UserGroup.Id
   fullName: SuperOffice.CRM.Services.UserGroup.Id
@@ -369,12 +429,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.UserGroup.Rank*
   commentId: Overload:SuperOffice.CRM.Services.UserGroup.Rank
   isExternal: true
+  href: SuperOffice.CRM.Services.UserGroup.html#SuperOffice_CRM_Services_UserGroup_Rank
   name: Rank
   nameWithType: UserGroup.Rank
   fullName: SuperOffice.CRM.Services.UserGroup.Rank
@@ -382,12 +447,17 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: SuperOffice.CRM.Services.UserGroup.Deleted*
   commentId: Overload:SuperOffice.CRM.Services.UserGroup.Deleted
   isExternal: true
+  href: SuperOffice.CRM.Services.UserGroup.html#SuperOffice_CRM_Services_UserGroup_Deleted
   name: Deleted
   nameWithType: UserGroup.Deleted
   fullName: SuperOffice.CRM.Services.UserGroup.Deleted
@@ -395,6 +465,10 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

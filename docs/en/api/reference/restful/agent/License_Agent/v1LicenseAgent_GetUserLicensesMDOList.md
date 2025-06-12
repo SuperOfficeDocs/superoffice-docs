@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 281,
-    "Name": "Hirthe-Yundt",
-    "ToolTip": "Hic omnis repellat enim ab provident.",
+    "Id": 425,
+    "Name": "Emard-Witting",
+    "ToolTip": "Sit et.",
     "Deleted": false,
-    "Rank": 971,
-    "Type": "saepe",
-    "ColorBlock": 112,
-    "IconHint": "est",
+    "Rank": 233,
+    "Type": "est",
+    "ColorBlock": 739,
+    "IconHint": "impedit",
     "Selected": false,
-    "LastChanged": "1999-07-12T16:32:39.1957533+02:00",
+    "LastChanged": "2000-03-27T17:54:03.1795788+02:00",
     "ChildItems": [
       {
-        "Id": 51,
-        "Name": "Zemlak, Schmeler and Price",
-        "ToolTip": "Harum impedit veniam voluptatibus et rerum nemo.",
+        "Id": 65,
+        "Name": "Koelpin, Johns and Dibbert",
+        "ToolTip": "Hic corporis similique modi ut ut.",
         "Deleted": false,
-        "Rank": 631,
-        "Type": "nostrum",
-        "ColorBlock": 605,
-        "IconHint": "veritatis",
+        "Rank": 166,
+        "Type": "atque",
+        "ColorBlock": 303,
+        "IconHint": "labore",
         "Selected": false,
-        "LastChanged": "2020-01-28T16:32:39.1957533+01:00",
+        "LastChanged": "2001-05-08T17:54:03.1795788+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "quam",
+        "ExtraInfo": "quo",
+        "StyleHint": "molestiae",
         "Hidden": false,
-        "FullName": "Elbert Hintz",
+        "FullName": "Colby O'Reilly PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 711
+            "FieldType": "System.Int32",
+            "FieldLength": 563
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "eligendi",
-    "Hidden": true,
-    "FullName": "Katelynn Auer",
+    "ExtraInfo": "sed",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Wallace Purdy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldType": "System.String",
+        "FieldLength": 499
       }
     }
   }

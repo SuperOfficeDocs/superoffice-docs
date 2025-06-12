@@ -37,27 +37,24 @@ items:
   nameWithType: DBC.WorkflowFields
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nFields for Workflow, SuperOffice specific info about a workflow\n"
+  summary: Fields for Workflow, SuperOffice specific info about a workflow
+  example: []
   syntax:
-    content: 'public static class WorkflowFields : Object'
-    content.vb: >-
-      Public Module WorkflowFields
-          Inherits Object
+    content: public static class DBC.WorkflowFields
+    content.vb: Public Module DBC.WorkflowFields
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields.WorkflowId
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowFields.WorkflowId
   id: WorkflowId
@@ -69,24 +66,16 @@ items:
   nameWithType: DBC.WorkflowFields.WorkflowId
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields.WorkflowId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWorkflow.WorkflowId: Primary key\n"
+  summary: 'Workflow.WorkflowId: Primary key'
+  example: []
   syntax:
     content: public const string WorkflowId = "workflow_id"
     return:
       type: System.String
     content.vb: Public Const WorkflowId As String = "workflow_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields.Name
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowFields.Name
   id: Name
@@ -98,24 +87,16 @@ items:
   nameWithType: DBC.WorkflowFields.Name
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields.Name
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWorkflow.Name: Name of the workflow\n"
+  summary: 'Workflow.Name: Name of the workflow'
+  example: []
   syntax:
     content: public const string Name = "name"
     return:
       type: System.String
     content.vb: Public Const Name As String = "name"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields.Description
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowFields.Description
   id: Description
@@ -127,24 +108,16 @@ items:
   nameWithType: DBC.WorkflowFields.Description
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields.Description
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWorkflow.Description: Description of the workflow\n"
+  summary: 'Workflow.Description: Description of the workflow'
+  example: []
   syntax:
     content: public const string Description = "description"
     return:
       type: System.String
     content.vb: Public Const Description As String = "description"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields.Status
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowFields.Status
   id: Status
@@ -156,24 +129,16 @@ items:
   nameWithType: DBC.WorkflowFields.Status
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields.Status
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWorkflow.Status: Status of the workflow definition\n"
+  summary: 'Workflow.Status: Status of the workflow definition'
+  example: []
   syntax:
     content: public const string Status = "status"
     return:
       type: System.String
     content.vb: Public Const Status As String = "status"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields.AssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowFields.AssociateId
   id: AssociateId
@@ -185,24 +150,16 @@ items:
   nameWithType: DBC.WorkflowFields.AssociateId
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields.AssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWorkflow.AssociateId: Associate who owns this workflow\n"
+  summary: 'Workflow.AssociateId: Associate who owns this workflow'
+  example: []
   syntax:
     content: public const string AssociateId = "associate_id"
     return:
       type: System.String
     content.vb: Public Const AssociateId As String = "associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields.GroupId
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowFields.GroupId
   id: GroupId
@@ -214,24 +171,16 @@ items:
   nameWithType: DBC.WorkflowFields.GroupId
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields.GroupId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWorkflow.GroupId: Group id of *original* owning associate, so that changes to owner&apos;s primary group do not influence group membership of this workflow.\n"
+  summary: "Workflow.GroupId: Group id of *original* owning associate, so that changes to owner's primary group do not influence group membership of this workflow."
+  example: []
   syntax:
     content: public const string GroupId = "group_id"
     return:
       type: System.String
     content.vb: Public Const GroupId As String = "group_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields.StartOnlyOnce
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowFields.StartOnlyOnce
   id: StartOnlyOnce
@@ -243,24 +192,16 @@ items:
   nameWithType: DBC.WorkflowFields.StartOnlyOnce
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields.StartOnlyOnce
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWorkflow.StartOnlyOnce: A contact can start this flow only once\n"
+  summary: 'Workflow.StartOnlyOnce: A contact can start this flow only once'
+  example: []
   syntax:
     content: public const string StartOnlyOnce = "start_only_once"
     return:
       type: System.String
     content.vb: Public Const StartOnlyOnce As String = "start_only_once"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields.JumpToFinish
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowFields.JumpToFinish
   id: JumpToFinish
@@ -272,24 +213,16 @@ items:
   nameWithType: DBC.WorkflowFields.JumpToFinish
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields.JumpToFinish
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWorkflow.JumpToFinish: When a goal is reached, contact jumps directly to finished\n"
+  summary: 'Workflow.JumpToFinish: When a goal is reached, contact jumps directly to finished'
+  example: []
   syntax:
     content: public const string JumpToFinish = "jump_to_finish"
     return:
       type: System.String
     content.vb: Public Const JumpToFinish As String = "jump_to_finish"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields.VisibleForAll
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowFields.VisibleForAll
   id: VisibleForAll
@@ -301,24 +234,16 @@ items:
   nameWithType: DBC.WorkflowFields.VisibleForAll
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields.VisibleForAll
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWorkflow.VisibleForAll: True if visible for all\n"
+  summary: 'Workflow.VisibleForAll: True if visible for all'
+  example: []
   syntax:
     content: public const string VisibleForAll = "visible_for_all"
     return:
       type: System.String
     content.vb: Public Const VisibleForAll As String = "visible_for_all"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields.VisibleForAssociates
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowFields.VisibleForAssociates
   id: VisibleForAssociates
@@ -330,24 +255,16 @@ items:
   nameWithType: DBC.WorkflowFields.VisibleForAssociates
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields.VisibleForAssociates
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWorkflow.VisibleForAssociates: Array of references to the visible for associates\n"
+  summary: 'Workflow.VisibleForAssociates: Array of references to the visible for associates'
+  example: []
   syntax:
     content: public const string VisibleForAssociates = "visible_for_associates"
     return:
       type: System.String
     content.vb: Public Const VisibleForAssociates As String = "visible_for_associates"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields.VisibleForGroups
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowFields.VisibleForGroups
   id: VisibleForGroups
@@ -359,24 +276,16 @@ items:
   nameWithType: DBC.WorkflowFields.VisibleForGroups
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields.VisibleForGroups
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWorkflow.VisibleForGroups: Array of references to the visible for groups\n"
+  summary: 'Workflow.VisibleForGroups: Array of references to the visible for groups'
+  example: []
   syntax:
     content: public const string VisibleForGroups = "visible_for_groups"
     return:
       type: System.String
     content.vb: Public Const VisibleForGroups As String = "visible_for_groups"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields.Registered
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowFields.Registered
   id: Registered
@@ -388,24 +297,16 @@ items:
   nameWithType: DBC.WorkflowFields.Registered
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields.Registered
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWorkflow.Registered: Registered when\n"
+  summary: 'Workflow.Registered: Registered when'
+  example: []
   syntax:
     content: public const string Registered = "registered"
     return:
       type: System.String
     content.vb: Public Const Registered As String = "registered"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowFields.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -417,24 +318,16 @@ items:
   nameWithType: DBC.WorkflowFields.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields.RegisteredAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWorkflow.RegisteredAssociateId: Registered by whom\n"
+  summary: 'Workflow.RegisteredAssociateId: Registered by whom'
+  example: []
   syntax:
     content: public const string RegisteredAssociateId = "registered_associate_id"
     return:
       type: System.String
     content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields.Updated
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowFields.Updated
   id: Updated
@@ -446,24 +339,16 @@ items:
   nameWithType: DBC.WorkflowFields.Updated
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields.Updated
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWorkflow.Updated: Last updated when\n"
+  summary: 'Workflow.Updated: Last updated when'
+  example: []
   syntax:
     content: public const string Updated = "updated"
     return:
       type: System.String
     content.vb: Public Const Updated As String = "updated"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowFields.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -475,24 +360,16 @@ items:
   nameWithType: DBC.WorkflowFields.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields.UpdatedAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWorkflow.UpdatedAssociateId: Last updated by whom\n"
+  summary: 'Workflow.UpdatedAssociateId: Last updated by whom'
+  example: []
   syntax:
     content: public const string UpdatedAssociateId = "updated_associate_id"
     return:
       type: System.String
     content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields.UpdatedCount
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowFields.UpdatedCount
   id: UpdatedCount
@@ -504,24 +381,16 @@ items:
   nameWithType: DBC.WorkflowFields.UpdatedCount
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields.UpdatedCount
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWorkflow.UpdatedCount: Number of updates made to this record\n"
+  summary: 'Workflow.UpdatedCount: Number of updates made to this record'
+  example: []
   syntax:
     content: public const string UpdatedCount = "updatedCount"
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields.UseWorkflowStart
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowFields.UseWorkflowStart
   id: UseWorkflowStart
@@ -533,24 +402,16 @@ items:
   nameWithType: DBC.WorkflowFields.UseWorkflowStart
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields.UseWorkflowStart
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWorkflow.UseWorkflowStart: Start the flow running with enrolled participants at the given time\n"
+  summary: 'Workflow.UseWorkflowStart: Start the flow running with enrolled participants at the given time'
+  example: []
   syntax:
     content: public const string UseWorkflowStart = "use_workflow_start"
     return:
       type: System.String
     content.vb: Public Const UseWorkflowStart As String = "use_workflow_start"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields.WorkflowStart
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowFields.WorkflowStart
   id: WorkflowStart
@@ -562,24 +423,16 @@ items:
   nameWithType: DBC.WorkflowFields.WorkflowStart
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields.WorkflowStart
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWorkflow.WorkflowStart: When to start running the workflow. Until start, any enrolled members are not running through the flow, just waiting. Datetime is interpreted in stored timezone or as UTC\n"
+  summary: 'Workflow.WorkflowStart: When to start running the workflow. Until start, any enrolled members are not running through the flow, just waiting. Datetime is interpreted in stored timezone or as UTC'
+  example: []
   syntax:
     content: public const string WorkflowStart = "workflow_start"
     return:
       type: System.String
     content.vb: Public Const WorkflowStart As String = "workflow_start"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields.UseEnrollmentEnd
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowFields.UseEnrollmentEnd
   id: UseEnrollmentEnd
@@ -591,24 +444,16 @@ items:
   nameWithType: DBC.WorkflowFields.UseEnrollmentEnd
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields.UseEnrollmentEnd
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWorkflow.UseEnrollmentEnd: End enrollment into the workflow at the given time\n"
+  summary: 'Workflow.UseEnrollmentEnd: End enrollment into the workflow at the given time'
+  example: []
   syntax:
     content: public const string UseEnrollmentEnd = "use_enrollment_end"
     return:
       type: System.String
     content.vb: Public Const UseEnrollmentEnd As String = "use_enrollment_end"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields.EnrollmentEnd
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowFields.EnrollmentEnd
   id: EnrollmentEnd
@@ -620,24 +465,16 @@ items:
   nameWithType: DBC.WorkflowFields.EnrollmentEnd
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields.EnrollmentEnd
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWorkflow.EnrollmentEnd: Do not enroll more participant after given time, interpreted in stored timezone or as UTC\n"
+  summary: 'Workflow.EnrollmentEnd: Do not enroll more participant after given time, interpreted in stored timezone or as UTC'
+  example: []
   syntax:
     content: public const string EnrollmentEnd = "enrollment_end"
     return:
       type: System.String
     content.vb: Public Const EnrollmentEnd As String = "enrollment_end"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields.TzLocationId
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowFields.TzLocationId
   id: TzLocationId
@@ -649,24 +486,16 @@ items:
   nameWithType: DBC.WorkflowFields.TzLocationId
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields.TzLocationId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWorkflow.TzLocationId: Timezone used for this workflows datetimes. If not set, behavior is best guess - databasetime, system time...\n"
+  summary: 'Workflow.TzLocationId: Timezone used for this workflows datetimes. If not set, behavior is best guess - databasetime, system time...'
+  example: []
   syntax:
     content: public const string TzLocationId = "tzLocationId"
     return:
       type: System.String
     content.vb: Public Const TzLocationId As String = "tzLocationId"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields.RemoveFromFlows
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowFields.RemoveFromFlows
   id: RemoveFromFlows
@@ -678,24 +507,16 @@ items:
   nameWithType: DBC.WorkflowFields.RemoveFromFlows
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields.RemoveFromFlows
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWorkflow.RemoveFromFlows: Workflows to remove the participants from when they are enrolled in this workflow\n"
+  summary: 'Workflow.RemoveFromFlows: Workflows to remove the participants from when they are enrolled in this workflow'
+  example: []
   syntax:
     content: public const string RemoveFromFlows = "remove_from_flows"
     return:
       type: System.String
     content.vb: Public Const RemoveFromFlows As String = "remove_from_flows"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields.BlockLists
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowFields.BlockLists
   id: BlockLists
@@ -707,24 +528,16 @@ items:
   nameWithType: DBC.WorkflowFields.BlockLists
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields.BlockLists
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWorkflow.BlockLists: Persons in the given selections are not allowed to enter this workflow\n"
+  summary: 'Workflow.BlockLists: Persons in the given selections are not allowed to enter this workflow'
+  example: []
   syntax:
     content: public const string BlockLists = "block_lists"
     return:
       type: System.String
     content.vb: Public Const BlockLists As String = "block_lists"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields.ExitFlowId
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowFields.ExitFlowId
   id: ExitFlowId
@@ -736,24 +549,16 @@ items:
   nameWithType: DBC.WorkflowFields.ExitFlowId
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields.ExitFlowId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWorkflow.ExitFlowId: On exit with no success criteria met, we attempt to add the participant to the given flow\n"
+  summary: 'Workflow.ExitFlowId: On exit with no success criteria met, we attempt to add the participant to the given flow'
+  example: []
   syntax:
     content: public const string ExitFlowId = "exit_flow_id"
     return:
       type: System.String
     content.vb: Public Const ExitFlowId As String = "exit_flow_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields.ExitSuccessFlowId
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowFields.ExitSuccessFlowId
   id: ExitSuccessFlowId
@@ -765,41 +570,288 @@ items:
   nameWithType: DBC.WorkflowFields.ExitSuccessFlowId
   fullName: SuperOffice.CRM.Data.DBC.WorkflowFields.ExitSuccessFlowId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWorkflow.ExitSuccessFlowId: On exit with success criteria met, we attempt to add the participant to the given flow\n"
+  summary: 'Workflow.ExitSuccessFlowId: On exit with success criteria met, we attempt to add the participant to the given flow'
+  example: []
   syntax:
     content: public const string ExitSuccessFlowId = "exit_success_flow_id"
     return:
       type: System.String
     content.vb: Public Const ExitSuccessFlowId As String = "exit_success_flow_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -807,6 +859,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

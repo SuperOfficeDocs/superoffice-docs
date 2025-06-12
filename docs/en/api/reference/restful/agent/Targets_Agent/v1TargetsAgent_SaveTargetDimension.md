@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 371,
+  "TargetDimensionId": 92,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "natus",
-  "DimensionListName": "Baumbach-VonRueden",
-  "DimensionListId": 495,
-  "DimensionListLabel": "ut",
+  "DimensionListField": "mollitia",
+  "DimensionListName": "Volkman-Blanda",
+  "DimensionListId": 153,
+  "DimensionListLabel": "quidem",
   "SelectedDimensions": [
-    86,
-    391
+    250,
+    413
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 194,
+  "TargetDimensionId": 293,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "temporibus",
-  "DimensionListName": "Steuber LLC",
-  "DimensionListId": 677,
-  "DimensionListLabel": "excepturi",
+  "DimensionListField": "provident",
+  "DimensionListName": "Ritchie-Ritchie",
+  "DimensionListId": 120,
+  "DimensionListLabel": "quam",
   "SelectedDimensions": [
-    939,
-    692
+    348,
+    625
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldLength": 218
     }
   }
 }

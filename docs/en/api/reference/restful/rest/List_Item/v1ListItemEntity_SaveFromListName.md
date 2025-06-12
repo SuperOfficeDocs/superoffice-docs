@@ -83,12 +83,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 136,
-  "Name": "Bashirian Inc and Sons",
-  "Tooltip": "fuga",
+  "Id": 945,
+  "Name": "Koss, Beer and Leuschke",
+  "Tooltip": "quasi",
   "Deleted": true,
-  "UdListDefinitionId": 398,
-  "Rank": 683
+  "UdListDefinitionId": 993,
+  "Rank": 986
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 200,
-  "Name": "Hartmann Group",
-  "Tooltip": "totam",
-  "Deleted": false,
-  "UdListDefinitionId": 901,
-  "Rank": 121,
+  "Id": 725,
+  "Name": "Collins-Goldner",
+  "Tooltip": "earum",
+  "Deleted": true,
+  "UdListDefinitionId": 820,
+  "Rank": 263,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 680
+      "FieldType": "System.Int32",
+      "FieldLength": 691
     }
   }
 }

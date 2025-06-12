@@ -17,31 +17,40 @@ items:
   nameWithType: PreferenceSpec
   fullName: SuperOffice.CRM.Services.PreferenceSpec
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPreference specification, consisting of the section name and key name\n<p></p>\nCarrier object for PreferenceSpec.\nServices for the PreferenceSpec Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IPreferenceAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Preference specification, consisting of the section name and key name
+
+    <p></p>
+
+    Carrier object for PreferenceSpec.
+
+    Services for the PreferenceSpec Carrier is available from the <xref href="SuperOffice.CRM.Services.IPreferenceAgent?text=Preference+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class PreferenceSpec : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class PreferenceSpec : Carrier
     content.vb: >-
-      Public Class PreferenceSpec
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class PreferenceSpec Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.PreferenceAgent
-    commentId: T:SuperOffice.CRM.Services.PreferenceAgent
   - linkId: SuperOffice.CRM.Services.IPreferenceAgent
     commentId: T:SuperOffice.CRM.Services.IPreferenceAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.PreferenceSpec.#ctor
   commentId: M:SuperOffice.CRM.Services.PreferenceSpec.#ctor
   id: '#ctor'
@@ -53,21 +62,18 @@ items:
   nameWithType: PreferenceSpec.PreferenceSpec()
   fullName: SuperOffice.CRM.Services.PreferenceSpec.PreferenceSpec()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public PreferenceSpec()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.PreferenceSpec.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: PreferenceSpec.New()
+  fullName.vb: SuperOffice.CRM.Services.PreferenceSpec.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.PreferenceSpec.ToString
   commentId: M:SuperOffice.CRM.Services.PreferenceSpec.ToString
   id: ToString
@@ -79,26 +85,18 @@ items:
   nameWithType: PreferenceSpec.ToString()
   fullName: SuperOffice.CRM.Services.PreferenceSpec.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.PreferenceSpec.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.PreferenceSpec.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.PreferenceSpec.ToString(System.String)
   id: ToString(System.String)
@@ -106,17 +104,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: PreferenceSpec.ToString(String)
-  fullName: SuperOffice.CRM.Services.PreferenceSpec.ToString(System.String)
+  name: ToString(string)
+  nameWithType: PreferenceSpec.ToString(string)
+  fullName: SuperOffice.CRM.Services.PreferenceSpec.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -128,10 +127,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.PreferenceSpec.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: PreferenceSpec.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.PreferenceSpec.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.PreferenceSpec.Section
   commentId: P:SuperOffice.CRM.Services.PreferenceSpec.Section
   id: Section
@@ -143,28 +141,28 @@ items:
   nameWithType: PreferenceSpec.Section
   fullName: SuperOffice.CRM.Services.PreferenceSpec.Section
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPreference section name \n"
+  summary: Preference section name
+  example: []
   syntax:
-    content: public virtual string Section { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Section { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Section As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Section As String
   overload: SuperOffice.CRM.Services.PreferenceSpec.Section*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.PreferenceSpec.Key
   commentId: P:SuperOffice.CRM.Services.PreferenceSpec.Key
   id: Key
@@ -176,57 +174,106 @@ items:
   nameWithType: PreferenceSpec.Key
   fullName: SuperOffice.CRM.Services.PreferenceSpec.Key
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPreference key name \n"
+  summary: Preference key name
+  example: []
   syntax:
-    content: public virtual string Key { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Key { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Key As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Key As String
   overload: SuperOffice.CRM.Services.PreferenceSpec.Key*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.PreferenceAgent
-  commentId: T:SuperOffice.CRM.Services.PreferenceAgent
-  isExternal: true
-  name: PreferenceAgent
-  nameWithType: PreferenceAgent
-  fullName: SuperOffice.CRM.Services.PreferenceAgent
 - uid: SuperOffice.CRM.Services.IPreferenceAgent
   commentId: T:SuperOffice.CRM.Services.IPreferenceAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html
   name: IPreferenceAgent
   nameWithType: IPreferenceAgent
   fullName: SuperOffice.CRM.Services.IPreferenceAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.PreferenceSpec.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.PreferenceSpec.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.PreferenceSpec.html#SuperOffice_CRM_Services_PreferenceSpec__ctor
   name: PreferenceSpec
   nameWithType: PreferenceSpec.PreferenceSpec
   fullName: SuperOffice.CRM.Services.PreferenceSpec.PreferenceSpec
+  nameWithType.vb: PreferenceSpec.New
+  fullName.vb: SuperOffice.CRM.Services.PreferenceSpec.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.PreferenceSpec.ToString*
   commentId: Overload:SuperOffice.CRM.Services.PreferenceSpec.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.PreferenceSpec.html#SuperOffice_CRM_Services_PreferenceSpec_ToString
   name: ToString
   nameWithType: PreferenceSpec.ToString
   fullName: SuperOffice.CRM.Services.PreferenceSpec.ToString
@@ -234,24 +281,24 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.PreferenceSpec.Section*
   commentId: Overload:SuperOffice.CRM.Services.PreferenceSpec.Section
   isExternal: true
+  href: SuperOffice.CRM.Services.PreferenceSpec.html#SuperOffice_CRM_Services_PreferenceSpec_Section
   name: Section
   nameWithType: PreferenceSpec.Section
   fullName: SuperOffice.CRM.Services.PreferenceSpec.Section
 - uid: SuperOffice.CRM.Services.PreferenceSpec.Key*
   commentId: Overload:SuperOffice.CRM.Services.PreferenceSpec.Key
   isExternal: true
+  href: SuperOffice.CRM.Services.PreferenceSpec.html#SuperOffice_CRM_Services_PreferenceSpec_Key
   name: Key
   nameWithType: PreferenceSpec.Key
   fullName: SuperOffice.CRM.Services.PreferenceSpec.Key

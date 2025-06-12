@@ -98,40 +98,40 @@ OK
 POST /api/v1/CRMScript/{cRMScriptUniqueId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "consequatur",
-    "InputValues2": "esse"
+    "InputValues1": "dolorem",
+    "InputValues2": "sequi"
   },
   "BlockExecution": false,
-  "NavigateTo": "velit",
-  "Message": "nam",
-  "ShowDialog": "mollitia",
+  "NavigateTo": "minus",
+  "Message": "fugiat",
+  "ShowDialog": "provident",
   "OutputValues": {
-    "OutputValues1": "aut",
-    "OutputValues2": "mollitia"
+    "OutputValues1": "modi",
+    "OutputValues2": "maxime"
   },
   "StateValues": {
-    "StateValues1": "architecto",
-    "StateValues2": "tenetur"
+    "StateValues1": "saepe",
+    "StateValues2": "in"
   },
-  "Exception": "harum",
+  "Exception": "repudiandae",
   "ParserValues": {
-    "ParserValues1": "fuga",
-    "ParserValues2": "dolorem"
+    "ParserValues1": "repudiandae",
+    "ParserValues2": "non"
   },
   "CgiVariables": {
-    "CgiVariables1": "commodi",
-    "CgiVariables2": "qui"
+    "CgiVariables1": "reprehenderit",
+    "CgiVariables2": "omnis"
   },
-  "CgiContent": "dolorem",
+  "CgiContent": "vero",
   "Headers": {
-    "Headers1": "incidunt",
-    "Headers2": "aut"
+    "Headers1": "delectus",
+    "Headers2": "tempore"
   },
   "TraceExecution": false
 }
@@ -146,42 +146,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "nesciunt",
-    "InputValues2": "maxime"
+    "InputValues1": "fugit",
+    "InputValues2": "eos"
   },
   "BlockExecution": false,
-  "NavigateTo": "quia",
-  "Message": "aspernatur",
-  "ShowDialog": "nemo",
+  "NavigateTo": "incidunt",
+  "Message": "voluptatibus",
+  "ShowDialog": "fugit",
   "OutputValues": {
-    "OutputValues1": "harum",
-    "OutputValues2": "adipisci"
+    "OutputValues1": "dolor",
+    "OutputValues2": "omnis"
   },
   "StateValues": {
-    "StateValues1": "omnis",
-    "StateValues2": "alias"
+    "StateValues1": "voluptatem",
+    "StateValues2": "quod"
   },
-  "Exception": "nemo",
+  "Exception": "impedit",
   "ParserValues": {
-    "ParserValues1": "aliquam",
-    "ParserValues2": "ut"
+    "ParserValues1": "ipsum",
+    "ParserValues2": "tenetur"
   },
   "CgiVariables": {
-    "CgiVariables1": "libero",
-    "CgiVariables2": "pariatur"
+    "CgiVariables1": "velit",
+    "CgiVariables2": "eligendi"
   },
-  "CgiContent": "mollitia",
+  "CgiContent": "libero",
   "Headers": {
-    "Headers1": "dolorem",
-    "Headers2": "nobis"
+    "Headers1": "qui",
+    "Headers2": "ea"
   },
-  "TraceExecution": false,
+  "TraceExecution": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 283
+      "FieldType": "System.Int32",
+      "FieldLength": 480
     }
   }
 }

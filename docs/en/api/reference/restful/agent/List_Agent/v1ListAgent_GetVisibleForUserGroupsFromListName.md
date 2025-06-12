@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Rau, Boyer and Lubowitz",
-  "ListItemId": 748
+  "UdListDefinitionName": "Grimes, Murazik and Wunsch",
+  "ListItemId": 117
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 353,
-    "Name": "Mraz Group",
-    "ToolTip": "Doloribus velit.",
-    "Deleted": false,
-    "Rank": 503,
-    "Type": "autem",
-    "ColorBlock": 761,
-    "IconHint": "necessitatibus",
+    "Id": 136,
+    "Name": "Jacobson Inc and Sons",
+    "ToolTip": "Voluptates dignissimos consequuntur ut consequatur.",
+    "Deleted": true,
+    "Rank": 337,
+    "Type": "ut",
+    "ColorBlock": 354,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "2020-03-03T16:32:39.2426162+01:00",
+    "LastChanged": "2016-12-22T17:54:03.2108272+01:00",
     "ChildItems": [
       {
-        "Id": 684,
-        "Name": "Bode LLC",
-        "ToolTip": "Enim praesentium deleniti.",
-        "Deleted": false,
-        "Rank": 525,
-        "Type": "voluptatibus",
-        "ColorBlock": 354,
+        "Id": 763,
+        "Name": "Weimann, Dare and Legros",
+        "ToolTip": "Quod laudantium.",
+        "Deleted": true,
+        "Rank": 502,
+        "Type": "consectetur",
+        "ColorBlock": 1002,
         "IconHint": "quibusdam",
-        "Selected": false,
-        "LastChanged": "2001-09-06T16:32:39.2426162+02:00",
+        "Selected": true,
+        "LastChanged": "2025-04-05T17:54:03.2108272+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "blanditiis",
         "Hidden": false,
-        "FullName": "Ruthe Cloyd Wiegand IV",
+        "FullName": "Mr. Nellie Sierra Abbott Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 737
+            "FieldType": "System.String",
+            "FieldLength": 681
           }
         }
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "earum",
+    "ExtraInfo": "nisi",
+    "StyleHint": "at",
     "Hidden": false,
-    "FullName": "Mrs. Lupe Johnston IV",
+    "FullName": "Wilford Parker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 260
+        "FieldLength": 890
       }
     }
   }

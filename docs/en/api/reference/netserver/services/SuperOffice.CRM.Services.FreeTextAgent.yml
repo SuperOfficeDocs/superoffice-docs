@@ -5,18 +5,14 @@ items:
   id: FreeTextAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.FreeTextAgent.#ctor
-  - SuperOffice.CRM.Services.FreeTextAgent.AddWords(System.String)
-  - SuperOffice.CRM.Services.FreeTextAgent.DeleteStopWordsById(System.Int32[])
-  - SuperOffice.CRM.Services.FreeTextAgent.FreetextIndexRows(System.String,System.Int32[])
-  - SuperOffice.CRM.Services.FreeTextAgent.GetStatus
-  - SuperOffice.CRM.Services.FreeTextAgent.GetStopWordList
-  - SuperOffice.CRM.Services.FreeTextAgent.GetSuggestedStopWords(System.Int32)
-  - SuperOffice.CRM.Services.FreeTextAgent.RegenerateIndex(System.Boolean)
-  - SuperOffice.CRM.Services.FreeTextAgent.SetAutoEnableTravelAreas(System.Boolean)
-  - SuperOffice.CRM.Services.FreeTextAgent.SetEnabled(System.Boolean)
-  - SuperOffice.CRM.Services.FreeTextAgent.SetMultiWordOperator(SuperOffice.Data.FreeTextOperator)
-  - SuperOffice.CRM.Services.FreeTextAgent.SetSingleWordOperator(SuperOffice.Data.FreeTextOperator)
+  - SuperOffice.CRM.Services.FreeTextAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFreeTextImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  - SuperOffice.CRM.Services.FreeTextAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFreeTextImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.FreeTextAgent.FreetextIndexRowsAsync(System.String,System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.FreeTextAgent.GetStatusAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.FreeTextAgent.RegenerateIndexAsync(System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.FreeTextAgent.SetEnabledAsync(System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.FreeTextAgent.SetMultiWordOperatorAsync(SuperOffice.Data.FreeTextOperator,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.FreeTextAgent.SetSingleWordOperatorAsync(SuperOffice.Data.FreeTextOperator,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -24,487 +20,343 @@ items:
   nameWithType: FreeTextAgent
   fullName: SuperOffice.CRM.Services.FreeTextAgent
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nFacade for the FreeText Agent\nThis agent can be used to manage the free text system\n"
-  example:
-  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (FreeTextAgent agent = new FreeTextAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  summary: >-
+    Proxy class for the FreeText Agent
+
+    Used when communicating remote using WebServices.
+
+    Avoid using directly. Use the AgentFactory to create the proxy instead.
+  example: []
   syntax:
-    content: 'public class FreeTextAgent : AgentBase<IFreeTextAgent>, IDisposable, IFreeTextAgent, IAgent'
-    content.vb: >-
-      Public Class FreeTextAgent
-          Inherits AgentBase(Of IFreeTextAgent)
-          Implements IDisposable, IFreeTextAgent, IAgent
+    content: 'public class FreeTextAgent : IFreeTextAgent, IAgent'
+    content.vb: Public Class FreeTextAgent Implements IFreeTextAgent, IAgent
   inheritance:
   - System.Object
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFreeTextAgent}
   implements:
-  - System.IDisposable
   - SuperOffice.CRM.Services.IFreeTextAgent
   - SuperOffice.CRM.Services.IAgent
   inheritedMembers:
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFreeTextAgent}.Dispose
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFreeTextAgent}.InnerAgent
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.CRM.Services.FreeTextAgent.GetStatus
-  commentId: M:SuperOffice.CRM.Services.FreeTextAgent.GetStatus
-  id: GetStatus
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Services.FreeTextAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFreeTextImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  commentId: M:SuperOffice.CRM.Services.FreeTextAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFreeTextImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFreeTextImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
   parent: SuperOffice.CRM.Services.FreeTextAgent
   langs:
   - csharp
   - vb
-  name: GetStatus()
-  nameWithType: FreeTextAgent.GetStatus()
-  fullName: SuperOffice.CRM.Services.FreeTextAgent.GetStatus()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
+  name: FreeTextAgent(IFreeTextImplementation, ISoRequestItemsAccessor)
+  nameWithType: FreeTextAgent.FreeTextAgent(IFreeTextImplementation, ISoRequestItemsAccessor)
+  fullName: SuperOffice.CRM.Services.FreeTextAgent.FreeTextAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFreeTextImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  type: Constructor
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns status for the freetext search words\n"
   syntax:
-    content: public FreeText GetStatus()
+    content: public FreeTextAgent(IFreeTextImplementation freeTextImplementation, ISoRequestItemsAccessor accessor)
+    parameters:
+    - id: freeTextImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IFreeTextImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    content.vb: Public Sub New(freeTextImplementation As IFreeTextImplementation, accessor As ISoRequestItemsAccessor)
+  overload: SuperOffice.CRM.Services.FreeTextAgent.#ctor*
+  nameWithType.vb: FreeTextAgent.New(IFreeTextImplementation, ISoRequestItemsAccessor)
+  fullName.vb: SuperOffice.CRM.Services.FreeTextAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFreeTextImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name.vb: New(IFreeTextImplementation, ISoRequestItemsAccessor)
+- uid: SuperOffice.CRM.Services.FreeTextAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFreeTextImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.FreeTextAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFreeTextImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFreeTextImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+  parent: SuperOffice.CRM.Services.FreeTextAgent
+  langs:
+  - csharp
+  - vb
+  name: FreeTextAgent(IFreeTextImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: FreeTextAgent.FreeTextAgent(IFreeTextImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.FreeTextAgent.FreeTextAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFreeTextImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public FreeTextAgent(IFreeTextImplementation freeTextImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    parameters:
+    - id: freeTextImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IFreeTextImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    - id: debugUser
+      type: SuperOffice.Data.IDebugUser
+    - id: serviceCallsRepository
+      type: SuperOffice.Diagnostics.IServiceCallsRepository
+    content.vb: Public Sub New(freeTextImplementation As IFreeTextImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+  overload: SuperOffice.CRM.Services.FreeTextAgent.#ctor*
+  nameWithType.vb: FreeTextAgent.New(IFreeTextImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.FreeTextAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFreeTextImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(IFreeTextImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+- uid: SuperOffice.CRM.Services.FreeTextAgent.GetStatusAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.FreeTextAgent.GetStatusAsync(System.Threading.CancellationToken)
+  id: GetStatusAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.FreeTextAgent
+  langs:
+  - csharp
+  - vb
+  name: GetStatusAsync(CancellationToken)
+  nameWithType: FreeTextAgent.GetStatusAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.FreeTextAgent.GetStatusAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Returns status for the freetext search words
+  example: []
+  syntax:
+    content: public Task<FreeText> GetStatusAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.FreeText
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FreeText}
       description: The freetext status
-    content.vb: Public Function GetStatus As FreeText
-  overload: SuperOffice.CRM.Services.FreeTextAgent.GetStatus*
+    content.vb: Public Function GetStatusAsync(cancellationToken As CancellationToken = Nothing) As Task(Of FreeText)
+  overload: SuperOffice.CRM.Services.FreeTextAgent.GetStatusAsync*
   implements:
-  - SuperOffice.CRM.Services.IFreeTextAgent.GetStatus
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.FreeTextAgent.SetEnabled(System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.FreeTextAgent.SetEnabled(System.Boolean)
-  id: SetEnabled(System.Boolean)
+  - SuperOffice.CRM.Services.IFreeTextAgent.GetStatusAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.FreeTextAgent.SetEnabledAsync(System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.FreeTextAgent.SetEnabledAsync(System.Boolean,System.Threading.CancellationToken)
+  id: SetEnabledAsync(System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.FreeTextAgent
   langs:
   - csharp
   - vb
-  name: SetEnabled(Boolean)
-  nameWithType: FreeTextAgent.SetEnabled(Boolean)
-  fullName: SuperOffice.CRM.Services.FreeTextAgent.SetEnabled(System.Boolean)
+  name: SetEnabledAsync(bool, CancellationToken)
+  nameWithType: FreeTextAgent.SetEnabledAsync(bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.FreeTextAgent.SetEnabledAsync(bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nSets freetext search to enabled (true) or disabled (false)\n"
+  summary: Sets freetext search to enabled (true) or disabled (false)
+  example: []
   syntax:
-    content: public void SetEnabled(bool enabled)
+    content: public Task SetEnabledAsync(bool enabled, CancellationToken cancellationToken = default)
     parameters:
     - id: enabled
       type: System.Boolean
       description: If enabled true, else false
-    content.vb: Public Sub SetEnabled(enabled As Boolean)
-  overload: SuperOffice.CRM.Services.FreeTextAgent.SetEnabled*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function SetEnabledAsync(enabled As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.FreeTextAgent.SetEnabledAsync*
   implements:
-  - SuperOffice.CRM.Services.IFreeTextAgent.SetEnabled(System.Boolean)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.FreeTextAgent.SetAutoEnableTravelAreas(System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.FreeTextAgent.SetAutoEnableTravelAreas(System.Boolean)
-  id: SetAutoEnableTravelAreas(System.Boolean)
+  - SuperOffice.CRM.Services.IFreeTextAgent.SetEnabledAsync(System.Boolean,System.Threading.CancellationToken)
+  nameWithType.vb: FreeTextAgent.SetEnabledAsync(Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.FreeTextAgent.SetEnabledAsync(Boolean, System.Threading.CancellationToken)
+  name.vb: SetEnabledAsync(Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.FreeTextAgent.SetSingleWordOperatorAsync(SuperOffice.Data.FreeTextOperator,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.FreeTextAgent.SetSingleWordOperatorAsync(SuperOffice.Data.FreeTextOperator,System.Threading.CancellationToken)
+  id: SetSingleWordOperatorAsync(SuperOffice.Data.FreeTextOperator,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.FreeTextAgent
   langs:
   - csharp
   - vb
-  name: SetAutoEnableTravelAreas(Boolean)
-  nameWithType: FreeTextAgent.SetAutoEnableTravelAreas(Boolean)
-  fullName: SuperOffice.CRM.Services.FreeTextAgent.SetAutoEnableTravelAreas(System.Boolean)
+  name: SetSingleWordOperatorAsync(FreeTextOperator, CancellationToken)
+  nameWithType: FreeTextAgent.SetSingleWordOperatorAsync(FreeTextOperator, CancellationToken)
+  fullName: SuperOffice.CRM.Services.FreeTextAgent.SetSingleWordOperatorAsync(SuperOffice.Data.FreeTextOperator, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nAutomatically enable freetext search for new travel areas? true or false\n"
+  summary: Sets the operator used when matching single words
+  example: []
   syntax:
-    content: public void SetAutoEnableTravelAreas(bool autoEnable)
-    parameters:
-    - id: autoEnable
-      type: System.Boolean
-      description: If true, auto enable
-    content.vb: Public Sub SetAutoEnableTravelAreas(autoEnable As Boolean)
-  overload: SuperOffice.CRM.Services.FreeTextAgent.SetAutoEnableTravelAreas*
-  implements:
-  - SuperOffice.CRM.Services.IFreeTextAgent.SetAutoEnableTravelAreas(System.Boolean)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.FreeTextAgent.SetSingleWordOperator(SuperOffice.Data.FreeTextOperator)
-  commentId: M:SuperOffice.CRM.Services.FreeTextAgent.SetSingleWordOperator(SuperOffice.Data.FreeTextOperator)
-  id: SetSingleWordOperator(SuperOffice.Data.FreeTextOperator)
-  parent: SuperOffice.CRM.Services.FreeTextAgent
-  langs:
-  - csharp
-  - vb
-  name: SetSingleWordOperator(FreeTextOperator)
-  nameWithType: FreeTextAgent.SetSingleWordOperator(FreeTextOperator)
-  fullName: SuperOffice.CRM.Services.FreeTextAgent.SetSingleWordOperator(SuperOffice.Data.FreeTextOperator)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nSets the operator used when matching single words\n"
-  syntax:
-    content: public void SetSingleWordOperator(FreeTextOperator freeTextOperator)
+    content: public Task SetSingleWordOperatorAsync(FreeTextOperator freeTextOperator, CancellationToken cancellationToken = default)
     parameters:
     - id: freeTextOperator
       type: SuperOffice.Data.FreeTextOperator
       description: The operator
-    content.vb: Public Sub SetSingleWordOperator(freeTextOperator As FreeTextOperator)
-  overload: SuperOffice.CRM.Services.FreeTextAgent.SetSingleWordOperator*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function SetSingleWordOperatorAsync(freeTextOperator As FreeTextOperator, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.FreeTextAgent.SetSingleWordOperatorAsync*
   implements:
-  - SuperOffice.CRM.Services.IFreeTextAgent.SetSingleWordOperator(SuperOffice.Data.FreeTextOperator)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.FreeTextAgent.SetMultiWordOperator(SuperOffice.Data.FreeTextOperator)
-  commentId: M:SuperOffice.CRM.Services.FreeTextAgent.SetMultiWordOperator(SuperOffice.Data.FreeTextOperator)
-  id: SetMultiWordOperator(SuperOffice.Data.FreeTextOperator)
+  - SuperOffice.CRM.Services.IFreeTextAgent.SetSingleWordOperatorAsync(SuperOffice.Data.FreeTextOperator,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.FreeTextAgent.SetMultiWordOperatorAsync(SuperOffice.Data.FreeTextOperator,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.FreeTextAgent.SetMultiWordOperatorAsync(SuperOffice.Data.FreeTextOperator,System.Threading.CancellationToken)
+  id: SetMultiWordOperatorAsync(SuperOffice.Data.FreeTextOperator,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.FreeTextAgent
   langs:
   - csharp
   - vb
-  name: SetMultiWordOperator(FreeTextOperator)
-  nameWithType: FreeTextAgent.SetMultiWordOperator(FreeTextOperator)
-  fullName: SuperOffice.CRM.Services.FreeTextAgent.SetMultiWordOperator(SuperOffice.Data.FreeTextOperator)
+  name: SetMultiWordOperatorAsync(FreeTextOperator, CancellationToken)
+  nameWithType: FreeTextAgent.SetMultiWordOperatorAsync(FreeTextOperator, CancellationToken)
+  fullName: SuperOffice.CRM.Services.FreeTextAgent.SetMultiWordOperatorAsync(SuperOffice.Data.FreeTextOperator, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nSets the operator used when matching multiple words\n"
+  summary: Sets the operator used when matching multiple words
+  example: []
   syntax:
-    content: public void SetMultiWordOperator(FreeTextOperator freeTextOperator)
+    content: public Task SetMultiWordOperatorAsync(FreeTextOperator freeTextOperator, CancellationToken cancellationToken = default)
     parameters:
     - id: freeTextOperator
       type: SuperOffice.Data.FreeTextOperator
       description: The operator
-    content.vb: Public Sub SetMultiWordOperator(freeTextOperator As FreeTextOperator)
-  overload: SuperOffice.CRM.Services.FreeTextAgent.SetMultiWordOperator*
-  implements:
-  - SuperOffice.CRM.Services.IFreeTextAgent.SetMultiWordOperator(SuperOffice.Data.FreeTextOperator)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.FreeTextAgent.GetStopWordList
-  commentId: M:SuperOffice.CRM.Services.FreeTextAgent.GetStopWordList
-  id: GetStopWordList
-  parent: SuperOffice.CRM.Services.FreeTextAgent
-  langs:
-  - csharp
-  - vb
-  name: GetStopWordList()
-  nameWithType: FreeTextAgent.GetStopWordList()
-  fullName: SuperOffice.CRM.Services.FreeTextAgent.GetStopWordList()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the list of stop words\n"
-  syntax:
-    content: public string[] GetStopWordList()
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.String[]
-      description: The list of stop words
-    content.vb: Public Function GetStopWordList As String()
-  overload: SuperOffice.CRM.Services.FreeTextAgent.GetStopWordList*
+      type: System.Threading.Tasks.Task
+      description: No return value
+    content.vb: Public Function SetMultiWordOperatorAsync(freeTextOperator As FreeTextOperator, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.FreeTextAgent.SetMultiWordOperatorAsync*
   implements:
-  - SuperOffice.CRM.Services.IFreeTextAgent.GetStopWordList
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.FreeTextAgent.AddWords(System.String)
-  commentId: M:SuperOffice.CRM.Services.FreeTextAgent.AddWords(System.String)
-  id: AddWords(System.String)
+  - SuperOffice.CRM.Services.IFreeTextAgent.SetMultiWordOperatorAsync(SuperOffice.Data.FreeTextOperator,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.FreeTextAgent.RegenerateIndexAsync(System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.FreeTextAgent.RegenerateIndexAsync(System.Boolean,System.Threading.CancellationToken)
+  id: RegenerateIndexAsync(System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.FreeTextAgent
   langs:
   - csharp
   - vb
-  name: AddWords(String)
-  nameWithType: FreeTextAgent.AddWords(String)
-  fullName: SuperOffice.CRM.Services.FreeTextAgent.AddWords(System.String)
+  name: RegenerateIndexAsync(bool, CancellationToken)
+  nameWithType: FreeTextAgent.RegenerateIndexAsync(bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.FreeTextAgent.RegenerateIndexAsync(bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nAdds the words in the string to the stop word list\n"
+  summary: Wipe and regenerate the freetext index by scanning the database (freetext search will be unavailable while this operation runs
+  example: []
   syntax:
-    content: public void AddWords(string stopWords)
-    parameters:
-    - id: stopWords
-      type: System.String
-      description: The stop words to add
-    content.vb: Public Sub AddWords(stopWords As String)
-  overload: SuperOffice.CRM.Services.FreeTextAgent.AddWords*
-  implements:
-  - SuperOffice.CRM.Services.IFreeTextAgent.AddWords(System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.FreeTextAgent.DeleteStopWordsById(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.FreeTextAgent.DeleteStopWordsById(System.Int32[])
-  id: DeleteStopWordsById(System.Int32[])
-  parent: SuperOffice.CRM.Services.FreeTextAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteStopWordsById(Int32[])
-  nameWithType: FreeTextAgent.DeleteStopWordsById(Int32[])
-  fullName: SuperOffice.CRM.Services.FreeTextAgent.DeleteStopWordsById(System.Int32[])
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nDelete the stop words with these ids\n"
-  syntax:
-    content: public void DeleteStopWordsById(int[] stopWordIds)
-    parameters:
-    - id: stopWordIds
-      type: System.Int32[]
-      description: The ids of the stopwords to delete
-    content.vb: Public Sub DeleteStopWordsById(stopWordIds As Integer())
-  overload: SuperOffice.CRM.Services.FreeTextAgent.DeleteStopWordsById*
-  implements:
-  - SuperOffice.CRM.Services.IFreeTextAgent.DeleteStopWordsById(System.Int32[])
-  nameWithType.vb: FreeTextAgent.DeleteStopWordsById(Int32())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.FreeTextAgent.DeleteStopWordsById(System.Int32())
-  name.vb: DeleteStopWordsById(Int32())
-- uid: SuperOffice.CRM.Services.FreeTextAgent.GetSuggestedStopWords(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.FreeTextAgent.GetSuggestedStopWords(System.Int32)
-  id: GetSuggestedStopWords(System.Int32)
-  parent: SuperOffice.CRM.Services.FreeTextAgent
-  langs:
-  - csharp
-  - vb
-  name: GetSuggestedStopWords(Int32)
-  nameWithType: FreeTextAgent.GetSuggestedStopWords(Int32)
-  fullName: SuperOffice.CRM.Services.FreeTextAgent.GetSuggestedStopWords(System.Int32)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the top used words in the freetext index table, sorted as most used first\n"
-  syntax:
-    content: public MDOListItem[] GetSuggestedStopWords(int countWords)
-    parameters:
-    - id: countWords
-      type: System.Int32
-      description: The count of words that will be returned
-    return:
-      type: SuperOffice.CRM.Services.MDOListItem[]
-      description: The most used words
-    content.vb: Public Function GetSuggestedStopWords(countWords As Integer) As MDOListItem()
-  overload: SuperOffice.CRM.Services.FreeTextAgent.GetSuggestedStopWords*
-  implements:
-  - SuperOffice.CRM.Services.IFreeTextAgent.GetSuggestedStopWords(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.FreeTextAgent.RegenerateIndex(System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.FreeTextAgent.RegenerateIndex(System.Boolean)
-  id: RegenerateIndex(System.Boolean)
-  parent: SuperOffice.CRM.Services.FreeTextAgent
-  langs:
-  - csharp
-  - vb
-  name: RegenerateIndex(Boolean)
-  nameWithType: FreeTextAgent.RegenerateIndex(Boolean)
-  fullName: SuperOffice.CRM.Services.FreeTextAgent.RegenerateIndex(System.Boolean)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nWipe and regenerate the freetext index by scanning the database (freetext search will be unavailable while this operation runs\n"
-  syntax:
-    content: public BatchTaskInfo RegenerateIndex(bool runAsBatch)
+    content: public Task<BatchTaskInfo> RegenerateIndexAsync(bool runAsBatch, CancellationToken cancellationToken = default)
     parameters:
     - id: runAsBatch
       type: System.Boolean
       description: If true, then execute the regeneration as a Batch Task; the service call will return immediately. Otherwise wait until the task completes, may cause a timeout if called as a Web Service
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.BatchTaskInfo
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BatchTaskInfo}
       description: Information about the batch task, if batch execution was requested. Otherwise null
-    content.vb: Public Function RegenerateIndex(runAsBatch As Boolean) As BatchTaskInfo
-  overload: SuperOffice.CRM.Services.FreeTextAgent.RegenerateIndex*
+    content.vb: Public Function RegenerateIndexAsync(runAsBatch As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of BatchTaskInfo)
+  overload: SuperOffice.CRM.Services.FreeTextAgent.RegenerateIndexAsync*
   implements:
-  - SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndex(System.Boolean)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.FreeTextAgent.FreetextIndexRows(System.String,System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.FreeTextAgent.FreetextIndexRows(System.String,System.Int32[])
-  id: FreetextIndexRows(System.String,System.Int32[])
+  - SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndexAsync(System.Boolean,System.Threading.CancellationToken)
+  nameWithType.vb: FreeTextAgent.RegenerateIndexAsync(Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.FreeTextAgent.RegenerateIndexAsync(Boolean, System.Threading.CancellationToken)
+  name.vb: RegenerateIndexAsync(Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.FreeTextAgent.FreetextIndexRowsAsync(System.String,System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.FreeTextAgent.FreetextIndexRowsAsync(System.String,System.Int32[],System.Threading.CancellationToken)
+  id: FreetextIndexRowsAsync(System.String,System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.FreeTextAgent
   langs:
   - csharp
   - vb
-  name: FreetextIndexRows(String, Int32[])
-  nameWithType: FreeTextAgent.FreetextIndexRows(String, Int32[])
-  fullName: SuperOffice.CRM.Services.FreeTextAgent.FreetextIndexRows(System.String, System.Int32[])
+  name: FreetextIndexRowsAsync(string, int[], CancellationToken)
+  nameWithType: FreeTextAgent.FreetextIndexRowsAsync(string, int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.FreeTextAgent.FreetextIndexRowsAsync(string, int[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nUpdate the freetext index for one or more rows from the same table\n"
+  summary: Update the freetext index for one or more rows from the same table
+  example: []
   syntax:
-    content: public void FreetextIndexRows(string tableName, int[] iDs)
+    content: public Task FreetextIndexRowsAsync(string tableName, int[] iDs, CancellationToken cancellationToken = default)
     parameters:
     - id: tableName
       type: System.String
       description: The name of the table the rows come from; this table should have at least one freetext-indexable field
     - id: iDs
       type: System.Int32[]
-      description: One or more primary keys, identifying records to be (re)indexed. It doesn&apos;t matter if they have been indexed before or not
-    content.vb: Public Sub FreetextIndexRows(tableName As String, iDs As Integer())
-  overload: SuperOffice.CRM.Services.FreeTextAgent.FreetextIndexRows*
+      description: One or more primary keys, identifying records to be (re)indexed. It doesn't matter if they have been indexed before or not
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function FreetextIndexRowsAsync(tableName As String, iDs As Integer(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.FreeTextAgent.FreetextIndexRowsAsync*
   implements:
-  - SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows(System.String,System.Int32[])
-  nameWithType.vb: FreeTextAgent.FreetextIndexRows(String, Int32())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.FreeTextAgent.FreetextIndexRows(System.String, System.Int32())
-  name.vb: FreetextIndexRows(String, Int32())
-- uid: SuperOffice.CRM.Services.FreeTextAgent.#ctor
-  commentId: M:SuperOffice.CRM.Services.FreeTextAgent.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.Services.FreeTextAgent
-  langs:
-  - csharp
-  - vb
-  name: FreeTextAgent()
-  nameWithType: FreeTextAgent.FreeTextAgent()
-  fullName: SuperOffice.CRM.Services.FreeTextAgent.FreeTextAgent()
-  type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  syntax:
-    content: public FreeTextAgent()
-    content.vb: Public Sub New
-  overload: SuperOffice.CRM.Services.FreeTextAgent.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRowsAsync(System.String,System.Int32[],System.Threading.CancellationToken)
+  nameWithType.vb: FreeTextAgent.FreetextIndexRowsAsync(String, Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.FreeTextAgent.FreetextIndexRowsAsync(String, Integer(), System.Threading.CancellationToken)
+  name.vb: FreetextIndexRowsAsync(String, Integer(), CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFreeTextAgent}
-  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFreeTextAgent}
-  parent: SuperOffice.CRM.Services
-  definition: SuperOffice.CRM.Services.AgentBase`1
-  name: AgentBase<IFreeTextAgent>
-  nameWithType: AgentBase<IFreeTextAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IFreeTextAgent>
-  nameWithType.vb: AgentBase(Of IFreeTextAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IFreeTextAgent)
-  name.vb: AgentBase(Of IFreeTextAgent)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.Services.IFreeTextAgent
-    name: IFreeTextAgent
-    nameWithType: IFreeTextAgent
-    fullName: SuperOffice.CRM.Services.IFreeTextAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.CRM.Services.IFreeTextAgent
-    name: IFreeTextAgent
-    nameWithType: IFreeTextAgent
-    fullName: SuperOffice.CRM.Services.IFreeTextAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IDisposable
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Services.IFreeTextAgent
   commentId: T:SuperOffice.CRM.Services.IFreeTextAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IFreeTextAgent.html
   name: IFreeTextAgent
   nameWithType: IFreeTextAgent
   fullName: SuperOffice.CRM.Services.IFreeTextAgent
@@ -512,788 +364,852 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IAgent.html
   name: IAgent
   nameWithType: IAgent
   fullName: SuperOffice.CRM.Services.IAgent
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFreeTextAgent}.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFreeTextAgent}.Dispose
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFreeTextAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  name: Dispose()
-  nameWithType: AgentBase<IFreeTextAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IFreeTextAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of IFreeTextAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IFreeTextAgent).Dispose()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<IFreeTextAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IFreeTextAgent>.Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of IFreeTextAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IFreeTextAgent).Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFreeTextAgent}.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFreeTextAgent}.InnerAgent
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFreeTextAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  name: InnerAgent
-  nameWithType: AgentBase<IFreeTextAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IFreeTextAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of IFreeTextAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IFreeTextAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.AgentBase`1
-  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: AgentBase<TAgent>
-  nameWithType: AgentBase<TAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
-  nameWithType.vb: AgentBase(Of TAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
-  name.vb: AgentBase(Of TAgent)
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.FreeTextAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.FreeTextAgent.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.FreeTextAgent.html#SuperOffice_CRM_Services_FreeTextAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_IFreeTextImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
+  name: FreeTextAgent
+  nameWithType: FreeTextAgent.FreeTextAgent
+  fullName: SuperOffice.CRM.Services.FreeTextAgent.FreeTextAgent
+  nameWithType.vb: FreeTextAgent.New
+  fullName.vb: SuperOffice.CRM.Services.FreeTextAgent.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.IFreeTextImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.IFreeTextImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.IFreeTextImplementation.html
+  name: IFreeTextImplementation
+  nameWithType: IFreeTextImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.IFreeTextImplementation
+- uid: SuperOffice.Factory.ISoRequestItemsAccessor
+  isExternal: true
+  name: ISoRequestItemsAccessor
+  nameWithType: ISoRequestItemsAccessor
+  fullName: SuperOffice.Factory.ISoRequestItemsAccessor
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  commentId: N:SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  nameWithType: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+- uid: SuperOffice.Data.IDebugUser
+  isExternal: true
+  name: IDebugUser
+  nameWithType: IDebugUser
+  fullName: SuperOffice.Data.IDebugUser
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository
+  isExternal: true
+  name: IServiceCallsRepository
+  nameWithType: IServiceCallsRepository
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.CRM.Services.FreeTextAgent.GetStatusAsync*
+  commentId: Overload:SuperOffice.CRM.Services.FreeTextAgent.GetStatusAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.FreeTextAgent.html#SuperOffice_CRM_Services_FreeTextAgent_GetStatusAsync_System_Threading_CancellationToken_
+  name: GetStatusAsync
+  nameWithType: FreeTextAgent.GetStatusAsync
+  fullName: SuperOffice.CRM.Services.FreeTextAgent.GetStatusAsync
+- uid: SuperOffice.CRM.Services.IFreeTextAgent.GetStatusAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.GetStatusAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IFreeTextAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetStatusAsync(CancellationToken)
+  nameWithType: IFreeTextAgent.GetStatusAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IFreeTextAgent.GetStatusAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IFreeTextAgent.GetStatusAsync(System.Threading.CancellationToken)
+    name: GetStatusAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IFreeTextAgent.GetStatusAsync(System.Threading.CancellationToken)
+    name: GetStatusAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FreeText}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.FreeText}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<FreeText>
+  nameWithType: Task<FreeText>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.FreeText>
+  nameWithType.vb: Task(Of FreeText)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.FreeText)
+  name.vb: Task(Of FreeText)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
+  - uid: SuperOffice.CRM.Services.FreeText
+    name: FreeText
+    isExternal: true
+    href: SuperOffice.CRM.Services.FreeText.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.FreeText
+    name: FreeText
+    isExternal: true
+    href: SuperOffice.CRM.Services.FreeText.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: Dispose()
-  nameWithType: AgentBase<TAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of TAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<TAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+  - uid: System
+    name: System
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of TAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+  - uid: System
+    name: System
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - name: TResult
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
   isExternal: true
-  name: InnerAgent
-  nameWithType: AgentBase<TAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.FreeTextAgent.GetStatus*
-  commentId: Overload:SuperOffice.CRM.Services.FreeTextAgent.GetStatus
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.FreeTextAgent.SetEnabledAsync*
+  commentId: Overload:SuperOffice.CRM.Services.FreeTextAgent.SetEnabledAsync
   isExternal: true
-  name: GetStatus
-  nameWithType: FreeTextAgent.GetStatus
-  fullName: SuperOffice.CRM.Services.FreeTextAgent.GetStatus
-- uid: SuperOffice.CRM.Services.IFreeTextAgent.GetStatus
-  commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.GetStatus
+  href: SuperOffice.CRM.Services.FreeTextAgent.html#SuperOffice_CRM_Services_FreeTextAgent_SetEnabledAsync_System_Boolean_System_Threading_CancellationToken_
+  name: SetEnabledAsync
+  nameWithType: FreeTextAgent.SetEnabledAsync
+  fullName: SuperOffice.CRM.Services.FreeTextAgent.SetEnabledAsync
+- uid: SuperOffice.CRM.Services.IFreeTextAgent.SetEnabledAsync(System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.SetEnabledAsync(System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IFreeTextAgent
   isExternal: true
-  name: GetStatus()
-  nameWithType: IFreeTextAgent.GetStatus()
-  fullName: SuperOffice.CRM.Services.IFreeTextAgent.GetStatus()
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: SetEnabledAsync(bool, CancellationToken)
+  nameWithType: IFreeTextAgent.SetEnabledAsync(bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IFreeTextAgent.SetEnabledAsync(bool, System.Threading.CancellationToken)
+  nameWithType.vb: IFreeTextAgent.SetEnabledAsync(Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IFreeTextAgent.SetEnabledAsync(Boolean, System.Threading.CancellationToken)
+  name.vb: SetEnabledAsync(Boolean, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IFreeTextAgent.GetStatus
-    name: GetStatus
-    nameWithType: IFreeTextAgent.GetStatus
-    fullName: SuperOffice.CRM.Services.IFreeTextAgent.GetStatus
+  - uid: SuperOffice.CRM.Services.IFreeTextAgent.SetEnabledAsync(System.Boolean,System.Threading.CancellationToken)
+    name: SetEnabledAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IFreeTextAgent.GetStatus
-    name: GetStatus
-    nameWithType: IFreeTextAgent.GetStatus
-    fullName: SuperOffice.CRM.Services.IFreeTextAgent.GetStatus
+  - uid: SuperOffice.CRM.Services.IFreeTextAgent.SetEnabledAsync(System.Boolean,System.Threading.CancellationToken)
+    name: SetEnabledAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.FreeText
-  commentId: T:SuperOffice.CRM.Services.FreeText
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: FreeText
-  nameWithType: FreeText
-  fullName: SuperOffice.CRM.Services.FreeText
-- uid: SuperOffice.CRM.Services.FreeTextAgent.SetEnabled*
-  commentId: Overload:SuperOffice.CRM.Services.FreeTextAgent.SetEnabled
-  isExternal: true
-  name: SetEnabled
-  nameWithType: FreeTextAgent.SetEnabled
-  fullName: SuperOffice.CRM.Services.FreeTextAgent.SetEnabled
-- uid: SuperOffice.CRM.Services.IFreeTextAgent.SetEnabled(System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.SetEnabled(System.Boolean)
-  parent: SuperOffice.CRM.Services.IFreeTextAgent
-  isExternal: true
-  name: SetEnabled(Boolean)
-  nameWithType: IFreeTextAgent.SetEnabled(Boolean)
-  fullName: SuperOffice.CRM.Services.IFreeTextAgent.SetEnabled(System.Boolean)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IFreeTextAgent.SetEnabled(System.Boolean)
-    name: SetEnabled
-    nameWithType: IFreeTextAgent.SetEnabled
-    fullName: SuperOffice.CRM.Services.IFreeTextAgent.SetEnabled
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IFreeTextAgent.SetEnabled(System.Boolean)
-    name: SetEnabled
-    nameWithType: IFreeTextAgent.SetEnabled
-    fullName: SuperOffice.CRM.Services.IFreeTextAgent.SetEnabled
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System
-  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.CRM.Services.FreeTextAgent.SetAutoEnableTravelAreas*
-  commentId: Overload:SuperOffice.CRM.Services.FreeTextAgent.SetAutoEnableTravelAreas
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Services.FreeTextAgent.SetSingleWordOperatorAsync*
+  commentId: Overload:SuperOffice.CRM.Services.FreeTextAgent.SetSingleWordOperatorAsync
   isExternal: true
-  name: SetAutoEnableTravelAreas
-  nameWithType: FreeTextAgent.SetAutoEnableTravelAreas
-  fullName: SuperOffice.CRM.Services.FreeTextAgent.SetAutoEnableTravelAreas
-- uid: SuperOffice.CRM.Services.IFreeTextAgent.SetAutoEnableTravelAreas(System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.SetAutoEnableTravelAreas(System.Boolean)
+  href: SuperOffice.CRM.Services.FreeTextAgent.html#SuperOffice_CRM_Services_FreeTextAgent_SetSingleWordOperatorAsync_SuperOffice_Data_FreeTextOperator_System_Threading_CancellationToken_
+  name: SetSingleWordOperatorAsync
+  nameWithType: FreeTextAgent.SetSingleWordOperatorAsync
+  fullName: SuperOffice.CRM.Services.FreeTextAgent.SetSingleWordOperatorAsync
+- uid: SuperOffice.CRM.Services.IFreeTextAgent.SetSingleWordOperatorAsync(SuperOffice.Data.FreeTextOperator,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.SetSingleWordOperatorAsync(SuperOffice.Data.FreeTextOperator,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IFreeTextAgent
   isExternal: true
-  name: SetAutoEnableTravelAreas(Boolean)
-  nameWithType: IFreeTextAgent.SetAutoEnableTravelAreas(Boolean)
-  fullName: SuperOffice.CRM.Services.IFreeTextAgent.SetAutoEnableTravelAreas(System.Boolean)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: SetSingleWordOperatorAsync(FreeTextOperator, CancellationToken)
+  nameWithType: IFreeTextAgent.SetSingleWordOperatorAsync(FreeTextOperator, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IFreeTextAgent.SetSingleWordOperatorAsync(SuperOffice.Data.FreeTextOperator, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IFreeTextAgent.SetAutoEnableTravelAreas(System.Boolean)
-    name: SetAutoEnableTravelAreas
-    nameWithType: IFreeTextAgent.SetAutoEnableTravelAreas
-    fullName: SuperOffice.CRM.Services.IFreeTextAgent.SetAutoEnableTravelAreas
+  - uid: SuperOffice.CRM.Services.IFreeTextAgent.SetSingleWordOperatorAsync(SuperOffice.Data.FreeTextOperator,System.Threading.CancellationToken)
+    name: SetSingleWordOperatorAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IFreeTextAgent.SetAutoEnableTravelAreas(System.Boolean)
-    name: SetAutoEnableTravelAreas
-    nameWithType: IFreeTextAgent.SetAutoEnableTravelAreas
-    fullName: SuperOffice.CRM.Services.IFreeTextAgent.SetAutoEnableTravelAreas
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.FreeTextAgent.SetSingleWordOperator*
-  commentId: Overload:SuperOffice.CRM.Services.FreeTextAgent.SetSingleWordOperator
-  isExternal: true
-  name: SetSingleWordOperator
-  nameWithType: FreeTextAgent.SetSingleWordOperator
-  fullName: SuperOffice.CRM.Services.FreeTextAgent.SetSingleWordOperator
-- uid: SuperOffice.CRM.Services.IFreeTextAgent.SetSingleWordOperator(SuperOffice.Data.FreeTextOperator)
-  commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.SetSingleWordOperator(SuperOffice.Data.FreeTextOperator)
-  parent: SuperOffice.CRM.Services.IFreeTextAgent
-  isExternal: true
-  name: SetSingleWordOperator(FreeTextOperator)
-  nameWithType: IFreeTextAgent.SetSingleWordOperator(FreeTextOperator)
-  fullName: SuperOffice.CRM.Services.IFreeTextAgent.SetSingleWordOperator(SuperOffice.Data.FreeTextOperator)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IFreeTextAgent.SetSingleWordOperator(SuperOffice.Data.FreeTextOperator)
-    name: SetSingleWordOperator
-    nameWithType: IFreeTextAgent.SetSingleWordOperator
-    fullName: SuperOffice.CRM.Services.IFreeTextAgent.SetSingleWordOperator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.FreeTextOperator
     name: FreeTextOperator
-    nameWithType: FreeTextOperator
-    fullName: SuperOffice.Data.FreeTextOperator
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IFreeTextAgent.SetSingleWordOperator(SuperOffice.Data.FreeTextOperator)
-    name: SetSingleWordOperator
-    nameWithType: IFreeTextAgent.SetSingleWordOperator
-    fullName: SuperOffice.CRM.Services.IFreeTextAgent.SetSingleWordOperator
+  - uid: SuperOffice.CRM.Services.IFreeTextAgent.SetSingleWordOperatorAsync(SuperOffice.Data.FreeTextOperator,System.Threading.CancellationToken)
+    name: SetSingleWordOperatorAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.FreeTextOperator
     name: FreeTextOperator
-    nameWithType: FreeTextOperator
-    fullName: SuperOffice.Data.FreeTextOperator
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.FreeTextOperator
   isExternal: true
   name: FreeTextOperator
   nameWithType: FreeTextOperator
   fullName: SuperOffice.Data.FreeTextOperator
-- uid: SuperOffice.CRM.Services.FreeTextAgent.SetMultiWordOperator*
-  commentId: Overload:SuperOffice.CRM.Services.FreeTextAgent.SetMultiWordOperator
+- uid: SuperOffice.CRM.Services.FreeTextAgent.SetMultiWordOperatorAsync*
+  commentId: Overload:SuperOffice.CRM.Services.FreeTextAgent.SetMultiWordOperatorAsync
   isExternal: true
-  name: SetMultiWordOperator
-  nameWithType: FreeTextAgent.SetMultiWordOperator
-  fullName: SuperOffice.CRM.Services.FreeTextAgent.SetMultiWordOperator
-- uid: SuperOffice.CRM.Services.IFreeTextAgent.SetMultiWordOperator(SuperOffice.Data.FreeTextOperator)
-  commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.SetMultiWordOperator(SuperOffice.Data.FreeTextOperator)
+  href: SuperOffice.CRM.Services.FreeTextAgent.html#SuperOffice_CRM_Services_FreeTextAgent_SetMultiWordOperatorAsync_SuperOffice_Data_FreeTextOperator_System_Threading_CancellationToken_
+  name: SetMultiWordOperatorAsync
+  nameWithType: FreeTextAgent.SetMultiWordOperatorAsync
+  fullName: SuperOffice.CRM.Services.FreeTextAgent.SetMultiWordOperatorAsync
+- uid: SuperOffice.CRM.Services.IFreeTextAgent.SetMultiWordOperatorAsync(SuperOffice.Data.FreeTextOperator,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.SetMultiWordOperatorAsync(SuperOffice.Data.FreeTextOperator,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IFreeTextAgent
   isExternal: true
-  name: SetMultiWordOperator(FreeTextOperator)
-  nameWithType: IFreeTextAgent.SetMultiWordOperator(FreeTextOperator)
-  fullName: SuperOffice.CRM.Services.IFreeTextAgent.SetMultiWordOperator(SuperOffice.Data.FreeTextOperator)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: SetMultiWordOperatorAsync(FreeTextOperator, CancellationToken)
+  nameWithType: IFreeTextAgent.SetMultiWordOperatorAsync(FreeTextOperator, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IFreeTextAgent.SetMultiWordOperatorAsync(SuperOffice.Data.FreeTextOperator, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IFreeTextAgent.SetMultiWordOperator(SuperOffice.Data.FreeTextOperator)
-    name: SetMultiWordOperator
-    nameWithType: IFreeTextAgent.SetMultiWordOperator
-    fullName: SuperOffice.CRM.Services.IFreeTextAgent.SetMultiWordOperator
+  - uid: SuperOffice.CRM.Services.IFreeTextAgent.SetMultiWordOperatorAsync(SuperOffice.Data.FreeTextOperator,System.Threading.CancellationToken)
+    name: SetMultiWordOperatorAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.FreeTextOperator
     name: FreeTextOperator
-    nameWithType: FreeTextOperator
-    fullName: SuperOffice.Data.FreeTextOperator
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IFreeTextAgent.SetMultiWordOperator(SuperOffice.Data.FreeTextOperator)
-    name: SetMultiWordOperator
-    nameWithType: IFreeTextAgent.SetMultiWordOperator
-    fullName: SuperOffice.CRM.Services.IFreeTextAgent.SetMultiWordOperator
+  - uid: SuperOffice.CRM.Services.IFreeTextAgent.SetMultiWordOperatorAsync(SuperOffice.Data.FreeTextOperator,System.Threading.CancellationToken)
+    name: SetMultiWordOperatorAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.FreeTextOperator
     name: FreeTextOperator
-    nameWithType: FreeTextOperator
-    fullName: SuperOffice.Data.FreeTextOperator
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.FreeTextAgent.GetStopWordList*
-  commentId: Overload:SuperOffice.CRM.Services.FreeTextAgent.GetStopWordList
+- uid: SuperOffice.CRM.Services.FreeTextAgent.RegenerateIndexAsync*
+  commentId: Overload:SuperOffice.CRM.Services.FreeTextAgent.RegenerateIndexAsync
   isExternal: true
-  name: GetStopWordList
-  nameWithType: FreeTextAgent.GetStopWordList
-  fullName: SuperOffice.CRM.Services.FreeTextAgent.GetStopWordList
-- uid: SuperOffice.CRM.Services.IFreeTextAgent.GetStopWordList
-  commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.GetStopWordList
+  href: SuperOffice.CRM.Services.FreeTextAgent.html#SuperOffice_CRM_Services_FreeTextAgent_RegenerateIndexAsync_System_Boolean_System_Threading_CancellationToken_
+  name: RegenerateIndexAsync
+  nameWithType: FreeTextAgent.RegenerateIndexAsync
+  fullName: SuperOffice.CRM.Services.FreeTextAgent.RegenerateIndexAsync
+- uid: SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndexAsync(System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndexAsync(System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IFreeTextAgent
   isExternal: true
-  name: GetStopWordList()
-  nameWithType: IFreeTextAgent.GetStopWordList()
-  fullName: SuperOffice.CRM.Services.IFreeTextAgent.GetStopWordList()
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: RegenerateIndexAsync(bool, CancellationToken)
+  nameWithType: IFreeTextAgent.RegenerateIndexAsync(bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndexAsync(bool, System.Threading.CancellationToken)
+  nameWithType.vb: IFreeTextAgent.RegenerateIndexAsync(Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndexAsync(Boolean, System.Threading.CancellationToken)
+  name.vb: RegenerateIndexAsync(Boolean, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IFreeTextAgent.GetStopWordList
-    name: GetStopWordList
-    nameWithType: IFreeTextAgent.GetStopWordList
-    fullName: SuperOffice.CRM.Services.IFreeTextAgent.GetStopWordList
+  - uid: SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndexAsync(System.Boolean,System.Threading.CancellationToken)
+    name: RegenerateIndexAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IFreeTextAgent.GetStopWordList
-    name: GetStopWordList
-    nameWithType: IFreeTextAgent.GetStopWordList
-    fullName: SuperOffice.CRM.Services.IFreeTextAgent.GetStopWordList
+  - uid: SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndexAsync(System.Boolean,System.Threading.CancellationToken)
+    name: RegenerateIndexAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.String[]
-  isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
-  nameWithType.vb: String()
-  fullName.vb: System.String()
-  name.vb: String()
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BatchTaskInfo}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.BatchTaskInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<BatchTaskInfo>
+  nameWithType: Task<BatchTaskInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.BatchTaskInfo>
+  nameWithType.vb: Task(Of BatchTaskInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.BatchTaskInfo)
+  name.vb: Task(Of BatchTaskInfo)
   spec.csharp:
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.BatchTaskInfo
+    name: BatchTaskInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.BatchTaskInfo.html
+  - name: '>'
   spec.vb:
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.FreeTextAgent.AddWords*
-  commentId: Overload:SuperOffice.CRM.Services.FreeTextAgent.AddWords
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.BatchTaskInfo
+    name: BatchTaskInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.BatchTaskInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Services.FreeTextAgent.FreetextIndexRowsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.FreeTextAgent.FreetextIndexRowsAsync
   isExternal: true
-  name: AddWords
-  nameWithType: FreeTextAgent.AddWords
-  fullName: SuperOffice.CRM.Services.FreeTextAgent.AddWords
-- uid: SuperOffice.CRM.Services.IFreeTextAgent.AddWords(System.String)
-  commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.AddWords(System.String)
+  href: SuperOffice.CRM.Services.FreeTextAgent.html#SuperOffice_CRM_Services_FreeTextAgent_FreetextIndexRowsAsync_System_String_System_Int32___System_Threading_CancellationToken_
+  name: FreetextIndexRowsAsync
+  nameWithType: FreeTextAgent.FreetextIndexRowsAsync
+  fullName: SuperOffice.CRM.Services.FreeTextAgent.FreetextIndexRowsAsync
+- uid: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRowsAsync(System.String,System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRowsAsync(System.String,System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IFreeTextAgent
   isExternal: true
-  name: AddWords(String)
-  nameWithType: IFreeTextAgent.AddWords(String)
-  fullName: SuperOffice.CRM.Services.IFreeTextAgent.AddWords(System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: FreetextIndexRowsAsync(string, int[], CancellationToken)
+  nameWithType: IFreeTextAgent.FreetextIndexRowsAsync(string, int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRowsAsync(string, int[], System.Threading.CancellationToken)
+  nameWithType.vb: IFreeTextAgent.FreetextIndexRowsAsync(String, Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRowsAsync(String, Integer(), System.Threading.CancellationToken)
+  name.vb: FreetextIndexRowsAsync(String, Integer(), CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IFreeTextAgent.AddWords(System.String)
-    name: AddWords
-    nameWithType: IFreeTextAgent.AddWords
-    fullName: SuperOffice.CRM.Services.IFreeTextAgent.AddWords
+  - uid: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRowsAsync(System.String,System.Int32[],System.Threading.CancellationToken)
+    name: FreetextIndexRowsAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IFreeTextAgent.AddWords(System.String)
-    name: AddWords
-    nameWithType: IFreeTextAgent.AddWords
-    fullName: SuperOffice.CRM.Services.IFreeTextAgent.AddWords
+  - uid: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRowsAsync(System.String,System.Int32[],System.Threading.CancellationToken)
+    name: FreetextIndexRowsAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.CRM.Services.FreeTextAgent.DeleteStopWordsById*
-  commentId: Overload:SuperOffice.CRM.Services.FreeTextAgent.DeleteStopWordsById
-  isExternal: true
-  name: DeleteStopWordsById
-  nameWithType: FreeTextAgent.DeleteStopWordsById
-  fullName: SuperOffice.CRM.Services.FreeTextAgent.DeleteStopWordsById
-- uid: SuperOffice.CRM.Services.IFreeTextAgent.DeleteStopWordsById(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.DeleteStopWordsById(System.Int32[])
-  parent: SuperOffice.CRM.Services.IFreeTextAgent
-  isExternal: true
-  name: DeleteStopWordsById(Int32[])
-  nameWithType: IFreeTextAgent.DeleteStopWordsById(Int32[])
-  fullName: SuperOffice.CRM.Services.IFreeTextAgent.DeleteStopWordsById(System.Int32[])
-  nameWithType.vb: IFreeTextAgent.DeleteStopWordsById(Int32())
-  fullName.vb: SuperOffice.CRM.Services.IFreeTextAgent.DeleteStopWordsById(System.Int32())
-  name.vb: DeleteStopWordsById(Int32())
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IFreeTextAgent.DeleteStopWordsById(System.Int32[])
-    name: DeleteStopWordsById
-    nameWithType: IFreeTextAgent.DeleteStopWordsById
-    fullName: SuperOffice.CRM.Services.IFreeTextAgent.DeleteStopWordsById
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IFreeTextAgent.DeleteStopWordsById(System.Int32[])
-    name: DeleteStopWordsById
-    nameWithType: IFreeTextAgent.DeleteStopWordsById
-    fullName: SuperOffice.CRM.Services.IFreeTextAgent.DeleteStopWordsById
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: )
-    nameWithType: )
-    fullName: )
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Int32[]
   isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
   spec.csharp:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.FreeTextAgent.GetSuggestedStopWords*
-  commentId: Overload:SuperOffice.CRM.Services.FreeTextAgent.GetSuggestedStopWords
-  isExternal: true
-  name: GetSuggestedStopWords
-  nameWithType: FreeTextAgent.GetSuggestedStopWords
-  fullName: SuperOffice.CRM.Services.FreeTextAgent.GetSuggestedStopWords
-- uid: SuperOffice.CRM.Services.IFreeTextAgent.GetSuggestedStopWords(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.GetSuggestedStopWords(System.Int32)
-  parent: SuperOffice.CRM.Services.IFreeTextAgent
-  isExternal: true
-  name: GetSuggestedStopWords(Int32)
-  nameWithType: IFreeTextAgent.GetSuggestedStopWords(Int32)
-  fullName: SuperOffice.CRM.Services.IFreeTextAgent.GetSuggestedStopWords(System.Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IFreeTextAgent.GetSuggestedStopWords(System.Int32)
-    name: GetSuggestedStopWords
-    nameWithType: IFreeTextAgent.GetSuggestedStopWords
-    fullName: SuperOffice.CRM.Services.IFreeTextAgent.GetSuggestedStopWords
-    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IFreeTextAgent.GetSuggestedStopWords(System.Int32)
-    name: GetSuggestedStopWords
-    nameWithType: IFreeTextAgent.GetSuggestedStopWords
-    fullName: SuperOffice.CRM.Services.IFreeTextAgent.GetSuggestedStopWords
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.CRM.Services.MDOListItem[]
-  isExternal: true
-  name: MDOListItem[]
-  nameWithType: MDOListItem[]
-  fullName: SuperOffice.CRM.Services.MDOListItem[]
-  nameWithType.vb: MDOListItem()
-  fullName.vb: SuperOffice.CRM.Services.MDOListItem()
-  name.vb: MDOListItem()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.MDOListItem
-    name: MDOListItem
-    nameWithType: MDOListItem
-    fullName: SuperOffice.CRM.Services.MDOListItem
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.MDOListItem
-    name: MDOListItem
-    nameWithType: MDOListItem
-    fullName: SuperOffice.CRM.Services.MDOListItem
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.FreeTextAgent.RegenerateIndex*
-  commentId: Overload:SuperOffice.CRM.Services.FreeTextAgent.RegenerateIndex
-  isExternal: true
-  name: RegenerateIndex
-  nameWithType: FreeTextAgent.RegenerateIndex
-  fullName: SuperOffice.CRM.Services.FreeTextAgent.RegenerateIndex
-- uid: SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndex(System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndex(System.Boolean)
-  parent: SuperOffice.CRM.Services.IFreeTextAgent
-  isExternal: true
-  name: RegenerateIndex(Boolean)
-  nameWithType: IFreeTextAgent.RegenerateIndex(Boolean)
-  fullName: SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndex(System.Boolean)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndex(System.Boolean)
-    name: RegenerateIndex
-    nameWithType: IFreeTextAgent.RegenerateIndex
-    fullName: SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndex
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndex(System.Boolean)
-    name: RegenerateIndex
-    nameWithType: IFreeTextAgent.RegenerateIndex
-    fullName: SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndex
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.BatchTaskInfo
-  commentId: T:SuperOffice.CRM.Services.BatchTaskInfo
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: BatchTaskInfo
-  nameWithType: BatchTaskInfo
-  fullName: SuperOffice.CRM.Services.BatchTaskInfo
-- uid: SuperOffice.CRM.Services.FreeTextAgent.FreetextIndexRows*
-  commentId: Overload:SuperOffice.CRM.Services.FreeTextAgent.FreetextIndexRows
-  isExternal: true
-  name: FreetextIndexRows
-  nameWithType: FreeTextAgent.FreetextIndexRows
-  fullName: SuperOffice.CRM.Services.FreeTextAgent.FreetextIndexRows
-- uid: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows(System.String,System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows(System.String,System.Int32[])
-  parent: SuperOffice.CRM.Services.IFreeTextAgent
-  isExternal: true
-  name: FreetextIndexRows(String, Int32[])
-  nameWithType: IFreeTextAgent.FreetextIndexRows(String, Int32[])
-  fullName: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows(System.String, System.Int32[])
-  nameWithType.vb: IFreeTextAgent.FreetextIndexRows(String, Int32())
-  fullName.vb: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows(System.String, System.Int32())
-  name.vb: FreetextIndexRows(String, Int32())
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows(System.String,System.Int32[])
-    name: FreetextIndexRows
-    nameWithType: IFreeTextAgent.FreetextIndexRows
-    fullName: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows(System.String,System.Int32[])
-    name: FreetextIndexRows
-    nameWithType: IFreeTextAgent.FreetextIndexRows
-    fullName: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.FreeTextAgent.#ctor*
-  commentId: Overload:SuperOffice.CRM.Services.FreeTextAgent.#ctor
-  isExternal: true
-  name: FreeTextAgent
-  nameWithType: FreeTextAgent.FreeTextAgent
-  fullName: SuperOffice.CRM.Services.FreeTextAgent.FreeTextAgent

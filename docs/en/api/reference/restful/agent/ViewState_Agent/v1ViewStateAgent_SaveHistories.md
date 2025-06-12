@@ -86,16 +86,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Macejkovic Inc and Sons",
+  "HistoryName": "Mertz-Frami",
   "History": [
     {
-      "Rank": 712,
-      "Id": 605,
-      "HistoryName": "Jakubowski-Kovacek",
-      "HistoryId": 709,
-      "AssociateId": 119,
-      "Name": "Auer, Harber and Ankunding",
-      "ItemInfo": "quo"
+      "Rank": 762,
+      "Id": 277,
+      "HistoryName": "O'Kon-Renner",
+      "HistoryId": 177,
+      "AssociateId": 125,
+      "Name": "Feil, West and Armstrong",
+      "ItemInfo": "modi"
     }
   ]
 }
@@ -109,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 214,
-    "Id": 726,
-    "HistoryName": "Stehr, Hudson and Wiza",
-    "HistoryId": 930,
-    "AssociateId": 863,
-    "Name": "Raynor-Flatley",
-    "ItemInfo": "hic",
+    "Rank": 514,
+    "Id": 95,
+    "HistoryName": "Simonis Inc and Sons",
+    "HistoryId": 625,
+    "AssociateId": 184,
+    "Name": "Von-Huels",
+    "ItemInfo": "doloremque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 336
+        "FieldType": "System.Int32",
+        "FieldLength": 139
       }
     }
   }

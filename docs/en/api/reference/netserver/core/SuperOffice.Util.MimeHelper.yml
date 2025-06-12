@@ -17,27 +17,24 @@ items:
   nameWithType: MimeHelper
   fullName: SuperOffice.Util.MimeHelper
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nClass for assisting in mime-related functionality.\n"
+  summary: Class for assisting in mime-related functionality.
+  example: []
   syntax:
-    content: 'public static class MimeHelper : Object'
-    content.vb: >-
-      Public Module MimeHelper
-          Inherits Object
+    content: public static class MimeHelper
+    content.vb: Public Module MimeHelper
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.Util.MimeHelper.GetForFilename(System.String)
   commentId: M:SuperOffice.Util.MimeHelper.GetForFilename(System.String)
   id: GetForFilename(System.String)
@@ -45,17 +42,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetForFilename(String)
-  nameWithType: MimeHelper.GetForFilename(String)
-  fullName: SuperOffice.Util.MimeHelper.GetForFilename(System.String)
+  name: GetForFilename(string)
+  nameWithType: MimeHelper.GetForFilename(string)
+  fullName: SuperOffice.Util.MimeHelper.GetForFilename(string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nGets the appropriate mime-type for the filename provided.\n"
+  summary: Gets the appropriate mime-type for the filename provided.
+  example: []
   syntax:
     content: public static string GetForFilename(string fileName)
     parameters:
@@ -67,12 +62,9 @@ items:
       description: Never null. unknown/unknown is returned if no other match is found.
     content.vb: Public Shared Function GetForFilename(fileName As String) As String
   overload: SuperOffice.Util.MimeHelper.GetForFilename*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: MimeHelper.GetForFilename(String)
+  fullName.vb: SuperOffice.Util.MimeHelper.GetForFilename(String)
+  name.vb: GetForFilename(String)
 - uid: SuperOffice.Util.MimeHelper.IsGoogleTypeFile(System.String)
   commentId: M:SuperOffice.Util.MimeHelper.IsGoogleTypeFile(System.String)
   id: IsGoogleTypeFile(System.String)
@@ -80,32 +72,29 @@ items:
   langs:
   - csharp
   - vb
-  name: IsGoogleTypeFile(String)
-  nameWithType: MimeHelper.IsGoogleTypeFile(String)
-  fullName: SuperOffice.Util.MimeHelper.IsGoogleTypeFile(System.String)
+  name: IsGoogleTypeFile(string)
+  nameWithType: MimeHelper.IsGoogleTypeFile(string)
+  fullName: SuperOffice.Util.MimeHelper.IsGoogleTypeFile(string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nDetermines if the specified mime-type is a native Google Apps mime-type.\n"
+  summary: Determines if the specified mime-type is a native Google Apps mime-type.
+  example: []
   syntax:
     content: public static bool IsGoogleTypeFile(string mimeType)
     parameters:
     - id: mimeType
       type: System.String
+      description: ''
     return:
       type: System.Boolean
+      description: ''
     content.vb: Public Shared Function IsGoogleTypeFile(mimeType As String) As Boolean
   overload: SuperOffice.Util.MimeHelper.IsGoogleTypeFile*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: MimeHelper.IsGoogleTypeFile(String)
+  fullName.vb: SuperOffice.Util.MimeHelper.IsGoogleTypeFile(String)
+  name.vb: IsGoogleTypeFile(String)
 - uid: SuperOffice.Util.MimeHelper.IsOfficeTypeFile(System.String)
   commentId: M:SuperOffice.Util.MimeHelper.IsOfficeTypeFile(System.String)
   id: IsOfficeTypeFile(System.String)
@@ -113,32 +102,29 @@ items:
   langs:
   - csharp
   - vb
-  name: IsOfficeTypeFile(String)
-  nameWithType: MimeHelper.IsOfficeTypeFile(String)
-  fullName: SuperOffice.Util.MimeHelper.IsOfficeTypeFile(System.String)
+  name: IsOfficeTypeFile(string)
+  nameWithType: MimeHelper.IsOfficeTypeFile(string)
+  fullName: SuperOffice.Util.MimeHelper.IsOfficeTypeFile(string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nDetermines if the specified mime-type is a native Google Apps mime-type.\n"
+  summary: Determines if the specified mime-type is a native Google Apps mime-type.
+  example: []
   syntax:
     content: public static bool IsOfficeTypeFile(string mimeType)
     parameters:
     - id: mimeType
       type: System.String
+      description: ''
     return:
       type: System.Boolean
+      description: ''
     content.vb: Public Shared Function IsOfficeTypeFile(mimeType As String) As Boolean
   overload: SuperOffice.Util.MimeHelper.IsOfficeTypeFile*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: MimeHelper.IsOfficeTypeFile(String)
+  fullName.vb: SuperOffice.Util.MimeHelper.IsOfficeTypeFile(String)
+  name.vb: IsOfficeTypeFile(String)
 - uid: SuperOffice.Util.MimeHelper.GetExtensionFor(System.String)
   commentId: M:SuperOffice.Util.MimeHelper.GetExtensionFor(System.String)
   id: GetExtensionFor(System.String)
@@ -146,17 +132,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetExtensionFor(String)
-  nameWithType: MimeHelper.GetExtensionFor(String)
-  fullName: SuperOffice.Util.MimeHelper.GetExtensionFor(System.String)
+  name: GetExtensionFor(string)
+  nameWithType: MimeHelper.GetExtensionFor(string)
+  fullName: SuperOffice.Util.MimeHelper.GetExtensionFor(string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nDetermines the file-extension matching the corresponding mime-type.\n"
+  summary: Determines the file-extension matching the corresponding mime-type.
+  example: []
   syntax:
     content: public static string GetExtensionFor(string mimeType)
     parameters:
@@ -172,12 +156,9 @@ items:
   - type: System.ArgumentException
     commentId: T:System.ArgumentException
     description: Will thrown if value cannot be resolved.
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: MimeHelper.GetExtensionFor(String)
+  fullName.vb: SuperOffice.Util.MimeHelper.GetExtensionFor(String)
+  name.vb: GetExtensionFor(String)
 - uid: SuperOffice.Util.MimeHelper.GetDocumentTypeKeyFor(System.String)
   commentId: M:SuperOffice.Util.MimeHelper.GetDocumentTypeKeyFor(System.String)
   id: GetDocumentTypeKeyFor(System.String)
@@ -185,55 +166,301 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDocumentTypeKeyFor(String)
-  nameWithType: MimeHelper.GetDocumentTypeKeyFor(String)
-  fullName: SuperOffice.Util.MimeHelper.GetDocumentTypeKeyFor(System.String)
+  name: GetDocumentTypeKeyFor(string)
+  nameWithType: MimeHelper.GetDocumentTypeKeyFor(string)
+  fullName: SuperOffice.Util.MimeHelper.GetDocumentTypeKeyFor(string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nGet&apos;s a matching DocumentTypeKey value for the given mimetype.\nTo be used with template-creation where this value needs to be available.\n"
+  summary: >-
+    Get's a matching DocumentTypeKey value for the given mimetype.
+
+    To be used with template-creation where this value needs to be available.
+  example: []
   syntax:
     content: public static int GetDocumentTypeKeyFor(string mimeType)
     parameters:
     - id: mimeType
       type: System.String
+      description: ''
     return:
       type: System.Int32
+      description: ''
     content.vb: Public Shared Function GetDocumentTypeKeyFor(mimeType As String) As Integer
   overload: SuperOffice.Util.MimeHelper.GetDocumentTypeKeyFor*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: MimeHelper.GetDocumentTypeKeyFor(String)
+  fullName.vb: SuperOffice.Util.MimeHelper.GetDocumentTypeKeyFor(String)
+  name.vb: GetDocumentTypeKeyFor(String)
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Util.MimeHelper.GetForFilename*
   commentId: Overload:SuperOffice.Util.MimeHelper.GetForFilename
   isExternal: true
+  href: SuperOffice.Util.MimeHelper.html#SuperOffice_Util_MimeHelper_GetForFilename_System_String_
   name: GetForFilename
   nameWithType: MimeHelper.GetForFilename
   fullName: SuperOffice.Util.MimeHelper.GetForFilename
@@ -241,12 +468,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.Util.MimeHelper.IsGoogleTypeFile*
   commentId: Overload:SuperOffice.Util.MimeHelper.IsGoogleTypeFile
   isExternal: true
+  href: SuperOffice.Util.MimeHelper.html#SuperOffice_Util_MimeHelper_IsGoogleTypeFile_System_String_
   name: IsGoogleTypeFile
   nameWithType: MimeHelper.IsGoogleTypeFile
   fullName: SuperOffice.Util.MimeHelper.IsGoogleTypeFile
@@ -254,27 +486,38 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.Util.MimeHelper.IsOfficeTypeFile*
   commentId: Overload:SuperOffice.Util.MimeHelper.IsOfficeTypeFile
   isExternal: true
+  href: SuperOffice.Util.MimeHelper.html#SuperOffice_Util_MimeHelper_IsOfficeTypeFile_System_String_
   name: IsOfficeTypeFile
   nameWithType: MimeHelper.IsOfficeTypeFile
   fullName: SuperOffice.Util.MimeHelper.IsOfficeTypeFile
-- uid: SuperOffice.Util.MimeHelper.GetExtensionFor*
-  commentId: Overload:SuperOffice.Util.MimeHelper.GetExtensionFor
-  isExternal: true
-  name: GetExtensionFor
-  nameWithType: MimeHelper.GetExtensionFor
-  fullName: SuperOffice.Util.MimeHelper.GetExtensionFor
 - uid: System.ArgumentException
   commentId: T:System.ArgumentException
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentexception
+  name: ArgumentException
+  nameWithType: ArgumentException
+  fullName: System.ArgumentException
+- uid: SuperOffice.Util.MimeHelper.GetExtensionFor*
+  commentId: Overload:SuperOffice.Util.MimeHelper.GetExtensionFor
+  isExternal: true
+  href: SuperOffice.Util.MimeHelper.html#SuperOffice_Util_MimeHelper_GetExtensionFor_System_String_
+  name: GetExtensionFor
+  nameWithType: MimeHelper.GetExtensionFor
+  fullName: SuperOffice.Util.MimeHelper.GetExtensionFor
 - uid: SuperOffice.Util.MimeHelper.GetDocumentTypeKeyFor*
   commentId: Overload:SuperOffice.Util.MimeHelper.GetDocumentTypeKeyFor
   isExternal: true
+  href: SuperOffice.Util.MimeHelper.html#SuperOffice_Util_MimeHelper_GetDocumentTypeKeyFor_System_String_
   name: GetDocumentTypeKeyFor
   nameWithType: MimeHelper.GetDocumentTypeKeyFor
   fullName: SuperOffice.Util.MimeHelper.GetDocumentTypeKeyFor
@@ -282,6 +525,10 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

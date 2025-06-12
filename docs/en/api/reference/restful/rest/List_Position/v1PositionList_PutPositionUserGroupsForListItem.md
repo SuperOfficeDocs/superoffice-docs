@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 587,
-    "Name": "Jenkins-Gerlach",
-    "ToolTip": "Ex eum et nihil qui voluptatem velit quam.",
-    "Deleted": true,
-    "Rank": 1000,
-    "Type": "eum",
-    "ColorBlock": 863,
-    "IconHint": "rerum",
+    "Id": 835,
+    "Name": "Dibbert, Wiza and Skiles",
+    "ToolTip": "Praesentium non pariatur.",
+    "Deleted": false,
+    "Rank": 453,
+    "Type": "voluptatem",
+    "ColorBlock": 943,
+    "IconHint": "necessitatibus",
     "Selected": true,
-    "LastChanged": "2021-11-01T16:32:48.7588803+01:00",
+    "LastChanged": "2025-05-10T17:54:08.9605465+02:00",
     "ChildItems": [
       {
-        "Id": 625,
-        "Name": "Kulas, Larson and Kihn",
-        "ToolTip": "Et neque.",
-        "Deleted": false,
-        "Rank": 469,
-        "Type": "culpa",
-        "ColorBlock": 414,
-        "IconHint": "explicabo",
+        "Id": 110,
+        "Name": "Daugherty-Feeney",
+        "ToolTip": "Quisquam et vitae tempora molestiae.",
+        "Deleted": true,
+        "Rank": 866,
+        "Type": "nemo",
+        "ColorBlock": 108,
+        "IconHint": "praesentium",
         "Selected": true,
-        "LastChanged": "2007-02-11T16:32:48.7588803+01:00",
+        "LastChanged": "2005-07-19T17:54:08.9605465+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Emory Blanca Fahey PhD"
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "tempora",
+        "Hidden": false,
+        "FullName": "Elinor Zelda Goyette I"
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "hic",
-    "Hidden": false,
-    "FullName": "Autumn Rice"
+    "ExtraInfo": "consequatur",
+    "StyleHint": "sint",
+    "Hidden": true,
+    "FullName": "Fabiola Parker"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 742,
-    "Name": "Wilkinson Group",
-    "ToolTip": "Id reiciendis et.",
-    "Deleted": false,
-    "Rank": 368,
-    "Type": "corporis",
-    "ColorBlock": 338,
-    "IconHint": "inventore",
+    "Id": 422,
+    "Name": "Hammes, Gleason and Smitham",
+    "ToolTip": "Architecto odit mollitia.",
+    "Deleted": true,
+    "Rank": 328,
+    "Type": "ut",
+    "ColorBlock": 457,
+    "IconHint": "doloremque",
     "Selected": true,
-    "LastChanged": "2024-07-09T16:32:48.7588803+02:00",
+    "LastChanged": "2008-09-15T17:54:08.9605465+02:00",
     "ChildItems": [
       {
-        "Id": 277,
-        "Name": "Gleichner Group",
-        "ToolTip": "Neque cum sit voluptas aut unde earum.",
+        "Id": 921,
+        "Name": "Lind-Gutkowski",
+        "ToolTip": "Corporis et quidem.",
         "Deleted": true,
-        "Rank": 411,
-        "Type": "inventore",
-        "ColorBlock": 899,
-        "IconHint": "laboriosam",
-        "Selected": false,
-        "LastChanged": "1998-05-17T16:32:48.7588803+02:00",
+        "Rank": 913,
+        "Type": "harum",
+        "ColorBlock": 463,
+        "IconHint": "assumenda",
+        "Selected": true,
+        "LastChanged": "2004-10-22T17:54:08.9605465+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "impedit",
-        "Hidden": true,
-        "FullName": "Alvis King",
+        "ExtraInfo": "et",
+        "StyleHint": "mollitia",
+        "Hidden": false,
+        "FullName": "Mrs. Johnnie Vernie Marquardt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 114
+            "FieldType": "System.String",
+            "FieldLength": 250
           }
         }
       }
     ],
-    "ExtraInfo": "expedita",
-    "StyleHint": "voluptates",
-    "Hidden": true,
-    "FullName": "Ms. Morgan Damon Bechtelar",
+    "ExtraInfo": "esse",
+    "StyleHint": "sed",
+    "Hidden": false,
+    "FullName": "Jairo Kertzmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 745
+        "FieldLength": 862
       }
     }
   }

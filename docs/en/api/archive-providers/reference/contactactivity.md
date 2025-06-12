@@ -65,6 +65,7 @@ Activity archive provider for the Company card
 |associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|associate/usergroupId|int|Group ID: The user's primary user group| x |
 |associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |associate/contactCategory|listAny|Category: Category| x |
 |associate/role|listAny|Role : Role| x |
@@ -124,11 +125,11 @@ Activity archive provider for the Company card
 |person/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
 |person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
 |person/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
-|person/personAssociateId|associate|Our contact: Displays our contact| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociateId|associate|Our contact: Displays our contact| x |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
 |person/personBusiness|listAny|Business| x |
@@ -201,6 +202,7 @@ Activity archive provider for the Company card
 |person/personUdef/SuperOffice:10|string|page1marketingonly| x |
 |person/personUdef/SuperOffice:11|string|page1adminonly| x |
 |person/personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
+|person/personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 |person/personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |person/personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |person/personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -227,18 +229,19 @@ Activity archive provider for the Company card
 |person/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |person/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|person/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|person/personAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
+|person/personAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |person/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |person/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |person/personAssociate/associateDbId|associate|ID| x |
 |person/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |person/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |person/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|person/personAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |person/personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |person/personAssociate/contactCategory|listAny|Category: Category| x |
 |person/personAssociate/role|listAny|Role : Role| x |
@@ -271,6 +274,7 @@ Activity archive provider for the Company card
 |person/correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |person/correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |person/correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|person/correspondingAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |person/correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |person/correspondingAssociate/contactCategory|listAny|Category: Category| x |
 |person/correspondingAssociate/role|listAny|Role : Role| x |
@@ -329,14 +333,14 @@ Activity archive provider for the Company card
 |contact/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |contact/deletedDate|datetime|Deleted date: Deleted date|  |
 |contact/mainContact| *None* |Main contact: Main contact for this company| x |
-|contact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
-|contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
-|contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
-|contact/contactFax/description|string|Fax - Description: Phone number description| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
+|contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
+|contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
+|contact/contactFax/description|string|Fax - Description: Phone number description| x |
 |contact/searchPhone/formattedNumber|string|Searchphone - Phone: Displays phone number|  |
 |contact/searchPhone/description|string|Searchphone - Description: Phone number description| x |
 |contact/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
@@ -397,6 +401,7 @@ Activity archive provider for the Company card
 |contact/contactAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |contact/contactAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |contact/contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|contact/contactAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |contact/contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |contact/contactAssociate/contactCategory|listAny|Category: Category| x |
 |contact/contactAssociate/role|listAny|Role : Role| x |
@@ -432,15 +437,16 @@ Activity archive provider for the Company card
 |contact/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
+|contact/contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
 |contact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
 |contact/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |contact/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
 |contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
 |contact/contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
@@ -535,16 +541,16 @@ Activity archive provider for the Company card
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |project/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/projectPublish/publishedBy| *None* |Published by: Published by|  |
 |project/projectEvent/isExternalEvent|bool|Event: Is this an external event| x |
 |project/projectEvent/eventDate|date|Event date: Event date| x |
 |project/projectEvent/hasSignOn|bool|Sign On: Does this event have the Sign On function enabled| x |
 |project/projectEvent/hasSignOff|bool|Sign Off: Does this event have the Sign Off function enabled| x |
 |project/projectUrl/URLAddress|string|URL| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |project/projectUrl/URLDescription|string|Description| x |
 |project/projectAssociate/firstName|string|First name: Displays the contact's first name| x |
 |project/projectAssociate/lastName|string|Last name: Displays the contact's last name| x |
@@ -558,6 +564,7 @@ Activity archive provider for the Company card
 |project/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |project/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |project/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|project/projectAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |project/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |project/projectAssociate/contactCategory|listAny|Category: Category| x |
 |project/projectAssociate/role|listAny|Role : Role| x |
@@ -638,6 +645,10 @@ Activity archive provider for the Company card
 |sale/updatedBy|associate|Updated by: The user who last updated the data| x |
 |sale/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |sale/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/registeredBy|associate|Registered by: The user who registered the data| x |
 |sale/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |sale/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
@@ -645,10 +656,6 @@ Activity archive provider for the Company card
 |sale/currency|listAny|Currency: The currency of the sale| x |
 |sale/credited|listAny|Credited: The user to be credited with the sale| x |
 |sale/lossReason|listAny|Reason (lost: The reason for losing the sale| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |sale/source|listAny|Source: The source (lead) of the sale| x |
 |sale/competitor|listAny|Competitor: The competitor who won the sale| x |
 |sale/heading|stringorPK|Sale: The name of the sale| x |
@@ -698,6 +705,7 @@ Activity archive provider for the Company card
 |sale/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |sale/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |sale/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|sale/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |sale/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |sale/associate/contactCategory|listAny|Category: Category| x |
 |sale/associate/role|listAny|Role : Role| x |
@@ -741,6 +749,10 @@ Activity archive provider for the Company card
 |isFree|bool|Is free: Displays whether the appointment should be considered free or busy| x |
 |recurring|bool|Repeating: Displays an icon indicating if the follow-up is part of a repeating follow-up| x |
 |booking|bool|Invitation: Displays an icon if the follow-up is an invitation. All invitations will be displayed in a tooltip.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |intention|listAny|Intention: Displays the intention of the follow-up type| x |
 |location|string|Location: Display the location where the follow-up will take place.| x |
 |recurrenceRuleId|int|RR-ID: Repetition rule ID of follow-up| x |
@@ -749,10 +761,6 @@ Activity archive provider for the Company card
 |cautionWarning|listAny|Warning: Warning for invitations with potential problems: not properly synchronized with an external calendar, unsupported repetition pattern, e-mail notification failed, or other problems.| x |
 |visibleInDiary|bool|ExcludeBook: Is the activity visible in the diary?| x |
 |endTime| *None* |End time: End time of an activity|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |suggestedAppointmentId|int|Follow-up ID (suggestion: The database ID of a follow-up that originates in a suggestion| x |
 |completedDate|date|Completed date: Displays the actual date a follow-up/sale was marked as completed| x |
 |isMilestone|bool|Milestone: Shows whether or not the follow-ups in this row are milestones| x |
@@ -845,6 +853,10 @@ Activity archive provider for the Company card
 |mailingAddr/contact/postAddress/line1|string|Company - Postal address - Address 1: First line of the address| x |
 |mailingAddr/contact/postAddress/line2|string|Company - Postal address - Address 2: Second line of the address| x |
 |mailingAddr/contact/postAddress/line3|string|Company - Postal address - Address 3: Third line of the address| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/contact/postAddress/county|string|Company - Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |mailingAddr/contact/postAddress/city|string|Company - Postal address - City: This criterion corresponds to the City field on the Company card.| x |
 |mailingAddr/contact/postAddress/zip|string|Company - Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
@@ -853,10 +865,6 @@ Activity archive provider for the Company card
 |mailingAddr/contact/postAddress/wgs84longitude|decimal|Company - Postal address - Longitude: Longitude| x |
 |mailingAddr/contact/postAddress/formattedAddress| *None* |Company - Postal address - {formattedAddress}: {formattedAddress}|  |
 |mailingAddr/contact/postAddress/formattedMultiLineAddress| *None* |Company - Postal address - {formattedAddress}: {formattedAddress}|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |mailingAddr/contact/streetAddress/addressId|int|Company - Street address - Address ID: Database ID for the address record| x |
 |mailingAddr/contact/streetAddress/line1|string|Company - Street address - Address 1: First line of the address| x |
 |mailingAddr/contact/streetAddress/line2|string|Company - Street address - Address 2: Second line of the address| x |
@@ -895,6 +903,7 @@ Activity archive provider for the Company card
 |mailingAddr/contact/contactAssociate/contactName|string|Company - Owning company: Name of the company the user belongs to| x |
 |mailingAddr/contact/contactAssociate/contactDepartment|string|Company - Owning department: Name of the department at the company the user belongs to| x |
 |mailingAddr/contact/contactAssociate/usergroup|userGroup|Company - Primary group: The user's primary user group| x |
+|mailingAddr/contact/contactAssociate/usergroupId|int|Company - Group ID: The user's primary user group| x |
 |mailingAddr/contact/contactAssociate/contactFullName|string|Company - Owner: Name and department of the company the user belongs to| x |
 |mailingAddr/contact/contactAssociate/contactCategory|listAny|Company - Category: Category| x |
 |mailingAddr/contact/contactAssociate/role|listAny|Company - Role: Role| x |
@@ -930,6 +939,7 @@ Activity archive provider for the Company card
 |mailingAddr/contact/contactUdef/SuperOffice:12|listAny|Company - Udlist one: Static tooltip for udlist one| x |
 |mailingAddr/contact/contactUdef/SuperOffice:13|listAny|Company - Udlist two: Static tooltip for udlist two| x |
 |mailingAddr/contact/contactExtra/x\_contact\_integer|int|Company - Extra Integer: Custom integer field| x |
+|mailingAddr/contact/contactExtra/x\_contact\_hidden\_integer|int|Company - Extra hidden integer: Custom integer field - hidden| x |
 |mailingAddr/contact/contactExtra/x\_contact\_default\_integer|int|Company - Extra Default Integer: Custom integer field with default value 123.| x |
 |mailingAddr/contact/contactExtra/x\_contact\_float|decimal|Company - Extra Float: Custom float field with 3 decimals| x |
 |mailingAddr/contact/contactExtra/x\_contact\_longtext|string|Company - Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -947,6 +957,10 @@ Activity archive provider for the Company card
 |mailingAddr/contact/contactExtra/y\_organization/x\_name|string|Company - Organization - Name| x |
 |mailingAddr/contact/NumberOfActivities|int|Company - Number of activities|  |
 |mailingAddr/contact/NumberOfActivitiesInPeriod|int|Company - Number of activities in last 90 days|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/contact/NumberOfNotCompletedActivities|int|Company - Number of non-completed activities|  |
 |mailingAddr/contact/NumberOfNotCompletedActivitiesInPeriod|int|Company - Number of non-completed activities in last 90 days|  |
 |mailingAddr/contact/LastActivity|date|Company - Date of last activity|  |
@@ -957,10 +971,6 @@ Activity archive provider for the Company card
 |mailingAddr/contact/NumberOfNotCompletedSales|int|Company - Number of non-completed sales|  |
 |mailingAddr/contact/NumberOfNotCompletedSalesInPeriod|int|Company - Number of non-completed sales in last 90 days|  |
 |mailingAddr/contact/LastSale|date|Company - Date of last sale|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |mailingAddr/contact/LastCompletedSale|date|Company - Date of last completed sale|  |
 |mailingAddr/contact/LastDoBySale|date|Company - Date of last non-completed sale|  |
 |mailingAddr/contact/NumberOfTickets|int|Company - Number of requests|  |
@@ -1051,6 +1061,10 @@ Activity archive provider for the Company card
 |mailingAddr/person/email/emailLastSent|datetime|Contact - Last sent: The date and time an e-mail was last sent to this address| x |
 |mailingAddr/person/email/emailBounceCount|int|Contact - Bounce count: Bounce count for this e-mail address| x |
 |mailingAddr/person/email/emailLastBounce|datetime|Contact - Last bounce: Date and time for last bounce to this e-mail address| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/person/email/emailHasBounced|bool|Contact - Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 |mailingAddr/person/personUrl/URLAddress|string|Contact - URL| x |
 |mailingAddr/person/personUrl/URLDescription|string|Contact - Description| x |
@@ -1061,10 +1075,6 @@ Activity archive provider for the Company card
 |mailingAddr/person/personAddress/county|string|Contact - Contact address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |mailingAddr/person/personAddress/city|string|Contact - Contact address - City: This criterion corresponds to the City field on the Company card.| x |
 |mailingAddr/person/personAddress/zip|string|Contact - Contact address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |mailingAddr/person/personAddress/state|string|Contact - Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |mailingAddr/person/personAddress/wgs84latitude|decimal|Contact - Contact address - Latitude: Latitude| x |
 |mailingAddr/person/personAddress/wgs84longitude|decimal|Contact - Contact address - Longitude: Longitude| x |
@@ -1095,6 +1105,7 @@ Activity archive provider for the Company card
 |mailingAddr/person/personUdef/SuperOffice:10|string|Contact - page1marketingonly| x |
 |mailingAddr/person/personUdef/SuperOffice:11|string|Contact - page1adminonly| x |
 |mailingAddr/person/personExtra/x\_person\_integer|int|Contact - Extra Integer: Custom person integer| x |
+|mailingAddr/person/personExtra/x\_person\_hidden\_integer|int|Contact - Extra hidden integer: Custom integer field that is hidden| x |
 |mailingAddr/person/personExtra/x\_person\_float|decimal|Contact - Extra float: Custom float field| x |
 |mailingAddr/person/personExtra/x\_person\_longtext|string|Contact - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |mailingAddr/person/personExtra/x\_person\_date|date|Contact - Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -1129,6 +1140,7 @@ Activity archive provider for the Company card
 |mailingAddr/person/personAssociate/contactName|string|Contact - Owning company: Name of the company the user belongs to| x |
 |mailingAddr/person/personAssociate/contactDepartment|string|Contact - Owning department: Name of the department at the company the user belongs to| x |
 |mailingAddr/person/personAssociate/usergroup|userGroup|Contact - Primary group: The user's primary user group| x |
+|mailingAddr/person/personAssociate/usergroupId|int|Contact - Group ID: The user's primary user group| x |
 |mailingAddr/person/personAssociate/contactFullName|string|Contact - Owner: Name and department of the company the user belongs to| x |
 |mailingAddr/person/personAssociate/contactCategory|listAny|Contact - Category: Category| x |
 |mailingAddr/person/personAssociate/role|listAny|Contact - Role: Role| x |
@@ -1153,6 +1165,10 @@ Activity archive provider for the Company card
 |mailingAddr/person/correspondingAssociate/lastName|string|Contact - Last name: Displays the contact's last name| x |
 |mailingAddr/person/correspondingAssociate/middleName|string|Contact - Middle Name: Displays the contact's middle name.| x |
 |mailingAddr/person/correspondingAssociate/fullName|string|Contact - Full name: Displays full name of user (first, middle, last - according to settings)| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/person/correspondingAssociate/contactId|int|Contact - Company ID: Database ID of the company the user belongs to|  |
 |mailingAddr/person/correspondingAssociate/personId|int|Contact - Contact ID: Database ID of the contact row|  |
 |mailingAddr/person/correspondingAssociate/mrMrs|string|Contact - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -1161,14 +1177,11 @@ Activity archive provider for the Company card
 |mailingAddr/person/correspondingAssociate/contactName|string|Contact - Owning company: Name of the company the user belongs to| x |
 |mailingAddr/person/correspondingAssociate/contactDepartment|string|Contact - Owning department: Name of the department at the company the user belongs to| x |
 |mailingAddr/person/correspondingAssociate/usergroup|userGroup|Contact - Primary group: The user's primary user group| x |
+|mailingAddr/person/correspondingAssociate/usergroupId|int|Contact - Group ID: The user's primary user group| x |
 |mailingAddr/person/correspondingAssociate/contactFullName|string|Contact - Owner: Name and department of the company the user belongs to| x |
 |mailingAddr/person/correspondingAssociate/contactCategory|listAny|Contact - Category: Category| x |
 |mailingAddr/person/correspondingAssociate/role|listAny|Contact - Role: Role| x |
 |mailingAddr/person/correspondingAssociate/assocName|associate|Contact - User ID: User ID| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |mailingAddr/person/correspondingAssociate/assocTooltip|string|Contact - Description: Description|  |
 |mailingAddr/person/correspondingAssociate/assocType|listAny|Contact - Type: Type of user: associate, external user, system user, anonymous account| x |
 |mailingAddr/person/correspondingAssociate/ejUserId|int|Contact - Service user ID: The database ID of a Service user|  |
@@ -1229,6 +1242,7 @@ Activity archive provider for the Company card
 |emailFlow/workflowAssociate/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
 |emailFlow/workflowAssociate/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
 |emailFlow/workflowAssociate/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
+|emailFlow/workflowAssociate/usergroupId|int|Owner - Group ID: The user's primary user group| x |
 |emailFlow/workflowAssociate/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
 |emailFlow/workflowAssociate/contactCategory|listAny|Owner - Category: Category| x |
 |emailFlow/workflowAssociate/role|listAny|Owner - Role: Role| x |
@@ -1258,7 +1272,7 @@ Activity archive provider for the Company card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactActivity?$select=associate/firstName,associate/lastName,person/personExtra/y_rental/x_contact,person/personAssociate/mrMrs,contact/contactUdef/SuperOffice:9
+GET /api/v1/archive/ContactActivity?$select=whenEnded,person/personExtra/y_rental/x_start,contact/contactExtra/x_contact_default_integer,contact/contactExtra/x_contact_longtext,sale/completed
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  id: Microsoft.Extensions.DependencyInjection
+  children:
+  - Microsoft.Extensions.DependencyInjection.ServiceImplementationExtensions
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+  type: Namespace
+  assemblies:
+  - SuperOffice.Services.Implementation
+references:
+- uid: Microsoft.Extensions.DependencyInjection.ServiceImplementationExtensions
+  commentId: T:Microsoft.Extensions.DependencyInjection.ServiceImplementationExtensions
+  isExternal: true
+  href: Microsoft.Extensions.DependencyInjection.ServiceImplementationExtensions.html
+  name: ServiceImplementationExtensions
+  nameWithType: ServiceImplementationExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceImplementationExtensions

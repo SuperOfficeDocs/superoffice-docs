@@ -133,16 +133,16 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 782,
-  "IncludeProjectAppointments": true,
-  "StartTime": "2021-04-13T16:32:37.6021684+02:00",
-  "EndTime": "2002-01-22T16:32:37.6021684+01:00",
-  "Count": 596,
-  "TaskId": 924
+  "PersonId": 236,
+  "IncludeProjectAppointments": false,
+  "StartTime": "2014-05-13T17:54:02.3671193+02:00",
+  "EndTime": "2003-03-27T17:54:02.3671193+01:00",
+  "Count": 851,
+  "TaskId": 296
 }
 ```
 
@@ -154,66 +154,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 572,
-    "StartDate": "1999-02-11T16:32:37.6021684+01:00",
-    "EndDate": "2002-05-18T16:32:37.6021684+02:00",
+    "AppointmentId": 34,
+    "StartDate": "2014-07-14T17:54:02.3671193+02:00",
+    "EndDate": "2023-04-15T17:54:02.3671193+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ipsum",
-    "AssociateFullName": "Peter Anderson",
-    "ContactName": "Considine Group",
-    "Description": "Horizontal interactive matrices",
-    "PersonFullName": "Mr. Bobbie Gunner Beatty",
-    "PersonId": 954,
-    "ContactId": 990,
-    "ProjectId": 119,
-    "ProjectName": "Witting-Barton",
+    "Task": "culpa",
+    "AssociateFullName": "Adell Kuvalis",
+    "ContactName": "Marquardt, Haley and Hilll",
+    "Description": "Cloned neutral approach",
+    "PersonFullName": "Dedrick Heathcote",
+    "PersonId": 839,
+    "ContactId": 601,
+    "ProjectId": 371,
+    "ProjectName": "Turner Inc and Sons",
     "IsPublished": false,
-    "AssociateId": 597,
-    "ColorIndex": 222,
+    "AssociateId": 534,
+    "ColorIndex": 459,
     "IsFree": false,
     "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 154,
-    "PriorityName": "Macejkovic, Becker and Murray",
+    "PriorityId": 819,
+    "PriorityName": "Willms Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2008-03-03T16:32:37.6021684+01:00",
+    "ActiveDate": "2023-10-14T17:54:02.3671193+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1999-08-14T16:32:37.6021684+02:00",
-    "RecurringEndDate": "2001-04-23T16:32:37.6021684+02:00",
-    "MotherId": 719,
-    "AssignedBy": 297,
-    "AssignedByFullName": "Abbigail Predovic",
+    "RecurringStartDate": "2019-11-22T17:54:02.3671193+01:00",
+    "RecurringEndDate": "2000-07-10T17:54:02.3671193+02:00",
+    "MotherId": 256,
+    "AssignedBy": 173,
+    "AssignedByFullName": "Mrs. Destin Edmond Ortiz II",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "non",
-    "SaleId": 860,
-    "SaleName": "Goodwin, Grady and Mosciski",
-    "AssociateName": "Nikolaus, Spencer and Bergstrom",
-    "CreatedDate": "2003-02-18T16:32:37.6021684+01:00",
-    "CreatedBy": "omnis",
-    "CreatedByFullName": "Margarete McGlynn",
-    "CreatedByAssociateId": 82,
+    "Location": "quis",
+    "AlarmLeadTime": "totam",
+    "SaleId": 708,
+    "SaleName": "O'Hara, Hartmann and Mayer",
+    "AssociateName": "Fay Inc and Sons",
+    "CreatedDate": "2018-10-20T17:54:02.3671193+02:00",
+    "CreatedBy": "ipsa",
+    "CreatedByFullName": "Genoveva Ratke",
+    "CreatedByAssociateId": 176,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 424,
-    "Title": "adipisci",
-    "Agenda": "et",
-    "InternalNotes": "doloribus",
+    "PreferredTZLocation": 836,
+    "Title": "quis",
+    "Agenda": "voluptatibus",
+    "InternalNotes": "molestias",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 601
+        "FieldType": "System.String",
+        "FieldLength": 610
       }
     }
   }

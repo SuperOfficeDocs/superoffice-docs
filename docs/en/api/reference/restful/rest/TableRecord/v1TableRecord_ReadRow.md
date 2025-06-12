@@ -72,15 +72,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "dolores",
-    "Values2": "aut"
+    "Values1": "sed",
+    "Values2": "non"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 535
+      "FieldLength": 74
     }
   }
 }

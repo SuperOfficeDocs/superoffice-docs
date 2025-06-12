@@ -49,27 +49,27 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities
   type: Class
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nA list of capabilities that a quote connector can have. These are strings instead of an enum to future proof it, i.e. so that when new capabilities occure\n, you don&apos;t have to recompile your connector if you don&apos;t want to.\n"
+  summary: >-
+    A list of capabilities that a quote connector can have. These are strings instead of an enum to future proof it, i.e. so that when new capabilities occure
+
+    , you don't have to recompile your connector if you don't want to.
+  example: []
   syntax:
-    content: 'public static class CRMQuoteConnectorCapabilities : Object'
-    content.vb: >-
-      Public Module CRMQuoteConnectorCapabilities
-          Inherits Object
+    content: public static class CRMQuoteConnectorCapabilities
+    content.vb: Public Module CRMQuoteConnectorCapabilities
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideCost
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideCost
   id: CanProvideCost
@@ -81,24 +81,23 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.CanProvideCost
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideCost
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nCan the Product Provider fill in the Cost price value?\nDetermines if the Cost and Earning field is shown in the GUI.\n<p></p>\nIf this is FALSE, then the Cost Price, Earning and Earning% fields are not shown in the Quote Line dialog or search dialogs or archive footers.\n"
+  summary: >-
+    Can the Product Provider fill in the Cost price value?
+
+    Determines if the Cost and Earning field is shown in the GUI.
+
+    <p></p>
+
+    If this is FALSE, then the Cost Price, Earning and Earning% fields are not shown in the Quote Line dialog or search dialogs or archive footers.
+  example: []
   syntax:
     content: public const string CanProvideCost = "iproductprovider_provide_cost"
     return:
       type: System.String
     content.vb: Public Const CanProvideCost As String = "iproductprovider_provide_cost"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideMinimumPrice
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideMinimumPrice
   id: CanProvideMinimumPrice
@@ -110,24 +109,29 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.CanProvideMinimumPrice
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideMinimumPrice
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nCan the Product Provider define the Minimum price value? \nDetermines if the Minimum Price field is shown in the GUI, and if the minimum price is checked against the list price field. \n<p></p>\nIf the list price is less than the minimum price, then an ERROR is signalled, blocking the SEND/PLACE ORDER actions of the quote. \nThe minimum price check cannot be bypassed - it does not trigger a NEEDS APPROVAL workflow.\n<p></p>\nIf this is FALSE, then the Minimum Price field is not shown in the Quote Line dialog or search dialogs or archives, and no check is done on the list price.\n"
+  summary: >-
+    Can the Product Provider define the Minimum price value? 
+
+    Determines if the Minimum Price field is shown in the GUI, and if the minimum price is checked against the list price field. 
+
+    <p></p>
+
+    If the list price is less than the minimum price, then an ERROR is signalled, blocking the SEND/PLACE ORDER actions of the quote. 
+
+    The minimum price check cannot be bypassed - it does not trigger a NEEDS APPROVAL workflow.
+
+    <p></p>
+
+    If this is FALSE, then the Minimum Price field is not shown in the Quote Line dialog or search dialogs or archives, and no check is done on the list price.
+  example: []
   syntax:
     content: public const string CanProvideMinimumPrice = "iproductprovider_provide_minimumprice"
     return:
       type: System.String
     content.vb: Public Const CanProvideMinimumPrice As String = "iproductprovider_provide_minimumprice"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideStockData
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideStockData
   id: CanProvideStockData
@@ -139,24 +143,23 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.CanProvideStockData
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideStockData
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nCan the product provider supply the inStock data?\nDetermines whether the inStock values are shown in the GUI or not.\n<p></p>\nIf this is FALSE, then the inStock column is not shown in the product search results.\n"
+  summary: >-
+    Can the product provider supply the inStock data?
+
+    Determines whether the inStock values are shown in the GUI or not.
+
+    <p></p>
+
+    If this is FALSE, then the inStock column is not shown in the product search results.
+  example: []
   syntax:
     content: public const string CanProvideStockData = "iproductprovider_provide_stockdata"
     return:
       type: System.String
     content.vb: Public Const CanProvideStockData As String = "iproductprovider_provide_stockdata"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideExtraData
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideExtraData
   id: CanProvideExtraData
@@ -168,24 +171,25 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.CanProvideExtraData
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideExtraData
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nDoes the Product Provider fill in any ExtraData. \nDetermines if the extra data fields are shown in the GUI.\n<p></p>\nIf this is FALSE: then the extra-fields section in the quote line dialog is not shown.\nIf this is false, and no extra fields are in use, then the whole EXTRA tab disappears.\n"
+  summary: >-
+    Does the Product Provider fill in any ExtraData. 
+
+    Determines if the extra data fields are shown in the GUI.
+
+    <p></p>
+
+    If this is FALSE: then the extra-fields section in the quote line dialog is not shown.
+
+    If this is false, and no extra fields are in use, then the whole EXTRA tab disappears.
+  example: []
   syntax:
     content: public const string CanProvideExtraData = "iproductprovider_provide_extradata"
     return:
       type: System.String
     content.vb: Public Const CanProvideExtraData As String = "iproductprovider_provide_extradata"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvidePicture
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvidePicture
   id: CanProvidePicture
@@ -197,24 +201,23 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.CanProvidePicture
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvidePicture
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nCan the Product Provider supply any pictures? \nDetermines if the picture field is shown in the dialog.\n<p></p>\nIf this is FALSE, then the picture in the quote line dialog is not shown. Thumbnails will still be shown in archives, if a thumbnail is provided.\n"
+  summary: >-
+    Can the Product Provider supply any pictures? 
+
+    Determines if the picture field is shown in the dialog.
+
+    <p></p>
+
+    If this is FALSE, then the picture in the quote line dialog is not shown. Thumbnails will still be shown in archives, if a thumbnail is provided.
+  example: []
   syntax:
     content: public const string CanProvidePicture = "iproductprovider_provide_picture"
     return:
       type: System.String
     content.vb: Public Const CanProvidePicture As String = "iproductprovider_provide_picture"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanSendOrderConfirmation
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanSendOrderConfirmation
   id: CanSendOrderConfirmation
@@ -226,24 +229,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.CanSendOrderConfirmation
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanSendOrderConfirmation
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nCan the connector send its own order confirmation e-mail? If the connector or the ERP system sends its own e-mail, then SuperOffice doesn&apos;t have to do it.\n<p></p>\nIf the capability is FALSE, then the E-MAIL section of the PLACE ORDER dialog is shown.\n"
+  summary: >-
+    Can the connector send its own order confirmation e-mail? If the connector or the ERP system sends its own e-mail, then SuperOffice doesn't have to do it.
+
+    <p></p>
+
+    If the capability is FALSE, then the E-MAIL section of the PLACE ORDER dialog is shown.
+  example: []
   syntax:
     content: public const string CanSendOrderConfirmation = "iorderconsumer_send_order_confirm"
     return:
       type: System.String
     content.vb: Public Const CanSendOrderConfirmation As String = "iorderconsumer_send_order_confirm"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanPlaceOrder
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanPlaceOrder
   id: CanPlaceOrder
@@ -255,24 +255,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.CanPlaceOrder
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanPlaceOrder
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nCan the connector place orders?\nIf not then the PlaceOrder method is not called.\nThe PLACE ORDER button is still shown, and the quote can be set to ordered.\n"
+  summary: >-
+    Can the connector place orders?
+
+    If not then the PlaceOrder method is not called.
+
+    The PLACE ORDER button is still shown, and the quote can be set to ordered.
+  example: []
   syntax:
     content: public const string CanPlaceOrder = "iorderconsumer_place_order"
     return:
       type: System.String
     content.vb: Public Const CanPlaceOrder As String = "iorderconsumer_place_order"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideOrderState
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideOrderState
   id: CanProvideOrderState
@@ -284,24 +281,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.CanProvideOrderState
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideOrderState
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nCan the connector check order status in the ERP system. \n<p></p>\nIf the capability is FALSE, then no GET STATUS button appears after an order has been placed in the ERP system.\n"
+  summary: >-
+    Can the connector check order status in the ERP system. 
+
+    <p></p>
+
+    If the capability is FALSE, then no GET STATUS button appears after an order has been placed in the ERP system.
+  example: []
   syntax:
     content: public const string CanProvideOrderState = "iorderconsumer_provide_orderstate"
     return:
       type: System.String
     content.vb: Public Const CanProvideOrderState As String = "iorderconsumer_provide_orderstate"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideListBase
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideListBase
   id: CanProvideListBase
@@ -313,24 +307,16 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.CanProvideListBase
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideListBase
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nBase string for the list-specific capability; append list name in lowercase and the &quot;list&quot; suffix with no additional underscores\n"
+  summary: Base string for the list-specific capability; append list name in lowercase and the "list" suffix with no additional underscores
+  example: []
   syntax:
     content: public const string CanProvideListBase = "ilistprovider_provide_"
     return:
       type: System.String
     content.vb: Public Const CanProvideListBase As String = "ilistprovider_provide_"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideProductCategoryList
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideProductCategoryList
   id: CanProvideProductCategoryList
@@ -342,24 +328,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.CanProvideProductCategoryList
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideProductCategoryList
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nCan the connector provide the Product category list?\n<p></p>\nIf the capability is FALSE; then a text field is shown in place of a dropdown list in the QuoteLine and Quote dialogs.\n"
+  summary: >-
+    Can the connector provide the Product category list?
+
+    <p></p>
+
+    If the capability is FALSE; then a text field is shown in place of a dropdown list in the QuoteLine and Quote dialogs.
+  example: []
   syntax:
     content: public const string CanProvideProductCategoryList = "ilistprovider_provide_productcategorylist"
     return:
       type: System.String
     content.vb: Public Const CanProvideProductCategoryList As String = "ilistprovider_provide_productcategorylist"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideProductFamilyList
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideProductFamilyList
   id: CanProvideProductFamilyList
@@ -371,24 +354,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.CanProvideProductFamilyList
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideProductFamilyList
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nCan the connector provide the Product family list?\n<p></p>\nIf the capability is FALSE; then a text field is shown in place of a dropdown list in the QuoteLine and Quote dialogs.\n"
+  summary: >-
+    Can the connector provide the Product family list?
+
+    <p></p>
+
+    If the capability is FALSE; then a text field is shown in place of a dropdown list in the QuoteLine and Quote dialogs.
+  example: []
   syntax:
     content: public const string CanProvideProductFamilyList = "ilistprovider_provide_productfamilylist"
     return:
       type: System.String
     content.vb: Public Const CanProvideProductFamilyList As String = "ilistprovider_provide_productfamilylist"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideProductTypeList
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideProductTypeList
   id: CanProvideProductTypeList
@@ -400,24 +380,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.CanProvideProductTypeList
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideProductTypeList
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nCan the connector provide the Product type list?\n<p></p>\nIf the capability is FALSE; then a text field is shown in place of a dropdown list in the QuoteLine and Product dialogs.\n"
+  summary: >-
+    Can the connector provide the Product type list?
+
+    <p></p>
+
+    If the capability is FALSE; then a text field is shown in place of a dropdown list in the QuoteLine and Product dialogs.
+  example: []
   syntax:
     content: public const string CanProvideProductTypeList = "ilistprovider_provide_producttypelist"
     return:
       type: System.String
     content.vb: Public Const CanProvideProductTypeList As String = "ilistprovider_provide_producttypelist"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvidePaymentTermsList
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvidePaymentTermsList
   id: CanProvidePaymentTermsList
@@ -429,24 +406,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.CanProvidePaymentTermsList
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvidePaymentTermsList
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nCan the connector provide the Payment terms list?\n<p></p>\nIf the capability is FALSE; then a text field is shown in place of a dropdown list in the Quote dialog.\n"
+  summary: >-
+    Can the connector provide the Payment terms list?
+
+    <p></p>
+
+    If the capability is FALSE; then a text field is shown in place of a dropdown list in the Quote dialog.
+  example: []
   syntax:
     content: public const string CanProvidePaymentTermsList = "ilistprovider_provide_paymenttermslist"
     return:
       type: System.String
     content.vb: Public Const CanProvidePaymentTermsList As String = "ilistprovider_provide_paymenttermslist"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvidePaymentTypeList
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvidePaymentTypeList
   id: CanProvidePaymentTypeList
@@ -458,24 +432,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.CanProvidePaymentTypeList
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvidePaymentTypeList
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nCan the connector provide the Payment type list?\n<p></p>\nIf the capability is FALSE; then a text field is shown in place of a dropdown list in the Quote dialog.\n"
+  summary: >-
+    Can the connector provide the Payment type list?
+
+    <p></p>
+
+    If the capability is FALSE; then a text field is shown in place of a dropdown list in the Quote dialog.
+  example: []
   syntax:
     content: public const string CanProvidePaymentTypeList = "ilistprovider_provide_paymenttypelist"
     return:
       type: System.String
     content.vb: Public Const CanProvidePaymentTypeList As String = "ilistprovider_provide_paymenttypelist"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideDeliveryTermsList
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideDeliveryTermsList
   id: CanProvideDeliveryTermsList
@@ -487,24 +458,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.CanProvideDeliveryTermsList
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideDeliveryTermsList
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nCan the connector provide the Delivery terms list?\n<p></p>\nIf the capability is FALSE; then a text field is shown in place of a dropdown list in the Quote dialog.\n"
+  summary: >-
+    Can the connector provide the Delivery terms list?
+
+    <p></p>
+
+    If the capability is FALSE; then a text field is shown in place of a dropdown list in the Quote dialog.
+  example: []
   syntax:
     content: public const string CanProvideDeliveryTermsList = "ilistprovider_provide_deliverytermslist"
     return:
       type: System.String
     content.vb: Public Const CanProvideDeliveryTermsList As String = "ilistprovider_provide_deliverytermslist"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideDeliveryTypeList
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideDeliveryTypeList
   id: CanProvideDeliveryTypeList
@@ -516,24 +484,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.CanProvideDeliveryTypeList
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideDeliveryTypeList
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nCan the connector provide the Delivery type list?\n<p></p>\nIf the capability is FALSE; then a text field is shown in place of a dropdown list in the Quote dialog.\n"
+  summary: >-
+    Can the connector provide the Delivery type list?
+
+    <p></p>
+
+    If the capability is FALSE; then a text field is shown in place of a dropdown list in the Quote dialog.
+  example: []
   syntax:
     content: public const string CanProvideDeliveryTypeList = "ilistprovider_provide_deliverytypelist"
     return:
       type: System.String
     content.vb: Public Const CanProvideDeliveryTypeList As String = "ilistprovider_provide_deliverytypelist"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanPerformComplexSearch
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanPerformComplexSearch
   id: CanPerformComplexSearch
@@ -545,24 +510,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.CanPerformComplexSearch
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanPerformComplexSearch
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nCan the connector provide the &quot;Advanced Search&quot; feature (magnifying glass next to search field, leading to a full Find dialog);\nif TRUE then <xref href=\"SuperOffice.CRM.IQuoteConnector.GetSearchableFields\" data-throw-if-not-resolved=\"false\"></xref>\nshould return at least one criterion field.\n"
+  summary: >-
+    Can the connector provide the "Advanced Search" feature (magnifying glass next to search field, leading to a full Find dialog);
+
+    if TRUE then <xref href="SuperOffice.CRM.IQuoteConnector.GetSearchableFields" data-throw-if-not-resolved="false"></xref>
+
+    should return at least one criterion field.
+  example: []
   syntax:
     content: public const string CanPerformComplexSearch = "iconnector_perform_complexsearch"
     return:
       type: System.String
     content.vb: Public Const CanPerformComplexSearch As String = "iconnector_perform_complexsearch"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideAddresses
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideAddresses
   id: CanProvideAddresses
@@ -574,24 +536,25 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.CanProvideAddresses
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideAddresses
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nCan the connector provide addresses at all?\n<p></p>\nIf the capability is TRUE; then the quote will use the delivery and invoice addresses provided by the connector.\n<p></p>\nIf the capability is FALSE; then the quote will use the default addresses from SuperOffice.\n"
+  summary: >-
+    Can the connector provide addresses at all?
+
+    <p></p>
+
+    If the capability is TRUE; then the quote will use the delivery and invoice addresses provided by the connector.
+
+    <p></p>
+
+    If the capability is FALSE; then the quote will use the default addresses from SuperOffice.
+  example: []
   syntax:
     content: public const string CanProvideAddresses = "iaddressprovider_provide_addresses"
     return:
       type: System.String
     content.vb: Public Const CanProvideAddresses As String = "iaddressprovider_provide_addresses"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanCachePriceLists
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanCachePriceLists
   id: CanCachePriceLists
@@ -603,24 +566,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.CanCachePriceLists
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanCachePriceLists
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nCan the quote engine cache the pricelists to increase performance?\n<p></p>\nThis is only available in the online environment and is not used by onsite installations.\n"
+  summary: >-
+    Can the quote engine cache the pricelists to increase performance?
+
+    <p></p>
+
+    This is only available in the online environment and is not used by onsite installations.
+  example: []
   syntax:
     content: public const string CanCachePriceLists = "cache-pricelists"
     return:
       type: System.String
     content.vb: Public Const CanCachePriceLists As String = "cache-pricelists"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.NoCacheQuotelists
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.NoCacheQuotelists
   id: NoCacheQuotelists
@@ -632,24 +592,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.NoCacheQuotelists
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.NoCacheQuotelists
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nShould the quote engine NOT cache the list output? e.g. When the list content varies by context for example?\n<p></p>\nThis is only available in the online environment and is not used by onsite installations.\n"
+  summary: >-
+    Should the quote engine NOT cache the list output? e.g. When the list content varies by context for example?
+
+    <p></p>
+
+    This is only available in the online environment and is not used by onsite installations.
+  example: []
   syntax:
     content: public const string NoCacheQuotelists = "no-cache-quotelists"
     return:
       type: System.String
     content.vb: Public Const NoCacheQuotelists As String = "no-cache-quotelists"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.NoCacheImages
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.NoCacheImages
   id: NoCacheImages
@@ -661,24 +618,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.NoCacheImages
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.NoCacheImages
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nShould the quote engine NOT cache the images? e.g. When the images varies?\n<p></p>\nThis is only available in the online environment and is not used by onsite installations.\n"
+  summary: >-
+    Should the quote engine NOT cache the images? e.g. When the images varies?
+
+    <p></p>
+
+    This is only available in the online environment and is not used by onsite installations.
+  example: []
   syntax:
     content: public const string NoCacheImages = "no-cache-images"
     return:
       type: System.String
     content.vb: Public Const NoCacheImages As String = "no-cache-images"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_zero_ok
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_zero_ok
   id: quote_status_zero_ok
@@ -690,24 +644,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.quote_status_zero_ok
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_zero_ok
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nQuote connector: disable zero status warning\n<p></p>\nDefines the behavior when built-in rules for quotelines with amounts equal to zero is triggered in Online. On-site plugins can override the <xref href=\"SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method directly.\n"
+  summary: >-
+    Quote connector: disable zero status warning
+
+    <p></p>
+
+    Defines the behavior when built-in rules for quotelines with amounts equal to zero is triggered in Online. On-site plugins can override the <xref href="SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)" data-throw-if-not-resolved="false"></xref> method directly.
+  example: []
   syntax:
     content: public const string quote_status_zero_ok = "quote_status_zero_ok"
     return:
       type: System.String
     content.vb: Public Const quote_status_zero_ok As String = "quote_status_zero_ok"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_zero_warning
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_zero_warning
   id: quote_status_zero_warning
@@ -719,24 +670,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.quote_status_zero_warning
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_zero_warning
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nQuote connector: warn on zero status\n<p></p>\nDefines the behavior when built-in rules for quotelines with amounts equal to zero is triggered in Online. On-site plugins can override the <xref href=\"SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method directly.\n"
+  summary: >-
+    Quote connector: warn on zero status
+
+    <p></p>
+
+    Defines the behavior when built-in rules for quotelines with amounts equal to zero is triggered in Online. On-site plugins can override the <xref href="SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)" data-throw-if-not-resolved="false"></xref> method directly.
+  example: []
   syntax:
     content: public const string quote_status_zero_warning = "quote_status_zero_warning"
     return:
       type: System.String
     content.vb: Public Const quote_status_zero_warning As String = "quote_status_zero_warning"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_zero_error
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_zero_error
   id: quote_status_zero_error
@@ -748,24 +696,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.quote_status_zero_error
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_zero_error
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nQuote connector: error on zero status\n<p></p>\nDefines the behavior when built-in rules for quotelines with amounts equal to zero is triggered in Online. On-site plugins can override the <xref href=\"SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method directly.\n"
+  summary: >-
+    Quote connector: error on zero status
+
+    <p></p>
+
+    Defines the behavior when built-in rules for quotelines with amounts equal to zero is triggered in Online. On-site plugins can override the <xref href="SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)" data-throw-if-not-resolved="false"></xref> method directly.
+  example: []
   syntax:
     content: public const string quote_status_zero_error = "quote_status_zero_error"
     return:
       type: System.String
     content.vb: Public Const quote_status_zero_error As String = "quote_status_zero_error"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_negative_ok
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_negative_ok
   id: quote_status_negative_ok
@@ -777,24 +722,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.quote_status_negative_ok
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_negative_ok
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nQuote connector: disable zero status warning\n<p></p>\nDefines the behavior when built-in rules for quotelines with amounts below zero is triggered in Online. On-site plugins can override the <xref href=\"SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method directly.\n"
+  summary: >-
+    Quote connector: disable zero status warning
+
+    <p></p>
+
+    Defines the behavior when built-in rules for quotelines with amounts below zero is triggered in Online. On-site plugins can override the <xref href="SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)" data-throw-if-not-resolved="false"></xref> method directly.
+  example: []
   syntax:
     content: public const string quote_status_negative_ok = "quote_status_negative_ok"
     return:
       type: System.String
     content.vb: Public Const quote_status_negative_ok As String = "quote_status_negative_ok"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_negative_warning
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_negative_warning
   id: quote_status_negative_warning
@@ -806,24 +748,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.quote_status_negative_warning
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_negative_warning
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nQuote connector: warn on zero status\n<p></p>\nDefines the behavior when built-in rules for quotelines with amounts below zero is triggered in Online. On-site plugins can override the <xref href=\"SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method directly.\n"
+  summary: >-
+    Quote connector: warn on zero status
+
+    <p></p>
+
+    Defines the behavior when built-in rules for quotelines with amounts below zero is triggered in Online. On-site plugins can override the <xref href="SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)" data-throw-if-not-resolved="false"></xref> method directly.
+  example: []
   syntax:
     content: public const string quote_status_negative_warning = "quote_status_negative_warning"
     return:
       type: System.String
     content.vb: Public Const quote_status_negative_warning As String = "quote_status_negative_warning"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_negative_error
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_negative_error
   id: quote_status_negative_error
@@ -835,24 +774,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.quote_status_negative_error
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_negative_error
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nQuote connector: error on zero status\n<p></p>\nDefine the behavior when built-in rules for quotelines with amounts below cost or minimum price is triggered in Online. On-site plugins can override the <xref href=\"SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method directly.\n"
+  summary: >-
+    Quote connector: error on zero status
+
+    <p></p>
+
+    Define the behavior when built-in rules for quotelines with amounts below cost or minimum price is triggered in Online. On-site plugins can override the <xref href="SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)" data-throw-if-not-resolved="false"></xref> method directly.
+  example: []
   syntax:
     content: public const string quote_status_negative_error = "quote_status_negative_error"
     return:
       type: System.String
     content.vb: Public Const quote_status_negative_error As String = "quote_status_negative_error"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_below_cost_ok
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_below_cost_ok
   id: quote_status_below_cost_ok
@@ -864,24 +800,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.quote_status_below_cost_ok
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_below_cost_ok
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nQuote connector: disable below cost status warning\n<p></p>\nDefine the behavior when built-in rules for quotelines with amounts below cost or minimum price is triggered in Online. On-site plugins can override the <xref href=\"SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method directly.\n"
+  summary: >-
+    Quote connector: disable below cost status warning
+
+    <p></p>
+
+    Define the behavior when built-in rules for quotelines with amounts below cost or minimum price is triggered in Online. On-site plugins can override the <xref href="SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)" data-throw-if-not-resolved="false"></xref> method directly.
+  example: []
   syntax:
     content: public const string quote_status_below_cost_ok = "quote_status_below_cost_ok"
     return:
       type: System.String
     content.vb: Public Const quote_status_below_cost_ok As String = "quote_status_below_cost_ok"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_below_cost_warning
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_below_cost_warning
   id: quote_status_below_cost_warning
@@ -893,24 +826,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.quote_status_below_cost_warning
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_below_cost_warning
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nQuote connector: warn on below cost status\n<p></p>\nDefine the behavior when built-in rules for quotelines with amounts below cost or minimum price is triggered in Online. On-site plugins can override the <xref href=\"SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method directly.\n"
+  summary: >-
+    Quote connector: warn on below cost status
+
+    <p></p>
+
+    Define the behavior when built-in rules for quotelines with amounts below cost or minimum price is triggered in Online. On-site plugins can override the <xref href="SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)" data-throw-if-not-resolved="false"></xref> method directly.
+  example: []
   syntax:
     content: public const string quote_status_below_cost_warning = "quote_status_below_cost_warning"
     return:
       type: System.String
     content.vb: Public Const quote_status_below_cost_warning As String = "quote_status_below_cost_warning"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_below_cost_error
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_below_cost_error
   id: quote_status_below_cost_error
@@ -922,24 +852,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.quote_status_below_cost_error
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_below_cost_error
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nQuote connector: error on below cost status\n<p></p>\nDefine the behavior when built-in rules for quotelines with amounts below cost or minimum price is triggered in Online. On-site plugins can override the <xref href=\"SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method directly.\n"
+  summary: >-
+    Quote connector: error on below cost status
+
+    <p></p>
+
+    Define the behavior when built-in rules for quotelines with amounts below cost or minimum price is triggered in Online. On-site plugins can override the <xref href="SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)" data-throw-if-not-resolved="false"></xref> method directly.
+  example: []
   syntax:
     content: public const string quote_status_below_cost_error = "quote_status_below_cost_error"
     return:
       type: System.String
     content.vb: Public Const quote_status_below_cost_error As String = "quote_status_below_cost_error"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_assortment_ok
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_assortment_ok
   id: quote_status_assortment_ok
@@ -951,24 +878,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.quote_status_assortment_ok
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_assortment_ok
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nQuote connector: disable assortment status warning\n<p></p>\nDefine the behavior when built-in rules for in-assortment is triggered in Online. On-site plugins can override the <xref href=\"SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method directly.\n"
+  summary: >-
+    Quote connector: disable assortment status warning
+
+    <p></p>
+
+    Define the behavior when built-in rules for in-assortment is triggered in Online. On-site plugins can override the <xref href="SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)" data-throw-if-not-resolved="false"></xref> method directly.
+  example: []
   syntax:
     content: public const string quote_status_assortment_ok = "quote_status_assortment_ok"
     return:
       type: System.String
     content.vb: Public Const quote_status_assortment_ok As String = "quote_status_assortment_ok"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_assortment_warning
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_assortment_warning
   id: quote_status_assortment_warning
@@ -980,24 +904,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.quote_status_assortment_warning
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_assortment_warning
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nQuote connector: warn on assortment status\n<p></p>\nDefine the behavior when built-in rules for in-assortment is triggered in Online. On-site plugins can override the <xref href=\"SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method directly.\n"
+  summary: >-
+    Quote connector: warn on assortment status
+
+    <p></p>
+
+    Define the behavior when built-in rules for in-assortment is triggered in Online. On-site plugins can override the <xref href="SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)" data-throw-if-not-resolved="false"></xref> method directly.
+  example: []
   syntax:
     content: public const string quote_status_assortment_warning = "quote_status_assortment_warning"
     return:
       type: System.String
     content.vb: Public Const quote_status_assortment_warning As String = "quote_status_assortment_warning"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_assortment_error
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_assortment_error
   id: quote_status_assortment_error
@@ -1009,24 +930,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.quote_status_assortment_error
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_assortment_error
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nQuote connector: error on assortment status\n<p></p>\nDefine the behavior when built-in rules for in-assortment is triggered in Online. On-site plugins can override the <xref href=\"SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method directly.\n"
+  summary: >-
+    Quote connector: error on assortment status
+
+    <p></p>
+
+    Define the behavior when built-in rules for in-assortment is triggered in Online. On-site plugins can override the <xref href="SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)" data-throw-if-not-resolved="false"></xref> method directly.
+  example: []
   syntax:
     content: public const string quote_status_assortment_error = "quote_status_assortment_error"
     return:
       type: System.String
     content.vb: Public Const quote_status_assortment_error As String = "quote_status_assortment_error"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_expired_ok
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_expired_ok
   id: quote_status_expired_ok
@@ -1038,24 +956,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.quote_status_expired_ok
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_expired_ok
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nQuote connector: disable expired status warning\n<p></p>\nDefine the behavior when built-in rules for expired products/price-lists is triggered in Online. On-site plugins can override the <xref href=\"SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method directly.\n"
+  summary: >-
+    Quote connector: disable expired status warning
+
+    <p></p>
+
+    Define the behavior when built-in rules for expired products/price-lists is triggered in Online. On-site plugins can override the <xref href="SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)" data-throw-if-not-resolved="false"></xref> method directly.
+  example: []
   syntax:
     content: public const string quote_status_expired_ok = "quote_status_expired_ok"
     return:
       type: System.String
     content.vb: Public Const quote_status_expired_ok As String = "quote_status_expired_ok"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_expired_warning
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_expired_warning
   id: quote_status_expired_warning
@@ -1067,24 +982,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.quote_status_expired_warning
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_expired_warning
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nQuote connector: warn on expired status\n<p></p>\nDefine the behavior when built-in rules for expired products/price-lists is triggered in Online. On-site plugins can override the <xref href=\"SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method directly.\n"
+  summary: >-
+    Quote connector: warn on expired status
+
+    <p></p>
+
+    Define the behavior when built-in rules for expired products/price-lists is triggered in Online. On-site plugins can override the <xref href="SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)" data-throw-if-not-resolved="false"></xref> method directly.
+  example: []
   syntax:
     content: public const string quote_status_expired_warning = "quote_status_expired_warning"
     return:
       type: System.String
     content.vb: Public Const quote_status_expired_warning As String = "quote_status_expired_warning"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_expired_error
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_expired_error
   id: quote_status_expired_error
@@ -1096,24 +1008,21 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.quote_status_expired_error
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.quote_status_expired_error
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nQuote connector: error on expired status\n<p></p>\nDefine the behavior when built-in rules for expired products/price-lists is triggered in Online. On-site plugins can override the <xref href=\"SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method directly.\n"
+  summary: >-
+    Quote connector: error on expired status
+
+    <p></p>
+
+    Define the behavior when built-in rules for expired products/price-lists is triggered in Online. On-site plugins can override the <xref href="SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)" data-throw-if-not-resolved="false"></xref> method directly.
+  example: []
   syntax:
     content: public const string quote_status_expired_error = "quote_status_expired_error"
     return:
       type: System.String
     content.vb: Public Const quote_status_expired_error As String = "quote_status_expired_error"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.All
   commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.All
   id: All
@@ -1125,41 +1034,278 @@ items:
   nameWithType: CRMQuoteConnectorCapabilities.All
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.All
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nReturns all of the capabilities in a handy array. Useful when iterating.\n"
+  summary: Returns all of the capabilities in a handy array. Useful when iterating.
+  example: []
   syntax:
     content: public static string[] All
     return:
       type: System.String[]
     content.vb: Public Shared All As String()
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -1167,32 +1313,95 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.IQuoteConnector.GetSearchableFields
+  commentId: M:SuperOffice.CRM.IQuoteConnector.GetSearchableFields
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  href: SuperOffice.CRM.IQuoteConnector.html#SuperOffice_CRM_IQuoteConnector_GetSearchableFields
+  name: GetSearchableFields()
+  nameWithType: IQuoteConnector.GetSearchableFields()
+  fullName: SuperOffice.CRM.IQuoteConnector.GetSearchableFields()
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetSearchableFields
+    name: GetSearchableFields
+    isExternal: true
+    href: SuperOffice.CRM.IQuoteConnector.html#SuperOffice_CRM_IQuoteConnector_GetSearchableFields
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetSearchableFields
+    name: GetSearchableFields
+    isExternal: true
+    href: SuperOffice.CRM.IQuoteConnector.html#SuperOffice_CRM_IQuoteConnector_GetSearchableFields
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.IQuoteConnector
+  commentId: T:SuperOffice.CRM.IQuoteConnector
+  parent: SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.CRM.IQuoteConnector.html
+  name: IQuoteConnector
+  nameWithType: IQuoteConnector
+  fullName: SuperOffice.CRM.IQuoteConnector
+- uid: SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)
+  commentId: M:SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)
+  isExternal: true
+  href: SuperOffice.CRM.QuoteConnectorBase.html#SuperOffice_CRM_QuoteConnectorBase_GetQuoteStatusInfo_System_String_
+  name: GetQuoteStatusInfo(string)
+  nameWithType: QuoteConnectorBase.GetQuoteStatusInfo(string)
+  fullName: SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(string)
+  nameWithType.vb: QuoteConnectorBase.GetQuoteStatusInfo(String)
+  fullName.vb: SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(String)
+  name.vb: GetQuoteStatusInfo(String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)
+    name: GetQuoteStatusInfo
+    isExternal: true
+    href: SuperOffice.CRM.QuoteConnectorBase.html#SuperOffice_CRM_QuoteConnectorBase_GetQuoteStatusInfo_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.QuoteConnectorBase.GetQuoteStatusInfo(System.String)
+    name: GetQuoteStatusInfo
+    isExternal: true
+    href: SuperOffice.CRM.QuoteConnectorBase.html#SuperOffice_CRM_QuoteConnectorBase_GetQuoteStatusInfo_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
 - uid: System.String[]
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
   nameWithType.vb: String()
-  fullName.vb: System.String()
+  fullName.vb: String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )

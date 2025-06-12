@@ -31,6 +31,7 @@ the actual functionality of the provider.
 |canLogin|bool|Can log in: Can log in|  |
 |superoffice\_system-user-cal| *None* |System user: Allows log in to NetServer|  |
 |associateDbId|associate|ID| x |
+|usergroupId|int|Group ID: The user's primary user group| x |
 |role|listAny|Role : Role| x |
 |assocName|associate|User ID : User ID| x |
 |assocTooltip|string|Description : Description|  |
@@ -49,7 +50,7 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/OtherUsers?$select=portraitThumbnail,role,credentialType
+GET /api/v1/archive/OtherUsers?$select=credentialType,role,assocType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

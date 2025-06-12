@@ -112,67 +112,41 @@ items:
   - SuperOffice.Data.EventHandlerType.TicketReopenedFromEmail
   - SuperOffice.Data.EventHandlerType.TicketSave
   - SuperOffice.Data.EventHandlerType.Unknown
-  - SuperOffice.Data.EventHandlerType.value__
   langs:
   - csharp
   - vb
   name: EventHandlerType
   nameWithType: EventHandlerType
   fullName: SuperOffice.Data.EventHandlerType
-  type: Class
-  source:
-    path: SoCore
-    isExternal: true
+  type: Enum
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\nCrmScript Event triggers - when CRMScript is run based on user or system actions. \n"
+  summary: CrmScript Event triggers - when CRMScript is run based on user or system actions.
+  example: []
   syntax:
-    content: 'public sealed class EventHandlerType : Enum'
-    content.vb: >-
-      Public NotInheritable Class EventHandlerType
-          Inherits
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
 
-           Enum
-  inheritance:
-  - System.Object
+      public enum EventHandlerType
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Enum EventHandlerType
   extensionMethods:
   - SuperOffice.Data.EventHandlerType.EnumUtil.MapEnums``2
   - SuperOffice.Data.EventHandlerType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.Data.EventHandlerType.value__
-  commentId: F:SuperOffice.Data.EventHandlerType.value__
-  id: value__
-  parent: SuperOffice.Data.EventHandlerType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: EventHandlerType.value__
-  fullName: SuperOffice.Data.EventHandlerType.value__
-  type: Field
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.Data.EventHandlerType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EventHandlerType)
+  - SuperOffice.Data.EventHandlerType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - System.Enum.EnumUtil.GetDescription
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.Data.EventHandlerType.Unknown
   commentId: F:SuperOffice.Data.EventHandlerType.Unknown
   id: Unknown
@@ -184,24 +158,26 @@ items:
   nameWithType: EventHandlerType.Unknown
   fullName: SuperOffice.Data.EventHandlerType.Unknown
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n0: Unknown trigger\n"
+  summary: '0: Unknown trigger'
+  example: []
   syntax:
-    content: public const EventHandlerType Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const Unknown As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.NewTicket
   commentId: F:SuperOffice.Data.EventHandlerType.NewTicket
   id: NewTicket
@@ -213,24 +189,26 @@ items:
   nameWithType: EventHandlerType.NewTicket
   fullName: SuperOffice.Data.EventHandlerType.NewTicket
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n100: NewTicket\n"
+  summary: '100: NewTicket'
+  example: []
   syntax:
-    content: public const EventHandlerType NewTicket
+    content: >-
+      [EnumMember]
+
+      NewTicket = 100
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const NewTicket As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      NewTicket = 100
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.NewTicketFromCustomerCenter
   commentId: F:SuperOffice.Data.EventHandlerType.NewTicketFromCustomerCenter
   id: NewTicketFromCustomerCenter
@@ -242,24 +220,26 @@ items:
   nameWithType: EventHandlerType.NewTicketFromCustomerCenter
   fullName: SuperOffice.Data.EventHandlerType.NewTicketFromCustomerCenter
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n101: NewTicketFromCustomerCenter\n"
+  summary: '101: NewTicketFromCustomerCenter'
+  example: []
   syntax:
-    content: public const EventHandlerType NewTicketFromCustomerCenter
+    content: >-
+      [EnumMember]
+
+      NewTicketFromCustomerCenter = 101
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const NewTicketFromCustomerCenter As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      NewTicketFromCustomerCenter = 101
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.NewTicketFromEmail
   commentId: F:SuperOffice.Data.EventHandlerType.NewTicketFromEmail
   id: NewTicketFromEmail
@@ -271,24 +251,26 @@ items:
   nameWithType: EventHandlerType.NewTicketFromEmail
   fullName: SuperOffice.Data.EventHandlerType.NewTicketFromEmail
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n102: NewTicketFromEmail\n"
+  summary: '102: NewTicketFromEmail'
+  example: []
   syntax:
-    content: public const EventHandlerType NewTicketFromEmail
+    content: >-
+      [EnumMember]
+
+      NewTicketFromEmail = 102
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const NewTicketFromEmail As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      NewTicketFromEmail = 102
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.NewTicketFromCustomerCenterBeforeSave
   commentId: F:SuperOffice.Data.EventHandlerType.NewTicketFromCustomerCenterBeforeSave
   id: NewTicketFromCustomerCenterBeforeSave
@@ -300,24 +282,26 @@ items:
   nameWithType: EventHandlerType.NewTicketFromCustomerCenterBeforeSave
   fullName: SuperOffice.Data.EventHandlerType.NewTicketFromCustomerCenterBeforeSave
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n103: NewTicketFromCustomerCenterBeforeSave\n"
+  summary: '103: NewTicketFromCustomerCenterBeforeSave'
+  example: []
   syntax:
-    content: public const EventHandlerType NewTicketFromCustomerCenterBeforeSave
+    content: >-
+      [EnumMember]
+
+      NewTicketFromCustomerCenterBeforeSave = 103
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const NewTicketFromCustomerCenterBeforeSave As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      NewTicketFromCustomerCenterBeforeSave = 103
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.NewTicketFromSpmLink
   commentId: F:SuperOffice.Data.EventHandlerType.NewTicketFromSpmLink
   id: NewTicketFromSpmLink
@@ -329,24 +313,26 @@ items:
   nameWithType: EventHandlerType.NewTicketFromSpmLink
   fullName: SuperOffice.Data.EventHandlerType.NewTicketFromSpmLink
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n104: NewTicketFromSpmLink\n"
+  summary: '104: NewTicketFromSpmLink'
+  example: []
   syntax:
-    content: public const EventHandlerType NewTicketFromSpmLink
+    content: >-
+      [EnumMember]
+
+      NewTicketFromSpmLink = 104
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const NewTicketFromSpmLink As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      NewTicketFromSpmLink = 104
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.NewNotifyTicketFromForm
   commentId: F:SuperOffice.Data.EventHandlerType.NewNotifyTicketFromForm
   id: NewNotifyTicketFromForm
@@ -358,24 +344,26 @@ items:
   nameWithType: EventHandlerType.NewNotifyTicketFromForm
   fullName: SuperOffice.Data.EventHandlerType.NewNotifyTicketFromForm
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n105: NewNotifyTicketFromForm\n"
+  summary: '105: NewNotifyTicketFromForm'
+  example: []
   syntax:
-    content: public const EventHandlerType NewNotifyTicketFromForm
+    content: >-
+      [EnumMember]
+
+      NewNotifyTicketFromForm = 105
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const NewNotifyTicketFromForm As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      NewNotifyTicketFromForm = 105
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.NewTicketFromForm
   commentId: F:SuperOffice.Data.EventHandlerType.NewTicketFromForm
   id: NewTicketFromForm
@@ -387,24 +375,26 @@ items:
   nameWithType: EventHandlerType.NewTicketFromForm
   fullName: SuperOffice.Data.EventHandlerType.NewTicketFromForm
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n106: NewTicketFromForm\n"
+  summary: '106: NewTicketFromForm'
+  example: []
   syntax:
-    content: public const EventHandlerType NewTicketFromForm
+    content: >-
+      [EnumMember]
+
+      NewTicketFromForm = 106
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const NewTicketFromForm As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      NewTicketFromForm = 106
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.TicketSave
   commentId: F:SuperOffice.Data.EventHandlerType.TicketSave
   id: TicketSave
@@ -416,24 +406,26 @@ items:
   nameWithType: EventHandlerType.TicketSave
   fullName: SuperOffice.Data.EventHandlerType.TicketSave
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n109: TicketSave\n"
+  summary: '109: TicketSave'
+  example: []
   syntax:
-    content: public const EventHandlerType TicketSave
+    content: >-
+      [EnumMember]
+
+      TicketSave = 109
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const TicketSave As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TicketSave = 109
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.TicketClosed
   commentId: F:SuperOffice.Data.EventHandlerType.TicketClosed
   id: TicketClosed
@@ -445,24 +437,26 @@ items:
   nameWithType: EventHandlerType.TicketClosed
   fullName: SuperOffice.Data.EventHandlerType.TicketClosed
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n110: TicketClosed\n"
+  summary: '110: TicketClosed'
+  example: []
   syntax:
-    content: public const EventHandlerType TicketClosed
+    content: >-
+      [EnumMember]
+
+      TicketClosed = 110
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const TicketClosed As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TicketClosed = 110
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.TicketPostponed
   commentId: F:SuperOffice.Data.EventHandlerType.TicketPostponed
   id: TicketPostponed
@@ -474,24 +468,26 @@ items:
   nameWithType: EventHandlerType.TicketPostponed
   fullName: SuperOffice.Data.EventHandlerType.TicketPostponed
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n111: TicketPostponed\n"
+  summary: '111: TicketPostponed'
+  example: []
   syntax:
-    content: public const EventHandlerType TicketPostponed
+    content: >-
+      [EnumMember]
+
+      TicketPostponed = 111
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const TicketPostponed As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TicketPostponed = 111
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.TicketDeleted
   commentId: F:SuperOffice.Data.EventHandlerType.TicketDeleted
   id: TicketDeleted
@@ -503,24 +499,26 @@ items:
   nameWithType: EventHandlerType.TicketDeleted
   fullName: SuperOffice.Data.EventHandlerType.TicketDeleted
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n112: TicketDeleted\n"
+  summary: '112: TicketDeleted'
+  example: []
   syntax:
-    content: public const EventHandlerType TicketDeleted
+    content: >-
+      [EnumMember]
+
+      TicketDeleted = 112
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const TicketDeleted As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TicketDeleted = 112
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.TicketActivated
   commentId: F:SuperOffice.Data.EventHandlerType.TicketActivated
   id: TicketActivated
@@ -532,24 +530,26 @@ items:
   nameWithType: EventHandlerType.TicketActivated
   fullName: SuperOffice.Data.EventHandlerType.TicketActivated
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n113: TicketActivated\n"
+  summary: '113: TicketActivated'
+  example: []
   syntax:
-    content: public const EventHandlerType TicketActivated
+    content: >-
+      [EnumMember]
+
+      TicketActivated = 113
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const TicketActivated As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TicketActivated = 113
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.TicketReopened
   commentId: F:SuperOffice.Data.EventHandlerType.TicketReopened
   id: TicketReopened
@@ -561,24 +561,26 @@ items:
   nameWithType: EventHandlerType.TicketReopened
   fullName: SuperOffice.Data.EventHandlerType.TicketReopened
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n120: TicketReopened\n"
+  summary: '120: TicketReopened'
+  example: []
   syntax:
-    content: public const EventHandlerType TicketReopened
+    content: >-
+      [EnumMember]
+
+      TicketReopened = 120
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const TicketReopened As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TicketReopened = 120
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.TicketReopenedFromCustomerCenter
   commentId: F:SuperOffice.Data.EventHandlerType.TicketReopenedFromCustomerCenter
   id: TicketReopenedFromCustomerCenter
@@ -590,24 +592,26 @@ items:
   nameWithType: EventHandlerType.TicketReopenedFromCustomerCenter
   fullName: SuperOffice.Data.EventHandlerType.TicketReopenedFromCustomerCenter
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n121: TicketReopenedFromCustomerCenter\n"
+  summary: '121: TicketReopenedFromCustomerCenter'
+  example: []
   syntax:
-    content: public const EventHandlerType TicketReopenedFromCustomerCenter
+    content: >-
+      [EnumMember]
+
+      TicketReopenedFromCustomerCenter = 121
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const TicketReopenedFromCustomerCenter As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TicketReopenedFromCustomerCenter = 121
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.TicketReopenedFromEmail
   commentId: F:SuperOffice.Data.EventHandlerType.TicketReopenedFromEmail
   id: TicketReopenedFromEmail
@@ -619,24 +623,26 @@ items:
   nameWithType: EventHandlerType.TicketReopenedFromEmail
   fullName: SuperOffice.Data.EventHandlerType.TicketReopenedFromEmail
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n122: TicketReopenedFromEmail\n"
+  summary: '122: TicketReopenedFromEmail'
+  example: []
   syntax:
-    content: public const EventHandlerType TicketReopenedFromEmail
+    content: >-
+      [EnumMember]
+
+      TicketReopenedFromEmail = 122
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const TicketReopenedFromEmail As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TicketReopenedFromEmail = 122
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.TicketChangedPriority
   commentId: F:SuperOffice.Data.EventHandlerType.TicketChangedPriority
   id: TicketChangedPriority
@@ -648,24 +654,26 @@ items:
   nameWithType: EventHandlerType.TicketChangedPriority
   fullName: SuperOffice.Data.EventHandlerType.TicketChangedPriority
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n140: TicketChangedPriority\n"
+  summary: '140: TicketChangedPriority'
+  example: []
   syntax:
-    content: public const EventHandlerType TicketChangedPriority
+    content: >-
+      [EnumMember]
+
+      TicketChangedPriority = 140
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const TicketChangedPriority As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TicketChangedPriority = 140
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.TicketChangedCategory
   commentId: F:SuperOffice.Data.EventHandlerType.TicketChangedCategory
   id: TicketChangedCategory
@@ -677,24 +685,26 @@ items:
   nameWithType: EventHandlerType.TicketChangedCategory
   fullName: SuperOffice.Data.EventHandlerType.TicketChangedCategory
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n141: TicketChangedCategory\n"
+  summary: '141: TicketChangedCategory'
+  example: []
   syntax:
-    content: public const EventHandlerType TicketChangedCategory
+    content: >-
+      [EnumMember]
+
+      TicketChangedCategory = 141
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const TicketChangedCategory As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TicketChangedCategory = 141
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.TicketChangedOwnedBy
   commentId: F:SuperOffice.Data.EventHandlerType.TicketChangedOwnedBy
   id: TicketChangedOwnedBy
@@ -706,24 +716,26 @@ items:
   nameWithType: EventHandlerType.TicketChangedOwnedBy
   fullName: SuperOffice.Data.EventHandlerType.TicketChangedOwnedBy
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n142: TicketChangedOwnedBy\n"
+  summary: '142: TicketChangedOwnedBy'
+  example: []
   syntax:
-    content: public const EventHandlerType TicketChangedOwnedBy
+    content: >-
+      [EnumMember]
+
+      TicketChangedOwnedBy = 142
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const TicketChangedOwnedBy As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TicketChangedOwnedBy = 142
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.TicketChangedPrimaryCustomer
   commentId: F:SuperOffice.Data.EventHandlerType.TicketChangedPrimaryCustomer
   id: TicketChangedPrimaryCustomer
@@ -735,24 +747,26 @@ items:
   nameWithType: EventHandlerType.TicketChangedPrimaryCustomer
   fullName: SuperOffice.Data.EventHandlerType.TicketChangedPrimaryCustomer
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n143: TicketChangedPrimaryCustomer\n"
+  summary: '143: TicketChangedPrimaryCustomer'
+  example: []
   syntax:
-    content: public const EventHandlerType TicketChangedPrimaryCustomer
+    content: >-
+      [EnumMember]
+
+      TicketChangedPrimaryCustomer = 143
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const TicketChangedPrimaryCustomer As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TicketChangedPrimaryCustomer = 143
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.TicketChangedTicketStatus
   commentId: F:SuperOffice.Data.EventHandlerType.TicketChangedTicketStatus
   id: TicketChangedTicketStatus
@@ -764,24 +778,26 @@ items:
   nameWithType: EventHandlerType.TicketChangedTicketStatus
   fullName: SuperOffice.Data.EventHandlerType.TicketChangedTicketStatus
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n144: TicketChangedTicketStatus\n"
+  summary: '144: TicketChangedTicketStatus'
+  example: []
   syntax:
-    content: public const EventHandlerType TicketChangedTicketStatus
+    content: >-
+      [EnumMember]
+
+      TicketChangedTicketStatus = 144
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const TicketChangedTicketStatus As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TicketChangedTicketStatus = 144
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.TicketChangedSlevel
   commentId: F:SuperOffice.Data.EventHandlerType.TicketChangedSlevel
   id: TicketChangedSlevel
@@ -793,24 +809,26 @@ items:
   nameWithType: EventHandlerType.TicketChangedSlevel
   fullName: SuperOffice.Data.EventHandlerType.TicketChangedSlevel
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n145: TicketChangedSlevel\n"
+  summary: '145: TicketChangedSlevel'
+  example: []
   syntax:
-    content: public const EventHandlerType TicketChangedSlevel
+    content: >-
+      [EnumMember]
+
+      TicketChangedSlevel = 145
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const TicketChangedSlevel As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TicketChangedSlevel = 145
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.TicketMessageAdded
   commentId: F:SuperOffice.Data.EventHandlerType.TicketMessageAdded
   id: TicketMessageAdded
@@ -822,24 +840,26 @@ items:
   nameWithType: EventHandlerType.TicketMessageAdded
   fullName: SuperOffice.Data.EventHandlerType.TicketMessageAdded
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n150: TicketMessageAdded\n"
+  summary: '150: TicketMessageAdded'
+  example: []
   syntax:
-    content: public const EventHandlerType TicketMessageAdded
+    content: >-
+      [EnumMember]
+
+      TicketMessageAdded = 150
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const TicketMessageAdded As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TicketMessageAdded = 150
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.TicketInternalMessageAdded
   commentId: F:SuperOffice.Data.EventHandlerType.TicketInternalMessageAdded
   id: TicketInternalMessageAdded
@@ -851,24 +871,26 @@ items:
   nameWithType: EventHandlerType.TicketInternalMessageAdded
   fullName: SuperOffice.Data.EventHandlerType.TicketInternalMessageAdded
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n151: TicketInternalMessageAdded\n"
+  summary: '151: TicketInternalMessageAdded'
+  example: []
   syntax:
-    content: public const EventHandlerType TicketInternalMessageAdded
+    content: >-
+      [EnumMember]
+
+      TicketInternalMessageAdded = 151
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const TicketInternalMessageAdded As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TicketInternalMessageAdded = 151
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.TicketExternalMessageAdded
   commentId: F:SuperOffice.Data.EventHandlerType.TicketExternalMessageAdded
   id: TicketExternalMessageAdded
@@ -880,24 +902,26 @@ items:
   nameWithType: EventHandlerType.TicketExternalMessageAdded
   fullName: SuperOffice.Data.EventHandlerType.TicketExternalMessageAdded
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n152: TicketExternalMessageAdded\n"
+  summary: '152: TicketExternalMessageAdded'
+  example: []
   syntax:
-    content: public const EventHandlerType TicketExternalMessageAdded
+    content: >-
+      [EnumMember]
+
+      TicketExternalMessageAdded = 152
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const TicketExternalMessageAdded As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TicketExternalMessageAdded = 152
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.TicketMessageSentimentCalculated
   commentId: F:SuperOffice.Data.EventHandlerType.TicketMessageSentimentCalculated
   id: TicketMessageSentimentCalculated
@@ -909,24 +933,26 @@ items:
   nameWithType: EventHandlerType.TicketMessageSentimentCalculated
   fullName: SuperOffice.Data.EventHandlerType.TicketMessageSentimentCalculated
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n153: TicketMessageSentimentCalculated\n"
+  summary: '153: TicketMessageSentimentCalculated'
+  example: []
   syntax:
-    content: public const EventHandlerType TicketMessageSentimentCalculated
+    content: >-
+      [EnumMember]
+
+      TicketMessageSentimentCalculated = 153
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const TicketMessageSentimentCalculated As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TicketMessageSentimentCalculated = 153
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.CompactModeInjection
   commentId: F:SuperOffice.Data.EventHandlerType.CompactModeInjection
   id: CompactModeInjection
@@ -938,24 +964,26 @@ items:
   nameWithType: EventHandlerType.CompactModeInjection
   fullName: SuperOffice.Data.EventHandlerType.CompactModeInjection
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n200: CompactModeInjection\n"
+  summary: '200: CompactModeInjection'
+  example: []
   syntax:
-    content: public const EventHandlerType CompactModeInjection
+    content: >-
+      [EnumMember]
+
+      CompactModeInjection = 200
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const CompactModeInjection As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      CompactModeInjection = 200
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.CustomerCenterAuthentication
   commentId: F:SuperOffice.Data.EventHandlerType.CustomerCenterAuthentication
   id: CustomerCenterAuthentication
@@ -967,24 +995,26 @@ items:
   nameWithType: EventHandlerType.CustomerCenterAuthentication
   fullName: SuperOffice.Data.EventHandlerType.CustomerCenterAuthentication
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n210: CustomerCenterAuthentication\n"
+  summary: '210: CustomerCenterAuthentication'
+  example: []
   syntax:
-    content: public const EventHandlerType CustomerCenterAuthentication
+    content: >-
+      [EnumMember]
+
+      CustomerCenterAuthentication = 210
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const CustomerCenterAuthentication As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      CustomerCenterAuthentication = 210
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ScheduledTaskFailed
   commentId: F:SuperOffice.Data.EventHandlerType.ScheduledTaskFailed
   id: ScheduledTaskFailed
@@ -996,24 +1026,26 @@ items:
   nameWithType: EventHandlerType.ScheduledTaskFailed
   fullName: SuperOffice.Data.EventHandlerType.ScheduledTaskFailed
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n300: ScheduledTaskFailed\n"
+  summary: '300: ScheduledTaskFailed'
+  example: []
   syntax:
-    content: public const EventHandlerType ScheduledTaskFailed
+    content: >-
+      [EnumMember]
+
+      ScheduledTaskFailed = 300
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ScheduledTaskFailed As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ScheduledTaskFailed = 300
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.DbiTaskFailed
   commentId: F:SuperOffice.Data.EventHandlerType.DbiTaskFailed
   id: DbiTaskFailed
@@ -1025,24 +1057,26 @@ items:
   nameWithType: EventHandlerType.DbiTaskFailed
   fullName: SuperOffice.Data.EventHandlerType.DbiTaskFailed
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n301: DbiTaskFailed\n"
+  summary: '301: DbiTaskFailed'
+  example: []
   syntax:
-    content: public const EventHandlerType DbiTaskFailed
+    content: >-
+      [EnumMember]
+
+      DbiTaskFailed = 301
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const DbiTaskFailed As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      DbiTaskFailed = 301
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.CustomerSetSubscriptions
   commentId: F:SuperOffice.Data.EventHandlerType.CustomerSetSubscriptions
   id: CustomerSetSubscriptions
@@ -1054,24 +1088,26 @@ items:
   nameWithType: EventHandlerType.CustomerSetSubscriptions
   fullName: SuperOffice.Data.EventHandlerType.CustomerSetSubscriptions
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n302: CustomerSetSubscriptions\n"
+  summary: '302: CustomerSetSubscriptions'
+  example: []
   syntax:
-    content: public const EventHandlerType CustomerSetSubscriptions
+    content: >-
+      [EnumMember]
+
+      CustomerSetSubscriptions = 302
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const CustomerSetSubscriptions As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      CustomerSetSubscriptions = 302
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ImportMailBeforeProcessing
   commentId: F:SuperOffice.Data.EventHandlerType.ImportMailBeforeProcessing
   id: ImportMailBeforeProcessing
@@ -1083,24 +1119,26 @@ items:
   nameWithType: EventHandlerType.ImportMailBeforeProcessing
   fullName: SuperOffice.Data.EventHandlerType.ImportMailBeforeProcessing
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n303: ImportMailBeforeProcessing\n"
+  summary: '303: ImportMailBeforeProcessing'
+  example: []
   syntax:
-    content: public const EventHandlerType ImportMailBeforeProcessing
+    content: >-
+      [EnumMember]
+
+      ImportMailBeforeProcessing = 303
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ImportMailBeforeProcessing As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ImportMailBeforeProcessing = 303
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ImportMailAfterProcessing
   commentId: F:SuperOffice.Data.EventHandlerType.ImportMailAfterProcessing
   id: ImportMailAfterProcessing
@@ -1112,24 +1150,26 @@ items:
   nameWithType: EventHandlerType.ImportMailAfterProcessing
   fullName: SuperOffice.Data.EventHandlerType.ImportMailAfterProcessing
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n304: ImportMailAfterProcessing\n"
+  summary: '304: ImportMailAfterProcessing'
+  example: []
   syntax:
-    content: public const EventHandlerType ImportMailAfterProcessing
+    content: >-
+      [EnumMember]
+
+      ImportMailAfterProcessing = 304
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ImportMailAfterProcessing As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ImportMailAfterProcessing = 304
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.MainMenu
   commentId: F:SuperOffice.Data.EventHandlerType.MainMenu
   id: MainMenu
@@ -1141,24 +1181,26 @@ items:
   nameWithType: EventHandlerType.MainMenu
   fullName: SuperOffice.Data.EventHandlerType.MainMenu
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n305: MainMenu\n"
+  summary: '305: MainMenu'
+  example: []
   syntax:
-    content: public const EventHandlerType MainMenu
+    content: >-
+      [EnumMember]
+
+      MainMenu = 305
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const MainMenu As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      MainMenu = 305
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ChatNewSession
   commentId: F:SuperOffice.Data.EventHandlerType.ChatNewSession
   id: ChatNewSession
@@ -1170,24 +1212,26 @@ items:
   nameWithType: EventHandlerType.ChatNewSession
   fullName: SuperOffice.Data.EventHandlerType.ChatNewSession
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n400: ChatNewSession\n"
+  summary: '400: ChatNewSession'
+  example: []
   syntax:
-    content: public const EventHandlerType ChatNewSession
+    content: >-
+      [EnumMember]
+
+      ChatNewSession = 400
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ChatNewSession As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ChatNewSession = 400
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ChatSessionChangedStatus
   commentId: F:SuperOffice.Data.EventHandlerType.ChatSessionChangedStatus
   id: ChatSessionChangedStatus
@@ -1199,24 +1243,26 @@ items:
   nameWithType: EventHandlerType.ChatSessionChangedStatus
   fullName: SuperOffice.Data.EventHandlerType.ChatSessionChangedStatus
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n401: ChatSessionChangedStatus\n"
+  summary: '401: ChatSessionChangedStatus'
+  example: []
   syntax:
-    content: public const EventHandlerType ChatSessionChangedStatus
+    content: >-
+      [EnumMember]
+
+      ChatSessionChangedStatus = 401
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ChatSessionChangedStatus As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ChatSessionChangedStatus = 401
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ChatBeforeSaveNewMessage
   commentId: F:SuperOffice.Data.EventHandlerType.ChatBeforeSaveNewMessage
   id: ChatBeforeSaveNewMessage
@@ -1228,24 +1274,26 @@ items:
   nameWithType: EventHandlerType.ChatBeforeSaveNewMessage
   fullName: SuperOffice.Data.EventHandlerType.ChatBeforeSaveNewMessage
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n402: ChatBeforeSaveNewMessage\n"
+  summary: '402: ChatBeforeSaveNewMessage'
+  example: []
   syntax:
-    content: public const EventHandlerType ChatBeforeSaveNewMessage
+    content: >-
+      [EnumMember]
+
+      ChatBeforeSaveNewMessage = 402
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ChatBeforeSaveNewMessage As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ChatBeforeSaveNewMessage = 402
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ChatAfterSaveNewMessage
   commentId: F:SuperOffice.Data.EventHandlerType.ChatAfterSaveNewMessage
   id: ChatAfterSaveNewMessage
@@ -1257,24 +1305,26 @@ items:
   nameWithType: EventHandlerType.ChatAfterSaveNewMessage
   fullName: SuperOffice.Data.EventHandlerType.ChatAfterSaveNewMessage
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n403: ChatAfterSaveNewMessage\n"
+  summary: '403: ChatAfterSaveNewMessage'
+  example: []
   syntax:
-    content: public const EventHandlerType ChatAfterSaveNewMessage
+    content: >-
+      [EnumMember]
+
+      ChatAfterSaveNewMessage = 403
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ChatAfterSaveNewMessage As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ChatAfterSaveNewMessage = 403
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenNewTicketLoad
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenNewTicketLoad
   id: ServiceScreenNewTicketLoad
@@ -1286,24 +1336,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenNewTicketLoad
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenNewTicketLoad
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n500: ServiceScreenNewTicketLoad\n"
+  summary: '500: ServiceScreenNewTicketLoad'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenNewTicketLoad
+    content: >-
+      [EnumMember]
+
+      ServiceScreenNewTicketLoad = 500
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenNewTicketLoad As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenNewTicketLoad = 500
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenNewQuickTicketLoad
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenNewQuickTicketLoad
   id: ServiceScreenNewQuickTicketLoad
@@ -1315,24 +1367,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenNewQuickTicketLoad
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenNewQuickTicketLoad
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n501: ServiceScreenNewQuickTicketLoad\n"
+  summary: '501: ServiceScreenNewQuickTicketLoad'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenNewQuickTicketLoad
+    content: >-
+      [EnumMember]
+
+      ServiceScreenNewQuickTicketLoad = 501
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenNewQuickTicketLoad As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenNewQuickTicketLoad = 501
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenListTicketMessagesLoad
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenListTicketMessagesLoad
   id: ServiceScreenListTicketMessagesLoad
@@ -1344,24 +1398,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenListTicketMessagesLoad
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenListTicketMessagesLoad
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n502: ServiceScreenListTicketMessagesLoad\n"
+  summary: '502: ServiceScreenListTicketMessagesLoad'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenListTicketMessagesLoad
+    content: >-
+      [EnumMember]
+
+      ServiceScreenListTicketMessagesLoad = 502
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenListTicketMessagesLoad As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenListTicketMessagesLoad = 502
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageLoad
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageLoad
   id: ServiceScreenAddMessageLoad
@@ -1373,24 +1429,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenAddMessageLoad
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageLoad
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n503: ServiceScreenAddMessageLoad\n"
+  summary: '503: ServiceScreenAddMessageLoad'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenAddMessageLoad
+    content: >-
+      [EnumMember]
+
+      ServiceScreenAddMessageLoad = 503
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenAddMessageLoad As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenAddMessageLoad = 503
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenEditTicketLoad
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenEditTicketLoad
   id: ServiceScreenEditTicketLoad
@@ -1402,24 +1460,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenEditTicketLoad
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditTicketLoad
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n504: ServiceScreenEditTicketLoad\n"
+  summary: '504: ServiceScreenEditTicketLoad'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenEditTicketLoad
+    content: >-
+      [EnumMember]
+
+      ServiceScreenEditTicketLoad = 504
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenEditTicketLoad As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenEditTicketLoad = 504
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenViewCustomerLoad
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenViewCustomerLoad
   id: ServiceScreenViewCustomerLoad
@@ -1431,24 +1491,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenViewCustomerLoad
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenViewCustomerLoad
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n505: ServiceScreenViewCustomerLoad\n"
+  summary: '505: ServiceScreenViewCustomerLoad'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenViewCustomerLoad
+    content: >-
+      [EnumMember]
+
+      ServiceScreenViewCustomerLoad = 505
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenViewCustomerLoad As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenViewCustomerLoad = 505
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenEditCustomerLoad
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenEditCustomerLoad
   id: ServiceScreenEditCustomerLoad
@@ -1460,24 +1522,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenEditCustomerLoad
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditCustomerLoad
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n506: ServiceScreenEditCustomerLoad\n"
+  summary: '506: ServiceScreenEditCustomerLoad'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenEditCustomerLoad
+    content: >-
+      [EnumMember]
+
+      ServiceScreenEditCustomerLoad = 506
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenEditCustomerLoad As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenEditCustomerLoad = 506
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenViewCompanyLoad
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenViewCompanyLoad
   id: ServiceScreenViewCompanyLoad
@@ -1489,24 +1553,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenViewCompanyLoad
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenViewCompanyLoad
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n507: ServiceScreenViewCompanyLoad\n"
+  summary: '507: ServiceScreenViewCompanyLoad'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenViewCompanyLoad
+    content: >-
+      [EnumMember]
+
+      ServiceScreenViewCompanyLoad = 507
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenViewCompanyLoad As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenViewCompanyLoad = 507
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenEditCompanyLoad
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenEditCompanyLoad
   id: ServiceScreenEditCompanyLoad
@@ -1518,24 +1584,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenEditCompanyLoad
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditCompanyLoad
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n508: ServiceScreenEditCompanyLoad\n"
+  summary: '508: ServiceScreenEditCompanyLoad'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenEditCompanyLoad
+    content: >-
+      [EnumMember]
+
+      ServiceScreenEditCompanyLoad = 508
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenEditCompanyLoad As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenEditCompanyLoad = 508
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenForwardLoad
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenForwardLoad
   id: ServiceScreenForwardLoad
@@ -1547,24 +1615,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenForwardLoad
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenForwardLoad
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n509: ServiceScreenForwardLoad\n"
+  summary: '509: ServiceScreenForwardLoad'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenForwardLoad
+    content: >-
+      [EnumMember]
+
+      ServiceScreenForwardLoad = 509
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenForwardLoad As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenForwardLoad = 509
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenEditExtraTableLoad
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenEditExtraTableLoad
   id: ServiceScreenEditExtraTableLoad
@@ -1576,24 +1646,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenEditExtraTableLoad
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditExtraTableLoad
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n510: ServiceScreenEditExtraTableLoad\n"
+  summary: '510: ServiceScreenEditExtraTableLoad'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenEditExtraTableLoad
+    content: >-
+      [EnumMember]
+
+      ServiceScreenEditExtraTableLoad = 510
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenEditExtraTableLoad As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenEditExtraTableLoad = 510
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenNewTicketBeforeSubmit
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenNewTicketBeforeSubmit
   id: ServiceScreenNewTicketBeforeSubmit
@@ -1605,24 +1677,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenNewTicketBeforeSubmit
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenNewTicketBeforeSubmit
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n600: ServiceScreenNewTicketBeforeSubmit\n"
+  summary: '600: ServiceScreenNewTicketBeforeSubmit'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenNewTicketBeforeSubmit
+    content: >-
+      [EnumMember]
+
+      ServiceScreenNewTicketBeforeSubmit = 600
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenNewTicketBeforeSubmit As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenNewTicketBeforeSubmit = 600
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenNewQuickTicketBeforeSubmit
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenNewQuickTicketBeforeSubmit
   id: ServiceScreenNewQuickTicketBeforeSubmit
@@ -1634,24 +1708,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenNewQuickTicketBeforeSubmit
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenNewQuickTicketBeforeSubmit
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n601: ServiceScreenNewQuickTicketBeforeSubmit\n"
+  summary: '601: ServiceScreenNewQuickTicketBeforeSubmit'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenNewQuickTicketBeforeSubmit
+    content: >-
+      [EnumMember]
+
+      ServiceScreenNewQuickTicketBeforeSubmit = 601
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenNewQuickTicketBeforeSubmit As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenNewQuickTicketBeforeSubmit = 601
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenListTicketMessagesBeforeSubmit
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenListTicketMessagesBeforeSubmit
   id: ServiceScreenListTicketMessagesBeforeSubmit
@@ -1663,24 +1739,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenListTicketMessagesBeforeSubmit
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenListTicketMessagesBeforeSubmit
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n602: ServiceScreenListTicketMessagesBeforeSubmit\n"
+  summary: '602: ServiceScreenListTicketMessagesBeforeSubmit'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenListTicketMessagesBeforeSubmit
+    content: >-
+      [EnumMember]
+
+      ServiceScreenListTicketMessagesBeforeSubmit = 602
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenListTicketMessagesBeforeSubmit As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenListTicketMessagesBeforeSubmit = 602
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageBeforeSubmit
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageBeforeSubmit
   id: ServiceScreenAddMessageBeforeSubmit
@@ -1692,24 +1770,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenAddMessageBeforeSubmit
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageBeforeSubmit
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n603: ServiceScreenAddMessageBeforeSubmit\n"
+  summary: '603: ServiceScreenAddMessageBeforeSubmit'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenAddMessageBeforeSubmit
+    content: >-
+      [EnumMember]
+
+      ServiceScreenAddMessageBeforeSubmit = 603
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenAddMessageBeforeSubmit As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenAddMessageBeforeSubmit = 603
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenEditTicketBeforeSubmit
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenEditTicketBeforeSubmit
   id: ServiceScreenEditTicketBeforeSubmit
@@ -1721,24 +1801,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenEditTicketBeforeSubmit
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditTicketBeforeSubmit
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n604: ServiceScreenEditTicketBeforeSubmit\n"
+  summary: '604: ServiceScreenEditTicketBeforeSubmit'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenEditTicketBeforeSubmit
+    content: >-
+      [EnumMember]
+
+      ServiceScreenEditTicketBeforeSubmit = 604
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenEditTicketBeforeSubmit As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenEditTicketBeforeSubmit = 604
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenViewCustomerBeforeSubmit
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenViewCustomerBeforeSubmit
   id: ServiceScreenViewCustomerBeforeSubmit
@@ -1750,24 +1832,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenViewCustomerBeforeSubmit
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenViewCustomerBeforeSubmit
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n605: ServiceScreenViewCustomerBeforeSubmit\n"
+  summary: '605: ServiceScreenViewCustomerBeforeSubmit'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenViewCustomerBeforeSubmit
+    content: >-
+      [EnumMember]
+
+      ServiceScreenViewCustomerBeforeSubmit = 605
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenViewCustomerBeforeSubmit As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenViewCustomerBeforeSubmit = 605
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenEditCustomerBeforeSubmit
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenEditCustomerBeforeSubmit
   id: ServiceScreenEditCustomerBeforeSubmit
@@ -1779,24 +1863,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenEditCustomerBeforeSubmit
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditCustomerBeforeSubmit
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n606: ServiceScreenEditCustomerBeforeSubmit\n"
+  summary: '606: ServiceScreenEditCustomerBeforeSubmit'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenEditCustomerBeforeSubmit
+    content: >-
+      [EnumMember]
+
+      ServiceScreenEditCustomerBeforeSubmit = 606
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenEditCustomerBeforeSubmit As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenEditCustomerBeforeSubmit = 606
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenViewCompanyBeforeSubmit
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenViewCompanyBeforeSubmit
   id: ServiceScreenViewCompanyBeforeSubmit
@@ -1808,24 +1894,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenViewCompanyBeforeSubmit
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenViewCompanyBeforeSubmit
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n607: ServiceScreenViewCompanyBeforeSubmit\n"
+  summary: '607: ServiceScreenViewCompanyBeforeSubmit'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenViewCompanyBeforeSubmit
+    content: >-
+      [EnumMember]
+
+      ServiceScreenViewCompanyBeforeSubmit = 607
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenViewCompanyBeforeSubmit As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenViewCompanyBeforeSubmit = 607
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenEditCompanyBeforeSubmit
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenEditCompanyBeforeSubmit
   id: ServiceScreenEditCompanyBeforeSubmit
@@ -1837,24 +1925,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenEditCompanyBeforeSubmit
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditCompanyBeforeSubmit
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n608: ServiceScreenEditCompanyBeforeSubmit\n"
+  summary: '608: ServiceScreenEditCompanyBeforeSubmit'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenEditCompanyBeforeSubmit
+    content: >-
+      [EnumMember]
+
+      ServiceScreenEditCompanyBeforeSubmit = 608
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenEditCompanyBeforeSubmit As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenEditCompanyBeforeSubmit = 608
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenForwardBeforeSubmit
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenForwardBeforeSubmit
   id: ServiceScreenForwardBeforeSubmit
@@ -1866,24 +1956,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenForwardBeforeSubmit
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenForwardBeforeSubmit
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n609: ServiceScreenForwardBeforeSubmit\n"
+  summary: '609: ServiceScreenForwardBeforeSubmit'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenForwardBeforeSubmit
+    content: >-
+      [EnumMember]
+
+      ServiceScreenForwardBeforeSubmit = 609
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenForwardBeforeSubmit As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenForwardBeforeSubmit = 609
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenEditExtraTableBeforeSubmit
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenEditExtraTableBeforeSubmit
   id: ServiceScreenEditExtraTableBeforeSubmit
@@ -1895,24 +1987,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenEditExtraTableBeforeSubmit
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditExtraTableBeforeSubmit
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n610: ServiceScreenEditExtraTableBeforeSubmit\n"
+  summary: '610: ServiceScreenEditExtraTableBeforeSubmit'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenEditExtraTableBeforeSubmit
+    content: >-
+      [EnumMember]
+
+      ServiceScreenEditExtraTableBeforeSubmit = 610
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenEditExtraTableBeforeSubmit As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenEditExtraTableBeforeSubmit = 610
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenNewTicketAfterSubmit
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenNewTicketAfterSubmit
   id: ServiceScreenNewTicketAfterSubmit
@@ -1924,24 +2018,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenNewTicketAfterSubmit
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenNewTicketAfterSubmit
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n700: ServiceScreenNewTicketAfterSubmit\n"
+  summary: '700: ServiceScreenNewTicketAfterSubmit'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenNewTicketAfterSubmit
+    content: >-
+      [EnumMember]
+
+      ServiceScreenNewTicketAfterSubmit = 700
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenNewTicketAfterSubmit As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenNewTicketAfterSubmit = 700
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenNewQuickTicketAfterSubmit
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenNewQuickTicketAfterSubmit
   id: ServiceScreenNewQuickTicketAfterSubmit
@@ -1953,24 +2049,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenNewQuickTicketAfterSubmit
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenNewQuickTicketAfterSubmit
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n701: ServiceScreenNewQuickTicketAfterSubmit\n"
+  summary: '701: ServiceScreenNewQuickTicketAfterSubmit'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenNewQuickTicketAfterSubmit
+    content: >-
+      [EnumMember]
+
+      ServiceScreenNewQuickTicketAfterSubmit = 701
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenNewQuickTicketAfterSubmit As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenNewQuickTicketAfterSubmit = 701
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenListTicketMessagesAfterSubmit
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenListTicketMessagesAfterSubmit
   id: ServiceScreenListTicketMessagesAfterSubmit
@@ -1982,24 +2080,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenListTicketMessagesAfterSubmit
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenListTicketMessagesAfterSubmit
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n702: ServiceScreenListTicketMessagesAfterSubmit\n"
+  summary: '702: ServiceScreenListTicketMessagesAfterSubmit'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenListTicketMessagesAfterSubmit
+    content: >-
+      [EnumMember]
+
+      ServiceScreenListTicketMessagesAfterSubmit = 702
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenListTicketMessagesAfterSubmit As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenListTicketMessagesAfterSubmit = 702
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageAfterSubmit
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageAfterSubmit
   id: ServiceScreenAddMessageAfterSubmit
@@ -2011,24 +2111,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenAddMessageAfterSubmit
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageAfterSubmit
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n703: ServiceScreenAddMessageAfterSubmit\n"
+  summary: '703: ServiceScreenAddMessageAfterSubmit'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenAddMessageAfterSubmit
+    content: >-
+      [EnumMember]
+
+      ServiceScreenAddMessageAfterSubmit = 703
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenAddMessageAfterSubmit As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenAddMessageAfterSubmit = 703
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenEditTicketAfterSubmit
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenEditTicketAfterSubmit
   id: ServiceScreenEditTicketAfterSubmit
@@ -2040,24 +2142,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenEditTicketAfterSubmit
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditTicketAfterSubmit
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n704: ServiceScreenEditTicketAfterSubmit\n"
+  summary: '704: ServiceScreenEditTicketAfterSubmit'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenEditTicketAfterSubmit
+    content: >-
+      [EnumMember]
+
+      ServiceScreenEditTicketAfterSubmit = 704
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenEditTicketAfterSubmit As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenEditTicketAfterSubmit = 704
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenViewCustomerAfterSubmit
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenViewCustomerAfterSubmit
   id: ServiceScreenViewCustomerAfterSubmit
@@ -2069,24 +2173,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenViewCustomerAfterSubmit
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenViewCustomerAfterSubmit
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n705: ServiceScreenViewCustomerAfterSubmit\n"
+  summary: '705: ServiceScreenViewCustomerAfterSubmit'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenViewCustomerAfterSubmit
+    content: >-
+      [EnumMember]
+
+      ServiceScreenViewCustomerAfterSubmit = 705
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenViewCustomerAfterSubmit As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenViewCustomerAfterSubmit = 705
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenEditCustomerAfterSubmit
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenEditCustomerAfterSubmit
   id: ServiceScreenEditCustomerAfterSubmit
@@ -2098,24 +2204,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenEditCustomerAfterSubmit
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditCustomerAfterSubmit
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n706: ServiceScreenEditCustomerAfterSubmit\n"
+  summary: '706: ServiceScreenEditCustomerAfterSubmit'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenEditCustomerAfterSubmit
+    content: >-
+      [EnumMember]
+
+      ServiceScreenEditCustomerAfterSubmit = 706
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenEditCustomerAfterSubmit As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenEditCustomerAfterSubmit = 706
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenViewCompanyAfterSubmit
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenViewCompanyAfterSubmit
   id: ServiceScreenViewCompanyAfterSubmit
@@ -2127,24 +2235,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenViewCompanyAfterSubmit
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenViewCompanyAfterSubmit
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n707: ServiceScreenViewCompanyAfterSubmit\n"
+  summary: '707: ServiceScreenViewCompanyAfterSubmit'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenViewCompanyAfterSubmit
+    content: >-
+      [EnumMember]
+
+      ServiceScreenViewCompanyAfterSubmit = 707
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenViewCompanyAfterSubmit As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenViewCompanyAfterSubmit = 707
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenEditCompanyAfterSubmit
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenEditCompanyAfterSubmit
   id: ServiceScreenEditCompanyAfterSubmit
@@ -2156,24 +2266,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenEditCompanyAfterSubmit
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditCompanyAfterSubmit
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n708: ServiceScreenEditCompanyAfterSubmit\n"
+  summary: '708: ServiceScreenEditCompanyAfterSubmit'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenEditCompanyAfterSubmit
+    content: >-
+      [EnumMember]
+
+      ServiceScreenEditCompanyAfterSubmit = 708
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenEditCompanyAfterSubmit As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenEditCompanyAfterSubmit = 708
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenForwardAfterSubmit
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenForwardAfterSubmit
   id: ServiceScreenForwardAfterSubmit
@@ -2185,24 +2297,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenForwardAfterSubmit
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenForwardAfterSubmit
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n709: ServiceScreenForwardAfterSubmit\n"
+  summary: '709: ServiceScreenForwardAfterSubmit'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenForwardAfterSubmit
+    content: >-
+      [EnumMember]
+
+      ServiceScreenForwardAfterSubmit = 709
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenForwardAfterSubmit As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenForwardAfterSubmit = 709
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.ServiceScreenEditExtraTableAfterSubmit
   commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenEditExtraTableAfterSubmit
   id: ServiceScreenEditExtraTableAfterSubmit
@@ -2214,24 +2328,26 @@ items:
   nameWithType: EventHandlerType.ServiceScreenEditExtraTableAfterSubmit
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditExtraTableAfterSubmit
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n710: ServiceScreenEditExtraTableAfterSubmit\n"
+  summary: '710: ServiceScreenEditExtraTableAfterSubmit'
+  example: []
   syntax:
-    content: public const EventHandlerType ServiceScreenEditExtraTableAfterSubmit
+    content: >-
+      [EnumMember]
+
+      ServiceScreenEditExtraTableAfterSubmit = 710
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const ServiceScreenEditExtraTableAfterSubmit As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ServiceScreenEditExtraTableAfterSubmit = 710
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveAppointment
   commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveAppointment
   id: SalesBeforeSaveAppointment
@@ -2243,24 +2359,26 @@ items:
   nameWithType: EventHandlerType.SalesBeforeSaveAppointment
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveAppointment
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1001: SalesBeforeSaveAppointment\n"
+  summary: '1001: SalesBeforeSaveAppointment'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesBeforeSaveAppointment
+    content: >-
+      [EnumMember]
+
+      SalesBeforeSaveAppointment = 1001
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesBeforeSaveAppointment As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesBeforeSaveAppointment = 1001
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveStakeholder
   commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveStakeholder
   id: SalesBeforeSaveStakeholder
@@ -2272,24 +2390,26 @@ items:
   nameWithType: EventHandlerType.SalesBeforeSaveStakeholder
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveStakeholder
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1002: SalesBeforeSaveStakeholder\n"
+  summary: '1002: SalesBeforeSaveStakeholder'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesBeforeSaveStakeholder
+    content: >-
+      [EnumMember]
+
+      SalesBeforeSaveStakeholder = 1002
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesBeforeSaveStakeholder As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesBeforeSaveStakeholder = 1002
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveQuote
   commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveQuote
   id: SalesBeforeSaveQuote
@@ -2301,24 +2421,26 @@ items:
   nameWithType: EventHandlerType.SalesBeforeSaveQuote
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveQuote
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1003: SalesBeforeSaveQuote\n"
+  summary: '1003: SalesBeforeSaveQuote'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesBeforeSaveQuote
+    content: >-
+      [EnumMember]
+
+      SalesBeforeSaveQuote = 1003
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesBeforeSaveQuote As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesBeforeSaveQuote = 1003
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveDocument
   commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveDocument
   id: SalesBeforeSaveDocument
@@ -2330,24 +2452,26 @@ items:
   nameWithType: EventHandlerType.SalesBeforeSaveDocument
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveDocument
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1004: SalesBeforeSaveDocument\n"
+  summary: '1004: SalesBeforeSaveDocument'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesBeforeSaveDocument
+    content: >-
+      [EnumMember]
+
+      SalesBeforeSaveDocument = 1004
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesBeforeSaveDocument As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesBeforeSaveDocument = 1004
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveContact
   commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveContact
   id: SalesBeforeSaveContact
@@ -2359,24 +2483,26 @@ items:
   nameWithType: EventHandlerType.SalesBeforeSaveContact
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveContact
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1005: SalesBeforeSaveContact\n"
+  summary: '1005: SalesBeforeSaveContact'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesBeforeSaveContact
+    content: >-
+      [EnumMember]
+
+      SalesBeforeSaveContact = 1005
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesBeforeSaveContact As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesBeforeSaveContact = 1005
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesBeforeSavePerson
   commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSavePerson
   id: SalesBeforeSavePerson
@@ -2388,24 +2514,26 @@ items:
   nameWithType: EventHandlerType.SalesBeforeSavePerson
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSavePerson
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1006: SalesBeforeSavePerson\n"
+  summary: '1006: SalesBeforeSavePerson'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesBeforeSavePerson
+    content: >-
+      [EnumMember]
+
+      SalesBeforeSavePerson = 1006
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesBeforeSavePerson As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesBeforeSavePerson = 1006
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveRelation
   commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveRelation
   id: SalesBeforeSaveRelation
@@ -2417,24 +2545,26 @@ items:
   nameWithType: EventHandlerType.SalesBeforeSaveRelation
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveRelation
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1007: SalesBeforeSaveRelation\n"
+  summary: '1007: SalesBeforeSaveRelation'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesBeforeSaveRelation
+    content: >-
+      [EnumMember]
+
+      SalesBeforeSaveRelation = 1007
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesBeforeSaveRelation As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesBeforeSaveRelation = 1007
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveSale
   commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveSale
   id: SalesBeforeSaveSale
@@ -2446,24 +2576,26 @@ items:
   nameWithType: EventHandlerType.SalesBeforeSaveSale
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveSale
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1008: SalesBeforeSaveSale\n"
+  summary: '1008: SalesBeforeSaveSale'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesBeforeSaveSale
+    content: >-
+      [EnumMember]
+
+      SalesBeforeSaveSale = 1008
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesBeforeSaveSale As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesBeforeSaveSale = 1008
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveProject
   commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveProject
   id: SalesBeforeSaveProject
@@ -2475,24 +2607,26 @@ items:
   nameWithType: EventHandlerType.SalesBeforeSaveProject
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveProject
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1009: SalesBeforeSaveProject\n"
+  summary: '1009: SalesBeforeSaveProject'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesBeforeSaveProject
+    content: >-
+      [EnumMember]
+
+      SalesBeforeSaveProject = 1009
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesBeforeSaveProject As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesBeforeSaveProject = 1009
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveSelection
   commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveSelection
   id: SalesBeforeSaveSelection
@@ -2504,24 +2638,26 @@ items:
   nameWithType: EventHandlerType.SalesBeforeSaveSelection
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveSelection
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1010: SalesBeforeSaveSelection\n"
+  summary: '1010: SalesBeforeSaveSelection'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesBeforeSaveSelection
+    content: >-
+      [EnumMember]
+
+      SalesBeforeSaveSelection = 1010
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesBeforeSaveSelection As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesBeforeSaveSelection = 1010
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveProjectMember
   commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveProjectMember
   id: SalesBeforeSaveProjectMember
@@ -2533,24 +2669,26 @@ items:
   nameWithType: EventHandlerType.SalesBeforeSaveProjectMember
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveProjectMember
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1011: SalesBeforeSaveProjectMember\n"
+  summary: '1011: SalesBeforeSaveProjectMember'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesBeforeSaveProjectMember
+    content: >-
+      [EnumMember]
+
+      SalesBeforeSaveProjectMember = 1011
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesBeforeSaveProjectMember As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesBeforeSaveProjectMember = 1011
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveSelectionMember
   commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveSelectionMember
   id: SalesBeforeSaveSelectionMember
@@ -2562,24 +2700,26 @@ items:
   nameWithType: EventHandlerType.SalesBeforeSaveSelectionMember
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveSelectionMember
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1012: SalesBeforeSaveSelectionMember\n"
+  summary: '1012: SalesBeforeSaveSelectionMember'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesBeforeSaveSelectionMember
+    content: >-
+      [EnumMember]
+
+      SalesBeforeSaveSelectionMember = 1012
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesBeforeSaveSelectionMember As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesBeforeSaveSelectionMember = 1012
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveQuoteLine
   commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveQuoteLine
   id: SalesBeforeSaveQuoteLine
@@ -2591,24 +2731,26 @@ items:
   nameWithType: EventHandlerType.SalesBeforeSaveQuoteLine
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveQuoteLine
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1013: SalesBeforeSaveQuoteLine\n"
+  summary: '1013: SalesBeforeSaveQuoteLine'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesBeforeSaveQuoteLine
+    content: >-
+      [EnumMember]
+
+      SalesBeforeSaveQuoteLine = 1013
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesBeforeSaveQuoteLine As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesBeforeSaveQuoteLine = 1013
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveApproveQuote
   commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveApproveQuote
   id: SalesBeforeSaveApproveQuote
@@ -2620,24 +2762,26 @@ items:
   nameWithType: EventHandlerType.SalesBeforeSaveApproveQuote
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveApproveQuote
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1014: SalesBeforeSaveApproveQuote\n"
+  summary: '1014: SalesBeforeSaveApproveQuote'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesBeforeSaveApproveQuote
+    content: >-
+      [EnumMember]
+
+      SalesBeforeSaveApproveQuote = 1014
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesBeforeSaveApproveQuote As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesBeforeSaveApproveQuote = 1014
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveRejectQuote
   commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveRejectQuote
   id: SalesBeforeSaveRejectQuote
@@ -2649,24 +2793,26 @@ items:
   nameWithType: EventHandlerType.SalesBeforeSaveRejectQuote
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveRejectQuote
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1015: SalesBeforeSaveRejectQuote\n"
+  summary: '1015: SalesBeforeSaveRejectQuote'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesBeforeSaveRejectQuote
+    content: >-
+      [EnumMember]
+
+      SalesBeforeSaveRejectQuote = 1015
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesBeforeSaveRejectQuote As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesBeforeSaveRejectQuote = 1015
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveTicket
   commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveTicket
   id: SalesBeforeSaveTicket
@@ -2678,24 +2824,26 @@ items:
   nameWithType: EventHandlerType.SalesBeforeSaveTicket
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveTicket
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1016: SalesBeforeSaveTicket\n"
+  summary: '1016: SalesBeforeSaveTicket'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesBeforeSaveTicket
+    content: >-
+      [EnumMember]
+
+      SalesBeforeSaveTicket = 1016
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesBeforeSaveTicket As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesBeforeSaveTicket = 1016
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesLoadCustomObject
   commentId: F:SuperOffice.Data.EventHandlerType.SalesLoadCustomObject
   id: SalesLoadCustomObject
@@ -2707,24 +2855,26 @@ items:
   nameWithType: EventHandlerType.SalesLoadCustomObject
   fullName: SuperOffice.Data.EventHandlerType.SalesLoadCustomObject
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1017: SalesLoadCustomObject\n"
+  summary: '1017: SalesLoadCustomObject'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesLoadCustomObject
+    content: >-
+      [EnumMember]
+
+      SalesLoadCustomObject = 1017
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesLoadCustomObject As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesLoadCustomObject = 1017
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveCustomObject
   commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveCustomObject
   id: SalesBeforeSaveCustomObject
@@ -2736,24 +2886,26 @@ items:
   nameWithType: EventHandlerType.SalesBeforeSaveCustomObject
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveCustomObject
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1018: SalesBeforeSaveCustomObject\n"
+  summary: '1018: SalesBeforeSaveCustomObject'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesBeforeSaveCustomObject
+    content: >-
+      [EnumMember]
+
+      SalesBeforeSaveCustomObject = 1018
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesBeforeSaveCustomObject As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesBeforeSaveCustomObject = 1018
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveAppointment
   commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveAppointment
   id: SalesAfterSaveAppointment
@@ -2765,24 +2917,26 @@ items:
   nameWithType: EventHandlerType.SalesAfterSaveAppointment
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveAppointment
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1101: SalesAfterSaveAppointment\n"
+  summary: '1101: SalesAfterSaveAppointment'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesAfterSaveAppointment
+    content: >-
+      [EnumMember]
+
+      SalesAfterSaveAppointment = 1101
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesAfterSaveAppointment As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesAfterSaveAppointment = 1101
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveStakeholder
   commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveStakeholder
   id: SalesAfterSaveStakeholder
@@ -2794,24 +2948,26 @@ items:
   nameWithType: EventHandlerType.SalesAfterSaveStakeholder
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveStakeholder
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1102: SalesAfterSaveStakeholder\n"
+  summary: '1102: SalesAfterSaveStakeholder'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesAfterSaveStakeholder
+    content: >-
+      [EnumMember]
+
+      SalesAfterSaveStakeholder = 1102
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesAfterSaveStakeholder As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesAfterSaveStakeholder = 1102
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveQuote
   commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveQuote
   id: SalesAfterSaveQuote
@@ -2823,24 +2979,26 @@ items:
   nameWithType: EventHandlerType.SalesAfterSaveQuote
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveQuote
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1103: SalesAfterSaveQuote\n"
+  summary: '1103: SalesAfterSaveQuote'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesAfterSaveQuote
+    content: >-
+      [EnumMember]
+
+      SalesAfterSaveQuote = 1103
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesAfterSaveQuote As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesAfterSaveQuote = 1103
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveDocument
   commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveDocument
   id: SalesAfterSaveDocument
@@ -2852,24 +3010,26 @@ items:
   nameWithType: EventHandlerType.SalesAfterSaveDocument
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveDocument
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1104: SalesAfterSaveDocument\n"
+  summary: '1104: SalesAfterSaveDocument'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesAfterSaveDocument
+    content: >-
+      [EnumMember]
+
+      SalesAfterSaveDocument = 1104
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesAfterSaveDocument As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesAfterSaveDocument = 1104
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveContact
   commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveContact
   id: SalesAfterSaveContact
@@ -2881,24 +3041,26 @@ items:
   nameWithType: EventHandlerType.SalesAfterSaveContact
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveContact
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1105: SalesAfterSaveContact\n"
+  summary: '1105: SalesAfterSaveContact'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesAfterSaveContact
+    content: >-
+      [EnumMember]
+
+      SalesAfterSaveContact = 1105
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesAfterSaveContact As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesAfterSaveContact = 1105
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesAfterSavePerson
   commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSavePerson
   id: SalesAfterSavePerson
@@ -2910,24 +3072,26 @@ items:
   nameWithType: EventHandlerType.SalesAfterSavePerson
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSavePerson
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1106: SalesAfterSavePerson\n"
+  summary: '1106: SalesAfterSavePerson'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesAfterSavePerson
+    content: >-
+      [EnumMember]
+
+      SalesAfterSavePerson = 1106
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesAfterSavePerson As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesAfterSavePerson = 1106
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveRelation
   commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveRelation
   id: SalesAfterSaveRelation
@@ -2939,24 +3103,26 @@ items:
   nameWithType: EventHandlerType.SalesAfterSaveRelation
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveRelation
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1107: SalesAfterSaveRelation\n"
+  summary: '1107: SalesAfterSaveRelation'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesAfterSaveRelation
+    content: >-
+      [EnumMember]
+
+      SalesAfterSaveRelation = 1107
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesAfterSaveRelation As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesAfterSaveRelation = 1107
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveSale
   commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveSale
   id: SalesAfterSaveSale
@@ -2968,24 +3134,26 @@ items:
   nameWithType: EventHandlerType.SalesAfterSaveSale
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveSale
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1108: SalesAfterSaveSale\n"
+  summary: '1108: SalesAfterSaveSale'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesAfterSaveSale
+    content: >-
+      [EnumMember]
+
+      SalesAfterSaveSale = 1108
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesAfterSaveSale As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesAfterSaveSale = 1108
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveProject
   commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveProject
   id: SalesAfterSaveProject
@@ -2997,24 +3165,26 @@ items:
   nameWithType: EventHandlerType.SalesAfterSaveProject
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveProject
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1109: SalesAfterSaveProject\n"
+  summary: '1109: SalesAfterSaveProject'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesAfterSaveProject
+    content: >-
+      [EnumMember]
+
+      SalesAfterSaveProject = 1109
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesAfterSaveProject As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesAfterSaveProject = 1109
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveSelection
   commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveSelection
   id: SalesAfterSaveSelection
@@ -3026,24 +3196,26 @@ items:
   nameWithType: EventHandlerType.SalesAfterSaveSelection
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveSelection
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1110: SalesAfterSaveSelection\n"
+  summary: '1110: SalesAfterSaveSelection'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesAfterSaveSelection
+    content: >-
+      [EnumMember]
+
+      SalesAfterSaveSelection = 1110
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesAfterSaveSelection As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesAfterSaveSelection = 1110
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveProjectMember
   commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveProjectMember
   id: SalesAfterSaveProjectMember
@@ -3055,24 +3227,26 @@ items:
   nameWithType: EventHandlerType.SalesAfterSaveProjectMember
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveProjectMember
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1111: SalesAfterSaveProjectMember\n"
+  summary: '1111: SalesAfterSaveProjectMember'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesAfterSaveProjectMember
+    content: >-
+      [EnumMember]
+
+      SalesAfterSaveProjectMember = 1111
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesAfterSaveProjectMember As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesAfterSaveProjectMember = 1111
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveSelectionMember
   commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveSelectionMember
   id: SalesAfterSaveSelectionMember
@@ -3084,24 +3258,26 @@ items:
   nameWithType: EventHandlerType.SalesAfterSaveSelectionMember
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveSelectionMember
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1112: SalesAfterSaveSelectionMember\n"
+  summary: '1112: SalesAfterSaveSelectionMember'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesAfterSaveSelectionMember
+    content: >-
+      [EnumMember]
+
+      SalesAfterSaveSelectionMember = 1112
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesAfterSaveSelectionMember As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesAfterSaveSelectionMember = 1112
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveQuoteLine
   commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveQuoteLine
   id: SalesAfterSaveQuoteLine
@@ -3113,24 +3289,26 @@ items:
   nameWithType: EventHandlerType.SalesAfterSaveQuoteLine
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveQuoteLine
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1113: SalesAfterSaveQuoteLine\n"
+  summary: '1113: SalesAfterSaveQuoteLine'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesAfterSaveQuoteLine
+    content: >-
+      [EnumMember]
+
+      SalesAfterSaveQuoteLine = 1113
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesAfterSaveQuoteLine As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesAfterSaveQuoteLine = 1113
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveApproveQuote
   commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveApproveQuote
   id: SalesAfterSaveApproveQuote
@@ -3142,24 +3320,26 @@ items:
   nameWithType: EventHandlerType.SalesAfterSaveApproveQuote
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveApproveQuote
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1114: SalesAfterSaveApproveQuote\n"
+  summary: '1114: SalesAfterSaveApproveQuote'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesAfterSaveApproveQuote
+    content: >-
+      [EnumMember]
+
+      SalesAfterSaveApproveQuote = 1114
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesAfterSaveApproveQuote As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesAfterSaveApproveQuote = 1114
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveRejectQuote
   commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveRejectQuote
   id: SalesAfterSaveRejectQuote
@@ -3171,24 +3351,26 @@ items:
   nameWithType: EventHandlerType.SalesAfterSaveRejectQuote
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveRejectQuote
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1115: SalesAfterSaveRejectQuote\n"
+  summary: '1115: SalesAfterSaveRejectQuote'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesAfterSaveRejectQuote
+    content: >-
+      [EnumMember]
+
+      SalesAfterSaveRejectQuote = 1115
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesAfterSaveRejectQuote As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesAfterSaveRejectQuote = 1115
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveTicket
   commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveTicket
   id: SalesAfterSaveTicket
@@ -3200,24 +3382,26 @@ items:
   nameWithType: EventHandlerType.SalesAfterSaveTicket
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveTicket
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1116: SalesAfterSaveTicket\n"
+  summary: '1116: SalesAfterSaveTicket'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesAfterSaveTicket
+    content: >-
+      [EnumMember]
+
+      SalesAfterSaveTicket = 1116
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesAfterSaveTicket As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesAfterSaveTicket = 1116
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveCustomObject
   commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveCustomObject
   id: SalesAfterSaveCustomObject
@@ -3229,24 +3413,26 @@ items:
   nameWithType: EventHandlerType.SalesAfterSaveCustomObject
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveCustomObject
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1117: SalesAfterSaveCustomObject\n"
+  summary: '1117: SalesAfterSaveCustomObject'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesAfterSaveCustomObject
+    content: >-
+      [EnumMember]
+
+      SalesAfterSaveCustomObject = 1117
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesAfterSaveCustomObject As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesAfterSaveCustomObject = 1117
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesSplitTicket
   commentId: F:SuperOffice.Data.EventHandlerType.SalesSplitTicket
   id: SalesSplitTicket
@@ -3258,115 +3444,300 @@ items:
   nameWithType: EventHandlerType.SalesSplitTicket
   fullName: SuperOffice.Data.EventHandlerType.SalesSplitTicket
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1019: SalesSplitTicket\n"
+  summary: '1019: SalesSplitTicket'
+  example: []
   syntax:
-    content: public const EventHandlerType SalesSplitTicket
+    content: >-
+      [EnumMember]
+
+      SalesSplitTicket = 1019
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: Public Const SalesSplitTicket As EventHandlerType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SalesSplitTicket = 1019
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.EventHandlerType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<EventHandlerType, To>()
-  nameWithType: EnumUtil.MapEnums<EventHandlerType, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.EventHandlerType, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of EventHandlerType, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.EventHandlerType, To)()
-  name.vb: MapEnums(Of EventHandlerType, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<EventHandlerType, To>(EventHandlerType)
+  nameWithType: EnumUtil.MapEnums<EventHandlerType, To>(EventHandlerType)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.EventHandlerType, To>(SuperOffice.Data.EventHandlerType)
+  nameWithType.vb: EnumUtil.MapEnums(Of EventHandlerType, To)(EventHandlerType)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.EventHandlerType, To)(SuperOffice.Data.EventHandlerType)
+  name.vb: MapEnums(Of EventHandlerType, To)(EventHandlerType)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<EventHandlerType, To>
-    nameWithType: EnumUtil.MapEnums<EventHandlerType, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.EventHandlerType, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.EventHandlerType)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    isExternal: true
+    href: SuperOffice.Data.EventHandlerType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    isExternal: true
+    href: SuperOffice.Data.EventHandlerType.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of EventHandlerType, To)
-    nameWithType: EnumUtil.MapEnums(Of EventHandlerType, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.EventHandlerType, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.EventHandlerType)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    isExternal: true
+    href: SuperOffice.Data.EventHandlerType.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    isExternal: true
+    href: SuperOffice.Data.EventHandlerType.html
+  - name: )
 - uid: SuperOffice.Data.EventHandlerType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<EventHandlerType, To>()
-  nameWithType: Converters.MapEnums<EventHandlerType, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.EventHandlerType, To>()
-  nameWithType.vb: Converters.MapEnums(Of EventHandlerType, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.EventHandlerType, To)()
-  name.vb: MapEnums(Of EventHandlerType, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<EventHandlerType, To>(EventHandlerType)
+  nameWithType: Converters.MapEnums<EventHandlerType, To>(EventHandlerType)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.EventHandlerType, To>(SuperOffice.Data.EventHandlerType)
+  nameWithType.vb: Converters.MapEnums(Of EventHandlerType, To)(EventHandlerType)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.EventHandlerType, To)(SuperOffice.Data.EventHandlerType)
+  name.vb: MapEnums(Of EventHandlerType, To)(EventHandlerType)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<EventHandlerType, To>
-    nameWithType: Converters.MapEnums<EventHandlerType, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.EventHandlerType, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.EventHandlerType)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    isExternal: true
+    href: SuperOffice.Data.EventHandlerType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    isExternal: true
+    href: SuperOffice.Data.EventHandlerType.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of EventHandlerType, To)
-    nameWithType: Converters.MapEnums(Of EventHandlerType, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.EventHandlerType, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.EventHandlerType)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    isExternal: true
+    href: SuperOffice.Data.EventHandlerType.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  - name: (
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    isExternal: true
+    href: SuperOffice.Data.EventHandlerType.html
+  - name: )
+- uid: SuperOffice.Data.EventHandlerType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EventHandlerType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<EventHandlerType>(EventHandlerType, EventHandlerType)
+  nameWithType: ObjectExtensions.AssignByReflection<EventHandlerType>(EventHandlerType, EventHandlerType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.EventHandlerType>(SuperOffice.Data.EventHandlerType, SuperOffice.Data.EventHandlerType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of EventHandlerType)(EventHandlerType, EventHandlerType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.EventHandlerType)(SuperOffice.Data.EventHandlerType, SuperOffice.Data.EventHandlerType)
+  name.vb: AssignByReflection(Of EventHandlerType)(EventHandlerType, EventHandlerType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EventHandlerType,SuperOffice.Data.EventHandlerType)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    isExternal: true
+    href: SuperOffice.Data.EventHandlerType.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    isExternal: true
+    href: SuperOffice.Data.EventHandlerType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    isExternal: true
+    href: SuperOffice.Data.EventHandlerType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EventHandlerType,SuperOffice.Data.EventHandlerType)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    isExternal: true
+    href: SuperOffice.Data.EventHandlerType.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    isExternal: true
+    href: SuperOffice.Data.EventHandlerType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    isExternal: true
+    href: SuperOffice.Data.EventHandlerType.html
+  - name: )
+- uid: SuperOffice.Data.EventHandlerType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<EventHandlerType>(EventHandlerType)
+  nameWithType: ObjectExtensions.GraphCopy<EventHandlerType>(EventHandlerType)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.EventHandlerType>(SuperOffice.Data.EventHandlerType)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of EventHandlerType)(EventHandlerType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.EventHandlerType)(SuperOffice.Data.EventHandlerType)
+  name.vb: GraphCopy(Of EventHandlerType)(EventHandlerType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.EventHandlerType)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    isExternal: true
+    href: SuperOffice.Data.EventHandlerType.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    isExternal: true
+    href: SuperOffice.Data.EventHandlerType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.EventHandlerType)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    isExternal: true
+    href: SuperOffice.Data.EventHandlerType.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    isExternal: true
+    href: SuperOffice.Data.EventHandlerType.html
+  - name: )
+- uid: System.Enum.EnumUtil.GetDescription
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  parent: EnumUtil
+  definition: EnumUtil.GetDescription(System.Enum)
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -3375,43 +3746,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -3420,58 +3793,222 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: EnumUtil.GetDescription(System.Enum)
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.Data.EventHandlerType
   commentId: T:SuperOffice.Data.EventHandlerType
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.EventHandlerType.html
   name: EventHandlerType
   nameWithType: EventHandlerType
   fullName: SuperOffice.Data.EventHandlerType

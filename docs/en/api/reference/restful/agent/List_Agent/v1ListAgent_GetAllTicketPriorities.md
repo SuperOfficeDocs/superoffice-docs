@@ -104,7 +104,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 14,
-    "Name": "Gorczany Inc and Sons",
+    "TicketPriorityId": 668,
+    "Name": "Olson-Hyatt",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 435,
+    "SortOrder": 336,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 339,
-    "MonStart": "2019-06-17T16:32:39.2113744+02:00",
-    "MonStop": "1999-07-24T16:32:39.2113744+02:00",
-    "TueStart": "2016-05-30T16:32:39.2113744+02:00",
-    "TueStop": "2001-11-07T16:32:39.2113744+01:00",
-    "WedStart": "2001-02-15T16:32:39.2113744+01:00",
-    "WedStop": "2023-12-21T16:32:39.2113744+01:00",
-    "ThuStart": "2006-02-13T16:32:39.2113744+01:00",
-    "ThuStop": "2006-07-20T16:32:39.2113744+02:00",
-    "FriStart": "2022-06-26T16:32:39.2113744+02:00",
-    "FriStop": "1998-05-22T16:32:39.2113744+02:00",
-    "SatStart": "2005-04-18T16:32:39.2113744+02:00",
-    "SatStop": "2019-10-04T16:32:39.2113744+02:00",
-    "SunStart": "2020-09-18T16:32:39.2113744+02:00",
-    "SunStop": "2011-03-28T16:32:39.2113744+02:00",
+    "Deadline": 878,
+    "MonStart": "2015-04-07T17:54:03.1952029+02:00",
+    "MonStop": "2019-09-08T17:54:03.1952029+02:00",
+    "TueStart": "2020-01-02T17:54:03.1952029+01:00",
+    "TueStop": "2008-09-23T17:54:03.1952029+02:00",
+    "WedStart": "2007-10-28T17:54:03.1952029+01:00",
+    "WedStop": "2009-04-14T17:54:03.1952029+02:00",
+    "ThuStart": "2003-04-21T17:54:03.1952029+02:00",
+    "ThuStop": "2007-10-07T17:54:03.1952029+02:00",
+    "FriStart": "1999-10-08T17:54:03.1952029+02:00",
+    "FriStop": "2008-12-04T17:54:03.1952029+01:00",
+    "SatStart": "2013-12-24T17:54:03.1952029+01:00",
+    "SatStop": "2014-07-19T17:54:03.1952029+02:00",
+    "SunStart": "2008-10-11T17:54:03.1952029+02:00",
+    "SunStop": "2003-01-02T17:54:03.1952029+01:00",
     "NonDates": [
-      "ratione",
-      "veritatis"
+      "est",
+      "hic"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 864,
-        "AlertLevel": 732,
-        "AlertTimeout": 718,
-        "Action": 450,
-        "DelegateTo": 288,
-        "ScriptId": 246,
-        "EmailTo": "candace@harberhammes.uk",
-        "SmsTo": "neque",
-        "ReplyTemplateIdCustomer": 651,
-        "ReplyTemplateIdUser": 998,
-        "ReplyTemplateIdCatmast": 268,
-        "ReplyTemplateIdEmail": 914,
-        "RtiCustomerSms": 990,
-        "ReplyTemplateIdUserSms": 56,
-        "ReplyTemplateIdCatmastSms": 302,
-        "ReplyTemplateIdSms": 40,
+        "TicketAlertId": 263,
+        "AlertLevel": 851,
+        "AlertTimeout": 464,
+        "Action": 514,
+        "DelegateTo": 109,
+        "ScriptId": 897,
+        "EmailTo": "ceasar@spinka.uk",
+        "SmsTo": "quae",
+        "ReplyTemplateIdCustomer": 750,
+        "ReplyTemplateIdUser": 970,
+        "ReplyTemplateIdCatmast": 927,
+        "ReplyTemplateIdEmail": 940,
+        "RtiCustomerSms": 879,
+        "ReplyTemplateIdUserSms": 62,
+        "ReplyTemplateIdCatmastSms": 650,
+        "ReplyTemplateIdSms": 515,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 254
+            "FieldLength": 955
           }
         }
       }
@@ -178,8 +178,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 65
+        "FieldType": "System.Int32",
+        "FieldLength": 903
       }
     }
   }

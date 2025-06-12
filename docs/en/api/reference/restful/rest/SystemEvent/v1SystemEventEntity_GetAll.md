@@ -70,9 +70,9 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/SystemEvent?$select=name,department,category/id
 GET /api/v1/SystemEvent?$filter=name begins 'S'
 GET /api/v1/SystemEvent?$orderBy=name asc
-GET /api/v1/SystemEvent?$entities=nam
-GET /api/v1/SystemEvent?$top=363
-GET /api/v1/SystemEvent?$skip=806
+GET /api/v1/SystemEvent?$entities=omnis
+GET /api/v1/SystemEvent?$top=77
+GET /api/v1/SystemEvent?$skip=736
 GET /api/v1/SystemEvent?$mode=Full
 GET /api/v1/SystemEvent?$options=GrandTotal=true
 GET /api/v1/SystemEvent?$context=qui
@@ -118,7 +118,7 @@ OK
 GET /api/v1/SystemEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "rerum",
+  "odata.nextLink": "libero",
   "value": [
     {
-      "PrimaryKey": 4646,
-      "EntityName": "person",
-      "personId": 4646,
-      "fullName": "Prof. Mia Rempel I"
+      "PrimaryKey": 63,
+      "EntityName": "sale",
+      "saleId": 63,
+      "contactId": 1933,
+      "name": "Langworth-Stiedemann"
     },
     {
-      "PrimaryKey": 2058,
-      "EntityName": "person",
-      "personId": 2058,
-      "fullName": "Miss Derick O'Hara"
+      "PrimaryKey": 3538,
+      "EntityName": "sale",
+      "saleId": 3538,
+      "contactId": 6883,
+      "name": "Fritsch-Hayes"
     }
   ]
 }

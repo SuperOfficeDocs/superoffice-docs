@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 493,
-    "Name": "Klein Group",
-    "ToolTip": "Dolores error rerum omnis.",
-    "Deleted": true,
-    "Rank": 462,
-    "Type": "dolor",
-    "ColorBlock": 405,
-    "IconHint": "in",
+    "Id": 32,
+    "Name": "Johns-Weber",
+    "ToolTip": "Consequatur ea nam alias et ea ad.",
+    "Deleted": false,
+    "Rank": 394,
+    "Type": "explicabo",
+    "ColorBlock": 526,
+    "IconHint": "quasi",
     "Selected": false,
-    "LastChanged": "2000-03-15T16:32:48.7432593+01:00",
+    "LastChanged": "2017-06-01T17:54:08.9449229+02:00",
     "ChildItems": [
       {
-        "Id": 189,
-        "Name": "Christiansen-Nienow",
-        "ToolTip": "Quia rerum nulla non doloremque.",
+        "Id": 193,
+        "Name": "Rice LLC",
+        "ToolTip": "Ea accusantium est.",
         "Deleted": false,
-        "Rank": 39,
-        "Type": "qui",
-        "ColorBlock": 994,
-        "IconHint": "ea",
-        "Selected": true,
-        "LastChanged": "2012-12-21T16:32:48.7432593+01:00",
+        "Rank": 56,
+        "Type": "repellendus",
+        "ColorBlock": 278,
+        "IconHint": "nobis",
+        "Selected": false,
+        "LastChanged": "2000-07-18T17:54:08.9449229+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "quas",
+        "ExtraInfo": "molestias",
+        "StyleHint": "nulla",
         "Hidden": false,
-        "FullName": "Mrs. Roma Myles Lowe",
+        "FullName": "Jimmie Gilberto Hilll DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 153
+            "FieldLength": 422
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "ipsa",
-    "Hidden": true,
-    "FullName": "Mara Ortiz Sr.",
+    "ExtraInfo": "excepturi",
+    "StyleHint": "facere",
+    "Hidden": false,
+    "FullName": "Thad Hansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 117
+        "FieldType": "System.Int32",
+        "FieldLength": 529
       }
     }
   }

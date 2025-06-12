@@ -154,6 +154,7 @@ Mailings selection archive with OR-able selection groups. Each group is represen
 |mailingAddr/contact/contactAssociate/contactName|string|Company - Owning company: Name of the company the user belongs to| x |
 |mailingAddr/contact/contactAssociate/contactDepartment|string|Company - Owning department: Name of the department at the company the user belongs to| x |
 |mailingAddr/contact/contactAssociate/usergroup|userGroup|Company - Primary group: The user's primary user group| x |
+|mailingAddr/contact/contactAssociate/usergroupId|int|Company - Group ID: The user's primary user group| x |
 |mailingAddr/contact/contactAssociate/contactFullName|string|Company - Owner: Name and department of the company the user belongs to| x |
 |mailingAddr/contact/contactAssociate/contactCategory|listAny|Company - Category: Category| x |
 |mailingAddr/contact/contactAssociate/role|listAny|Company - Role: Role| x |
@@ -189,6 +190,7 @@ Mailings selection archive with OR-able selection groups. Each group is represen
 |mailingAddr/contact/contactUdef/SuperOffice:12|listAny|Company - Udlist one: Static tooltip for udlist one| x |
 |mailingAddr/contact/contactUdef/SuperOffice:13|listAny|Company - Udlist two: Static tooltip for udlist two| x |
 |mailingAddr/contact/contactExtra/x\_contact\_integer|int|Company - Extra Integer: Custom integer field| x |
+|mailingAddr/contact/contactExtra/x\_contact\_hidden\_integer|int|Company - Extra hidden integer: Custom integer field - hidden| x |
 |mailingAddr/contact/contactExtra/x\_contact\_default\_integer|int|Company - Extra Default Integer: Custom integer field with default value 123.| x |
 |mailingAddr/contact/contactExtra/x\_contact\_float|decimal|Company - Extra Float: Custom float field with 3 decimals| x |
 |mailingAddr/contact/contactExtra/x\_contact\_longtext|string|Company - Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -223,12 +225,12 @@ Mailings selection archive with OR-able selection groups. Each group is represen
 |mailingAddr/contact/NumberOfNotCompletedTickets|int|Company - Number of non-completed requests|  |
 |mailingAddr/contact/NumberOfNotCompletedTicketsInPeriod|int|Company - Number of non-completed requests in last 90 days|  |
 |mailingAddr/contact/LastTicket|date|Company - Date of last request|  |
-|mailingAddr/contact/LastCompletedTicket|date|Company - Date of last completed request|  |
-|mailingAddr/contact/LastDoByTicket|date|Company - Date of last non-completed request|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/contact/LastCompletedTicket|date|Company - Date of last completed request|  |
+|mailingAddr/contact/LastDoByTicket|date|Company - Date of last non-completed request|  |
 |mailingAddr/contact/SaintStatus1|saintStatus|Company - Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
 |mailingAddr/contact/SaintStatus2|saintStatus|Company - C-company: Kundens navn starter med bokstaven C|  |
 |mailingAddr/contact/saintSaleStatus|listAny|Company - With status|  |
@@ -327,12 +329,12 @@ Mailings selection archive with OR-able selection groups. Each group is represen
 |mailingAddr/person/personAddress/formattedMultiLineAddress| *None* |Contact - Contact address - {formattedAddress}: {formattedAddress}|  |
 |mailingAddr/person/restrictionAddress/addressId|int|Contact - Search address - Address ID: Database ID for the address record| x |
 |mailingAddr/person/restrictionAddress/line1|string|Contact - Search address - Address 1: First line of the address| x |
-|mailingAddr/person/restrictionAddress/line2|string|Contact - Search address - Address 2: Second line of the address| x |
-|mailingAddr/person/restrictionAddress/line3|string|Contact - Search address - Address 3: Third line of the address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/person/restrictionAddress/line2|string|Contact - Search address - Address 2: Second line of the address| x |
+|mailingAddr/person/restrictionAddress/line3|string|Contact - Search address - Address 3: Third line of the address| x |
 |mailingAddr/person/restrictionAddress/county|string|Contact - Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |mailingAddr/person/restrictionAddress/city|string|Contact - Search address - City: This criterion corresponds to the City field on the Company card.| x |
 |mailingAddr/person/restrictionAddress/zip|string|Contact - Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
@@ -354,6 +356,7 @@ Mailings selection archive with OR-able selection groups. Each group is represen
 |mailingAddr/person/personUdef/SuperOffice:10|string|Contact - page1marketingonly| x |
 |mailingAddr/person/personUdef/SuperOffice:11|string|Contact - page1adminonly| x |
 |mailingAddr/person/personExtra/x\_person\_integer|int|Contact - Extra Integer: Custom person integer| x |
+|mailingAddr/person/personExtra/x\_person\_hidden\_integer|int|Contact - Extra hidden integer: Custom integer field that is hidden| x |
 |mailingAddr/person/personExtra/x\_person\_float|decimal|Contact - Extra float: Custom float field| x |
 |mailingAddr/person/personExtra/x\_person\_longtext|string|Contact - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |mailingAddr/person/personExtra/x\_person\_date|date|Contact - Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -388,6 +391,7 @@ Mailings selection archive with OR-able selection groups. Each group is represen
 |mailingAddr/person/personAssociate/contactName|string|Contact - Owning company: Name of the company the user belongs to| x |
 |mailingAddr/person/personAssociate/contactDepartment|string|Contact - Owning department: Name of the department at the company the user belongs to| x |
 |mailingAddr/person/personAssociate/usergroup|userGroup|Contact - Primary group: The user's primary user group| x |
+|mailingAddr/person/personAssociate/usergroupId|int|Contact - Group ID: The user's primary user group| x |
 |mailingAddr/person/personAssociate/contactFullName|string|Contact - Owner: Name and department of the company the user belongs to| x |
 |mailingAddr/person/personAssociate/contactCategory|listAny|Contact - Category: Category| x |
 |mailingAddr/person/personAssociate/role|listAny|Contact - Role: Role| x |
@@ -420,6 +424,7 @@ Mailings selection archive with OR-able selection groups. Each group is represen
 |mailingAddr/person/correspondingAssociate/contactName|string|Contact - Owning company: Name of the company the user belongs to| x |
 |mailingAddr/person/correspondingAssociate/contactDepartment|string|Contact - Owning department: Name of the department at the company the user belongs to| x |
 |mailingAddr/person/correspondingAssociate/usergroup|userGroup|Contact - Primary group: The user's primary user group| x |
+|mailingAddr/person/correspondingAssociate/usergroupId|int|Contact - Group ID: The user's primary user group| x |
 |mailingAddr/person/correspondingAssociate/contactFullName|string|Contact - Owner: Name and department of the company the user belongs to| x |
 |mailingAddr/person/correspondingAssociate/contactCategory|listAny|Contact - Category: Category| x |
 |mailingAddr/person/correspondingAssociate/role|listAny|Contact - Role: Role| x |
@@ -428,15 +433,15 @@ Mailings selection archive with OR-able selection groups. Each group is represen
 |mailingAddr/person/correspondingAssociate/assocType|listAny|Contact - Type: Type of user: associate, external user, system user, anonymous account| x |
 |mailingAddr/person/correspondingAssociate/ejUserId|int|Contact - Service user ID: The database ID of a Service user|  |
 |mailingAddr/person/correspondingAssociate/simultaneousEjUser|bool|Contact - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/person/correspondingAssociate/ejDisplayName|string|Contact - Nick name: User's nick name in Service| x |
 |mailingAddr/person/correspondingAssociate/ejStatus|int|Contact - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |mailingAddr/person/correspondingAssociate/credentialType| *None* |Contact - Auth. type: What type of credentials to use when this user logs in| x |
 |mailingAddr/person/correspondingAssociate/credentialDisplayValue| *None* |Contact - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |mailingAddr/person/correspondingAssociate/isActive|bool|Contact - Active: Is this user active, and should be able to log in?| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |mailingAddr/person/correspondingAssociate/isActiveText|bool|Contact - Active status: Is this user active, and should be able to log in?| x |
 |mailingAddr/person/correspondingAssociate/portraitThumbnail| *None* |Contact - Person image: Person image|  |
 |mailingAddr/person/correspondingAssociate/otherGroups|userGroup|Contact - Other groups: Other groups|  |
@@ -466,6 +471,7 @@ Mailings selection archive with OR-able selection groups. Each group is represen
 |associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|associate/usergroupId|int|Group ID: The user's primary user group| x |
 |associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |associate/contactCategory|listAny|Category: Category| x |
 |associate/role|listAny|Role : Role| x |
@@ -520,6 +526,7 @@ Mailings selection archive with OR-able selection groups. Each group is represen
 |emailFlow/workflowAssociate/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
 |emailFlow/workflowAssociate/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
 |emailFlow/workflowAssociate/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
+|emailFlow/workflowAssociate/usergroupId|int|Owner - Group ID: The user's primary user group| x |
 |emailFlow/workflowAssociate/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
 |emailFlow/workflowAssociate/contactCategory|listAny|Owner - Category: Category| x |
 |emailFlow/workflowAssociate/role|listAny|Owner - Role: Role| x |
@@ -530,6 +537,10 @@ Mailings selection archive with OR-able selection groups. Each group is represen
 |emailFlow/workflowAssociate/simultaneousEjUser|bool|Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |emailFlow/workflowAssociate/ejDisplayName|string|Owner - Nick name: User's nick name in Service| x |
 |emailFlow/workflowAssociate/ejStatus|int|Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |emailFlow/workflowAssociate/credentialType| *None* |Owner - Auth. type: What type of credentials to use when this user logs in| x |
 |emailFlow/workflowAssociate/credentialDisplayValue| *None* |Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |emailFlow/workflowAssociate/isActive|bool|Owner - Active: Is this user active, and should be able to log in?| x |
@@ -537,10 +548,6 @@ Mailings selection archive with OR-able selection groups. Each group is represen
 |emailFlow/workflowAssociate/portraitThumbnail| *None* |Owner - Person image: Person image|  |
 |emailFlow/workflowAssociate/otherGroups|userGroup|Owner - Other groups: Other groups|  |
 |emailFlow/workflowAssociate/userName|string|Owner - User name: User name| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |emailFlow/workflowAssociate/personEmail|string|Owner - E-mail| x |
 |emailFlow/workflowAssociate/locationAddress|string|Owner - Location: Location| x |
 |emailFlow/workflowAssociate/isLocation|bool|Owner - Is a location: Is a location| x |
@@ -594,6 +601,7 @@ Mailings selection archive with OR-able selection groups. Each group is represen
 |project/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |project/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |project/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|project/projectAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |project/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |project/projectAssociate/contactCategory|listAny|Category: Category| x |
 |project/projectAssociate/role|listAny|Role : Role| x |
@@ -633,6 +641,10 @@ Mailings selection archive with OR-able selection groups. Each group is represen
 |project/LastDoByActivity|date|Date of last non-completed activity|  |
 |project/NumberOfSales|int|Number of sales|  |
 |project/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/NumberOfNotCompletedSales|int|Number of non-completed sales|  |
 |project/NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
 |project/LastSale|date|Date of last sale|  |
@@ -641,10 +653,6 @@ Mailings selection archive with OR-able selection groups. Each group is represen
 |project/SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |project/saintSaleStatus|listAny|With status|  |
 |project/saintAmountClass|listAny|Amount class|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |project/saintActivityType|listAny|SAINT type|  |
 |project/saintDirection|listAny|Direction|  |
 |project/saintIntention|listAny|Intention|  |
@@ -656,7 +664,7 @@ Mailings selection archive with OR-able selection groups. Each group is represen
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsDynamicSelectionV2?$select=mailingDescription,date,project/projectAssociate/firstName
+GET /api/v1/archive/MailingsDynamicSelectionV2?$select=mailingAddr/contact/postAddress/wgs84longitude,mailingAddr/contact/restrictionAddress/addressId,mailingAddr/contact/contactAssociate/contactId,mailingAddr/contact/contactExtra/x_contact_timespan,mailingAddr/person/email/emailBounceCount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

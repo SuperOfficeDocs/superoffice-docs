@@ -72,13 +72,13 @@ OK
 POST /api/v1/Agents/User/ChangePasswordFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Haley-Prosacco",
-  "OldPassword": "quas",
-  "NewPassword": "consequatur"
+  "AssociateName": "Kreiger Inc and Sons",
+  "OldPassword": "debitis",
+  "NewPassword": "facere"
 }
 ```
 

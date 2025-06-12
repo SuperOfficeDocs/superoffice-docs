@@ -87,26 +87,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 594,
-  "Name": "Ullrich Inc and Sons",
-  "Description": "De-engineered asynchronous functionalities",
-  "DeltaJson": "possimus",
+  "ConfigurableScreenDeltaId": 970,
+  "Name": "Stark-Berge",
+  "Description": "Networked zero defect extranet",
+  "DeltaJson": "nesciunt",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "pariatur",
-  "UpdatedDate": "2022-10-04T16:32:38.3678168+02:00",
-  "CreatedDate": "2005-08-24T16:32:38.3678168+02:00",
+  "RecipeId": "maiores",
+  "UpdatedDate": "2014-12-23T17:54:02.7577242+01:00",
+  "CreatedDate": "2009-12-04T17:54:02.7577242+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    121,
-    265
+    31,
+    669
   ],
-  "AppliesToKey": "alias"
+  "AppliesToKey": "ut"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 429,
-  "Name": "Feest, Dicki and Tromp",
-  "Description": "Synergistic homogeneous contingency",
-  "DeltaJson": "cupiditate",
+  "ConfigurableScreenDeltaId": 121,
+  "Name": "Halvorson, Prohaska and Hoeger",
+  "Description": "Exclusive radical capability",
+  "DeltaJson": "ut",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "ad",
-  "UpdatedDate": "2011-11-21T16:32:38.3678168+01:00",
-  "CreatedDate": "1999-03-28T16:32:38.3678168+02:00",
+  "RecipeId": "enim",
+  "UpdatedDate": "1998-03-17T17:54:02.7577242+01:00",
+  "CreatedDate": "1998-06-12T17:54:02.7577242+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    359,
-    327
+    234,
+    198
   ],
-  "AppliesToKey": "minima",
+  "AppliesToKey": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 248
+      "FieldLength": 96
     }
   }
 }

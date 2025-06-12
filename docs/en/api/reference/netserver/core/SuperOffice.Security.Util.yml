@@ -5,7 +5,6 @@ items:
   id: SuperOffice.Security.Util
   children:
   - SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
-  - SuperOffice.Security.Util.DocumentArchiveWindowsLogin
   - SuperOffice.Security.Util.WindowsIdentityHelper
   - SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
   - SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
@@ -20,21 +19,17 @@ items:
   assemblies:
   - SoCore
 references:
-- uid: SuperOffice.Security.Util.DocumentArchiveWindowsLogin
-  commentId: T:SuperOffice.Security.Util.DocumentArchiveWindowsLogin
-  isExternal: true
-  name: DocumentArchiveWindowsLogin
-  nameWithType: DocumentArchiveWindowsLogin
-  fullName: SuperOffice.Security.Util.DocumentArchiveWindowsLogin
 - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
   commentId: T:SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
   isExternal: true
+  href: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.html
   name: DocumentArchiveFileImpersonationContext
   nameWithType: DocumentArchiveFileImpersonationContext
   fullName: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
 - uid: SuperOffice.Security.Util.WindowsIdentityHelper
   commentId: T:SuperOffice.Security.Util.WindowsIdentityHelper
   isExternal: true
+  href: SuperOffice.Security.Util.WindowsIdentityHelper.html
   name: WindowsIdentityHelper
   nameWithType: WindowsIdentityHelper
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper
@@ -42,25 +37,119 @@ references:
   commentId: T:SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
   parent: SuperOffice.Security.Util
   isExternal: true
+  href: SuperOffice.Security.Util.WindowsIdentityHelper.html
   name: WindowsIdentityHelper.LogonType
   nameWithType: WindowsIdentityHelper.LogonType
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
+  spec.csharp:
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper
+    name: WindowsIdentityHelper
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.html
+  - name: .
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
+    name: LogonType
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.html
+  spec.vb:
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper
+    name: WindowsIdentityHelper
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.html
+  - name: .
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
+    name: LogonType
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.html
 - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
   commentId: T:SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
   parent: SuperOffice.Security.Util
   isExternal: true
+  href: SuperOffice.Security.Util.WindowsIdentityHelper.html
   name: WindowsIdentityHelper.LogonProvider
   nameWithType: WindowsIdentityHelper.LogonProvider
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
+  spec.csharp:
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper
+    name: WindowsIdentityHelper
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.html
+  - name: .
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
+    name: LogonProvider
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.html
+  spec.vb:
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper
+    name: WindowsIdentityHelper
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.html
+  - name: .
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
+    name: LogonProvider
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.html
 - uid: SuperOffice.Security.Util.WindowsIdentityHelper.WindowsIdentityHelperException
   commentId: T:SuperOffice.Security.Util.WindowsIdentityHelper.WindowsIdentityHelperException
   isExternal: true
+  href: SuperOffice.Security.Util.WindowsIdentityHelper.html
   name: WindowsIdentityHelper.WindowsIdentityHelperException
   nameWithType: WindowsIdentityHelper.WindowsIdentityHelperException
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.WindowsIdentityHelperException
+  spec.csharp:
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper
+    name: WindowsIdentityHelper
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.html
+  - name: .
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.WindowsIdentityHelperException
+    name: WindowsIdentityHelperException
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.WindowsIdentityHelperException.html
+  spec.vb:
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper
+    name: WindowsIdentityHelper
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.html
+  - name: .
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.WindowsIdentityHelperException
+    name: WindowsIdentityHelperException
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.WindowsIdentityHelperException.html
 - uid: SuperOffice.Security.Util
   commentId: N:SuperOffice.Security.Util
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Security.Util
   nameWithType: SuperOffice.Security.Util
   fullName: SuperOffice.Security.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Security.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Security.Util.html

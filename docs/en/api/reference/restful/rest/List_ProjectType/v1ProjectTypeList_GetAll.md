@@ -25,7 +25,7 @@ Gets all the ProjectType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProjectType/Items?includeDeleted=False
+GET /api/v1/List/ProjectType/Items?includeDeleted=True
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 520,
-    "Name": "Schinner Group",
-    "Tooltip": "sunt",
-    "Deleted": false,
-    "UdListDefinitionId": 625,
-    "Rank": 371,
+    "Id": 54,
+    "Name": "Pfannerstill, McLaughlin and Walsh",
+    "Tooltip": "nulla",
+    "Deleted": true,
+    "UdListDefinitionId": 837,
+    "Rank": 115,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 412
+        "FieldLength": 783
       }
     }
   }

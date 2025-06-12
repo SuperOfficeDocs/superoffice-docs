@@ -90,11 +90,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 841,
-  "PrefDescId": 646,
-  "PrefValue": "voluptate",
-  "PrefShowValue": "quia",
-  "Description": "Polarised fresh-thinking support",
+  "PrefDescLineId": 510,
+  "PrefDescId": 559,
+  "PrefValue": "dolorum",
+  "PrefShowValue": "sequi",
+  "Description": "Enhanced mobile function",
   "IsBuiltin": false
 }
 ```
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 51,
-  "PrefDescId": 441,
-  "PrefValue": "repellat",
-  "PrefShowValue": "consectetur",
-  "Description": "Polarised bi-directional capacity",
-  "IsBuiltin": true,
+  "PrefDescLineId": 301,
+  "PrefDescId": 604,
+  "PrefValue": "totam",
+  "PrefShowValue": "eos",
+  "Description": "Public-key context-sensitive product",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldLength": 802
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

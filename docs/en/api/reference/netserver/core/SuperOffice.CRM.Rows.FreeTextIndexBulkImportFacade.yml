@@ -10,12 +10,12 @@ items:
   - SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.FreetextindexId
   - SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.FreetextwordsId
   - SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.Infile
-  - SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.op_Implicit(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)~System.Object[]
   - SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.OwnerrecordId
   - SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.OwnertableId
   - SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.RecordId
   - SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.RowData
   - SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.TableId
+  - SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.op_Implicit(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)~System.Object[]
   langs:
   - csharp
   - vb
@@ -23,32 +23,48 @@ items:
   nameWithType: FreeTextIndexBulkImportFacade
   fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nTyped facade for an object[] that contains all the fields of the FreeTextIndex table, intended for\nuse with DatabaseOperations.<see cref=\"!:DatabaseOperations.ImportTable\"></see> for bulk import of data.\n"
-  remarks: "\nThe bulk import system is based on generic row data, represented as an array of object. While this\nfits the bulk import functionality well, it may be convenient to have a typed, named way of accessing\nthe elements of such an object. This class has an object[] as its data carrier, together with\nstrongly typed access members.\n<p></p>\nOn creation, the array is dimensioned and all members initialized with &apos;blank&apos; values for their\ntypes (never null). There is an implicit conversion operator to object[], and it is also possible\nto access the array directly.\n"
+  summary: >-
+    Typed facade for an object[] that contains all the fields of the FreeTextIndex table, intended for
+
+    use with DatabaseOperations.DatabaseOperations.ImportTable for bulk import of data.
+  remarks: >-
+    The bulk import system is based on generic row data, represented as an array of object. While this
+
+    fits the bulk import functionality well, it may be convenient to have a typed, named way of accessing
+
+    the elements of such an object. This class has an object[] as its data carrier, together with
+
+    strongly typed access members.
+
+    <p></p>
+
+    On creation, the array is dimensioned and all members initialized with 'blank' values for their
+
+    types (never null). There is an implicit conversion operator to object[], and it is also possible
+
+    to access the array directly.
+  example: []
   syntax:
-    content: 'public class FreeTextIndexBulkImportFacade : Object'
-    content.vb: >-
-      Public Class FreeTextIndexBulkImportFacade
-          Inherits Object
+    content: public class FreeTextIndexBulkImportFacade
+    content.vb: Public Class FreeTextIndexBulkImportFacade
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)
   - SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.#ctor
   commentId: M:SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.#ctor
   id: '#ctor'
@@ -60,20 +76,16 @@ items:
   nameWithType: FreeTextIndexBulkImportFacade.FreeTextIndexBulkImportFacade()
   fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.FreeTextIndexBulkImportFacade()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public FreeTextIndexBulkImportFacade()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: FreeTextIndexBulkImportFacade.New()
+  fullName.vb: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.op_Implicit(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)~System.Object[]
   commentId: M:SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.op_Implicit(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)~System.Object[]
   id: op_Implicit(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)~System.Object[]
@@ -81,13 +93,10 @@ items:
   langs:
   - csharp
   - vb
-  name: Implicit(FreeTextIndexBulkImportFacade to Object[])
-  nameWithType: FreeTextIndexBulkImportFacade.Implicit(FreeTextIndexBulkImportFacade to Object[])
-  fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.Implicit(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade to System.Object[])
+  name: implicit operator object[](FreeTextIndexBulkImportFacade)
+  nameWithType: FreeTextIndexBulkImportFacade.implicit operator object[](FreeTextIndexBulkImportFacade)
+  fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.implicit operator object[](SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)
   type: Operator
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
@@ -100,15 +109,9 @@ items:
       type: System.Object[]
     content.vb: Public Shared Widening Operator CType(r As FreeTextIndexBulkImportFacade) As Object()
   overload: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.op_Implicit*
-  nameWithType.vb: FreeTextIndexBulkImportFacade.Widening(FreeTextIndexBulkImportFacade to Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.Widening(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade to System.Object())
-  name.vb: Widening(FreeTextIndexBulkImportFacade to Object())
+  nameWithType.vb: FreeTextIndexBulkImportFacade.CType(FreeTextIndexBulkImportFacade)
+  fullName.vb: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.CType(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)
+  name.vb: CType(FreeTextIndexBulkImportFacade)
 - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.RowData
   commentId: P:SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.RowData
   id: RowData
@@ -120,9 +123,6 @@ items:
   nameWithType: FreeTextIndexBulkImportFacade.RowData
   fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.RowData
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
@@ -133,12 +133,6 @@ items:
       type: System.Object[]
     content.vb: Public ReadOnly Property RowData As Object()
   overload: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.RowData*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.FreetextindexId
   commentId: P:SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.FreetextindexId
   id: FreetextindexId
@@ -150,13 +144,11 @@ items:
   nameWithType: FreeTextIndexBulkImportFacade.FreetextindexId
   fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.FreetextindexId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPrimary key\n"
+  summary: Primary key
+  example: []
   syntax:
     content: public int FreetextindexId { get; set; }
     parameters: []
@@ -164,12 +156,6 @@ items:
       type: System.Int32
     content.vb: Public Property FreetextindexId As Integer
   overload: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.FreetextindexId*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.FreetextwordsId
   commentId: P:SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.FreetextwordsId
   id: FreetextwordsId
@@ -181,13 +167,11 @@ items:
   nameWithType: FreeTextIndexBulkImportFacade.FreetextwordsId
   fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.FreetextwordsId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nReference to word\n"
+  summary: Reference to word
+  example: []
   syntax:
     content: public int FreetextwordsId { get; set; }
     parameters: []
@@ -195,12 +179,6 @@ items:
       type: System.Int32
     content.vb: Public Property FreetextwordsId As Integer
   overload: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.FreetextwordsId*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.TableId
   commentId: P:SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.TableId
   id: TableId
@@ -212,13 +190,11 @@ items:
   nameWithType: FreeTextIndexBulkImportFacade.TableId
   fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.TableId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSource table number - could be main (contact, person, etc) or sub-tables like address, email\n"
+  summary: Source table number - could be main (contact, person, etc) or sub-tables like address, email
+  example: []
   syntax:
     content: public short TableId { get; set; }
     parameters: []
@@ -226,12 +202,6 @@ items:
       type: System.Int16
     content.vb: Public Property TableId As Short
   overload: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.TableId*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.RecordId
   commentId: P:SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.RecordId
   id: RecordId
@@ -243,13 +213,11 @@ items:
   nameWithType: FreeTextIndexBulkImportFacade.RecordId
   fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.RecordId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSource record - the row that contains the word. Might be contact record, or an address or phone\n"
+  summary: Source record - the row that contains the word. Might be contact record, or an address or phone
+  example: []
   syntax:
     content: public int RecordId { get; set; }
     parameters: []
@@ -257,12 +225,6 @@ items:
       type: System.Int32
     content.vb: Public Property RecordId As Integer
   overload: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.RecordId*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.OwnertableId
   commentId: P:SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.OwnertableId
   id: OwnertableId
@@ -274,13 +236,11 @@ items:
   nameWithType: FreeTextIndexBulkImportFacade.OwnertableId
   fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.OwnertableId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nLogical source table (high-level), like contact or project\n"
+  summary: Logical source table (high-level), like contact or project
+  example: []
   syntax:
     content: public short OwnertableId { get; set; }
     parameters: []
@@ -288,12 +248,6 @@ items:
       type: System.Int16
     content.vb: Public Property OwnertableId As Short
   overload: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.OwnertableId*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.OwnerrecordId
   commentId: P:SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.OwnerrecordId
   id: OwnerrecordId
@@ -305,13 +259,11 @@ items:
   nameWithType: FreeTextIndexBulkImportFacade.OwnerrecordId
   fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.OwnerrecordId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nLogical source record. The contact, project, sale that the source belongs to.\n"
+  summary: Logical source record. The contact, project, sale that the source belongs to.
+  example: []
   syntax:
     content: public int OwnerrecordId { get; set; }
     parameters: []
@@ -319,12 +271,6 @@ items:
       type: System.Int32
     content.vb: Public Property OwnerrecordId As Integer
   overload: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.OwnerrecordId*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.Infile
   commentId: P:SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.Infile
   id: Infile
@@ -336,13 +282,11 @@ items:
   nameWithType: FreeTextIndexBulkImportFacade.Infile
   fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.Infile
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nWord found in file (0=word found in database)\n"
+  summary: Word found in file (0=word found in database)
+  example: []
   syntax:
     content: public short Infile { get; set; }
     parameters: []
@@ -350,12 +294,6 @@ items:
       type: System.Int16
     content.vb: Public Property Infile As Short
   overload: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.Infile*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.ContactId
   commentId: P:SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.ContactId
   id: ContactId
@@ -367,13 +305,11 @@ items:
   nameWithType: FreeTextIndexBulkImportFacade.ContactId
   fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.ContactId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet for contacts and person records to allow cross-table free-text searches. 0 for non-contact, non-person\n"
+  summary: Set for contacts and person records to allow cross-table free-text searches. 0 for non-contact, non-person
+  example: []
   syntax:
     content: public int ContactId { get; set; }
     parameters: []
@@ -381,181 +317,497 @@ items:
       type: System.Int32
     content.vb: Public Property ContactId As Integer
   overload: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.ContactId*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<FreeTextIndexBulkImportFacade, To>()
-  nameWithType: EnumUtil.MapEnums<FreeTextIndexBulkImportFacade, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of FreeTextIndexBulkImportFacade, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade, To)()
-  name.vb: MapEnums(Of FreeTextIndexBulkImportFacade, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<FreeTextIndexBulkImportFacade, To>(FreeTextIndexBulkImportFacade)
+  nameWithType: EnumUtil.MapEnums<FreeTextIndexBulkImportFacade, To>(FreeTextIndexBulkImportFacade)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade, To>(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)
+  nameWithType.vb: EnumUtil.MapEnums(Of FreeTextIndexBulkImportFacade, To)(FreeTextIndexBulkImportFacade)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade, To)(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)
+  name.vb: MapEnums(Of FreeTextIndexBulkImportFacade, To)(FreeTextIndexBulkImportFacade)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<FreeTextIndexBulkImportFacade, To>
-    nameWithType: EnumUtil.MapEnums<FreeTextIndexBulkImportFacade, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of FreeTextIndexBulkImportFacade, To)
-    nameWithType: EnumUtil.MapEnums(Of FreeTextIndexBulkImportFacade, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<FreeTextIndexBulkImportFacade>(FreeTextIndexBulkImportFacade)
-  nameWithType: ObjectExtensions.AssignByReflection<FreeTextIndexBulkImportFacade>(FreeTextIndexBulkImportFacade)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade>(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FreeTextIndexBulkImportFacade)(FreeTextIndexBulkImportFacade)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)
-  name.vb: AssignByReflection(Of FreeTextIndexBulkImportFacade)(FreeTextIndexBulkImportFacade)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<FreeTextIndexBulkImportFacade>
-    nameWithType: ObjectExtensions.AssignByReflection<FreeTextIndexBulkImportFacade>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade
     name: FreeTextIndexBulkImportFacade
-    nameWithType: FreeTextIndexBulkImportFacade
-    fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of FreeTextIndexBulkImportFacade)
-    nameWithType: ObjectExtensions.AssignByReflection(Of FreeTextIndexBulkImportFacade)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)
-    isExternal: true
+    href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade
     name: FreeTextIndexBulkImportFacade
-    nameWithType: FreeTextIndexBulkImportFacade
-    fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade
     isExternal: true
+    href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<FreeTextIndexBulkImportFacade>()
-  nameWithType: ObjectExtensions.GraphCopy<FreeTextIndexBulkImportFacade>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of FreeTextIndexBulkImportFacade)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)()
-  name.vb: GraphCopy(Of FreeTextIndexBulkImportFacade)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<FreeTextIndexBulkImportFacade>
-    nameWithType: ObjectExtensions.GraphCopy<FreeTextIndexBulkImportFacade>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of FreeTextIndexBulkImportFacade)
-    nameWithType: ObjectExtensions.GraphCopy(Of FreeTextIndexBulkImportFacade)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade
+    name: FreeTextIndexBulkImportFacade
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade
+    name: FreeTextIndexBulkImportFacade
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html
+  - name: )
 - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<FreeTextIndexBulkImportFacade, To>()
-  nameWithType: Converters.MapEnums<FreeTextIndexBulkImportFacade, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade, To>()
-  nameWithType.vb: Converters.MapEnums(Of FreeTextIndexBulkImportFacade, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade, To)()
-  name.vb: MapEnums(Of FreeTextIndexBulkImportFacade, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<FreeTextIndexBulkImportFacade, To>(FreeTextIndexBulkImportFacade)
+  nameWithType: Converters.MapEnums<FreeTextIndexBulkImportFacade, To>(FreeTextIndexBulkImportFacade)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade, To>(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)
+  nameWithType.vb: Converters.MapEnums(Of FreeTextIndexBulkImportFacade, To)(FreeTextIndexBulkImportFacade)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade, To)(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)
+  name.vb: MapEnums(Of FreeTextIndexBulkImportFacade, To)(FreeTextIndexBulkImportFacade)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<FreeTextIndexBulkImportFacade, To>
-    nameWithType: Converters.MapEnums<FreeTextIndexBulkImportFacade, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade
+    name: FreeTextIndexBulkImportFacade
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade
+    name: FreeTextIndexBulkImportFacade
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of FreeTextIndexBulkImportFacade, To)
-    nameWithType: Converters.MapEnums(Of FreeTextIndexBulkImportFacade, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade
+    name: FreeTextIndexBulkImportFacade
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade
+    name: FreeTextIndexBulkImportFacade
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<FreeTextIndexBulkImportFacade>(FreeTextIndexBulkImportFacade, FreeTextIndexBulkImportFacade)
+  nameWithType: ObjectExtensions.AssignByReflection<FreeTextIndexBulkImportFacade>(FreeTextIndexBulkImportFacade, FreeTextIndexBulkImportFacade)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade>(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade, SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FreeTextIndexBulkImportFacade)(FreeTextIndexBulkImportFacade, FreeTextIndexBulkImportFacade)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade, SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)
+  name.vb: AssignByReflection(Of FreeTextIndexBulkImportFacade)(FreeTextIndexBulkImportFacade, FreeTextIndexBulkImportFacade)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade,SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade
+    name: FreeTextIndexBulkImportFacade
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade
+    name: FreeTextIndexBulkImportFacade
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade
+    name: FreeTextIndexBulkImportFacade
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade,SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade
+    name: FreeTextIndexBulkImportFacade
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade
+    name: FreeTextIndexBulkImportFacade
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade
+    name: FreeTextIndexBulkImportFacade
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<FreeTextIndexBulkImportFacade>(FreeTextIndexBulkImportFacade)
+  nameWithType: ObjectExtensions.GraphCopy<FreeTextIndexBulkImportFacade>(FreeTextIndexBulkImportFacade)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade>(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of FreeTextIndexBulkImportFacade)(FreeTextIndexBulkImportFacade)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)
+  name.vb: GraphCopy(Of FreeTextIndexBulkImportFacade)(FreeTextIndexBulkImportFacade)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade
+    name: FreeTextIndexBulkImportFacade
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade
+    name: FreeTextIndexBulkImportFacade
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade
+    name: FreeTextIndexBulkImportFacade
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade
+    name: FreeTextIndexBulkImportFacade
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -564,140 +816,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -706,110 +863,252 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html#SuperOffice_CRM_Rows_FreeTextIndexBulkImportFacade__ctor
   name: FreeTextIndexBulkImportFacade
   nameWithType: FreeTextIndexBulkImportFacade.FreeTextIndexBulkImportFacade
   fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.FreeTextIndexBulkImportFacade
+  nameWithType.vb: FreeTextIndexBulkImportFacade.New
+  fullName.vb: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.New
+  name.vb: New
 - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.op_Implicit*
   commentId: Overload:SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.op_Implicit
-  isExternal: true
-  name: Implicit
-  nameWithType: FreeTextIndexBulkImportFacade.Implicit
-  fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.Implicit
-  nameWithType.vb: FreeTextIndexBulkImportFacade.Widening
-  fullName.vb: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.Widening
-  name.vb: Widening
+  name: implicit operator
+  nameWithType: FreeTextIndexBulkImportFacade.implicit operator
+  fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.implicit operator
+  nameWithType.vb: FreeTextIndexBulkImportFacade.CType
+  fullName.vb: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
 - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade
   commentId: T:SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html
   name: FreeTextIndexBulkImportFacade
   nameWithType: FreeTextIndexBulkImportFacade
   fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade
 - uid: System.Object[]
   isExternal: true
-  name: Object[]
-  nameWithType: Object[]
-  fullName: System.Object[]
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object[]
+  nameWithType: object[]
+  fullName: object[]
   nameWithType.vb: Object()
-  fullName.vb: System.Object()
+  fullName.vb: Object()
   name.vb: Object()
   spec.csharp:
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.RowData*
   commentId: Overload:SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.RowData
   isExternal: true
+  href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html#SuperOffice_CRM_Rows_FreeTextIndexBulkImportFacade_RowData
   name: RowData
   nameWithType: FreeTextIndexBulkImportFacade.RowData
   fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.RowData
 - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.FreetextindexId*
   commentId: Overload:SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.FreetextindexId
   isExternal: true
+  href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html#SuperOffice_CRM_Rows_FreeTextIndexBulkImportFacade_FreetextindexId
   name: FreetextindexId
   nameWithType: FreeTextIndexBulkImportFacade.FreetextindexId
   fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.FreetextindexId
@@ -817,18 +1116,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.FreetextwordsId*
   commentId: Overload:SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.FreetextwordsId
   isExternal: true
+  href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html#SuperOffice_CRM_Rows_FreeTextIndexBulkImportFacade_FreetextwordsId
   name: FreetextwordsId
   nameWithType: FreeTextIndexBulkImportFacade.FreetextwordsId
   fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.FreetextwordsId
 - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.TableId*
   commentId: Overload:SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.TableId
   isExternal: true
+  href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html#SuperOffice_CRM_Rows_FreeTextIndexBulkImportFacade_TableId
   name: TableId
   nameWithType: FreeTextIndexBulkImportFacade.TableId
   fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.TableId
@@ -836,36 +1141,45 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.RecordId*
   commentId: Overload:SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.RecordId
   isExternal: true
+  href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html#SuperOffice_CRM_Rows_FreeTextIndexBulkImportFacade_RecordId
   name: RecordId
   nameWithType: FreeTextIndexBulkImportFacade.RecordId
   fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.RecordId
 - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.OwnertableId*
   commentId: Overload:SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.OwnertableId
   isExternal: true
+  href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html#SuperOffice_CRM_Rows_FreeTextIndexBulkImportFacade_OwnertableId
   name: OwnertableId
   nameWithType: FreeTextIndexBulkImportFacade.OwnertableId
   fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.OwnertableId
 - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.OwnerrecordId*
   commentId: Overload:SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.OwnerrecordId
   isExternal: true
+  href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html#SuperOffice_CRM_Rows_FreeTextIndexBulkImportFacade_OwnerrecordId
   name: OwnerrecordId
   nameWithType: FreeTextIndexBulkImportFacade.OwnerrecordId
   fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.OwnerrecordId
 - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.Infile*
   commentId: Overload:SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.Infile
   isExternal: true
+  href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html#SuperOffice_CRM_Rows_FreeTextIndexBulkImportFacade_Infile
   name: Infile
   nameWithType: FreeTextIndexBulkImportFacade.Infile
   fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.Infile
 - uid: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.ContactId*
   commentId: Overload:SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.ContactId
   isExternal: true
+  href: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.html#SuperOffice_CRM_Rows_FreeTextIndexBulkImportFacade_ContactId
   name: ContactId
   nameWithType: FreeTextIndexBulkImportFacade.ContactId
   fullName: SuperOffice.CRM.Rows.FreeTextIndexBulkImportFacade.ContactId

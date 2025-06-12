@@ -16,33 +16,39 @@ items:
   nameWithType: OperationTracker
   fullName: SuperOffice.Util.OperationTracker
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nFaçade for the <xref href=\"System.Diagnostics.Activity\" data-throw-if-not-resolved=\"false\"></xref> tracking class\n"
-  remarks: "\nThe <xref href=\"SuperOffice.Util.OperationTracker.AddInfo(System.String%2cSystem.Object)\" data-throw-if-not-resolved=\"false\"></xref> method does intelligent, shallow decoding of objects and\narrays to try to generate a reasonable amount of information in the tracking log. You should\ngenerally not have to do your own object.ToString() decoding, unless you have special needs.\nBeware of writing complicated formatting code that slows down the application or creates\na huge number of strings on the heap!\n"
+  summary: Façade for the <xref href="System.Diagnostics.Activity" data-throw-if-not-resolved="false"></xref> tracking class
+  remarks: >-
+    The <xref href="SuperOffice.Util.OperationTracker.AddInfo(System.String%2cSystem.Object)" data-throw-if-not-resolved="false"></xref> method does intelligent, shallow decoding of objects and
+
+    arrays to try to generate a reasonable amount of information in the tracking log. You should
+
+    generally not have to do your own object.ToString() decoding, unless you have special needs.
+
+    Beware of writing complicated formatting code that slows down the application or creates
+
+    a huge number of strings on the heap!
+  example: []
   syntax:
-    content: 'public class OperationTracker : Object, IDisposable'
-    content.vb: >-
-      Public Class OperationTracker
-          Inherits Object
-          Implements IDisposable
+    content: 'public class OperationTracker : IDisposable'
+    content.vb: Public Class OperationTracker Implements IDisposable
   inheritance:
   - System.Object
   implements:
   - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Util.OperationTracker.EnumUtil.MapEnums``2
   - SuperOffice.Util.OperationTracker.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.Util.OperationTracker.#ctor(System.String)
   commentId: M:SuperOffice.Util.OperationTracker.#ctor(System.String)
   id: '#ctor(System.String)'
@@ -50,28 +56,26 @@ items:
   langs:
   - csharp
   - vb
-  name: OperationTracker(String)
-  nameWithType: OperationTracker.OperationTracker(String)
-  fullName: SuperOffice.Util.OperationTracker.OperationTracker(System.String)
+  name: OperationTracker(string)
+  nameWithType: OperationTracker.OperationTracker(string)
+  fullName: SuperOffice.Util.OperationTracker.OperationTracker(string)
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nConstructor to create a Tracker\n"
+  summary: Constructor to create a Tracker
+  example: []
   syntax:
     content: public OperationTracker(string trackerName)
     parameters:
     - id: trackerName
       type: System.String
+      description: ''
     content.vb: Public Sub New(trackerName As String)
   overload: SuperOffice.Util.OperationTracker.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: OperationTracker.New(String)
+  fullName.vb: SuperOffice.Util.OperationTracker.New(String)
+  name.vb: New(String)
 - uid: SuperOffice.Util.OperationTracker.AddInfo(System.String,System.Object)
   commentId: M:SuperOffice.Util.OperationTracker.AddInfo(System.String,System.Object)
   id: AddInfo(System.String,System.Object)
@@ -79,17 +83,20 @@ items:
   langs:
   - csharp
   - vb
-  name: AddInfo(String, Object)
-  nameWithType: OperationTracker.AddInfo(String, Object)
-  fullName: SuperOffice.Util.OperationTracker.AddInfo(System.String, System.Object)
+  name: AddInfo(string, object)
+  nameWithType: OperationTracker.AddInfo(string, object)
+  fullName: SuperOffice.Util.OperationTracker.AddInfo(string, object)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nAdd information to the key/value property bag in the tracker. Existing key\nwill have its value replaced. See remarks for <xref href=\"SuperOffice.Util.OperationTracker.ValueToString(System.Object)\" data-throw-if-not-resolved=\"false\"></xref>\nfor object formatting!\n"
+  summary: >-
+    Add information to the key/value property bag in the tracker. Existing key
+
+    will have its value replaced. See remarks for <xref href="SuperOffice.Util.OperationTracker.ValueToString(System.Object)" data-throw-if-not-resolved="false"></xref>
+
+    for object formatting!
+  example: []
   syntax:
     content: public void AddInfo(string key, object value)
     parameters:
@@ -101,10 +108,9 @@ items:
       description: Value to be added, will be formatted by <xref href="SuperOffice.Util.OperationTracker.ValueToString(System.Object)" data-throw-if-not-resolved="false"></xref>
     content.vb: Public Sub AddInfo(key As String, value As Object)
   overload: SuperOffice.Util.OperationTracker.AddInfo*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: OperationTracker.AddInfo(String, Object)
+  fullName.vb: SuperOffice.Util.OperationTracker.AddInfo(String, Object)
+  name.vb: AddInfo(String, Object)
 - uid: SuperOffice.Util.OperationTracker.ValueToString(System.Object)
   commentId: M:SuperOffice.Util.OperationTracker.ValueToString(System.Object)
   id: ValueToString(System.Object)
@@ -112,18 +118,21 @@ items:
   langs:
   - csharp
   - vb
-  name: ValueToString(Object)
-  nameWithType: OperationTracker.ValueToString(Object)
-  fullName: SuperOffice.Util.OperationTracker.ValueToString(System.Object)
+  name: ValueToString(object)
+  nameWithType: OperationTracker.ValueToString(object)
+  fullName: SuperOffice.Util.OperationTracker.ValueToString(object)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nDecode and format objects to a reasonable level\n"
-  remarks: "\nPrimitive types are converted to strings directly.  One-dimensional Arrays will decode the first\nthree elements. Complex types will only show the type name, to avoid the huge\nrecursive descent that is present in generated service objects.\n"
+  summary: Decode and format objects to a reasonable level
+  remarks: >-
+    Primitive types are converted to strings directly.  One-dimensional Arrays will decode the first
+
+    three elements. Complex types will only show the type name, to avoid the huge
+
+    recursive descent that is present in generated service objects.
+  example: []
   syntax:
     content: public static string ValueToString(object value)
     parameters:
@@ -132,14 +141,12 @@ items:
       description: Value to be decoded
     return:
       type: System.String
+      description: ''
     content.vb: Public Shared Function ValueToString(value As Object) As String
   overload: SuperOffice.Util.OperationTracker.ValueToString*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: OperationTracker.ValueToString(Object)
+  fullName.vb: SuperOffice.Util.OperationTracker.ValueToString(Object)
+  name.vb: ValueToString(Object)
 - uid: SuperOffice.Util.OperationTracker.Dispose
   commentId: M:SuperOffice.Util.OperationTracker.Dispose
   id: Dispose
@@ -151,117 +158,451 @@ items:
   nameWithType: OperationTracker.Dispose()
   fullName: SuperOffice.Util.OperationTracker.Dispose()
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nDispose of the tracker, stopping the <xref href=\"System.Diagnostics.Activity\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  summary: Dispose of the tracker, stopping the <xref href="System.Diagnostics.Activity" data-throw-if-not-resolved="false"></xref>
+  example: []
   syntax:
     content: public void Dispose()
-    content.vb: Public Sub Dispose
+    content.vb: Public Sub Dispose()
   overload: SuperOffice.Util.OperationTracker.Dispose*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  implements:
+  - System.IDisposable.Dispose
 references:
+- uid: System.Diagnostics.Activity
+  commentId: T:System.Diagnostics.Activity
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.diagnostics.activity
+  name: Activity
+  nameWithType: Activity
+  fullName: System.Diagnostics.Activity
+- uid: SuperOffice.Util.OperationTracker.AddInfo(System.String,System.Object)
+  commentId: M:SuperOffice.Util.OperationTracker.AddInfo(System.String,System.Object)
+  isExternal: true
+  href: SuperOffice.Util.OperationTracker.html#SuperOffice_Util_OperationTracker_AddInfo_System_String_System_Object_
+  name: AddInfo(string, object)
+  nameWithType: OperationTracker.AddInfo(string, object)
+  fullName: SuperOffice.Util.OperationTracker.AddInfo(string, object)
+  nameWithType.vb: OperationTracker.AddInfo(String, Object)
+  fullName.vb: SuperOffice.Util.OperationTracker.AddInfo(String, Object)
+  name.vb: AddInfo(String, Object)
+  spec.csharp:
+  - uid: SuperOffice.Util.OperationTracker.AddInfo(System.String,System.Object)
+    name: AddInfo
+    isExternal: true
+    href: SuperOffice.Util.OperationTracker.html#SuperOffice_Util_OperationTracker_AddInfo_System_String_System_Object_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.OperationTracker.AddInfo(System.String,System.Object)
+    name: AddInfo
+    isExternal: true
+    href: SuperOffice.Util.OperationTracker.html#SuperOffice_Util_OperationTracker_AddInfo_System_String_System_Object_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.Util.OperationTracker.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<OperationTracker, To>()
-  nameWithType: EnumUtil.MapEnums<OperationTracker, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Util.OperationTracker, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of OperationTracker, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.OperationTracker, To)()
-  name.vb: MapEnums(Of OperationTracker, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<OperationTracker, To>(OperationTracker)
+  nameWithType: EnumUtil.MapEnums<OperationTracker, To>(OperationTracker)
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.OperationTracker, To>(SuperOffice.Util.OperationTracker)
+  nameWithType.vb: EnumUtil.MapEnums(Of OperationTracker, To)(OperationTracker)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.OperationTracker, To)(SuperOffice.Util.OperationTracker)
+  name.vb: MapEnums(Of OperationTracker, To)(OperationTracker)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<OperationTracker, To>
-    nameWithType: EnumUtil.MapEnums<OperationTracker, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Util.OperationTracker, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.OperationTracker)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.OperationTracker
+    name: OperationTracker
+    isExternal: true
+    href: SuperOffice.Util.OperationTracker.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Util.OperationTracker
+    name: OperationTracker
+    isExternal: true
+    href: SuperOffice.Util.OperationTracker.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of OperationTracker, To)
-    nameWithType: EnumUtil.MapEnums(Of OperationTracker, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.OperationTracker, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.OperationTracker)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.OperationTracker
+    name: OperationTracker
+    isExternal: true
+    href: SuperOffice.Util.OperationTracker.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Util.OperationTracker
+    name: OperationTracker
+    isExternal: true
+    href: SuperOffice.Util.OperationTracker.html
+  - name: )
 - uid: SuperOffice.Util.OperationTracker.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<OperationTracker, To>()
-  nameWithType: Converters.MapEnums<OperationTracker, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.OperationTracker, To>()
-  nameWithType.vb: Converters.MapEnums(Of OperationTracker, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.OperationTracker, To)()
-  name.vb: MapEnums(Of OperationTracker, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<OperationTracker, To>(OperationTracker)
+  nameWithType: Converters.MapEnums<OperationTracker, To>(OperationTracker)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.OperationTracker, To>(SuperOffice.Util.OperationTracker)
+  nameWithType.vb: Converters.MapEnums(Of OperationTracker, To)(OperationTracker)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.OperationTracker, To)(SuperOffice.Util.OperationTracker)
+  name.vb: MapEnums(Of OperationTracker, To)(OperationTracker)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<OperationTracker, To>
-    nameWithType: Converters.MapEnums<OperationTracker, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.OperationTracker, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.OperationTracker)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.OperationTracker
+    name: OperationTracker
+    isExternal: true
+    href: SuperOffice.Util.OperationTracker.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Util.OperationTracker
+    name: OperationTracker
+    isExternal: true
+    href: SuperOffice.Util.OperationTracker.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of OperationTracker, To)
-    nameWithType: Converters.MapEnums(Of OperationTracker, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.OperationTracker, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.OperationTracker)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.OperationTracker
+    name: OperationTracker
+    isExternal: true
+    href: SuperOffice.Util.OperationTracker.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Util.OperationTracker
+    name: OperationTracker
+    isExternal: true
+    href: SuperOffice.Util.OperationTracker.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -270,43 +611,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -315,75 +658,172 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Util.OperationTracker.#ctor*
   commentId: Overload:SuperOffice.Util.OperationTracker.#ctor
   isExternal: true
+  href: SuperOffice.Util.OperationTracker.html#SuperOffice_Util_OperationTracker__ctor_System_String_
   name: OperationTracker
   nameWithType: OperationTracker.OperationTracker
   fullName: SuperOffice.Util.OperationTracker.OperationTracker
+  nameWithType.vb: OperationTracker.New
+  fullName.vb: SuperOffice.Util.OperationTracker.New
+  name.vb: New
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.Util.OperationTracker.ValueToString(System.Object)
+  commentId: M:SuperOffice.Util.OperationTracker.ValueToString(System.Object)
+  isExternal: true
+  href: SuperOffice.Util.OperationTracker.html#SuperOffice_Util_OperationTracker_ValueToString_System_Object_
+  name: ValueToString(object)
+  nameWithType: OperationTracker.ValueToString(object)
+  fullName: SuperOffice.Util.OperationTracker.ValueToString(object)
+  nameWithType.vb: OperationTracker.ValueToString(Object)
+  fullName.vb: SuperOffice.Util.OperationTracker.ValueToString(Object)
+  name.vb: ValueToString(Object)
+  spec.csharp:
+  - uid: SuperOffice.Util.OperationTracker.ValueToString(System.Object)
+    name: ValueToString
+    isExternal: true
+    href: SuperOffice.Util.OperationTracker.html#SuperOffice_Util_OperationTracker_ValueToString_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.OperationTracker.ValueToString(System.Object)
+    name: ValueToString
+    isExternal: true
+    href: SuperOffice.Util.OperationTracker.html#SuperOffice_Util_OperationTracker_ValueToString_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
 - uid: SuperOffice.Util.OperationTracker.AddInfo*
   commentId: Overload:SuperOffice.Util.OperationTracker.AddInfo
   isExternal: true
+  href: SuperOffice.Util.OperationTracker.html#SuperOffice_Util_OperationTracker_AddInfo_System_String_System_Object_
   name: AddInfo
   nameWithType: OperationTracker.AddInfo
   fullName: SuperOffice.Util.OperationTracker.AddInfo
 - uid: SuperOffice.Util.OperationTracker.ValueToString*
   commentId: Overload:SuperOffice.Util.OperationTracker.ValueToString
   isExternal: true
+  href: SuperOffice.Util.OperationTracker.html#SuperOffice_Util_OperationTracker_ValueToString_System_Object_
   name: ValueToString
   nameWithType: OperationTracker.ValueToString
   fullName: SuperOffice.Util.OperationTracker.ValueToString
 - uid: SuperOffice.Util.OperationTracker.Dispose*
   commentId: Overload:SuperOffice.Util.OperationTracker.Dispose
   isExternal: true
+  href: SuperOffice.Util.OperationTracker.html#SuperOffice_Util_OperationTracker_Dispose
   name: Dispose
   nameWithType: OperationTracker.Dispose
   fullName: SuperOffice.Util.OperationTracker.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )

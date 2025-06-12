@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 62,
-    "Name": "Spencer-Cummings",
-    "ToolTip": "Ipsa sint atque nemo eaque.",
-    "Deleted": true,
-    "Rank": 779,
-    "Type": "et",
-    "ColorBlock": 19,
-    "IconHint": "voluptatem",
+    "Id": 207,
+    "Name": "Crooks Inc and Sons",
+    "ToolTip": "Sit minima aliquid.",
+    "Deleted": false,
+    "Rank": 25,
+    "Type": "eligendi",
+    "ColorBlock": 361,
+    "IconHint": "repellendus",
     "Selected": false,
-    "LastChanged": "2004-04-20T16:32:48.8526096+02:00",
+    "LastChanged": "2020-04-17T17:54:09.0074197+02:00",
     "ChildItems": [
       {
-        "Id": 285,
-        "Name": "Legros-Hermann",
-        "ToolTip": "Officia aut non eius hic eum.",
+        "Id": 94,
+        "Name": "Dibbert-Lynch",
+        "ToolTip": "Possimus inventore quaerat.",
         "Deleted": false,
-        "Rank": 222,
-        "Type": "illum",
-        "ColorBlock": 451,
-        "IconHint": "iusto",
+        "Rank": 409,
+        "Type": "reprehenderit",
+        "ColorBlock": 559,
+        "IconHint": "quis",
         "Selected": false,
-        "LastChanged": "2015-12-16T16:32:48.8526096+01:00",
+        "LastChanged": "2007-05-30T17:54:09.0074197+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "dicta",
-        "Hidden": false,
-        "FullName": "Hannah Price",
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "porro",
+        "Hidden": true,
+        "FullName": "Miss Anissa Goyette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 250
+            "FieldLength": 174
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "vel",
+    "ExtraInfo": "quae",
+    "StyleHint": "autem",
     "Hidden": false,
-    "FullName": "Terrence Dibbert",
+    "FullName": "Laney Dimitri Wolff Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 830
+        "FieldType": "System.String",
+        "FieldLength": 434
       }
     }
   }

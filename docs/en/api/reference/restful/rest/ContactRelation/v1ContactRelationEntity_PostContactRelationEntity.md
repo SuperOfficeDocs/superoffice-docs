@@ -110,28 +110,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 721,
-  "SourcePersonId": 14,
-  "DestinationContactId": 287,
-  "DestinationPersonId": 674,
-  "RelationId": 376,
-  "Comment": "sed",
-  "RelationDefinitionId": 250,
-  "Reversed": 824,
-  "UpdatedDate": "2010-03-28T16:32:47.3996115+02:00",
-  "CreatedDate": "2013-01-26T16:32:47.3996115+01:00",
+  "SourceContactId": 812,
+  "SourcePersonId": 475,
+  "DestinationContactId": 719,
+  "DestinationPersonId": 91,
+  "RelationId": 274,
+  "Comment": "libero",
+  "RelationDefinitionId": 307,
+  "Reversed": 668,
+  "UpdatedDate": "2010-08-08T17:54:08.1324619+02:00",
+  "CreatedDate": "2010-10-23T17:54:08.1324619+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Padberg Group",
-  "SourcePersonName": "Fadel-Heaney",
-  "DestinationContactName": "Kohler LLC",
-  "DestinationPersonName": "Marvin Inc and Sons",
-  "ActiveText": "maiores",
-  "PassiveText": "voluptatem"
+  "SourceContactName": "Macejkovic, Kilback and Beatty",
+  "SourcePersonName": "Ondricka-Blanda",
+  "DestinationContactName": "Hamill, Dietrich and Hamill",
+  "DestinationPersonName": "Mertz LLC",
+  "ActiveText": "omnis",
+  "PassiveText": "non"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 54,
-  "SourcePersonId": 397,
-  "DestinationContactId": 99,
-  "DestinationPersonId": 861,
-  "RelationId": 700,
-  "Comment": "dolores",
-  "RelationDefinitionId": 937,
-  "Reversed": 866,
-  "UpdatedDate": "1998-05-03T16:32:47.3996115+02:00",
-  "CreatedDate": "2022-02-23T16:32:47.3996115+01:00",
+  "SourceContactId": 398,
+  "SourcePersonId": 185,
+  "DestinationContactId": 75,
+  "DestinationPersonId": 762,
+  "RelationId": 944,
+  "Comment": "et",
+  "RelationDefinitionId": 783,
+  "Reversed": 345,
+  "UpdatedDate": "2001-07-01T17:54:08.1324619+02:00",
+  "CreatedDate": "2007-07-26T17:54:08.1324619+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Cronin LLC",
-  "SourcePersonName": "Schmitt-McKenzie",
-  "DestinationContactName": "Hane LLC",
-  "DestinationPersonName": "Hackett Group",
-  "ActiveText": "expedita",
-  "PassiveText": "eligendi",
+  "SourceContactName": "Mitchell-Ruecker",
+  "SourcePersonName": "Barton-Glover",
+  "DestinationContactName": "Kozey, Krajcik and Ledner",
+  "DestinationPersonName": "Conroy, Welch and Weimann",
+  "ActiveText": "culpa",
+  "PassiveText": "commodi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 275
+      "FieldType": "System.Int32",
+      "FieldLength": 235
     }
   },
   "_Links": {

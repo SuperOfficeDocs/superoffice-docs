@@ -39,35 +39,37 @@ items:
   nameWithType: SimpleProjectInfo
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: "\nPlain-old-data implementation of <xref href=\"SuperOffice.CRM.IProjectInfo\" data-throw-if-not-resolved=\"false\"></xref>, intended for situations\nwhere the client knows everything and does not want the database to be involved\n(for instance, when running on unsaved data)\n"
+  summary: >-
+    Plain-old-data implementation of <xref href="SuperOffice.CRM.IProjectInfo" data-throw-if-not-resolved="false"></xref>, intended for situations
+
+    where the client knows everything and does not want the database to be involved
+
+    (for instance, when running on unsaved data)
+  example: []
   syntax:
-    content: 'public class SimpleProjectInfo : Object, IProjectInfo2, IProjectInfo'
-    content.vb: >-
-      Public Class SimpleProjectInfo
-          Inherits Object
-          Implements IProjectInfo2, IProjectInfo
+    content: 'public class SimpleProjectInfo : IProjectInfo2, IProjectInfo'
+    content.vb: Public Class SimpleProjectInfo Implements IProjectInfo2, IProjectInfo
   inheritance:
   - System.Object
   implements:
   - SuperOffice.CRM.IProjectInfo2
   - SuperOffice.CRM.IProjectInfo
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)
   - SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedDecimal(System.String)
   commentId: M:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedDecimal(System.String)
   id: GetUserDefinedDecimal(System.String)
@@ -75,17 +77,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedDecimal(String)
-  nameWithType: SimpleProjectInfo.GetUserDefinedDecimal(String)
-  fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedDecimal(System.String)
+  name: GetUserDefinedDecimal(string)
+  nameWithType: SimpleProjectInfo.GetUserDefinedDecimal(string)
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedDecimal(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: "\n<strong>NOT SUPPORTED: </strong>Get the decimal udef value based on the prog.id name of the udef field.\n"
+  summary: '<b>NOT SUPPORTED: </b>Get the decimal udef value based on the prog.id name of the udef field.'
+  example: []
   syntax:
     content: public double GetUserDefinedDecimal(string progId)
     parameters:
@@ -97,10 +97,9 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedDecimal*
   implements:
   - SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal(System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SimpleProjectInfo.GetUserDefinedDecimal(String)
+  fullName.vb: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedDecimal(String)
+  name.vb: GetUserDefinedDecimal(String)
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedInt(System.String)
   commentId: M:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedInt(System.String)
   id: GetUserDefinedInt(System.String)
@@ -108,17 +107,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedInt(String)
-  nameWithType: SimpleProjectInfo.GetUserDefinedInt(String)
-  fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedInt(System.String)
+  name: GetUserDefinedInt(string)
+  nameWithType: SimpleProjectInfo.GetUserDefinedInt(string)
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedInt(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: "\n<strong>NOT SUPPORTED: </strong>Get the int udef value based on the prog.id name of the udef field.\n"
+  summary: '<b>NOT SUPPORTED: </b>Get the int udef value based on the prog.id name of the udef field.'
+  example: []
   syntax:
     content: public int GetUserDefinedInt(string progId)
     parameters:
@@ -130,10 +127,9 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedInt*
   implements:
   - SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SimpleProjectInfo.GetUserDefinedInt(String)
+  fullName.vb: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedInt(String)
+  name.vb: GetUserDefinedInt(String)
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedString(System.String)
   commentId: M:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedString(System.String)
   id: GetUserDefinedString(System.String)
@@ -141,17 +137,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedString(String)
-  nameWithType: SimpleProjectInfo.GetUserDefinedString(String)
-  fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedString(System.String)
+  name: GetUserDefinedString(string)
+  nameWithType: SimpleProjectInfo.GetUserDefinedString(string)
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedString(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: "\n<strong>NOT SUPPORTED: </strong>Get the string udef value based on the prog.id name of the udef field.\n"
+  summary: '<b>NOT SUPPORTED: </b>Get the string udef value based on the prog.id name of the udef field.'
+  example: []
   syntax:
     content: public string GetUserDefinedString(string progId)
     parameters:
@@ -163,10 +157,9 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedString*
   implements:
   - SuperOffice.CRM.IProjectInfo.GetUserDefinedString(System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SimpleProjectInfo.GetUserDefinedString(String)
+  fullName.vb: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedString(String)
+  name.vb: GetUserDefinedString(String)
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedDecimal(System.Int32)
   commentId: M:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedDecimal(System.Int32)
   id: GetUserDefinedDecimal(System.Int32)
@@ -174,17 +167,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedDecimal(Int32)
-  nameWithType: SimpleProjectInfo.GetUserDefinedDecimal(Int32)
-  fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedDecimal(System.Int32)
+  name: GetUserDefinedDecimal(int)
+  nameWithType: SimpleProjectInfo.GetUserDefinedDecimal(int)
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedDecimal(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: "\nUser-defined field 1-10 of the decimal (.NET double) number type.\n"
+  summary: User-defined field 1-10 of the decimal (.NET double) number type.
+  example: []
   syntax:
     content: public string GetUserDefinedDecimal(int fieldNo)
     parameters:
@@ -198,10 +189,9 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedDecimal*
   implements:
   - SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SimpleProjectInfo.GetUserDefinedDecimal(Integer)
+  fullName.vb: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedDecimal(Integer)
+  name.vb: GetUserDefinedDecimal(Integer)
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedInt(System.Int32)
   commentId: M:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedInt(System.Int32)
   id: GetUserDefinedInt(System.Int32)
@@ -209,17 +199,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedInt(Int32)
-  nameWithType: SimpleProjectInfo.GetUserDefinedInt(Int32)
-  fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedInt(System.Int32)
+  name: GetUserDefinedInt(int)
+  nameWithType: SimpleProjectInfo.GetUserDefinedInt(int)
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedInt(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: "\nGet user-defined field 1-60 of the whole (.NET Int32) number type.\n"
+  summary: Get user-defined field 1-60 of the whole (.NET Int32) number type.
+  example: []
   syntax:
     content: public string GetUserDefinedInt(int fieldNo)
     parameters:
@@ -233,10 +221,9 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedInt*
   implements:
   - SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SimpleProjectInfo.GetUserDefinedInt(Integer)
+  fullName.vb: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedInt(Integer)
+  name.vb: GetUserDefinedInt(Integer)
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedString(System.Int32)
   commentId: M:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedString(System.Int32)
   id: GetUserDefinedString(System.Int32)
@@ -244,17 +231,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedString(Int32)
-  nameWithType: SimpleProjectInfo.GetUserDefinedString(Int32)
-  fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedString(System.Int32)
+  name: GetUserDefinedString(int)
+  nameWithType: SimpleProjectInfo.GetUserDefinedString(int)
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedString(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: "\nGet user-defined field 1-49 of the text (.NET string) type.\n"
+  summary: Get user-defined field 1-49 of the text (.NET string) type.
+  example: []
   syntax:
     content: public string GetUserDefinedString(int fieldNo)
     parameters:
@@ -268,10 +253,9 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedString*
   implements:
   - SuperOffice.CRM.IProjectInfo.GetUserDefinedString(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SimpleProjectInfo.GetUserDefinedString(Integer)
+  fullName.vb: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedString(Integer)
+  name.vb: GetUserDefinedString(Integer)
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.#ctor
   commentId: M:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.#ctor
   id: '#ctor'
@@ -283,20 +267,16 @@ items:
   nameWithType: SimpleProjectInfo.SimpleProjectInfo()
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.SimpleProjectInfo()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
   syntax:
     content: public SimpleProjectInfo()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SimpleProjectInfo.New()
+  fullName.vb: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.ProjectId
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.ProjectId
   id: ProjectId
@@ -308,12 +288,11 @@ items:
   nameWithType: SimpleProjectInfo.ProjectId
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.ProjectId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
+  summary: Primary key for the project
+  example: []
   syntax:
     content: public int ProjectId { get; set; }
     parameters: []
@@ -323,12 +302,6 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.ProjectId*
   implements:
   - SuperOffice.CRM.IProjectInfo.ProjectId
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Name
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Name
   id: Name
@@ -340,12 +313,11 @@ items:
   nameWithType: SimpleProjectInfo.Name
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Name
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
+  summary: Name of the project
+  example: []
   syntax:
     content: public string Name { get; set; }
     parameters: []
@@ -355,12 +327,6 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Name*
   implements:
   - SuperOffice.CRM.IProjectInfo.Name
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Description
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Description
   id: Description
@@ -372,12 +338,11 @@ items:
   nameWithType: SimpleProjectInfo.Description
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Description
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
+  summary: Description of the project
+  example: []
   syntax:
     content: public string Description { get; set; }
     parameters: []
@@ -387,12 +352,6 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Description*
   implements:
   - SuperOffice.CRM.IProjectInfo.Description
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Manager
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Manager
   id: Manager
@@ -404,12 +363,11 @@ items:
   nameWithType: SimpleProjectInfo.Manager
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Manager
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
+  summary: Project manager
+  example: []
   syntax:
     content: public string Manager { get; set; }
     parameters: []
@@ -419,12 +377,6 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Manager*
   implements:
   - SuperOffice.CRM.IProjectInfo.Manager
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Number
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Number
   id: Number
@@ -436,12 +388,11 @@ items:
   nameWithType: SimpleProjectInfo.Number
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Number
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
+  summary: Project number
+  example: []
   syntax:
     content: public string Number { get; set; }
     parameters: []
@@ -451,12 +402,6 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Number*
   implements:
   - SuperOffice.CRM.IProjectInfo.Number
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.EventDate
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.EventDate
   id: EventDate
@@ -468,12 +413,11 @@ items:
   nameWithType: SimpleProjectInfo.EventDate
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.EventDate
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
+  summary: Project, event date
+  example: []
   syntax:
     content: public string EventDate { get; set; }
     parameters: []
@@ -483,12 +427,6 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.EventDate*
   implements:
   - SuperOffice.CRM.IProjectInfo.EventDate
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.PublishStartDate
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.PublishStartDate
   id: PublishStartDate
@@ -500,12 +438,11 @@ items:
   nameWithType: SimpleProjectInfo.PublishStartDate
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.PublishStartDate
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
+  summary: Project, start date for publishing.
+  example: []
   syntax:
     content: public string PublishStartDate { get; set; }
     parameters: []
@@ -515,12 +452,6 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.PublishStartDate*
   implements:
   - SuperOffice.CRM.IProjectInfo.PublishStartDate
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.PublishEndDate
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.PublishEndDate
   id: PublishEndDate
@@ -532,12 +463,11 @@ items:
   nameWithType: SimpleProjectInfo.PublishEndDate
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.PublishEndDate
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
+  summary: Project, end date for publishing
+  example: []
   syntax:
     content: public string PublishEndDate { get; set; }
     parameters: []
@@ -547,12 +477,6 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.PublishEndDate*
   implements:
   - SuperOffice.CRM.IProjectInfo.PublishEndDate
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Status
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Status
   id: Status
@@ -564,12 +488,11 @@ items:
   nameWithType: SimpleProjectInfo.Status
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Status
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
+  summary: Project status
+  example: []
   syntax:
     content: public string Status { get; set; }
     parameters: []
@@ -579,12 +502,6 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Status*
   implements:
   - SuperOffice.CRM.IProjectInfo.Status
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Type
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Type
   id: Type
@@ -596,12 +513,11 @@ items:
   nameWithType: SimpleProjectInfo.Type
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Type
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
+  summary: Project type
+  example: []
   syntax:
     content: public string Type { get; set; }
     parameters: []
@@ -611,12 +527,6 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Type*
   implements:
   - SuperOffice.CRM.IProjectInfo.Type
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Web
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Web
   id: Web
@@ -628,12 +538,11 @@ items:
   nameWithType: SimpleProjectInfo.Web
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Web
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
+  summary: The project's primary web address
+  example: []
   syntax:
     content: public string Web { get; set; }
     parameters: []
@@ -643,12 +552,6 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Web*
   implements:
   - SuperOffice.CRM.IProjectInfo.Web
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.WebId
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.WebId
   id: WebId
@@ -660,12 +563,11 @@ items:
   nameWithType: SimpleProjectInfo.WebId
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.WebId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
+  summary: The project's primary web address, ID (hidden, unique ID).
+  example: []
   syntax:
     content: public int WebId { get; set; }
     parameters: []
@@ -675,12 +577,6 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.WebId*
   implements:
   - SuperOffice.CRM.IProjectInfo.WebId
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.HasGuide
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.HasGuide
   id: HasGuide
@@ -692,12 +588,10 @@ items:
   nameWithType: SimpleProjectInfo.HasGuide
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.HasGuide
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
+  example: []
   syntax:
     content: public bool HasGuide { get; set; }
     parameters: []
@@ -707,12 +601,6 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.HasGuide*
   implements:
   - SuperOffice.CRM.IProjectInfo2.HasGuide
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.ProjectEndDate
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.ProjectEndDate
   id: ProjectEndDate
@@ -724,27 +612,19 @@ items:
   nameWithType: SimpleProjectInfo.ProjectEndDate
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.ProjectEndDate
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
+  example: []
   syntax:
     content: public DateTime ProjectEndDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property ProjectEndDate As DateTime
+    content.vb: Public Property ProjectEndDate As Date
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.ProjectEndDate*
   implements:
   - SuperOffice.CRM.IProjectInfo2.ProjectEndDate
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.NextMileStoneAppointmentId
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.NextMileStoneAppointmentId
   id: NextMileStoneAppointmentId
@@ -756,12 +636,10 @@ items:
   nameWithType: SimpleProjectInfo.NextMileStoneAppointmentId
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.NextMileStoneAppointmentId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
+  example: []
   syntax:
     content: public int NextMileStoneAppointmentId { get; set; }
     parameters: []
@@ -771,12 +649,6 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.NextMileStoneAppointmentId*
   implements:
   - SuperOffice.CRM.IProjectInfo2.NextMileStoneAppointmentId
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.NextMilestoneDate
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.NextMilestoneDate
   id: NextMilestoneDate
@@ -788,27 +660,19 @@ items:
   nameWithType: SimpleProjectInfo.NextMilestoneDate
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.NextMilestoneDate
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
+  example: []
   syntax:
     content: public DateTime NextMilestoneDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property NextMilestoneDate As DateTime
+    content.vb: Public Property NextMilestoneDate As Date
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.NextMilestoneDate*
   implements:
   - SuperOffice.CRM.IProjectInfo2.NextMilestoneDate
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.InfoText
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.InfoText
   id: InfoText
@@ -820,12 +684,10 @@ items:
   nameWithType: SimpleProjectInfo.InfoText
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.InfoText
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
+  example: []
   syntax:
     content: public string InfoText { get; set; }
     parameters: []
@@ -835,12 +697,6 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.InfoText*
   implements:
   - SuperOffice.CRM.IProjectInfo2.InfoText
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.UdefDecimal
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.UdefDecimal
   id: UdefDecimal
@@ -852,13 +708,11 @@ items:
   nameWithType: SimpleProjectInfo.UdefDecimal
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.UdefDecimal
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: "\nSet the value of a user-defined DECIMAL field, identified by the field number (1-10)\n"
+  summary: Set the value of a user-defined DECIMAL field, identified by the field number (1-10)
+  example: []
   syntax:
     content: public InfoUdefDict UdefDecimal { get; set; }
     parameters: []
@@ -866,12 +720,6 @@ items:
       type: SuperOffice.CRM.Entities.Providers.InfoUdefDict
     content.vb: Public Property UdefDecimal As InfoUdefDict
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.UdefDecimal*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.UdefInt
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.UdefInt
   id: UdefInt
@@ -883,13 +731,11 @@ items:
   nameWithType: SimpleProjectInfo.UdefInt
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.UdefInt
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: "\nSet the value of a user-defined INT field, identified by the field number (1-60)\n"
+  summary: Set the value of a user-defined INT field, identified by the field number (1-60)
+  example: []
   syntax:
     content: public InfoUdefDict UdefInt { get; set; }
     parameters: []
@@ -897,12 +743,6 @@ items:
       type: SuperOffice.CRM.Entities.Providers.InfoUdefDict
     content.vb: Public Property UdefInt As InfoUdefDict
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.UdefInt*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.UdefString
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.UdefString
   id: UdefString
@@ -914,13 +754,14 @@ items:
   nameWithType: SimpleProjectInfo.UdefString
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.UdefString
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: "\nSet the value of a user-defined STRING field, identified by the field number.\nNumber 1-40 are short strings, 41-49 are long strings\n"
+  summary: >-
+    Set the value of a user-defined STRING field, identified by the field number.
+
+    Number 1-40 are short strings, 41-49 are long strings
+  example: []
   syntax:
     content: public InfoUdefDict UdefString { get; set; }
     parameters: []
@@ -928,201 +769,550 @@ items:
       type: SuperOffice.CRM.Entities.Providers.InfoUdefDict
     content.vb: Public Property UdefString As InfoUdefDict
   overload: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.UdefString*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 references:
-- uid: SuperOffice.CRM.Entities.Providers
-  commentId: N:SuperOffice.CRM.Entities.Providers
-  isExternal: true
-  name: SuperOffice.CRM.Entities.Providers
-  nameWithType: SuperOffice.CRM.Entities.Providers
-  fullName: SuperOffice.CRM.Entities.Providers
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: SuperOffice.CRM.IProjectInfo2
-  commentId: T:SuperOffice.CRM.IProjectInfo2
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: IProjectInfo2
-  nameWithType: IProjectInfo2
-  fullName: SuperOffice.CRM.IProjectInfo2
 - uid: SuperOffice.CRM.IProjectInfo
   commentId: T:SuperOffice.CRM.IProjectInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IProjectInfo.html
   name: IProjectInfo
   nameWithType: IProjectInfo
   fullName: SuperOffice.CRM.IProjectInfo
+- uid: SuperOffice.CRM.Entities.Providers
+  commentId: N:SuperOffice.CRM.Entities.Providers
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Entities.Providers
+  nameWithType: SuperOffice.CRM.Entities.Providers
+  fullName: SuperOffice.CRM.Entities.Providers
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities.Providers
+    name: Providers
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Providers.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities.Providers
+    name: Providers
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Providers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.CRM.IProjectInfo2
+  commentId: T:SuperOffice.CRM.IProjectInfo2
+  parent: SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.CRM.IProjectInfo2.html
+  name: IProjectInfo2
+  nameWithType: IProjectInfo2
+  fullName: SuperOffice.CRM.IProjectInfo2
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<SimpleProjectInfo, To>()
-  nameWithType: EnumUtil.MapEnums<SimpleProjectInfo, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Providers.SimpleProjectInfo, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of SimpleProjectInfo, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Providers.SimpleProjectInfo, To)()
-  name.vb: MapEnums(Of SimpleProjectInfo, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<SimpleProjectInfo, To>(SimpleProjectInfo)
+  nameWithType: EnumUtil.MapEnums<SimpleProjectInfo, To>(SimpleProjectInfo)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Providers.SimpleProjectInfo, To>(SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)
+  nameWithType.vb: EnumUtil.MapEnums(Of SimpleProjectInfo, To)(SimpleProjectInfo)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Providers.SimpleProjectInfo, To)(SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)
+  name.vb: MapEnums(Of SimpleProjectInfo, To)(SimpleProjectInfo)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<SimpleProjectInfo, To>
-    nameWithType: EnumUtil.MapEnums<SimpleProjectInfo, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Providers.SimpleProjectInfo, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of SimpleProjectInfo, To)
-    nameWithType: EnumUtil.MapEnums(Of SimpleProjectInfo, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Providers.SimpleProjectInfo, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<SimpleProjectInfo>(SimpleProjectInfo)
-  nameWithType: ObjectExtensions.AssignByReflection<SimpleProjectInfo>(SimpleProjectInfo)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.Providers.SimpleProjectInfo>(SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SimpleProjectInfo)(SimpleProjectInfo)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)(SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)
-  name.vb: AssignByReflection(Of SimpleProjectInfo)(SimpleProjectInfo)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<SimpleProjectInfo>
-    nameWithType: ObjectExtensions.AssignByReflection<SimpleProjectInfo>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.Providers.SimpleProjectInfo>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo
     name: SimpleProjectInfo
-    nameWithType: SimpleProjectInfo
-    fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of SimpleProjectInfo)
-    nameWithType: ObjectExtensions.AssignByReflection(Of SimpleProjectInfo)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)
-    isExternal: true
+    href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo
     name: SimpleProjectInfo
-    nameWithType: SimpleProjectInfo
-    fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo
     isExternal: true
+    href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<SimpleProjectInfo>()
-  nameWithType: ObjectExtensions.GraphCopy<SimpleProjectInfo>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.Providers.SimpleProjectInfo>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of SimpleProjectInfo)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)()
-  name.vb: GraphCopy(Of SimpleProjectInfo)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<SimpleProjectInfo>
-    nameWithType: ObjectExtensions.GraphCopy<SimpleProjectInfo>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.Providers.SimpleProjectInfo>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of SimpleProjectInfo)
-    nameWithType: ObjectExtensions.GraphCopy(Of SimpleProjectInfo)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo
+    name: SimpleProjectInfo
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo
+    name: SimpleProjectInfo
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html
+  - name: )
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<SimpleProjectInfo, To>()
-  nameWithType: Converters.MapEnums<SimpleProjectInfo, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Providers.SimpleProjectInfo, To>()
-  nameWithType.vb: Converters.MapEnums(Of SimpleProjectInfo, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Providers.SimpleProjectInfo, To)()
-  name.vb: MapEnums(Of SimpleProjectInfo, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<SimpleProjectInfo, To>(SimpleProjectInfo)
+  nameWithType: Converters.MapEnums<SimpleProjectInfo, To>(SimpleProjectInfo)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Providers.SimpleProjectInfo, To>(SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)
+  nameWithType.vb: Converters.MapEnums(Of SimpleProjectInfo, To)(SimpleProjectInfo)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Providers.SimpleProjectInfo, To)(SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)
+  name.vb: MapEnums(Of SimpleProjectInfo, To)(SimpleProjectInfo)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<SimpleProjectInfo, To>
-    nameWithType: Converters.MapEnums<SimpleProjectInfo, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Providers.SimpleProjectInfo, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo
+    name: SimpleProjectInfo
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo
+    name: SimpleProjectInfo
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of SimpleProjectInfo, To)
-    nameWithType: Converters.MapEnums(Of SimpleProjectInfo, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Providers.SimpleProjectInfo, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo
+    name: SimpleProjectInfo
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  - name: (
+  - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo
+    name: SimpleProjectInfo
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<SimpleProjectInfo>(SimpleProjectInfo, SimpleProjectInfo)
+  nameWithType: ObjectExtensions.AssignByReflection<SimpleProjectInfo>(SimpleProjectInfo, SimpleProjectInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.Providers.SimpleProjectInfo>(SuperOffice.CRM.Entities.Providers.SimpleProjectInfo, SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SimpleProjectInfo)(SimpleProjectInfo, SimpleProjectInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)(SuperOffice.CRM.Entities.Providers.SimpleProjectInfo, SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)
+  name.vb: AssignByReflection(Of SimpleProjectInfo)(SimpleProjectInfo, SimpleProjectInfo)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.Providers.SimpleProjectInfo,SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo
+    name: SimpleProjectInfo
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo
+    name: SimpleProjectInfo
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo
+    name: SimpleProjectInfo
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.Providers.SimpleProjectInfo,SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo
+    name: SimpleProjectInfo
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo
+    name: SimpleProjectInfo
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo
+    name: SimpleProjectInfo
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<SimpleProjectInfo>(SimpleProjectInfo)
+  nameWithType: ObjectExtensions.GraphCopy<SimpleProjectInfo>(SimpleProjectInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.Providers.SimpleProjectInfo>(SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SimpleProjectInfo)(SimpleProjectInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)(SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)
+  name.vb: GraphCopy(Of SimpleProjectInfo)(SimpleProjectInfo)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo
+    name: SimpleProjectInfo
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo
+    name: SimpleProjectInfo
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Entities.Providers.SimpleProjectInfo)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo
+    name: SimpleProjectInfo
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo
+    name: SimpleProjectInfo
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html
+  - name: )
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1131,140 +1321,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1273,56 +1368,192 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedDecimal*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedDecimal
   isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html#SuperOffice_CRM_Entities_Providers_SimpleProjectInfo_GetUserDefinedDecimal_System_String_
   name: GetUserDefinedDecimal
   nameWithType: SimpleProjectInfo.GetUserDefinedDecimal
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedDecimal
@@ -1330,60 +1561,61 @@ references:
   commentId: M:SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal(System.String)
   parent: SuperOffice.CRM.IProjectInfo
   isExternal: true
-  name: GetUserDefinedDecimal(String)
-  nameWithType: IProjectInfo.GetUserDefinedDecimal(String)
-  fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal(System.String)
+  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_GetUserDefinedDecimal_System_String_
+  name: GetUserDefinedDecimal(string)
+  nameWithType: IProjectInfo.GetUserDefinedDecimal(string)
+  fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal(string)
+  nameWithType.vb: IProjectInfo.GetUserDefinedDecimal(String)
+  fullName.vb: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal(String)
+  name.vb: GetUserDefinedDecimal(String)
   spec.csharp:
   - uid: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal(System.String)
     name: GetUserDefinedDecimal
-    nameWithType: IProjectInfo.GetUserDefinedDecimal
-    fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal
     isExternal: true
+    href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_GetUserDefinedDecimal_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal(System.String)
     name: GetUserDefinedDecimal
-    nameWithType: IProjectInfo.GetUserDefinedDecimal
-    fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal
     isExternal: true
+    href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_GetUserDefinedDecimal_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Double
   commentId: T:System.Double
   parent: System
   isExternal: true
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedInt*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedInt
   isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html#SuperOffice_CRM_Entities_Providers_SimpleProjectInfo_GetUserDefinedInt_System_String_
   name: GetUserDefinedInt
   nameWithType: SimpleProjectInfo.GetUserDefinedInt
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedInt
@@ -1391,53 +1623,50 @@ references:
   commentId: M:SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(System.String)
   parent: SuperOffice.CRM.IProjectInfo
   isExternal: true
-  name: GetUserDefinedInt(String)
-  nameWithType: IProjectInfo.GetUserDefinedInt(String)
-  fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(System.String)
+  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_GetUserDefinedInt_System_String_
+  name: GetUserDefinedInt(string)
+  nameWithType: IProjectInfo.GetUserDefinedInt(string)
+  fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(string)
+  nameWithType.vb: IProjectInfo.GetUserDefinedInt(String)
+  fullName.vb: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(String)
+  name.vb: GetUserDefinedInt(String)
   spec.csharp:
   - uid: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(System.String)
     name: GetUserDefinedInt
-    nameWithType: IProjectInfo.GetUserDefinedInt
-    fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt
     isExternal: true
+    href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_GetUserDefinedInt_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(System.String)
     name: GetUserDefinedInt
-    nameWithType: IProjectInfo.GetUserDefinedInt
-    fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt
     isExternal: true
+    href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_GetUserDefinedInt_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedString*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedString
   isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html#SuperOffice_CRM_Entities_Providers_SimpleProjectInfo_GetUserDefinedString_System_String_
   name: GetUserDefinedString
   nameWithType: SimpleProjectInfo.GetUserDefinedString
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.GetUserDefinedString
@@ -1445,175 +1674,148 @@ references:
   commentId: M:SuperOffice.CRM.IProjectInfo.GetUserDefinedString(System.String)
   parent: SuperOffice.CRM.IProjectInfo
   isExternal: true
-  name: GetUserDefinedString(String)
-  nameWithType: IProjectInfo.GetUserDefinedString(String)
-  fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedString(System.String)
+  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_GetUserDefinedString_System_String_
+  name: GetUserDefinedString(string)
+  nameWithType: IProjectInfo.GetUserDefinedString(string)
+  fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedString(string)
+  nameWithType.vb: IProjectInfo.GetUserDefinedString(String)
+  fullName.vb: SuperOffice.CRM.IProjectInfo.GetUserDefinedString(String)
+  name.vb: GetUserDefinedString(String)
   spec.csharp:
   - uid: SuperOffice.CRM.IProjectInfo.GetUserDefinedString(System.String)
     name: GetUserDefinedString
-    nameWithType: IProjectInfo.GetUserDefinedString
-    fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedString
     isExternal: true
+    href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_GetUserDefinedString_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.IProjectInfo.GetUserDefinedString(System.String)
     name: GetUserDefinedString
-    nameWithType: IProjectInfo.GetUserDefinedString
-    fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedString
     isExternal: true
+    href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_GetUserDefinedString_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal(System.Int32)
   commentId: M:SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal(System.Int32)
   parent: SuperOffice.CRM.IProjectInfo
   isExternal: true
-  name: GetUserDefinedDecimal(Int32)
-  nameWithType: IProjectInfo.GetUserDefinedDecimal(Int32)
-  fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal(System.Int32)
+  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_GetUserDefinedDecimal_System_Int32_
+  name: GetUserDefinedDecimal(int)
+  nameWithType: IProjectInfo.GetUserDefinedDecimal(int)
+  fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal(int)
+  nameWithType.vb: IProjectInfo.GetUserDefinedDecimal(Integer)
+  fullName.vb: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal(Integer)
+  name.vb: GetUserDefinedDecimal(Integer)
   spec.csharp:
   - uid: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal(System.Int32)
     name: GetUserDefinedDecimal
-    nameWithType: IProjectInfo.GetUserDefinedDecimal
-    fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal
     isExternal: true
+    href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_GetUserDefinedDecimal_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal(System.Int32)
     name: GetUserDefinedDecimal
-    nameWithType: IProjectInfo.GetUserDefinedDecimal
-    fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal
     isExternal: true
+    href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_GetUserDefinedDecimal_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(System.Int32)
   commentId: M:SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(System.Int32)
   parent: SuperOffice.CRM.IProjectInfo
   isExternal: true
-  name: GetUserDefinedInt(Int32)
-  nameWithType: IProjectInfo.GetUserDefinedInt(Int32)
-  fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(System.Int32)
+  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_GetUserDefinedInt_System_Int32_
+  name: GetUserDefinedInt(int)
+  nameWithType: IProjectInfo.GetUserDefinedInt(int)
+  fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(int)
+  nameWithType.vb: IProjectInfo.GetUserDefinedInt(Integer)
+  fullName.vb: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(Integer)
+  name.vb: GetUserDefinedInt(Integer)
   spec.csharp:
   - uid: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(System.Int32)
     name: GetUserDefinedInt
-    nameWithType: IProjectInfo.GetUserDefinedInt
-    fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt
     isExternal: true
+    href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_GetUserDefinedInt_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(System.Int32)
     name: GetUserDefinedInt
-    nameWithType: IProjectInfo.GetUserDefinedInt
-    fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt
     isExternal: true
+    href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_GetUserDefinedInt_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.IProjectInfo.GetUserDefinedString(System.Int32)
   commentId: M:SuperOffice.CRM.IProjectInfo.GetUserDefinedString(System.Int32)
   parent: SuperOffice.CRM.IProjectInfo
   isExternal: true
-  name: GetUserDefinedString(Int32)
-  nameWithType: IProjectInfo.GetUserDefinedString(Int32)
-  fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedString(System.Int32)
+  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_GetUserDefinedString_System_Int32_
+  name: GetUserDefinedString(int)
+  nameWithType: IProjectInfo.GetUserDefinedString(int)
+  fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedString(int)
+  nameWithType.vb: IProjectInfo.GetUserDefinedString(Integer)
+  fullName.vb: SuperOffice.CRM.IProjectInfo.GetUserDefinedString(Integer)
+  name.vb: GetUserDefinedString(Integer)
   spec.csharp:
   - uid: SuperOffice.CRM.IProjectInfo.GetUserDefinedString(System.Int32)
     name: GetUserDefinedString
-    nameWithType: IProjectInfo.GetUserDefinedString
-    fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedString
     isExternal: true
+    href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_GetUserDefinedString_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.IProjectInfo.GetUserDefinedString(System.Int32)
     name: GetUserDefinedString
-    nameWithType: IProjectInfo.GetUserDefinedString
-    fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedString
     isExternal: true
+    href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_GetUserDefinedString_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.#ctor*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html#SuperOffice_CRM_Entities_Providers_SimpleProjectInfo__ctor
   name: SimpleProjectInfo
   nameWithType: SimpleProjectInfo.SimpleProjectInfo
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.SimpleProjectInfo
+  nameWithType.vb: SimpleProjectInfo.New
+  fullName.vb: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.New
+  name.vb: New
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.ProjectId*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.ProjectId
   isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html#SuperOffice_CRM_Entities_Providers_SimpleProjectInfo_ProjectId
   name: ProjectId
   nameWithType: SimpleProjectInfo.ProjectId
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.ProjectId
@@ -1621,12 +1823,14 @@ references:
   commentId: P:SuperOffice.CRM.IProjectInfo.ProjectId
   parent: SuperOffice.CRM.IProjectInfo
   isExternal: true
+  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_ProjectId
   name: ProjectId
   nameWithType: IProjectInfo.ProjectId
   fullName: SuperOffice.CRM.IProjectInfo.ProjectId
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Name*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Name
   isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html#SuperOffice_CRM_Entities_Providers_SimpleProjectInfo_Name
   name: Name
   nameWithType: SimpleProjectInfo.Name
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Name
@@ -1634,12 +1838,14 @@ references:
   commentId: P:SuperOffice.CRM.IProjectInfo.Name
   parent: SuperOffice.CRM.IProjectInfo
   isExternal: true
+  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_Name
   name: Name
   nameWithType: IProjectInfo.Name
   fullName: SuperOffice.CRM.IProjectInfo.Name
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Description*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Description
   isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html#SuperOffice_CRM_Entities_Providers_SimpleProjectInfo_Description
   name: Description
   nameWithType: SimpleProjectInfo.Description
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Description
@@ -1647,12 +1853,14 @@ references:
   commentId: P:SuperOffice.CRM.IProjectInfo.Description
   parent: SuperOffice.CRM.IProjectInfo
   isExternal: true
+  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_Description
   name: Description
   nameWithType: IProjectInfo.Description
   fullName: SuperOffice.CRM.IProjectInfo.Description
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Manager*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Manager
   isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html#SuperOffice_CRM_Entities_Providers_SimpleProjectInfo_Manager
   name: Manager
   nameWithType: SimpleProjectInfo.Manager
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Manager
@@ -1660,12 +1868,14 @@ references:
   commentId: P:SuperOffice.CRM.IProjectInfo.Manager
   parent: SuperOffice.CRM.IProjectInfo
   isExternal: true
+  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_Manager
   name: Manager
   nameWithType: IProjectInfo.Manager
   fullName: SuperOffice.CRM.IProjectInfo.Manager
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Number*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Number
   isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html#SuperOffice_CRM_Entities_Providers_SimpleProjectInfo_Number
   name: Number
   nameWithType: SimpleProjectInfo.Number
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Number
@@ -1673,12 +1883,14 @@ references:
   commentId: P:SuperOffice.CRM.IProjectInfo.Number
   parent: SuperOffice.CRM.IProjectInfo
   isExternal: true
+  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_Number
   name: Number
   nameWithType: IProjectInfo.Number
   fullName: SuperOffice.CRM.IProjectInfo.Number
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.EventDate*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.EventDate
   isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html#SuperOffice_CRM_Entities_Providers_SimpleProjectInfo_EventDate
   name: EventDate
   nameWithType: SimpleProjectInfo.EventDate
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.EventDate
@@ -1686,12 +1898,14 @@ references:
   commentId: P:SuperOffice.CRM.IProjectInfo.EventDate
   parent: SuperOffice.CRM.IProjectInfo
   isExternal: true
+  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_EventDate
   name: EventDate
   nameWithType: IProjectInfo.EventDate
   fullName: SuperOffice.CRM.IProjectInfo.EventDate
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.PublishStartDate*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.PublishStartDate
   isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html#SuperOffice_CRM_Entities_Providers_SimpleProjectInfo_PublishStartDate
   name: PublishStartDate
   nameWithType: SimpleProjectInfo.PublishStartDate
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.PublishStartDate
@@ -1699,12 +1913,14 @@ references:
   commentId: P:SuperOffice.CRM.IProjectInfo.PublishStartDate
   parent: SuperOffice.CRM.IProjectInfo
   isExternal: true
+  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_PublishStartDate
   name: PublishStartDate
   nameWithType: IProjectInfo.PublishStartDate
   fullName: SuperOffice.CRM.IProjectInfo.PublishStartDate
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.PublishEndDate*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.PublishEndDate
   isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html#SuperOffice_CRM_Entities_Providers_SimpleProjectInfo_PublishEndDate
   name: PublishEndDate
   nameWithType: SimpleProjectInfo.PublishEndDate
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.PublishEndDate
@@ -1712,12 +1928,14 @@ references:
   commentId: P:SuperOffice.CRM.IProjectInfo.PublishEndDate
   parent: SuperOffice.CRM.IProjectInfo
   isExternal: true
+  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_PublishEndDate
   name: PublishEndDate
   nameWithType: IProjectInfo.PublishEndDate
   fullName: SuperOffice.CRM.IProjectInfo.PublishEndDate
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Status*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Status
   isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html#SuperOffice_CRM_Entities_Providers_SimpleProjectInfo_Status
   name: Status
   nameWithType: SimpleProjectInfo.Status
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Status
@@ -1725,12 +1943,14 @@ references:
   commentId: P:SuperOffice.CRM.IProjectInfo.Status
   parent: SuperOffice.CRM.IProjectInfo
   isExternal: true
+  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_Status
   name: Status
   nameWithType: IProjectInfo.Status
   fullName: SuperOffice.CRM.IProjectInfo.Status
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Type*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Type
   isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html#SuperOffice_CRM_Entities_Providers_SimpleProjectInfo_Type
   name: Type
   nameWithType: SimpleProjectInfo.Type
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Type
@@ -1738,12 +1958,14 @@ references:
   commentId: P:SuperOffice.CRM.IProjectInfo.Type
   parent: SuperOffice.CRM.IProjectInfo
   isExternal: true
+  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_Type
   name: Type
   nameWithType: IProjectInfo.Type
   fullName: SuperOffice.CRM.IProjectInfo.Type
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Web*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Web
   isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html#SuperOffice_CRM_Entities_Providers_SimpleProjectInfo_Web
   name: Web
   nameWithType: SimpleProjectInfo.Web
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.Web
@@ -1751,12 +1973,14 @@ references:
   commentId: P:SuperOffice.CRM.IProjectInfo.Web
   parent: SuperOffice.CRM.IProjectInfo
   isExternal: true
+  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_Web
   name: Web
   nameWithType: IProjectInfo.Web
   fullName: SuperOffice.CRM.IProjectInfo.Web
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.WebId*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.WebId
   isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html#SuperOffice_CRM_Entities_Providers_SimpleProjectInfo_WebId
   name: WebId
   nameWithType: SimpleProjectInfo.WebId
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.WebId
@@ -1764,12 +1988,14 @@ references:
   commentId: P:SuperOffice.CRM.IProjectInfo.WebId
   parent: SuperOffice.CRM.IProjectInfo
   isExternal: true
+  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_WebId
   name: WebId
   nameWithType: IProjectInfo.WebId
   fullName: SuperOffice.CRM.IProjectInfo.WebId
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.HasGuide*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.HasGuide
   isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html#SuperOffice_CRM_Entities_Providers_SimpleProjectInfo_HasGuide
   name: HasGuide
   nameWithType: SimpleProjectInfo.HasGuide
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.HasGuide
@@ -1777,6 +2003,7 @@ references:
   commentId: P:SuperOffice.CRM.IProjectInfo2.HasGuide
   parent: SuperOffice.CRM.IProjectInfo2
   isExternal: true
+  href: SuperOffice.CRM.IProjectInfo2.html#SuperOffice_CRM_IProjectInfo2_HasGuide
   name: HasGuide
   nameWithType: IProjectInfo2.HasGuide
   fullName: SuperOffice.CRM.IProjectInfo2.HasGuide
@@ -1784,12 +2011,17 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.ProjectEndDate*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.ProjectEndDate
   isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html#SuperOffice_CRM_Entities_Providers_SimpleProjectInfo_ProjectEndDate
   name: ProjectEndDate
   nameWithType: SimpleProjectInfo.ProjectEndDate
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.ProjectEndDate
@@ -1797,17 +2029,25 @@ references:
   commentId: P:SuperOffice.CRM.IProjectInfo2.ProjectEndDate
   parent: SuperOffice.CRM.IProjectInfo2
   isExternal: true
+  href: SuperOffice.CRM.IProjectInfo2.html#SuperOffice_CRM_IProjectInfo2_ProjectEndDate
   name: ProjectEndDate
   nameWithType: IProjectInfo2.ProjectEndDate
   fullName: SuperOffice.CRM.IProjectInfo2.ProjectEndDate
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.NextMileStoneAppointmentId*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.NextMileStoneAppointmentId
   isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html#SuperOffice_CRM_Entities_Providers_SimpleProjectInfo_NextMileStoneAppointmentId
   name: NextMileStoneAppointmentId
   nameWithType: SimpleProjectInfo.NextMileStoneAppointmentId
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.NextMileStoneAppointmentId
@@ -1815,12 +2055,14 @@ references:
   commentId: P:SuperOffice.CRM.IProjectInfo2.NextMileStoneAppointmentId
   parent: SuperOffice.CRM.IProjectInfo2
   isExternal: true
+  href: SuperOffice.CRM.IProjectInfo2.html#SuperOffice_CRM_IProjectInfo2_NextMileStoneAppointmentId
   name: NextMileStoneAppointmentId
   nameWithType: IProjectInfo2.NextMileStoneAppointmentId
   fullName: SuperOffice.CRM.IProjectInfo2.NextMileStoneAppointmentId
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.NextMilestoneDate*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.NextMilestoneDate
   isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html#SuperOffice_CRM_Entities_Providers_SimpleProjectInfo_NextMilestoneDate
   name: NextMilestoneDate
   nameWithType: SimpleProjectInfo.NextMilestoneDate
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.NextMilestoneDate
@@ -1828,12 +2070,14 @@ references:
   commentId: P:SuperOffice.CRM.IProjectInfo2.NextMilestoneDate
   parent: SuperOffice.CRM.IProjectInfo2
   isExternal: true
+  href: SuperOffice.CRM.IProjectInfo2.html#SuperOffice_CRM_IProjectInfo2_NextMilestoneDate
   name: NextMilestoneDate
   nameWithType: IProjectInfo2.NextMilestoneDate
   fullName: SuperOffice.CRM.IProjectInfo2.NextMilestoneDate
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.InfoText*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.InfoText
   isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html#SuperOffice_CRM_Entities_Providers_SimpleProjectInfo_InfoText
   name: InfoText
   nameWithType: SimpleProjectInfo.InfoText
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.InfoText
@@ -1841,12 +2085,14 @@ references:
   commentId: P:SuperOffice.CRM.IProjectInfo2.InfoText
   parent: SuperOffice.CRM.IProjectInfo2
   isExternal: true
+  href: SuperOffice.CRM.IProjectInfo2.html#SuperOffice_CRM_IProjectInfo2_InfoText
   name: InfoText
   nameWithType: IProjectInfo2.InfoText
   fullName: SuperOffice.CRM.IProjectInfo2.InfoText
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.UdefDecimal*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.UdefDecimal
   isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html#SuperOffice_CRM_Entities_Providers_SimpleProjectInfo_UdefDecimal
   name: UdefDecimal
   nameWithType: SimpleProjectInfo.UdefDecimal
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.UdefDecimal
@@ -1854,18 +2100,21 @@ references:
   commentId: T:SuperOffice.CRM.Entities.Providers.InfoUdefDict
   parent: SuperOffice.CRM.Entities.Providers
   isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.InfoUdefDict.html
   name: InfoUdefDict
   nameWithType: InfoUdefDict
   fullName: SuperOffice.CRM.Entities.Providers.InfoUdefDict
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.UdefInt*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.UdefInt
   isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html#SuperOffice_CRM_Entities_Providers_SimpleProjectInfo_UdefInt
   name: UdefInt
   nameWithType: SimpleProjectInfo.UdefInt
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.UdefInt
 - uid: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.UdefString*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.UdefString
   isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html#SuperOffice_CRM_Entities_Providers_SimpleProjectInfo_UdefString
   name: UdefString
   nameWithType: SimpleProjectInfo.UdefString
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.UdefString

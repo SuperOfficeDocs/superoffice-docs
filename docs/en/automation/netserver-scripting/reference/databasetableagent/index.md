@@ -12,12 +12,12 @@ so.envir: onsite
 
 Service methods defined on <see cref='T:IDatabaseTableAgent'>DatabaseTableAgent</see> that can trigger server-side event scripts.
 
-* [Delete](delete.md)
-* [DeleteRow](deleterow.md)
-* [Insert](insert.md)
-* [InsertRow](insertrow.md)
-* [ReadRow](readrow.md)
-* [Truncate](truncate.md)
-* [UpdateRow](updaterow.md)
-* [Upsert](upsert.md)
+* [DeleteAsync](deleteasync.md)
+* [DeleteRowAsync](deleterowasync.md)
+* [InsertAsync](insertasync.md)
+* [InsertRowAsync](insertrowasync.md)
+* [ReadRowAsync](readrowasync.md)
+* [TruncateAsync](truncateasync.md)
+* [UpdateRowAsync](updaterowasync.md)
+* [UpsertAsync](upsertasync.md)
 

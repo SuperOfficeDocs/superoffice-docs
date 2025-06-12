@@ -92,27 +92,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 243,
-  "Name": "Klocko, Reynolds and Jerde",
-  "CreatedDate": "2007-10-17T16:32:47.5402031+02:00",
-  "UpdatedDate": "2005-03-02T16:32:47.5402031+01:00",
+  "ForeignAppId": 349,
+  "Name": "Tremblay Group",
+  "CreatedDate": "2014-07-01T17:54:08.2574567+02:00",
+  "UpdatedDate": "2013-07-12T17:54:08.2574567+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 354,
-      "Name": "Medhurst Inc and Sons",
-      "CreatedDate": "2001-07-17T16:32:47.5402031+02:00",
-      "UpdatedDate": "2023-06-19T16:32:47.5402031+02:00",
-      "AssociateFullName": "Dahlia Schaefer",
-      "CreatedBy": "quas",
-      "UpdatedBy": "eum",
+      "ForeignDeviceId": 699,
+      "Name": "Jewess, Goyette and Champlin",
+      "CreatedDate": "2015-04-05T17:54:08.2574567+02:00",
+      "UpdatedDate": "2023-12-09T17:54:08.2574567+01:00",
+      "AssociateFullName": "Miss Ray Chadd Rice",
+      "CreatedBy": "facere",
+      "UpdatedBy": "perspiciatis",
       "DeviceIdentifier": "et",
-      "ForeignAppId": 807
+      "ForeignAppId": 607
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 593,
-  "Name": "Bednar, Collins and Lakin",
-  "CreatedDate": "2020-11-23T16:32:47.5402031+01:00",
-  "UpdatedDate": "2015-10-06T16:32:47.5402031+02:00",
+  "ForeignAppId": 554,
+  "Name": "Jenkins, Skiles and Rath",
+  "CreatedDate": "2005-08-28T17:54:08.2574567+02:00",
+  "UpdatedDate": "2006-02-25T17:54:08.2574567+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 298,
-      "Name": "Satterfield LLC",
-      "CreatedDate": "2003-04-23T16:32:47.5402031+02:00",
-      "UpdatedDate": "2020-02-11T16:32:47.5402031+01:00",
-      "AssociateFullName": "Kaelyn Moen",
-      "CreatedBy": "laboriosam",
-      "UpdatedBy": "repellendus",
-      "DeviceIdentifier": "esse",
-      "ForeignAppId": 28,
+      "ForeignDeviceId": 444,
+      "Name": "Hodkiewicz Inc and Sons",
+      "CreatedDate": "2015-04-16T17:54:08.2574567+02:00",
+      "UpdatedDate": "2021-04-30T17:54:08.2574567+02:00",
+      "AssociateFullName": "Benedict Kshlerin",
+      "CreatedBy": "et",
+      "UpdatedBy": "doloribus",
+      "DeviceIdentifier": "accusamus",
+      "ForeignAppId": 519,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 593
+          "FieldLength": 218
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 531
+      "FieldLength": 681
     }
   },
   "_Links": {

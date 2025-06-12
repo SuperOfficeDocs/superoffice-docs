@@ -87,14 +87,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "sed",
-  "Value": "illo",
-  "RecordId": 185,
-  "CreatedDate": "2017-01-22T16:32:47.5558268+01:00",
-  "UpdatedDate": "2013-08-21T16:32:47.5558268+02:00",
-  "UpdatedBy": "minima",
-  "CreatedBy": "qui",
-  "TableName": "Grady, Bernier and Dooley"
+  "Key": "sit",
+  "Value": "pariatur",
+  "RecordId": 961,
+  "CreatedDate": "2018-05-07T17:54:08.2574567+02:00",
+  "UpdatedDate": "2010-05-27T17:54:08.2574567+02:00",
+  "UpdatedBy": "nulla",
+  "CreatedBy": "reiciendis",
+  "TableName": "West, Lynch and Kemmer"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "qui",
-  "Value": "fugiat",
-  "RecordId": 261,
-  "CreatedDate": "1998-07-07T16:32:47.5558268+02:00",
-  "UpdatedDate": "1998-10-25T16:32:47.5558268+01:00",
-  "UpdatedBy": "molestiae",
-  "CreatedBy": "quis",
-  "TableName": "Upton LLC",
+  "Key": "aut",
+  "Value": "ea",
+  "RecordId": 59,
+  "CreatedDate": "2006-05-08T17:54:08.2574567+02:00",
+  "UpdatedDate": "2016-01-03T17:54:08.2574567+01:00",
+  "UpdatedBy": "nesciunt",
+  "CreatedBy": "perspiciatis",
+  "TableName": "Farrell, O'Hara and Homenick",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 712
+      "FieldLength": 697
     }
   }
 }

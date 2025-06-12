@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 714,
-    "Name": "Little Inc and Sons",
-    "Tooltip": "excepturi",
+    "HeadingId": 345,
+    "Name": "Labadie-Murphy",
+    "Tooltip": "architecto",
     "Deleted": true,
-    "Rank": 919,
-    "UdListDefinitionId": 894
+    "Rank": 392,
+    "UdListDefinitionId": 560
   },
   {
-    "HeadingId": 714,
-    "Name": "Little Inc and Sons",
-    "Tooltip": "excepturi",
+    "HeadingId": 345,
+    "Name": "Labadie-Murphy",
+    "Tooltip": "architecto",
     "Deleted": true,
-    "Rank": 919,
-    "UdListDefinitionId": 894
+    "Rank": 392,
+    "UdListDefinitionId": 560
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 461,
-    "Name": "Larkin, Blanda and Zemlak",
-    "Tooltip": "accusamus",
-    "Deleted": false,
-    "Rank": 135,
-    "UdListDefinitionId": 494,
+    "HeadingId": 66,
+    "Name": "Anderson-Larkin",
+    "Tooltip": "mollitia",
+    "Deleted": true,
+    "Rank": 753,
+    "UdListDefinitionId": 324,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 159
+        "FieldType": "System.String",
+        "FieldLength": 390
       }
     }
   }

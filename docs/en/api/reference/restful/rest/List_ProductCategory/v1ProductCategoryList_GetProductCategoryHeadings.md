@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 155,
-    "Name": "Torp, Wuckert and Jaskolski",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "Rank": 794,
-    "UdListDefinitionId": 915,
+    "HeadingId": 846,
+    "Name": "Barrows-Kunde",
+    "Tooltip": "nulla",
+    "Deleted": true,
+    "Rank": 495,
+    "UdListDefinitionId": 392,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 302
+        "FieldType": "System.String",
+        "FieldLength": 419
       }
     }
   }

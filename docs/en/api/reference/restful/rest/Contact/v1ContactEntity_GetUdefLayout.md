@@ -90,7 +90,7 @@ OK
 GET /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 82,
-    "ColumnId": 27,
-    "FieldDefault": "enim",
-    "FieldHeight": 646,
-    "FieldLabel": "dolore",
-    "FieldLeft": 944,
-    "FieldTop": 965,
+    "UDefFieldId": 814,
+    "ColumnId": 980,
+    "FieldDefault": "cupiditate",
+    "FieldHeight": 337,
+    "FieldLabel": "delectus",
+    "FieldLeft": 611,
+    "FieldTop": 653,
     "FieldType": "Checkbox",
-    "FieldWidth": 208,
-    "FormatMask": "eum",
-    "HideLabel": true,
+    "FieldWidth": 734,
+    "FormatMask": "rem",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 807,
-    "LabelLeft": 117,
-    "LabelTop": 754,
-    "LabelWidth": 862,
-    "LastVersionId": 650,
-    "ListTableId": 31,
-    "IsMandatory": false,
+    "LabelHeight": 194,
+    "LabelLeft": 379,
+    "LabelTop": 58,
+    "LabelWidth": 640,
+    "LastVersionId": 342,
+    "ListTableId": 290,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 814,
-    "ProgId": "soluta",
-    "IsReadOnly": true,
-    "ShortLabel": "amet",
-    "TabOrder": 719,
-    "TextLength": 28,
-    "Tooltip": "quasi",
-    "UdefIdentity": 1002,
-    "UDListDefinitionId": 379,
+    "Page1LineNo": 128,
+    "ProgId": "et",
+    "IsReadOnly": false,
+    "ShortLabel": "id",
+    "TabOrder": 636,
+    "TextLength": 909,
+    "Tooltip": "non",
+    "UdefIdentity": 348,
+    "UDListDefinitionId": 436,
     "Justification": "Center",
-    "Version": 411,
-    "TemplateVariableName": "Veum-Lesch",
-    "HasBeenPublished": false,
-    "MdoListName": "Purdy Group",
+    "Version": 915,
+    "TemplateVariableName": "Adams Group",
+    "HasBeenPublished": true,
+    "MdoListName": "Wolff Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 453
+        "FieldType": "System.String",
+        "FieldLength": 443
       }
     }
   }

@@ -72,7 +72,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 19 Sep 2017 16:32:47 G9T
+Last-Modified: Wed, 03 Aug 2022 17:54:08 G8T
 
 {
-  "Key": "dignissimos",
-  "Value": "fuga",
-  "RecordId": 389,
-  "CreatedDate": "1999-04-28T16:32:47.5558268+02:00",
-  "UpdatedDate": "2017-09-19T16:32:47.5558268+02:00",
-  "UpdatedBy": "velit",
-  "CreatedBy": "assumenda",
-  "TableName": "Franecki-Roob",
+  "Key": "sunt",
+  "Value": "qui",
+  "RecordId": 786,
+  "CreatedDate": "2019-10-13T17:54:08.2574567+02:00",
+  "UpdatedDate": "2022-08-03T17:54:08.2574567+02:00",
+  "UpdatedBy": "tenetur",
+  "CreatedBy": "laudantium",
+  "TableName": "Maggio-Mueller",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 830
+      "FieldLength": 662
     }
   }
 }

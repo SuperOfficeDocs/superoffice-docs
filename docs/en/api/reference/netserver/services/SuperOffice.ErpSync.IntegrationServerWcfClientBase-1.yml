@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.IntegrationServerWcfClientBase`1
+  commentId: T:SuperOffice.ErpSync.IntegrationServerWcfClientBase`1
+  id: IntegrationServerWcfClientBase`1
+  parent: SuperOffice.ErpSync
+  children:
+  - SuperOffice.ErpSync.IntegrationServerWcfClientBase`1.#ctor
+  - SuperOffice.ErpSync.IntegrationServerWcfClientBase`1.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
+  langs:
+  - csharp
+  - vb
+  name: IntegrationServerWcfClientBase<TService>
+  nameWithType: IntegrationServerWcfClientBase<TService>
+  fullName: SuperOffice.ErpSync.IntegrationServerWcfClientBase<TService>
+  type: Class
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: 'public abstract class IntegrationServerWcfClientBase<TService> : WcfClientBase<TService>'
+    typeParameters:
+    - id: TService
+    content.vb: Public MustInherit Class IntegrationServerWcfClientBase(Of TService) Inherits WcfClientBase(Of TService)
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.ErpSync.ErpConnectorClient
+  nameWithType.vb: IntegrationServerWcfClientBase(Of TService)
+  fullName.vb: SuperOffice.ErpSync.IntegrationServerWcfClientBase(Of TService)
+  name.vb: IntegrationServerWcfClientBase(Of TService)
+- uid: SuperOffice.ErpSync.IntegrationServerWcfClientBase`1.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
+  commentId: M:SuperOffice.ErpSync.IntegrationServerWcfClientBase`1.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
+  id: ConfigureBinding(System.ServiceModel.BasicHttpBinding)
+  parent: SuperOffice.ErpSync.IntegrationServerWcfClientBase`1
+  langs:
+  - csharp
+  - vb
+  name: ConfigureBinding(BasicHttpBinding)
+  nameWithType: IntegrationServerWcfClientBase<TService>.ConfigureBinding(BasicHttpBinding)
+  fullName: SuperOffice.ErpSync.IntegrationServerWcfClientBase<TService>.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  example: []
+  syntax:
+    content: protected override void ConfigureBinding(BasicHttpBinding binding)
+    parameters:
+    - id: binding
+      type: System.ServiceModel.BasicHttpBinding
+    content.vb: Protected Overrides Sub ConfigureBinding(binding As BasicHttpBinding)
+  overload: SuperOffice.ErpSync.IntegrationServerWcfClientBase`1.ConfigureBinding*
+  nameWithType.vb: IntegrationServerWcfClientBase(Of TService).ConfigureBinding(BasicHttpBinding)
+  fullName.vb: SuperOffice.ErpSync.IntegrationServerWcfClientBase(Of TService).ConfigureBinding(System.ServiceModel.BasicHttpBinding)
+- uid: SuperOffice.ErpSync.IntegrationServerWcfClientBase`1.#ctor
+  commentId: M:SuperOffice.ErpSync.IntegrationServerWcfClientBase`1.#ctor
+  id: '#ctor'
+  parent: SuperOffice.ErpSync.IntegrationServerWcfClientBase`1
+  langs:
+  - csharp
+  - vb
+  name: IntegrationServerWcfClientBase()
+  nameWithType: IntegrationServerWcfClientBase<TService>.IntegrationServerWcfClientBase()
+  fullName: SuperOffice.ErpSync.IntegrationServerWcfClientBase<TService>.IntegrationServerWcfClientBase()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: protected IntegrationServerWcfClientBase()
+    content.vb: Protected Sub New()
+  overload: SuperOffice.ErpSync.IntegrationServerWcfClientBase`1.#ctor*
+  nameWithType.vb: IntegrationServerWcfClientBase(Of TService).New()
+  fullName.vb: SuperOffice.ErpSync.IntegrationServerWcfClientBase(Of TService).New()
+  name.vb: New()
+references:
+- uid: SuperOffice.ErpSync
+  commentId: N:SuperOffice.ErpSync
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync
+  nameWithType: SuperOffice.ErpSync
+  fullName: SuperOffice.ErpSync
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.ErpSync.IntegrationServerWcfClientBase`1.ConfigureBinding*
+  commentId: Overload:SuperOffice.ErpSync.IntegrationServerWcfClientBase`1.ConfigureBinding
+  isExternal: true
+  href: SuperOffice.ErpSync.IntegrationServerWcfClientBase-1.html#SuperOffice_ErpSync_IntegrationServerWcfClientBase_1_ConfigureBinding_System_ServiceModel_BasicHttpBinding_
+  name: ConfigureBinding
+  nameWithType: IntegrationServerWcfClientBase<TService>.ConfigureBinding
+  fullName: SuperOffice.ErpSync.IntegrationServerWcfClientBase<TService>.ConfigureBinding
+  nameWithType.vb: IntegrationServerWcfClientBase(Of TService).ConfigureBinding
+  fullName.vb: SuperOffice.ErpSync.IntegrationServerWcfClientBase(Of TService).ConfigureBinding
+- uid: System.ServiceModel.BasicHttpBinding
+  commentId: '!:System.ServiceModel.BasicHttpBinding'
+  isExternal: true
+  name: BasicHttpBinding
+  nameWithType: BasicHttpBinding
+  fullName: System.ServiceModel.BasicHttpBinding
+- uid: SuperOffice.ErpSync.IntegrationServerWcfClientBase`1.#ctor*
+  commentId: Overload:SuperOffice.ErpSync.IntegrationServerWcfClientBase`1.#ctor
+  isExternal: true
+  href: SuperOffice.ErpSync.IntegrationServerWcfClientBase-1.html#SuperOffice_ErpSync_IntegrationServerWcfClientBase_1__ctor
+  name: IntegrationServerWcfClientBase
+  nameWithType: IntegrationServerWcfClientBase<TService>.IntegrationServerWcfClientBase
+  fullName: SuperOffice.ErpSync.IntegrationServerWcfClientBase<TService>.IntegrationServerWcfClientBase
+  nameWithType.vb: IntegrationServerWcfClientBase(Of TService).New
+  fullName.vb: SuperOffice.ErpSync.IntegrationServerWcfClientBase(Of TService).New
+  name.vb: New

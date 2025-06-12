@@ -75,10 +75,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hauck, Cruickshank and Watsica",
-  "RecordId": 835,
-  "AssociateId": 129,
-  "ExtraInfo": "et"
+  "TableName": "Mann-Schaden",
+  "RecordId": 522,
+  "AssociateId": 875,
+  "ExtraInfo": "eos"
 }
 ```
 
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

@@ -5,7 +5,7 @@ items:
   id: EventHandlerHelper
   parent: SuperOffice.CRM
   children:
-  - SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler(SuperOffice.Data.EventHandlerType,SuperOffice.CRM.Services.StringDictionary@,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary)
+  - SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandlerAsync(SuperOffice.Data.EventHandlerType,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary)
   - SuperOffice.CRM.EventHandlerHelper.GetActiveEventHandlerTypes(System.String)
   langs:
   - csharp
@@ -14,27 +14,24 @@ items:
   nameWithType: EventHandlerHelper
   fullName: SuperOffice.CRM.EventHandlerHelper
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\nUtility class for event handling methods.\n"
+  summary: Utility class for event handling methods.
+  example: []
   syntax:
-    content: 'public static class EventHandlerHelper : Object'
-    content.vb: >-
-      Public Module EventHandlerHelper
-          Inherits Object
+    content: public static class EventHandlerHelper
+    content.vb: Public Module EventHandlerHelper
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.EventHandlerHelper.GetActiveEventHandlerTypes(System.String)
   commentId: M:SuperOffice.CRM.EventHandlerHelper.GetActiveEventHandlerTypes(System.String)
   id: GetActiveEventHandlerTypes(System.String)
@@ -42,13 +39,10 @@ items:
   langs:
   - csharp
   - vb
-  name: GetActiveEventHandlerTypes(String)
-  nameWithType: EventHandlerHelper.GetActiveEventHandlerTypes(String)
-  fullName: SuperOffice.CRM.EventHandlerHelper.GetActiveEventHandlerTypes(System.String)
+  name: GetActiveEventHandlerTypes(string)
+  nameWithType: EventHandlerHelper.GetActiveEventHandlerTypes(string)
+  fullName: SuperOffice.CRM.EventHandlerHelper.GetActiveEventHandlerTypes(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -61,31 +55,25 @@ items:
       type: System.Collections.Generic.HashSet{SuperOffice.Data.EventHandlerType}
     content.vb: Public Shared Function GetActiveEventHandlerTypes(entityName As String) As HashSet(Of EventHandlerType)
   overload: SuperOffice.CRM.EventHandlerHelper.GetActiveEventHandlerTypes*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler(SuperOffice.Data.EventHandlerType,SuperOffice.CRM.Services.StringDictionary@,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary)
-  commentId: M:SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler(SuperOffice.Data.EventHandlerType,SuperOffice.CRM.Services.StringDictionary@,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary)
-  id: ExecuteEventHandler(SuperOffice.Data.EventHandlerType,SuperOffice.CRM.Services.StringDictionary@,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary)
+  nameWithType.vb: EventHandlerHelper.GetActiveEventHandlerTypes(String)
+  fullName.vb: SuperOffice.CRM.EventHandlerHelper.GetActiveEventHandlerTypes(String)
+  name.vb: GetActiveEventHandlerTypes(String)
+- uid: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandlerAsync(SuperOffice.Data.EventHandlerType,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary)
+  commentId: M:SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandlerAsync(SuperOffice.Data.EventHandlerType,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary)
+  id: ExecuteEventHandlerAsync(SuperOffice.Data.EventHandlerType,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary)
   parent: SuperOffice.CRM.EventHandlerHelper
   langs:
   - csharp
   - vb
-  name: ExecuteEventHandler(EventHandlerType, ref StringDictionary, StringDictionary, StringDictionary)
-  nameWithType: EventHandlerHelper.ExecuteEventHandler(EventHandlerType, ref StringDictionary, StringDictionary, StringDictionary)
-  fullName: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler(SuperOffice.Data.EventHandlerType, ref SuperOffice.CRM.Services.StringDictionary, SuperOffice.CRM.Services.StringDictionary, SuperOffice.CRM.Services.StringDictionary)
+  name: ExecuteEventHandlerAsync(EventHandlerType, StringDictionary, StringDictionary, StringDictionary)
+  nameWithType: EventHandlerHelper.ExecuteEventHandlerAsync(EventHandlerType, StringDictionary, StringDictionary, StringDictionary)
+  fullName: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandlerAsync(SuperOffice.Data.EventHandlerType, SuperOffice.CRM.Services.StringDictionary, SuperOffice.CRM.Services.StringDictionary, SuperOffice.CRM.Services.StringDictionary)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static void ExecuteEventHandler(EventHandlerType eventType, ref StringDictionary sharedState, StringDictionary parameters, StringDictionary parserValues = null)
+    content: public static Task<StringDictionary> ExecuteEventHandlerAsync(EventHandlerType eventType, StringDictionary sharedState, StringDictionary parameters, StringDictionary parserValues = null)
     parameters:
     - id: eventType
       type: SuperOffice.Data.EventHandlerType
@@ -95,40 +83,279 @@ items:
       type: SuperOffice.CRM.Services.StringDictionary
     - id: parserValues
       type: SuperOffice.CRM.Services.StringDictionary
-    content.vb: Public Shared Sub ExecuteEventHandler(eventType As EventHandlerType, ByRef sharedState As StringDictionary, parameters As StringDictionary, parserValues As StringDictionary = Nothing)
-  overload: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler*
-  nameWithType.vb: EventHandlerHelper.ExecuteEventHandler(EventHandlerType, ByRef StringDictionary, StringDictionary, StringDictionary)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler(SuperOffice.Data.EventHandlerType, ByRef SuperOffice.CRM.Services.StringDictionary, SuperOffice.CRM.Services.StringDictionary, SuperOffice.CRM.Services.StringDictionary)
-  name.vb: ExecuteEventHandler(EventHandlerType, ByRef StringDictionary, StringDictionary, StringDictionary)
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StringDictionary}
+    content.vb: Public Shared Function ExecuteEventHandlerAsync(eventType As EventHandlerType, sharedState As StringDictionary, parameters As StringDictionary, parserValues As StringDictionary = Nothing) As Task(Of StringDictionary)
+  overload: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandlerAsync*
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.EventHandlerHelper.GetActiveEventHandlerTypes*
   commentId: Overload:SuperOffice.CRM.EventHandlerHelper.GetActiveEventHandlerTypes
   isExternal: true
+  href: SuperOffice.CRM.EventHandlerHelper.html#SuperOffice_CRM_EventHandlerHelper_GetActiveEventHandlerTypes_System_String_
   name: GetActiveEventHandlerTypes
   nameWithType: EventHandlerHelper.GetActiveEventHandlerTypes
   fullName: SuperOffice.CRM.EventHandlerHelper.GetActiveEventHandlerTypes
@@ -136,12 +363,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Collections.Generic.HashSet{SuperOffice.Data.EventHandlerType}
-  commentId: '!:System.Collections.Generic.HashSet{SuperOffice.Data.EventHandlerType}'
+  commentId: T:System.Collections.Generic.HashSet{SuperOffice.Data.EventHandlerType}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.HashSet`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
   name: HashSet<EventHandlerType>
   nameWithType: HashSet<EventHandlerType>
   fullName: System.Collections.Generic.HashSet<SuperOffice.Data.EventHandlerType>
@@ -151,85 +384,102 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.HashSet`1
     name: HashSet
-    nameWithType: HashSet
-    fullName: System.Collections.Generic.HashSet
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.Data.EventHandlerType
     name: EventHandlerType
-    nameWithType: EventHandlerType
-    fullName: SuperOffice.Data.EventHandlerType
     isExternal: true
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.HashSet`1
     name: HashSet
-    nameWithType: HashSet
-    fullName: System.Collections.Generic.HashSet
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.Data.EventHandlerType
     name: EventHandlerType
-    nameWithType: EventHandlerType
-    fullName: SuperOffice.Data.EventHandlerType
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.HashSet`1
+  commentId: T:System.Collections.Generic.HashSet`1
   isExternal: true
-  name: HashSet<>
-  nameWithType: HashSet<>
-  fullName: System.Collections.Generic.HashSet<>
-  nameWithType.vb: HashSet(Of )
-  fullName.vb: System.Collections.Generic.HashSet(Of )
-  name.vb: HashSet(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  name: HashSet<T>
+  nameWithType: HashSet<T>
+  fullName: System.Collections.Generic.HashSet<T>
+  nameWithType.vb: HashSet(Of T)
+  fullName.vb: System.Collections.Generic.HashSet(Of T)
+  name.vb: HashSet(Of T)
   spec.csharp:
   - uid: System.Collections.Generic.HashSet`1
     name: HashSet
-    nameWithType: HashSet
-    fullName: System.Collections.Generic.HashSet
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.HashSet`1
     name: HashSet
-    nameWithType: HashSet
-    fullName: System.Collections.Generic.HashSet
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler*
-  commentId: Overload:SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
   isExternal: true
-  name: ExecuteEventHandler
-  nameWithType: EventHandlerHelper.ExecuteEventHandler
-  fullName: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandlerAsync*
+  commentId: Overload:SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandlerAsync
+  isExternal: true
+  href: SuperOffice.CRM.EventHandlerHelper.html#SuperOffice_CRM_EventHandlerHelper_ExecuteEventHandlerAsync_SuperOffice_Data_EventHandlerType_SuperOffice_CRM_Services_StringDictionary_SuperOffice_CRM_Services_StringDictionary_SuperOffice_CRM_Services_StringDictionary_
+  name: ExecuteEventHandlerAsync
+  nameWithType: EventHandlerHelper.ExecuteEventHandlerAsync
+  fullName: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandlerAsync
 - uid: SuperOffice.Data.EventHandlerType
   commentId: T:SuperOffice.Data.EventHandlerType
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.EventHandlerType.html
   name: EventHandlerType
   nameWithType: EventHandlerType
   fullName: SuperOffice.Data.EventHandlerType
@@ -237,18 +487,169 @@ references:
   commentId: T:SuperOffice.CRM.Services.StringDictionary
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.StringDictionary.html
   name: StringDictionary
   nameWithType: StringDictionary
   fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StringDictionary}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.StringDictionary}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<StringDictionary>
+  nameWithType: Task<StringDictionary>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.StringDictionary>
+  nameWithType.vb: Task(Of StringDictionary)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.StringDictionary)
+  name.vb: Task(Of StringDictionary)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.StringDictionary
+    name: StringDictionary
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.StringDictionary
+    name: StringDictionary
+    isExternal: true
+  - name: )
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

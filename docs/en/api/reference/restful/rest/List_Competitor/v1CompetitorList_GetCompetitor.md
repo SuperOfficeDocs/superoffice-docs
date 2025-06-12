@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 664,
-  "Name": "Schiller-Lueilwitz",
-  "Tooltip": "laboriosam",
+  "Id": 845,
+  "Name": "Watsica, Marvin and Schuster",
+  "Tooltip": "adipisci",
   "Deleted": true,
-  "UdListDefinitionId": 278,
-  "Rank": 307,
+  "UdListDefinitionId": 202,
+  "Rank": 146,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 835
+      "FieldLength": 454
     }
   }
 }

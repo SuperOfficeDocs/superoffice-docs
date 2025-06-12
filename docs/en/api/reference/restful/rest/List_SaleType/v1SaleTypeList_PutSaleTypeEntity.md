@@ -112,51 +112,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 304,
-  "Name": "Cremin Inc and Sons",
-  "Tooltip": "suscipit",
-  "Rank": 774,
+  "SaleTypeId": 148,
+  "Name": "McGlynn-Abbott",
+  "Tooltip": "consequatur",
+  "Rank": 809,
   "DurationUnit": "Century",
-  "SaleDuration": 663,
-  "SaleTypeCatId": 51,
+  "SaleDuration": 896,
+  "SaleTypeCatId": 676,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 482,
-  "QuoteLinesTemplate": 237,
-  "ConfirmationLinesTemplate": 829,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 944,
+  "QuoteLinesTemplate": 564,
+  "ConfirmationLinesTemplate": 374,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 207,
-  "MinEarningPercent": 358,
-  "GroupQuoteLinesBy": 209,
-  "SortGroupLinesBy": 747,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 618,
+  "MinEarningPercent": 712,
+  "GroupQuoteLinesBy": 627,
+  "SortGroupLinesBy": 630,
   "Stages": [
     {
-      "Id": 286,
-      "Name": "Cruickshank-Ernser",
-      "ToolTip": "Sequi sequi veritatis quam numquam.",
-      "Deleted": true,
-      "Rank": 520,
-      "Type": "eos",
-      "ColorBlock": 37,
-      "IconHint": "voluptatem",
-      "Selected": true,
-      "LastChanged": "2004-10-17T16:32:48.946344+02:00",
+      "Id": 302,
+      "Name": "Jacobson, Botsford and Champlin",
+      "ToolTip": "Reprehenderit numquam reprehenderit omnis vitae officia.",
+      "Deleted": false,
+      "Rank": 547,
+      "Type": "voluptatem",
+      "ColorBlock": 318,
+      "IconHint": "sint",
+      "Selected": false,
+      "LastChanged": "2022-05-31T17:54:09.1011806+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "facilis",
-      "StyleHint": "et",
-      "Hidden": true,
-      "FullName": "Verdie Balistreri"
+      "ExtraInfo": "ut",
+      "StyleHint": "vitae",
+      "Hidden": false,
+      "FullName": "Dr. Abbigail Edison Stroman MD"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 718,
-  "Name": "Dicki-Schaden",
-  "Tooltip": "earum",
-  "Rank": 858,
+  "SaleTypeId": 489,
+  "Name": "Cronin-Schroeder",
+  "Tooltip": "temporibus",
+  "Rank": 17,
   "DurationUnit": "Century",
-  "SaleDuration": 882,
-  "SaleTypeCatId": 165,
-  "Deleted": true,
+  "SaleDuration": 773,
+  "SaleTypeCatId": 222,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 546,
-  "QuoteLinesTemplate": 185,
-  "ConfirmationLinesTemplate": 267,
-  "MaxDiscountPercentSet": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 459,
+  "QuoteLinesTemplate": 896,
+  "ConfirmationLinesTemplate": 652,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 878,
-  "MinEarningPercent": 480,
-  "GroupQuoteLinesBy": 401,
-  "SortGroupLinesBy": 138,
+  "MaxDiscountPercent": 12,
+  "MinEarningPercent": 243,
+  "GroupQuoteLinesBy": 882,
+  "SortGroupLinesBy": 661,
   "Stages": [
     {
-      "Id": 321,
-      "Name": "Reichel-Terry",
-      "ToolTip": "Ut ipsa saepe a et et quo autem.",
-      "Deleted": false,
-      "Rank": 998,
-      "Type": "tempora",
-      "ColorBlock": 77,
-      "IconHint": "ut",
+      "Id": 809,
+      "Name": "Pagac, Crist and Hodkiewicz",
+      "ToolTip": "Atque velit eum rerum dicta quia officia quia.",
+      "Deleted": true,
+      "Rank": 22,
+      "Type": "eveniet",
+      "ColorBlock": 689,
+      "IconHint": "nihil",
       "Selected": false,
-      "LastChanged": "1999-10-07T16:32:48.946344+02:00",
+      "LastChanged": "2008-08-20T17:54:09.1011806+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ipsam",
-      "StyleHint": "tempore",
-      "Hidden": false,
-      "FullName": "Ms. Whitney Candida Sawayn Sr.",
+      "ExtraInfo": "pariatur",
+      "StyleHint": "aut",
+      "Hidden": true,
+      "FullName": "Prof. Nannie Jenkins",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 741
+          "FieldLength": 417
         }
       }
     }
@@ -224,8 +224,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldType": "System.String",
+      "FieldLength": 246
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a SuggestedAppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=141
+POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=70
 POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -70,7 +70,7 @@ OK
 | Text | string | The suggested text of the new appointment |
 | ProjectTypeStatusLink | ProjectTypeStatusLink | Project type and project status link info |
 | SaleTypeStageLink | SaleTypeStageLink | Sale type and stage link info |
-| Type | Task | Type of the suggested appointment |
+| Type | SoTask | Type of the suggested appointment |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -90,17 +90,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 312,
-  "Name": "Bartell LLC",
-  "Tooltip": "quam",
-  "Rank": 3,
+  "SuggestedAppointmentId": 480,
+  "Name": "Hackett, Sanford and Bartell",
+  "Tooltip": "repellat",
+  "Rank": 285,
   "Deleted": false,
-  "DaysFuture": 309,
-  "Duration": "voluptatem",
-  "AutoSuggest": true,
+  "DaysFuture": 957,
+  "Duration": "aut",
+  "AutoSuggest": false,
   "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "in",
+  "Text": "voluptatibus",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 395
+      "FieldLength": 254
     }
   }
 }

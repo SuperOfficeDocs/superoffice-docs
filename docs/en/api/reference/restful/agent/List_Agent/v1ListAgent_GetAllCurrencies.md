@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 209,
-    "Name": "Tillman-Deckow",
-    "Tooltip": "nihil",
-    "Rank": 601,
-    "Rate": 5092.75,
-    "Units": 13676.776,
-    "Deleted": false,
+    "CurrencyId": 714,
+    "Name": "Glover LLC",
+    "Tooltip": "repellendus",
+    "Rank": 535,
+    "Rate": 28052.433999999997,
+    "Units": 2030.8319999999999,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 264
+        "FieldType": "System.Int32",
+        "FieldLength": 814
       }
     }
   }

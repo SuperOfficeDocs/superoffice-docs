@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 360
+  "ShipmentAddrId": 162
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2012-01-06T16:32:39.3519666+01:00",
+  "SendingTime": "2024-02-11T17:54:03.3202006+01:00",
   "Status": "Blocked",
-  "ShipmentId": 790,
-  "ShipmentDescription": "Fully-configurable logistical budgetary management",
-  "FromAddress": "enim",
-  "Configuration": 110,
-  "ContactId": 186,
-  "ContactName": "McDermott, Jenkins and Wiza",
-  "PersonId": 692,
-  "PersonFullName": "Annamae Dewitt Auer V",
-  "ShipmentType": "et",
-  "MessageId": 843,
-  "MessageSubject": "exercitationem",
-  "DocumentMessageId": 859,
-  "Opened": "1999-07-06T16:32:39.3519666+02:00",
-  "LinkClicks": 36,
+  "ShipmentId": 446,
+  "ShipmentDescription": "Open-source dynamic emulation",
+  "FromAddress": "non",
+  "Configuration": 388,
+  "ContactId": 222,
+  "ContactName": "Schiller, Abbott and Wiza",
+  "PersonId": 601,
+  "PersonFullName": "Prof. Cristal Cordia Carroll DVM",
+  "ShipmentType": "labore",
+  "MessageId": 275,
+  "MessageSubject": "ducimus",
+  "DocumentMessageId": 662,
+  "Opened": "2017-07-22T17:54:03.3202006+02:00",
+  "LinkClicks": 385,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 290
+      "FieldLength": 192
     }
   }
 }

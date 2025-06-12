@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetDeliveryTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 552,
-    "Value": "corrupti",
-    "Tooltip": "sit",
+    "Id": 169,
+    "Value": "quaerat",
+    "Tooltip": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 658
+        "FieldLength": 923
       }
     }
   },
   {
-    "Id": 552,
-    "Value": "corrupti",
-    "Tooltip": "sit",
+    "Id": 169,
+    "Value": "quaerat",
+    "Tooltip": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 658
+        "FieldLength": 923
       }
     }
   }

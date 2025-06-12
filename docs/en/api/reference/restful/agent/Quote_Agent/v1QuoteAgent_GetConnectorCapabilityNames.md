@@ -72,7 +72,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 936
+  "QuoteConnectionId": 984
 }
 ```
 
@@ -84,6 +84,6 @@ Content-Type: application/json; charset=utf-8
 
 [
   "nulla",
-  "et"
+  "est"
 ]
 ```

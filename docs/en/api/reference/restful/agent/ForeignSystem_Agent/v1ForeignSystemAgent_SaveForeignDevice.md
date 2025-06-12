@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Schuster LLC"
+  "ApplicationName": "McKenzie, Lockman and Parker"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 634,
-  "Name": "King Inc and Sons",
-  "CreatedDate": "2010-09-16T16:32:39.1645096+02:00",
-  "UpdatedDate": "2004-11-18T16:32:39.1645096+01:00",
-  "AssociateFullName": "Rosetta Emmerich",
-  "CreatedBy": "consequuntur",
-  "UpdatedBy": "optio",
-  "DeviceIdentifier": "necessitatibus",
-  "ForeignAppId": 181,
+  "ForeignDeviceId": 813,
+  "Name": "Raynor-Torphy",
+  "CreatedDate": "2004-08-03T17:54:03.1795788+02:00",
+  "UpdatedDate": "1999-08-04T17:54:03.1795788+02:00",
+  "AssociateFullName": "Elvera Walsh",
+  "CreatedBy": "ratione",
+  "UpdatedBy": "qui",
+  "DeviceIdentifier": "eligendi",
+  "ForeignAppId": 295,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 248
+      "FieldLength": 953
     }
   }
 }

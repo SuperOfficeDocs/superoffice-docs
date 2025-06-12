@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 404
+  "PersonId": 503
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 413,
-    "Comment": "architecto",
-    "Registered": "2022-11-02T16:32:39.5084251+01:00",
-    "RegisteredAssociateId": 413,
-    "Updated": "2018-11-08T16:32:39.5084251+01:00",
-    "UpdatedAssociateId": 981,
-    "LegalBaseId": 887,
-    "LegalBaseKey": "voluptas",
-    "LegalBaseName": "Krajcik, Herzog and Rutherford",
-    "ConsentPurposeId": 258,
-    "ConsentPurposeKey": "consectetur",
-    "ConsentPurposeName": "Schiller, Nader and Krajcik",
-    "ConsentSourceId": 695,
-    "ConsentSourceKey": "laborum",
-    "ConsentSourceName": "Berge Inc and Sons",
+    "ConsentPersonId": 461,
+    "Comment": "iusto",
+    "Registered": "2008-02-08T17:54:03.4139422+01:00",
+    "RegisteredAssociateId": 402,
+    "Updated": "2008-04-06T17:54:03.4139422+02:00",
+    "UpdatedAssociateId": 863,
+    "LegalBaseId": 829,
+    "LegalBaseKey": "odit",
+    "LegalBaseName": "Mohr, Wolff and Hermiston",
+    "ConsentPurposeId": 848,
+    "ConsentPurposeKey": "ut",
+    "ConsentPurposeName": "Harvey Inc and Sons",
+    "ConsentSourceId": 843,
+    "ConsentSourceKey": "expedita",
+    "ConsentSourceName": "McLaughlin, Jacobi and Hagenes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 378
+        "FieldType": "System.String",
+        "FieldLength": 362
       }
     }
   }

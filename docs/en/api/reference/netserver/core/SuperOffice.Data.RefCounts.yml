@@ -6,12 +6,10 @@ items:
   parent: SuperOffice.Data
   children:
   - SuperOffice.Data.RefCounts.AllowBlank(SuperOffice.CRM.Rows.RefCountsRow,SuperOffice.Data.SQL.FieldInfo)
-  - SuperOffice.Data.RefCounts.AllowBlank(SuperOffice.Data.SQL.FieldInfo)
-  - SuperOffice.Data.RefCounts.CreateCounter(SuperOffice.Data.SQL.FieldInfo,System.Int32)
-  - SuperOffice.Data.RefCounts.GetNext(SuperOffice.Data.SQL.FieldInfo)
-  - SuperOffice.Data.RefCounts.GetNext(SuperOffice.Data.SQL.FieldInfo,System.Int32)
+  - SuperOffice.Data.RefCounts.AllowBlankAsync(SuperOffice.Data.SQL.FieldInfo,System.Threading.CancellationToken)
+  - SuperOffice.Data.RefCounts.GetNextAsync(SuperOffice.Data.SQL.FieldInfo,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.Data.RefCounts.Unique(SuperOffice.CRM.Rows.RefCountsRow,SuperOffice.Data.SQL.FieldInfo)
-  - SuperOffice.Data.RefCounts.Unique(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.RefCounts.UniqueAsync(SuperOffice.Data.SQL.FieldInfo,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -19,100 +17,55 @@ items:
   nameWithType: RefCounts
   fullName: SuperOffice.Data.RefCounts
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nUtility class for dealing with reference counters.\n"
+  summary: Utility class for dealing with reference counters.
+  example: []
   syntax:
-    content: 'public sealed class RefCounts : Object'
-    content.vb: >-
-      Public NotInheritable Class RefCounts
-          Inherits Object
+    content: public sealed class RefCounts
+    content.vb: Public NotInheritable Class RefCounts
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
   extensionMethods:
   - SuperOffice.Data.RefCounts.EnumUtil.MapEnums``2
   - SuperOffice.Data.RefCounts.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.Data.RefCounts.GetNext(SuperOffice.Data.SQL.FieldInfo)
-  commentId: M:SuperOffice.Data.RefCounts.GetNext(SuperOffice.Data.SQL.FieldInfo)
-  id: GetNext(SuperOffice.Data.SQL.FieldInfo)
+- uid: SuperOffice.Data.RefCounts.UniqueAsync(SuperOffice.Data.SQL.FieldInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.RefCounts.UniqueAsync(SuperOffice.Data.SQL.FieldInfo,System.Threading.CancellationToken)
+  id: UniqueAsync(SuperOffice.Data.SQL.FieldInfo,System.Threading.CancellationToken)
   parent: SuperOffice.Data.RefCounts
   langs:
   - csharp
   - vb
-  name: GetNext(FieldInfo)
-  nameWithType: RefCounts.GetNext(FieldInfo)
-  fullName: SuperOffice.Data.RefCounts.GetNext(SuperOffice.Data.SQL.FieldInfo)
+  name: UniqueAsync(FieldInfo, CancellationToken)
+  nameWithType: RefCounts.UniqueAsync(FieldInfo, CancellationToken)
+  fullName: SuperOffice.Data.RefCounts.UniqueAsync(SuperOffice.Data.SQL.FieldInfo, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nGet the next number from a <xref href=\"SuperOffice.Data.SQL.FieldInfo\" data-throw-if-not-resolved=\"false\"></xref> definition.\n"
-  remarks: '&apos;0&apos; is returned if there is no previous information about the row.'
+  summary: Checks if the unique flag is set for the field.
+  example: []
   syntax:
-    content: public static int GetNext(FieldInfo fieldInfo)
+    content: public static Task<bool> UniqueAsync(FieldInfo fieldInfo, CancellationToken cancellationToken = default)
     parameters:
     - id: fieldInfo
       type: SuperOffice.Data.SQL.FieldInfo
-      description: Field to get the next number for.
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-      description: The next number for the field.
-    content.vb: Public Shared Function GetNext(fieldInfo As FieldInfo) As Integer
-  overload: SuperOffice.Data.RefCounts.GetNext*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Data.RefCounts.Unique(SuperOffice.Data.SQL.FieldInfo)
-  commentId: M:SuperOffice.Data.RefCounts.Unique(SuperOffice.Data.SQL.FieldInfo)
-  id: Unique(SuperOffice.Data.SQL.FieldInfo)
-  parent: SuperOffice.Data.RefCounts
-  langs:
-  - csharp
-  - vb
-  name: Unique(FieldInfo)
-  nameWithType: RefCounts.Unique(FieldInfo)
-  fullName: SuperOffice.Data.RefCounts.Unique(SuperOffice.Data.SQL.FieldInfo)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: "\nChecks if the unique flag is set for the field.\n"
-  syntax:
-    content: public static bool Unique(FieldInfo fieldInfo)
-    parameters:
-    - id: fieldInfo
-      type: SuperOffice.Data.SQL.FieldInfo
-    return:
-      type: System.Boolean
-    content.vb: Public Shared Function Unique(fieldInfo As FieldInfo) As Boolean
-  overload: SuperOffice.Data.RefCounts.Unique*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: ''
+    content.vb: Public Shared Function UniqueAsync(fieldInfo As FieldInfo, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.Data.RefCounts.UniqueAsync*
 - uid: SuperOffice.Data.RefCounts.Unique(SuperOffice.CRM.Rows.RefCountsRow,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.Data.RefCounts.Unique(SuperOffice.CRM.Rows.RefCountsRow,SuperOffice.Data.SQL.FieldInfo)
   id: Unique(SuperOffice.CRM.Rows.RefCountsRow,SuperOffice.Data.SQL.FieldInfo)
@@ -124,63 +77,54 @@ items:
   nameWithType: RefCounts.Unique(RefCountsRow, FieldInfo)
   fullName: SuperOffice.Data.RefCounts.Unique(SuperOffice.CRM.Rows.RefCountsRow, SuperOffice.Data.SQL.FieldInfo)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nChecks if the unique flag is set for the field.\n"
+  summary: Checks if the unique flag is set for the field.
+  example: []
   syntax:
     content: public static bool Unique(RefCountsRow refCount, FieldInfo fieldInfo)
     parameters:
     - id: refCount
       type: SuperOffice.CRM.Rows.RefCountsRow
+      description: ''
     - id: fieldInfo
       type: SuperOffice.Data.SQL.FieldInfo
+      description: ''
     return:
       type: System.Boolean
+      description: ''
     content.vb: Public Shared Function Unique(refCount As RefCountsRow, fieldInfo As FieldInfo) As Boolean
   overload: SuperOffice.Data.RefCounts.Unique*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Data.RefCounts.AllowBlank(SuperOffice.Data.SQL.FieldInfo)
-  commentId: M:SuperOffice.Data.RefCounts.AllowBlank(SuperOffice.Data.SQL.FieldInfo)
-  id: AllowBlank(SuperOffice.Data.SQL.FieldInfo)
+- uid: SuperOffice.Data.RefCounts.AllowBlankAsync(SuperOffice.Data.SQL.FieldInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.RefCounts.AllowBlankAsync(SuperOffice.Data.SQL.FieldInfo,System.Threading.CancellationToken)
+  id: AllowBlankAsync(SuperOffice.Data.SQL.FieldInfo,System.Threading.CancellationToken)
   parent: SuperOffice.Data.RefCounts
   langs:
   - csharp
   - vb
-  name: AllowBlank(FieldInfo)
-  nameWithType: RefCounts.AllowBlank(FieldInfo)
-  fullName: SuperOffice.Data.RefCounts.AllowBlank(SuperOffice.Data.SQL.FieldInfo)
+  name: AllowBlankAsync(FieldInfo, CancellationToken)
+  nameWithType: RefCounts.AllowBlankAsync(FieldInfo, CancellationToken)
+  fullName: SuperOffice.Data.RefCounts.AllowBlankAsync(SuperOffice.Data.SQL.FieldInfo, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nChecks if the unique flag is set for the field.\n"
+  summary: Checks if the unique flag is set for the field.
+  example: []
   syntax:
-    content: public static bool AllowBlank(FieldInfo fieldInfo)
+    content: public static Task<bool> AllowBlankAsync(FieldInfo fieldInfo, CancellationToken cancellationToken = default)
     parameters:
     - id: fieldInfo
       type: SuperOffice.Data.SQL.FieldInfo
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
-    content.vb: Public Shared Function AllowBlank(fieldInfo As FieldInfo) As Boolean
-  overload: SuperOffice.Data.RefCounts.AllowBlank*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: ''
+    content.vb: Public Shared Function AllowBlankAsync(fieldInfo As FieldInfo, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.Data.RefCounts.AllowBlankAsync*
 - uid: SuperOffice.Data.RefCounts.AllowBlank(SuperOffice.CRM.Rows.RefCountsRow,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.Data.RefCounts.AllowBlank(SuperOffice.CRM.Rows.RefCountsRow,SuperOffice.Data.SQL.FieldInfo)
   id: AllowBlank(SuperOffice.CRM.Rows.RefCountsRow,SuperOffice.Data.SQL.FieldInfo)
@@ -192,51 +136,44 @@ items:
   nameWithType: RefCounts.AllowBlank(RefCountsRow, FieldInfo)
   fullName: SuperOffice.Data.RefCounts.AllowBlank(SuperOffice.CRM.Rows.RefCountsRow, SuperOffice.Data.SQL.FieldInfo)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nChecks if the unique flag is set for the field.\n"
+  summary: Checks if the unique flag is set for the field.
+  example: []
   syntax:
     content: public static bool AllowBlank(RefCountsRow refCount, FieldInfo fieldInfo)
     parameters:
     - id: refCount
       type: SuperOffice.CRM.Rows.RefCountsRow
+      description: ''
     - id: fieldInfo
       type: SuperOffice.Data.SQL.FieldInfo
+      description: ''
     return:
       type: System.Boolean
+      description: ''
     content.vb: Public Shared Function AllowBlank(refCount As RefCountsRow, fieldInfo As FieldInfo) As Boolean
   overload: SuperOffice.Data.RefCounts.AllowBlank*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Data.RefCounts.GetNext(SuperOffice.Data.SQL.FieldInfo,System.Int32)
-  commentId: M:SuperOffice.Data.RefCounts.GetNext(SuperOffice.Data.SQL.FieldInfo,System.Int32)
-  id: GetNext(SuperOffice.Data.SQL.FieldInfo,System.Int32)
+- uid: SuperOffice.Data.RefCounts.GetNextAsync(SuperOffice.Data.SQL.FieldInfo,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.RefCounts.GetNextAsync(SuperOffice.Data.SQL.FieldInfo,System.Int32,System.Threading.CancellationToken)
+  id: GetNextAsync(SuperOffice.Data.SQL.FieldInfo,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.Data.RefCounts
   langs:
   - csharp
   - vb
-  name: GetNext(FieldInfo, Int32)
-  nameWithType: RefCounts.GetNext(FieldInfo, Int32)
-  fullName: SuperOffice.Data.RefCounts.GetNext(SuperOffice.Data.SQL.FieldInfo, System.Int32)
+  name: GetNextAsync(FieldInfo, int, CancellationToken)
+  nameWithType: RefCounts.GetNextAsync(FieldInfo, int, CancellationToken)
+  fullName: SuperOffice.Data.RefCounts.GetNextAsync(SuperOffice.Data.SQL.FieldInfo, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nGet the next number from a <xref href=\"SuperOffice.Data.SQL.FieldInfo\" data-throw-if-not-resolved=\"false\"></xref> definition.\n"
-  remarks: '&apos;0&apos; is returned if there is no previous information about the row.'
+  summary: Get the next number from a <xref href="SuperOffice.Data.SQL.FieldInfo" data-throw-if-not-resolved="false"></xref> definition.
+  remarks: "'0' is returned if there is no previous information about the row."
+  example: []
   syntax:
-    content: public static int GetNext(FieldInfo fieldInfo, int recordId)
+    content: public static Task<int> GetNextAsync(FieldInfo fieldInfo, int recordId = 0, CancellationToken cancellationToken = default)
     parameters:
     - id: fieldInfo
       type: SuperOffice.Data.SQL.FieldInfo
@@ -244,148 +181,367 @@ items:
     - id: recordId
       type: System.Int32
       description: The record id to get the number for.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: The next number for the field.
-    content.vb: Public Shared Function GetNext(fieldInfo As FieldInfo, recordId As Integer) As Integer
-  overload: SuperOffice.Data.RefCounts.GetNext*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Data.RefCounts.CreateCounter(SuperOffice.Data.SQL.FieldInfo,System.Int32)
-  commentId: M:SuperOffice.Data.RefCounts.CreateCounter(SuperOffice.Data.SQL.FieldInfo,System.Int32)
-  id: CreateCounter(SuperOffice.Data.SQL.FieldInfo,System.Int32)
-  parent: SuperOffice.Data.RefCounts
-  langs:
-  - csharp
-  - vb
-  name: CreateCounter(FieldInfo, Int32)
-  nameWithType: RefCounts.CreateCounter(FieldInfo, Int32)
-  fullName: SuperOffice.Data.RefCounts.CreateCounter(SuperOffice.Data.SQL.FieldInfo, System.Int32)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: "\nPrivate SuperOffice function for creating new counters.\n"
-  syntax:
-    content: public RefCountsRow CreateCounter(FieldInfo fieldInfo, int recordId)
-    parameters:
-    - id: fieldInfo
-      type: SuperOffice.Data.SQL.FieldInfo
-      description: Field to get the next number for.
-    - id: recordId
-      type: System.Int32
-      description: The record id to get the number for.
-    return:
-      type: SuperOffice.CRM.Rows.RefCountsRow
-      description: <xref href="SuperOffice.CRM.Rows.RefCountsRow" data-throw-if-not-resolved="false"></xref> representing the counter.
-    content.vb: Public Function CreateCounter(fieldInfo As FieldInfo, recordId As Integer) As RefCountsRow
-  overload: SuperOffice.Data.RefCounts.CreateCounter*
-  exceptions:
-  - type: System.Security.SecurityException
-    commentId: T:System.Security.SecurityException
-    description: Exception is thrown if code accessing this methid is not sigend with the SuperOffice strong name key.
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public Shared Function GetNextAsync(fieldInfo As FieldInfo, recordId As Integer = 0, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.Data.RefCounts.GetNextAsync*
+  nameWithType.vb: RefCounts.GetNextAsync(FieldInfo, Integer, CancellationToken)
+  fullName.vb: SuperOffice.Data.RefCounts.GetNextAsync(SuperOffice.Data.SQL.FieldInfo, Integer, System.Threading.CancellationToken)
+  name.vb: GetNextAsync(FieldInfo, Integer, CancellationToken)
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.RefCounts.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<RefCounts, To>()
-  nameWithType: EnumUtil.MapEnums<RefCounts, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.RefCounts, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of RefCounts, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.RefCounts, To)()
-  name.vb: MapEnums(Of RefCounts, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<RefCounts, To>(RefCounts)
+  nameWithType: EnumUtil.MapEnums<RefCounts, To>(RefCounts)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.RefCounts, To>(SuperOffice.Data.RefCounts)
+  nameWithType.vb: EnumUtil.MapEnums(Of RefCounts, To)(RefCounts)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.RefCounts, To)(SuperOffice.Data.RefCounts)
+  name.vb: MapEnums(Of RefCounts, To)(RefCounts)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<RefCounts, To>
-    nameWithType: EnumUtil.MapEnums<RefCounts, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.RefCounts, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.RefCounts)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.RefCounts
+    name: RefCounts
+    isExternal: true
+    href: SuperOffice.Data.RefCounts.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.RefCounts
+    name: RefCounts
+    isExternal: true
+    href: SuperOffice.Data.RefCounts.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of RefCounts, To)
-    nameWithType: EnumUtil.MapEnums(Of RefCounts, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.RefCounts, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.RefCounts)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.RefCounts
+    name: RefCounts
+    isExternal: true
+    href: SuperOffice.Data.RefCounts.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.RefCounts
+    name: RefCounts
+    isExternal: true
+    href: SuperOffice.Data.RefCounts.html
+  - name: )
 - uid: SuperOffice.Data.RefCounts.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<RefCounts, To>()
-  nameWithType: Converters.MapEnums<RefCounts, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.RefCounts, To>()
-  nameWithType.vb: Converters.MapEnums(Of RefCounts, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.RefCounts, To)()
-  name.vb: MapEnums(Of RefCounts, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<RefCounts, To>(RefCounts)
+  nameWithType: Converters.MapEnums<RefCounts, To>(RefCounts)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.RefCounts, To>(SuperOffice.Data.RefCounts)
+  nameWithType.vb: Converters.MapEnums(Of RefCounts, To)(RefCounts)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.RefCounts, To)(SuperOffice.Data.RefCounts)
+  name.vb: MapEnums(Of RefCounts, To)(RefCounts)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<RefCounts, To>
-    nameWithType: Converters.MapEnums<RefCounts, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.RefCounts, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.RefCounts)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.RefCounts
+    name: RefCounts
+    isExternal: true
+    href: SuperOffice.Data.RefCounts.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.RefCounts
+    name: RefCounts
+    isExternal: true
+    href: SuperOffice.Data.RefCounts.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of RefCounts, To)
-    nameWithType: Converters.MapEnums(Of RefCounts, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.RefCounts, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.RefCounts)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.RefCounts
+    name: RefCounts
+    isExternal: true
+    href: SuperOffice.Data.RefCounts.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.RefCounts
+    name: RefCounts
+    isExternal: true
+    href: SuperOffice.Data.RefCounts.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -394,43 +550,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -439,111 +597,393 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.Data.RefCounts.GetNext*
-  commentId: Overload:SuperOffice.Data.RefCounts.GetNext
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Data.RefCounts.UniqueAsync*
+  commentId: Overload:SuperOffice.Data.RefCounts.UniqueAsync
   isExternal: true
-  name: GetNext
-  nameWithType: RefCounts.GetNext
-  fullName: SuperOffice.Data.RefCounts.GetNext
+  href: SuperOffice.Data.RefCounts.html#SuperOffice_Data_RefCounts_UniqueAsync_SuperOffice_Data_SQL_FieldInfo_System_Threading_CancellationToken_
+  name: UniqueAsync
+  nameWithType: RefCounts.UniqueAsync
+  fullName: SuperOffice.Data.RefCounts.UniqueAsync
 - uid: SuperOffice.Data.SQL.FieldInfo
   commentId: T:SuperOffice.Data.SQL.FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.FieldInfo.html
   name: FieldInfo
   nameWithType: FieldInfo
   fullName: SuperOffice.Data.SQL.FieldInfo
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.Data.RefCounts.Unique*
   commentId: Overload:SuperOffice.Data.RefCounts.Unique
   isExternal: true
+  href: SuperOffice.Data.RefCounts.html#SuperOffice_Data_RefCounts_Unique_SuperOffice_CRM_Rows_RefCountsRow_SuperOffice_Data_SQL_FieldInfo_
   name: Unique
   nameWithType: RefCounts.Unique
   fullName: SuperOffice.Data.RefCounts.Unique
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: SuperOffice.CRM.Rows.RefCountsRow
   commentId: T:SuperOffice.CRM.Rows.RefCountsRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.RefCountsRow.html
   name: RefCountsRow
   nameWithType: RefCountsRow
   fullName: SuperOffice.CRM.Rows.RefCountsRow
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+- uid: SuperOffice.Data.RefCounts.AllowBlankAsync*
+  commentId: Overload:SuperOffice.Data.RefCounts.AllowBlankAsync
+  isExternal: true
+  href: SuperOffice.Data.RefCounts.html#SuperOffice_Data_RefCounts_AllowBlankAsync_SuperOffice_Data_SQL_FieldInfo_System_Threading_CancellationToken_
+  name: AllowBlankAsync
+  nameWithType: RefCounts.AllowBlankAsync
+  fullName: SuperOffice.Data.RefCounts.AllowBlankAsync
 - uid: SuperOffice.Data.RefCounts.AllowBlank*
   commentId: Overload:SuperOffice.Data.RefCounts.AllowBlank
   isExternal: true
+  href: SuperOffice.Data.RefCounts.html#SuperOffice_Data_RefCounts_AllowBlank_SuperOffice_CRM_Rows_RefCountsRow_SuperOffice_Data_SQL_FieldInfo_
   name: AllowBlank
   nameWithType: RefCounts.AllowBlank
   fullName: SuperOffice.Data.RefCounts.AllowBlank
-- uid: SuperOffice.Data.RefCounts.CreateCounter*
-  commentId: Overload:SuperOffice.Data.RefCounts.CreateCounter
+- uid: SuperOffice.Data.RefCounts.GetNextAsync*
+  commentId: Overload:SuperOffice.Data.RefCounts.GetNextAsync
   isExternal: true
-  name: CreateCounter
-  nameWithType: RefCounts.CreateCounter
-  fullName: SuperOffice.Data.RefCounts.CreateCounter
-- uid: System.Security.SecurityException
-  commentId: T:System.Security.SecurityException
+  href: SuperOffice.Data.RefCounts.html#SuperOffice_Data_RefCounts_GetNextAsync_SuperOffice_Data_SQL_FieldInfo_System_Int32_System_Threading_CancellationToken_
+  name: GetNextAsync
+  nameWithType: RefCounts.GetNextAsync
+  fullName: SuperOffice.Data.RefCounts.GetNextAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )

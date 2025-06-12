@@ -22,27 +22,24 @@ items:
   nameWithType: UserPreferenceStrings.Travel
   fullName: SuperOffice.CRM.UserPreferenceStrings.Travel
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nTravel\n"
+  summary: Travel
+  example: []
   syntax:
-    content: 'public static class Travel : Object'
-    content.vb: >-
-      Public Module Travel
-          Inherits Object
+    content: public static class UserPreferenceStrings.Travel
+    content.vb: Public Module UserPreferenceStrings.Travel
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.UserPreferenceStrings.Travel.Section
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Travel.Section
   id: Section
@@ -54,24 +51,16 @@ items:
   nameWithType: UserPreferenceStrings.Travel.Section
   fullName: SuperOffice.CRM.UserPreferenceStrings.Travel.Section
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nSection heading\n"
+  summary: Section heading
+  example: []
   syntax:
     content: public const string Section = "Travel"
     return:
       type: System.String
     content.vb: Public Const Section As String = "Travel"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Travel.AdvancedTravelMenu
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Travel.AdvancedTravelMenu
   id: AdvancedTravelMenu
@@ -83,24 +72,19 @@ items:
   nameWithType: UserPreferenceStrings.Travel.AdvancedTravelMenu
   fullName: SuperOffice.CRM.UserPreferenceStrings.Travel.AdvancedTravelMenu
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nShould the Travel icon/menu display the advanced Travel options\n<p></p>Control type: Bool, access: Wizard\n"
+  summary: >-
+    Should the Travel icon/menu display the advanced Travel options
+
+    <p></p>Control type: Bool, access: Wizard
+  example: []
   syntax:
     content: public const string AdvancedTravelMenu = "AdvancedTravelMenu"
     return:
       type: System.String
     content.vb: Public Const AdvancedTravelMenu As String = "AdvancedTravelMenu"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Travel.EnableTravel
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Travel.EnableTravel
   id: EnableTravel
@@ -112,24 +96,19 @@ items:
   nameWithType: UserPreferenceStrings.Travel.EnableTravel
   fullName: SuperOffice.CRM.UserPreferenceStrings.Travel.EnableTravel
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nIs Travel enabled?\n<p></p>Control type: Bool, access: Wizard\n"
+  summary: >-
+    Is Travel enabled?
+
+    <p></p>Control type: Bool, access: Wizard
+  example: []
   syntax:
     content: public const string EnableTravel = "EnableTravel"
     return:
       type: System.String
     content.vb: Public Const EnableTravel As String = "EnableTravel"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Travel.FlushAfterReadAll
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Travel.FlushAfterReadAll
   id: FlushAfterReadAll
@@ -141,24 +120,19 @@ items:
   nameWithType: UserPreferenceStrings.Travel.FlushAfterReadAll
   fullName: SuperOffice.CRM.UserPreferenceStrings.Travel.FlushAfterReadAll
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nIf Yes, the Travel Gateway will force a refresh on all clients after the Read update from all users event has been executed. (Default = YES)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  summary: >-
+    If Yes, the Travel Gateway will force a refresh on all clients after the Read update from all users event has been executed. (Default = YES)
+
+    <p></p>Control type: Bool, access: Admin, Admin users, Wizard
+  example: []
   syntax:
     content: public const string FlushAfterReadAll = "FlushAfterReadAll"
     return:
       type: System.String
     content.vb: Public Const FlushAfterReadAll As String = "FlushAfterReadAll"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Travel.GWSilent
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Travel.GWSilent
   id: GWSilent
@@ -170,24 +144,19 @@ items:
   nameWithType: UserPreferenceStrings.Travel.GWSilent
   fullName: SuperOffice.CRM.UserPreferenceStrings.Travel.GWSilent
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nShould progress dialogs be displayed when Travel Gateway is executing activities? (Default = NO)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  summary: >-
+    Should progress dialogs be displayed when Travel Gateway is executing activities? (Default = NO)
+
+    <p></p>Control type: Bool, access: Admin, Admin users, Wizard
+  example: []
   syntax:
     content: public const string GWSilent = "GWSilent"
     return:
       type: System.String
     content.vb: Public Const GWSilent As String = "GWSilent"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Travel.OfferBlockCentralLogin
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Travel.OfferBlockCentralLogin
   id: OfferBlockCentralLogin
@@ -199,24 +168,19 @@ items:
   nameWithType: UserPreferenceStrings.Travel.OfferBlockCentralLogin
   fullName: SuperOffice.CRM.UserPreferenceStrings.Travel.OfferBlockCentralLogin
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nAllows Remote Travel users to prevent CRM from trying to perform a Central update even if the central database is available when CRM is started while the Remote Travel user is travelling.(Default = NO)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  summary: >-
+    Allows Remote Travel users to prevent CRM from trying to perform a Central update even if the central database is available when CRM is started while the Remote Travel user is travelling.(Default = NO)
+
+    <p></p>Control type: Bool, access: Admin, Admin users, Wizard
+  example: []
   syntax:
     content: public const string OfferBlockCentralLogin = "OfferBlockCentralLogin"
     return:
       type: System.String
     content.vb: Public Const OfferBlockCentralLogin As String = "OfferBlockCentralLogin"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Travel.RemoteTravelClient
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Travel.RemoteTravelClient
   id: RemoteTravelClient
@@ -228,24 +192,19 @@ items:
   nameWithType: UserPreferenceStrings.Travel.RemoteTravelClient
   fullName: SuperOffice.CRM.UserPreferenceStrings.Travel.RemoteTravelClient
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nProgram file used to synchronise between a local Remote Travel user and the central document archive. (Default = SORT.EXE)\n<p></p>Control type: Text, access: Admin, Crm, Admin users, Wizard\n"
+  summary: >-
+    Program file used to synchronise between a local Remote Travel user and the central document archive. (Default = SORT.EXE)
+
+    <p></p>Control type: Text, access: Admin, Crm, Admin users, Wizard
+  example: []
   syntax:
     content: public const string RemoteTravelClient = "RemoteTravelClient"
     return:
       type: System.String
     content.vb: Public Const RemoteTravelClient As String = "RemoteTravelClient"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Travel.RemoteTravelServer
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Travel.RemoteTravelServer
   id: RemoteTravelServer
@@ -257,24 +216,19 @@ items:
   nameWithType: UserPreferenceStrings.Travel.RemoteTravelServer
   fullName: SuperOffice.CRM.UserPreferenceStrings.Travel.RemoteTravelServer
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nName of the EXE file used as your Remote Travel Server. (Default = SORTS.EXE)\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  summary: >-
+    Name of the EXE file used as your Remote Travel Server. (Default = SORTS.EXE)
+
+    <p></p>Control type: Text, access: Admin, Admin users, Wizard
+  example: []
   syntax:
     content: public const string RemoteTravelServer = "RemoteTravelServer"
     return:
       type: System.String
     content.vb: Public Const RemoteTravelServer As String = "RemoteTravelServer"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Travel.TravelAsMenu
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Travel.TravelAsMenu
   id: TravelAsMenu
@@ -286,24 +240,19 @@ items:
   nameWithType: UserPreferenceStrings.Travel.TravelAsMenu
   fullName: SuperOffice.CRM.UserPreferenceStrings.Travel.TravelAsMenu
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nShould the Navigator display a Travel icon for users allowed to use Travel?\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  summary: >-
+    Should the Navigator display a Travel icon for users allowed to use Travel?
+
+    <p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard
+  example: []
   syntax:
     content: public const string TravelAsMenu = "TravelAsMenu"
     return:
       type: System.String
     content.vb: Public Const TravelAsMenu As String = "TravelAsMenu"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Travel.EnableStats
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Travel.EnableStats
   id: EnableStats
@@ -315,41 +264,281 @@ items:
   nameWithType: UserPreferenceStrings.Travel.EnableStats
   fullName: SuperOffice.CRM.UserPreferenceStrings.Travel.EnableStats
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nEnable logging of usage patterns in CRM. These logs may be subsequently used as background information for improvements to the product and for enhanced user training. (Default = YES)\n<p></p>Control type: Bool, access: Wizard\n"
+  summary: >-
+    Enable logging of usage patterns in CRM. These logs may be subsequently used as background information for improvements to the product and for enhanced user training. (Default = YES)
+
+    <p></p>Control type: Bool, access: Wizard
+  example: []
   syntax:
     content: public const string EnableStats = "EnableStats"
     return:
       type: System.String
     content.vb: Public Const EnableStats As String = "EnableStats"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -357,6 +546,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

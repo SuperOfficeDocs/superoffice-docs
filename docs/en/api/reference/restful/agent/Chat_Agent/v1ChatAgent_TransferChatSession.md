@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/Chat/TransferChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 955,
-  "ToAssociate": "praesentium"
+  "ChatSessionId": 41,
+  "ToAssociate": "nostrum"
 }
 ```
 
@@ -122,43 +122,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 341,
-  "TopicId": 59,
+  "ChatSessionId": 93,
+  "TopicId": 347,
   "User": null,
   "Person": null,
-  "CustomerAlias": "dolore",
-  "CustomerHost": "enim",
-  "CustomerName": "Crooks Group",
-  "CustomerEmail": "jailyn@larson.ca",
-  "CustomerPhone": "1-703-064-3458 x6988",
+  "CustomerAlias": "blanditiis",
+  "CustomerHost": "est",
+  "CustomerName": "Lehner, Skiles and Adams",
+  "CustomerEmail": "colby.bailey@kertzmann.com",
+  "CustomerPhone": "166-120-7936 x54989",
   "CustomerConsented": false,
-  "CustomerCompanyName": "O'Conner-Skiles",
+  "CustomerCompanyName": "Schmidt-Bauch",
   "Status": "Closed",
-  "FirstMessage": "consectetur",
+  "FirstMessage": "necessitatibus",
   "LastMessage": "et",
-  "WhenRequested": "2022-12-24T16:32:38.2897122+01:00",
-  "WhenStarted": "2012-09-13T16:32:38.2897122+02:00",
-  "WhenEnded": "2018-05-06T16:32:38.2897122+02:00",
-  "WhenIdle": "2007-03-01T16:32:38.2897122+01:00",
-  "WhenFetched": "2000-06-22T16:32:38.2897122+02:00",
-  "SessionKey": "laudantium",
-  "InitialQueuePos": 678,
-  "AlertLevel": 831,
-  "Rank": 691,
+  "WhenRequested": "2020-09-30T17:54:02.7108516+02:00",
+  "WhenStarted": "2012-07-11T17:54:02.7108516+02:00",
+  "WhenEnded": "2011-11-06T17:54:02.7108516+01:00",
+  "WhenIdle": "2018-04-06T17:54:02.7108516+02:00",
+  "WhenFetched": "1998-02-24T17:54:02.7108516+01:00",
+  "SessionKey": "neque",
+  "InitialQueuePos": 379,
+  "AlertLevel": 796,
+  "Rank": 49,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 685,
+  "ChatbotIsActive": true,
+  "Rating": 489,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 363
+      "FieldLength": 691
     }
   }
 }

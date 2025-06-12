@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 988
+  "ProductId": 853
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 143,
-  "BlobSize": 893,
-  "Description": "Enhanced empowering emulation",
-  "ExtraInfo": "quisquam",
+  "BlobId": 462,
+  "BlobSize": 923,
+  "Description": "Self-enabling human-resource website",
+  "ExtraInfo": "iste",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "vitae",
-  "OriginalSize": 421,
-  "CreatedDate": "2012-03-06T16:32:38.2116027+01:00",
-  "UpdatedDate": "2022-03-20T16:32:38.2116027+01:00",
+  "MimeType": "sunt",
+  "OriginalSize": 287,
+  "CreatedDate": "2006-06-25T17:54:02.6796032+02:00",
+  "UpdatedDate": "2004-03-01T17:54:02.6796032+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aliquam",
+  "ConceptualType": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 505
+      "FieldType": "System.Int32",
+      "FieldLength": 123
     }
   }
 }

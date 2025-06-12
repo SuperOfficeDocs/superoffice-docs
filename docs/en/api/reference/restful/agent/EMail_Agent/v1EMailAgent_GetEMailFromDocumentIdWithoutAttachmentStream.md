@@ -104,7 +104,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 173
+  "DocumentId": 234
 }
 ```
 
@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 414,
-      "ContactName": "Gulgowski-Bergnaum",
-      "PersonId": 736,
-      "PersonName": "Reichel, Sawayn and Erdman",
-      "AssociateId": 208,
-      "Address": "quis",
-      "EmailId": 171,
+      "ContactId": 847,
+      "ContactName": "Casper-Oberbrunner",
+      "PersonId": 803,
+      "PersonName": "Greenfelder-Green",
+      "AssociateId": 435,
+      "Address": "id",
+      "EmailId": 261,
       "DuplicatePersonIds": [
-        716,
-        769
+        14,
+        553
       ],
-      "Name": "Ryan, Rath and Roob",
+      "Name": "Boyle Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 451
+          "FieldLength": 768
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 220,
-      "ContactName": "Predovic Inc and Sons",
-      "PersonId": 750,
-      "PersonName": "Armstrong Inc and Sons",
-      "AssociateId": 295,
-      "Address": "quia",
-      "EmailId": 405,
+      "ContactId": 708,
+      "ContactName": "Kuvalis, Witting and Medhurst",
+      "PersonId": 15,
+      "PersonName": "Gulgowski Inc and Sons",
+      "AssociateId": 411,
+      "Address": "et",
+      "EmailId": 307,
       "DuplicatePersonIds": [
-        307,
-        717
+        950,
+        683
       ],
-      "Name": "Robel, Oberbrunner and Brakus",
+      "Name": "Conroy Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 484
+          "FieldType": "System.Int32",
+          "FieldLength": 50
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 78,
-      "ContactName": "Crona-White",
-      "PersonId": 176,
-      "PersonName": "Kihn, Bechtelar and Sporer",
-      "AssociateId": 37,
-      "Address": "modi",
-      "EmailId": 415,
+      "ContactId": 807,
+      "ContactName": "Douglas Inc and Sons",
+      "PersonId": 484,
+      "PersonName": "Williamson Inc and Sons",
+      "AssociateId": 716,
+      "Address": "sint",
+      "EmailId": 422,
       "DuplicatePersonIds": [
-        608,
-        369
+        491,
+        239
       ],
-      "Name": "Pollich, Spinka and Rowe",
+      "Name": "Littel-Osinski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 750
+          "FieldType": "System.String",
+          "FieldLength": 344
         }
       }
     }
   ],
-  "Subject": "dolores",
+  "Subject": "molestiae",
   "HTMLBody": "veniam",
   "From": null,
-  "Sent": "2004-07-17T16:32:38.9770531+02:00",
-  "Size": 305,
+  "Sent": "2025-03-28T17:54:03.0702097+01:00",
+  "Size": 759,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "nisi",
-  "PlainBody": "non",
-  "IsSent": true,
+  "MessageID": "hic",
+  "PlainBody": "corrupti",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 784,
+  "ServerId": 323,
   "Attachments": [
     {
-      "Description": "Ergonomic motivating task-force",
-      "Filename": "earum",
-      "Size": 857,
-      "Type": "tempore",
-      "Encoding": "ipsam",
+      "Description": "Realigned content-based knowledge user",
+      "Filename": "ab",
+      "Size": 24,
+      "Type": "saepe",
+      "Encoding": "iusto",
       "Id": "ut",
-      "Disposition": "voluptatem",
-      "IsSafeFileExtension": true,
+      "Disposition": "esse",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 194
+          "FieldLength": 850
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Green Group",
+      "Name": "Bins LLC",
       "Values": [
-        "saepe",
-        "veritatis"
+        "quas",
+        "non"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 605
+          "FieldLength": 192
         }
       }
     },
     {
-      "Name": "Green Group",
+      "Name": "Bins LLC",
       "Values": [
-        "saepe",
-        "veritatis"
+        "quas",
+        "non"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 605
+          "FieldLength": 192
         }
       }
     }
   ],
-  "FolderName": "Bayer-Gusikowski",
-  "EmailItemId": 723,
-  "AccountId": 668,
-  "ReceivedAt": "2021-10-21T16:32:38.9770531+02:00",
+  "FolderName": "Bartoletti, Wintheiser and Shanahan",
+  "EmailItemId": 422,
+  "AccountId": 405,
+  "ReceivedAt": "2002-04-20T17:54:03.0702097+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2008-03-09T16:32:38.9770531+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2002-06-15T17:54:03.0702097+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 497
+      "FieldType": "System.Int32",
+      "FieldLength": 153
     }
   }
 }

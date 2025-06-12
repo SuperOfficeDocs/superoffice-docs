@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=reiciendis
+GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=voluptas
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 241,
-    "Name": "Boehm, Towne and Kohler",
-    "ToolTip": "Ut quia harum rerum.",
-    "Deleted": false,
-    "Rank": 570,
-    "Type": "ut",
+    "Id": 172,
+    "Name": "Champlin LLC",
+    "ToolTip": "Doloribus omnis dolor ut ducimus illum quasi.",
+    "Deleted": true,
+    "Rank": 488,
+    "Type": "laboriosam",
     "ChildItems": [
       {
-        "Id": 213,
-        "Name": "Botsford-Parisian",
-        "ToolTip": "Asperiores natus quasi natus quis dolores.",
+        "Id": 222,
+        "Name": "Fay Inc and Sons",
+        "ToolTip": "Doloremque quo praesentium consequuntur id aut quasi libero.",
         "Deleted": false,
-        "Rank": 226,
-        "Type": "maxime",
+        "Rank": 31,
+        "Type": "placeat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eveniet",
-        "ColorBlock": 249,
-        "ExtraInfo": "minus",
-        "StyleHint": "voluptas",
-        "FullName": "Jeremy Turcotte",
+        "IconHint": "architecto",
+        "ColorBlock": 314,
+        "ExtraInfo": "ratione",
+        "StyleHint": "et",
+        "FullName": "Erin Jewess",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 514
+            "FieldLength": 994
           }
         }
       }
     ],
-    "IconHint": "vel",
-    "ColorBlock": 842,
-    "ExtraInfo": "illo",
-    "StyleHint": "architecto",
-    "FullName": "Mrs. Rosendo Weissnat MD",
+    "IconHint": "sed",
+    "ColorBlock": 363,
+    "ExtraInfo": "sint",
+    "StyleHint": "et",
+    "FullName": "Zion Erling Kuhn Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 86
+        "FieldLength": 334
       }
     }
   }

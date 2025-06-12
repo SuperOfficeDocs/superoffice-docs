@@ -65,14 +65,14 @@ No Content
 POST /api/v1/Agents/FreeText/FreetextIndexRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Wilderman-Zieme",
+  "TableName": "Moore, Mann and Blanda",
   "IDs": [
-    724,
-    784
+    488,
+    513
   ]
 }
 ```

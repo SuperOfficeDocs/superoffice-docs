@@ -17,27 +17,24 @@ items:
   nameWithType: ConfigFile.Webhooks
   fullName: SuperOffice.Configuration.ConfigFile.Webhooks
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nConfigure webhooks - broadcast events to remote servers.\n"
+  summary: Configure webhooks - broadcast events to remote servers.
+  example: []
   syntax:
-    content: 'public static class Webhooks : Object'
-    content.vb: >-
-      Public Module Webhooks
-          Inherits Object
+    content: public static class ConfigFile.Webhooks
+    content.vb: Public Module ConfigFile.Webhooks
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.Configuration.ConfigFile.Webhooks.EnableWebhooks
   commentId: P:SuperOffice.Configuration.ConfigFile.Webhooks.EnableWebhooks
   id: EnableWebhooks
@@ -49,13 +46,11 @@ items:
   nameWithType: ConfigFile.Webhooks.EnableWebhooks
   fullName: SuperOffice.Configuration.ConfigFile.Webhooks.EnableWebhooks
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nBroadcast events to remote servers. Default false.\n"
+  summary: Broadcast events to remote servers. Default false.
+  example: []
   syntax:
     content: public static bool EnableWebhooks { get; set; }
     parameters: []
@@ -63,14 +58,6 @@ items:
       type: System.Boolean
     content.vb: Public Shared Property EnableWebhooks As Boolean
   overload: SuperOffice.Configuration.ConfigFile.Webhooks.EnableWebhooks*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Webhooks.RequireHttps
   commentId: P:SuperOffice.Configuration.ConfigFile.Webhooks.RequireHttps
   id: RequireHttps
@@ -82,13 +69,11 @@ items:
   nameWithType: ConfigFile.Webhooks.RequireHttps
   fullName: SuperOffice.Configuration.ConfigFile.Webhooks.RequireHttps
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nRequire webhooks target URLs use HTTPS protocol. Should only be turned off during development. Default true.\n"
+  summary: Require webhooks target URLs use HTTPS protocol. Should only be turned off during development. Default true.
+  example: []
   syntax:
     content: public static bool RequireHttps { get; set; }
     parameters: []
@@ -96,14 +81,6 @@ items:
       type: System.Boolean
     content.vb: Public Shared Property RequireHttps As Boolean
   overload: SuperOffice.Configuration.ConfigFile.Webhooks.RequireHttps*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Webhooks.ValidateHttps
   commentId: P:SuperOffice.Configuration.ConfigFile.Webhooks.ValidateHttps
   id: ValidateHttps
@@ -115,13 +92,11 @@ items:
   nameWithType: ConfigFile.Webhooks.ValidateHttps
   fullName: SuperOffice.Configuration.ConfigFile.Webhooks.ValidateHttps
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nRequire valid public HTTPS certificates. Self-signed or expired certs on webhook target URLs are refused. Should only be turned off during development. Default true.\n"
+  summary: Require valid public HTTPS certificates. Self-signed or expired certs on webhook target URLs are refused. Should only be turned off during development. Default true.
+  example: []
   syntax:
     content: public static bool ValidateHttps { get; set; }
     parameters: []
@@ -129,14 +104,6 @@ items:
       type: System.Boolean
     content.vb: Public Shared Property ValidateHttps As Boolean
   overload: SuperOffice.Configuration.ConfigFile.Webhooks.ValidateHttps*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Webhooks.NumThreads
   commentId: P:SuperOffice.Configuration.ConfigFile.Webhooks.NumThreads
   id: NumThreads
@@ -148,13 +115,11 @@ items:
   nameWithType: ConfigFile.Webhooks.NumThreads
   fullName: SuperOffice.Configuration.ConfigFile.Webhooks.NumThreads
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nHow many background threads to run for dispatching webhooks. Default 0 = scale automatically according to demand.\n"
+  summary: How many background threads to run for dispatching webhooks. Default 0 = scale automatically according to demand.
+  example: []
   syntax:
     content: public static int NumThreads { get; set; }
     parameters: []
@@ -162,14 +127,6 @@ items:
       type: System.Int32
     content.vb: Public Shared Property NumThreads As Integer
   overload: SuperOffice.Configuration.ConfigFile.Webhooks.NumThreads*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Webhooks.Timeout
   commentId: P:SuperOffice.Configuration.ConfigFile.Webhooks.Timeout
   id: Timeout
@@ -181,13 +138,11 @@ items:
   nameWithType: ConfigFile.Webhooks.Timeout
   fullName: SuperOffice.Configuration.ConfigFile.Webhooks.Timeout
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nStop background threads after X number of seconds of idle time. Default 30 seconds.\n"
+  summary: Stop background threads after X number of seconds of idle time. Default 30 seconds.
+  example: []
   syntax:
     content: public static int Timeout { get; set; }
     parameters: []
@@ -195,37 +150,275 @@ items:
       type: System.Int32
     content.vb: Public Shared Property Timeout As Integer
   overload: SuperOffice.Configuration.ConfigFile.Webhooks.Timeout*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Shared
 references:
 - uid: SuperOffice.Configuration
   commentId: N:SuperOffice.Configuration
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Configuration
   nameWithType: SuperOffice.Configuration
   fullName: SuperOffice.Configuration
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Configuration.ConfigFile.Webhooks.EnableWebhooks*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Webhooks.EnableWebhooks
   isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.Webhooks.html#SuperOffice_Configuration_ConfigFile_Webhooks_EnableWebhooks
   name: EnableWebhooks
   nameWithType: ConfigFile.Webhooks.EnableWebhooks
   fullName: SuperOffice.Configuration.ConfigFile.Webhooks.EnableWebhooks
@@ -233,24 +426,31 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.Configuration.ConfigFile.Webhooks.RequireHttps*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Webhooks.RequireHttps
   isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.Webhooks.html#SuperOffice_Configuration_ConfigFile_Webhooks_RequireHttps
   name: RequireHttps
   nameWithType: ConfigFile.Webhooks.RequireHttps
   fullName: SuperOffice.Configuration.ConfigFile.Webhooks.RequireHttps
 - uid: SuperOffice.Configuration.ConfigFile.Webhooks.ValidateHttps*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Webhooks.ValidateHttps
   isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.Webhooks.html#SuperOffice_Configuration_ConfigFile_Webhooks_ValidateHttps
   name: ValidateHttps
   nameWithType: ConfigFile.Webhooks.ValidateHttps
   fullName: SuperOffice.Configuration.ConfigFile.Webhooks.ValidateHttps
 - uid: SuperOffice.Configuration.ConfigFile.Webhooks.NumThreads*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Webhooks.NumThreads
   isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.Webhooks.html#SuperOffice_Configuration_ConfigFile_Webhooks_NumThreads
   name: NumThreads
   nameWithType: ConfigFile.Webhooks.NumThreads
   fullName: SuperOffice.Configuration.ConfigFile.Webhooks.NumThreads
@@ -258,12 +458,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.Configuration.ConfigFile.Webhooks.Timeout*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Webhooks.Timeout
   isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.Webhooks.html#SuperOffice_Configuration_ConfigFile_Webhooks_Timeout
   name: Timeout
   nameWithType: ConfigFile.Webhooks.Timeout
   fullName: SuperOffice.Configuration.ConfigFile.Webhooks.Timeout

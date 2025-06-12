@@ -10,7 +10,6 @@
 | Earning | saea | Sale earning |
 | EarningPercent | saep | Sale earning percent |
 | HasStakeholders | sste | Is Stakeholders enabled on this sale. Translated "Yes" or "No". |
-| Id | said | Sale ID |
 | InfoText | sanf | Sale Info text |
 | IsGuided | sgui | Is the sale guided? "Yes" or "No". |
 | Number | sanu | Sale number |

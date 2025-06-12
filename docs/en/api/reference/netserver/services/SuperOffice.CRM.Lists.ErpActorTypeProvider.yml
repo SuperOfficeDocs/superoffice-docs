@@ -1,0 +1,264 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Lists.ErpActorTypeProvider
+  commentId: T:SuperOffice.CRM.Lists.ErpActorTypeProvider
+  id: ErpActorTypeProvider
+  parent: SuperOffice.CRM.Lists
+  children:
+  - SuperOffice.CRM.Lists.ErpActorTypeProvider.#ctor
+  - SuperOffice.CRM.Lists.ErpActorTypeProvider.AddItemsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.ErpActorTypeProvider.ProviderName
+  langs:
+  - csharp
+  - vb
+  name: ErpActorTypeProvider
+  nameWithType: ErpActorTypeProvider
+  fullName: SuperOffice.CRM.Lists.ErpActorTypeProvider
+  type: Class
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Lists
+  summary: >-
+    List of ERP actor types.
+
+    Supported values in the AdditionalInfo:
+
+    <ul><li><span class="term">crmactortype</span>Enum for looking up matching ERP actor types in table</li><li><span class="term">connectionid</span>Only return ERP actor types supported by this connection</li></ul>
+
+    <example>AdditionalInfo string: "crmactortype=1&amp;connectionid=1"</example>
+  example: []
+  syntax:
+    content: 'public class ErpActorTypeProvider : LiteralsOnlyBase'
+    content.vb: Public Class ErpActorTypeProvider Inherits LiteralsOnlyBase
+  inheritance:
+  - System.Object
+- uid: SuperOffice.CRM.Lists.ErpActorTypeProvider.ProviderName
+  commentId: F:SuperOffice.CRM.Lists.ErpActorTypeProvider.ProviderName
+  id: ProviderName
+  parent: SuperOffice.CRM.Lists.ErpActorTypeProvider
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: ErpActorTypeProvider.ProviderName
+  fullName: SuperOffice.CRM.Lists.ErpActorTypeProvider.ProviderName
+  type: Field
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Lists
+  summary: The name of the provider.
+  example: []
+  syntax:
+    content: public const string ProviderName = "ErpActorType"
+    return:
+      type: System.String
+    content.vb: Public Const ProviderName As String = "ErpActorType"
+- uid: SuperOffice.CRM.Lists.ErpActorTypeProvider.AddItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ErpActorTypeProvider.AddItemsAsync(System.Threading.CancellationToken)
+  id: AddItemsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.ErpActorTypeProvider
+  langs:
+  - csharp
+  - vb
+  name: AddItemsAsync(CancellationToken)
+  nameWithType: ErpActorTypeProvider.AddItemsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ErpActorTypeProvider.AddItemsAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Lists
+  example: []
+  syntax:
+    content: protected override Task AddItemsAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function AddItemsAsync(cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.CRM.Lists.ErpActorTypeProvider.AddItemsAsync*
+- uid: SuperOffice.CRM.Lists.ErpActorTypeProvider.#ctor
+  commentId: M:SuperOffice.CRM.Lists.ErpActorTypeProvider.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Lists.ErpActorTypeProvider
+  langs:
+  - csharp
+  - vb
+  name: ErpActorTypeProvider()
+  nameWithType: ErpActorTypeProvider.ErpActorTypeProvider()
+  fullName: SuperOffice.CRM.Lists.ErpActorTypeProvider.ErpActorTypeProvider()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public ErpActorTypeProvider()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Lists.ErpActorTypeProvider.#ctor*
+  nameWithType.vb: ErpActorTypeProvider.New()
+  fullName.vb: SuperOffice.CRM.Lists.ErpActorTypeProvider.New()
+  name.vb: New()
+references:
+- uid: SuperOffice.CRM.Lists
+  commentId: N:SuperOffice.CRM.Lists
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Lists
+  nameWithType: SuperOffice.CRM.Lists
+  fullName: SuperOffice.CRM.Lists
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Lists
+    name: Lists
+    isExternal: true
+    href: SuperOffice.CRM.Lists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Lists
+    name: Lists
+    isExternal: true
+    href: SuperOffice.CRM.Lists.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Lists.ErpActorTypeProvider.AddItemsAsync*
+  commentId: Overload:SuperOffice.CRM.Lists.ErpActorTypeProvider.AddItemsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Lists.ErpActorTypeProvider.html#SuperOffice_CRM_Lists_ErpActorTypeProvider_AddItemsAsync_System_Threading_CancellationToken_
+  name: AddItemsAsync
+  nameWithType: ErpActorTypeProvider.AddItemsAsync
+  fullName: SuperOffice.CRM.Lists.ErpActorTypeProvider.AddItemsAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Lists.ErpActorTypeProvider.#ctor*
+  commentId: Overload:SuperOffice.CRM.Lists.ErpActorTypeProvider.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Lists.ErpActorTypeProvider.html#SuperOffice_CRM_Lists_ErpActorTypeProvider__ctor
+  name: ErpActorTypeProvider
+  nameWithType: ErpActorTypeProvider.ErpActorTypeProvider
+  fullName: SuperOffice.CRM.Lists.ErpActorTypeProvider.ErpActorTypeProvider
+  nameWithType.vb: ErpActorTypeProvider.New
+  fullName.vb: SuperOffice.CRM.Lists.ErpActorTypeProvider.New
+  name.vb: New

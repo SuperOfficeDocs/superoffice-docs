@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ernser, Harber and Bogisich",
+  "Name": "Kassulke LLC",
   "ListEntity": null
 }
 ```
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 609,
-  "Name": "Leannon-Hudson",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 532,
-  "IsCustomList": false,
+  "Id": 116,
+  "Name": "Rosenbaum-Lueilwitz",
+  "Tooltip": "necessitatibus",
+  "Deleted": true,
+  "Rank": 60,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sed",
+  "UseGroupsAndHeadings": false,
+  "ListType": "vero",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 536
+      "FieldType": "System.Int32",
+      "FieldLength": 87
     }
   }
 }

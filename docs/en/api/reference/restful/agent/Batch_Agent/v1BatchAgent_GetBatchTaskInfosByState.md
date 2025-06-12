@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 78,
-    "Name": "Smith LLC",
-    "AssociateId": 489,
-    "DetailsTable": 756,
-    "DetailsRecord": 289,
-    "IsSystemTask": false,
-    "IsInternalTask": false,
+    "Id": 612,
+    "Name": "Bayer Group",
+    "AssociateId": 553,
+    "DetailsTable": 542,
+    "DetailsRecord": 207,
+    "IsSystemTask": true,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "aut",
-      "ParameterObject2": "inventore"
+      "ParameterObject1": "consequuntur",
+      "ParameterObject2": "ab"
     },
-    "LastStarted": "2017-05-19T16:32:38.1959817+02:00",
-    "Created": "2018-08-29T16:32:38.1959817+02:00",
-    "StartCount": 512,
-    "DatabaseSerialNumber": "1003869",
-    "Context": "ea",
-    "Result": "illo",
+    "LastStarted": "2014-07-17T17:54:02.6639794+02:00",
+    "Created": "2017-07-24T17:54:02.6639794+02:00",
+    "StartCount": 447,
+    "DatabaseSerialNumber": "1482886",
+    "Context": "ut",
+    "Result": "ut",
     "State": "All",
-    "Description": "Compatible transitional service-desk",
-    "Response": "illum",
-    "Request": "hic",
-    "ProgressDescription": "Team-oriented fresh-thinking structure",
-    "ProgressPercent": 827,
-    "FileName": "Boyle, Will and Daugherty",
+    "Description": "Seamless 24/7 neural-net",
+    "Response": "ipsam",
+    "Request": "tenetur",
+    "ProgressDescription": "Team-oriented tangible Graphic Interface",
+    "ProgressPercent": 384,
+    "FileName": "Upton, Upton and Lemke",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 217
+        "FieldLength": 712
       }
     }
   }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Paucek LLC"
+  "Name": "Runte-Kulas"
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 506,
-    "Name": "Bosco, Kozey and Goodwin",
-    "Tooltip": "nobis",
-    "Deleted": true,
-    "Rank": 94,
-    "UdListDefinitionId": 496,
+    "HeadingId": 849,
+    "Name": "Fay-Balistreri",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 427,
+    "UdListDefinitionId": 688,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 299
+        "FieldLength": 793
       }
     }
   }

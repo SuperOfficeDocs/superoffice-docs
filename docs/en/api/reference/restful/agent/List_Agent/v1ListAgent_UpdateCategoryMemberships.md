@@ -67,39 +67,39 @@ No Content
 POST /api/v1/Agents/List/UpdateCategoryMemberships
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 263,
+  "TicketCategoryId": 354,
   "MembershipsToAdd": [
     {
       "User": null,
-      "Weight": 561
+      "Weight": 720
     },
     {
       "User": null,
-      "Weight": 561
+      "Weight": 720
     }
   ],
   "MembershipsToUpdate": [
     {
       "User": null,
-      "Weight": 368
+      "Weight": 34
     },
     {
       "User": null,
-      "Weight": 368
+      "Weight": 34
     }
   ],
   "MembershipsToDelete": [
     {
       "User": null,
-      "Weight": 386
+      "Weight": 280
     },
     {
       "User": null,
-      "Weight": 386
+      "Weight": 280
     }
   ]
 }

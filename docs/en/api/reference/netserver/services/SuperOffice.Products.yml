@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Products
+  commentId: N:SuperOffice.Products
+  id: SuperOffice.Products
+  children:
+  - SuperOffice.Products.NetServerLocalServices
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Products
+  nameWithType: SuperOffice.Products
+  fullName: SuperOffice.Products
+  type: Namespace
+  assemblies:
+  - SuperOffice.Services.Implementation
+references:
+- uid: SuperOffice.Products.NetServerLocalServices
+  commentId: T:SuperOffice.Products.NetServerLocalServices
+  isExternal: true
+  href: SuperOffice.Products.NetServerLocalServices.html
+  name: NetServerLocalServices
+  nameWithType: NetServerLocalServices
+  fullName: SuperOffice.Products.NetServerLocalServices

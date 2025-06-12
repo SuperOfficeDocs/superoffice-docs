@@ -88,7 +88,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 802,
-    "ColumnId": 260,
-    "FieldDefault": "aut",
-    "FieldHeight": 223,
-    "FieldLabel": "autem",
-    "FieldLeft": 457,
-    "FieldTop": 327,
+    "UDefFieldId": 704,
+    "ColumnId": 433,
+    "FieldDefault": "et",
+    "FieldHeight": 423,
+    "FieldLabel": "aut",
+    "FieldLeft": 135,
+    "FieldTop": 700,
     "FieldType": "Checkbox",
-    "FieldWidth": 177,
-    "FormatMask": "consequuntur",
+    "FieldWidth": 578,
+    "FormatMask": "vel",
     "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 498,
-    "LabelLeft": 418,
-    "LabelTop": 524,
-    "LabelWidth": 890,
-    "LastVersionId": 558,
-    "ListTableId": 821,
+    "LabelHeight": 43,
+    "LabelLeft": 234,
+    "LabelTop": 313,
+    "LabelWidth": 986,
+    "LastVersionId": 352,
+    "ListTableId": 458,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 409,
-    "ProgId": "sunt",
-    "IsReadOnly": true,
-    "ShortLabel": "molestiae",
-    "TabOrder": 866,
-    "TextLength": 409,
-    "Tooltip": "id",
-    "UdefIdentity": 306,
-    "UDListDefinitionId": 763,
+    "Page1LineNo": 625,
+    "ProgId": "dolorem",
+    "IsReadOnly": false,
+    "ShortLabel": "iste",
+    "TabOrder": 717,
+    "TextLength": 389,
+    "Tooltip": "quos",
+    "UdefIdentity": 755,
+    "UDListDefinitionId": 79,
     "Justification": "Center",
-    "Version": 108,
-    "TemplateVariableName": "Morissette, Ondricka and Gaylord",
-    "HasBeenPublished": false,
-    "MdoListName": "Runolfsson-Weimann",
+    "Version": 944,
+    "TemplateVariableName": "Adams-Labadie",
+    "HasBeenPublished": true,
+    "MdoListName": "Kilback-Deckow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 451
+        "FieldLength": 867
       }
     }
   }

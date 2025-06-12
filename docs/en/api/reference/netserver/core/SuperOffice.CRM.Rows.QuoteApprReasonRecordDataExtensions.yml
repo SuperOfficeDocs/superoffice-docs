@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.QuoteApprReasonTableInfo})
   - SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteApprReasonTableInfo})
-  - SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteApprReasonRecordData)
-  - SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteApprReasonRecordData})
+  - SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteApprReasonTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuoteApprReasonRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteApprReasonRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.QuoteApprReasonRow)
   langs:
   - csharp
@@ -17,71 +18,76 @@ items:
   nameWithType: QuoteApprReasonRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nExtension methods to make it easy to fetch <xref href=\"SuperOffice.CRM.Rows.QuoteApprReasonRecordData\" data-throw-if-not-resolved=\"false\"></xref> objects from the database,\nusing the <see cref=\"!:TargetedSelect\"></see> infrastructure\n"
+  summary: >-
+    Extension methods to make it easy to fetch <xref href="SuperOffice.CRM.Rows.QuoteApprReasonRecordData" data-throw-if-not-resolved="false"></xref> objects from the database,
+
+    using the TargetedSelect infrastructure
+  example: []
   syntax:
-    content: 'public static class QuoteApprReasonRecordDataExtensions : Object'
-    content.vb: >-
-      Public Module QuoteApprReasonRecordDataExtensions
-          Inherits Object
+    content: public static class QuoteApprReasonRecordDataExtensions
+    content.vb: Public Module QuoteApprReasonRecordDataExtensions
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
-- uid: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteApprReasonTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteApprReasonTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteApprReasonTableInfo})
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteApprReasonTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteApprReasonTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteApprReasonTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<QuoteApprReasonTableInfo>)
-  nameWithType: QuoteApprReasonRecordDataExtensions.FromSelect(TargetedSelect<QuoteApprReasonTableInfo>)
-  fullName: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.QuoteApprReasonTableInfo>)
+  name: FromSelectAsync(TargetedSelect<QuoteApprReasonTableInfo>, CancellationToken)
+  nameWithType: QuoteApprReasonRecordDataExtensions.FromSelectAsync(TargetedSelect<QuoteApprReasonTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.QuoteApprReasonTableInfo>, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nFrom a TargetedSelect&lt;QuoteApprReasonTableInfo>, execute it and return an IEnumerable&lt;QuoteApprReasonRecordData> with the results\n"
+  summary: From a TargetedSelect&lt;QuoteApprReasonTableInfo&gt;, execute it and return an IEnumerable&lt;QuoteApprReasonRecordData&gt; with the results
   example:
   - >-
-    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
-                var result = s.FromSelect();</code></pre>
+    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
+
+    var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<QuoteApprReasonRecordData> FromSelect(this TargetedSelect<QuoteApprReasonTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<QuoteApprReasonRecordData> FromSelectAsync(this TargetedSelect<QuoteApprReasonTableInfo> select, CancellationToken cancellationToken = default)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteApprReasonTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteApprReasonRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.QuoteApprReasonRecordData}
     content.vb: >-
-      <ExtensionAttribute>
+      <CreateSyncVersion(OmitNullableDirective:=True)>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of QuoteApprReasonTableInfo)) As IEnumerable(Of QuoteApprReasonRecordData)
-  overload: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelect*
-  nameWithType.vb: QuoteApprReasonRecordDataExtensions.FromSelect(TargetedSelect(Of QuoteApprReasonTableInfo))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.QuoteApprReasonTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of QuoteApprReasonTableInfo))
+      Public Shared Function FromSelectAsync([select] As TargetedSelect(Of QuoteApprReasonTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of QuoteApprReasonRecordData)
+  overload: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: QuoteApprReasonRecordDataExtensions.FromSelectAsync(TargetedSelect(Of QuoteApprReasonTableInfo), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.QuoteApprReasonTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of QuoteApprReasonTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.QuoteApprReasonTableInfo})
   commentId: M:SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.QuoteApprReasonTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.QuoteApprReasonTableInfo})
@@ -94,19 +100,19 @@ items:
   nameWithType: QuoteApprReasonRecordDataExtensions.FromRecord(TargetedDataRecord<QuoteApprReasonTableInfo>)
   fullName: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.QuoteApprReasonTableInfo>)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nFrom a TargetedDataRecord&lt;QuoteApprReasonTableInfo>, create and populate a <xref href=\"SuperOffice.CRM.Rows.QuoteApprReasonRecordData\" data-throw-if-not-resolved=\"false\"></xref> POCO object\n"
+  summary: From a TargetedDataRecord&lt;QuoteApprReasonTableInfo&gt;, create and populate a <xref href="SuperOffice.CRM.Rows.QuoteApprReasonRecordData" data-throw-if-not-resolved="false"></xref> POCO object
   example:
   - >-
-    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
-                /* add joins, return fields etc. as you wish */
-                s.ReturnFields.Add(s.Table.All);
-                var result = s.Records().Select(r => new { QuoteApprReasonItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
+    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
+
+    /* add joins, return fields etc. as you wish */
+
+    s.ReturnFields.Add(s.Table.All);
+
+    var result = s.Records().Select(r =&gt; new { QuoteApprReasonItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
   syntax:
     content: public static QuoteApprReasonRecordData FromRecord(this TargetedDataRecord<QuoteApprReasonTableInfo> record)
     parameters:
@@ -114,95 +120,66 @@ items:
       type: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.QuoteApprReasonTableInfo}
     return:
       type: SuperOffice.CRM.Rows.QuoteApprReasonRecordData
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function FromRecord(record As TargetedDataRecord(Of QuoteApprReasonTableInfo)) As QuoteApprReasonRecordData
+    content.vb: Public Shared Function FromRecord(record As TargetedDataRecord(Of QuoteApprReasonTableInfo)) As QuoteApprReasonRecordData
   overload: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromRecord*
   nameWithType.vb: QuoteApprReasonRecordDataExtensions.FromRecord(TargetedDataRecord(Of QuoteApprReasonTableInfo))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
   fullName.vb: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.QuoteApprReasonTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of QuoteApprReasonTableInfo))
-- uid: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteApprReasonRecordData)
-  commentId: M:SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteApprReasonRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.QuoteApprReasonRecordData)
+- uid: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuoteApprReasonRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuoteApprReasonRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.QuoteApprReasonRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(QuoteApprReasonRecordData)
-  nameWithType: QuoteApprReasonRecordDataExtensions.ToInsert(QuoteApprReasonRecordData)
-  fullName: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteApprReasonRecordData)
+  name: ToInsertAsync(QuoteApprReasonRecordData, CancellationToken)
+  nameWithType: QuoteApprReasonRecordDataExtensions.ToInsertAsync(QuoteApprReasonRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuoteApprReasonRecordData, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this QuoteApprReasonRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this QuoteApprReasonRecordData record, CancellationToken cancellationToken = default)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.QuoteApprReasonRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function ToInsert(record As QuoteApprReasonRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInsert*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteApprReasonRecordData})
-  commentId: M:SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteApprReasonRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteApprReasonRecordData})
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+    content.vb: Public Shared Function ToInsertAsync(record As QuoteApprReasonRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInsertAsync*
+- uid: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteApprReasonRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteApprReasonRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteApprReasonRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<QuoteApprReasonRecordData>)
-  nameWithType: QuoteApprReasonRecordDataExtensions.ToInserts(IEnumerable<QuoteApprReasonRecordData>)
-  fullName: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.QuoteApprReasonRecordData>)
+  name: ToInsertsAsync(IEnumerable<QuoteApprReasonRecordData>, CancellationToken)
+  nameWithType: QuoteApprReasonRecordDataExtensions.ToInsertsAsync(IEnumerable<QuoteApprReasonRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.QuoteApprReasonRecordData>, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<QuoteApprReasonRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<QuoteApprReasonRecordData> records, CancellationToken cancellationToken = default)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteApprReasonRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function ToInserts(records As IEnumerable(Of QuoteApprReasonRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInserts*
-  nameWithType.vb: QuoteApprReasonRecordDataExtensions.ToInserts(IEnumerable(Of QuoteApprReasonRecordData))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.QuoteApprReasonRecordData))
-  name.vb: ToInserts(IEnumerable(Of QuoteApprReasonRecordData))
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+    content.vb: Public Shared Function ToInsertsAsync(records As IEnumerable(Of QuoteApprReasonRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: QuoteApprReasonRecordDataExtensions.ToInsertsAsync(IEnumerable(Of QuoteApprReasonRecordData), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.QuoteApprReasonRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of QuoteApprReasonRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.QuoteApprReasonRow)
   commentId: M:SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.QuoteApprReasonRow)
   id: ToRecordData(SuperOffice.CRM.Rows.QuoteApprReasonRow)
@@ -215,9 +192,6 @@ items:
   nameWithType: QuoteApprReasonRecordDataExtensions.ToRecordData(QuoteApprReasonRow)
   fullName: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.QuoteApprReasonRow)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
@@ -228,47 +202,336 @@ items:
       type: SuperOffice.CRM.Rows.QuoteApprReasonRow
     return:
       type: SuperOffice.CRM.Rows.QuoteApprReasonRecordData
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function ToRecordData(row As QuoteApprReasonRow) As QuoteApprReasonRecordData
+    content.vb: Public Shared Function ToRecordData(row As QuoteApprReasonRow) As QuoteApprReasonRecordData
   overload: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToRecordData*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+- uid: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteApprReasonTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteApprReasonTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteApprReasonTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<QuoteApprReasonTableInfo>)
+  nameWithType: QuoteApprReasonRecordDataExtensions.FromSelect(TargetedSelect<QuoteApprReasonTableInfo>)
+  fullName: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.QuoteApprReasonTableInfo>)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: From a TargetedSelect&lt;QuoteApprReasonTableInfo&gt;, execute it and return an IEnumerable&lt;QuoteApprReasonRecordData&gt; with the results
+  example:
+  - >-
+    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
+
+    var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<QuoteApprReasonRecordData> FromSelect(this TargetedSelect<QuoteApprReasonTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteApprReasonTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteApprReasonRecordData}
+    content.vb: Public Shared Function FromSelect([select] As TargetedSelect(Of QuoteApprReasonTableInfo)) As IEnumerable(Of QuoteApprReasonRecordData)
+  overload: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelect*
+  nameWithType.vb: QuoteApprReasonRecordDataExtensions.FromSelect(TargetedSelect(Of QuoteApprReasonTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.QuoteApprReasonTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of QuoteApprReasonTableInfo))
 references:
+- uid: SuperOffice.CRM.Rows.QuoteApprReasonRecordData
+  commentId: T:SuperOffice.CRM.Rows.QuoteApprReasonRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.QuoteApprReasonRecordData.html
+  name: QuoteApprReasonRecordData
+  nameWithType: QuoteApprReasonRecordData
+  fullName: SuperOffice.CRM.Rows.QuoteApprReasonRecordData
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: QuoteApprReasonRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelect
+  href: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.html#SuperOffice_CRM_Rows_QuoteApprReasonRecordDataExtensions_FromSelectAsync_SuperOffice_Data_SQL_TargetedSelect_SuperOffice_CRM_Data_QuoteApprReasonTableInfo__System_Threading_CancellationToken_
+  name: FromSelectAsync
+  nameWithType: QuoteApprReasonRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteApprReasonTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteApprReasonTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedSelect`1
+  href: SuperOffice.Data.SQL.TargetedSelect-1.html
   name: TargetedSelect<QuoteApprReasonTableInfo>
   nameWithType: TargetedSelect<QuoteApprReasonTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.QuoteApprReasonTableInfo>
@@ -278,84 +541,72 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
-    nameWithType: TargetedSelect
-    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.QuoteApprReasonTableInfo
     name: QuoteApprReasonTableInfo
-    nameWithType: QuoteApprReasonTableInfo
-    fullName: SuperOffice.CRM.Data.QuoteApprReasonTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.QuoteApprReasonTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
-    nameWithType: TargetedSelect
-    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.QuoteApprReasonTableInfo
     name: QuoteApprReasonTableInfo
-    nameWithType: QuoteApprReasonTableInfo
-    fullName: SuperOffice.CRM.Data.QuoteApprReasonTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.QuoteApprReasonTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteApprReasonRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteApprReasonRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<QuoteApprReasonRecordData>
-  nameWithType: IEnumerable<QuoteApprReasonRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.QuoteApprReasonRecordData>
-  nameWithType.vb: IEnumerable(Of QuoteApprReasonRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.QuoteApprReasonRecordData)
-  name.vb: IEnumerable(Of QuoteApprReasonRecordData)
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.QuoteApprReasonRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.QuoteApprReasonRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  href: SuperOffice.CRM.Rows.QuoteApprReasonRecordData.html
+  name: IAsyncEnumerable<QuoteApprReasonRecordData>
+  nameWithType: IAsyncEnumerable<QuoteApprReasonRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.QuoteApprReasonRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of QuoteApprReasonRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.QuoteApprReasonRecordData)
+  name.vb: IAsyncEnumerable(Of QuoteApprReasonRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
     isExternal: true
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Rows.QuoteApprReasonRecordData
     name: QuoteApprReasonRecordData
-    nameWithType: QuoteApprReasonRecordData
-    fullName: SuperOffice.CRM.Rows.QuoteApprReasonRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteApprReasonRecordData.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Rows.QuoteApprReasonRecordData
     name: QuoteApprReasonRecordData
-    nameWithType: QuoteApprReasonRecordData
-    fullName: SuperOffice.CRM.Rows.QuoteApprReasonRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteApprReasonRecordData.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedSelect`1
   commentId: T:SuperOffice.Data.SQL.TargetedSelect`1
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.TargetedSelect-1.html
   name: TargetedSelect<MainTableInfo>
   nameWithType: TargetedSelect<MainTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedSelect<MainTableInfo>
@@ -365,80 +616,112 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
-    nameWithType: TargetedSelect
-    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: MainTableInfo
-    nameWithType: MainTableInfo
-    fullName: MainTableInfo
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
-    nameWithType: TargetedSelect
-    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: MainTableInfo
-    nameWithType: MainTableInfo
-    fullName: MainTableInfo
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
-  isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Collections.Generic.IAsyncEnumerable`1
+  isExternal: true
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
     isExternal: true
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+  - name: (
+  - name: Of
+  - name: " "
   - name: ''
-    nameWithType: ''
-    fullName: ''
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromRecord*
   commentId: Overload:SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromRecord
   isExternal: true
+  href: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.html#SuperOffice_CRM_Rows_QuoteApprReasonRecordDataExtensions_FromRecord_SuperOffice_Data_SQL_TargetedDataRecord_SuperOffice_CRM_Data_QuoteApprReasonTableInfo__
   name: FromRecord
   nameWithType: QuoteApprReasonRecordDataExtensions.FromRecord
   fullName: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromRecord
@@ -446,6 +729,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.QuoteApprReasonTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedDataRecord`1
+  href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   name: TargetedDataRecord<QuoteApprReasonTableInfo>
   nameWithType: TargetedDataRecord<QuoteApprReasonTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.QuoteApprReasonTableInfo>
@@ -455,47 +739,31 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
-    nameWithType: TargetedDataRecord
-    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.QuoteApprReasonTableInfo
     name: QuoteApprReasonTableInfo
-    nameWithType: QuoteApprReasonTableInfo
-    fullName: SuperOffice.CRM.Data.QuoteApprReasonTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.QuoteApprReasonTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
-    nameWithType: TargetedDataRecord
-    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.QuoteApprReasonTableInfo
     name: QuoteApprReasonTableInfo
-    nameWithType: QuoteApprReasonTableInfo
-    fullName: SuperOffice.CRM.Data.QuoteApprReasonTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.QuoteApprReasonTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.QuoteApprReasonRecordData
-  commentId: T:SuperOffice.CRM.Rows.QuoteApprReasonRecordData
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  name: QuoteApprReasonRecordData
-  nameWithType: QuoteApprReasonRecordData
-  fullName: SuperOffice.CRM.Rows.QuoteApprReasonRecordData
 - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
   commentId: T:SuperOffice.Data.SQL.TargetedDataRecord`1
   isExternal: true
+  href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   name: TargetedDataRecord<MainTableInfo>
   nameWithType: TargetedDataRecord<MainTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>
@@ -505,98 +773,271 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
-    nameWithType: TargetedDataRecord
-    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: MainTableInfo
-    nameWithType: MainTableInfo
-    fullName: MainTableInfo
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
-    nameWithType: TargetedDataRecord
-    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: MainTableInfo
-    nameWithType: MainTableInfo
-    fullName: MainTableInfo
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: QuoteApprReasonRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
+  href: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.html#SuperOffice_CRM_Rows_QuoteApprReasonRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_QuoteApprReasonRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync
+  nameWithType: QuoteApprReasonRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInserts
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
   isExternal: true
-  name: ToInserts
-  nameWithType: QuoteApprReasonRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.html#SuperOffice_CRM_Rows_QuoteApprReasonRecordDataExtensions_ToInsertsAsync_System_Collections_Generic_IEnumerable_SuperOffice_CRM_Rows_QuoteApprReasonRecordData__System_Threading_CancellationToken_
+  name: ToInsertsAsync
+  nameWithType: QuoteApprReasonRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteApprReasonRecordData}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteApprReasonRecordData}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<QuoteApprReasonRecordData>
+  nameWithType: IEnumerable<QuoteApprReasonRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.QuoteApprReasonRecordData>
+  nameWithType.vb: IEnumerable(Of QuoteApprReasonRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.QuoteApprReasonRecordData)
+  name.vb: IEnumerable(Of QuoteApprReasonRecordData)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.SQL.Insert
-    name: Insert
-    nameWithType: Insert
-    fullName: SuperOffice.Data.SQL.Insert
+  - uid: SuperOffice.CRM.Rows.QuoteApprReasonRecordData
+    name: QuoteApprReasonRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteApprReasonRecordData.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.QuoteApprReasonRecordData
+    name: QuoteApprReasonRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteApprReasonRecordData.html
+  - name: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  href: SuperOffice.Data.SQL.Insert.html
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: <
   - uid: SuperOffice.Data.SQL.Insert
     name: Insert
-    nameWithType: Insert
-    fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToRecordData*
   commentId: Overload:SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToRecordData
   isExternal: true
+  href: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.html#SuperOffice_CRM_Rows_QuoteApprReasonRecordDataExtensions_ToRecordData_SuperOffice_CRM_Rows_QuoteApprReasonRow_
   name: ToRecordData
   nameWithType: QuoteApprReasonRecordDataExtensions.ToRecordData
   fullName: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.ToRecordData
@@ -604,6 +1045,14 @@ references:
   commentId: T:SuperOffice.CRM.Rows.QuoteApprReasonRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.QuoteApprReasonRow.html
   name: QuoteApprReasonRow
   nameWithType: QuoteApprReasonRow
   fullName: SuperOffice.CRM.Rows.QuoteApprReasonRow
+- uid: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelect
+  isExternal: true
+  href: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.html#SuperOffice_CRM_Rows_QuoteApprReasonRecordDataExtensions_FromSelect_SuperOffice_Data_SQL_TargetedSelect_SuperOffice_CRM_Data_QuoteApprReasonTableInfo__
+  name: FromSelect
+  nameWithType: QuoteApprReasonRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.QuoteApprReasonRecordDataExtensions.FromSelect

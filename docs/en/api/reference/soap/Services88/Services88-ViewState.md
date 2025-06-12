@@ -307,6 +307,30 @@ title: Services88.ViewStateAgent WSDL
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetHistoryLengthPrefValue">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetHistoryLengthPrefValueResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetHistoryLengthPrefValue">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Length" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetHistoryLengthPrefValueResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetHistories">
         <xs:complexType>
           <xs:sequence />
@@ -366,30 +390,6 @@ title: Services88.ViewStateAgent WSDL
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfHistory" />
           </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetHistoryLengthPrefValue">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetHistoryLengthPrefValueResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SetHistoryLengthPrefValue">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Length" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SetHistoryLengthPrefValueResponse">
-        <xs:complexType>
-          <xs:sequence />
         </xs:complexType>
       </xs:element>
       <xs:element name="SaveCurrents">
@@ -659,6 +659,40 @@ title: Services88.ViewStateAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetHistoryLengthPrefValueRequest">
+    <wsdl:part name="parameters" element="tns:GetHistoryLengthPrefValue" />
+  </wsdl:message>
+  <wsdl:message name="GetHistoryLengthPrefValueRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetHistoryLengthPrefValueResponse">
+    <wsdl:part name="parameters" element="tns:GetHistoryLengthPrefValueResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetHistoryLengthPrefValueResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetHistoryLengthPrefValueRequest">
+    <wsdl:part name="parameters" element="tns:SetHistoryLengthPrefValue" />
+  </wsdl:message>
+  <wsdl:message name="SetHistoryLengthPrefValueRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetHistoryLengthPrefValueResponse">
+    <wsdl:part name="parameters" element="tns:SetHistoryLengthPrefValueResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetHistoryLengthPrefValueResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetHistoriesRequest">
     <wsdl:part name="parameters" element="tns:GetHistories" />
   </wsdl:message>
@@ -722,40 +756,6 @@ title: Services88.ViewStateAgent WSDL
     <wsdl:part name="parameters" element="tns:SaveHistoriesResponse" />
   </wsdl:message>
   <wsdl:message name="SaveHistoriesResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetHistoryLengthPrefValueRequest">
-    <wsdl:part name="parameters" element="tns:GetHistoryLengthPrefValue" />
-  </wsdl:message>
-  <wsdl:message name="GetHistoryLengthPrefValueRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetHistoryLengthPrefValueResponse">
-    <wsdl:part name="parameters" element="tns:GetHistoryLengthPrefValueResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetHistoryLengthPrefValueResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SetHistoryLengthPrefValueRequest">
-    <wsdl:part name="parameters" element="tns:SetHistoryLengthPrefValue" />
-  </wsdl:message>
-  <wsdl:message name="SetHistoryLengthPrefValueRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SetHistoryLengthPrefValueResponse">
-    <wsdl:part name="parameters" element="tns:SetHistoryLengthPrefValueResponse" />
-  </wsdl:message>
-  <wsdl:message name="SetHistoryLengthPrefValueResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -841,6 +841,14 @@ title: Services88.ViewStateAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/DeleteHistory" name="DeleteHistoryRequest" message="tns:DeleteHistoryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/DeleteHistoryResponse" name="DeleteHistoryResponse" message="tns:DeleteHistoryResponse" />
     </wsdl:operation>
+    <wsdl:operation name="GetHistoryLengthPrefValue">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/GetHistoryLengthPrefValue" name="GetHistoryLengthPrefValueRequest" message="tns:GetHistoryLengthPrefValueRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/GetHistoryLengthPrefValueResponse" name="GetHistoryLengthPrefValueResponse" message="tns:GetHistoryLengthPrefValueResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SetHistoryLengthPrefValue">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/SetHistoryLengthPrefValue" name="SetHistoryLengthPrefValueRequest" message="tns:SetHistoryLengthPrefValueRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/SetHistoryLengthPrefValueResponse" name="SetHistoryLengthPrefValueResponse" message="tns:SetHistoryLengthPrefValueResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetHistories">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/GetHistories" name="GetHistoriesRequest" message="tns:GetHistoriesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/GetHistoriesResponse" name="GetHistoriesResponse" message="tns:GetHistoriesResponse" />
@@ -856,14 +864,6 @@ title: Services88.ViewStateAgent WSDL
     <wsdl:operation name="SaveHistories">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/SaveHistories" name="SaveHistoriesRequest" message="tns:SaveHistoriesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/SaveHistoriesResponse" name="SaveHistoriesResponse" message="tns:SaveHistoriesResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetHistoryLengthPrefValue">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/GetHistoryLengthPrefValue" name="GetHistoryLengthPrefValueRequest" message="tns:GetHistoryLengthPrefValueRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/GetHistoryLengthPrefValueResponse" name="GetHistoryLengthPrefValueResponse" message="tns:GetHistoryLengthPrefValueResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="SetHistoryLengthPrefValue">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/SetHistoryLengthPrefValue" name="SetHistoryLengthPrefValueRequest" message="tns:SetHistoryLengthPrefValueRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/SetHistoryLengthPrefValueResponse" name="SetHistoryLengthPrefValueResponse" message="tns:SetHistoryLengthPrefValueResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveCurrents">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/SaveCurrents" name="SaveCurrentsRequest" message="tns:SaveCurrentsRequest" />
@@ -992,6 +992,38 @@ title: Services88.ViewStateAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="GetHistoryLengthPrefValue">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/GetHistoryLengthPrefValue" style="document" />
+      <wsdl:input name="GetHistoryLengthPrefValueRequest">
+        <soap:header message="tns:GetHistoryLengthPrefValueRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetHistoryLengthPrefValueRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetHistoryLengthPrefValueRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetHistoryLengthPrefValueResponse">
+        <soap:header message="tns:GetHistoryLengthPrefValueResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetHistoryLengthPrefValueResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetHistoryLengthPrefValueResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetHistoryLengthPrefValueResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetHistoryLengthPrefValue">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/SetHistoryLengthPrefValue" style="document" />
+      <wsdl:input name="SetHistoryLengthPrefValueRequest">
+        <soap:header message="tns:SetHistoryLengthPrefValueRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SetHistoryLengthPrefValueRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SetHistoryLengthPrefValueRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SetHistoryLengthPrefValueResponse">
+        <soap:header message="tns:SetHistoryLengthPrefValueResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SetHistoryLengthPrefValueResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SetHistoryLengthPrefValueResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SetHistoryLengthPrefValueResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="GetHistories">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/GetHistories" style="document" />
       <wsdl:input name="GetHistoriesRequest">
@@ -1053,38 +1085,6 @@ title: Services88.ViewStateAgent WSDL
         <soap:header message="tns:SaveHistoriesResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SaveHistoriesResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SaveHistoriesResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetHistoryLengthPrefValue">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/GetHistoryLengthPrefValue" style="document" />
-      <wsdl:input name="GetHistoryLengthPrefValueRequest">
-        <soap:header message="tns:GetHistoryLengthPrefValueRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetHistoryLengthPrefValueRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetHistoryLengthPrefValueRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetHistoryLengthPrefValueResponse">
-        <soap:header message="tns:GetHistoryLengthPrefValueResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetHistoryLengthPrefValueResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetHistoryLengthPrefValueResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetHistoryLengthPrefValueResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="SetHistoryLengthPrefValue">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/SetHistoryLengthPrefValue" style="document" />
-      <wsdl:input name="SetHistoryLengthPrefValueRequest">
-        <soap:header message="tns:SetHistoryLengthPrefValueRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SetHistoryLengthPrefValueRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SetHistoryLengthPrefValueRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SetHistoryLengthPrefValueResponse">
-        <soap:header message="tns:SetHistoryLengthPrefValueResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SetHistoryLengthPrefValueResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SetHistoryLengthPrefValueResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SetHistoryLengthPrefValueResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

@@ -57,6 +57,7 @@ Implementation of the provider for the combined selection
 |selectionAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |selectionAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |selectionAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|selectionAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |selectionAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |selectionAssociate/contactCategory|listAny|Category: Category| x |
 |selectionAssociate/role|listAny|Role : Role| x |
@@ -81,7 +82,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionSelectionCombinedV2?$select=registeredByFullName,lastLoadedByFullName,selectionAssociate/contactId
+GET /api/v1/archive/SelectionSelectionCombinedV2?$select=visibleFor,lastMembershipChange,selectionAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

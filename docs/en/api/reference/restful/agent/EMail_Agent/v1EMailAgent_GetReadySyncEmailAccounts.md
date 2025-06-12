@@ -10,7 +10,7 @@ generated: true
 POST /api/v1/Agents/EMail/GetReadySyncEmailAccounts
 ```
 
-Gets the list of SyncUserAccounts that should be synced.
+Gets the list of SyncUserAccounts that should be synced, from mail server to SuperOffice database cache.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/EMail/GetReadySyncEmailAccounts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,28 +80,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AccountId": 678,
-    "AssociateName": "Goldner-O'Conner",
-    "AssociateId": 155,
+    "AccountId": 278,
+    "AssociateName": "Gerhold-Towne",
+    "AssociateId": 288,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 948
+        "FieldLength": 650
       }
     }
   },
   {
-    "AccountId": 678,
-    "AssociateName": "Goldner-O'Conner",
-    "AssociateId": 155,
+    "AccountId": 278,
+    "AssociateName": "Gerhold-Towne",
+    "AssociateId": 288,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 948
+        "FieldLength": 650
       }
     }
   }

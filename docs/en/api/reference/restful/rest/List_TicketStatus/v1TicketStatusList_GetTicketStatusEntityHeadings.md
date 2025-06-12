@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 643,
-    "Name": "Grimes, Gutkowski and Collier",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 430,
-    "UdListDefinitionId": 286,
+    "HeadingId": 234,
+    "Name": "Miller-Torphy",
+    "Tooltip": "eum",
+    "Deleted": false,
+    "Rank": 465,
+    "UdListDefinitionId": 607,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 779
+        "FieldType": "System.Int32",
+        "FieldLength": 403
       }
     }
   }

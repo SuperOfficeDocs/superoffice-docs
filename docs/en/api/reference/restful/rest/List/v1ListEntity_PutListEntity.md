@@ -101,15 +101,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 561,
-  "Name": "McCullough LLC",
-  "Tooltip": "eveniet",
-  "Deleted": false,
-  "Rank": 18,
-  "IsCustomList": false,
+  "Id": 612,
+  "Name": "Johnston-Grant",
+  "Tooltip": "ea",
+  "Deleted": true,
+  "Rank": 928,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quam",
+  "ListType": "suscipit",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -121,22 +121,22 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 360,
-  "Name": "Schmitt Group",
-  "Tooltip": "dolor",
-  "Deleted": false,
-  "Rank": 478,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 863,
+  "Name": "Senger, Bogisich and Morissette",
+  "Tooltip": "dolorum",
+  "Deleted": true,
+  "Rank": 310,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
-  "InUseByUserDefinedFields": false,
+  "ListType": "tempora",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 328
+      "FieldType": "System.String",
+      "FieldLength": 741
     }
   },
   "_Links": {

@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 394,
-  "ERPQuoteAlternativeKey": "porro",
-  "QuoteVersionId": 3,
-  "Name": "Goyette Group",
-  "Description": "Implemented uniform projection",
+  "QuoteAlternativeId": 173,
+  "ERPQuoteAlternativeKey": "delectus",
+  "QuoteVersionId": 666,
+  "Name": "Schuppe, Goyette and Green",
+  "Description": "Persistent object-oriented definition",
   "Status": "Error",
-  "Reason": "",
-  "ERPDiscountPercent": 1980.6879999999999,
-  "ERPDiscountAmount": 30769.611999999997,
-  "DiscountPercent": 19186.347999999998,
-  "DiscountAmount": 21035.408,
+  "Reason": "reintermediate cross-platform communities",
+  "ERPDiscountPercent": 25297.647999999997,
+  "ERPDiscountAmount": 4199.5599999999995,
+  "DiscountPercent": 24583.095999999998,
+  "DiscountAmount": 18995.174,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "aut",
-  "VAT": 14331.782,
-  "EarningPercent": 20016.858,
-  "EarningAmount": 20518.298,
-  "SubTotal": 11385.822,
-  "TotalPrice": 29572.424,
-  "ExtraField1": "ipsa",
-  "ExtraField2": "maiores",
-  "ExtraField3": "eveniet",
-  "ExtraField4": "minima",
-  "ExtraField5": "sit",
+  "VATInfo": "dignissimos",
+  "VAT": 21916.061999999998,
+  "EarningPercent": 5700.746,
+  "EarningAmount": 4149.416,
+  "SubTotal": 13071.913999999999,
+  "TotalPrice": 17155.516,
+  "ExtraField1": "aut",
+  "ExtraField2": "hic",
+  "ExtraField3": "est",
+  "ExtraField4": "adipisci",
+  "ExtraField5": "veritatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 258
+      "FieldType": "System.Int32",
+      "FieldLength": 196
     }
   }
 }

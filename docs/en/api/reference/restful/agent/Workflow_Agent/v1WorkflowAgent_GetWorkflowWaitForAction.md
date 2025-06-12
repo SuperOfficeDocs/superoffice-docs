@@ -26,7 +26,7 @@ Gets a WorkflowWaitForAction object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=597
+POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=758
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,25 +82,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 417,
-  "WorkflowStepId": 581,
-  "WorkflowId": 730,
-  "Rank": 272,
+  "WorkflowWaitForActionId": 210,
+  "WorkflowStepId": 161,
+  "WorkflowId": 920,
+  "Rank": 729,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Cole, Bahringer and Barrows",
-      "Description": "Assimilated content-based groupware",
-      "Rank": 808,
+      "Name": "Waelchi-Walter",
+      "Description": "Implemented 6th generation leverage",
+      "Rank": 319,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Cole, Bahringer and Barrows",
-      "Description": "Assimilated content-based groupware",
-      "Rank": 808,
+      "Name": "Waelchi-Walter",
+      "Description": "Implemented 6th generation leverage",
+      "Rank": 319,
       "Restrictions": [
         {},
         {}
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 214
+      "FieldType": "System.Int32",
+      "FieldLength": 314
     }
   }
 }

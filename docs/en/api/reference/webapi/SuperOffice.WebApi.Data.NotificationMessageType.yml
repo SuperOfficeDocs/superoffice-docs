@@ -9,7 +9,6 @@ items:
   - SuperOffice.WebApi.Data.NotificationMessageType.Message
   - SuperOffice.WebApi.Data.NotificationMessageType.RemoteAction
   - SuperOffice.WebApi.Data.NotificationMessageType.ShowWebPage
-  - SuperOffice.WebApi.Data.NotificationMessageType.value__
   - SuperOffice.WebApi.Data.NotificationMessageType.YesNoQuestion
   langs:
   - csharp
@@ -17,57 +16,15 @@ items:
   name: NotificationMessageType
   nameWithType: NotificationMessageType
   fullName: SuperOffice.WebApi.Data.NotificationMessageType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefines what type of content the notification contains\n"
+  summary: Defines what type of content the notification contains
+  example: []
   syntax:
-    content: 'public sealed class NotificationMessageType : Enum'
-    content.vb: >-
-      Public NotInheritable Class NotificationMessageType
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.NotificationMessageType.value__
-  commentId: F:SuperOffice.WebApi.Data.NotificationMessageType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.NotificationMessageType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: NotificationMessageType.value__
-  fullName: SuperOffice.WebApi.Data.NotificationMessageType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum NotificationMessageType
+    content.vb: Public Enum NotificationMessageType
 - uid: SuperOffice.WebApi.Data.NotificationMessageType.Message
   commentId: F:SuperOffice.WebApi.Data.NotificationMessageType.Message
   id: Message
@@ -79,24 +36,26 @@ items:
   nameWithType: NotificationMessageType.Message
   fullName: SuperOffice.WebApi.Data.NotificationMessageType.Message
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: A plain message\n"
+  summary: '0: A plain message'
+  example: []
   syntax:
-    content: public const NotificationMessageType Message
+    content: >-
+      [EnumMember]
+
+      Message = 0
     return:
       type: SuperOffice.WebApi.Data.NotificationMessageType
-    content.vb: Public Const Message As NotificationMessageType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Message = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.NotificationMessageType.ImportantMessage
   commentId: F:SuperOffice.WebApi.Data.NotificationMessageType.ImportantMessage
   id: ImportantMessage
@@ -108,24 +67,26 @@ items:
   nameWithType: NotificationMessageType.ImportantMessage
   fullName: SuperOffice.WebApi.Data.NotificationMessageType.ImportantMessage
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: A message with high priority\n"
+  summary: '1: A message with high priority'
+  example: []
   syntax:
-    content: public const NotificationMessageType ImportantMessage
+    content: >-
+      [EnumMember]
+
+      ImportantMessage = 1
     return:
       type: SuperOffice.WebApi.Data.NotificationMessageType
-    content.vb: Public Const ImportantMessage As NotificationMessageType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ImportantMessage = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.NotificationMessageType.RemoteAction
   commentId: F:SuperOffice.WebApi.Data.NotificationMessageType.RemoteAction
   id: RemoteAction
@@ -137,24 +98,26 @@ items:
   nameWithType: NotificationMessageType.RemoteAction
   fullName: SuperOffice.WebApi.Data.NotificationMessageType.RemoteAction
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Trigger an action\n"
+  summary: '2: Trigger an action'
+  example: []
   syntax:
-    content: public const NotificationMessageType RemoteAction
+    content: >-
+      [EnumMember]
+
+      RemoteAction = 2
     return:
       type: SuperOffice.WebApi.Data.NotificationMessageType
-    content.vb: Public Const RemoteAction As NotificationMessageType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      RemoteAction = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.NotificationMessageType.YesNoQuestion
   commentId: F:SuperOffice.WebApi.Data.NotificationMessageType.YesNoQuestion
   id: YesNoQuestion
@@ -166,24 +129,26 @@ items:
   nameWithType: NotificationMessageType.YesNoQuestion
   fullName: SuperOffice.WebApi.Data.NotificationMessageType.YesNoQuestion
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Ask user a yes or no question\n"
+  summary: '3: Ask user a yes or no question'
+  example: []
   syntax:
-    content: public const NotificationMessageType YesNoQuestion
+    content: >-
+      [EnumMember]
+
+      YesNoQuestion = 3
     return:
       type: SuperOffice.WebApi.Data.NotificationMessageType
-    content.vb: Public Const YesNoQuestion As NotificationMessageType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      YesNoQuestion = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.NotificationMessageType.ShowWebPage
   commentId: F:SuperOffice.WebApi.Data.NotificationMessageType.ShowWebPage
   id: ShowWebPage
@@ -195,55 +160,69 @@ items:
   nameWithType: NotificationMessageType.ShowWebPage
   fullName: SuperOffice.WebApi.Data.NotificationMessageType.ShowWebPage
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Show a web page\n"
+  summary: '4: Show a web page'
+  example: []
   syntax:
-    content: public const NotificationMessageType ShowWebPage
+    content: >-
+      [EnumMember]
+
+      ShowWebPage = 4
     return:
       type: SuperOffice.WebApi.Data.NotificationMessageType
-    content.vb: Public Const ShowWebPage As NotificationMessageType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ShowWebPage = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.NotificationMessageType
   commentId: T:SuperOffice.WebApi.Data.NotificationMessageType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.NotificationMessageType.html
   name: NotificationMessageType
   nameWithType: NotificationMessageType
   fullName: SuperOffice.WebApi.Data.NotificationMessageType

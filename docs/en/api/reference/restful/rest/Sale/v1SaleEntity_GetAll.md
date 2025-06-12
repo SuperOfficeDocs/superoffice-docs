@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale?$select=name,department,category/id
 GET /api/v1/Sale?$filter=name begins 'S'
 GET /api/v1/Sale?$orderBy=name asc
-GET /api/v1/Sale?$entities=aperiam
-GET /api/v1/Sale?$top=299
-GET /api/v1/Sale?$skip=466
+GET /api/v1/Sale?$entities=deleniti
+GET /api/v1/Sale?$top=443
+GET /api/v1/Sale?$skip=335
 GET /api/v1/Sale?$mode=Full
 GET /api/v1/Sale?$options=GrandTotal=true
-GET /api/v1/Sale?$context=esse
+GET /api/v1/Sale?$context=minima
 GET /api/v1/Sale?$format=JSON
 GET /api/v1/Sale?$jsonSafe=False
 GET /api/v1/Sale?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "porro",
   "value": [
     {
-      "PrimaryKey": 9456,
-      "EntityName": "person",
-      "personId": 9456,
-      "fullName": "Litzy Schuster"
+      "PrimaryKey": 8609,
+      "EntityName": "sale",
+      "saleId": 8609,
+      "contactId": 7543,
+      "name": "Grimes Inc and Sons"
     },
     {
-      "PrimaryKey": 7565,
-      "EntityName": "person",
-      "personId": 7565,
-      "fullName": "Marlen Lindgren PhD"
+      "PrimaryKey": 1814,
+      "EntityName": "sale",
+      "saleId": 1814,
+      "contactId": 4304,
+      "name": "Howell LLC"
     }
   ]
 }

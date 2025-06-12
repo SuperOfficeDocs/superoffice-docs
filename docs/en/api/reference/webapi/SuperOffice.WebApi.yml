@@ -24,12 +24,14 @@ references:
 - uid: SuperOffice.WebApi.AuthorizationUserToken
   commentId: T:SuperOffice.WebApi.AuthorizationUserToken
   isExternal: true
+  href: SuperOffice.WebApi.AuthorizationUserToken.html
   name: AuthorizationUserToken
   nameWithType: AuthorizationUserToken
   fullName: SuperOffice.WebApi.AuthorizationUserToken
 - uid: SuperOffice.WebApi.DateTimeConverter
   commentId: T:SuperOffice.WebApi.DateTimeConverter
   isExternal: true
+  href: SuperOffice.WebApi.DateTimeConverter.html
   name: DateTimeConverter
   nameWithType: DateTimeConverter
   fullName: SuperOffice.WebApi.DateTimeConverter
@@ -37,12 +39,14 @@ references:
   commentId: T:SuperOffice.WebApi.IProgressListener
   parent: SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.WebApi.IProgressListener.html
   name: IProgressListener
   nameWithType: IProgressListener
   fullName: SuperOffice.WebApi.IProgressListener
 - uid: SuperOffice.WebApi.ProgressListener
   commentId: T:SuperOffice.WebApi.ProgressListener
   isExternal: true
+  href: SuperOffice.WebApi.ProgressListener.html
   name: ProgressListener
   nameWithType: ProgressListener
   fullName: SuperOffice.WebApi.ProgressListener
@@ -50,12 +54,14 @@ references:
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.WebApi.RequestOptions.html
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: SuperOffice.WebApi.RequestOptions
 - uid: SuperOffice.WebApi.SubDomain
   commentId: T:SuperOffice.WebApi.SubDomain
   isExternal: true
+  href: SuperOffice.WebApi.SubDomain.html
   name: SubDomain
   nameWithType: SubDomain
   fullName: SuperOffice.WebApi.SubDomain
@@ -63,12 +69,34 @@ references:
   commentId: T:SuperOffice.WebApi.WebApiOptions
   parent: SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.WebApi.WebApiOptions.html
   name: WebApiOptions
   nameWithType: WebApiOptions
   fullName: SuperOffice.WebApi.WebApiOptions
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html

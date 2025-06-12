@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 163,
-  "Name": "Kling-Howell",
-  "TZLocationCode": "soluta",
-  "TZLocationCities": "autem",
-  "IsoNumber": 961,
+  "TZLocationID": 15,
+  "Name": "Schuster Inc and Sons",
+  "TZLocationCode": "aspernatur",
+  "TZLocationCities": "quia",
+  "IsoNumber": 64,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 656,
-      "StartMonth": 805,
-      "EndDay": 119,
-      "EndMonth": 192,
-      "TZOffset": 84,
-      "StartRulePattern": "quis",
-      "EndRulePattern": "maxime"
+      "StartDay": 549,
+      "StartMonth": 287,
+      "EndDay": 530,
+      "EndMonth": 625,
+      "TZOffset": 188,
+      "StartRulePattern": "laudantium",
+      "EndRulePattern": "quam"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 570,
-      "StartMonth": 917,
-      "EndDay": 573,
-      "EndMonth": 839,
-      "TZOffset": 427,
-      "StartRulePattern": "sunt",
-      "EndRulePattern": "reprehenderit"
+      "StartDay": 896,
+      "StartMonth": 530,
+      "EndDay": 806,
+      "EndMonth": 884,
+      "TZOffset": 316,
+      "StartRulePattern": "quae",
+      "EndRulePattern": "corporis"
     }
   }
 }

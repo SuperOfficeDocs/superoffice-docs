@@ -55,7 +55,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ErpField?$select=Id,MaxLength,Mandatory
+GET /api/v1/archive/ErpField?$select=Access,updatedBy,MaxLength
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 59
+  "ContactId": 891
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 13096.985999999999,
-  "Wgs84Longitude": 3870.49,
+  "Wgs84Latitude": 1109.436,
+  "Wgs84Longitude": 17816.79,
   "LocalizedAddress": [
     [
       {
-        "Name": "Satterfield Group",
-        "Value": "qui",
-        "Tooltip": "incidunt",
-        "Label": "fugiat",
-        "ValueLength": 668,
-        "AddressType": "tenetur",
+        "Name": "Blick-Kunde",
+        "Value": "in",
+        "Tooltip": "ullam",
+        "Label": "ipsum",
+        "ValueLength": 310,
+        "AddressType": "mollitia",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 95
+            "FieldType": "System.Int32",
+            "FieldLength": 366
           }
         }
       }
     ],
     [
       {
-        "Name": "Barton-Gerlach",
-        "Value": "non",
-        "Tooltip": "nostrum",
-        "Label": "quidem",
-        "ValueLength": 896,
-        "AddressType": "eos",
+        "Name": "Wolf, Sporer and Jaskolski",
+        "Value": "qui",
+        "Tooltip": "reiciendis",
+        "Label": "et",
+        "ValueLength": 701,
+        "AddressType": "eum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 179
+            "FieldLength": 301
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "ducimus",
+  "Formatted": "sapiente",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldLength": 437
     }
   }
 }

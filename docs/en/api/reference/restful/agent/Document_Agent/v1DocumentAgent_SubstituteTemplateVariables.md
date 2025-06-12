@@ -77,19 +77,19 @@ OK
 POST /api/v1/Agents/Document/SubstituteTemplateVariables
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "voluptate",
+  "Source": "nesciunt",
   "GeneratorEncoding": "Html",
-  "ContactId": 945,
-  "PersonId": 753,
-  "AppointmentId": 386,
-  "DocumentId": 444,
-  "SaleId": 889,
-  "SelectionId": 129,
-  "ProjectId": 533,
+  "ContactId": 343,
+  "PersonId": 571,
+  "AppointmentId": 638,
+  "DocumentId": 912,
+  "SaleId": 383,
+  "SelectionId": 927,
+  "ProjectId": 318,
   "CultureName": "sv"
 }
 ```
@@ -100,5 +100,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"earum"
+"architecto"
 ```

@@ -4,7 +4,8 @@ items:
   commentId: N:SuperOffice.CRM.CS
   id: SuperOffice.CRM.CS
   children:
-  - SuperOffice.CRM.CS.CsSessionManager
+  - SuperOffice.CRM.CS.CSSessionInfo
+  - SuperOffice.CRM.CS.ICsSessionManager
   langs:
   - csharp
   - vb
@@ -15,9 +16,17 @@ items:
   assemblies:
   - SoDataBase
 references:
-- uid: SuperOffice.CRM.CS.CsSessionManager
-  commentId: T:SuperOffice.CRM.CS.CsSessionManager
+- uid: SuperOffice.CRM.CS.ICsSessionManager
+  commentId: T:SuperOffice.CRM.CS.ICsSessionManager
   isExternal: true
-  name: CsSessionManager
-  nameWithType: CsSessionManager
-  fullName: SuperOffice.CRM.CS.CsSessionManager
+  href: SuperOffice.CRM.CS.ICsSessionManager.html
+  name: ICsSessionManager
+  nameWithType: ICsSessionManager
+  fullName: SuperOffice.CRM.CS.ICsSessionManager
+- uid: SuperOffice.CRM.CS.CSSessionInfo
+  commentId: T:SuperOffice.CRM.CS.CSSessionInfo
+  isExternal: true
+  href: SuperOffice.CRM.CS.CSSessionInfo.html
+  name: CSSessionInfo
+  nameWithType: CSSessionInfo
+  fullName: SuperOffice.CRM.CS.CSSessionInfo

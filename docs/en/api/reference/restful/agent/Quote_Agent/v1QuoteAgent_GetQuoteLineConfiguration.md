@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 428
+  "QuoteLineConfigurationId": 434
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 938,
-  "FieldName": "O'Hara, Champlin and Berge",
-  "Label": "ut",
-  "Tooltip": "facilis",
+  "QuoteLineConfigurationId": 624,
+  "FieldName": "Goodwin-Larkin",
+  "Label": "eius",
+  "Tooltip": "voluptates",
   "Editable": false,
-  "InUse": false,
-  "Mandatory": true,
-  "Rank": 773,
-  "RestrictEdit": false,
+  "InUse": true,
+  "Mandatory": false,
+  "Rank": 217,
+  "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 661
+      "FieldType": "System.Int32",
+      "FieldLength": 269
     }
   }
 }

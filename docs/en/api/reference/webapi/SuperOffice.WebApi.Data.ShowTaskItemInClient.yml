@@ -7,7 +7,6 @@ items:
   children:
   - SuperOffice.WebApi.Data.ShowTaskItemInClient.Mobile
   - SuperOffice.WebApi.Data.ShowTaskItemInClient.None
-  - SuperOffice.WebApi.Data.ShowTaskItemInClient.value__
   - SuperOffice.WebApi.Data.ShowTaskItemInClient.Web
   langs:
   - csharp
@@ -15,57 +14,30 @@ items:
   name: ShowTaskItemInClient
   nameWithType: ShowTaskItemInClient
   fullName: SuperOffice.WebApi.Data.ShowTaskItemInClient
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nShow Task Item In Client\nThis Enum is used by:  TaskMenu.showInClient\nThis Enum consists of flag values that can be combined.\n"
-  syntax:
-    content: 'public sealed class ShowTaskItemInClient : Enum'
-    content.vb: >-
-      Public NotInheritable Class ShowTaskItemInClient
-          Inherits
+  summary: >-
+    Show Task Item In Client
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.ShowTaskItemInClient.value__
-  commentId: F:SuperOffice.WebApi.Data.ShowTaskItemInClient.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.ShowTaskItemInClient
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: ShowTaskItemInClient.value__
-  fullName: SuperOffice.WebApi.Data.ShowTaskItemInClient.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  TaskMenu.showInClient
+
+    This Enum consists of flag values that can be combined.
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: >-
+      [Flags]
+
+      public enum ShowTaskItemInClient : short
+    content.vb: >-
+      <Flags>
+
+      Public Enum ShowTaskItemInClient As Short
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ShowTaskItemInClient.None
   commentId: F:SuperOffice.WebApi.Data.ShowTaskItemInClient.None
   id: None
@@ -77,24 +49,15 @@ items:
   nameWithType: ShowTaskItemInClient.None
   fullName: SuperOffice.WebApi.Data.ShowTaskItemInClient.None
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: None\n"
+  summary: '0: None'
+  example: []
   syntax:
-    content: public const ShowTaskItemInClient None
+    content: None = 0
     return:
       type: SuperOffice.WebApi.Data.ShowTaskItemInClient
-    content.vb: Public Const None As ShowTaskItemInClient
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.ShowTaskItemInClient.Web
   commentId: F:SuperOffice.WebApi.Data.ShowTaskItemInClient.Web
   id: Web
@@ -106,24 +69,26 @@ items:
   nameWithType: ShowTaskItemInClient.Web
   fullName: SuperOffice.WebApi.Data.ShowTaskItemInClient.Web
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: SuperOffice Web\n"
+  summary: '1: SuperOffice Web'
+  example: []
   syntax:
-    content: public const ShowTaskItemInClient Web
+    content: >-
+      [EnumMember]
+
+      Web = 1
     return:
       type: SuperOffice.WebApi.Data.ShowTaskItemInClient
-    content.vb: Public Const Web As ShowTaskItemInClient
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Web = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ShowTaskItemInClient.Mobile
   commentId: F:SuperOffice.WebApi.Data.ShowTaskItemInClient.Mobile
   id: Mobile
@@ -135,55 +100,69 @@ items:
   nameWithType: ShowTaskItemInClient.Mobile
   fullName: SuperOffice.WebApi.Data.ShowTaskItemInClient.Mobile
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Mobile\n"
+  summary: '2: Mobile'
+  example: []
   syntax:
-    content: public const ShowTaskItemInClient Mobile
+    content: >-
+      [EnumMember]
+
+      Mobile = 2
     return:
       type: SuperOffice.WebApi.Data.ShowTaskItemInClient
-    content.vb: Public Const Mobile As ShowTaskItemInClient
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Mobile = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.ShowTaskItemInClient
   commentId: T:SuperOffice.WebApi.Data.ShowTaskItemInClient
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.ShowTaskItemInClient.html
   name: ShowTaskItemInClient
   nameWithType: ShowTaskItemInClient
   fullName: SuperOffice.WebApi.Data.ShowTaskItemInClient

@@ -76,15 +76,15 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 906,
+  "TicketId": 313,
   "MessageActionType": "Forward",
-  "TicketMessageId": 192,
-  "TicketTypeId": 858,
-  "ExcludeSignature": false
+  "TicketMessageId": 659,
+  "TicketTypeId": 748,
+  "ExcludeSignature": true
 }
 ```
 
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "nemo",
+  "Body": "minus",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 896,
-      "Name": "King-Barton",
-      "ContentType": "est",
-      "AttSize": 509,
+      "AttachmentId": 883,
+      "Name": "Lynch-Blick",
+      "ContentType": "dolorum",
+      "AttSize": 447,
       "InlineImage": true,
-      "ContentId": "consequatur",
-      "AuthKey": "tempora",
+      "ContentId": "sed",
+      "AuthKey": "quo",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 702
+          "FieldType": "System.String",
+          "FieldLength": 71
         }
       }
     }

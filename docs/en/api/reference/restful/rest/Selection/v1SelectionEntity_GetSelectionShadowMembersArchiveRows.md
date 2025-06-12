@@ -75,7 +75,7 @@ OK
 GET /api/v1/Selection/{selectionId}/ShadowMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,19 +86,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ut",
+  "odata.nextLink": "deleniti",
   "value": [
     {
-      "PrimaryKey": 1860,
-      "EntityName": "person",
-      "personId": 1860,
-      "fullName": "Alexane Rutherford"
+      "PrimaryKey": 9058,
+      "EntityName": "sale",
+      "saleId": 9058,
+      "contactId": 3582,
+      "name": "Wehner Group"
     },
     {
-      "PrimaryKey": 3417,
-      "EntityName": "person",
-      "personId": 3417,
-      "fullName": "Abe Champlin Jr."
+      "PrimaryKey": 4932,
+      "EntityName": "sale",
+      "saleId": 4932,
+      "contactId": 6281,
+      "name": "Hoeger, Herman and Kirlin"
     }
   ]
 }

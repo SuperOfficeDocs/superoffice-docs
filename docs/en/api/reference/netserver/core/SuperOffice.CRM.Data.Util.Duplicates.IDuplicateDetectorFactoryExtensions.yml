@@ -1,0 +1,383 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions
+  commentId: T:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions
+  id: IDuplicateDetectorFactoryExtensions
+  parent: SuperOffice.CRM.Data.Util.Duplicates
+  children:
+  - SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector``1(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  langs:
+  - csharp
+  - vb
+  name: IDuplicateDetectorFactoryExtensions
+  nameWithType: IDuplicateDetectorFactoryExtensions
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions
+  type: Class
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Data.Util.Duplicates
+  syntax:
+    content: public static class IDuplicateDetectorFactoryExtensions
+    content.vb: Public Module IDuplicateDetectorFactoryExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector``1(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector``1(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  id: CreateDuplicateDetector``1(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions
+  langs:
+  - csharp
+  - vb
+  name: CreateDuplicateDetector<TDuplicateRule>(IDuplicateDetectorFactory)
+  nameWithType: IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector<TDuplicateRule>(IDuplicateDetectorFactory)
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector<TDuplicateRule>(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Data.Util.Duplicates
+  summary: Create instance of duplcate detector
+  example: []
+  syntax:
+    content: 'public static IDuplicateDetector CreateDuplicateDetector<TDuplicateRule>(this IDuplicateDetectorFactory factory) where TDuplicateRule : IDuplicateRule'
+    parameters:
+    - id: factory
+      type: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+      description: ''
+    typeParameters:
+    - id: TDuplicateRule
+      description: ''
+    return:
+      type: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector
+      description: Instance of duplicate detector
+    content.vb: Public Shared Function CreateDuplicateDetector(Of TDuplicateRule As IDuplicateRule)(factory As IDuplicateDetectorFactory) As IDuplicateDetector
+  overload: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector*
+  nameWithType.vb: IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector(Of TDuplicateRule)(IDuplicateDetectorFactory)
+  fullName.vb: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector(Of TDuplicateRule)(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  name.vb: CreateDuplicateDetector(Of TDuplicateRule)(IDuplicateDetectorFactory)
+references:
+- uid: SuperOffice.CRM.Data.Util.Duplicates
+  commentId: N:SuperOffice.CRM.Data.Util.Duplicates
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data.Util.Duplicates
+  nameWithType: SuperOffice.CRM.Data.Util.Duplicates
+  fullName: SuperOffice.CRM.Data.Util.Duplicates
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.Util.Duplicates
+    name: Duplicates
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.Util.Duplicates
+    name: Duplicates
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector*
+  commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector
+  isExternal: true
+  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactoryExtensions_CreateDuplicateDetector__1_SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactory_
+  name: CreateDuplicateDetector
+  nameWithType: IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+  commentId: T:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+  parent: SuperOffice.CRM.Data.Util.Duplicates
+  isExternal: true
+  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.html
+  name: IDuplicateDetectorFactory
+  nameWithType: IDuplicateDetectorFactory
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector
+  commentId: T:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector
+  parent: SuperOffice.CRM.Data.Util.Duplicates
+  isExternal: true
+  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.html
+  name: IDuplicateDetector
+  nameWithType: IDuplicateDetector
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector

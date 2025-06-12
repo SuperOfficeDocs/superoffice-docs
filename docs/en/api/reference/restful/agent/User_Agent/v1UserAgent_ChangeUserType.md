@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/User/ChangeUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 952,
-  "Name": "Toy LLC",
-  "Rank": 740,
-  "Tooltip": "voluptate",
+  "AssociateId": 768,
+  "Name": "Lowe, Langworth and Schaden",
+  "Rank": 671,
+  "Tooltip": "quisquam",
   "LicenseOwners": [
     {
-      "Name": "Braun, Runolfsson and Muller",
-      "Description": "Function-based real-time application",
+      "Name": "Zemlak, Jaskolski and Parisian",
+      "Description": "Team-oriented static forecast",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 790
+          "FieldLength": 565
         }
       }
     },
     {
-      "Name": "Braun, Runolfsson and Muller",
-      "Description": "Function-based real-time application",
+      "Name": "Zemlak, Jaskolski and Parisian",
+      "Description": "Team-oriented static forecast",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 790
+          "FieldLength": 565
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "necessitatibus",
-      "Tooltip": "ipsum",
-      "Id": 566,
-      "Rank": 797,
-      "Deleted": true,
+      "Value": "mollitia",
+      "Tooltip": "totam",
+      "Id": 24,
+      "Rank": 441,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 225
+          "FieldType": "System.String",
+          "FieldLength": 459
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2020-11-19T16:32:40.3988525+01:00",
-  "Lastlogout": "1999-08-15T16:32:40.3988525+02:00",
-  "EjUserId": 83,
-  "RequestSignature": "et",
+  "Lastlogin": "2024-10-04T17:54:03.8514214+02:00",
+  "Lastlogout": "2021-02-13T17:54:03.8514214+01:00",
+  "EjUserId": 252,
+  "RequestSignature": "modi",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsPersonRetired": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "corporis",
-      "DisplayValue": "eos",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 573
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "corporis",
-      "DisplayValue": "eos",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 573
-        }
-      }
-    }
-  ],
-  "UserName": "Towne, Wintheiser and Nader",
-  "TicketCategories": [
-    {
-      "Id": 983,
-      "Name": "Wilderman, Bahringer and Christiansen",
-      "ToolTip": "Eos illum repellendus dolorum asperiores libero qui itaque.",
-      "Deleted": true,
-      "Rank": 720,
-      "Type": "eum",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "assumenda",
-      "ColorBlock": 554,
-      "ExtraInfo": "repudiandae",
-      "StyleHint": "tempore",
-      "FullName": "Annabell McKenzie",
+      "Value": "provident",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 102
+          "FieldLength": 6
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "provident",
+      "DisplayValue": "fuga",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 6
         }
       }
     }
   ],
-  "NickName": "McCullough LLC",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "in",
-    "ExtraFields2": "facere"
-  },
-  "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "qui"
-  },
-  "PostSaveCommands": [
+  "UserName": "Dooley Group",
+  "TicketCategories": [
     {
-      "Name": "Baumbach-Frami",
-      "DisplayName": "Dietrich LLC",
-      "Description": "Synergistic impactful model",
-      "ToolTip": "Iure neque voluptas.",
-      "Actions": "Implicit",
-      "ActionData": "fugiat",
+      "Id": 504,
+      "Name": "Watsica-Hermann",
+      "ToolTip": "Quam non.",
+      "Deleted": false,
+      "Rank": 864,
+      "Type": "magnam",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "et",
+      "ColorBlock": 646,
+      "ExtraInfo": "nobis",
+      "StyleHint": "aut",
+      "FullName": "Mr. Lillian Mack Yundt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 970
+          "FieldLength": 859
+        }
+      }
+    }
+  ],
+  "NickName": "Schaden, Bashirian and Jaskolski",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "dolorem",
+    "ExtraFields2": "eos"
+  },
+  "CustomFields": {
+    "CustomFields1": "repellat",
+    "CustomFields2": "velit"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Heaney-Heidenreich",
+      "DisplayName": "Brakus-Bosco",
+      "Description": "Switchable human-resource knowledge base",
+      "ToolTip": "Earum nemo sequi beatae omnis.",
+      "Actions": "Implicit",
+      "ActionData": "quia",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 451
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 6
+      "FieldType": "System.String",
+      "FieldLength": 431
     }
   }
 }

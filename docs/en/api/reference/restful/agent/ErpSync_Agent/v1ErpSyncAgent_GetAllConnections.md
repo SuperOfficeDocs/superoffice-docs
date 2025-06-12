@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 528,
-    "ErpConnectorId": 509,
-    "DisplayName": "Ziemann, O'Connell and Schiller",
-    "DisplayDescription": "Pre-emptive zero administration attitude",
-    "Active": false,
-    "ConnectionId": "sunt",
-    "MostRecentTimestamp": "atque",
+    "ErpConnectionId": 203,
+    "ErpConnectorId": 798,
+    "DisplayName": "Morar, Braun and Bradtke",
+    "DisplayDescription": "Integrated global interface",
+    "Active": true,
+    "ConnectionId": "ut",
+    "MostRecentTimestamp": "neque",
     "ConfigFields": {
-      "ConfigFields1": "qui",
-      "ConfigFields2": "excepturi"
+      "ConfigFields1": "ratione",
+      "ConfigFields2": "quis"
     },
-    "Deleted": false,
-    "AllAccess": true,
+    "Deleted": true,
+    "AllAccess": false,
     "UserGroupAccessIds": [
-      876,
-      102
+      893,
+      168
     ],
     "AssociateAccessIds": [
-      14,
-      837
+      839,
+      410
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 190
+        "FieldLength": 561
       }
     }
   }

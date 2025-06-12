@@ -98,7 +98,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 407,
-  "ColumnId": 242,
-  "FieldDefault": "dolores",
-  "FieldHeight": 733,
-  "FieldLabel": "ea",
-  "FieldLeft": 703,
-  "FieldTop": 59,
+  "UDefFieldId": 801,
+  "ColumnId": 393,
+  "FieldDefault": "et",
+  "FieldHeight": 974,
+  "FieldLabel": "autem",
+  "FieldLeft": 185,
+  "FieldTop": 371,
   "FieldType": "Checkbox",
-  "FieldWidth": 865,
-  "FormatMask": "delectus",
+  "FieldWidth": 37,
+  "FormatMask": "voluptate",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 238,
-  "LabelLeft": 791,
-  "LabelTop": 921,
-  "LabelWidth": 421,
-  "LastVersionId": 669,
-  "ListTableId": 898,
+  "LabelHeight": 943,
+  "LabelLeft": 880,
+  "LabelTop": 260,
+  "LabelWidth": 348,
+  "LastVersionId": 766,
+  "ListTableId": 953,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 334,
-  "ProgId": "provident",
+  "Page1LineNo": 58,
+  "ProgId": "odio",
   "IsReadOnly": false,
-  "ShortLabel": "ipsum",
-  "TabOrder": 846,
-  "TextLength": 640,
-  "Tooltip": "fuga",
-  "UdefIdentity": 750,
-  "UDListDefinitionId": 125,
+  "ShortLabel": "quia",
+  "TabOrder": 377,
+  "TextLength": 799,
+  "Tooltip": "facere",
+  "UdefIdentity": 653,
+  "UDListDefinitionId": 546,
   "Justification": "Center",
-  "Version": 871,
-  "TemplateVariableName": "Christiansen Group",
-  "HasBeenPublished": true,
-  "MdoListName": "Moen-Keebler",
+  "Version": 172,
+  "TemplateVariableName": "Kuhic, Terry and O'Kon",
+  "HasBeenPublished": false,
+  "MdoListName": "O'Kon Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 711
+      "FieldLength": 748
     }
   }
 }

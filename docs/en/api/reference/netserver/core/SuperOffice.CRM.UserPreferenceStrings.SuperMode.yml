@@ -25,27 +25,24 @@ items:
   nameWithType: UserPreferenceStrings.SuperMode
   fullName: SuperOffice.CRM.UserPreferenceStrings.SuperMode
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nSuperMode\n"
+  summary: SuperMode
+  example: []
   syntax:
-    content: 'public static class SuperMode : Object'
-    content.vb: >-
-      Public Module SuperMode
-          Inherits Object
+    content: public static class UserPreferenceStrings.SuperMode
+    content.vb: Public Module UserPreferenceStrings.SuperMode
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.UserPreferenceStrings.SuperMode.Section
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.SuperMode.Section
   id: Section
@@ -57,24 +54,16 @@ items:
   nameWithType: UserPreferenceStrings.SuperMode.Section
   fullName: SuperOffice.CRM.UserPreferenceStrings.SuperMode.Section
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nSection heading\n"
+  summary: Section heading
+  example: []
   syntax:
     content: public const string Section = "SuperMode"
     return:
       type: System.String
     content.vb: Public Const Section As String = "SuperMode"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.SuperMode.MainPanel
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.SuperMode.MainPanel
   id: MainPanel
@@ -86,24 +75,16 @@ items:
   nameWithType: UserPreferenceStrings.SuperMode.MainPanel
   fullName: SuperOffice.CRM.UserPreferenceStrings.SuperMode.MainPanel
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nMainPanel currently set for user.\n"
+  summary: MainPanel currently set for user.
+  example: []
   syntax:
     content: public const string MainPanel = "MainPanel"
     return:
       type: System.String
     content.vb: Public Const MainPanel As String = "MainPanel"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopArchivePerson
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopArchivePerson
   id: TopArchivePerson
@@ -115,24 +96,19 @@ items:
   nameWithType: UserPreferenceStrings.SuperMode.TopArchivePerson
   fullName: SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopArchivePerson
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nCurrent active view in Contacts section tab\n<p></p>Control type: Number, access: Wizard\n"
+  summary: >-
+    Current active view in Contacts section tab
+
+    <p></p>Control type: Number, access: Wizard
+  example: []
   syntax:
     content: public const string TopArchivePerson = "TopArchivePerson"
     return:
       type: System.String
     content.vb: Public Const TopArchivePerson As String = "TopArchivePerson"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopContactView
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopContactView
   id: TopContactView
@@ -144,24 +120,19 @@ items:
   nameWithType: UserPreferenceStrings.SuperMode.TopContactView
   fullName: SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopContactView
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nCurrent active view in Company screen\n<p></p>Control type: Number, access: Wizard\n"
+  summary: >-
+    Current active view in Company screen
+
+    <p></p>Control type: Number, access: Wizard
+  example: []
   syntax:
     content: public const string TopContactView = "TopContactView"
     return:
       type: System.String
     content.vb: Public Const TopContactView As String = "TopContactView"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopDiaryView
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopDiaryView
   id: TopDiaryView
@@ -173,24 +144,19 @@ items:
   nameWithType: UserPreferenceStrings.SuperMode.TopDiaryView
   fullName: SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopDiaryView
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nCurrent active view in Diary screen\n<p></p>Control type: Number, access: Wizard\n"
+  summary: >-
+    Current active view in Diary screen
+
+    <p></p>Control type: Number, access: Wizard
+  example: []
   syntax:
     content: public const string TopDiaryView = "TopDiaryView"
     return:
       type: System.String
     content.vb: Public Const TopDiaryView As String = "TopDiaryView"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopEmailView
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopEmailView
   id: TopEmailView
@@ -202,24 +168,19 @@ items:
   nameWithType: UserPreferenceStrings.SuperMode.TopEmailView
   fullName: SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopEmailView
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nCurrent active view in E-mail screen\n<p></p>Control type: Number, access: Wizard\n"
+  summary: >-
+    Current active view in E-mail screen
+
+    <p></p>Control type: Number, access: Wizard
+  example: []
   syntax:
     content: public const string TopEmailView = "TopEmailView"
     return:
       type: System.String
     content.vb: Public Const TopEmailView As String = "TopEmailView"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopPanel
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopPanel
   id: TopPanel
@@ -231,24 +192,19 @@ items:
   nameWithType: UserPreferenceStrings.SuperMode.TopPanel
   fullName: SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopPanel
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nCurrent active screen\n<p></p>Control type: Number, access: Wizard\n"
+  summary: >-
+    Current active screen
+
+    <p></p>Control type: Number, access: Wizard
+  example: []
   syntax:
     content: public const string TopPanel = "TopPanel"
     return:
       type: System.String
     content.vb: Public Const TopPanel As String = "TopPanel"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopProjArchive
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopProjArchive
   id: TopProjArchive
@@ -260,24 +216,19 @@ items:
   nameWithType: UserPreferenceStrings.SuperMode.TopProjArchive
   fullName: SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopProjArchive
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nCurrent active view in Projects section tab\n<p></p>Control type: Number, access: Wizard\n"
+  summary: >-
+    Current active view in Projects section tab
+
+    <p></p>Control type: Number, access: Wizard
+  example: []
   syntax:
     content: public const string TopProjArchive = "TopProjArchive"
     return:
       type: System.String
     content.vb: Public Const TopProjArchive As String = "TopProjArchive"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopProjectView
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopProjectView
   id: TopProjectView
@@ -289,24 +240,19 @@ items:
   nameWithType: UserPreferenceStrings.SuperMode.TopProjectView
   fullName: SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopProjectView
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nCurrent active view in Project screen\n<p></p>Control type: Number, access: Wizard\n"
+  summary: >-
+    Current active view in Project screen
+
+    <p></p>Control type: Number, access: Wizard
+  example: []
   syntax:
     content: public const string TopProjectView = "TopProjectView"
     return:
       type: System.String
     content.vb: Public Const TopProjectView As String = "TopProjectView"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopReporterView
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopReporterView
   id: TopReporterView
@@ -318,24 +264,19 @@ items:
   nameWithType: UserPreferenceStrings.SuperMode.TopReporterView
   fullName: SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopReporterView
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nActive view in the Reports screen when you last logged out\n<p></p>Control type: Number, access: Wizard\n"
+  summary: >-
+    Active view in the Reports screen when you last logged out
+
+    <p></p>Control type: Number, access: Wizard
+  example: []
   syntax:
     content: public const string TopReporterView = "TopReporterView"
     return:
       type: System.String
     content.vb: Public Const TopReporterView As String = "TopReporterView"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopSelectionView
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopSelectionView
   id: TopSelectionView
@@ -347,24 +288,19 @@ items:
   nameWithType: UserPreferenceStrings.SuperMode.TopSelectionView
   fullName: SuperOffice.CRM.UserPreferenceStrings.SuperMode.TopSelectionView
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nCurrent active view in Selection screen\n<p></p>Control type: Number, access: Wizard\n"
+  summary: >-
+    Current active view in Selection screen
+
+    <p></p>Control type: Number, access: Wizard
+  example: []
   syntax:
     content: public const string TopSelectionView = "TopSelectionView"
     return:
       type: System.String
     content.vb: Public Const TopSelectionView As String = "TopSelectionView"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.SuperMode.TaskBarConfiguration
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.SuperMode.TaskBarConfiguration
   id: TaskBarConfiguration
@@ -376,24 +312,16 @@ items:
   nameWithType: UserPreferenceStrings.SuperMode.TaskBarConfiguration
   fullName: SuperOffice.CRM.UserPreferenceStrings.SuperMode.TaskBarConfiguration
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nCurrent selection of task bar buttons\n"
+  summary: Current selection of task bar buttons
+  example: []
   syntax:
     content: public const string TaskBarConfiguration = "TaskBarConfiguration"
     return:
       type: System.String
     content.vb: Public Const TaskBarConfiguration As String = "TaskBarConfiguration"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.SuperMode.TaskBarMode
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.SuperMode.TaskBarMode
   id: TaskBarMode
@@ -405,41 +333,278 @@ items:
   nameWithType: UserPreferenceStrings.SuperMode.TaskBarMode
   fullName: SuperOffice.CRM.UserPreferenceStrings.SuperMode.TaskBarMode
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nWhether the taskbar shows &apos;showall&apos;, &apos;hideall&apos; or &apos;normal&apos; of the buttons\n"
+  summary: Whether the taskbar shows 'showall', 'hideall' or 'normal' of the buttons
+  example: []
   syntax:
     content: public const string TaskBarMode = "TaskBarMode"
     return:
       type: System.String
     content.vb: Public Const TaskBarMode As String = "TaskBarMode"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -447,6 +612,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

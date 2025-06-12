@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptas",
-  "ProviderName": "Schumm, Boehm and Mraz",
-  "StorageKey": "aut",
-  "Restrictions": "voluptas",
-  "StaticColumns": "a"
+  "StorageType": "quo",
+  "ProviderName": "Terry, O'Hara and Casper",
+  "StorageKey": "consequatur",
+  "Restrictions": "recusandae",
+  "StaticColumns": "quae"
 }
 ```
 
@@ -103,15 +103,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Luettgen, DuBuque and Gutkowski",
-      "Operator": "inventore",
+      "Name": "Denesik Group",
+      "Operator": "amet",
       "Values": [
-        "natus",
-        "veniam"
+        "asperiores",
+        "reiciendis"
       ],
       "DisplayValues": [
-        "fuga",
-        "commodi"
+        "odit",
+        "dolorem"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -119,65 +119,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 684,
+      "InterParenthesis": 906,
       "InterOperator": "And",
-      "UniqueHash": 251
+      "UniqueHash": 741
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Goldner, Altenwerth and Altenwerth",
-      "DisplayTooltip": "et",
-      "DisplayType": "doloremque",
+      "DisplayName": "Wilderman-Lowe",
+      "DisplayTooltip": "culpa",
+      "DisplayType": "error",
       "CanOrderBy": true,
-      "Name": "Stanton, Mosciski and Heidenreich",
-      "CanRestrictBy": false,
-      "RestrictionType": "cupiditate",
-      "RestrictionListName": "Dickens-Rowe",
-      "IsVisible": false,
-      "ExtraInfo": "quibusdam",
-      "Width": "omnis",
-      "IconHint": "esse",
-      "HeadingIconHint": "ut"
+      "Name": "Jenkins Group",
+      "CanRestrictBy": true,
+      "RestrictionType": "et",
+      "RestrictionListName": "Welch Inc and Sons",
+      "IsVisible": true,
+      "ExtraInfo": "sunt",
+      "Width": "voluptas",
+      "IconHint": "nostrum",
+      "HeadingIconHint": "eveniet"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Macejkovic LLC",
-      "PrimaryKey": 5,
+      "EntityName": "McGlynn-Johnson",
+      "PrimaryKey": 30,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quisquam",
-          "TooltipHint": "voluptatibus",
-          "LinkHint": "totam"
+          "DisplayValue": "numquam",
+          "TooltipHint": "eveniet",
+          "LinkHint": "qui"
         }
       },
-      "LinkHint": "ducimus",
-      "StyleHint": "sint",
+      "LinkHint": "delectus",
+      "StyleHint": "ducimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 434
+          "FieldLength": 274
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Renner, Roob and Kiehn",
-      "Description": "Focused bottom-line structure",
-      "Rank": 748,
+      "Name": "McClure Inc and Sons",
+      "Description": "Multi-channelled 24 hour neural-net",
+      "Rank": 586,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Renner, Roob and Kiehn",
-      "Description": "Focused bottom-line structure",
-      "Rank": 748,
+      "Name": "McClure Inc and Sons",
+      "Description": "Multi-channelled 24 hour neural-net",
+      "Rank": 586,
       "Restrictions": [
         {},
         {}
@@ -188,8 +188,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 985
+      "FieldType": "System.Int32",
+      "FieldLength": 24
     }
   }
 }

@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Balistreri Inc and Sons",
-  "ListItemId": 412,
+  "UdListDefinitionName": "Ziemann Group",
+  "ListItemId": 380,
   "UserGroups": [
     {
-      "Id": 145,
-      "Name": "Fahey Inc and Sons",
-      "ToolTip": "Nisi tempore maxime quis vero.",
+      "Id": 229,
+      "Name": "Bechtelar, Barton and Botsford",
+      "ToolTip": "A sed molestiae culpa expedita voluptates suscipit.",
       "Deleted": false,
-      "Rank": 268,
-      "Type": "ut",
-      "ColorBlock": 654,
-      "IconHint": "et",
+      "Rank": 8,
+      "Type": "dolore",
+      "ColorBlock": 373,
+      "IconHint": "quaerat",
       "Selected": false,
-      "LastChanged": "1999-08-30T16:32:39.2426162+02:00",
+      "LastChanged": "2003-05-06T17:54:03.2108272+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quisquam",
-      "StyleHint": "omnis",
+      "ExtraInfo": "in",
+      "StyleHint": "natus",
       "Hidden": false,
-      "FullName": "Irving Pouros"
+      "FullName": "Mrs. Nova Orn"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 31,
-    "Name": "Orn-Ziemann",
-    "ToolTip": "Doloribus exercitationem repellendus aut omnis tempore sunt non.",
+    "Id": 103,
+    "Name": "Spencer Inc and Sons",
+    "ToolTip": "Labore aspernatur maxime vero facere.",
     "Deleted": false,
-    "Rank": 485,
-    "Type": "facere",
-    "ColorBlock": 704,
-    "IconHint": "tenetur",
+    "Rank": 238,
+    "Type": "minus",
+    "ColorBlock": 137,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "2016-01-12T16:32:39.2426162+01:00",
+    "LastChanged": "2005-02-25T17:54:03.2108272+01:00",
     "ChildItems": [
       {
-        "Id": 656,
-        "Name": "Reilly, McKenzie and Roberts",
-        "ToolTip": "Quia fuga voluptatibus et.",
+        "Id": 405,
+        "Name": "O'Keefe-Lakin",
+        "ToolTip": "Sit dolorem voluptatem ea.",
         "Deleted": false,
-        "Rank": 637,
-        "Type": "dicta",
-        "ColorBlock": 596,
-        "IconHint": "sunt",
+        "Rank": 889,
+        "Type": "expedita",
+        "ColorBlock": 128,
+        "IconHint": "sapiente",
         "Selected": false,
-        "LastChanged": "2022-05-26T16:32:39.2426162+02:00",
+        "LastChanged": "2009-09-12T17:54:03.2108272+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "reprehenderit",
-        "Hidden": true,
-        "FullName": "Eliezer Ferry",
+        "ExtraInfo": "et",
+        "StyleHint": "exercitationem",
+        "Hidden": false,
+        "FullName": "Hyman Dickinson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 764
+            "FieldLength": 961
           }
         }
       }
     ],
-    "ExtraInfo": "eligendi",
-    "StyleHint": "error",
+    "ExtraInfo": "qui",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Mrs. Adrian Braulio Crooks DVM",
+    "FullName": "Marlee Corwin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 388
+        "FieldLength": 958
       }
     }
   }

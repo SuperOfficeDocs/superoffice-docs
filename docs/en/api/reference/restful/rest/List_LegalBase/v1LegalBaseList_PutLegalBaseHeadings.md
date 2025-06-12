@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 146,
-    "Name": "Okuneva-Shields",
-    "Tooltip": "nihil",
+    "HeadingId": 371,
+    "Name": "Mohr, Dare and Bergnaum",
+    "Tooltip": "dolorem",
     "Deleted": true,
-    "Rank": 414,
-    "UdListDefinitionId": 939
+    "Rank": 689,
+    "UdListDefinitionId": 313
   },
   {
-    "HeadingId": 146,
-    "Name": "Okuneva-Shields",
-    "Tooltip": "nihil",
+    "HeadingId": 371,
+    "Name": "Mohr, Dare and Bergnaum",
+    "Tooltip": "dolorem",
     "Deleted": true,
-    "Rank": 414,
-    "UdListDefinitionId": 939
+    "Rank": 689,
+    "UdListDefinitionId": 313
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 799,
-    "Name": "Strosin, McGlynn and Lind",
-    "Tooltip": "eligendi",
+    "HeadingId": 297,
+    "Name": "Powlowski, Schmidt and Monahan",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 687,
-    "UdListDefinitionId": 101,
+    "Rank": 656,
+    "UdListDefinitionId": 71,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 270
+        "FieldType": "System.String",
+        "FieldLength": 848
       }
     }
   }

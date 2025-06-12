@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 506,
-    "Name": "Kovacek LLC",
-    "Tooltip": "reiciendis",
-    "Deleted": false,
-    "UdListDefinitionId": 456,
-    "Rank": 449
+    "Id": 674,
+    "Name": "Purdy, Ferry and Green",
+    "Tooltip": "odit",
+    "Deleted": true,
+    "UdListDefinitionId": 41,
+    "Rank": 1002
   },
   {
-    "Id": 506,
-    "Name": "Kovacek LLC",
-    "Tooltip": "reiciendis",
-    "Deleted": false,
-    "UdListDefinitionId": 456,
-    "Rank": 449
+    "Id": 674,
+    "Name": "Purdy, Ferry and Green",
+    "Tooltip": "odit",
+    "Deleted": true,
+    "UdListDefinitionId": 41,
+    "Rank": 1002
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 75,
-    "Name": "Wintheiser-Cole",
-    "Tooltip": "quisquam",
+    "Id": 174,
+    "Name": "Schiller, Pacocha and Kessler",
+    "Tooltip": "iste",
     "Deleted": true,
-    "UdListDefinitionId": 223,
-    "Rank": 498,
+    "UdListDefinitionId": 357,
+    "Rank": 313,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 2
+        "FieldType": "System.Int32",
+        "FieldLength": 198
       }
     }
   }

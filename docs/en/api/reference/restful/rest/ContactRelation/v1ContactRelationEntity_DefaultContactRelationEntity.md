@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 18 Dec 2017 16:32:47 G12T
+Last-Modified: Thu, 22 Apr 2010 17:54:08 G4T
 
 {
-  "SourceContactId": 219,
-  "SourcePersonId": 670,
-  "DestinationContactId": 666,
-  "DestinationPersonId": 87,
-  "RelationId": 914,
-  "Comment": "quibusdam",
-  "RelationDefinitionId": 895,
-  "Reversed": 672,
-  "UpdatedDate": "2017-12-18T16:32:47.3996115+01:00",
-  "CreatedDate": "2009-04-20T16:32:47.3996115+02:00",
+  "SourceContactId": 127,
+  "SourcePersonId": 188,
+  "DestinationContactId": 414,
+  "DestinationPersonId": 732,
+  "RelationId": 536,
+  "Comment": "necessitatibus",
+  "RelationDefinitionId": 395,
+  "Reversed": 425,
+  "UpdatedDate": "2010-04-22T17:54:08.1324619+02:00",
+  "CreatedDate": "2008-09-12T17:54:08.1324619+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Heaney Inc and Sons",
-  "SourcePersonName": "Bogan-Schowalter",
-  "DestinationContactName": "Sporer Group",
-  "DestinationPersonName": "Mayert Inc and Sons",
-  "ActiveText": "ea",
-  "PassiveText": "officiis",
+  "SourceContactName": "Mante Group",
+  "SourcePersonName": "McCullough-Gleason",
+  "DestinationContactName": "Barton Inc and Sons",
+  "DestinationPersonName": "Roob-Ernser",
+  "ActiveText": "occaecati",
+  "PassiveText": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 514
+      "FieldLength": 135
     }
   }
 }

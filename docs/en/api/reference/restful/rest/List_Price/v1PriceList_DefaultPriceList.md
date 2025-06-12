@@ -66,7 +66,7 @@ OK
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 463,
-  "ERPPriceListKey": "nulla",
-  "QuoteConnectionId": 120,
-  "Name": "Ratke Group",
-  "Description": "Persevering real-time service-desk",
-  "Currency": "qui",
-  "CurrencyName": "Schamberger-Schoen",
-  "ValidFrom": "2007-05-22T16:32:48.7588803+02:00",
-  "ValidTo": "2022-04-30T16:32:48.7588803+02:00",
-  "IsActive": true,
+  "PriceListId": 916,
+  "ERPPriceListKey": "eligendi",
+  "QuoteConnectionId": 881,
+  "Name": "Auer-Schimmel",
+  "Description": "Synergistic web-enabled adapter",
+  "Currency": "iste",
+  "CurrencyName": "Bergnaum Group",
+  "ValidFrom": "2008-05-18T17:54:08.9605465+02:00",
+  "ValidTo": "1999-06-23T17:54:08.9605465+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 793
+      "FieldLength": 578
     }
   }
 }

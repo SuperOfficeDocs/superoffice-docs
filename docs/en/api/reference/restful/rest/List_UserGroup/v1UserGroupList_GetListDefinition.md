@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 877,
-  "Name": "Blanda-Beier",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 438,
+  "Id": 339,
+  "Name": "Greenholt LLC",
+  "Tooltip": "ducimus",
+  "Deleted": false,
+  "Rank": 997,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "laudantium",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 390
+      "FieldType": "System.Int32",
+      "FieldLength": 903
     }
   },
   "_Links": {

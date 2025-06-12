@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 638,
+  "SelectionId": 24,
   "Criteria": [
     {
-      "Name": "Frami, Davis and Skiles",
-      "Operator": "totam",
+      "Name": "Hartmann Inc and Sons",
+      "Operator": "ipsum",
       "Values": [
-        "repellat",
-        "veritatis"
+        "expedita",
+        "omnis"
       ],
       "DisplayValues": [
-        "ducimus",
-        "aut"
+        "perferendis",
+        "corrupti"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -106,9 +106,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 27,
+      "InterParenthesis": 918,
       "InterOperator": "And",
-      "UniqueHash": 401
+      "UniqueHash": 806
     }
   ]
 }
@@ -122,44 +122,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schulist Group",
-    "Operator": "ipsa",
+    "Name": "Kohler, Bradtke and Beatty",
+    "Operator": "sed",
     "Values": [
-      "reprehenderit",
-      "minus"
+      "rem",
+      "possimus"
     ],
     "DisplayValues": [
-      "vitae",
-      "est"
+      "ipsa",
+      "voluptatem"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Sauer-Lind",
-        "Operator": "sit",
+        "Name": "Bernier-Kuhic",
+        "Operator": "iusto",
         "Values": [
-          "minima",
-          "illo"
+          "quam",
+          "culpa"
         ],
         "DisplayValues": [
-          "nihil",
-          "esse"
+          "omnis",
+          "at"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 837,
+        "InterParenthesis": 93,
         "InterOperator": "And",
-        "UniqueHash": 690
+        "UniqueHash": 420
       }
     ],
-    "InterParenthesis": 203,
+    "InterParenthesis": 288,
     "InterOperator": "And",
-    "UniqueHash": 399
+    "UniqueHash": 656
   }
 ]
 ```

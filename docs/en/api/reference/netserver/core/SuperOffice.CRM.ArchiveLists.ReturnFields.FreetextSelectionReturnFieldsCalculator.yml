@@ -13,23 +13,18 @@ items:
   nameWithType: FreetextSelectionReturnFieldsCalculator
   fullName: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.ReturnFields
   syntax:
     content: >-
       [ReturnFieldsCalculator("FreetextSelection")]
 
-      public class FreetextSelectionReturnFieldsCalculator : ReturnFieldsCalculatorBase, IReturnFieldsCalculator, IPlugin
+      public class FreetextSelectionReturnFieldsCalculator : ReturnFieldsCalculatorBase
     content.vb: >-
       <ReturnFieldsCalculator("FreetextSelection")>
 
-      Public Class FreetextSelectionReturnFieldsCalculator
-          Inherits ReturnFieldsCalculatorBase
-          Implements IReturnFieldsCalculator, IPlugin
+      Public Class FreetextSelectionReturnFieldsCalculator Inherits ReturnFieldsCalculatorBase
   inheritance:
   - System.Object
   - SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase
@@ -39,6 +34,13 @@ items:
   - SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddBlockedFields(System.String[])
   - SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.CalculateReturnFields(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   - SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.SearchFields
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -48,12 +50,6 @@ items:
     arguments:
     - type: System.String
       value: FreetextSelection
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator.InnerCalculateReturnFields
   commentId: M:SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator.InnerCalculateReturnFields
   id: InnerCalculateReturnFields
@@ -65,41 +61,80 @@ items:
   nameWithType: FreetextSelectionReturnFieldsCalculator.InnerCalculateReturnFields()
   fullName: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator.InnerCalculateReturnFields()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists.ReturnFields
+  summary: Subclass contract - you implement this method to add your return fields.
+  example: []
   syntax:
     content: protected override void InnerCalculateReturnFields()
-    content.vb: Protected Overrides Sub InnerCalculateReturnFields
+    content.vb: Protected Overrides Sub InnerCalculateReturnFields()
   overridden: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.InnerCalculateReturnFields
   overload: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator.InnerCalculateReturnFields*
-  modifiers.csharp:
-  - protected
-  - override
-  modifiers.vb:
-  - Protected
-  - Overrides
 references:
 - uid: SuperOffice.CRM.ArchiveLists.ReturnFields
   commentId: N:SuperOffice.CRM.ArchiveLists.ReturnFields
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists.ReturnFields
   nameWithType: SuperOffice.CRM.ArchiveLists.ReturnFields
   fullName: SuperOffice.CRM.ArchiveLists.ReturnFields
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists.ReturnFields
+    name: ReturnFields
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ReturnFields.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists.ReturnFields
+    name: ReturnFields
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ReturnFields.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase
   commentId: T:SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.html
   name: ReturnFieldsCalculatorBase
   nameWithType: ReturnFieldsCalculatorBase
   fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase
@@ -107,156 +142,130 @@ references:
   commentId: M:SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.HasSearchFields(System.String[])
   parent: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase
   isExternal: true
-  name: HasSearchFields(String[])
-  nameWithType: ReturnFieldsCalculatorBase.HasSearchFields(String[])
-  fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.HasSearchFields(System.String[])
-  nameWithType.vb: ReturnFieldsCalculatorBase.HasSearchFields(String())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.HasSearchFields(System.String())
-  name.vb: HasSearchFields(String())
+  href: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.html#SuperOffice_CRM_ArchiveLists_ReturnFieldsCalculatorBase_HasSearchFields_System_String___
+  name: HasSearchFields(params string[])
+  nameWithType: ReturnFieldsCalculatorBase.HasSearchFields(params string[])
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.HasSearchFields(params string[])
+  nameWithType.vb: ReturnFieldsCalculatorBase.HasSearchFields(ParamArray String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.HasSearchFields(ParamArray String())
+  name.vb: HasSearchFields(ParamArray String())
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.HasSearchFields(System.String[])
     name: HasSearchFields
-    nameWithType: ReturnFieldsCalculatorBase.HasSearchFields
-    fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.HasSearchFields
     isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.html#SuperOffice_CRM_ArchiveLists_ReturnFieldsCalculatorBase_HasSearchFields_System_String___
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: params
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.HasSearchFields(System.String[])
     name: HasSearchFields
-    nameWithType: ReturnFieldsCalculatorBase.HasSearchFields
-    fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.HasSearchFields
     isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.html#SuperOffice_CRM_ArchiveLists_ReturnFieldsCalculatorBase_HasSearchFields_System_String___
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: ParamArray
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddReturnFields(System.String[])
   commentId: M:SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddReturnFields(System.String[])
   parent: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase
   isExternal: true
-  name: AddReturnFields(String[])
-  nameWithType: ReturnFieldsCalculatorBase.AddReturnFields(String[])
-  fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddReturnFields(System.String[])
-  nameWithType.vb: ReturnFieldsCalculatorBase.AddReturnFields(String())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddReturnFields(System.String())
-  name.vb: AddReturnFields(String())
+  href: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.html#SuperOffice_CRM_ArchiveLists_ReturnFieldsCalculatorBase_AddReturnFields_System_String___
+  name: AddReturnFields(params string[])
+  nameWithType: ReturnFieldsCalculatorBase.AddReturnFields(params string[])
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddReturnFields(params string[])
+  nameWithType.vb: ReturnFieldsCalculatorBase.AddReturnFields(ParamArray String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddReturnFields(ParamArray String())
+  name.vb: AddReturnFields(ParamArray String())
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddReturnFields(System.String[])
     name: AddReturnFields
-    nameWithType: ReturnFieldsCalculatorBase.AddReturnFields
-    fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddReturnFields
     isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.html#SuperOffice_CRM_ArchiveLists_ReturnFieldsCalculatorBase_AddReturnFields_System_String___
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: params
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddReturnFields(System.String[])
     name: AddReturnFields
-    nameWithType: ReturnFieldsCalculatorBase.AddReturnFields
-    fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddReturnFields
     isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.html#SuperOffice_CRM_ArchiveLists_ReturnFieldsCalculatorBase_AddReturnFields_System_String___
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: ParamArray
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddBlockedFields(System.String[])
   commentId: M:SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddBlockedFields(System.String[])
   parent: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase
   isExternal: true
-  name: AddBlockedFields(String[])
-  nameWithType: ReturnFieldsCalculatorBase.AddBlockedFields(String[])
-  fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddBlockedFields(System.String[])
-  nameWithType.vb: ReturnFieldsCalculatorBase.AddBlockedFields(String())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddBlockedFields(System.String())
-  name.vb: AddBlockedFields(String())
+  href: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.html#SuperOffice_CRM_ArchiveLists_ReturnFieldsCalculatorBase_AddBlockedFields_System_String___
+  name: AddBlockedFields(params string[])
+  nameWithType: ReturnFieldsCalculatorBase.AddBlockedFields(params string[])
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddBlockedFields(params string[])
+  nameWithType.vb: ReturnFieldsCalculatorBase.AddBlockedFields(ParamArray String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddBlockedFields(ParamArray String())
+  name.vb: AddBlockedFields(ParamArray String())
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddBlockedFields(System.String[])
     name: AddBlockedFields
-    nameWithType: ReturnFieldsCalculatorBase.AddBlockedFields
-    fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddBlockedFields
     isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.html#SuperOffice_CRM_ArchiveLists_ReturnFieldsCalculatorBase_AddBlockedFields_System_String___
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: params
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddBlockedFields(System.String[])
     name: AddBlockedFields
-    nameWithType: ReturnFieldsCalculatorBase.AddBlockedFields
-    fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddBlockedFields
     isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.html#SuperOffice_CRM_ArchiveLists_ReturnFieldsCalculatorBase_AddBlockedFields_System_String___
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: ParamArray
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.CalculateReturnFields(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   commentId: M:SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.CalculateReturnFields(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   parent: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.html#SuperOffice_CRM_ArchiveLists_ReturnFieldsCalculatorBase_CalculateReturnFields_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___
   name: CalculateReturnFields(ArchiveRestrictionInfo[])
   nameWithType: ReturnFieldsCalculatorBase.CalculateReturnFields(ArchiveRestrictionInfo[])
   fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.CalculateReturnFields(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
@@ -266,133 +275,408 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.CalculateReturnFields(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
     name: CalculateReturnFields
-    nameWithType: ReturnFieldsCalculatorBase.CalculateReturnFields
-    fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.CalculateReturnFields
     isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.html#SuperOffice_CRM_ArchiveLists_ReturnFieldsCalculatorBase_CalculateReturnFields_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
-    nameWithType: ArchiveRestrictionInfo
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+  - name: '['
+  - name: ']'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.CalculateReturnFields(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
     name: CalculateReturnFields
-    nameWithType: ReturnFieldsCalculatorBase.CalculateReturnFields
-    fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.CalculateReturnFields
     isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.html#SuperOffice_CRM_ArchiveLists_ReturnFieldsCalculatorBase_CalculateReturnFields_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
-    nameWithType: ArchiveRestrictionInfo
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.SearchFields
   commentId: P:SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.SearchFields
   parent: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.html#SuperOffice_CRM_ArchiveLists_ReturnFieldsCalculatorBase_SearchFields
   name: SearchFields
   nameWithType: ReturnFieldsCalculatorBase.SearchFields
   fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.SearchFields
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<FreetextSelectionReturnFieldsCalculator, To>()
-  nameWithType: EnumUtil.MapEnums<FreetextSelectionReturnFieldsCalculator, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of FreetextSelectionReturnFieldsCalculator, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator, To)()
-  name.vb: MapEnums(Of FreetextSelectionReturnFieldsCalculator, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<FreetextSelectionReturnFieldsCalculator, To>(FreetextSelectionReturnFieldsCalculator)
+  nameWithType: EnumUtil.MapEnums<FreetextSelectionReturnFieldsCalculator, To>(FreetextSelectionReturnFieldsCalculator)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator, To>(SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator)
+  nameWithType.vb: EnumUtil.MapEnums(Of FreetextSelectionReturnFieldsCalculator, To)(FreetextSelectionReturnFieldsCalculator)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator, To)(SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator)
+  name.vb: MapEnums(Of FreetextSelectionReturnFieldsCalculator, To)(FreetextSelectionReturnFieldsCalculator)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<FreetextSelectionReturnFieldsCalculator, To>
-    nameWithType: EnumUtil.MapEnums<FreetextSelectionReturnFieldsCalculator, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator
+    name: FreetextSelectionReturnFieldsCalculator
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator
+    name: FreetextSelectionReturnFieldsCalculator
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of FreetextSelectionReturnFieldsCalculator, To)
-    nameWithType: EnumUtil.MapEnums(Of FreetextSelectionReturnFieldsCalculator, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator
+    name: FreetextSelectionReturnFieldsCalculator
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator
+    name: FreetextSelectionReturnFieldsCalculator
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator.html
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<FreetextSelectionReturnFieldsCalculator, To>()
-  nameWithType: Converters.MapEnums<FreetextSelectionReturnFieldsCalculator, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator, To>()
-  nameWithType.vb: Converters.MapEnums(Of FreetextSelectionReturnFieldsCalculator, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator, To)()
-  name.vb: MapEnums(Of FreetextSelectionReturnFieldsCalculator, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<FreetextSelectionReturnFieldsCalculator, To>(FreetextSelectionReturnFieldsCalculator)
+  nameWithType: Converters.MapEnums<FreetextSelectionReturnFieldsCalculator, To>(FreetextSelectionReturnFieldsCalculator)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator, To>(SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator)
+  nameWithType.vb: Converters.MapEnums(Of FreetextSelectionReturnFieldsCalculator, To)(FreetextSelectionReturnFieldsCalculator)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator, To)(SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator)
+  name.vb: MapEnums(Of FreetextSelectionReturnFieldsCalculator, To)(FreetextSelectionReturnFieldsCalculator)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<FreetextSelectionReturnFieldsCalculator, To>
-    nameWithType: Converters.MapEnums<FreetextSelectionReturnFieldsCalculator, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator
+    name: FreetextSelectionReturnFieldsCalculator
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator
+    name: FreetextSelectionReturnFieldsCalculator
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of FreetextSelectionReturnFieldsCalculator, To)
-    nameWithType: Converters.MapEnums(Of FreetextSelectionReturnFieldsCalculator, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator
+    name: FreetextSelectionReturnFieldsCalculator
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator
+    name: FreetextSelectionReturnFieldsCalculator
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -401,43 +685,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -446,81 +732,105 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.InnerCalculateReturnFields
   commentId: M:SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.InnerCalculateReturnFields
   parent: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.html#SuperOffice_CRM_ArchiveLists_ReturnFieldsCalculatorBase_InnerCalculateReturnFields
   name: InnerCalculateReturnFields()
   nameWithType: ReturnFieldsCalculatorBase.InnerCalculateReturnFields()
   fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.InnerCalculateReturnFields()
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.InnerCalculateReturnFields
     name: InnerCalculateReturnFields
-    nameWithType: ReturnFieldsCalculatorBase.InnerCalculateReturnFields
-    fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.InnerCalculateReturnFields
     isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.html#SuperOffice_CRM_ArchiveLists_ReturnFieldsCalculatorBase_InnerCalculateReturnFields
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.InnerCalculateReturnFields
     name: InnerCalculateReturnFields
-    nameWithType: ReturnFieldsCalculatorBase.InnerCalculateReturnFields
-    fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.InnerCalculateReturnFields
     isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.html#SuperOffice_CRM_ArchiveLists_ReturnFieldsCalculatorBase_InnerCalculateReturnFields
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator.InnerCalculateReturnFields*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator.InnerCalculateReturnFields
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator.html#SuperOffice_CRM_ArchiveLists_ReturnFields_FreetextSelectionReturnFieldsCalculator_InnerCalculateReturnFields
   name: InnerCalculateReturnFields
   nameWithType: FreetextSelectionReturnFieldsCalculator.InnerCalculateReturnFields
   fullName: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator.InnerCalculateReturnFields

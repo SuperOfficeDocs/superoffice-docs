@@ -5,15 +5,16 @@ items:
   id: SentryAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.SentryAgent.#ctor
-  - SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAllDiaries
-  - SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32[])
-  - SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInEachAssociatesDiary(System.Int32[])
-  - SuperOffice.CRM.Services.SentryAgent.GetFunctionRights
-  - SuperOffice.CRM.Services.SentryAgent.GetNewTableRight(System.String)
-  - SuperOffice.CRM.Services.SentryAgent.GetTableRightByContactOwnership(System.String,System.Int32)
-  - SuperOffice.CRM.Services.SentryAgent.GetTableRightByOwnership(System.String,System.Int32,System.Int32)
-  - SuperOffice.CRM.Services.SentryAgent.HasFunctionRight(System.String)
+  - SuperOffice.CRM.Services.SentryAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentryImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  - SuperOffice.CRM.Services.SentryAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentryImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAllDiariesAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiariesAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.SentryAgent.GetFunctionRightsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.SentryAgent.GetNewTableRightAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.SentryAgent.GetTableRightByContactOwnershipAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.SentryAgent.GetTableRightByOwnershipAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.SentryAgent.HasFunctionRightAsync(System.String,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -21,92 +22,141 @@ items:
   nameWithType: SentryAgent
   fullName: SuperOffice.CRM.Services.SentryAgent
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nFacade for the Sentry Agent\nData and function right queries\n"
-  example:
-  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (SentryAgent agent = new SentryAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  summary: >-
+    Proxy class for the Sentry Agent
+
+    Used when communicating remote using WebServices.
+
+    Avoid using directly. Use the AgentFactory to create the proxy instead.
+  example: []
   syntax:
-    content: 'public class SentryAgent : AgentBase<ISentryAgent>, IDisposable, ISentryAgent, IAgent'
-    content.vb: >-
-      Public Class SentryAgent
-          Inherits AgentBase(Of ISentryAgent)
-          Implements IDisposable, ISentryAgent, IAgent
+    content: 'public class SentryAgent : ISentryAgent, IAgent'
+    content.vb: Public Class SentryAgent Implements ISentryAgent, IAgent
   inheritance:
   - System.Object
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISentryAgent}
   implements:
-  - System.IDisposable
   - SuperOffice.CRM.Services.ISentryAgent
   - SuperOffice.CRM.Services.IAgent
   inheritedMembers:
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISentryAgent}.Dispose
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISentryAgent}.InnerAgent
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.CRM.Services.SentryAgent.GetNewTableRight(System.String)
-  commentId: M:SuperOffice.CRM.Services.SentryAgent.GetNewTableRight(System.String)
-  id: GetNewTableRight(System.String)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Services.SentryAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentryImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  commentId: M:SuperOffice.CRM.Services.SentryAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentryImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentryImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
   parent: SuperOffice.CRM.Services.SentryAgent
   langs:
   - csharp
   - vb
-  name: GetNewTableRight(String)
-  nameWithType: SentryAgent.GetNewTableRight(String)
-  fullName: SuperOffice.CRM.Services.SentryAgent.GetNewTableRight(System.String)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
+  name: SentryAgent(ISentryImplementation, ISoRequestItemsAccessor)
+  nameWithType: SentryAgent.SentryAgent(ISentryImplementation, ISoRequestItemsAccessor)
+  fullName: SuperOffice.CRM.Services.SentryAgent.SentryAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentryImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  type: Constructor
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns a TableRight for a new row based on tableName parameter.\n"
   syntax:
-    content: public TableRight GetNewTableRight(string tableName)
+    content: public SentryAgent(ISentryImplementation sentryImplementation, ISoRequestItemsAccessor accessor)
+    parameters:
+    - id: sentryImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentryImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    content.vb: Public Sub New(sentryImplementation As ISentryImplementation, accessor As ISoRequestItemsAccessor)
+  overload: SuperOffice.CRM.Services.SentryAgent.#ctor*
+  nameWithType.vb: SentryAgent.New(ISentryImplementation, ISoRequestItemsAccessor)
+  fullName.vb: SuperOffice.CRM.Services.SentryAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentryImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name.vb: New(ISentryImplementation, ISoRequestItemsAccessor)
+- uid: SuperOffice.CRM.Services.SentryAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentryImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.SentryAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentryImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentryImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+  parent: SuperOffice.CRM.Services.SentryAgent
+  langs:
+  - csharp
+  - vb
+  name: SentryAgent(ISentryImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: SentryAgent.SentryAgent(ISentryImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.SentryAgent.SentryAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentryImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public SentryAgent(ISentryImplementation sentryImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    parameters:
+    - id: sentryImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentryImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    - id: debugUser
+      type: SuperOffice.Data.IDebugUser
+    - id: serviceCallsRepository
+      type: SuperOffice.Diagnostics.IServiceCallsRepository
+    content.vb: Public Sub New(sentryImplementation As ISentryImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+  overload: SuperOffice.CRM.Services.SentryAgent.#ctor*
+  nameWithType.vb: SentryAgent.New(ISentryImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.SentryAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentryImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(ISentryImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+- uid: SuperOffice.CRM.Services.SentryAgent.GetNewTableRightAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.SentryAgent.GetNewTableRightAsync(System.String,System.Threading.CancellationToken)
+  id: GetNewTableRightAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.SentryAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNewTableRightAsync(string, CancellationToken)
+  nameWithType: SentryAgent.GetNewTableRightAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.SentryAgent.GetNewTableRightAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Returns a TableRight for a new row based on tableName parameter.
+  example: []
+  syntax:
+    content: public Task<TableRight> GetNewTableRightAsync(string tableName, CancellationToken cancellationToken = default)
     parameters:
     - id: tableName
       type: System.String
       description: Name of the table to get the TableRights from
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Security.TableRight
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Security.TableRight}
       description: The TableRight
-    content.vb: Public Function GetNewTableRight(tableName As String) As TableRight
-  overload: SuperOffice.CRM.Services.SentryAgent.GetNewTableRight*
+    content.vb: Public Function GetNewTableRightAsync(tableName As String, cancellationToken As CancellationToken = Nothing) As Task(Of TableRight)
+  overload: SuperOffice.CRM.Services.SentryAgent.GetNewTableRightAsync*
   implements:
-  - SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight(System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.SentryAgent.GetTableRightByOwnership(System.String,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.SentryAgent.GetTableRightByOwnership(System.String,System.Int32,System.Int32)
-  id: GetTableRightByOwnership(System.String,System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.ISentryAgent.GetNewTableRightAsync(System.String,System.Threading.CancellationToken)
+  nameWithType.vb: SentryAgent.GetNewTableRightAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.SentryAgent.GetNewTableRightAsync(String, System.Threading.CancellationToken)
+  name.vb: GetNewTableRightAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.SentryAgent.GetTableRightByOwnershipAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.SentryAgent.GetTableRightByOwnershipAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetTableRightByOwnershipAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.SentryAgent
   langs:
   - csharp
   - vb
-  name: GetTableRightByOwnership(String, Int32, Int32)
-  nameWithType: SentryAgent.GetTableRightByOwnership(String, Int32, Int32)
-  fullName: SuperOffice.CRM.Services.SentryAgent.GetTableRightByOwnership(System.String, System.Int32, System.Int32)
+  name: GetTableRightByOwnershipAsync(string, int, int, CancellationToken)
+  nameWithType: SentryAgent.GetTableRightByOwnershipAsync(string, int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.SentryAgent.GetTableRightByOwnershipAsync(string, int, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturn the TableRight from the relationship between the current user and the given user and group.\n"
+  summary: Return the TableRight from the relationship between the current user and the given user and group.
+  example: []
   syntax:
-    content: public TableRight GetTableRightByOwnership(string tableName, int contactGroupId, int contactAssociateId)
+    content: public Task<TableRight> GetTableRightByOwnershipAsync(string tableName, int contactGroupId, int contactAssociateId, CancellationToken cancellationToken = default)
     parameters:
     - id: tableName
       type: System.String
@@ -117,209 +167,200 @@ items:
     - id: contactAssociateId
       type: System.Int32
       description: The associate id of the owner of the record
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Security.TableRight
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Security.TableRight}
       description: The TableRight
-    content.vb: Public Function GetTableRightByOwnership(tableName As String, contactGroupId As Integer, contactAssociateId As Integer) As TableRight
-  overload: SuperOffice.CRM.Services.SentryAgent.GetTableRightByOwnership*
+    content.vb: Public Function GetTableRightByOwnershipAsync(tableName As String, contactGroupId As Integer, contactAssociateId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TableRight)
+  overload: SuperOffice.CRM.Services.SentryAgent.GetTableRightByOwnershipAsync*
   implements:
-  - SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnership(System.String,System.Int32,System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.SentryAgent.GetFunctionRights
-  commentId: M:SuperOffice.CRM.Services.SentryAgent.GetFunctionRights
-  id: GetFunctionRights
+  - SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnershipAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: SentryAgent.GetTableRightByOwnershipAsync(String, Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.SentryAgent.GetTableRightByOwnershipAsync(String, Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetTableRightByOwnershipAsync(String, Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.SentryAgent.GetFunctionRightsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.SentryAgent.GetFunctionRightsAsync(System.Threading.CancellationToken)
+  id: GetFunctionRightsAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.SentryAgent
   langs:
   - csharp
   - vb
-  name: GetFunctionRights()
-  nameWithType: SentryAgent.GetFunctionRights()
-  fullName: SuperOffice.CRM.Services.SentryAgent.GetFunctionRights()
+  name: GetFunctionRightsAsync(CancellationToken)
+  nameWithType: SentryAgent.GetFunctionRightsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.SentryAgent.GetFunctionRightsAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet a string array of all functions rights for the role of the current associate.\n"
+  summary: Get a string array of all functions rights for the role of the current associate.
+  example: []
   syntax:
-    content: public string[] GetFunctionRights()
+    content: public Task<string[]> GetFunctionRightsAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.String[]
+      type: System.Threading.Tasks.Task{System.String[]}
       description: String array with the technical names of assigned function rights
-    content.vb: Public Function GetFunctionRights As String()
-  overload: SuperOffice.CRM.Services.SentryAgent.GetFunctionRights*
+    content.vb: Public Function GetFunctionRightsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String())
+  overload: SuperOffice.CRM.Services.SentryAgent.GetFunctionRightsAsync*
   implements:
-  - SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.SentryAgent.HasFunctionRight(System.String)
-  commentId: M:SuperOffice.CRM.Services.SentryAgent.HasFunctionRight(System.String)
-  id: HasFunctionRight(System.String)
+  - SuperOffice.CRM.Services.ISentryAgent.GetFunctionRightsAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.SentryAgent.HasFunctionRightAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.SentryAgent.HasFunctionRightAsync(System.String,System.Threading.CancellationToken)
+  id: HasFunctionRightAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.SentryAgent
   langs:
   - csharp
   - vb
-  name: HasFunctionRight(String)
-  nameWithType: SentryAgent.HasFunctionRight(String)
-  fullName: SuperOffice.CRM.Services.SentryAgent.HasFunctionRight(System.String)
+  name: HasFunctionRightAsync(string, CancellationToken)
+  nameWithType: SentryAgent.HasFunctionRightAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.SentryAgent.HasFunctionRightAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet a boolean value indicating if the current user has the functional right.\n"
+  summary: Get a boolean value indicating if the current user has the functional right.
+  example: []
   syntax:
-    content: public bool HasFunctionRight(string functionRight)
+    content: public Task<bool> HasFunctionRightAsync(string functionRight, CancellationToken cancellationToken = default)
     parameters:
     - id: functionRight
       type: System.String
       description: Function right to check.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.Boolean
-    content.vb: Public Function HasFunctionRight(functionRight As String) As Boolean
-  overload: SuperOffice.CRM.Services.SentryAgent.HasFunctionRight*
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: ''
+    content.vb: Public Function HasFunctionRightAsync(functionRight As String, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.SentryAgent.HasFunctionRightAsync*
   implements:
-  - SuperOffice.CRM.Services.ISentryAgent.HasFunctionRight(System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32[])
-  id: CanCreateAppointmentInAssociateDiaries(System.Int32[])
+  - SuperOffice.CRM.Services.ISentryAgent.HasFunctionRightAsync(System.String,System.Threading.CancellationToken)
+  nameWithType.vb: SentryAgent.HasFunctionRightAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.SentryAgent.HasFunctionRightAsync(String, System.Threading.CancellationToken)
+  name.vb: HasFunctionRightAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiariesAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiariesAsync(System.Int32[],System.Threading.CancellationToken)
+  id: CanCreateAppointmentInAssociateDiariesAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.SentryAgent
   langs:
   - csharp
   - vb
-  name: CanCreateAppointmentInAssociateDiaries(Int32[])
-  nameWithType: SentryAgent.CanCreateAppointmentInAssociateDiaries(Int32[])
-  fullName: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32[])
+  name: CanCreateAppointmentInAssociateDiariesAsync(int[], CancellationToken)
+  nameWithType: SentryAgent.CanCreateAppointmentInAssociateDiariesAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiariesAsync(int[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nCanCreateAppointmentInAssociateDiaries will check if the current associate can create appointments in diaries belonging to the associates listed in associateIds. CanCreateAppointmentInAssociateDiaries will only check against associates that are diary owners. If none of the associates listed in the associateIds parameter is a diary owner, the method will return true.\n"
+  summary: CanCreateAppointmentInAssociateDiaries will check if the current associate can create appointments in diaries belonging to the associates listed in associateIds. CanCreateAppointmentInAssociateDiaries will only check against associates that are diary owners. If none of the associates listed in the associateIds parameter is a diary owner, the method will return true.
+  example: []
   syntax:
-    content: public bool CanCreateAppointmentInAssociateDiaries(int[] associateIds)
+    content: public Task<bool> CanCreateAppointmentInAssociateDiariesAsync(int[] associateIds, CancellationToken cancellationToken = default)
     parameters:
     - id: associateIds
       type: System.Int32[]
       description: Array of associate ids to check.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: Returns true if the current associate can create appointments in the diary of all the other associates, otherwise false.
-    content.vb: Public Function CanCreateAppointmentInAssociateDiaries(associateIds As Integer()) As Boolean
-  overload: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiaries*
+    content.vb: Public Function CanCreateAppointmentInAssociateDiariesAsync(associateIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiariesAsync*
   implements:
-  - SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32[])
-  nameWithType.vb: SentryAgent.CanCreateAppointmentInAssociateDiaries(Int32())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32())
-  name.vb: CanCreateAppointmentInAssociateDiaries(Int32())
-- uid: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInEachAssociatesDiary(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInEachAssociatesDiary(System.Int32[])
-  id: CanCreateAppointmentInEachAssociatesDiary(System.Int32[])
+  - SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(System.Int32[],System.Threading.CancellationToken)
+  nameWithType.vb: SentryAgent.CanCreateAppointmentInAssociateDiariesAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiariesAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: CanCreateAppointmentInAssociateDiariesAsync(Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(System.Int32[],System.Threading.CancellationToken)
+  id: CanCreateAppointmentInEachAssociatesDiaryAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.SentryAgent
   langs:
   - csharp
   - vb
-  name: CanCreateAppointmentInEachAssociatesDiary(Int32[])
-  nameWithType: SentryAgent.CanCreateAppointmentInEachAssociatesDiary(Int32[])
-  fullName: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInEachAssociatesDiary(System.Int32[])
+  name: CanCreateAppointmentInEachAssociatesDiaryAsync(int[], CancellationToken)
+  nameWithType: SentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(int[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nCanCreateAppointmentInEachAssociateDiary will check if the current associate can create appointments in diaries belonging to the associates listed in associateIds. CanCreateAppointmentInEachAssociateDiary will only check against associates that are diary owners. If none of the associates listed in the associateIds parameter is a diary owner, the method will return true.\n"
+  summary: CanCreateAppointmentInEachAssociateDiary will check if the current associate can create appointments in diaries belonging to the associates listed in associateIds. CanCreateAppointmentInEachAssociateDiary will only check against associates that are diary owners. If none of the associates listed in the associateIds parameter is a diary owner, the method will return true.
+  example: []
   syntax:
-    content: public bool[] CanCreateAppointmentInEachAssociatesDiary(int[] associateIds)
+    content: public Task<bool[]> CanCreateAppointmentInEachAssociatesDiaryAsync(int[] associateIds, CancellationToken cancellationToken = default)
     parameters:
     - id: associateIds
       type: System.Int32[]
       description: Array of associate ids to check.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.Boolean[]
+      type: System.Threading.Tasks.Task{System.Boolean[]}
       description: Returns true if for each given associate if the current associate can create appointments in that diary, otherwise false.
-    content.vb: Public Function CanCreateAppointmentInEachAssociatesDiary(associateIds As Integer()) As Boolean()
-  overload: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInEachAssociatesDiary*
+    content.vb: Public Function CanCreateAppointmentInEachAssociatesDiaryAsync(associateIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of Boolean())
+  overload: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync*
   implements:
-  - SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInEachAssociatesDiary(System.Int32[])
-  nameWithType.vb: SentryAgent.CanCreateAppointmentInEachAssociatesDiary(Int32())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInEachAssociatesDiary(System.Int32())
-  name.vb: CanCreateAppointmentInEachAssociatesDiary(Int32())
-- uid: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAllDiaries
-  commentId: M:SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAllDiaries
-  id: CanCreateAppointmentInAllDiaries
+  - SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(System.Int32[],System.Threading.CancellationToken)
+  nameWithType.vb: SentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: CanCreateAppointmentInEachAssociatesDiaryAsync(Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAllDiariesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAllDiariesAsync(System.Threading.CancellationToken)
+  id: CanCreateAppointmentInAllDiariesAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.SentryAgent
   langs:
   - csharp
   - vb
-  name: CanCreateAppointmentInAllDiaries()
-  nameWithType: SentryAgent.CanCreateAppointmentInAllDiaries()
-  fullName: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAllDiaries()
+  name: CanCreateAppointmentInAllDiariesAsync(CancellationToken)
+  nameWithType: SentryAgent.CanCreateAppointmentInAllDiariesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAllDiariesAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nCanCreateAppointmentInAllDiaries will check if the current associate can create appointments in diaries belonging all other associates. CanCreateAppointmentInAssociateDiaries will only check against associates that are diary owners.\n"
+  summary: CanCreateAppointmentInAllDiaries will check if the current associate can create appointments in diaries belonging all other associates. CanCreateAppointmentInAssociateDiaries will only check against associates that are diary owners.
+  example: []
   syntax:
-    content: public bool CanCreateAppointmentInAllDiaries()
+    content: public Task<bool> CanCreateAppointmentInAllDiariesAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: Returns true if the current associate can create appointments in the diary of all the other associates, otherwise false.
-    content.vb: Public Function CanCreateAppointmentInAllDiaries As Boolean
-  overload: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAllDiaries*
+    content.vb: Public Function CanCreateAppointmentInAllDiariesAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAllDiariesAsync*
   implements:
-  - SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.SentryAgent.GetTableRightByContactOwnership(System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.SentryAgent.GetTableRightByContactOwnership(System.String,System.Int32)
-  id: GetTableRightByContactOwnership(System.String,System.Int32)
+  - SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiariesAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.SentryAgent.GetTableRightByContactOwnershipAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.SentryAgent.GetTableRightByContactOwnershipAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  id: GetTableRightByContactOwnershipAsync(System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.SentryAgent
   langs:
   - csharp
   - vb
-  name: GetTableRightByContactOwnership(String, Int32)
-  nameWithType: SentryAgent.GetTableRightByContactOwnership(String, Int32)
-  fullName: SuperOffice.CRM.Services.SentryAgent.GetTableRightByContactOwnership(System.String, System.Int32)
+  name: GetTableRightByContactOwnershipAsync(string, int, CancellationToken)
+  nameWithType: SentryAgent.GetTableRightByContactOwnershipAsync(string, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.SentryAgent.GetTableRightByContactOwnershipAsync(string, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturn the TableRight from the relationship between the current user and the given user and group.\n"
+  summary: Return the TableRight from the relationship between the current user and the given user and group.
+  example: []
   syntax:
-    content: public TableRight GetTableRightByContactOwnership(string tableName, int contactId)
+    content: public Task<TableRight> GetTableRightByContactOwnershipAsync(string tableName, int contactId, CancellationToken cancellationToken = default)
     parameters:
     - id: tableName
       type: System.String
@@ -327,102 +368,73 @@ items:
     - id: contactId
       type: System.Int32
       description: The owner contact.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Security.TableRight
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Security.TableRight}
       description: The TableRight
-    content.vb: Public Function GetTableRightByContactOwnership(tableName As String, contactId As Integer) As TableRight
-  overload: SuperOffice.CRM.Services.SentryAgent.GetTableRightByContactOwnership*
+    content.vb: Public Function GetTableRightByContactOwnershipAsync(tableName As String, contactId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TableRight)
+  overload: SuperOffice.CRM.Services.SentryAgent.GetTableRightByContactOwnershipAsync*
   implements:
-  - SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnership(System.String,System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.SentryAgent.#ctor
-  commentId: M:SuperOffice.CRM.Services.SentryAgent.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.Services.SentryAgent
-  langs:
-  - csharp
-  - vb
-  name: SentryAgent()
-  nameWithType: SentryAgent.SentryAgent()
-  fullName: SuperOffice.CRM.Services.SentryAgent.SentryAgent()
-  type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  syntax:
-    content: public SentryAgent()
-    content.vb: Public Sub New
-  overload: SuperOffice.CRM.Services.SentryAgent.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnershipAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: SentryAgent.GetTableRightByContactOwnershipAsync(String, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.SentryAgent.GetTableRightByContactOwnershipAsync(String, Integer, System.Threading.CancellationToken)
+  name.vb: GetTableRightByContactOwnershipAsync(String, Integer, CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISentryAgent}
-  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISentryAgent}
-  parent: SuperOffice.CRM.Services
-  definition: SuperOffice.CRM.Services.AgentBase`1
-  name: AgentBase<ISentryAgent>
-  nameWithType: AgentBase<ISentryAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.ISentryAgent>
-  nameWithType.vb: AgentBase(Of ISentryAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.ISentryAgent)
-  name.vb: AgentBase(Of ISentryAgent)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.Services.ISentryAgent
-    name: ISentryAgent
-    nameWithType: ISentryAgent
-    fullName: SuperOffice.CRM.Services.ISentryAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.CRM.Services.ISentryAgent
-    name: ISentryAgent
-    nameWithType: ISentryAgent
-    fullName: SuperOffice.CRM.Services.ISentryAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IDisposable
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Services.ISentryAgent
   commentId: T:SuperOffice.CRM.Services.ISentryAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.ISentryAgent.html
   name: ISentryAgent
   nameWithType: ISentryAgent
   fullName: SuperOffice.CRM.Services.ISentryAgent
@@ -430,665 +442,1038 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IAgent.html
   name: IAgent
   nameWithType: IAgent
   fullName: SuperOffice.CRM.Services.IAgent
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISentryAgent}.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISentryAgent}.Dispose
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISentryAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  name: Dispose()
-  nameWithType: AgentBase<ISentryAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.ISentryAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of ISentryAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.ISentryAgent).Dispose()
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<ISentryAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.ISentryAgent>.Dispose
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of ISentryAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.ISentryAgent).Dispose
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISentryAgent}.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISentryAgent}.InnerAgent
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISentryAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  name: InnerAgent
-  nameWithType: AgentBase<ISentryAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.ISentryAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of ISentryAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.ISentryAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.AgentBase`1
-  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
   isExternal: true
-  name: AgentBase<TAgent>
-  nameWithType: AgentBase<TAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
-  nameWithType.vb: AgentBase(Of TAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
-  name.vb: AgentBase(Of TAgent)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: Dispose()
-  nameWithType: AgentBase<TAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of TAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<TAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of TAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: InnerAgent
-  nameWithType: AgentBase<TAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.SentryAgent.GetNewTableRight*
-  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.GetNewTableRight
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
   isExternal: true
-  name: GetNewTableRight
-  nameWithType: SentryAgent.GetNewTableRight
-  fullName: SuperOffice.CRM.Services.SentryAgent.GetNewTableRight
-- uid: SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight(System.String)
-  commentId: M:SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight(System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.SentryAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.SentryAgent.html#SuperOffice_CRM_Services_SentryAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_ISentryImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
+  name: SentryAgent
+  nameWithType: SentryAgent.SentryAgent
+  fullName: SuperOffice.CRM.Services.SentryAgent.SentryAgent
+  nameWithType.vb: SentryAgent.New
+  fullName.vb: SuperOffice.CRM.Services.SentryAgent.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentryImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentryImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentryImplementation.html
+  name: ISentryImplementation
+  nameWithType: ISentryImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentryImplementation
+- uid: SuperOffice.Factory.ISoRequestItemsAccessor
+  isExternal: true
+  name: ISoRequestItemsAccessor
+  nameWithType: ISoRequestItemsAccessor
+  fullName: SuperOffice.Factory.ISoRequestItemsAccessor
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  commentId: N:SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  nameWithType: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+- uid: SuperOffice.Data.IDebugUser
+  isExternal: true
+  name: IDebugUser
+  nameWithType: IDebugUser
+  fullName: SuperOffice.Data.IDebugUser
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository
+  isExternal: true
+  name: IServiceCallsRepository
+  nameWithType: IServiceCallsRepository
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.CRM.Services.SentryAgent.GetNewTableRightAsync*
+  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.GetNewTableRightAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.SentryAgent.html#SuperOffice_CRM_Services_SentryAgent_GetNewTableRightAsync_System_String_System_Threading_CancellationToken_
+  name: GetNewTableRightAsync
+  nameWithType: SentryAgent.GetNewTableRightAsync
+  fullName: SuperOffice.CRM.Services.SentryAgent.GetNewTableRightAsync
+- uid: SuperOffice.CRM.Services.ISentryAgent.GetNewTableRightAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISentryAgent.GetNewTableRightAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISentryAgent
   isExternal: true
-  name: GetNewTableRight(String)
-  nameWithType: ISentryAgent.GetNewTableRight(String)
-  fullName: SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight(System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetNewTableRightAsync(string, CancellationToken)
+  nameWithType: ISentryAgent.GetNewTableRightAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISentryAgent.GetNewTableRightAsync(string, System.Threading.CancellationToken)
+  nameWithType.vb: ISentryAgent.GetNewTableRightAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISentryAgent.GetNewTableRightAsync(String, System.Threading.CancellationToken)
+  name.vb: GetNewTableRightAsync(String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight(System.String)
-    name: GetNewTableRight
-    nameWithType: ISentryAgent.GetNewTableRight
-    fullName: SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight
+  - uid: SuperOffice.CRM.Services.ISentryAgent.GetNewTableRightAsync(System.String,System.Threading.CancellationToken)
+    name: GetNewTableRightAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight(System.String)
-    name: GetNewTableRight
-    nameWithType: ISentryAgent.GetNewTableRight
-    fullName: SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight
+  - uid: SuperOffice.CRM.Services.ISentryAgent.GetNewTableRightAsync(System.String,System.Threading.CancellationToken)
+    name: GetNewTableRightAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.CRM.Security.TableRight
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: TableRight
-  nameWithType: TableRight
-  fullName: SuperOffice.CRM.Security.TableRight
-- uid: System
-  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Security.TableRight}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Security.TableRight}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TableRight>
+  nameWithType: Task<TableRight>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Security.TableRight>
+  nameWithType.vb: Task(Of TableRight)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Security.TableRight)
+  name.vb: Task(Of TableRight)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Security.TableRight
+    name: TableRight
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Security.TableRight
+    name: TableRight
+    isExternal: true
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.CRM.Services.SentryAgent.GetTableRightByOwnership*
-  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.GetTableRightByOwnership
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: GetTableRightByOwnership
-  nameWithType: SentryAgent.GetTableRightByOwnership
-  fullName: SuperOffice.CRM.Services.SentryAgent.GetTableRightByOwnership
-- uid: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnership(System.String,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnership(System.String,System.Int32,System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.SentryAgent.GetTableRightByOwnershipAsync*
+  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.GetTableRightByOwnershipAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.SentryAgent.html#SuperOffice_CRM_Services_SentryAgent_GetTableRightByOwnershipAsync_System_String_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: GetTableRightByOwnershipAsync
+  nameWithType: SentryAgent.GetTableRightByOwnershipAsync
+  fullName: SuperOffice.CRM.Services.SentryAgent.GetTableRightByOwnershipAsync
+- uid: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnershipAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnershipAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISentryAgent
   isExternal: true
-  name: GetTableRightByOwnership(String, Int32, Int32)
-  nameWithType: ISentryAgent.GetTableRightByOwnership(String, Int32, Int32)
-  fullName: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnership(System.String, System.Int32, System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetTableRightByOwnershipAsync(string, int, int, CancellationToken)
+  nameWithType: ISentryAgent.GetTableRightByOwnershipAsync(string, int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnershipAsync(string, int, int, System.Threading.CancellationToken)
+  nameWithType.vb: ISentryAgent.GetTableRightByOwnershipAsync(String, Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnershipAsync(String, Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetTableRightByOwnershipAsync(String, Integer, Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnership(System.String,System.Int32,System.Int32)
-    name: GetTableRightByOwnership
-    nameWithType: ISentryAgent.GetTableRightByOwnership
-    fullName: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnership
+  - uid: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnershipAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: GetTableRightByOwnershipAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnership(System.String,System.Int32,System.Int32)
-    name: GetTableRightByOwnership
-    nameWithType: ISentryAgent.GetTableRightByOwnership
-    fullName: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnership
+  - uid: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnershipAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: GetTableRightByOwnershipAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.CRM.Services.SentryAgent.GetFunctionRights*
-  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.GetFunctionRights
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Services.SentryAgent.GetFunctionRightsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.GetFunctionRightsAsync
   isExternal: true
-  name: GetFunctionRights
-  nameWithType: SentryAgent.GetFunctionRights
-  fullName: SuperOffice.CRM.Services.SentryAgent.GetFunctionRights
-- uid: SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights
-  commentId: M:SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights
+  href: SuperOffice.CRM.Services.SentryAgent.html#SuperOffice_CRM_Services_SentryAgent_GetFunctionRightsAsync_System_Threading_CancellationToken_
+  name: GetFunctionRightsAsync
+  nameWithType: SentryAgent.GetFunctionRightsAsync
+  fullName: SuperOffice.CRM.Services.SentryAgent.GetFunctionRightsAsync
+- uid: SuperOffice.CRM.Services.ISentryAgent.GetFunctionRightsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISentryAgent.GetFunctionRightsAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISentryAgent
   isExternal: true
-  name: GetFunctionRights()
-  nameWithType: ISentryAgent.GetFunctionRights()
-  fullName: SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights()
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetFunctionRightsAsync(CancellationToken)
+  nameWithType: ISentryAgent.GetFunctionRightsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISentryAgent.GetFunctionRightsAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights
-    name: GetFunctionRights
-    nameWithType: ISentryAgent.GetFunctionRights
-    fullName: SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights
+  - uid: SuperOffice.CRM.Services.ISentryAgent.GetFunctionRightsAsync(System.Threading.CancellationToken)
+    name: GetFunctionRightsAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights
-    name: GetFunctionRights
-    nameWithType: ISentryAgent.GetFunctionRights
-    fullName: SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights
+  - uid: SuperOffice.CRM.Services.ISentryAgent.GetFunctionRightsAsync(System.Threading.CancellationToken)
+    name: GetFunctionRightsAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.String[]
-  isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
-  nameWithType.vb: String()
-  fullName.vb: System.String()
-  name.vb: String()
+- uid: System.Threading.Tasks.Task{System.String[]}
+  commentId: T:System.Threading.Tasks.Task{System.String[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string[]>
+  nameWithType: Task<string[]>
+  fullName: System.Threading.Tasks.Task<string[]>
+  nameWithType.vb: Task(Of String())
+  fullName.vb: System.Threading.Tasks.Task(Of String())
+  name.vb: Task(Of String())
   spec.csharp:
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.SentryAgent.HasFunctionRight*
-  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.HasFunctionRight
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.SentryAgent.HasFunctionRightAsync*
+  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.HasFunctionRightAsync
   isExternal: true
-  name: HasFunctionRight
-  nameWithType: SentryAgent.HasFunctionRight
-  fullName: SuperOffice.CRM.Services.SentryAgent.HasFunctionRight
-- uid: SuperOffice.CRM.Services.ISentryAgent.HasFunctionRight(System.String)
-  commentId: M:SuperOffice.CRM.Services.ISentryAgent.HasFunctionRight(System.String)
+  href: SuperOffice.CRM.Services.SentryAgent.html#SuperOffice_CRM_Services_SentryAgent_HasFunctionRightAsync_System_String_System_Threading_CancellationToken_
+  name: HasFunctionRightAsync
+  nameWithType: SentryAgent.HasFunctionRightAsync
+  fullName: SuperOffice.CRM.Services.SentryAgent.HasFunctionRightAsync
+- uid: SuperOffice.CRM.Services.ISentryAgent.HasFunctionRightAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISentryAgent.HasFunctionRightAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISentryAgent
   isExternal: true
-  name: HasFunctionRight(String)
-  nameWithType: ISentryAgent.HasFunctionRight(String)
-  fullName: SuperOffice.CRM.Services.ISentryAgent.HasFunctionRight(System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: HasFunctionRightAsync(string, CancellationToken)
+  nameWithType: ISentryAgent.HasFunctionRightAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISentryAgent.HasFunctionRightAsync(string, System.Threading.CancellationToken)
+  nameWithType.vb: ISentryAgent.HasFunctionRightAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISentryAgent.HasFunctionRightAsync(String, System.Threading.CancellationToken)
+  name.vb: HasFunctionRightAsync(String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.ISentryAgent.HasFunctionRight(System.String)
-    name: HasFunctionRight
-    nameWithType: ISentryAgent.HasFunctionRight
-    fullName: SuperOffice.CRM.Services.ISentryAgent.HasFunctionRight
+  - uid: SuperOffice.CRM.Services.ISentryAgent.HasFunctionRightAsync(System.String,System.Threading.CancellationToken)
+    name: HasFunctionRightAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.ISentryAgent.HasFunctionRight(System.String)
-    name: HasFunctionRight
-    nameWithType: ISentryAgent.HasFunctionRight
-    fullName: SuperOffice.CRM.Services.ISentryAgent.HasFunctionRight
+  - uid: SuperOffice.CRM.Services.ISentryAgent.HasFunctionRightAsync(System.String,System.Threading.CancellationToken)
+    name: HasFunctionRightAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiariesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiariesAsync
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiaries*
-  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiaries
-  isExternal: true
-  name: CanCreateAppointmentInAssociateDiaries
-  nameWithType: SentryAgent.CanCreateAppointmentInAssociateDiaries
-  fullName: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiaries
-- uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32[])
+  href: SuperOffice.CRM.Services.SentryAgent.html#SuperOffice_CRM_Services_SentryAgent_CanCreateAppointmentInAssociateDiariesAsync_System_Int32___System_Threading_CancellationToken_
+  name: CanCreateAppointmentInAssociateDiariesAsync
+  nameWithType: SentryAgent.CanCreateAppointmentInAssociateDiariesAsync
+  fullName: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiariesAsync
+- uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISentryAgent
   isExternal: true
-  name: CanCreateAppointmentInAssociateDiaries(Int32[])
-  nameWithType: ISentryAgent.CanCreateAppointmentInAssociateDiaries(Int32[])
-  fullName: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32[])
-  nameWithType.vb: ISentryAgent.CanCreateAppointmentInAssociateDiaries(Int32())
-  fullName.vb: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32())
-  name.vb: CanCreateAppointmentInAssociateDiaries(Int32())
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: CanCreateAppointmentInAssociateDiariesAsync(int[], CancellationToken)
+  nameWithType: ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(int[], System.Threading.CancellationToken)
+  nameWithType.vb: ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: CanCreateAppointmentInAssociateDiariesAsync(Integer(), CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32[])
-    name: CanCreateAppointmentInAssociateDiaries
-    nameWithType: ISentryAgent.CanCreateAppointmentInAssociateDiaries
-    fullName: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries
+  - uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(System.Int32[],System.Threading.CancellationToken)
+    name: CanCreateAppointmentInAssociateDiariesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32[])
-    name: CanCreateAppointmentInAssociateDiaries
-    nameWithType: ISentryAgent.CanCreateAppointmentInAssociateDiaries
-    fullName: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries
+  - uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(System.Int32[],System.Threading.CancellationToken)
+    name: CanCreateAppointmentInAssociateDiariesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: System.Int32[]
   isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
   spec.csharp:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInEachAssociatesDiary*
-  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInEachAssociatesDiary
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync*
+  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync
   isExternal: true
-  name: CanCreateAppointmentInEachAssociatesDiary
-  nameWithType: SentryAgent.CanCreateAppointmentInEachAssociatesDiary
-  fullName: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInEachAssociatesDiary
-- uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInEachAssociatesDiary(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInEachAssociatesDiary(System.Int32[])
+  href: SuperOffice.CRM.Services.SentryAgent.html#SuperOffice_CRM_Services_SentryAgent_CanCreateAppointmentInEachAssociatesDiaryAsync_System_Int32___System_Threading_CancellationToken_
+  name: CanCreateAppointmentInEachAssociatesDiaryAsync
+  nameWithType: SentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync
+  fullName: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync
+- uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISentryAgent
   isExternal: true
-  name: CanCreateAppointmentInEachAssociatesDiary(Int32[])
-  nameWithType: ISentryAgent.CanCreateAppointmentInEachAssociatesDiary(Int32[])
-  fullName: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInEachAssociatesDiary(System.Int32[])
-  nameWithType.vb: ISentryAgent.CanCreateAppointmentInEachAssociatesDiary(Int32())
-  fullName.vb: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInEachAssociatesDiary(System.Int32())
-  name.vb: CanCreateAppointmentInEachAssociatesDiary(Int32())
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: CanCreateAppointmentInEachAssociatesDiaryAsync(int[], CancellationToken)
+  nameWithType: ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(int[], System.Threading.CancellationToken)
+  nameWithType.vb: ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: CanCreateAppointmentInEachAssociatesDiaryAsync(Integer(), CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInEachAssociatesDiary(System.Int32[])
-    name: CanCreateAppointmentInEachAssociatesDiary
-    nameWithType: ISentryAgent.CanCreateAppointmentInEachAssociatesDiary
-    fullName: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInEachAssociatesDiary
+  - uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(System.Int32[],System.Threading.CancellationToken)
+    name: CanCreateAppointmentInEachAssociatesDiaryAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInEachAssociatesDiary(System.Int32[])
-    name: CanCreateAppointmentInEachAssociatesDiary
-    nameWithType: ISentryAgent.CanCreateAppointmentInEachAssociatesDiary
-    fullName: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInEachAssociatesDiary
+  - uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(System.Int32[],System.Threading.CancellationToken)
+    name: CanCreateAppointmentInEachAssociatesDiaryAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Boolean[]
-  isExternal: true
-  name: Boolean[]
-  nameWithType: Boolean[]
-  fullName: System.Boolean[]
-  nameWithType.vb: Boolean()
-  fullName.vb: System.Boolean()
-  name.vb: Boolean()
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Boolean[]}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool[]>
+  nameWithType: Task<bool[]>
+  fullName: System.Threading.Tasks.Task<bool[]>
+  nameWithType.vb: Task(Of Boolean())
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean())
+  name.vb: Task(Of Boolean())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAllDiaries*
-  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAllDiaries
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAllDiariesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAllDiariesAsync
   isExternal: true
-  name: CanCreateAppointmentInAllDiaries
-  nameWithType: SentryAgent.CanCreateAppointmentInAllDiaries
-  fullName: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAllDiaries
-- uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries
-  commentId: M:SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries
+  href: SuperOffice.CRM.Services.SentryAgent.html#SuperOffice_CRM_Services_SentryAgent_CanCreateAppointmentInAllDiariesAsync_System_Threading_CancellationToken_
+  name: CanCreateAppointmentInAllDiariesAsync
+  nameWithType: SentryAgent.CanCreateAppointmentInAllDiariesAsync
+  fullName: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAllDiariesAsync
+- uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiariesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiariesAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISentryAgent
   isExternal: true
-  name: CanCreateAppointmentInAllDiaries()
-  nameWithType: ISentryAgent.CanCreateAppointmentInAllDiaries()
-  fullName: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries()
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CanCreateAppointmentInAllDiariesAsync(CancellationToken)
+  nameWithType: ISentryAgent.CanCreateAppointmentInAllDiariesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiariesAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries
-    name: CanCreateAppointmentInAllDiaries
-    nameWithType: ISentryAgent.CanCreateAppointmentInAllDiaries
-    fullName: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries
+  - uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiariesAsync(System.Threading.CancellationToken)
+    name: CanCreateAppointmentInAllDiariesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries
-    name: CanCreateAppointmentInAllDiaries
-    nameWithType: ISentryAgent.CanCreateAppointmentInAllDiaries
-    fullName: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries
+  - uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiariesAsync(System.Threading.CancellationToken)
+    name: CanCreateAppointmentInAllDiariesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.SentryAgent.GetTableRightByContactOwnership*
-  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.GetTableRightByContactOwnership
+- uid: SuperOffice.CRM.Services.SentryAgent.GetTableRightByContactOwnershipAsync*
+  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.GetTableRightByContactOwnershipAsync
   isExternal: true
-  name: GetTableRightByContactOwnership
-  nameWithType: SentryAgent.GetTableRightByContactOwnership
-  fullName: SuperOffice.CRM.Services.SentryAgent.GetTableRightByContactOwnership
-- uid: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnership(System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnership(System.String,System.Int32)
+  href: SuperOffice.CRM.Services.SentryAgent.html#SuperOffice_CRM_Services_SentryAgent_GetTableRightByContactOwnershipAsync_System_String_System_Int32_System_Threading_CancellationToken_
+  name: GetTableRightByContactOwnershipAsync
+  nameWithType: SentryAgent.GetTableRightByContactOwnershipAsync
+  fullName: SuperOffice.CRM.Services.SentryAgent.GetTableRightByContactOwnershipAsync
+- uid: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnershipAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnershipAsync(System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISentryAgent
   isExternal: true
-  name: GetTableRightByContactOwnership(String, Int32)
-  nameWithType: ISentryAgent.GetTableRightByContactOwnership(String, Int32)
-  fullName: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnership(System.String, System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetTableRightByContactOwnershipAsync(string, int, CancellationToken)
+  nameWithType: ISentryAgent.GetTableRightByContactOwnershipAsync(string, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnershipAsync(string, int, System.Threading.CancellationToken)
+  nameWithType.vb: ISentryAgent.GetTableRightByContactOwnershipAsync(String, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnershipAsync(String, Integer, System.Threading.CancellationToken)
+  name.vb: GetTableRightByContactOwnershipAsync(String, Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnership(System.String,System.Int32)
-    name: GetTableRightByContactOwnership
-    nameWithType: ISentryAgent.GetTableRightByContactOwnership
-    fullName: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnership
+  - uid: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnershipAsync(System.String,System.Int32,System.Threading.CancellationToken)
+    name: GetTableRightByContactOwnershipAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnership(System.String,System.Int32)
-    name: GetTableRightByContactOwnership
-    nameWithType: ISentryAgent.GetTableRightByContactOwnership
-    fullName: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnership
+  - uid: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnershipAsync(System.String,System.Int32,System.Threading.CancellationToken)
+    name: GetTableRightByContactOwnershipAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.SentryAgent.#ctor*
-  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.#ctor
-  isExternal: true
-  name: SentryAgent
-  nameWithType: SentryAgent.SentryAgent
-  fullName: SuperOffice.CRM.Services.SentryAgent.SentryAgent

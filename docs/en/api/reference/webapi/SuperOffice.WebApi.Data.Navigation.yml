@@ -15,11 +15,11 @@ items:
   - SuperOffice.WebApi.Data.Navigation.ButtonPanelTask
   - SuperOffice.WebApi.Data.Navigation.CompanyCardTask
   - SuperOffice.WebApi.Data.Navigation.CompanyMinicard
+  - SuperOffice.WebApi.Data.Navigation.ContSelectionCustomTask
+  - SuperOffice.WebApi.Data.Navigation.ContSelectionTask
   - SuperOffice.WebApi.Data.Navigation.ContactArchive
   - SuperOffice.WebApi.Data.Navigation.ContactCard
   - SuperOffice.WebApi.Data.Navigation.ContactSelectionMailingsTask
-  - SuperOffice.WebApi.Data.Navigation.ContSelectionCustomTask
-  - SuperOffice.WebApi.Data.Navigation.ContSelectionTask
   - SuperOffice.WebApi.Data.Navigation.CustomArchiveMiniCard
   - SuperOffice.WebApi.Data.Navigation.Dashboard
   - SuperOffice.WebApi.Data.Navigation.DiaryArchive
@@ -38,14 +38,14 @@ items:
   - SuperOffice.WebApi.Data.Navigation.PersonCard
   - SuperOffice.WebApi.Data.Navigation.PersonDialogTask
   - SuperOffice.WebApi.Data.Navigation.PersonMinicard
+  - SuperOffice.WebApi.Data.Navigation.ProjSelectionCustomTask
+  - SuperOffice.WebApi.Data.Navigation.ProjSelectionShadowTask
+  - SuperOffice.WebApi.Data.Navigation.ProjSelectionTask
   - SuperOffice.WebApi.Data.Navigation.ProjectArchive
   - SuperOffice.WebApi.Data.Navigation.ProjectCard
   - SuperOffice.WebApi.Data.Navigation.ProjectCardTask
   - SuperOffice.WebApi.Data.Navigation.ProjectMinicard
   - SuperOffice.WebApi.Data.Navigation.ProjectSelectionMailingsTask
-  - SuperOffice.WebApi.Data.Navigation.ProjSelectionCustomTask
-  - SuperOffice.WebApi.Data.Navigation.ProjSelectionShadowTask
-  - SuperOffice.WebApi.Data.Navigation.ProjSelectionTask
   - SuperOffice.WebApi.Data.Navigation.QuoteDialog
   - SuperOffice.WebApi.Data.Navigation.QuoteDialogArchive
   - SuperOffice.WebApi.Data.Navigation.QuoteDialogTask
@@ -77,7 +77,6 @@ items:
   - SuperOffice.WebApi.Data.Navigation.TicketMinicard
   - SuperOffice.WebApi.Data.Navigation.ToolboxMenu
   - SuperOffice.WebApi.Data.Navigation.TopPanelNewMenu
-  - SuperOffice.WebApi.Data.Navigation.value__
   - SuperOffice.WebApi.Data.Navigation.ViewMenu
   langs:
   - csharp
@@ -85,57 +84,18 @@ items:
   name: Navigation
   nameWithType: Navigation
   fullName: SuperOffice.WebApi.Data.Navigation
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nValue for the navigation field in table externalapplication\nThis Enum is used by:  ExtApp.navigation\n"
-  syntax:
-    content: 'public sealed class Navigation : Enum'
-    content.vb: >-
-      Public NotInheritable Class Navigation
-          Inherits
+  summary: >-
+    Value for the navigation field in table externalapplication
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.Navigation.value__
-  commentId: F:SuperOffice.WebApi.Data.Navigation.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.Navigation
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: Navigation.value__
-  fullName: SuperOffice.WebApi.Data.Navigation.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  ExtApp.navigation
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: 'public enum Navigation : short'
+    content.vb: Public Enum Navigation As Short
 - uid: SuperOffice.WebApi.Data.Navigation.Invisible
   commentId: F:SuperOffice.WebApi.Data.Navigation.Invisible
   id: Invisible
@@ -147,24 +107,26 @@ items:
   nameWithType: Navigation.Invisible
   fullName: SuperOffice.WebApi.Data.Navigation.Invisible
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: This application has no explicit navigation in GUI\n"
+  summary: '0: This application has no explicit navigation in GUI'
+  example: []
   syntax:
-    content: public const Navigation Invisible
+    content: >-
+      [EnumMember]
+
+      Invisible = 0
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const Invisible As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Invisible = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.ToolboxMenu
   commentId: F:SuperOffice.WebApi.Data.Navigation.ToolboxMenu
   id: ToolboxMenu
@@ -176,24 +138,26 @@ items:
   nameWithType: Navigation.ToolboxMenu
   fullName: SuperOffice.WebApi.Data.Navigation.ToolboxMenu
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: This application appears in the list of the Toolbox icon in the CRM5 Navigator sidebar\n"
+  summary: '1: This application appears in the list of the Toolbox icon in the CRM5 Navigator sidebar'
+  example: []
   syntax:
-    content: public const Navigation ToolboxMenu
+    content: >-
+      [EnumMember]
+
+      ToolboxMenu = 1
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const ToolboxMenu As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ToolboxMenu = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.NavigatorButton
   commentId: F:SuperOffice.WebApi.Data.Navigation.NavigatorButton
   id: NavigatorButton
@@ -205,24 +169,26 @@ items:
   nameWithType: Navigation.NavigatorButton
   fullName: SuperOffice.WebApi.Data.Navigation.NavigatorButton
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: This application has its own navigator button (remember to set icon resource)\n"
+  summary: '2: This application has its own navigator button (remember to set icon resource)'
+  example: []
   syntax:
-    content: public const Navigation NavigatorButton
+    content: >-
+      [EnumMember]
+
+      NavigatorButton = 2
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const NavigatorButton As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      NavigatorButton = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.ViewMenu
   commentId: F:SuperOffice.WebApi.Data.Navigation.ViewMenu
   id: ViewMenu
@@ -234,24 +200,26 @@ items:
   nameWithType: Navigation.ViewMenu
   fullName: SuperOffice.WebApi.Data.Navigation.ViewMenu
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: This application appears in the View pulldown menu\n"
+  summary: '3: This application appears in the View pulldown menu'
+  example: []
   syntax:
-    content: public const Navigation ViewMenu
+    content: >-
+      [EnumMember]
+
+      ViewMenu = 3
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const ViewMenu As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ViewMenu = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.SelectionTaskCard
   commentId: F:SuperOffice.WebApi.Data.Navigation.SelectionTaskCard
   id: SelectionTaskCard
@@ -263,24 +231,26 @@ items:
   nameWithType: Navigation.SelectionTaskCard
   fullName: SuperOffice.WebApi.Data.Navigation.SelectionTaskCard
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: (not yet implemented) This application appears as a Task in the Selection Task card\n"
+  summary: '4: (not yet implemented) This application appears as a Task in the Selection Task card'
+  example: []
   syntax:
-    content: public const Navigation SelectionTaskCard
+    content: >-
+      [EnumMember]
+
+      SelectionTaskCard = 4
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const SelectionTaskCard As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SelectionTaskCard = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.ContactCard
   commentId: F:SuperOffice.WebApi.Data.Navigation.ContactCard
   id: ContactCard
@@ -292,24 +262,26 @@ items:
   nameWithType: Navigation.ContactCard
   fullName: SuperOffice.WebApi.Data.Navigation.ContactCard
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: This application (type IntegratedHTML or IntegratedURL) appears as a tab on the Contact card\n"
+  summary: '5: This application (type IntegratedHTML or IntegratedURL) appears as a tab on the Contact card'
+  example: []
   syntax:
-    content: public const Navigation ContactCard
+    content: >-
+      [EnumMember]
+
+      ContactCard = 5
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const ContactCard As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ContactCard = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.ContactArchive
   commentId: F:SuperOffice.WebApi.Data.Navigation.ContactArchive
   id: ContactArchive
@@ -321,24 +293,26 @@ items:
   nameWithType: Navigation.ContactArchive
   fullName: SuperOffice.WebApi.Data.Navigation.ContactArchive
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n6: This application (type IntegratedHTML or IntegratedURL)  appears as a tab on the Contact Archive\n"
+  summary: '6: This application (type IntegratedHTML or IntegratedURL)  appears as a tab on the Contact Archive'
+  example: []
   syntax:
-    content: public const Navigation ContactArchive
+    content: >-
+      [EnumMember]
+
+      ContactArchive = 6
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const ContactArchive As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ContactArchive = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.ProjectCard
   commentId: F:SuperOffice.WebApi.Data.Navigation.ProjectCard
   id: ProjectCard
@@ -350,24 +324,26 @@ items:
   nameWithType: Navigation.ProjectCard
   fullName: SuperOffice.WebApi.Data.Navigation.ProjectCard
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n7: This application (type IntegratedHTML or IntegratedURL)  appears as a tab on the Project card\n"
+  summary: '7: This application (type IntegratedHTML or IntegratedURL)  appears as a tab on the Project card'
+  example: []
   syntax:
-    content: public const Navigation ProjectCard
+    content: >-
+      [EnumMember]
+
+      ProjectCard = 7
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const ProjectCard As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ProjectCard = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.ProjectArchive
   commentId: F:SuperOffice.WebApi.Data.Navigation.ProjectArchive
   id: ProjectArchive
@@ -379,24 +355,26 @@ items:
   nameWithType: Navigation.ProjectArchive
   fullName: SuperOffice.WebApi.Data.Navigation.ProjectArchive
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n8: This application (type IntegratedHTML or IntegratedURL)  appears as a tab on the Project Archive\n"
+  summary: '8: This application (type IntegratedHTML or IntegratedURL)  appears as a tab on the Project Archive'
+  example: []
   syntax:
-    content: public const Navigation ProjectArchive
+    content: >-
+      [EnumMember]
+
+      ProjectArchive = 8
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const ProjectArchive As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ProjectArchive = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.SaleCard
   commentId: F:SuperOffice.WebApi.Data.Navigation.SaleCard
   id: SaleCard
@@ -408,24 +386,26 @@ items:
   nameWithType: Navigation.SaleCard
   fullName: SuperOffice.WebApi.Data.Navigation.SaleCard
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n9: This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Sale dialog\n"
+  summary: '9: This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Sale dialog'
+  example: []
   syntax:
-    content: public const Navigation SaleCard
+    content: >-
+      [EnumMember]
+
+      SaleCard = 9
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const SaleCard As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SaleCard = 9
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.PersonCard
   commentId: F:SuperOffice.WebApi.Data.Navigation.PersonCard
   id: PersonCard
@@ -437,24 +417,26 @@ items:
   nameWithType: Navigation.PersonCard
   fullName: SuperOffice.WebApi.Data.Navigation.PersonCard
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n10: This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Person Card\n"
+  summary: '10: This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Person Card'
+  example: []
   syntax:
-    content: public const Navigation PersonCard
+    content: >-
+      [EnumMember]
+
+      PersonCard = 10
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const PersonCard As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      PersonCard = 10
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.ActivityDialog
   commentId: F:SuperOffice.WebApi.Data.Navigation.ActivityDialog
   id: ActivityDialog
@@ -466,24 +448,26 @@ items:
   nameWithType: Navigation.ActivityDialog
   fullName: SuperOffice.WebApi.Data.Navigation.ActivityDialog
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n11: This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Appointment dialog\n"
+  summary: '11: This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Appointment dialog'
+  example: []
   syntax:
-    content: public const Navigation ActivityDialog
+    content: >-
+      [EnumMember]
+
+      ActivityDialog = 11
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const ActivityDialog As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ActivityDialog = 11
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.DocumentDialog
   commentId: F:SuperOffice.WebApi.Data.Navigation.DocumentDialog
   id: DocumentDialog
@@ -495,24 +479,26 @@ items:
   nameWithType: Navigation.DocumentDialog
   fullName: SuperOffice.WebApi.Data.Navigation.DocumentDialog
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n12: This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Document dialog\n"
+  summary: '12: This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Document dialog'
+  example: []
   syntax:
-    content: public const Navigation DocumentDialog
+    content: >-
+      [EnumMember]
+
+      DocumentDialog = 12
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const DocumentDialog As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      DocumentDialog = 12
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.BrowserPanel
   commentId: F:SuperOffice.WebApi.Data.Navigation.BrowserPanel
   id: BrowserPanel
@@ -524,24 +510,26 @@ items:
   nameWithType: Navigation.BrowserPanel
   fullName: SuperOffice.WebApi.Data.Navigation.BrowserPanel
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n13: In the Browser panel\n"
+  summary: '13: In the Browser panel'
+  example: []
   syntax:
-    content: public const Navigation BrowserPanel
+    content: >-
+      [EnumMember]
+
+      BrowserPanel = 13
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const BrowserPanel As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      BrowserPanel = 13
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.ContSelectionTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.ContSelectionTask
   id: ContSelectionTask
@@ -553,24 +541,26 @@ items:
   nameWithType: Navigation.ContSelectionTask
   fullName: SuperOffice.WebApi.Data.Navigation.ContSelectionTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n14: Task button visible on the Contact Selection task panel\n"
+  summary: '14: Task button visible on the Contact Selection task panel'
+  example: []
   syntax:
-    content: public const Navigation ContSelectionTask
+    content: >-
+      [EnumMember]
+
+      ContSelectionTask = 14
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const ContSelectionTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ContSelectionTask = 14
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.AppntSelectionTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.AppntSelectionTask
   id: AppntSelectionTask
@@ -582,24 +572,26 @@ items:
   nameWithType: Navigation.AppntSelectionTask
   fullName: SuperOffice.WebApi.Data.Navigation.AppntSelectionTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n15: Task button visible on the Appointment Selection task panel\n"
+  summary: '15: Task button visible on the Appointment Selection task panel'
+  example: []
   syntax:
-    content: public const Navigation AppntSelectionTask
+    content: >-
+      [EnumMember]
+
+      AppntSelectionTask = 15
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const AppntSelectionTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      AppntSelectionTask = 15
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.SaleSelectionTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.SaleSelectionTask
   id: SaleSelectionTask
@@ -611,24 +603,26 @@ items:
   nameWithType: Navigation.SaleSelectionTask
   fullName: SuperOffice.WebApi.Data.Navigation.SaleSelectionTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n16: Task button visible on the Sale Selection task panel\n"
+  summary: '16: Task button visible on the Sale Selection task panel'
+  example: []
   syntax:
-    content: public const Navigation SaleSelectionTask
+    content: >-
+      [EnumMember]
+
+      SaleSelectionTask = 16
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const SaleSelectionTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SaleSelectionTask = 16
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.DocSelectionTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.DocSelectionTask
   id: DocSelectionTask
@@ -640,24 +634,26 @@ items:
   nameWithType: Navigation.DocSelectionTask
   fullName: SuperOffice.WebApi.Data.Navigation.DocSelectionTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n17: Task button visible on the Document Selection task panel\n"
+  summary: '17: Task button visible on the Document Selection task panel'
+  example: []
   syntax:
-    content: public const Navigation DocSelectionTask
+    content: >-
+      [EnumMember]
+
+      DocSelectionTask = 17
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const DocSelectionTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      DocSelectionTask = 17
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.ProjSelectionTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.ProjSelectionTask
   id: ProjSelectionTask
@@ -669,24 +665,26 @@ items:
   nameWithType: Navigation.ProjSelectionTask
   fullName: SuperOffice.WebApi.Data.Navigation.ProjSelectionTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n18: Task button visible on the Project Selection task panel\n"
+  summary: '18: Task button visible on the Project Selection task panel'
+  example: []
   syntax:
-    content: public const Navigation ProjSelectionTask
+    content: >-
+      [EnumMember]
+
+      ProjSelectionTask = 18
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const ProjSelectionTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ProjSelectionTask = 18
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.CompanyMinicard
   commentId: F:SuperOffice.WebApi.Data.Navigation.CompanyMinicard
   id: CompanyMinicard
@@ -698,24 +696,26 @@ items:
   nameWithType: Navigation.CompanyMinicard
   fullName: SuperOffice.WebApi.Data.Navigation.CompanyMinicard
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n19: In company minicard\n"
+  summary: '19: In company minicard'
+  example: []
   syntax:
-    content: public const Navigation CompanyMinicard
+    content: >-
+      [EnumMember]
+
+      CompanyMinicard = 19
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const CompanyMinicard As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      CompanyMinicard = 19
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.ProjectMinicard
   commentId: F:SuperOffice.WebApi.Data.Navigation.ProjectMinicard
   id: ProjectMinicard
@@ -727,24 +727,26 @@ items:
   nameWithType: Navigation.ProjectMinicard
   fullName: SuperOffice.WebApi.Data.Navigation.ProjectMinicard
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n20: In project minicard\n"
+  summary: '20: In project minicard'
+  example: []
   syntax:
-    content: public const Navigation ProjectMinicard
+    content: >-
+      [EnumMember]
+
+      ProjectMinicard = 20
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const ProjectMinicard As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ProjectMinicard = 20
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.DiaryMinicard
   commentId: F:SuperOffice.WebApi.Data.Navigation.DiaryMinicard
   id: DiaryMinicard
@@ -756,24 +758,26 @@ items:
   nameWithType: Navigation.DiaryMinicard
   fullName: SuperOffice.WebApi.Data.Navigation.DiaryMinicard
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n21: In diary minicard\n"
+  summary: '21: In diary minicard'
+  example: []
   syntax:
-    content: public const Navigation DiaryMinicard
+    content: >-
+      [EnumMember]
+
+      DiaryMinicard = 21
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const DiaryMinicard As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      DiaryMinicard = 21
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.SelectionMinicard
   commentId: F:SuperOffice.WebApi.Data.Navigation.SelectionMinicard
   id: SelectionMinicard
@@ -785,24 +789,26 @@ items:
   nameWithType: Navigation.SelectionMinicard
   fullName: SuperOffice.WebApi.Data.Navigation.SelectionMinicard
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n22: In selection minicard\n"
+  summary: '22: In selection minicard'
+  example: []
   syntax:
-    content: public const Navigation SelectionMinicard
+    content: >-
+      [EnumMember]
+
+      SelectionMinicard = 22
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const SelectionMinicard As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SelectionMinicard = 22
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.ButtonPanelTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.ButtonPanelTask
   id: ButtonPanelTask
@@ -814,24 +820,26 @@ items:
   nameWithType: Navigation.ButtonPanelTask
   fullName: SuperOffice.WebApi.Data.Navigation.ButtonPanelTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n23: In the main ButtonBar\n"
+  summary: '23: In the main ButtonBar'
+  example: []
   syntax:
-    content: public const Navigation ButtonPanelTask
+    content: >-
+      [EnumMember]
+
+      ButtonPanelTask = 23
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const ButtonPanelTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ButtonPanelTask = 23
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.AppointmentDialogTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.AppointmentDialogTask
   id: AppointmentDialogTask
@@ -843,24 +851,26 @@ items:
   nameWithType: Navigation.AppointmentDialogTask
   fullName: SuperOffice.WebApi.Data.Navigation.AppointmentDialogTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n24: In the appointment dialog\n"
+  summary: '24: In the appointment dialog'
+  example: []
   syntax:
-    content: public const Navigation AppointmentDialogTask
+    content: >-
+      [EnumMember]
+
+      AppointmentDialogTask = 24
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const AppointmentDialogTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      AppointmentDialogTask = 24
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.SaleDialogTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.SaleDialogTask
   id: SaleDialogTask
@@ -872,24 +882,26 @@ items:
   nameWithType: Navigation.SaleDialogTask
   fullName: SuperOffice.WebApi.Data.Navigation.SaleDialogTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n25: In the sale dialog\n"
+  summary: '25: In the sale dialog'
+  example: []
   syntax:
-    content: public const Navigation SaleDialogTask
+    content: >-
+      [EnumMember]
+
+      SaleDialogTask = 25
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const SaleDialogTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SaleDialogTask = 25
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.DocumentDialogTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.DocumentDialogTask
   id: DocumentDialogTask
@@ -901,24 +913,26 @@ items:
   nameWithType: Navigation.DocumentDialogTask
   fullName: SuperOffice.WebApi.Data.Navigation.DocumentDialogTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n26: In the document dialog\n"
+  summary: '26: In the document dialog'
+  example: []
   syntax:
-    content: public const Navigation DocumentDialogTask
+    content: >-
+      [EnumMember]
+
+      DocumentDialogTask = 26
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const DocumentDialogTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      DocumentDialogTask = 26
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.PersonDialogTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.PersonDialogTask
   id: PersonDialogTask
@@ -930,24 +944,26 @@ items:
   nameWithType: Navigation.PersonDialogTask
   fullName: SuperOffice.WebApi.Data.Navigation.PersonDialogTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n27: In the person dialog\n"
+  summary: '27: In the person dialog'
+  example: []
   syntax:
-    content: public const Navigation PersonDialogTask
+    content: >-
+      [EnumMember]
+
+      PersonDialogTask = 27
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const PersonDialogTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      PersonDialogTask = 27
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.SaleMinicard
   commentId: F:SuperOffice.WebApi.Data.Navigation.SaleMinicard
   id: SaleMinicard
@@ -959,24 +975,26 @@ items:
   nameWithType: Navigation.SaleMinicard
   fullName: SuperOffice.WebApi.Data.Navigation.SaleMinicard
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n28: In the sale minicard\n"
+  summary: '28: In the sale minicard'
+  example: []
   syntax:
-    content: public const Navigation SaleMinicard
+    content: >-
+      [EnumMember]
+
+      SaleMinicard = 28
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const SaleMinicard As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SaleMinicard = 28
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.SaleArchive
   commentId: F:SuperOffice.WebApi.Data.Navigation.SaleArchive
   id: SaleArchive
@@ -988,24 +1006,26 @@ items:
   nameWithType: Navigation.SaleArchive
   fullName: SuperOffice.WebApi.Data.Navigation.SaleArchive
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n29: In the sale archive\n"
+  summary: '29: In the sale archive'
+  example: []
   syntax:
-    content: public const Navigation SaleArchive
+    content: >-
+      [EnumMember]
+
+      SaleArchive = 29
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const SaleArchive As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SaleArchive = 29
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.AppntSelectionShadowTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.AppntSelectionShadowTask
   id: AppntSelectionShadowTask
@@ -1017,24 +1037,26 @@ items:
   nameWithType: Navigation.AppntSelectionShadowTask
   fullName: SuperOffice.WebApi.Data.Navigation.AppntSelectionShadowTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n30: Task tab for appointment selection, while showing shadow sel\n"
+  summary: '30: Task tab for appointment selection, while showing shadow sel'
+  example: []
   syntax:
-    content: public const Navigation AppntSelectionShadowTask
+    content: >-
+      [EnumMember]
+
+      AppntSelectionShadowTask = 30
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const AppntSelectionShadowTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      AppntSelectionShadowTask = 30
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.SaleSelectionShadowTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.SaleSelectionShadowTask
   id: SaleSelectionShadowTask
@@ -1046,24 +1068,26 @@ items:
   nameWithType: Navigation.SaleSelectionShadowTask
   fullName: SuperOffice.WebApi.Data.Navigation.SaleSelectionShadowTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n31: Task tab for sale selection, while showing shadow sel\n"
+  summary: '31: Task tab for sale selection, while showing shadow sel'
+  example: []
   syntax:
-    content: public const Navigation SaleSelectionShadowTask
+    content: >-
+      [EnumMember]
+
+      SaleSelectionShadowTask = 31
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const SaleSelectionShadowTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SaleSelectionShadowTask = 31
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.DocSelectionShadowTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.DocSelectionShadowTask
   id: DocSelectionShadowTask
@@ -1075,24 +1099,26 @@ items:
   nameWithType: Navigation.DocSelectionShadowTask
   fullName: SuperOffice.WebApi.Data.Navigation.DocSelectionShadowTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n32: Task tab for document selection, while showing shadow sel\n"
+  summary: '32: Task tab for document selection, while showing shadow sel'
+  example: []
   syntax:
-    content: public const Navigation DocSelectionShadowTask
+    content: >-
+      [EnumMember]
+
+      DocSelectionShadowTask = 32
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const DocSelectionShadowTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      DocSelectionShadowTask = 32
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.ProjSelectionShadowTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.ProjSelectionShadowTask
   id: ProjSelectionShadowTask
@@ -1104,24 +1130,26 @@ items:
   nameWithType: Navigation.ProjSelectionShadowTask
   fullName: SuperOffice.WebApi.Data.Navigation.ProjSelectionShadowTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n33: Task tab for project selection, while showing shadow sel\n"
+  summary: '33: Task tab for project selection, while showing shadow sel'
+  example: []
   syntax:
-    content: public const Navigation ProjSelectionShadowTask
+    content: >-
+      [EnumMember]
+
+      ProjSelectionShadowTask = 33
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const ProjSelectionShadowTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ProjSelectionShadowTask = 33
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.DiaryArchive
   commentId: F:SuperOffice.WebApi.Data.Navigation.DiaryArchive
   id: DiaryArchive
@@ -1133,24 +1161,26 @@ items:
   nameWithType: Navigation.DiaryArchive
   fullName: SuperOffice.WebApi.Data.Navigation.DiaryArchive
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n34: Context (popup) menu in Diary archive\n"
+  summary: '34: Context (popup) menu in Diary archive'
+  example: []
   syntax:
-    content: public const Navigation DiaryArchive
+    content: >-
+      [EnumMember]
+
+      DiaryArchive = 34
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const DiaryArchive As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      DiaryArchive = 34
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.SelectionContactArchive
   commentId: F:SuperOffice.WebApi.Data.Navigation.SelectionContactArchive
   id: SelectionContactArchive
@@ -1162,24 +1192,26 @@ items:
   nameWithType: Navigation.SelectionContactArchive
   fullName: SuperOffice.WebApi.Data.Navigation.SelectionContactArchive
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n35: Context (popup) menu in Contact selection\n"
+  summary: '35: Context (popup) menu in Contact selection'
+  example: []
   syntax:
-    content: public const Navigation SelectionContactArchive
+    content: >-
+      [EnumMember]
+
+      SelectionContactArchive = 35
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const SelectionContactArchive As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SelectionContactArchive = 35
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.SelectionProjectArchive
   commentId: F:SuperOffice.WebApi.Data.Navigation.SelectionProjectArchive
   id: SelectionProjectArchive
@@ -1191,24 +1223,26 @@ items:
   nameWithType: Navigation.SelectionProjectArchive
   fullName: SuperOffice.WebApi.Data.Navigation.SelectionProjectArchive
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n36: Context (popup) menu in Project archive\n"
+  summary: '36: Context (popup) menu in Project archive'
+  example: []
   syntax:
-    content: public const Navigation SelectionProjectArchive
+    content: >-
+      [EnumMember]
+
+      SelectionProjectArchive = 36
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const SelectionProjectArchive As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SelectionProjectArchive = 36
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.SelectionSaleArchive
   commentId: F:SuperOffice.WebApi.Data.Navigation.SelectionSaleArchive
   id: SelectionSaleArchive
@@ -1220,24 +1254,26 @@ items:
   nameWithType: Navigation.SelectionSaleArchive
   fullName: SuperOffice.WebApi.Data.Navigation.SelectionSaleArchive
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n37: Context (popup) menu in Sale archive\n"
+  summary: '37: Context (popup) menu in Sale archive'
+  example: []
   syntax:
-    content: public const Navigation SelectionSaleArchive
+    content: >-
+      [EnumMember]
+
+      SelectionSaleArchive = 37
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const SelectionSaleArchive As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SelectionSaleArchive = 37
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.SelectionAppointmentArchive
   commentId: F:SuperOffice.WebApi.Data.Navigation.SelectionAppointmentArchive
   id: SelectionAppointmentArchive
@@ -1249,24 +1285,26 @@ items:
   nameWithType: Navigation.SelectionAppointmentArchive
   fullName: SuperOffice.WebApi.Data.Navigation.SelectionAppointmentArchive
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n38: Context (popup) menu in Appointment archive\n"
+  summary: '38: Context (popup) menu in Appointment archive'
+  example: []
   syntax:
-    content: public const Navigation SelectionAppointmentArchive
+    content: >-
+      [EnumMember]
+
+      SelectionAppointmentArchive = 38
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const SelectionAppointmentArchive As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SelectionAppointmentArchive = 38
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.SelectionDocumentArchive
   commentId: F:SuperOffice.WebApi.Data.Navigation.SelectionDocumentArchive
   id: SelectionDocumentArchive
@@ -1278,24 +1316,26 @@ items:
   nameWithType: Navigation.SelectionDocumentArchive
   fullName: SuperOffice.WebApi.Data.Navigation.SelectionDocumentArchive
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n39: Context (popup) menu in Document archive\n"
+  summary: '39: Context (popup) menu in Document archive'
+  example: []
   syntax:
-    content: public const Navigation SelectionDocumentArchive
+    content: >-
+      [EnumMember]
+
+      SelectionDocumentArchive = 39
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const SelectionDocumentArchive As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SelectionDocumentArchive = 39
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.ContSelectionCustomTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.ContSelectionCustomTask
   id: ContSelectionCustomTask
@@ -1307,24 +1347,26 @@ items:
   nameWithType: Navigation.ContSelectionCustomTask
   fullName: SuperOffice.WebApi.Data.Navigation.ContSelectionCustomTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n40: Task card in Contact selection, when a custom archive is shown\n"
+  summary: '40: Task card in Contact selection, when a custom archive is shown'
+  example: []
   syntax:
-    content: public const Navigation ContSelectionCustomTask
+    content: >-
+      [EnumMember]
+
+      ContSelectionCustomTask = 40
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const ContSelectionCustomTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ContSelectionCustomTask = 40
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.AppntSelectionCustomTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.AppntSelectionCustomTask
   id: AppntSelectionCustomTask
@@ -1336,24 +1378,26 @@ items:
   nameWithType: Navigation.AppntSelectionCustomTask
   fullName: SuperOffice.WebApi.Data.Navigation.AppntSelectionCustomTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n41: Task card in Appointment selection, when a custom archive is shown\n"
+  summary: '41: Task card in Appointment selection, when a custom archive is shown'
+  example: []
   syntax:
-    content: public const Navigation AppntSelectionCustomTask
+    content: >-
+      [EnumMember]
+
+      AppntSelectionCustomTask = 41
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const AppntSelectionCustomTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      AppntSelectionCustomTask = 41
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.SaleSelectionCustomTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.SaleSelectionCustomTask
   id: SaleSelectionCustomTask
@@ -1365,24 +1409,26 @@ items:
   nameWithType: Navigation.SaleSelectionCustomTask
   fullName: SuperOffice.WebApi.Data.Navigation.SaleSelectionCustomTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n42: Task card in Sale selection, when a custom archive is shown\n"
+  summary: '42: Task card in Sale selection, when a custom archive is shown'
+  example: []
   syntax:
-    content: public const Navigation SaleSelectionCustomTask
+    content: >-
+      [EnumMember]
+
+      SaleSelectionCustomTask = 42
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const SaleSelectionCustomTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SaleSelectionCustomTask = 42
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.DocSelectionCustomTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.DocSelectionCustomTask
   id: DocSelectionCustomTask
@@ -1394,24 +1440,26 @@ items:
   nameWithType: Navigation.DocSelectionCustomTask
   fullName: SuperOffice.WebApi.Data.Navigation.DocSelectionCustomTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n43: Task card in Document selection, when a custom archive is shown\n"
+  summary: '43: Task card in Document selection, when a custom archive is shown'
+  example: []
   syntax:
-    content: public const Navigation DocSelectionCustomTask
+    content: >-
+      [EnumMember]
+
+      DocSelectionCustomTask = 43
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const DocSelectionCustomTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      DocSelectionCustomTask = 43
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.ProjSelectionCustomTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.ProjSelectionCustomTask
   id: ProjSelectionCustomTask
@@ -1423,24 +1471,26 @@ items:
   nameWithType: Navigation.ProjSelectionCustomTask
   fullName: SuperOffice.WebApi.Data.Navigation.ProjSelectionCustomTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n44: Task card in Project selection, when a custom archive is shown\n"
+  summary: '44: Task card in Project selection, when a custom archive is shown'
+  example: []
   syntax:
-    content: public const Navigation ProjSelectionCustomTask
+    content: >-
+      [EnumMember]
+
+      ProjSelectionCustomTask = 44
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const ProjSelectionCustomTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ProjSelectionCustomTask = 44
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.CustomArchiveMiniCard
   commentId: F:SuperOffice.WebApi.Data.Navigation.CustomArchiveMiniCard
   id: CustomArchiveMiniCard
@@ -1452,24 +1502,26 @@ items:
   nameWithType: Navigation.CustomArchiveMiniCard
   fullName: SuperOffice.WebApi.Data.Navigation.CustomArchiveMiniCard
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n45: ?\n"
+  summary: '45: ?'
+  example: []
   syntax:
-    content: public const Navigation CustomArchiveMiniCard
+    content: >-
+      [EnumMember]
+
+      CustomArchiveMiniCard = 45
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const CustomArchiveMiniCard As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      CustomArchiveMiniCard = 45
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.SelectionCard
   commentId: F:SuperOffice.WebApi.Data.Navigation.SelectionCard
   id: SelectionCard
@@ -1481,24 +1533,26 @@ items:
   nameWithType: Navigation.SelectionCard
   fullName: SuperOffice.WebApi.Data.Navigation.SelectionCard
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n46: ?\n"
+  summary: '46: ?'
+  example: []
   syntax:
-    content: public const Navigation SelectionCard
+    content: >-
+      [EnumMember]
+
+      SelectionCard = 46
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const SelectionCard As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SelectionCard = 46
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.ReportMinicard
   commentId: F:SuperOffice.WebApi.Data.Navigation.ReportMinicard
   id: ReportMinicard
@@ -1510,24 +1564,26 @@ items:
   nameWithType: Navigation.ReportMinicard
   fullName: SuperOffice.WebApi.Data.Navigation.ReportMinicard
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n47: In the Reporter panel minicard, so far only in Web\n"
+  summary: '47: In the Reporter panel minicard, so far only in Web'
+  example: []
   syntax:
-    content: public const Navigation ReportMinicard
+    content: >-
+      [EnumMember]
+
+      ReportMinicard = 47
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const ReportMinicard As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReportMinicard = 47
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.QuoteDialog
   commentId: F:SuperOffice.WebApi.Data.Navigation.QuoteDialog
   id: QuoteDialog
@@ -1539,24 +1595,26 @@ items:
   nameWithType: Navigation.QuoteDialog
   fullName: SuperOffice.WebApi.Data.Navigation.QuoteDialog
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n48: \n"
+  summary: '48:'
+  example: []
   syntax:
-    content: public const Navigation QuoteDialog
+    content: >-
+      [EnumMember]
+
+      QuoteDialog = 48
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const QuoteDialog As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      QuoteDialog = 48
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.QuoteDialogTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.QuoteDialogTask
   id: QuoteDialogTask
@@ -1568,24 +1626,26 @@ items:
   nameWithType: Navigation.QuoteDialogTask
   fullName: SuperOffice.WebApi.Data.Navigation.QuoteDialogTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n49: \n"
+  summary: '49:'
+  example: []
   syntax:
-    content: public const Navigation QuoteDialogTask
+    content: >-
+      [EnumMember]
+
+      QuoteDialogTask = 49
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const QuoteDialogTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      QuoteDialogTask = 49
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.QuoteDialogArchive
   commentId: F:SuperOffice.WebApi.Data.Navigation.QuoteDialogArchive
   id: QuoteDialogArchive
@@ -1597,24 +1657,26 @@ items:
   nameWithType: Navigation.QuoteDialogArchive
   fullName: SuperOffice.WebApi.Data.Navigation.QuoteDialogArchive
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n50: \n"
+  summary: '50:'
+  example: []
   syntax:
-    content: public const Navigation QuoteDialogArchive
+    content: >-
+      [EnumMember]
+
+      QuoteDialogArchive = 50
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const QuoteDialogArchive As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      QuoteDialogArchive = 50
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.QuoteLineDialogTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.QuoteLineDialogTask
   id: QuoteLineDialogTask
@@ -1626,24 +1688,26 @@ items:
   nameWithType: Navigation.QuoteLineDialogTask
   fullName: SuperOffice.WebApi.Data.Navigation.QuoteLineDialogTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n51: \n"
+  summary: '51:'
+  example: []
   syntax:
-    content: public const Navigation QuoteLineDialogTask
+    content: >-
+      [EnumMember]
+
+      QuoteLineDialogTask = 51
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const QuoteLineDialogTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      QuoteLineDialogTask = 51
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.QuoteLineDialog
   commentId: F:SuperOffice.WebApi.Data.Navigation.QuoteLineDialog
   id: QuoteLineDialog
@@ -1655,24 +1719,26 @@ items:
   nameWithType: Navigation.QuoteLineDialog
   fullName: SuperOffice.WebApi.Data.Navigation.QuoteLineDialog
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n52: \n"
+  summary: '52:'
+  example: []
   syntax:
-    content: public const Navigation QuoteLineDialog
+    content: >-
+      [EnumMember]
+
+      QuoteLineDialog = 52
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const QuoteLineDialog As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      QuoteLineDialog = 52
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.QuoteLineSelectionMainTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.QuoteLineSelectionMainTask
   id: QuoteLineSelectionMainTask
@@ -1684,24 +1750,26 @@ items:
   nameWithType: Navigation.QuoteLineSelectionMainTask
   fullName: SuperOffice.WebApi.Data.Navigation.QuoteLineSelectionMainTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n53: \n"
+  summary: '53:'
+  example: []
   syntax:
-    content: public const Navigation QuoteLineSelectionMainTask
+    content: >-
+      [EnumMember]
+
+      QuoteLineSelectionMainTask = 53
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const QuoteLineSelectionMainTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      QuoteLineSelectionMainTask = 53
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.QuoteLineSelectionShadowTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.QuoteLineSelectionShadowTask
   id: QuoteLineSelectionShadowTask
@@ -1713,24 +1781,26 @@ items:
   nameWithType: Navigation.QuoteLineSelectionShadowTask
   fullName: SuperOffice.WebApi.Data.Navigation.QuoteLineSelectionShadowTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n54: \n"
+  summary: '54:'
+  example: []
   syntax:
-    content: public const Navigation QuoteLineSelectionShadowTask
+    content: >-
+      [EnumMember]
+
+      QuoteLineSelectionShadowTask = 54
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const QuoteLineSelectionShadowTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      QuoteLineSelectionShadowTask = 54
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.SelectionQuoteLineArchive
   commentId: F:SuperOffice.WebApi.Data.Navigation.SelectionQuoteLineArchive
   id: SelectionQuoteLineArchive
@@ -1742,24 +1812,26 @@ items:
   nameWithType: Navigation.SelectionQuoteLineArchive
   fullName: SuperOffice.WebApi.Data.Navigation.SelectionQuoteLineArchive
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n55: \n"
+  summary: '55:'
+  example: []
   syntax:
-    content: public const Navigation SelectionQuoteLineArchive
+    content: >-
+      [EnumMember]
+
+      SelectionQuoteLineArchive = 55
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const SelectionQuoteLineArchive As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SelectionQuoteLineArchive = 55
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.QuoteLineSelectionCustomTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.QuoteLineSelectionCustomTask
   id: QuoteLineSelectionCustomTask
@@ -1771,24 +1843,26 @@ items:
   nameWithType: Navigation.QuoteLineSelectionCustomTask
   fullName: SuperOffice.WebApi.Data.Navigation.QuoteLineSelectionCustomTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n56: \n"
+  summary: '56:'
+  example: []
   syntax:
-    content: public const Navigation QuoteLineSelectionCustomTask
+    content: >-
+      [EnumMember]
+
+      QuoteLineSelectionCustomTask = 56
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const QuoteLineSelectionCustomTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      QuoteLineSelectionCustomTask = 56
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.FindSystem
   commentId: F:SuperOffice.WebApi.Data.Navigation.FindSystem
   id: FindSystem
@@ -1800,24 +1874,26 @@ items:
   nameWithType: Navigation.FindSystem
   fullName: SuperOffice.WebApi.Data.Navigation.FindSystem
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n57: \n"
+  summary: '57:'
+  example: []
   syntax:
-    content: public const Navigation FindSystem
+    content: >-
+      [EnumMember]
+
+      FindSystem = 57
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const FindSystem As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      FindSystem = 57
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.MailingSelectionTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.MailingSelectionTask
   id: MailingSelectionTask
@@ -1829,24 +1905,26 @@ items:
   nameWithType: Navigation.MailingSelectionTask
   fullName: SuperOffice.WebApi.Data.Navigation.MailingSelectionTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n58: Task button visible on the Mailing Selection task panel\n"
+  summary: '58: Task button visible on the Mailing Selection task panel'
+  example: []
   syntax:
-    content: public const Navigation MailingSelectionTask
+    content: >-
+      [EnumMember]
+
+      MailingSelectionTask = 58
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const MailingSelectionTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      MailingSelectionTask = 58
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.ContactSelectionMailingsTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.ContactSelectionMailingsTask
   id: ContactSelectionMailingsTask
@@ -1858,24 +1936,26 @@ items:
   nameWithType: Navigation.ContactSelectionMailingsTask
   fullName: SuperOffice.WebApi.Data.Navigation.ContactSelectionMailingsTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n59: Task button visible on the Mailing Selection task panel\n"
+  summary: '59: Task button visible on the Mailing Selection task panel'
+  example: []
   syntax:
-    content: public const Navigation ContactSelectionMailingsTask
+    content: >-
+      [EnumMember]
+
+      ContactSelectionMailingsTask = 59
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const ContactSelectionMailingsTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ContactSelectionMailingsTask = 59
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.AppointmentSelectionMailingsTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.AppointmentSelectionMailingsTask
   id: AppointmentSelectionMailingsTask
@@ -1887,24 +1967,26 @@ items:
   nameWithType: Navigation.AppointmentSelectionMailingsTask
   fullName: SuperOffice.WebApi.Data.Navigation.AppointmentSelectionMailingsTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n60: Task button visible on the Mailing Selection task panel\n"
+  summary: '60: Task button visible on the Mailing Selection task panel'
+  example: []
   syntax:
-    content: public const Navigation AppointmentSelectionMailingsTask
+    content: >-
+      [EnumMember]
+
+      AppointmentSelectionMailingsTask = 60
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const AppointmentSelectionMailingsTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      AppointmentSelectionMailingsTask = 60
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.SaleSelectionMailingsTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.SaleSelectionMailingsTask
   id: SaleSelectionMailingsTask
@@ -1916,24 +1998,26 @@ items:
   nameWithType: Navigation.SaleSelectionMailingsTask
   fullName: SuperOffice.WebApi.Data.Navigation.SaleSelectionMailingsTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n61: Task button visible on the Mailing Selection task panel\n"
+  summary: '61: Task button visible on the Mailing Selection task panel'
+  example: []
   syntax:
-    content: public const Navigation SaleSelectionMailingsTask
+    content: >-
+      [EnumMember]
+
+      SaleSelectionMailingsTask = 61
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const SaleSelectionMailingsTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SaleSelectionMailingsTask = 61
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.DocumentSelectionMailingsTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.DocumentSelectionMailingsTask
   id: DocumentSelectionMailingsTask
@@ -1945,24 +2029,26 @@ items:
   nameWithType: Navigation.DocumentSelectionMailingsTask
   fullName: SuperOffice.WebApi.Data.Navigation.DocumentSelectionMailingsTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n62: Task button visible on the Mailing Selection task panel\n"
+  summary: '62: Task button visible on the Mailing Selection task panel'
+  example: []
   syntax:
-    content: public const Navigation DocumentSelectionMailingsTask
+    content: >-
+      [EnumMember]
+
+      DocumentSelectionMailingsTask = 62
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const DocumentSelectionMailingsTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      DocumentSelectionMailingsTask = 62
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.ProjectSelectionMailingsTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.ProjectSelectionMailingsTask
   id: ProjectSelectionMailingsTask
@@ -1974,24 +2060,26 @@ items:
   nameWithType: Navigation.ProjectSelectionMailingsTask
   fullName: SuperOffice.WebApi.Data.Navigation.ProjectSelectionMailingsTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n63: Task button visible on the Mailing Selection task panel\n"
+  summary: '63: Task button visible on the Mailing Selection task panel'
+  example: []
   syntax:
-    content: public const Navigation ProjectSelectionMailingsTask
+    content: >-
+      [EnumMember]
+
+      ProjectSelectionMailingsTask = 63
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const ProjectSelectionMailingsTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ProjectSelectionMailingsTask = 63
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.QuoteLineSelectionMailingsTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.QuoteLineSelectionMailingsTask
   id: QuoteLineSelectionMailingsTask
@@ -2003,24 +2091,26 @@ items:
   nameWithType: Navigation.QuoteLineSelectionMailingsTask
   fullName: SuperOffice.WebApi.Data.Navigation.QuoteLineSelectionMailingsTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n64: Task button visible on the Mailing Selection task panel\n"
+  summary: '64: Task button visible on the Mailing Selection task panel'
+  example: []
   syntax:
-    content: public const Navigation QuoteLineSelectionMailingsTask
+    content: >-
+      [EnumMember]
+
+      QuoteLineSelectionMailingsTask = 64
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const QuoteLineSelectionMailingsTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      QuoteLineSelectionMailingsTask = 64
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.TopPanelNewMenu
   commentId: F:SuperOffice.WebApi.Data.Navigation.TopPanelNewMenu
   id: TopPanelNewMenu
@@ -2032,24 +2122,26 @@ items:
   nameWithType: Navigation.TopPanelNewMenu
   fullName: SuperOffice.WebApi.Data.Navigation.TopPanelNewMenu
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n65: Visible in top panels new menu\n"
+  summary: '65: Visible in top panels new menu'
+  example: []
   syntax:
-    content: public const Navigation TopPanelNewMenu
+    content: >-
+      [EnumMember]
+
+      TopPanelNewMenu = 65
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const TopPanelNewMenu As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TopPanelNewMenu = 65
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.Dashboard
   commentId: F:SuperOffice.WebApi.Data.Navigation.Dashboard
   id: Dashboard
@@ -2061,24 +2153,26 @@ items:
   nameWithType: Navigation.Dashboard
   fullName: SuperOffice.WebApi.Data.Navigation.Dashboard
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n66: Dashboard panel\n"
+  summary: '66: Dashboard panel'
+  example: []
   syntax:
-    content: public const Navigation Dashboard
+    content: >-
+      [EnumMember]
+
+      Dashboard = 66
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const Dashboard As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Dashboard = 66
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.PersonArchive
   commentId: F:SuperOffice.WebApi.Data.Navigation.PersonArchive
   id: PersonArchive
@@ -2090,24 +2184,26 @@ items:
   nameWithType: Navigation.PersonArchive
   fullName: SuperOffice.WebApi.Data.Navigation.PersonArchive
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n67: This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Person Archive\n"
+  summary: '67: This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Person Archive'
+  example: []
   syntax:
-    content: public const Navigation PersonArchive
+    content: >-
+      [EnumMember]
+
+      PersonArchive = 67
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const PersonArchive As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      PersonArchive = 67
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.PersonMinicard
   commentId: F:SuperOffice.WebApi.Data.Navigation.PersonMinicard
   id: PersonMinicard
@@ -2119,24 +2215,26 @@ items:
   nameWithType: Navigation.PersonMinicard
   fullName: SuperOffice.WebApi.Data.Navigation.PersonMinicard
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n68: In the person minicard\n"
+  summary: '68: In the person minicard'
+  example: []
   syntax:
-    content: public const Navigation PersonMinicard
+    content: >-
+      [EnumMember]
+
+      PersonMinicard = 68
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const PersonMinicard As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      PersonMinicard = 68
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.CompanyCardTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.CompanyCardTask
   id: CompanyCardTask
@@ -2148,24 +2246,26 @@ items:
   nameWithType: Navigation.CompanyCardTask
   fullName: SuperOffice.WebApi.Data.Navigation.CompanyCardTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n69: In the company card, task button\n"
+  summary: '69: In the company card, task button'
+  example: []
   syntax:
-    content: public const Navigation CompanyCardTask
+    content: >-
+      [EnumMember]
+
+      CompanyCardTask = 69
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const CompanyCardTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      CompanyCardTask = 69
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.ProjectCardTask
   commentId: F:SuperOffice.WebApi.Data.Navigation.ProjectCardTask
   id: ProjectCardTask
@@ -2177,24 +2277,26 @@ items:
   nameWithType: Navigation.ProjectCardTask
   fullName: SuperOffice.WebApi.Data.Navigation.ProjectCardTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n70: In the project card, task button\n"
+  summary: '70: In the project card, task button'
+  example: []
   syntax:
-    content: public const Navigation ProjectCardTask
+    content: >-
+      [EnumMember]
+
+      ProjectCardTask = 70
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const ProjectCardTask As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ProjectCardTask = 70
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.TicketCard
   commentId: F:SuperOffice.WebApi.Data.Navigation.TicketCard
   id: TicketCard
@@ -2206,24 +2308,26 @@ items:
   nameWithType: Navigation.TicketCard
   fullName: SuperOffice.WebApi.Data.Navigation.TicketCard
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n71: This application (type IntegratedHTML or IntegratedURL) appears as a tab in the Request card\n"
+  summary: '71: This application (type IntegratedHTML or IntegratedURL) appears as a tab in the Request card'
+  example: []
   syntax:
-    content: public const Navigation TicketCard
+    content: >-
+      [EnumMember]
+
+      TicketCard = 71
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const TicketCard As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TicketCard = 71
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Navigation.TicketMinicard
   commentId: F:SuperOffice.WebApi.Data.Navigation.TicketMinicard
   id: TicketMinicard
@@ -2235,55 +2339,69 @@ items:
   nameWithType: Navigation.TicketMinicard
   fullName: SuperOffice.WebApi.Data.Navigation.TicketMinicard
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n72: In the ticket minicard\n"
+  summary: '72: In the ticket minicard'
+  example: []
   syntax:
-    content: public const Navigation TicketMinicard
+    content: >-
+      [EnumMember]
+
+      TicketMinicard = 72
     return:
       type: SuperOffice.WebApi.Data.Navigation
-    content.vb: Public Const TicketMinicard As Navigation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TicketMinicard = 72
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.Navigation
   commentId: T:SuperOffice.WebApi.Data.Navigation
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Navigation.html
   name: Navigation
   nameWithType: Navigation
   fullName: SuperOffice.WebApi.Data.Navigation

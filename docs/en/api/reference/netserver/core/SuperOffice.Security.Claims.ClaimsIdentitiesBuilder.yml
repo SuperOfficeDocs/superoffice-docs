@@ -21,28 +21,25 @@ items:
   nameWithType: ClaimsIdentitiesBuilder
   fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
   type: Class
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
   syntax:
-    content: 'public class ClaimsIdentitiesBuilder : Object'
-    content.vb: >-
-      Public Class ClaimsIdentitiesBuilder
-          Inherits Object
+    content: public class ClaimsIdentitiesBuilder
+    content.vb: Public Class ClaimsIdentitiesBuilder
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.EnumUtil.MapEnums``2
   - SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.#ctor(System.Security.Claims.ClaimsIdentity[])
   commentId: M:SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.#ctor(System.Security.Claims.ClaimsIdentity[])
   id: '#ctor(System.Security.Claims.ClaimsIdentity[])'
@@ -50,13 +47,10 @@ items:
   langs:
   - csharp
   - vb
-  name: ClaimsIdentitiesBuilder(ClaimsIdentity[])
-  nameWithType: ClaimsIdentitiesBuilder.ClaimsIdentitiesBuilder(ClaimsIdentity[])
-  fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.ClaimsIdentitiesBuilder(System.Security.Claims.ClaimsIdentity[])
+  name: ClaimsIdentitiesBuilder(params ClaimsIdentity[])
+  nameWithType: ClaimsIdentitiesBuilder.ClaimsIdentitiesBuilder(params ClaimsIdentity[])
+  fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.ClaimsIdentitiesBuilder(params System.Security.Claims.ClaimsIdentity[])
   type: Constructor
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
@@ -67,13 +61,9 @@ items:
       type: System.Security.Claims.ClaimsIdentity[]
     content.vb: Public Sub New(ParamArray identities As ClaimsIdentity())
   overload: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.#ctor*
-  nameWithType.vb: ClaimsIdentitiesBuilder.ClaimsIdentitiesBuilder(ClaimsIdentity())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.ClaimsIdentitiesBuilder(System.Security.Claims.ClaimsIdentity())
-  name.vb: ClaimsIdentitiesBuilder(ClaimsIdentity())
+  nameWithType.vb: ClaimsIdentitiesBuilder.New(ParamArray ClaimsIdentity())
+  fullName.vb: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.New(ParamArray System.Security.Claims.ClaimsIdentity())
+  name.vb: New(ParamArray ClaimsIdentity())
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.#ctor(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
   commentId: M:SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.#ctor(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
   id: '#ctor(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})'
@@ -85,9 +75,6 @@ items:
   nameWithType: ClaimsIdentitiesBuilder.ClaimsIdentitiesBuilder(IEnumerable<ClaimsIdentity>)
   fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.ClaimsIdentitiesBuilder(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>)
   type: Constructor
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
@@ -98,13 +85,9 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
     content.vb: Public Sub New(identities As IEnumerable(Of ClaimsIdentity))
   overload: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.#ctor*
-  nameWithType.vb: ClaimsIdentitiesBuilder.ClaimsIdentitiesBuilder(IEnumerable(Of ClaimsIdentity))
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.ClaimsIdentitiesBuilder(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity))
-  name.vb: ClaimsIdentitiesBuilder(IEnumerable(Of ClaimsIdentity))
+  nameWithType.vb: ClaimsIdentitiesBuilder.New(IEnumerable(Of ClaimsIdentity))
+  fullName.vb: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.New(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity))
+  name.vb: New(IEnumerable(Of ClaimsIdentity))
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.AddIdentity(System.Security.Claims.ClaimsIdentity)
   commentId: M:SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.AddIdentity(System.Security.Claims.ClaimsIdentity)
   id: AddIdentity(System.Security.Claims.ClaimsIdentity)
@@ -116,9 +99,6 @@ items:
   nameWithType: ClaimsIdentitiesBuilder.AddIdentity(ClaimsIdentity)
   fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.AddIdentity(System.Security.Claims.ClaimsIdentity)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
@@ -131,10 +111,6 @@ items:
       type: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
     content.vb: Public Function AddIdentity(identity As ClaimsIdentity) As ClaimsIdentitiesBuilder
   overload: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.AddIdentity*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.AddClaims(System.Action{SuperOffice.Security.Claims.ClaimsIdentityBuilder})
   commentId: M:SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.AddClaims(System.Action{SuperOffice.Security.Claims.ClaimsIdentityBuilder})
   id: AddClaims(System.Action{SuperOffice.Security.Claims.ClaimsIdentityBuilder})
@@ -146,9 +122,6 @@ items:
   nameWithType: ClaimsIdentitiesBuilder.AddClaims(Action<ClaimsIdentityBuilder>)
   fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.AddClaims(System.Action<SuperOffice.Security.Claims.ClaimsIdentityBuilder>)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
@@ -162,10 +135,6 @@ items:
     content.vb: Public Function AddClaims(builder As Action(Of ClaimsIdentityBuilder)) As ClaimsIdentitiesBuilder
   overload: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.AddClaims*
   nameWithType.vb: ClaimsIdentitiesBuilder.AddClaims(Action(Of ClaimsIdentityBuilder))
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
   fullName.vb: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.AddClaims(System.Action(Of SuperOffice.Security.Claims.ClaimsIdentityBuilder))
   name.vb: AddClaims(Action(Of ClaimsIdentityBuilder))
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.AddClaims(System.String,System.Action{SuperOffice.Security.Claims.ClaimsIdentityBuilder})
@@ -175,13 +144,10 @@ items:
   langs:
   - csharp
   - vb
-  name: AddClaims(String, Action<ClaimsIdentityBuilder>)
-  nameWithType: ClaimsIdentitiesBuilder.AddClaims(String, Action<ClaimsIdentityBuilder>)
-  fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.AddClaims(System.String, System.Action<SuperOffice.Security.Claims.ClaimsIdentityBuilder>)
+  name: AddClaims(string, Action<ClaimsIdentityBuilder>)
+  nameWithType: ClaimsIdentitiesBuilder.AddClaims(string, Action<ClaimsIdentityBuilder>)
+  fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.AddClaims(string, System.Action<SuperOffice.Security.Claims.ClaimsIdentityBuilder>)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
@@ -197,11 +163,7 @@ items:
     content.vb: Public Function AddClaims(authenticationType As String, builderAction As Action(Of ClaimsIdentityBuilder)) As ClaimsIdentitiesBuilder
   overload: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.AddClaims*
   nameWithType.vb: ClaimsIdentitiesBuilder.AddClaims(String, Action(Of ClaimsIdentityBuilder))
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.AddClaims(System.String, System.Action(Of SuperOffice.Security.Claims.ClaimsIdentityBuilder))
+  fullName.vb: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.AddClaims(String, System.Action(Of SuperOffice.Security.Claims.ClaimsIdentityBuilder))
   name.vb: AddClaims(String, Action(Of ClaimsIdentityBuilder))
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.ModifyIdentity(System.Security.Claims.ClaimsIdentity,System.Action{SuperOffice.Security.Claims.ClaimsIdentityBuilder})
   commentId: M:SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.ModifyIdentity(System.Security.Claims.ClaimsIdentity,System.Action{SuperOffice.Security.Claims.ClaimsIdentityBuilder})
@@ -214,9 +176,6 @@ items:
   nameWithType: ClaimsIdentitiesBuilder.ModifyIdentity(ClaimsIdentity, Action<ClaimsIdentityBuilder>)
   fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.ModifyIdentity(System.Security.Claims.ClaimsIdentity, System.Action<SuperOffice.Security.Claims.ClaimsIdentityBuilder>)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
@@ -232,10 +191,6 @@ items:
     content.vb: Public Function ModifyIdentity(identity As ClaimsIdentity, builderAction As Action(Of ClaimsIdentityBuilder)) As ClaimsIdentitiesBuilder
   overload: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.ModifyIdentity*
   nameWithType.vb: ClaimsIdentitiesBuilder.ModifyIdentity(ClaimsIdentity, Action(Of ClaimsIdentityBuilder))
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
   fullName.vb: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.ModifyIdentity(System.Security.Claims.ClaimsIdentity, System.Action(Of SuperOffice.Security.Claims.ClaimsIdentityBuilder))
   name.vb: ModifyIdentity(ClaimsIdentity, Action(Of ClaimsIdentityBuilder))
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.RemoveIdentioty(System.Security.Claims.ClaimsIdentity)
@@ -249,9 +204,6 @@ items:
   nameWithType: ClaimsIdentitiesBuilder.RemoveIdentioty(ClaimsIdentity)
   fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.RemoveIdentioty(System.Security.Claims.ClaimsIdentity)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
@@ -264,10 +216,6 @@ items:
       type: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
     content.vb: Public Function RemoveIdentioty(identity As ClaimsIdentity) As ClaimsIdentitiesBuilder
   overload: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.RemoveIdentioty*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.GetClaimValues(System.String)
   commentId: M:SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.GetClaimValues(System.String)
   id: GetClaimValues(System.String)
@@ -275,13 +223,10 @@ items:
   langs:
   - csharp
   - vb
-  name: GetClaimValues(String)
-  nameWithType: ClaimsIdentitiesBuilder.GetClaimValues(String)
-  fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.GetClaimValues(System.String)
+  name: GetClaimValues(string)
+  nameWithType: ClaimsIdentitiesBuilder.GetClaimValues(string)
+  fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.GetClaimValues(string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
@@ -294,10 +239,9 @@ items:
       type: System.Collections.Generic.IEnumerable{System.String}
     content.vb: Public Function GetClaimValues(claimType As String) As IEnumerable(Of String)
   overload: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.GetClaimValues*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ClaimsIdentitiesBuilder.GetClaimValues(String)
+  fullName.vb: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.GetClaimValues(String)
+  name.vb: GetClaimValues(String)
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.Identities
   commentId: P:SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.Identities
   id: Identities
@@ -309,9 +253,6 @@ items:
   nameWithType: ClaimsIdentitiesBuilder.Identities
   fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.Identities
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
@@ -322,103 +263,391 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
     content.vb: Public ReadOnly Property Identities As IEnumerable(Of ClaimsIdentity)
   overload: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.Identities*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 references:
 - uid: SuperOffice.Security.Claims
   commentId: N:SuperOffice.Security.Claims
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Security.Claims
   nameWithType: SuperOffice.Security.Claims
   fullName: SuperOffice.Security.Claims
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Claims
+    name: Claims
+    isExternal: true
+    href: SuperOffice.Security.Claims.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Claims
+    name: Claims
+    isExternal: true
+    href: SuperOffice.Security.Claims.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ClaimsIdentitiesBuilder, To>()
-  nameWithType: EnumUtil.MapEnums<ClaimsIdentitiesBuilder, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Security.Claims.ClaimsIdentitiesBuilder, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ClaimsIdentitiesBuilder, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Claims.ClaimsIdentitiesBuilder, To)()
-  name.vb: MapEnums(Of ClaimsIdentitiesBuilder, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ClaimsIdentitiesBuilder, To>(ClaimsIdentitiesBuilder)
+  nameWithType: EnumUtil.MapEnums<ClaimsIdentitiesBuilder, To>(ClaimsIdentitiesBuilder)
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Claims.ClaimsIdentitiesBuilder, To>(SuperOffice.Security.Claims.ClaimsIdentitiesBuilder)
+  nameWithType.vb: EnumUtil.MapEnums(Of ClaimsIdentitiesBuilder, To)(ClaimsIdentitiesBuilder)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Claims.ClaimsIdentitiesBuilder, To)(SuperOffice.Security.Claims.ClaimsIdentitiesBuilder)
+  name.vb: MapEnums(Of ClaimsIdentitiesBuilder, To)(ClaimsIdentitiesBuilder)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ClaimsIdentitiesBuilder, To>
-    nameWithType: EnumUtil.MapEnums<ClaimsIdentitiesBuilder, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Security.Claims.ClaimsIdentitiesBuilder, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Claims.ClaimsIdentitiesBuilder)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
+    name: ClaimsIdentitiesBuilder
+    isExternal: true
+    href: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
+    name: ClaimsIdentitiesBuilder
+    isExternal: true
+    href: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ClaimsIdentitiesBuilder, To)
-    nameWithType: EnumUtil.MapEnums(Of ClaimsIdentitiesBuilder, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Claims.ClaimsIdentitiesBuilder, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Claims.ClaimsIdentitiesBuilder)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
+    name: ClaimsIdentitiesBuilder
+    isExternal: true
+    href: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
+    name: ClaimsIdentitiesBuilder
+    isExternal: true
+    href: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.html
+  - name: )
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ClaimsIdentitiesBuilder, To>()
-  nameWithType: Converters.MapEnums<ClaimsIdentitiesBuilder, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Claims.ClaimsIdentitiesBuilder, To>()
-  nameWithType.vb: Converters.MapEnums(Of ClaimsIdentitiesBuilder, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Claims.ClaimsIdentitiesBuilder, To)()
-  name.vb: MapEnums(Of ClaimsIdentitiesBuilder, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ClaimsIdentitiesBuilder, To>(ClaimsIdentitiesBuilder)
+  nameWithType: Converters.MapEnums<ClaimsIdentitiesBuilder, To>(ClaimsIdentitiesBuilder)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Claims.ClaimsIdentitiesBuilder, To>(SuperOffice.Security.Claims.ClaimsIdentitiesBuilder)
+  nameWithType.vb: Converters.MapEnums(Of ClaimsIdentitiesBuilder, To)(ClaimsIdentitiesBuilder)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Claims.ClaimsIdentitiesBuilder, To)(SuperOffice.Security.Claims.ClaimsIdentitiesBuilder)
+  name.vb: MapEnums(Of ClaimsIdentitiesBuilder, To)(ClaimsIdentitiesBuilder)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ClaimsIdentitiesBuilder, To>
-    nameWithType: Converters.MapEnums<ClaimsIdentitiesBuilder, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Claims.ClaimsIdentitiesBuilder, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Claims.ClaimsIdentitiesBuilder)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
+    name: ClaimsIdentitiesBuilder
+    isExternal: true
+    href: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
+    name: ClaimsIdentitiesBuilder
+    isExternal: true
+    href: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ClaimsIdentitiesBuilder, To)
-    nameWithType: Converters.MapEnums(Of ClaimsIdentitiesBuilder, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Claims.ClaimsIdentitiesBuilder, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Claims.ClaimsIdentitiesBuilder)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
+    name: ClaimsIdentitiesBuilder
+    isExternal: true
+    href: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
+    name: ClaimsIdentitiesBuilder
+    isExternal: true
+    href: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -427,43 +656,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -472,55 +703,92 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.#ctor*
   commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.#ctor
   isExternal: true
+  href: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.html#SuperOffice_Security_Claims_ClaimsIdentitiesBuilder__ctor_System_Security_Claims_ClaimsIdentity___
   name: ClaimsIdentitiesBuilder
   nameWithType: ClaimsIdentitiesBuilder.ClaimsIdentitiesBuilder
   fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.ClaimsIdentitiesBuilder
+  nameWithType.vb: ClaimsIdentitiesBuilder.New
+  fullName.vb: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.New
+  name.vb: New
 - uid: System.Security.Claims.ClaimsIdentity[]
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
   name: ClaimsIdentity[]
   nameWithType: ClaimsIdentity[]
   fullName: System.Security.Claims.ClaimsIdentity[]
@@ -530,24 +798,22 @@ references:
   spec.csharp:
   - uid: System.Security.Claims.ClaimsIdentity
     name: ClaimsIdentity
-    nameWithType: ClaimsIdentity
-    fullName: System.Security.Claims.ClaimsIdentity
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Security.Claims.ClaimsIdentity
     name: ClaimsIdentity
-    nameWithType: ClaimsIdentity
-    fullName: System.Security.Claims.ClaimsIdentity
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
+  - name: (
+  - name: )
 - uid: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
-  commentId: '!:System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}'
+  commentId: T:System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<ClaimsIdentity>
   nameWithType: IEnumerable<ClaimsIdentity>
   fullName: System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>
@@ -557,83 +823,104 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.Security.Claims.ClaimsIdentity
     name: ClaimsIdentity
-    nameWithType: ClaimsIdentity
-    fullName: System.Security.Claims.ClaimsIdentity
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Security.Claims.ClaimsIdentity
     name: ClaimsIdentity
-    nameWithType: ClaimsIdentity
-    fullName: System.Security.Claims.ClaimsIdentity
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.AddIdentity*
   commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.AddIdentity
   isExternal: true
+  href: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.html#SuperOffice_Security_Claims_ClaimsIdentitiesBuilder_AddIdentity_System_Security_Claims_ClaimsIdentity_
   name: AddIdentity
   nameWithType: ClaimsIdentitiesBuilder.AddIdentity
   fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.AddIdentity
 - uid: System.Security.Claims.ClaimsIdentity
+  commentId: T:System.Security.Claims.ClaimsIdentity
+  parent: System.Security.Claims
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
   name: ClaimsIdentity
   nameWithType: ClaimsIdentity
   fullName: System.Security.Claims.ClaimsIdentity
@@ -641,18 +928,59 @@ references:
   commentId: T:SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
   parent: SuperOffice.Security.Claims
   isExternal: true
+  href: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.html
   name: ClaimsIdentitiesBuilder
   nameWithType: ClaimsIdentitiesBuilder
   fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
+- uid: System.Security.Claims
+  commentId: N:System.Security.Claims
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Security.Claims
+  nameWithType: System.Security.Claims
+  fullName: System.Security.Claims
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Security
+    name: Security
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security
+  - name: .
+  - uid: System.Security.Claims
+    name: Claims
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Security
+    name: Security
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security
+  - name: .
+  - uid: System.Security.Claims
+    name: Claims
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.AddClaims*
   commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.AddClaims
   isExternal: true
+  href: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.html#SuperOffice_Security_Claims_ClaimsIdentitiesBuilder_AddClaims_System_Action_SuperOffice_Security_Claims_ClaimsIdentityBuilder__
   name: AddClaims
   nameWithType: ClaimsIdentitiesBuilder.AddClaims
   fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.AddClaims
 - uid: System.Action{SuperOffice.Security.Claims.ClaimsIdentityBuilder}
-  commentId: '!:System.Action{SuperOffice.Security.Claims.ClaimsIdentityBuilder}'
+  commentId: T:System.Action{SuperOffice.Security.Claims.ClaimsIdentityBuilder}
+  parent: System
   definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
   name: Action<ClaimsIdentityBuilder>
   nameWithType: Action<ClaimsIdentityBuilder>
   fullName: System.Action<SuperOffice.Security.Claims.ClaimsIdentityBuilder>
@@ -662,146 +990,126 @@ references:
   spec.csharp:
   - uid: System.Action`1
     name: Action
-    nameWithType: Action
-    fullName: System.Action
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder
     name: ClaimsIdentityBuilder
-    nameWithType: ClaimsIdentityBuilder
-    fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder
     isExternal: true
+    href: SuperOffice.Security.Claims.ClaimsIdentityBuilder.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Action`1
     name: Action
-    nameWithType: Action
-    fullName: System.Action
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder
     name: ClaimsIdentityBuilder
-    nameWithType: ClaimsIdentityBuilder
-    fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder
     isExternal: true
+    href: SuperOffice.Security.Claims.ClaimsIdentityBuilder.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Action`1
+  commentId: T:System.Action`1
   isExternal: true
-  name: Action<>
-  nameWithType: Action<>
-  fullName: System.Action<>
-  nameWithType.vb: Action(Of )
-  fullName.vb: System.Action(Of )
-  name.vb: Action(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
   spec.csharp:
   - uid: System.Action`1
     name: Action
-    nameWithType: Action
-    fullName: System.Action
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Action`1
     name: Action
-    nameWithType: Action
-    fullName: System.Action
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.ModifyIdentity*
   commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.ModifyIdentity
   isExternal: true
+  href: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.html#SuperOffice_Security_Claims_ClaimsIdentitiesBuilder_ModifyIdentity_System_Security_Claims_ClaimsIdentity_System_Action_SuperOffice_Security_Claims_ClaimsIdentityBuilder__
   name: ModifyIdentity
   nameWithType: ClaimsIdentitiesBuilder.ModifyIdentity
   fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.ModifyIdentity
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.RemoveIdentioty*
   commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.RemoveIdentioty
   isExternal: true
+  href: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.html#SuperOffice_Security_Claims_ClaimsIdentitiesBuilder_RemoveIdentioty_System_Security_Claims_ClaimsIdentity_
   name: RemoveIdentioty
   nameWithType: ClaimsIdentitiesBuilder.RemoveIdentioty
   fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.RemoveIdentioty
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.GetClaimValues*
   commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.GetClaimValues
   isExternal: true
+  href: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.html#SuperOffice_Security_Claims_ClaimsIdentitiesBuilder_GetClaimValues_System_String_
   name: GetClaimValues
   nameWithType: ClaimsIdentitiesBuilder.GetClaimValues
   fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.GetClaimValues
 - uid: System.Collections.Generic.IEnumerable{System.String}
-  commentId: '!:System.Collections.Generic.IEnumerable{System.String}'
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<String>
-  nameWithType: IEnumerable<String>
-  fullName: System.Collections.Generic.IEnumerable<System.String>
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<string>
+  nameWithType: IEnumerable<string>
+  fullName: System.Collections.Generic.IEnumerable<string>
   nameWithType.vb: IEnumerable(Of String)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of String)
   name.vb: IEnumerable(Of String)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.Identities*
   commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.Identities
   isExternal: true
+  href: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.html#SuperOffice_Security_Claims_ClaimsIdentitiesBuilder_Identities
   name: Identities
   nameWithType: ClaimsIdentitiesBuilder.Identities
   fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.Identities

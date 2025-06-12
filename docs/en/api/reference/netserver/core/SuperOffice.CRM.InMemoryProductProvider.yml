@@ -14,8 +14,8 @@ items:
   - SuperOffice.CRM.InMemoryProductProvider.GetProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
   - SuperOffice.CRM.InMemoryProductProvider.GetProductImage(System.String,System.Int32)
   - SuperOffice.CRM.InMemoryProductProvider.GetProducts(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String[])
-  - SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesfromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,SuperOffice.CRM.ProductInfo)
   - SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesFromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
+  - SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesfromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,SuperOffice.CRM.ProductInfo)
   - SuperOffice.CRM.InMemoryProductProvider.Images
   - SuperOffice.CRM.InMemoryProductProvider.PriceLists
   - SuperOffice.CRM.InMemoryProductProvider.Products
@@ -27,31 +27,29 @@ items:
   nameWithType: InMemoryProductProvider
   fullName: SuperOffice.CRM.InMemoryProductProvider
   type: Class
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nClass where you load up the products and pricelists in memory and use from memory.\n"
+  summary: Class where you load up the products and pricelists in memory and use from memory.
+  example: []
   syntax:
-    content: 'public class InMemoryProductProvider : Object'
-    content.vb: >-
-      Public Class InMemoryProductProvider
-          Inherits Object
+    content: public class InMemoryProductProvider
+    content.vb: Public Class InMemoryProductProvider
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.InMemoryProductProvider.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.InMemoryProductProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.InMemoryProductProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.InMemoryProductProvider)
   - SuperOffice.CRM.InMemoryProductProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.InMemoryProductProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.InMemoryProductProvider.ValidateData
   commentId: M:SuperOffice.CRM.InMemoryProductProvider.ValidateData
   id: ValidateData
@@ -63,23 +61,18 @@ items:
   nameWithType: InMemoryProductProvider.ValidateData()
   fullName: SuperOffice.CRM.InMemoryProductProvider.ValidateData()
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nChecks the loaded pricelists and products for duplicate keys\n"
+  summary: Checks the loaded pricelists and products for duplicate keys
+  example: []
   syntax:
     content: public PluginResponseInfo ValidateData()
     return:
       type: SuperOffice.CRM.PluginResponseInfo
-    content.vb: Public Function ValidateData As PluginResponseInfo
+      description: ''
+    content.vb: Public Function ValidateData() As PluginResponseInfo
   overload: SuperOffice.CRM.InMemoryProductProvider.ValidateData*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.InMemoryProductProvider.GetNumberOfActivePriceLists(System.String)
   commentId: M:SuperOffice.CRM.InMemoryProductProvider.GetNumberOfActivePriceLists(System.String)
   id: GetNumberOfActivePriceLists(System.String)
@@ -87,30 +80,29 @@ items:
   langs:
   - csharp
   - vb
-  name: GetNumberOfActivePriceLists(String)
-  nameWithType: InMemoryProductProvider.GetNumberOfActivePriceLists(String)
-  fullName: SuperOffice.CRM.InMemoryProductProvider.GetNumberOfActivePriceLists(System.String)
+  name: GetNumberOfActivePriceLists(string)
+  nameWithType: InMemoryProductProvider.GetNumberOfActivePriceLists(string)
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetNumberOfActivePriceLists(string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\n<see cref=\"!:IProductProvider.GetNumberOfActivePriceLists\"></see>\n"
+  summary: IProductProvider.GetNumberOfActivePriceLists
+  example: []
   syntax:
     content: public int GetNumberOfActivePriceLists(string isoCurrencyCode)
     parameters:
     - id: isoCurrencyCode
       type: System.String
+      description: ''
     return:
       type: System.Int32
+      description: ''
     content.vb: Public Function GetNumberOfActivePriceLists(isoCurrencyCode As String) As Integer
   overload: SuperOffice.CRM.InMemoryProductProvider.GetNumberOfActivePriceLists*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: InMemoryProductProvider.GetNumberOfActivePriceLists(String)
+  fullName.vb: SuperOffice.CRM.InMemoryProductProvider.GetNumberOfActivePriceLists(String)
+  name.vb: GetNumberOfActivePriceLists(String)
 - uid: SuperOffice.CRM.InMemoryProductProvider.GetActivePriceLists(System.String)
   commentId: M:SuperOffice.CRM.InMemoryProductProvider.GetActivePriceLists(System.String)
   id: GetActivePriceLists(System.String)
@@ -118,30 +110,29 @@ items:
   langs:
   - csharp
   - vb
-  name: GetActivePriceLists(String)
-  nameWithType: InMemoryProductProvider.GetActivePriceLists(String)
-  fullName: SuperOffice.CRM.InMemoryProductProvider.GetActivePriceLists(System.String)
+  name: GetActivePriceLists(string)
+  nameWithType: InMemoryProductProvider.GetActivePriceLists(string)
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetActivePriceLists(string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\n<see cref=\"!:IProductProvider.GetActivePriceLists\"></see>\n"
+  summary: IProductProvider.GetActivePriceLists
+  example: []
   syntax:
     content: public PriceListInfo[] GetActivePriceLists(string isoCurrencyCode)
     parameters:
     - id: isoCurrencyCode
       type: System.String
+      description: ''
     return:
       type: SuperOffice.CRM.PriceListInfo[]
+      description: ''
     content.vb: Public Function GetActivePriceLists(isoCurrencyCode As String) As PriceListInfo()
   overload: SuperOffice.CRM.InMemoryProductProvider.GetActivePriceLists*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: InMemoryProductProvider.GetActivePriceLists(String)
+  fullName.vb: SuperOffice.CRM.InMemoryProductProvider.GetActivePriceLists(String)
+  name.vb: GetActivePriceLists(String)
 - uid: SuperOffice.CRM.InMemoryProductProvider.GetAllPriceLists(System.String)
   commentId: M:SuperOffice.CRM.InMemoryProductProvider.GetAllPriceLists(System.String)
   id: GetAllPriceLists(System.String)
@@ -149,30 +140,29 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAllPriceLists(String)
-  nameWithType: InMemoryProductProvider.GetAllPriceLists(String)
-  fullName: SuperOffice.CRM.InMemoryProductProvider.GetAllPriceLists(System.String)
+  name: GetAllPriceLists(string)
+  nameWithType: InMemoryProductProvider.GetAllPriceLists(string)
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetAllPriceLists(string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\n<see cref=\"!:IProductProvider.GetAllPriceLists\"></see>\n"
+  summary: IProductProvider.GetAllPriceLists
+  example: []
   syntax:
     content: public PriceListInfo[] GetAllPriceLists(string isoCurrencyCode)
     parameters:
     - id: isoCurrencyCode
       type: System.String
+      description: ''
     return:
       type: SuperOffice.CRM.PriceListInfo[]
+      description: ''
     content.vb: Public Function GetAllPriceLists(isoCurrencyCode As String) As PriceListInfo()
   overload: SuperOffice.CRM.InMemoryProductProvider.GetAllPriceLists*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: InMemoryProductProvider.GetAllPriceLists(String)
+  fullName.vb: SuperOffice.CRM.InMemoryProductProvider.GetAllPriceLists(String)
+  name.vb: GetAllPriceLists(String)
 - uid: SuperOffice.CRM.InMemoryProductProvider.FindProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.InMemoryProductProvider.FindProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String,System.String,System.String)
   id: FindProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String,System.String,System.String)
@@ -180,36 +170,38 @@ items:
   langs:
   - csharp
   - vb
-  name: FindProduct(QuoteAlternativeContextInfo, String, String, String)
-  nameWithType: InMemoryProductProvider.FindProduct(QuoteAlternativeContextInfo, String, String, String)
-  fullName: SuperOffice.CRM.InMemoryProductProvider.FindProduct(SuperOffice.CRM.QuoteAlternativeContextInfo, System.String, System.String, System.String)
+  name: FindProduct(QuoteAlternativeContextInfo, string, string, string)
+  nameWithType: InMemoryProductProvider.FindProduct(QuoteAlternativeContextInfo, string, string, string)
+  fullName: SuperOffice.CRM.InMemoryProductProvider.FindProduct(SuperOffice.CRM.QuoteAlternativeContextInfo, string, string, string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\n<see cref=\"!:IProductProvider.FindProduct\"></see>\n"
+  summary: IProductProvider.FindProduct
+  example: []
   syntax:
     content: public ProductInfo[] FindProduct(QuoteAlternativeContextInfo context, string currencyCode, string userinput, string priceListKey)
     parameters:
     - id: context
       type: SuperOffice.CRM.QuoteAlternativeContextInfo
+      description: ''
     - id: currencyCode
       type: System.String
+      description: ''
     - id: userinput
       type: System.String
+      description: ''
     - id: priceListKey
       type: System.String
+      description: ''
     return:
       type: SuperOffice.CRM.ProductInfo[]
+      description: ''
     content.vb: Public Function FindProduct(context As QuoteAlternativeContextInfo, currencyCode As String, userinput As String, priceListKey As String) As ProductInfo()
   overload: SuperOffice.CRM.InMemoryProductProvider.FindProduct*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: InMemoryProductProvider.FindProduct(QuoteAlternativeContextInfo, String, String, String)
+  fullName.vb: SuperOffice.CRM.InMemoryProductProvider.FindProduct(SuperOffice.CRM.QuoteAlternativeContextInfo, String, String, String)
+  name.vb: FindProduct(QuoteAlternativeContextInfo, String, String, String)
 - uid: SuperOffice.CRM.InMemoryProductProvider.GetProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
   commentId: M:SuperOffice.CRM.InMemoryProductProvider.GetProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
   id: GetProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
@@ -217,32 +209,32 @@ items:
   langs:
   - csharp
   - vb
-  name: GetProduct(QuoteAlternativeContextInfo, String)
-  nameWithType: InMemoryProductProvider.GetProduct(QuoteAlternativeContextInfo, String)
-  fullName: SuperOffice.CRM.InMemoryProductProvider.GetProduct(SuperOffice.CRM.QuoteAlternativeContextInfo, System.String)
+  name: GetProduct(QuoteAlternativeContextInfo, string)
+  nameWithType: InMemoryProductProvider.GetProduct(QuoteAlternativeContextInfo, string)
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetProduct(SuperOffice.CRM.QuoteAlternativeContextInfo, string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\n<see cref=\"!:IProductProvider.GetProduct\"></see>\n"
+  summary: IProductProvider.GetProduct
+  example: []
   syntax:
     content: public ProductInfo GetProduct(QuoteAlternativeContextInfo context, string erpProductKey)
     parameters:
     - id: context
       type: SuperOffice.CRM.QuoteAlternativeContextInfo
+      description: ''
     - id: erpProductKey
       type: System.String
+      description: ''
     return:
       type: SuperOffice.CRM.ProductInfo
+      description: ''
     content.vb: Public Function GetProduct(context As QuoteAlternativeContextInfo, erpProductKey As String) As ProductInfo
   overload: SuperOffice.CRM.InMemoryProductProvider.GetProduct*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: InMemoryProductProvider.GetProduct(QuoteAlternativeContextInfo, String)
+  fullName.vb: SuperOffice.CRM.InMemoryProductProvider.GetProduct(SuperOffice.CRM.QuoteAlternativeContextInfo, String)
+  name.vb: GetProduct(QuoteAlternativeContextInfo, String)
 - uid: SuperOffice.CRM.InMemoryProductProvider.GetProducts(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String[])
   commentId: M:SuperOffice.CRM.InMemoryProductProvider.GetProducts(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String[])
   id: GetProducts(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String[])
@@ -250,34 +242,31 @@ items:
   langs:
   - csharp
   - vb
-  name: GetProducts(QuoteAlternativeContextInfo, String[])
-  nameWithType: InMemoryProductProvider.GetProducts(QuoteAlternativeContextInfo, String[])
-  fullName: SuperOffice.CRM.InMemoryProductProvider.GetProducts(SuperOffice.CRM.QuoteAlternativeContextInfo, System.String[])
+  name: GetProducts(QuoteAlternativeContextInfo, string[])
+  nameWithType: InMemoryProductProvider.GetProducts(QuoteAlternativeContextInfo, string[])
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetProducts(SuperOffice.CRM.QuoteAlternativeContextInfo, string[])
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\n<see cref=\"!:IProductProvider.GetProducts\"></see>\n"
+  summary: IProductProvider.GetProducts
+  example: []
   syntax:
     content: public ProductInfo[] GetProducts(QuoteAlternativeContextInfo context, string[] erpProductKeys)
     parameters:
     - id: context
       type: SuperOffice.CRM.QuoteAlternativeContextInfo
+      description: ''
     - id: erpProductKeys
       type: System.String[]
+      description: ''
     return:
       type: SuperOffice.CRM.ProductInfo[]
+      description: ''
     content.vb: Public Function GetProducts(context As QuoteAlternativeContextInfo, erpProductKeys As String()) As ProductInfo()
   overload: SuperOffice.CRM.InMemoryProductProvider.GetProducts*
   nameWithType.vb: InMemoryProductProvider.GetProducts(QuoteAlternativeContextInfo, String())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.InMemoryProductProvider.GetProducts(SuperOffice.CRM.QuoteAlternativeContextInfo, System.String())
+  fullName.vb: SuperOffice.CRM.InMemoryProductProvider.GetProducts(SuperOffice.CRM.QuoteAlternativeContextInfo, String())
   name.vb: GetProducts(QuoteAlternativeContextInfo, String())
 - uid: SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesFromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
   commentId: M:SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesFromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
@@ -286,32 +275,32 @@ items:
   langs:
   - csharp
   - vb
-  name: GetQuoteLinesFromProduct(QuoteAlternativeContextInfo, String)
-  nameWithType: InMemoryProductProvider.GetQuoteLinesFromProduct(QuoteAlternativeContextInfo, String)
-  fullName: SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesFromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo, System.String)
+  name: GetQuoteLinesFromProduct(QuoteAlternativeContextInfo, string)
+  nameWithType: InMemoryProductProvider.GetQuoteLinesFromProduct(QuoteAlternativeContextInfo, string)
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesFromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo, string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\n<see cref=\"!:IProductProvider.GetQuoteLinesFromProduct\"></see>\n"
+  summary: IProductProvider.GetQuoteLinesFromProduct
+  example: []
   syntax:
     content: public QuoteLineInfo[] GetQuoteLinesFromProduct(QuoteAlternativeContextInfo context, string erpProductKey)
     parameters:
     - id: context
       type: SuperOffice.CRM.QuoteAlternativeContextInfo
+      description: ''
     - id: erpProductKey
       type: System.String
+      description: ''
     return:
       type: SuperOffice.CRM.QuoteLineInfo[]
+      description: ''
     content.vb: Public Function GetQuoteLinesFromProduct(context As QuoteAlternativeContextInfo, erpProductKey As String) As QuoteLineInfo()
   overload: SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesFromProduct*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: InMemoryProductProvider.GetQuoteLinesFromProduct(QuoteAlternativeContextInfo, String)
+  fullName.vb: SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesFromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo, String)
+  name.vb: GetQuoteLinesFromProduct(QuoteAlternativeContextInfo, String)
 - uid: SuperOffice.CRM.InMemoryProductProvider.GetNumberOfProductImages(System.String)
   commentId: M:SuperOffice.CRM.InMemoryProductProvider.GetNumberOfProductImages(System.String)
   id: GetNumberOfProductImages(System.String)
@@ -319,30 +308,29 @@ items:
   langs:
   - csharp
   - vb
-  name: GetNumberOfProductImages(String)
-  nameWithType: InMemoryProductProvider.GetNumberOfProductImages(String)
-  fullName: SuperOffice.CRM.InMemoryProductProvider.GetNumberOfProductImages(System.String)
+  name: GetNumberOfProductImages(string)
+  nameWithType: InMemoryProductProvider.GetNumberOfProductImages(string)
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetNumberOfProductImages(string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\n<see cref=\"!:IProductProvider.GetNumberOfProductImages\"></see>\n"
+  summary: IProductProvider.GetNumberOfProductImages
+  example: []
   syntax:
     content: public int GetNumberOfProductImages(string erpProductKey)
     parameters:
     - id: erpProductKey
       type: System.String
+      description: ''
     return:
       type: System.Int32
+      description: ''
     content.vb: Public Function GetNumberOfProductImages(erpProductKey As String) As Integer
   overload: SuperOffice.CRM.InMemoryProductProvider.GetNumberOfProductImages*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: InMemoryProductProvider.GetNumberOfProductImages(String)
+  fullName.vb: SuperOffice.CRM.InMemoryProductProvider.GetNumberOfProductImages(String)
+  name.vb: GetNumberOfProductImages(String)
 - uid: SuperOffice.CRM.InMemoryProductProvider.GetProductImage(System.String,System.Int32)
   commentId: M:SuperOffice.CRM.InMemoryProductProvider.GetProductImage(System.String,System.Int32)
   id: GetProductImage(System.String,System.Int32)
@@ -350,32 +338,32 @@ items:
   langs:
   - csharp
   - vb
-  name: GetProductImage(String, Int32)
-  nameWithType: InMemoryProductProvider.GetProductImage(String, Int32)
-  fullName: SuperOffice.CRM.InMemoryProductProvider.GetProductImage(System.String, System.Int32)
+  name: GetProductImage(string, int)
+  nameWithType: InMemoryProductProvider.GetProductImage(string, int)
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetProductImage(string, int)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\n<see cref=\"!:IProductProvider.GetProductImage\"></see>\n"
+  summary: IProductProvider.GetProductImage
+  example: []
   syntax:
     content: public string GetProductImage(string erpProductKey, int rank)
     parameters:
     - id: erpProductKey
       type: System.String
+      description: ''
     - id: rank
       type: System.Int32
+      description: ''
     return:
       type: System.String
+      description: ''
     content.vb: Public Function GetProductImage(erpProductKey As String, rank As Integer) As String
   overload: SuperOffice.CRM.InMemoryProductProvider.GetProductImage*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: InMemoryProductProvider.GetProductImage(String, Integer)
+  fullName.vb: SuperOffice.CRM.InMemoryProductProvider.GetProductImage(String, Integer)
+  name.vb: GetProductImage(String, Integer)
 - uid: SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesfromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,SuperOffice.CRM.ProductInfo)
   commentId: M:SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesfromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,SuperOffice.CRM.ProductInfo)
   id: GetQuoteLinesfromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,SuperOffice.CRM.ProductInfo)
@@ -387,9 +375,6 @@ items:
   nameWithType: InMemoryProductProvider.GetQuoteLinesfromProduct(QuoteAlternativeContextInfo, ProductInfo)
   fullName: SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesfromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo, SuperOffice.CRM.ProductInfo)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
@@ -404,12 +389,6 @@ items:
       type: SuperOffice.CRM.QuoteLineInfo[]
     content.vb: Public Shared Function GetQuoteLinesfromProduct(context As QuoteAlternativeContextInfo, p As ProductInfo) As QuoteLineInfo()
   overload: SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesfromProduct*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.InMemoryProductProvider.#ctor
   commentId: M:SuperOffice.CRM.InMemoryProductProvider.#ctor
   id: '#ctor'
@@ -421,20 +400,16 @@ items:
   nameWithType: InMemoryProductProvider.InMemoryProductProvider()
   fullName: SuperOffice.CRM.InMemoryProductProvider.InMemoryProductProvider()
   type: Constructor
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
   syntax:
     content: public InMemoryProductProvider()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.InMemoryProductProvider.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: InMemoryProductProvider.New()
+  fullName.vb: SuperOffice.CRM.InMemoryProductProvider.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.InMemoryProductProvider.Products
   commentId: P:SuperOffice.CRM.InMemoryProductProvider.Products
   id: Products
@@ -446,13 +421,11 @@ items:
   nameWithType: InMemoryProductProvider.Products
   fullName: SuperOffice.CRM.InMemoryProductProvider.Products
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe products\n"
+  summary: The products
+  example: []
   syntax:
     content: public List<ProductInfo> Products { get; set; }
     parameters: []
@@ -460,12 +433,6 @@ items:
       type: System.Collections.Generic.List{SuperOffice.CRM.ProductInfo}
     content.vb: Public Property Products As List(Of ProductInfo)
   overload: SuperOffice.CRM.InMemoryProductProvider.Products*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.InMemoryProductProvider.PriceLists
   commentId: P:SuperOffice.CRM.InMemoryProductProvider.PriceLists
   id: PriceLists
@@ -477,13 +444,11 @@ items:
   nameWithType: InMemoryProductProvider.PriceLists
   fullName: SuperOffice.CRM.InMemoryProductProvider.PriceLists
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe pricelists\n"
+  summary: The pricelists
+  example: []
   syntax:
     content: public List<PriceListInfo> PriceLists { get; set; }
     parameters: []
@@ -491,12 +456,6 @@ items:
       type: System.Collections.Generic.List{SuperOffice.CRM.PriceListInfo}
     content.vb: Public Property PriceLists As List(Of PriceListInfo)
   overload: SuperOffice.CRM.InMemoryProductProvider.PriceLists*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.InMemoryProductProvider.Images
   commentId: P:SuperOffice.CRM.InMemoryProductProvider.Images
   id: Images
@@ -508,13 +467,11 @@ items:
   nameWithType: InMemoryProductProvider.Images
   fullName: SuperOffice.CRM.InMemoryProductProvider.Images
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe images\n"
+  summary: The images
+  example: []
   syntax:
     content: public Dictionary<string, string[]> Images { get; set; }
     parameters: []
@@ -522,181 +479,487 @@ items:
       type: System.Collections.Generic.Dictionary{System.String,System.String[]}
     content.vb: Public Property Images As Dictionary(Of String, String())
   overload: SuperOffice.CRM.InMemoryProductProvider.Images*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.InMemoryProductProvider.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<InMemoryProductProvider, To>()
-  nameWithType: EnumUtil.MapEnums<InMemoryProductProvider, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.InMemoryProductProvider, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of InMemoryProductProvider, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.InMemoryProductProvider, To)()
-  name.vb: MapEnums(Of InMemoryProductProvider, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<InMemoryProductProvider, To>(InMemoryProductProvider)
+  nameWithType: EnumUtil.MapEnums<InMemoryProductProvider, To>(InMemoryProductProvider)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.InMemoryProductProvider, To>(SuperOffice.CRM.InMemoryProductProvider)
+  nameWithType.vb: EnumUtil.MapEnums(Of InMemoryProductProvider, To)(InMemoryProductProvider)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.InMemoryProductProvider, To)(SuperOffice.CRM.InMemoryProductProvider)
+  name.vb: MapEnums(Of InMemoryProductProvider, To)(InMemoryProductProvider)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<InMemoryProductProvider, To>
-    nameWithType: EnumUtil.MapEnums<InMemoryProductProvider, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.InMemoryProductProvider, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.InMemoryProductProvider)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of InMemoryProductProvider, To)
-    nameWithType: EnumUtil.MapEnums(Of InMemoryProductProvider, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.InMemoryProductProvider, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.InMemoryProductProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.InMemoryProductProvider)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<InMemoryProductProvider>(InMemoryProductProvider)
-  nameWithType: ObjectExtensions.AssignByReflection<InMemoryProductProvider>(InMemoryProductProvider)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.InMemoryProductProvider>(SuperOffice.CRM.InMemoryProductProvider)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of InMemoryProductProvider)(InMemoryProductProvider)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.InMemoryProductProvider)(SuperOffice.CRM.InMemoryProductProvider)
-  name.vb: AssignByReflection(Of InMemoryProductProvider)(InMemoryProductProvider)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<InMemoryProductProvider>
-    nameWithType: ObjectExtensions.AssignByReflection<InMemoryProductProvider>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.InMemoryProductProvider>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.InMemoryProductProvider
     name: InMemoryProductProvider
-    nameWithType: InMemoryProductProvider
-    fullName: SuperOffice.CRM.InMemoryProductProvider
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of InMemoryProductProvider)
-    nameWithType: ObjectExtensions.AssignByReflection(Of InMemoryProductProvider)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.InMemoryProductProvider)
-    isExternal: true
+    href: SuperOffice.CRM.InMemoryProductProvider.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.InMemoryProductProvider
     name: InMemoryProductProvider
-    nameWithType: InMemoryProductProvider
-    fullName: SuperOffice.CRM.InMemoryProductProvider
     isExternal: true
+    href: SuperOffice.CRM.InMemoryProductProvider.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.InMemoryProductProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<InMemoryProductProvider>()
-  nameWithType: ObjectExtensions.GraphCopy<InMemoryProductProvider>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.InMemoryProductProvider>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of InMemoryProductProvider)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.InMemoryProductProvider)()
-  name.vb: GraphCopy(Of InMemoryProductProvider)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<InMemoryProductProvider>
-    nameWithType: ObjectExtensions.GraphCopy<InMemoryProductProvider>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.InMemoryProductProvider>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of InMemoryProductProvider)
-    nameWithType: ObjectExtensions.GraphCopy(Of InMemoryProductProvider)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.InMemoryProductProvider)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.InMemoryProductProvider)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.InMemoryProductProvider
+    name: InMemoryProductProvider
+    isExternal: true
+    href: SuperOffice.CRM.InMemoryProductProvider.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.InMemoryProductProvider
+    name: InMemoryProductProvider
+    isExternal: true
+    href: SuperOffice.CRM.InMemoryProductProvider.html
+  - name: )
 - uid: SuperOffice.CRM.InMemoryProductProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<InMemoryProductProvider, To>()
-  nameWithType: Converters.MapEnums<InMemoryProductProvider, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.InMemoryProductProvider, To>()
-  nameWithType.vb: Converters.MapEnums(Of InMemoryProductProvider, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.InMemoryProductProvider, To)()
-  name.vb: MapEnums(Of InMemoryProductProvider, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<InMemoryProductProvider, To>(InMemoryProductProvider)
+  nameWithType: Converters.MapEnums<InMemoryProductProvider, To>(InMemoryProductProvider)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.InMemoryProductProvider, To>(SuperOffice.CRM.InMemoryProductProvider)
+  nameWithType.vb: Converters.MapEnums(Of InMemoryProductProvider, To)(InMemoryProductProvider)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.InMemoryProductProvider, To)(SuperOffice.CRM.InMemoryProductProvider)
+  name.vb: MapEnums(Of InMemoryProductProvider, To)(InMemoryProductProvider)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<InMemoryProductProvider, To>
-    nameWithType: Converters.MapEnums<InMemoryProductProvider, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.InMemoryProductProvider, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.InMemoryProductProvider)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.InMemoryProductProvider
+    name: InMemoryProductProvider
+    isExternal: true
+    href: SuperOffice.CRM.InMemoryProductProvider.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.InMemoryProductProvider
+    name: InMemoryProductProvider
+    isExternal: true
+    href: SuperOffice.CRM.InMemoryProductProvider.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of InMemoryProductProvider, To)
-    nameWithType: Converters.MapEnums(Of InMemoryProductProvider, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.InMemoryProductProvider, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.InMemoryProductProvider)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.InMemoryProductProvider
+    name: InMemoryProductProvider
+    isExternal: true
+    href: SuperOffice.CRM.InMemoryProductProvider.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.InMemoryProductProvider
+    name: InMemoryProductProvider
+    isExternal: true
+    href: SuperOffice.CRM.InMemoryProductProvider.html
+  - name: )
+- uid: SuperOffice.CRM.InMemoryProductProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.InMemoryProductProvider)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<InMemoryProductProvider>(InMemoryProductProvider, InMemoryProductProvider)
+  nameWithType: ObjectExtensions.AssignByReflection<InMemoryProductProvider>(InMemoryProductProvider, InMemoryProductProvider)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.InMemoryProductProvider>(SuperOffice.CRM.InMemoryProductProvider, SuperOffice.CRM.InMemoryProductProvider)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of InMemoryProductProvider)(InMemoryProductProvider, InMemoryProductProvider)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.InMemoryProductProvider)(SuperOffice.CRM.InMemoryProductProvider, SuperOffice.CRM.InMemoryProductProvider)
+  name.vb: AssignByReflection(Of InMemoryProductProvider)(InMemoryProductProvider, InMemoryProductProvider)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.InMemoryProductProvider,SuperOffice.CRM.InMemoryProductProvider)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.InMemoryProductProvider
+    name: InMemoryProductProvider
+    isExternal: true
+    href: SuperOffice.CRM.InMemoryProductProvider.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.InMemoryProductProvider
+    name: InMemoryProductProvider
+    isExternal: true
+    href: SuperOffice.CRM.InMemoryProductProvider.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.InMemoryProductProvider
+    name: InMemoryProductProvider
+    isExternal: true
+    href: SuperOffice.CRM.InMemoryProductProvider.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.InMemoryProductProvider,SuperOffice.CRM.InMemoryProductProvider)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.InMemoryProductProvider
+    name: InMemoryProductProvider
+    isExternal: true
+    href: SuperOffice.CRM.InMemoryProductProvider.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.InMemoryProductProvider
+    name: InMemoryProductProvider
+    isExternal: true
+    href: SuperOffice.CRM.InMemoryProductProvider.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.InMemoryProductProvider
+    name: InMemoryProductProvider
+    isExternal: true
+    href: SuperOffice.CRM.InMemoryProductProvider.html
+  - name: )
+- uid: SuperOffice.CRM.InMemoryProductProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<InMemoryProductProvider>(InMemoryProductProvider)
+  nameWithType: ObjectExtensions.GraphCopy<InMemoryProductProvider>(InMemoryProductProvider)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.InMemoryProductProvider>(SuperOffice.CRM.InMemoryProductProvider)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of InMemoryProductProvider)(InMemoryProductProvider)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.InMemoryProductProvider)(SuperOffice.CRM.InMemoryProductProvider)
+  name.vb: GraphCopy(Of InMemoryProductProvider)(InMemoryProductProvider)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.InMemoryProductProvider)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.InMemoryProductProvider
+    name: InMemoryProductProvider
+    isExternal: true
+    href: SuperOffice.CRM.InMemoryProductProvider.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.InMemoryProductProvider
+    name: InMemoryProductProvider
+    isExternal: true
+    href: SuperOffice.CRM.InMemoryProductProvider.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.InMemoryProductProvider)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.InMemoryProductProvider
+    name: InMemoryProductProvider
+    isExternal: true
+    href: SuperOffice.CRM.InMemoryProductProvider.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.InMemoryProductProvider
+    name: InMemoryProductProvider
+    isExternal: true
+    href: SuperOffice.CRM.InMemoryProductProvider.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -705,140 +968,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -847,56 +1015,192 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.CRM.InMemoryProductProvider.ValidateData*
   commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.ValidateData
   isExternal: true
+  href: SuperOffice.CRM.InMemoryProductProvider.html#SuperOffice_CRM_InMemoryProductProvider_ValidateData
   name: ValidateData
   nameWithType: InMemoryProductProvider.ValidateData
   fullName: SuperOffice.CRM.InMemoryProductProvider.ValidateData
@@ -904,12 +1208,14 @@ references:
   commentId: T:SuperOffice.CRM.PluginResponseInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.PluginResponseInfo.html
   name: PluginResponseInfo
   nameWithType: PluginResponseInfo
   fullName: SuperOffice.CRM.PluginResponseInfo
 - uid: SuperOffice.CRM.InMemoryProductProvider.GetNumberOfActivePriceLists*
   commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.GetNumberOfActivePriceLists
   isExternal: true
+  href: SuperOffice.CRM.InMemoryProductProvider.html#SuperOffice_CRM_InMemoryProductProvider_GetNumberOfActivePriceLists_System_String_
   name: GetNumberOfActivePriceLists
   nameWithType: InMemoryProductProvider.GetNumberOfActivePriceLists
   fullName: SuperOffice.CRM.InMemoryProductProvider.GetNumberOfActivePriceLists
@@ -917,24 +1223,34 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.InMemoryProductProvider.GetActivePriceLists*
   commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.GetActivePriceLists
   isExternal: true
+  href: SuperOffice.CRM.InMemoryProductProvider.html#SuperOffice_CRM_InMemoryProductProvider_GetActivePriceLists_System_String_
   name: GetActivePriceLists
   nameWithType: InMemoryProductProvider.GetActivePriceLists
   fullName: SuperOffice.CRM.InMemoryProductProvider.GetActivePriceLists
 - uid: SuperOffice.CRM.PriceListInfo[]
   isExternal: true
+  href: SuperOffice.CRM.PriceListInfo.html
   name: PriceListInfo[]
   nameWithType: PriceListInfo[]
   fullName: SuperOffice.CRM.PriceListInfo[]
@@ -944,30 +1260,28 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.PriceListInfo
     name: PriceListInfo
-    nameWithType: PriceListInfo
-    fullName: SuperOffice.CRM.PriceListInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.PriceListInfo.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.PriceListInfo
     name: PriceListInfo
-    nameWithType: PriceListInfo
-    fullName: SuperOffice.CRM.PriceListInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.PriceListInfo.html
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.InMemoryProductProvider.GetAllPriceLists*
   commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.GetAllPriceLists
   isExternal: true
+  href: SuperOffice.CRM.InMemoryProductProvider.html#SuperOffice_CRM_InMemoryProductProvider_GetAllPriceLists_System_String_
   name: GetAllPriceLists
   nameWithType: InMemoryProductProvider.GetAllPriceLists
   fullName: SuperOffice.CRM.InMemoryProductProvider.GetAllPriceLists
 - uid: SuperOffice.CRM.InMemoryProductProvider.FindProduct*
   commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.FindProduct
   isExternal: true
+  href: SuperOffice.CRM.InMemoryProductProvider.html#SuperOffice_CRM_InMemoryProductProvider_FindProduct_SuperOffice_CRM_QuoteAlternativeContextInfo_System_String_System_String_System_String_
   name: FindProduct
   nameWithType: InMemoryProductProvider.FindProduct
   fullName: SuperOffice.CRM.InMemoryProductProvider.FindProduct
@@ -975,11 +1289,13 @@ references:
   commentId: T:SuperOffice.CRM.QuoteAlternativeContextInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteAlternativeContextInfo.html
   name: QuoteAlternativeContextInfo
   nameWithType: QuoteAlternativeContextInfo
   fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
 - uid: SuperOffice.CRM.ProductInfo[]
   isExternal: true
+  href: SuperOffice.CRM.ProductInfo.html
   name: ProductInfo[]
   nameWithType: ProductInfo[]
   fullName: SuperOffice.CRM.ProductInfo[]
@@ -989,24 +1305,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.ProductInfo
     name: ProductInfo
-    nameWithType: ProductInfo
-    fullName: SuperOffice.CRM.ProductInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.ProductInfo.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.ProductInfo
     name: ProductInfo
-    nameWithType: ProductInfo
-    fullName: SuperOffice.CRM.ProductInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.ProductInfo.html
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.InMemoryProductProvider.GetProduct*
   commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.GetProduct
   isExternal: true
+  href: SuperOffice.CRM.InMemoryProductProvider.html#SuperOffice_CRM_InMemoryProductProvider_GetProduct_SuperOffice_CRM_QuoteAlternativeContextInfo_System_String_
   name: GetProduct
   nameWithType: InMemoryProductProvider.GetProduct
   fullName: SuperOffice.CRM.InMemoryProductProvider.GetProduct
@@ -1014,49 +1327,50 @@ references:
   commentId: T:SuperOffice.CRM.ProductInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ProductInfo.html
   name: ProductInfo
   nameWithType: ProductInfo
   fullName: SuperOffice.CRM.ProductInfo
 - uid: SuperOffice.CRM.InMemoryProductProvider.GetProducts*
   commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.GetProducts
   isExternal: true
+  href: SuperOffice.CRM.InMemoryProductProvider.html#SuperOffice_CRM_InMemoryProductProvider_GetProducts_SuperOffice_CRM_QuoteAlternativeContextInfo_System_String___
   name: GetProducts
   nameWithType: InMemoryProductProvider.GetProducts
   fullName: SuperOffice.CRM.InMemoryProductProvider.GetProducts
 - uid: System.String[]
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
   nameWithType.vb: String()
-  fullName.vb: System.String()
+  fullName.vb: String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesFromProduct*
   commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesFromProduct
   isExternal: true
+  href: SuperOffice.CRM.InMemoryProductProvider.html#SuperOffice_CRM_InMemoryProductProvider_GetQuoteLinesFromProduct_SuperOffice_CRM_QuoteAlternativeContextInfo_System_String_
   name: GetQuoteLinesFromProduct
   nameWithType: InMemoryProductProvider.GetQuoteLinesFromProduct
   fullName: SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesFromProduct
 - uid: SuperOffice.CRM.QuoteLineInfo[]
   isExternal: true
+  href: SuperOffice.CRM.QuoteLineInfo.html
   name: QuoteLineInfo[]
   nameWithType: QuoteLineInfo[]
   fullName: SuperOffice.CRM.QuoteLineInfo[]
@@ -1066,54 +1380,60 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.QuoteLineInfo
     name: QuoteLineInfo
-    nameWithType: QuoteLineInfo
-    fullName: SuperOffice.CRM.QuoteLineInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.QuoteLineInfo.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.QuoteLineInfo
     name: QuoteLineInfo
-    nameWithType: QuoteLineInfo
-    fullName: SuperOffice.CRM.QuoteLineInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.QuoteLineInfo.html
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.InMemoryProductProvider.GetNumberOfProductImages*
   commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.GetNumberOfProductImages
   isExternal: true
+  href: SuperOffice.CRM.InMemoryProductProvider.html#SuperOffice_CRM_InMemoryProductProvider_GetNumberOfProductImages_System_String_
   name: GetNumberOfProductImages
   nameWithType: InMemoryProductProvider.GetNumberOfProductImages
   fullName: SuperOffice.CRM.InMemoryProductProvider.GetNumberOfProductImages
 - uid: SuperOffice.CRM.InMemoryProductProvider.GetProductImage*
   commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.GetProductImage
   isExternal: true
+  href: SuperOffice.CRM.InMemoryProductProvider.html#SuperOffice_CRM_InMemoryProductProvider_GetProductImage_System_String_System_Int32_
   name: GetProductImage
   nameWithType: InMemoryProductProvider.GetProductImage
   fullName: SuperOffice.CRM.InMemoryProductProvider.GetProductImage
 - uid: SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesfromProduct*
   commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesfromProduct
   isExternal: true
+  href: SuperOffice.CRM.InMemoryProductProvider.html#SuperOffice_CRM_InMemoryProductProvider_GetQuoteLinesfromProduct_SuperOffice_CRM_QuoteAlternativeContextInfo_SuperOffice_CRM_ProductInfo_
   name: GetQuoteLinesfromProduct
   nameWithType: InMemoryProductProvider.GetQuoteLinesfromProduct
   fullName: SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesfromProduct
 - uid: SuperOffice.CRM.InMemoryProductProvider.#ctor*
   commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.#ctor
   isExternal: true
+  href: SuperOffice.CRM.InMemoryProductProvider.html#SuperOffice_CRM_InMemoryProductProvider__ctor
   name: InMemoryProductProvider
   nameWithType: InMemoryProductProvider.InMemoryProductProvider
   fullName: SuperOffice.CRM.InMemoryProductProvider.InMemoryProductProvider
+  nameWithType.vb: InMemoryProductProvider.New
+  fullName.vb: SuperOffice.CRM.InMemoryProductProvider.New
+  name.vb: New
 - uid: SuperOffice.CRM.InMemoryProductProvider.Products*
   commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.Products
   isExternal: true
+  href: SuperOffice.CRM.InMemoryProductProvider.html#SuperOffice_CRM_InMemoryProductProvider_Products
   name: Products
   nameWithType: InMemoryProductProvider.Products
   fullName: SuperOffice.CRM.InMemoryProductProvider.Products
 - uid: System.Collections.Generic.List{SuperOffice.CRM.ProductInfo}
-  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.ProductInfo}'
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ProductInfo}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<ProductInfo>
   nameWithType: List<ProductInfo>
   fullName: System.Collections.Generic.List<SuperOffice.CRM.ProductInfo>
@@ -1123,84 +1443,104 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.ProductInfo
     name: ProductInfo
-    nameWithType: ProductInfo
-    fullName: SuperOffice.CRM.ProductInfo
     isExternal: true
+    href: SuperOffice.CRM.ProductInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.ProductInfo
     name: ProductInfo
-    nameWithType: ProductInfo
-    fullName: SuperOffice.CRM.ProductInfo
     isExternal: true
+    href: SuperOffice.CRM.ProductInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<>
-  nameWithType: List<>
-  fullName: System.Collections.Generic.List<>
-  nameWithType.vb: List(Of )
-  fullName.vb: System.Collections.Generic.List(Of )
-  name.vb: List(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.CRM.InMemoryProductProvider.PriceLists*
   commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.PriceLists
   isExternal: true
+  href: SuperOffice.CRM.InMemoryProductProvider.html#SuperOffice_CRM_InMemoryProductProvider_PriceLists
   name: PriceLists
   nameWithType: InMemoryProductProvider.PriceLists
   fullName: SuperOffice.CRM.InMemoryProductProvider.PriceLists
 - uid: System.Collections.Generic.List{SuperOffice.CRM.PriceListInfo}
-  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.PriceListInfo}'
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.PriceListInfo}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<PriceListInfo>
   nameWithType: List<PriceListInfo>
   fullName: System.Collections.Generic.List<SuperOffice.CRM.PriceListInfo>
@@ -1210,155 +1550,116 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.PriceListInfo
     name: PriceListInfo
-    nameWithType: PriceListInfo
-    fullName: SuperOffice.CRM.PriceListInfo
     isExternal: true
+    href: SuperOffice.CRM.PriceListInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.PriceListInfo
     name: PriceListInfo
-    nameWithType: PriceListInfo
-    fullName: SuperOffice.CRM.PriceListInfo
     isExternal: true
+    href: SuperOffice.CRM.PriceListInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.InMemoryProductProvider.Images*
   commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.Images
   isExternal: true
+  href: SuperOffice.CRM.InMemoryProductProvider.html#SuperOffice_CRM_InMemoryProductProvider_Images
   name: Images
   nameWithType: InMemoryProductProvider.Images
   fullName: SuperOffice.CRM.InMemoryProductProvider.Images
 - uid: System.Collections.Generic.Dictionary{System.String,System.String[]}
-  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.String[]}'
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String[]}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.Dictionary`2
-  name: Dictionary<String, String[]>
-  nameWithType: Dictionary<String, String[]>
-  fullName: System.Collections.Generic.Dictionary<System.String, System.String[]>
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, string[]>
+  nameWithType: Dictionary<string, string[]>
+  fullName: System.Collections.Generic.Dictionary<string, string[]>
   nameWithType.vb: Dictionary(Of String, String())
-  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String())
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, String())
   name.vb: Dictionary(Of String, String())
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  name: Dictionary<, >
-  nameWithType: Dictionary<, >
-  fullName: System.Collections.Generic.Dictionary<, >
-  nameWithType.vb: Dictionary(Of , )
-  fullName.vb: System.Collections.Generic.Dictionary(Of , )
-  name.vb: Dictionary(Of , )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
   - name: )
-    nameWithType: )
-    fullName: )

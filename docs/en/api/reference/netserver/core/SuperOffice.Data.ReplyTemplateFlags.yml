@@ -28,67 +28,41 @@ items:
   - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserTicketAlarm
   - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserTicketTakenOver
   - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateWeekStat
-  - SuperOffice.Data.ReplyTemplateFlags.value__
   langs:
   - csharp
   - vb
   name: ReplyTemplateFlags
   nameWithType: ReplyTemplateFlags
   fullName: SuperOffice.Data.ReplyTemplateFlags
-  type: Class
-  source:
-    path: SoCore
-    isExternal: true
+  type: Enum
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\nDescribes access level to get reply templaes\n"
+  summary: Describes access level to get reply templaes
+  example: []
   syntax:
-    content: 'public sealed class ReplyTemplateFlags : Enum'
-    content.vb: >-
-      Public NotInheritable Class ReplyTemplateFlags
-          Inherits
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
 
-           Enum
-  inheritance:
-  - System.Object
+      public enum ReplyTemplateFlags
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Enum ReplyTemplateFlags
   extensionMethods:
   - SuperOffice.Data.ReplyTemplateFlags.EnumUtil.MapEnums``2
   - SuperOffice.Data.ReplyTemplateFlags.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.Data.ReplyTemplateFlags.value__
-  commentId: F:SuperOffice.Data.ReplyTemplateFlags.value__
-  id: value__
-  parent: SuperOffice.Data.ReplyTemplateFlags
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: ReplyTemplateFlags.value__
-  fullName: SuperOffice.Data.ReplyTemplateFlags.value__
-  type: Field
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.Data.ReplyTemplateFlags.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ReplyTemplateFlags)
+  - SuperOffice.Data.ReplyTemplateFlags.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - System.Enum.EnumUtil.GetDescription
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerNewCustomer
   commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerNewCustomer
   id: ReplyTemplateCustomerNewCustomer
@@ -100,24 +74,26 @@ items:
   nameWithType: ReplyTemplateFlags.ReplyTemplateCustomerNewCustomer
   fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerNewCustomer
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1: System template for reply to new customers\n"
+  summary: '1: System template for reply to new customers'
+  example: []
   syntax:
-    content: public const ReplyTemplateFlags ReplyTemplateCustomerNewCustomer
+    content: >-
+      [EnumMember]
+
+      ReplyTemplateCustomerNewCustomer = 1
     return:
       type: SuperOffice.Data.ReplyTemplateFlags
-    content.vb: Public Const ReplyTemplateCustomerNewCustomer As ReplyTemplateFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyTemplateCustomerNewCustomer = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerCustomerReply
   commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerCustomerReply
   id: ReplyTemplateCustomerCustomerReply
@@ -129,24 +105,26 @@ items:
   nameWithType: ReplyTemplateFlags.ReplyTemplateCustomerCustomerReply
   fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerCustomerReply
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n2: System template for reply to customers on new request\n"
+  summary: '2: System template for reply to customers on new request'
+  example: []
   syntax:
-    content: public const ReplyTemplateFlags ReplyTemplateCustomerCustomerReply
+    content: >-
+      [EnumMember]
+
+      ReplyTemplateCustomerCustomerReply = 2
     return:
       type: SuperOffice.Data.ReplyTemplateFlags
-    content.vb: Public Const ReplyTemplateCustomerCustomerReply As ReplyTemplateFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyTemplateCustomerCustomerReply = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerPassword
   commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerPassword
   id: ReplyTemplateCustomerPassword
@@ -158,24 +136,26 @@ items:
   nameWithType: ReplyTemplateFlags.ReplyTemplateCustomerPassword
   fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerPassword
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n3: System template for sending password to customers\n"
+  summary: '3: System template for sending password to customers'
+  example: []
   syntax:
-    content: public const ReplyTemplateFlags ReplyTemplateCustomerPassword
+    content: >-
+      [EnumMember]
+
+      ReplyTemplateCustomerPassword = 3
     return:
       type: SuperOffice.Data.ReplyTemplateFlags
-    content.vb: Public Const ReplyTemplateCustomerPassword As ReplyTemplateFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyTemplateCustomerPassword = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserActiveTickets
   commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserActiveTickets
   id: ReplyTemplateUserActiveTickets
@@ -187,24 +167,26 @@ items:
   nameWithType: ReplyTemplateFlags.ReplyTemplateUserActiveTickets
   fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserActiveTickets
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n4: System template for sending an overview of open requests to a user\n"
+  summary: '4: System template for sending an overview of open requests to a user'
+  example: []
   syntax:
-    content: public const ReplyTemplateFlags ReplyTemplateUserActiveTickets
+    content: >-
+      [EnumMember]
+
+      ReplyTemplateUserActiveTickets = 4
     return:
       type: SuperOffice.Data.ReplyTemplateFlags
-    content.vb: Public Const ReplyTemplateUserActiveTickets As ReplyTemplateFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyTemplateUserActiveTickets = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserNewMessage
   commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserNewMessage
   id: ReplyTemplateUserNewMessage
@@ -216,24 +198,26 @@ items:
   nameWithType: ReplyTemplateFlags.ReplyTemplateUserNewMessage
   fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserNewMessage
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n5: System template for notifying a user that a new message has arrived\n"
+  summary: '5: System template for notifying a user that a new message has arrived'
+  example: []
   syntax:
-    content: public const ReplyTemplateFlags ReplyTemplateUserNewMessage
+    content: >-
+      [EnumMember]
+
+      ReplyTemplateUserNewMessage = 5
     return:
       type: SuperOffice.Data.ReplyTemplateFlags
-    content.vb: Public Const ReplyTemplateUserNewMessage As ReplyTemplateFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyTemplateUserNewMessage = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserTicketActivated
   commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserTicketActivated
   id: ReplyTemplateUserTicketActivated
@@ -245,24 +229,26 @@ items:
   nameWithType: ReplyTemplateFlags.ReplyTemplateUserTicketActivated
   fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserTicketActivated
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n6: System template for notifying a user that a request has been activated\n"
+  summary: '6: System template for notifying a user that a request has been activated'
+  example: []
   syntax:
-    content: public const ReplyTemplateFlags ReplyTemplateUserTicketActivated
+    content: >-
+      [EnumMember]
+
+      ReplyTemplateUserTicketActivated = 6
     return:
       type: SuperOffice.Data.ReplyTemplateFlags
-    content.vb: Public Const ReplyTemplateUserTicketActivated As ReplyTemplateFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyTemplateUserTicketActivated = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserTicketAlarm
   commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserTicketAlarm
   id: ReplyTemplateUserTicketAlarm
@@ -274,24 +260,26 @@ items:
   nameWithType: ReplyTemplateFlags.ReplyTemplateUserTicketAlarm
   fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserTicketAlarm
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n7: System template for notifying a user that a request has been escalated\n"
+  summary: '7: System template for notifying a user that a request has been escalated'
+  example: []
   syntax:
-    content: public const ReplyTemplateFlags ReplyTemplateUserTicketAlarm
+    content: >-
+      [EnumMember]
+
+      ReplyTemplateUserTicketAlarm = 7
     return:
       type: SuperOffice.Data.ReplyTemplateFlags
-    content.vb: Public Const ReplyTemplateUserTicketAlarm As ReplyTemplateFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyTemplateUserTicketAlarm = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserNewTicket
   commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserNewTicket
   id: ReplyTemplateUserNewTicket
@@ -303,24 +291,26 @@ items:
   nameWithType: ReplyTemplateFlags.ReplyTemplateUserNewTicket
   fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserNewTicket
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n8: System template for notifying a user that a new request has arrived\n"
+  summary: '8: System template for notifying a user that a new request has arrived'
+  example: []
   syntax:
-    content: public const ReplyTemplateFlags ReplyTemplateUserNewTicket
+    content: >-
+      [EnumMember]
+
+      ReplyTemplateUserNewTicket = 8
     return:
       type: SuperOffice.Data.ReplyTemplateFlags
-    content.vb: Public Const ReplyTemplateUserNewTicket As ReplyTemplateFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyTemplateUserNewTicket = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateAll
   commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateAll
   id: ReplyTemplateAll
@@ -332,24 +322,26 @@ items:
   nameWithType: ReplyTemplateFlags.ReplyTemplateAll
   fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateAll
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n9: Not system templates\n"
+  summary: '9: Not system templates'
+  example: []
   syntax:
-    content: public const ReplyTemplateFlags ReplyTemplateAll
+    content: >-
+      [EnumMember]
+
+      ReplyTemplateAll = 9
     return:
       type: SuperOffice.Data.ReplyTemplateFlags
-    content.vb: Public Const ReplyTemplateAll As ReplyTemplateFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyTemplateAll = 9
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateNone
   commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateNone
   id: ReplyTemplateNone
@@ -361,24 +353,26 @@ items:
   nameWithType: ReplyTemplateFlags.ReplyTemplateNone
   fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateNone
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n10: Used for installing or updating system templates\n"
+  summary: '10: Used for installing or updating system templates'
+  example: []
   syntax:
-    content: public const ReplyTemplateFlags ReplyTemplateNone
+    content: >-
+      [EnumMember]
+
+      ReplyTemplateNone = 10
     return:
       type: SuperOffice.Data.ReplyTemplateFlags
-    content.vb: Public Const ReplyTemplateNone As ReplyTemplateFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyTemplateNone = 10
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserTicketTakenOver
   commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserTicketTakenOver
   id: ReplyTemplateUserTicketTakenOver
@@ -390,24 +384,26 @@ items:
   nameWithType: ReplyTemplateFlags.ReplyTemplateUserTicketTakenOver
   fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserTicketTakenOver
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n11: System template for notifying a user that one of the user&apos;s requests has been taken over by another user\n"
+  summary: "11: System template for notifying a user that one of the user's requests has been taken over by another user"
+  example: []
   syntax:
-    content: public const ReplyTemplateFlags ReplyTemplateUserTicketTakenOver
+    content: >-
+      [EnumMember]
+
+      ReplyTemplateUserTicketTakenOver = 11
     return:
       type: SuperOffice.Data.ReplyTemplateFlags
-    content.vb: Public Const ReplyTemplateUserTicketTakenOver As ReplyTemplateFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyTemplateUserTicketTakenOver = 11
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplatePublishKbQuestion
   commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplatePublishKbQuestion
   id: ReplyTemplatePublishKbQuestion
@@ -419,24 +415,26 @@ items:
   nameWithType: ReplyTemplateFlags.ReplyTemplatePublishKbQuestion
   fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplatePublishKbQuestion
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n12: System template for formatting the question when a request is published in the FAQ module\n"
+  summary: '12: System template for formatting the question when a request is published in the FAQ module'
+  example: []
   syntax:
-    content: public const ReplyTemplateFlags ReplyTemplatePublishKbQuestion
+    content: >-
+      [EnumMember]
+
+      ReplyTemplatePublishKbQuestion = 12
     return:
       type: SuperOffice.Data.ReplyTemplateFlags
-    content.vb: Public Const ReplyTemplatePublishKbQuestion As ReplyTemplateFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyTemplatePublishKbQuestion = 12
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplatePublishKbAnswer
   commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplatePublishKbAnswer
   id: ReplyTemplatePublishKbAnswer
@@ -448,24 +446,26 @@ items:
   nameWithType: ReplyTemplateFlags.ReplyTemplatePublishKbAnswer
   fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplatePublishKbAnswer
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n13: System template for formatting the answer when a request is published in the FAQ module\n"
+  summary: '13: System template for formatting the answer when a request is published in the FAQ module'
+  example: []
   syntax:
-    content: public const ReplyTemplateFlags ReplyTemplatePublishKbAnswer
+    content: >-
+      [EnumMember]
+
+      ReplyTemplatePublishKbAnswer = 13
     return:
       type: SuperOffice.Data.ReplyTemplateFlags
-    content.vb: Public Const ReplyTemplatePublishKbAnswer As ReplyTemplateFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyTemplatePublishKbAnswer = 13
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateWeekStat
   commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateWeekStat
   id: ReplyTemplateWeekStat
@@ -477,24 +477,26 @@ items:
   nameWithType: ReplyTemplateFlags.ReplyTemplateWeekStat
   fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateWeekStat
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n14: System template defining weekly statistics layout\n"
+  summary: '14: System template defining weekly statistics layout'
+  example: []
   syntax:
-    content: public const ReplyTemplateFlags ReplyTemplateWeekStat
+    content: >-
+      [EnumMember]
+
+      ReplyTemplateWeekStat = 14
     return:
       type: SuperOffice.Data.ReplyTemplateFlags
-    content.vb: Public Const ReplyTemplateWeekStat As ReplyTemplateFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyTemplateWeekStat = 14
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistNewMessage
   commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistNewMessage
   id: ReplyTemplateHotlistNewMessage
@@ -506,24 +508,26 @@ items:
   nameWithType: ReplyTemplateFlags.ReplyTemplateHotlistNewMessage
   fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistNewMessage
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n15: New message in a request in the favourites list: \n"
+  summary: '15: New message in a request in the favourites list:'
+  example: []
   syntax:
-    content: public const ReplyTemplateFlags ReplyTemplateHotlistNewMessage
+    content: >-
+      [EnumMember]
+
+      ReplyTemplateHotlistNewMessage = 15
     return:
       type: SuperOffice.Data.ReplyTemplateFlags
-    content.vb: Public Const ReplyTemplateHotlistNewMessage As ReplyTemplateFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyTemplateHotlistNewMessage = 15
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistTicketActivated
   commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistTicketActivated
   id: ReplyTemplateHotlistTicketActivated
@@ -535,24 +539,26 @@ items:
   nameWithType: ReplyTemplateFlags.ReplyTemplateHotlistTicketActivated
   fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistTicketActivated
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n16: A request in the favourites list has been activated\n"
+  summary: '16: A request in the favourites list has been activated'
+  example: []
   syntax:
-    content: public const ReplyTemplateFlags ReplyTemplateHotlistTicketActivated
+    content: >-
+      [EnumMember]
+
+      ReplyTemplateHotlistTicketActivated = 16
     return:
       type: SuperOffice.Data.ReplyTemplateFlags
-    content.vb: Public Const ReplyTemplateHotlistTicketActivated As ReplyTemplateFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyTemplateHotlistTicketActivated = 16
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistTicketAlarm
   commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistTicketAlarm
   id: ReplyTemplateHotlistTicketAlarm
@@ -564,24 +570,26 @@ items:
   nameWithType: ReplyTemplateFlags.ReplyTemplateHotlistTicketAlarm
   fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistTicketAlarm
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n17: System template for notifying a user that a request in the favourites list has been escalated\n"
+  summary: '17: System template for notifying a user that a request in the favourites list has been escalated'
+  example: []
   syntax:
-    content: public const ReplyTemplateFlags ReplyTemplateHotlistTicketAlarm
+    content: >-
+      [EnumMember]
+
+      ReplyTemplateHotlistTicketAlarm = 17
     return:
       type: SuperOffice.Data.ReplyTemplateFlags
-    content.vb: Public Const ReplyTemplateHotlistTicketAlarm As ReplyTemplateFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyTemplateHotlistTicketAlarm = 17
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistTicketTakenOver
   commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistTicketTakenOver
   id: ReplyTemplateHotlistTicketTakenOver
@@ -593,24 +601,26 @@ items:
   nameWithType: ReplyTemplateFlags.ReplyTemplateHotlistTicketTakenOver
   fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistTicketTakenOver
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n18: System template for notifying a user that a request in the user&apos;s favourites list has been taken over by another user\n"
+  summary: "18: System template for notifying a user that a request in the user's favourites list has been taken over by another user"
+  example: []
   syntax:
-    content: public const ReplyTemplateFlags ReplyTemplateHotlistTicketTakenOver
+    content: >-
+      [EnumMember]
+
+      ReplyTemplateHotlistTicketTakenOver = 18
     return:
       type: SuperOffice.Data.ReplyTemplateFlags
-    content.vb: Public Const ReplyTemplateHotlistTicketTakenOver As ReplyTemplateFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyTemplateHotlistTicketTakenOver = 18
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateLicenseExpirationWarning
   commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateLicenseExpirationWarning
   id: ReplyTemplateLicenseExpirationWarning
@@ -622,24 +632,26 @@ items:
   nameWithType: ReplyTemplateFlags.ReplyTemplateLicenseExpirationWarning
   fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateLicenseExpirationWarning
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n19: System template for sending warning to administrator about expiring licence\n"
+  summary: '19: System template for sending warning to administrator about expiring licence'
+  example: []
   syntax:
-    content: public const ReplyTemplateFlags ReplyTemplateLicenseExpirationWarning
+    content: >-
+      [EnumMember]
+
+      ReplyTemplateLicenseExpirationWarning = 19
     return:
       type: SuperOffice.Data.ReplyTemplateFlags
-    content.vb: Public Const ReplyTemplateLicenseExpirationWarning As ReplyTemplateFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyTemplateLicenseExpirationWarning = 19
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerConfirmEmail
   commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerConfirmEmail
   id: ReplyTemplateCustomerConfirmEmail
@@ -651,24 +663,26 @@ items:
   nameWithType: ReplyTemplateFlags.ReplyTemplateCustomerConfirmEmail
   fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerConfirmEmail
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n20: System template - confirm customer email\n"
+  summary: '20: System template - confirm customer email'
+  example: []
   syntax:
-    content: public const ReplyTemplateFlags ReplyTemplateCustomerConfirmEmail
+    content: >-
+      [EnumMember]
+
+      ReplyTemplateCustomerConfirmEmail = 20
     return:
       type: SuperOffice.Data.ReplyTemplateFlags
-    content.vb: Public Const ReplyTemplateCustomerConfirmEmail As ReplyTemplateFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyTemplateCustomerConfirmEmail = 20
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplatePrintTicket
   commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplatePrintTicket
   id: ReplyTemplatePrintTicket
@@ -680,24 +694,26 @@ items:
   nameWithType: ReplyTemplateFlags.ReplyTemplatePrintTicket
   fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplatePrintTicket
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n21: System template: print request\n"
+  summary: '21: System template: print request'
+  example: []
   syntax:
-    content: public const ReplyTemplateFlags ReplyTemplatePrintTicket
+    content: >-
+      [EnumMember]
+
+      ReplyTemplatePrintTicket = 21
     return:
       type: SuperOffice.Data.ReplyTemplateFlags
-    content.vb: Public Const ReplyTemplatePrintTicket As ReplyTemplateFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyTemplatePrintTicket = 21
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerChatLog
   commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerChatLog
   id: ReplyTemplateCustomerChatLog
@@ -709,24 +725,26 @@ items:
   nameWithType: ReplyTemplateFlags.ReplyTemplateCustomerChatLog
   fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerChatLog
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n22: System template: Chat log\n"
+  summary: '22: System template: Chat log'
+  example: []
   syntax:
-    content: public const ReplyTemplateFlags ReplyTemplateCustomerChatLog
+    content: >-
+      [EnumMember]
+
+      ReplyTemplateCustomerChatLog = 22
     return:
       type: SuperOffice.Data.ReplyTemplateFlags
-    content.vb: Public Const ReplyTemplateCustomerChatLog As ReplyTemplateFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyTemplateCustomerChatLog = 22
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateNewLink
   commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateNewLink
   id: ReplyTemplateNewLink
@@ -738,115 +756,300 @@ items:
   nameWithType: ReplyTemplateFlags.ReplyTemplateNewLink
   fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateNewLink
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n23: System template - new link\n"
+  summary: '23: System template - new link'
+  example: []
   syntax:
-    content: public const ReplyTemplateFlags ReplyTemplateNewLink
+    content: >-
+      [EnumMember]
+
+      ReplyTemplateNewLink = 23
     return:
       type: SuperOffice.Data.ReplyTemplateFlags
-    content.vb: Public Const ReplyTemplateNewLink As ReplyTemplateFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyTemplateNewLink = 23
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.ReplyTemplateFlags.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ReplyTemplateFlags, To>()
-  nameWithType: EnumUtil.MapEnums<ReplyTemplateFlags, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.ReplyTemplateFlags, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ReplyTemplateFlags, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ReplyTemplateFlags, To)()
-  name.vb: MapEnums(Of ReplyTemplateFlags, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ReplyTemplateFlags, To>(ReplyTemplateFlags)
+  nameWithType: EnumUtil.MapEnums<ReplyTemplateFlags, To>(ReplyTemplateFlags)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ReplyTemplateFlags, To>(SuperOffice.Data.ReplyTemplateFlags)
+  nameWithType.vb: EnumUtil.MapEnums(Of ReplyTemplateFlags, To)(ReplyTemplateFlags)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ReplyTemplateFlags, To)(SuperOffice.Data.ReplyTemplateFlags)
+  name.vb: MapEnums(Of ReplyTemplateFlags, To)(ReplyTemplateFlags)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ReplyTemplateFlags, To>
-    nameWithType: EnumUtil.MapEnums<ReplyTemplateFlags, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.ReplyTemplateFlags, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ReplyTemplateFlags)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.ReplyTemplateFlags
+    name: ReplyTemplateFlags
+    isExternal: true
+    href: SuperOffice.Data.ReplyTemplateFlags.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.ReplyTemplateFlags
+    name: ReplyTemplateFlags
+    isExternal: true
+    href: SuperOffice.Data.ReplyTemplateFlags.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ReplyTemplateFlags, To)
-    nameWithType: EnumUtil.MapEnums(Of ReplyTemplateFlags, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ReplyTemplateFlags, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ReplyTemplateFlags)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ReplyTemplateFlags
+    name: ReplyTemplateFlags
+    isExternal: true
+    href: SuperOffice.Data.ReplyTemplateFlags.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.ReplyTemplateFlags
+    name: ReplyTemplateFlags
+    isExternal: true
+    href: SuperOffice.Data.ReplyTemplateFlags.html
+  - name: )
 - uid: SuperOffice.Data.ReplyTemplateFlags.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ReplyTemplateFlags, To>()
-  nameWithType: Converters.MapEnums<ReplyTemplateFlags, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ReplyTemplateFlags, To>()
-  nameWithType.vb: Converters.MapEnums(Of ReplyTemplateFlags, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ReplyTemplateFlags, To)()
-  name.vb: MapEnums(Of ReplyTemplateFlags, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ReplyTemplateFlags, To>(ReplyTemplateFlags)
+  nameWithType: Converters.MapEnums<ReplyTemplateFlags, To>(ReplyTemplateFlags)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ReplyTemplateFlags, To>(SuperOffice.Data.ReplyTemplateFlags)
+  nameWithType.vb: Converters.MapEnums(Of ReplyTemplateFlags, To)(ReplyTemplateFlags)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ReplyTemplateFlags, To)(SuperOffice.Data.ReplyTemplateFlags)
+  name.vb: MapEnums(Of ReplyTemplateFlags, To)(ReplyTemplateFlags)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ReplyTemplateFlags, To>
-    nameWithType: Converters.MapEnums<ReplyTemplateFlags, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ReplyTemplateFlags, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ReplyTemplateFlags)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.ReplyTemplateFlags
+    name: ReplyTemplateFlags
+    isExternal: true
+    href: SuperOffice.Data.ReplyTemplateFlags.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.ReplyTemplateFlags
+    name: ReplyTemplateFlags
+    isExternal: true
+    href: SuperOffice.Data.ReplyTemplateFlags.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ReplyTemplateFlags, To)
-    nameWithType: Converters.MapEnums(Of ReplyTemplateFlags, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ReplyTemplateFlags, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ReplyTemplateFlags)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ReplyTemplateFlags
+    name: ReplyTemplateFlags
+    isExternal: true
+    href: SuperOffice.Data.ReplyTemplateFlags.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  - name: (
+  - uid: SuperOffice.Data.ReplyTemplateFlags
+    name: ReplyTemplateFlags
+    isExternal: true
+    href: SuperOffice.Data.ReplyTemplateFlags.html
+  - name: )
+- uid: SuperOffice.Data.ReplyTemplateFlags.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ReplyTemplateFlags)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<ReplyTemplateFlags>(ReplyTemplateFlags, ReplyTemplateFlags)
+  nameWithType: ObjectExtensions.AssignByReflection<ReplyTemplateFlags>(ReplyTemplateFlags, ReplyTemplateFlags)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ReplyTemplateFlags>(SuperOffice.Data.ReplyTemplateFlags, SuperOffice.Data.ReplyTemplateFlags)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ReplyTemplateFlags)(ReplyTemplateFlags, ReplyTemplateFlags)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ReplyTemplateFlags)(SuperOffice.Data.ReplyTemplateFlags, SuperOffice.Data.ReplyTemplateFlags)
+  name.vb: AssignByReflection(Of ReplyTemplateFlags)(ReplyTemplateFlags, ReplyTemplateFlags)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ReplyTemplateFlags,SuperOffice.Data.ReplyTemplateFlags)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.ReplyTemplateFlags
+    name: ReplyTemplateFlags
+    isExternal: true
+    href: SuperOffice.Data.ReplyTemplateFlags.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.ReplyTemplateFlags
+    name: ReplyTemplateFlags
+    isExternal: true
+    href: SuperOffice.Data.ReplyTemplateFlags.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.ReplyTemplateFlags
+    name: ReplyTemplateFlags
+    isExternal: true
+    href: SuperOffice.Data.ReplyTemplateFlags.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ReplyTemplateFlags,SuperOffice.Data.ReplyTemplateFlags)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ReplyTemplateFlags
+    name: ReplyTemplateFlags
+    isExternal: true
+    href: SuperOffice.Data.ReplyTemplateFlags.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.ReplyTemplateFlags
+    name: ReplyTemplateFlags
+    isExternal: true
+    href: SuperOffice.Data.ReplyTemplateFlags.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.ReplyTemplateFlags
+    name: ReplyTemplateFlags
+    isExternal: true
+    href: SuperOffice.Data.ReplyTemplateFlags.html
+  - name: )
+- uid: SuperOffice.Data.ReplyTemplateFlags.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<ReplyTemplateFlags>(ReplyTemplateFlags)
+  nameWithType: ObjectExtensions.GraphCopy<ReplyTemplateFlags>(ReplyTemplateFlags)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ReplyTemplateFlags>(SuperOffice.Data.ReplyTemplateFlags)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ReplyTemplateFlags)(ReplyTemplateFlags)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ReplyTemplateFlags)(SuperOffice.Data.ReplyTemplateFlags)
+  name.vb: GraphCopy(Of ReplyTemplateFlags)(ReplyTemplateFlags)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ReplyTemplateFlags)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.ReplyTemplateFlags
+    name: ReplyTemplateFlags
+    isExternal: true
+    href: SuperOffice.Data.ReplyTemplateFlags.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.ReplyTemplateFlags
+    name: ReplyTemplateFlags
+    isExternal: true
+    href: SuperOffice.Data.ReplyTemplateFlags.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ReplyTemplateFlags)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ReplyTemplateFlags
+    name: ReplyTemplateFlags
+    isExternal: true
+    href: SuperOffice.Data.ReplyTemplateFlags.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.ReplyTemplateFlags
+    name: ReplyTemplateFlags
+    isExternal: true
+    href: SuperOffice.Data.ReplyTemplateFlags.html
+  - name: )
+- uid: System.Enum.EnumUtil.GetDescription
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  parent: EnumUtil
+  definition: EnumUtil.GetDescription(System.Enum)
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -855,43 +1058,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -900,58 +1105,222 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: EnumUtil.GetDescription(System.Enum)
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.Data.ReplyTemplateFlags
   commentId: T:SuperOffice.Data.ReplyTemplateFlags
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.ReplyTemplateFlags.html
   name: ReplyTemplateFlags
   nameWithType: ReplyTemplateFlags
   fullName: SuperOffice.Data.ReplyTemplateFlags

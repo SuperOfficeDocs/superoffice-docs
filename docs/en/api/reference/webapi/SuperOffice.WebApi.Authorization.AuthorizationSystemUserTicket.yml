@@ -15,35 +15,18 @@ items:
   nameWithType: AuthorizationSystemUserTicket
   fullName: SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket
   type: Class
-  source:
-    path: SuperOffice.WebApi.Authorization.SystemUserTicket
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi.Authorization.SystemUserTicket
   namespace: SuperOffice.WebApi.Authorization
-  summary: "\nSOTicket for use with SystemUser tokens in CRM online only. See <xref href=\"SuperOffice.WebApi.Authorization.IAuthorization\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: SOTicket for use with SystemUser tokens in CRM online only. See <xref href="SuperOffice.WebApi.Authorization.IAuthorization" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class AuthorizationSystemUserTicket : AuthorizationTicket, IAuthorization, IAddHeaders'
-    content.vb: >-
-      Public Class AuthorizationSystemUserTicket
-          Inherits AuthorizationTicket
-          Implements IAuthorization, IAddHeaders
+    content: 'public class AuthorizationSystemUserTicket : AuthorizationTicket, IAddHeaders'
+    content.vb: Public Class AuthorizationSystemUserTicket Inherits AuthorizationTicket Implements IAddHeaders
   inheritance:
   - System.Object
-  - SuperOffice.WebApi.Authorization.AuthorizationTicket
   implements:
-  - SuperOffice.WebApi.Authorization.IAuthorization
   - SuperOffice.WebApi.Authorization.IAddHeaders
-  inheritedMembers:
-  - SuperOffice.WebApi.Authorization.AuthorizationTicket.GetAuthorization
-  - SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorization
-  - SuperOffice.WebApi.Authorization.AuthorizationTicket.Ticket
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.#ctor(SuperOffice.SystemUser.SystemUserInfo,System.String)
   commentId: M:SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.#ctor(SuperOffice.SystemUser.SystemUserInfo,System.String)
   id: '#ctor(SuperOffice.SystemUser.SystemUserInfo,System.String)'
@@ -51,17 +34,15 @@ items:
   langs:
   - csharp
   - vb
-  name: AuthorizationSystemUserTicket(SystemUserInfo, String)
-  nameWithType: AuthorizationSystemUserTicket.AuthorizationSystemUserTicket(SystemUserInfo, String)
-  fullName: SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.AuthorizationSystemUserTicket(SuperOffice.SystemUser.SystemUserInfo, System.String)
+  name: AuthorizationSystemUserTicket(SystemUserInfo, string)
+  nameWithType: AuthorizationSystemUserTicket.AuthorizationSystemUserTicket(SystemUserInfo, string)
+  fullName: SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.AuthorizationSystemUserTicket(SuperOffice.SystemUser.SystemUserInfo, string)
   type: Constructor
-  source:
-    path: SuperOffice.WebApi.Authorization.SystemUserTicket
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi.Authorization.SystemUserTicket
   namespace: SuperOffice.WebApi.Authorization
-  summary: "\nTicket Authorization constructor used in CRM online scenario&apos;s where client secret is required.\n"
+  summary: Ticket Authorization constructor used in CRM online scenario's where client secret is required.
+  example: []
   syntax:
     content: public AuthorizationSystemUserTicket(SystemUserInfo systemUserInfo, string ticket)
     parameters:
@@ -70,13 +51,12 @@ items:
       description: Contains information require to get System User ticket.
     - id: ticket
       type: System.String
-      description: 'System user SOTicket string: &quot;7T:abc123==&quot;'
+      description: 'System user SOTicket string: "7T:abc123=="'
     content.vb: Public Sub New(systemUserInfo As SystemUserInfo, ticket As String)
   overload: SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: AuthorizationSystemUserTicket.New(SystemUserInfo, String)
+  fullName.vb: SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.New(SuperOffice.SystemUser.SystemUserInfo, String)
+  name.vb: New(SystemUserInfo, String)
 - uid: SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
   commentId: M:SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
   id: AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
@@ -88,13 +68,11 @@ items:
   nameWithType: AuthorizationSystemUserTicket.AddHeaders(HttpRequestHeaders)
   fullName: SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
   type: Method
-  source:
-    path: SuperOffice.WebApi.Authorization.SystemUserTicket
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi.Authorization.SystemUserTicket
   namespace: SuperOffice.WebApi.Authorization
-  summary: "\nCalled by the AgentBase and adds the SO-AppToken.\n"
+  summary: Called by the AgentBase and adds the SO-AppToken.
+  example: []
   syntax:
     content: public void AddHeaders(HttpRequestHeaders headers)
     parameters:
@@ -103,12 +81,6 @@ items:
       description: Collection of HttpRequest headers.
     content.vb: Public Sub AddHeaders(headers As HttpRequestHeaders)
   overload: SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.AddHeaders*
-  implements:
-  - SuperOffice.WebApi.Authorization.IAddHeaders.AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.SystemUserInfo
   commentId: P:SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.SystemUserInfo
   id: SystemUserInfo
@@ -120,13 +92,11 @@ items:
   nameWithType: AuthorizationSystemUserTicket.SystemUserInfo
   fullName: SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.SystemUserInfo
   type: Property
-  source:
-    path: SuperOffice.WebApi.Authorization.SystemUserTicket
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi.Authorization.SystemUserTicket
   namespace: SuperOffice.WebApi.Authorization
-  summary: "\nContains information require to get System User ticket.\n"
+  summary: Contains information require to get System User ticket.
+  example: []
   syntax:
     content: public SystemUserInfo SystemUserInfo { get; }
     parameters: []
@@ -134,104 +104,87 @@ items:
       type: SuperOffice.SystemUser.SystemUserInfo
     content.vb: Public ReadOnly Property SystemUserInfo As SystemUserInfo
   overload: SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.SystemUserInfo*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 references:
-- uid: SuperOffice.WebApi.Authorization
-  commentId: N:SuperOffice.WebApi.Authorization
-  isExternal: true
-  name: SuperOffice.WebApi.Authorization
-  nameWithType: SuperOffice.WebApi.Authorization
-  fullName: SuperOffice.WebApi.Authorization
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: SuperOffice.WebApi.Authorization.AuthorizationTicket
-  commentId: T:SuperOffice.WebApi.Authorization.AuthorizationTicket
-  parent: SuperOffice.WebApi.Authorization
-  isExternal: true
-  name: AuthorizationTicket
-  nameWithType: AuthorizationTicket
-  fullName: SuperOffice.WebApi.Authorization.AuthorizationTicket
 - uid: SuperOffice.WebApi.Authorization.IAuthorization
   commentId: T:SuperOffice.WebApi.Authorization.IAuthorization
   parent: SuperOffice.WebApi.Authorization
   isExternal: true
+  href: SuperOffice.WebApi.Authorization.IAuthorization.html
   name: IAuthorization
   nameWithType: IAuthorization
   fullName: SuperOffice.WebApi.Authorization.IAuthorization
+- uid: SuperOffice.WebApi.Authorization
+  commentId: N:SuperOffice.WebApi.Authorization
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Authorization
+  nameWithType: SuperOffice.WebApi.Authorization
+  fullName: SuperOffice.WebApi.Authorization
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Authorization
+    name: Authorization
+    isExternal: true
+    href: SuperOffice.WebApi.Authorization.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Authorization
+    name: Authorization
+    isExternal: true
+    href: SuperOffice.WebApi.Authorization.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.WebApi.Authorization.IAddHeaders
   commentId: T:SuperOffice.WebApi.Authorization.IAddHeaders
-  parent: SuperOffice.WebApi.Authorization
   isExternal: true
+  href: SuperOffice.WebApi.Authorization.IAddHeaders.html
   name: IAddHeaders
   nameWithType: IAddHeaders
   fullName: SuperOffice.WebApi.Authorization.IAddHeaders
-- uid: SuperOffice.WebApi.Authorization.AuthorizationTicket.GetAuthorization
-  commentId: M:SuperOffice.WebApi.Authorization.AuthorizationTicket.GetAuthorization
-  parent: SuperOffice.WebApi.Authorization.AuthorizationTicket
-  isExternal: true
-  name: GetAuthorization()
-  nameWithType: AuthorizationTicket.GetAuthorization()
-  fullName: SuperOffice.WebApi.Authorization.AuthorizationTicket.GetAuthorization()
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Authorization.AuthorizationTicket.GetAuthorization
-    name: GetAuthorization
-    nameWithType: AuthorizationTicket.GetAuthorization
-    fullName: SuperOffice.WebApi.Authorization.AuthorizationTicket.GetAuthorization
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.WebApi.Authorization.AuthorizationTicket.GetAuthorization
-    name: GetAuthorization
-    nameWithType: AuthorizationTicket.GetAuthorization
-    fullName: SuperOffice.WebApi.Authorization.AuthorizationTicket.GetAuthorization
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorization
-  commentId: P:SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorization
-  parent: SuperOffice.WebApi.Authorization.AuthorizationTicket
-  isExternal: true
-  name: RefreshAuthorization
-  nameWithType: AuthorizationTicket.RefreshAuthorization
-  fullName: SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorization
-- uid: SuperOffice.WebApi.Authorization.AuthorizationTicket.Ticket
-  commentId: P:SuperOffice.WebApi.Authorization.AuthorizationTicket.Ticket
-  parent: SuperOffice.WebApi.Authorization.AuthorizationTicket
-  isExternal: true
-  name: Ticket
-  nameWithType: AuthorizationTicket.Ticket
-  fullName: SuperOffice.WebApi.Authorization.AuthorizationTicket.Ticket
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.#ctor*
   commentId: Overload:SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.html#SuperOffice_WebApi_Authorization_AuthorizationSystemUserTicket__ctor_SuperOffice_SystemUser_SystemUserInfo_System_String_
   name: AuthorizationSystemUserTicket
   nameWithType: AuthorizationSystemUserTicket.AuthorizationSystemUserTicket
   fullName: SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.AuthorizationSystemUserTicket
+  nameWithType.vb: AuthorizationSystemUserTicket.New
+  fullName.vb: SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.New
+  name.vb: New
 - uid: SuperOffice.SystemUser.SystemUserInfo
   isExternal: true
   name: SystemUserInfo
@@ -241,64 +194,79 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.AddHeaders*
   commentId: Overload:SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.AddHeaders
   isExternal: true
+  href: SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.html#SuperOffice_WebApi_Authorization_AuthorizationSystemUserTicket_AddHeaders_System_Net_Http_Headers_HttpRequestHeaders_
   name: AddHeaders
   nameWithType: AuthorizationSystemUserTicket.AddHeaders
   fullName: SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.AddHeaders
-- uid: SuperOffice.WebApi.Authorization.IAddHeaders.AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
-  commentId: M:SuperOffice.WebApi.Authorization.IAddHeaders.AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
-  parent: SuperOffice.WebApi.Authorization.IAddHeaders
-  isExternal: true
-  name: AddHeaders(HttpRequestHeaders)
-  nameWithType: IAddHeaders.AddHeaders(HttpRequestHeaders)
-  fullName: SuperOffice.WebApi.Authorization.IAddHeaders.AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Authorization.IAddHeaders.AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
-    name: AddHeaders
-    nameWithType: IAddHeaders.AddHeaders
-    fullName: SuperOffice.WebApi.Authorization.IAddHeaders.AddHeaders
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Net.Http.Headers.HttpRequestHeaders
-    name: HttpRequestHeaders
-    nameWithType: HttpRequestHeaders
-    fullName: System.Net.Http.Headers.HttpRequestHeaders
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.WebApi.Authorization.IAddHeaders.AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
-    name: AddHeaders
-    nameWithType: IAddHeaders.AddHeaders
-    fullName: SuperOffice.WebApi.Authorization.IAddHeaders.AddHeaders
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Net.Http.Headers.HttpRequestHeaders
-    name: HttpRequestHeaders
-    nameWithType: HttpRequestHeaders
-    fullName: System.Net.Http.Headers.HttpRequestHeaders
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Net.Http.Headers.HttpRequestHeaders
+  commentId: T:System.Net.Http.Headers.HttpRequestHeaders
+  parent: System.Net.Http.Headers
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.headers.httprequestheaders
   name: HttpRequestHeaders
   nameWithType: HttpRequestHeaders
   fullName: System.Net.Http.Headers.HttpRequestHeaders
+- uid: System.Net.Http.Headers
+  commentId: N:System.Net.Http.Headers
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net.Http.Headers
+  nameWithType: System.Net.Http.Headers
+  fullName: System.Net.Http.Headers
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  - name: .
+  - uid: System.Net.Http.Headers
+    name: Headers
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.headers
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  - name: .
+  - uid: System.Net.Http.Headers
+    name: Headers
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.headers
 - uid: SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.SystemUserInfo*
   commentId: Overload:SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.SystemUserInfo
   isExternal: true
+  href: SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.html#SuperOffice_WebApi_Authorization_AuthorizationSystemUserTicket_SystemUserInfo
   name: SystemUserInfo
   nameWithType: AuthorizationSystemUserTicket.SystemUserInfo
   fullName: SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.SystemUserInfo

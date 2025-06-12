@@ -9,67 +9,41 @@ items:
   - SuperOffice.Data.NotifyChannel.PopUp
   - SuperOffice.Data.NotifyChannel.Sms
   - SuperOffice.Data.NotifyChannel.Unknown
-  - SuperOffice.Data.NotifyChannel.value__
   langs:
   - csharp
   - vb
   name: NotifyChannel
   nameWithType: NotifyChannel
   fullName: SuperOffice.Data.NotifyChannel
-  type: Class
-  source:
-    path: SoCore
-    isExternal: true
+  type: Enum
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\nThe different channels to send notifications over\n"
+  summary: The different channels to send notifications over
+  example: []
   syntax:
-    content: 'public sealed class NotifyChannel : Enum'
-    content.vb: >-
-      Public NotInheritable Class NotifyChannel
-          Inherits
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
 
-           Enum
-  inheritance:
-  - System.Object
+      public enum NotifyChannel
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Enum NotifyChannel
   extensionMethods:
   - SuperOffice.Data.NotifyChannel.EnumUtil.MapEnums``2
   - SuperOffice.Data.NotifyChannel.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.Data.NotifyChannel.value__
-  commentId: F:SuperOffice.Data.NotifyChannel.value__
-  id: value__
-  parent: SuperOffice.Data.NotifyChannel
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: NotifyChannel.value__
-  fullName: SuperOffice.Data.NotifyChannel.value__
-  type: Field
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.Data.NotifyChannel.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.NotifyChannel)
+  - SuperOffice.Data.NotifyChannel.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - System.Enum.EnumUtil.GetDescription
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.Data.NotifyChannel.Unknown
   commentId: F:SuperOffice.Data.NotifyChannel.Unknown
   id: Unknown
@@ -81,24 +55,26 @@ items:
   nameWithType: NotifyChannel.Unknown
   fullName: SuperOffice.Data.NotifyChannel.Unknown
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n0: Unknown notification type\n"
+  summary: '0: Unknown notification type'
+  example: []
   syntax:
-    content: public const NotifyChannel Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.Data.NotifyChannel
-    content.vb: Public Const Unknown As NotifyChannel
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.NotifyChannel.PopUp
   commentId: F:SuperOffice.Data.NotifyChannel.PopUp
   id: PopUp
@@ -110,24 +86,26 @@ items:
   nameWithType: NotifyChannel.PopUp
   fullName: SuperOffice.Data.NotifyChannel.PopUp
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1: Notifications sent as a popup message\n"
+  summary: '1: Notifications sent as a popup message'
+  example: []
   syntax:
-    content: public const NotifyChannel PopUp
+    content: >-
+      [EnumMember]
+
+      PopUp = 1
     return:
       type: SuperOffice.Data.NotifyChannel
-    content.vb: Public Const PopUp As NotifyChannel
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      PopUp = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.NotifyChannel.Email
   commentId: F:SuperOffice.Data.NotifyChannel.Email
   id: Email
@@ -139,24 +117,26 @@ items:
   nameWithType: NotifyChannel.Email
   fullName: SuperOffice.Data.NotifyChannel.Email
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n2: Notifications sent as an email\n"
+  summary: '2: Notifications sent as an email'
+  example: []
   syntax:
-    content: public const NotifyChannel Email
+    content: >-
+      [EnumMember]
+
+      Email = 2
     return:
       type: SuperOffice.Data.NotifyChannel
-    content.vb: Public Const Email As NotifyChannel
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Email = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.NotifyChannel.Sms
   commentId: F:SuperOffice.Data.NotifyChannel.Sms
   id: Sms
@@ -168,115 +148,300 @@ items:
   nameWithType: NotifyChannel.Sms
   fullName: SuperOffice.Data.NotifyChannel.Sms
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n3: Notifications sent as a sms\n"
+  summary: '3: Notifications sent as a sms'
+  example: []
   syntax:
-    content: public const NotifyChannel Sms
+    content: >-
+      [EnumMember]
+
+      Sms = 3
     return:
       type: SuperOffice.Data.NotifyChannel
-    content.vb: Public Const Sms As NotifyChannel
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Sms = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.NotifyChannel.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<NotifyChannel, To>()
-  nameWithType: EnumUtil.MapEnums<NotifyChannel, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.NotifyChannel, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of NotifyChannel, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.NotifyChannel, To)()
-  name.vb: MapEnums(Of NotifyChannel, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<NotifyChannel, To>(NotifyChannel)
+  nameWithType: EnumUtil.MapEnums<NotifyChannel, To>(NotifyChannel)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.NotifyChannel, To>(SuperOffice.Data.NotifyChannel)
+  nameWithType.vb: EnumUtil.MapEnums(Of NotifyChannel, To)(NotifyChannel)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.NotifyChannel, To)(SuperOffice.Data.NotifyChannel)
+  name.vb: MapEnums(Of NotifyChannel, To)(NotifyChannel)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<NotifyChannel, To>
-    nameWithType: EnumUtil.MapEnums<NotifyChannel, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.NotifyChannel, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.NotifyChannel)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.NotifyChannel
+    name: NotifyChannel
+    isExternal: true
+    href: SuperOffice.Data.NotifyChannel.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.NotifyChannel
+    name: NotifyChannel
+    isExternal: true
+    href: SuperOffice.Data.NotifyChannel.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of NotifyChannel, To)
-    nameWithType: EnumUtil.MapEnums(Of NotifyChannel, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.NotifyChannel, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.NotifyChannel)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.NotifyChannel
+    name: NotifyChannel
+    isExternal: true
+    href: SuperOffice.Data.NotifyChannel.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.NotifyChannel
+    name: NotifyChannel
+    isExternal: true
+    href: SuperOffice.Data.NotifyChannel.html
+  - name: )
 - uid: SuperOffice.Data.NotifyChannel.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<NotifyChannel, To>()
-  nameWithType: Converters.MapEnums<NotifyChannel, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.NotifyChannel, To>()
-  nameWithType.vb: Converters.MapEnums(Of NotifyChannel, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.NotifyChannel, To)()
-  name.vb: MapEnums(Of NotifyChannel, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<NotifyChannel, To>(NotifyChannel)
+  nameWithType: Converters.MapEnums<NotifyChannel, To>(NotifyChannel)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.NotifyChannel, To>(SuperOffice.Data.NotifyChannel)
+  nameWithType.vb: Converters.MapEnums(Of NotifyChannel, To)(NotifyChannel)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.NotifyChannel, To)(SuperOffice.Data.NotifyChannel)
+  name.vb: MapEnums(Of NotifyChannel, To)(NotifyChannel)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<NotifyChannel, To>
-    nameWithType: Converters.MapEnums<NotifyChannel, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.NotifyChannel, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.NotifyChannel)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.NotifyChannel
+    name: NotifyChannel
+    isExternal: true
+    href: SuperOffice.Data.NotifyChannel.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.NotifyChannel
+    name: NotifyChannel
+    isExternal: true
+    href: SuperOffice.Data.NotifyChannel.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of NotifyChannel, To)
-    nameWithType: Converters.MapEnums(Of NotifyChannel, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.NotifyChannel, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.NotifyChannel)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.NotifyChannel
+    name: NotifyChannel
+    isExternal: true
+    href: SuperOffice.Data.NotifyChannel.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  - name: (
+  - uid: SuperOffice.Data.NotifyChannel
+    name: NotifyChannel
+    isExternal: true
+    href: SuperOffice.Data.NotifyChannel.html
+  - name: )
+- uid: SuperOffice.Data.NotifyChannel.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.NotifyChannel)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<NotifyChannel>(NotifyChannel, NotifyChannel)
+  nameWithType: ObjectExtensions.AssignByReflection<NotifyChannel>(NotifyChannel, NotifyChannel)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.NotifyChannel>(SuperOffice.Data.NotifyChannel, SuperOffice.Data.NotifyChannel)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of NotifyChannel)(NotifyChannel, NotifyChannel)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.NotifyChannel)(SuperOffice.Data.NotifyChannel, SuperOffice.Data.NotifyChannel)
+  name.vb: AssignByReflection(Of NotifyChannel)(NotifyChannel, NotifyChannel)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.NotifyChannel,SuperOffice.Data.NotifyChannel)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.NotifyChannel
+    name: NotifyChannel
+    isExternal: true
+    href: SuperOffice.Data.NotifyChannel.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.NotifyChannel
+    name: NotifyChannel
+    isExternal: true
+    href: SuperOffice.Data.NotifyChannel.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.NotifyChannel
+    name: NotifyChannel
+    isExternal: true
+    href: SuperOffice.Data.NotifyChannel.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.NotifyChannel,SuperOffice.Data.NotifyChannel)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.NotifyChannel
+    name: NotifyChannel
+    isExternal: true
+    href: SuperOffice.Data.NotifyChannel.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.NotifyChannel
+    name: NotifyChannel
+    isExternal: true
+    href: SuperOffice.Data.NotifyChannel.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.NotifyChannel
+    name: NotifyChannel
+    isExternal: true
+    href: SuperOffice.Data.NotifyChannel.html
+  - name: )
+- uid: SuperOffice.Data.NotifyChannel.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<NotifyChannel>(NotifyChannel)
+  nameWithType: ObjectExtensions.GraphCopy<NotifyChannel>(NotifyChannel)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.NotifyChannel>(SuperOffice.Data.NotifyChannel)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of NotifyChannel)(NotifyChannel)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.NotifyChannel)(SuperOffice.Data.NotifyChannel)
+  name.vb: GraphCopy(Of NotifyChannel)(NotifyChannel)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.NotifyChannel)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.NotifyChannel
+    name: NotifyChannel
+    isExternal: true
+    href: SuperOffice.Data.NotifyChannel.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.NotifyChannel
+    name: NotifyChannel
+    isExternal: true
+    href: SuperOffice.Data.NotifyChannel.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.NotifyChannel)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.NotifyChannel
+    name: NotifyChannel
+    isExternal: true
+    href: SuperOffice.Data.NotifyChannel.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.NotifyChannel
+    name: NotifyChannel
+    isExternal: true
+    href: SuperOffice.Data.NotifyChannel.html
+  - name: )
+- uid: System.Enum.EnumUtil.GetDescription
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  parent: EnumUtil
+  definition: EnumUtil.GetDescription(System.Enum)
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -285,43 +450,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -330,58 +497,222 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: EnumUtil.GetDescription(System.Enum)
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.Data.NotifyChannel
   commentId: T:SuperOffice.Data.NotifyChannel
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.NotifyChannel.html
   name: NotifyChannel
   nameWithType: NotifyChannel
   fullName: SuperOffice.Data.NotifyChannel

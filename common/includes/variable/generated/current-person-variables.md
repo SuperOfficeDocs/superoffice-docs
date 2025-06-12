@@ -1,7 +1,6 @@
 <!-- markdownlint-disable-file MD041 -->
 | Property Name | Tag | Description |
 |---------------|-----|-------------|
-| AttentionSalutation | atsa | Person attention salutation. Combined name/title/mrmrs |
 | Business | abus | Person Business |
 | Category | acat | Person Category |
 | ChatAddress | acha | Chat address |
@@ -25,7 +24,6 @@
 | HomePhoneNumber | atph | Person private phone number |
 | HomePhoneNumberId | atpj | Person private phone ID |
 | HomePhoneNumberWithPrefix | atpt | Person private phone number with international prefix |
-| Id | atid | Person id |
 | LastName | atln | Last name |
 | LineFeedGermany | actg | Line feed for internal post in Germany |
 | LoginName | attl | The person login name if he/she has login rights |
@@ -68,7 +66,6 @@
 | ServiceContactId | asci | Service contact Id |
 | ServiceContactName | ascn | Service contact - Full name |
 | ServicePriority | aspr | Service priority |
-| SubscriptionManagementUrl | asmu | Subscription management URL for this person |
 | Title | atti | Person title |
 | Url | awww | Url |
 | UrlId | awwi | Url id |

@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 03 Oct 2008 16:32:47 G10T
+Last-Modified: Tue, 10 Jun 2003 17:54:08 G6T
 
 {
-  "BlobId": 518,
-  "BlobSize": 427,
-  "Description": "Down-sized scalable definition",
-  "ExtraInfo": "eum",
+  "BlobId": 755,
+  "BlobSize": 559,
+  "Description": "Polarised zero tolerance system engine",
+  "ExtraInfo": "sunt",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "non",
-  "OriginalSize": 59,
-  "CreatedDate": "2013-08-06T16:32:47.7432816+02:00",
-  "UpdatedDate": "2008-10-03T16:32:47.7432816+02:00",
+  "IsZipped": true,
+  "MimeType": "qui",
+  "OriginalSize": 77,
+  "CreatedDate": "2002-11-03T17:54:08.4136991+01:00",
+  "UpdatedDate": "2003-06-10T17:54:08.4136991+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "autem",
+  "ConceptualType": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldLength": 302
     }
   }
 }

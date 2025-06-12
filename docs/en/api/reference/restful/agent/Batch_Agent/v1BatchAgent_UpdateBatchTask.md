@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 46,
-  "Name": "Tromp Group",
-  "AssociateId": 63,
-  "DetailsTable": 934,
-  "DetailsRecord": 946,
+  "Id": 295,
+  "Name": "Quigley Inc and Sons",
+  "AssociateId": 617,
+  "DetailsTable": 866,
+  "DetailsRecord": 717,
   "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "nostrum",
-    "ParameterObject2": "qui"
+    "ParameterObject1": "facilis",
+    "ParameterObject2": "eius"
   },
-  "LastStarted": "1999-01-11T16:32:38.1959817+01:00",
-  "Created": "2013-01-11T16:32:38.1959817+01:00",
-  "StartCount": 493,
-  "DatabaseSerialNumber": "929246",
-  "Context": "qui",
-  "Result": "et",
+  "LastStarted": "2012-06-18T17:54:02.6639794+02:00",
+  "Created": "2011-02-17T17:54:02.6639794+01:00",
+  "StartCount": 745,
+  "DatabaseSerialNumber": "1682270",
+  "Context": "tempora",
+  "Result": "ipsam",
   "State": "All",
-  "Description": "Intuitive intermediate pricing structure",
-  "Response": "est",
-  "Request": "debitis",
-  "ProgressDescription": "Multi-layered full-range customer loyalty",
-  "ProgressPercent": 693,
-  "FileName": "McGlynn Group",
+  "Description": "Fully-configurable 4th generation parallelism",
+  "Response": "iusto",
+  "Request": "vel",
+  "ProgressDescription": "Optional bottom-line leverage",
+  "ProgressPercent": 519,
+  "FileName": "Cole, Abernathy and Jones",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 521
+      "FieldLength": 40
     }
   }
 }

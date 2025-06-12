@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 242,
-  "Name": "Powlowski, Legros and Schroeder",
-  "Tooltip": "rerum",
-  "Rank": 756,
+  "SaleTypeId": 938,
+  "Name": "Torp-Rutherford",
+  "Tooltip": "esse",
+  "Rank": 48,
   "DurationUnit": "Century",
-  "SaleDuration": 197,
-  "SaleTypeCatId": 1000,
+  "SaleDuration": 224,
+  "SaleTypeCatId": 521,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 39,
-  "QuoteLinesTemplate": 149,
-  "ConfirmationLinesTemplate": 683,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 411,
+  "QuoteLinesTemplate": 177,
+  "ConfirmationLinesTemplate": 515,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 647,
-  "MinEarningPercent": 992,
-  "GroupQuoteLinesBy": 988,
-  "SortGroupLinesBy": 797,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 619,
+  "MinEarningPercent": 169,
+  "GroupQuoteLinesBy": 707,
+  "SortGroupLinesBy": 299,
   "Stages": [
     {
-      "Id": 411,
-      "Name": "Keeling, Dach and Stoltenberg",
-      "ToolTip": "Quae voluptas impedit eos eos ut.",
+      "Id": 522,
+      "Name": "Brakus-Shanahan",
+      "ToolTip": "Eligendi voluptas impedit suscipit molestias et.",
       "Deleted": false,
-      "Rank": 981,
-      "Type": "quo",
-      "ColorBlock": 985,
-      "IconHint": "sed",
-      "Selected": false,
-      "LastChanged": "2021-05-07T16:32:48.946344+02:00",
+      "Rank": 565,
+      "Type": "rerum",
+      "ColorBlock": 452,
+      "IconHint": "rerum",
+      "Selected": true,
+      "LastChanged": "2022-04-29T17:54:09.1011806+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "non",
-      "StyleHint": "minus",
-      "Hidden": false,
-      "FullName": "Mr. Emilia Delbert Champlin III",
+      "ExtraInfo": "debitis",
+      "StyleHint": "et",
+      "Hidden": true,
+      "FullName": "Tamara Rogahn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 173
+          "FieldType": "System.Int32",
+          "FieldLength": 793
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 122
+      "FieldType": "System.String",
+      "FieldLength": 384
     }
   }
 }

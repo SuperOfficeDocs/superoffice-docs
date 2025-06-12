@@ -165,16 +165,16 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "illum",
-  "ProviderName": "Volkman-Leuschke",
-  "DesiredColumns": "sit",
-  "OrderBy": "incidunt",
-  "PageSize": 500,
-  "PageNumber": 727
+  "Restrictions": "voluptas",
+  "ProviderName": "Hessel LLC",
+  "DesiredColumns": "qui",
+  "OrderBy": "sint",
+  "PageSize": 412,
+  "PageNumber": 712
 }
 ```
 
@@ -187,51 +187,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Wisozk-Hermann",
-      "DisplayTooltip": "qui",
-      "DisplayType": "quia",
+      "DisplayName": "Ortiz, Kling and Dach",
+      "DisplayTooltip": "inventore",
+      "DisplayType": "nemo",
       "CanOrderBy": true,
-      "Name": "Stiedemann, Collier and Hirthe",
+      "Name": "Stehr Inc and Sons",
       "CanRestrictBy": true,
-      "RestrictionType": "in",
-      "RestrictionListName": "Nienow Inc and Sons",
-      "IsVisible": true,
-      "ExtraInfo": "illum",
-      "Width": "omnis",
-      "IconHint": "molestiae",
-      "HeadingIconHint": "neque"
+      "RestrictionType": "pariatur",
+      "RestrictionListName": "Cole Group",
+      "IsVisible": false,
+      "ExtraInfo": "ut",
+      "Width": "doloribus",
+      "IconHint": "eos",
+      "HeadingIconHint": "voluptatum"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "O'Connell-Kunze",
-      "PrimaryKey": 341,
+      "EntityName": "Kautzer-Bailey",
+      "PrimaryKey": 372,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "minima",
-          "TooltipHint": "atque",
-          "LinkHint": "tempora"
+          "DisplayValue": "eum",
+          "TooltipHint": "eius",
+          "LinkHint": "aut"
         }
       },
-      "LinkHint": "dolor",
-      "StyleHint": "accusamus",
+      "LinkHint": "amet",
+      "StyleHint": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 60
+          "FieldType": "System.Int32",
+          "FieldLength": 658
         }
       }
     }
   ],
-  "RowCount": 960,
+  "RowCount": 860,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 158
+      "FieldLength": 994
     }
   }
 }

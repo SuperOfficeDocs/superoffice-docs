@@ -114,14 +114,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 383,
+  "SelectionId": 582,
   "SelectionMemberIds": [
-    391,
-    402
+    263,
+    702
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Object-based bi-directional concept",
-  "Postit": "accusamus",
+  "Description": "Synchronised value-added contingency",
+  "Postit": "dolorum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 68,
-  "IncludePerson": 514,
+  "GroupIdx": 234,
+  "IncludePerson": 615,
   "MemberCount": 99.99,
-  "Name": "Kohler-Cremin",
-  "PostitTextId": 549,
-  "CreatedDate": "2015-12-04T16:32:39.914583+01:00",
-  "SelectionId": 578,
-  "SoundEx": "nobis",
-  "Source": 143,
-  "TextId": 613,
-  "UpdatedDate": "2011-12-29T16:32:39.914583+01:00",
-  "UpdatedCount": 482,
-  "Visibility": 491,
+  "Name": "Walker-Wiza",
+  "PostitTextId": 789,
+  "CreatedDate": "2008-08-28T17:54:03.6170572+02:00",
+  "SelectionId": 642,
+  "SoundEx": "error",
+  "Source": 209,
+  "TextId": 838,
+  "UpdatedDate": "1999-01-12T17:54:03.6170572+01:00",
+  "UpdatedCount": 201,
+  "Visibility": 842,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 743,
-  "TargetTableName": "Cummings-Gulgowski",
+  "CompanyUnique": false,
+  "TargetTableNumber": 416,
+  "TargetTableName": "Schiller, Stoltenberg and Walsh",
   "Completed": false,
-  "LeftSelectionId": 78,
-  "RightSelectionId": 924,
+  "LeftSelectionId": 755,
+  "RightSelectionId": 79,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Sauer Group",
-  "ShadowProviderName": "Blanda Group",
-  "ChartKey": "quisquam",
-  "LastLoaded": "2005-07-13T16:32:39.914583+02:00",
-  "LastLoadedBy": 792,
+  "MainProviderName": "Harris-Harris",
+  "ShadowProviderName": "Mueller, Murphy and Larkin",
+  "ChartKey": "dolor",
+  "LastLoaded": "2001-09-30T17:54:03.6170572+02:00",
+  "LastLoadedBy": 259,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-05-11T16:32:39.914583+02:00",
-  "LastMembershipChangeBy": 191,
+  "LastMembershipChange": "1998-05-25T17:54:03.6170572+02:00",
+  "LastMembershipChangeBy": 575,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aut",
-  "MemberTabHeading": "aut",
-  "MailingsProviderName": "Roob Group",
-  "DashboardTileDefinitionId": 838,
+  "MainHeading": "sint",
+  "MemberTabHeading": "voluptatem",
+  "MailingsProviderName": "Frami-Ledner",
+  "DashboardTileDefinitionId": 632,
   "VisibleFor": [
     {
-      "VisibleId": 891,
+      "VisibleId": 648,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 478
+          "FieldLength": 722
         }
       }
     },
     {
-      "VisibleId": 891,
+      "VisibleId": 648,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 478
+          "FieldLength": 722
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldType": "System.String",
+      "FieldLength": 648
     }
   }
 }

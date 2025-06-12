@@ -95,13 +95,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    913,
-    189
+    987,
+    733
   ],
   "State": "All"
 }
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 195,
-    "Name": "Klein-Dooley",
-    "AssociateId": 985,
-    "DetailsTable": 520,
-    "DetailsRecord": 532,
-    "IsSystemTask": true,
+    "Id": 1000,
+    "Name": "Veum, Rodriguez and Leannon",
+    "AssociateId": 745,
+    "DetailsTable": 397,
+    "DetailsRecord": 144,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "ut",
-      "ParameterObject2": "nam"
+      "ParameterObject1": "accusamus",
+      "ParameterObject2": "nisi"
     },
-    "LastStarted": "2009-06-16T16:32:38.1959817+02:00",
-    "Created": "1998-04-13T16:32:38.1959817+02:00",
-    "StartCount": 560,
-    "DatabaseSerialNumber": "957903",
-    "Context": "est",
-    "Result": "sint",
+    "LastStarted": "2006-04-23T17:54:02.6639794+02:00",
+    "Created": "2007-10-12T17:54:02.6639794+02:00",
+    "StartCount": 658,
+    "DatabaseSerialNumber": "682443",
+    "Context": "vitae",
+    "Result": "culpa",
     "State": "All",
-    "Description": "Profound full-range matrix",
-    "Response": "dolorem",
-    "Request": "provident",
-    "ProgressDescription": "Re-engineered hybrid productivity",
-    "ProgressPercent": 741,
-    "FileName": "Kuvalis-Hermann",
+    "Description": "Cross-group regional structure",
+    "Response": "ducimus",
+    "Request": "rerum",
+    "ProgressDescription": "Persistent assymetric instruction set",
+    "ProgressPercent": 435,
+    "FileName": "Kihn-Harris",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 644
+        "FieldType": "System.String",
+        "FieldLength": 297
       }
     }
   }

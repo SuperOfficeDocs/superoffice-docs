@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 287,
-  "Name": "Schneider LLC",
-  "Tooltip": "nisi",
-  "Deleted": true,
-  "UdListDefinitionId": 475,
-  "Rank": 313
+  "Id": 283,
+  "Name": "Thiel, White and Wehner",
+  "Tooltip": "pariatur",
+  "Deleted": false,
+  "UdListDefinitionId": 169,
+  "Rank": 138
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 340,
-  "Name": "Gerlach LLC",
-  "Tooltip": "quod",
+  "Id": 2,
+  "Name": "Barton, Osinski and Feest",
+  "Tooltip": "cum",
   "Deleted": false,
-  "UdListDefinitionId": 300,
-  "Rank": 271,
+  "UdListDefinitionId": 671,
+  "Rank": 819,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 801
+      "FieldType": "System.Int32",
+      "FieldLength": 978
     }
   }
 }

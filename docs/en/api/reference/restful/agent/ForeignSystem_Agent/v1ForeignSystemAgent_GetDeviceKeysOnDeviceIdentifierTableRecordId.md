@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hoeger Inc and Sons",
-  "DeviceName": "Eichmann-Kertzmann",
-  "DeviceIdentifier": "voluptatem",
-  "TableName": "Lehner Group",
-  "RecordId": 960
+  "ApplicationName": "Sauer-Bartell",
+  "DeviceName": "Halvorson, Grimes and Hagenes",
+  "DeviceIdentifier": "qui",
+  "TableName": "Ward, Renner and Strosin",
+  "RecordId": 891
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "similique",
-    "Value": "consequatur",
-    "RecordId": 119,
-    "CreatedDate": "2008-08-26T16:32:39.180141+02:00",
-    "UpdatedDate": "2011-02-01T16:32:39.180141+01:00",
-    "UpdatedBy": "molestiae",
-    "CreatedBy": "laudantium",
-    "TableName": "Marvin, Runolfsdottir and Maggio",
+    "Key": "hic",
+    "Value": "amet",
+    "RecordId": 113,
+    "CreatedDate": "2012-02-25T17:54:03.1795788+01:00",
+    "UpdatedDate": "2019-09-25T17:54:03.1795788+02:00",
+    "UpdatedBy": "ducimus",
+    "CreatedBy": "modi",
+    "TableName": "Hamill Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 948
+        "FieldLength": 305
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 602,
-  "Name": "Casper Group",
-  "Tooltip": "voluptas",
-  "Deleted": true,
-  "UdListDefinitionId": 261,
-  "Rank": 111,
+  "Id": 352,
+  "Name": "Paucek-D'Amore",
+  "Tooltip": "ab",
+  "Deleted": false,
+  "UdListDefinitionId": 758,
+  "Rank": 873,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 524
+      "FieldType": "System.Int32",
+      "FieldLength": 86
     }
   }
 }

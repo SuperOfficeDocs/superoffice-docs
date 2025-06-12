@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 462,
-  "Name": "Kuhlman LLC",
-  "Tooltip": "exercitationem",
+  "Id": 421,
+  "Name": "Graham-Blick",
+  "Tooltip": "error",
   "Deleted": false,
-  "UdListDefinitionId": 195,
-  "Rank": 710,
+  "UdListDefinitionId": 704,
+  "Rank": 110,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 172
     }
   }
 }

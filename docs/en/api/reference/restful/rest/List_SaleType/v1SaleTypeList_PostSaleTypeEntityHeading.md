@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 635,
-  "Name": "Medhurst-Tillman",
-  "Tooltip": "nobis",
+  "HeadingId": 620,
+  "Name": "Kilback, Von and Nikolaus",
+  "Tooltip": "neque",
   "Deleted": false,
-  "Rank": 294,
-  "UdListDefinitionId": 604
+  "Rank": 614,
+  "UdListDefinitionId": 596
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 412,
-  "Name": "Schroeder LLC",
-  "Tooltip": "sed",
+  "HeadingId": 864,
+  "Name": "Weimann Inc and Sons",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 644,
-  "UdListDefinitionId": 612,
+  "Rank": 826,
+  "UdListDefinitionId": 697,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 556
+      "FieldLength": 70
     }
   }
 }

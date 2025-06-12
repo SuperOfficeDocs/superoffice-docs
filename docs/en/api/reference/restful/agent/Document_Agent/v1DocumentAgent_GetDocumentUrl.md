@@ -76,9 +76,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 582,
-  "VersionId": "voluptatum",
-  "WriteableUrl": true
+  "DocumentId": 322,
+  "VersionId": "ullam",
+  "WriteableUrl": false
 }
 ```
 

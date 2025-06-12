@@ -6,8 +6,8 @@ items:
   parent: SuperOffice.CRM.Entities
   children:
   - SuperOffice.CRM.Entities.MailingStatistics.#ctor
-  - SuperOffice.CRM.Entities.MailingStatistics.CalculateMailingStatistics(System.Int32,System.Int32)
-  - SuperOffice.CRM.Entities.MailingStatistics.ForceCalculateMailingStatistics(System.Int32,System.Int32)
+  - SuperOffice.CRM.Entities.MailingStatistics.CalculateMailingStatisticsAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.MailingStatistics.ForceCalculateMailingStatisticsAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -15,101 +15,105 @@ items:
   nameWithType: MailingStatistics
   fullName: SuperOffice.CRM.Entities.MailingStatistics
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
-  summary: "\nCalculator for Mailing Statistics - things like Open Rate, Click-through rate\n"
+  summary: Calculator for Mailing Statistics - things like Open Rate, Click-through rate
+  example: []
   syntax:
-    content: 'public class MailingStatistics : Object'
-    content.vb: >-
-      Public Class MailingStatistics
-          Inherits Object
+    content: 'public class MailingStatistics : IMailingStatistics'
+    content.vb: Public Class MailingStatistics Implements IMailingStatistics
   inheritance:
   - System.Object
+  implements:
+  - SuperOffice.CRM.Entities.IMailingStatistics
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Entities.MailingStatistics.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.MailingStatistics.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Entities.MailingStatistics.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.MailingStatistics)
   - SuperOffice.CRM.Entities.MailingStatistics.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Entities.MailingStatistics.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.CRM.Entities.MailingStatistics.CalculateMailingStatistics(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.MailingStatistics.CalculateMailingStatistics(System.Int32,System.Int32)
-  id: CalculateMailingStatistics(System.Int32,System.Int32)
+- uid: SuperOffice.CRM.Entities.MailingStatistics.CalculateMailingStatisticsAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.MailingStatistics.CalculateMailingStatisticsAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: CalculateMailingStatisticsAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.MailingStatistics
   langs:
   - csharp
   - vb
-  name: CalculateMailingStatistics(Int32, Int32)
-  nameWithType: MailingStatistics.CalculateMailingStatistics(Int32, Int32)
-  fullName: SuperOffice.CRM.Entities.MailingStatistics.CalculateMailingStatistics(System.Int32, System.Int32)
+  name: CalculateMailingStatisticsAsync(int, int, CancellationToken)
+  nameWithType: MailingStatistics.CalculateMailingStatisticsAsync(int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.MailingStatistics.CalculateMailingStatisticsAsync(int, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
-  summary: "\nCalculate statistics, but potentially skip if we have done so very recently\n"
+  summary: Calculate statistics, but potentially skip if we have done so very recently
+  example: []
   syntax:
-    content: public static int CalculateMailingStatistics(int shipmentId, int massUpdateThreshold = 100)
+    content: public Task<int> CalculateMailingStatisticsAsync(int shipmentId, int massUpdateThreshold = 100, CancellationToken cancellationToken = default)
     parameters:
     - id: shipmentId
       type: System.Int32
+      description: ''
     - id: massUpdateThreshold
       type: System.Int32
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Shared Function CalculateMailingStatistics(shipmentId As Integer, massUpdateThreshold As Integer = 100) As Integer
-  overload: SuperOffice.CRM.Entities.MailingStatistics.CalculateMailingStatistics*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.MailingStatistics.ForceCalculateMailingStatistics(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.MailingStatistics.ForceCalculateMailingStatistics(System.Int32,System.Int32)
-  id: ForceCalculateMailingStatistics(System.Int32,System.Int32)
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: ''
+    content.vb: Public Function CalculateMailingStatisticsAsync(shipmentId As Integer, massUpdateThreshold As Integer = 100, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Entities.MailingStatistics.CalculateMailingStatisticsAsync*
+  implements:
+  - SuperOffice.CRM.Entities.IMailingStatistics.CalculateMailingStatisticsAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: MailingStatistics.CalculateMailingStatisticsAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.MailingStatistics.CalculateMailingStatisticsAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: CalculateMailingStatisticsAsync(Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Entities.MailingStatistics.ForceCalculateMailingStatisticsAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.MailingStatistics.ForceCalculateMailingStatisticsAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: ForceCalculateMailingStatisticsAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.MailingStatistics
   langs:
   - csharp
   - vb
-  name: ForceCalculateMailingStatistics(Int32, Int32)
-  nameWithType: MailingStatistics.ForceCalculateMailingStatistics(Int32, Int32)
-  fullName: SuperOffice.CRM.Entities.MailingStatistics.ForceCalculateMailingStatistics(System.Int32, System.Int32)
+  name: ForceCalculateMailingStatisticsAsync(int, int, CancellationToken)
+  nameWithType: MailingStatistics.ForceCalculateMailingStatisticsAsync(int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.MailingStatistics.ForceCalculateMailingStatisticsAsync(int, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
-  summary: "\nReally calculate statistics, no skipping\n"
+  summary: Really calculate statistics, no skipping
+  example: []
   syntax:
-    content: public static int ForceCalculateMailingStatistics(int shipmentId, int massUpdateThreshold = 100)
+    content: public Task<int> ForceCalculateMailingStatisticsAsync(int shipmentId, int massUpdateThreshold = 100, CancellationToken cancellationToken = default)
     parameters:
     - id: shipmentId
       type: System.Int32
+      description: ''
     - id: massUpdateThreshold
       type: System.Int32
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Shared Function ForceCalculateMailingStatistics(shipmentId As Integer, massUpdateThreshold As Integer = 100) As Integer
-  overload: SuperOffice.CRM.Entities.MailingStatistics.ForceCalculateMailingStatistics*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: ''
+    content.vb: Public Function ForceCalculateMailingStatisticsAsync(shipmentId As Integer, massUpdateThreshold As Integer = 100, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Entities.MailingStatistics.ForceCalculateMailingStatisticsAsync*
+  implements:
+  - SuperOffice.CRM.Entities.IMailingStatistics.ForceCalculateMailingStatisticsAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: MailingStatistics.ForceCalculateMailingStatisticsAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.MailingStatistics.ForceCalculateMailingStatisticsAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: ForceCalculateMailingStatisticsAsync(Integer, Integer, CancellationToken)
 - uid: SuperOffice.CRM.Entities.MailingStatistics.#ctor
   commentId: M:SuperOffice.CRM.Entities.MailingStatistics.#ctor
   id: '#ctor'
@@ -121,189 +125,515 @@ items:
   nameWithType: MailingStatistics.MailingStatistics()
   fullName: SuperOffice.CRM.Entities.MailingStatistics.MailingStatistics()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
     content: public MailingStatistics()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Entities.MailingStatistics.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: MailingStatistics.New()
+  fullName.vb: SuperOffice.CRM.Entities.MailingStatistics.New()
+  name.vb: New()
 references:
 - uid: SuperOffice.CRM.Entities
   commentId: N:SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Entities
   nameWithType: SuperOffice.CRM.Entities
   fullName: SuperOffice.CRM.Entities
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.CRM.Entities.IMailingStatistics
+  commentId: T:SuperOffice.CRM.Entities.IMailingStatistics
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IMailingStatistics.html
+  name: IMailingStatistics
+  nameWithType: IMailingStatistics
+  fullName: SuperOffice.CRM.Entities.IMailingStatistics
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Entities.MailingStatistics.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<MailingStatistics, To>()
-  nameWithType: EnumUtil.MapEnums<MailingStatistics, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.MailingStatistics, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of MailingStatistics, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.MailingStatistics, To)()
-  name.vb: MapEnums(Of MailingStatistics, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<MailingStatistics, To>(MailingStatistics)
+  nameWithType: EnumUtil.MapEnums<MailingStatistics, To>(MailingStatistics)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.MailingStatistics, To>(SuperOffice.CRM.Entities.MailingStatistics)
+  nameWithType.vb: EnumUtil.MapEnums(Of MailingStatistics, To)(MailingStatistics)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.MailingStatistics, To)(SuperOffice.CRM.Entities.MailingStatistics)
+  name.vb: MapEnums(Of MailingStatistics, To)(MailingStatistics)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<MailingStatistics, To>
-    nameWithType: EnumUtil.MapEnums<MailingStatistics, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.MailingStatistics, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.MailingStatistics)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of MailingStatistics, To)
-    nameWithType: EnumUtil.MapEnums(Of MailingStatistics, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.MailingStatistics, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Entities.MailingStatistics.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.MailingStatistics)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<MailingStatistics>(MailingStatistics)
-  nameWithType: ObjectExtensions.AssignByReflection<MailingStatistics>(MailingStatistics)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.MailingStatistics>(SuperOffice.CRM.Entities.MailingStatistics)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of MailingStatistics)(MailingStatistics)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.MailingStatistics)(SuperOffice.CRM.Entities.MailingStatistics)
-  name.vb: AssignByReflection(Of MailingStatistics)(MailingStatistics)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<MailingStatistics>
-    nameWithType: ObjectExtensions.AssignByReflection<MailingStatistics>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.MailingStatistics>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.Entities.MailingStatistics
     name: MailingStatistics
-    nameWithType: MailingStatistics
-    fullName: SuperOffice.CRM.Entities.MailingStatistics
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of MailingStatistics)
-    nameWithType: ObjectExtensions.AssignByReflection(Of MailingStatistics)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.MailingStatistics)
-    isExternal: true
+    href: SuperOffice.CRM.Entities.MailingStatistics.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Entities.MailingStatistics
     name: MailingStatistics
-    nameWithType: MailingStatistics
-    fullName: SuperOffice.CRM.Entities.MailingStatistics
     isExternal: true
+    href: SuperOffice.CRM.Entities.MailingStatistics.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Entities.MailingStatistics.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<MailingStatistics>()
-  nameWithType: ObjectExtensions.GraphCopy<MailingStatistics>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.MailingStatistics>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of MailingStatistics)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.MailingStatistics)()
-  name.vb: GraphCopy(Of MailingStatistics)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<MailingStatistics>
-    nameWithType: ObjectExtensions.GraphCopy<MailingStatistics>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.MailingStatistics>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of MailingStatistics)
-    nameWithType: ObjectExtensions.GraphCopy(Of MailingStatistics)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.MailingStatistics)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.MailingStatistics)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.MailingStatistics
+    name: MailingStatistics
+    isExternal: true
+    href: SuperOffice.CRM.Entities.MailingStatistics.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.MailingStatistics
+    name: MailingStatistics
+    isExternal: true
+    href: SuperOffice.CRM.Entities.MailingStatistics.html
+  - name: )
 - uid: SuperOffice.CRM.Entities.MailingStatistics.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<MailingStatistics, To>()
-  nameWithType: Converters.MapEnums<MailingStatistics, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.MailingStatistics, To>()
-  nameWithType.vb: Converters.MapEnums(Of MailingStatistics, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.MailingStatistics, To)()
-  name.vb: MapEnums(Of MailingStatistics, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<MailingStatistics, To>(MailingStatistics)
+  nameWithType: Converters.MapEnums<MailingStatistics, To>(MailingStatistics)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.MailingStatistics, To>(SuperOffice.CRM.Entities.MailingStatistics)
+  nameWithType.vb: Converters.MapEnums(Of MailingStatistics, To)(MailingStatistics)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.MailingStatistics, To)(SuperOffice.CRM.Entities.MailingStatistics)
+  name.vb: MapEnums(Of MailingStatistics, To)(MailingStatistics)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<MailingStatistics, To>
-    nameWithType: Converters.MapEnums<MailingStatistics, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.MailingStatistics, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.MailingStatistics)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.MailingStatistics
+    name: MailingStatistics
+    isExternal: true
+    href: SuperOffice.CRM.Entities.MailingStatistics.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Entities.MailingStatistics
+    name: MailingStatistics
+    isExternal: true
+    href: SuperOffice.CRM.Entities.MailingStatistics.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of MailingStatistics, To)
-    nameWithType: Converters.MapEnums(Of MailingStatistics, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.MailingStatistics, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.MailingStatistics)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.MailingStatistics
+    name: MailingStatistics
+    isExternal: true
+    href: SuperOffice.CRM.Entities.MailingStatistics.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.MailingStatistics
+    name: MailingStatistics
+    isExternal: true
+    href: SuperOffice.CRM.Entities.MailingStatistics.html
+  - name: )
+- uid: SuperOffice.CRM.Entities.MailingStatistics.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.MailingStatistics)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<MailingStatistics>(MailingStatistics, MailingStatistics)
+  nameWithType: ObjectExtensions.AssignByReflection<MailingStatistics>(MailingStatistics, MailingStatistics)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.MailingStatistics>(SuperOffice.CRM.Entities.MailingStatistics, SuperOffice.CRM.Entities.MailingStatistics)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of MailingStatistics)(MailingStatistics, MailingStatistics)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.MailingStatistics)(SuperOffice.CRM.Entities.MailingStatistics, SuperOffice.CRM.Entities.MailingStatistics)
+  name.vb: AssignByReflection(Of MailingStatistics)(MailingStatistics, MailingStatistics)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.MailingStatistics,SuperOffice.CRM.Entities.MailingStatistics)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.MailingStatistics
+    name: MailingStatistics
+    isExternal: true
+    href: SuperOffice.CRM.Entities.MailingStatistics.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Entities.MailingStatistics
+    name: MailingStatistics
+    isExternal: true
+    href: SuperOffice.CRM.Entities.MailingStatistics.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.MailingStatistics
+    name: MailingStatistics
+    isExternal: true
+    href: SuperOffice.CRM.Entities.MailingStatistics.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.MailingStatistics,SuperOffice.CRM.Entities.MailingStatistics)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.MailingStatistics
+    name: MailingStatistics
+    isExternal: true
+    href: SuperOffice.CRM.Entities.MailingStatistics.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.MailingStatistics
+    name: MailingStatistics
+    isExternal: true
+    href: SuperOffice.CRM.Entities.MailingStatistics.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.MailingStatistics
+    name: MailingStatistics
+    isExternal: true
+    href: SuperOffice.CRM.Entities.MailingStatistics.html
+  - name: )
+- uid: SuperOffice.CRM.Entities.MailingStatistics.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<MailingStatistics>(MailingStatistics)
+  nameWithType: ObjectExtensions.GraphCopy<MailingStatistics>(MailingStatistics)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.MailingStatistics>(SuperOffice.CRM.Entities.MailingStatistics)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of MailingStatistics)(MailingStatistics)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.MailingStatistics)(SuperOffice.CRM.Entities.MailingStatistics)
+  name.vb: GraphCopy(Of MailingStatistics)(MailingStatistics)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Entities.MailingStatistics)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.MailingStatistics
+    name: MailingStatistics
+    isExternal: true
+    href: SuperOffice.CRM.Entities.MailingStatistics.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Entities.MailingStatistics
+    name: MailingStatistics
+    isExternal: true
+    href: SuperOffice.CRM.Entities.MailingStatistics.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Entities.MailingStatistics)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.MailingStatistics
+    name: MailingStatistics
+    isExternal: true
+    href: SuperOffice.CRM.Entities.MailingStatistics.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.MailingStatistics
+    name: MailingStatistics
+    isExternal: true
+    href: SuperOffice.CRM.Entities.MailingStatistics.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -312,140 +642,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -454,75 +689,465 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Entities.MailingStatistics.CalculateMailingStatistics*
-  commentId: Overload:SuperOffice.CRM.Entities.MailingStatistics.CalculateMailingStatistics
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
-  name: CalculateMailingStatistics
-  nameWithType: MailingStatistics.CalculateMailingStatistics
-  fullName: SuperOffice.CRM.Entities.MailingStatistics.CalculateMailingStatistics
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.CRM.Entities.MailingStatistics.CalculateMailingStatisticsAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.MailingStatistics.CalculateMailingStatisticsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.MailingStatistics.html#SuperOffice_CRM_Entities_MailingStatistics_CalculateMailingStatisticsAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: CalculateMailingStatisticsAsync
+  nameWithType: MailingStatistics.CalculateMailingStatisticsAsync
+  fullName: SuperOffice.CRM.Entities.MailingStatistics.CalculateMailingStatisticsAsync
+- uid: SuperOffice.CRM.Entities.IMailingStatistics.CalculateMailingStatisticsAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IMailingStatistics.CalculateMailingStatisticsAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IMailingStatistics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: CalculateMailingStatisticsAsync(int, int, CancellationToken)
+  nameWithType: IMailingStatistics.CalculateMailingStatisticsAsync(int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IMailingStatistics.CalculateMailingStatisticsAsync(int, int, System.Threading.CancellationToken)
+  nameWithType.vb: IMailingStatistics.CalculateMailingStatisticsAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.IMailingStatistics.CalculateMailingStatisticsAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: CalculateMailingStatisticsAsync(Integer, Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.IMailingStatistics.CalculateMailingStatisticsAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: CalculateMailingStatisticsAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.IMailingStatistics.CalculateMailingStatisticsAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: CalculateMailingStatisticsAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.CRM.Entities.MailingStatistics.ForceCalculateMailingStatistics*
-  commentId: Overload:SuperOffice.CRM.Entities.MailingStatistics.ForceCalculateMailingStatistics
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: ForceCalculateMailingStatistics
-  nameWithType: MailingStatistics.ForceCalculateMailingStatistics
-  fullName: SuperOffice.CRM.Entities.MailingStatistics.ForceCalculateMailingStatistics
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Entities.MailingStatistics.ForceCalculateMailingStatisticsAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.MailingStatistics.ForceCalculateMailingStatisticsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.MailingStatistics.html#SuperOffice_CRM_Entities_MailingStatistics_ForceCalculateMailingStatisticsAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: ForceCalculateMailingStatisticsAsync
+  nameWithType: MailingStatistics.ForceCalculateMailingStatisticsAsync
+  fullName: SuperOffice.CRM.Entities.MailingStatistics.ForceCalculateMailingStatisticsAsync
+- uid: SuperOffice.CRM.Entities.IMailingStatistics.ForceCalculateMailingStatisticsAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IMailingStatistics.ForceCalculateMailingStatisticsAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IMailingStatistics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: ForceCalculateMailingStatisticsAsync(int, int, CancellationToken)
+  nameWithType: IMailingStatistics.ForceCalculateMailingStatisticsAsync(int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IMailingStatistics.ForceCalculateMailingStatisticsAsync(int, int, System.Threading.CancellationToken)
+  nameWithType.vb: IMailingStatistics.ForceCalculateMailingStatisticsAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.IMailingStatistics.ForceCalculateMailingStatisticsAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: ForceCalculateMailingStatisticsAsync(Integer, Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.IMailingStatistics.ForceCalculateMailingStatisticsAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: ForceCalculateMailingStatisticsAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.IMailingStatistics.ForceCalculateMailingStatisticsAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: ForceCalculateMailingStatisticsAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: SuperOffice.CRM.Entities.MailingStatistics.#ctor*
   commentId: Overload:SuperOffice.CRM.Entities.MailingStatistics.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Entities.MailingStatistics.html#SuperOffice_CRM_Entities_MailingStatistics__ctor
   name: MailingStatistics
   nameWithType: MailingStatistics.MailingStatistics
   fullName: SuperOffice.CRM.Entities.MailingStatistics.MailingStatistics
+  nameWithType.vb: MailingStatistics.New
+  fullName.vb: SuperOffice.CRM.Entities.MailingStatistics.New
+  name.vb: New

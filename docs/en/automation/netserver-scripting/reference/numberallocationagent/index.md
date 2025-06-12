@@ -12,11 +12,11 @@ so.envir: onsite
 
 Service methods defined on <see cref='T:INumberAllocationAgent'>NumberAllocationAgent</see> that can trigger server-side event scripts.
 
-* [CreateDefaultRefCountEntity](createdefaultrefcountentity.md)
-* [DeleteRefCountEntity](deleterefcountentity.md)
-* [GetNumberEachTemplate](getnumbereachtemplate.md)
-* [GetRefCountEntity](getrefcountentity.md)
-* [SaveDefaultNumbering](savedefaultnumbering.md)
-* [SaveRefCountEntity](saverefcountentity.md)
-* [SetNumberEachTemplate](setnumbereachtemplate.md)
+* [CreateDefaultRefCountEntityAsync](createdefaultrefcountentityasync.md)
+* [DeleteRefCountEntityAsync](deleterefcountentityasync.md)
+* [GetNumberEachTemplateAsync](getnumbereachtemplateasync.md)
+* [GetRefCountEntityAsync](getrefcountentityasync.md)
+* [SaveDefaultNumberingAsync](savedefaultnumberingasync.md)
+* [SaveRefCountEntityAsync](saverefcountentityasync.md)
+* [SetNumberEachTemplateAsync](setnumbereachtemplateasync.md)
 

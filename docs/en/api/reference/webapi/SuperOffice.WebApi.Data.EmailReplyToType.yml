@@ -9,64 +9,24 @@ items:
   - SuperOffice.WebApi.Data.EmailReplyToType.ReplyToOnlySpecified
   - SuperOffice.WebApi.Data.EmailReplyToType.ReplyToSalesContact
   - SuperOffice.WebApi.Data.EmailReplyToType.ReplyToSupportContact
-  - SuperOffice.WebApi.Data.EmailReplyToType.value__
   langs:
   - csharp
   - vb
   name: EmailReplyToType
   nameWithType: EmailReplyToType
   fullName: SuperOffice.WebApi.Data.EmailReplyToType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEmail/Mailing ReplyTo field address algorithm\nThis Enum is used by:  email_flow.reply_to_type\n"
-  syntax:
-    content: 'public sealed class EmailReplyToType : Enum'
-    content.vb: >-
-      Public NotInheritable Class EmailReplyToType
-          Inherits
+  summary: >-
+    Email/Mailing ReplyTo field address algorithm
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.EmailReplyToType.value__
-  commentId: F:SuperOffice.WebApi.Data.EmailReplyToType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.EmailReplyToType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: EmailReplyToType.value__
-  fullName: SuperOffice.WebApi.Data.EmailReplyToType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  email_flow.reply_to_type
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: 'public enum EmailReplyToType : short'
+    content.vb: Public Enum EmailReplyToType As Short
 - uid: SuperOffice.WebApi.Data.EmailReplyToType.ReplyToOnlySpecified
   commentId: F:SuperOffice.WebApi.Data.EmailReplyToType.ReplyToOnlySpecified
   id: ReplyToOnlySpecified
@@ -78,24 +38,26 @@ items:
   nameWithType: EmailReplyToType.ReplyToOnlySpecified
   fullName: SuperOffice.WebApi.Data.EmailReplyToType.ReplyToOnlySpecified
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: ReplyToOnlySpecified\n"
+  summary: '0: ReplyToOnlySpecified'
+  example: []
   syntax:
-    content: public const EmailReplyToType ReplyToOnlySpecified
+    content: >-
+      [EnumMember]
+
+      ReplyToOnlySpecified = 0
     return:
       type: SuperOffice.WebApi.Data.EmailReplyToType
-    content.vb: Public Const ReplyToOnlySpecified As EmailReplyToType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyToOnlySpecified = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.EmailReplyToType.ReplyToSalesContact
   commentId: F:SuperOffice.WebApi.Data.EmailReplyToType.ReplyToSalesContact
   id: ReplyToSalesContact
@@ -107,24 +69,26 @@ items:
   nameWithType: EmailReplyToType.ReplyToSalesContact
   fullName: SuperOffice.WebApi.Data.EmailReplyToType.ReplyToSalesContact
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: ReplyToSalesContact\n"
+  summary: '1: ReplyToSalesContact'
+  example: []
   syntax:
-    content: public const EmailReplyToType ReplyToSalesContact
+    content: >-
+      [EnumMember]
+
+      ReplyToSalesContact = 1
     return:
       type: SuperOffice.WebApi.Data.EmailReplyToType
-    content.vb: Public Const ReplyToSalesContact As EmailReplyToType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyToSalesContact = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.EmailReplyToType.ReplyToSupportContact
   commentId: F:SuperOffice.WebApi.Data.EmailReplyToType.ReplyToSupportContact
   id: ReplyToSupportContact
@@ -136,24 +100,26 @@ items:
   nameWithType: EmailReplyToType.ReplyToSupportContact
   fullName: SuperOffice.WebApi.Data.EmailReplyToType.ReplyToSupportContact
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: ReplyToSupportContact\n"
+  summary: '2: ReplyToSupportContact'
+  example: []
   syntax:
-    content: public const EmailReplyToType ReplyToSupportContact
+    content: >-
+      [EnumMember]
+
+      ReplyToSupportContact = 2
     return:
       type: SuperOffice.WebApi.Data.EmailReplyToType
-    content.vb: Public Const ReplyToSupportContact As EmailReplyToType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyToSupportContact = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.EmailReplyToType.ReplyToEmpty
   commentId: F:SuperOffice.WebApi.Data.EmailReplyToType.ReplyToEmpty
   id: ReplyToEmpty
@@ -165,55 +131,69 @@ items:
   nameWithType: EmailReplyToType.ReplyToEmpty
   fullName: SuperOffice.WebApi.Data.EmailReplyToType.ReplyToEmpty
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: ReplyToEmpty (skip reply-to header, email agents will use from instead)\n"
+  summary: '3: ReplyToEmpty (skip reply-to header, email agents will use from instead)'
+  example: []
   syntax:
-    content: public const EmailReplyToType ReplyToEmpty
+    content: >-
+      [EnumMember]
+
+      ReplyToEmpty = 3
     return:
       type: SuperOffice.WebApi.Data.EmailReplyToType
-    content.vb: Public Const ReplyToEmpty As EmailReplyToType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyToEmpty = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.EmailReplyToType
   commentId: T:SuperOffice.WebApi.Data.EmailReplyToType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.EmailReplyToType.html
   name: EmailReplyToType
   nameWithType: EmailReplyToType
   fullName: SuperOffice.WebApi.Data.EmailReplyToType

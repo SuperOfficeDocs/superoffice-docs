@@ -6,9 +6,9 @@ items:
   parent: SuperOffice.CRM.Entities
   children:
   - SuperOffice.CRM.Entities.FormValueCalculator.#ctor
-  - SuperOffice.CRM.Entities.FormValueCalculator.Update(System.Int32)
-  - SuperOffice.CRM.Entities.FormValueCalculator.UpdateForm(System.Int32)
-  - SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmission(System.Int32)
+  - SuperOffice.CRM.Entities.FormValueCalculator.UpdateAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmissionAsync(System.Int32,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -16,128 +16,117 @@ items:
   nameWithType: FormValueCalculator
   fullName: SuperOffice.CRM.Entities.FormValueCalculator
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nCalculator for Forms and form field values. Store the json value of the form fields in the database in a searchable way.\n"
+  summary: Calculator for Forms and form field values. Store the json value of the form fields in the database in a searchable way.
+  example: []
   syntax:
-    content: 'public class FormValueCalculator : Object'
-    content.vb: >-
-      Public Class FormValueCalculator
-          Inherits Object
+    content: public class FormValueCalculator
+    content.vb: Public Class FormValueCalculator
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Entities.FormValueCalculator.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.FormValueCalculator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Entities.FormValueCalculator.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.FormValueCalculator)
   - SuperOffice.CRM.Entities.FormValueCalculator.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Entities.FormValueCalculator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmission(System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmission(System.Int32)
-  id: UpdateFormSubmission(System.Int32)
+- uid: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmissionAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmissionAsync(System.Int32,System.Threading.CancellationToken)
+  id: UpdateFormSubmissionAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.FormValueCalculator
   langs:
   - csharp
   - vb
-  name: UpdateFormSubmission(Int32)
-  nameWithType: FormValueCalculator.UpdateFormSubmission(Int32)
-  fullName: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmission(System.Int32)
+  name: UpdateFormSubmissionAsync(int, CancellationToken)
+  nameWithType: FormValueCalculator.UpdateFormSubmissionAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmissionAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nSave the form values to the database\n"
+  summary: Save the form values to the database
+  example: []
   syntax:
-    content: public static int UpdateFormSubmission(int formSubmissionId)
+    content: public static Task<int> UpdateFormSubmissionAsync(int formSubmissionId, CancellationToken cancellationToken = default)
     parameters:
     - id: formSubmissionId
       type: System.Int32
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Shared Function UpdateFormSubmission(formSubmissionId As Integer) As Integer
-  overload: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmission*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.FormValueCalculator.UpdateForm(System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.FormValueCalculator.UpdateForm(System.Int32)
-  id: UpdateForm(System.Int32)
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: ''
+    content.vb: Public Shared Function UpdateFormSubmissionAsync(formSubmissionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmissionAsync*
+  nameWithType.vb: FormValueCalculator.UpdateFormSubmissionAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmissionAsync(Integer, System.Threading.CancellationToken)
+  name.vb: UpdateFormSubmissionAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormAsync(System.Int32,System.Threading.CancellationToken)
+  id: UpdateFormAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.FormValueCalculator
   langs:
   - csharp
   - vb
-  name: UpdateForm(Int32)
-  nameWithType: FormValueCalculator.UpdateForm(Int32)
-  fullName: SuperOffice.CRM.Entities.FormValueCalculator.UpdateForm(System.Int32)
+  name: UpdateFormAsync(int, CancellationToken)
+  nameWithType: FormValueCalculator.UpdateFormAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public static int UpdateForm(int formId)
+    content: public static Task<int> UpdateFormAsync(int formId, CancellationToken cancellationToken = default)
     parameters:
     - id: formId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Shared Function UpdateForm(formId As Integer) As Integer
-  overload: SuperOffice.CRM.Entities.FormValueCalculator.UpdateForm*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.FormValueCalculator.Update(System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.FormValueCalculator.Update(System.Int32)
-  id: Update(System.Int32)
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function UpdateFormAsync(formId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormAsync*
+  nameWithType.vb: FormValueCalculator.UpdateFormAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormAsync(Integer, System.Threading.CancellationToken)
+  name.vb: UpdateFormAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Entities.FormValueCalculator.UpdateAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.FormValueCalculator.UpdateAsync(System.Int32,System.Threading.CancellationToken)
+  id: UpdateAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.FormValueCalculator
   langs:
   - csharp
   - vb
-  name: Update(Int32)
-  nameWithType: FormValueCalculator.Update(Int32)
-  fullName: SuperOffice.CRM.Entities.FormValueCalculator.Update(System.Int32)
+  name: UpdateAsync(int, CancellationToken)
+  nameWithType: FormValueCalculator.UpdateAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.FormValueCalculator.UpdateAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public static int Update(int count)
+    content: public static Task<int> UpdateAsync(int count, CancellationToken cancellationToken = default)
     parameters:
     - id: count
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Shared Function Update(count As Integer) As Integer
-  overload: SuperOffice.CRM.Entities.FormValueCalculator.Update*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function UpdateAsync(count As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Entities.FormValueCalculator.UpdateAsync*
+  nameWithType.vb: FormValueCalculator.UpdateAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.FormValueCalculator.UpdateAsync(Integer, System.Threading.CancellationToken)
+  name.vb: UpdateAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Entities.FormValueCalculator.#ctor
   commentId: M:SuperOffice.CRM.Entities.FormValueCalculator.#ctor
   id: '#ctor'
@@ -149,189 +138,507 @@ items:
   nameWithType: FormValueCalculator.FormValueCalculator()
   fullName: SuperOffice.CRM.Entities.FormValueCalculator.FormValueCalculator()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
     content: public FormValueCalculator()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Entities.FormValueCalculator.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: FormValueCalculator.New()
+  fullName.vb: SuperOffice.CRM.Entities.FormValueCalculator.New()
+  name.vb: New()
 references:
 - uid: SuperOffice.CRM.Entities
   commentId: N:SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Entities
   nameWithType: SuperOffice.CRM.Entities
   fullName: SuperOffice.CRM.Entities
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Entities.FormValueCalculator.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<FormValueCalculator, To>()
-  nameWithType: EnumUtil.MapEnums<FormValueCalculator, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.FormValueCalculator, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of FormValueCalculator, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.FormValueCalculator, To)()
-  name.vb: MapEnums(Of FormValueCalculator, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<FormValueCalculator, To>(FormValueCalculator)
+  nameWithType: EnumUtil.MapEnums<FormValueCalculator, To>(FormValueCalculator)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.FormValueCalculator, To>(SuperOffice.CRM.Entities.FormValueCalculator)
+  nameWithType.vb: EnumUtil.MapEnums(Of FormValueCalculator, To)(FormValueCalculator)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.FormValueCalculator, To)(SuperOffice.CRM.Entities.FormValueCalculator)
+  name.vb: MapEnums(Of FormValueCalculator, To)(FormValueCalculator)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<FormValueCalculator, To>
-    nameWithType: EnumUtil.MapEnums<FormValueCalculator, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.FormValueCalculator, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.FormValueCalculator)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of FormValueCalculator, To)
-    nameWithType: EnumUtil.MapEnums(Of FormValueCalculator, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.FormValueCalculator, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Entities.FormValueCalculator.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.FormValueCalculator)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<FormValueCalculator>(FormValueCalculator)
-  nameWithType: ObjectExtensions.AssignByReflection<FormValueCalculator>(FormValueCalculator)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.FormValueCalculator>(SuperOffice.CRM.Entities.FormValueCalculator)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FormValueCalculator)(FormValueCalculator)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.FormValueCalculator)(SuperOffice.CRM.Entities.FormValueCalculator)
-  name.vb: AssignByReflection(Of FormValueCalculator)(FormValueCalculator)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<FormValueCalculator>
-    nameWithType: ObjectExtensions.AssignByReflection<FormValueCalculator>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.FormValueCalculator>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.Entities.FormValueCalculator
     name: FormValueCalculator
-    nameWithType: FormValueCalculator
-    fullName: SuperOffice.CRM.Entities.FormValueCalculator
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of FormValueCalculator)
-    nameWithType: ObjectExtensions.AssignByReflection(Of FormValueCalculator)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.FormValueCalculator)
-    isExternal: true
+    href: SuperOffice.CRM.Entities.FormValueCalculator.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Entities.FormValueCalculator
     name: FormValueCalculator
-    nameWithType: FormValueCalculator
-    fullName: SuperOffice.CRM.Entities.FormValueCalculator
     isExternal: true
+    href: SuperOffice.CRM.Entities.FormValueCalculator.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Entities.FormValueCalculator.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<FormValueCalculator>()
-  nameWithType: ObjectExtensions.GraphCopy<FormValueCalculator>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.FormValueCalculator>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of FormValueCalculator)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.FormValueCalculator)()
-  name.vb: GraphCopy(Of FormValueCalculator)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<FormValueCalculator>
-    nameWithType: ObjectExtensions.GraphCopy<FormValueCalculator>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.FormValueCalculator>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of FormValueCalculator)
-    nameWithType: ObjectExtensions.GraphCopy(Of FormValueCalculator)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.FormValueCalculator)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.FormValueCalculator)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.FormValueCalculator
+    name: FormValueCalculator
+    isExternal: true
+    href: SuperOffice.CRM.Entities.FormValueCalculator.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.FormValueCalculator
+    name: FormValueCalculator
+    isExternal: true
+    href: SuperOffice.CRM.Entities.FormValueCalculator.html
+  - name: )
 - uid: SuperOffice.CRM.Entities.FormValueCalculator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<FormValueCalculator, To>()
-  nameWithType: Converters.MapEnums<FormValueCalculator, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.FormValueCalculator, To>()
-  nameWithType.vb: Converters.MapEnums(Of FormValueCalculator, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.FormValueCalculator, To)()
-  name.vb: MapEnums(Of FormValueCalculator, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<FormValueCalculator, To>(FormValueCalculator)
+  nameWithType: Converters.MapEnums<FormValueCalculator, To>(FormValueCalculator)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.FormValueCalculator, To>(SuperOffice.CRM.Entities.FormValueCalculator)
+  nameWithType.vb: Converters.MapEnums(Of FormValueCalculator, To)(FormValueCalculator)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.FormValueCalculator, To)(SuperOffice.CRM.Entities.FormValueCalculator)
+  name.vb: MapEnums(Of FormValueCalculator, To)(FormValueCalculator)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<FormValueCalculator, To>
-    nameWithType: Converters.MapEnums<FormValueCalculator, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.FormValueCalculator, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.FormValueCalculator)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.FormValueCalculator
+    name: FormValueCalculator
+    isExternal: true
+    href: SuperOffice.CRM.Entities.FormValueCalculator.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Entities.FormValueCalculator
+    name: FormValueCalculator
+    isExternal: true
+    href: SuperOffice.CRM.Entities.FormValueCalculator.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of FormValueCalculator, To)
-    nameWithType: Converters.MapEnums(Of FormValueCalculator, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.FormValueCalculator, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.FormValueCalculator)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.FormValueCalculator
+    name: FormValueCalculator
+    isExternal: true
+    href: SuperOffice.CRM.Entities.FormValueCalculator.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.FormValueCalculator
+    name: FormValueCalculator
+    isExternal: true
+    href: SuperOffice.CRM.Entities.FormValueCalculator.html
+  - name: )
+- uid: SuperOffice.CRM.Entities.FormValueCalculator.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.FormValueCalculator)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<FormValueCalculator>(FormValueCalculator, FormValueCalculator)
+  nameWithType: ObjectExtensions.AssignByReflection<FormValueCalculator>(FormValueCalculator, FormValueCalculator)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.FormValueCalculator>(SuperOffice.CRM.Entities.FormValueCalculator, SuperOffice.CRM.Entities.FormValueCalculator)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FormValueCalculator)(FormValueCalculator, FormValueCalculator)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.FormValueCalculator)(SuperOffice.CRM.Entities.FormValueCalculator, SuperOffice.CRM.Entities.FormValueCalculator)
+  name.vb: AssignByReflection(Of FormValueCalculator)(FormValueCalculator, FormValueCalculator)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.FormValueCalculator,SuperOffice.CRM.Entities.FormValueCalculator)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.FormValueCalculator
+    name: FormValueCalculator
+    isExternal: true
+    href: SuperOffice.CRM.Entities.FormValueCalculator.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Entities.FormValueCalculator
+    name: FormValueCalculator
+    isExternal: true
+    href: SuperOffice.CRM.Entities.FormValueCalculator.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.FormValueCalculator
+    name: FormValueCalculator
+    isExternal: true
+    href: SuperOffice.CRM.Entities.FormValueCalculator.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.FormValueCalculator,SuperOffice.CRM.Entities.FormValueCalculator)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.FormValueCalculator
+    name: FormValueCalculator
+    isExternal: true
+    href: SuperOffice.CRM.Entities.FormValueCalculator.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.FormValueCalculator
+    name: FormValueCalculator
+    isExternal: true
+    href: SuperOffice.CRM.Entities.FormValueCalculator.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.FormValueCalculator
+    name: FormValueCalculator
+    isExternal: true
+    href: SuperOffice.CRM.Entities.FormValueCalculator.html
+  - name: )
+- uid: SuperOffice.CRM.Entities.FormValueCalculator.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<FormValueCalculator>(FormValueCalculator)
+  nameWithType: ObjectExtensions.GraphCopy<FormValueCalculator>(FormValueCalculator)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.FormValueCalculator>(SuperOffice.CRM.Entities.FormValueCalculator)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of FormValueCalculator)(FormValueCalculator)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.FormValueCalculator)(SuperOffice.CRM.Entities.FormValueCalculator)
+  name.vb: GraphCopy(Of FormValueCalculator)(FormValueCalculator)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Entities.FormValueCalculator)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.FormValueCalculator
+    name: FormValueCalculator
+    isExternal: true
+    href: SuperOffice.CRM.Entities.FormValueCalculator.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Entities.FormValueCalculator
+    name: FormValueCalculator
+    isExternal: true
+    href: SuperOffice.CRM.Entities.FormValueCalculator.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Entities.FormValueCalculator)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.FormValueCalculator
+    name: FormValueCalculator
+    isExternal: true
+    href: SuperOffice.CRM.Entities.FormValueCalculator.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.FormValueCalculator
+    name: FormValueCalculator
+    isExternal: true
+    href: SuperOffice.CRM.Entities.FormValueCalculator.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -340,140 +647,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -482,81 +694,362 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmission*
-  commentId: Overload:SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmission
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
-  name: UpdateFormSubmission
-  nameWithType: FormValueCalculator.UpdateFormSubmission
-  fullName: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmission
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmissionAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmissionAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.FormValueCalculator.html#SuperOffice_CRM_Entities_FormValueCalculator_UpdateFormSubmissionAsync_System_Int32_System_Threading_CancellationToken_
+  name: UpdateFormSubmissionAsync
+  nameWithType: FormValueCalculator.UpdateFormSubmissionAsync
+  fullName: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmissionAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.CRM.Entities.FormValueCalculator.UpdateForm*
-  commentId: Overload:SuperOffice.CRM.Entities.FormValueCalculator.UpdateForm
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: UpdateForm
-  nameWithType: FormValueCalculator.UpdateForm
-  fullName: SuperOffice.CRM.Entities.FormValueCalculator.UpdateForm
-- uid: SuperOffice.CRM.Entities.FormValueCalculator.Update*
-  commentId: Overload:SuperOffice.CRM.Entities.FormValueCalculator.Update
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: Update
-  nameWithType: FormValueCalculator.Update
-  fullName: SuperOffice.CRM.Entities.FormValueCalculator.Update
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.FormValueCalculator.html#SuperOffice_CRM_Entities_FormValueCalculator_UpdateFormAsync_System_Int32_System_Threading_CancellationToken_
+  name: UpdateFormAsync
+  nameWithType: FormValueCalculator.UpdateFormAsync
+  fullName: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormAsync
+- uid: SuperOffice.CRM.Entities.FormValueCalculator.UpdateAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.FormValueCalculator.UpdateAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.FormValueCalculator.html#SuperOffice_CRM_Entities_FormValueCalculator_UpdateAsync_System_Int32_System_Threading_CancellationToken_
+  name: UpdateAsync
+  nameWithType: FormValueCalculator.UpdateAsync
+  fullName: SuperOffice.CRM.Entities.FormValueCalculator.UpdateAsync
 - uid: SuperOffice.CRM.Entities.FormValueCalculator.#ctor*
   commentId: Overload:SuperOffice.CRM.Entities.FormValueCalculator.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Entities.FormValueCalculator.html#SuperOffice_CRM_Entities_FormValueCalculator__ctor
   name: FormValueCalculator
   nameWithType: FormValueCalculator.FormValueCalculator
   fullName: SuperOffice.CRM.Entities.FormValueCalculator.FormValueCalculator
+  nameWithType.vb: FormValueCalculator.New
+  fullName.vb: SuperOffice.CRM.Entities.FormValueCalculator.New
+  name.vb: New

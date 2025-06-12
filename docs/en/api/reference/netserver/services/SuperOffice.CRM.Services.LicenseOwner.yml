@@ -19,33 +19,38 @@ items:
   nameWithType: LicenseOwner
   fullName: SuperOffice.CRM.Services.LicenseOwner
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCarrier object for LicenseOwner.\nServices for the LicenseOwner Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ILicenseAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Carrier object for LicenseOwner.
+
+    Services for the LicenseOwner Carrier is available from the <xref href="SuperOffice.CRM.Services.ILicenseAgent?text=License+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class LicenseOwner : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class LicenseOwner : Carrier
     content.vb: >-
-      Public Class LicenseOwner
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class LicenseOwner Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.LicenseAgent
-    commentId: T:SuperOffice.CRM.Services.LicenseAgent
   - linkId: SuperOffice.CRM.Services.ILicenseAgent
     commentId: T:SuperOffice.CRM.Services.ILicenseAgent
   inheritance:
   - System.Object
   extensionMethods:
   - SuperOffice.CRM.Services.LicenseOwner.SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(System.String)
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.LicenseOwner.#ctor
   commentId: M:SuperOffice.CRM.Services.LicenseOwner.#ctor
   id: '#ctor'
@@ -57,21 +62,18 @@ items:
   nameWithType: LicenseOwner.LicenseOwner()
   fullName: SuperOffice.CRM.Services.LicenseOwner.LicenseOwner()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public LicenseOwner()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.LicenseOwner.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: LicenseOwner.New()
+  fullName.vb: SuperOffice.CRM.Services.LicenseOwner.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.LicenseOwner.ToString
   commentId: M:SuperOffice.CRM.Services.LicenseOwner.ToString
   id: ToString
@@ -83,26 +85,18 @@ items:
   nameWithType: LicenseOwner.ToString()
   fullName: SuperOffice.CRM.Services.LicenseOwner.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.LicenseOwner.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.LicenseOwner.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.LicenseOwner.ToString(System.String)
   id: ToString(System.String)
@@ -110,17 +104,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: LicenseOwner.ToString(String)
-  fullName: SuperOffice.CRM.Services.LicenseOwner.ToString(System.String)
+  name: ToString(string)
+  nameWithType: LicenseOwner.ToString(string)
+  fullName: SuperOffice.CRM.Services.LicenseOwner.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -132,10 +127,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.LicenseOwner.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: LicenseOwner.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.LicenseOwner.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.LicenseOwner.Name
   commentId: P:SuperOffice.CRM.Services.LicenseOwner.Name
   id: Name
@@ -147,28 +141,28 @@ items:
   nameWithType: LicenseOwner.Name
   fullName: SuperOffice.CRM.Services.LicenseOwner.Name
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe name of the license owner \n"
+  summary: The name of the license owner
+  example: []
   syntax:
-    content: public virtual string Name { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Name As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Name As String
   overload: SuperOffice.CRM.Services.LicenseOwner.Name*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.LicenseOwner.Description
   commentId: P:SuperOffice.CRM.Services.LicenseOwner.Description
   id: Description
@@ -180,28 +174,28 @@ items:
   nameWithType: LicenseOwner.Description
   fullName: SuperOffice.CRM.Services.LicenseOwner.Description
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: public virtual string Description { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Description { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Description As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Description As String
   overload: SuperOffice.CRM.Services.LicenseOwner.Description*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.LicenseOwner.RestrictedModuleLicenses
   commentId: P:SuperOffice.CRM.Services.LicenseOwner.RestrictedModuleLicenses
   id: RestrictedModuleLicenses
@@ -213,28 +207,28 @@ items:
   nameWithType: LicenseOwner.RestrictedModuleLicenses
   fullName: SuperOffice.CRM.Services.LicenseOwner.RestrictedModuleLicenses
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: public virtual ModuleLicenseLink[] RestrictedModuleLicenses { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual ModuleLicenseLink[] RestrictedModuleLicenses { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.ModuleLicenseLink[]
-    content.vb: Public Overridable Property RestrictedModuleLicenses As ModuleLicenseLink()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property RestrictedModuleLicenses As ModuleLicenseLink()
   overload: SuperOffice.CRM.Services.LicenseOwner.RestrictedModuleLicenses*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.LicenseOwner.UnrestrictedModuleLicenses
   commentId: P:SuperOffice.CRM.Services.LicenseOwner.UnrestrictedModuleLicenses
   id: UnrestrictedModuleLicenses
@@ -246,161 +240,203 @@ items:
   nameWithType: LicenseOwner.UnrestrictedModuleLicenses
   fullName: SuperOffice.CRM.Services.LicenseOwner.UnrestrictedModuleLicenses
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe unrestricted module licenses that this license owner \n"
+  summary: The unrestricted module licenses that this license owner
+  example: []
   syntax:
-    content: public virtual ModuleLicenseLink[] UnrestrictedModuleLicenses { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual ModuleLicenseLink[] UnrestrictedModuleLicenses { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.ModuleLicenseLink[]
-    content.vb: Public Overridable Property UnrestrictedModuleLicenses As ModuleLicenseLink()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UnrestrictedModuleLicenses As ModuleLicenseLink()
   overload: SuperOffice.CRM.Services.LicenseOwner.UnrestrictedModuleLicenses*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.LicenseOwner.SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(System.String)
-  commentId: M:SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner,System.String)
-  parent: SuperOffice.CRM.Services.UserHelper
-  definition: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner,System.String)
-  name: GetModuleLicenseLink(String)
-  nameWithType: UserHelper.GetModuleLicenseLink(String)
-  fullName: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(System.String)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(System.String)
-    name: GetModuleLicenseLink
-    nameWithType: UserHelper.GetModuleLicenseLink
-    fullName: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(System.String)
-    name: GetModuleLicenseLink
-    nameWithType: UserHelper.GetModuleLicenseLink
-    fullName: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.LicenseAgent
-  commentId: T:SuperOffice.CRM.Services.LicenseAgent
-  isExternal: true
-  name: LicenseAgent
-  nameWithType: LicenseAgent
-  fullName: SuperOffice.CRM.Services.LicenseAgent
 - uid: SuperOffice.CRM.Services.ILicenseAgent
   commentId: T:SuperOffice.CRM.Services.ILicenseAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.ILicenseAgent.html
   name: ILicenseAgent
   nameWithType: ILicenseAgent
   fullName: SuperOffice.CRM.Services.ILicenseAgent
-- uid: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner,System.String)
-  commentId: M:SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner,System.String)
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  name: GetModuleLicenseLink(LicenseOwner, String)
-  nameWithType: UserHelper.GetModuleLicenseLink(LicenseOwner, String)
-  fullName: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner, System.String)
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.CRM.Services.LicenseOwner.SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(System.String)
+  commentId: M:SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner,System.String)
+  parent: SuperOffice.CRM.Services.UserHelper
+  definition: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner,System.String)
+  href: SuperOffice.CRM.Services.UserHelper.html#SuperOffice_CRM_Services_UserHelper_GetModuleLicenseLink_SuperOffice_CRM_Services_LicenseOwner_System_String_
+  name: GetModuleLicenseLink(LicenseOwner, string)
+  nameWithType: UserHelper.GetModuleLicenseLink(LicenseOwner, string)
+  fullName: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner, string)
+  nameWithType.vb: UserHelper.GetModuleLicenseLink(LicenseOwner, String)
+  fullName.vb: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner, String)
+  name.vb: GetModuleLicenseLink(LicenseOwner, String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner,System.String)
     name: GetModuleLicenseLink
-    nameWithType: UserHelper.GetModuleLicenseLink
-    fullName: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink
     isExternal: true
+    href: SuperOffice.CRM.Services.UserHelper.html#SuperOffice_CRM_Services_UserHelper_GetModuleLicenseLink_SuperOffice_CRM_Services_LicenseOwner_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Services.LicenseOwner
     name: LicenseOwner
-    nameWithType: LicenseOwner
-    fullName: SuperOffice.CRM.Services.LicenseOwner
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.CRM.Services.LicenseOwner.html
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner,System.String)
     name: GetModuleLicenseLink
-    nameWithType: UserHelper.GetModuleLicenseLink
-    fullName: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink
     isExternal: true
+    href: SuperOffice.CRM.Services.UserHelper.html#SuperOffice_CRM_Services_UserHelper_GetModuleLicenseLink_SuperOffice_CRM_Services_LicenseOwner_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Services.LicenseOwner
     name: LicenseOwner
-    nameWithType: LicenseOwner
-    fullName: SuperOffice.CRM.Services.LicenseOwner
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.CRM.Services.LicenseOwner.html
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner,System.String)
+  commentId: M:SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner,System.String)
+  isExternal: true
+  href: SuperOffice.CRM.Services.UserHelper.html#SuperOffice_CRM_Services_UserHelper_GetModuleLicenseLink_SuperOffice_CRM_Services_LicenseOwner_System_String_
+  name: GetModuleLicenseLink(LicenseOwner, string)
+  nameWithType: UserHelper.GetModuleLicenseLink(LicenseOwner, string)
+  fullName: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner, string)
+  nameWithType.vb: UserHelper.GetModuleLicenseLink(LicenseOwner, String)
+  fullName.vb: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner, String)
+  name.vb: GetModuleLicenseLink(LicenseOwner, String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner,System.String)
+    name: GetModuleLicenseLink
+    isExternal: true
+    href: SuperOffice.CRM.Services.UserHelper.html#SuperOffice_CRM_Services_UserHelper_GetModuleLicenseLink_SuperOffice_CRM_Services_LicenseOwner_System_String_
+  - name: (
+  - uid: SuperOffice.CRM.Services.LicenseOwner
+    name: LicenseOwner
+    isExternal: true
+    href: SuperOffice.CRM.Services.LicenseOwner.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner,System.String)
+    name: GetModuleLicenseLink
+    isExternal: true
+    href: SuperOffice.CRM.Services.UserHelper.html#SuperOffice_CRM_Services_UserHelper_GetModuleLicenseLink_SuperOffice_CRM_Services_LicenseOwner_System_String_
+  - name: (
+  - uid: SuperOffice.CRM.Services.LicenseOwner
+    name: LicenseOwner
+    isExternal: true
+    href: SuperOffice.CRM.Services.LicenseOwner.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
 - uid: SuperOffice.CRM.Services.UserHelper
   commentId: T:SuperOffice.CRM.Services.UserHelper
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.UserHelper.html
   name: UserHelper
   nameWithType: UserHelper
   fullName: SuperOffice.CRM.Services.UserHelper
 - uid: SuperOffice.CRM.Services.LicenseOwner.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.LicenseOwner.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.LicenseOwner.html#SuperOffice_CRM_Services_LicenseOwner__ctor
   name: LicenseOwner
   nameWithType: LicenseOwner.LicenseOwner
   fullName: SuperOffice.CRM.Services.LicenseOwner.LicenseOwner
+  nameWithType.vb: LicenseOwner.New
+  fullName.vb: SuperOffice.CRM.Services.LicenseOwner.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.LicenseOwner.ToString*
   commentId: Overload:SuperOffice.CRM.Services.LicenseOwner.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.LicenseOwner.html#SuperOffice_CRM_Services_LicenseOwner_ToString
   name: ToString
   nameWithType: LicenseOwner.ToString
   fullName: SuperOffice.CRM.Services.LicenseOwner.ToString
@@ -408,35 +444,37 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.LicenseOwner.Name*
   commentId: Overload:SuperOffice.CRM.Services.LicenseOwner.Name
   isExternal: true
+  href: SuperOffice.CRM.Services.LicenseOwner.html#SuperOffice_CRM_Services_LicenseOwner_Name
   name: Name
   nameWithType: LicenseOwner.Name
   fullName: SuperOffice.CRM.Services.LicenseOwner.Name
 - uid: SuperOffice.CRM.Services.LicenseOwner.Description*
   commentId: Overload:SuperOffice.CRM.Services.LicenseOwner.Description
   isExternal: true
+  href: SuperOffice.CRM.Services.LicenseOwner.html#SuperOffice_CRM_Services_LicenseOwner_Description
   name: Description
   nameWithType: LicenseOwner.Description
   fullName: SuperOffice.CRM.Services.LicenseOwner.Description
 - uid: SuperOffice.CRM.Services.LicenseOwner.RestrictedModuleLicenses*
   commentId: Overload:SuperOffice.CRM.Services.LicenseOwner.RestrictedModuleLicenses
   isExternal: true
+  href: SuperOffice.CRM.Services.LicenseOwner.html#SuperOffice_CRM_Services_LicenseOwner_RestrictedModuleLicenses
   name: RestrictedModuleLicenses
   nameWithType: LicenseOwner.RestrictedModuleLicenses
   fullName: SuperOffice.CRM.Services.LicenseOwner.RestrictedModuleLicenses
 - uid: SuperOffice.CRM.Services.ModuleLicenseLink[]
   isExternal: true
+  href: SuperOffice.CRM.Services.ModuleLicenseLink.html
   name: ModuleLicenseLink[]
   nameWithType: ModuleLicenseLink[]
   fullName: SuperOffice.CRM.Services.ModuleLicenseLink[]
@@ -446,24 +484,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.ModuleLicenseLink
     name: ModuleLicenseLink
-    nameWithType: ModuleLicenseLink
-    fullName: SuperOffice.CRM.Services.ModuleLicenseLink
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.ModuleLicenseLink.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.ModuleLicenseLink
     name: ModuleLicenseLink
-    nameWithType: ModuleLicenseLink
-    fullName: SuperOffice.CRM.Services.ModuleLicenseLink
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.Services.ModuleLicenseLink.html
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.LicenseOwner.UnrestrictedModuleLicenses*
   commentId: Overload:SuperOffice.CRM.Services.LicenseOwner.UnrestrictedModuleLicenses
   isExternal: true
+  href: SuperOffice.CRM.Services.LicenseOwner.html#SuperOffice_CRM_Services_LicenseOwner_UnrestrictedModuleLicenses
   name: UnrestrictedModuleLicenses
   nameWithType: LicenseOwner.UnrestrictedModuleLicenses
   fullName: SuperOffice.CRM.Services.LicenseOwner.UnrestrictedModuleLicenses

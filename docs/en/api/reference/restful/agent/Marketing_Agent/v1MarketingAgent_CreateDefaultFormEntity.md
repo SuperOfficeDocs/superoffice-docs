@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,38 +89,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 750,
-  "FormKey": "et",
-  "Name": "Klocko-Nolan",
-  "Description": "Up-sized bi-directional open architecture",
-  "Config": "repudiandae",
-  "FolderId": 701,
-  "ScriptId": 186,
-  "ResponseShipmentId": 202,
-  "Active": false,
-  "Expires": "2000-10-20T16:32:39.3363462+02:00",
-  "MaxSubmits": 706,
+  "FormId": 234,
+  "FormKey": "saepe",
+  "Name": "Wolff-Hilll",
+  "Description": "Quality-focused systemic interface",
+  "Config": "fugiat",
+  "FolderId": 727,
+  "ScriptId": 342,
+  "ResponseShipmentId": 736,
+  "Active": true,
+  "Expires": "2021-09-30T17:54:03.3202006+02:00",
+  "MaxSubmits": 156,
   "Type": "Normal",
-  "Recipe": "atque",
-  "GroupId": 147,
+  "Recipe": "qui",
+  "GroupId": 173,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2022-10-11T16:32:39.3363462+02:00",
-  "RegisteredAssociateId": 648,
-  "Updated": "2003-02-13T16:32:39.3363462+01:00",
-  "UpdatedAssociateId": 858,
-  "UpdatedCount": 404,
+  "Registered": "2022-08-19T17:54:03.3202006+02:00",
+  "RegisteredAssociateId": 459,
+  "Updated": "1999-11-06T17:54:03.3202006+01:00",
+  "UpdatedAssociateId": 308,
+  "UpdatedCount": 172,
   "EmailFlows": [
-    160,
-    538
+    776,
+    366
   ],
-  "FolderName": "Quigley, Schroeder and Ziemann",
+  "FolderName": "Fahey Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 941
+      "FieldLength": 386
     }
   }
 }

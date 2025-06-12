@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "rem",
-    "optio"
+    "voluptatibus",
+    "asperiores"
   ]
 }
 ```
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Runolfsson-Hamill",
-    "Delimiter": "delectus",
-    "Flags": "officiis",
-    "TotalItems": 953,
-    "UnreadItems": 549,
-    "Subscribed": true,
-    "EmailFolderId": 774,
+    "Name": "Price, McCullough and Goodwin",
+    "Delimiter": "ipsum",
+    "Flags": "aut",
+    "TotalItems": 633,
+    "UnreadItems": 976,
+    "Subscribed": false,
+    "EmailFolderId": 715,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 406
+        "FieldLength": 185
       }
     }
   }

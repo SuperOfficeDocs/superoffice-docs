@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Preference": null,
-  "RemoveLowerLevels": false
+  "RemoveLowerLevels": true
 }
 ```
 
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "sed",
+  "RawValue": "necessitatibus",
   "Specification": null,
-  "DisplayValue": "nihil",
-  "DisplayTooltip": "et",
+  "DisplayValue": "maxime",
+  "DisplayTooltip": "amet",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 488,
-  "PrefDescId": 571,
-  "TableName": "Gibson-Ortiz",
-  "UserPreferenceId": 691,
+  "TargetId": 392,
+  "PrefDescId": 295,
+  "TableName": "Medhurst, Bahringer and Block",
+  "UserPreferenceId": 397,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 933
+      "FieldType": "System.String",
+      "FieldLength": 671
     }
   }
 }

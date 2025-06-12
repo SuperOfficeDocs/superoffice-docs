@@ -1,0 +1,562 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Principal.ShortClaimNames
+  commentId: T:SuperOffice.Security.Principal.ShortClaimNames
+  id: ShortClaimNames
+  parent: SuperOffice.Security.Principal
+  children:
+  - SuperOffice.Security.Principal.ShortClaimNames.Associate
+  - SuperOffice.Security.Principal.ShortClaimNames.AssociateId
+  - SuperOffice.Security.Principal.ShortClaimNames.ContextIdentifier
+  - SuperOffice.Security.Principal.ShortClaimNames.CredentialsId
+  - SuperOffice.Security.Principal.ShortClaimNames.ImpersonatingAssociate
+  - SuperOffice.Security.Principal.ShortClaimNames.SuperId
+  - SuperOffice.Security.Principal.ShortClaimNames.SuperIdUserCandidateIdentifier
+  - SuperOffice.Security.Principal.ShortClaimNames.Ticket
+  - SuperOffice.Security.Principal.ShortClaimNames.UserName
+  - SuperOffice.Security.Principal.ShortClaimNames.UserType
+  langs:
+  - csharp
+  - vb
+  name: ShortClaimNames
+  nameWithType: ShortClaimNames
+  fullName: SuperOffice.Security.Principal.ShortClaimNames
+  type: Class
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Short claim names used in the internal Identity of NetServer
+  example: []
+  syntax:
+    content: public static class ShortClaimNames
+    content.vb: Public Module ShortClaimNames
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.Security.Principal.ShortClaimNames.Associate
+  commentId: F:SuperOffice.Security.Principal.ShortClaimNames.Associate
+  id: Associate
+  parent: SuperOffice.Security.Principal.ShortClaimNames
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: ShortClaimNames.Associate
+  fullName: SuperOffice.Security.Principal.ShortClaimNames.Associate
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Claim type for the Associate.Name property
+  example: []
+  syntax:
+    content: public const string Associate = "soassoc"
+    return:
+      type: System.String
+    content.vb: Public Const Associate As String = "soassoc"
+- uid: SuperOffice.Security.Principal.ShortClaimNames.AssociateId
+  commentId: F:SuperOffice.Security.Principal.ShortClaimNames.AssociateId
+  id: AssociateId
+  parent: SuperOffice.Security.Principal.ShortClaimNames
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: ShortClaimNames.AssociateId
+  fullName: SuperOffice.Security.Principal.ShortClaimNames.AssociateId
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Claim type for the Associate.Id property
+  example: []
+  syntax:
+    content: public const string AssociateId = "soaid"
+    return:
+      type: System.String
+    content.vb: Public Const AssociateId As String = "soaid"
+- uid: SuperOffice.Security.Principal.ShortClaimNames.ContextIdentifier
+  commentId: F:SuperOffice.Security.Principal.ShortClaimNames.ContextIdentifier
+  id: ContextIdentifier
+  parent: SuperOffice.Security.Principal.ShortClaimNames
+  langs:
+  - csharp
+  - vb
+  name: ContextIdentifier
+  nameWithType: ShortClaimNames.ContextIdentifier
+  fullName: SuperOffice.Security.Principal.ShortClaimNames.ContextIdentifier
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Claim type fort the users Context Identifier.
+  example: []
+  syntax:
+    content: public const string ContextIdentifier = "soctx"
+    return:
+      type: System.String
+    content.vb: Public Const ContextIdentifier As String = "soctx"
+- uid: SuperOffice.Security.Principal.ShortClaimNames.UserName
+  commentId: F:SuperOffice.Security.Principal.ShortClaimNames.UserName
+  id: UserName
+  parent: SuperOffice.Security.Principal.ShortClaimNames
+  langs:
+  - csharp
+  - vb
+  name: UserName
+  nameWithType: ShortClaimNames.UserName
+  fullName: SuperOffice.Security.Principal.ShortClaimNames.UserName
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Claim type for Assoiate.UserName
+  example: []
+  syntax:
+    content: public const string UserName = "soupn"
+    return:
+      type: System.String
+    content.vb: Public Const UserName As String = "soupn"
+- uid: SuperOffice.Security.Principal.ShortClaimNames.UserType
+  commentId: F:SuperOffice.Security.Principal.ShortClaimNames.UserType
+  id: UserType
+  parent: SuperOffice.Security.Principal.ShortClaimNames
+  langs:
+  - csharp
+  - vb
+  name: UserType
+  nameWithType: ShortClaimNames.UserType
+  fullName: SuperOffice.Security.Principal.ShortClaimNames.UserType
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Claim type for the users <xref href="SuperOffice.License.UserType" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public const string UserType = "sout"
+    return:
+      type: System.String
+    content.vb: Public Const UserType As String = "sout"
+- uid: SuperOffice.Security.Principal.ShortClaimNames.Ticket
+  commentId: F:SuperOffice.Security.Principal.ShortClaimNames.Ticket
+  id: Ticket
+  parent: SuperOffice.Security.Principal.ShortClaimNames
+  langs:
+  - csharp
+  - vb
+  name: Ticket
+  nameWithType: ShortClaimNames.Ticket
+  fullName: SuperOffice.Security.Principal.ShortClaimNames.Ticket
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public const string Ticket = "soticket"
+    return:
+      type: System.String
+    content.vb: Public Const Ticket As String = "soticket"
+- uid: SuperOffice.Security.Principal.ShortClaimNames.CredentialsId
+  commentId: F:SuperOffice.Security.Principal.ShortClaimNames.CredentialsId
+  id: CredentialsId
+  parent: SuperOffice.Security.Principal.ShortClaimNames
+  langs:
+  - csharp
+  - vb
+  name: CredentialsId
+  nameWithType: ShortClaimNames.CredentialsId
+  fullName: SuperOffice.Security.Principal.ShortClaimNames.CredentialsId
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public const string CredentialsId = "socrid"
+    return:
+      type: System.String
+    content.vb: Public Const CredentialsId As String = "socrid"
+- uid: SuperOffice.Security.Principal.ShortClaimNames.ImpersonatingAssociate
+  commentId: F:SuperOffice.Security.Principal.ShortClaimNames.ImpersonatingAssociate
+  id: ImpersonatingAssociate
+  parent: SuperOffice.Security.Principal.ShortClaimNames
+  langs:
+  - csharp
+  - vb
+  name: ImpersonatingAssociate
+  nameWithType: ShortClaimNames.ImpersonatingAssociate
+  fullName: SuperOffice.Security.Principal.ShortClaimNames.ImpersonatingAssociate
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public const string ImpersonatingAssociate = "soimpassoc"
+    return:
+      type: System.String
+    content.vb: Public Const ImpersonatingAssociate As String = "soimpassoc"
+- uid: SuperOffice.Security.Principal.ShortClaimNames.SuperId
+  commentId: F:SuperOffice.Security.Principal.ShortClaimNames.SuperId
+  id: SuperId
+  parent: SuperOffice.Security.Principal.ShortClaimNames
+  langs:
+  - csharp
+  - vb
+  name: SuperId
+  nameWithType: ShortClaimNames.SuperId
+  fullName: SuperOffice.Security.Principal.ShortClaimNames.SuperId
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public const string SuperId = "soid"
+    return:
+      type: System.String
+    content.vb: Public Const SuperId As String = "soid"
+- uid: SuperOffice.Security.Principal.ShortClaimNames.SuperIdUserCandidateIdentifier
+  commentId: F:SuperOffice.Security.Principal.ShortClaimNames.SuperIdUserCandidateIdentifier
+  id: SuperIdUserCandidateIdentifier
+  parent: SuperOffice.Security.Principal.ShortClaimNames
+  langs:
+  - csharp
+  - vb
+  name: SuperIdUserCandidateIdentifier
+  nameWithType: ShortClaimNames.SuperIdUserCandidateIdentifier
+  fullName: SuperOffice.Security.Principal.ShortClaimNames.SuperIdUserCandidateIdentifier
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public const string SuperIdUserCandidateIdentifier = "soucid"
+    return:
+      type: System.String
+    content.vb: Public Const SuperIdUserCandidateIdentifier As String = "soucid"
+references:
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Principal
+    name: Principal
+    isExternal: true
+    href: SuperOffice.Security.Principal.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Principal
+    name: Principal
+    isExternal: true
+    href: SuperOffice.Security.Principal.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.License.UserType
+  commentId: T:SuperOffice.License.UserType
+  parent: SuperOffice.License
+  isExternal: true
+  name: UserType
+  nameWithType: UserType
+  fullName: SuperOffice.License.UserType
+- uid: SuperOffice.License
+  commentId: N:SuperOffice.License
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.License
+  nameWithType: SuperOffice.License
+  fullName: SuperOffice.License
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.License
+    name: License
+    isExternal: true
+    href: SuperOffice.License.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.License
+    name: License
+    isExternal: true
+    href: SuperOffice.License.html

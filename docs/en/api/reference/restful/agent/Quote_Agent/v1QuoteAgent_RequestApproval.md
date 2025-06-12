@@ -80,13 +80,13 @@ OK
 POST /api/v1/Agents/Quote/RequestApproval
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 86,
-  "AssociateId": 227,
-  "Comment": "modi"
+  "QuoteVersionId": 14,
+  "AssociateId": 119,
+  "Comment": "et"
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "delectus",
-  "TechExplanation": "eveniet",
-  "ErrorCode": "magni",
+  "IsOk": true,
+  "UserExplanation": "minima",
+  "TechExplanation": "non",
+  "ErrorCode": "aut",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldType": "System.String",
+      "FieldLength": 781
     }
   }
 }

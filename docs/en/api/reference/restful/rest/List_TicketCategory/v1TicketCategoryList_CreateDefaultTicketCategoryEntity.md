@@ -82,36 +82,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 174,
-  "ParentId": 389,
-  "Name": "Harber LLC",
-  "Fullname": "sunt",
-  "CategoryMaster": 740,
+  "TicketCategoryId": 154,
+  "ParentId": 24,
+  "Name": "Marvin, Parisian and Runte",
+  "Fullname": "et",
+  "CategoryMaster": 508,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Wiza Inc and Sons",
+  "ExternalName": "Beatty, Rath and Olson",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 580,
-  "ReplyTemplate": 628,
-  "NotificationEmail": "dean@walsh.com",
+  "AssignmentLag": 866,
+  "ReplyTemplate": 50,
+  "NotificationEmail": "allison.schulist@marvin.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 342,
+  "EffectiveReplyTemplateId": 575,
   "ExtraFields": {
-    "ExtraFields1": "provident",
-    "ExtraFields2": "fugit"
+    "ExtraFields1": "autem",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "laborum"
+    "CustomFields1": "quia",
+    "CustomFields2": "optio"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 617
+      "FieldType": "System.String",
+      "FieldLength": 32
     }
   }
 }

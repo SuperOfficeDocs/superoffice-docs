@@ -5,8 +5,8 @@ items:
   id: TicketPriorityResolver
   parent: SuperOffice.CRM.Ticket
   children:
-  - SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriority(System.Int32)
-  - SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriority(System.Int32,System.Int32)
+  - SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriorityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriorityAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -14,141 +14,547 @@ items:
   nameWithType: TicketPriorityResolver
   fullName: SuperOffice.CRM.Ticket.TicketPriorityResolver
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
   syntax:
-    content: 'public static class TicketPriorityResolver : Object'
-    content.vb: >-
-      Public Module TicketPriorityResolver
-          Inherits Object
+    content: public static class TicketPriorityResolver
+    content.vb: Public Module TicketPriorityResolver
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
-- uid: SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriority(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriority(System.Int32,System.Int32)
-  id: ResolvePriority(System.Int32,System.Int32)
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriorityAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriorityAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: ResolvePriorityAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Ticket.TicketPriorityResolver
   langs:
   - csharp
   - vb
-  name: ResolvePriority(Int32, Int32)
-  nameWithType: TicketPriorityResolver.ResolvePriority(Int32, Int32)
-  fullName: SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriority(System.Int32, System.Int32)
+  name: ResolvePriorityAsync(int, int, CancellationToken)
+  nameWithType: TicketPriorityResolver.ResolvePriorityAsync(int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriorityAsync(int, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
   syntax:
-    content: public static int ResolvePriority(int priorityId, int personId)
+    content: public static Task<int> ResolvePriorityAsync(int priorityId, int personId, CancellationToken cancellationToken = default)
     parameters:
     - id: priorityId
       type: System.Int32
     - id: personId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Shared Function ResolvePriority(priorityId As Integer, personId As Integer) As Integer
-  overload: SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriority*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriority(System.Int32)
-  commentId: M:SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriority(System.Int32)
-  id: GetPriority(System.Int32)
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function ResolvePriorityAsync(priorityId As Integer, personId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriorityAsync*
+  nameWithType.vb: TicketPriorityResolver.ResolvePriorityAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriorityAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: ResolvePriorityAsync(Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriorityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriorityAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetPriorityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Ticket.TicketPriorityResolver
   langs:
   - csharp
   - vb
-  name: GetPriority(Int32)
-  nameWithType: TicketPriorityResolver.GetPriority(Int32)
-  fullName: SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriority(System.Int32)
+  name: GetPriorityAsync(int, CancellationToken)
+  nameWithType: TicketPriorityResolver.GetPriorityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriorityAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
   syntax:
-    content: public static TicketPriorityRecordData GetPriority(int priorityId)
+    content: public static Task<TicketPriorityRecordData> GetPriorityAsync(int priorityId, CancellationToken cancellationToken = default)
     parameters:
     - id: priorityId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.TicketPriorityRecordData
-    content.vb: Public Shared Function GetPriority(priorityId As Integer) As TicketPriorityRecordData
-  overload: SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriority*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.TicketPriorityRecordData}
+    content.vb: Public Shared Function GetPriorityAsync(priorityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TicketPriorityRecordData)
+  overload: SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriorityAsync*
+  nameWithType.vb: TicketPriorityResolver.GetPriorityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriorityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetPriorityAsync(Integer, CancellationToken)
 references:
 - uid: SuperOffice.CRM.Ticket
   commentId: N:SuperOffice.CRM.Ticket
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Ticket
   nameWithType: SuperOffice.CRM.Ticket
   fullName: SuperOffice.CRM.Ticket
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Ticket
+    name: Ticket
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Ticket
+    name: Ticket
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriority*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriority
+- uid: SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriorityAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriorityAsync
   isExternal: true
-  name: ResolvePriority
-  nameWithType: TicketPriorityResolver.ResolvePriority
-  fullName: SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriority
+  href: SuperOffice.CRM.Ticket.TicketPriorityResolver.html#SuperOffice_CRM_Ticket_TicketPriorityResolver_ResolvePriorityAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: ResolvePriorityAsync
+  nameWithType: TicketPriorityResolver.ResolvePriorityAsync
+  fullName: SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriorityAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriority*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriority
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: GetPriority
-  nameWithType: TicketPriorityResolver.GetPriority
-  fullName: SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriority
-- uid: SuperOffice.CRM.Rows.TicketPriorityRecordData
-  commentId: T:SuperOffice.CRM.Rows.TicketPriorityRecordData
-  parent: SuperOffice.CRM.Rows
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: TicketPriorityRecordData
-  nameWithType: TicketPriorityRecordData
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRecordData
-- uid: SuperOffice.CRM.Rows
-  commentId: N:SuperOffice.CRM.Rows
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: SuperOffice.CRM.Rows
-  nameWithType: SuperOffice.CRM.Rows
-  fullName: SuperOffice.CRM.Rows
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriorityAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriorityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketPriorityResolver.html#SuperOffice_CRM_Ticket_TicketPriorityResolver_GetPriorityAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetPriorityAsync
+  nameWithType: TicketPriorityResolver.GetPriorityAsync
+  fullName: SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriorityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.TicketPriorityRecordData}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.TicketPriorityRecordData}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TicketPriorityRecordData>
+  nameWithType: Task<TicketPriorityRecordData>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.TicketPriorityRecordData>
+  nameWithType.vb: Task(Of TicketPriorityRecordData)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.TicketPriorityRecordData)
+  name.vb: Task(Of TicketPriorityRecordData)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.TicketPriorityRecordData
+    name: TicketPriorityRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketPriorityRecordData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.TicketPriorityRecordData
+    name: TicketPriorityRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketPriorityRecordData.html
+  - name: )

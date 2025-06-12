@@ -44,20 +44,25 @@ items:
   nameWithType: ProjectEventEntity
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for ProjectEventEntity.\nThe ProjectEvent Service. The service implements all services working with the ProjectEvent object    \n"
+  summary: >-
+    Carrier object for ProjectEventEntity.
+
+    The ProjectEvent Service. The service implements all services working with the ProjectEvent object
   example:
-  - "\nGet ProjectEventEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ProjectAgent(configuration);\nvar projectEventEntity = agent.GetProjectEventEntity( 123 );</code></pre>\n"
+  - >-
+    Get ProjectEventEntity 123 using the WebApi client:
+
+    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
+
+    var agent = new ProjectAgent(configuration);
+
+    var projectEventEntity = agent.GetProjectEventEntity( 123 );</code></pre>
   syntax:
     content: 'public class ProjectEventEntity : Carrier'
-    content.vb: >-
-      Public Class ProjectEventEntity
-          Inherits Carrier
+    content.vb: Public Class ProjectEventEntity Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.ProjectAgent
     commentId: T:SuperOffice.WebApi.Agents.ProjectAgent
@@ -67,12 +72,13 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.#ctor
   commentId: M:SuperOffice.WebApi.Data.ProjectEventEntity.#ctor
   id: '#ctor'
@@ -84,21 +90,18 @@ items:
   nameWithType: ProjectEventEntity.ProjectEventEntity()
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.ProjectEventEntity()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public ProjectEventEntity()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ProjectEventEntity.New()
+  fullName.vb: SuperOffice.WebApi.Data.ProjectEventEntity.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.SignOffConfirmationText
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.SignOffConfirmationText
   id: SignOffConfirmationText
@@ -110,13 +113,11 @@ items:
   nameWithType: ProjectEventEntity.SignOffConfirmationText
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.SignOffConfirmationText
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nText shown as confirmation text before accepting sign off.\n"
+  summary: Text shown as confirmation text before accepting sign off.
+  example: []
   syntax:
     content: public virtual string SignOffConfirmationText { get; set; }
     parameters: []
@@ -124,14 +125,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property SignOffConfirmationText As String
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.SignOffConfirmationText*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.SignOffText
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.SignOffText
   id: SignOffText
@@ -143,13 +136,11 @@ items:
   nameWithType: ProjectEventEntity.SignOffText
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.SignOffText
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault text for the activity created when signing off.\n"
+  summary: Default text for the activity created when signing off.
+  example: []
   syntax:
     content: public virtual string SignOffText { get; set; }
     parameters: []
@@ -157,14 +148,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property SignOffText As String
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.SignOffText*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.SignOnConfirmationText
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.SignOnConfirmationText
   id: SignOnConfirmationText
@@ -176,13 +159,11 @@ items:
   nameWithType: ProjectEventEntity.SignOnConfirmationText
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.SignOnConfirmationText
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nText shown as confirmation text before accepting sign on.\n"
+  summary: Text shown as confirmation text before accepting sign on.
+  example: []
   syntax:
     content: public virtual string SignOnConfirmationText { get; set; }
     parameters: []
@@ -190,14 +171,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property SignOnConfirmationText As String
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.SignOnConfirmationText*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.SignOnText
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.SignOnText
   id: SignOnText
@@ -209,13 +182,11 @@ items:
   nameWithType: ProjectEventEntity.SignOnText
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.SignOnText
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault text for the activity created when signing on.\n"
+  summary: Default text for the activity created when signing on.
+  example: []
   syntax:
     content: public virtual string SignOnText { get; set; }
     parameters: []
@@ -223,14 +194,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property SignOnText As String
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.SignOnText*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.EventDate
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.EventDate
   id: EventDate
@@ -242,28 +205,18 @@ items:
   nameWithType: ProjectEventEntity.EventDate
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.EventDate
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDateof the event; publishing/visibility dates are in Publish, and restrictions are in AudienceVisibility\n"
+  summary: Dateof the event; publishing/visibility dates are in Publish, and restrictions are in AudienceVisibility
+  example: []
   syntax:
     content: public virtual DateTime EventDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property EventDate As DateTime
+    content.vb: Public Overridable Property EventDate As Date
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.EventDate*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.Enabled
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.Enabled
   id: Enabled
@@ -275,13 +228,11 @@ items:
   nameWithType: ProjectEventEntity.Enabled
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.Enabled
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nIs the event enabled\n"
+  summary: Is the event enabled
+  example: []
   syntax:
     content: public virtual bool Enabled { get; set; }
     parameters: []
@@ -289,14 +240,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property Enabled As Boolean
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.Enabled*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.CreatedDate
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.CreatedDate
   id: CreatedDate
@@ -308,28 +251,18 @@ items:
   nameWithType: ProjectEventEntity.CreatedDate
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.CreatedDate
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nRegistered when\n"
+  summary: Registered when
+  example: []
   syntax:
     content: public virtual DateTime CreatedDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property CreatedDate As DateTime
+    content.vb: Public Overridable Property CreatedDate As Date
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.CreatedDate*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.SignOff
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.SignOff
   id: SignOff
@@ -341,13 +274,11 @@ items:
   nameWithType: ProjectEventEntity.SignOff
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.SignOff
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nIs Sign Off functionality enabled?\n"
+  summary: Is Sign Off functionality enabled?
+  example: []
   syntax:
     content: public virtual bool SignOff { get; set; }
     parameters: []
@@ -355,14 +286,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property SignOff As Boolean
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.SignOff*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.SignOffTaskEnable
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.SignOffTaskEnable
   id: SignOffTaskEnable
@@ -374,13 +297,11 @@ items:
   nameWithType: ProjectEventEntity.SignOffTaskEnable
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.SignOffTaskEnable
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nIf not 0, a task should be created when the external user Signs Off an event\n"
+  summary: If not 0, a task should be created when the external user Signs Off an event
+  example: []
   syntax:
     content: public virtual bool SignOffTaskEnable { get; set; }
     parameters: []
@@ -388,14 +309,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property SignOffTaskEnable As Boolean
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.SignOffTaskEnable*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.SignOffTaskId
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.SignOffTaskId
   id: SignOffTaskId
@@ -407,13 +320,11 @@ items:
   nameWithType: ProjectEventEntity.SignOffTaskId
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.SignOffTaskId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nIf not 0, sign off should cause an Activity of this type to be registered\n"
+  summary: If not 0, sign off should cause an Activity of this type to be registered
+  example: []
   syntax:
     content: public virtual int SignOffTaskId { get; set; }
     parameters: []
@@ -421,14 +332,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property SignOffTaskId As Integer
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.SignOffTaskId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.SignOffTriggersAssign
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.SignOffTriggersAssign
   id: SignOffTriggersAssign
@@ -440,13 +343,11 @@ items:
   nameWithType: ProjectEventEntity.SignOffTriggersAssign
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.SignOffTriggersAssign
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nIf 1, the SignOff task should be created as an Assigned task, triggering the invitation dialog\n"
+  summary: If 1, the SignOff task should be created as an Assigned task, triggering the invitation dialog
+  example: []
   syntax:
     content: public virtual bool SignOffTriggersAssign { get; set; }
     parameters: []
@@ -454,14 +355,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property SignOffTriggersAssign As Boolean
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.SignOffTriggersAssign*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.SignOn
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.SignOn
   id: SignOn
@@ -473,13 +366,11 @@ items:
   nameWithType: ProjectEventEntity.SignOn
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.SignOn
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nIs Sign On functionality enabled\n"
+  summary: Is Sign On functionality enabled
+  example: []
   syntax:
     content: public virtual bool SignOn { get; set; }
     parameters: []
@@ -487,14 +378,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property SignOn As Boolean
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.SignOn*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.SignOnTaskEnable
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.SignOnTaskEnable
   id: SignOnTaskEnable
@@ -506,13 +389,11 @@ items:
   nameWithType: ProjectEventEntity.SignOnTaskEnable
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.SignOnTaskEnable
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nIf not 0, a task should be created when the external user Signs On to an event\n"
+  summary: If not 0, a task should be created when the external user Signs On to an event
+  example: []
   syntax:
     content: public virtual bool SignOnTaskEnable { get; set; }
     parameters: []
@@ -520,14 +401,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property SignOnTaskEnable As Boolean
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.SignOnTaskEnable*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.SignOnTaskId
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.SignOnTaskId
   id: SignOnTaskId
@@ -539,13 +412,11 @@ items:
   nameWithType: ProjectEventEntity.SignOnTaskId
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.SignOnTaskId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nIf not 0, sign on should cause an Activity of this type to be registered\n"
+  summary: If not 0, sign on should cause an Activity of this type to be registered
+  example: []
   syntax:
     content: public virtual int SignOnTaskId { get; set; }
     parameters: []
@@ -553,14 +424,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property SignOnTaskId As Integer
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.SignOnTaskId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.SignOnTriggersAssign
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.SignOnTriggersAssign
   id: SignOnTriggersAssign
@@ -572,13 +435,11 @@ items:
   nameWithType: ProjectEventEntity.SignOnTriggersAssign
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.SignOnTriggersAssign
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nIf 1, the SignOn task should be created as an Assigned task, triggering the invitation dialog\n"
+  summary: If 1, the SignOn task should be created as an Assigned task, triggering the invitation dialog
+  example: []
   syntax:
     content: public virtual bool SignOnTriggersAssign { get; set; }
     parameters: []
@@ -586,14 +447,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property SignOnTriggersAssign As Boolean
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.SignOnTriggersAssign*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.UpdatedDate
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.UpdatedDate
   id: UpdatedDate
@@ -605,28 +458,18 @@ items:
   nameWithType: ProjectEventEntity.UpdatedDate
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.UpdatedDate
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nLast updated when\n"
+  summary: Last updated when
+  example: []
   syntax:
     content: public virtual DateTime UpdatedDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property UpdatedDate As DateTime
+    content.vb: Public Overridable Property UpdatedDate As Date
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.UpdatedDate*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.CreatedBy
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.CreatedBy
   id: CreatedBy
@@ -638,13 +481,11 @@ items:
   nameWithType: ProjectEventEntity.CreatedBy
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.CreatedBy
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe person that created the projectevent\n"
+  summary: The person that created the projectevent
+  example: []
   syntax:
     content: public virtual Associate CreatedBy { get; set; }
     parameters: []
@@ -652,14 +493,6 @@ items:
       type: SuperOffice.WebApi.Data.Associate
     content.vb: Public Overridable Property CreatedBy As Associate
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.CreatedBy*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.UpdatedBy
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.UpdatedBy
   id: UpdatedBy
@@ -671,13 +504,11 @@ items:
   nameWithType: ProjectEventEntity.UpdatedBy
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.UpdatedBy
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe person that last updated the projectevent\n"
+  summary: The person that last updated the projectevent
+  example: []
   syntax:
     content: public virtual Associate UpdatedBy { get; set; }
     parameters: []
@@ -685,14 +516,6 @@ items:
       type: SuperOffice.WebApi.Data.Associate
     content.vb: Public Overridable Property UpdatedBy As Associate
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.UpdatedBy*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.ProjectId
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.ProjectId
   id: ProjectId
@@ -704,13 +527,11 @@ items:
   nameWithType: ProjectEventEntity.ProjectId
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.ProjectId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe projectId for the project this projectEvent belongs to\n"
+  summary: The projectId for the project this projectEvent belongs to
+  example: []
   syntax:
     content: public virtual int ProjectId { get; set; }
     parameters: []
@@ -718,14 +539,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ProjectId As Integer
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.ProjectId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.Id
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.Id
   id: Id
@@ -737,13 +550,11 @@ items:
   nameWithType: ProjectEventEntity.Id
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.Id
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nId of the external event\n"
+  summary: Id of the external event
+  example: []
   syntax:
     content: public virtual int Id { get; set; }
     parameters: []
@@ -751,14 +562,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property Id As Integer
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.Id*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.PublishFrom
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.PublishFrom
   id: PublishFrom
@@ -770,28 +573,18 @@ items:
   nameWithType: ProjectEventEntity.PublishFrom
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.PublishFrom
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nPublication valid from (inclusive)\n"
+  summary: Publication valid from (inclusive)
+  example: []
   syntax:
     content: public virtual DateTime PublishFrom { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property PublishFrom As DateTime
+    content.vb: Public Overridable Property PublishFrom As Date
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.PublishFrom*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.PublishType_String
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.PublishType_String
   id: PublishType_String
@@ -803,29 +596,36 @@ items:
   nameWithType: ProjectEventEntity.PublishType_String
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.PublishType_String
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nType of publishing action, 0 = Unknown, 1 = to external persons\nRaw string enum value.\n"
+  summary: >-
+    Type of publishing action, 0 = Unknown, 1 = to external persons
+
+    Raw string enum value.
+  example: []
   syntax:
-    content: public string PublishType_String { get; set; }
+    content: >-
+      [JsonProperty("PublishType")]
+
+      public string PublishType_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property PublishType_String As String
+    content.vb: >-
+      <JsonProperty("PublishType")>
+
+      Public Property PublishType_String As String
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.PublishType_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.ProjectEventEntity.PublishType
     commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.PublishType
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: PublishType
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.PublishType
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.PublishType
   id: PublishType
@@ -837,29 +637,34 @@ items:
   nameWithType: ProjectEventEntity.PublishType
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.PublishType
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nType of publishing action, 0 = Unknown, 1 = to external persons\nNULL if unknown enum value.\n"
+  summary: >-
+    Type of publishing action, 0 = Unknown, 1 = to external persons
+
+    NULL if unknown enum value.
+  example: []
   syntax:
-    content: public Nullable<PublishType> PublishType { get; set; }
+    content: >-
+      [JsonIgnore]
+
+      public PublishType? PublishType { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.PublishType}
-    content.vb: Public Property PublishType As Nullable(Of PublishType)
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property PublishType As PublishType?
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.PublishType*
   seealso:
   - linkId: SuperOffice.WebApi.Data.ProjectEventEntity.PublishType_String
     commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.PublishType_String
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.PublishTo
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.PublishTo
   id: PublishTo
@@ -871,28 +676,18 @@ items:
   nameWithType: ProjectEventEntity.PublishTo
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.PublishTo
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nPublication valid to (inclusive)\n"
+  summary: Publication valid to (inclusive)
+  example: []
   syntax:
     content: public virtual DateTime PublishTo { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property PublishTo As DateTime
+    content.vb: Public Overridable Property PublishTo As Date
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.PublishTo*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.VisibleForCategories
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.VisibleForCategories
   id: VisibleForCategories
@@ -904,13 +699,11 @@ items:
   nameWithType: ProjectEventEntity.VisibleForCategories
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.VisibleForCategories
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nArray of categories that the event is visible for. MDO Table &quot;category&quot;.\n"
+  summary: Array of categories that the event is visible for. MDO Table "category".
+  example: []
   syntax:
     content: public virtual MDOListItem[] VisibleForCategories { get; set; }
     parameters: []
@@ -918,14 +711,6 @@ items:
       type: SuperOffice.WebApi.Data.MDOListItem[]
     content.vb: Public Overridable Property VisibleForCategories As MDOListItem()
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.VisibleForCategories*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.VisibleForPersonInterests
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.VisibleForPersonInterests
   id: VisibleForPersonInterests
@@ -937,13 +722,11 @@ items:
   nameWithType: ProjectEventEntity.VisibleForPersonInterests
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.VisibleForPersonInterests
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nArray of person interests (MDO table &quot;persint&quot;) that this event is visible for.\n"
+  summary: Array of person interests (MDO table "persint") that this event is visible for.
+  example: []
   syntax:
     content: public virtual MDOListItem[] VisibleForPersonInterests { get; set; }
     parameters: []
@@ -951,14 +734,6 @@ items:
       type: SuperOffice.WebApi.Data.MDOListItem[]
     content.vb: Public Overridable Property VisibleForPersonInterests As MDOListItem()
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.VisibleForPersonInterests*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.IsPublished
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.IsPublished
   id: IsPublished
@@ -970,13 +745,11 @@ items:
   nameWithType: ProjectEventEntity.IsPublished
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.IsPublished
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nPublish to external users? When true, the event/project information is visible to external users through the Audience portal. You can control the publish duration using the PublishFrom/PublishTo properties.\n"
+  summary: Publish to external users? When true, the event/project information is visible to external users through the Audience portal. You can control the publish duration using the PublishFrom/PublishTo properties.
+  example: []
   syntax:
     content: public virtual bool IsPublished { get; set; }
     parameters: []
@@ -984,14 +757,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property IsPublished As Boolean
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.IsPublished*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.IsVisibleForMembers
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.IsVisibleForMembers
   id: IsVisibleForMembers
@@ -1003,13 +768,11 @@ items:
   nameWithType: ProjectEventEntity.IsVisibleForMembers
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.IsVisibleForMembers
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public virtual bool IsVisibleForMembers { get; set; }
     parameters: []
@@ -1017,14 +780,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property IsVisibleForMembers As Boolean
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.IsVisibleForMembers*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.IsVisibleForCategories
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.IsVisibleForCategories
   id: IsVisibleForCategories
@@ -1036,13 +791,11 @@ items:
   nameWithType: ProjectEventEntity.IsVisibleForCategories
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.IsVisibleForCategories
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public virtual bool IsVisibleForCategories { get; set; }
     parameters: []
@@ -1050,14 +803,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property IsVisibleForCategories As Boolean
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.IsVisibleForCategories*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.IsVisibleForPersonInterests
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.IsVisibleForPersonInterests
   id: IsVisibleForPersonInterests
@@ -1069,13 +814,11 @@ items:
   nameWithType: ProjectEventEntity.IsVisibleForPersonInterests
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.IsVisibleForPersonInterests
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public virtual bool IsVisibleForPersonInterests { get; set; }
     parameters: []
@@ -1083,14 +826,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property IsVisibleForPersonInterests As Boolean
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.IsVisibleForPersonInterests*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.ProjectEventId
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.ProjectEventId
   id: ProjectEventId
@@ -1102,13 +837,11 @@ items:
   nameWithType: ProjectEventEntity.ProjectEventId
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.ProjectEventId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nPrimary key\n"
+  summary: Primary key
+  example: []
   syntax:
     content: public virtual int ProjectEventId { get; set; }
     parameters: []
@@ -1116,32 +849,67 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ProjectEventId As Integer
   overload: SuperOffice.WebApi.Data.ProjectEventEntity.ProjectEventId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
+- uid: SuperOffice.WebApi.Agents.ProjectAgent
+  commentId: T:SuperOffice.WebApi.Agents.ProjectAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ProjectAgent.html
+  name: ProjectAgent
+  nameWithType: ProjectAgent
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -1149,6 +917,7 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -1156,30 +925,250 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: SuperOffice.WebApi.Agents.ProjectAgent
-  commentId: T:SuperOffice.WebApi.Agents.ProjectAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: ProjectAgent
-  nameWithType: ProjectAgent
-  fullName: SuperOffice.WebApi.Agents.ProjectAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity__ctor
   name: ProjectEventEntity
   nameWithType: ProjectEventEntity.ProjectEventEntity
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.ProjectEventEntity
+  nameWithType.vb: ProjectEventEntity.New
+  fullName.vb: SuperOffice.WebApi.Data.ProjectEventEntity.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.SignOffConfirmationText*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.SignOffConfirmationText
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_SignOffConfirmationText
   name: SignOffConfirmationText
   nameWithType: ProjectEventEntity.SignOffConfirmationText
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.SignOffConfirmationText
@@ -1187,41 +1176,56 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.SignOffText*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.SignOffText
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_SignOffText
   name: SignOffText
   nameWithType: ProjectEventEntity.SignOffText
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.SignOffText
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.SignOnConfirmationText*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.SignOnConfirmationText
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_SignOnConfirmationText
   name: SignOnConfirmationText
   nameWithType: ProjectEventEntity.SignOnConfirmationText
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.SignOnConfirmationText
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.SignOnText*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.SignOnText
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_SignOnText
   name: SignOnText
   nameWithType: ProjectEventEntity.SignOnText
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.SignOnText
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.EventDate*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.EventDate
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_EventDate
   name: EventDate
   nameWithType: ProjectEventEntity.EventDate
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.EventDate
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.Enabled*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.Enabled
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_Enabled
   name: Enabled
   nameWithType: ProjectEventEntity.Enabled
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.Enabled
@@ -1229,30 +1233,38 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.CreatedDate*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.CreatedDate
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_CreatedDate
   name: CreatedDate
   nameWithType: ProjectEventEntity.CreatedDate
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.CreatedDate
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.SignOff*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.SignOff
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_SignOff
   name: SignOff
   nameWithType: ProjectEventEntity.SignOff
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.SignOff
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.SignOffTaskEnable*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.SignOffTaskEnable
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_SignOffTaskEnable
   name: SignOffTaskEnable
   nameWithType: ProjectEventEntity.SignOffTaskEnable
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.SignOffTaskEnable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.SignOffTaskId*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.SignOffTaskId
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_SignOffTaskId
   name: SignOffTaskId
   nameWithType: ProjectEventEntity.SignOffTaskId
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.SignOffTaskId
@@ -1260,48 +1272,59 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.SignOffTriggersAssign*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.SignOffTriggersAssign
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_SignOffTriggersAssign
   name: SignOffTriggersAssign
   nameWithType: ProjectEventEntity.SignOffTriggersAssign
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.SignOffTriggersAssign
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.SignOn*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.SignOn
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_SignOn
   name: SignOn
   nameWithType: ProjectEventEntity.SignOn
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.SignOn
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.SignOnTaskEnable*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.SignOnTaskEnable
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_SignOnTaskEnable
   name: SignOnTaskEnable
   nameWithType: ProjectEventEntity.SignOnTaskEnable
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.SignOnTaskEnable
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.SignOnTaskId*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.SignOnTaskId
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_SignOnTaskId
   name: SignOnTaskId
   nameWithType: ProjectEventEntity.SignOnTaskId
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.SignOnTaskId
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.SignOnTriggersAssign*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.SignOnTriggersAssign
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_SignOnTriggersAssign
   name: SignOnTriggersAssign
   nameWithType: ProjectEventEntity.SignOnTriggersAssign
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.SignOnTriggersAssign
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.UpdatedDate*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.UpdatedDate
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_UpdatedDate
   name: UpdatedDate
   nameWithType: ProjectEventEntity.UpdatedDate
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.UpdatedDate
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.CreatedBy*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.CreatedBy
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_CreatedBy
   name: CreatedBy
   nameWithType: ProjectEventEntity.CreatedBy
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.CreatedBy
@@ -1309,146 +1332,131 @@ references:
   commentId: T:SuperOffice.WebApi.Data.Associate
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Associate.html
   name: Associate
   nameWithType: Associate
   fullName: SuperOffice.WebApi.Data.Associate
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.UpdatedBy*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.UpdatedBy
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_UpdatedBy
   name: UpdatedBy
   nameWithType: ProjectEventEntity.UpdatedBy
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.UpdatedBy
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.ProjectId*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.ProjectId
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_ProjectId
   name: ProjectId
   nameWithType: ProjectEventEntity.ProjectId
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.ProjectId
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.Id*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.Id
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_Id
   name: Id
   nameWithType: ProjectEventEntity.Id
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.Id
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.PublishFrom*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.PublishFrom
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_PublishFrom
   name: PublishFrom
   nameWithType: ProjectEventEntity.PublishFrom
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.PublishFrom
-- uid: SuperOffice.WebApi.Data.ProjectEventEntity.PublishType_String*
-  commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.PublishType_String
-  isExternal: true
-  name: PublishType_String
-  nameWithType: ProjectEventEntity.PublishType_String
-  fullName: SuperOffice.WebApi.Data.ProjectEventEntity.PublishType_String
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.PublishType
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.PublishType
   isExternal: true
-- uid: SuperOffice.WebApi.Data.ProjectEventEntity.PublishType*
-  commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.PublishType
-  isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_PublishType
   name: PublishType
   nameWithType: ProjectEventEntity.PublishType
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.PublishType
+- uid: SuperOffice.WebApi.Data.ProjectEventEntity.PublishType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.PublishType_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_PublishType_String
+  name: PublishType_String
+  nameWithType: ProjectEventEntity.PublishType_String
+  fullName: SuperOffice.WebApi.Data.ProjectEventEntity.PublishType_String
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.PublishType_String
   commentId: P:SuperOffice.WebApi.Data.ProjectEventEntity.PublishType_String
   isExternal: true
-- uid: System.Nullable{SuperOffice.WebApi.Data.PublishType}
-  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.PublishType}'
-  definition: System.Nullable`1
-  name: Nullable<PublishType>
-  nameWithType: Nullable<PublishType>
-  fullName: System.Nullable<SuperOffice.WebApi.Data.PublishType>
-  nameWithType.vb: Nullable(Of PublishType)
-  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.PublishType)
-  name.vb: Nullable(Of PublishType)
-  spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.WebApi.Data.PublishType
-    name: PublishType
-    nameWithType: PublishType
-    fullName: SuperOffice.WebApi.Data.PublishType
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.WebApi.Data.PublishType
-    name: PublishType
-    nameWithType: PublishType
-    fullName: SuperOffice.WebApi.Data.PublishType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Nullable`1
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_PublishType_String
+  name: PublishType_String
+  nameWithType: ProjectEventEntity.PublishType_String
+  fullName: SuperOffice.WebApi.Data.ProjectEventEntity.PublishType_String
+- uid: SuperOffice.WebApi.Data.ProjectEventEntity.PublishType*
+  commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.PublishType
   isExternal: true
-  name: Nullable<>
-  nameWithType: Nullable<>
-  fullName: System.Nullable<>
-  nameWithType.vb: Nullable(Of )
-  fullName.vb: System.Nullable(Of )
-  name.vb: Nullable(Of )
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_PublishType
+  name: PublishType
+  nameWithType: ProjectEventEntity.PublishType
+  fullName: SuperOffice.WebApi.Data.ProjectEventEntity.PublishType
+- uid: System.Nullable{SuperOffice.WebApi.Data.PublishType}
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.PublishType}
+  parent: System
+  definition: System.Nullable`1
+  href: SuperOffice.WebApi.Data.PublishType.html
+  name: PublishType?
+  nameWithType: PublishType?
+  fullName: SuperOffice.WebApi.Data.PublishType?
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.PublishType
+    name: PublishType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.PublishType.html
+  - name: '?'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.PublishType
+    name: PublishType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.PublishType.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.PublishTo*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.PublishTo
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_PublishTo
   name: PublishTo
   nameWithType: ProjectEventEntity.PublishTo
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.PublishTo
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.VisibleForCategories*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.VisibleForCategories
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_VisibleForCategories
   name: VisibleForCategories
   nameWithType: ProjectEventEntity.VisibleForCategories
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.VisibleForCategories
 - uid: SuperOffice.WebApi.Data.MDOListItem[]
   isExternal: true
+  href: SuperOffice.WebApi.Data.MDOListItem.html
   name: MDOListItem[]
   nameWithType: MDOListItem[]
   fullName: SuperOffice.WebApi.Data.MDOListItem[]
@@ -1458,54 +1466,56 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.MDOListItem
     name: MDOListItem
-    nameWithType: MDOListItem
-    fullName: SuperOffice.WebApi.Data.MDOListItem
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.MDOListItem.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.MDOListItem
     name: MDOListItem
-    nameWithType: MDOListItem
-    fullName: SuperOffice.WebApi.Data.MDOListItem
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.MDOListItem.html
+  - name: (
+  - name: )
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.VisibleForPersonInterests*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.VisibleForPersonInterests
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_VisibleForPersonInterests
   name: VisibleForPersonInterests
   nameWithType: ProjectEventEntity.VisibleForPersonInterests
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.VisibleForPersonInterests
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.IsPublished*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.IsPublished
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_IsPublished
   name: IsPublished
   nameWithType: ProjectEventEntity.IsPublished
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.IsPublished
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.IsVisibleForMembers*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.IsVisibleForMembers
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_IsVisibleForMembers
   name: IsVisibleForMembers
   nameWithType: ProjectEventEntity.IsVisibleForMembers
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.IsVisibleForMembers
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.IsVisibleForCategories*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.IsVisibleForCategories
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_IsVisibleForCategories
   name: IsVisibleForCategories
   nameWithType: ProjectEventEntity.IsVisibleForCategories
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.IsVisibleForCategories
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.IsVisibleForPersonInterests*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.IsVisibleForPersonInterests
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_IsVisibleForPersonInterests
   name: IsVisibleForPersonInterests
   nameWithType: ProjectEventEntity.IsVisibleForPersonInterests
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.IsVisibleForPersonInterests
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity.ProjectEventId*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectEventEntity.ProjectEventId
   isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEventEntity.html#SuperOffice_WebApi_Data_ProjectEventEntity_ProjectEventId
   name: ProjectEventId
   nameWithType: ProjectEventEntity.ProjectEventId
   fullName: SuperOffice.WebApi.Data.ProjectEventEntity.ProjectEventId

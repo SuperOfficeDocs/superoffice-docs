@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 964,
-    "Name": "Daugherty, Hartmann and Larson",
-    "ToolTip": "Nesciunt ex eaque enim asperiores praesentium.",
-    "Deleted": true,
-    "Rank": 402,
-    "Type": "molestiae",
-    "ColorBlock": 648,
-    "IconHint": "quo",
-    "Selected": true,
-    "LastChanged": "2013-04-01T16:32:48.6963928+02:00",
+    "Id": 503,
+    "Name": "Glover, Abshire and Franecki",
+    "ToolTip": "Atque dolorem officia dolorum ducimus rerum pariatur accusamus.",
+    "Deleted": false,
+    "Rank": 579,
+    "Type": "in",
+    "ColorBlock": 361,
+    "IconHint": "quaerat",
+    "Selected": false,
+    "LastChanged": "2001-11-06T17:54:08.9292989+01:00",
     "ChildItems": [
       {
-        "Id": 333,
-        "Name": "Prosacco-Aufderhar",
-        "ToolTip": "Incidunt qui eius quisquam id quia.",
+        "Id": 231,
+        "Name": "Mitchell Inc and Sons",
+        "ToolTip": "Amet temporibus cumque similique.",
         "Deleted": false,
-        "Rank": 884,
-        "Type": "quisquam",
-        "ColorBlock": 911,
-        "IconHint": "eum",
+        "Rank": 17,
+        "Type": "voluptas",
+        "ColorBlock": 120,
+        "IconHint": "quisquam",
         "Selected": false,
-        "LastChanged": "2014-10-29T16:32:48.6963928+01:00",
+        "LastChanged": "2011-12-26T17:54:08.9292989+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "veritatis",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "minima",
         "Hidden": false,
-        "FullName": "Mr. Jonas Evangeline Weissnat DVM",
+        "FullName": "Jarvis Grady Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 259
+            "FieldLength": 763
           }
         }
       }
     ],
-    "ExtraInfo": "odit",
-    "StyleHint": "laudantium",
+    "ExtraInfo": "minus",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Domenico Leuschke PhD",
+    "FullName": "Ambrose Hagenes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 735
+        "FieldType": "System.Int32",
+        "FieldLength": 359
       }
     }
   }

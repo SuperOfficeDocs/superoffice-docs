@@ -24,33 +24,41 @@ items:
   nameWithType: RefCountRangeRecordData
   fullName: SuperOffice.CRM.Rows.RefCountRangeRecordData
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the RefCountRange table.\n"
-  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.RefCountRangeRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.RefCountRangeTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  summary: >-
+    POCO (Plain Old CLR Object) class that can be used to hold data corresponding
+
+    to a row from the RefCountRange table.
+  remarks: >-
+    Please use this class instead of a full <xref href="SuperOffice.CRM.Rows.RefCountRangeRow" data-throw-if-not-resolved="false"></xref> object when
+
+    you do not need to <b>create or update</b> a value in the database. Row objects have a large overhead
+
+    since they carry the corresponding <xref href="SuperOffice.CRM.Data.RefCountRangeTableInfo" data-throw-if-not-resolved="false"></xref> object, which
+
+    in turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.
+  example: []
   syntax:
-    content: 'public class RefCountRangeRecordData : Object'
-    content.vb: >-
-      Public Class RefCountRangeRecordData
-          Inherits Object
+    content: public class RefCountRangeRecordData
+    content.vb: Public Class RefCountRangeRecordData
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.RefCountRangeRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.RefCountRangeRecordData.SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RefCountRangeRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.RefCountRangeRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.RefCountRangeRecordData)
   - SuperOffice.CRM.Rows.RefCountRangeRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.RefCountRangeRecordData.SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsert
-  - SuperOffice.CRM.Rows.RefCountRangeRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData.RefCountRangeId
   commentId: F:SuperOffice.CRM.Rows.RefCountRangeRecordData.RefCountRangeId
   id: RefCountRangeId
@@ -62,22 +70,16 @@ items:
   nameWithType: RefCountRangeRecordData.RefCountRangeId
   fullName: SuperOffice.CRM.Rows.RefCountRangeRecordData.RefCountRangeId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
     content: public int RefCountRangeId
     return:
       type: System.Int32
     content.vb: Public RefCountRangeId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData.RangeStart
   commentId: F:SuperOffice.CRM.Rows.RefCountRangeRecordData.RangeStart
   id: RangeStart
@@ -89,22 +91,16 @@ items:
   nameWithType: RefCountRangeRecordData.RangeStart
   fullName: SuperOffice.CRM.Rows.RefCountRangeRecordData.RangeStart
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nStart of range that is in use \n"
+  summary: Start of range that is in use
+  example: []
   syntax:
     content: public uint RangeStart
     return:
       type: System.UInt32
     content.vb: Public RangeStart As UInteger
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData.RangeSize
   commentId: F:SuperOffice.CRM.Rows.RefCountRangeRecordData.RangeSize
   id: RangeSize
@@ -116,22 +112,16 @@ items:
   nameWithType: RefCountRangeRecordData.RangeSize
   fullName: SuperOffice.CRM.Rows.RefCountRangeRecordData.RangeSize
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSize of in-use range \n"
+  summary: Size of in-use range
+  example: []
   syntax:
     content: public uint RangeSize
     return:
       type: System.UInt32
     content.vb: Public RangeSize As UInteger
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData.RefCountsId
   commentId: F:SuperOffice.CRM.Rows.RefCountRangeRecordData.RefCountsId
   id: RefCountsId
@@ -143,22 +133,16 @@ items:
   nameWithType: RefCountRangeRecordData.RefCountsId
   fullName: SuperOffice.CRM.Rows.RefCountRangeRecordData.RefCountsId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nID of counter this range is reserved for \n"
+  summary: ID of counter this range is reserved for
+  example: []
   syntax:
     content: public int RefCountsId
     return:
       type: System.Int32
     content.vb: Public RefCountsId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData.TravellerId
   commentId: F:SuperOffice.CRM.Rows.RefCountRangeRecordData.TravellerId
   id: TravellerId
@@ -170,22 +154,16 @@ items:
   nameWithType: RefCountRangeRecordData.TravellerId
   fullName: SuperOffice.CRM.Rows.RefCountRangeRecordData.TravellerId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nID of traveller (associate) who owns this range \n"
+  summary: ID of traveller (associate) who owns this range
+  example: []
   syntax:
     content: public short TravellerId
     return:
       type: System.Int16
     content.vb: Public TravellerId As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData.Registered
   commentId: F:SuperOffice.CRM.Rows.RefCountRangeRecordData.Registered
   id: Registered
@@ -197,22 +175,16 @@ items:
   nameWithType: RefCountRangeRecordData.Registered
   fullName: SuperOffice.CRM.Rows.RefCountRangeRecordData.Registered
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nRegistered when in UTC.  \n"
+  summary: Registered when in UTC.
+  example: []
   syntax:
     content: public DateTime Registered
     return:
       type: System.DateTime
-    content.vb: Public Registered As DateTime
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public Registered As Date
 - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Rows.RefCountRangeRecordData.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -224,22 +196,16 @@ items:
   nameWithType: RefCountRangeRecordData.RegisteredAssociateId
   fullName: SuperOffice.CRM.Rows.RefCountRangeRecordData.RegisteredAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nRegistered by whom \n"
+  summary: Registered by whom
+  example: []
   syntax:
     content: public int RegisteredAssociateId
     return:
       type: System.Int32
     content.vb: Public RegisteredAssociateId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData.Updated
   commentId: F:SuperOffice.CRM.Rows.RefCountRangeRecordData.Updated
   id: Updated
@@ -251,22 +217,16 @@ items:
   nameWithType: RefCountRangeRecordData.Updated
   fullName: SuperOffice.CRM.Rows.RefCountRangeRecordData.Updated
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nLast updated when in UTC.  \n"
+  summary: Last updated when in UTC.
+  example: []
   syntax:
     content: public DateTime Updated
     return:
       type: System.DateTime
-    content.vb: Public Updated As DateTime
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public Updated As Date
 - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Rows.RefCountRangeRecordData.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -278,22 +238,16 @@ items:
   nameWithType: RefCountRangeRecordData.UpdatedAssociateId
   fullName: SuperOffice.CRM.Rows.RefCountRangeRecordData.UpdatedAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nLast updated by whom \n"
+  summary: Last updated by whom
+  example: []
   syntax:
     content: public int UpdatedAssociateId
     return:
       type: System.Int32
     content.vb: Public UpdatedAssociateId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData.UpdatedCount
   commentId: F:SuperOffice.CRM.Rows.RefCountRangeRecordData.UpdatedCount
   id: UpdatedCount
@@ -305,22 +259,16 @@ items:
   nameWithType: RefCountRangeRecordData.UpdatedCount
   fullName: SuperOffice.CRM.Rows.RefCountRangeRecordData.UpdatedCount
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nNumber of updates made to this record \n"
+  summary: Number of updates made to this record
+  example: []
   syntax:
     content: public short UpdatedCount
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData.HighestInUse
   commentId: F:SuperOffice.CRM.Rows.RefCountRangeRecordData.HighestInUse
   id: HighestInUse
@@ -332,22 +280,16 @@ items:
   nameWithType: RefCountRangeRecordData.HighestInUse
   fullName: SuperOffice.CRM.Rows.RefCountRangeRecordData.HighestInUse
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe highest number (within the range) that is currently in use. This used to be the infamous preference! \n"
+  summary: The highest number (within the range) that is currently in use. This used to be the infamous preference!
+  example: []
   syntax:
     content: public uint HighestInUse
     return:
       type: System.UInt32
     content.vb: Public HighestInUse As UInteger
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.RefCountRangeRecordData.#ctor
   id: '#ctor'
@@ -359,220 +301,602 @@ items:
   nameWithType: RefCountRangeRecordData.RefCountRangeRecordData()
   fullName: SuperOffice.CRM.Rows.RefCountRangeRecordData.RefCountRangeRecordData()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public RefCountRangeRecordData()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Rows.RefCountRangeRecordData.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: RefCountRangeRecordData.New()
+  fullName.vb: SuperOffice.CRM.Rows.RefCountRangeRecordData.New()
+  name.vb: New()
 references:
+- uid: SuperOffice.CRM.Rows.RefCountRangeRow
+  commentId: T:SuperOffice.CRM.Rows.RefCountRangeRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.RefCountRangeRow.html
+  name: RefCountRangeRow
+  nameWithType: RefCountRangeRow
+  fullName: SuperOffice.CRM.Rows.RefCountRangeRow
+- uid: SuperOffice.CRM.Data.RefCountRangeTableInfo
+  commentId: T:SuperOffice.CRM.Data.RefCountRangeTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.RefCountRangeTableInfo.html
+  name: RefCountRangeTableInfo
+  nameWithType: RefCountRangeTableInfo
+  fullName: SuperOffice.CRM.Data.RefCountRangeTableInfo
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<RefCountRangeRecordData, To>()
-  nameWithType: EnumUtil.MapEnums<RefCountRangeRecordData, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.RefCountRangeRecordData, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of RefCountRangeRecordData, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.RefCountRangeRecordData, To)()
-  name.vb: MapEnums(Of RefCountRangeRecordData, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<RefCountRangeRecordData, To>(RefCountRangeRecordData)
+  nameWithType: EnumUtil.MapEnums<RefCountRangeRecordData, To>(RefCountRangeRecordData)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.RefCountRangeRecordData, To>(SuperOffice.CRM.Rows.RefCountRangeRecordData)
+  nameWithType.vb: EnumUtil.MapEnums(Of RefCountRangeRecordData, To)(RefCountRangeRecordData)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.RefCountRangeRecordData, To)(SuperOffice.CRM.Rows.RefCountRangeRecordData)
+  name.vb: MapEnums(Of RefCountRangeRecordData, To)(RefCountRangeRecordData)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<RefCountRangeRecordData, To>
-    nameWithType: EnumUtil.MapEnums<RefCountRangeRecordData, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.RefCountRangeRecordData, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.RefCountRangeRecordData)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of RefCountRangeRecordData, To)
-    nameWithType: EnumUtil.MapEnums(Of RefCountRangeRecordData, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.RefCountRangeRecordData, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.RefCountRangeRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.RefCountRangeRecordData)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<RefCountRangeRecordData>(RefCountRangeRecordData)
-  nameWithType: ObjectExtensions.AssignByReflection<RefCountRangeRecordData>(RefCountRangeRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.RefCountRangeRecordData>(SuperOffice.CRM.Rows.RefCountRangeRecordData)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of RefCountRangeRecordData)(RefCountRangeRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.RefCountRangeRecordData)(SuperOffice.CRM.Rows.RefCountRangeRecordData)
-  name.vb: AssignByReflection(Of RefCountRangeRecordData)(RefCountRangeRecordData)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<RefCountRangeRecordData>
-    nameWithType: ObjectExtensions.AssignByReflection<RefCountRangeRecordData>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.RefCountRangeRecordData>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData
     name: RefCountRangeRecordData
-    nameWithType: RefCountRangeRecordData
-    fullName: SuperOffice.CRM.Rows.RefCountRangeRecordData
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of RefCountRangeRecordData)
-    nameWithType: ObjectExtensions.AssignByReflection(Of RefCountRangeRecordData)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.RefCountRangeRecordData)
-    isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData
     name: RefCountRangeRecordData
-    nameWithType: RefCountRangeRecordData
-    fullName: SuperOffice.CRM.Rows.RefCountRangeRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordData.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.RefCountRangeRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<RefCountRangeRecordData>()
-  nameWithType: ObjectExtensions.GraphCopy<RefCountRangeRecordData>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.RefCountRangeRecordData>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of RefCountRangeRecordData)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.RefCountRangeRecordData)()
-  name.vb: GraphCopy(Of RefCountRangeRecordData)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<RefCountRangeRecordData>
-    nameWithType: ObjectExtensions.GraphCopy<RefCountRangeRecordData>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.RefCountRangeRecordData>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of RefCountRangeRecordData)
-    nameWithType: ObjectExtensions.GraphCopy(Of RefCountRangeRecordData)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.RefCountRangeRecordData)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.RefCountRangeRecordData)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData
+    name: RefCountRangeRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.RefCountRangeRecordData.SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RefCountRangeRecordData)
+  - name: (
+  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData
+    name: RefCountRangeRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.RefCountRangeRecordData.SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RefCountRangeRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RefCountRangeRecordData)
-  name: ToInsert()
-  nameWithType: RefCountRangeRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RefCountRangeRecordData,System.Threading.CancellationToken)
+  href: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.html#SuperOffice_CRM_Rows_RefCountRangeRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_RefCountRangeRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync(RefCountRangeRecordData, CancellationToken)
+  nameWithType: RefCountRangeRecordDataExtensions.ToInsertAsync(RefCountRangeRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RefCountRangeRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: RefCountRangeRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RefCountRangeRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.html#SuperOffice_CRM_Rows_RefCountRangeRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_RefCountRangeRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData
+    name: RefCountRangeRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: RefCountRangeRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RefCountRangeRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.html#SuperOffice_CRM_Rows_RefCountRangeRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_RefCountRangeRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData
+    name: RefCountRangeRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<RefCountRangeRecordData, To>()
-  nameWithType: Converters.MapEnums<RefCountRangeRecordData, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.RefCountRangeRecordData, To>()
-  nameWithType.vb: Converters.MapEnums(Of RefCountRangeRecordData, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.RefCountRangeRecordData, To)()
-  name.vb: MapEnums(Of RefCountRangeRecordData, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<RefCountRangeRecordData, To>(RefCountRangeRecordData)
+  nameWithType: Converters.MapEnums<RefCountRangeRecordData, To>(RefCountRangeRecordData)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.RefCountRangeRecordData, To>(SuperOffice.CRM.Rows.RefCountRangeRecordData)
+  nameWithType.vb: Converters.MapEnums(Of RefCountRangeRecordData, To)(RefCountRangeRecordData)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.RefCountRangeRecordData, To)(SuperOffice.CRM.Rows.RefCountRangeRecordData)
+  name.vb: MapEnums(Of RefCountRangeRecordData, To)(RefCountRangeRecordData)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<RefCountRangeRecordData, To>
-    nameWithType: Converters.MapEnums<RefCountRangeRecordData, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.RefCountRangeRecordData, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.RefCountRangeRecordData)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData
+    name: RefCountRangeRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData
+    name: RefCountRangeRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordData.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of RefCountRangeRecordData, To)
-    nameWithType: Converters.MapEnums(Of RefCountRangeRecordData, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.RefCountRangeRecordData, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.RefCountRangeRecordData)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData
+    name: RefCountRangeRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData
+    name: RefCountRangeRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.RefCountRangeRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.RefCountRangeRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<RefCountRangeRecordData>(RefCountRangeRecordData, RefCountRangeRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<RefCountRangeRecordData>(RefCountRangeRecordData, RefCountRangeRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.RefCountRangeRecordData>(SuperOffice.CRM.Rows.RefCountRangeRecordData, SuperOffice.CRM.Rows.RefCountRangeRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of RefCountRangeRecordData)(RefCountRangeRecordData, RefCountRangeRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.RefCountRangeRecordData)(SuperOffice.CRM.Rows.RefCountRangeRecordData, SuperOffice.CRM.Rows.RefCountRangeRecordData)
+  name.vb: AssignByReflection(Of RefCountRangeRecordData)(RefCountRangeRecordData, RefCountRangeRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.RefCountRangeRecordData,SuperOffice.CRM.Rows.RefCountRangeRecordData)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData
+    name: RefCountRangeRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordData.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData
+    name: RefCountRangeRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordData.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData
+    name: RefCountRangeRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.RefCountRangeRecordData,SuperOffice.CRM.Rows.RefCountRangeRecordData)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData
+    name: RefCountRangeRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordData.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData
+    name: RefCountRangeRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordData.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData
+    name: RefCountRangeRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.RefCountRangeRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<RefCountRangeRecordData>(RefCountRangeRecordData)
+  nameWithType: ObjectExtensions.GraphCopy<RefCountRangeRecordData>(RefCountRangeRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.RefCountRangeRecordData>(SuperOffice.CRM.Rows.RefCountRangeRecordData)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of RefCountRangeRecordData)(RefCountRangeRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.RefCountRangeRecordData)(SuperOffice.CRM.Rows.RefCountRangeRecordData)
+  name.vb: GraphCopy(Of RefCountRangeRecordData)(RefCountRangeRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.RefCountRangeRecordData)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData
+    name: RefCountRangeRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordData.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData
+    name: RefCountRangeRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.RefCountRangeRecordData)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData
+    name: RefCountRangeRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordData.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData
+    name: RefCountRangeRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -581,187 +905,94 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+- uid: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RefCountRangeRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RefCountRangeRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
+  href: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.html#SuperOffice_CRM_Rows_RefCountRangeRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_RefCountRangeRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync(RefCountRangeRecordData, CancellationToken)
+  nameWithType: RefCountRangeRecordDataExtensions.ToInsertAsync(RefCountRangeRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RefCountRangeRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RefCountRangeRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.html#SuperOffice_CRM_Rows_RefCountRangeRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_RefCountRangeRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RefCountRangeRecordData)
-  commentId: M:SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RefCountRangeRecordData)
-  isExternal: true
-  name: ToInsert(RefCountRangeRecordData)
-  nameWithType: RefCountRangeRecordDataExtensions.ToInsert(RefCountRangeRecordData)
-  fullName: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RefCountRangeRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RefCountRangeRecordData)
-    name: ToInsert
-    nameWithType: RefCountRangeRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsert
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData
     name: RefCountRangeRecordData
-    nameWithType: RefCountRangeRecordData
-    fullName: SuperOffice.CRM.Rows.RefCountRangeRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RefCountRangeRecordData)
-    name: ToInsert
-    nameWithType: RefCountRangeRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RefCountRangeRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.html#SuperOffice_CRM_Rows_RefCountRangeRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_RefCountRangeRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData
     name: RefCountRangeRecordData
-    nameWithType: RefCountRangeRecordData
-    fullName: SuperOffice.CRM.Rows.RefCountRangeRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.RefCountRangeRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions
   commentId: T:SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions.html
   name: RefCountRangeRecordDataExtensions
   nameWithType: RefCountRangeRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.RefCountRangeRecordDataExtensions
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -770,82 +1001,239 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.UInt32
   commentId: T:System.UInt32
   parent: System
   isExternal: true
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.Rows.RefCountRangeRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.RefCountRangeRecordData.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Rows.RefCountRangeRecordData.html#SuperOffice_CRM_Rows_RefCountRangeRecordData__ctor
   name: RefCountRangeRecordData
   nameWithType: RefCountRangeRecordData.RefCountRangeRecordData
   fullName: SuperOffice.CRM.Rows.RefCountRangeRecordData.RefCountRangeRecordData
+  nameWithType.vb: RefCountRangeRecordData.New
+  fullName.vb: SuperOffice.CRM.Rows.RefCountRangeRecordData.New
+  name.vb: New

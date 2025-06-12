@@ -89,14 +89,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Runolfsdottir, Lehner and Sauer",
+  "TableName": "Barrows LLC",
   "Columns": [
-    "iure",
-    "voluptatem"
+    "explicabo",
+    "ad"
   ],
   "Keys": [
-    "sint",
-    "velit"
+    "asperiores",
+    "quo"
   ],
   "Data": [
     [
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
     ]
   ],
   "NomatchAction": "DeleteRow",
-  "ReturnRowStatus": false
+  "ReturnRowStatus": true
 }
 ```
 
@@ -118,41 +118,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "unde",
-  "Inserts": 195,
-  "Updates": 118,
-  "Deletes": 790,
+  "Success": false,
+  "Message": "quis",
+  "Inserts": 237,
+  "Updates": 991,
+  "Deletes": 358,
   "RowStatus": [
     {
-      "PrimaryKey": 1002,
+      "PrimaryKey": 503,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "distinctio",
-        "non"
+        "eveniet",
+        "quas"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 11
+          "FieldType": "System.Int32",
+          "FieldLength": 599
         }
       }
     },
     {
-      "PrimaryKey": 1002,
+      "PrimaryKey": 503,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "distinctio",
-        "non"
+        "eveniet",
+        "quas"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 11
+          "FieldType": "System.Int32",
+          "FieldLength": 599
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 289
+      "FieldLength": 30
     }
   }
 }

@@ -15,32 +15,31 @@ items:
   name: StructurePatchingHelper.TypeAction
   nameWithType: StructurePatchingHelper.TypeAction
   fullName: SuperOffice.Util.StructurePatchingHelper.TypeAction
-  type: Class
-  source:
-    path: SoCore
-    isExternal: true
+  type: Delegate
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nAction to apply for a given type, when a Property of that type is encountered\n"
+  summary: Action to apply for a given type, when a Property of that type is encountered
+  example: []
   syntax:
-    content: 'public sealed class TypeAction : MulticastDelegate'
-    content.vb: >-
-      Public NotInheritable Class TypeAction
-          Inherits MulticastDelegate
-  inheritance:
-  - System.Object
+    content: public delegate object StructurePatchingHelper.TypeAction(object value, Attribute[] decorations, string propertyName)
+    parameters:
+    - id: value
+      type: System.Object
+      description: Current value of the Property (or array/dictionary element)
+    - id: decorations
+      type: System.Attribute[]
+      description: Attributes on the Property
+    - id: propertyName
+      type: System.String
+      description: Name of the Property - mostly useful for debugging
+    return:
+      type: System.Object
+      description: New value for this element, will replace the <b>value</b> currently there
+    content.vb: Public Delegate Function StructurePatchingHelper.TypeAction(value As Object, decorations As Attribute(), propertyName As String) As Object
   extensionMethods:
   - SuperOffice.Util.StructurePatchingHelper.TypeAction.EnumUtil.MapEnums``2
   - SuperOffice.Util.StructurePatchingHelper.TypeAction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
 - uid: SuperOffice.Util.StructurePatchingHelper.TypeAction.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.Util.StructurePatchingHelper.TypeAction.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -48,29 +47,25 @@ items:
   langs:
   - csharp
   - vb
-  name: TypeAction(Object, IntPtr)
-  nameWithType: StructurePatchingHelper.TypeAction.TypeAction(Object, IntPtr)
-  fullName: SuperOffice.Util.StructurePatchingHelper.TypeAction.TypeAction(System.Object, System.IntPtr)
+  name: TypeAction(object, IntPtr)
+  nameWithType: StructurePatchingHelper.TypeAction.TypeAction(object, IntPtr)
+  fullName: SuperOffice.Util.StructurePatchingHelper.TypeAction.TypeAction(object, System.IntPtr)
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
   syntax:
-    content: public TypeAction(object object, IntPtr method)
+    content: public TypeAction(object @object, IntPtr method)
     parameters:
     - id: object
       type: System.Object
     - id: method
       type: System.IntPtr
-    content.vb: Public Sub New(object As Object, method As IntPtr)
+    content.vb: Public Sub New([object] As Object, method As IntPtr)
   overload: SuperOffice.Util.StructurePatchingHelper.TypeAction.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: StructurePatchingHelper.TypeAction.New(Object, IntPtr)
+  fullName.vb: SuperOffice.Util.StructurePatchingHelper.TypeAction.New(Object, System.IntPtr)
+  name.vb: New(Object, IntPtr)
 - uid: SuperOffice.Util.StructurePatchingHelper.TypeAction.Invoke(System.Object,System.Attribute[],System.String)
   commentId: M:SuperOffice.Util.StructurePatchingHelper.TypeAction.Invoke(System.Object,System.Attribute[],System.String)
   id: Invoke(System.Object,System.Attribute[],System.String)
@@ -78,13 +73,10 @@ items:
   langs:
   - csharp
   - vb
-  name: Invoke(Object, Attribute[], String)
-  nameWithType: StructurePatchingHelper.TypeAction.Invoke(Object, Attribute[], String)
-  fullName: SuperOffice.Util.StructurePatchingHelper.TypeAction.Invoke(System.Object, System.Attribute[], System.String)
+  name: Invoke(object, Attribute[], string)
+  nameWithType: StructurePatchingHelper.TypeAction.Invoke(object, Attribute[], string)
+  fullName: SuperOffice.Util.StructurePatchingHelper.TypeAction.Invoke(object, System.Attribute[], string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -102,13 +94,7 @@ items:
     content.vb: Public Overridable Function Invoke(value As Object, decorations As Attribute(), propertyName As String) As Object
   overload: SuperOffice.Util.StructurePatchingHelper.TypeAction.Invoke*
   nameWithType.vb: StructurePatchingHelper.TypeAction.Invoke(Object, Attribute(), String)
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: SuperOffice.Util.StructurePatchingHelper.TypeAction.Invoke(System.Object, System.Attribute(), System.String)
+  fullName.vb: SuperOffice.Util.StructurePatchingHelper.TypeAction.Invoke(Object, System.Attribute(), String)
   name.vb: Invoke(Object, Attribute(), String)
 - uid: SuperOffice.Util.StructurePatchingHelper.TypeAction.BeginInvoke(System.Object,System.Attribute[],System.String,System.AsyncCallback,System.Object)
   commentId: M:SuperOffice.Util.StructurePatchingHelper.TypeAction.BeginInvoke(System.Object,System.Attribute[],System.String,System.AsyncCallback,System.Object)
@@ -117,18 +103,15 @@ items:
   langs:
   - csharp
   - vb
-  name: BeginInvoke(Object, Attribute[], String, AsyncCallback, Object)
-  nameWithType: StructurePatchingHelper.TypeAction.BeginInvoke(Object, Attribute[], String, AsyncCallback, Object)
-  fullName: SuperOffice.Util.StructurePatchingHelper.TypeAction.BeginInvoke(System.Object, System.Attribute[], System.String, System.AsyncCallback, System.Object)
+  name: BeginInvoke(object, Attribute[], string, AsyncCallback, object)
+  nameWithType: StructurePatchingHelper.TypeAction.BeginInvoke(object, Attribute[], string, AsyncCallback, object)
+  fullName: SuperOffice.Util.StructurePatchingHelper.TypeAction.BeginInvoke(object, System.Attribute[], string, System.AsyncCallback, object)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
   syntax:
-    content: public virtual IAsyncResult BeginInvoke(object value, Attribute[] decorations, string propertyName, AsyncCallback callback, object object)
+    content: public virtual IAsyncResult BeginInvoke(object value, Attribute[] decorations, string propertyName, AsyncCallback callback, object @object)
     parameters:
     - id: value
       type: System.Object
@@ -142,16 +125,10 @@ items:
       type: System.Object
     return:
       type: System.IAsyncResult
-    content.vb: Public Overridable Function BeginInvoke(value As Object, decorations As Attribute(), propertyName As String, callback As AsyncCallback, object As Object) As IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(value As Object, decorations As Attribute(), propertyName As String, callback As AsyncCallback, [object] As Object) As IAsyncResult
   overload: SuperOffice.Util.StructurePatchingHelper.TypeAction.BeginInvoke*
   nameWithType.vb: StructurePatchingHelper.TypeAction.BeginInvoke(Object, Attribute(), String, AsyncCallback, Object)
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: SuperOffice.Util.StructurePatchingHelper.TypeAction.BeginInvoke(System.Object, System.Attribute(), System.String, System.AsyncCallback, System.Object)
+  fullName.vb: SuperOffice.Util.StructurePatchingHelper.TypeAction.BeginInvoke(Object, System.Attribute(), String, System.AsyncCallback, Object)
   name.vb: BeginInvoke(Object, Attribute(), String, AsyncCallback, Object)
 - uid: SuperOffice.Util.StructurePatchingHelper.TypeAction.EndInvoke(System.IAsyncResult)
   commentId: M:SuperOffice.Util.StructurePatchingHelper.TypeAction.EndInvoke(System.IAsyncResult)
@@ -164,9 +141,6 @@ items:
   nameWithType: StructurePatchingHelper.TypeAction.EndInvoke(IAsyncResult)
   fullName: SuperOffice.Util.StructurePatchingHelper.TypeAction.EndInvoke(System.IAsyncResult)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -179,218 +153,154 @@ items:
       type: System.Object
     content.vb: Public Overridable Function EndInvoke(result As IAsyncResult) As Object
   overload: SuperOffice.Util.StructurePatchingHelper.TypeAction.EndInvoke*
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.Util.StructurePatchingHelper.TypeAction.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<StructurePatchingHelper.TypeAction, To>()
-  nameWithType: EnumUtil.MapEnums<StructurePatchingHelper.TypeAction, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Util.StructurePatchingHelper.TypeAction, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of StructurePatchingHelper.TypeAction, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.StructurePatchingHelper.TypeAction, To)()
-  name.vb: MapEnums(Of StructurePatchingHelper.TypeAction, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<TypeAction, To>(TypeAction)
+  nameWithType: EnumUtil.MapEnums<StructurePatchingHelper.TypeAction, To>(StructurePatchingHelper.TypeAction)
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.StructurePatchingHelper.TypeAction, To>(SuperOffice.Util.StructurePatchingHelper.TypeAction)
+  nameWithType.vb: EnumUtil.MapEnums(Of StructurePatchingHelper.TypeAction, To)(StructurePatchingHelper.TypeAction)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.StructurePatchingHelper.TypeAction, To)(SuperOffice.Util.StructurePatchingHelper.TypeAction)
+  name.vb: MapEnums(Of TypeAction, To)(TypeAction)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<StructurePatchingHelper.TypeAction, To>
-    nameWithType: EnumUtil.MapEnums<StructurePatchingHelper.TypeAction, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Util.StructurePatchingHelper.TypeAction, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.StructurePatchingHelper.TypeAction)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.StructurePatchingHelper.TypeAction
+    name: TypeAction
+    isExternal: true
+    href: SuperOffice.Util.StructurePatchingHelper.TypeAction.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Util.StructurePatchingHelper.TypeAction
+    name: TypeAction
+    isExternal: true
+    href: SuperOffice.Util.StructurePatchingHelper.TypeAction.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of StructurePatchingHelper.TypeAction, To)
-    nameWithType: EnumUtil.MapEnums(Of StructurePatchingHelper.TypeAction, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.StructurePatchingHelper.TypeAction, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.StructurePatchingHelper.TypeAction)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.StructurePatchingHelper.TypeAction
+    name: TypeAction
+    isExternal: true
+    href: SuperOffice.Util.StructurePatchingHelper.TypeAction.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Util.StructurePatchingHelper.TypeAction
+    name: TypeAction
+    isExternal: true
+    href: SuperOffice.Util.StructurePatchingHelper.TypeAction.html
+  - name: )
 - uid: SuperOffice.Util.StructurePatchingHelper.TypeAction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<StructurePatchingHelper.TypeAction, To>()
-  nameWithType: Converters.MapEnums<StructurePatchingHelper.TypeAction, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.StructurePatchingHelper.TypeAction, To>()
-  nameWithType.vb: Converters.MapEnums(Of StructurePatchingHelper.TypeAction, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.StructurePatchingHelper.TypeAction, To)()
-  name.vb: MapEnums(Of StructurePatchingHelper.TypeAction, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<TypeAction, To>(TypeAction)
+  nameWithType: Converters.MapEnums<StructurePatchingHelper.TypeAction, To>(StructurePatchingHelper.TypeAction)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.StructurePatchingHelper.TypeAction, To>(SuperOffice.Util.StructurePatchingHelper.TypeAction)
+  nameWithType.vb: Converters.MapEnums(Of StructurePatchingHelper.TypeAction, To)(StructurePatchingHelper.TypeAction)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.StructurePatchingHelper.TypeAction, To)(SuperOffice.Util.StructurePatchingHelper.TypeAction)
+  name.vb: MapEnums(Of TypeAction, To)(TypeAction)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<StructurePatchingHelper.TypeAction, To>
-    nameWithType: Converters.MapEnums<StructurePatchingHelper.TypeAction, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.StructurePatchingHelper.TypeAction, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.StructurePatchingHelper.TypeAction)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.StructurePatchingHelper.TypeAction
+    name: TypeAction
+    isExternal: true
+    href: SuperOffice.Util.StructurePatchingHelper.TypeAction.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Util.StructurePatchingHelper.TypeAction
+    name: TypeAction
+    isExternal: true
+    href: SuperOffice.Util.StructurePatchingHelper.TypeAction.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of StructurePatchingHelper.TypeAction, To)
-    nameWithType: Converters.MapEnums(Of StructurePatchingHelper.TypeAction, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.StructurePatchingHelper.TypeAction, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.StructurePatchingHelper.TypeAction)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: EnumUtil.MapEnums``2(``0)
-  commentId: M:EnumUtil.MapEnums``2(``0)
-  isExternal: true
-  name: MapEnums<From, To>(From)
-  nameWithType: EnumUtil.MapEnums<From, To>(From)
-  fullName: EnumUtil.MapEnums<From, To>(From)
-  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
-  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.StructurePatchingHelper.TypeAction
+    name: TypeAction
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: From
-    nameWithType: From
-    fullName: From
+    href: SuperOffice.Util.StructurePatchingHelper.TypeAction.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+  - name: (
+  - uid: SuperOffice.Util.StructurePatchingHelper.TypeAction
+    name: TypeAction
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: From
-    nameWithType: From
-    fullName: From
+    href: SuperOffice.Util.StructurePatchingHelper.TypeAction.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: EnumUtil
-  commentId: T:EnumUtil
-  isExternal: true
-  name: EnumUtil
-  nameWithType: EnumUtil
-  fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: From
-    nameWithType: From
-    fullName: From
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: From
-    nameWithType: From
-    fullName: From
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.Util.StructurePatchingHelper.TypeAction.#ctor*
-  commentId: Overload:SuperOffice.Util.StructurePatchingHelper.TypeAction.#ctor
-  isExternal: true
-  name: TypeAction
-  nameWithType: StructurePatchingHelper.TypeAction.TypeAction
-  fullName: SuperOffice.Util.StructurePatchingHelper.TypeAction.TypeAction
-- uid: System.IntPtr
-  commentId: T:System.IntPtr
+- uid: System.Object
+  commentId: T:System.Object
   parent: System
   isExternal: true
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: SuperOffice.Util.StructurePatchingHelper.TypeAction.Invoke*
-  commentId: Overload:SuperOffice.Util.StructurePatchingHelper.TypeAction.Invoke
-  isExternal: true
-  name: Invoke
-  nameWithType: StructurePatchingHelper.TypeAction.Invoke
-  fullName: SuperOffice.Util.StructurePatchingHelper.TypeAction.Invoke
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System.Attribute[]
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.attribute
   name: Attribute[]
   nameWithType: Attribute[]
   fullName: System.Attribute[]
@@ -400,47 +310,219 @@ references:
   spec.csharp:
   - uid: System.Attribute
     name: Attribute
-    nameWithType: Attribute
-    fullName: System.Attribute
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.attribute
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Attribute
     name: Attribute
-    nameWithType: Attribute
-    fullName: System.Attribute
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.attribute
+  - name: (
+  - name: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util.StructurePatchingHelper.TypeAction.#ctor*
+  commentId: Overload:SuperOffice.Util.StructurePatchingHelper.TypeAction.#ctor
+  isExternal: true
+  href: SuperOffice.Util.StructurePatchingHelper.TypeAction.html#SuperOffice_Util_StructurePatchingHelper_TypeAction__ctor_System_Object_System_IntPtr_
+  name: TypeAction
+  nameWithType: StructurePatchingHelper.TypeAction.TypeAction
+  fullName: SuperOffice.Util.StructurePatchingHelper.TypeAction.TypeAction
+  nameWithType.vb: StructurePatchingHelper.TypeAction.New
+  fullName.vb: SuperOffice.Util.StructurePatchingHelper.TypeAction.New
+  name.vb: New
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: SuperOffice.Util.StructurePatchingHelper.TypeAction.Invoke*
+  commentId: Overload:SuperOffice.Util.StructurePatchingHelper.TypeAction.Invoke
+  isExternal: true
+  href: SuperOffice.Util.StructurePatchingHelper.TypeAction.html#SuperOffice_Util_StructurePatchingHelper_TypeAction_Invoke_System_Object_System_Attribute___System_String_
+  name: Invoke
+  nameWithType: StructurePatchingHelper.TypeAction.Invoke
+  fullName: SuperOffice.Util.StructurePatchingHelper.TypeAction.Invoke
 - uid: SuperOffice.Util.StructurePatchingHelper.TypeAction.BeginInvoke*
   commentId: Overload:SuperOffice.Util.StructurePatchingHelper.TypeAction.BeginInvoke
   isExternal: true
+  href: SuperOffice.Util.StructurePatchingHelper.TypeAction.html#SuperOffice_Util_StructurePatchingHelper_TypeAction_BeginInvoke_System_Object_System_Attribute___System_String_System_AsyncCallback_System_Object_
   name: BeginInvoke
   nameWithType: StructurePatchingHelper.TypeAction.BeginInvoke
   fullName: SuperOffice.Util.StructurePatchingHelper.TypeAction.BeginInvoke
 - uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.asynccallback
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iasyncresult
   name: IAsyncResult
   nameWithType: IAsyncResult
   fullName: System.IAsyncResult
 - uid: SuperOffice.Util.StructurePatchingHelper.TypeAction.EndInvoke*
   commentId: Overload:SuperOffice.Util.StructurePatchingHelper.TypeAction.EndInvoke
   isExternal: true
+  href: SuperOffice.Util.StructurePatchingHelper.TypeAction.html#SuperOffice_Util_StructurePatchingHelper_TypeAction_EndInvoke_System_IAsyncResult_
   name: EndInvoke
   nameWithType: StructurePatchingHelper.TypeAction.EndInvoke
   fullName: SuperOffice.Util.StructurePatchingHelper.TypeAction.EndInvoke

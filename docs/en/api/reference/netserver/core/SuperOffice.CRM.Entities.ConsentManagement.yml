@@ -5,14 +5,14 @@ items:
   id: ConsentManagement
   parent: SuperOffice.CRM.Entities
   children:
-  - SuperOffice.CRM.Entities.ConsentManagement.GetConsentInfos(System.Int32)
-  - SuperOffice.CRM.Entities.ConsentManagement.GetConsentRow(System.Int32,System.Int32,System.Int32,System.Int32,System.String)
-  - SuperOffice.CRM.Entities.ConsentManagement.GetConsentRow(System.Int32,System.String,System.String,System.String,System.String)
-  - SuperOffice.CRM.Entities.ConsentManagement.GetStoreConsentInfo(System.Int32)
-  - SuperOffice.CRM.Entities.ConsentManagement.HasConsent(System.Int32,System.String)
-  - SuperOffice.CRM.Entities.ConsentManagement.RemoveConsent(System.Int32,System.String)
-  - SuperOffice.CRM.Entities.ConsentManagement.SetConsent(System.Int32,System.Int32,System.Int32,System.Int32,System.String)
-  - SuperOffice.CRM.Entities.ConsentManagement.SetConsent(System.Int32,System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.Entities.ConsentManagement.GetConsentInfosAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.ConsentManagement.GetConsentRowAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.ConsentManagement.GetConsentRowAsync(System.Int32,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.ConsentManagement.GetStoreConsentInfoAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.ConsentManagement.HasConsentAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.ConsentManagement.RemoveConsentAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.ConsentManagement.SetConsentAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.ConsentManagement.SetConsentAsync(System.Int32,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -20,109 +20,94 @@ items:
   nameWithType: ConsentManagement
   fullName: SuperOffice.CRM.Entities.ConsentManagement
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: 'public static class ConsentManagement : Object'
-    content.vb: >-
-      Public Module ConsentManagement
-          Inherits Object
+    content: public static class ConsentManagement
+    content.vb: Public Module ConsentManagement
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
-- uid: SuperOffice.CRM.Entities.ConsentManagement.GetConsentInfos(System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagement.GetConsentInfos(System.Int32)
-  id: GetConsentInfos(System.Int32)
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Entities.ConsentManagement.GetConsentInfosAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagement.GetConsentInfosAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetConsentInfosAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ConsentManagement
   langs:
   - csharp
   - vb
-  name: GetConsentInfos(Int32)
-  nameWithType: ConsentManagement.GetConsentInfos(Int32)
-  fullName: SuperOffice.CRM.Entities.ConsentManagement.GetConsentInfos(System.Int32)
+  name: GetConsentInfosAsync(int, CancellationToken)
+  nameWithType: ConsentManagement.GetConsentInfosAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ConsentManagement.GetConsentInfosAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public static ConsentInfo[] GetConsentInfos(int personId)
+    content: public static Task<ConsentInfo[]> GetConsentInfosAsync(int personId, CancellationToken cancellationToken = default)
     parameters:
     - id: personId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.ConsentInfo[]
-    content.vb: Public Shared Function GetConsentInfos(personId As Integer) As ConsentInfo()
-  overload: SuperOffice.CRM.Entities.ConsentManagement.GetConsentInfos*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.ConsentManagement.GetStoreConsentInfo(System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagement.GetStoreConsentInfo(System.Int32)
-  id: GetStoreConsentInfo(System.Int32)
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.ConsentInfo[]}
+    content.vb: Public Shared Function GetConsentInfosAsync(personId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ConsentInfo())
+  overload: SuperOffice.CRM.Entities.ConsentManagement.GetConsentInfosAsync*
+  nameWithType.vb: ConsentManagement.GetConsentInfosAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.ConsentManagement.GetConsentInfosAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetConsentInfosAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Entities.ConsentManagement.GetStoreConsentInfoAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagement.GetStoreConsentInfoAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetStoreConsentInfoAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ConsentManagement
   langs:
   - csharp
   - vb
-  name: GetStoreConsentInfo(Int32)
-  nameWithType: ConsentManagement.GetStoreConsentInfo(Int32)
-  fullName: SuperOffice.CRM.Entities.ConsentManagement.GetStoreConsentInfo(System.Int32)
+  name: GetStoreConsentInfoAsync(int, CancellationToken)
+  nameWithType: ConsentManagement.GetStoreConsentInfoAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ConsentManagement.GetStoreConsentInfoAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public static ConsentInfo[] GetStoreConsentInfo(int personId)
+    content: public static Task<ConsentInfo[]> GetStoreConsentInfoAsync(int personId, CancellationToken cancellationToken = default)
     parameters:
     - id: personId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.ConsentInfo[]
-    content.vb: Public Shared Function GetStoreConsentInfo(personId As Integer) As ConsentInfo()
-  overload: SuperOffice.CRM.Entities.ConsentManagement.GetStoreConsentInfo*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.ConsentManagement.SetConsent(System.Int32,System.String,System.String,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagement.SetConsent(System.Int32,System.String,System.String,System.String,System.String)
-  id: SetConsent(System.Int32,System.String,System.String,System.String,System.String)
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.ConsentInfo[]}
+    content.vb: Public Shared Function GetStoreConsentInfoAsync(personId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ConsentInfo())
+  overload: SuperOffice.CRM.Entities.ConsentManagement.GetStoreConsentInfoAsync*
+  nameWithType.vb: ConsentManagement.GetStoreConsentInfoAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.ConsentManagement.GetStoreConsentInfoAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetStoreConsentInfoAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Entities.ConsentManagement.SetConsentAsync(System.Int32,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagement.SetConsentAsync(System.Int32,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
+  id: SetConsentAsync(System.Int32,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ConsentManagement
   langs:
   - csharp
   - vb
-  name: SetConsent(Int32, String, String, String, String)
-  nameWithType: ConsentManagement.SetConsent(Int32, String, String, String, String)
-  fullName: SuperOffice.CRM.Entities.ConsentManagement.SetConsent(System.Int32, System.String, System.String, System.String, System.String)
+  name: SetConsentAsync(int, string, string, string, string, CancellationToken)
+  nameWithType: ConsentManagement.SetConsentAsync(int, string, string, string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ConsentManagement.SetConsentAsync(int, string, string, string, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public static void SetConsent(int personId, string purposeKey, string sourceKey, string legalBaseKey, string comment)
+    content: public static Task SetConsentAsync(int personId, string purposeKey, string sourceKey, string legalBaseKey, string comment, CancellationToken cancellationToken = default)
     parameters:
     - id: personId
       type: System.Int32
@@ -134,33 +119,31 @@ items:
       type: System.String
     - id: comment
       type: System.String
-    content.vb: Public Shared Sub SetConsent(personId As Integer, purposeKey As String, sourceKey As String, legalBaseKey As String, comment As String)
-  overload: SuperOffice.CRM.Entities.ConsentManagement.SetConsent*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.ConsentManagement.GetConsentRow(System.Int32,System.String,System.String,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagement.GetConsentRow(System.Int32,System.String,System.String,System.String,System.String)
-  id: GetConsentRow(System.Int32,System.String,System.String,System.String,System.String)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetConsentAsync(personId As Integer, purposeKey As String, sourceKey As String, legalBaseKey As String, comment As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.ConsentManagement.SetConsentAsync*
+  nameWithType.vb: ConsentManagement.SetConsentAsync(Integer, String, String, String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.ConsentManagement.SetConsentAsync(Integer, String, String, String, String, System.Threading.CancellationToken)
+  name.vb: SetConsentAsync(Integer, String, String, String, String, CancellationToken)
+- uid: SuperOffice.CRM.Entities.ConsentManagement.GetConsentRowAsync(System.Int32,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagement.GetConsentRowAsync(System.Int32,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
+  id: GetConsentRowAsync(System.Int32,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ConsentManagement
   langs:
   - csharp
   - vb
-  name: GetConsentRow(Int32, String, String, String, String)
-  nameWithType: ConsentManagement.GetConsentRow(Int32, String, String, String, String)
-  fullName: SuperOffice.CRM.Entities.ConsentManagement.GetConsentRow(System.Int32, System.String, System.String, System.String, System.String)
+  name: GetConsentRowAsync(int, string, string, string, string, CancellationToken)
+  nameWithType: ConsentManagement.GetConsentRowAsync(int, string, string, string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ConsentManagement.GetConsentRowAsync(int, string, string, string, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public static ConsentPersonRow GetConsentRow(int personId, string purposeKey, string sourceKey, string legalBaseKey, string comment)
+    content: public static Task<ConsentPersonRow> GetConsentRowAsync(int personId, string purposeKey, string sourceKey, string legalBaseKey, string comment, CancellationToken cancellationToken = default)
     parameters:
     - id: personId
       type: System.Int32
@@ -172,35 +155,31 @@ items:
       type: System.String
     - id: comment
       type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.ConsentPersonRow
-    content.vb: Public Shared Function GetConsentRow(personId As Integer, purposeKey As String, sourceKey As String, legalBaseKey As String, comment As String) As ConsentPersonRow
-  overload: SuperOffice.CRM.Entities.ConsentManagement.GetConsentRow*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.ConsentManagement.SetConsent(System.Int32,System.Int32,System.Int32,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagement.SetConsent(System.Int32,System.Int32,System.Int32,System.Int32,System.String)
-  id: SetConsent(System.Int32,System.Int32,System.Int32,System.Int32,System.String)
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.ConsentPersonRow}
+    content.vb: Public Shared Function GetConsentRowAsync(personId As Integer, purposeKey As String, sourceKey As String, legalBaseKey As String, comment As String, cancellationToken As CancellationToken = Nothing) As Task(Of ConsentPersonRow)
+  overload: SuperOffice.CRM.Entities.ConsentManagement.GetConsentRowAsync*
+  nameWithType.vb: ConsentManagement.GetConsentRowAsync(Integer, String, String, String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.ConsentManagement.GetConsentRowAsync(Integer, String, String, String, String, System.Threading.CancellationToken)
+  name.vb: GetConsentRowAsync(Integer, String, String, String, String, CancellationToken)
+- uid: SuperOffice.CRM.Entities.ConsentManagement.SetConsentAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagement.SetConsentAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  id: SetConsentAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ConsentManagement
   langs:
   - csharp
   - vb
-  name: SetConsent(Int32, Int32, Int32, Int32, String)
-  nameWithType: ConsentManagement.SetConsent(Int32, Int32, Int32, Int32, String)
-  fullName: SuperOffice.CRM.Entities.ConsentManagement.SetConsent(System.Int32, System.Int32, System.Int32, System.Int32, System.String)
+  name: SetConsentAsync(int, int, int, int, string, CancellationToken)
+  nameWithType: ConsentManagement.SetConsentAsync(int, int, int, int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ConsentManagement.SetConsentAsync(int, int, int, int, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public static void SetConsent(int personId, int consentPurposeId, int consentSourceId, int legalBaseId, string comment)
+    content: public static Task SetConsentAsync(int personId, int consentPurposeId, int consentSourceId, int legalBaseId, string comment, CancellationToken cancellationToken = default)
     parameters:
     - id: personId
       type: System.Int32
@@ -212,33 +191,31 @@ items:
       type: System.Int32
     - id: comment
       type: System.String
-    content.vb: Public Shared Sub SetConsent(personId As Integer, consentPurposeId As Integer, consentSourceId As Integer, legalBaseId As Integer, comment As String)
-  overload: SuperOffice.CRM.Entities.ConsentManagement.SetConsent*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.ConsentManagement.GetConsentRow(System.Int32,System.Int32,System.Int32,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagement.GetConsentRow(System.Int32,System.Int32,System.Int32,System.Int32,System.String)
-  id: GetConsentRow(System.Int32,System.Int32,System.Int32,System.Int32,System.String)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetConsentAsync(personId As Integer, consentPurposeId As Integer, consentSourceId As Integer, legalBaseId As Integer, comment As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.ConsentManagement.SetConsentAsync*
+  nameWithType.vb: ConsentManagement.SetConsentAsync(Integer, Integer, Integer, Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.ConsentManagement.SetConsentAsync(Integer, Integer, Integer, Integer, String, System.Threading.CancellationToken)
+  name.vb: SetConsentAsync(Integer, Integer, Integer, Integer, String, CancellationToken)
+- uid: SuperOffice.CRM.Entities.ConsentManagement.GetConsentRowAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagement.GetConsentRowAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  id: GetConsentRowAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ConsentManagement
   langs:
   - csharp
   - vb
-  name: GetConsentRow(Int32, Int32, Int32, Int32, String)
-  nameWithType: ConsentManagement.GetConsentRow(Int32, Int32, Int32, Int32, String)
-  fullName: SuperOffice.CRM.Entities.ConsentManagement.GetConsentRow(System.Int32, System.Int32, System.Int32, System.Int32, System.String)
+  name: GetConsentRowAsync(int, int, int, int, string, CancellationToken)
+  nameWithType: ConsentManagement.GetConsentRowAsync(int, int, int, int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ConsentManagement.GetConsentRowAsync(int, int, int, int, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public static ConsentPersonRow GetConsentRow(int personId, int consentPurposeId, int consentSourceId, int legalBaseId, string comment)
+    content: public static Task<ConsentPersonRow> GetConsentRowAsync(int personId, int consentPurposeId, int consentSourceId, int legalBaseId, string comment, CancellationToken cancellationToken = default)
     parameters:
     - id: personId
       type: System.Int32
@@ -250,195 +227,628 @@ items:
       type: System.Int32
     - id: comment
       type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.ConsentPersonRow
-    content.vb: Public Shared Function GetConsentRow(personId As Integer, consentPurposeId As Integer, consentSourceId As Integer, legalBaseId As Integer, comment As String) As ConsentPersonRow
-  overload: SuperOffice.CRM.Entities.ConsentManagement.GetConsentRow*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.ConsentManagement.RemoveConsent(System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagement.RemoveConsent(System.Int32,System.String)
-  id: RemoveConsent(System.Int32,System.String)
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.ConsentPersonRow}
+    content.vb: Public Shared Function GetConsentRowAsync(personId As Integer, consentPurposeId As Integer, consentSourceId As Integer, legalBaseId As Integer, comment As String, cancellationToken As CancellationToken = Nothing) As Task(Of ConsentPersonRow)
+  overload: SuperOffice.CRM.Entities.ConsentManagement.GetConsentRowAsync*
+  nameWithType.vb: ConsentManagement.GetConsentRowAsync(Integer, Integer, Integer, Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.ConsentManagement.GetConsentRowAsync(Integer, Integer, Integer, Integer, String, System.Threading.CancellationToken)
+  name.vb: GetConsentRowAsync(Integer, Integer, Integer, Integer, String, CancellationToken)
+- uid: SuperOffice.CRM.Entities.ConsentManagement.RemoveConsentAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagement.RemoveConsentAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  id: RemoveConsentAsync(System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ConsentManagement
   langs:
   - csharp
   - vb
-  name: RemoveConsent(Int32, String)
-  nameWithType: ConsentManagement.RemoveConsent(Int32, String)
-  fullName: SuperOffice.CRM.Entities.ConsentManagement.RemoveConsent(System.Int32, System.String)
+  name: RemoveConsentAsync(int, string, CancellationToken)
+  nameWithType: ConsentManagement.RemoveConsentAsync(int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ConsentManagement.RemoveConsentAsync(int, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public static void RemoveConsent(int personId, string purposeKey)
+    content: public static Task RemoveConsentAsync(int personId, string purposeKey, CancellationToken cancellationToken = default)
     parameters:
     - id: personId
       type: System.Int32
     - id: purposeKey
       type: System.String
-    content.vb: Public Shared Sub RemoveConsent(personId As Integer, purposeKey As String)
-  overload: SuperOffice.CRM.Entities.ConsentManagement.RemoveConsent*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.ConsentManagement.HasConsent(System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagement.HasConsent(System.Int32,System.String)
-  id: HasConsent(System.Int32,System.String)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function RemoveConsentAsync(personId As Integer, purposeKey As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.ConsentManagement.RemoveConsentAsync*
+  nameWithType.vb: ConsentManagement.RemoveConsentAsync(Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.ConsentManagement.RemoveConsentAsync(Integer, String, System.Threading.CancellationToken)
+  name.vb: RemoveConsentAsync(Integer, String, CancellationToken)
+- uid: SuperOffice.CRM.Entities.ConsentManagement.HasConsentAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagement.HasConsentAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  id: HasConsentAsync(System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ConsentManagement
   langs:
   - csharp
   - vb
-  name: HasConsent(Int32, String)
-  nameWithType: ConsentManagement.HasConsent(Int32, String)
-  fullName: SuperOffice.CRM.Entities.ConsentManagement.HasConsent(System.Int32, System.String)
+  name: HasConsentAsync(int, string, CancellationToken)
+  nameWithType: ConsentManagement.HasConsentAsync(int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ConsentManagement.HasConsentAsync(int, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public static bool HasConsent(int personId, string purposeKey)
+    content: public static Task<bool> HasConsentAsync(int personId, string purposeKey, CancellationToken cancellationToken = default)
     parameters:
     - id: personId
       type: System.Int32
     - id: purposeKey
       type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
-    content.vb: Public Shared Function HasConsent(personId As Integer, purposeKey As String) As Boolean
-  overload: SuperOffice.CRM.Entities.ConsentManagement.HasConsent*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Shared Function HasConsentAsync(personId As Integer, purposeKey As String, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Entities.ConsentManagement.HasConsentAsync*
+  nameWithType.vb: ConsentManagement.HasConsentAsync(Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.ConsentManagement.HasConsentAsync(Integer, String, System.Threading.CancellationToken)
+  name.vb: HasConsentAsync(Integer, String, CancellationToken)
 references:
 - uid: SuperOffice.CRM.Entities
   commentId: N:SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Entities
   nameWithType: SuperOffice.CRM.Entities
   fullName: SuperOffice.CRM.Entities
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Entities.ConsentManagement.GetConsentInfos*
-  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagement.GetConsentInfos
+- uid: SuperOffice.CRM.Entities.ConsentManagement.GetConsentInfosAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagement.GetConsentInfosAsync
   isExternal: true
-  name: GetConsentInfos
-  nameWithType: ConsentManagement.GetConsentInfos
-  fullName: SuperOffice.CRM.Entities.ConsentManagement.GetConsentInfos
+  href: SuperOffice.CRM.Entities.ConsentManagement.html#SuperOffice_CRM_Entities_ConsentManagement_GetConsentInfosAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetConsentInfosAsync
+  nameWithType: ConsentManagement.GetConsentInfosAsync
+  fullName: SuperOffice.CRM.Entities.ConsentManagement.GetConsentInfosAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.CRM.Entities.ConsentInfo[]
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: ConsentInfo[]
-  nameWithType: ConsentInfo[]
-  fullName: SuperOffice.CRM.Entities.ConsentInfo[]
-  nameWithType.vb: ConsentInfo()
-  fullName.vb: SuperOffice.CRM.Entities.ConsentInfo()
-  name.vb: ConsentInfo()
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.ConsentInfo[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Entities.ConsentInfo[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ConsentInfo[]>
+  nameWithType: Task<ConsentInfo[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Entities.ConsentInfo[]>
+  nameWithType.vb: Task(Of ConsentInfo())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Entities.ConsentInfo())
+  name.vb: Task(Of ConsentInfo())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
   - uid: SuperOffice.CRM.Entities.ConsentInfo
     name: ConsentInfo
-    nameWithType: ConsentInfo
-    fullName: SuperOffice.CRM.Entities.ConsentInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Entities.ConsentInfo.html
+  - name: '['
+  - name: ']'
+  - name: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Entities.ConsentInfo
     name: ConsentInfo
-    nameWithType: ConsentInfo
-    fullName: SuperOffice.CRM.Entities.ConsentInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Entities.ConsentManagement.GetStoreConsentInfo*
-  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagement.GetStoreConsentInfo
+    href: SuperOffice.CRM.Entities.ConsentInfo.html
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: GetStoreConsentInfo
-  nameWithType: ConsentManagement.GetStoreConsentInfo
-  fullName: SuperOffice.CRM.Entities.ConsentManagement.GetStoreConsentInfo
-- uid: SuperOffice.CRM.Entities.ConsentManagement.SetConsent*
-  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagement.SetConsent
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: SetConsent
-  nameWithType: ConsentManagement.SetConsent
-  fullName: SuperOffice.CRM.Entities.ConsentManagement.SetConsent
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Entities.ConsentManagement.GetStoreConsentInfoAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagement.GetStoreConsentInfoAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.ConsentManagement.html#SuperOffice_CRM_Entities_ConsentManagement_GetStoreConsentInfoAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetStoreConsentInfoAsync
+  nameWithType: ConsentManagement.GetStoreConsentInfoAsync
+  fullName: SuperOffice.CRM.Entities.ConsentManagement.GetStoreConsentInfoAsync
+- uid: SuperOffice.CRM.Entities.ConsentManagement.SetConsentAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagement.SetConsentAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.ConsentManagement.html#SuperOffice_CRM_Entities_ConsentManagement_SetConsentAsync_System_Int32_System_String_System_String_System_String_System_String_System_Threading_CancellationToken_
+  name: SetConsentAsync
+  nameWithType: ConsentManagement.SetConsentAsync
+  fullName: SuperOffice.CRM.Entities.ConsentManagement.SetConsentAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.CRM.Entities.ConsentManagement.GetConsentRow*
-  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagement.GetConsentRow
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
-  name: GetConsentRow
-  nameWithType: ConsentManagement.GetConsentRow
-  fullName: SuperOffice.CRM.Entities.ConsentManagement.GetConsentRow
-- uid: SuperOffice.CRM.Rows.ConsentPersonRow
-  commentId: T:SuperOffice.CRM.Rows.ConsentPersonRow
-  parent: SuperOffice.CRM.Rows
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Entities.ConsentManagement.GetConsentRowAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagement.GetConsentRowAsync
   isExternal: true
-  name: ConsentPersonRow
-  nameWithType: ConsentPersonRow
-  fullName: SuperOffice.CRM.Rows.ConsentPersonRow
-- uid: SuperOffice.CRM.Rows
-  commentId: N:SuperOffice.CRM.Rows
+  href: SuperOffice.CRM.Entities.ConsentManagement.html#SuperOffice_CRM_Entities_ConsentManagement_GetConsentRowAsync_System_Int32_System_String_System_String_System_String_System_String_System_Threading_CancellationToken_
+  name: GetConsentRowAsync
+  nameWithType: ConsentManagement.GetConsentRowAsync
+  fullName: SuperOffice.CRM.Entities.ConsentManagement.GetConsentRowAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.ConsentPersonRow}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.ConsentPersonRow}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ConsentPersonRow>
+  nameWithType: Task<ConsentPersonRow>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.ConsentPersonRow>
+  nameWithType.vb: Task(Of ConsentPersonRow)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.ConsentPersonRow)
+  name.vb: Task(Of ConsentPersonRow)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.ConsentPersonRow
+    name: ConsentPersonRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ConsentPersonRow.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.ConsentPersonRow
+    name: ConsentPersonRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ConsentPersonRow.html
+  - name: )
+- uid: SuperOffice.CRM.Entities.ConsentManagement.RemoveConsentAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagement.RemoveConsentAsync
   isExternal: true
-  name: SuperOffice.CRM.Rows
-  nameWithType: SuperOffice.CRM.Rows
-  fullName: SuperOffice.CRM.Rows
-- uid: SuperOffice.CRM.Entities.ConsentManagement.RemoveConsent*
-  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagement.RemoveConsent
+  href: SuperOffice.CRM.Entities.ConsentManagement.html#SuperOffice_CRM_Entities_ConsentManagement_RemoveConsentAsync_System_Int32_System_String_System_Threading_CancellationToken_
+  name: RemoveConsentAsync
+  nameWithType: ConsentManagement.RemoveConsentAsync
+  fullName: SuperOffice.CRM.Entities.ConsentManagement.RemoveConsentAsync
+- uid: SuperOffice.CRM.Entities.ConsentManagement.HasConsentAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagement.HasConsentAsync
   isExternal: true
-  name: RemoveConsent
-  nameWithType: ConsentManagement.RemoveConsent
-  fullName: SuperOffice.CRM.Entities.ConsentManagement.RemoveConsent
-- uid: SuperOffice.CRM.Entities.ConsentManagement.HasConsent*
-  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagement.HasConsent
-  isExternal: true
-  name: HasConsent
-  nameWithType: ConsentManagement.HasConsent
-  fullName: SuperOffice.CRM.Entities.ConsentManagement.HasConsent
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: SuperOffice.CRM.Entities.ConsentManagement.html#SuperOffice_CRM_Entities_ConsentManagement_HasConsentAsync_System_Int32_System_String_System_Threading_CancellationToken_
+  name: HasConsentAsync
+  nameWithType: ConsentManagement.HasConsentAsync
+  fullName: SuperOffice.CRM.Entities.ConsentManagement.HasConsentAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )

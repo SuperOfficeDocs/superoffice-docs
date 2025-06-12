@@ -14,37 +14,45 @@ items:
   nameWithType: TypedArchiveRowComparer<RowType>
   fullName: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer<RowType>
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nComparer class used to compare two ArchiveRow objects according to the given orderby\ncriteria. This class handles comparisons by both OrderByValue and DisplayValue, type\nharmonization and conversions, and multiple ascending/descending orderby criteria.\n<p></p>\nIf you have a set of archive row iterators, you can use the <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveRowIteratorComparer\" data-throw-if-not-resolved=\"false\"></xref>\nclass to sort the iterators according to their .Current rows\n"
+  summary: >-
+    Comparer class used to compare two ArchiveRow objects according to the given orderby
+
+    criteria. This class handles comparisons by both OrderByValue and DisplayValue, type
+
+    harmonization and conversions, and multiple ascending/descending orderby criteria.
+
+    <p></p>
+
+    If you have a set of archive row iterators, you can use the <xref href="SuperOffice.CRM.ArchiveLists.ArchiveRowIteratorComparer" data-throw-if-not-resolved="false"></xref>
+
+    class to sort the iterators according to their .Current rows
+  example: []
   syntax:
-    content: 'public class TypedArchiveRowComparer<RowType> : Object, IComparer<RowType> where RowType : ArchiveRow'
+    content: 'public class TypedArchiveRowComparer<RowType> : IComparer<RowType> where RowType : ArchiveRow'
     typeParameters:
     - id: RowType
-    content.vb: >-
-      Public Class TypedArchiveRowComparer(Of RowType As ArchiveRow)
-          Inherits Object
-          Implements IComparer(Of RowType)
+    content.vb: Public Class TypedArchiveRowComparer(Of RowType As ArchiveRow) Implements IComparer(Of RowType)
   inheritance:
   - System.Object
   derivedClasses:
   - SuperOffice.CRM.ArchiveLists.ArchiveRowComparer
   implements:
   - System.Collections.Generic.IComparer{{RowType}}
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer`1.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   nameWithType.vb: TypedArchiveRowComparer(Of RowType)
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
   fullName.vb: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer(Of RowType)
   name.vb: TypedArchiveRowComparer(Of RowType)
 - uid: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer`1.#ctor(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
@@ -54,17 +62,15 @@ items:
   langs:
   - csharp
   - vb
-  name: TypedArchiveRowComparer(ArchiveOrderByInfo[])
-  nameWithType: TypedArchiveRowComparer<RowType>.TypedArchiveRowComparer(ArchiveOrderByInfo[])
-  fullName: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer<RowType>.TypedArchiveRowComparer(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  name: TypedArchiveRowComparer(params ArchiveOrderByInfo[])
+  nameWithType: TypedArchiveRowComparer<RowType>.TypedArchiveRowComparer(params ArchiveOrderByInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer<RowType>.TypedArchiveRowComparer(params SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nConstruct the comparer, and set the orderby criteria. \n"
+  summary: Construct the comparer, and set the orderby criteria.
+  example: []
   syntax:
     content: public TypedArchiveRowComparer(params ArchiveOrderByInfo[] orderByInfo)
     parameters:
@@ -72,21 +78,14 @@ items:
       type: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
       description: >-
         Set of ordering criteria. null is not acceptable. An empty array
-
-        will cause all elements to be considered equal to another; the final result then depends on
-
-        the behaviour of the sorting algorithm. If the algorithm is &apos;stable&apos;, no change in order
-
-        will happen; otherwise the final ordering is undefined.
+                    will cause all elements to be considered equal to another; the final result then depends on
+                    the behaviour of the sorting algorithm. If the algorithm is 'stable', no change in order
+                    will happen; otherwise the final ordering is undefined.
     content.vb: Public Sub New(ParamArray orderByInfo As ArchiveOrderByInfo())
   overload: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer`1.#ctor*
-  nameWithType.vb: TypedArchiveRowComparer(Of RowType).TypedArchiveRowComparer(ArchiveOrderByInfo())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer(Of RowType).TypedArchiveRowComparer(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo())
-  name.vb: TypedArchiveRowComparer(ArchiveOrderByInfo())
+  nameWithType.vb: TypedArchiveRowComparer(Of RowType).New(ParamArray ArchiveOrderByInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer(Of RowType).New(ParamArray SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo())
+  name.vb: New(ParamArray ArchiveOrderByInfo())
 - uid: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer`1.Compare(`0,`0)
   commentId: M:SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer`1.Compare(`0,`0)
   id: Compare(`0,`0)
@@ -98,13 +97,11 @@ items:
   nameWithType: TypedArchiveRowComparer<RowType>.Compare(RowType, RowType)
   fullName: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer<RowType>.Compare(RowType, RowType)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nCompare two ArchiveRow elements according to the orderby criteria set\n"
+  summary: Compare two ArchiveRow elements according to the orderby criteria set
+  example: []
   syntax:
     content: public int Compare(RowType xRow, RowType yRow)
     parameters:
@@ -119,29 +116,72 @@ items:
       description: -1, 0 or 1 according to actual row data order
     content.vb: Public Function Compare(xRow As RowType, yRow As RowType) As Integer
   overload: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer`1.Compare*
+  implements:
+  - System.Collections.Generic.IComparer{{RowType}}.Compare({RowType},{RowType})
   nameWithType.vb: TypedArchiveRowComparer(Of RowType).Compare(RowType, RowType)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
   fullName.vb: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer(Of RowType).Compare(RowType, RowType)
 references:
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRowIteratorComparer
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRowIteratorComparer
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ArchiveRowIteratorComparer.html
+  name: ArchiveRowIteratorComparer
+  nameWithType: ArchiveRowIteratorComparer
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowIteratorComparer
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System.Collections.Generic.IComparer{{RowType}}
-  commentId: '!:System.Collections.Generic.IComparer{`0}'
+  commentId: T:System.Collections.Generic.IComparer{`0}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.IComparer`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1
   name: IComparer<RowType>
   nameWithType: IComparer<RowType>
   fullName: System.Collections.Generic.IComparer<RowType>
@@ -151,148 +191,454 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IComparer`1
     name: IComparer
-    nameWithType: IComparer
-    fullName: System.Collections.Generic.IComparer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1
   - name: <
-    nameWithType: <
-    fullName: <
   - name: RowType
-    nameWithType: RowType
-    fullName: RowType
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IComparer`1
     name: IComparer
-    nameWithType: IComparer
-    fullName: System.Collections.Generic.IComparer
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1
+  - name: (
+  - name: Of
+  - name: " "
   - name: RowType
-    nameWithType: RowType
-    fullName: RowType
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer`1.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<TypedArchiveRowComparer<RowType>, To>()
-  nameWithType: EnumUtil.MapEnums<TypedArchiveRowComparer<RowType>, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer<RowType>, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of TypedArchiveRowComparer(Of RowType), To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer(Of RowType), To)()
-  name.vb: MapEnums(Of TypedArchiveRowComparer(Of RowType), To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<TypedArchiveRowComparer<RowType>, To>(TypedArchiveRowComparer<RowType>)
+  nameWithType: EnumUtil.MapEnums<TypedArchiveRowComparer<RowType>, To>(TypedArchiveRowComparer<RowType>)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer<RowType>, To>(SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer<RowType>)
+  nameWithType.vb: EnumUtil.MapEnums(Of TypedArchiveRowComparer(Of RowType), To)(TypedArchiveRowComparer(Of RowType))
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer(Of RowType), To)(SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer(Of RowType))
+  name.vb: MapEnums(Of TypedArchiveRowComparer(Of RowType), To)(TypedArchiveRowComparer(Of RowType))
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<TypedArchiveRowComparer<RowType>, To>
-    nameWithType: EnumUtil.MapEnums<TypedArchiveRowComparer<RowType>, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer<RowType>, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer{`0})
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer`1
+    name: TypedArchiveRowComparer
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer-1.html
+  - name: <
+  - name: RowType
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer`1
+    name: TypedArchiveRowComparer
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer-1.html
+  - name: <
+  - name: RowType
+  - name: '>'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of TypedArchiveRowComparer(Of RowType), To)
-    nameWithType: EnumUtil.MapEnums(Of TypedArchiveRowComparer(Of RowType), To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer(Of RowType), To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer{`0})
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer`1
+    name: TypedArchiveRowComparer
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: RowType
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer`1
+    name: TypedArchiveRowComparer
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: RowType
+  - name: )
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<TypedArchiveRowComparer<RowType>, To>()
-  nameWithType: Converters.MapEnums<TypedArchiveRowComparer<RowType>, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer<RowType>, To>()
-  nameWithType.vb: Converters.MapEnums(Of TypedArchiveRowComparer(Of RowType), To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer(Of RowType), To)()
-  name.vb: MapEnums(Of TypedArchiveRowComparer(Of RowType), To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<TypedArchiveRowComparer<RowType>, To>(TypedArchiveRowComparer<RowType>)
+  nameWithType: Converters.MapEnums<TypedArchiveRowComparer<RowType>, To>(TypedArchiveRowComparer<RowType>)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer<RowType>, To>(SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer<RowType>)
+  nameWithType.vb: Converters.MapEnums(Of TypedArchiveRowComparer(Of RowType), To)(TypedArchiveRowComparer(Of RowType))
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer(Of RowType), To)(SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer(Of RowType))
+  name.vb: MapEnums(Of TypedArchiveRowComparer(Of RowType), To)(TypedArchiveRowComparer(Of RowType))
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<TypedArchiveRowComparer<RowType>, To>
-    nameWithType: Converters.MapEnums<TypedArchiveRowComparer<RowType>, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer<RowType>, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer{`0})
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer`1
+    name: TypedArchiveRowComparer
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer-1.html
+  - name: <
+  - name: RowType
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer`1
+    name: TypedArchiveRowComparer
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer-1.html
+  - name: <
+  - name: RowType
+  - name: '>'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of TypedArchiveRowComparer(Of RowType), To)
-    nameWithType: Converters.MapEnums(Of TypedArchiveRowComparer(Of RowType), To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer(Of RowType), To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer{`0})
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer`1
+    name: TypedArchiveRowComparer
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: RowType
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer`1
+    name: TypedArchiveRowComparer
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: RowType
+  - name: )
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: System.Collections.Generic.IComparer`1
+  commentId: T:System.Collections.Generic.IComparer`1
   isExternal: true
-  name: IComparer<>
-  nameWithType: IComparer<>
-  fullName: System.Collections.Generic.IComparer<>
-  nameWithType.vb: IComparer(Of )
-  fullName.vb: System.Collections.Generic.IComparer(Of )
-  name.vb: IComparer(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1
+  name: IComparer<T>
+  nameWithType: IComparer<T>
+  fullName: System.Collections.Generic.IComparer<T>
+  nameWithType.vb: IComparer(Of T)
+  fullName.vb: System.Collections.Generic.IComparer(Of T)
+  name.vb: IComparer(Of T)
   spec.csharp:
   - uid: System.Collections.Generic.IComparer`1
     name: IComparer
-    nameWithType: IComparer
-    fullName: System.Collections.Generic.IComparer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IComparer`1
     name: IComparer
-    nameWithType: IComparer
-    fullName: System.Collections.Generic.IComparer
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -301,43 +647,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -346,57 +694,92 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer`1.#ctor*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer`1.#ctor
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer-1.html#SuperOffice_CRM_ArchiveLists_TypedArchiveRowComparer_1__ctor_SuperOffice_CRM_ArchiveLists_ArchiveOrderByInfo___
   name: TypedArchiveRowComparer
   nameWithType: TypedArchiveRowComparer<RowType>.TypedArchiveRowComparer
   fullName: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer<RowType>.TypedArchiveRowComparer
-  nameWithType.vb: TypedArchiveRowComparer(Of RowType).TypedArchiveRowComparer
-  fullName.vb: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer(Of RowType).TypedArchiveRowComparer
+  nameWithType.vb: TypedArchiveRowComparer(Of RowType).New
+  fullName.vb: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer(Of RowType).New
+  name.vb: New
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.html
   name: ArchiveOrderByInfo[]
   nameWithType: ArchiveOrderByInfo[]
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
@@ -406,29 +789,58 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
     name: ArchiveOrderByInfo
-    nameWithType: ArchiveOrderByInfo
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
     name: ArchiveOrderByInfo
-    nameWithType: ArchiveOrderByInfo
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.html
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer`1.Compare*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer`1.Compare
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer-1.html#SuperOffice_CRM_ArchiveLists_TypedArchiveRowComparer_1_Compare__0__0_
   name: Compare
   nameWithType: TypedArchiveRowComparer<RowType>.Compare
   fullName: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer<RowType>.Compare
   nameWithType.vb: TypedArchiveRowComparer(Of RowType).Compare
   fullName.vb: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer(Of RowType).Compare
+- uid: System.Collections.Generic.IComparer{{RowType}}.Compare({RowType},{RowType})
+  commentId: M:System.Collections.Generic.IComparer{`0}.Compare(`0,`0)
+  parent: System.Collections.Generic.IComparer{{RowType}}
+  definition: System.Collections.Generic.IComparer`1.Compare(`0,`0)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1.compare
+  name: Compare(RowType, RowType)
+  nameWithType: IComparer<RowType>.Compare(RowType, RowType)
+  fullName: System.Collections.Generic.IComparer<RowType>.Compare(RowType, RowType)
+  nameWithType.vb: IComparer(Of RowType).Compare(RowType, RowType)
+  fullName.vb: System.Collections.Generic.IComparer(Of RowType).Compare(RowType, RowType)
+  spec.csharp:
+  - uid: System.Collections.Generic.IComparer{`0}.Compare(`0,`0)
+    name: Compare
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1.compare
+  - name: (
+  - name: RowType
+  - name: ','
+  - name: " "
+  - name: RowType
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IComparer{`0}.Compare(`0,`0)
+    name: Compare
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1.compare
+  - name: (
+  - name: RowType
+  - name: ','
+  - name: " "
+  - name: RowType
+  - name: )
 - uid: '{RowType}'
   commentId: '!:RowType'
   definition: RowType
@@ -439,9 +851,44 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Collections.Generic.IComparer`1.Compare(`0,`0)
+  commentId: M:System.Collections.Generic.IComparer`1.Compare(`0,`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1.compare
+  name: Compare(T, T)
+  nameWithType: IComparer<T>.Compare(T, T)
+  fullName: System.Collections.Generic.IComparer<T>.Compare(T, T)
+  nameWithType.vb: IComparer(Of T).Compare(T, T)
+  fullName.vb: System.Collections.Generic.IComparer(Of T).Compare(T, T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IComparer`1.Compare(`0,`0)
+    name: Compare
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1.compare
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IComparer`1.Compare(`0,`0)
+    name: Compare
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1.compare
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
 - uid: RowType
   name: RowType
   nameWithType: RowType

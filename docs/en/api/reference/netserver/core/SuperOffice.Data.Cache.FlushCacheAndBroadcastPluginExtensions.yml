@@ -1,0 +1,497 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions
+  commentId: T:SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions
+  id: FlushCacheAndBroadcastPluginExtensions
+  parent: SuperOffice.Data.Cache
+  children:
+  - SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin,System.String[])
+  - SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin,System.Threading.CancellationToken,System.String[])
+  langs:
+  - csharp
+  - vb
+  name: FlushCacheAndBroadcastPluginExtensions
+  nameWithType: FlushCacheAndBroadcastPluginExtensions
+  fullName: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: public static class FlushCacheAndBroadcastPluginExtensions
+    content.vb: Public Module FlushCacheAndBroadcastPluginExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin,System.String[])
+  commentId: M:SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin,System.String[])
+  id: FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin,System.String[])
+  isExtensionMethod: true
+  parent: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions
+  langs:
+  - csharp
+  - vb
+  name: FlushAndBroadcastAsync(IFlushCacheAndBroadcastPlugin, params string[])
+  nameWithType: FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(IFlushCacheAndBroadcastPlugin, params string[])
+  fullName: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin, params string[])
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  summary: Flushes the caches and broadcast
+  example: []
+  syntax:
+    content: public static Task FlushAndBroadcastAsync(this IFlushCacheAndBroadcastPlugin plugin, params string[] cacheNames)
+    parameters:
+    - id: plugin
+      type: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
+    - id: cacheNames
+      type: System.String[]
+      description: >-
+        Caches to flush. Input can be technical name of the cache, or it can be the table name from the database and it'll do a
+
+        lookup to find all the caches that's associated with that table and flush.
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function FlushAndBroadcastAsync(plugin As IFlushCacheAndBroadcastPlugin, ParamArray cacheNames As String()) As Task
+  overload: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync*
+  nameWithType.vb: FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(IFlushCacheAndBroadcastPlugin, ParamArray String())
+  fullName.vb: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin, ParamArray String())
+  name.vb: FlushAndBroadcastAsync(IFlushCacheAndBroadcastPlugin, ParamArray String())
+- uid: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin,System.Threading.CancellationToken,System.String[])
+  commentId: M:SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin,System.Threading.CancellationToken,System.String[])
+  id: FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin,System.Threading.CancellationToken,System.String[])
+  isExtensionMethod: true
+  parent: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions
+  langs:
+  - csharp
+  - vb
+  name: FlushAndBroadcastAsync(IFlushCacheAndBroadcastPlugin, CancellationToken, params string[])
+  nameWithType: FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(IFlushCacheAndBroadcastPlugin, CancellationToken, params string[])
+  fullName: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin, System.Threading.CancellationToken, params string[])
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  summary: Flushes the caches and broadcast
+  example: []
+  syntax:
+    content: public static Task FlushAndBroadcastAsync(this IFlushCacheAndBroadcastPlugin plugin, CancellationToken cancellationToken, params string[] cacheNames)
+    parameters:
+    - id: plugin
+      type: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    - id: cacheNames
+      type: System.String[]
+      description: >-
+        Caches to flush. Input can be technical name of the cache, or it can be the table name from the database and it'll do a
+
+        lookup to find all the caches that's associated with that table and flush.
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function FlushAndBroadcastAsync(plugin As IFlushCacheAndBroadcastPlugin, cancellationToken As CancellationToken, ParamArray cacheNames As String()) As Task
+  overload: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync*
+  nameWithType.vb: FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(IFlushCacheAndBroadcastPlugin, CancellationToken, ParamArray String())
+  fullName.vb: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin, System.Threading.CancellationToken, ParamArray String())
+  name.vb: FlushAndBroadcastAsync(IFlushCacheAndBroadcastPlugin, CancellationToken, ParamArray String())
+references:
+- uid: SuperOffice.Data.Cache
+  commentId: N:SuperOffice.Data.Cache
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.Cache
+  nameWithType: SuperOffice.Data.Cache
+  fullName: SuperOffice.Data.Cache
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.Data.Cache.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.Data.Cache.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync*
+  commentId: Overload:SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync
+  isExternal: true
+  href: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.html#SuperOffice_Data_Cache_FlushCacheAndBroadcastPluginExtensions_FlushAndBroadcastAsync_SuperOffice_Data_Cache_IFlushCacheAndBroadcastPlugin_System_String___
+  name: FlushAndBroadcastAsync
+  nameWithType: FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync
+  fullName: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync
+- uid: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
+  commentId: T:SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  href: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.html
+  name: IFlushCacheAndBroadcastPlugin
+  nameWithType: IFlushCacheAndBroadcastPlugin
+  fullName: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading

@@ -101,16 +101,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 529,
-  "ERPPriceListKey": "rerum",
-  "QuoteConnectionId": 117,
-  "Name": "Strosin-Davis",
-  "Description": "Managed incremental policy",
-  "Currency": "saepe",
-  "CurrencyName": "Nitzsche-Schroeder",
-  "ValidFrom": "2019-01-29T16:32:48.7588803+01:00",
-  "ValidTo": "2013-04-08T16:32:48.7588803+02:00",
-  "IsActive": false
+  "PriceListId": 421,
+  "ERPPriceListKey": "aperiam",
+  "QuoteConnectionId": 611,
+  "Name": "Stoltenberg Inc and Sons",
+  "Description": "Balanced clear-thinking data-warehouse",
+  "Currency": "sint",
+  "CurrencyName": "Morissette-Vandervort",
+  "ValidFrom": "2003-02-03T17:54:08.9605465+01:00",
+  "ValidTo": "2006-03-18T17:54:08.9605465+01:00",
+  "IsActive": true
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 326,
-  "ERPPriceListKey": "suscipit",
-  "QuoteConnectionId": 72,
-  "Name": "Gottlieb, Grady and Carter",
-  "Description": "Business-focused reciprocal utilisation",
-  "Currency": "aut",
-  "CurrencyName": "Ortiz-Kunde",
-  "ValidFrom": "1999-12-31T16:32:48.7588803+01:00",
-  "ValidTo": "2009-11-18T16:32:48.7588803+01:00",
+  "PriceListId": 245,
+  "ERPPriceListKey": "rerum",
+  "QuoteConnectionId": 781,
+  "Name": "Brekke-McDermott",
+  "Description": "Upgradable reciprocal knowledge base",
+  "Currency": "eos",
+  "CurrencyName": "Hand, Osinski and Hahn",
+  "ValidFrom": "2003-10-25T17:54:08.9605465+02:00",
+  "ValidTo": "2025-04-08T17:54:08.9605465+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 553
+      "FieldLength": 798
     }
   },
   "_Links": {

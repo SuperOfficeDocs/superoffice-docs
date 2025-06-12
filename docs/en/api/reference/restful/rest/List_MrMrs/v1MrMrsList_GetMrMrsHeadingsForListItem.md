@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 256,
-    "Name": "Walsh Inc and Sons",
-    "ToolTip": "Nam expedita temporibus sit veniam placeat ea minus.",
+    "Id": 404,
+    "Name": "Mayer Inc and Sons",
+    "ToolTip": "Explicabo cum voluptatem.",
     "Deleted": false,
-    "Rank": 84,
-    "Type": "rerum",
-    "ColorBlock": 52,
-    "IconHint": "nostrum",
-    "Selected": false,
-    "LastChanged": "2022-10-29T16:32:48.7120179+02:00",
+    "Rank": 698,
+    "Type": "in",
+    "ColorBlock": 96,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2012-09-01T17:54:08.9292989+02:00",
     "ChildItems": [
       {
-        "Id": 410,
-        "Name": "Feeney Group",
-        "ToolTip": "Qui possimus corporis eligendi debitis ea sit tempora.",
+        "Id": 259,
+        "Name": "Beatty LLC",
+        "ToolTip": "Et velit eum distinctio.",
         "Deleted": true,
-        "Rank": 408,
-        "Type": "laudantium",
-        "ColorBlock": 33,
-        "IconHint": "dolorum",
-        "Selected": false,
-        "LastChanged": "2025-04-25T16:32:48.7120179+02:00",
+        "Rank": 956,
+        "Type": "ut",
+        "ColorBlock": 355,
+        "IconHint": "eius",
+        "Selected": true,
+        "LastChanged": "2003-01-20T17:54:08.9292989+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Mr. Althea Jordy Hayes I",
+        "ExtraInfo": "vel",
+        "StyleHint": "adipisci",
+        "Hidden": false,
+        "FullName": "Mrs. Rubie Hilton Ward Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 947
+            "FieldType": "System.String",
+            "FieldLength": 733
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Nakia Bosco",
+    "ExtraInfo": "nulla",
+    "StyleHint": "repudiandae",
+    "Hidden": false,
+    "FullName": "Mrs. Trudie Chelsie Marks",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 867
+        "FieldLength": 603
       }
     }
   }

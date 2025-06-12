@@ -115,7 +115,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 71
+  "QuoteId": 569
 }
 ```
 
@@ -127,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 580,
-    "ERPQuoteVersionKey": "reprehenderit",
-    "QuoteId": 332,
-    "Description": "User-friendly motivating data-warehouse",
-    "Number": "350315",
+    "QuoteVersionId": 758,
+    "ERPQuoteVersionKey": "sunt",
+    "QuoteId": 483,
+    "Description": "Function-based mobile conglomeration",
+    "Number": "1003087",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 215,
-    "SentDate": "2013-10-03T16:32:39.680262+02:00",
-    "FollowupId": 193,
-    "ExpirationDate": "2015-12-29T16:32:39.680262+01:00",
-    "DeliveryCountryId": 869,
-    "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 691,
+    "LikelyQuoteAlternativeId": 985,
+    "SentDate": "2019-09-05T17:54:03.5076876+02:00",
+    "FollowupId": 424,
+    "ExpirationDate": "2014-12-24T17:54:03.5076876+01:00",
+    "DeliveryCountryId": 298,
+    "HasOwnDeliveryAddress": true,
+    "InvoiceCountryId": 998,
     "HasOwnInvoiceAddress": true,
-    "ERPPaymentTermsKey": "qui",
-    "ERPPaymentTypeKey": "beatae",
-    "ERPDeliveryTermsKey": "perspiciatis",
-    "ERPDeliveryTypeKey": "est",
-    "Rank": 150,
-    "ApprovedBy": 923,
-    "ApprovedText": "sint",
-    "ApprovedRegisteredBy": 171,
-    "ApprovedRegisteredDate": "2004-04-26T16:32:39.680262+02:00",
-    "ExtraField1": "aut",
-    "ExtraField2": "dolores",
-    "ExtraField3": "ex",
-    "ExtraField4": "reiciendis",
-    "ExtraField5": "deserunt",
-    "LastRecalculated": "2025-02-01T16:32:39.680262+01:00",
-    "Updated": "2013-09-05T16:32:39.680262+02:00",
-    "UpdatedAssociateId": 249,
-    "Registered": "2021-01-26T16:32:39.680262+01:00",
-    "RegisteredAssociateId": 603,
-    "RequestAssociateId": 883,
-    "RequestComment": "est",
+    "ERPPaymentTermsKey": "quas",
+    "ERPPaymentTypeKey": "similique",
+    "ERPDeliveryTermsKey": "sequi",
+    "ERPDeliveryTypeKey": "quia",
+    "Rank": 389,
+    "ApprovedBy": 7,
+    "ApprovedText": "nulla",
+    "ApprovedRegisteredBy": 827,
+    "ApprovedRegisteredDate": "2023-12-08T17:54:03.5076876+01:00",
+    "ExtraField1": "ut",
+    "ExtraField2": "quaerat",
+    "ExtraField3": "enim",
+    "ExtraField4": "autem",
+    "ExtraField5": "qui",
+    "LastRecalculated": "2019-11-08T17:54:03.5076876+01:00",
+    "Updated": "2008-06-30T17:54:03.5076876+02:00",
+    "UpdatedAssociateId": 911,
+    "Registered": "2000-05-21T17:54:03.5076876+02:00",
+    "RegisteredAssociateId": 445,
+    "RequestAssociateId": 652,
+    "RequestComment": "nihil",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 88,
-        "ERPQuoteAlternativeKey": "eum",
-        "QuoteVersionId": 8,
-        "Name": "Bins, Collins and Lang",
-        "Description": "Mandatory client-server open architecture",
+        "QuoteAlternativeId": 206,
+        "ERPQuoteAlternativeKey": "facere",
+        "QuoteVersionId": 20,
+        "Name": "Boehm, Pagac and Bode",
+        "Description": "Secured next generation forecast",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 28861.005999999998,
-        "ERPDiscountAmount": 24592.498,
-        "DiscountPercent": 5634.932,
-        "DiscountAmount": 19042.184,
+        "ERPDiscountPercent": 26253.518,
+        "ERPDiscountAmount": 8869.22,
+        "DiscountPercent": 1802.05,
+        "DiscountAmount": 8875.488,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "ut",
-        "VAT": 4904.71,
-        "EarningPercent": 14830.088,
-        "EarningAmount": 17023.888,
-        "SubTotal": 3080.7219999999998,
-        "TotalPrice": 17982.892,
-        "ExtraField1": "tempora",
-        "ExtraField2": "consectetur",
-        "ExtraField3": "vitae",
-        "ExtraField4": "enim",
-        "ExtraField5": "tempore",
+        "VATInfo": "quia",
+        "VAT": 19907.167999999998,
+        "EarningPercent": 5794.766,
+        "EarningAmount": 5349.7379999999994,
+        "SubTotal": 24786.806,
+        "TotalPrice": 84.618,
+        "ExtraField1": "libero",
+        "ExtraField2": "est",
+        "ExtraField3": "possimus",
+        "ExtraField4": "omnis",
+        "ExtraField5": "aliquam",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 859
+            "FieldLength": 396
           }
         }
       }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 827
+        "FieldType": "System.Int32",
+        "FieldLength": 128
       }
     }
   }

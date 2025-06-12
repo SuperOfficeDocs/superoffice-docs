@@ -71,13 +71,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hamill, Treutel and Metz",
+  "TableName": "Fadel-Berge",
   "RecordIds": [
-    686,
-    744
+    235,
+    663
   ],
-  "AssociateId": 413,
-  "ExtraInfo": "voluptas"
+  "AssociateId": 83,
+  "ExtraInfo": "et"
 }
 ```
 

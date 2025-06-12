@@ -27,7 +27,6 @@ items:
   - SuperOffice.WebApi.Data.ColorIndex.RedAlt1
   - SuperOffice.WebApi.Data.ColorIndex.RedAlt2
   - SuperOffice.WebApi.Data.ColorIndex.RedAlt3
-  - SuperOffice.WebApi.Data.ColorIndex.value__
   - SuperOffice.WebApi.Data.ColorIndex.YellowAlt1
   - SuperOffice.WebApi.Data.ColorIndex.YellowAlt2
   - SuperOffice.WebApi.Data.ColorIndex.YellowAlt3
@@ -37,57 +36,15 @@ items:
   name: ColorIndex
   nameWithType: ColorIndex
   fullName: SuperOffice.WebApi.Data.ColorIndex
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nColor index of tasks\n"
+  summary: Color index of tasks
+  example: []
   syntax:
-    content: 'public sealed class ColorIndex : Enum'
-    content.vb: >-
-      Public NotInheritable Class ColorIndex
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.ColorIndex.value__
-  commentId: F:SuperOffice.WebApi.Data.ColorIndex.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.ColorIndex
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: ColorIndex.value__
-  fullName: SuperOffice.WebApi.Data.ColorIndex.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum ColorIndex
+    content.vb: Public Enum ColorIndex
 - uid: SuperOffice.WebApi.Data.ColorIndex.LightBlue
   commentId: F:SuperOffice.WebApi.Data.ColorIndex.LightBlue
   id: LightBlue
@@ -99,24 +56,26 @@ items:
   nameWithType: ColorIndex.LightBlue
   fullName: SuperOffice.WebApi.Data.ColorIndex.LightBlue
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Light blue\n"
+  summary: '0: Light blue'
+  example: []
   syntax:
-    content: public const ColorIndex LightBlue
+    content: >-
+      [EnumMember]
+
+      LightBlue = 0
     return:
       type: SuperOffice.WebApi.Data.ColorIndex
-    content.vb: Public Const LightBlue As ColorIndex
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      LightBlue = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ColorIndex.DarkBlue
   commentId: F:SuperOffice.WebApi.Data.ColorIndex.DarkBlue
   id: DarkBlue
@@ -128,24 +87,26 @@ items:
   nameWithType: ColorIndex.DarkBlue
   fullName: SuperOffice.WebApi.Data.ColorIndex.DarkBlue
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Dark blue\n"
+  summary: '1: Dark blue'
+  example: []
   syntax:
-    content: public const ColorIndex DarkBlue
+    content: >-
+      [EnumMember]
+
+      DarkBlue = 1
     return:
       type: SuperOffice.WebApi.Data.ColorIndex
-    content.vb: Public Const DarkBlue As ColorIndex
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      DarkBlue = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ColorIndex.LightGray
   commentId: F:SuperOffice.WebApi.Data.ColorIndex.LightGray
   id: LightGray
@@ -157,24 +118,26 @@ items:
   nameWithType: ColorIndex.LightGray
   fullName: SuperOffice.WebApi.Data.ColorIndex.LightGray
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Light gray\n"
+  summary: '2: Light gray'
+  example: []
   syntax:
-    content: public const ColorIndex LightGray
+    content: >-
+      [EnumMember]
+
+      LightGray = 2
     return:
       type: SuperOffice.WebApi.Data.ColorIndex
-    content.vb: Public Const LightGray As ColorIndex
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      LightGray = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ColorIndex.DarkGray
   commentId: F:SuperOffice.WebApi.Data.ColorIndex.DarkGray
   id: DarkGray
@@ -186,24 +149,26 @@ items:
   nameWithType: ColorIndex.DarkGray
   fullName: SuperOffice.WebApi.Data.ColorIndex.DarkGray
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Dark gray\n"
+  summary: '3: Dark gray'
+  example: []
   syntax:
-    content: public const ColorIndex DarkGray
+    content: >-
+      [EnumMember]
+
+      DarkGray = 3
     return:
       type: SuperOffice.WebApi.Data.ColorIndex
-    content.vb: Public Const DarkGray As ColorIndex
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      DarkGray = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ColorIndex.LightGreen
   commentId: F:SuperOffice.WebApi.Data.ColorIndex.LightGreen
   id: LightGreen
@@ -215,24 +180,26 @@ items:
   nameWithType: ColorIndex.LightGreen
   fullName: SuperOffice.WebApi.Data.ColorIndex.LightGreen
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Light green\n"
+  summary: '4: Light green'
+  example: []
   syntax:
-    content: public const ColorIndex LightGreen
+    content: >-
+      [EnumMember]
+
+      LightGreen = 4
     return:
       type: SuperOffice.WebApi.Data.ColorIndex
-    content.vb: Public Const LightGreen As ColorIndex
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      LightGreen = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ColorIndex.DarkGreen
   commentId: F:SuperOffice.WebApi.Data.ColorIndex.DarkGreen
   id: DarkGreen
@@ -244,24 +211,26 @@ items:
   nameWithType: ColorIndex.DarkGreen
   fullName: SuperOffice.WebApi.Data.ColorIndex.DarkGreen
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: Dark Green\n"
+  summary: '5: Dark Green'
+  example: []
   syntax:
-    content: public const ColorIndex DarkGreen
+    content: >-
+      [EnumMember]
+
+      DarkGreen = 5
     return:
       type: SuperOffice.WebApi.Data.ColorIndex
-    content.vb: Public Const DarkGreen As ColorIndex
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      DarkGreen = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ColorIndex.LightYellow
   commentId: F:SuperOffice.WebApi.Data.ColorIndex.LightYellow
   id: LightYellow
@@ -273,24 +242,26 @@ items:
   nameWithType: ColorIndex.LightYellow
   fullName: SuperOffice.WebApi.Data.ColorIndex.LightYellow
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n6: Light Yellow\n"
+  summary: '6: Light Yellow'
+  example: []
   syntax:
-    content: public const ColorIndex LightYellow
+    content: >-
+      [EnumMember]
+
+      LightYellow = 6
     return:
       type: SuperOffice.WebApi.Data.ColorIndex
-    content.vb: Public Const LightYellow As ColorIndex
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      LightYellow = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ColorIndex.DarkYellow
   commentId: F:SuperOffice.WebApi.Data.ColorIndex.DarkYellow
   id: DarkYellow
@@ -302,24 +273,26 @@ items:
   nameWithType: ColorIndex.DarkYellow
   fullName: SuperOffice.WebApi.Data.ColorIndex.DarkYellow
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n7: Dark Yellow\n"
+  summary: '7: Dark Yellow'
+  example: []
   syntax:
-    content: public const ColorIndex DarkYellow
+    content: >-
+      [EnumMember]
+
+      DarkYellow = 7
     return:
       type: SuperOffice.WebApi.Data.ColorIndex
-    content.vb: Public Const DarkYellow As ColorIndex
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      DarkYellow = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ColorIndex.LightRed
   commentId: F:SuperOffice.WebApi.Data.ColorIndex.LightRed
   id: LightRed
@@ -331,24 +304,26 @@ items:
   nameWithType: ColorIndex.LightRed
   fullName: SuperOffice.WebApi.Data.ColorIndex.LightRed
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n8: Light Red\n"
+  summary: '8: Light Red'
+  example: []
   syntax:
-    content: public const ColorIndex LightRed
+    content: >-
+      [EnumMember]
+
+      LightRed = 8
     return:
       type: SuperOffice.WebApi.Data.ColorIndex
-    content.vb: Public Const LightRed As ColorIndex
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      LightRed = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ColorIndex.DarkRed
   commentId: F:SuperOffice.WebApi.Data.ColorIndex.DarkRed
   id: DarkRed
@@ -360,24 +335,26 @@ items:
   nameWithType: ColorIndex.DarkRed
   fullName: SuperOffice.WebApi.Data.ColorIndex.DarkRed
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n9: Dark Red\n"
+  summary: '9: Dark Red'
+  example: []
   syntax:
-    content: public const ColorIndex DarkRed
+    content: >-
+      [EnumMember]
+
+      DarkRed = 9
     return:
       type: SuperOffice.WebApi.Data.ColorIndex
-    content.vb: Public Const DarkRed As ColorIndex
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      DarkRed = 9
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ColorIndex.BlueAlt1
   commentId: F:SuperOffice.WebApi.Data.ColorIndex.BlueAlt1
   id: BlueAlt1
@@ -389,24 +366,26 @@ items:
   nameWithType: ColorIndex.BlueAlt1
   fullName: SuperOffice.WebApi.Data.ColorIndex.BlueAlt1
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n10: Blue alternative 1\n"
+  summary: '10: Blue alternative 1'
+  example: []
   syntax:
-    content: public const ColorIndex BlueAlt1
+    content: >-
+      [EnumMember]
+
+      BlueAlt1 = 10
     return:
       type: SuperOffice.WebApi.Data.ColorIndex
-    content.vb: Public Const BlueAlt1 As ColorIndex
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      BlueAlt1 = 10
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ColorIndex.BlueAlt2
   commentId: F:SuperOffice.WebApi.Data.ColorIndex.BlueAlt2
   id: BlueAlt2
@@ -418,24 +397,26 @@ items:
   nameWithType: ColorIndex.BlueAlt2
   fullName: SuperOffice.WebApi.Data.ColorIndex.BlueAlt2
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n11: Blue alternative 2\n"
+  summary: '11: Blue alternative 2'
+  example: []
   syntax:
-    content: public const ColorIndex BlueAlt2
+    content: >-
+      [EnumMember]
+
+      BlueAlt2 = 11
     return:
       type: SuperOffice.WebApi.Data.ColorIndex
-    content.vb: Public Const BlueAlt2 As ColorIndex
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      BlueAlt2 = 11
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ColorIndex.BlueAlt3
   commentId: F:SuperOffice.WebApi.Data.ColorIndex.BlueAlt3
   id: BlueAlt3
@@ -447,24 +428,26 @@ items:
   nameWithType: ColorIndex.BlueAlt3
   fullName: SuperOffice.WebApi.Data.ColorIndex.BlueAlt3
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n12: Blue alternative 3\n"
+  summary: '12: Blue alternative 3'
+  example: []
   syntax:
-    content: public const ColorIndex BlueAlt3
+    content: >-
+      [EnumMember]
+
+      BlueAlt3 = 12
     return:
       type: SuperOffice.WebApi.Data.ColorIndex
-    content.vb: Public Const BlueAlt3 As ColorIndex
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      BlueAlt3 = 12
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ColorIndex.GrayAlt1
   commentId: F:SuperOffice.WebApi.Data.ColorIndex.GrayAlt1
   id: GrayAlt1
@@ -476,24 +459,26 @@ items:
   nameWithType: ColorIndex.GrayAlt1
   fullName: SuperOffice.WebApi.Data.ColorIndex.GrayAlt1
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n13: Gray alternative 1\n"
+  summary: '13: Gray alternative 1'
+  example: []
   syntax:
-    content: public const ColorIndex GrayAlt1
+    content: >-
+      [EnumMember]
+
+      GrayAlt1 = 13
     return:
       type: SuperOffice.WebApi.Data.ColorIndex
-    content.vb: Public Const GrayAlt1 As ColorIndex
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      GrayAlt1 = 13
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ColorIndex.GrayAlt2
   commentId: F:SuperOffice.WebApi.Data.ColorIndex.GrayAlt2
   id: GrayAlt2
@@ -505,24 +490,26 @@ items:
   nameWithType: ColorIndex.GrayAlt2
   fullName: SuperOffice.WebApi.Data.ColorIndex.GrayAlt2
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n14: Gray alternative 2\n"
+  summary: '14: Gray alternative 2'
+  example: []
   syntax:
-    content: public const ColorIndex GrayAlt2
+    content: >-
+      [EnumMember]
+
+      GrayAlt2 = 14
     return:
       type: SuperOffice.WebApi.Data.ColorIndex
-    content.vb: Public Const GrayAlt2 As ColorIndex
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      GrayAlt2 = 14
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ColorIndex.GrayAlt3
   commentId: F:SuperOffice.WebApi.Data.ColorIndex.GrayAlt3
   id: GrayAlt3
@@ -534,24 +521,26 @@ items:
   nameWithType: ColorIndex.GrayAlt3
   fullName: SuperOffice.WebApi.Data.ColorIndex.GrayAlt3
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n15: Gray alternative 3\n"
+  summary: '15: Gray alternative 3'
+  example: []
   syntax:
-    content: public const ColorIndex GrayAlt3
+    content: >-
+      [EnumMember]
+
+      GrayAlt3 = 15
     return:
       type: SuperOffice.WebApi.Data.ColorIndex
-    content.vb: Public Const GrayAlt3 As ColorIndex
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      GrayAlt3 = 15
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ColorIndex.GreenAlt1
   commentId: F:SuperOffice.WebApi.Data.ColorIndex.GreenAlt1
   id: GreenAlt1
@@ -563,24 +552,26 @@ items:
   nameWithType: ColorIndex.GreenAlt1
   fullName: SuperOffice.WebApi.Data.ColorIndex.GreenAlt1
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n16: Green alternative 1\n"
+  summary: '16: Green alternative 1'
+  example: []
   syntax:
-    content: public const ColorIndex GreenAlt1
+    content: >-
+      [EnumMember]
+
+      GreenAlt1 = 16
     return:
       type: SuperOffice.WebApi.Data.ColorIndex
-    content.vb: Public Const GreenAlt1 As ColorIndex
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      GreenAlt1 = 16
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ColorIndex.GreenAlt2
   commentId: F:SuperOffice.WebApi.Data.ColorIndex.GreenAlt2
   id: GreenAlt2
@@ -592,24 +583,26 @@ items:
   nameWithType: ColorIndex.GreenAlt2
   fullName: SuperOffice.WebApi.Data.ColorIndex.GreenAlt2
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n17: Green alternative 2\n"
+  summary: '17: Green alternative 2'
+  example: []
   syntax:
-    content: public const ColorIndex GreenAlt2
+    content: >-
+      [EnumMember]
+
+      GreenAlt2 = 17
     return:
       type: SuperOffice.WebApi.Data.ColorIndex
-    content.vb: Public Const GreenAlt2 As ColorIndex
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      GreenAlt2 = 17
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ColorIndex.GreenAlt3
   commentId: F:SuperOffice.WebApi.Data.ColorIndex.GreenAlt3
   id: GreenAlt3
@@ -621,24 +614,26 @@ items:
   nameWithType: ColorIndex.GreenAlt3
   fullName: SuperOffice.WebApi.Data.ColorIndex.GreenAlt3
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n18: Green alternative 3\n"
+  summary: '18: Green alternative 3'
+  example: []
   syntax:
-    content: public const ColorIndex GreenAlt3
+    content: >-
+      [EnumMember]
+
+      GreenAlt3 = 18
     return:
       type: SuperOffice.WebApi.Data.ColorIndex
-    content.vb: Public Const GreenAlt3 As ColorIndex
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      GreenAlt3 = 18
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ColorIndex.YellowAlt1
   commentId: F:SuperOffice.WebApi.Data.ColorIndex.YellowAlt1
   id: YellowAlt1
@@ -650,24 +645,26 @@ items:
   nameWithType: ColorIndex.YellowAlt1
   fullName: SuperOffice.WebApi.Data.ColorIndex.YellowAlt1
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n19: Yellow alternative 1\n"
+  summary: '19: Yellow alternative 1'
+  example: []
   syntax:
-    content: public const ColorIndex YellowAlt1
+    content: >-
+      [EnumMember]
+
+      YellowAlt1 = 19
     return:
       type: SuperOffice.WebApi.Data.ColorIndex
-    content.vb: Public Const YellowAlt1 As ColorIndex
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      YellowAlt1 = 19
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ColorIndex.YellowAlt2
   commentId: F:SuperOffice.WebApi.Data.ColorIndex.YellowAlt2
   id: YellowAlt2
@@ -679,24 +676,26 @@ items:
   nameWithType: ColorIndex.YellowAlt2
   fullName: SuperOffice.WebApi.Data.ColorIndex.YellowAlt2
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n20: Yellow alternative 2\n"
+  summary: '20: Yellow alternative 2'
+  example: []
   syntax:
-    content: public const ColorIndex YellowAlt2
+    content: >-
+      [EnumMember]
+
+      YellowAlt2 = 20
     return:
       type: SuperOffice.WebApi.Data.ColorIndex
-    content.vb: Public Const YellowAlt2 As ColorIndex
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      YellowAlt2 = 20
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ColorIndex.YellowAlt3
   commentId: F:SuperOffice.WebApi.Data.ColorIndex.YellowAlt3
   id: YellowAlt3
@@ -708,24 +707,26 @@ items:
   nameWithType: ColorIndex.YellowAlt3
   fullName: SuperOffice.WebApi.Data.ColorIndex.YellowAlt3
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n21: Yellow alternative 3\n"
+  summary: '21: Yellow alternative 3'
+  example: []
   syntax:
-    content: public const ColorIndex YellowAlt3
+    content: >-
+      [EnumMember]
+
+      YellowAlt3 = 21
     return:
       type: SuperOffice.WebApi.Data.ColorIndex
-    content.vb: Public Const YellowAlt3 As ColorIndex
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      YellowAlt3 = 21
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ColorIndex.RedAlt1
   commentId: F:SuperOffice.WebApi.Data.ColorIndex.RedAlt1
   id: RedAlt1
@@ -737,24 +738,26 @@ items:
   nameWithType: ColorIndex.RedAlt1
   fullName: SuperOffice.WebApi.Data.ColorIndex.RedAlt1
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n22: Red alternative 1\n"
+  summary: '22: Red alternative 1'
+  example: []
   syntax:
-    content: public const ColorIndex RedAlt1
+    content: >-
+      [EnumMember]
+
+      RedAlt1 = 22
     return:
       type: SuperOffice.WebApi.Data.ColorIndex
-    content.vb: Public Const RedAlt1 As ColorIndex
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      RedAlt1 = 22
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ColorIndex.RedAlt2
   commentId: F:SuperOffice.WebApi.Data.ColorIndex.RedAlt2
   id: RedAlt2
@@ -766,24 +769,26 @@ items:
   nameWithType: ColorIndex.RedAlt2
   fullName: SuperOffice.WebApi.Data.ColorIndex.RedAlt2
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n23: Red alternative 2\n"
+  summary: '23: Red alternative 2'
+  example: []
   syntax:
-    content: public const ColorIndex RedAlt2
+    content: >-
+      [EnumMember]
+
+      RedAlt2 = 23
     return:
       type: SuperOffice.WebApi.Data.ColorIndex
-    content.vb: Public Const RedAlt2 As ColorIndex
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      RedAlt2 = 23
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ColorIndex.RedAlt3
   commentId: F:SuperOffice.WebApi.Data.ColorIndex.RedAlt3
   id: RedAlt3
@@ -795,55 +800,69 @@ items:
   nameWithType: ColorIndex.RedAlt3
   fullName: SuperOffice.WebApi.Data.ColorIndex.RedAlt3
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n24: Red alternative 3\n"
+  summary: '24: Red alternative 3'
+  example: []
   syntax:
-    content: public const ColorIndex RedAlt3
+    content: >-
+      [EnumMember]
+
+      RedAlt3 = 24
     return:
       type: SuperOffice.WebApi.Data.ColorIndex
-    content.vb: Public Const RedAlt3 As ColorIndex
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      RedAlt3 = 24
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.ColorIndex
   commentId: T:SuperOffice.WebApi.Data.ColorIndex
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.ColorIndex.html
   name: ColorIndex
   nameWithType: ColorIndex
   fullName: SuperOffice.WebApi.Data.ColorIndex

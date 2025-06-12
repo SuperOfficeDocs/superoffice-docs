@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 295,
-  "Name": "Schmitt Group",
-  "Tooltip": "cum",
-  "Deleted": true,
-  "UdListDefinitionId": 383,
-  "Rank": 215
+  "Id": 319,
+  "Name": "Boyle-Kunde",
+  "Tooltip": "tempora",
+  "Deleted": false,
+  "UdListDefinitionId": 47,
+  "Rank": 674
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 265,
-  "Name": "Frami, Trantow and Hyatt",
-  "Tooltip": "dignissimos",
+  "Id": 192,
+  "Name": "Wiegand-Block",
+  "Tooltip": "facere",
   "Deleted": true,
-  "UdListDefinitionId": 818,
-  "Rank": 759,
+  "UdListDefinitionId": 136,
+  "Rank": 125,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 685
+      "FieldType": "System.Int32",
+      "FieldLength": 720
     }
   }
 }

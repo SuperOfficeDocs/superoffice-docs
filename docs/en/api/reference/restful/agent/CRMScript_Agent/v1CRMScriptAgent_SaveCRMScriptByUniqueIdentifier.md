@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "commodi",
+  "UniqueIdentifier": "omnis",
   "Crmscript": null
 }
 ```
@@ -101,22 +101,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "ut",
-  "Name": "O'Reilly-Ernser",
-  "Description": "Quality-focused methodical paradigm",
-  "IncludeId": "aliquid",
-  "Source": "vitae",
-  "Registered": "2004-12-19T16:32:38.5552758+01:00",
-  "RegisteredBy": "consequatur",
-  "Updated": "2003-02-08T16:32:38.5552758+01:00",
-  "UpdatedBy": "eos",
-  "Path": "debitis",
+  "UniqueIdentifier": "rerum",
+  "Name": "Bergstrom-Schamberger",
+  "Description": "Open-source demand-driven emulation",
+  "IncludeId": "magnam",
+  "Source": "delectus",
+  "Registered": "2018-01-27T17:54:02.9139671+01:00",
+  "RegisteredBy": "ab",
+  "Updated": "2020-11-01T17:54:02.9139671+01:00",
+  "UpdatedBy": "sit",
+  "Path": "error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 426
+      "FieldLength": 132
     }
   }
 }

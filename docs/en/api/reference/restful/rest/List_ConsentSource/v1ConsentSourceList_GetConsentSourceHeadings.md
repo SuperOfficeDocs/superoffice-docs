@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 832,
-    "Name": "Kuhlman, Schulist and Schiller",
-    "Tooltip": "repudiandae",
+    "HeadingId": 353,
+    "Name": "Kutch, Harris and Stamm",
+    "Tooltip": "asperiores",
     "Deleted": false,
-    "Rank": 910,
-    "UdListDefinitionId": 850,
+    "Rank": 432,
+    "UdListDefinitionId": 865,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 415
+        "FieldLength": 114
       }
     }
   }

@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntitiesV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Doyle Group",
-  "ProviderName": "Donnelly Group",
-  "Context": "eaque",
-  "OwnerKeys": "possimus",
+  "GuiName": "Tromp-Barton",
+  "ProviderName": "Gleichner-Dicki",
+  "Context": "error",
+  "OwnerKeys": "perspiciatis",
   "Entities": [
-    "ut",
-    "aut"
+    "aut",
+    "quia"
   ]
 }
 ```

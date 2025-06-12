@@ -17,67 +17,26 @@ items:
   - SuperOffice.Data.DbConvertType.dbString
   - SuperOffice.Data.DbConvertType.dbUInt
   - SuperOffice.Data.DbConvertType.dbUShort
-  - SuperOffice.Data.DbConvertType.value__
   langs:
   - csharp
   - vb
   name: DbConvertType
   nameWithType: DbConvertType
   fullName: SuperOffice.Data.DbConvertType
-  type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
+  type: Enum
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Data
-  summary: "\nEnums for the data types used in the database\n"
+  summary: Enums for the data types used in the database
+  example: []
   syntax:
-    content: 'public sealed class DbConvertType : Enum'
-    content.vb: >-
-      Public NotInheritable Class DbConvertType
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
+    content: public enum DbConvertType
+    content.vb: Public Enum DbConvertType
   extensionMethods:
   - SuperOffice.Data.DbConvertType.EnumUtil.MapEnums``2
   - SuperOffice.Data.DbConvertType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.Data.DbConvertType.value__
-  commentId: F:SuperOffice.Data.DbConvertType.value__
-  id: value__
-  parent: SuperOffice.Data.DbConvertType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: DbConvertType.value__
-  fullName: SuperOffice.Data.DbConvertType.value__
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.Data.DbConvertType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.DbConvertType)
+  - SuperOffice.Data.DbConvertType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
 - uid: SuperOffice.Data.DbConvertType.dbShort
   commentId: F:SuperOffice.Data.DbConvertType.dbShort
   id: dbShort
@@ -89,23 +48,13 @@ items:
   nameWithType: DbConvertType.dbShort
   fullName: SuperOffice.Data.DbConvertType.dbShort
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Data
   syntax:
-    content: public const DbConvertType dbShort
+    content: dbShort = 0
     return:
       type: SuperOffice.Data.DbConvertType
-    content.vb: Public Const dbShort As DbConvertType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.DbConvertType.dbShortId
   commentId: F:SuperOffice.Data.DbConvertType.dbShortId
   id: dbShortId
@@ -117,23 +66,13 @@ items:
   nameWithType: DbConvertType.dbShortId
   fullName: SuperOffice.Data.DbConvertType.dbShortId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Data
   syntax:
-    content: public const DbConvertType dbShortId
+    content: dbShortId = 1
     return:
       type: SuperOffice.Data.DbConvertType
-    content.vb: Public Const dbShortId As DbConvertType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.DbConvertType.dbUShort
   commentId: F:SuperOffice.Data.DbConvertType.dbUShort
   id: dbUShort
@@ -145,23 +84,13 @@ items:
   nameWithType: DbConvertType.dbUShort
   fullName: SuperOffice.Data.DbConvertType.dbUShort
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Data
   syntax:
-    content: public const DbConvertType dbUShort
+    content: dbUShort = 2
     return:
       type: SuperOffice.Data.DbConvertType
-    content.vb: Public Const dbUShort As DbConvertType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.DbConvertType.dbInt
   commentId: F:SuperOffice.Data.DbConvertType.dbInt
   id: dbInt
@@ -173,23 +102,13 @@ items:
   nameWithType: DbConvertType.dbInt
   fullName: SuperOffice.Data.DbConvertType.dbInt
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Data
   syntax:
-    content: public const DbConvertType dbInt
+    content: dbInt = 3
     return:
       type: SuperOffice.Data.DbConvertType
-    content.vb: Public Const dbInt As DbConvertType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.DbConvertType.dbIntId
   commentId: F:SuperOffice.Data.DbConvertType.dbIntId
   id: dbIntId
@@ -201,23 +120,13 @@ items:
   nameWithType: DbConvertType.dbIntId
   fullName: SuperOffice.Data.DbConvertType.dbIntId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Data
   syntax:
-    content: public const DbConvertType dbIntId
+    content: dbIntId = 4
     return:
       type: SuperOffice.Data.DbConvertType
-    content.vb: Public Const dbIntId As DbConvertType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.DbConvertType.dbUInt
   commentId: F:SuperOffice.Data.DbConvertType.dbUInt
   id: dbUInt
@@ -229,23 +138,13 @@ items:
   nameWithType: DbConvertType.dbUInt
   fullName: SuperOffice.Data.DbConvertType.dbUInt
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Data
   syntax:
-    content: public const DbConvertType dbUInt
+    content: dbUInt = 5
     return:
       type: SuperOffice.Data.DbConvertType
-    content.vb: Public Const dbUInt As DbConvertType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.DbConvertType.dbDouble
   commentId: F:SuperOffice.Data.DbConvertType.dbDouble
   id: dbDouble
@@ -257,23 +156,13 @@ items:
   nameWithType: DbConvertType.dbDouble
   fullName: SuperOffice.Data.DbConvertType.dbDouble
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Data
   syntax:
-    content: public const DbConvertType dbDouble
+    content: dbDouble = 6
     return:
       type: SuperOffice.Data.DbConvertType
-    content.vb: Public Const dbDouble As DbConvertType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.DbConvertType.dbDateTimeLocal
   commentId: F:SuperOffice.Data.DbConvertType.dbDateTimeLocal
   id: dbDateTimeLocal
@@ -285,23 +174,13 @@ items:
   nameWithType: DbConvertType.dbDateTimeLocal
   fullName: SuperOffice.Data.DbConvertType.dbDateTimeLocal
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Data
   syntax:
-    content: public const DbConvertType dbDateTimeLocal
+    content: dbDateTimeLocal = 7
     return:
       type: SuperOffice.Data.DbConvertType
-    content.vb: Public Const dbDateTimeLocal As DbConvertType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.DbConvertType.dbDateTimeUTC
   commentId: F:SuperOffice.Data.DbConvertType.dbDateTimeUTC
   id: dbDateTimeUTC
@@ -313,23 +192,13 @@ items:
   nameWithType: DbConvertType.dbDateTimeUTC
   fullName: SuperOffice.Data.DbConvertType.dbDateTimeUTC
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Data
   syntax:
-    content: public const DbConvertType dbDateTimeUTC
+    content: dbDateTimeUTC = 8
     return:
       type: SuperOffice.Data.DbConvertType
-    content.vb: Public Const dbDateTimeUTC As DbConvertType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.DbConvertType.dbString
   commentId: F:SuperOffice.Data.DbConvertType.dbString
   id: dbString
@@ -341,23 +210,13 @@ items:
   nameWithType: DbConvertType.dbString
   fullName: SuperOffice.Data.DbConvertType.dbString
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Data
   syntax:
-    content: public const DbConvertType dbString
+    content: dbString = 9
     return:
       type: SuperOffice.Data.DbConvertType
-    content.vb: Public Const dbString As DbConvertType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.DbConvertType.dbExtendedDateTimeLocal
   commentId: F:SuperOffice.Data.DbConvertType.dbExtendedDateTimeLocal
   id: dbExtendedDateTimeLocal
@@ -369,23 +228,13 @@ items:
   nameWithType: DbConvertType.dbExtendedDateTimeLocal
   fullName: SuperOffice.Data.DbConvertType.dbExtendedDateTimeLocal
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Data
   syntax:
-    content: public const DbConvertType dbExtendedDateTimeLocal
+    content: dbExtendedDateTimeLocal = 10
     return:
       type: SuperOffice.Data.DbConvertType
-    content.vb: Public Const dbExtendedDateTimeLocal As DbConvertType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.DbConvertType.dbExtendedDateTimeUTC
   commentId: F:SuperOffice.Data.DbConvertType.dbExtendedDateTimeUTC
   id: dbExtendedDateTimeUTC
@@ -397,114 +246,257 @@ items:
   nameWithType: DbConvertType.dbExtendedDateTimeUTC
   fullName: SuperOffice.Data.DbConvertType.dbExtendedDateTimeUTC
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Data
   syntax:
-    content: public const DbConvertType dbExtendedDateTimeUTC
+    content: dbExtendedDateTimeUTC = 11
     return:
       type: SuperOffice.Data.DbConvertType
-    content.vb: Public Const dbExtendedDateTimeUTC As DbConvertType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.DbConvertType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<DbConvertType, To>()
-  nameWithType: EnumUtil.MapEnums<DbConvertType, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.DbConvertType, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of DbConvertType, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.DbConvertType, To)()
-  name.vb: MapEnums(Of DbConvertType, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<DbConvertType, To>(DbConvertType)
+  nameWithType: EnumUtil.MapEnums<DbConvertType, To>(DbConvertType)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.DbConvertType, To>(SuperOffice.Data.DbConvertType)
+  nameWithType.vb: EnumUtil.MapEnums(Of DbConvertType, To)(DbConvertType)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.DbConvertType, To)(SuperOffice.Data.DbConvertType)
+  name.vb: MapEnums(Of DbConvertType, To)(DbConvertType)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<DbConvertType, To>
-    nameWithType: EnumUtil.MapEnums<DbConvertType, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.DbConvertType, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.DbConvertType)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.DbConvertType
+    name: DbConvertType
+    isExternal: true
+    href: SuperOffice.Data.DbConvertType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.DbConvertType
+    name: DbConvertType
+    isExternal: true
+    href: SuperOffice.Data.DbConvertType.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of DbConvertType, To)
-    nameWithType: EnumUtil.MapEnums(Of DbConvertType, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.DbConvertType, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.DbConvertType)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.DbConvertType
+    name: DbConvertType
+    isExternal: true
+    href: SuperOffice.Data.DbConvertType.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.DbConvertType
+    name: DbConvertType
+    isExternal: true
+    href: SuperOffice.Data.DbConvertType.html
+  - name: )
 - uid: SuperOffice.Data.DbConvertType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<DbConvertType, To>()
-  nameWithType: Converters.MapEnums<DbConvertType, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.DbConvertType, To>()
-  nameWithType.vb: Converters.MapEnums(Of DbConvertType, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.DbConvertType, To)()
-  name.vb: MapEnums(Of DbConvertType, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<DbConvertType, To>(DbConvertType)
+  nameWithType: Converters.MapEnums<DbConvertType, To>(DbConvertType)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.DbConvertType, To>(SuperOffice.Data.DbConvertType)
+  nameWithType.vb: Converters.MapEnums(Of DbConvertType, To)(DbConvertType)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.DbConvertType, To)(SuperOffice.Data.DbConvertType)
+  name.vb: MapEnums(Of DbConvertType, To)(DbConvertType)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<DbConvertType, To>
-    nameWithType: Converters.MapEnums<DbConvertType, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.DbConvertType, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.DbConvertType)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.DbConvertType
+    name: DbConvertType
+    isExternal: true
+    href: SuperOffice.Data.DbConvertType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.DbConvertType
+    name: DbConvertType
+    isExternal: true
+    href: SuperOffice.Data.DbConvertType.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of DbConvertType, To)
-    nameWithType: Converters.MapEnums(Of DbConvertType, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.DbConvertType, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.DbConvertType)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.DbConvertType
+    name: DbConvertType
+    isExternal: true
+    href: SuperOffice.Data.DbConvertType.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  - name: (
+  - uid: SuperOffice.Data.DbConvertType
+    name: DbConvertType
+    isExternal: true
+    href: SuperOffice.Data.DbConvertType.html
+  - name: )
+- uid: SuperOffice.Data.DbConvertType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.DbConvertType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<DbConvertType>(DbConvertType, DbConvertType)
+  nameWithType: ObjectExtensions.AssignByReflection<DbConvertType>(DbConvertType, DbConvertType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.DbConvertType>(SuperOffice.Data.DbConvertType, SuperOffice.Data.DbConvertType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DbConvertType)(DbConvertType, DbConvertType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.DbConvertType)(SuperOffice.Data.DbConvertType, SuperOffice.Data.DbConvertType)
+  name.vb: AssignByReflection(Of DbConvertType)(DbConvertType, DbConvertType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.DbConvertType,SuperOffice.Data.DbConvertType)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.DbConvertType
+    name: DbConvertType
+    isExternal: true
+    href: SuperOffice.Data.DbConvertType.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.DbConvertType
+    name: DbConvertType
+    isExternal: true
+    href: SuperOffice.Data.DbConvertType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.DbConvertType
+    name: DbConvertType
+    isExternal: true
+    href: SuperOffice.Data.DbConvertType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.DbConvertType,SuperOffice.Data.DbConvertType)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.DbConvertType
+    name: DbConvertType
+    isExternal: true
+    href: SuperOffice.Data.DbConvertType.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.DbConvertType
+    name: DbConvertType
+    isExternal: true
+    href: SuperOffice.Data.DbConvertType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.DbConvertType
+    name: DbConvertType
+    isExternal: true
+    href: SuperOffice.Data.DbConvertType.html
+  - name: )
+- uid: SuperOffice.Data.DbConvertType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<DbConvertType>(DbConvertType)
+  nameWithType: ObjectExtensions.GraphCopy<DbConvertType>(DbConvertType)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.DbConvertType>(SuperOffice.Data.DbConvertType)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of DbConvertType)(DbConvertType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.DbConvertType)(SuperOffice.Data.DbConvertType)
+  name.vb: GraphCopy(Of DbConvertType)(DbConvertType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.DbConvertType)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.DbConvertType
+    name: DbConvertType
+    isExternal: true
+    href: SuperOffice.Data.DbConvertType.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.DbConvertType
+    name: DbConvertType
+    isExternal: true
+    href: SuperOffice.Data.DbConvertType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.DbConvertType)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.DbConvertType
+    name: DbConvertType
+    isExternal: true
+    href: SuperOffice.Data.DbConvertType.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.DbConvertType
+    name: DbConvertType
+    isExternal: true
+    href: SuperOffice.Data.DbConvertType.html
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -513,43 +505,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -558,58 +552,193 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.Data.DbConvertType
   commentId: T:SuperOffice.Data.DbConvertType
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.DbConvertType.html
   name: DbConvertType
   nameWithType: DbConvertType
   fullName: SuperOffice.Data.DbConvertType

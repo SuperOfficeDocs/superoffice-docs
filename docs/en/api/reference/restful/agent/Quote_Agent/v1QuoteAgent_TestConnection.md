@@ -85,10 +85,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Parker Inc and Sons",
+  "ConnectorName": "Hoppe Group",
   "ConnectionData": {
-    "ConnectionData1": "molestiae",
-    "ConnectionData2": "ut"
+    "ConnectionData1": "id",
+    "ConnectionData2": "qui"
   }
 }
 ```
@@ -101,9 +101,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "incidunt",
-  "TechExplanation": "eligendi",
-  "ErrorCode": "id",
+  "UserExplanation": "et",
+  "TechExplanation": "dignissimos",
+  "ErrorCode": "itaque",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldLength": 224
     }
   }
 }

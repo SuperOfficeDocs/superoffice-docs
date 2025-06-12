@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 460,
-  "UdListDefinitionId": 506,
+  "Id": 721,
+  "UdListDefinitionId": 211,
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 699,
-  "Name": "Ullrich-Wunsch",
-  "Tooltip": "omnis",
+  "Id": 881,
+  "Name": "Huel, Weber and Huel",
+  "Tooltip": "quaerat",
   "Deleted": false,
-  "UdListDefinitionId": 768,
-  "Rank": 279,
+  "UdListDefinitionId": 932,
+  "Rank": 517,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 422
+      "FieldType": "System.String",
+      "FieldLength": 482
     }
   }
 }

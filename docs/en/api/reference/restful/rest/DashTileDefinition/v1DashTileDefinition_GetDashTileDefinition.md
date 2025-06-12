@@ -91,7 +91,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 957,
-  "Name": "Beatty LLC",
-  "Description": "Adaptive user-facing capability",
-  "DefaultHeight": 930,
-  "DefaultWidth": 705,
+  "DashboardTileDefinitionId": 915,
+  "Name": "Rolfson, Armstrong and Keeling",
+  "Description": "Horizontal tertiary parallelism",
+  "DefaultHeight": 649,
+  "DefaultWidth": 293,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Bode Group",
-  "SelectionId": 491,
+  "EntityName": "Maggio Group",
+  "SelectionId": 671,
   "CurrencyMode": "Base",
-  "CurrencyCode": "eveniet",
+  "CurrencyCode": "et",
   "Measure": "Average",
-  "MeasureField": "optio",
-  "SortBy": "sint",
-  "LayoutConfig": "ipsam",
-  "SecondarySelectionId": 516,
-  "MeasureByField": "dolorum",
+  "MeasureField": "voluptatem",
+  "SortBy": "beatae",
+  "LayoutConfig": "aut",
+  "SecondarySelectionId": 703,
+  "MeasureByField": "sed",
   "Usage": "Dashboard",
-  "ProviderName": "Nikolaus, Rosenbaum and Padberg",
+  "ProviderName": "Reilly-Hettinger",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 659
+      "FieldLength": 151
     }
   },
   "_Links": {

@@ -104,7 +104,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 60
+  "DocumentId": 234
 }
 ```
 
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 51,
-      "ContactName": "Barton, Heller and Bernier",
-      "PersonId": 5,
-      "PersonName": "Blick-Watsica",
-      "AssociateId": 956,
-      "Address": "ut",
-      "EmailId": 321,
+      "ContactId": 670,
+      "ContactName": "Kling Group",
+      "PersonId": 313,
+      "PersonName": "Kuphal-Dicki",
+      "AssociateId": 897,
+      "Address": "quaerat",
+      "EmailId": 620,
       "DuplicatePersonIds": [
-        540,
-        687
+        319,
+        363
       ],
-      "Name": "Ruecker-Wyman",
+      "Name": "Willms, Gleason and Leuschke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 292
+          "FieldType": "System.Int32",
+          "FieldLength": 934
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 61,
-      "ContactName": "Torp LLC",
-      "PersonId": 838,
-      "PersonName": "Von, Bernhard and Predovic",
-      "AssociateId": 316,
-      "Address": "maiores",
-      "EmailId": 553,
+      "ContactId": 170,
+      "ContactName": "Stiedemann-Roberts",
+      "PersonId": 176,
+      "PersonName": "Murray, Schowalter and Blick",
+      "AssociateId": 567,
+      "Address": "harum",
+      "EmailId": 294,
       "DuplicatePersonIds": [
-        400,
-        53
+        849,
+        820
       ],
-      "Name": "Kuphal, Turcotte and Trantow",
+      "Name": "Lemke Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 56
+          "FieldType": "System.Int32",
+          "FieldLength": 400
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 725,
-      "ContactName": "Mayert Group",
-      "PersonId": 511,
-      "PersonName": "Jenkins Group",
-      "AssociateId": 57,
+      "ContactId": 870,
+      "ContactName": "Baumbach, Hand and Gaylord",
+      "PersonId": 755,
+      "PersonName": "Boyle, Towne and Monahan",
+      "AssociateId": 730,
       "Address": "aut",
-      "EmailId": 30,
+      "EmailId": 994,
       "DuplicatePersonIds": [
-        961,
-        286
+        450,
+        650
       ],
-      "Name": "Crooks Group",
+      "Name": "Feil-Barrows",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 575
+          "FieldLength": 47
         }
       }
     }
   ],
-  "Subject": "deserunt",
-  "HTMLBody": "sit",
+  "Subject": "veniam",
+  "HTMLBody": "ex",
   "From": null,
-  "Sent": "2009-04-15T16:32:39.0395385+02:00",
-  "Size": 509,
+  "Sent": "2008-03-10T17:54:03.1014579+01:00",
+  "Size": 390,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quia",
-  "PlainBody": "velit",
+  "MessageID": "minima",
+  "PlainBody": "sunt",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 670,
+  "ServerId": 309,
   "Attachments": [
     {
-      "Description": "Devolved incremental budgetary management",
-      "Filename": "accusantium",
-      "Size": 565,
-      "Type": "et",
-      "Encoding": "dolore",
-      "Id": "eum",
-      "Disposition": "sed",
+      "Description": "Assimilated grid-enabled infrastructure",
+      "Filename": "tempore",
+      "Size": 659,
+      "Type": "vero",
+      "Encoding": "occaecati",
+      "Id": "magni",
+      "Disposition": "at",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,58 +215,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 440
+          "FieldLength": 188
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Murazik-Stanton",
+      "Name": "Bednar, King and Konopelski",
       "Values": [
-        "consequuntur",
-        "vel"
+        "possimus",
+        "veritatis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 728
+          "FieldLength": 109
         }
       }
     },
     {
-      "Name": "Murazik-Stanton",
+      "Name": "Bednar, King and Konopelski",
       "Values": [
-        "consequuntur",
-        "vel"
+        "possimus",
+        "veritatis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 728
+          "FieldLength": 109
         }
       }
     }
   ],
-  "FolderName": "Labadie-Murazik",
-  "EmailItemId": 548,
-  "AccountId": 478,
-  "ReceivedAt": "2013-02-16T16:32:39.0395385+01:00",
+  "FolderName": "Haag, Yundt and Walsh",
+  "EmailItemId": 478,
+  "AccountId": 144,
+  "ReceivedAt": "2001-05-04T17:54:03.1014579+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2006-12-03T16:32:39.0395385+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2025-05-23T17:54:03.1014579+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 806
+      "FieldType": "System.Int32",
+      "FieldLength": 773
     }
   }
 }

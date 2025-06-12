@@ -26,7 +26,7 @@ Gets a Project object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProject?projectId=557
+POST /api/v1/Agents/Project/GetProject?projectId=641
 POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Project/GetProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 10,
-  "Name": "D'Amore, Fisher and Pfeffer",
-  "Description": "Team-oriented attitude-oriented adapter",
+  "ProjectId": 478,
+  "Name": "Braun-Bode",
+  "Description": "Customizable bifurcated monitoring",
   "URL": "http://www.example.com/",
-  "Type": "voluptas",
-  "AssociateId": 233,
-  "AssociateFullName": "Aron Stehr V",
-  "TypeId": 594,
-  "Updated": "2014-04-21T16:32:39.6177753+02:00",
-  "StatusId": 80,
-  "Status": "voluptatum",
-  "TextId": 277,
-  "PublishTo": "2017-01-01T16:32:39.6177753+01:00",
-  "PublishFrom": "2024-08-17T16:32:39.6177753+02:00",
-  "IsPublished": false,
+  "Type": "molestias",
+  "AssociateId": 937,
+  "AssociateFullName": "Bud Mann",
+  "TypeId": 194,
+  "Updated": "2011-04-22T17:54:03.47644+02:00",
+  "StatusId": 549,
+  "Status": "et",
+  "TextId": 320,
+  "PublishTo": "2014-11-15T17:54:03.47644+01:00",
+  "PublishFrom": "2007-12-12T17:54:03.47644+01:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "200455",
-  "ActiveErpLinks": 353,
+  "ProjectNumber": "958618",
+  "ActiveErpLinks": 706,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 158
+      "FieldLength": 31
     }
   }
 }

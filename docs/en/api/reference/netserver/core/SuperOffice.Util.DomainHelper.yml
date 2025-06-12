@@ -18,27 +18,27 @@ items:
   nameWithType: DomainHelper
   fullName: SuperOffice.Util.DomainHelper
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nClass used to provide re-usable ways to process email-addresses and web-site adddresses\nfor further analysis.\n"
+  summary: >-
+    Class used to provide re-usable ways to process email-addresses and web-site adddresses
+
+    for further analysis.
+  example: []
   syntax:
-    content: 'public static class DomainHelper : Object'
-    content.vb: >-
-      Public Module DomainHelper
-          Inherits Object
+    content: public static class DomainHelper
+    content.vb: Public Module DomainHelper
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.Util.DomainHelper.EmailValidationRegex
   commentId: F:SuperOffice.Util.DomainHelper.EmailValidationRegex
   id: EmailValidationRegex
@@ -50,9 +50,6 @@ items:
   nameWithType: DomainHelper.EmailValidationRegex
   fullName: SuperOffice.Util.DomainHelper.EmailValidationRegex
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -61,14 +58,6 @@ items:
     return:
       type: System.Text.RegularExpressions.Regex
     content.vb: Public Shared ReadOnly EmailValidationRegex As Regex
-  modifiers.csharp:
-  - public
-  - static
-  - readonly
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
 - uid: SuperOffice.Util.DomainHelper.GetEmailDomain(System.String)
   commentId: M:SuperOffice.Util.DomainHelper.GetEmailDomain(System.String)
   id: GetEmailDomain(System.String)
@@ -76,13 +65,10 @@ items:
   langs:
   - csharp
   - vb
-  name: GetEmailDomain(String)
-  nameWithType: DomainHelper.GetEmailDomain(String)
-  fullName: SuperOffice.Util.DomainHelper.GetEmailDomain(System.String)
+  name: GetEmailDomain(string)
+  nameWithType: DomainHelper.GetEmailDomain(string)
+  fullName: SuperOffice.Util.DomainHelper.GetEmailDomain(string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -95,12 +81,9 @@ items:
       type: System.String
     content.vb: Public Shared Function GetEmailDomain(emailAddress As String) As String
   overload: SuperOffice.Util.DomainHelper.GetEmailDomain*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: DomainHelper.GetEmailDomain(String)
+  fullName.vb: SuperOffice.Util.DomainHelper.GetEmailDomain(String)
+  name.vb: GetEmailDomain(String)
 - uid: SuperOffice.Util.DomainHelper.GetPrimaryEmailDomainPart(System.String)
   commentId: M:SuperOffice.Util.DomainHelper.GetPrimaryEmailDomainPart(System.String)
   id: GetPrimaryEmailDomainPart(System.String)
@@ -108,32 +91,35 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPrimaryEmailDomainPart(String)
-  nameWithType: DomainHelper.GetPrimaryEmailDomainPart(String)
-  fullName: SuperOffice.Util.DomainHelper.GetPrimaryEmailDomainPart(System.String)
+  name: GetPrimaryEmailDomainPart(string)
+  nameWithType: DomainHelper.GetPrimaryEmailDomainPart(string)
+  fullName: SuperOffice.Util.DomainHelper.GetPrimaryEmailDomainPart(string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nReturn the primary domain-part of the email-address without any TLD suffixes\nor subdomain prefixes.\n\nI.e. &quot;account@rnd.superoffice.co.uk&quot; should simply resolve to &quot;superoffice&quot;.\n"
+  summary: >-
+    Return the primary domain-part of the email-address without any TLD suffixes
+
+    or subdomain prefixes.
+
+
+    I.e. "account@rnd.superoffice.co.uk" should simply resolve to "superoffice".
+  example: []
   syntax:
     content: public static string GetPrimaryEmailDomainPart(string emailAddress)
     parameters:
     - id: emailAddress
       type: System.String
+      description: ''
     return:
       type: System.String
+      description: ''
     content.vb: Public Shared Function GetPrimaryEmailDomainPart(emailAddress As String) As String
   overload: SuperOffice.Util.DomainHelper.GetPrimaryEmailDomainPart*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: DomainHelper.GetPrimaryEmailDomainPart(String)
+  fullName.vb: SuperOffice.Util.DomainHelper.GetPrimaryEmailDomainPart(String)
+  name.vb: GetPrimaryEmailDomainPart(String)
 - uid: SuperOffice.Util.DomainHelper.GetWebSiteDomain(System.String)
   commentId: M:SuperOffice.Util.DomainHelper.GetWebSiteDomain(System.String)
   id: GetWebSiteDomain(System.String)
@@ -141,13 +127,10 @@ items:
   langs:
   - csharp
   - vb
-  name: GetWebSiteDomain(String)
-  nameWithType: DomainHelper.GetWebSiteDomain(String)
-  fullName: SuperOffice.Util.DomainHelper.GetWebSiteDomain(System.String)
+  name: GetWebSiteDomain(string)
+  nameWithType: DomainHelper.GetWebSiteDomain(string)
+  fullName: SuperOffice.Util.DomainHelper.GetWebSiteDomain(string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -160,12 +143,9 @@ items:
       type: System.String
     content.vb: Public Shared Function GetWebSiteDomain(website As String) As String
   overload: SuperOffice.Util.DomainHelper.GetWebSiteDomain*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: DomainHelper.GetWebSiteDomain(String)
+  fullName.vb: SuperOffice.Util.DomainHelper.GetWebSiteDomain(String)
+  name.vb: GetWebSiteDomain(String)
 - uid: SuperOffice.Util.DomainHelper.GetPrimaryWebsiteDomainPart(System.String)
   commentId: M:SuperOffice.Util.DomainHelper.GetPrimaryWebsiteDomainPart(System.String)
   id: GetPrimaryWebsiteDomainPart(System.String)
@@ -173,13 +153,10 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPrimaryWebsiteDomainPart(String)
-  nameWithType: DomainHelper.GetPrimaryWebsiteDomainPart(String)
-  fullName: SuperOffice.Util.DomainHelper.GetPrimaryWebsiteDomainPart(System.String)
+  name: GetPrimaryWebsiteDomainPart(string)
+  nameWithType: DomainHelper.GetPrimaryWebsiteDomainPart(string)
+  fullName: SuperOffice.Util.DomainHelper.GetPrimaryWebsiteDomainPart(string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -192,12 +169,9 @@ items:
       type: System.String
     content.vb: Public Shared Function GetPrimaryWebsiteDomainPart(website As String) As String
   overload: SuperOffice.Util.DomainHelper.GetPrimaryWebsiteDomainPart*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: DomainHelper.GetPrimaryWebsiteDomainPart(String)
+  fullName.vb: SuperOffice.Util.DomainHelper.GetPrimaryWebsiteDomainPart(String)
+  name.vb: GetPrimaryWebsiteDomainPart(String)
 - uid: SuperOffice.Util.DomainHelper.GetPrimaryEmailDomainPartWithSubdomains(System.String)
   commentId: M:SuperOffice.Util.DomainHelper.GetPrimaryEmailDomainPartWithSubdomains(System.String)
   id: GetPrimaryEmailDomainPartWithSubdomains(System.String)
@@ -205,60 +179,349 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPrimaryEmailDomainPartWithSubdomains(String)
-  nameWithType: DomainHelper.GetPrimaryEmailDomainPartWithSubdomains(String)
-  fullName: SuperOffice.Util.DomainHelper.GetPrimaryEmailDomainPartWithSubdomains(System.String)
+  name: GetPrimaryEmailDomainPartWithSubdomains(string)
+  nameWithType: DomainHelper.GetPrimaryEmailDomainPartWithSubdomains(string)
+  fullName: SuperOffice.Util.DomainHelper.GetPrimaryEmailDomainPartWithSubdomains(string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nReturn the primary domain-part of the email-address without any TLD suffixes\nbut preserve subdomain prefixes.\n\nI.e. &quot;account@rnd.superoffice.co.uk&quot; should simply resolve to &quot;rnd.superoffice&quot;.\n"
+  summary: >-
+    Return the primary domain-part of the email-address without any TLD suffixes
+
+    but preserve subdomain prefixes.
+
+
+    I.e. "account@rnd.superoffice.co.uk" should simply resolve to "rnd.superoffice".
+  example: []
   syntax:
     content: public static string GetPrimaryEmailDomainPartWithSubdomains(string emailAddress)
     parameters:
     - id: emailAddress
       type: System.String
+      description: ''
     return:
       type: System.String
+      description: ''
     content.vb: Public Shared Function GetPrimaryEmailDomainPartWithSubdomains(emailAddress As String) As String
   overload: SuperOffice.Util.DomainHelper.GetPrimaryEmailDomainPartWithSubdomains*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: DomainHelper.GetPrimaryEmailDomainPartWithSubdomains(String)
+  fullName.vb: SuperOffice.Util.DomainHelper.GetPrimaryEmailDomainPartWithSubdomains(String)
+  name.vb: GetPrimaryEmailDomainPartWithSubdomains(String)
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: System.Text.RegularExpressions.Regex
+  commentId: T:System.Text.RegularExpressions.Regex
+  parent: System.Text.RegularExpressions
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions.regex
   name: Regex
   nameWithType: Regex
   fullName: System.Text.RegularExpressions.Regex
+- uid: System.Text.RegularExpressions
+  commentId: N:System.Text.RegularExpressions
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Text.RegularExpressions
+  nameWithType: System.Text.RegularExpressions
+  fullName: System.Text.RegularExpressions
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+  - name: .
+  - uid: System.Text.RegularExpressions
+    name: RegularExpressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+  - name: .
+  - uid: System.Text.RegularExpressions
+    name: RegularExpressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions
 - uid: SuperOffice.Util.DomainHelper.GetEmailDomain*
   commentId: Overload:SuperOffice.Util.DomainHelper.GetEmailDomain
   isExternal: true
+  href: SuperOffice.Util.DomainHelper.html#SuperOffice_Util_DomainHelper_GetEmailDomain_System_String_
   name: GetEmailDomain
   nameWithType: DomainHelper.GetEmailDomain
   fullName: SuperOffice.Util.DomainHelper.GetEmailDomain
@@ -266,30 +529,38 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.Util.DomainHelper.GetPrimaryEmailDomainPart*
   commentId: Overload:SuperOffice.Util.DomainHelper.GetPrimaryEmailDomainPart
   isExternal: true
+  href: SuperOffice.Util.DomainHelper.html#SuperOffice_Util_DomainHelper_GetPrimaryEmailDomainPart_System_String_
   name: GetPrimaryEmailDomainPart
   nameWithType: DomainHelper.GetPrimaryEmailDomainPart
   fullName: SuperOffice.Util.DomainHelper.GetPrimaryEmailDomainPart
 - uid: SuperOffice.Util.DomainHelper.GetWebSiteDomain*
   commentId: Overload:SuperOffice.Util.DomainHelper.GetWebSiteDomain
   isExternal: true
+  href: SuperOffice.Util.DomainHelper.html#SuperOffice_Util_DomainHelper_GetWebSiteDomain_System_String_
   name: GetWebSiteDomain
   nameWithType: DomainHelper.GetWebSiteDomain
   fullName: SuperOffice.Util.DomainHelper.GetWebSiteDomain
 - uid: SuperOffice.Util.DomainHelper.GetPrimaryWebsiteDomainPart*
   commentId: Overload:SuperOffice.Util.DomainHelper.GetPrimaryWebsiteDomainPart
   isExternal: true
+  href: SuperOffice.Util.DomainHelper.html#SuperOffice_Util_DomainHelper_GetPrimaryWebsiteDomainPart_System_String_
   name: GetPrimaryWebsiteDomainPart
   nameWithType: DomainHelper.GetPrimaryWebsiteDomainPart
   fullName: SuperOffice.Util.DomainHelper.GetPrimaryWebsiteDomainPart
 - uid: SuperOffice.Util.DomainHelper.GetPrimaryEmailDomainPartWithSubdomains*
   commentId: Overload:SuperOffice.Util.DomainHelper.GetPrimaryEmailDomainPartWithSubdomains
   isExternal: true
+  href: SuperOffice.Util.DomainHelper.html#SuperOffice_Util_DomainHelper_GetPrimaryEmailDomainPartWithSubdomains_System_String_
   name: GetPrimaryEmailDomainPartWithSubdomains
   nameWithType: DomainHelper.GetPrimaryEmailDomainPartWithSubdomains
   fullName: SuperOffice.Util.DomainHelper.GetPrimaryEmailDomainPartWithSubdomains

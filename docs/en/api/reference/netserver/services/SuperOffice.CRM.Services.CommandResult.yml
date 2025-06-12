@@ -18,26 +18,35 @@ items:
   nameWithType: CommandResult
   fullName: SuperOffice.CRM.Services.CommandResult
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGeneric carrier object for entity commands.\n<p></p>\nCarrier object for CommandResult.\n"
+  summary: >-
+    Generic carrier object for entity commands.
+
+    <p></p>
+
+    Carrier object for CommandResult.
+  example: []
   syntax:
-    content: 'public class CommandResult : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class CommandResult : Carrier
     content.vb: >-
-      Public Class CommandResult
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class CommandResult Inherits Carrier
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.CommandResult.#ctor
   commentId: M:SuperOffice.CRM.Services.CommandResult.#ctor
   id: '#ctor'
@@ -49,21 +58,18 @@ items:
   nameWithType: CommandResult.CommandResult()
   fullName: SuperOffice.CRM.Services.CommandResult.CommandResult()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public CommandResult()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.CommandResult.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: CommandResult.New()
+  fullName.vb: SuperOffice.CRM.Services.CommandResult.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.CommandResult.ToString
   commentId: M:SuperOffice.CRM.Services.CommandResult.ToString
   id: ToString
@@ -75,26 +81,18 @@ items:
   nameWithType: CommandResult.ToString()
   fullName: SuperOffice.CRM.Services.CommandResult.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.CommandResult.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.CommandResult.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.CommandResult.ToString(System.String)
   id: ToString(System.String)
@@ -102,17 +100,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: CommandResult.ToString(String)
-  fullName: SuperOffice.CRM.Services.CommandResult.ToString(System.String)
+  name: ToString(string)
+  nameWithType: CommandResult.ToString(string)
+  fullName: SuperOffice.CRM.Services.CommandResult.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -124,10 +123,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.CommandResult.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: CommandResult.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.CommandResult.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.CommandResult.Success
   commentId: P:SuperOffice.CRM.Services.CommandResult.Success
   id: Success
@@ -139,28 +137,28 @@ items:
   nameWithType: CommandResult.Success
   fullName: SuperOffice.CRM.Services.CommandResult.Success
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe command was successfully executed. \n"
+  summary: The command was successfully executed.
+  example: []
   syntax:
-    content: public virtual bool Success { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool Success { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property Success As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Success As Boolean
   overload: SuperOffice.CRM.Services.CommandResult.Success*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CommandResult.Message
   commentId: P:SuperOffice.CRM.Services.CommandResult.Message
   id: Message
@@ -172,28 +170,28 @@ items:
   nameWithType: CommandResult.Message
   fullName: SuperOffice.CRM.Services.CommandResult.Message
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nMessage which should be displayed in GUI. \n"
+  summary: Message which should be displayed in GUI.
+  example: []
   syntax:
-    content: public virtual string Message { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Message { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Message As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Message As String
   overload: SuperOffice.CRM.Services.CommandResult.Message*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CommandResult.Result
   commentId: P:SuperOffice.CRM.Services.CommandResult.Result
   id: Result
@@ -205,44 +203,98 @@ items:
   nameWithType: CommandResult.Result
   fullName: SuperOffice.CRM.Services.CommandResult.Result
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe result used in this action. \n"
+  summary: The result used in this action.
+  example: []
   syntax:
-    content: public virtual CommandActionResult Result { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual CommandActionResult Result { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.CommandActionResult
-    content.vb: Public Overridable Property Result As CommandActionResult
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Result As CommandActionResult
   overload: SuperOffice.CRM.Services.CommandResult.Result*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.CommandResult.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.CommandResult.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.CommandResult.html#SuperOffice_CRM_Services_CommandResult__ctor
   name: CommandResult
   nameWithType: CommandResult.CommandResult
   fullName: SuperOffice.CRM.Services.CommandResult.CommandResult
+  nameWithType.vb: CommandResult.New
+  fullName.vb: SuperOffice.CRM.Services.CommandResult.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.CommandResult.ToString*
   commentId: Overload:SuperOffice.CRM.Services.CommandResult.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.CommandResult.html#SuperOffice_CRM_Services_CommandResult_ToString
   name: ToString
   nameWithType: CommandResult.ToString
   fullName: SuperOffice.CRM.Services.CommandResult.ToString
@@ -250,18 +302,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.CommandResult.Success*
   commentId: Overload:SuperOffice.CRM.Services.CommandResult.Success
   isExternal: true
+  href: SuperOffice.CRM.Services.CommandResult.html#SuperOffice_CRM_Services_CommandResult_Success
   name: Success
   nameWithType: CommandResult.Success
   fullName: SuperOffice.CRM.Services.CommandResult.Success
@@ -269,18 +320,24 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.Services.CommandResult.Message*
   commentId: Overload:SuperOffice.CRM.Services.CommandResult.Message
   isExternal: true
+  href: SuperOffice.CRM.Services.CommandResult.html#SuperOffice_CRM_Services_CommandResult_Message
   name: Message
   nameWithType: CommandResult.Message
   fullName: SuperOffice.CRM.Services.CommandResult.Message
 - uid: SuperOffice.CRM.Services.CommandResult.Result*
   commentId: Overload:SuperOffice.CRM.Services.CommandResult.Result
   isExternal: true
+  href: SuperOffice.CRM.Services.CommandResult.html#SuperOffice_CRM_Services_CommandResult_Result
   name: Result
   nameWithType: CommandResult.Result
   fullName: SuperOffice.CRM.Services.CommandResult.Result

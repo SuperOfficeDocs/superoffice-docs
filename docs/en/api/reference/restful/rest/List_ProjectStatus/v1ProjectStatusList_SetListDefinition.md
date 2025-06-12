@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 342,
-  "Name": "Thiel-Schuppe",
-  "Tooltip": "ipsam",
+  "Id": 254,
+  "Name": "Lind Inc and Sons",
+  "Tooltip": "laboriosam",
   "Deleted": false,
-  "Rank": 409,
+  "Rank": 76,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "fugit",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "commodi",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 503,
-  "Name": "Klein, Frami and Auer",
-  "Tooltip": "iusto",
-  "Deleted": true,
-  "Rank": 948,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "nam",
-  "InUseByUserDefinedFields": true,
+  "Id": 624,
+  "Name": "Schimmel-Jacobi",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 652,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 184
+      "FieldType": "System.String",
+      "FieldLength": 376
     }
   }
 }

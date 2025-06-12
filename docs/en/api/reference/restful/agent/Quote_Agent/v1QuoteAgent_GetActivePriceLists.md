@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 434,
-  "Currency": "nihil"
+  "QuoteConnectionId": 277,
+  "Currency": "reiciendis"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 201,
-    "ERPPriceListKey": "quia",
-    "QuoteConnectionId": 562,
-    "Name": "Keeling LLC",
-    "Description": "Fundamental intermediate concept",
-    "Currency": "eos",
-    "CurrencyName": "Robel Group",
-    "ValidFrom": "2023-01-20T16:32:39.7271263+01:00",
-    "ValidTo": "1999-05-07T16:32:39.7271263+02:00",
+    "PriceListId": 995,
+    "ERPPriceListKey": "placeat",
+    "QuoteConnectionId": 688,
+    "Name": "Dicki-Waters",
+    "Description": "Face to face context-sensitive approach",
+    "Currency": "et",
+    "CurrencyName": "Jacobson Inc and Sons",
+    "ValidFrom": "2021-10-12T17:54:03.5233118+02:00",
+    "ValidTo": "1998-02-10T17:54:03.5233118+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 6
+        "FieldType": "System.Int32",
+        "FieldLength": 157
       }
     }
   }

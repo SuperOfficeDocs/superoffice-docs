@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 185,
-  "Name": "Konopelski, Goodwin and Doyle",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "Rank": 935,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "commodi",
+  "Id": 677,
+  "Name": "Koss Inc and Sons",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 635,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "vitae",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 932,
-  "Name": "Huel-Wehner",
-  "Tooltip": "repellendus",
-  "Deleted": true,
-  "Rank": 166,
-  "IsCustomList": true,
+  "Id": 807,
+  "Name": "Parker-Volkman",
+  "Tooltip": "ipsa",
+  "Deleted": false,
+  "Rank": 88,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "error",
+  "UseGroupsAndHeadings": true,
+  "ListType": "quasi",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 987
+      "FieldType": "System.String",
+      "FieldLength": 668
     }
   }
 }

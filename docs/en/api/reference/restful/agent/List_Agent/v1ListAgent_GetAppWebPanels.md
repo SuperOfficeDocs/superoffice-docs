@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 373,
-    "Name": "Tillman Inc and Sons",
-    "Tooltip": "aut",
+    "WebPanelId": 666,
+    "Name": "Hermiston, Bayer and Goodwin",
+    "Tooltip": "vel",
     "Deleted": false,
-    "Rank": 960,
+    "Rank": 891,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": false,
-    "OnTravel": false,
+    "OnSatellite": true,
+    "OnTravel": true,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
     "ShowInMenuBar": false,
     "ShowInToolBar": false,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": true,
-    "WindowName": "O'Conner-Gislason",
+    "ShowInStatusBar": false,
+    "WindowName": "Stiedemann Inc and Sons",
     "Url": "http://www.example.com/",
-    "ProgId": "eligendi",
-    "Icon": 442,
+    "ProgId": "et",
+    "Icon": 540,
     "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 148
+        "FieldType": "System.String",
+        "FieldLength": 367
       }
     }
   }

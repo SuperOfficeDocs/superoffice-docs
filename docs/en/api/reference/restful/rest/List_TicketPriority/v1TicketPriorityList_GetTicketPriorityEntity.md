@@ -99,60 +99,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 197,
-  "Name": "Schulist-Grant",
+  "TicketPriorityId": 774,
+  "Name": "Dooley, Jast and Hickle",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 94,
+  "SortOrder": 931,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 195,
-  "MonStart": "2018-06-16T16:32:49.0244447+02:00",
-  "MonStop": "2020-01-16T16:32:49.0244447+01:00",
-  "TueStart": "2008-08-28T16:32:49.0244447+02:00",
-  "TueStop": "2018-07-10T16:32:49.0244447+02:00",
-  "WedStart": "2006-04-12T16:32:49.0244447+02:00",
-  "WedStop": "1998-08-31T16:32:49.0244447+02:00",
-  "ThuStart": "2008-07-03T16:32:49.0244447+02:00",
-  "ThuStop": "2007-07-30T16:32:49.0244447+02:00",
-  "FriStart": "2015-05-19T16:32:49.0244447+02:00",
-  "FriStop": "2018-05-03T16:32:49.0244447+02:00",
-  "SatStart": "2018-05-15T16:32:49.0244447+02:00",
-  "SatStop": "2003-07-15T16:32:49.0244447+02:00",
-  "SunStart": "2014-02-04T16:32:49.0244447+01:00",
-  "SunStop": "2014-11-02T16:32:49.0244447+01:00",
+  "Deadline": 23,
+  "MonStart": "2017-11-27T17:54:09.148042+01:00",
+  "MonStop": "2009-08-28T17:54:09.148042+02:00",
+  "TueStart": "2012-02-01T17:54:09.148042+01:00",
+  "TueStop": "2021-04-14T17:54:09.148042+02:00",
+  "WedStart": "1999-10-09T17:54:09.148042+02:00",
+  "WedStop": "2017-01-22T17:54:09.148042+01:00",
+  "ThuStart": "1999-11-13T17:54:09.148042+01:00",
+  "ThuStop": "2016-02-26T17:54:09.148042+01:00",
+  "FriStart": "2021-05-28T17:54:09.148042+02:00",
+  "FriStop": "2016-03-31T17:54:09.148042+02:00",
+  "SatStart": "2015-04-28T17:54:09.148042+02:00",
+  "SatStop": "2013-05-04T17:54:09.148042+02:00",
+  "SunStart": "2012-01-31T17:54:09.148042+01:00",
+  "SunStop": "2008-01-13T17:54:09.148042+01:00",
   "NonDates": [
-    "dolorem",
-    "necessitatibus"
+    "dolore",
+    "dicta"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 68,
-      "AlertLevel": 146,
-      "AlertTimeout": 930,
-      "Action": 622,
-      "DelegateTo": 568,
-      "ScriptId": 178,
-      "EmailTo": "leora@runolfsdottirwitting.us",
-      "SmsTo": "doloribus",
-      "ReplyTemplateIdCustomer": 315,
-      "ReplyTemplateIdUser": 4,
-      "ReplyTemplateIdCatmast": 517,
-      "ReplyTemplateIdEmail": 522,
-      "RtiCustomerSms": 651,
-      "ReplyTemplateIdUserSms": 666,
-      "ReplyTemplateIdCatmastSms": 527,
-      "ReplyTemplateIdSms": 946,
+      "TicketAlertId": 578,
+      "AlertLevel": 671,
+      "AlertTimeout": 230,
+      "Action": 161,
+      "DelegateTo": 570,
+      "ScriptId": 652,
+      "EmailTo": "justice_batz@oberbrunnerturcotte.uk",
+      "SmsTo": "unde",
+      "ReplyTemplateIdCustomer": 634,
+      "ReplyTemplateIdUser": 412,
+      "ReplyTemplateIdCatmast": 428,
+      "ReplyTemplateIdEmail": 118,
+      "RtiCustomerSms": 722,
+      "ReplyTemplateIdUserSms": 65,
+      "ReplyTemplateIdCatmastSms": 678,
+      "ReplyTemplateIdSms": 500,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 238
+          "FieldType": "System.String",
+          "FieldLength": 572
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 381
+      "FieldLength": 744
     }
   }
 }

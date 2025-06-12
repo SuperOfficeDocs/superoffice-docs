@@ -72,7 +72,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,20 +82,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Pacocha Inc and Sons",
-  "ModuleName": "Haley, Boyer and Gottlieb",
-  "ModuleDescription": "Synergized systemic capacity",
-  "ModuleTooltip": "ipsam",
-  "ModuleVersion": "possimus",
+  "OwnerName": "O'Hara LLC",
+  "ModuleName": "Hettinger-Larson",
+  "ModuleDescription": "Integrated empowering functionalities",
+  "ModuleTooltip": "repellendus",
+  "ModuleVersion": "sunt",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 316,
-  "ExtraFlags": 341,
-  "ExtraInfo": "nostrum",
-  "SortOrder": 60,
+  "NumberOfLicenses": 155,
+  "ExtraFlags": 647,
+  "ExtraInfo": "molestiae",
+  "SortOrder": 746,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Brown-Graham",
-  "Signature": "et"
+  "PrerequisiteModuleName": "Tremblay LLC",
+  "Signature": "recusandae"
 }
 ```

@@ -112,31 +112,31 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 125,
-  "Name": "Tillman-Dickinson",
-  "Tooltip": "sint",
+  "WebPanelId": 491,
+  "Name": "Schinner, Bergstrom and Miller",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 140,
+  "Rank": 857,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
-  "OnTravel": false,
+  "OnCentral": false,
+  "OnSatellite": true,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": true,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Marquardt Group",
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "WindowName": "Deckow, Herzog and Barton",
   "Url": "http://www.example.com/",
-  "ProgId": "repellat",
-  "Icon": 787,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "ut",
+  "Icon": 895,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false
 }
 ```
@@ -148,34 +148,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 46,
-  "Name": "Wyman Group",
-  "Tooltip": "dolores",
+  "WebPanelId": 395,
+  "Name": "Feil, Mraz and Reichel",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 688,
+  "Rank": 122,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Carter, Lueilwitz and Lowe",
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Beier LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "enim",
-  "Icon": 836,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "et",
+  "Icon": 881,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 811
+      "FieldType": "System.String",
+      "FieldLength": 792
     }
   }
 }

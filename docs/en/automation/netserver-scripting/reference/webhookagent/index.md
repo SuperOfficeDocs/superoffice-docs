@@ -12,12 +12,12 @@ so.envir: onsite
 
 Service methods defined on <see cref='T:IWebhookAgent'>WebhookAgent</see> that can trigger server-side event scripts.
 
-* [CreateDefaultWebhook](createdefaultwebhook.md)
-* [DeleteWebhook](deletewebhook.md)
-* [GetAllWebhooks](getallwebhooks.md)
-* [GetLastError](getlasterror.md)
-* [GetWebhook](getwebhook.md)
-* [SaveWebhook](savewebhook.md)
-* [SignalEvent](signalevent.md)
-* [TestWebhook](testwebhook.md)
+* [CreateDefaultWebhookAsync](createdefaultwebhookasync.md)
+* [DeleteWebhookAsync](deletewebhookasync.md)
+* [GetAllWebhooksAsync](getallwebhooksasync.md)
+* [GetLastErrorAsync](getlasterrorasync.md)
+* [GetWebhookAsync](getwebhookasync.md)
+* [SaveWebhookAsync](savewebhookasync.md)
+* [SignalEventAsync](signaleventasync.md)
+* [TestWebhookAsync](testwebhookasync.md)
 

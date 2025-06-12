@@ -6,9 +6,9 @@ items:
   parent: SuperOffice.CRM.Workflow
   children:
   - SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.#ctor(SuperOffice.CRM.Rows.WorkflowStepRow,SuperOffice.CRM.Rows.WorkflowInstanceRow)
-  - SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.Execute
+  - SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.ExecuteAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.GetSettings(System.String)
-  - SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.Save
+  - SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.SaveAsync
   langs:
   - csharp
   - vb
@@ -16,17 +16,12 @@ items:
   nameWithType: WorkflowStepRemoveFromList
   fullName: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Workflow
   syntax:
     content: 'public class WorkflowStepRemoveFromList : WorkflowStepBase'
-    content.vb: >-
-      Public Class WorkflowStepRemoveFromList
-          Inherits WorkflowStepBase
+    content.vb: Public Class WorkflowStepRemoveFromList Inherits WorkflowStepBase
   inheritance:
   - System.Object
   - SuperOffice.CRM.Workflow.WorkflowStepBase
@@ -35,15 +30,16 @@ items:
   - SuperOffice.CRM.Workflow.WorkflowStepBase.Row
   - SuperOffice.CRM.Workflow.WorkflowStepBase.InstanceRow
   - SuperOffice.CRM.Workflow.WorkflowStepBase.Settings
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.#ctor(SuperOffice.CRM.Rows.WorkflowStepRow,SuperOffice.CRM.Rows.WorkflowInstanceRow)
   commentId: M:SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.#ctor(SuperOffice.CRM.Rows.WorkflowStepRow,SuperOffice.CRM.Rows.WorkflowInstanceRow)
   id: '#ctor(SuperOffice.CRM.Rows.WorkflowStepRow,SuperOffice.CRM.Rows.WorkflowInstanceRow)'
@@ -55,13 +51,11 @@ items:
   nameWithType: WorkflowStepRemoveFromList.WorkflowStepRemoveFromList(WorkflowStepRow, WorkflowInstanceRow)
   fullName: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.WorkflowStepRemoveFromList(SuperOffice.CRM.Rows.WorkflowStepRow, SuperOffice.CRM.Rows.WorkflowInstanceRow)
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Workflow
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public WorkflowStepRemoveFromList(WorkflowStepRow row, WorkflowInstanceRow instanceRow)
     parameters:
@@ -71,38 +65,31 @@ items:
       type: SuperOffice.CRM.Rows.WorkflowInstanceRow
     content.vb: Public Sub New(row As WorkflowStepRow, instanceRow As WorkflowInstanceRow)
   overload: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.Save
-  commentId: M:SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.Save
-  id: Save
+  nameWithType.vb: WorkflowStepRemoveFromList.New(WorkflowStepRow, WorkflowInstanceRow)
+  fullName.vb: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.New(SuperOffice.CRM.Rows.WorkflowStepRow, SuperOffice.CRM.Rows.WorkflowInstanceRow)
+  name.vb: New(WorkflowStepRow, WorkflowInstanceRow)
+- uid: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.SaveAsync
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.SaveAsync
+  id: SaveAsync
   parent: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList
   langs:
   - csharp
   - vb
-  name: Save()
-  nameWithType: WorkflowStepRemoveFromList.Save()
-  fullName: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.Save()
+  name: SaveAsync()
+  nameWithType: WorkflowStepRemoveFromList.SaveAsync()
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.SaveAsync()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Workflow
+  example: []
   syntax:
-    content: public override void Save()
-    content.vb: Public Overrides Sub Save
-  overridden: SuperOffice.CRM.Workflow.WorkflowStepBase.Save
-  overload: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.Save*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
+    content: public override Task SaveAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Overrides Function SaveAsync() As Task
+  overridden: SuperOffice.CRM.Workflow.WorkflowStepBase.SaveAsync
+  overload: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.SaveAsync*
 - uid: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.GetSettings(System.String)
   commentId: M:SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.GetSettings(System.String)
   id: GetSettings(System.String)
@@ -110,15 +97,12 @@ items:
   langs:
   - csharp
   - vb
-  name: GetSettings(String)
-  nameWithType: WorkflowStepRemoveFromList.GetSettings(String)
-  fullName: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.GetSettings(System.String)
+  name: GetSettings(string)
+  nameWithType: WorkflowStepRemoveFromList.GetSettings(string)
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.GetSettings(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Workflow
   syntax:
     content: public static RemoveFromListSettings GetSettings(string settingsJson)
@@ -129,60 +113,88 @@ items:
       type: SuperOffice.CRM.Workflow.RemoveFromListSettings
     content.vb: Public Shared Function GetSettings(settingsJson As String) As RemoveFromListSettings
   overload: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.GetSettings*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.Execute
-  commentId: M:SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.Execute
-  id: Execute
+  nameWithType.vb: WorkflowStepRemoveFromList.GetSettings(String)
+  fullName.vb: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.GetSettings(String)
+  name.vb: GetSettings(String)
+- uid: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.ExecuteAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.ExecuteAsync(System.Threading.CancellationToken)
+  id: ExecuteAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList
   langs:
   - csharp
   - vb
-  name: Execute()
-  nameWithType: WorkflowStepRemoveFromList.Execute()
-  fullName: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.Execute()
+  name: ExecuteAsync(CancellationToken)
+  nameWithType: WorkflowStepRemoveFromList.ExecuteAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.ExecuteAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Workflow
+  example: []
   syntax:
-    content: public override DateTime Execute()
+    content: public override Task<DateTime> ExecuteAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.DateTime
-    content.vb: Public Overrides Function Execute As DateTime
-  overridden: SuperOffice.CRM.Workflow.WorkflowStepBase.Execute
-  overload: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.Execute*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
+      type: System.Threading.Tasks.Task{System.DateTime}
+    content.vb: Public Overrides Function ExecuteAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Date)
+  overridden: SuperOffice.CRM.Workflow.WorkflowStepBase.ExecuteAsync(System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.ExecuteAsync*
 references:
 - uid: SuperOffice.CRM.Workflow
   commentId: N:SuperOffice.CRM.Workflow
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Workflow
   nameWithType: SuperOffice.CRM.Workflow
   fullName: SuperOffice.CRM.Workflow
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Workflow
+    name: Workflow
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Workflow
+    name: Workflow
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Workflow.WorkflowStepBase
   commentId: T:SuperOffice.CRM.Workflow.WorkflowStepBase
   parent: SuperOffice.CRM.Workflow
   isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowStepBase.html
   name: WorkflowStepBase
   nameWithType: WorkflowStepBase
   fullName: SuperOffice.CRM.Workflow.WorkflowStepBase
@@ -190,47 +202,40 @@ references:
   commentId: M:SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32)
   parent: SuperOffice.CRM.Workflow.WorkflowStepBase
   isExternal: true
-  name: NextStepId(Int32)
-  nameWithType: WorkflowStepBase.NextStepId(Int32)
-  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32)
+  href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_NextStepId_System_Int32_
+  name: NextStepId(int)
+  nameWithType: WorkflowStepBase.NextStepId(int)
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(int)
+  nameWithType.vb: WorkflowStepBase.NextStepId(Integer)
+  fullName.vb: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(Integer)
+  name.vb: NextStepId(Integer)
   spec.csharp:
   - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32)
     name: NextStepId
-    nameWithType: WorkflowStepBase.NextStepId
-    fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId
     isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_NextStepId_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32)
     name: NextStepId
-    nameWithType: WorkflowStepBase.NextStepId
-    fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId
     isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_NextStepId_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.Row
   commentId: P:SuperOffice.CRM.Workflow.WorkflowStepBase.Row
   parent: SuperOffice.CRM.Workflow.WorkflowStepBase
   isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_Row
   name: Row
   nameWithType: WorkflowStepBase.Row
   fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.Row
@@ -238,6 +243,7 @@ references:
   commentId: P:SuperOffice.CRM.Workflow.WorkflowStepBase.InstanceRow
   parent: SuperOffice.CRM.Workflow.WorkflowStepBase
   isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_InstanceRow
   name: InstanceRow
   nameWithType: WorkflowStepBase.InstanceRow
   fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.InstanceRow
@@ -245,86 +251,346 @@ references:
   commentId: P:SuperOffice.CRM.Workflow.WorkflowStepBase.Settings
   parent: SuperOffice.CRM.Workflow.WorkflowStepBase
   isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_Settings
   name: Settings
   nameWithType: WorkflowStepBase.Settings
   fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.Settings
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<WorkflowStepRemoveFromList, To>()
-  nameWithType: EnumUtil.MapEnums<WorkflowStepRemoveFromList, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowStepRemoveFromList, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList, To)()
-  name.vb: MapEnums(Of WorkflowStepRemoveFromList, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<WorkflowStepRemoveFromList, To>(WorkflowStepRemoveFromList)
+  nameWithType: EnumUtil.MapEnums<WorkflowStepRemoveFromList, To>(WorkflowStepRemoveFromList)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList, To>(SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList)
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowStepRemoveFromList, To)(WorkflowStepRemoveFromList)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList, To)(SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList)
+  name.vb: MapEnums(Of WorkflowStepRemoveFromList, To)(WorkflowStepRemoveFromList)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<WorkflowStepRemoveFromList, To>
-    nameWithType: EnumUtil.MapEnums<WorkflowStepRemoveFromList, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList
+    name: WorkflowStepRemoveFromList
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList
+    name: WorkflowStepRemoveFromList
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of WorkflowStepRemoveFromList, To)
-    nameWithType: EnumUtil.MapEnums(Of WorkflowStepRemoveFromList, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList
+    name: WorkflowStepRemoveFromList
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList
+    name: WorkflowStepRemoveFromList
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.html
+  - name: )
 - uid: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<WorkflowStepRemoveFromList, To>()
-  nameWithType: Converters.MapEnums<WorkflowStepRemoveFromList, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList, To>()
-  nameWithType.vb: Converters.MapEnums(Of WorkflowStepRemoveFromList, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList, To)()
-  name.vb: MapEnums(Of WorkflowStepRemoveFromList, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<WorkflowStepRemoveFromList, To>(WorkflowStepRemoveFromList)
+  nameWithType: Converters.MapEnums<WorkflowStepRemoveFromList, To>(WorkflowStepRemoveFromList)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList, To>(SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList)
+  nameWithType.vb: Converters.MapEnums(Of WorkflowStepRemoveFromList, To)(WorkflowStepRemoveFromList)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList, To)(SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList)
+  name.vb: MapEnums(Of WorkflowStepRemoveFromList, To)(WorkflowStepRemoveFromList)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<WorkflowStepRemoveFromList, To>
-    nameWithType: Converters.MapEnums<WorkflowStepRemoveFromList, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList
+    name: WorkflowStepRemoveFromList
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList
+    name: WorkflowStepRemoveFromList
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of WorkflowStepRemoveFromList, To)
-    nameWithType: Converters.MapEnums(Of WorkflowStepRemoveFromList, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList
+    name: WorkflowStepRemoveFromList
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList
+    name: WorkflowStepRemoveFromList
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -333,43 +599,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -378,57 +646,94 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.#ctor*
   commentId: Overload:SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.html#SuperOffice_CRM_Workflow_WorkflowStepRemoveFromList__ctor_SuperOffice_CRM_Rows_WorkflowStepRow_SuperOffice_CRM_Rows_WorkflowInstanceRow_
   name: WorkflowStepRemoveFromList
   nameWithType: WorkflowStepRemoveFromList.WorkflowStepRemoveFromList
   fullName: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.WorkflowStepRemoveFromList
+  nameWithType.vb: WorkflowStepRemoveFromList.New
+  fullName.vb: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.New
+  name.vb: New
 - uid: SuperOffice.CRM.Rows.WorkflowStepRow
   commentId: T:SuperOffice.CRM.Rows.WorkflowStepRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.WorkflowStepRow.html
   name: WorkflowStepRow
   nameWithType: WorkflowStepRow
   fullName: SuperOffice.CRM.Rows.WorkflowStepRow
@@ -436,55 +741,125 @@ references:
   commentId: T:SuperOffice.CRM.Rows.WorkflowInstanceRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.WorkflowInstanceRow.html
   name: WorkflowInstanceRow
   nameWithType: WorkflowInstanceRow
   fullName: SuperOffice.CRM.Rows.WorkflowInstanceRow
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-- uid: SuperOffice.CRM.Workflow.WorkflowStepBase.Save
-  commentId: M:SuperOffice.CRM.Workflow.WorkflowStepBase.Save
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+- uid: SuperOffice.CRM.Workflow.WorkflowStepBase.SaveAsync
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowStepBase.SaveAsync
   parent: SuperOffice.CRM.Workflow.WorkflowStepBase
   isExternal: true
-  name: Save()
-  nameWithType: WorkflowStepBase.Save()
-  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.Save()
+  href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_SaveAsync
+  name: SaveAsync()
+  nameWithType: WorkflowStepBase.SaveAsync()
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.SaveAsync()
   spec.csharp:
-  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.Save
-    name: Save
-    nameWithType: WorkflowStepBase.Save
-    fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.Save
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.SaveAsync
+    name: SaveAsync
     isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_SaveAsync
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.Save
-    name: Save
-    nameWithType: WorkflowStepBase.Save
-    fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.Save
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.SaveAsync
+    name: SaveAsync
     isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_SaveAsync
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.Save*
-  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.Save
+- uid: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.SaveAsync*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.SaveAsync
   isExternal: true
-  name: Save
-  nameWithType: WorkflowStepRemoveFromList.Save
-  fullName: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.Save
+  href: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.html#SuperOffice_CRM_Workflow_WorkflowStepRemoveFromList_SaveAsync
+  name: SaveAsync
+  nameWithType: WorkflowStepRemoveFromList.SaveAsync
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.SaveAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.GetSettings*
   commentId: Overload:SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.GetSettings
   isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.html#SuperOffice_CRM_Workflow_WorkflowStepRemoveFromList_GetSettings_System_String_
   name: GetSettings
   nameWithType: WorkflowStepRemoveFromList.GetSettings
   fullName: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.GetSettings
@@ -492,55 +867,153 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Workflow.RemoveFromListSettings
   commentId: T:SuperOffice.CRM.Workflow.RemoveFromListSettings
   parent: SuperOffice.CRM.Workflow
   isExternal: true
+  href: SuperOffice.CRM.Workflow.RemoveFromListSettings.html
   name: RemoveFromListSettings
   nameWithType: RemoveFromListSettings
   fullName: SuperOffice.CRM.Workflow.RemoveFromListSettings
-- uid: SuperOffice.CRM.Workflow.WorkflowStepBase.Execute
-  commentId: M:SuperOffice.CRM.Workflow.WorkflowStepBase.Execute
+- uid: SuperOffice.CRM.Workflow.WorkflowStepBase.ExecuteAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowStepBase.ExecuteAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Workflow.WorkflowStepBase
   isExternal: true
-  name: Execute()
-  nameWithType: WorkflowStepBase.Execute()
-  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.Execute()
+  href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_ExecuteAsync_System_Threading_CancellationToken_
+  name: ExecuteAsync(CancellationToken)
+  nameWithType: WorkflowStepBase.ExecuteAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.ExecuteAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.Execute
-    name: Execute
-    nameWithType: WorkflowStepBase.Execute
-    fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.Execute
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.ExecuteAsync(System.Threading.CancellationToken)
+    name: ExecuteAsync
     isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_ExecuteAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.Execute
-    name: Execute
-    nameWithType: WorkflowStepBase.Execute
-    fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.Execute
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.ExecuteAsync(System.Threading.CancellationToken)
+    name: ExecuteAsync
     isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_ExecuteAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.Execute*
-  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.Execute
+- uid: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.ExecuteAsync*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.ExecuteAsync
   isExternal: true
-  name: Execute
-  nameWithType: WorkflowStepRemoveFromList.Execute
-  fullName: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.Execute
-- uid: System.DateTime
+  href: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.html#SuperOffice_CRM_Workflow_WorkflowStepRemoveFromList_ExecuteAsync_System_Threading_CancellationToken_
+  name: ExecuteAsync
+  nameWithType: WorkflowStepRemoveFromList.ExecuteAsync
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList.ExecuteAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.DateTime}
+  commentId: T:System.Threading.Tasks.Task{System.DateTime}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DateTime>
+  nameWithType: Task<DateTime>
+  fullName: System.Threading.Tasks.Task<System.DateTime>
+  nameWithType.vb: Task(Of Date)
+  fullName.vb: System.Threading.Tasks.Task(Of Date)
+  name.vb: Task(Of Date)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )

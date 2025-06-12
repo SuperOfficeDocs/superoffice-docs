@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserAndInstallationLicenceStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 93
+  "AssociateId": 860
 }
 ```
 
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AdminWarningDate": "2000-05-24T16:32:39.180141+02:00",
-  "ExpiryDate": "2021-09-02T16:32:39.180141+02:00",
-  "GraceDate": "2013-05-27T16:32:39.180141+02:00",
-  "CompanyName": "Morar LLC",
+  "AdminWarningDate": "1999-09-18T17:54:03.1795788+02:00",
+  "ExpiryDate": "2017-12-04T17:54:03.1795788+01:00",
+  "GraceDate": "2018-09-09T17:54:03.1795788+02:00",
+  "CompanyName": "Mann Inc and Sons",
   "SerialNr": "1010000006",
   "UserLicenses": [
-    "consequatur",
-    "ipsa"
+    "consectetur",
+    "quia"
   ]
 }
 ```

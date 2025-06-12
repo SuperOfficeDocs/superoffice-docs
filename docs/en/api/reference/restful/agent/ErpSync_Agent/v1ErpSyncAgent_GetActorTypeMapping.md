@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 264,
+  "ErpConnectionId": 627,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 102,
+  "ErpConnectionId": 874,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 135,
-      "CrmFieldKey": "blanditiis",
-      "CrmDisplayName": "Herman-Dicki",
-      "CrmDisplayTooltip": "quas",
-      "ErpFieldKey": "sapiente",
+      "ErpFieldId": 921,
+      "CrmFieldKey": "in",
+      "CrmDisplayName": "Sauer, Cremin and Dibbert",
+      "CrmDisplayTooltip": "minima",
+      "ErpFieldKey": "doloribus",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Spencer Group",
-      "ErpDisplayTooltip": "vel",
+      "ErpDisplayName": "Bins, Stark and Raynor",
+      "ErpDisplayTooltip": "neque",
       "SyncToCrm": true,
       "SyncToErp": false,
       "ShowInGui": false,
-      "ShowInSearch": false,
-      "AlreadyMapped": true,
+      "ShowInSearch": true,
+      "AlreadyMapped": false,
       "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "et",
+      "ListReference": "perspiciatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 579
+          "FieldType": "System.Int32",
+          "FieldLength": 90
         }
       }
     }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 884
+      "FieldLength": 306
     }
   }
 }

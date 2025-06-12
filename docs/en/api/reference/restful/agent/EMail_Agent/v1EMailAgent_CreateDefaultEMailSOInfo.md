@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 405,
-  "AppointmentId": 892,
-  "ProjectId": 672,
-  "SaleId": 136,
-  "Archived": false,
-  "ArchivedAt": "2012-11-06T16:32:39.0082952+01:00",
-  "ArchivedBy": 476,
-  "ArchivedDisplayName": "West Inc and Sons",
+  "DocumentId": 46,
+  "AppointmentId": 550,
+  "ProjectId": 742,
+  "SaleId": 979,
+  "Archived": true,
+  "ArchivedAt": "2003-11-21T17:54:03.0858331+01:00",
+  "ArchivedBy": 563,
+  "ArchivedDisplayName": "Okuneva, Murphy and Klocko",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 983
+      "FieldLength": 342
     }
   }
 }

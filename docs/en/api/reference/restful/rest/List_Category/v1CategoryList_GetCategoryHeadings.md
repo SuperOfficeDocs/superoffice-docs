@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 373,
-    "Name": "Bednar-Weimann",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 801,
-    "UdListDefinitionId": 323,
+    "HeadingId": 59,
+    "Name": "Terry Inc and Sons",
+    "Tooltip": "totam",
+    "Deleted": false,
+    "Rank": 520,
+    "UdListDefinitionId": 30,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 627
+        "FieldType": "System.Int32",
+        "FieldLength": 394
       }
     }
   }

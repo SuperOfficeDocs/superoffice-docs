@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 872,
-  "Name": "Mertz, Nolan and Rogahn",
+  "TicketPriorityId": 745,
+  "Name": "Heidenreich Group",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 122,
+  "SortOrder": 905,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 310,
-  "MonStart": "2019-08-28T16:32:39.320696+02:00",
-  "MonStop": "2022-04-26T16:32:39.320696+02:00",
-  "TueStart": "2013-10-22T16:32:39.320696+02:00",
-  "TueStop": "2004-10-14T16:32:39.320696+02:00",
-  "WedStart": "2000-02-29T16:32:39.320696+01:00",
-  "WedStop": "2020-11-23T16:32:39.320696+01:00",
-  "ThuStart": "2016-10-12T16:32:39.320696+02:00",
-  "ThuStop": "2010-06-20T16:32:39.320696+02:00",
-  "FriStart": "2000-07-29T16:32:39.320696+02:00",
-  "FriStop": "2000-02-29T16:32:39.320696+01:00",
-  "SatStart": "2007-10-24T16:32:39.320696+02:00",
-  "SatStop": "2000-04-24T16:32:39.320696+02:00",
-  "SunStart": "1998-07-29T16:32:39.320696+02:00",
-  "SunStop": "2006-03-23T16:32:39.320696+01:00",
+  "Deadline": 299,
+  "MonStart": "2003-01-03T17:54:03.3202006+01:00",
+  "MonStop": "1999-08-19T17:54:03.3202006+02:00",
+  "TueStart": "2020-12-01T17:54:03.3202006+01:00",
+  "TueStop": "2005-06-03T17:54:03.3202006+02:00",
+  "WedStart": "2000-08-24T17:54:03.3202006+02:00",
+  "WedStop": "2008-03-17T17:54:03.3202006+01:00",
+  "ThuStart": "2021-01-22T17:54:03.3202006+01:00",
+  "ThuStop": "2019-08-26T17:54:03.3202006+02:00",
+  "FriStart": "2008-09-22T17:54:03.3202006+02:00",
+  "FriStop": "2004-03-05T17:54:03.3202006+01:00",
+  "SatStart": "2007-08-29T17:54:03.3202006+02:00",
+  "SatStop": "2003-10-14T17:54:03.3202006+02:00",
+  "SunStart": "2018-04-09T17:54:03.3202006+02:00",
+  "SunStop": "2005-05-20T17:54:03.3202006+02:00",
   "NonDates": [
-    "velit",
-    "facere"
+    "quasi",
+    "maxime"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 792,
-      "AlertLevel": 498,
-      "AlertTimeout": 739,
-      "Action": 968,
-      "DelegateTo": 535,
-      "ScriptId": 477,
-      "EmailTo": "gail@windler.info",
-      "SmsTo": "sit",
-      "ReplyTemplateIdCustomer": 194,
-      "ReplyTemplateIdUser": 967,
-      "ReplyTemplateIdCatmast": 981,
-      "ReplyTemplateIdEmail": 638,
-      "RtiCustomerSms": 995,
-      "ReplyTemplateIdUserSms": 194,
-      "ReplyTemplateIdCatmastSms": 724,
-      "ReplyTemplateIdSms": 158,
+      "TicketAlertId": 87,
+      "AlertLevel": 235,
+      "AlertTimeout": 753,
+      "Action": 237,
+      "DelegateTo": 422,
+      "ScriptId": 23,
+      "EmailTo": "margarett_kohler@harris.us",
+      "SmsTo": "placeat",
+      "ReplyTemplateIdCustomer": 241,
+      "ReplyTemplateIdUser": 299,
+      "ReplyTemplateIdCatmast": 390,
+      "ReplyTemplateIdEmail": 128,
+      "RtiCustomerSms": 90,
+      "ReplyTemplateIdUserSms": 490,
+      "ReplyTemplateIdCatmastSms": 748,
+      "ReplyTemplateIdSms": 851,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 972
+          "FieldLength": 566
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 68
+      "FieldType": "System.Int32",
+      "FieldLength": 969
     }
   }
 }

@@ -14,9 +14,9 @@ items:
   - SuperOffice.CRM.Services.RoleEntity.Rank
   - SuperOffice.CRM.Services.RoleEntity.RoleId
   - SuperOffice.CRM.Services.RoleEntity.RoleType
-  - SuperOffice.CRM.Services.RoleEntity.Tooltip
   - SuperOffice.CRM.Services.RoleEntity.ToString
   - SuperOffice.CRM.Services.RoleEntity.ToString(System.String)
+  - SuperOffice.CRM.Services.RoleEntity.Tooltip
   - SuperOffice.CRM.Services.RoleEntity.Updated
   - SuperOffice.CRM.Services.RoleEntity.UpdatedBy
   - SuperOffice.CRM.Services.RoleEntity.UseCategories
@@ -27,37 +27,57 @@ items:
   nameWithType: RoleEntity
   fullName: SuperOffice.CRM.Services.RoleEntity
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCarrier object for RoleEntity.\nServices for the RoleEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IUserAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Carrier object for RoleEntity.
+
+    Services for the RoleEntity Carrier is available from the <xref href="SuperOffice.CRM.Services.IUserAgent?text=User+Agent" data-throw-if-not-resolved="false"></xref>.
   example:
-  - "\nGet RoleEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new UserAgent();\n    var roleEntity = agent.GetRoleEntity( 123 );\n }</code></pre>\n\nFind all RoleEntity, get related items using archive agent.\n<pre><code>var archive = new ArchiveAgent();\nvar rows = archive.GetArchiveListByColumns2(&quot;Role&quot;, &quot;...&quot;, null, &quot;getAllRows eq 1&quot;, null, 0, 100 );</code></pre>\n"
+  - >-
+    Get RoleEntity 123 using the agent:
+
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       var agent = new UserAgent();
+       var roleEntity = agent.GetRoleEntity( 123 );
+    }</code></pre>
+
+
+    Find all RoleEntity, get related items using archive agent.
+
+    <pre><code class="lang-csharp">var archive = new ArchiveAgent();
+
+    var rows = archive.GetArchiveListByColumns2("Role", "...", null, "getAllRows eq 1", null, 0, 100 );</code></pre>
   syntax:
-    content: 'public class RoleEntity : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class RoleEntity : Carrier
     content.vb: >-
-      Public Class RoleEntity
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class RoleEntity Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.UserAgent
-    commentId: T:SuperOffice.CRM.Services.UserAgent
   - linkId: SuperOffice.CRM.Services.IUserAgent
     commentId: T:SuperOffice.CRM.Services.IUserAgent
-  - linkId: SuperOffice.CRM.Services.ArchiveAgent
-    commentId: T:SuperOffice.CRM.Services.ArchiveAgent
-  - linkId: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-    commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.RoleEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.RoleEntity.#ctor
   id: '#ctor'
@@ -69,21 +89,18 @@ items:
   nameWithType: RoleEntity.RoleEntity()
   fullName: SuperOffice.CRM.Services.RoleEntity.RoleEntity()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public RoleEntity()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.RoleEntity.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: RoleEntity.New()
+  fullName.vb: SuperOffice.CRM.Services.RoleEntity.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.RoleEntity.ToString
   commentId: M:SuperOffice.CRM.Services.RoleEntity.ToString
   id: ToString
@@ -95,26 +112,18 @@ items:
   nameWithType: RoleEntity.ToString()
   fullName: SuperOffice.CRM.Services.RoleEntity.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.RoleEntity.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.RoleEntity.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.RoleEntity.ToString(System.String)
   id: ToString(System.String)
@@ -122,17 +131,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: RoleEntity.ToString(String)
-  fullName: SuperOffice.CRM.Services.RoleEntity.ToString(System.String)
+  name: ToString(string)
+  nameWithType: RoleEntity.ToString(string)
+  fullName: SuperOffice.CRM.Services.RoleEntity.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -144,10 +154,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.RoleEntity.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: RoleEntity.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.RoleEntity.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.RoleEntity.RoleId
   commentId: P:SuperOffice.CRM.Services.RoleEntity.RoleId
   id: RoleId
@@ -159,28 +168,28 @@ items:
   nameWithType: RoleEntity.RoleId
   fullName: SuperOffice.CRM.Services.RoleEntity.RoleId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
-    content: public virtual int RoleId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int RoleId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property RoleId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property RoleId As Integer
   overload: SuperOffice.CRM.Services.RoleEntity.RoleId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.RoleEntity.Name
   commentId: P:SuperOffice.CRM.Services.RoleEntity.Name
   id: Name
@@ -192,28 +201,28 @@ items:
   nameWithType: RoleEntity.Name
   fullName: SuperOffice.CRM.Services.RoleEntity.Name
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nVisible role name \n"
+  summary: Visible role name
+  example: []
   syntax:
-    content: public virtual string Name { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Name As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Name As String
   overload: SuperOffice.CRM.Services.RoleEntity.Name*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.RoleEntity.Tooltip
   commentId: P:SuperOffice.CRM.Services.RoleEntity.Tooltip
   id: Tooltip
@@ -225,28 +234,28 @@ items:
   nameWithType: RoleEntity.Tooltip
   fullName: SuperOffice.CRM.Services.RoleEntity.Tooltip
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDescription of the role. \n"
+  summary: Description of the role.
+  example: []
   syntax:
-    content: public virtual string Tooltip { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Tooltip { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Tooltip As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Tooltip As String
   overload: SuperOffice.CRM.Services.RoleEntity.Tooltip*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.RoleEntity.RoleType
   commentId: P:SuperOffice.CRM.Services.RoleEntity.RoleType
   id: RoleType
@@ -258,28 +267,28 @@ items:
   nameWithType: RoleEntity.RoleType
   fullName: SuperOffice.CRM.Services.RoleEntity.RoleType
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe role type. Note that changing this field has no effect, so treat this as a read-only field.  \n"
+  summary: The role type. Note that changing this field has no effect, so treat this as a read-only field.
+  example: []
   syntax:
-    content: public virtual RoleType RoleType { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual RoleType RoleType { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.RoleType
-    content.vb: Public Overridable Property RoleType As RoleType
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property RoleType As RoleType
   overload: SuperOffice.CRM.Services.RoleEntity.RoleType*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.RoleEntity.Deleted
   commentId: P:SuperOffice.CRM.Services.RoleEntity.Deleted
   id: Deleted
@@ -291,28 +300,28 @@ items:
   nameWithType: RoleEntity.Deleted
   fullName: SuperOffice.CRM.Services.RoleEntity.Deleted
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n1 if role has been deleted (we do not actually delete) \n"
+  summary: 1 if role has been deleted (we do not actually delete)
+  example: []
   syntax:
-    content: public virtual short Deleted { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual short Deleted { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: Public Overridable Property Deleted As Short
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Deleted As Short
   overload: SuperOffice.CRM.Services.RoleEntity.Deleted*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.RoleEntity.Rank
   commentId: P:SuperOffice.CRM.Services.RoleEntity.Rank
   id: Rank
@@ -324,28 +333,28 @@ items:
   nameWithType: RoleEntity.Rank
   fullName: SuperOffice.CRM.Services.RoleEntity.Rank
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSorting rank of this role in lists \n"
+  summary: Sorting rank of this role in lists
+  example: []
   syntax:
-    content: public virtual short Rank { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual short Rank { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: Public Overridable Property Rank As Short
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Rank As Short
   overload: SuperOffice.CRM.Services.RoleEntity.Rank*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.RoleEntity.Created
   commentId: P:SuperOffice.CRM.Services.RoleEntity.Created
   id: Created
@@ -357,28 +366,28 @@ items:
   nameWithType: RoleEntity.Created
   fullName: SuperOffice.CRM.Services.RoleEntity.Created
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRegistered when  in UTC.\n"
+  summary: Registered when  in UTC.
+  example: []
   syntax:
-    content: public virtual DateTime Created { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime Created { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Created As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Created As Date
   overload: SuperOffice.CRM.Services.RoleEntity.Created*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.RoleEntity.UseCategories
   commentId: P:SuperOffice.CRM.Services.RoleEntity.UseCategories
   id: UseCategories
@@ -390,28 +399,28 @@ items:
   nameWithType: RoleEntity.UseCategories
   fullName: SuperOffice.CRM.Services.RoleEntity.UseCategories
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nApply role category membership to users \n"
+  summary: Apply role category membership to users
+  example: []
   syntax:
-    content: public virtual short UseCategories { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual short UseCategories { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: Public Overridable Property UseCategories As Short
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UseCategories As Short
   overload: SuperOffice.CRM.Services.RoleEntity.UseCategories*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.RoleEntity.CreatedBy
   commentId: P:SuperOffice.CRM.Services.RoleEntity.CreatedBy
   id: CreatedBy
@@ -423,28 +432,28 @@ items:
   nameWithType: RoleEntity.CreatedBy
   fullName: SuperOffice.CRM.Services.RoleEntity.CreatedBy
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCreated by user \n"
+  summary: Created by user
+  example: []
   syntax:
-    content: public virtual Associate CreatedBy { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual Associate CreatedBy { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.Associate
-    content.vb: Public Overridable Property CreatedBy As Associate
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property CreatedBy As Associate
   overload: SuperOffice.CRM.Services.RoleEntity.CreatedBy*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.RoleEntity.Updated
   commentId: P:SuperOffice.CRM.Services.RoleEntity.Updated
   id: Updated
@@ -456,28 +465,28 @@ items:
   nameWithType: RoleEntity.Updated
   fullName: SuperOffice.CRM.Services.RoleEntity.Updated
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLast updated when  in UTC.\n"
+  summary: Last updated when  in UTC.
+  example: []
   syntax:
-    content: public virtual DateTime Updated { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime Updated { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Updated As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Updated As Date
   overload: SuperOffice.CRM.Services.RoleEntity.Updated*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.RoleEntity.UpdatedBy
   commentId: P:SuperOffice.CRM.Services.RoleEntity.UpdatedBy
   id: UpdatedBy
@@ -489,28 +498,28 @@ items:
   nameWithType: RoleEntity.UpdatedBy
   fullName: SuperOffice.CRM.Services.RoleEntity.UpdatedBy
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLast updated by user \n"
+  summary: Last updated by user
+  example: []
   syntax:
-    content: public virtual Associate UpdatedBy { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual Associate UpdatedBy { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.Associate
-    content.vb: Public Overridable Property UpdatedBy As Associate
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UpdatedBy As Associate
   overload: SuperOffice.CRM.Services.RoleEntity.UpdatedBy*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.RoleEntity.DataRights
   commentId: P:SuperOffice.CRM.Services.RoleEntity.DataRights
   id: DataRights
@@ -522,207 +531,106 @@ items:
   nameWithType: RoleEntity.DataRights
   fullName: SuperOffice.CRM.Services.RoleEntity.DataRights
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nData rights matrix - defines role&apos;s access to data owned by current user, users in same group, and other users. \n"
+  summary: Data rights matrix - defines role's access to data owned by current user, users in same group, and other users.
+  example: []
   syntax:
-    content: public virtual DataRights DataRights { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DataRights DataRights { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.DataRights
-    content.vb: Public Overridable Property DataRights As DataRights
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property DataRights As DataRights
   overload: SuperOffice.CRM.Services.RoleEntity.DataRights*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.UserAgent
-  commentId: T:SuperOffice.CRM.Services.UserAgent
-  isExternal: true
-  name: UserAgent
-  nameWithType: UserAgent
-  fullName: SuperOffice.CRM.Services.UserAgent
 - uid: SuperOffice.CRM.Services.IUserAgent
   commentId: T:SuperOffice.CRM.Services.IUserAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IUserAgent.html
   name: IUserAgent
   nameWithType: IUserAgent
   fullName: SuperOffice.CRM.Services.IUserAgent
-- uid: SuperOffice.CRM.Services.ArchiveAgent
-  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  name: ArchiveAgent
-  nameWithType: ArchiveAgent
-  fullName: SuperOffice.CRM.Services.ArchiveAgent
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-  parent: SuperOffice.CRM.Services.IArchiveAgent
-  isExternal: true
-  name: GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
-  nameWithType: IArchiveAgent.GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32)
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-    name: GetArchiveListByColumns2
-    nameWithType: IArchiveAgent.GetArchiveListByColumns2
-    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: SuperOffice.CRM.Services.html
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-    name: GetArchiveListByColumns2
-    nameWithType: IArchiveAgent.GetArchiveListByColumns2
-    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.IArchiveAgent
-  commentId: T:SuperOffice.CRM.Services.IArchiveAgent
-  parent: SuperOffice.CRM.Services
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
-  name: IArchiveAgent
-  nameWithType: IArchiveAgent
-  fullName: SuperOffice.CRM.Services.IArchiveAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.RoleEntity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.RoleEntity.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.RoleEntity.html#SuperOffice_CRM_Services_RoleEntity__ctor
   name: RoleEntity
   nameWithType: RoleEntity.RoleEntity
   fullName: SuperOffice.CRM.Services.RoleEntity.RoleEntity
+  nameWithType.vb: RoleEntity.New
+  fullName.vb: SuperOffice.CRM.Services.RoleEntity.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.RoleEntity.ToString*
   commentId: Overload:SuperOffice.CRM.Services.RoleEntity.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.RoleEntity.html#SuperOffice_CRM_Services_RoleEntity_ToString
   name: ToString
   nameWithType: RoleEntity.ToString
   fullName: SuperOffice.CRM.Services.RoleEntity.ToString
@@ -730,18 +638,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.RoleEntity.RoleId*
   commentId: Overload:SuperOffice.CRM.Services.RoleEntity.RoleId
   isExternal: true
+  href: SuperOffice.CRM.Services.RoleEntity.html#SuperOffice_CRM_Services_RoleEntity_RoleId
   name: RoleId
   nameWithType: RoleEntity.RoleId
   fullName: SuperOffice.CRM.Services.RoleEntity.RoleId
@@ -749,24 +656,31 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.RoleEntity.Name*
   commentId: Overload:SuperOffice.CRM.Services.RoleEntity.Name
   isExternal: true
+  href: SuperOffice.CRM.Services.RoleEntity.html#SuperOffice_CRM_Services_RoleEntity_Name
   name: Name
   nameWithType: RoleEntity.Name
   fullName: SuperOffice.CRM.Services.RoleEntity.Name
 - uid: SuperOffice.CRM.Services.RoleEntity.Tooltip*
   commentId: Overload:SuperOffice.CRM.Services.RoleEntity.Tooltip
   isExternal: true
+  href: SuperOffice.CRM.Services.RoleEntity.html#SuperOffice_CRM_Services_RoleEntity_Tooltip
   name: Tooltip
   nameWithType: RoleEntity.Tooltip
   fullName: SuperOffice.CRM.Services.RoleEntity.Tooltip
 - uid: SuperOffice.CRM.Services.RoleEntity.RoleType*
   commentId: Overload:SuperOffice.CRM.Services.RoleEntity.RoleType
   isExternal: true
+  href: SuperOffice.CRM.Services.RoleEntity.html#SuperOffice_CRM_Services_RoleEntity_RoleType
   name: RoleType
   nameWithType: RoleEntity.RoleType
   fullName: SuperOffice.CRM.Services.RoleEntity.RoleType
@@ -778,6 +692,7 @@ references:
 - uid: SuperOffice.CRM.Services.RoleEntity.Deleted*
   commentId: Overload:SuperOffice.CRM.Services.RoleEntity.Deleted
   isExternal: true
+  href: SuperOffice.CRM.Services.RoleEntity.html#SuperOffice_CRM_Services_RoleEntity_Deleted
   name: Deleted
   nameWithType: RoleEntity.Deleted
   fullName: SuperOffice.CRM.Services.RoleEntity.Deleted
@@ -785,35 +700,49 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: SuperOffice.CRM.Services.RoleEntity.Rank*
   commentId: Overload:SuperOffice.CRM.Services.RoleEntity.Rank
   isExternal: true
+  href: SuperOffice.CRM.Services.RoleEntity.html#SuperOffice_CRM_Services_RoleEntity_Rank
   name: Rank
   nameWithType: RoleEntity.Rank
   fullName: SuperOffice.CRM.Services.RoleEntity.Rank
 - uid: SuperOffice.CRM.Services.RoleEntity.Created*
   commentId: Overload:SuperOffice.CRM.Services.RoleEntity.Created
   isExternal: true
+  href: SuperOffice.CRM.Services.RoleEntity.html#SuperOffice_CRM_Services_RoleEntity_Created
   name: Created
   nameWithType: RoleEntity.Created
   fullName: SuperOffice.CRM.Services.RoleEntity.Created
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.Services.RoleEntity.UseCategories*
   commentId: Overload:SuperOffice.CRM.Services.RoleEntity.UseCategories
   isExternal: true
+  href: SuperOffice.CRM.Services.RoleEntity.html#SuperOffice_CRM_Services_RoleEntity_UseCategories
   name: UseCategories
   nameWithType: RoleEntity.UseCategories
   fullName: SuperOffice.CRM.Services.RoleEntity.UseCategories
 - uid: SuperOffice.CRM.Services.RoleEntity.CreatedBy*
   commentId: Overload:SuperOffice.CRM.Services.RoleEntity.CreatedBy
   isExternal: true
+  href: SuperOffice.CRM.Services.RoleEntity.html#SuperOffice_CRM_Services_RoleEntity_CreatedBy
   name: CreatedBy
   nameWithType: RoleEntity.CreatedBy
   fullName: SuperOffice.CRM.Services.RoleEntity.CreatedBy
@@ -821,24 +750,28 @@ references:
   commentId: T:SuperOffice.CRM.Services.Associate
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.Associate.html
   name: Associate
   nameWithType: Associate
   fullName: SuperOffice.CRM.Services.Associate
 - uid: SuperOffice.CRM.Services.RoleEntity.Updated*
   commentId: Overload:SuperOffice.CRM.Services.RoleEntity.Updated
   isExternal: true
+  href: SuperOffice.CRM.Services.RoleEntity.html#SuperOffice_CRM_Services_RoleEntity_Updated
   name: Updated
   nameWithType: RoleEntity.Updated
   fullName: SuperOffice.CRM.Services.RoleEntity.Updated
 - uid: SuperOffice.CRM.Services.RoleEntity.UpdatedBy*
   commentId: Overload:SuperOffice.CRM.Services.RoleEntity.UpdatedBy
   isExternal: true
+  href: SuperOffice.CRM.Services.RoleEntity.html#SuperOffice_CRM_Services_RoleEntity_UpdatedBy
   name: UpdatedBy
   nameWithType: RoleEntity.UpdatedBy
   fullName: SuperOffice.CRM.Services.RoleEntity.UpdatedBy
 - uid: SuperOffice.CRM.Services.RoleEntity.DataRights*
   commentId: Overload:SuperOffice.CRM.Services.RoleEntity.DataRights
   isExternal: true
+  href: SuperOffice.CRM.Services.RoleEntity.html#SuperOffice_CRM_Services_RoleEntity_DataRights
   name: DataRights
   nameWithType: RoleEntity.DataRights
   fullName: SuperOffice.CRM.Services.RoleEntity.DataRights
@@ -846,6 +779,7 @@ references:
   commentId: T:SuperOffice.CRM.Services.DataRights
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.DataRights.html
   name: DataRights
   nameWithType: DataRights
   fullName: SuperOffice.CRM.Services.DataRights

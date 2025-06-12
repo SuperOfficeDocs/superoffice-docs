@@ -33,24 +33,16 @@ items:
   nameWithType: IAIAgent
   fullName: SuperOffice.WebApi.Agents.IAIAgent
   type: Interface
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nAI services, such as Translation, Statistics, Sentiment analysis, backed by calls to Public Cloud providers\n"
+  summary: AI services, such as Translation, Statistics, Sentiment analysis, backed by calls to Public Cloud providers
+  example: []
   syntax:
     content: 'public interface IAIAgent : IDisposable'
-    content.vb: >-
-      Public Interface IAIAgent
-          Inherits IDisposable
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+    content.vb: Public Interface IAIAgent Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
 - uid: SuperOffice.WebApi.Agents.IAIAgent.SummarizeTextAsync(System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAIAgent.SummarizeTextAsync(System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   id: SummarizeTextAsync(System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -58,17 +50,15 @@ items:
   langs:
   - csharp
   - vb
-  name: SummarizeTextAsync(String, Int32, String, RequestOptions)
-  nameWithType: IAIAgent.SummarizeTextAsync(String, Int32, String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAIAgent.SummarizeTextAsync(System.String, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  name: SummarizeTextAsync(string, int, string, RequestOptions)
+  nameWithType: IAIAgent.SummarizeTextAsync(string, int, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.SummarizeTextAsync(string, int, string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGenerate a short summary of a text\n"
+  summary: Generate a short summary of a text
+  example: []
   syntax:
     content: Task<string> SummarizeTextAsync(string text, int percentSmaller, string isoLangCode, RequestOptions requestOptions = null)
     parameters:
@@ -83,12 +73,15 @@ items:
       description: Language returned text should be in. Blank = do not specify language.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.String}
       description: Short summary of the text
     content.vb: Function SummarizeTextAsync(text As String, percentSmaller As Integer, isoLangCode As String, requestOptions As RequestOptions = Nothing) As Task(Of String)
   overload: SuperOffice.WebApi.Agents.IAIAgent.SummarizeTextAsync*
+  nameWithType.vb: IAIAgent.SummarizeTextAsync(String, Integer, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.SummarizeTextAsync(String, Integer, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: SummarizeTextAsync(String, Integer, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAIAgent.ExpandTextAsync(System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAIAgent.ExpandTextAsync(System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   id: ExpandTextAsync(System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -96,17 +89,15 @@ items:
   langs:
   - csharp
   - vb
-  name: ExpandTextAsync(String, Int32, String, RequestOptions)
-  nameWithType: IAIAgent.ExpandTextAsync(String, Int32, String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAIAgent.ExpandTextAsync(System.String, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  name: ExpandTextAsync(string, int, string, RequestOptions)
+  nameWithType: IAIAgent.ExpandTextAsync(string, int, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.ExpandTextAsync(string, int, string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGenerate a longer version of a text\n"
+  summary: Generate a longer version of a text
+  example: []
   syntax:
     content: Task<string> ExpandTextAsync(string text, int percentBigger, string isoLangCode, RequestOptions requestOptions = null)
     parameters:
@@ -121,12 +112,15 @@ items:
       description: Language returned text should be in. Blank = do not specify language.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.String}
       description: Expanded version of the text
     content.vb: Function ExpandTextAsync(text As String, percentBigger As Integer, isoLangCode As String, requestOptions As RequestOptions = Nothing) As Task(Of String)
   overload: SuperOffice.WebApi.Agents.IAIAgent.ExpandTextAsync*
+  nameWithType.vb: IAIAgent.ExpandTextAsync(String, Integer, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.ExpandTextAsync(String, Integer, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: ExpandTextAsync(String, Integer, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAIAgent.RephraseTextAsync(System.String,SuperOffice.WebApi.Data.AiTextStyle,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAIAgent.RephraseTextAsync(System.String,SuperOffice.WebApi.Data.AiTextStyle,System.String,SuperOffice.WebApi.RequestOptions)
   id: RephraseTextAsync(System.String,SuperOffice.WebApi.Data.AiTextStyle,System.String,SuperOffice.WebApi.RequestOptions)
@@ -134,17 +128,15 @@ items:
   langs:
   - csharp
   - vb
-  name: RephraseTextAsync(String, AiTextStyle, String, RequestOptions)
-  nameWithType: IAIAgent.RephraseTextAsync(String, AiTextStyle, String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAIAgent.RephraseTextAsync(System.String, SuperOffice.WebApi.Data.AiTextStyle, System.String, SuperOffice.WebApi.RequestOptions)
+  name: RephraseTextAsync(string, AiTextStyle, string, RequestOptions)
+  nameWithType: IAIAgent.RephraseTextAsync(string, AiTextStyle, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.RephraseTextAsync(string, SuperOffice.WebApi.Data.AiTextStyle, string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGenerate a new version of a text\n"
+  summary: Generate a new version of a text
+  example: []
   syntax:
     content: Task<string> RephraseTextAsync(string text, AiTextStyle style, string isoLangCode, RequestOptions requestOptions = null)
     parameters:
@@ -159,12 +151,15 @@ items:
       description: Language returned text should be in. Blank = do not specify language.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.String}
       description: New version of the text
     content.vb: Function RephraseTextAsync(text As String, style As AiTextStyle, isoLangCode As String, requestOptions As RequestOptions = Nothing) As Task(Of String)
   overload: SuperOffice.WebApi.Agents.IAIAgent.RephraseTextAsync*
+  nameWithType.vb: IAIAgent.RephraseTextAsync(String, AiTextStyle, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.RephraseTextAsync(String, SuperOffice.WebApi.Data.AiTextStyle, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: RephraseTextAsync(String, AiTextStyle, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAIAgent.CreateTextForAppointmentAsync(SuperOffice.WebApi.Data.AppointmentEntity,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAIAgent.CreateTextForAppointmentAsync(SuperOffice.WebApi.Data.AppointmentEntity,System.String,SuperOffice.WebApi.RequestOptions)
   id: CreateTextForAppointmentAsync(SuperOffice.WebApi.Data.AppointmentEntity,System.String,SuperOffice.WebApi.RequestOptions)
@@ -172,17 +167,15 @@ items:
   langs:
   - csharp
   - vb
-  name: CreateTextForAppointmentAsync(AppointmentEntity, String, RequestOptions)
-  nameWithType: IAIAgent.CreateTextForAppointmentAsync(AppointmentEntity, String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAIAgent.CreateTextForAppointmentAsync(SuperOffice.WebApi.Data.AppointmentEntity, System.String, SuperOffice.WebApi.RequestOptions)
+  name: CreateTextForAppointmentAsync(AppointmentEntity, string, RequestOptions)
+  nameWithType: IAIAgent.CreateTextForAppointmentAsync(AppointmentEntity, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.CreateTextForAppointmentAsync(SuperOffice.WebApi.Data.AppointmentEntity, string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGenerate agenda text for an appointment based on appointment&apos;s company category, title, person, etc.\n"
+  summary: Generate agenda text for an appointment based on appointment's company category, title, person, etc.
+  example: []
   syntax:
     content: Task<string> CreateTextForAppointmentAsync(AppointmentEntity appointment, string isoLangCode, RequestOptions requestOptions = null)
     parameters:
@@ -194,12 +187,15 @@ items:
       description: Language returned text should be in. Blank = do not specify language.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.String}
       description: Agenda text in markdown format
     content.vb: Function CreateTextForAppointmentAsync(appointment As AppointmentEntity, isoLangCode As String, requestOptions As RequestOptions = Nothing) As Task(Of String)
   overload: SuperOffice.WebApi.Agents.IAIAgent.CreateTextForAppointmentAsync*
+  nameWithType.vb: IAIAgent.CreateTextForAppointmentAsync(AppointmentEntity, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.CreateTextForAppointmentAsync(SuperOffice.WebApi.Data.AppointmentEntity, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: CreateTextForAppointmentAsync(AppointmentEntity, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAIAgent.GetTrainingStatusAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAIAgent.GetTrainingStatusAsync(SuperOffice.WebApi.RequestOptions)
   id: GetTrainingStatusAsync(SuperOffice.WebApi.RequestOptions)
@@ -211,19 +207,17 @@ items:
   nameWithType: IAIAgent.GetTrainingStatusAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IAIAgent.GetTrainingStatusAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nCalling the HugoAI endpoint to fetch the current training status.\n"
+  summary: Calling the HugoAI endpoint to fetch the current training status.
+  example: []
   syntax:
     content: Task<CategorizationStatusResponse> GetTrainingStatusAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CategorizationStatusResponse}
       description: Carrier to describe the current status of HugoAI categorization
@@ -236,17 +230,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GuessCategoryAsync(Int32, RequestOptions)
-  nameWithType: IAIAgent.GuessCategoryAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAIAgent.GuessCategoryAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: GuessCategoryAsync(int, RequestOptions)
+  nameWithType: IAIAgent.GuessCategoryAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.GuessCategoryAsync(int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGiven a ticket&apos;s id, guess the ticket category it should be placed in. Currently this is based on the first message in the ticket\n"
+  summary: Given a ticket's id, guess the ticket category it should be placed in. Currently this is based on the first message in the ticket
+  example: []
   syntax:
     content: Task<int> GuessCategoryAsync(int ticketId, RequestOptions requestOptions = null)
     parameters:
@@ -255,12 +247,15 @@ items:
       description: Id of ticket to guess category for
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Int32}
       description: Suggested ticket category ID
     content.vb: Function GuessCategoryAsync(ticketId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Integer)
   overload: SuperOffice.WebApi.Agents.IAIAgent.GuessCategoryAsync*
+  nameWithType.vb: IAIAgent.GuessCategoryAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.GuessCategoryAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GuessCategoryAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAIAgent.TrainCategoryGuesserAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAIAgent.TrainCategoryGuesserAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   id: TrainCategoryGuesserAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -268,17 +263,15 @@ items:
   langs:
   - csharp
   - vb
-  name: TrainCategoryGuesserAsync(Int32, Int32, Int32, RequestOptions)
-  nameWithType: IAIAgent.TrainCategoryGuesserAsync(Int32, Int32, Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAIAgent.TrainCategoryGuesserAsync(System.Int32, System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: TrainCategoryGuesserAsync(int, int, int, RequestOptions)
+  nameWithType: IAIAgent.TrainCategoryGuesserAsync(int, int, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.TrainCategoryGuesserAsync(int, int, int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nThe category guesser training API will be called with an array of CategorizationTrainingItem during the (background, Batch) execution of this call\n"
+  summary: The category guesser training API will be called with an array of CategorizationTrainingItem during the (background, Batch) execution of this call
+  example: []
   syntax:
     content: Task<string> TrainCategoryGuesserAsync(int selectionId, int maxItems, int maxTextLength, RequestOptions requestOptions = null)
     parameters:
@@ -293,12 +286,15 @@ items:
       description: Maximum length of PlainTextBody or any other large text, truncated to nearest word boundary
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.String}
       description: Placeholder for result...  should this be a BatchTaskId?  maybe not useful?
     content.vb: Function TrainCategoryGuesserAsync(selectionId As Integer, maxItems As Integer, maxTextLength As Integer, requestOptions As RequestOptions = Nothing) As Task(Of String)
   overload: SuperOffice.WebApi.Agents.IAIAgent.TrainCategoryGuesserAsync*
+  nameWithType.vb: IAIAgent.TrainCategoryGuesserAsync(Integer, Integer, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.TrainCategoryGuesserAsync(Integer, Integer, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: TrainCategoryGuesserAsync(Integer, Integer, Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAIAgent.GetChatbotResponseAsync(System.String,System.String,System.String,System.String,SuperOffice.WebApi.Data.ChatbotTurn[],System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAIAgent.GetChatbotResponseAsync(System.String,System.String,System.String,System.String,SuperOffice.WebApi.Data.ChatbotTurn[],System.String,SuperOffice.WebApi.RequestOptions)
   id: GetChatbotResponseAsync(System.String,System.String,System.String,System.String,SuperOffice.WebApi.Data.ChatbotTurn[],System.String,SuperOffice.WebApi.RequestOptions)
@@ -306,17 +302,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetChatbotResponseAsync(String, String, String, String, ChatbotTurn[], String, RequestOptions)
-  nameWithType: IAIAgent.GetChatbotResponseAsync(String, String, String, String, ChatbotTurn[], String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAIAgent.GetChatbotResponseAsync(System.String, System.String, System.String, System.String, SuperOffice.WebApi.Data.ChatbotTurn[], System.String, SuperOffice.WebApi.RequestOptions)
+  name: GetChatbotResponseAsync(string, string, string, string, ChatbotTurn[], string, RequestOptions)
+  nameWithType: IAIAgent.GetChatbotResponseAsync(string, string, string, string, ChatbotTurn[], string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.GetChatbotResponseAsync(string, string, string, string, SuperOffice.WebApi.Data.ChatbotTurn[], string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturn a chatbot response given prompt and previous turns. Stores the new turn in the history for the chatId\n"
+  summary: Return a chatbot response given prompt and previous turns. Stores the new turn in the history for the chatId
+  example: []
   syntax:
     content: Task<ChatbotTurn> GetChatbotResponseAsync(string chatId, string isoLangCode, string userPrompt, string displayValue, ChatbotTurn[] previousTurns, string apiUrl, RequestOptions requestOptions = null)
     parameters:
@@ -325,7 +319,7 @@ items:
       description: identifies this chat = arbitrary name (e.g. user-defined) or the soprotocol + id (e.g. ticket-123, contact-43, diary)
     - id: isoLangCode
       type: System.String
-      description: ISO2 Language code (&apos;en&apos;, &apos;no&apos;, &apos;de&apos;...) for suggestions in response
+      description: ISO2 Language code ('en', 'no', 'de'...) for suggestions in response
     - id: userPrompt
       type: System.String
       description: User question for chatbot
@@ -337,17 +331,17 @@ items:
       description: Chat history - all previous turns in chronological order
     - id: apiUrl
       type: System.String
-      description: CRM API endpoint URL for chatbot to make callbacks to. &apos;https://example.com/superoffice/api/&apos;
+      description: CRM API endpoint URL for chatbot to make callbacks to. 'https://example.com/superoffice/api/'
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatbotTurn}
       description: Returns new turn that client can append to its local history.
     content.vb: Function GetChatbotResponseAsync(chatId As String, isoLangCode As String, userPrompt As String, displayValue As String, previousTurns As ChatbotTurn(), apiUrl As String, requestOptions As RequestOptions = Nothing) As Task(Of ChatbotTurn)
   overload: SuperOffice.WebApi.Agents.IAIAgent.GetChatbotResponseAsync*
   nameWithType.vb: IAIAgent.GetChatbotResponseAsync(String, String, String, String, ChatbotTurn(), String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.GetChatbotResponseAsync(System.String, System.String, System.String, System.String, SuperOffice.WebApi.Data.ChatbotTurn(), System.String, SuperOffice.WebApi.RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.GetChatbotResponseAsync(String, String, String, String, SuperOffice.WebApi.Data.ChatbotTurn(), String, SuperOffice.WebApi.RequestOptions)
   name.vb: GetChatbotResponseAsync(String, String, String, String, ChatbotTurn(), String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAIAgent.GetChatbotPromptSuggestionsAsync(System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAIAgent.GetChatbotPromptSuggestionsAsync(System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -356,37 +350,38 @@ items:
   langs:
   - csharp
   - vb
-  name: GetChatbotPromptSuggestionsAsync(String, String, Int32, RequestOptions)
-  nameWithType: IAIAgent.GetChatbotPromptSuggestionsAsync(String, String, Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAIAgent.GetChatbotPromptSuggestionsAsync(System.String, System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: GetChatbotPromptSuggestionsAsync(string, string, int, RequestOptions)
+  nameWithType: IAIAgent.GetChatbotPromptSuggestionsAsync(string, string, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.GetChatbotPromptSuggestionsAsync(string, string, int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturn one or more suggested prompts as actions to display in an empty chat window\n"
+  summary: Return one or more suggested prompts as actions to display in an empty chat window
+  example: []
   syntax:
     content: Task<ChatbotTurn> GetChatbotPromptSuggestionsAsync(string isoLangCode, string soProtocol, int currentId, RequestOptions requestOptions = null)
     parameters:
     - id: isoLangCode
       type: System.String
-      description: ISO2 Language code (&apos;en&apos;, &apos;no&apos;, &apos;de&apos;...) for suggestions in response
+      description: ISO2 Language code ('en', 'no', 'de'...) for suggestions in response
     - id: soProtocol
       type: System.String
-      description: Context for suggestions (&apos;contact.main.activities&apos;)
+      description: Context for suggestions ('contact.main.activities')
     - id: currentId
       type: System.Int32
       description: current company/person/project id - used for context in suggestions
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatbotTurn}
       description: Contains zero or more BotActions, and welcome message in Bot response
     content.vb: Function GetChatbotPromptSuggestionsAsync(isoLangCode As String, soProtocol As String, currentId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ChatbotTurn)
   overload: SuperOffice.WebApi.Agents.IAIAgent.GetChatbotPromptSuggestionsAsync*
+  nameWithType.vb: IAIAgent.GetChatbotPromptSuggestionsAsync(String, String, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.GetChatbotPromptSuggestionsAsync(String, String, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetChatbotPromptSuggestionsAsync(String, String, Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAIAgent.GetChatbotTurnsAsync(System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAIAgent.GetChatbotTurnsAsync(System.String,SuperOffice.WebApi.RequestOptions)
   id: GetChatbotTurnsAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -394,17 +389,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetChatbotTurnsAsync(String, RequestOptions)
-  nameWithType: IAIAgent.GetChatbotTurnsAsync(String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAIAgent.GetChatbotTurnsAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  name: GetChatbotTurnsAsync(string, RequestOptions)
+  nameWithType: IAIAgent.GetChatbotTurnsAsync(string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.GetChatbotTurnsAsync(string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturns stored history of chat messages for a given chat_id. Chat_id is usually derived from soproto + current id, but could also be arbitrary name.\n"
+  summary: Returns stored history of chat messages for a given chat_id. Chat_id is usually derived from soproto + current id, but could also be arbitrary name.
+  example: []
   syntax:
     content: Task<ChatbotTurn[]> GetChatbotTurnsAsync(string chatId, RequestOptions requestOptions = null)
     parameters:
@@ -413,12 +406,15 @@ items:
       description: identifies this chat = arbitrary name (e.g. user-defined) or the soprotocol + id (e.g. ticket-123, contact-43, diary)
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatbotTurn[]}
       description: Array containing zero or more turns. If you got zero turns, call GetChatbotPromptSuggestions to get an initial turn from the bot.
     content.vb: Function GetChatbotTurnsAsync(chatId As String, requestOptions As RequestOptions = Nothing) As Task(Of ChatbotTurn())
   overload: SuperOffice.WebApi.Agents.IAIAgent.GetChatbotTurnsAsync*
+  nameWithType.vb: IAIAgent.GetChatbotTurnsAsync(String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.GetChatbotTurnsAsync(String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetChatbotTurnsAsync(String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAIAgent.ClearChatbotTurnsAsync(System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAIAgent.ClearChatbotTurnsAsync(System.String,SuperOffice.WebApi.RequestOptions)
   id: ClearChatbotTurnsAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -426,17 +422,15 @@ items:
   langs:
   - csharp
   - vb
-  name: ClearChatbotTurnsAsync(String, RequestOptions)
-  nameWithType: IAIAgent.ClearChatbotTurnsAsync(String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAIAgent.ClearChatbotTurnsAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  name: ClearChatbotTurnsAsync(string, RequestOptions)
+  nameWithType: IAIAgent.ClearChatbotTurnsAsync(string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.ClearChatbotTurnsAsync(string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nClears the stored history of chat messages for a given chat_id. Chat_id is usually derived from soproto + current id, but could also be arbitrary name\n"
+  summary: Clears the stored history of chat messages for a given chat_id. Chat_id is usually derived from soproto + current id, but could also be arbitrary name
+  example: []
   syntax:
     content: Task ClearChatbotTurnsAsync(string chatId, RequestOptions requestOptions = null)
     parameters:
@@ -445,12 +439,15 @@ items:
       description: identifies this chat = arbitrary name (e.g. user-defined) or the soprotocol + id (e.g. ticket-123, contact-43, diary)
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
       description: This method has no return value
     content.vb: Function ClearChatbotTurnsAsync(chatId As String, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IAIAgent.ClearChatbotTurnsAsync*
+  nameWithType.vb: IAIAgent.ClearChatbotTurnsAsync(String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.ClearChatbotTurnsAsync(String, SuperOffice.WebApi.RequestOptions)
+  name.vb: ClearChatbotTurnsAsync(String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAIAgent.DetectLanguageAsync(System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAIAgent.DetectLanguageAsync(System.String,SuperOffice.WebApi.RequestOptions)
   id: DetectLanguageAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -458,17 +455,15 @@ items:
   langs:
   - csharp
   - vb
-  name: DetectLanguageAsync(String, RequestOptions)
-  nameWithType: IAIAgent.DetectLanguageAsync(String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAIAgent.DetectLanguageAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  name: DetectLanguageAsync(string, RequestOptions)
+  nameWithType: IAIAgent.DetectLanguageAsync(string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.DetectLanguageAsync(string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGiven a (reasonably short) text, detect the language it is written in\n"
+  summary: Given a (reasonably short) text, detect the language it is written in
+  example: []
   syntax:
     content: Task<string> DetectLanguageAsync(string text, RequestOptions requestOptions = null)
     parameters:
@@ -477,12 +472,15 @@ items:
       description: Text to be analyzed; there may be a cost-per-character so do not send a book here
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.String}
       description: ISO Language code, such as NO, US, ES, FR
     content.vb: Function DetectLanguageAsync(text As String, requestOptions As RequestOptions = Nothing) As Task(Of String)
   overload: SuperOffice.WebApi.Agents.IAIAgent.DetectLanguageAsync*
+  nameWithType.vb: IAIAgent.DetectLanguageAsync(String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.DetectLanguageAsync(String, SuperOffice.WebApi.RequestOptions)
+  name.vb: DetectLanguageAsync(String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAIAgent.DetectSentimentAsync(System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAIAgent.DetectSentimentAsync(System.String,SuperOffice.WebApi.RequestOptions)
   id: DetectSentimentAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -490,17 +488,15 @@ items:
   langs:
   - csharp
   - vb
-  name: DetectSentimentAsync(String, RequestOptions)
-  nameWithType: IAIAgent.DetectSentimentAsync(String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAIAgent.DetectSentimentAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  name: DetectSentimentAsync(string, RequestOptions)
+  nameWithType: IAIAgent.DetectSentimentAsync(string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.DetectSentimentAsync(string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nDetect the sentiment of a (reasonably short) text. Sentiment analysis may cause a translation to be made, since sentiment analysis only supports a limited set of languages\n"
+  summary: Detect the sentiment of a (reasonably short) text. Sentiment analysis may cause a translation to be made, since sentiment analysis only supports a limited set of languages
+  example: []
   syntax:
     content: Task<Sentiment> DetectSentimentAsync(string text, RequestOptions requestOptions = null)
     parameters:
@@ -509,12 +505,15 @@ items:
       description: Text to be analyzed
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Sentiment}
       description: 'The sentiment information: score (-100 to +100) and confidence'
     content.vb: Function DetectSentimentAsync(text As String, requestOptions As RequestOptions = Nothing) As Task(Of Sentiment)
   overload: SuperOffice.WebApi.Agents.IAIAgent.DetectSentimentAsync*
+  nameWithType.vb: IAIAgent.DetectSentimentAsync(String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.DetectSentimentAsync(String, SuperOffice.WebApi.RequestOptions)
+  name.vb: DetectSentimentAsync(String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAIAgent.TranslateAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAIAgent.TranslateAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   id: TranslateAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
@@ -522,17 +521,15 @@ items:
   langs:
   - csharp
   - vb
-  name: TranslateAsync(String, String, RequestOptions)
-  nameWithType: IAIAgent.TranslateAsync(String, String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAIAgent.TranslateAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  name: TranslateAsync(string, string, RequestOptions)
+  nameWithType: IAIAgent.TranslateAsync(string, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.TranslateAsync(string, string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nTranslate a text from one language to another. Language of the text is automatically detected.\n"
+  summary: Translate a text from one language to another. Language of the text is automatically detected.
+  example: []
   syntax:
     content: Task<string> TranslateAsync(string text, string targetLanguage, RequestOptions requestOptions = null)
     parameters:
@@ -544,12 +541,15 @@ items:
       description: ISO Language code (such as FR) to translate the text into
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.String}
       description: Translated text
     content.vb: Function TranslateAsync(text As String, targetLanguage As String, requestOptions As RequestOptions = Nothing) As Task(Of String)
   overload: SuperOffice.WebApi.Agents.IAIAgent.TranslateAsync*
+  nameWithType.vb: IAIAgent.TranslateAsync(String, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.TranslateAsync(String, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: TranslateAsync(String, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAIAgent.TranslateEntityAsync(System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAIAgent.TranslateEntityAsync(System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   id: TranslateEntityAsync(System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -557,23 +557,21 @@ items:
   langs:
   - csharp
   - vb
-  name: TranslateEntityAsync(String, Int32, String, RequestOptions)
-  nameWithType: IAIAgent.TranslateEntityAsync(String, Int32, String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAIAgent.TranslateEntityAsync(System.String, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  name: TranslateEntityAsync(string, int, string, RequestOptions)
+  nameWithType: IAIAgent.TranslateEntityAsync(string, int, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.TranslateEntityAsync(string, int, string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nRetrieve, format and translate text for an entity to a specified language\n"
+  summary: Retrieve, format and translate text for an entity to a specified language
+  example: []
   syntax:
     content: Task<string> TranslateEntityAsync(string entityName, int entityId, string targetLanguage, RequestOptions requestOptions = null)
     parameters:
     - id: entityName
       type: System.String
-      description: Name of entity to get the text to be translated; eg., &apos;ticketMessage&apos;
+      description: Name of entity to get the text to be translated; eg., 'ticketMessage'
     - id: entityId
       type: System.Int32
       description: Identifier for the entity to get text to be translated
@@ -582,12 +580,15 @@ items:
       description: ISO Language code (such as FR) to translate the text into
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.String}
       description: Translated text
     content.vb: Function TranslateEntityAsync(entityName As String, entityId As Integer, targetLanguage As String, requestOptions As RequestOptions = Nothing) As Task(Of String)
   overload: SuperOffice.WebApi.Agents.IAIAgent.TranslateEntityAsync*
+  nameWithType.vb: IAIAgent.TranslateEntityAsync(String, Integer, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.TranslateEntityAsync(String, Integer, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: TranslateEntityAsync(String, Integer, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAIAgent.SummarizeTicketAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAIAgent.SummarizeTicketAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   id: SummarizeTicketAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -595,17 +596,15 @@ items:
   langs:
   - csharp
   - vb
-  name: SummarizeTicketAsync(Int32, Int32, String, RequestOptions)
-  nameWithType: IAIAgent.SummarizeTicketAsync(Int32, Int32, String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAIAgent.SummarizeTicketAsync(System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  name: SummarizeTicketAsync(int, int, string, RequestOptions)
+  nameWithType: IAIAgent.SummarizeTicketAsync(int, int, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.SummarizeTicketAsync(int, int, string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGenerate a short summary of the messages on a ticket\n"
+  summary: Generate a short summary of the messages on a ticket
+  example: []
   syntax:
     content: Task<string> SummarizeTicketAsync(int ticketId, int numSentences, string isoLangCode, RequestOptions requestOptions = null)
     parameters:
@@ -620,12 +619,15 @@ items:
       description: Language returned text should be in
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.String}
       description: Short summary of the messages on a ticket - in HTML.
     content.vb: Function SummarizeTicketAsync(ticketId As Integer, numSentences As Integer, isoLangCode As String, requestOptions As RequestOptions = Nothing) As Task(Of String)
   overload: SuperOffice.WebApi.Agents.IAIAgent.SummarizeTicketAsync*
+  nameWithType.vb: IAIAgent.SummarizeTicketAsync(Integer, Integer, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.SummarizeTicketAsync(Integer, Integer, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: SummarizeTicketAsync(Integer, Integer, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeTicketPromptAsync(System.Int32,System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeTicketPromptAsync(System.Int32,System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   id: GetSummarizeTicketPromptAsync(System.Int32,System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
@@ -633,17 +635,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetSummarizeTicketPromptAsync(Int32, Int32, String, String, RequestOptions)
-  nameWithType: IAIAgent.GetSummarizeTicketPromptAsync(Int32, Int32, String, String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeTicketPromptAsync(System.Int32, System.Int32, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  name: GetSummarizeTicketPromptAsync(int, int, string, string, RequestOptions)
+  nameWithType: IAIAgent.GetSummarizeTicketPromptAsync(int, int, string, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeTicketPromptAsync(int, int, string, string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturn the prompt used to get a short summary of the messages on a ticket. Does not call the chatbot for a response. Used for transfering a summary to a chat session.\n"
+  summary: Return the prompt used to get a short summary of the messages on a ticket. Does not call the chatbot for a response. Used for transfering a summary to a chat session.
+  example: []
   syntax:
     content: Task<ChatbotTurn> GetSummarizeTicketPromptAsync(int ticketId, int numSentences, string summary, string isoLangCode, RequestOptions requestOptions = null)
     parameters:
@@ -655,18 +655,21 @@ items:
       description: Length of summary
     - id: summary
       type: System.String
-      description: Chatbot&apos;s summary of the ticket
+      description: Chatbot's summary of the ticket
     - id: isoLangCode
       type: System.String
       description: Language returned text should be in
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatbotTurn}
       description: Display text and Prompt used to generate a short summary of the messages on a ticket.
     content.vb: Function GetSummarizeTicketPromptAsync(ticketId As Integer, numSentences As Integer, summary As String, isoLangCode As String, requestOptions As RequestOptions = Nothing) As Task(Of ChatbotTurn)
   overload: SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeTicketPromptAsync*
+  nameWithType.vb: IAIAgent.GetSummarizeTicketPromptAsync(Integer, Integer, String, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeTicketPromptAsync(Integer, Integer, String, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetSummarizeTicketPromptAsync(Integer, Integer, String, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAIAgent.SummarizeContactAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAIAgent.SummarizeContactAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   id: SummarizeContactAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -674,17 +677,15 @@ items:
   langs:
   - csharp
   - vb
-  name: SummarizeContactAsync(Int32, Int32, String, RequestOptions)
-  nameWithType: IAIAgent.SummarizeContactAsync(Int32, Int32, String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAIAgent.SummarizeContactAsync(System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  name: SummarizeContactAsync(int, int, string, RequestOptions)
+  nameWithType: IAIAgent.SummarizeContactAsync(int, int, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.SummarizeContactAsync(int, int, string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGenerate a short summary of the activities on a contact\n"
+  summary: Generate a short summary of the activities on a contact
+  example: []
   syntax:
     content: Task<string> SummarizeContactAsync(int contactId, int numSentences, string isoLangCode, RequestOptions requestOptions = null)
     parameters:
@@ -699,12 +700,15 @@ items:
       description: Language returned text should be in. Blank = do not specify language.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.String}
       description: Short summary of the activities on a contact - in HTML.
     content.vb: Function SummarizeContactAsync(contactId As Integer, numSentences As Integer, isoLangCode As String, requestOptions As RequestOptions = Nothing) As Task(Of String)
   overload: SuperOffice.WebApi.Agents.IAIAgent.SummarizeContactAsync*
+  nameWithType.vb: IAIAgent.SummarizeContactAsync(Integer, Integer, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.SummarizeContactAsync(Integer, Integer, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: SummarizeContactAsync(Integer, Integer, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeContactPromptAsync(System.Int32,System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeContactPromptAsync(System.Int32,System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   id: GetSummarizeContactPromptAsync(System.Int32,System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
@@ -712,17 +716,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetSummarizeContactPromptAsync(Int32, Int32, String, String, RequestOptions)
-  nameWithType: IAIAgent.GetSummarizeContactPromptAsync(Int32, Int32, String, String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeContactPromptAsync(System.Int32, System.Int32, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  name: GetSummarizeContactPromptAsync(int, int, string, string, RequestOptions)
+  nameWithType: IAIAgent.GetSummarizeContactPromptAsync(int, int, string, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeContactPromptAsync(int, int, string, string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturn the prompt used to get a short summary of the activities on a contact. Does not call the chatbot for a response. Used for transfering a summary to a chat session.\n"
+  summary: Return the prompt used to get a short summary of the activities on a contact. Does not call the chatbot for a response. Used for transfering a summary to a chat session.
+  example: []
   syntax:
     content: Task<ChatbotTurn> GetSummarizeContactPromptAsync(int contactId, int numSentences, string summary, string isoLangCode, RequestOptions requestOptions = null)
     parameters:
@@ -734,18 +736,21 @@ items:
       description: Length of summary
     - id: summary
       type: System.String
-      description: Chatbot&apos;s summary of the contact activities
+      description: Chatbot's summary of the contact activities
     - id: isoLangCode
       type: System.String
       description: Language returned text should be in. Blank = do not specify language.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatbotTurn}
       description: Display text and Prompt used to generate a short summary of the activities on a contact.
     content.vb: Function GetSummarizeContactPromptAsync(contactId As Integer, numSentences As Integer, summary As String, isoLangCode As String, requestOptions As RequestOptions = Nothing) As Task(Of ChatbotTurn)
   overload: SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeContactPromptAsync*
+  nameWithType.vb: IAIAgent.GetSummarizeContactPromptAsync(Integer, Integer, String, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeContactPromptAsync(Integer, Integer, String, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetSummarizeContactPromptAsync(Integer, Integer, String, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAIAgent.SummarizeSaleAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAIAgent.SummarizeSaleAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   id: SummarizeSaleAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -753,17 +758,15 @@ items:
   langs:
   - csharp
   - vb
-  name: SummarizeSaleAsync(Int32, Int32, String, RequestOptions)
-  nameWithType: IAIAgent.SummarizeSaleAsync(Int32, Int32, String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAIAgent.SummarizeSaleAsync(System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  name: SummarizeSaleAsync(int, int, string, RequestOptions)
+  nameWithType: IAIAgent.SummarizeSaleAsync(int, int, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.SummarizeSaleAsync(int, int, string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGenerate a short summary of the activities on a sale\n"
+  summary: Generate a short summary of the activities on a sale
+  example: []
   syntax:
     content: Task<string> SummarizeSaleAsync(int saleId, int numSentences, string isoLangCode, RequestOptions requestOptions = null)
     parameters:
@@ -778,12 +781,15 @@ items:
       description: Language returned text should be in. Blank = do not specify language.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.String}
       description: Short summary of the activities on a sale - in HTML.
     content.vb: Function SummarizeSaleAsync(saleId As Integer, numSentences As Integer, isoLangCode As String, requestOptions As RequestOptions = Nothing) As Task(Of String)
   overload: SuperOffice.WebApi.Agents.IAIAgent.SummarizeSaleAsync*
+  nameWithType.vb: IAIAgent.SummarizeSaleAsync(Integer, Integer, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.SummarizeSaleAsync(Integer, Integer, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: SummarizeSaleAsync(Integer, Integer, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeSalePromptAsync(System.Int32,System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeSalePromptAsync(System.Int32,System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   id: GetSummarizeSalePromptAsync(System.Int32,System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
@@ -791,17 +797,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetSummarizeSalePromptAsync(Int32, Int32, String, String, RequestOptions)
-  nameWithType: IAIAgent.GetSummarizeSalePromptAsync(Int32, Int32, String, String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeSalePromptAsync(System.Int32, System.Int32, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  name: GetSummarizeSalePromptAsync(int, int, string, string, RequestOptions)
+  nameWithType: IAIAgent.GetSummarizeSalePromptAsync(int, int, string, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeSalePromptAsync(int, int, string, string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturn the prompt used to get a short summary of the activities on a sale. Does not call the chatbot for a response. Used for transfering a summary to a chat session.\n"
+  summary: Return the prompt used to get a short summary of the activities on a sale. Does not call the chatbot for a response. Used for transfering a summary to a chat session.
+  example: []
   syntax:
     content: Task<ChatbotTurn> GetSummarizeSalePromptAsync(int saleId, int numSentences, string summary, string isoLangCode, RequestOptions requestOptions = null)
     parameters:
@@ -813,28 +817,100 @@ items:
       description: Length of summary
     - id: summary
       type: System.String
-      description: Chatbot&apos;s summary of the sale activities
+      description: Chatbot's summary of the sale activities
     - id: isoLangCode
       type: System.String
       description: Language returned text should be in
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatbotTurn}
       description: Display text and Prompt used to generate a short summary of the activities on a sale.
     content.vb: Function GetSummarizeSalePromptAsync(saleId As Integer, numSentences As Integer, summary As String, isoLangCode As String, requestOptions As RequestOptions = Nothing) As Task(Of ChatbotTurn)
   overload: SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeSalePromptAsync*
+  nameWithType.vb: IAIAgent.GetSummarizeSalePromptAsync(Integer, Integer, String, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeSalePromptAsync(Integer, Integer, String, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetSummarizeSalePromptAsync(Integer, Integer, String, String, RequestOptions)
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Agents
   nameWithType: SuperOffice.WebApi.Agents
   fullName: SuperOffice.WebApi.Agents
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.WebApi.Agents.IAIAgent.SummarizeTextAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.SummarizeTextAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_SummarizeTextAsync_System_String_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
   name: SummarizeTextAsync
   nameWithType: IAIAgent.SummarizeTextAsync
   fullName: SuperOffice.WebApi.Agents.IAIAgent.SummarizeTextAsync
@@ -842,125 +918,170 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.WebApi.RequestOptions
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.WebApi.RequestOptions.html
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: SuperOffice.WebApi.RequestOptions
 - uid: System.Threading.Tasks.Task{System.String}
-  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
-  name: Task<String>
-  nameWithType: Task<String>
-  fullName: System.Threading.Tasks.Task<System.String>
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
   nameWithType.vb: Task(Of String)
-  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
   name.vb: Task(Of String)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
 - uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: Task<>
-  nameWithType: Task<>
-  fullName: System.Threading.Tasks.Task<>
-  nameWithType.vb: Task(Of )
-  fullName.vb: System.Threading.Tasks.Task(Of )
-  name.vb: Task(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.WebApi.Agents.IAIAgent.ExpandTextAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.ExpandTextAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_ExpandTextAsync_System_String_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
   name: ExpandTextAsync
   nameWithType: IAIAgent.ExpandTextAsync
   fullName: SuperOffice.WebApi.Agents.IAIAgent.ExpandTextAsync
 - uid: SuperOffice.WebApi.Agents.IAIAgent.RephraseTextAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.RephraseTextAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_RephraseTextAsync_System_String_SuperOffice_WebApi_Data_AiTextStyle_System_String_SuperOffice_WebApi_RequestOptions_
   name: RephraseTextAsync
   nameWithType: IAIAgent.RephraseTextAsync
   fullName: SuperOffice.WebApi.Agents.IAIAgent.RephraseTextAsync
@@ -968,18 +1089,51 @@ references:
   commentId: T:SuperOffice.WebApi.Data.AiTextStyle
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.AiTextStyle.html
   name: AiTextStyle
   nameWithType: AiTextStyle
   fullName: SuperOffice.WebApi.Data.AiTextStyle
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Agents.IAIAgent.CreateTextForAppointmentAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.CreateTextForAppointmentAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_CreateTextForAppointmentAsync_SuperOffice_WebApi_Data_AppointmentEntity_System_String_SuperOffice_WebApi_RequestOptions_
   name: CreateTextForAppointmentAsync
   nameWithType: IAIAgent.CreateTextForAppointmentAsync
   fullName: SuperOffice.WebApi.Agents.IAIAgent.CreateTextForAppointmentAsync
@@ -987,18 +1141,22 @@ references:
   commentId: T:SuperOffice.WebApi.Data.AppointmentEntity
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.AppointmentEntity.html
   name: AppointmentEntity
   nameWithType: AppointmentEntity
   fullName: SuperOffice.WebApi.Data.AppointmentEntity
 - uid: SuperOffice.WebApi.Agents.IAIAgent.GetTrainingStatusAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.GetTrainingStatusAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_GetTrainingStatusAsync_SuperOffice_WebApi_RequestOptions_
   name: GetTrainingStatusAsync
   nameWithType: IAIAgent.GetTrainingStatusAsync
   fullName: SuperOffice.WebApi.Agents.IAIAgent.GetTrainingStatusAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CategorizationStatusResponse}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CategorizationStatusResponse}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CategorizationStatusResponse}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<CategorizationStatusResponse>
   nameWithType: Task<CategorizationStatusResponse>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.CategorizationStatusResponse>
@@ -1008,100 +1166,86 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.CategorizationStatusResponse
     name: CategorizationStatusResponse
-    nameWithType: CategorizationStatusResponse
-    fullName: SuperOffice.WebApi.Data.CategorizationStatusResponse
     isExternal: true
+    href: SuperOffice.WebApi.Data.CategorizationStatusResponse.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.CategorizationStatusResponse
     name: CategorizationStatusResponse
-    nameWithType: CategorizationStatusResponse
-    fullName: SuperOffice.WebApi.Data.CategorizationStatusResponse
     isExternal: true
+    href: SuperOffice.WebApi.Data.CategorizationStatusResponse.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.IAIAgent.GuessCategoryAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.GuessCategoryAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_GuessCategoryAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GuessCategoryAsync
   nameWithType: IAIAgent.GuessCategoryAsync
   fullName: SuperOffice.WebApi.Agents.IAIAgent.GuessCategoryAsync
 - uid: System.Threading.Tasks.Task{System.Int32}
-  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
-  name: Task<Int32>
-  nameWithType: Task<Int32>
-  fullName: System.Threading.Tasks.Task<System.Int32>
-  nameWithType.vb: Task(Of Int32)
-  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
-  name.vb: Task(Of Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.IAIAgent.TrainCategoryGuesserAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.TrainCategoryGuesserAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_TrainCategoryGuesserAsync_System_Int32_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: TrainCategoryGuesserAsync
   nameWithType: IAIAgent.TrainCategoryGuesserAsync
   fullName: SuperOffice.WebApi.Agents.IAIAgent.TrainCategoryGuesserAsync
 - uid: SuperOffice.WebApi.Agents.IAIAgent.GetChatbotResponseAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.GetChatbotResponseAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_GetChatbotResponseAsync_System_String_System_String_System_String_System_String_SuperOffice_WebApi_Data_ChatbotTurn___System_String_SuperOffice_WebApi_RequestOptions_
   name: GetChatbotResponseAsync
   nameWithType: IAIAgent.GetChatbotResponseAsync
   fullName: SuperOffice.WebApi.Agents.IAIAgent.GetChatbotResponseAsync
 - uid: SuperOffice.WebApi.Data.ChatbotTurn[]
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatbotTurn.html
   name: ChatbotTurn[]
   nameWithType: ChatbotTurn[]
   fullName: SuperOffice.WebApi.Data.ChatbotTurn[]
@@ -1111,24 +1255,22 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.ChatbotTurn
     name: ChatbotTurn
-    nameWithType: ChatbotTurn
-    fullName: SuperOffice.WebApi.Data.ChatbotTurn
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.ChatbotTurn.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.ChatbotTurn
     name: ChatbotTurn
-    nameWithType: ChatbotTurn
-    fullName: SuperOffice.WebApi.Data.ChatbotTurn
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.ChatbotTurn.html
+  - name: (
+  - name: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatbotTurn}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatbotTurn}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatbotTurn}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<ChatbotTurn>
   nameWithType: Task<ChatbotTurn>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ChatbotTurn>
@@ -1138,52 +1280,46 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.ChatbotTurn
     name: ChatbotTurn
-    nameWithType: ChatbotTurn
-    fullName: SuperOffice.WebApi.Data.ChatbotTurn
     isExternal: true
+    href: SuperOffice.WebApi.Data.ChatbotTurn.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.ChatbotTurn
     name: ChatbotTurn
-    nameWithType: ChatbotTurn
-    fullName: SuperOffice.WebApi.Data.ChatbotTurn
     isExternal: true
+    href: SuperOffice.WebApi.Data.ChatbotTurn.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.IAIAgent.GetChatbotPromptSuggestionsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.GetChatbotPromptSuggestionsAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_GetChatbotPromptSuggestionsAsync_System_String_System_String_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetChatbotPromptSuggestionsAsync
   nameWithType: IAIAgent.GetChatbotPromptSuggestionsAsync
   fullName: SuperOffice.WebApi.Agents.IAIAgent.GetChatbotPromptSuggestionsAsync
 - uid: SuperOffice.WebApi.Agents.IAIAgent.GetChatbotTurnsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.GetChatbotTurnsAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_GetChatbotTurnsAsync_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetChatbotTurnsAsync
   nameWithType: IAIAgent.GetChatbotTurnsAsync
   fullName: SuperOffice.WebApi.Agents.IAIAgent.GetChatbotTurnsAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatbotTurn[]}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatbotTurn[]}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatbotTurn[]}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<ChatbotTurn[]>
   nameWithType: Task<ChatbotTurn[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ChatbotTurn[]>
@@ -1193,69 +1329,65 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.ChatbotTurn
     name: ChatbotTurn
-    nameWithType: ChatbotTurn
-    fullName: SuperOffice.WebApi.Data.ChatbotTurn
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.ChatbotTurn.html
+  - name: '['
+  - name: ']'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.ChatbotTurn
     name: ChatbotTurn
-    nameWithType: ChatbotTurn
-    fullName: SuperOffice.WebApi.Data.ChatbotTurn
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.ChatbotTurn.html
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.WebApi.Agents.IAIAgent.ClearChatbotTurnsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.ClearChatbotTurnsAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_ClearChatbotTurnsAsync_System_String_SuperOffice_WebApi_RequestOptions_
   name: ClearChatbotTurnsAsync
   nameWithType: IAIAgent.ClearChatbotTurnsAsync
   fullName: SuperOffice.WebApi.Agents.IAIAgent.ClearChatbotTurnsAsync
 - uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.WebApi.Agents.IAIAgent.DetectLanguageAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.DetectLanguageAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_DetectLanguageAsync_System_String_SuperOffice_WebApi_RequestOptions_
   name: DetectLanguageAsync
   nameWithType: IAIAgent.DetectLanguageAsync
   fullName: SuperOffice.WebApi.Agents.IAIAgent.DetectLanguageAsync
 - uid: SuperOffice.WebApi.Agents.IAIAgent.DetectSentimentAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.DetectSentimentAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_DetectSentimentAsync_System_String_SuperOffice_WebApi_RequestOptions_
   name: DetectSentimentAsync
   nameWithType: IAIAgent.DetectSentimentAsync
   fullName: SuperOffice.WebApi.Agents.IAIAgent.DetectSentimentAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Sentiment}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Sentiment}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Sentiment}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<Sentiment>
   nameWithType: Task<Sentiment>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Sentiment>
@@ -1265,82 +1397,80 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.Sentiment
     name: Sentiment
-    nameWithType: Sentiment
-    fullName: SuperOffice.WebApi.Data.Sentiment
     isExternal: true
+    href: SuperOffice.WebApi.Data.Sentiment.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.Sentiment
     name: Sentiment
-    nameWithType: Sentiment
-    fullName: SuperOffice.WebApi.Data.Sentiment
     isExternal: true
+    href: SuperOffice.WebApi.Data.Sentiment.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.IAIAgent.TranslateAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.TranslateAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_TranslateAsync_System_String_System_String_SuperOffice_WebApi_RequestOptions_
   name: TranslateAsync
   nameWithType: IAIAgent.TranslateAsync
   fullName: SuperOffice.WebApi.Agents.IAIAgent.TranslateAsync
 - uid: SuperOffice.WebApi.Agents.IAIAgent.TranslateEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.TranslateEntityAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_TranslateEntityAsync_System_String_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
   name: TranslateEntityAsync
   nameWithType: IAIAgent.TranslateEntityAsync
   fullName: SuperOffice.WebApi.Agents.IAIAgent.TranslateEntityAsync
 - uid: SuperOffice.WebApi.Agents.IAIAgent.SummarizeTicketAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.SummarizeTicketAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_SummarizeTicketAsync_System_Int32_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
   name: SummarizeTicketAsync
   nameWithType: IAIAgent.SummarizeTicketAsync
   fullName: SuperOffice.WebApi.Agents.IAIAgent.SummarizeTicketAsync
 - uid: SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeTicketPromptAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeTicketPromptAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_GetSummarizeTicketPromptAsync_System_Int32_System_Int32_System_String_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetSummarizeTicketPromptAsync
   nameWithType: IAIAgent.GetSummarizeTicketPromptAsync
   fullName: SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeTicketPromptAsync
 - uid: SuperOffice.WebApi.Agents.IAIAgent.SummarizeContactAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.SummarizeContactAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_SummarizeContactAsync_System_Int32_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
   name: SummarizeContactAsync
   nameWithType: IAIAgent.SummarizeContactAsync
   fullName: SuperOffice.WebApi.Agents.IAIAgent.SummarizeContactAsync
 - uid: SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeContactPromptAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeContactPromptAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_GetSummarizeContactPromptAsync_System_Int32_System_Int32_System_String_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetSummarizeContactPromptAsync
   nameWithType: IAIAgent.GetSummarizeContactPromptAsync
   fullName: SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeContactPromptAsync
 - uid: SuperOffice.WebApi.Agents.IAIAgent.SummarizeSaleAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.SummarizeSaleAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_SummarizeSaleAsync_System_Int32_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
   name: SummarizeSaleAsync
   nameWithType: IAIAgent.SummarizeSaleAsync
   fullName: SuperOffice.WebApi.Agents.IAIAgent.SummarizeSaleAsync
 - uid: SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeSalePromptAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeSalePromptAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_GetSummarizeSalePromptAsync_System_Int32_System_Int32_System_String_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetSummarizeSalePromptAsync
   nameWithType: IAIAgent.GetSummarizeSalePromptAsync
   fullName: SuperOffice.WebApi.Agents.IAIAgent.GetSummarizeSalePromptAsync

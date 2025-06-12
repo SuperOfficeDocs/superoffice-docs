@@ -73,8 +73,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    271,
-    102
+    875,
+    776
   ]
 }
 ```

@@ -17,23 +17,19 @@ items:
   fullName: SuperOffice.CRM.Data.Util
   type: Namespace
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
 references:
-- uid: SuperOffice.CRM.Data.Util.ExtraFieldHelper
-  commentId: T:SuperOffice.CRM.Data.Util.ExtraFieldHelper
-  isExternal: true
-  name: ExtraFieldHelper
-  nameWithType: ExtraFieldHelper
-  fullName: SuperOffice.CRM.Data.Util.ExtraFieldHelper
 - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo
   commentId: T:SuperOffice.CRM.Data.Util.NextAvailableTimeInfo
   isExternal: true
+  href: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.html
   name: NextAvailableTimeInfo
   nameWithType: NextAvailableTimeInfo
   fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo
 - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper
   commentId: T:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper
   isExternal: true
+  href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.html
   name: NextAvailableTimeHelper
   nameWithType: NextAvailableTimeHelper
   fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper
@@ -41,19 +37,89 @@ references:
   commentId: T:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
   parent: SuperOffice.CRM.Data.Util
   isExternal: true
+  href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.html
   name: NextAvailableTimeHelper.AppointmentTimeType
   nameWithType: NextAvailableTimeHelper.AppointmentTimeType
   fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper
+    name: NextAvailableTimeHelper
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+    name: AppointmentTimeType
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper
+    name: NextAvailableTimeHelper
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+    name: AppointmentTimeType
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.html
+- uid: SuperOffice.CRM.Data.Util.ExtraFieldHelper
+  commentId: T:SuperOffice.CRM.Data.Util.ExtraFieldHelper
+  isExternal: true
+  href: SuperOffice.CRM.Data.Util.ExtraFieldHelper.html
+  name: ExtraFieldHelper
+  nameWithType: ExtraFieldHelper
+  fullName: SuperOffice.CRM.Data.Util.ExtraFieldHelper
 - uid: SuperOffice.CRM.Data.Util.UdefValueHelper
   commentId: T:SuperOffice.CRM.Data.Util.UdefValueHelper
   parent: SuperOffice.CRM.Data.Util
   isExternal: true
+  href: SuperOffice.CRM.Data.Util.UdefValueHelper.html
   name: UdefValueHelper
   nameWithType: UdefValueHelper
   fullName: SuperOffice.CRM.Data.Util.UdefValueHelper
 - uid: SuperOffice.CRM.Data.Util
   commentId: N:SuperOffice.CRM.Data.Util
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data.Util
   nameWithType: SuperOffice.CRM.Data.Util
   fullName: SuperOffice.CRM.Data.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.html

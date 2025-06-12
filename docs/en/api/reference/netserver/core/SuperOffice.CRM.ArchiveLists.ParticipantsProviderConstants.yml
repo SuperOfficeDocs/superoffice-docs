@@ -1,0 +1,1186 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+  commentId: T:SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+  id: ParticipantsProviderConstants
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.#ctor
+  - SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.AppointmentRestrictionId
+  - SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.AssociateEmailsInformation
+  - SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.AssociateEntity
+  - SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.AssociateRestrictionId
+  - SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.DateInformation
+  - SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.EmailParticipantEntity
+  - SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.EndTimeInformation
+  - SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.EndTimeUtcInformation
+  - SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.ExternalPersonEntity
+  - SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.ExternalPersonRestrictionId
+  - SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.GroupRestrictionId
+  - SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.InhibitConflictsInformation
+  - SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.OwnerAssociateIdInformation
+  - SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.PersonEmailsInformation
+  - SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.ProviderName
+  - SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.ResourceEntity
+  - SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.ResourceRestrictionId
+  - SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.StartTimeInformation
+  - SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.StartTimeUtcInformation
+  langs:
+  - csharp
+  - vb
+  name: ParticipantsProviderConstants
+  nameWithType: ParticipantsProviderConstants
+  fullName: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public class ParticipantsProviderConstants
+    content.vb: Public Class ParticipantsProviderConstants
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants)
+  - SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.ProviderName
+  commentId: F:SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.ProviderName
+  id: ProviderName
+  parent: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: ParticipantsProviderConstants.ProviderName
+  fullName: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.ProviderName
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ProviderName = "Participants"
+    return:
+      type: System.String
+    content.vb: Public Const ProviderName As String = "Participants"
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.AppointmentRestrictionId
+  commentId: F:SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.AppointmentRestrictionId
+  id: AppointmentRestrictionId
+  parent: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+  langs:
+  - csharp
+  - vb
+  name: AppointmentRestrictionId
+  nameWithType: ParticipantsProviderConstants.AppointmentRestrictionId
+  fullName: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.AppointmentRestrictionId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string AppointmentRestrictionId = "appointmentRestrictionId"
+    return:
+      type: System.String
+    content.vb: Public Const AppointmentRestrictionId As String = "appointmentRestrictionId"
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.AssociateRestrictionId
+  commentId: F:SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.AssociateRestrictionId
+  id: AssociateRestrictionId
+  parent: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+  langs:
+  - csharp
+  - vb
+  name: AssociateRestrictionId
+  nameWithType: ParticipantsProviderConstants.AssociateRestrictionId
+  fullName: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.AssociateRestrictionId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string AssociateRestrictionId = "associateRestrictionId"
+    return:
+      type: System.String
+    content.vb: Public Const AssociateRestrictionId As String = "associateRestrictionId"
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.GroupRestrictionId
+  commentId: F:SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.GroupRestrictionId
+  id: GroupRestrictionId
+  parent: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+  langs:
+  - csharp
+  - vb
+  name: GroupRestrictionId
+  nameWithType: ParticipantsProviderConstants.GroupRestrictionId
+  fullName: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.GroupRestrictionId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string GroupRestrictionId = "groupRestrictionId"
+    return:
+      type: System.String
+    content.vb: Public Const GroupRestrictionId As String = "groupRestrictionId"
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.ExternalPersonRestrictionId
+  commentId: F:SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.ExternalPersonRestrictionId
+  id: ExternalPersonRestrictionId
+  parent: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+  langs:
+  - csharp
+  - vb
+  name: ExternalPersonRestrictionId
+  nameWithType: ParticipantsProviderConstants.ExternalPersonRestrictionId
+  fullName: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.ExternalPersonRestrictionId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ExternalPersonRestrictionId = "externalPersonRestrictionId"
+    return:
+      type: System.String
+    content.vb: Public Const ExternalPersonRestrictionId As String = "externalPersonRestrictionId"
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.ResourceRestrictionId
+  commentId: F:SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.ResourceRestrictionId
+  id: ResourceRestrictionId
+  parent: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+  langs:
+  - csharp
+  - vb
+  name: ResourceRestrictionId
+  nameWithType: ParticipantsProviderConstants.ResourceRestrictionId
+  fullName: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.ResourceRestrictionId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ResourceRestrictionId = "resourceRestrictionId"
+    return:
+      type: System.String
+    content.vb: Public Const ResourceRestrictionId As String = "resourceRestrictionId"
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.PersonEmailsInformation
+  commentId: F:SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.PersonEmailsInformation
+  id: PersonEmailsInformation
+  parent: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+  langs:
+  - csharp
+  - vb
+  name: PersonEmailsInformation
+  nameWithType: ParticipantsProviderConstants.PersonEmailsInformation
+  fullName: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.PersonEmailsInformation
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PersonEmailsInformation = "personEmailsInformation"
+    return:
+      type: System.String
+    content.vb: Public Const PersonEmailsInformation As String = "personEmailsInformation"
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.AssociateEmailsInformation
+  commentId: F:SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.AssociateEmailsInformation
+  id: AssociateEmailsInformation
+  parent: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+  langs:
+  - csharp
+  - vb
+  name: AssociateEmailsInformation
+  nameWithType: ParticipantsProviderConstants.AssociateEmailsInformation
+  fullName: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.AssociateEmailsInformation
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string AssociateEmailsInformation = "associateEmailsInformation"
+    return:
+      type: System.String
+    content.vb: Public Const AssociateEmailsInformation As String = "associateEmailsInformation"
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.OwnerAssociateIdInformation
+  commentId: F:SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.OwnerAssociateIdInformation
+  id: OwnerAssociateIdInformation
+  parent: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+  langs:
+  - csharp
+  - vb
+  name: OwnerAssociateIdInformation
+  nameWithType: ParticipantsProviderConstants.OwnerAssociateIdInformation
+  fullName: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.OwnerAssociateIdInformation
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string OwnerAssociateIdInformation = "ownerAssociateIdInformation"
+    return:
+      type: System.String
+    content.vb: Public Const OwnerAssociateIdInformation As String = "ownerAssociateIdInformation"
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.StartTimeInformation
+  commentId: F:SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.StartTimeInformation
+  id: StartTimeInformation
+  parent: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+  langs:
+  - csharp
+  - vb
+  name: StartTimeInformation
+  nameWithType: ParticipantsProviderConstants.StartTimeInformation
+  fullName: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.StartTimeInformation
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string StartTimeInformation = "startTimeInformation"
+    return:
+      type: System.String
+    content.vb: Public Const StartTimeInformation As String = "startTimeInformation"
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.EndTimeInformation
+  commentId: F:SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.EndTimeInformation
+  id: EndTimeInformation
+  parent: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+  langs:
+  - csharp
+  - vb
+  name: EndTimeInformation
+  nameWithType: ParticipantsProviderConstants.EndTimeInformation
+  fullName: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.EndTimeInformation
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string EndTimeInformation = "endTimeInformation"
+    return:
+      type: System.String
+    content.vb: Public Const EndTimeInformation As String = "endTimeInformation"
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.StartTimeUtcInformation
+  commentId: F:SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.StartTimeUtcInformation
+  id: StartTimeUtcInformation
+  parent: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+  langs:
+  - csharp
+  - vb
+  name: StartTimeUtcInformation
+  nameWithType: ParticipantsProviderConstants.StartTimeUtcInformation
+  fullName: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.StartTimeUtcInformation
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string StartTimeUtcInformation = "startTimeUtcInformation"
+    return:
+      type: System.String
+    content.vb: Public Const StartTimeUtcInformation As String = "startTimeUtcInformation"
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.EndTimeUtcInformation
+  commentId: F:SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.EndTimeUtcInformation
+  id: EndTimeUtcInformation
+  parent: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+  langs:
+  - csharp
+  - vb
+  name: EndTimeUtcInformation
+  nameWithType: ParticipantsProviderConstants.EndTimeUtcInformation
+  fullName: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.EndTimeUtcInformation
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string EndTimeUtcInformation = "endTimeUtcInformation"
+    return:
+      type: System.String
+    content.vb: Public Const EndTimeUtcInformation As String = "endTimeUtcInformation"
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.DateInformation
+  commentId: F:SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.DateInformation
+  id: DateInformation
+  parent: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+  langs:
+  - csharp
+  - vb
+  name: DateInformation
+  nameWithType: ParticipantsProviderConstants.DateInformation
+  fullName: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.DateInformation
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string DateInformation = "dateInformation"
+    return:
+      type: System.String
+    content.vb: Public Const DateInformation As String = "dateInformation"
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.InhibitConflictsInformation
+  commentId: F:SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.InhibitConflictsInformation
+  id: InhibitConflictsInformation
+  parent: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+  langs:
+  - csharp
+  - vb
+  name: InhibitConflictsInformation
+  nameWithType: ParticipantsProviderConstants.InhibitConflictsInformation
+  fullName: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.InhibitConflictsInformation
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string InhibitConflictsInformation = "inhibitConflictsInformation"
+    return:
+      type: System.String
+    content.vb: Public Const InhibitConflictsInformation As String = "inhibitConflictsInformation"
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.AssociateEntity
+  commentId: F:SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.AssociateEntity
+  id: AssociateEntity
+  parent: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+  langs:
+  - csharp
+  - vb
+  name: AssociateEntity
+  nameWithType: ParticipantsProviderConstants.AssociateEntity
+  fullName: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.AssociateEntity
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string AssociateEntity = "associate"
+    return:
+      type: System.String
+    content.vb: Public Const AssociateEntity As String = "associate"
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.ResourceEntity
+  commentId: F:SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.ResourceEntity
+  id: ResourceEntity
+  parent: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+  langs:
+  - csharp
+  - vb
+  name: ResourceEntity
+  nameWithType: ParticipantsProviderConstants.ResourceEntity
+  fullName: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.ResourceEntity
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ResourceEntity = "resource"
+    return:
+      type: System.String
+    content.vb: Public Const ResourceEntity As String = "resource"
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.ExternalPersonEntity
+  commentId: F:SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.ExternalPersonEntity
+  id: ExternalPersonEntity
+  parent: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+  langs:
+  - csharp
+  - vb
+  name: ExternalPersonEntity
+  nameWithType: ParticipantsProviderConstants.ExternalPersonEntity
+  fullName: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.ExternalPersonEntity
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ExternalPersonEntity = "externalPerson"
+    return:
+      type: System.String
+    content.vb: Public Const ExternalPersonEntity As String = "externalPerson"
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.EmailParticipantEntity
+  commentId: F:SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.EmailParticipantEntity
+  id: EmailParticipantEntity
+  parent: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+  langs:
+  - csharp
+  - vb
+  name: EmailParticipantEntity
+  nameWithType: ParticipantsProviderConstants.EmailParticipantEntity
+  fullName: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.EmailParticipantEntity
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string EmailParticipantEntity = "emailParticipant"
+    return:
+      type: System.String
+    content.vb: Public Const EmailParticipantEntity As String = "emailParticipant"
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.#ctor
+  commentId: M:SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+  langs:
+  - csharp
+  - vb
+  name: ParticipantsProviderConstants()
+  nameWithType: ParticipantsProviderConstants.ParticipantsProviderConstants()
+  fullName: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.ParticipantsProviderConstants()
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public ParticipantsProviderConstants()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.#ctor*
+  nameWithType.vb: ParticipantsProviderConstants.New()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.New()
+  name.vb: New()
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ParticipantsProviderConstants, To>(ParticipantsProviderConstants)
+  nameWithType: EnumUtil.MapEnums<ParticipantsProviderConstants, To>(ParticipantsProviderConstants)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants, To>(SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants)
+  nameWithType.vb: EnumUtil.MapEnums(Of ParticipantsProviderConstants, To)(ParticipantsProviderConstants)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants, To)(SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants)
+  name.vb: MapEnums(Of ParticipantsProviderConstants, To)(ParticipantsProviderConstants)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+    name: ParticipantsProviderConstants
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+    name: ParticipantsProviderConstants
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+    name: ParticipantsProviderConstants
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+    name: ParticipantsProviderConstants
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.html
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ParticipantsProviderConstants, To>(ParticipantsProviderConstants)
+  nameWithType: Converters.MapEnums<ParticipantsProviderConstants, To>(ParticipantsProviderConstants)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants, To>(SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants)
+  nameWithType.vb: Converters.MapEnums(Of ParticipantsProviderConstants, To)(ParticipantsProviderConstants)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants, To)(SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants)
+  name.vb: MapEnums(Of ParticipantsProviderConstants, To)(ParticipantsProviderConstants)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+    name: ParticipantsProviderConstants
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+    name: ParticipantsProviderConstants
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+    name: ParticipantsProviderConstants
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+    name: ParticipantsProviderConstants
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.html
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<ParticipantsProviderConstants>(ParticipantsProviderConstants, ParticipantsProviderConstants)
+  nameWithType: ObjectExtensions.AssignByReflection<ParticipantsProviderConstants>(ParticipantsProviderConstants, ParticipantsProviderConstants)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants>(SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants, SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ParticipantsProviderConstants)(ParticipantsProviderConstants, ParticipantsProviderConstants)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants)(SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants, SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants)
+  name.vb: AssignByReflection(Of ParticipantsProviderConstants)(ParticipantsProviderConstants, ParticipantsProviderConstants)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants,SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+    name: ParticipantsProviderConstants
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+    name: ParticipantsProviderConstants
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+    name: ParticipantsProviderConstants
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants,SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+    name: ParticipantsProviderConstants
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+    name: ParticipantsProviderConstants
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+    name: ParticipantsProviderConstants
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.html
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<ParticipantsProviderConstants>(ParticipantsProviderConstants)
+  nameWithType: ObjectExtensions.GraphCopy<ParticipantsProviderConstants>(ParticipantsProviderConstants)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants>(SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ParticipantsProviderConstants)(ParticipantsProviderConstants)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants)(SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants)
+  name.vb: GraphCopy(Of ParticipantsProviderConstants)(ParticipantsProviderConstants)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+    name: ParticipantsProviderConstants
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+    name: ParticipantsProviderConstants
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+    name: ParticipantsProviderConstants
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants
+    name: ParticipantsProviderConstants
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.html#SuperOffice_CRM_ArchiveLists_ParticipantsProviderConstants__ctor
+  name: ParticipantsProviderConstants
+  nameWithType: ParticipantsProviderConstants.ParticipantsProviderConstants
+  fullName: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.ParticipantsProviderConstants
+  nameWithType.vb: ParticipantsProviderConstants.New
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ParticipantsProviderConstants.New
+  name.vb: New

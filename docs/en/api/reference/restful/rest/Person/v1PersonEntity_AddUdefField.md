@@ -98,7 +98,7 @@ OK
 POST /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 454,
-  "ColumnId": 900,
-  "FieldDefault": "culpa",
-  "FieldHeight": 720,
-  "FieldLabel": "excepturi",
-  "FieldLeft": 415,
-  "FieldTop": 602,
+  "UDefFieldId": 520,
+  "ColumnId": 816,
+  "FieldDefault": "quia",
+  "FieldHeight": 609,
+  "FieldLabel": "aspernatur",
+  "FieldLeft": 894,
+  "FieldTop": 643,
   "FieldType": "Checkbox",
-  "FieldWidth": 141,
-  "FormatMask": "ea",
+  "FieldWidth": 489,
+  "FormatMask": "quos",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 6,
-  "LabelLeft": 690,
-  "LabelTop": 471,
-  "LabelWidth": 498,
-  "LastVersionId": 373,
-  "ListTableId": 804,
-  "IsMandatory": true,
+  "LabelHeight": 677,
+  "LabelLeft": 802,
+  "LabelTop": 847,
+  "LabelWidth": 397,
+  "LastVersionId": 824,
+  "ListTableId": 429,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 119,
-  "ProgId": "exercitationem",
-  "IsReadOnly": false,
-  "ShortLabel": "rerum",
-  "TabOrder": 833,
-  "TextLength": 142,
-  "Tooltip": "quaerat",
-  "UdefIdentity": 31,
-  "UDListDefinitionId": 173,
+  "Page1LineNo": 304,
+  "ProgId": "architecto",
+  "IsReadOnly": true,
+  "ShortLabel": "facilis",
+  "TabOrder": 453,
+  "TextLength": 719,
+  "Tooltip": "dolore",
+  "UdefIdentity": 183,
+  "UDListDefinitionId": 35,
   "Justification": "Center",
-  "Version": 792,
-  "TemplateVariableName": "Braun Inc and Sons",
+  "Version": 328,
+  "TemplateVariableName": "Price, Rogahn and Hermann",
   "HasBeenPublished": false,
-  "MdoListName": "Wisoky, Heaney and Hermiston",
+  "MdoListName": "Stracke, McClure and Kemmer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 905
+      "FieldType": "System.String",
+      "FieldLength": 341
     }
   }
 }

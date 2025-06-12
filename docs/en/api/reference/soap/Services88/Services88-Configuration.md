@@ -633,6 +633,26 @@ title: Services88.ConfigurationAgent WSDL
         </xs:sequence>
       </xs:complexType>
       <xs:element name="StringDictionary" nillable="true" type="tns:StringDictionary" />
+      <xs:element name="RebuildCustomObjectArchivePanelDeltas">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RebuildCustomObjectArchivePanelDeltasResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RebuildTaskMenuDeltas">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RebuildTaskMenuDeltasResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetApplicationConfiguration">
         <xs:complexType>
           <xs:sequence>
@@ -1510,6 +1530,40 @@ title: Services88.ConfigurationAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="RebuildCustomObjectArchivePanelDeltasRequest">
+    <wsdl:part name="parameters" element="tns:RebuildCustomObjectArchivePanelDeltas" />
+  </wsdl:message>
+  <wsdl:message name="RebuildCustomObjectArchivePanelDeltasRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="RebuildCustomObjectArchivePanelDeltasResponse">
+    <wsdl:part name="parameters" element="tns:RebuildCustomObjectArchivePanelDeltasResponse" />
+  </wsdl:message>
+  <wsdl:message name="RebuildCustomObjectArchivePanelDeltasResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="RebuildTaskMenuDeltasRequest">
+    <wsdl:part name="parameters" element="tns:RebuildTaskMenuDeltas" />
+  </wsdl:message>
+  <wsdl:message name="RebuildTaskMenuDeltasRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="RebuildTaskMenuDeltasResponse">
+    <wsdl:part name="parameters" element="tns:RebuildTaskMenuDeltasResponse" />
+  </wsdl:message>
+  <wsdl:message name="RebuildTaskMenuDeltasResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetApplicationConfigurationRequest">
     <wsdl:part name="parameters" element="tns:GetApplicationConfiguration" />
   </wsdl:message>
@@ -2131,6 +2185,14 @@ title: Services88.ConfigurationAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetRecipeAppliesToMappings" name="GetRecipeAppliesToMappingsRequest" message="tns:GetRecipeAppliesToMappingsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetRecipeAppliesToMappingsResponse" name="GetRecipeAppliesToMappingsResponse" message="tns:GetRecipeAppliesToMappingsResponse" />
     </wsdl:operation>
+    <wsdl:operation name="RebuildCustomObjectArchivePanelDeltas">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/RebuildCustomObjectArchivePanelDeltas" name="RebuildCustomObjectArchivePanelDeltasRequest" message="tns:RebuildCustomObjectArchivePanelDeltasRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/RebuildCustomObjectArchivePanelDeltasResponse" name="RebuildCustomObjectArchivePanelDeltasResponse" message="tns:RebuildCustomObjectArchivePanelDeltasResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="RebuildTaskMenuDeltas">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/RebuildTaskMenuDeltas" name="RebuildTaskMenuDeltasRequest" message="tns:RebuildTaskMenuDeltasRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/RebuildTaskMenuDeltasResponse" name="RebuildTaskMenuDeltasResponse" message="tns:RebuildTaskMenuDeltasResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetApplicationConfiguration">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetApplicationConfiguration" name="GetApplicationConfigurationRequest" message="tns:GetApplicationConfigurationRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetApplicationConfigurationResponse" name="GetApplicationConfigurationResponse" message="tns:GetApplicationConfigurationResponse" />
@@ -2563,6 +2625,38 @@ title: Services88.ConfigurationAgent WSDL
         <soap:header message="tns:GetRecipeAppliesToMappingsResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetRecipeAppliesToMappingsResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetRecipeAppliesToMappingsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RebuildCustomObjectArchivePanelDeltas">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/RebuildCustomObjectArchivePanelDeltas" style="document" />
+      <wsdl:input name="RebuildCustomObjectArchivePanelDeltasRequest">
+        <soap:header message="tns:RebuildCustomObjectArchivePanelDeltasRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:RebuildCustomObjectArchivePanelDeltasRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:RebuildCustomObjectArchivePanelDeltasRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="RebuildCustomObjectArchivePanelDeltasResponse">
+        <soap:header message="tns:RebuildCustomObjectArchivePanelDeltasResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:RebuildCustomObjectArchivePanelDeltasResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:RebuildCustomObjectArchivePanelDeltasResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:RebuildCustomObjectArchivePanelDeltasResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RebuildTaskMenuDeltas">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/RebuildTaskMenuDeltas" style="document" />
+      <wsdl:input name="RebuildTaskMenuDeltasRequest">
+        <soap:header message="tns:RebuildTaskMenuDeltasRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:RebuildTaskMenuDeltasRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:RebuildTaskMenuDeltasRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="RebuildTaskMenuDeltasResponse">
+        <soap:header message="tns:RebuildTaskMenuDeltasResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:RebuildTaskMenuDeltasResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:RebuildTaskMenuDeltasResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:RebuildTaskMenuDeltasResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

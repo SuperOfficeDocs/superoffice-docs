@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Balistreri Inc and Sons",
+  "UdListDefinitionName": "Bode Inc and Sons",
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 837,
-  "Name": "Turner-Jewess",
-  "Tooltip": "magnam",
-  "Deleted": true,
-  "UdListDefinitionId": 525,
-  "Rank": 547,
+  "Id": 921,
+  "Name": "Schmeler, Kub and Stracke",
+  "Tooltip": "veniam",
+  "Deleted": false,
+  "UdListDefinitionId": 36,
+  "Rank": 523,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 245
+      "FieldType": "System.String",
+      "FieldLength": 842
     }
   }
 }

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Position/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 583,
-  "Name": "Macejkovic Group",
-  "Tooltip": "iusto",
+  "Id": 639,
+  "Name": "Harvey LLC",
+  "Tooltip": "odio",
   "Deleted": false,
-  "UdListDefinitionId": 657,
-  "Rank": 385,
+  "UdListDefinitionId": 205,
+  "Rank": 411,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 563
+      "FieldLength": 77
     }
   }
 }

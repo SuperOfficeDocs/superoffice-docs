@@ -12,66 +12,34 @@ items:
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.None
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.Person
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.Shallow
-  - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.value__
   langs:
   - csharp
   - vb
   name: FormSubmissionExtenderBase.Features
   nameWithType: FormSubmissionExtenderBase.Features
   fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
-  type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
+  type: Enum
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: 'public sealed class Features : Enum'
-    content.vb: >-
-      Public NotInheritable Class Features
-          Inherits
+    content: >-
+      [Flags]
 
-           Enum
-  inheritance:
-  - System.Object
+      public enum FormSubmissionExtenderBase.Features
+    content.vb: >-
+      <Flags>
+
+      Public Enum FormSubmissionExtenderBase.Features
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.value__
-  commentId: F:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.value__
-  id: value__
-  parent: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: FormSubmissionExtenderBase.Features.value__
-  fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.value__
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.ArchiveLists
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)
+  - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.None
   commentId: F:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.None
   id: None
@@ -83,23 +51,13 @@ items:
   nameWithType: FormSubmissionExtenderBase.Features.None
   fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.None
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const FormSubmissionExtenderBase.Features None
+    content: None = 0
     return:
       type: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
-    content.vb: Public Const None As FormSubmissionExtenderBase.Features
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.Associate
   commentId: F:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.Associate
   id: Associate
@@ -111,23 +69,13 @@ items:
   nameWithType: FormSubmissionExtenderBase.Features.Associate
   fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.Associate
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const FormSubmissionExtenderBase.Features Associate
+    content: Associate = 1
     return:
       type: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
-    content.vb: Public Const Associate As FormSubmissionExtenderBase.Features
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.Person
   commentId: F:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.Person
   id: Person
@@ -139,23 +87,13 @@ items:
   nameWithType: FormSubmissionExtenderBase.Features.Person
   fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.Person
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const FormSubmissionExtenderBase.Features Person
+    content: Person = 2
     return:
       type: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
-    content.vb: Public Const Person As FormSubmissionExtenderBase.Features
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.Contact
   commentId: F:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.Contact
   id: Contact
@@ -167,23 +105,13 @@ items:
   nameWithType: FormSubmissionExtenderBase.Features.Contact
   fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.Contact
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const FormSubmissionExtenderBase.Features Contact
+    content: Contact = 4
     return:
       type: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
-    content.vb: Public Const Contact As FormSubmissionExtenderBase.Features
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.FormFields
   commentId: F:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.FormFields
   id: FormFields
@@ -195,23 +123,13 @@ items:
   nameWithType: FormSubmissionExtenderBase.Features.FormFields
   fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.FormFields
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const FormSubmissionExtenderBase.Features FormFields
+    content: FormFields = 8
     return:
       type: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
-    content.vb: Public Const FormFields As FormSubmissionExtenderBase.Features
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.All
   commentId: F:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.All
   id: All
@@ -223,23 +141,14 @@ items:
   nameWithType: FormSubmissionExtenderBase.Features.All
   fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.All
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const FormSubmissionExtenderBase.Features All
+    content: All = Associate | Person | Contact | FormFields
     return:
       type: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
-    content.vb: Public Const All As FormSubmissionExtenderBase.Features
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: All = Associate Or Person Or Contact Or FormFields
 - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.Shallow
   commentId: F:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.Shallow
   id: Shallow
@@ -251,114 +160,267 @@ items:
   nameWithType: FormSubmissionExtenderBase.Features.Shallow
   fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.Shallow
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const FormSubmissionExtenderBase.Features Shallow
+    content: Shallow = 8
     return:
       type: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
-    content.vb: Public Const Shallow As FormSubmissionExtenderBase.Features
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
 - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<FormSubmissionExtenderBase.Features, To>()
-  nameWithType: EnumUtil.MapEnums<FormSubmissionExtenderBase.Features, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of FormSubmissionExtenderBase.Features, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features, To)()
-  name.vb: MapEnums(Of FormSubmissionExtenderBase.Features, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<Features, To>(Features)
+  nameWithType: EnumUtil.MapEnums<FormSubmissionExtenderBase.Features, To>(FormSubmissionExtenderBase.Features)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features, To>(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)
+  nameWithType.vb: EnumUtil.MapEnums(Of FormSubmissionExtenderBase.Features, To)(FormSubmissionExtenderBase.Features)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features, To)(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)
+  name.vb: MapEnums(Of Features, To)(Features)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<FormSubmissionExtenderBase.Features, To>
-    nameWithType: EnumUtil.MapEnums<FormSubmissionExtenderBase.Features, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of FormSubmissionExtenderBase.Features, To)
-    nameWithType: EnumUtil.MapEnums(Of FormSubmissionExtenderBase.Features, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.html
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<FormSubmissionExtenderBase.Features, To>()
-  nameWithType: Converters.MapEnums<FormSubmissionExtenderBase.Features, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features, To>()
-  nameWithType.vb: Converters.MapEnums(Of FormSubmissionExtenderBase.Features, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features, To)()
-  name.vb: MapEnums(Of FormSubmissionExtenderBase.Features, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<Features, To>(Features)
+  nameWithType: Converters.MapEnums<FormSubmissionExtenderBase.Features, To>(FormSubmissionExtenderBase.Features)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features, To>(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)
+  nameWithType.vb: Converters.MapEnums(Of FormSubmissionExtenderBase.Features, To)(FormSubmissionExtenderBase.Features)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features, To)(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)
+  name.vb: MapEnums(Of Features, To)(Features)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<FormSubmissionExtenderBase.Features, To>
-    nameWithType: Converters.MapEnums<FormSubmissionExtenderBase.Features, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of FormSubmissionExtenderBase.Features, To)
-    nameWithType: Converters.MapEnums(Of FormSubmissionExtenderBase.Features, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.html
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<Features>(Features, Features)
+  nameWithType: ObjectExtensions.AssignByReflection<FormSubmissionExtenderBase.Features>(FormSubmissionExtenderBase.Features, FormSubmissionExtenderBase.Features)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features>(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features, SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FormSubmissionExtenderBase.Features)(FormSubmissionExtenderBase.Features, FormSubmissionExtenderBase.Features)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features, SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)
+  name.vb: AssignByReflection(Of Features)(Features, Features)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features,SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features,SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.html
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<Features>(Features)
+  nameWithType: ObjectExtensions.GraphCopy<FormSubmissionExtenderBase.Features>(FormSubmissionExtenderBase.Features)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features>(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of FormSubmissionExtenderBase.Features)(FormSubmissionExtenderBase.Features)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)
+  name.vb: GraphCopy(Of Features)(Features)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.html
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -367,43 +429,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -412,58 +476,213 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
   commentId: T:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.html
   name: FormSubmissionExtenderBase.Features
   nameWithType: FormSubmissionExtenderBase.Features
   fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase
+    name: FormSubmissionExtenderBase
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.html
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase
+    name: FormSubmissionExtenderBase
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.html

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 95,
-  "Name": "Wehner LLC",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "Rank": 356,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 643,
+  "Name": "Miller Group",
+  "Tooltip": "vitae",
+  "Deleted": true,
+  "Rank": 202,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "soluta",
+  "ListType": "a",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 868,
-  "Name": "Torp Group",
-  "Tooltip": "reiciendis",
-  "Deleted": true,
-  "Rank": 792,
+  "Id": 147,
+  "Name": "Gerlach, Cruickshank and Mosciski",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 590,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ullam",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quam",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 551
+      "FieldType": "System.Int32",
+      "FieldLength": 298
     }
   }
 }

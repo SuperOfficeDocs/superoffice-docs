@@ -88,9 +88,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Bartell Inc and Sons",
-  "DeviceName": "Kihn, Hane and Schneider",
-  "DeviceIdentifier": "rerum"
+  "ApplicationName": "Rau Inc and Sons",
+  "DeviceName": "Keeling-Hilpert",
+  "DeviceIdentifier": "eligendi"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "esse",
-  "Value": "eveniet",
-  "RecordId": 16,
-  "CreatedDate": "2017-08-28T16:32:39.1645096+02:00",
-  "UpdatedDate": "2003-02-20T16:32:39.1645096+01:00",
+  "Key": "ex",
+  "Value": "cum",
+  "RecordId": 106,
+  "CreatedDate": "2001-11-01T17:54:03.1639551+01:00",
+  "UpdatedDate": "2021-10-06T17:54:03.1639551+02:00",
   "UpdatedBy": "est",
-  "CreatedBy": "sunt",
-  "TableName": "Mraz, Waelchi and Gerhold",
+  "CreatedBy": "vitae",
+  "TableName": "Cartwright, Greenfelder and Barton",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 627
+      "FieldLength": 354
     }
   }
 }

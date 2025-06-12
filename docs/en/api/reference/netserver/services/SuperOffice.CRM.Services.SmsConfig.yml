@@ -19,31 +19,40 @@ items:
   nameWithType: SmsConfig
   fullName: SuperOffice.CRM.Services.SmsConfig
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSms settings for Customer Service sms providers.\n<p></p>\nCarrier object for SmsConfig.\nServices for the SmsConfig Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ICustomerServiceAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Sms settings for Customer Service sms providers.
+
+    <p></p>
+
+    Carrier object for SmsConfig.
+
+    Services for the SmsConfig Carrier is available from the <xref href="SuperOffice.CRM.Services.ICustomerServiceAgent?text=CustomerService+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class SmsConfig : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class SmsConfig : Carrier
     content.vb: >-
-      Public Class SmsConfig
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class SmsConfig Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.CustomerServiceAgent
-    commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
   - linkId: SuperOffice.CRM.Services.ICustomerServiceAgent
     commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.SmsConfig.#ctor
   commentId: M:SuperOffice.CRM.Services.SmsConfig.#ctor
   id: '#ctor'
@@ -55,21 +64,18 @@ items:
   nameWithType: SmsConfig.SmsConfig()
   fullName: SuperOffice.CRM.Services.SmsConfig.SmsConfig()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public SmsConfig()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.SmsConfig.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SmsConfig.New()
+  fullName.vb: SuperOffice.CRM.Services.SmsConfig.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.SmsConfig.ToString
   commentId: M:SuperOffice.CRM.Services.SmsConfig.ToString
   id: ToString
@@ -81,26 +87,18 @@ items:
   nameWithType: SmsConfig.ToString()
   fullName: SuperOffice.CRM.Services.SmsConfig.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.SmsConfig.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.SmsConfig.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.SmsConfig.ToString(System.String)
   id: ToString(System.String)
@@ -108,17 +106,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: SmsConfig.ToString(String)
-  fullName: SuperOffice.CRM.Services.SmsConfig.ToString(System.String)
+  name: ToString(string)
+  nameWithType: SmsConfig.ToString(string)
+  fullName: SuperOffice.CRM.Services.SmsConfig.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -130,10 +129,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.SmsConfig.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SmsConfig.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.SmsConfig.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.SmsConfig.DefaultSmsCountry
   commentId: P:SuperOffice.CRM.Services.SmsConfig.DefaultSmsCountry
   id: DefaultSmsCountry
@@ -145,28 +143,28 @@ items:
   nameWithType: SmsConfig.DefaultSmsCountry
   fullName: SuperOffice.CRM.Services.SmsConfig.DefaultSmsCountry
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPhone prefix, will default to the current users HomeCountryId. \n"
+  summary: Phone prefix, will default to the current users HomeCountryId.
+  example: []
   syntax:
-    content: public virtual string DefaultSmsCountry { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string DefaultSmsCountry { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property DefaultSmsCountry As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property DefaultSmsCountry As String
   overload: SuperOffice.CRM.Services.SmsConfig.DefaultSmsCountry*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SmsConfig.NetServerSmsProvider
   commentId: P:SuperOffice.CRM.Services.SmsConfig.NetServerSmsProvider
   id: NetServerSmsProvider
@@ -178,28 +176,28 @@ items:
   nameWithType: SmsConfig.NetServerSmsProvider
   fullName: SuperOffice.CRM.Services.SmsConfig.NetServerSmsProvider
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nName of the selected provider, i.e. CM, Compaya SMS (cpsms.dk), Intelecom SMS, PSWinCom SMS, SMS Teknik or TXTLocal. \n"
+  summary: Name of the selected provider, i.e. CM, Compaya SMS (cpsms.dk), Intelecom SMS, PSWinCom SMS, SMS Teknik or TXTLocal.
+  example: []
   syntax:
-    content: public virtual string NetServerSmsProvider { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string NetServerSmsProvider { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property NetServerSmsProvider As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NetServerSmsProvider As String
   overload: SuperOffice.CRM.Services.SmsConfig.NetServerSmsProvider*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SmsConfig.NsPluginSender
   commentId: P:SuperOffice.CRM.Services.SmsConfig.NsPluginSender
   id: NsPluginSender
@@ -211,28 +209,28 @@ items:
   nameWithType: SmsConfig.NsPluginSender
   fullName: SuperOffice.CRM.Services.SmsConfig.NsPluginSender
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe sender of the SMS messages. This text will appear on the recipient&apos;s mobile phone. \n"
+  summary: The sender of the SMS messages. This text will appear on the recipient's mobile phone.
+  example: []
   syntax:
-    content: public virtual string NsPluginSender { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string NsPluginSender { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property NsPluginSender As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NsPluginSender As String
   overload: SuperOffice.CRM.Services.SmsConfig.NsPluginSender*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SmsConfig.NsPluginConfig
   commentId: P:SuperOffice.CRM.Services.SmsConfig.NsPluginConfig
   id: NsPluginConfig
@@ -244,57 +242,106 @@ items:
   nameWithType: SmsConfig.NsPluginConfig
   fullName: SuperOffice.CRM.Services.SmsConfig.NsPluginConfig
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nConfiguration settings provided by the SMS provider. Typically contains newline-delimited settings such as username and password. \n"
+  summary: Configuration settings provided by the SMS provider. Typically contains newline-delimited settings such as username and password.
+  example: []
   syntax:
-    content: public virtual StringDictionary NsPluginConfig { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual StringDictionary NsPluginConfig { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.StringDictionary
-    content.vb: Public Overridable Property NsPluginConfig As StringDictionary
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NsPluginConfig As StringDictionary
   overload: SuperOffice.CRM.Services.SmsConfig.NsPluginConfig*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.CustomerServiceAgent
-  commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
-  isExternal: true
-  name: CustomerServiceAgent
-  nameWithType: CustomerServiceAgent
-  fullName: SuperOffice.CRM.Services.CustomerServiceAgent
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent
   commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html
   name: ICustomerServiceAgent
   nameWithType: ICustomerServiceAgent
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.SmsConfig.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.SmsConfig.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.SmsConfig.html#SuperOffice_CRM_Services_SmsConfig__ctor
   name: SmsConfig
   nameWithType: SmsConfig.SmsConfig
   fullName: SuperOffice.CRM.Services.SmsConfig.SmsConfig
+  nameWithType.vb: SmsConfig.New
+  fullName.vb: SuperOffice.CRM.Services.SmsConfig.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.SmsConfig.ToString*
   commentId: Overload:SuperOffice.CRM.Services.SmsConfig.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.SmsConfig.html#SuperOffice_CRM_Services_SmsConfig_ToString
   name: ToString
   nameWithType: SmsConfig.ToString
   fullName: SuperOffice.CRM.Services.SmsConfig.ToString
@@ -302,36 +349,38 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.SmsConfig.DefaultSmsCountry*
   commentId: Overload:SuperOffice.CRM.Services.SmsConfig.DefaultSmsCountry
   isExternal: true
+  href: SuperOffice.CRM.Services.SmsConfig.html#SuperOffice_CRM_Services_SmsConfig_DefaultSmsCountry
   name: DefaultSmsCountry
   nameWithType: SmsConfig.DefaultSmsCountry
   fullName: SuperOffice.CRM.Services.SmsConfig.DefaultSmsCountry
 - uid: SuperOffice.CRM.Services.SmsConfig.NetServerSmsProvider*
   commentId: Overload:SuperOffice.CRM.Services.SmsConfig.NetServerSmsProvider
   isExternal: true
+  href: SuperOffice.CRM.Services.SmsConfig.html#SuperOffice_CRM_Services_SmsConfig_NetServerSmsProvider
   name: NetServerSmsProvider
   nameWithType: SmsConfig.NetServerSmsProvider
   fullName: SuperOffice.CRM.Services.SmsConfig.NetServerSmsProvider
 - uid: SuperOffice.CRM.Services.SmsConfig.NsPluginSender*
   commentId: Overload:SuperOffice.CRM.Services.SmsConfig.NsPluginSender
   isExternal: true
+  href: SuperOffice.CRM.Services.SmsConfig.html#SuperOffice_CRM_Services_SmsConfig_NsPluginSender
   name: NsPluginSender
   nameWithType: SmsConfig.NsPluginSender
   fullName: SuperOffice.CRM.Services.SmsConfig.NsPluginSender
 - uid: SuperOffice.CRM.Services.SmsConfig.NsPluginConfig*
   commentId: Overload:SuperOffice.CRM.Services.SmsConfig.NsPluginConfig
   isExternal: true
+  href: SuperOffice.CRM.Services.SmsConfig.html#SuperOffice_CRM_Services_SmsConfig_NsPluginConfig
   name: NsPluginConfig
   nameWithType: SmsConfig.NsPluginConfig
   fullName: SuperOffice.CRM.Services.SmsConfig.NsPluginConfig

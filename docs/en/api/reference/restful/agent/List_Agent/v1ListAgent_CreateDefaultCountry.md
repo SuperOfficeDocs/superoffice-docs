@@ -92,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 566,
-  "Name": "Predovic-Denesik",
-  "CurrencyId": 669,
-  "EnglishName": "Goldner-Kovacek",
+  "CountryId": 535,
+  "Name": "Mayert LLC",
+  "CurrencyId": 910,
+  "EnglishName": "Ondricka Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Pre-emptive encompassing moratorium",
-  "OrgNrText": "1580186",
-  "InterAreaPrefix": "asperiores",
-  "DialInPrefix": "consequatur",
-  "ZipPrefix": "blanditiis",
-  "DomainName": "Kertzmann LLC",
-  "AddressLayoutId": 477,
-  "DomesticAddressLayoutId": 102,
-  "ForeignAddressLayoutId": 401,
-  "Rank": 181,
-  "Tooltip": "eligendi",
+  "ImageDescription": "Reduced foreground budgetary management",
+  "OrgNrText": "978430",
+  "InterAreaPrefix": "nisi",
+  "DialInPrefix": "laboriosam",
+  "ZipPrefix": "enim",
+  "DomainName": "Mohr-Mitchell",
+  "AddressLayoutId": 131,
+  "DomesticAddressLayoutId": 170,
+  "ForeignAddressLayoutId": 798,
+  "Rank": 52,
+  "Tooltip": "vel",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 327
+      "FieldType": "System.Int32",
+      "FieldLength": 597
     }
   }
 }

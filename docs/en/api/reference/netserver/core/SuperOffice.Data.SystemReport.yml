@@ -17,7 +17,6 @@ items:
   - SuperOffice.Data.SystemReport.SelectionLabelsReport
   - SuperOffice.Data.SystemReport.SelectionMembersReport
   - SuperOffice.Data.SystemReport.SelectionReport
-  - SuperOffice.Data.SystemReport.value__
   - SuperOffice.Data.SystemReport.Week5Calendar
   - SuperOffice.Data.SystemReport.Week7Calendar
   langs:
@@ -26,60 +25,21 @@ items:
   name: SystemReport
   nameWithType: SystemReport
   fullName: SuperOffice.Data.SystemReport
-  type: Class
-  source:
-    path: SoCore
-    isExternal: true
+  type: Enum
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\nSystem reports\n"
+  summary: System reports
+  example: []
   syntax:
-    content: 'public sealed class SystemReport : Enum'
-    content.vb: >-
-      Public NotInheritable Class SystemReport
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
+    content: public enum SystemReport
+    content.vb: Public Enum SystemReport
   extensionMethods:
   - SuperOffice.Data.SystemReport.EnumUtil.MapEnums``2
   - SuperOffice.Data.SystemReport.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.Data.SystemReport.value__
-  commentId: F:SuperOffice.Data.SystemReport.value__
-  id: value__
-  parent: SuperOffice.Data.SystemReport
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: SystemReport.value__
-  fullName: SuperOffice.Data.SystemReport.value__
-  type: Field
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.Data.SystemReport.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SystemReport)
+  - SuperOffice.Data.SystemReport.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - System.Enum.EnumUtil.GetDescription
 - uid: SuperOffice.Data.SystemReport.MonthCalendar
   commentId: F:SuperOffice.Data.SystemReport.MonthCalendar
   id: MonthCalendar
@@ -91,23 +51,13 @@ items:
   nameWithType: SystemReport.MonthCalendar
   fullName: SuperOffice.Data.SystemReport.MonthCalendar
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: public const SystemReport MonthCalendar
+    content: MonthCalendar = 1
     return:
       type: SuperOffice.Data.SystemReport
-    content.vb: Public Const MonthCalendar As SystemReport
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.SystemReport.Week5Calendar
   commentId: F:SuperOffice.Data.SystemReport.Week5Calendar
   id: Week5Calendar
@@ -119,23 +69,13 @@ items:
   nameWithType: SystemReport.Week5Calendar
   fullName: SuperOffice.Data.SystemReport.Week5Calendar
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: public const SystemReport Week5Calendar
+    content: Week5Calendar = 2
     return:
       type: SuperOffice.Data.SystemReport
-    content.vb: Public Const Week5Calendar As SystemReport
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.SystemReport.Week7Calendar
   commentId: F:SuperOffice.Data.SystemReport.Week7Calendar
   id: Week7Calendar
@@ -147,23 +87,13 @@ items:
   nameWithType: SystemReport.Week7Calendar
   fullName: SuperOffice.Data.SystemReport.Week7Calendar
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: public const SystemReport Week7Calendar
+    content: Week7Calendar = 3
     return:
       type: SuperOffice.Data.SystemReport
-    content.vb: Public Const Week7Calendar As SystemReport
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.SystemReport.DayList
   commentId: F:SuperOffice.Data.SystemReport.DayList
   id: DayList
@@ -175,23 +105,13 @@ items:
   nameWithType: SystemReport.DayList
   fullName: SuperOffice.Data.SystemReport.DayList
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: public const SystemReport DayList
+    content: DayList = 4
     return:
       type: SuperOffice.Data.SystemReport
-    content.vb: Public Const DayList As SystemReport
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.SystemReport.PersonReport
   commentId: F:SuperOffice.Data.SystemReport.PersonReport
   id: PersonReport
@@ -203,23 +123,13 @@ items:
   nameWithType: SystemReport.PersonReport
   fullName: SuperOffice.Data.SystemReport.PersonReport
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: public const SystemReport PersonReport
+    content: PersonReport = 9
     return:
       type: SuperOffice.Data.SystemReport
-    content.vb: Public Const PersonReport As SystemReport
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.SystemReport.SelectionReport
   commentId: F:SuperOffice.Data.SystemReport.SelectionReport
   id: SelectionReport
@@ -231,23 +141,13 @@ items:
   nameWithType: SystemReport.SelectionReport
   fullName: SuperOffice.Data.SystemReport.SelectionReport
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: public const SystemReport SelectionReport
+    content: SelectionReport = 6
     return:
       type: SuperOffice.Data.SystemReport
-    content.vb: Public Const SelectionReport As SystemReport
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.SystemReport.Checklist
   commentId: F:SuperOffice.Data.SystemReport.Checklist
   id: Checklist
@@ -259,23 +159,13 @@ items:
   nameWithType: SystemReport.Checklist
   fullName: SuperOffice.Data.SystemReport.Checklist
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: public const SystemReport Checklist
+    content: Checklist = 7
     return:
       type: SuperOffice.Data.SystemReport
-    content.vb: Public Const Checklist As SystemReport
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.SystemReport.ContactReport
   commentId: F:SuperOffice.Data.SystemReport.ContactReport
   id: ContactReport
@@ -287,23 +177,13 @@ items:
   nameWithType: SystemReport.ContactReport
   fullName: SuperOffice.Data.SystemReport.ContactReport
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: public const SystemReport ContactReport
+    content: ContactReport = 10
     return:
       type: SuperOffice.Data.SystemReport
-    content.vb: Public Const ContactReport As SystemReport
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.SystemReport.ProjectReport
   commentId: F:SuperOffice.Data.SystemReport.ProjectReport
   id: ProjectReport
@@ -315,23 +195,13 @@ items:
   nameWithType: SystemReport.ProjectReport
   fullName: SuperOffice.Data.SystemReport.ProjectReport
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: public const SystemReport ProjectReport
+    content: ProjectReport = 11
     return:
       type: SuperOffice.Data.SystemReport
-    content.vb: Public Const ProjectReport As SystemReport
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.SystemReport.AppointmentReport
   commentId: F:SuperOffice.Data.SystemReport.AppointmentReport
   id: AppointmentReport
@@ -343,23 +213,13 @@ items:
   nameWithType: SystemReport.AppointmentReport
   fullName: SuperOffice.Data.SystemReport.AppointmentReport
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: public const SystemReport AppointmentReport
+    content: AppointmentReport = 13
     return:
       type: SuperOffice.Data.SystemReport
-    content.vb: Public Const AppointmentReport As SystemReport
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.SystemReport.DocumentReport
   commentId: F:SuperOffice.Data.SystemReport.DocumentReport
   id: DocumentReport
@@ -371,23 +231,13 @@ items:
   nameWithType: SystemReport.DocumentReport
   fullName: SuperOffice.Data.SystemReport.DocumentReport
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: public const SystemReport DocumentReport
+    content: DocumentReport = 14
     return:
       type: SuperOffice.Data.SystemReport
-    content.vb: Public Const DocumentReport As SystemReport
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.SystemReport.SaleReport
   commentId: F:SuperOffice.Data.SystemReport.SaleReport
   id: SaleReport
@@ -399,23 +249,13 @@ items:
   nameWithType: SystemReport.SaleReport
   fullName: SuperOffice.Data.SystemReport.SaleReport
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: public const SystemReport SaleReport
+    content: SaleReport = 12
     return:
       type: SuperOffice.Data.SystemReport
-    content.vb: Public Const SaleReport As SystemReport
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.SystemReport.SelectionMembersReport
   commentId: F:SuperOffice.Data.SystemReport.SelectionMembersReport
   id: SelectionMembersReport
@@ -427,23 +267,13 @@ items:
   nameWithType: SystemReport.SelectionMembersReport
   fullName: SuperOffice.Data.SystemReport.SelectionMembersReport
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: public const SystemReport SelectionMembersReport
+    content: SelectionMembersReport = 16
     return:
       type: SuperOffice.Data.SystemReport
-    content.vb: Public Const SelectionMembersReport As SystemReport
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Data.SystemReport.SelectionLabelsReport
   commentId: F:SuperOffice.Data.SystemReport.SelectionLabelsReport
   id: SelectionLabelsReport
@@ -455,114 +285,287 @@ items:
   nameWithType: SystemReport.SelectionLabelsReport
   fullName: SuperOffice.Data.SystemReport.SelectionLabelsReport
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: public const SystemReport SelectionLabelsReport
+    content: SelectionLabelsReport = 15
     return:
       type: SuperOffice.Data.SystemReport
-    content.vb: Public Const SelectionLabelsReport As SystemReport
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.SystemReport.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<SystemReport, To>()
-  nameWithType: EnumUtil.MapEnums<SystemReport, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.SystemReport, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of SystemReport, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SystemReport, To)()
-  name.vb: MapEnums(Of SystemReport, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<SystemReport, To>(SystemReport)
+  nameWithType: EnumUtil.MapEnums<SystemReport, To>(SystemReport)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SystemReport, To>(SuperOffice.Data.SystemReport)
+  nameWithType.vb: EnumUtil.MapEnums(Of SystemReport, To)(SystemReport)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SystemReport, To)(SuperOffice.Data.SystemReport)
+  name.vb: MapEnums(Of SystemReport, To)(SystemReport)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<SystemReport, To>
-    nameWithType: EnumUtil.MapEnums<SystemReport, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.SystemReport, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SystemReport)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.SystemReport
+    name: SystemReport
+    isExternal: true
+    href: SuperOffice.Data.SystemReport.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.SystemReport
+    name: SystemReport
+    isExternal: true
+    href: SuperOffice.Data.SystemReport.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of SystemReport, To)
-    nameWithType: EnumUtil.MapEnums(Of SystemReport, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SystemReport, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SystemReport)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SystemReport
+    name: SystemReport
+    isExternal: true
+    href: SuperOffice.Data.SystemReport.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.SystemReport
+    name: SystemReport
+    isExternal: true
+    href: SuperOffice.Data.SystemReport.html
+  - name: )
 - uid: SuperOffice.Data.SystemReport.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<SystemReport, To>()
-  nameWithType: Converters.MapEnums<SystemReport, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SystemReport, To>()
-  nameWithType.vb: Converters.MapEnums(Of SystemReport, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SystemReport, To)()
-  name.vb: MapEnums(Of SystemReport, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<SystemReport, To>(SystemReport)
+  nameWithType: Converters.MapEnums<SystemReport, To>(SystemReport)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SystemReport, To>(SuperOffice.Data.SystemReport)
+  nameWithType.vb: Converters.MapEnums(Of SystemReport, To)(SystemReport)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SystemReport, To)(SuperOffice.Data.SystemReport)
+  name.vb: MapEnums(Of SystemReport, To)(SystemReport)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<SystemReport, To>
-    nameWithType: Converters.MapEnums<SystemReport, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SystemReport, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SystemReport)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.SystemReport
+    name: SystemReport
+    isExternal: true
+    href: SuperOffice.Data.SystemReport.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.SystemReport
+    name: SystemReport
+    isExternal: true
+    href: SuperOffice.Data.SystemReport.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of SystemReport, To)
-    nameWithType: Converters.MapEnums(Of SystemReport, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SystemReport, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SystemReport)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SystemReport
+    name: SystemReport
+    isExternal: true
+    href: SuperOffice.Data.SystemReport.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  - name: (
+  - uid: SuperOffice.Data.SystemReport
+    name: SystemReport
+    isExternal: true
+    href: SuperOffice.Data.SystemReport.html
+  - name: )
+- uid: SuperOffice.Data.SystemReport.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SystemReport)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<SystemReport>(SystemReport, SystemReport)
+  nameWithType: ObjectExtensions.AssignByReflection<SystemReport>(SystemReport, SystemReport)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SystemReport>(SuperOffice.Data.SystemReport, SuperOffice.Data.SystemReport)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SystemReport)(SystemReport, SystemReport)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SystemReport)(SuperOffice.Data.SystemReport, SuperOffice.Data.SystemReport)
+  name.vb: AssignByReflection(Of SystemReport)(SystemReport, SystemReport)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SystemReport,SuperOffice.Data.SystemReport)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.SystemReport
+    name: SystemReport
+    isExternal: true
+    href: SuperOffice.Data.SystemReport.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SystemReport
+    name: SystemReport
+    isExternal: true
+    href: SuperOffice.Data.SystemReport.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.SystemReport
+    name: SystemReport
+    isExternal: true
+    href: SuperOffice.Data.SystemReport.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SystemReport,SuperOffice.Data.SystemReport)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SystemReport
+    name: SystemReport
+    isExternal: true
+    href: SuperOffice.Data.SystemReport.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SystemReport
+    name: SystemReport
+    isExternal: true
+    href: SuperOffice.Data.SystemReport.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.SystemReport
+    name: SystemReport
+    isExternal: true
+    href: SuperOffice.Data.SystemReport.html
+  - name: )
+- uid: SuperOffice.Data.SystemReport.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<SystemReport>(SystemReport)
+  nameWithType: ObjectExtensions.GraphCopy<SystemReport>(SystemReport)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SystemReport>(SuperOffice.Data.SystemReport)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SystemReport)(SystemReport)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SystemReport)(SuperOffice.Data.SystemReport)
+  name.vb: GraphCopy(Of SystemReport)(SystemReport)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.SystemReport)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.SystemReport
+    name: SystemReport
+    isExternal: true
+    href: SuperOffice.Data.SystemReport.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SystemReport
+    name: SystemReport
+    isExternal: true
+    href: SuperOffice.Data.SystemReport.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.SystemReport)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SystemReport
+    name: SystemReport
+    isExternal: true
+    href: SuperOffice.Data.SystemReport.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SystemReport
+    name: SystemReport
+    isExternal: true
+    href: SuperOffice.Data.SystemReport.html
+  - name: )
+- uid: System.Enum.EnumUtil.GetDescription
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  parent: EnumUtil
+  definition: EnumUtil.GetDescription(System.Enum)
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -571,43 +574,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -616,58 +621,222 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: EnumUtil.GetDescription(System.Enum)
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.Data.SystemReport
   commentId: T:SuperOffice.Data.SystemReport
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.SystemReport.html
   name: SystemReport
   nameWithType: SystemReport
   fullName: SuperOffice.Data.SystemReport

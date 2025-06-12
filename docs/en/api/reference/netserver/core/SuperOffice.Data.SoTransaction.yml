@@ -16,35 +16,32 @@ items:
   nameWithType: SoTransaction
   fullName: SuperOffice.Data.SoTransaction
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nRepresents a transaction to be performed at a data source, and is implemented\nby .NET Framework data providers that access relational databases.\n"
+  summary: >-
+    Represents a transaction to be performed at a data source, and is implemented
+
+    by .NET Framework data providers that access relational databases.
+  example: []
   syntax:
-    content: 'public sealed class SoTransaction : Object, IDbTransaction, IDisposable'
-    content.vb: >-
-      Public NotInheritable Class SoTransaction
-          Inherits Object
-          Implements IDbTransaction, IDisposable
+    content: 'public sealed class SoTransaction : IDbTransaction, IDisposable'
+    content.vb: Public NotInheritable Class SoTransaction Implements IDbTransaction, IDisposable
   inheritance:
   - System.Object
   implements:
   - System.Data.IDbTransaction
   - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
   extensionMethods:
   - SuperOffice.Data.SoTransaction.EnumUtil.MapEnums``2
   - SuperOffice.Data.SoTransaction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
 - uid: SuperOffice.Data.SoTransaction.Commit
   commentId: M:SuperOffice.Data.SoTransaction.Commit
   id: Commit
@@ -56,28 +53,24 @@ items:
   nameWithType: SoTransaction.Commit()
   fullName: SuperOffice.Data.SoTransaction.Commit()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nCommits the database transaction.\n"
+  summary: Commits the database transaction.
+  example: []
   syntax:
     content: public void Commit()
-    content.vb: Public Sub Commit
+    content.vb: Public Sub Commit()
   overload: SuperOffice.Data.SoTransaction.Commit*
   exceptions:
   - type: System.InvalidOperationException
     commentId: T:System.InvalidOperationException
-    description: 'The transaction has already been committed or rolled back.-or- The connection is broken. '
+    description: The transaction has already been committed or rolled back.-or- The connection is broken.
   - type: System.Exception
     commentId: T:System.Exception
-    description: 'An error occurred while trying to commit the transaction. '
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    description: An error occurred while trying to commit the transaction.
+  implements:
+  - System.Data.IDbTransaction.Commit
 - uid: SuperOffice.Data.SoTransaction.Rollback
   commentId: M:SuperOffice.Data.SoTransaction.Rollback
   id: Rollback
@@ -89,28 +82,24 @@ items:
   nameWithType: SoTransaction.Rollback()
   fullName: SuperOffice.Data.SoTransaction.Rollback()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nRolls back a transaction from a pending state.\n"
+  summary: Rolls back a transaction from a pending state.
+  example: []
   syntax:
     content: public void Rollback()
-    content.vb: Public Sub Rollback
+    content.vb: Public Sub Rollback()
   overload: SuperOffice.Data.SoTransaction.Rollback*
   exceptions:
   - type: System.InvalidOperationException
     commentId: T:System.InvalidOperationException
-    description: 'The transaction has already been committed or rolled back.-or- The connection is broken. '
+    description: The transaction has already been committed or rolled back.-or- The connection is broken.
   - type: System.Exception
     commentId: T:System.Exception
-    description: 'An error occurred while trying to commit the transaction. '
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    description: An error occurred while trying to commit the transaction.
+  implements:
+  - System.Data.IDbTransaction.Rollback
 - uid: SuperOffice.Data.SoTransaction.Dispose
   commentId: M:SuperOffice.Data.SoTransaction.Dispose
   id: Dispose
@@ -122,21 +111,17 @@ items:
   nameWithType: SoTransaction.Dispose()
   fullName: SuperOffice.Data.SoTransaction.Dispose()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nPerforms application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.\n"
+  summary: Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+  example: []
   syntax:
     content: public void Dispose()
-    content.vb: Public Sub Dispose
+    content.vb: Public Sub Dispose()
   overload: SuperOffice.Data.SoTransaction.Dispose*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  implements:
+  - System.IDisposable.Dispose
 - uid: SuperOffice.Data.SoTransaction.IsolationLevel
   commentId: P:SuperOffice.Data.SoTransaction.IsolationLevel
   id: IsolationLevel
@@ -148,128 +133,415 @@ items:
   nameWithType: SoTransaction.IsolationLevel
   fullName: SuperOffice.Data.SoTransaction.IsolationLevel
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nSpecifies the <xref href=\"System.Data.IsolationLevel\" data-throw-if-not-resolved=\"false\"></xref> for this transaction.\n"
+  summary: Specifies the <xref href="System.Data.IsolationLevel" data-throw-if-not-resolved="false"></xref> for this transaction.
+  example: []
   syntax:
     content: public IsolationLevel IsolationLevel { get; }
     parameters: []
     return:
       type: System.Data.IsolationLevel
+      description: ''
     content.vb: Public ReadOnly Property IsolationLevel As IsolationLevel
   overload: SuperOffice.Data.SoTransaction.IsolationLevel*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
+  implements:
+  - System.Data.IDbTransaction.IsolationLevel
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System.Data.IDbTransaction
-  commentId: '!:System.Data.IDbTransaction'
+  commentId: T:System.Data.IDbTransaction
+  parent: System.Data
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.idbtransaction
   name: IDbTransaction
   nameWithType: IDbTransaction
   fullName: System.Data.IDbTransaction
 - uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.SoTransaction.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<SoTransaction, To>()
-  nameWithType: EnumUtil.MapEnums<SoTransaction, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.SoTransaction, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of SoTransaction, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SoTransaction, To)()
-  name.vb: MapEnums(Of SoTransaction, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<SoTransaction, To>(SoTransaction)
+  nameWithType: EnumUtil.MapEnums<SoTransaction, To>(SoTransaction)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SoTransaction, To>(SuperOffice.Data.SoTransaction)
+  nameWithType.vb: EnumUtil.MapEnums(Of SoTransaction, To)(SoTransaction)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SoTransaction, To)(SuperOffice.Data.SoTransaction)
+  name.vb: MapEnums(Of SoTransaction, To)(SoTransaction)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<SoTransaction, To>
-    nameWithType: EnumUtil.MapEnums<SoTransaction, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.SoTransaction, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SoTransaction)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.SoTransaction
+    name: SoTransaction
+    isExternal: true
+    href: SuperOffice.Data.SoTransaction.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.SoTransaction
+    name: SoTransaction
+    isExternal: true
+    href: SuperOffice.Data.SoTransaction.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of SoTransaction, To)
-    nameWithType: EnumUtil.MapEnums(Of SoTransaction, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SoTransaction, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SoTransaction)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SoTransaction
+    name: SoTransaction
+    isExternal: true
+    href: SuperOffice.Data.SoTransaction.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.SoTransaction
+    name: SoTransaction
+    isExternal: true
+    href: SuperOffice.Data.SoTransaction.html
+  - name: )
 - uid: SuperOffice.Data.SoTransaction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<SoTransaction, To>()
-  nameWithType: Converters.MapEnums<SoTransaction, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SoTransaction, To>()
-  nameWithType.vb: Converters.MapEnums(Of SoTransaction, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SoTransaction, To)()
-  name.vb: MapEnums(Of SoTransaction, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<SoTransaction, To>(SoTransaction)
+  nameWithType: Converters.MapEnums<SoTransaction, To>(SoTransaction)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SoTransaction, To>(SuperOffice.Data.SoTransaction)
+  nameWithType.vb: Converters.MapEnums(Of SoTransaction, To)(SoTransaction)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SoTransaction, To)(SuperOffice.Data.SoTransaction)
+  name.vb: MapEnums(Of SoTransaction, To)(SoTransaction)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<SoTransaction, To>
-    nameWithType: Converters.MapEnums<SoTransaction, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SoTransaction, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SoTransaction)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.SoTransaction
+    name: SoTransaction
+    isExternal: true
+    href: SuperOffice.Data.SoTransaction.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.SoTransaction
+    name: SoTransaction
+    isExternal: true
+    href: SuperOffice.Data.SoTransaction.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of SoTransaction, To)
-    nameWithType: Converters.MapEnums(Of SoTransaction, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SoTransaction, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SoTransaction)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SoTransaction
+    name: SoTransaction
+    isExternal: true
+    href: SuperOffice.Data.SoTransaction.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.SoTransaction
+    name: SoTransaction
+    isExternal: true
+    href: SuperOffice.Data.SoTransaction.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
+- uid: System.Data
+  commentId: N:System.Data
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Data
+  nameWithType: System.Data
+  fullName: System.Data
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Data
+    name: Data
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Data
+    name: Data
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -278,43 +550,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -323,81 +597,201 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.Data.SoTransaction.Commit*
-  commentId: Overload:SuperOffice.Data.SoTransaction.Commit
-  isExternal: true
-  name: Commit
-  nameWithType: SoTransaction.Commit
-  fullName: SuperOffice.Data.SoTransaction.Commit
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: System.InvalidOperationException
   commentId: T:System.InvalidOperationException
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.invalidoperationexception
+  name: InvalidOperationException
+  nameWithType: InvalidOperationException
+  fullName: System.InvalidOperationException
 - uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
   name: Exception
   nameWithType: Exception
   fullName: System.Exception
+- uid: SuperOffice.Data.SoTransaction.Commit*
+  commentId: Overload:SuperOffice.Data.SoTransaction.Commit
+  isExternal: true
+  href: SuperOffice.Data.SoTransaction.html#SuperOffice_Data_SoTransaction_Commit
+  name: Commit
+  nameWithType: SoTransaction.Commit
+  fullName: SuperOffice.Data.SoTransaction.Commit
+- uid: System.Data.IDbTransaction.Commit
+  commentId: M:System.Data.IDbTransaction.Commit
+  parent: System.Data.IDbTransaction
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.idbtransaction.commit
+  name: Commit()
+  nameWithType: IDbTransaction.Commit()
+  fullName: System.Data.IDbTransaction.Commit()
+  spec.csharp:
+  - uid: System.Data.IDbTransaction.Commit
+    name: Commit
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.idbtransaction.commit
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.IDbTransaction.Commit
+    name: Commit
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.idbtransaction.commit
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.SoTransaction.Rollback*
   commentId: Overload:SuperOffice.Data.SoTransaction.Rollback
   isExternal: true
+  href: SuperOffice.Data.SoTransaction.html#SuperOffice_Data_SoTransaction_Rollback
   name: Rollback
   nameWithType: SoTransaction.Rollback
   fullName: SuperOffice.Data.SoTransaction.Rollback
+- uid: System.Data.IDbTransaction.Rollback
+  commentId: M:System.Data.IDbTransaction.Rollback
+  parent: System.Data.IDbTransaction
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.idbtransaction.rollback
+  name: Rollback()
+  nameWithType: IDbTransaction.Rollback()
+  fullName: System.Data.IDbTransaction.Rollback()
+  spec.csharp:
+  - uid: System.Data.IDbTransaction.Rollback
+    name: Rollback
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.idbtransaction.rollback
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.IDbTransaction.Rollback
+    name: Rollback
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.idbtransaction.rollback
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.SoTransaction.Dispose*
   commentId: Overload:SuperOffice.Data.SoTransaction.Dispose
   isExternal: true
+  href: SuperOffice.Data.SoTransaction.html#SuperOffice_Data_SoTransaction_Dispose
   name: Dispose
   nameWithType: SoTransaction.Dispose
   fullName: SuperOffice.Data.SoTransaction.Dispose
-- uid: SuperOffice.Data.SoTransaction.IsolationLevel*
-  commentId: Overload:SuperOffice.Data.SoTransaction.IsolationLevel
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
   isExternal: true
-  name: IsolationLevel
-  nameWithType: SoTransaction.IsolationLevel
-  fullName: SuperOffice.Data.SoTransaction.IsolationLevel
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
 - uid: System.Data.IsolationLevel
+  commentId: T:System.Data.IsolationLevel
+  parent: System.Data
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.isolationlevel
   name: IsolationLevel
   nameWithType: IsolationLevel
   fullName: System.Data.IsolationLevel
+- uid: SuperOffice.Data.SoTransaction.IsolationLevel*
+  commentId: Overload:SuperOffice.Data.SoTransaction.IsolationLevel
+  isExternal: true
+  href: SuperOffice.Data.SoTransaction.html#SuperOffice_Data_SoTransaction_IsolationLevel
+  name: IsolationLevel
+  nameWithType: SoTransaction.IsolationLevel
+  fullName: SuperOffice.Data.SoTransaction.IsolationLevel
+- uid: System.Data.IDbTransaction.IsolationLevel
+  commentId: P:System.Data.IDbTransaction.IsolationLevel
+  parent: System.Data.IDbTransaction
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.idbtransaction.isolationlevel
+  name: IsolationLevel
+  nameWithType: IDbTransaction.IsolationLevel
+  fullName: System.Data.IDbTransaction.IsolationLevel

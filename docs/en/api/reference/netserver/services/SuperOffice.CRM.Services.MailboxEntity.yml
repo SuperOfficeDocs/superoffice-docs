@@ -22,33 +22,54 @@ items:
   nameWithType: MailboxEntity
   fullName: SuperOffice.CRM.Services.MailboxEntity
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThis entity represent a mailbox used for importing emails in Service\n<p></p>\nCarrier object for MailboxEntity.\nServices for the MailboxEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ICustomerServiceAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    This entity represent a mailbox used for importing emails in Service
+
+    <p></p>
+
+    Carrier object for MailboxEntity.
+
+    Services for the MailboxEntity Carrier is available from the <xref href="SuperOffice.CRM.Services.ICustomerServiceAgent?text=CustomerService+Agent" data-throw-if-not-resolved="false"></xref>.
   example:
-  - "\nGet MailboxEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new CustomerServiceAgent();\n    var mailboxEntity = agent.GetMailboxEntity( 123 );\n }</code></pre>\n"
+  - >-
+    Get MailboxEntity 123 using the agent:
+
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       var agent = new CustomerServiceAgent();
+       var mailboxEntity = agent.GetMailboxEntity( 123 );
+    }</code></pre>
   syntax:
-    content: 'public class MailboxEntity : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class MailboxEntity : Carrier
     content.vb: >-
-      Public Class MailboxEntity
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class MailboxEntity Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.CustomerServiceAgent
-    commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
   - linkId: SuperOffice.CRM.Services.ICustomerServiceAgent
     commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.MailboxEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.MailboxEntity.#ctor
   id: '#ctor'
@@ -60,21 +81,18 @@ items:
   nameWithType: MailboxEntity.MailboxEntity()
   fullName: SuperOffice.CRM.Services.MailboxEntity.MailboxEntity()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public MailboxEntity()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.MailboxEntity.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: MailboxEntity.New()
+  fullName.vb: SuperOffice.CRM.Services.MailboxEntity.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.MailboxEntity.ToString
   commentId: M:SuperOffice.CRM.Services.MailboxEntity.ToString
   id: ToString
@@ -86,26 +104,18 @@ items:
   nameWithType: MailboxEntity.ToString()
   fullName: SuperOffice.CRM.Services.MailboxEntity.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.MailboxEntity.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.MailboxEntity.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.MailboxEntity.ToString(System.String)
   id: ToString(System.String)
@@ -113,17 +123,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: MailboxEntity.ToString(String)
-  fullName: SuperOffice.CRM.Services.MailboxEntity.ToString(System.String)
+  name: ToString(string)
+  nameWithType: MailboxEntity.ToString(string)
+  fullName: SuperOffice.CRM.Services.MailboxEntity.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -135,10 +146,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.MailboxEntity.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: MailboxEntity.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.MailboxEntity.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.MailboxEntity.MailInFilterId
   commentId: P:SuperOffice.CRM.Services.MailboxEntity.MailInFilterId
   id: MailInFilterId
@@ -150,28 +160,28 @@ items:
   nameWithType: MailboxEntity.MailInFilterId
   fullName: SuperOffice.CRM.Services.MailboxEntity.MailInFilterId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe primary key (auto-incremented) \n"
+  summary: The primary key (auto-incremented)
+  example: []
   syntax:
-    content: public virtual int MailInFilterId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int MailInFilterId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property MailInFilterId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property MailInFilterId As Integer
   overload: SuperOffice.CRM.Services.MailboxEntity.MailInFilterId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.MailboxEntity.ServerType
   commentId: P:SuperOffice.CRM.Services.MailboxEntity.ServerType
   id: ServerType
@@ -183,28 +193,28 @@ items:
   nameWithType: MailboxEntity.ServerType
   fullName: SuperOffice.CRM.Services.MailboxEntity.ServerType
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nEnum indicating the protocol to use (POP/IMAP). \n"
+  summary: Enum indicating the protocol to use (POP/IMAP).
+  example: []
   syntax:
-    content: public virtual MailboxType ServerType { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual MailboxType ServerType { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.MailboxType
-    content.vb: Public Overridable Property ServerType As MailboxType
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ServerType As MailboxType
   overload: SuperOffice.CRM.Services.MailboxEntity.ServerType*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.MailboxEntity.Address
   commentId: P:SuperOffice.CRM.Services.MailboxEntity.Address
   id: Address
@@ -216,28 +226,28 @@ items:
   nameWithType: MailboxEntity.Address
   fullName: SuperOffice.CRM.Services.MailboxEntity.Address
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe address associated with this mailbox (used as FROM: address when sending emails). \n"
+  summary: 'The address associated with this mailbox (used as FROM: address when sending emails).'
+  example: []
   syntax:
-    content: public virtual string Address { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Address { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Address As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Address As String
   overload: SuperOffice.CRM.Services.MailboxEntity.Address*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.MailboxEntity.Username
   commentId: P:SuperOffice.CRM.Services.MailboxEntity.Username
   id: Username
@@ -249,28 +259,28 @@ items:
   nameWithType: MailboxEntity.Username
   fullName: SuperOffice.CRM.Services.MailboxEntity.Username
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe username used to log onto the mail account \n"
+  summary: The username used to log onto the mail account
+  example: []
   syntax:
-    content: public virtual string Username { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Username { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Username As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Username As String
   overload: SuperOffice.CRM.Services.MailboxEntity.Username*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.MailboxEntity.Password
   commentId: P:SuperOffice.CRM.Services.MailboxEntity.Password
   id: Password
@@ -282,28 +292,28 @@ items:
   nameWithType: MailboxEntity.Password
   fullName: SuperOffice.CRM.Services.MailboxEntity.Password
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe password used to log into the mail account. This is hidden when reading \n"
+  summary: The password used to log into the mail account. This is hidden when reading
+  example: []
   syntax:
-    content: public virtual string Password { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Password { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Password As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Password As String
   overload: SuperOffice.CRM.Services.MailboxEntity.Password*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.MailboxEntity.Server
   commentId: P:SuperOffice.CRM.Services.MailboxEntity.Server
   id: Server
@@ -315,28 +325,28 @@ items:
   nameWithType: MailboxEntity.Server
   fullName: SuperOffice.CRM.Services.MailboxEntity.Server
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe email server to connect to \n"
+  summary: The email server to connect to
+  example: []
   syntax:
-    content: public virtual string Server { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Server { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Server As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Server As String
   overload: SuperOffice.CRM.Services.MailboxEntity.Server*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.MailboxEntity.Port
   commentId: P:SuperOffice.CRM.Services.MailboxEntity.Port
   id: Port
@@ -348,57 +358,106 @@ items:
   nameWithType: MailboxEntity.Port
   fullName: SuperOffice.CRM.Services.MailboxEntity.Port
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe port used to connect to the server \n"
+  summary: The port used to connect to the server
+  example: []
   syntax:
-    content: public virtual int Port { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int Port { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property Port As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Port As Integer
   overload: SuperOffice.CRM.Services.MailboxEntity.Port*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.CustomerServiceAgent
-  commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
-  isExternal: true
-  name: CustomerServiceAgent
-  nameWithType: CustomerServiceAgent
-  fullName: SuperOffice.CRM.Services.CustomerServiceAgent
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent
   commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html
   name: ICustomerServiceAgent
   nameWithType: ICustomerServiceAgent
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.MailboxEntity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.MailboxEntity.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.MailboxEntity.html#SuperOffice_CRM_Services_MailboxEntity__ctor
   name: MailboxEntity
   nameWithType: MailboxEntity.MailboxEntity
   fullName: SuperOffice.CRM.Services.MailboxEntity.MailboxEntity
+  nameWithType.vb: MailboxEntity.New
+  fullName.vb: SuperOffice.CRM.Services.MailboxEntity.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.MailboxEntity.ToString*
   commentId: Overload:SuperOffice.CRM.Services.MailboxEntity.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.MailboxEntity.html#SuperOffice_CRM_Services_MailboxEntity_ToString
   name: ToString
   nameWithType: MailboxEntity.ToString
   fullName: SuperOffice.CRM.Services.MailboxEntity.ToString
@@ -406,18 +465,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.MailboxEntity.MailInFilterId*
   commentId: Overload:SuperOffice.CRM.Services.MailboxEntity.MailInFilterId
   isExternal: true
+  href: SuperOffice.CRM.Services.MailboxEntity.html#SuperOffice_CRM_Services_MailboxEntity_MailInFilterId
   name: MailInFilterId
   nameWithType: MailboxEntity.MailInFilterId
   fullName: SuperOffice.CRM.Services.MailboxEntity.MailInFilterId
@@ -425,12 +483,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.MailboxEntity.ServerType*
   commentId: Overload:SuperOffice.CRM.Services.MailboxEntity.ServerType
   isExternal: true
+  href: SuperOffice.CRM.Services.MailboxEntity.html#SuperOffice_CRM_Services_MailboxEntity_ServerType
   name: ServerType
   nameWithType: MailboxEntity.ServerType
   fullName: SuperOffice.CRM.Services.MailboxEntity.ServerType
@@ -443,30 +506,35 @@ references:
 - uid: SuperOffice.CRM.Services.MailboxEntity.Address*
   commentId: Overload:SuperOffice.CRM.Services.MailboxEntity.Address
   isExternal: true
+  href: SuperOffice.CRM.Services.MailboxEntity.html#SuperOffice_CRM_Services_MailboxEntity_Address
   name: Address
   nameWithType: MailboxEntity.Address
   fullName: SuperOffice.CRM.Services.MailboxEntity.Address
 - uid: SuperOffice.CRM.Services.MailboxEntity.Username*
   commentId: Overload:SuperOffice.CRM.Services.MailboxEntity.Username
   isExternal: true
+  href: SuperOffice.CRM.Services.MailboxEntity.html#SuperOffice_CRM_Services_MailboxEntity_Username
   name: Username
   nameWithType: MailboxEntity.Username
   fullName: SuperOffice.CRM.Services.MailboxEntity.Username
 - uid: SuperOffice.CRM.Services.MailboxEntity.Password*
   commentId: Overload:SuperOffice.CRM.Services.MailboxEntity.Password
   isExternal: true
+  href: SuperOffice.CRM.Services.MailboxEntity.html#SuperOffice_CRM_Services_MailboxEntity_Password
   name: Password
   nameWithType: MailboxEntity.Password
   fullName: SuperOffice.CRM.Services.MailboxEntity.Password
 - uid: SuperOffice.CRM.Services.MailboxEntity.Server*
   commentId: Overload:SuperOffice.CRM.Services.MailboxEntity.Server
   isExternal: true
+  href: SuperOffice.CRM.Services.MailboxEntity.html#SuperOffice_CRM_Services_MailboxEntity_Server
   name: Server
   nameWithType: MailboxEntity.Server
   fullName: SuperOffice.CRM.Services.MailboxEntity.Server
 - uid: SuperOffice.CRM.Services.MailboxEntity.Port*
   commentId: Overload:SuperOffice.CRM.Services.MailboxEntity.Port
   isExternal: true
+  href: SuperOffice.CRM.Services.MailboxEntity.html#SuperOffice_CRM_Services_MailboxEntity_Port
   name: Port
   nameWithType: MailboxEntity.Port
   fullName: SuperOffice.CRM.Services.MailboxEntity.Port

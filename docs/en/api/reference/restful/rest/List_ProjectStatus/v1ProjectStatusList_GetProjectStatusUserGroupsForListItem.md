@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 780,
-    "Name": "Glover Group",
-    "ToolTip": "Ut in quod.",
-    "Deleted": true,
-    "Rank": 910,
-    "Type": "qui",
-    "ColorBlock": 54,
-    "IconHint": "quisquam",
+    "Id": 315,
+    "Name": "Grimes-Dibbert",
+    "ToolTip": "Praesentium error accusantium.",
+    "Deleted": false,
+    "Rank": 599,
+    "Type": "assumenda",
+    "ColorBlock": 787,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2016-04-09T16:32:48.8369917+02:00",
+    "LastChanged": "2022-06-07T17:54:08.9917951+02:00",
     "ChildItems": [
       {
-        "Id": 319,
-        "Name": "Champlin, Howe and Gibson",
-        "ToolTip": "Ut sint pariatur.",
+        "Id": 887,
+        "Name": "Koelpin LLC",
+        "ToolTip": "Et nisi aut consectetur libero exercitationem ut.",
         "Deleted": false,
-        "Rank": 547,
-        "Type": "atque",
-        "ColorBlock": 101,
-        "IconHint": "vitae",
+        "Rank": 390,
+        "Type": "voluptas",
+        "ColorBlock": 770,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2010-07-13T16:32:48.8369917+02:00",
+        "LastChanged": "2019-11-28T17:54:08.9917951+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "accusantium",
+        "ExtraInfo": "rerum",
+        "StyleHint": "doloremque",
         "Hidden": false,
-        "FullName": "Jaydon Von",
+        "FullName": "Ms. Nikolas Bednar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 86
+            "FieldLength": 65
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "id",
-    "Hidden": true,
-    "FullName": "Ernie Frami",
+    "ExtraInfo": "sit",
+    "StyleHint": "natus",
+    "Hidden": false,
+    "FullName": "Miss Magnolia Carolina Ortiz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 466
+        "FieldLength": 201
       }
     }
   }

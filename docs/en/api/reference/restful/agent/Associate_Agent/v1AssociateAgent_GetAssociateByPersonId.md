@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 223
+  "PersonId": 502
 }
 ```
 
@@ -99,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 734,
-  "Name": "Cruickshank-Heidenreich",
-  "PersonId": 985,
-  "Rank": 29,
-  "Tooltip": "blanditiis",
+  "AssociateId": 852,
+  "Name": "Leffler, Daniel and Howe",
+  "PersonId": 767,
+  "Rank": 104,
+  "Tooltip": "quo",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 19,
-  "FullName": "Mr. Ozella Tony Feest",
-  "FormalName": "Ankunding-Leannon",
+  "GroupIdx": 635,
+  "FullName": "Chanel Davis",
+  "FormalName": "Wuckert, Wunsch and Schmitt",
   "Deleted": false,
-  "EjUserId": 427,
-  "UserName": "Braun, Koepp and Bernhard",
+  "EjUserId": 57,
+  "UserName": "Powlowski-Jerde",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 756
+      "FieldType": "System.Int32",
+      "FieldLength": 384
     }
   }
 }

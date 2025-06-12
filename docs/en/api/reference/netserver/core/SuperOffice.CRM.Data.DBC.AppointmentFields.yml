@@ -69,27 +69,24 @@ items:
   nameWithType: DBC.AppointmentFields
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nFields for Appointment, Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this. \n"
+  summary: Fields for Appointment, Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.
+  example: []
   syntax:
-    content: 'public static class AppointmentFields : Object'
-    content.vb: >-
-      Public Module AppointmentFields
-          Inherits Object
+    content: public static class DBC.AppointmentFields
+    content.vb: Public Module DBC.AppointmentFields
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.AppointmentId
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.AppointmentId
   id: AppointmentId
@@ -101,24 +98,16 @@ items:
   nameWithType: DBC.AppointmentFields.AppointmentId
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.AppointmentId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.AppointmentId: Primary key\n"
+  summary: 'Appointment.AppointmentId: Primary key'
+  example: []
   syntax:
     content: public const string AppointmentId = "appointment_id"
     return:
       type: System.String
     content.vb: Public Const AppointmentId As String = "appointment_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.ContactId
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.ContactId
   id: ContactId
@@ -130,24 +119,16 @@ items:
   nameWithType: DBC.AppointmentFields.ContactId
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.ContactId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.ContactId: Contact ID of owning contact, may be 0\n"
+  summary: 'Appointment.ContactId: Contact ID of owning contact, may be 0'
+  example: []
   syntax:
     content: public const string ContactId = "contact_id"
     return:
       type: System.String
     content.vb: Public Const ContactId As String = "contact_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.PersonId
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.PersonId
   id: PersonId
@@ -159,24 +140,16 @@ items:
   nameWithType: DBC.AppointmentFields.PersonId
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.PersonId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.PersonId: Person ID of person the appointment is with, may be 0\n"
+  summary: 'Appointment.PersonId: Person ID of person the appointment is with, may be 0'
+  example: []
   syntax:
     content: public const string PersonId = "person_id"
     return:
       type: System.String
     content.vb: Public Const PersonId As String = "person_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.AssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.AssociateId
   id: AssociateId
@@ -188,24 +161,16 @@ items:
   nameWithType: DBC.AppointmentFields.AssociateId
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.AssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.AssociateId: ID of associate whose diary the appointment is in, REQUIRED\n"
+  summary: 'Appointment.AssociateId: ID of associate whose diary the appointment is in, REQUIRED'
+  example: []
   syntax:
     content: public const string AssociateId = "associate_id"
     return:
       type: System.String
     content.vb: Public Const AssociateId As String = "associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.GroupIdx
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.GroupIdx
   id: GroupIdx
@@ -217,24 +182,16 @@ items:
   nameWithType: DBC.AppointmentFields.GroupIdx
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.GroupIdx
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.GroupIdx: Group of owning associate at the time tha ppnt was created\n"
+  summary: 'Appointment.GroupIdx: Group of owning associate at the time tha ppnt was created'
+  example: []
   syntax:
     content: public const string GroupIdx = "group_idx"
     return:
       type: System.String
     content.vb: Public Const GroupIdx As String = "group_idx"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.Registered
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.Registered
   id: Registered
@@ -246,24 +203,16 @@ items:
   nameWithType: DBC.AppointmentFields.Registered
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.Registered
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.Registered: Registered date\n"
+  summary: 'Appointment.Registered: Registered date'
+  example: []
   syntax:
     content: public const string Registered = "registered"
     return:
       type: System.String
     content.vb: Public Const Registered As String = "registered"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -275,24 +224,16 @@ items:
   nameWithType: DBC.AppointmentFields.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.RegisteredAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.RegisteredAssociateId: Registered by whom\n"
+  summary: 'Appointment.RegisteredAssociateId: Registered by whom'
+  example: []
   syntax:
     content: public const string RegisteredAssociateId = "registered_associate_id"
     return:
       type: System.String
     content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.Done
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.Done
   id: Done
@@ -304,24 +245,16 @@ items:
   nameWithType: DBC.AppointmentFields.Done
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.Done
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.Done: date + start time this task was done\n"
+  summary: 'Appointment.Done: date + start time this task was done'
+  example: []
   syntax:
     content: public const string Done = "done"
     return:
       type: System.String
     content.vb: Public Const Done As String = "done"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.DoBy
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.DoBy
   id: DoBy
@@ -333,24 +266,16 @@ items:
   nameWithType: DBC.AppointmentFields.DoBy
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.DoBy
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.DoBy: date + start time planned\n"
+  summary: 'Appointment.DoBy: date + start time planned'
+  example: []
   syntax:
     content: public const string DoBy = "do_by"
     return:
       type: System.String
     content.vb: Public Const DoBy As String = "do_by"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.Leadtime
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.Leadtime
   id: Leadtime
@@ -362,24 +287,16 @@ items:
   nameWithType: DBC.AppointmentFields.Leadtime
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.Leadtime
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.Leadtime: Time blocked (minutes) BEFORE starttime\n"
+  summary: 'Appointment.Leadtime: Time blocked (minutes) BEFORE starttime'
+  example: []
   syntax:
     content: public const string Leadtime = "leadtime"
     return:
       type: System.String
     content.vb: Public Const Leadtime As String = "leadtime"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.TaskIdx
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.TaskIdx
   id: TaskIdx
@@ -391,24 +308,16 @@ items:
   nameWithType: DBC.AppointmentFields.TaskIdx
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.TaskIdx
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.TaskIdx: Link to Task list, OR to DocTmpl list, if this is a document\n"
+  summary: 'Appointment.TaskIdx: Link to Task list, OR to DocTmpl list, if this is a document'
+  example: []
   syntax:
     content: public const string TaskIdx = "task_idx"
     return:
       type: System.String
     content.vb: Public Const TaskIdx As String = "task_idx"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.PriorityIdx
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.PriorityIdx
   id: PriorityIdx
@@ -420,24 +329,16 @@ items:
   nameWithType: DBC.AppointmentFields.PriorityIdx
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.PriorityIdx
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.PriorityIdx: Link to priority list\n"
+  summary: 'Appointment.PriorityIdx: Link to priority list'
+  example: []
   syntax:
     content: public const string PriorityIdx = "priority_idx"
     return:
       type: System.String
     content.vb: Public Const PriorityIdx As String = "priority_idx"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.Type
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.Type
   id: Type
@@ -449,24 +350,16 @@ items:
   nameWithType: DBC.AppointmentFields.Type
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.Type
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.Type: where=no start time,note,docin, docout \n"
+  summary: 'Appointment.Type: where=no start time,note,docin, docout'
+  example: []
   syntax:
     content: public const string Type = "type"
     return:
       type: System.String
     content.vb: Public Const Type As String = "type"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.Status
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.Status
   id: Status
@@ -478,24 +371,16 @@ items:
   nameWithType: DBC.AppointmentFields.Status
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.Status
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.Status: status=done,started, not started, hidden\n"
+  summary: 'Appointment.Status: status=done,started, not started, hidden'
+  example: []
   syntax:
     content: public const string Status = "status"
     return:
       type: System.String
     content.vb: Public Const Status As String = "status"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.Private
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.Private
   id: Private
@@ -507,24 +392,16 @@ items:
   nameWithType: DBC.AppointmentFields.Private
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.Private
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.Private: Obsolete, but still maintained field for appointment privacy; denormalization of visiblefor status\n"
+  summary: 'Appointment.Private: Obsolete, but still maintained field for appointment privacy; denormalization of visiblefor status'
+  example: []
   syntax:
     content: public const string Private = "private"
     return:
       type: System.String
     content.vb: Public Const Private As String = "private"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.Alarm
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.Alarm
   id: Alarm
@@ -536,24 +413,16 @@ items:
   nameWithType: DBC.AppointmentFields.Alarm
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.Alarm
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.Alarm: Alarm leadtime, the alarm flag has moved to hasAlarm\n"
+  summary: 'Appointment.Alarm: Alarm leadtime, the alarm flag has moved to hasAlarm'
+  example: []
   syntax:
     content: public const string Alarm = "alarm"
     return:
       type: System.String
     content.vb: Public Const Alarm As String = "alarm"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.TextId
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.TextId
   id: TextId
@@ -565,24 +434,16 @@ items:
   nameWithType: DBC.AppointmentFields.TextId
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.TextId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.TextId: ID of record containing appointment text\n"
+  summary: 'Appointment.TextId: ID of record containing appointment text'
+  example: []
   syntax:
     content: public const string TextId = "text_id"
     return:
       type: System.String
     content.vb: Public Const TextId As String = "text_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.ProjectId
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.ProjectId
   id: ProjectId
@@ -594,24 +455,16 @@ items:
   nameWithType: DBC.AppointmentFields.ProjectId
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.ProjectId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.ProjectId: ID of project referred to, may be 0\n"
+  summary: 'Appointment.ProjectId: ID of project referred to, may be 0'
+  example: []
   syntax:
     content: public const string ProjectId = "project_id"
     return:
       type: System.String
     content.vb: Public Const ProjectId As String = "project_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.MotherId
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.MotherId
   id: MotherId
@@ -623,24 +476,16 @@ items:
   nameWithType: DBC.AppointmentFields.MotherId
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.MotherId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.MotherId: ID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment. However, if 0 and assoc_id != reg_id then this is an assigned appointment, indicated vt type = kBooking\n"
+  summary: 'Appointment.MotherId: ID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment. However, if 0 and assoc_id != reg_id then this is an assigned appointment, indicated vt type = kBooking'
+  example: []
   syntax:
     content: public const string MotherId = "mother_id"
     return:
       type: System.String
     content.vb: Public Const MotherId As String = "mother_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.DocumentId
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.DocumentId
   id: DocumentId
@@ -652,24 +497,16 @@ items:
   nameWithType: DBC.AppointmentFields.DocumentId
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.DocumentId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.DocumentId: Points to document record; 0 for non-document appointments!\n"
+  summary: 'Appointment.DocumentId: Points to document record; 0 for non-document appointments!'
+  example: []
   syntax:
     content: public const string DocumentId = "document_id"
     return:
       type: System.String
     content.vb: Public Const DocumentId As String = "document_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.ColorIndex
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.ColorIndex
   id: ColorIndex
@@ -681,24 +518,16 @@ items:
   nameWithType: DBC.AppointmentFields.ColorIndex
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.ColorIndex
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.ColorIndex: Appointment colour, used only in Japanese versions. Western versions take colour from Task\n"
+  summary: 'Appointment.ColorIndex: Appointment colour, used only in Japanese versions. Western versions take colour from Task'
+  example: []
   syntax:
     content: public const string ColorIndex = "color_index"
     return:
       type: System.String
     content.vb: Public Const ColorIndex As String = "color_index"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.InvitedPersonId
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.InvitedPersonId
   id: InvitedPersonId
@@ -710,24 +539,16 @@ items:
   nameWithType: DBC.AppointmentFields.InvitedPersonId
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.InvitedPersonId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.InvitedPersonId: Valid when mother_id != 0 &amp;&amp; mother_id != id\n"
+  summary: 'Appointment.InvitedPersonId: Valid when mother_id != 0 &amp;&amp; mother_id != id'
+  example: []
   syntax:
     content: public const string InvitedPersonId = "invitedPersonId"
     return:
       type: System.String
     content.vb: Public Const InvitedPersonId As String = "invitedPersonId"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.ActiveDate
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.ActiveDate
   id: ActiveDate
@@ -739,24 +560,16 @@ items:
   nameWithType: DBC.AppointmentFields.ActiveDate
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.ActiveDate
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.ActiveDate: The date to be used for searching &amp; showing\n"
+  summary: 'Appointment.ActiveDate: The date to be used for searching &amp; showing'
+  example: []
   syntax:
     content: public const string ActiveDate = "activeDate"
     return:
       type: System.String
     content.vb: Public Const ActiveDate As String = "activeDate"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.EndDate
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.EndDate
   id: EndDate
@@ -768,24 +581,16 @@ items:
   nameWithType: DBC.AppointmentFields.EndDate
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.EndDate
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.EndDate: Date + end time planned\n"
+  summary: 'Appointment.EndDate: Date + end time planned'
+  example: []
   syntax:
     content: public const string EndDate = "endDate"
     return:
       type: System.String
     content.vb: Public Const EndDate As String = "endDate"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.LagTime
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.LagTime
   id: LagTime
@@ -797,24 +602,16 @@ items:
   nameWithType: DBC.AppointmentFields.LagTime
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.LagTime
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.LagTime: as leadtime, but after the end - time blocked for travel etc.\n"
+  summary: 'Appointment.LagTime: as leadtime, but after the end - time blocked for travel etc.'
+  example: []
   syntax:
     content: public const string LagTime = "lagTime"
     return:
       type: System.String
     content.vb: Public Const LagTime As String = "lagTime"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.Source
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.Source
   id: Source
@@ -826,24 +623,16 @@ items:
   nameWithType: DBC.AppointmentFields.Source
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.Source
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.Source: For future integration use; source of record\n"
+  summary: 'Appointment.Source: For future integration use; source of record'
+  example: []
   syntax:
     content: public const string Source = "source"
     return:
       type: System.String
     content.vb: Public Const Source As String = "source"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.UserdefId
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.UserdefId
   id: UserdefId
@@ -855,24 +644,16 @@ items:
   nameWithType: DBC.AppointmentFields.UserdefId
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.UserdefId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.UserdefId: User defined table record 1 (for future use)\n"
+  summary: 'Appointment.UserdefId: User defined table record 1 (for future use)'
+  example: []
   syntax:
     content: public const string UserdefId = "userdef_id"
     return:
       type: System.String
     content.vb: Public Const UserdefId As String = "userdef_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.Userdef2Id
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.Userdef2Id
   id: Userdef2Id
@@ -884,24 +665,16 @@ items:
   nameWithType: DBC.AppointmentFields.Userdef2Id
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.Userdef2Id
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.Userdef2Id: User defined table record 2 (for future use)\n"
+  summary: 'Appointment.Userdef2Id: User defined table record 2 (for future use)'
+  example: []
   syntax:
     content: public const string Userdef2Id = "userdef2_id"
     return:
       type: System.String
     content.vb: Public Const Userdef2Id As String = "userdef2_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.Updated
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.Updated
   id: Updated
@@ -913,24 +686,16 @@ items:
   nameWithType: DBC.AppointmentFields.Updated
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.Updated
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.Updated: Updated date\n"
+  summary: 'Appointment.Updated: Updated date'
+  example: []
   syntax:
     content: public const string Updated = "updated"
     return:
       type: System.String
     content.vb: Public Const Updated As String = "updated"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -942,24 +707,16 @@ items:
   nameWithType: DBC.AppointmentFields.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.UpdatedAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.UpdatedAssociateId: Updated by who\n"
+  summary: 'Appointment.UpdatedAssociateId: Updated by who'
+  example: []
   syntax:
     content: public const string UpdatedAssociateId = "updated_associate_id"
     return:
       type: System.String
     content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.UpdatedCount
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.UpdatedCount
   id: UpdatedCount
@@ -971,24 +728,16 @@ items:
   nameWithType: DBC.AppointmentFields.UpdatedCount
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.UpdatedCount
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.UpdatedCount: Number of updates made to this record\n"
+  summary: 'Appointment.UpdatedCount: Number of updates made to this record'
+  example: []
   syntax:
     content: public const string UpdatedCount = "updatedCount"
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.ActiveLinks
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.ActiveLinks
   id: ActiveLinks
@@ -1000,24 +749,16 @@ items:
   nameWithType: DBC.AppointmentFields.ActiveLinks
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.ActiveLinks
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.ActiveLinks: Number of active links to documents, other appointments, and such\n"
+  summary: 'Appointment.ActiveLinks: Number of active links to documents, other appointments, and such'
+  example: []
   syntax:
     content: public const string ActiveLinks = "activeLinks"
     return:
       type: System.String
     content.vb: Public Const ActiveLinks As String = "activeLinks"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.RecurrenceRuleId
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.RecurrenceRuleId
   id: RecurrenceRuleId
@@ -1029,24 +770,16 @@ items:
   nameWithType: DBC.AppointmentFields.RecurrenceRuleId
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.RecurrenceRuleId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.RecurrenceRuleId: Pointer to recurrence rule, for recurring appointments, otherwise 0\n"
+  summary: 'Appointment.RecurrenceRuleId: Pointer to recurrence rule, for recurring appointments, otherwise 0'
+  example: []
   syntax:
     content: public const string RecurrenceRuleId = "recurrenceRuleId"
     return:
       type: System.String
     content.vb: Public Const RecurrenceRuleId As String = "recurrenceRuleId"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.Location
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.Location
   id: Location
@@ -1058,24 +791,16 @@ items:
   nameWithType: DBC.AppointmentFields.Location
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.Location
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.Location: Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here\n"
+  summary: 'Appointment.Location: Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here'
+  example: []
   syntax:
     content: public const string Location = "location"
     return:
       type: System.String
     content.vb: Public Const Location As String = "location"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.AlldayEvent
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.AlldayEvent
   id: AlldayEvent
@@ -1087,24 +812,16 @@ items:
   nameWithType: DBC.AppointmentFields.AlldayEvent
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.AlldayEvent
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.AlldayEvent: Is this an all day event: 0 = No, 1 = Yes\n"
+  summary: 'Appointment.AlldayEvent: Is this an all day event: 0 = No, 1 = Yes'
+  example: []
   syntax:
     content: public const string AlldayEvent = "alldayEvent"
     return:
       type: System.String
     content.vb: Public Const AlldayEvent As String = "alldayEvent"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.FreeBusy
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.FreeBusy
   id: FreeBusy
@@ -1116,24 +833,16 @@ items:
   nameWithType: DBC.AppointmentFields.FreeBusy
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.FreeBusy
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.FreeBusy: What kind of time is this: 0 = Busy, 1 = Free\n"
+  summary: 'Appointment.FreeBusy: What kind of time is this: 0 = Busy, 1 = Free'
+  example: []
   syntax:
     content: public const string FreeBusy = "freeBusy"
     return:
       type: System.String
     content.vb: Public Const FreeBusy As String = "freeBusy"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.RejectCounter
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.RejectCounter
   id: RejectCounter
@@ -1145,24 +854,16 @@ items:
   nameWithType: DBC.AppointmentFields.RejectCounter
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.RejectCounter
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.RejectCounter: How many invitees have rejected this appointment\n"
+  summary: 'Appointment.RejectCounter: How many invitees have rejected this appointment'
+  example: []
   syntax:
     content: public const string RejectCounter = "rejectCounter"
     return:
       type: System.String
     content.vb: Public Const RejectCounter As String = "rejectCounter"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.EmailId
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.EmailId
   id: EmailId
@@ -1174,24 +875,16 @@ items:
   nameWithType: DBC.AppointmentFields.EmailId
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.EmailId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.EmailId: If invitation and status changes should be mailed, this is the ID of the email address used\n"
+  summary: 'Appointment.EmailId: If invitation and status changes should be mailed, this is the ID of the email address used'
+  example: []
   syntax:
     content: public const string EmailId = "emailId"
     return:
       type: System.String
     content.vb: Public Const EmailId As String = "emailId"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.RejectReason
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.RejectReason
   id: RejectReason
@@ -1203,24 +896,16 @@ items:
   nameWithType: DBC.AppointmentFields.RejectReason
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.RejectReason
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.RejectReason: Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here\n"
+  summary: 'Appointment.RejectReason: Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here'
+  example: []
   syntax:
     content: public const string RejectReason = "rejectReason"
     return:
       type: System.String
     content.vb: Public Const RejectReason As String = "rejectReason"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.HasAlarm
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.HasAlarm
   id: HasAlarm
@@ -1232,24 +917,16 @@ items:
   nameWithType: DBC.AppointmentFields.HasAlarm
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.HasAlarm
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.HasAlarm: Does this appointment have an alarm\n"
+  summary: 'Appointment.HasAlarm: Does this appointment have an alarm'
+  example: []
   syntax:
     content: public const string HasAlarm = "hasAlarm"
     return:
       type: System.String
     content.vb: Public Const HasAlarm As String = "hasAlarm"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.AssignedBy
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.AssignedBy
   id: AssignedBy
@@ -1261,24 +938,16 @@ items:
   nameWithType: DBC.AppointmentFields.AssignedBy
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.AssignedBy
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.AssignedBy: Who (last) assigned this appointment to associate_id?\n"
+  summary: 'Appointment.AssignedBy: Who (last) assigned this appointment to associate_id?'
+  example: []
   syntax:
     content: public const string AssignedBy = "assignedBy"
     return:
       type: System.String
     content.vb: Public Const AssignedBy As String = "assignedBy"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.PreferredTZLocation
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.PreferredTZLocation
   id: PreferredTZLocation
@@ -1290,24 +959,16 @@ items:
   nameWithType: DBC.AppointmentFields.PreferredTZLocation
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.PreferredTZLocation
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.PreferredTZLocation: Preferred timezone location to use when displaying/editing this appointment\n"
+  summary: 'Appointment.PreferredTZLocation: Preferred timezone location to use when displaying/editing this appointment'
+  example: []
   syntax:
     content: public const string PreferredTZLocation = "preferredTZLocation"
     return:
       type: System.String
     content.vb: Public Const PreferredTZLocation As String = "preferredTZLocation"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.SaleId
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.SaleId
   id: SaleId
@@ -1319,24 +980,16 @@ items:
   nameWithType: DBC.AppointmentFields.SaleId
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.SaleId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.SaleId: Owning sale, if any (may be 0)\n"
+  summary: 'Appointment.SaleId: Owning sale, if any (may be 0)'
+  example: []
   syntax:
     content: public const string SaleId = "sale_id"
     return:
       type: System.String
     content.vb: Public Const SaleId As String = "sale_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.SuggestedAppointmentId
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.SuggestedAppointmentId
   id: SuggestedAppointmentId
@@ -1348,24 +1001,16 @@ items:
   nameWithType: DBC.AppointmentFields.SuggestedAppointmentId
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.SuggestedAppointmentId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.SuggestedAppointmentId: Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link)\n"
+  summary: 'Appointment.SuggestedAppointmentId: Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link)'
+  example: []
   syntax:
     content: public const string SuggestedAppointmentId = "suggestedAppointmentId"
     return:
       type: System.String
     content.vb: Public Const SuggestedAppointmentId As String = "suggestedAppointmentId"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.SuggestedDocumentId
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.SuggestedDocumentId
   id: SuggestedDocumentId
@@ -1377,24 +1022,16 @@ items:
   nameWithType: DBC.AppointmentFields.SuggestedDocumentId
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.SuggestedDocumentId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.SuggestedDocumentId: Suggested guide item that this document is an instance of (Note: NOT valid for appointments, they have their own link)\n"
+  summary: 'Appointment.SuggestedDocumentId: Suggested guide item that this document is an instance of (Note: NOT valid for appointments, they have their own link)'
+  example: []
   syntax:
     content: public const string SuggestedDocumentId = "suggestedDocumentId"
     return:
       type: System.String
     content.vb: Public Const SuggestedDocumentId As String = "suggestedDocumentId"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.IsMilestone
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.IsMilestone
   id: IsMilestone
@@ -1406,24 +1043,16 @@ items:
   nameWithType: DBC.AppointmentFields.IsMilestone
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.IsMilestone
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.IsMilestone: Is this appointment a milestone?\n"
+  summary: 'Appointment.IsMilestone: Is this appointment a milestone?'
+  example: []
   syntax:
     content: public const string IsMilestone = "isMilestone"
     return:
       type: System.String
     content.vb: Public Const IsMilestone As String = "isMilestone"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.JoinVideomeetUrl
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.JoinVideomeetUrl
   id: JoinVideomeetUrl
@@ -1435,24 +1064,16 @@ items:
   nameWithType: DBC.AppointmentFields.JoinVideomeetUrl
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.JoinVideomeetUrl
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.JoinVideomeetUrl: Blank when not a video meeting. Filled with Join Meeting URL when created.\n"
+  summary: 'Appointment.JoinVideomeetUrl: Blank when not a video meeting. Filled with Join Meeting URL when created.'
+  example: []
   syntax:
     content: public const string JoinVideomeetUrl = "join_videomeet_url"
     return:
       type: System.String
     content.vb: Public Const JoinVideomeetUrl As String = "join_videomeet_url"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.CentralserviceVideomeetId
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.CentralserviceVideomeetId
   id: CentralserviceVideomeetId
@@ -1464,24 +1085,16 @@ items:
   nameWithType: DBC.AppointmentFields.CentralserviceVideomeetId
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.CentralserviceVideomeetId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.CentralserviceVideomeetId: GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox.\n"
+  summary: 'Appointment.CentralserviceVideomeetId: GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox.'
+  example: []
   syntax:
     content: public const string CentralserviceVideomeetId = "centralservice_videomeet_id"
     return:
       type: System.String
     content.vb: Public Const CentralserviceVideomeetId As String = "centralservice_videomeet_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.OriginalStartDate
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.OriginalStartDate
   id: OriginalStartDate
@@ -1493,24 +1106,16 @@ items:
   nameWithType: DBC.AppointmentFields.OriginalStartDate
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.OriginalStartDate
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.OriginalStartDate: The original start date for an appointment in a recurring series\n"
+  summary: 'Appointment.OriginalStartDate: The original start date for an appointment in a recurring series'
+  example: []
   syntax:
     content: public const string OriginalStartDate = "original_start_date"
     return:
       type: System.String
     content.vb: Public Const OriginalStartDate As String = "original_start_date"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.AgendaTextId
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.AgendaTextId
   id: AgendaTextId
@@ -1522,24 +1127,16 @@ items:
   nameWithType: DBC.AppointmentFields.AgendaTextId
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.AgendaTextId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.AgendaTextId: ID of record containing agenda text\n"
+  summary: 'Appointment.AgendaTextId: ID of record containing agenda text'
+  example: []
   syntax:
     content: public const string AgendaTextId = "agenda_text_id"
     return:
       type: System.String
     content.vb: Public Const AgendaTextId As String = "agenda_text_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.InternalNotesTextId
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.InternalNotesTextId
   id: InternalNotesTextId
@@ -1551,24 +1148,16 @@ items:
   nameWithType: DBC.AppointmentFields.InternalNotesTextId
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.InternalNotesTextId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.InternalNotesTextId: ID of record containing internal notes text\n"
+  summary: 'Appointment.InternalNotesTextId: ID of record containing internal notes text'
+  example: []
   syntax:
     content: public const string InternalNotesTextId = "internal_notes_text_id"
     return:
       type: System.String
     content.vb: Public Const InternalNotesTextId As String = "internal_notes_text_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.SendEmail
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.SendEmail
   id: SendEmail
@@ -1580,24 +1169,16 @@ items:
   nameWithType: DBC.AppointmentFields.SendEmail
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.SendEmail
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.SendEmail: Send invitation and appointment changes by e-mail to this participant.\n"
+  summary: 'Appointment.SendEmail: Send invitation and appointment changes by e-mail to this participant.'
+  example: []
   syntax:
     content: public const string SendEmail = "SendEmail"
     return:
       type: System.String
     content.vb: Public Const SendEmail As String = "SendEmail"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.ModifiedAppointmentFields
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.ModifiedAppointmentFields
   id: ModifiedAppointmentFields
@@ -1609,24 +1190,16 @@ items:
   nameWithType: DBC.AppointmentFields.ModifiedAppointmentFields
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.ModifiedAppointmentFields
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.ModifiedAppointmentFields: Which important fields of an appointment have been changed. Used by notifications.\n"
+  summary: 'Appointment.ModifiedAppointmentFields: Which important fields of an appointment have been changed. Used by notifications.'
+  example: []
   syntax:
     content: public const string ModifiedAppointmentFields = "modified_appointment_fields"
     return:
       type: System.String
     content.vb: Public Const ModifiedAppointmentFields As String = "modified_appointment_fields"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.CreatedByWorkflowId
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.CreatedByWorkflowId
   id: CreatedByWorkflowId
@@ -1638,24 +1211,16 @@ items:
   nameWithType: DBC.AppointmentFields.CreatedByWorkflowId
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.CreatedByWorkflowId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.CreatedByWorkflowId: The workflow this follow-up was created by\n"
+  summary: 'Appointment.CreatedByWorkflowId: The workflow this follow-up was created by'
+  example: []
   syntax:
     content: public const string CreatedByWorkflowId = "created_by_workflow_id"
     return:
       type: System.String
     content.vb: Public Const CreatedByWorkflowId As String = "created_by_workflow_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.CautionWarning
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.CautionWarning
   id: CautionWarning
@@ -1667,24 +1232,16 @@ items:
   nameWithType: DBC.AppointmentFields.CautionWarning
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.CautionWarning
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.CautionWarning: Status field to indicate appointments that have some sort of problem\n"
+  summary: 'Appointment.CautionWarning: Status field to indicate appointments that have some sort of problem'
+  example: []
   syntax:
     content: public const string CautionWarning = "cautionWarning"
     return:
       type: System.String
     content.vb: Public Const CautionWarning As String = "cautionWarning"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.MotherAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.MotherAssociateId
   id: MotherAssociateId
@@ -1696,24 +1253,16 @@ items:
   nameWithType: DBC.AppointmentFields.MotherAssociateId
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.MotherAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.MotherAssociateId: Associate/owner of the mother appointment\n"
+  summary: 'Appointment.MotherAssociateId: Associate/owner of the mother appointment'
+  example: []
   syntax:
     content: public const string MotherAssociateId = "mother_associate_id"
     return:
       type: System.String
     content.vb: Public Const MotherAssociateId As String = "mother_associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.OwnedExternally
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.OwnedExternally
   id: OwnedExternally
@@ -1725,41 +1274,288 @@ items:
   nameWithType: DBC.AppointmentFields.OwnedExternally
   fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.OwnedExternally
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nAppointment.OwnedExternally: Set if an external system owns this appointment.\n"
+  summary: 'Appointment.OwnedExternally: Set if an external system owns this appointment.'
+  example: []
   syntax:
     content: public const string OwnedExternally = "owned_externally"
     return:
       type: System.String
     content.vb: Public Const OwnedExternally As String = "owned_externally"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -1767,6 +1563,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,32 +95,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 658,
-    "Attention": "est",
-    "Header": "et",
-    "Name": "Herzog Group",
-    "OurRef": "nostrum",
-    "YourRef": "pariatur",
-    "Description": "Total multi-state emulation",
-    "DocumentTemplate": "vel",
+    "DocumentId": 69,
+    "Attention": "omnis",
+    "Header": "quibusdam",
+    "Name": "Gerhold Inc and Sons",
+    "OurRef": "voluptas",
+    "YourRef": "non",
+    "Description": "Distributed web-enabled solution",
+    "DocumentTemplate": "neque",
     "IsPublished": false,
-    "PersonId": 537,
-    "PersonFullName": "Kylee Pfannerstill",
-    "AssociateFullName": "Violet Weimann",
-    "ContactId": 977,
-    "ContactName": "Moen Group",
-    "ProjectId": 644,
-    "ProjectName": "Hintz Group",
-    "AssociateId": 762,
-    "Snum": 529,
-    "SaleId": 592,
-    "SaleName": "Harvey LLC",
+    "PersonId": 220,
+    "PersonFullName": "Jody Wilderman",
+    "AssociateFullName": "Jazmyne King",
+    "ContactId": 407,
+    "ContactName": "Gleason Inc and Sons",
+    "ProjectId": 399,
+    "ProjectName": "Bernhard-Nicolas",
+    "AssociateId": 670,
+    "Snum": 985,
+    "SaleId": 166,
+    "SaleName": "Weber Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 805
+        "FieldType": "System.Int32",
+        "FieldLength": 857
       }
     }
   }

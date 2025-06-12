@@ -84,7 +84,7 @@ Accept-Language: *
 
 ## Sample Code
 ```cs
-var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("emailaddress", forceFlatList: true);
+var listProvider = ClassFactory.CreateRequired<SuperOffice.CRM.Lists.ISoListProviderFactory>().Create("emailaddress", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
     Console.WriteLine("{0} {1} {2} {3}", 
          item.Id, ResourceManager.ParseInlineResources(item.Name), item.StyleHint, item.ExtraInfo);

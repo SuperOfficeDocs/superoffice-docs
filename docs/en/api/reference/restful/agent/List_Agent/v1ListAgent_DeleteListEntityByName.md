@@ -64,11 +64,11 @@ No Content
 POST /api/v1/Agents/List/DeleteListEntityByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Berge-Gulgowski"
+  "Name": "Schmidt, Crist and Hodkiewicz"
 }
 ```
 

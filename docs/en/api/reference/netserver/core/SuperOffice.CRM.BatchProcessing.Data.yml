@@ -19,12 +19,14 @@ references:
 - uid: SuperOffice.CRM.BatchProcessing.Data.ExportArchiveBatchParameters
   commentId: T:SuperOffice.CRM.BatchProcessing.Data.ExportArchiveBatchParameters
   isExternal: true
+  href: SuperOffice.CRM.BatchProcessing.Data.ExportArchiveBatchParameters.html
   name: ExportArchiveBatchParameters
   nameWithType: ExportArchiveBatchParameters
   fullName: SuperOffice.CRM.BatchProcessing.Data.ExportArchiveBatchParameters
 - uid: SuperOffice.CRM.BatchProcessing.Data.ExportTargetsBatchParameters
   commentId: T:SuperOffice.CRM.BatchProcessing.Data.ExportTargetsBatchParameters
   isExternal: true
+  href: SuperOffice.CRM.BatchProcessing.Data.ExportTargetsBatchParameters.html
   name: ExportTargetsBatchParameters
   nameWithType: ExportTargetsBatchParameters
   fullName: SuperOffice.CRM.BatchProcessing.Data.ExportTargetsBatchParameters

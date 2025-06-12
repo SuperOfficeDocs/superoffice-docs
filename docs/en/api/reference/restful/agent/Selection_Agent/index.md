@@ -10,10 +10,6 @@ generated: true
 
 
 
-* [POST Agents/Selection/CreateDefaultMailMergeSettings](v1SelectionAgent_CreateDefaultMailMergeSettings.md)
-
-* [POST Agents/Selection/CreateDefaultMailMergeTask](v1SelectionAgent_CreateDefaultMailMergeTask.md)
-
 * [POST Agents/Selection/CreateDefaultSelectionEntity](v1SelectionAgent_CreateDefaultSelectionEntity.md)
 
 * [POST Agents/Selection/SaveSelectionEntity](v1SelectionAgent_SaveSelectionEntity.md)
@@ -25,8 +21,6 @@ generated: true
 * [POST Agents/Selection/CreateContactSelectionFromSelection](v1SelectionAgent_CreateContactSelectionFromSelection.md)
 
 * [POST Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds](v1SelectionAgent_CreateTemporaryContactSelectionFromContactPersonIds.md)
-
-* [POST Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers](v1SelectionAgent_CreateTemporaryContactSelectionFromProjectMembers.md)
 
 * [POST Agents/Selection/CopyContactSelectionMembers](v1SelectionAgent_CopyContactSelectionMembers.md)
 
@@ -59,8 +53,6 @@ generated: true
 * [POST Agents/Selection/ExportSelectionMembers](v1SelectionAgent_ExportSelectionMembers.md)
 
 * [POST Agents/Selection/ExportSelectionMembersWithOrderBy](v1SelectionAgent_ExportSelectionMembersWithOrderBy.md)
-
-* [POST Agents/Selection/StartMailMerge](v1SelectionAgent_StartMailMerge.md)
 
 * [POST Agents/Selection/SetDuplicateRulesStatus](v1SelectionAgent_SetDuplicateRulesStatus.md)
 

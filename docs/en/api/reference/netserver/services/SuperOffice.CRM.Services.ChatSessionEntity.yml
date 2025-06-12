@@ -7,8 +7,8 @@ items:
   children:
   - SuperOffice.CRM.Services.ChatSessionEntity.#ctor
   - SuperOffice.CRM.Services.ChatSessionEntity.AlertLevel
-  - SuperOffice.CRM.Services.ChatSessionEntity.ChatbotIsActive
   - SuperOffice.CRM.Services.ChatSessionEntity.ChatSessionId
+  - SuperOffice.CRM.Services.ChatSessionEntity.ChatbotIsActive
   - SuperOffice.CRM.Services.ChatSessionEntity.Contact
   - SuperOffice.CRM.Services.ChatSessionEntity.CustomerAlias
   - SuperOffice.CRM.Services.ChatSessionEntity.CustomerCompanyName
@@ -29,9 +29,9 @@ items:
   - SuperOffice.CRM.Services.ChatSessionEntity.SessionKey
   - SuperOffice.CRM.Services.ChatSessionEntity.Status
   - SuperOffice.CRM.Services.ChatSessionEntity.Ticket
-  - SuperOffice.CRM.Services.ChatSessionEntity.TopicId
   - SuperOffice.CRM.Services.ChatSessionEntity.ToString
   - SuperOffice.CRM.Services.ChatSessionEntity.ToString(System.String)
+  - SuperOffice.CRM.Services.ChatSessionEntity.TopicId
   - SuperOffice.CRM.Services.ChatSessionEntity.TransferTo
   - SuperOffice.CRM.Services.ChatSessionEntity.User
   - SuperOffice.CRM.Services.ChatSessionEntity.WhenEnded
@@ -46,37 +46,61 @@ items:
   nameWithType: ChatSessionEntity
   fullName: SuperOffice.CRM.Services.ChatSessionEntity
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nChat sessions belong to a chat topic, and contain messages to/from users\n<p></p>\nCarrier object for ChatSessionEntity.\nServices for the ChatSessionEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IChatAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Chat sessions belong to a chat topic, and contain messages to/from users
+
+    <p></p>
+
+    Carrier object for ChatSessionEntity.
+
+    Services for the ChatSessionEntity Carrier is available from the <xref href="SuperOffice.CRM.Services.IChatAgent?text=Chat+Agent" data-throw-if-not-resolved="false"></xref>.
   example:
-  - "\nGet ChatSessionEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ChatAgent();\n    var chatSessionEntity = agent.GetChatSessionEntity( 123 );\n }</code></pre>\n\nFind all ChatSessionEntity, get related items using archive agent.\n<pre><code>var archive = new ArchiveAgent();\nvar rows = archive.GetArchiveListByColumns2(&quot;ChatSession&quot;, &quot;...&quot;, null, &quot;getAllRows eq 1&quot;, null, 0, 100 );</code></pre>\n"
+  - >-
+    Get ChatSessionEntity 123 using the agent:
+
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       var agent = new ChatAgent();
+       var chatSessionEntity = agent.GetChatSessionEntity( 123 );
+    }</code></pre>
+
+
+    Find all ChatSessionEntity, get related items using archive agent.
+
+    <pre><code class="lang-csharp">var archive = new ArchiveAgent();
+
+    var rows = archive.GetArchiveListByColumns2("ChatSession", "...", null, "getAllRows eq 1", null, 0, 100 );</code></pre>
   syntax:
-    content: 'public class ChatSessionEntity : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class ChatSessionEntity : Carrier
     content.vb: >-
-      Public Class ChatSessionEntity
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class ChatSessionEntity Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.ChatAgent
-    commentId: T:SuperOffice.CRM.Services.ChatAgent
   - linkId: SuperOffice.CRM.Services.IChatAgent
     commentId: T:SuperOffice.CRM.Services.IChatAgent
-  - linkId: SuperOffice.CRM.Services.ArchiveAgent
-    commentId: T:SuperOffice.CRM.Services.ArchiveAgent
-  - linkId: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-    commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.ChatSessionEntity.#ctor
   id: '#ctor'
@@ -88,21 +112,18 @@ items:
   nameWithType: ChatSessionEntity.ChatSessionEntity()
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.ChatSessionEntity()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public ChatSessionEntity()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.ChatSessionEntity.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ChatSessionEntity.New()
+  fullName.vb: SuperOffice.CRM.Services.ChatSessionEntity.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.ToString
   commentId: M:SuperOffice.CRM.Services.ChatSessionEntity.ToString
   id: ToString
@@ -114,26 +135,18 @@ items:
   nameWithType: ChatSessionEntity.ToString()
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.ChatSessionEntity.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ChatSessionEntity.ToString(System.String)
   id: ToString(System.String)
@@ -141,17 +154,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: ChatSessionEntity.ToString(String)
-  fullName: SuperOffice.CRM.Services.ChatSessionEntity.ToString(System.String)
+  name: ToString(string)
+  nameWithType: ChatSessionEntity.ToString(string)
+  fullName: SuperOffice.CRM.Services.ChatSessionEntity.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -163,10 +177,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ChatSessionEntity.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ChatSessionEntity.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.ChatSessionEntity.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.ChatSessionId
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.ChatSessionId
   id: ChatSessionId
@@ -178,28 +191,28 @@ items:
   nameWithType: ChatSessionEntity.ChatSessionId
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.ChatSessionId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe primary key (auto-incremented) \n"
+  summary: The primary key (auto-incremented)
+  example: []
   syntax:
-    content: public virtual int ChatSessionId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int ChatSessionId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property ChatSessionId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ChatSessionId As Integer
   overload: SuperOffice.CRM.Services.ChatSessionEntity.ChatSessionId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.TopicId
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.TopicId
   id: TopicId
@@ -211,28 +224,28 @@ items:
   nameWithType: ChatSessionEntity.TopicId
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.TopicId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe reference to the associated chat topic. \n"
+  summary: The reference to the associated chat topic.
+  example: []
   syntax:
-    content: public virtual int TopicId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int TopicId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property TopicId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TopicId As Integer
   overload: SuperOffice.CRM.Services.ChatSessionEntity.TopicId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.User
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.User
   id: User
@@ -244,28 +257,28 @@ items:
   nameWithType: ChatSessionEntity.User
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.User
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nUser agent handling this session \n"
+  summary: User agent handling this session
+  example: []
   syntax:
-    content: public virtual Associate User { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual Associate User { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.Associate
-    content.vb: Public Overridable Property User As Associate
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property User As Associate
   overload: SuperOffice.CRM.Services.ChatSessionEntity.User*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.Person
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.Person
   id: Person
@@ -277,28 +290,28 @@ items:
   nameWithType: ChatSessionEntity.Person
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.Person
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCustomer person in this session - could be empty if we don&apos;t know exactly. \n"
+  summary: Customer person in this session - could be empty if we don't know exactly.
+  example: []
   syntax:
-    content: public virtual Person Person { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual Person Person { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.Person
-    content.vb: Public Overridable Property Person As Person
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Person As Person
   overload: SuperOffice.CRM.Services.ChatSessionEntity.Person*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.CustomerAlias
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.CustomerAlias
   id: CustomerAlias
@@ -310,28 +323,28 @@ items:
   nameWithType: ChatSessionEntity.CustomerAlias
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.CustomerAlias
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe alias for the customer. \n"
+  summary: The alias for the customer.
+  example: []
   syntax:
-    content: public virtual string CustomerAlias { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string CustomerAlias { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property CustomerAlias As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property CustomerAlias As String
   overload: SuperOffice.CRM.Services.ChatSessionEntity.CustomerAlias*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.CustomerHost
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.CustomerHost
   id: CustomerHost
@@ -343,28 +356,28 @@ items:
   nameWithType: ChatSessionEntity.CustomerHost
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.CustomerHost
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe hostname or IP address for the customer. \n"
+  summary: The hostname or IP address for the customer.
+  example: []
   syntax:
-    content: public virtual string CustomerHost { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string CustomerHost { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property CustomerHost As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property CustomerHost As String
   overload: SuperOffice.CRM.Services.ChatSessionEntity.CustomerHost*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.CustomerName
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.CustomerName
   id: CustomerName
@@ -376,28 +389,28 @@ items:
   nameWithType: ChatSessionEntity.CustomerName
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.CustomerName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe name of customer, if provided \n"
+  summary: The name of customer, if provided
+  example: []
   syntax:
-    content: public virtual string CustomerName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string CustomerName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property CustomerName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property CustomerName As String
   overload: SuperOffice.CRM.Services.ChatSessionEntity.CustomerName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.CustomerEmail
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.CustomerEmail
   id: CustomerEmail
@@ -409,28 +422,28 @@ items:
   nameWithType: ChatSessionEntity.CustomerEmail
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.CustomerEmail
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe email address of the customer, if provided \n"
+  summary: The email address of the customer, if provided
+  example: []
   syntax:
-    content: public virtual string CustomerEmail { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string CustomerEmail { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property CustomerEmail As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property CustomerEmail As String
   overload: SuperOffice.CRM.Services.ChatSessionEntity.CustomerEmail*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.CustomerPhone
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.CustomerPhone
   id: CustomerPhone
@@ -442,28 +455,28 @@ items:
   nameWithType: ChatSessionEntity.CustomerPhone
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.CustomerPhone
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe phone number of the customer, if provided \n"
+  summary: The phone number of the customer, if provided
+  example: []
   syntax:
-    content: public virtual string CustomerPhone { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string CustomerPhone { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property CustomerPhone As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property CustomerPhone As String
   overload: SuperOffice.CRM.Services.ChatSessionEntity.CustomerPhone*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.CustomerConsented
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.CustomerConsented
   id: CustomerConsented
@@ -475,28 +488,28 @@ items:
   nameWithType: ChatSessionEntity.CustomerConsented
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.CustomerConsented
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe customer consented when starting the session \n"
+  summary: The customer consented when starting the session
+  example: []
   syntax:
-    content: public virtual bool CustomerConsented { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool CustomerConsented { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property CustomerConsented As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property CustomerConsented As Boolean
   overload: SuperOffice.CRM.Services.ChatSessionEntity.CustomerConsented*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.CustomerCompanyName
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.CustomerCompanyName
   id: CustomerCompanyName
@@ -508,28 +521,28 @@ items:
   nameWithType: ChatSessionEntity.CustomerCompanyName
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.CustomerCompanyName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe name of the customers company, if provided \n"
+  summary: The name of the customers company, if provided
+  example: []
   syntax:
-    content: public virtual string CustomerCompanyName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string CustomerCompanyName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property CustomerCompanyName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property CustomerCompanyName As String
   overload: SuperOffice.CRM.Services.ChatSessionEntity.CustomerCompanyName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.Status
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.Status
   id: Status
@@ -541,28 +554,28 @@ items:
   nameWithType: ChatSessionEntity.Status
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.Status
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nEnum indicating the status for the session (pending, active, closed, etc). \n"
+  summary: Enum indicating the status for the session (pending, active, closed, etc).
+  example: []
   syntax:
-    content: public virtual ChatSessionStatus Status { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual ChatSessionStatus Status { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.ChatSessionStatus
-    content.vb: Public Overridable Property Status As ChatSessionStatus
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Status As ChatSessionStatus
   overload: SuperOffice.CRM.Services.ChatSessionEntity.Status*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.FirstMessage
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.FirstMessage
   id: FirstMessage
@@ -574,28 +587,28 @@ items:
   nameWithType: ChatSessionEntity.FirstMessage
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.FirstMessage
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nA copy of the first message in the chat session \n"
+  summary: A copy of the first message in the chat session
+  example: []
   syntax:
-    content: public virtual string FirstMessage { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string FirstMessage { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property FirstMessage As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FirstMessage As String
   overload: SuperOffice.CRM.Services.ChatSessionEntity.FirstMessage*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.LastMessage
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.LastMessage
   id: LastMessage
@@ -607,28 +620,28 @@ items:
   nameWithType: ChatSessionEntity.LastMessage
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.LastMessage
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nA copy of the last message in the chat session \n"
+  summary: A copy of the last message in the chat session
+  example: []
   syntax:
-    content: public virtual string LastMessage { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string LastMessage { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property LastMessage As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property LastMessage As String
   overload: SuperOffice.CRM.Services.ChatSessionEntity.LastMessage*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.WhenRequested
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.WhenRequested
   id: WhenRequested
@@ -640,28 +653,28 @@ items:
   nameWithType: ChatSessionEntity.WhenRequested
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.WhenRequested
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nWhen the session was requested by the customer. \n"
+  summary: When the session was requested by the customer.
+  example: []
   syntax:
-    content: public virtual DateTime WhenRequested { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime WhenRequested { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WhenRequested As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property WhenRequested As Date
   overload: SuperOffice.CRM.Services.ChatSessionEntity.WhenRequested*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.WhenStarted
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.WhenStarted
   id: WhenStarted
@@ -673,28 +686,28 @@ items:
   nameWithType: ChatSessionEntity.WhenStarted
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.WhenStarted
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nWhen the session was accepted by a user. \n"
+  summary: When the session was accepted by a user.
+  example: []
   syntax:
-    content: public virtual DateTime WhenStarted { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime WhenStarted { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WhenStarted As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property WhenStarted As Date
   overload: SuperOffice.CRM.Services.ChatSessionEntity.WhenStarted*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.WhenEnded
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.WhenEnded
   id: WhenEnded
@@ -706,28 +719,28 @@ items:
   nameWithType: ChatSessionEntity.WhenEnded
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.WhenEnded
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nWhen the session was ended. \n"
+  summary: When the session was ended.
+  example: []
   syntax:
-    content: public virtual DateTime WhenEnded { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime WhenEnded { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WhenEnded As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property WhenEnded As Date
   overload: SuperOffice.CRM.Services.ChatSessionEntity.WhenEnded*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.WhenIdle
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.WhenIdle
   id: WhenIdle
@@ -739,28 +752,28 @@ items:
   nameWithType: ChatSessionEntity.WhenIdle
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.WhenIdle
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe last time anyone sent a message for this session. \n"
+  summary: The last time anyone sent a message for this session.
+  example: []
   syntax:
-    content: public virtual DateTime WhenIdle { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime WhenIdle { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WhenIdle As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property WhenIdle As Date
   overload: SuperOffice.CRM.Services.ChatSessionEntity.WhenIdle*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.WhenFetched
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.WhenFetched
   id: WhenFetched
@@ -772,28 +785,28 @@ items:
   nameWithType: ChatSessionEntity.WhenFetched
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.WhenFetched
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe last time the customer&amp;apos;s client refetched the data. Used to detect &amp;apos;dead&amp;apos; session. \n"
+  summary: The last time the customer&amp;apos;s client refetched the data. Used to detect &amp;apos;dead&amp;apos; session.
+  example: []
   syntax:
-    content: public virtual DateTime WhenFetched { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime WhenFetched { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WhenFetched As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property WhenFetched As Date
   overload: SuperOffice.CRM.Services.ChatSessionEntity.WhenFetched*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.SessionKey
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.SessionKey
   id: SessionKey
@@ -805,28 +818,28 @@ items:
   nameWithType: ChatSessionEntity.SessionKey
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.SessionKey
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nKey used to authenticate the session. \n"
+  summary: Key used to authenticate the session.
+  example: []
   syntax:
-    content: public virtual string SessionKey { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string SessionKey { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property SessionKey As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SessionKey As String
   overload: SuperOffice.CRM.Services.ChatSessionEntity.SessionKey*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.InitialQueuePos
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.InitialQueuePos
   id: InitialQueuePos
@@ -838,28 +851,28 @@ items:
   nameWithType: ChatSessionEntity.InitialQueuePos
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.InitialQueuePos
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe initial queue pos (i.e. the number of pending sessions + 1) when the session was requested. \n"
+  summary: The initial queue pos (i.e. the number of pending sessions + 1) when the session was requested.
+  example: []
   syntax:
-    content: public virtual int InitialQueuePos { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int InitialQueuePos { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property InitialQueuePos As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property InitialQueuePos As Integer
   overload: SuperOffice.CRM.Services.ChatSessionEntity.InitialQueuePos*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.AlertLevel
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.AlertLevel
   id: AlertLevel
@@ -871,28 +884,28 @@ items:
   nameWithType: ChatSessionEntity.AlertLevel
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.AlertLevel
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe alert level for this chat session. \n"
+  summary: The alert level for this chat session.
+  example: []
   syntax:
-    content: public virtual int AlertLevel { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int AlertLevel { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property AlertLevel As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property AlertLevel As Integer
   overload: SuperOffice.CRM.Services.ChatSessionEntity.AlertLevel*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.Rank
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.Rank
   id: Rank
@@ -904,28 +917,28 @@ items:
   nameWithType: ChatSessionEntity.Rank
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.Rank
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLowest possible unique number for active sessions for user. User for color index. Starting at 1. \n"
+  summary: Lowest possible unique number for active sessions for user. User for color index. Starting at 1.
+  example: []
   syntax:
-    content: public virtual int Rank { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int Rank { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property Rank As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Rank As Integer
   overload: SuperOffice.CRM.Services.ChatSessionEntity.Rank*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.Flags
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.Flags
   id: Flags
@@ -937,28 +950,28 @@ items:
   nameWithType: ChatSessionEntity.Flags
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.Flags
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nVarious flags for the chat session \n"
+  summary: Various flags for the chat session
+  example: []
   syntax:
-    content: public virtual ChatSessionFlags Flags { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual ChatSessionFlags Flags { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.ChatSessionFlags
-    content.vb: Public Overridable Property Flags As ChatSessionFlags
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Flags As ChatSessionFlags
   overload: SuperOffice.CRM.Services.ChatSessionEntity.Flags*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.Contact
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.Contact
   id: Contact
@@ -970,28 +983,28 @@ items:
   nameWithType: ChatSessionEntity.Contact
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.Contact
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nContact this session is connected to - could be empty if we don&apos;t know exactly. \n"
+  summary: Contact this session is connected to - could be empty if we don't know exactly.
+  example: []
   syntax:
-    content: public virtual Contact Contact { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual Contact Contact { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.Contact
-    content.vb: Public Overridable Property Contact As Contact
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Contact As Contact
   overload: SuperOffice.CRM.Services.ChatSessionEntity.Contact*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.Project
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.Project
   id: Project
@@ -1003,28 +1016,28 @@ items:
   nameWithType: ChatSessionEntity.Project
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.Project
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nProject the session is connectedto - could be empty if we don&apos;t know exactly. \n"
+  summary: Project the session is connectedto - could be empty if we don't know exactly.
+  example: []
   syntax:
-    content: public virtual Project Project { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual Project Project { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.Project
-    content.vb: Public Overridable Property Project As Project
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Project As Project
   overload: SuperOffice.CRM.Services.ChatSessionEntity.Project*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.Sale
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.Sale
   id: Sale
@@ -1036,28 +1049,28 @@ items:
   nameWithType: ChatSessionEntity.Sale
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.Sale
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSale the session is connected to - could be empty if we don&apos;t know exactly. \n"
+  summary: Sale the session is connected to - could be empty if we don't know exactly.
+  example: []
   syntax:
-    content: public virtual Sale Sale { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual Sale Sale { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.Sale
-    content.vb: Public Overridable Property Sale As Sale
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Sale As Sale
   overload: SuperOffice.CRM.Services.ChatSessionEntity.Sale*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.Ticket
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.Ticket
   id: Ticket
@@ -1069,28 +1082,28 @@ items:
   nameWithType: ChatSessionEntity.Ticket
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.Ticket
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTicket the session is connected to - could be empty if we don&apos;t know exactly. \n"
+  summary: Ticket the session is connected to - could be empty if we don't know exactly.
+  example: []
   syntax:
-    content: public virtual Ticket Ticket { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual Ticket Ticket { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.Ticket
-    content.vb: Public Overridable Property Ticket As Ticket
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Ticket As Ticket
   overload: SuperOffice.CRM.Services.ChatSessionEntity.Ticket*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.TransferTo
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.TransferTo
   id: TransferTo
@@ -1102,28 +1115,28 @@ items:
   nameWithType: ChatSessionEntity.TransferTo
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.TransferTo
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nUser agent that has a pending transfer of the chat session \n"
+  summary: User agent that has a pending transfer of the chat session
+  example: []
   syntax:
-    content: public virtual Associate TransferTo { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual Associate TransferTo { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.Associate
-    content.vb: Public Overridable Property TransferTo As Associate
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TransferTo As Associate
   overload: SuperOffice.CRM.Services.ChatSessionEntity.TransferTo*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.ChatbotIsActive
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.ChatbotIsActive
   id: ChatbotIsActive
@@ -1135,28 +1148,28 @@ items:
   nameWithType: ChatSessionEntity.ChatbotIsActive
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.ChatbotIsActive
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nIndicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. \n"
+  summary: Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user.
+  example: []
   syntax:
-    content: public virtual bool ChatbotIsActive { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool ChatbotIsActive { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property ChatbotIsActive As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ChatbotIsActive As Boolean
   overload: SuperOffice.CRM.Services.ChatSessionEntity.ChatbotIsActive*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.Rating
   commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.Rating
   id: Rating
@@ -1168,207 +1181,106 @@ items:
   nameWithType: ChatSessionEntity.Rating
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.Rating
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRating of this chat conversation given by the customer \n"
+  summary: Rating of this chat conversation given by the customer
+  example: []
   syntax:
-    content: public virtual int Rating { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int Rating { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property Rating As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Rating As Integer
   overload: SuperOffice.CRM.Services.ChatSessionEntity.Rating*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.ChatAgent
-  commentId: T:SuperOffice.CRM.Services.ChatAgent
-  isExternal: true
-  name: ChatAgent
-  nameWithType: ChatAgent
-  fullName: SuperOffice.CRM.Services.ChatAgent
 - uid: SuperOffice.CRM.Services.IChatAgent
   commentId: T:SuperOffice.CRM.Services.IChatAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IChatAgent.html
   name: IChatAgent
   nameWithType: IChatAgent
   fullName: SuperOffice.CRM.Services.IChatAgent
-- uid: SuperOffice.CRM.Services.ArchiveAgent
-  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  name: ArchiveAgent
-  nameWithType: ArchiveAgent
-  fullName: SuperOffice.CRM.Services.ArchiveAgent
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-  parent: SuperOffice.CRM.Services.IArchiveAgent
-  isExternal: true
-  name: GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
-  nameWithType: IArchiveAgent.GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32)
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-    name: GetArchiveListByColumns2
-    nameWithType: IArchiveAgent.GetArchiveListByColumns2
-    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: SuperOffice.CRM.Services.html
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-    name: GetArchiveListByColumns2
-    nameWithType: IArchiveAgent.GetArchiveListByColumns2
-    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.IArchiveAgent
-  commentId: T:SuperOffice.CRM.Services.IArchiveAgent
-  parent: SuperOffice.CRM.Services
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
-  name: IArchiveAgent
-  nameWithType: IArchiveAgent
-  fullName: SuperOffice.CRM.Services.IArchiveAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity__ctor
   name: ChatSessionEntity
   nameWithType: ChatSessionEntity.ChatSessionEntity
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.ChatSessionEntity
+  nameWithType.vb: ChatSessionEntity.New
+  fullName.vb: SuperOffice.CRM.Services.ChatSessionEntity.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_ToString
   name: ToString
   nameWithType: ChatSessionEntity.ToString
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.ToString
@@ -1376,18 +1288,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.ChatSessionId*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.ChatSessionId
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_ChatSessionId
   name: ChatSessionId
   nameWithType: ChatSessionEntity.ChatSessionId
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.ChatSessionId
@@ -1395,18 +1306,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.TopicId*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.TopicId
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_TopicId
   name: TopicId
   nameWithType: ChatSessionEntity.TopicId
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.TopicId
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.User*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.User
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_User
   name: User
   nameWithType: ChatSessionEntity.User
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.User
@@ -1414,12 +1331,14 @@ references:
   commentId: T:SuperOffice.CRM.Services.Associate
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.Associate.html
   name: Associate
   nameWithType: Associate
   fullName: SuperOffice.CRM.Services.Associate
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.Person*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.Person
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_Person
   name: Person
   nameWithType: ChatSessionEntity.Person
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.Person
@@ -1427,42 +1346,49 @@ references:
   commentId: T:SuperOffice.CRM.Services.Person
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.Person.html
   name: Person
   nameWithType: Person
   fullName: SuperOffice.CRM.Services.Person
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.CustomerAlias*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.CustomerAlias
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_CustomerAlias
   name: CustomerAlias
   nameWithType: ChatSessionEntity.CustomerAlias
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.CustomerAlias
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.CustomerHost*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.CustomerHost
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_CustomerHost
   name: CustomerHost
   nameWithType: ChatSessionEntity.CustomerHost
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.CustomerHost
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.CustomerName*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.CustomerName
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_CustomerName
   name: CustomerName
   nameWithType: ChatSessionEntity.CustomerName
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.CustomerName
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.CustomerEmail*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.CustomerEmail
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_CustomerEmail
   name: CustomerEmail
   nameWithType: ChatSessionEntity.CustomerEmail
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.CustomerEmail
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.CustomerPhone*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.CustomerPhone
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_CustomerPhone
   name: CustomerPhone
   nameWithType: ChatSessionEntity.CustomerPhone
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.CustomerPhone
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.CustomerConsented*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.CustomerConsented
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_CustomerConsented
   name: CustomerConsented
   nameWithType: ChatSessionEntity.CustomerConsented
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.CustomerConsented
@@ -1470,18 +1396,24 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.CustomerCompanyName*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.CustomerCompanyName
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_CustomerCompanyName
   name: CustomerCompanyName
   nameWithType: ChatSessionEntity.CustomerCompanyName
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.CustomerCompanyName
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.Status*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.Status
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_Status
   name: Status
   nameWithType: ChatSessionEntity.Status
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.Status
@@ -1494,77 +1426,95 @@ references:
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.FirstMessage*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.FirstMessage
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_FirstMessage
   name: FirstMessage
   nameWithType: ChatSessionEntity.FirstMessage
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.FirstMessage
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.LastMessage*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.LastMessage
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_LastMessage
   name: LastMessage
   nameWithType: ChatSessionEntity.LastMessage
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.LastMessage
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.WhenRequested*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.WhenRequested
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_WhenRequested
   name: WhenRequested
   nameWithType: ChatSessionEntity.WhenRequested
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.WhenRequested
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.WhenStarted*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.WhenStarted
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_WhenStarted
   name: WhenStarted
   nameWithType: ChatSessionEntity.WhenStarted
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.WhenStarted
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.WhenEnded*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.WhenEnded
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_WhenEnded
   name: WhenEnded
   nameWithType: ChatSessionEntity.WhenEnded
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.WhenEnded
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.WhenIdle*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.WhenIdle
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_WhenIdle
   name: WhenIdle
   nameWithType: ChatSessionEntity.WhenIdle
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.WhenIdle
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.WhenFetched*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.WhenFetched
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_WhenFetched
   name: WhenFetched
   nameWithType: ChatSessionEntity.WhenFetched
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.WhenFetched
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.SessionKey*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.SessionKey
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_SessionKey
   name: SessionKey
   nameWithType: ChatSessionEntity.SessionKey
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.SessionKey
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.InitialQueuePos*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.InitialQueuePos
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_InitialQueuePos
   name: InitialQueuePos
   nameWithType: ChatSessionEntity.InitialQueuePos
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.InitialQueuePos
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.AlertLevel*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.AlertLevel
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_AlertLevel
   name: AlertLevel
   nameWithType: ChatSessionEntity.AlertLevel
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.AlertLevel
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.Rank*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.Rank
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_Rank
   name: Rank
   nameWithType: ChatSessionEntity.Rank
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.Rank
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.Flags*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.Flags
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_Flags
   name: Flags
   nameWithType: ChatSessionEntity.Flags
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.Flags
@@ -1577,6 +1527,7 @@ references:
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.Contact*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.Contact
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_Contact
   name: Contact
   nameWithType: ChatSessionEntity.Contact
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.Contact
@@ -1584,12 +1535,14 @@ references:
   commentId: T:SuperOffice.CRM.Services.Contact
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.Contact.html
   name: Contact
   nameWithType: Contact
   fullName: SuperOffice.CRM.Services.Contact
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.Project*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.Project
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_Project
   name: Project
   nameWithType: ChatSessionEntity.Project
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.Project
@@ -1597,12 +1550,14 @@ references:
   commentId: T:SuperOffice.CRM.Services.Project
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.Project.html
   name: Project
   nameWithType: Project
   fullName: SuperOffice.CRM.Services.Project
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.Sale*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.Sale
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_Sale
   name: Sale
   nameWithType: ChatSessionEntity.Sale
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.Sale
@@ -1610,12 +1565,14 @@ references:
   commentId: T:SuperOffice.CRM.Services.Sale
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.Sale.html
   name: Sale
   nameWithType: Sale
   fullName: SuperOffice.CRM.Services.Sale
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.Ticket*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.Ticket
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_Ticket
   name: Ticket
   nameWithType: ChatSessionEntity.Ticket
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.Ticket
@@ -1623,24 +1580,28 @@ references:
   commentId: T:SuperOffice.CRM.Services.Ticket
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.Ticket.html
   name: Ticket
   nameWithType: Ticket
   fullName: SuperOffice.CRM.Services.Ticket
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.TransferTo*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.TransferTo
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_TransferTo
   name: TransferTo
   nameWithType: ChatSessionEntity.TransferTo
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.TransferTo
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.ChatbotIsActive*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.ChatbotIsActive
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_ChatbotIsActive
   name: ChatbotIsActive
   nameWithType: ChatSessionEntity.ChatbotIsActive
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.ChatbotIsActive
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.Rating*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.Rating
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatSessionEntity.html#SuperOffice_CRM_Services_ChatSessionEntity_Rating
   name: Rating
   nameWithType: ChatSessionEntity.Rating
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.Rating

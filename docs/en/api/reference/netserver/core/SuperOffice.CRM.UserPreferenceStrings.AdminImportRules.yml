@@ -30,27 +30,24 @@ items:
   nameWithType: UserPreferenceStrings.AdminImportRules
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nPreference keys for the mini panel.\n"
+  summary: Preference keys for the mini panel.
+  example: []
   syntax:
-    content: 'public static class AdminImportRules : Object'
-    content.vb: >-
-      Public Module AdminImportRules
-          Inherits Object
+    content: public static class UserPreferenceStrings.AdminImportRules
+    content.vb: Public Module UserPreferenceStrings.AdminImportRules
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.Section
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.Section
   id: Section
@@ -62,24 +59,16 @@ items:
   nameWithType: UserPreferenceStrings.AdminImportRules.Section
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.Section
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nSection heading\n"
+  summary: Section heading
+  example: []
   syntax:
     content: public const string Section = "Import"
     return:
       type: System.String
     content.vb: Public Const Section As String = "Import"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportContactDuplicate
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportContactDuplicate
   id: AdminImportContactDuplicate
@@ -91,24 +80,16 @@ items:
   nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportContactDuplicate
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportContactDuplicate
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nContact duplicate definition on import\n"
+  summary: Contact duplicate definition on import
+  example: []
   syntax:
     content: public const string AdminImportContactDuplicate = "AdminImportContactDuplicate"
     return:
       type: System.String
     content.vb: Public Const AdminImportContactDuplicate As String = "AdminImportContactDuplicate"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportContactDuplicateAction
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportContactDuplicateAction
   id: AdminImportContactDuplicateAction
@@ -120,24 +101,16 @@ items:
   nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportContactDuplicateAction
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportContactDuplicateAction
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nContact duplicate action on import\n"
+  summary: Contact duplicate action on import
+  example: []
   syntax:
     content: public const string AdminImportContactDuplicateAction = "AdminImportContactDuplicateAction"
     return:
       type: System.String
     content.vb: Public Const AdminImportContactDuplicateAction As String = "AdminImportContactDuplicateAction"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportContactBlankAction
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportContactBlankAction
   id: AdminImportContactBlankAction
@@ -149,24 +122,16 @@ items:
   nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportContactBlankAction
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportContactBlankAction
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nContact blank action on import\n"
+  summary: Contact blank action on import
+  example: []
   syntax:
     content: public const string AdminImportContactBlankAction = "AdminImportContactBlankAction"
     return:
       type: System.String
     content.vb: Public Const AdminImportContactBlankAction As String = "AdminImportContactBlankAction"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportPersonDuplicate
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportPersonDuplicate
   id: AdminImportPersonDuplicate
@@ -178,24 +143,16 @@ items:
   nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportPersonDuplicate
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportPersonDuplicate
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nPerson duplicate definition on import\n"
+  summary: Person duplicate definition on import
+  example: []
   syntax:
     content: public const string AdminImportPersonDuplicate = "AdminImportPersonDuplicate"
     return:
       type: System.String
     content.vb: Public Const AdminImportPersonDuplicate As String = "AdminImportPersonDuplicate"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportPersonDuplicateAction
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportPersonDuplicateAction
   id: AdminImportPersonDuplicateAction
@@ -207,24 +164,16 @@ items:
   nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportPersonDuplicateAction
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportPersonDuplicateAction
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nPerson blank action on import\n"
+  summary: Person blank action on import
+  example: []
   syntax:
     content: public const string AdminImportPersonDuplicateAction = "AdminImportPersonDuplicateAction"
     return:
       type: System.String
     content.vb: Public Const AdminImportPersonDuplicateAction As String = "AdminImportPersonDuplicateAction"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewCategoryItems
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewCategoryItems
   id: AdminImportNewCategoryItems
@@ -236,24 +185,16 @@ items:
   nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportNewCategoryItems
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewCategoryItems
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nAction on new list items on import\n"
+  summary: Action on new list items on import
+  example: []
   syntax:
     content: public const string AdminImportNewCategoryItems = "AdminImportNewCategoryItems"
     return:
       type: System.String
     content.vb: Public Const AdminImportNewCategoryItems As String = "AdminImportNewCategoryItems"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewBusinessItems
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewBusinessItems
   id: AdminImportNewBusinessItems
@@ -265,24 +206,16 @@ items:
   nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportNewBusinessItems
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewBusinessItems
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nAction on new list items on import\n"
+  summary: Action on new list items on import
+  example: []
   syntax:
     content: public const string AdminImportNewBusinessItems = "AdminImportNewBusinessItems"
     return:
       type: System.String
     content.vb: Public Const AdminImportNewBusinessItems As String = "AdminImportNewBusinessItems"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewPositionItems
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewPositionItems
   id: AdminImportNewPositionItems
@@ -294,24 +227,16 @@ items:
   nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportNewPositionItems
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewPositionItems
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nAction on new list items on import\n"
+  summary: Action on new list items on import
+  example: []
   syntax:
     content: public const string AdminImportNewPositionItems = "AdminImportNewPositionItems"
     return:
       type: System.String
     content.vb: Public Const AdminImportNewPositionItems As String = "AdminImportNewPositionItems"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewUDListItems
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewUDListItems
   id: AdminImportNewUDListItems
@@ -323,24 +248,16 @@ items:
   nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportNewUDListItems
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewUDListItems
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nAction on new list items on import\n"
+  summary: Action on new list items on import
+  example: []
   syntax:
     content: public const string AdminImportNewUDListItems = "AdminImportNewUDListItems"
     return:
       type: System.String
     content.vb: Public Const AdminImportNewUDListItems As String = "AdminImportNewUDListItems"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewInterestItems
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewInterestItems
   id: AdminImportNewInterestItems
@@ -352,24 +269,16 @@ items:
   nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportNewInterestItems
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewInterestItems
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nAction on new list items on import\n"
+  summary: Action on new list items on import
+  example: []
   syntax:
     content: public const string AdminImportNewInterestItems = "AdminImportNewInterestItems"
     return:
       type: System.String
     content.vb: Public Const AdminImportNewInterestItems As String = "AdminImportNewInterestItems"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportPhoneNumbers
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportPhoneNumbers
   id: AdminImportPhoneNumbers
@@ -381,24 +290,16 @@ items:
   nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportPhoneNumbers
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportPhoneNumbers
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nAction on new phone numbers on import\n"
+  summary: Action on new phone numbers on import
+  example: []
   syntax:
     content: public const string AdminImportPhoneNumbers = "AdminImportPhoneNumbers"
     return:
       type: System.String
     content.vb: Public Const AdminImportPhoneNumbers As String = "AdminImportPhoneNumbers"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportUrlsEmails
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportUrlsEmails
   id: AdminImportUrlsEmails
@@ -410,24 +311,16 @@ items:
   nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportUrlsEmails
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportUrlsEmails
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nAction on urls and emails on import\n"
+  summary: Action on urls and emails on import
+  example: []
   syntax:
     content: public const string AdminImportUrlsEmails = "AdminImportUrlsEmails"
     return:
       type: System.String
     content.vb: Public Const AdminImportUrlsEmails As String = "AdminImportUrlsEmails"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportProductDuplicate
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportProductDuplicate
   id: AdminImportProductDuplicate
@@ -439,24 +332,16 @@ items:
   nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportProductDuplicate
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportProductDuplicate
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nProduct duplicate definition on import\n"
+  summary: Product duplicate definition on import
+  example: []
   syntax:
     content: public const string AdminImportProductDuplicate = "AdminImportProductDuplicate"
     return:
       type: System.String
     content.vb: Public Const AdminImportProductDuplicate As String = "AdminImportProductDuplicate"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportProductDuplicateAction
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportProductDuplicateAction
   id: AdminImportProductDuplicateAction
@@ -468,24 +353,16 @@ items:
   nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportProductDuplicateAction
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportProductDuplicateAction
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nProduct duplicate action on import\n"
+  summary: Product duplicate action on import
+  example: []
   syntax:
     content: public const string AdminImportProductDuplicateAction = "AdminImportProductDuplicateAction"
     return:
       type: System.String
     content.vb: Public Const AdminImportProductDuplicateAction As String = "AdminImportProductDuplicateAction"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewProductCategoryItems
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewProductCategoryItems
   id: AdminImportNewProductCategoryItems
@@ -497,24 +374,16 @@ items:
   nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportNewProductCategoryItems
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewProductCategoryItems
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nAction on new list items in product category on import\n"
+  summary: Action on new list items in product category on import
+  example: []
   syntax:
     content: public const string AdminImportNewProductCategoryItems = "AdminImportNewProductCategoryItems"
     return:
       type: System.String
     content.vb: Public Const AdminImportNewProductCategoryItems As String = "AdminImportNewProductCategoryItems"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewProductFamilyItems
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewProductFamilyItems
   id: AdminImportNewProductFamilyItems
@@ -526,24 +395,16 @@ items:
   nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportNewProductFamilyItems
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewProductFamilyItems
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nAction on new list items in product family on import\n"
+  summary: Action on new list items in product family on import
+  example: []
   syntax:
     content: public const string AdminImportNewProductFamilyItems = "AdminImportNewProductFamilyItems"
     return:
       type: System.String
     content.vb: Public Const AdminImportNewProductFamilyItems As String = "AdminImportNewProductFamilyItems"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewProductTypeItems
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewProductTypeItems
   id: AdminImportNewProductTypeItems
@@ -555,41 +416,278 @@ items:
   nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportNewProductTypeItems
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewProductTypeItems
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nAction on new list items in product type on import\n"
+  summary: Action on new list items in product type on import
+  example: []
   syntax:
     content: public const string AdminImportNewProductTypeItems = "AdminImportNewProductTypeItems"
     return:
       type: System.String
     content.vb: Public Const AdminImportNewProductTypeItems As String = "AdminImportNewProductTypeItems"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -597,6 +695,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

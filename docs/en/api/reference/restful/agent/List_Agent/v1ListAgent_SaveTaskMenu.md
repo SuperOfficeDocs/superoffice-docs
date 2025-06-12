@@ -89,23 +89,23 @@ OK
 POST /api/v1/Agents/List/SaveTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 337,
-  "Name": "Bosco-Wilderman",
-  "Tooltip": "nisi",
-  "TableName": "Stokes-Bosco",
-  "Area": "voluptatem",
+  "TaskMenuId": 828,
+  "Name": "Wolff, Schmeler and Rath",
+  "Tooltip": "deleniti",
+  "TableName": "Kunde-Hammes",
+  "Area": "error",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 636,
+  "CrmScriptId": 427,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 39,
+  "Rank": 743,
   "Encoding": "ANSI",
-  "ProgId": "consequatur",
+  "ProgId": "iure",
   "Deleted": false
 }
 ```
@@ -117,26 +117,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 99,
-  "Name": "Kiehn Inc and Sons",
-  "Tooltip": "nostrum",
-  "TableName": "Kirlin Group",
-  "Area": "molestiae",
+  "TaskMenuId": 30,
+  "Name": "Gleason Group",
+  "Tooltip": "impedit",
+  "TableName": "Hayes, Walter and Waelchi",
+  "Area": "et",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 31,
+  "CrmScriptId": 309,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 145,
+  "Rank": 75,
   "Encoding": "ANSI",
-  "ProgId": "pariatur",
-  "Deleted": false,
+  "ProgId": "consequatur",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 536
+      "FieldType": "System.String",
+      "FieldLength": 58
     }
   }
 }

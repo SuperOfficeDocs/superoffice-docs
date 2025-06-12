@@ -81,10 +81,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 817,
+  "DocumentId": 647,
   "AllowedReturnTypes": [
-    "aut",
-    "nihil"
+    "omnis",
+    "perspiciatis"
   ]
 }
 ```
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "autem",
-  "VersionId": "itaque",
+  "ExternalReference": "omnis",
+  "VersionId": "nam",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "error",
-  "AdditionalInfo": "aperiam"
+  "Value": "eveniet",
+  "AdditionalInfo": "deserunt"
 }
 ```

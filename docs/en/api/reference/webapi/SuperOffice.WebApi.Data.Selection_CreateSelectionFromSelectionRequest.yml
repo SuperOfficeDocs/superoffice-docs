@@ -17,25 +17,23 @@ items:
   nameWithType: Selection_CreateSelectionFromSelectionRequest
   fullName: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
+  example: []
   syntax:
-    content: 'public class Selection_CreateSelectionFromSelectionRequest : Object'
-    content.vb: >-
-      Public Class Selection_CreateSelectionFromSelectionRequest
-          Inherits Object
+    content: public class Selection_CreateSelectionFromSelectionRequest
+    content.vb: Public Class Selection_CreateSelectionFromSelectionRequest
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.#ctor
   commentId: M:SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.#ctor
   id: '#ctor'
@@ -47,20 +45,16 @@ items:
   nameWithType: Selection_CreateSelectionFromSelectionRequest.Selection_CreateSelectionFromSelectionRequest()
   fullName: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.Selection_CreateSelectionFromSelectionRequest()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   syntax:
     content: public Selection_CreateSelectionFromSelectionRequest()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: Selection_CreateSelectionFromSelectionRequest.New()
+  fullName.vb: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.SelectionId
   commentId: P:SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.SelectionId
   id: SelectionId
@@ -72,12 +66,10 @@ items:
   nameWithType: Selection_CreateSelectionFromSelectionRequest.SelectionId
   fullName: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.SelectionId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
+  example: []
   syntax:
     content: public int SelectionId { get; set; }
     parameters: []
@@ -85,12 +77,6 @@ items:
       type: System.Int32
     content.vb: Public Property SelectionId As Integer
   overload: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.SelectionId*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.Name
   commentId: P:SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.Name
   id: Name
@@ -102,12 +88,10 @@ items:
   nameWithType: Selection_CreateSelectionFromSelectionRequest.Name
   fullName: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.Name
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
+  example: []
   syntax:
     content: public string Name { get; set; }
     parameters: []
@@ -115,12 +99,6 @@ items:
       type: System.String
     content.vb: Public Property Name As String
   overload: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.Name*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.TargetSelectionType
   commentId: P:SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.TargetSelectionType
   id: TargetSelectionType
@@ -132,12 +110,10 @@ items:
   nameWithType: Selection_CreateSelectionFromSelectionRequest.TargetSelectionType
   fullName: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.TargetSelectionType
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
+  example: []
   syntax:
     content: public SelectionType TargetSelectionType { get; set; }
     parameters: []
@@ -145,12 +121,6 @@ items:
       type: SuperOffice.WebApi.Data.SelectionType
     content.vb: Public Property TargetSelectionType As SelectionType
   overload: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.TargetSelectionType*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.CopyMembers
   commentId: P:SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.CopyMembers
   id: CopyMembers
@@ -162,12 +132,10 @@ items:
   nameWithType: Selection_CreateSelectionFromSelectionRequest.CopyMembers
   fullName: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.CopyMembers
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
+  example: []
   syntax:
     content: public bool CopyMembers { get; set; }
     parameters: []
@@ -175,41 +143,295 @@ items:
       type: System.Boolean
     content.vb: Public Property CopyMembers As Boolean
   overload: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.CopyMembers*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.html#SuperOffice_WebApi_Data_Selection_CreateSelectionFromSelectionRequest__ctor
   name: Selection_CreateSelectionFromSelectionRequest
   nameWithType: Selection_CreateSelectionFromSelectionRequest.Selection_CreateSelectionFromSelectionRequest
   fullName: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.Selection_CreateSelectionFromSelectionRequest
+  nameWithType.vb: Selection_CreateSelectionFromSelectionRequest.New
+  fullName.vb: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.SelectionId*
   commentId: Overload:SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.SelectionId
   isExternal: true
+  href: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.html#SuperOffice_WebApi_Data_Selection_CreateSelectionFromSelectionRequest_SelectionId
   name: SelectionId
   nameWithType: Selection_CreateSelectionFromSelectionRequest.SelectionId
   fullName: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.SelectionId
@@ -217,12 +439,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.Name*
   commentId: Overload:SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.Name
   isExternal: true
+  href: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.html#SuperOffice_WebApi_Data_Selection_CreateSelectionFromSelectionRequest_Name
   name: Name
   nameWithType: Selection_CreateSelectionFromSelectionRequest.Name
   fullName: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.Name
@@ -230,12 +457,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.TargetSelectionType*
   commentId: Overload:SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.TargetSelectionType
   isExternal: true
+  href: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.html#SuperOffice_WebApi_Data_Selection_CreateSelectionFromSelectionRequest_TargetSelectionType
   name: TargetSelectionType
   nameWithType: Selection_CreateSelectionFromSelectionRequest.TargetSelectionType
   fullName: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.TargetSelectionType
@@ -243,12 +475,14 @@ references:
   commentId: T:SuperOffice.WebApi.Data.SelectionType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.SelectionType.html
   name: SelectionType
   nameWithType: SelectionType
   fullName: SuperOffice.WebApi.Data.SelectionType
 - uid: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.CopyMembers*
   commentId: Overload:SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.CopyMembers
   isExternal: true
+  href: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.html#SuperOffice_WebApi_Data_Selection_CreateSelectionFromSelectionRequest_CopyMembers
   name: CopyMembers
   nameWithType: Selection_CreateSelectionFromSelectionRequest.CopyMembers
   fullName: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.CopyMembers
@@ -256,6 +490,10 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

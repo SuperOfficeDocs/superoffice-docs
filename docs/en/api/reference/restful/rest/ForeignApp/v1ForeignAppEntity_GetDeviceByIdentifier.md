@@ -69,7 +69,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 29 Jan 2003 16:32:47 G1T
+Last-Modified: Tue, 05 Apr 2011 17:54:08 G4T
 
 {
-  "ForeignDeviceId": 30,
-  "Name": "Weimann, Hagenes and Hayes",
-  "CreatedDate": "2023-04-09T16:32:47.5558268+02:00",
-  "UpdatedDate": "2003-01-29T16:32:47.5558268+01:00",
-  "AssociateFullName": "Dustin Ledner",
-  "CreatedBy": "cupiditate",
-  "UpdatedBy": "qui",
-  "DeviceIdentifier": "quo",
-  "ForeignAppId": 847,
+  "ForeignDeviceId": 7,
+  "Name": "Kihn-Emmerich",
+  "CreatedDate": "2016-04-10T17:54:08.2574567+02:00",
+  "UpdatedDate": "2011-04-05T17:54:08.2574567+02:00",
+  "AssociateFullName": "Kennith Douglas",
+  "CreatedBy": "eius",
+  "UpdatedBy": "ut",
+  "DeviceIdentifier": "aliquid",
+  "ForeignAppId": 969,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 652
+      "FieldLength": 401
     }
   }
 }

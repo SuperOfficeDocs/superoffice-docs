@@ -133,11 +133,11 @@ OK
 POST /api/v1/Agents/Appointment/AcceptRejected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 156,
+  "AppointmentId": 8,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -153,121 +153,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2020-08-22T16:32:38.0085236+02:00",
-  "AppointmentId": 813,
-  "Description": "Extended impactful challenge",
-  "Title": "quia",
-  "Agenda": "in",
-  "InternalNotes": "aspernatur",
-  "StartDate": "2023-08-13T16:32:38.0085236+02:00",
-  "EndDate": "2023-06-26T16:32:38.0085236+02:00",
+  "CreatedDate": "2009-05-15T17:54:02.5702335+02:00",
+  "AppointmentId": 716,
+  "Description": "Implemented value-added Graphic Interface",
+  "Title": "rem",
+  "Agenda": "molestiae",
+  "InternalNotes": "incidunt",
+  "StartDate": "2005-08-15T17:54:02.5702335+02:00",
+  "EndDate": "2019-07-06T17:54:02.5702335+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 976,
+  "MotherId": 785,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2022-01-19T16:32:38.0085236+01:00",
+  "UpdatedDate": "2012-07-21T17:54:02.5702335+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 236,
+  "ActiveLinks": 538,
   "Links": [
     {
-      "EntityName": "Lesch Group",
-      "Id": 94,
-      "Description": "Persevering didactic circuit",
-      "ExtraInfo": "nemo",
-      "LinkId": 494,
+      "EntityName": "Pacocha LLC",
+      "Id": 427,
+      "Description": "Decentralized demand-driven hardware",
+      "ExtraInfo": "et",
+      "LinkId": 817,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 69
+          "FieldType": "System.String",
+          "FieldLength": 968
         }
       }
     }
   ],
-  "AlarmLeadTime": "voluptatem",
+  "AlarmLeadTime": "nesciunt",
   "HasAlarm": false,
-  "ColorIndex": 203,
+  "ColorIndex": 704,
   "IsFree": true,
-  "IsAlldayEvent": false,
-  "LagTime": "harum",
-  "LeadTime": "natus",
-  "Location": "perspiciatis",
-  "RejectCounter": 117,
+  "IsAlldayEvent": true,
+  "LagTime": "doloremque",
+  "LeadTime": "sunt",
+  "Location": "et",
+  "RejectCounter": 347,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 758,
-      "PersonId": 73,
-      "ContactId": 241,
-      "EmailId": 17,
+      "AssociateId": 446,
+      "PersonId": 186,
+      "ContactId": 543,
+      "EmailId": 592,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "glenna@pacocha.biz",
-      "Description": "Object-based zero tolerance superstructure"
+      "EmailAddress": "edna@olson.info",
+      "Description": "Diverse bandwidth-monitored adapter"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2008-03-29T16:32:38.0085236+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2012-10-04T17:54:02.5702335+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 720,
+  "PreferredTZLocation": 616,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 935,
+  "SuggestedAppointmentId": 733,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ut",
+  "CentralserviceVideomeetId": "non",
   "UserDefinedFields": {
-    "SuperOffice:1": "Eddie Keeling DDS",
-    "SuperOffice:2": "1964628658"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "1602073277"
   },
   "ExtraFields": {
-    "ExtraFields1": "odio",
-    "ExtraFields2": "sapiente"
+    "ExtraFields1": "est",
+    "ExtraFields2": "dicta"
   },
   "CustomFields": {
-    "CustomFields1": "dicta",
-    "CustomFields2": "et"
+    "CustomFields1": "ipsum",
+    "CustomFields2": "molestias"
   },
-  "PublishEventDate": "2019-12-04T16:32:38.0085236+01:00",
-  "PublishTo": "2022-04-16T16:32:38.0085236+02:00",
-  "PublishFrom": "2016-05-06T16:32:38.0085236+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2025-02-18T17:54:02.5702335+01:00",
+  "PublishTo": "2021-08-06T17:54:02.5702335+02:00",
+  "PublishFrom": "2009-11-18T17:54:02.5702335+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 258,
+      "VisibleId": 721,
       "Visibility": "All",
-      "DisplayValue": "nesciunt",
+      "DisplayValue": "ratione",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 474
+          "FieldLength": 116
         }
       }
     },
     {
-      "VisibleId": 258,
+      "VisibleId": 721,
       "Visibility": "All",
-      "DisplayValue": "nesciunt",
+      "DisplayValue": "ratione",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 474
+          "FieldLength": 116
         }
       }
     }
@@ -276,8 +276,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 234
+      "FieldType": "System.Int32",
+      "FieldLength": 352
     }
   }
 }

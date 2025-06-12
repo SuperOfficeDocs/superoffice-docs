@@ -27,27 +27,24 @@ items:
   nameWithType: DBC.PhoneFormatFields
   fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nFields for PhoneFormat, Formatting information for telephone numbers\n"
+  summary: Fields for PhoneFormat, Formatting information for telephone numbers
+  example: []
   syntax:
-    content: 'public static class PhoneFormatFields : Object'
-    content.vb: >-
-      Public Module PhoneFormatFields
-          Inherits Object
+    content: public static class DBC.PhoneFormatFields
+    content.vb: Public Module DBC.PhoneFormatFields
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.PhoneFormatId
   commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.PhoneFormatId
   id: PhoneFormatId
@@ -59,24 +56,16 @@ items:
   nameWithType: DBC.PhoneFormatFields.PhoneFormatId
   fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.PhoneFormatId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPhoneFormat.PhoneFormatId: Primary key\n"
+  summary: 'PhoneFormat.PhoneFormatId: Primary key'
+  example: []
   syntax:
     content: public const string PhoneFormatId = "PhoneFormat_id"
     return:
       type: System.String
     content.vb: Public Const PhoneFormatId As String = "PhoneFormat_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.CountryId
   commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.CountryId
   id: CountryId
@@ -88,24 +77,16 @@ items:
   nameWithType: DBC.PhoneFormatFields.CountryId
   fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.CountryId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPhoneFormat.CountryId: Country this format record is valid for\n"
+  summary: 'PhoneFormat.CountryId: Country this format record is valid for'
+  example: []
   syntax:
     content: public const string CountryId = "countryId"
     return:
       type: System.String
     content.vb: Public Const CountryId As String = "countryId"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.Prefix
   commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.Prefix
   id: Prefix
@@ -117,24 +98,16 @@ items:
   nameWithType: DBC.PhoneFormatFields.Prefix
   fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.Prefix
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPhoneFormat.Prefix: Prefix that triggers this format\n"
+  summary: 'PhoneFormat.Prefix: Prefix that triggers this format'
+  example: []
   syntax:
     content: public const string Prefix = "prefix"
     return:
       type: System.String
     content.vb: Public Const Prefix As String = "prefix"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.DontFormat
   commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.DontFormat
   id: DontFormat
@@ -146,24 +119,16 @@ items:
   nameWithType: DBC.PhoneFormatFields.DontFormat
   fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.DontFormat
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPhoneFormat.DontFormat: If 1, do not apply any formatting to this number\n"
+  summary: 'PhoneFormat.DontFormat: If 1, do not apply any formatting to this number'
+  example: []
   syntax:
     content: public const string DontFormat = "dontFormat"
     return:
       type: System.String
     content.vb: Public Const DontFormat As String = "dontFormat"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.AreaCodeLength
   commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.AreaCodeLength
   id: AreaCodeLength
@@ -175,24 +140,16 @@ items:
   nameWithType: DBC.PhoneFormatFields.AreaCodeLength
   fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.AreaCodeLength
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPhoneFormat.AreaCodeLength: Length of area code (can be interval)\n"
+  summary: 'PhoneFormat.AreaCodeLength: Length of area code (can be interval)'
+  example: []
   syntax:
     content: public const string AreaCodeLength = "areaCodeLength"
     return:
       type: System.String
     content.vb: Public Const AreaCodeLength As String = "areaCodeLength"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.LocalLength
   commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.LocalLength
   id: LocalLength
@@ -204,24 +161,16 @@ items:
   nameWithType: DBC.PhoneFormatFields.LocalLength
   fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.LocalLength
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPhoneFormat.LocalLength: Length of local part of telephone number (can be interval)\n"
+  summary: 'PhoneFormat.LocalLength: Length of local part of telephone number (can be interval)'
+  example: []
   syntax:
     content: public const string LocalLength = "localLength"
     return:
       type: System.String
     content.vb: Public Const LocalLength As String = "localLength"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.Mask
   commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.Mask
   id: Mask
@@ -233,24 +182,16 @@ items:
   nameWithType: DBC.PhoneFormatFields.Mask
   fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.Mask
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPhoneFormat.Mask: Formatting mask to be applied\n"
+  summary: 'PhoneFormat.Mask: Formatting mask to be applied'
+  example: []
   syntax:
     content: public const string Mask = "mask"
     return:
       type: System.String
     content.vb: Public Const Mask As String = "mask"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.Description
   commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.Description
   id: Description
@@ -262,24 +203,16 @@ items:
   nameWithType: DBC.PhoneFormatFields.Description
   fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.Description
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPhoneFormat.Description: Description of this format\n"
+  summary: 'PhoneFormat.Description: Description of this format'
+  example: []
   syntax:
     content: public const string Description = "description"
     return:
       type: System.String
     content.vb: Public Const Description As String = "description"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.IsBuiltIn
   commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.IsBuiltIn
   id: IsBuiltIn
@@ -291,24 +224,16 @@ items:
   nameWithType: DBC.PhoneFormatFields.IsBuiltIn
   fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.IsBuiltIn
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPhoneFormat.IsBuiltIn: Does this row come from SuperOffice priming data\n"
+  summary: 'PhoneFormat.IsBuiltIn: Does this row come from SuperOffice priming data'
+  example: []
   syntax:
     content: public const string IsBuiltIn = "isBuiltIn"
     return:
       type: System.String
     content.vb: Public Const IsBuiltIn As String = "isBuiltIn"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.IsActive
   commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.IsActive
   id: IsActive
@@ -320,24 +245,16 @@ items:
   nameWithType: DBC.PhoneFormatFields.IsActive
   fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.IsActive
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPhoneFormat.IsActive: Is this format record active (handy for experimenting)\n"
+  summary: 'PhoneFormat.IsActive: Is this format record active (handy for experimenting)'
+  example: []
   syntax:
     content: public const string IsActive = "isActive"
     return:
       type: System.String
     content.vb: Public Const IsActive As String = "isActive"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.Registered
   commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.Registered
   id: Registered
@@ -349,24 +266,16 @@ items:
   nameWithType: DBC.PhoneFormatFields.Registered
   fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.Registered
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPhoneFormat.Registered: Registered when\n"
+  summary: 'PhoneFormat.Registered: Registered when'
+  example: []
   syntax:
     content: public const string Registered = "registered"
     return:
       type: System.String
     content.vb: Public Const Registered As String = "registered"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -378,24 +287,16 @@ items:
   nameWithType: DBC.PhoneFormatFields.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.RegisteredAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPhoneFormat.RegisteredAssociateId: Registered by whom\n"
+  summary: 'PhoneFormat.RegisteredAssociateId: Registered by whom'
+  example: []
   syntax:
     content: public const string RegisteredAssociateId = "registered_associate_id"
     return:
       type: System.String
     content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.Updated
   commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.Updated
   id: Updated
@@ -407,24 +308,16 @@ items:
   nameWithType: DBC.PhoneFormatFields.Updated
   fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.Updated
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPhoneFormat.Updated: Last updated when\n"
+  summary: 'PhoneFormat.Updated: Last updated when'
+  example: []
   syntax:
     content: public const string Updated = "updated"
     return:
       type: System.String
     content.vb: Public Const Updated As String = "updated"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -436,24 +329,16 @@ items:
   nameWithType: DBC.PhoneFormatFields.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.UpdatedAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPhoneFormat.UpdatedAssociateId: Last updated by whom\n"
+  summary: 'PhoneFormat.UpdatedAssociateId: Last updated by whom'
+  example: []
   syntax:
     content: public const string UpdatedAssociateId = "updated_associate_id"
     return:
       type: System.String
     content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.UpdatedCount
   commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.UpdatedCount
   id: UpdatedCount
@@ -465,41 +350,288 @@ items:
   nameWithType: DBC.PhoneFormatFields.UpdatedCount
   fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.UpdatedCount
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPhoneFormat.UpdatedCount: Number of updates made to this record\n"
+  summary: 'PhoneFormat.UpdatedCount: Number of updates made to this record'
+  example: []
   syntax:
     content: public const string UpdatedCount = "updatedCount"
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -507,6 +639,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

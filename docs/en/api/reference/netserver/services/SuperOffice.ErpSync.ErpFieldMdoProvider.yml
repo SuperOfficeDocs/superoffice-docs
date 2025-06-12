@@ -1,0 +1,245 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.ErpFieldMdoProvider
+  commentId: T:SuperOffice.ErpSync.ErpFieldMdoProvider
+  id: ErpFieldMdoProvider
+  parent: SuperOffice.ErpSync
+  children:
+  - SuperOffice.ErpSync.ErpFieldMdoProvider.#ctor
+  - SuperOffice.ErpSync.ErpFieldMdoProvider.AddItemsAsync(System.Threading.CancellationToken)
+  - SuperOffice.ErpSync.ErpFieldMdoProvider.ProviderName
+  langs:
+  - csharp
+  - vb
+  name: ErpFieldMdoProvider
+  nameWithType: ErpFieldMdoProvider
+  fullName: SuperOffice.ErpSync.ErpFieldMdoProvider
+  type: Class
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Get the list of Erp fields for one specific connection
+  example: []
+  syntax:
+    content: 'public class ErpFieldMdoProvider : LiteralsOnlyBase'
+    content.vb: Public Class ErpFieldMdoProvider Inherits LiteralsOnlyBase
+  inheritance:
+  - System.Object
+- uid: SuperOffice.ErpSync.ErpFieldMdoProvider.ProviderName
+  commentId: F:SuperOffice.ErpSync.ErpFieldMdoProvider.ProviderName
+  id: ProviderName
+  parent: SuperOffice.ErpSync.ErpFieldMdoProvider
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: ErpFieldMdoProvider.ProviderName
+  fullName: SuperOffice.ErpSync.ErpFieldMdoProvider.ProviderName
+  type: Field
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public const string ProviderName = "ErpFields"
+    return:
+      type: System.String
+    content.vb: Public Const ProviderName As String = "ErpFields"
+- uid: SuperOffice.ErpSync.ErpFieldMdoProvider.AddItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.ErpFieldMdoProvider.AddItemsAsync(System.Threading.CancellationToken)
+  id: AddItemsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.ErpFieldMdoProvider
+  langs:
+  - csharp
+  - vb
+  name: AddItemsAsync(CancellationToken)
+  nameWithType: ErpFieldMdoProvider.AddItemsAsync(CancellationToken)
+  fullName: SuperOffice.ErpSync.ErpFieldMdoProvider.AddItemsAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  example: []
+  syntax:
+    content: protected override Task AddItemsAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function AddItemsAsync(cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.ErpSync.ErpFieldMdoProvider.AddItemsAsync*
+- uid: SuperOffice.ErpSync.ErpFieldMdoProvider.#ctor
+  commentId: M:SuperOffice.ErpSync.ErpFieldMdoProvider.#ctor
+  id: '#ctor'
+  parent: SuperOffice.ErpSync.ErpFieldMdoProvider
+  langs:
+  - csharp
+  - vb
+  name: ErpFieldMdoProvider()
+  nameWithType: ErpFieldMdoProvider.ErpFieldMdoProvider()
+  fullName: SuperOffice.ErpSync.ErpFieldMdoProvider.ErpFieldMdoProvider()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public ErpFieldMdoProvider()
+    content.vb: Public Sub New()
+  overload: SuperOffice.ErpSync.ErpFieldMdoProvider.#ctor*
+  nameWithType.vb: ErpFieldMdoProvider.New()
+  fullName.vb: SuperOffice.ErpSync.ErpFieldMdoProvider.New()
+  name.vb: New()
+references:
+- uid: SuperOffice.ErpSync
+  commentId: N:SuperOffice.ErpSync
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync
+  nameWithType: SuperOffice.ErpSync
+  fullName: SuperOffice.ErpSync
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.ErpSync.ErpFieldMdoProvider.AddItemsAsync*
+  commentId: Overload:SuperOffice.ErpSync.ErpFieldMdoProvider.AddItemsAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpFieldMdoProvider.html#SuperOffice_ErpSync_ErpFieldMdoProvider_AddItemsAsync_System_Threading_CancellationToken_
+  name: AddItemsAsync
+  nameWithType: ErpFieldMdoProvider.AddItemsAsync
+  fullName: SuperOffice.ErpSync.ErpFieldMdoProvider.AddItemsAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.ErpSync.ErpFieldMdoProvider.#ctor*
+  commentId: Overload:SuperOffice.ErpSync.ErpFieldMdoProvider.#ctor
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpFieldMdoProvider.html#SuperOffice_ErpSync_ErpFieldMdoProvider__ctor
+  name: ErpFieldMdoProvider
+  nameWithType: ErpFieldMdoProvider.ErpFieldMdoProvider
+  fullName: SuperOffice.ErpSync.ErpFieldMdoProvider.ErpFieldMdoProvider
+  nameWithType.vb: ErpFieldMdoProvider.New
+  fullName.vb: SuperOffice.ErpSync.ErpFieldMdoProvider.New
+  name.vb: New

@@ -91,31 +91,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Metz LLC",
-      "Comment": "velit",
-      "StakeholderRoleId": 476,
-      "CountryId": 323,
-      "PersonId": 155,
-      "EmailDescription": "alfonzo@jaskolski.co.uk",
-      "EmailId": 57,
-      "EmailAddress": "keagan.larkin@gaylord.co.uk",
-      "PhoneId": 109,
-      "ContactName": "Marquardt, Feeney and Schimmel",
-      "ContactId": 28,
-      "SaleId": 587,
-      "Mrmrs": "dolorem",
-      "Firstname": "Elta",
-      "MiddleName": "Torp Group",
-      "Lastname": "Kuphal",
-      "SaleStakeholderId": 540,
-      "Rank": 342,
-      "Phone": "(105)868-0781 x6808"
+      "StakeholderRoleName": "Rohan Inc and Sons",
+      "Comment": "quae",
+      "StakeholderRoleId": 549,
+      "CountryId": 281,
+      "PersonId": 333,
+      "EmailDescription": "zander@bednarkuphal.ca",
+      "EmailId": 798,
+      "EmailAddress": "candace@hodkiewicz.info",
+      "PhoneId": 652,
+      "ContactName": "Moen-Rempel",
+      "ContactId": 440,
+      "SaleId": 931,
+      "Mrmrs": "quia",
+      "Firstname": "Josephine",
+      "MiddleName": "Jacobi, Kuvalis and Terry",
+      "Lastname": "Cronin",
+      "SaleStakeholderId": 920,
+      "Rank": 289,
+      "Phone": "1-736-357-9236 x908"
     }
   ]
 }
@@ -129,31 +129,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Armstrong-Conn",
-    "Comment": "aut",
-    "StakeholderRoleId": 690,
-    "CountryId": 92,
-    "PersonId": 10,
-    "EmailDescription": "johnathan.hackett@okuneva.biz",
-    "EmailId": 479,
-    "EmailAddress": "gene@mayerkassulke.ca",
-    "PhoneId": 715,
-    "ContactName": "Beer Group",
-    "ContactId": 665,
-    "SaleId": 451,
+    "StakeholderRoleName": "Yost-Bednar",
+    "Comment": "nihil",
+    "StakeholderRoleId": 4,
+    "CountryId": 754,
+    "PersonId": 228,
+    "EmailDescription": "russell_ondricka@fahey.us",
+    "EmailId": 403,
+    "EmailAddress": "alysa.terry@pagacsipes.uk",
+    "PhoneId": 865,
+    "ContactName": "Hills, Witting and Bernhard",
+    "ContactId": 200,
+    "SaleId": 107,
     "Mrmrs": "aut",
-    "Firstname": "Lance",
-    "MiddleName": "Lemke Group",
-    "Lastname": "Watsica",
-    "SaleStakeholderId": 937,
-    "Rank": 336,
-    "Phone": "1-248-528-2484",
+    "Firstname": "Godfrey",
+    "MiddleName": "Bergnaum-Marks",
+    "Lastname": "Wyman",
+    "SaleStakeholderId": 770,
+    "Rank": 213,
+    "Phone": "883-048-9746 x3174",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 177
+        "FieldType": "System.Int32",
+        "FieldLength": 567
       }
     }
   }

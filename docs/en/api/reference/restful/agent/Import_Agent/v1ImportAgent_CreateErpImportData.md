@@ -77,21 +77,21 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Schowalter LLC",
-      "Operator": "reprehenderit",
+      "Name": "Mayer-Ankunding",
+      "Operator": "ex",
       "Values": [
-        "tenetur",
-        "quas"
+        "quia",
+        "et"
       ],
       "DisplayValues": [
-        "et",
-        "et"
+        "in",
+        "aut"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -99,16 +99,16 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 838,
+      "InterParenthesis": 835,
       "InterOperator": "And",
-      "UniqueHash": 869
+      "UniqueHash": 316
     }
   ],
   "Columns": [
-    "inventore",
-    "in"
+    "quod",
+    "autem"
   ],
-  "ConnectionId": 856,
+  "ConnectionId": 764,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "labore",
-        "ducimus"
+        "non",
+        "rerum"
       ],
-      "Selected": true,
+      "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "dolorem",
+      "ExternalKey": "eius",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 536
+          "FieldLength": 803
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Hodkiewicz Group",
-      "DisplayName": "Balistreri, Shanahan and Bernhard",
-      "Locked": false,
+      "Name": "Marquardt LLC",
+      "DisplayName": "Koelpin-Weimann",
+      "Locked": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 917
+          "FieldLength": 763
         }
       }
     },
     {
-      "Name": "Hodkiewicz Group",
-      "DisplayName": "Balistreri, Shanahan and Bernhard",
-      "Locked": false,
+      "Name": "Marquardt LLC",
+      "DisplayName": "Koelpin-Weimann",
+      "Locked": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 917
+          "FieldLength": 763
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 135
+      "FieldType": "System.Int32",
+      "FieldLength": 265
     }
   }
 }

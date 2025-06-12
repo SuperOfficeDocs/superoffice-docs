@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,26 +84,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 388,
-    "Tooltip": "fugit",
-    "CanAssign": false,
-    "Free": 988,
-    "InUse": 451,
-    "IsHidden": true,
-    "Assigned": false,
-    "ModuleLicenseId": 425,
-    "Name": "Halvorson LLC",
-    "Description": "Devolved interactive pricing structure",
-    "PrerequisiteModuleName": "Maggio-Braun",
-    "SortOrder": 371,
-    "ExtraFlags": 667,
+    "Unrestricted": true,
+    "Total": 826,
+    "Tooltip": "enim",
+    "CanAssign": true,
+    "Free": 732,
+    "InUse": 90,
+    "IsHidden": false,
+    "Assigned": true,
+    "ModuleLicenseId": 444,
+    "Name": "McGlynn-Nienow",
+    "Description": "Re-engineered exuding knowledge base",
+    "PrerequisiteModuleName": "Erdman-Kling",
+    "SortOrder": 426,
+    "ExtraFlags": 56,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 752
+        "FieldLength": 475
       }
     }
   }

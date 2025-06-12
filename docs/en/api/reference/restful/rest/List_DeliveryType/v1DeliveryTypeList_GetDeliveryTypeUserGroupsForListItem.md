@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 275,
-    "Name": "Effertz LLC",
-    "ToolTip": "Doloremque ipsam ab.",
+    "Id": 851,
+    "Name": "Altenwerth-Abshire",
+    "ToolTip": "Laborum eum voluptatem error sunt sit maxime.",
     "Deleted": false,
-    "Rank": 327,
-    "Type": "tempora",
-    "ColorBlock": 226,
-    "IconHint": "recusandae",
-    "Selected": false,
-    "LastChanged": "2005-05-06T16:32:48.6651528+02:00",
+    "Rank": 384,
+    "Type": "quis",
+    "ColorBlock": 48,
+    "IconHint": "repellat",
+    "Selected": true,
+    "LastChanged": "2002-07-30T17:54:08.9136741+02:00",
     "ChildItems": [
       {
-        "Id": 14,
-        "Name": "Hickle LLC",
-        "ToolTip": "Tempore aut nam est dolorem.",
+        "Id": 302,
+        "Name": "Witting-Nolan",
+        "ToolTip": "Eius nemo porro quasi quia veniam amet sint.",
         "Deleted": false,
-        "Rank": 258,
-        "Type": "possimus",
-        "ColorBlock": 841,
-        "IconHint": "nulla",
+        "Rank": 40,
+        "Type": "eaque",
+        "ColorBlock": 816,
+        "IconHint": "facere",
         "Selected": false,
-        "LastChanged": "2019-10-08T16:32:48.6651528+02:00",
+        "LastChanged": "2020-12-16T17:54:08.9136741+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "ut",
+        "ExtraInfo": "ratione",
+        "StyleHint": "mollitia",
         "Hidden": false,
-        "FullName": "Miss Maximus Lera Schmitt DDS",
+        "FullName": "Ms. Jessika Frami Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 679
+            "FieldType": "System.Int32",
+            "FieldLength": 231
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "illum",
+    "ExtraInfo": "distinctio",
+    "StyleHint": "temporibus",
     "Hidden": true,
-    "FullName": "Miss Troy Ansley Torphy II",
+    "FullName": "Ms. Philip Steuber Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 822
+        "FieldLength": 669
       }
     }
   }

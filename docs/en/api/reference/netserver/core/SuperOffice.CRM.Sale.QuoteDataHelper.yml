@@ -1,0 +1,414 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Sale.QuoteDataHelper
+  commentId: T:SuperOffice.CRM.Sale.QuoteDataHelper
+  id: QuoteDataHelper
+  parent: SuperOffice.CRM.Sale
+  children:
+  - SuperOffice.CRM.Sale.QuoteDataHelper.ChangeOriginalQuoteVersionAfterCreatedNewVersion(SuperOffice.CRM.Rows.QuoteVersionRow)
+  - SuperOffice.CRM.Sale.QuoteDataHelper.SetVersionStateOnChange(SuperOffice.CRM.Rows.QuoteVersionRow)
+  langs:
+  - csharp
+  - vb
+  name: QuoteDataHelper
+  nameWithType: QuoteDataHelper
+  fullName: SuperOffice.CRM.Sale.QuoteDataHelper
+  type: Class
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: public static class QuoteDataHelper
+    content.vb: Public Module QuoteDataHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Sale.QuoteDataHelper.SetVersionStateOnChange(SuperOffice.CRM.Rows.QuoteVersionRow)
+  commentId: M:SuperOffice.CRM.Sale.QuoteDataHelper.SetVersionStateOnChange(SuperOffice.CRM.Rows.QuoteVersionRow)
+  id: SetVersionStateOnChange(SuperOffice.CRM.Rows.QuoteVersionRow)
+  parent: SuperOffice.CRM.Sale.QuoteDataHelper
+  langs:
+  - csharp
+  - vb
+  name: SetVersionStateOnChange(QuoteVersionRow)
+  nameWithType: QuoteDataHelper.SetVersionStateOnChange(QuoteVersionRow)
+  fullName: SuperOffice.CRM.Sale.QuoteDataHelper.SetVersionStateOnChange(SuperOffice.CRM.Rows.QuoteVersionRow)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Sale
+  summary: Quoteline or alternative has been changed. Verify that the version does the same if it is in state of approved or rejected
+  example: []
+  syntax:
+    content: public static void SetVersionStateOnChange(QuoteVersionRow versionRow)
+    parameters:
+    - id: versionRow
+      type: SuperOffice.CRM.Rows.QuoteVersionRow
+      description: ''
+    content.vb: Public Shared Sub SetVersionStateOnChange(versionRow As QuoteVersionRow)
+  overload: SuperOffice.CRM.Sale.QuoteDataHelper.SetVersionStateOnChange*
+- uid: SuperOffice.CRM.Sale.QuoteDataHelper.ChangeOriginalQuoteVersionAfterCreatedNewVersion(SuperOffice.CRM.Rows.QuoteVersionRow)
+  commentId: M:SuperOffice.CRM.Sale.QuoteDataHelper.ChangeOriginalQuoteVersionAfterCreatedNewVersion(SuperOffice.CRM.Rows.QuoteVersionRow)
+  id: ChangeOriginalQuoteVersionAfterCreatedNewVersion(SuperOffice.CRM.Rows.QuoteVersionRow)
+  parent: SuperOffice.CRM.Sale.QuoteDataHelper
+  langs:
+  - csharp
+  - vb
+  name: ChangeOriginalQuoteVersionAfterCreatedNewVersion(QuoteVersionRow)
+  nameWithType: QuoteDataHelper.ChangeOriginalQuoteVersionAfterCreatedNewVersion(QuoteVersionRow)
+  fullName: SuperOffice.CRM.Sale.QuoteDataHelper.ChangeOriginalQuoteVersionAfterCreatedNewVersion(SuperOffice.CRM.Rows.QuoteVersionRow)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Sale
+  summary: Change state of an existing version when a new version has been created based on it.
+  example: []
+  syntax:
+    content: public static void ChangeOriginalQuoteVersionAfterCreatedNewVersion(QuoteVersionRow quoteVersionRow)
+    parameters:
+    - id: quoteVersionRow
+      type: SuperOffice.CRM.Rows.QuoteVersionRow
+      description: Existing <xref href="SuperOffice.CRM.Rows.QuoteVersionRow" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Shared Sub ChangeOriginalQuoteVersionAfterCreatedNewVersion(quoteVersionRow As QuoteVersionRow)
+  overload: SuperOffice.CRM.Sale.QuoteDataHelper.ChangeOriginalQuoteVersionAfterCreatedNewVersion*
+references:
+- uid: SuperOffice.CRM.Sale
+  commentId: N:SuperOffice.CRM.Sale
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Sale
+  nameWithType: SuperOffice.CRM.Sale
+  fullName: SuperOffice.CRM.Sale
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Sale
+    name: Sale
+    isExternal: true
+    href: SuperOffice.CRM.Sale.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Sale
+    name: Sale
+    isExternal: true
+    href: SuperOffice.CRM.Sale.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Sale.QuoteDataHelper.SetVersionStateOnChange*
+  commentId: Overload:SuperOffice.CRM.Sale.QuoteDataHelper.SetVersionStateOnChange
+  isExternal: true
+  href: SuperOffice.CRM.Sale.QuoteDataHelper.html#SuperOffice_CRM_Sale_QuoteDataHelper_SetVersionStateOnChange_SuperOffice_CRM_Rows_QuoteVersionRow_
+  name: SetVersionStateOnChange
+  nameWithType: QuoteDataHelper.SetVersionStateOnChange
+  fullName: SuperOffice.CRM.Sale.QuoteDataHelper.SetVersionStateOnChange
+- uid: SuperOffice.CRM.Rows.QuoteVersionRow
+  commentId: T:SuperOffice.CRM.Rows.QuoteVersionRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.QuoteVersionRow.html
+  name: QuoteVersionRow
+  nameWithType: QuoteVersionRow
+  fullName: SuperOffice.CRM.Rows.QuoteVersionRow
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+- uid: SuperOffice.CRM.Sale.QuoteDataHelper.ChangeOriginalQuoteVersionAfterCreatedNewVersion*
+  commentId: Overload:SuperOffice.CRM.Sale.QuoteDataHelper.ChangeOriginalQuoteVersionAfterCreatedNewVersion
+  isExternal: true
+  href: SuperOffice.CRM.Sale.QuoteDataHelper.html#SuperOffice_CRM_Sale_QuoteDataHelper_ChangeOriginalQuoteVersionAfterCreatedNewVersion_SuperOffice_CRM_Rows_QuoteVersionRow_
+  name: ChangeOriginalQuoteVersionAfterCreatedNewVersion
+  nameWithType: QuoteDataHelper.ChangeOriginalQuoteVersionAfterCreatedNewVersion
+  fullName: SuperOffice.CRM.Sale.QuoteDataHelper.ChangeOriginalQuoteVersionAfterCreatedNewVersion

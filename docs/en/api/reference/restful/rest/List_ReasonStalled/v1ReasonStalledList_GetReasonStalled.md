@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 190,
-  "Name": "Kshlerin LLC",
-  "Tooltip": "quasi",
+  "Id": 222,
+  "Name": "Lang-Kautzer",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 205,
-  "Rank": 945,
+  "UdListDefinitionId": 204,
+  "Rank": 646,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 512
+      "FieldType": "System.Int32",
+      "FieldLength": 528
     }
   }
 }

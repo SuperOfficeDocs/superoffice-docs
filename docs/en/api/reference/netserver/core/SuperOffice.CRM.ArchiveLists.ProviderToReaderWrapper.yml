@@ -5,21 +5,22 @@ items:
   id: ProviderToReaderWrapper
   parent: SuperOffice.CRM.ArchiveLists
   children:
-  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.#ctor(SuperOffice.CRM.ArchiveLists.IArchiveProvider,System.String)
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Close
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.CreateAsync(SuperOffice.CRM.ArchiveLists.IArchiveProvider,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Depth
-  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Dispose
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Dispose(System.Boolean)
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.FieldCount
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBoolean(System.Int32)
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetByte(System.Int32)
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChar(System.Int32)
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)
-  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetData(System.Int32)
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDataTypeName(System.Int32)
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDateTime(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDbDataReader(System.Int32)
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDecimal(System.Int32)
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDouble(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetEnumerator
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFieldType(System.Int32)
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFloat(System.Int32)
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetGuid(System.Int32)
@@ -32,12 +33,14 @@ items:
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetString(System.Int32)
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValue(System.Int32)
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValues(System.Object[])
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.HasRows
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsClosed
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsDBNull(System.Int32)
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item(System.Int32)
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item(System.String)
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.NextResult
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Read
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.ReadAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.RecordsAffected
   langs:
   - csharp
@@ -46,64 +49,103 @@ items:
   nameWithType: ProviderToReaderWrapper
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nHelper class to serve an <xref href=\"SuperOffice.CRM.ArchiveLists.IArchiveProvider\" data-throw-if-not-resolved=\"false\"></xref> as an <xref href=\"System.Data.IDataReader\" data-throw-if-not-resolved=\"false\"></xref>; generally used for the implementation of the GetReader\nmethod of <xref href=\"SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows\" data-throw-if-not-resolved=\"false\"></xref> interface.\n"
+  summary: >-
+    Helper class to serve an <xref href="SuperOffice.CRM.ArchiveLists.IArchiveProvider" data-throw-if-not-resolved="false"></xref> as an <xref href="System.Data.Common.DbDataReader" data-throw-if-not-resolved="false"></xref>; generally used for the implementation of the GetReader
+
+    method of <xref href="SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows" data-throw-if-not-resolved="false"></xref> interface.
+  example: []
   syntax:
-    content: 'public class ProviderToReaderWrapper : Object, IDataReader, IDataRecord, IDisposable'
-    content.vb: >-
-      Public Class ProviderToReaderWrapper
-          Inherits Object
-          Implements IDataReader, IDataRecord, IDisposable
+    content: 'public class ProviderToReaderWrapper : DbDataReader, IDataReader, IDisposable, IDataRecord, IEnumerable'
+    content.vb: Public Class ProviderToReaderWrapper Inherits DbDataReader Implements IDataReader, IDisposable, IDataRecord, IEnumerable
   inheritance:
   - System.Object
+  - System.MarshalByRefObject
+  - System.Data.Common.DbDataReader
   implements:
   - System.Data.IDataReader
-  - System.Data.IDataRecord
   - System.IDisposable
+  - System.Data.IDataRecord
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - System.Data.Common.DbDataReader.GetStream(System.Int32)
+  - System.Data.Common.DbDataReader.GetTextReader(System.Int32)
+  - System.Data.Common.DbDataReader.GetFieldValue``1(System.Int32)
+  - System.Data.Common.DbDataReader.GetFieldValueAsync``1(System.Int32)
+  - System.Data.Common.DbDataReader.GetFieldValueAsync``1(System.Int32,System.Threading.CancellationToken)
+  - System.Data.Common.DbDataReader.IsDBNullAsync(System.Int32)
+  - System.Data.Common.DbDataReader.IsDBNullAsync(System.Int32,System.Threading.CancellationToken)
+  - System.Data.Common.DbDataReader.ReadAsync
+  - System.Data.Common.DbDataReader.NextResultAsync
+  - System.Data.Common.DbDataReader.NextResultAsync(System.Threading.CancellationToken)
+  - System.Data.Common.DbDataReader.VisibleFieldCount
+  - System.MarshalByRefObject.GetLifetimeService
+  - System.MarshalByRefObject.InitializeLifetimeService
+  - System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.#ctor(SuperOffice.CRM.ArchiveLists.IArchiveProvider,System.String)
-  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.#ctor(SuperOffice.CRM.ArchiveLists.IArchiveProvider,System.String)
-  id: '#ctor(SuperOffice.CRM.ArchiveLists.IArchiveProvider,System.String)'
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.CreateAsync(SuperOffice.CRM.ArchiveLists.IArchiveProvider,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.CreateAsync(SuperOffice.CRM.ArchiveLists.IArchiveProvider,System.String,System.Threading.CancellationToken)
+  id: CreateAsync(SuperOffice.CRM.ArchiveLists.IArchiveProvider,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
   langs:
   - csharp
   - vb
-  name: ProviderToReaderWrapper(IArchiveProvider, String)
-  nameWithType: ProviderToReaderWrapper.ProviderToReaderWrapper(IArchiveProvider, String)
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.ProviderToReaderWrapper(SuperOffice.CRM.ArchiveLists.IArchiveProvider, System.String)
-  type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
+  name: CreateAsync(IArchiveProvider, string, CancellationToken)
+  nameWithType: ProviderToReaderWrapper.CreateAsync(IArchiveProvider, string, CancellationToken)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.CreateAsync(SuperOffice.CRM.ArchiveLists.IArchiveProvider, string, System.Threading.CancellationToken)
+  type: Method
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public ProviderToReaderWrapper(IArchiveProvider provider, string options)
+    content: public static Task<ProviderToReaderWrapper> CreateAsync(IArchiveProvider provider, string options, CancellationToken cancellationToken = default)
     parameters:
     - id: provider
       type: SuperOffice.CRM.ArchiveLists.IArchiveProvider
     - id: options
       type: System.String
-    content.vb: Public Sub New(provider As IArchiveProvider, options As String)
-  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper}
+    content.vb: Public Shared Function CreateAsync(provider As IArchiveProvider, options As String, cancellationToken As CancellationToken = Nothing) As Task(Of ProviderToReaderWrapper)
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.CreateAsync*
+  nameWithType.vb: ProviderToReaderWrapper.CreateAsync(IArchiveProvider, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.CreateAsync(SuperOffice.CRM.ArchiveLists.IArchiveProvider, String, System.Threading.CancellationToken)
+  name.vb: CreateAsync(IArchiveProvider, String, CancellationToken)
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetEnumerator
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetEnumerator
+  id: GetEnumerator
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: ProviderToReaderWrapper.GetEnumerator()
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetEnumerator()
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  example: []
+  syntax:
+    content: public override IEnumerator GetEnumerator()
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Overrides Function GetEnumerator() As IEnumerator
+  overridden: System.Data.Common.DbDataReader.GetEnumerator
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetEnumerator*
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Close
   commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Close
   id: Close
@@ -115,20 +157,15 @@ items:
   nameWithType: ProviderToReaderWrapper.Close()
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Close()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public void Close()
-    content.vb: Public Sub Close
+    content: public override void Close()
+    content.vb: Public Overrides Sub Close()
+  overridden: System.Data.Common.DbDataReader.Close
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Close*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetSchemaTable
   commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetSchemaTable
   id: GetSchemaTable
@@ -140,22 +177,17 @@ items:
   nameWithType: ProviderToReaderWrapper.GetSchemaTable()
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetSchemaTable()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public DataTable GetSchemaTable()
+    content: public override DataTable GetSchemaTable()
     return:
       type: System.Data.DataTable
-    content.vb: Public Function GetSchemaTable As DataTable
+    content.vb: Public Overrides Function GetSchemaTable() As DataTable
+  overridden: System.Data.Common.DbDataReader.GetSchemaTable
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetSchemaTable*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.NextResult
   commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.NextResult
   id: NextResult
@@ -167,22 +199,17 @@ items:
   nameWithType: ProviderToReaderWrapper.NextResult()
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.NextResult()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public bool NextResult()
+    content: public override bool NextResult()
     return:
       type: System.Boolean
-    content.vb: Public Function NextResult As Boolean
+    content.vb: Public Overrides Function NextResult() As Boolean
+  overridden: System.Data.Common.DbDataReader.NextResult
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.NextResult*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Read
   commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Read
   id: Read
@@ -194,47 +221,68 @@ items:
   nameWithType: ProviderToReaderWrapper.Read()
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Read()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public bool Read()
+    content: public override bool Read()
     return:
       type: System.Boolean
-    content.vb: Public Function Read As Boolean
+    content.vb: Public Overrides Function Read() As Boolean
+  overridden: System.Data.Common.DbDataReader.Read
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Read*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Dispose
-  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Dispose
-  id: Dispose
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.ReadAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.ReadAsync(System.Threading.CancellationToken)
+  id: ReadAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
   langs:
   - csharp
   - vb
-  name: Dispose()
-  nameWithType: ProviderToReaderWrapper.Dispose()
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Dispose()
+  name: ReadAsync(CancellationToken)
+  nameWithType: ProviderToReaderWrapper.ReadAsync(CancellationToken)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.ReadAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public void Dispose()
-    content.vb: Public Sub Dispose
+    content: public override Task<bool> ReadAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Overrides Function ReadAsync(cancellationToken As CancellationToken) As Task(Of Boolean)
+  overridden: System.Data.Common.DbDataReader.ReadAsync(System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.ReadAsync*
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Dispose(System.Boolean)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: Dispose(bool)
+  nameWithType: ProviderToReaderWrapper.Dispose(bool)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Dispose(bool)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  example: []
+  syntax:
+    content: protected override void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+    content.vb: Protected Overrides Sub Dispose(disposing As Boolean)
+  overridden: System.Data.Common.DbDataReader.Dispose(System.Boolean)
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Dispose*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ProviderToReaderWrapper.Dispose(Boolean)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Dispose(Boolean)
+  name.vb: Dispose(Boolean)
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBoolean(System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBoolean(System.Int32)
   id: GetBoolean(System.Int32)
@@ -242,29 +290,27 @@ items:
   langs:
   - csharp
   - vb
-  name: GetBoolean(Int32)
-  nameWithType: ProviderToReaderWrapper.GetBoolean(Int32)
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBoolean(System.Int32)
+  name: GetBoolean(int)
+  nameWithType: ProviderToReaderWrapper.GetBoolean(int)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBoolean(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public bool GetBoolean(int i)
+    content: public override bool GetBoolean(int i)
     parameters:
     - id: i
       type: System.Int32
     return:
       type: System.Boolean
-    content.vb: Public Function GetBoolean(i As Integer) As Boolean
+    content.vb: Public Overrides Function GetBoolean(i As Integer) As Boolean
+  overridden: System.Data.Common.DbDataReader.GetBoolean(System.Int32)
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBoolean*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ProviderToReaderWrapper.GetBoolean(Integer)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBoolean(Integer)
+  name.vb: GetBoolean(Integer)
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetByte(System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetByte(System.Int32)
   id: GetByte(System.Int32)
@@ -272,29 +318,27 @@ items:
   langs:
   - csharp
   - vb
-  name: GetByte(Int32)
-  nameWithType: ProviderToReaderWrapper.GetByte(Int32)
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetByte(System.Int32)
+  name: GetByte(int)
+  nameWithType: ProviderToReaderWrapper.GetByte(int)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetByte(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public byte GetByte(int i)
+    content: public override byte GetByte(int i)
     parameters:
     - id: i
       type: System.Int32
     return:
       type: System.Byte
-    content.vb: Public Function GetByte(i As Integer) As Byte
+    content.vb: Public Overrides Function GetByte(i As Integer) As Byte
+  overridden: System.Data.Common.DbDataReader.GetByte(System.Int32)
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetByte*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ProviderToReaderWrapper.GetByte(Integer)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetByte(Integer)
+  name.vb: GetByte(Integer)
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)
   id: GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)
@@ -302,18 +346,16 @@ items:
   langs:
   - csharp
   - vb
-  name: GetBytes(Int32, Int64, Byte[], Int32, Int32)
-  nameWithType: ProviderToReaderWrapper.GetBytes(Int32, Int64, Byte[], Int32, Int32)
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBytes(System.Int32, System.Int64, System.Byte[], System.Int32, System.Int32)
+  name: GetBytes(int, long, byte[], int, int)
+  nameWithType: ProviderToReaderWrapper.GetBytes(int, long, byte[], int, int)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBytes(int, long, byte[], int, int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public long GetBytes(int i, long fieldOffset, byte[] buffer, int bufferoffset, int length)
+    content: public override long GetBytes(int i, long fieldOffset, byte[] buffer, int bufferoffset, int length)
     parameters:
     - id: i
       type: System.Int32
@@ -327,15 +369,12 @@ items:
       type: System.Int32
     return:
       type: System.Int64
-    content.vb: Public Function GetBytes(i As Integer, fieldOffset As Long, buffer As Byte(), bufferoffset As Integer, length As Integer) As Long
+    content.vb: Public Overrides Function GetBytes(i As Integer, fieldOffset As Long, buffer As Byte(), bufferoffset As Integer, length As Integer) As Long
+  overridden: System.Data.Common.DbDataReader.GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBytes*
-  nameWithType.vb: ProviderToReaderWrapper.GetBytes(Int32, Int64, Byte(), Int32, Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBytes(System.Int32, System.Int64, System.Byte(), System.Int32, System.Int32)
-  name.vb: GetBytes(Int32, Int64, Byte(), Int32, Int32)
+  nameWithType.vb: ProviderToReaderWrapper.GetBytes(Integer, Long, Byte(), Integer, Integer)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBytes(Integer, Long, Byte(), Integer, Integer)
+  name.vb: GetBytes(Integer, Long, Byte(), Integer, Integer)
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChar(System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChar(System.Int32)
   id: GetChar(System.Int32)
@@ -343,29 +382,27 @@ items:
   langs:
   - csharp
   - vb
-  name: GetChar(Int32)
-  nameWithType: ProviderToReaderWrapper.GetChar(Int32)
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChar(System.Int32)
+  name: GetChar(int)
+  nameWithType: ProviderToReaderWrapper.GetChar(int)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChar(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public char GetChar(int i)
+    content: public override char GetChar(int i)
     parameters:
     - id: i
       type: System.Int32
     return:
       type: System.Char
-    content.vb: Public Function GetChar(i As Integer) As Char
+    content.vb: Public Overrides Function GetChar(i As Integer) As Char
+  overridden: System.Data.Common.DbDataReader.GetChar(System.Int32)
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChar*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ProviderToReaderWrapper.GetChar(Integer)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChar(Integer)
+  name.vb: GetChar(Integer)
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)
   id: GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)
@@ -373,18 +410,16 @@ items:
   langs:
   - csharp
   - vb
-  name: GetChars(Int32, Int64, Char[], Int32, Int32)
-  nameWithType: ProviderToReaderWrapper.GetChars(Int32, Int64, Char[], Int32, Int32)
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChars(System.Int32, System.Int64, System.Char[], System.Int32, System.Int32)
+  name: GetChars(int, long, char[], int, int)
+  nameWithType: ProviderToReaderWrapper.GetChars(int, long, char[], int, int)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChars(int, long, char[], int, int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public long GetChars(int i, long fieldoffset, char[] buffer, int bufferoffset, int length)
+    content: public override long GetChars(int i, long fieldoffset, char[] buffer, int bufferoffset, int length)
     parameters:
     - id: i
       type: System.Int32
@@ -398,45 +433,40 @@ items:
       type: System.Int32
     return:
       type: System.Int64
-    content.vb: Public Function GetChars(i As Integer, fieldoffset As Long, buffer As Char(), bufferoffset As Integer, length As Integer) As Long
+    content.vb: Public Overrides Function GetChars(i As Integer, fieldoffset As Long, buffer As Char(), bufferoffset As Integer, length As Integer) As Long
+  overridden: System.Data.Common.DbDataReader.GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChars*
-  nameWithType.vb: ProviderToReaderWrapper.GetChars(Int32, Int64, Char(), Int32, Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChars(System.Int32, System.Int64, System.Char(), System.Int32, System.Int32)
-  name.vb: GetChars(Int32, Int64, Char(), Int32, Int32)
-- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetData(System.Int32)
-  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetData(System.Int32)
-  id: GetData(System.Int32)
+  nameWithType.vb: ProviderToReaderWrapper.GetChars(Integer, Long, Char(), Integer, Integer)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChars(Integer, Long, Char(), Integer, Integer)
+  name.vb: GetChars(Integer, Long, Char(), Integer, Integer)
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDbDataReader(System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDbDataReader(System.Int32)
+  id: GetDbDataReader(System.Int32)
   parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
   langs:
   - csharp
   - vb
-  name: GetData(Int32)
-  nameWithType: ProviderToReaderWrapper.GetData(Int32)
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetData(System.Int32)
+  name: GetDbDataReader(int)
+  nameWithType: ProviderToReaderWrapper.GetDbDataReader(int)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDbDataReader(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public IDataReader GetData(int i)
+    content: protected override DbDataReader GetDbDataReader(int i)
     parameters:
     - id: i
       type: System.Int32
     return:
-      type: System.Data.IDataReader
-    content.vb: Public Function GetData(i As Integer) As IDataReader
-  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetData*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+      type: System.Data.Common.DbDataReader
+    content.vb: Protected Overrides Function GetDbDataReader(i As Integer) As DbDataReader
+  overridden: System.Data.Common.DbDataReader.GetDbDataReader(System.Int32)
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDbDataReader*
+  nameWithType.vb: ProviderToReaderWrapper.GetDbDataReader(Integer)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDbDataReader(Integer)
+  name.vb: GetDbDataReader(Integer)
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDataTypeName(System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDataTypeName(System.Int32)
   id: GetDataTypeName(System.Int32)
@@ -444,29 +474,27 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDataTypeName(Int32)
-  nameWithType: ProviderToReaderWrapper.GetDataTypeName(Int32)
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDataTypeName(System.Int32)
+  name: GetDataTypeName(int)
+  nameWithType: ProviderToReaderWrapper.GetDataTypeName(int)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDataTypeName(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public string GetDataTypeName(int i)
+    content: public override string GetDataTypeName(int i)
     parameters:
     - id: i
       type: System.Int32
     return:
       type: System.String
-    content.vb: Public Function GetDataTypeName(i As Integer) As String
+    content.vb: Public Overrides Function GetDataTypeName(i As Integer) As String
+  overridden: System.Data.Common.DbDataReader.GetDataTypeName(System.Int32)
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDataTypeName*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ProviderToReaderWrapper.GetDataTypeName(Integer)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDataTypeName(Integer)
+  name.vb: GetDataTypeName(Integer)
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDateTime(System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDateTime(System.Int32)
   id: GetDateTime(System.Int32)
@@ -474,29 +502,27 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDateTime(Int32)
-  nameWithType: ProviderToReaderWrapper.GetDateTime(Int32)
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDateTime(System.Int32)
+  name: GetDateTime(int)
+  nameWithType: ProviderToReaderWrapper.GetDateTime(int)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDateTime(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public DateTime GetDateTime(int i)
+    content: public override DateTime GetDateTime(int i)
     parameters:
     - id: i
       type: System.Int32
     return:
       type: System.DateTime
-    content.vb: Public Function GetDateTime(i As Integer) As DateTime
+    content.vb: Public Overrides Function GetDateTime(i As Integer) As Date
+  overridden: System.Data.Common.DbDataReader.GetDateTime(System.Int32)
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDateTime*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ProviderToReaderWrapper.GetDateTime(Integer)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDateTime(Integer)
+  name.vb: GetDateTime(Integer)
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDecimal(System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDecimal(System.Int32)
   id: GetDecimal(System.Int32)
@@ -504,29 +530,27 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDecimal(Int32)
-  nameWithType: ProviderToReaderWrapper.GetDecimal(Int32)
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDecimal(System.Int32)
+  name: GetDecimal(int)
+  nameWithType: ProviderToReaderWrapper.GetDecimal(int)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDecimal(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public Decimal GetDecimal(int i)
+    content: public override decimal GetDecimal(int i)
     parameters:
     - id: i
       type: System.Int32
     return:
       type: System.Decimal
-    content.vb: Public Function GetDecimal(i As Integer) As Decimal
+    content.vb: Public Overrides Function GetDecimal(i As Integer) As Decimal
+  overridden: System.Data.Common.DbDataReader.GetDecimal(System.Int32)
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDecimal*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ProviderToReaderWrapper.GetDecimal(Integer)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDecimal(Integer)
+  name.vb: GetDecimal(Integer)
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDouble(System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDouble(System.Int32)
   id: GetDouble(System.Int32)
@@ -534,29 +558,27 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDouble(Int32)
-  nameWithType: ProviderToReaderWrapper.GetDouble(Int32)
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDouble(System.Int32)
+  name: GetDouble(int)
+  nameWithType: ProviderToReaderWrapper.GetDouble(int)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDouble(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public double GetDouble(int i)
+    content: public override double GetDouble(int i)
     parameters:
     - id: i
       type: System.Int32
     return:
       type: System.Double
-    content.vb: Public Function GetDouble(i As Integer) As Double
+    content.vb: Public Overrides Function GetDouble(i As Integer) As Double
+  overridden: System.Data.Common.DbDataReader.GetDouble(System.Int32)
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDouble*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ProviderToReaderWrapper.GetDouble(Integer)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDouble(Integer)
+  name.vb: GetDouble(Integer)
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFieldType(System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFieldType(System.Int32)
   id: GetFieldType(System.Int32)
@@ -564,29 +586,27 @@ items:
   langs:
   - csharp
   - vb
-  name: GetFieldType(Int32)
-  nameWithType: ProviderToReaderWrapper.GetFieldType(Int32)
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFieldType(System.Int32)
+  name: GetFieldType(int)
+  nameWithType: ProviderToReaderWrapper.GetFieldType(int)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFieldType(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public Type GetFieldType(int i)
+    content: public override Type GetFieldType(int i)
     parameters:
     - id: i
       type: System.Int32
     return:
       type: System.Type
-    content.vb: Public Function GetFieldType(i As Integer) As Type
+    content.vb: Public Overrides Function GetFieldType(i As Integer) As Type
+  overridden: System.Data.Common.DbDataReader.GetFieldType(System.Int32)
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFieldType*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ProviderToReaderWrapper.GetFieldType(Integer)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFieldType(Integer)
+  name.vb: GetFieldType(Integer)
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFloat(System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFloat(System.Int32)
   id: GetFloat(System.Int32)
@@ -594,29 +614,27 @@ items:
   langs:
   - csharp
   - vb
-  name: GetFloat(Int32)
-  nameWithType: ProviderToReaderWrapper.GetFloat(Int32)
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFloat(System.Int32)
+  name: GetFloat(int)
+  nameWithType: ProviderToReaderWrapper.GetFloat(int)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFloat(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public float GetFloat(int i)
+    content: public override float GetFloat(int i)
     parameters:
     - id: i
       type: System.Int32
     return:
       type: System.Single
-    content.vb: Public Function GetFloat(i As Integer) As Single
+    content.vb: Public Overrides Function GetFloat(i As Integer) As Single
+  overridden: System.Data.Common.DbDataReader.GetFloat(System.Int32)
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFloat*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ProviderToReaderWrapper.GetFloat(Integer)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFloat(Integer)
+  name.vb: GetFloat(Integer)
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetGuid(System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetGuid(System.Int32)
   id: GetGuid(System.Int32)
@@ -624,29 +642,27 @@ items:
   langs:
   - csharp
   - vb
-  name: GetGuid(Int32)
-  nameWithType: ProviderToReaderWrapper.GetGuid(Int32)
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetGuid(System.Int32)
+  name: GetGuid(int)
+  nameWithType: ProviderToReaderWrapper.GetGuid(int)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetGuid(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public Guid GetGuid(int i)
+    content: public override Guid GetGuid(int i)
     parameters:
     - id: i
       type: System.Int32
     return:
       type: System.Guid
-    content.vb: Public Function GetGuid(i As Integer) As Guid
+    content.vb: Public Overrides Function GetGuid(i As Integer) As Guid
+  overridden: System.Data.Common.DbDataReader.GetGuid(System.Int32)
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetGuid*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ProviderToReaderWrapper.GetGuid(Integer)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetGuid(Integer)
+  name.vb: GetGuid(Integer)
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt16(System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt16(System.Int32)
   id: GetInt16(System.Int32)
@@ -654,29 +670,27 @@ items:
   langs:
   - csharp
   - vb
-  name: GetInt16(Int32)
-  nameWithType: ProviderToReaderWrapper.GetInt16(Int32)
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt16(System.Int32)
+  name: GetInt16(int)
+  nameWithType: ProviderToReaderWrapper.GetInt16(int)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt16(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public short GetInt16(int i)
+    content: public override short GetInt16(int i)
     parameters:
     - id: i
       type: System.Int32
     return:
       type: System.Int16
-    content.vb: Public Function GetInt16(i As Integer) As Short
+    content.vb: Public Overrides Function GetInt16(i As Integer) As Short
+  overridden: System.Data.Common.DbDataReader.GetInt16(System.Int32)
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt16*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ProviderToReaderWrapper.GetInt16(Integer)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt16(Integer)
+  name.vb: GetInt16(Integer)
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt32(System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt32(System.Int32)
   id: GetInt32(System.Int32)
@@ -684,29 +698,27 @@ items:
   langs:
   - csharp
   - vb
-  name: GetInt32(Int32)
-  nameWithType: ProviderToReaderWrapper.GetInt32(Int32)
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt32(System.Int32)
+  name: GetInt32(int)
+  nameWithType: ProviderToReaderWrapper.GetInt32(int)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt32(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public int GetInt32(int i)
+    content: public override int GetInt32(int i)
     parameters:
     - id: i
       type: System.Int32
     return:
       type: System.Int32
-    content.vb: Public Function GetInt32(i As Integer) As Integer
+    content.vb: Public Overrides Function GetInt32(i As Integer) As Integer
+  overridden: System.Data.Common.DbDataReader.GetInt32(System.Int32)
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt32*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ProviderToReaderWrapper.GetInt32(Integer)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt32(Integer)
+  name.vb: GetInt32(Integer)
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt64(System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt64(System.Int32)
   id: GetInt64(System.Int32)
@@ -714,29 +726,27 @@ items:
   langs:
   - csharp
   - vb
-  name: GetInt64(Int32)
-  nameWithType: ProviderToReaderWrapper.GetInt64(Int32)
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt64(System.Int32)
+  name: GetInt64(int)
+  nameWithType: ProviderToReaderWrapper.GetInt64(int)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt64(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public long GetInt64(int i)
+    content: public override long GetInt64(int i)
     parameters:
     - id: i
       type: System.Int32
     return:
       type: System.Int64
-    content.vb: Public Function GetInt64(i As Integer) As Long
+    content.vb: Public Overrides Function GetInt64(i As Integer) As Long
+  overridden: System.Data.Common.DbDataReader.GetInt64(System.Int32)
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt64*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ProviderToReaderWrapper.GetInt64(Integer)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt64(Integer)
+  name.vb: GetInt64(Integer)
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetName(System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetName(System.Int32)
   id: GetName(System.Int32)
@@ -744,29 +754,27 @@ items:
   langs:
   - csharp
   - vb
-  name: GetName(Int32)
-  nameWithType: ProviderToReaderWrapper.GetName(Int32)
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetName(System.Int32)
+  name: GetName(int)
+  nameWithType: ProviderToReaderWrapper.GetName(int)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetName(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public string GetName(int i)
+    content: public override string GetName(int i)
     parameters:
     - id: i
       type: System.Int32
     return:
       type: System.String
-    content.vb: Public Function GetName(i As Integer) As String
+    content.vb: Public Overrides Function GetName(i As Integer) As String
+  overridden: System.Data.Common.DbDataReader.GetName(System.Int32)
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetName*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ProviderToReaderWrapper.GetName(Integer)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetName(Integer)
+  name.vb: GetName(Integer)
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetOrdinal(System.String)
   commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetOrdinal(System.String)
   id: GetOrdinal(System.String)
@@ -774,29 +782,27 @@ items:
   langs:
   - csharp
   - vb
-  name: GetOrdinal(String)
-  nameWithType: ProviderToReaderWrapper.GetOrdinal(String)
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetOrdinal(System.String)
+  name: GetOrdinal(string)
+  nameWithType: ProviderToReaderWrapper.GetOrdinal(string)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetOrdinal(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public int GetOrdinal(string name)
+    content: public override int GetOrdinal(string name)
     parameters:
     - id: name
       type: System.String
     return:
       type: System.Int32
-    content.vb: Public Function GetOrdinal(name As String) As Integer
+    content.vb: Public Overrides Function GetOrdinal(name As String) As Integer
+  overridden: System.Data.Common.DbDataReader.GetOrdinal(System.String)
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetOrdinal*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ProviderToReaderWrapper.GetOrdinal(String)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetOrdinal(String)
+  name.vb: GetOrdinal(String)
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetString(System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetString(System.Int32)
   id: GetString(System.Int32)
@@ -804,29 +810,27 @@ items:
   langs:
   - csharp
   - vb
-  name: GetString(Int32)
-  nameWithType: ProviderToReaderWrapper.GetString(Int32)
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetString(System.Int32)
+  name: GetString(int)
+  nameWithType: ProviderToReaderWrapper.GetString(int)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetString(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public string GetString(int i)
+    content: public override string GetString(int i)
     parameters:
     - id: i
       type: System.Int32
     return:
       type: System.String
-    content.vb: Public Function GetString(i As Integer) As String
+    content.vb: Public Overrides Function GetString(i As Integer) As String
+  overridden: System.Data.Common.DbDataReader.GetString(System.Int32)
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ProviderToReaderWrapper.GetString(Integer)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetString(Integer)
+  name.vb: GetString(Integer)
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValue(System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValue(System.Int32)
   id: GetValue(System.Int32)
@@ -834,29 +838,27 @@ items:
   langs:
   - csharp
   - vb
-  name: GetValue(Int32)
-  nameWithType: ProviderToReaderWrapper.GetValue(Int32)
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValue(System.Int32)
+  name: GetValue(int)
+  nameWithType: ProviderToReaderWrapper.GetValue(int)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValue(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public object GetValue(int i)
+    content: public override object GetValue(int i)
     parameters:
     - id: i
       type: System.Int32
     return:
       type: System.Object
-    content.vb: Public Function GetValue(i As Integer) As Object
+    content.vb: Public Overrides Function GetValue(i As Integer) As Object
+  overridden: System.Data.Common.DbDataReader.GetValue(System.Int32)
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValue*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ProviderToReaderWrapper.GetValue(Integer)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValue(Integer)
+  name.vb: GetValue(Integer)
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValues(System.Object[])
   commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValues(System.Object[])
   id: GetValues(System.Object[])
@@ -864,31 +866,26 @@ items:
   langs:
   - csharp
   - vb
-  name: GetValues(Object[])
-  nameWithType: ProviderToReaderWrapper.GetValues(Object[])
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValues(System.Object[])
+  name: GetValues(object[])
+  nameWithType: ProviderToReaderWrapper.GetValues(object[])
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValues(object[])
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public int GetValues(object[] values)
+    content: public override int GetValues(object[] values)
     parameters:
     - id: values
       type: System.Object[]
     return:
       type: System.Int32
-    content.vb: Public Function GetValues(values As Object()) As Integer
+    content.vb: Public Overrides Function GetValues(values As Object()) As Integer
+  overridden: System.Data.Common.DbDataReader.GetValues(System.Object[])
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValues*
   nameWithType.vb: ProviderToReaderWrapper.GetValues(Object())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValues(System.Object())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValues(Object())
   name.vb: GetValues(Object())
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsDBNull(System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsDBNull(System.Int32)
@@ -897,29 +894,50 @@ items:
   langs:
   - csharp
   - vb
-  name: IsDBNull(Int32)
-  nameWithType: ProviderToReaderWrapper.IsDBNull(Int32)
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsDBNull(System.Int32)
+  name: IsDBNull(int)
+  nameWithType: ProviderToReaderWrapper.IsDBNull(int)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsDBNull(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public bool IsDBNull(int i)
+    content: public override bool IsDBNull(int i)
     parameters:
     - id: i
       type: System.Int32
     return:
       type: System.Boolean
-    content.vb: Public Function IsDBNull(i As Integer) As Boolean
+    content.vb: Public Overrides Function IsDBNull(i As Integer) As Boolean
+  overridden: System.Data.Common.DbDataReader.IsDBNull(System.Int32)
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsDBNull*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ProviderToReaderWrapper.IsDBNull(Integer)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsDBNull(Integer)
+  name.vb: IsDBNull(Integer)
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.HasRows
+  commentId: P:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.HasRows
+  id: HasRows
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: HasRows
+  nameWithType: ProviderToReaderWrapper.HasRows
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.HasRows
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  example: []
+  syntax:
+    content: public override bool HasRows { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property HasRows As Boolean
+  overridden: System.Data.Common.DbDataReader.HasRows
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.HasRows*
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Depth
   commentId: P:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Depth
   id: Depth
@@ -931,27 +949,20 @@ items:
   nameWithType: ProviderToReaderWrapper.Depth
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Depth
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nGets a value indicating the depth of nesting for the current row.\n"
-  remarks: "\nThe outermost table has a depth of zero\n"
+  summary: Gets a value indicating the depth of nesting for the current row.
+  remarks: The outermost table has a depth of zero
+  example: []
   syntax:
-    content: public int Depth { get; }
+    content: public override int Depth { get; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public ReadOnly Property Depth As Integer
+    content.vb: Public Overrides ReadOnly Property Depth As Integer
+  overridden: System.Data.Common.DbDataReader.Depth
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Depth*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsClosed
   commentId: P:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsClosed
   id: IsClosed
@@ -963,25 +974,18 @@ items:
   nameWithType: ProviderToReaderWrapper.IsClosed
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsClosed
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public bool IsClosed { get; }
+    content: public override bool IsClosed { get; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public ReadOnly Property IsClosed As Boolean
+    content.vb: Public Overrides ReadOnly Property IsClosed As Boolean
+  overridden: System.Data.Common.DbDataReader.IsClosed
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsClosed*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.RecordsAffected
   commentId: P:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.RecordsAffected
   id: RecordsAffected
@@ -993,27 +997,20 @@ items:
   nameWithType: ProviderToReaderWrapper.RecordsAffected
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.RecordsAffected
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nGets the number of rows changed, inserted, or deleted by execution of the SQL statement.\n"
-  remarks: "\nThe number of rows changed, inserted, or deleted; 0 if no rows were affected or the statement failed; and -1 for SELECT statements\n"
+  summary: Gets the number of rows changed, inserted, or deleted by execution of the SQL statement.
+  remarks: The number of rows changed, inserted, or deleted; 0 if no rows were affected or the statement failed; and -1 for SELECT statements
+  example: []
   syntax:
-    content: public int RecordsAffected { get; }
+    content: public override int RecordsAffected { get; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public ReadOnly Property RecordsAffected As Integer
+    content.vb: Public Overrides ReadOnly Property RecordsAffected As Integer
+  overridden: System.Data.Common.DbDataReader.RecordsAffected
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.RecordsAffected*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.FieldCount
   commentId: P:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.FieldCount
   id: FieldCount
@@ -1025,25 +1022,18 @@ items:
   nameWithType: ProviderToReaderWrapper.FieldCount
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.FieldCount
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public int FieldCount { get; }
+    content: public override int FieldCount { get; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public ReadOnly Property FieldCount As Integer
+    content.vb: Public Overrides ReadOnly Property FieldCount As Integer
+  overridden: System.Data.Common.DbDataReader.FieldCount
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.FieldCount*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item(System.String)
   commentId: P:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item(System.String)
   id: Item(System.String)
@@ -1051,34 +1041,27 @@ items:
   langs:
   - csharp
   - vb
-  name: Item[String]
-  nameWithType: ProviderToReaderWrapper.Item[String]
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item[System.String]
+  name: this[string]
+  nameWithType: ProviderToReaderWrapper.this[string]
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.this[string]
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public object this[string name] { get; }
+    content: public override object this[string name] { get; }
     parameters:
     - id: name
       type: System.String
     return:
       type: System.Object
-    content.vb: Public ReadOnly Property Item(name As String) As Object
+    content.vb: Public Overrides ReadOnly Default Property this[](name As String) As Object
+  overridden: System.Data.Common.DbDataReader.Item(System.String)
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item*
-  nameWithType.vb: ProviderToReaderWrapper.Item(String)
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item(System.String)
-  name.vb: Item(String)
+  nameWithType.vb: ProviderToReaderWrapper.this[](String)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.this[](String)
+  name.vb: this[](String)
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item(System.Int32)
   commentId: P:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item(System.Int32)
   id: Item(System.Int32)
@@ -1086,140 +1069,1005 @@ items:
   langs:
   - csharp
   - vb
-  name: Item[Int32]
-  nameWithType: ProviderToReaderWrapper.Item[Int32]
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item[System.Int32]
+  name: this[int]
+  nameWithType: ProviderToReaderWrapper.this[int]
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.this[int]
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
+  example: []
   syntax:
-    content: public object this[int i] { get; }
+    content: public override object this[int i] { get; }
     parameters:
     - id: i
       type: System.Int32
     return:
       type: System.Object
-    content.vb: Public ReadOnly Property Item(i As Integer) As Object
+    content.vb: Public Overrides ReadOnly Default Property this[](i As Integer) As Object
+  overridden: System.Data.Common.DbDataReader.Item(System.Int32)
   overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item*
-  nameWithType.vb: ProviderToReaderWrapper.Item(Int32)
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item(System.Int32)
-  name.vb: Item(Int32)
+  nameWithType.vb: ProviderToReaderWrapper.this[](Integer)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.this[](Integer)
+  name.vb: this[](Integer)
 references:
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProvider
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.IArchiveProvider.html
+  name: IArchiveProvider
+  nameWithType: IArchiveProvider
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+- uid: System.Data.Common.DbDataReader
+  commentId: T:System.Data.Common.DbDataReader
+  parent: System.Data.Common
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader
+  name: DbDataReader
+  nameWithType: DbDataReader
+  fullName: System.Data.Common.DbDataReader
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html
+  name: IArchiveProviderHasRows
+  nameWithType: IArchiveProviderHasRows
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Data.IDataReader
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.MarshalByRefObject
+  commentId: T:System.MarshalByRefObject
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject
+  name: MarshalByRefObject
+  nameWithType: MarshalByRefObject
+  fullName: System.MarshalByRefObject
+- uid: System.Data.IDataReader
+  commentId: T:System.Data.IDataReader
+  parent: System.Data
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.idatareader
   name: IDataReader
   nameWithType: IDataReader
   fullName: System.Data.IDataReader
-- uid: System.Data.IDataRecord
-  isExternal: true
-  name: IDataRecord
-  nameWithType: IDataRecord
-  fullName: System.Data.IDataRecord
 - uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
+- uid: System.Data.IDataRecord
+  commentId: T:System.Data.IDataRecord
+  parent: System.Data
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.idatarecord
+  name: IDataRecord
+  nameWithType: IDataRecord
+  fullName: System.Data.IDataRecord
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.Data.Common.DbDataReader.GetStream(System.Int32)
+  commentId: M:System.Data.Common.DbDataReader.GetStream(System.Int32)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getstream
+  name: GetStream(int)
+  nameWithType: DbDataReader.GetStream(int)
+  fullName: System.Data.Common.DbDataReader.GetStream(int)
+  nameWithType.vb: DbDataReader.GetStream(Integer)
+  fullName.vb: System.Data.Common.DbDataReader.GetStream(Integer)
+  name.vb: GetStream(Integer)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetStream(System.Int32)
+    name: GetStream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getstream
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetStream(System.Int32)
+    name: GetStream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getstream
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Data.Common.DbDataReader.GetTextReader(System.Int32)
+  commentId: M:System.Data.Common.DbDataReader.GetTextReader(System.Int32)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.gettextreader
+  name: GetTextReader(int)
+  nameWithType: DbDataReader.GetTextReader(int)
+  fullName: System.Data.Common.DbDataReader.GetTextReader(int)
+  nameWithType.vb: DbDataReader.GetTextReader(Integer)
+  fullName.vb: System.Data.Common.DbDataReader.GetTextReader(Integer)
+  name.vb: GetTextReader(Integer)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetTextReader(System.Int32)
+    name: GetTextReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.gettextreader
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetTextReader(System.Int32)
+    name: GetTextReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.gettextreader
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Data.Common.DbDataReader.GetFieldValue``1(System.Int32)
+  commentId: M:System.Data.Common.DbDataReader.GetFieldValue``1(System.Int32)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getfieldvalue
+  name: GetFieldValue<T>(int)
+  nameWithType: DbDataReader.GetFieldValue<T>(int)
+  fullName: System.Data.Common.DbDataReader.GetFieldValue<T>(int)
+  nameWithType.vb: DbDataReader.GetFieldValue(Of T)(Integer)
+  fullName.vb: System.Data.Common.DbDataReader.GetFieldValue(Of T)(Integer)
+  name.vb: GetFieldValue(Of T)(Integer)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetFieldValue``1(System.Int32)
+    name: GetFieldValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getfieldvalue
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetFieldValue``1(System.Int32)
+    name: GetFieldValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getfieldvalue
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Data.Common.DbDataReader.GetFieldValueAsync``1(System.Int32)
+  commentId: M:System.Data.Common.DbDataReader.GetFieldValueAsync``1(System.Int32)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getfieldvalueasync#system-data-common-dbdatareader-getfieldvalueasync-1(system-int32)
+  name: GetFieldValueAsync<T>(int)
+  nameWithType: DbDataReader.GetFieldValueAsync<T>(int)
+  fullName: System.Data.Common.DbDataReader.GetFieldValueAsync<T>(int)
+  nameWithType.vb: DbDataReader.GetFieldValueAsync(Of T)(Integer)
+  fullName.vb: System.Data.Common.DbDataReader.GetFieldValueAsync(Of T)(Integer)
+  name.vb: GetFieldValueAsync(Of T)(Integer)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetFieldValueAsync``1(System.Int32)
+    name: GetFieldValueAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getfieldvalueasync#system-data-common-dbdatareader-getfieldvalueasync-1(system-int32)
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetFieldValueAsync``1(System.Int32)
+    name: GetFieldValueAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getfieldvalueasync#system-data-common-dbdatareader-getfieldvalueasync-1(system-int32)
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Data.Common.DbDataReader.GetFieldValueAsync``1(System.Int32,System.Threading.CancellationToken)
+  commentId: M:System.Data.Common.DbDataReader.GetFieldValueAsync``1(System.Int32,System.Threading.CancellationToken)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getfieldvalueasync#system-data-common-dbdatareader-getfieldvalueasync-1(system-int32-system-threading-cancellationtoken)
+  name: GetFieldValueAsync<T>(int, CancellationToken)
+  nameWithType: DbDataReader.GetFieldValueAsync<T>(int, CancellationToken)
+  fullName: System.Data.Common.DbDataReader.GetFieldValueAsync<T>(int, System.Threading.CancellationToken)
+  nameWithType.vb: DbDataReader.GetFieldValueAsync(Of T)(Integer, CancellationToken)
+  fullName.vb: System.Data.Common.DbDataReader.GetFieldValueAsync(Of T)(Integer, System.Threading.CancellationToken)
+  name.vb: GetFieldValueAsync(Of T)(Integer, CancellationToken)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetFieldValueAsync``1(System.Int32,System.Threading.CancellationToken)
+    name: GetFieldValueAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getfieldvalueasync#system-data-common-dbdatareader-getfieldvalueasync-1(system-int32-system-threading-cancellationtoken)
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetFieldValueAsync``1(System.Int32,System.Threading.CancellationToken)
+    name: GetFieldValueAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getfieldvalueasync#system-data-common-dbdatareader-getfieldvalueasync-1(system-int32-system-threading-cancellationtoken)
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Data.Common.DbDataReader.IsDBNullAsync(System.Int32)
+  commentId: M:System.Data.Common.DbDataReader.IsDBNullAsync(System.Int32)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.isdbnullasync#system-data-common-dbdatareader-isdbnullasync(system-int32)
+  name: IsDBNullAsync(int)
+  nameWithType: DbDataReader.IsDBNullAsync(int)
+  fullName: System.Data.Common.DbDataReader.IsDBNullAsync(int)
+  nameWithType.vb: DbDataReader.IsDBNullAsync(Integer)
+  fullName.vb: System.Data.Common.DbDataReader.IsDBNullAsync(Integer)
+  name.vb: IsDBNullAsync(Integer)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.IsDBNullAsync(System.Int32)
+    name: IsDBNullAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.isdbnullasync#system-data-common-dbdatareader-isdbnullasync(system-int32)
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.IsDBNullAsync(System.Int32)
+    name: IsDBNullAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.isdbnullasync#system-data-common-dbdatareader-isdbnullasync(system-int32)
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Data.Common.DbDataReader.IsDBNullAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:System.Data.Common.DbDataReader.IsDBNullAsync(System.Int32,System.Threading.CancellationToken)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.isdbnullasync#system-data-common-dbdatareader-isdbnullasync(system-int32-system-threading-cancellationtoken)
+  name: IsDBNullAsync(int, CancellationToken)
+  nameWithType: DbDataReader.IsDBNullAsync(int, CancellationToken)
+  fullName: System.Data.Common.DbDataReader.IsDBNullAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: DbDataReader.IsDBNullAsync(Integer, CancellationToken)
+  fullName.vb: System.Data.Common.DbDataReader.IsDBNullAsync(Integer, System.Threading.CancellationToken)
+  name.vb: IsDBNullAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.IsDBNullAsync(System.Int32,System.Threading.CancellationToken)
+    name: IsDBNullAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.isdbnullasync#system-data-common-dbdatareader-isdbnullasync(system-int32-system-threading-cancellationtoken)
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.IsDBNullAsync(System.Int32,System.Threading.CancellationToken)
+    name: IsDBNullAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.isdbnullasync#system-data-common-dbdatareader-isdbnullasync(system-int32-system-threading-cancellationtoken)
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Data.Common.DbDataReader.ReadAsync
+  commentId: M:System.Data.Common.DbDataReader.ReadAsync
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.readasync#system-data-common-dbdatareader-readasync
+  name: ReadAsync()
+  nameWithType: DbDataReader.ReadAsync()
+  fullName: System.Data.Common.DbDataReader.ReadAsync()
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.ReadAsync
+    name: ReadAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.readasync#system-data-common-dbdatareader-readasync
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.ReadAsync
+    name: ReadAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.readasync#system-data-common-dbdatareader-readasync
+  - name: (
+  - name: )
+- uid: System.Data.Common.DbDataReader.NextResultAsync
+  commentId: M:System.Data.Common.DbDataReader.NextResultAsync
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.nextresultasync#system-data-common-dbdatareader-nextresultasync
+  name: NextResultAsync()
+  nameWithType: DbDataReader.NextResultAsync()
+  fullName: System.Data.Common.DbDataReader.NextResultAsync()
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.NextResultAsync
+    name: NextResultAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.nextresultasync#system-data-common-dbdatareader-nextresultasync
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.NextResultAsync
+    name: NextResultAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.nextresultasync#system-data-common-dbdatareader-nextresultasync
+  - name: (
+  - name: )
+- uid: System.Data.Common.DbDataReader.NextResultAsync(System.Threading.CancellationToken)
+  commentId: M:System.Data.Common.DbDataReader.NextResultAsync(System.Threading.CancellationToken)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.nextresultasync#system-data-common-dbdatareader-nextresultasync(system-threading-cancellationtoken)
+  name: NextResultAsync(CancellationToken)
+  nameWithType: DbDataReader.NextResultAsync(CancellationToken)
+  fullName: System.Data.Common.DbDataReader.NextResultAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.NextResultAsync(System.Threading.CancellationToken)
+    name: NextResultAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.nextresultasync#system-data-common-dbdatareader-nextresultasync(system-threading-cancellationtoken)
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.NextResultAsync(System.Threading.CancellationToken)
+    name: NextResultAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.nextresultasync#system-data-common-dbdatareader-nextresultasync(system-threading-cancellationtoken)
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Data.Common.DbDataReader.VisibleFieldCount
+  commentId: P:System.Data.Common.DbDataReader.VisibleFieldCount
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.visiblefieldcount
+  name: VisibleFieldCount
+  nameWithType: DbDataReader.VisibleFieldCount
+  fullName: System.Data.Common.DbDataReader.VisibleFieldCount
+- uid: System.MarshalByRefObject.GetLifetimeService
+  commentId: M:System.MarshalByRefObject.GetLifetimeService
+  parent: System.MarshalByRefObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice
+  name: GetLifetimeService()
+  nameWithType: MarshalByRefObject.GetLifetimeService()
+  fullName: System.MarshalByRefObject.GetLifetimeService()
+  spec.csharp:
+  - uid: System.MarshalByRefObject.GetLifetimeService
+    name: GetLifetimeService
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.GetLifetimeService
+    name: GetLifetimeService
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice
+  - name: (
+  - name: )
+- uid: System.MarshalByRefObject.InitializeLifetimeService
+  commentId: M:System.MarshalByRefObject.InitializeLifetimeService
+  parent: System.MarshalByRefObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.initializelifetimeservice
+  name: InitializeLifetimeService()
+  nameWithType: MarshalByRefObject.InitializeLifetimeService()
+  fullName: System.MarshalByRefObject.InitializeLifetimeService()
+  spec.csharp:
+  - uid: System.MarshalByRefObject.InitializeLifetimeService
+    name: InitializeLifetimeService
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.initializelifetimeservice
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.InitializeLifetimeService
+    name: InitializeLifetimeService
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.initializelifetimeservice
+  - name: (
+  - name: )
+- uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  commentId: M:System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  parent: System.MarshalByRefObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.memberwiseclone
+  name: MemberwiseClone(bool)
+  nameWithType: MarshalByRefObject.MemberwiseClone(bool)
+  fullName: System.MarshalByRefObject.MemberwiseClone(bool)
+  nameWithType.vb: MarshalByRefObject.MemberwiseClone(Boolean)
+  fullName.vb: System.MarshalByRefObject.MemberwiseClone(Boolean)
+  name.vb: MemberwiseClone(Boolean)
+  spec.csharp:
+  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.memberwiseclone
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.memberwiseclone
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ProviderToReaderWrapper, To>()
-  nameWithType: EnumUtil.MapEnums<ProviderToReaderWrapper, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ProviderToReaderWrapper, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper, To)()
-  name.vb: MapEnums(Of ProviderToReaderWrapper, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ProviderToReaderWrapper, To>(ProviderToReaderWrapper)
+  nameWithType: EnumUtil.MapEnums<ProviderToReaderWrapper, To>(ProviderToReaderWrapper)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper, To>(SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper)
+  nameWithType.vb: EnumUtil.MapEnums(Of ProviderToReaderWrapper, To)(ProviderToReaderWrapper)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper, To)(SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper)
+  name.vb: MapEnums(Of ProviderToReaderWrapper, To)(ProviderToReaderWrapper)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ProviderToReaderWrapper, To>
-    nameWithType: EnumUtil.MapEnums<ProviderToReaderWrapper, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+    name: ProviderToReaderWrapper
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+    name: ProviderToReaderWrapper
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ProviderToReaderWrapper, To)
-    nameWithType: EnumUtil.MapEnums(Of ProviderToReaderWrapper, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+    name: ProviderToReaderWrapper
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+    name: ProviderToReaderWrapper
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ProviderToReaderWrapper, To>()
-  nameWithType: Converters.MapEnums<ProviderToReaderWrapper, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper, To>()
-  nameWithType.vb: Converters.MapEnums(Of ProviderToReaderWrapper, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper, To)()
-  name.vb: MapEnums(Of ProviderToReaderWrapper, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ProviderToReaderWrapper, To>(ProviderToReaderWrapper)
+  nameWithType: Converters.MapEnums<ProviderToReaderWrapper, To>(ProviderToReaderWrapper)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper, To>(SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper)
+  nameWithType.vb: Converters.MapEnums(Of ProviderToReaderWrapper, To)(ProviderToReaderWrapper)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper, To)(SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper)
+  name.vb: MapEnums(Of ProviderToReaderWrapper, To)(ProviderToReaderWrapper)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ProviderToReaderWrapper, To>
-    nameWithType: Converters.MapEnums<ProviderToReaderWrapper, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+    name: ProviderToReaderWrapper
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+    name: ProviderToReaderWrapper
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ProviderToReaderWrapper, To)
-    nameWithType: Converters.MapEnums(Of ProviderToReaderWrapper, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+    name: ProviderToReaderWrapper
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+    name: ProviderToReaderWrapper
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html
+  - name: )
+- uid: System.Data.Common
+  commentId: N:System.Data.Common
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Data.Common
+  nameWithType: System.Data.Common
+  fullName: System.Data.Common
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Data
+    name: Data
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data
+  - name: .
+  - uid: System.Data.Common
+    name: Common
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Data
+    name: Data
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data
+  - name: .
+  - uid: System.Data.Common
+    name: Common
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
+- uid: System.Data
+  commentId: N:System.Data
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Data
+  nameWithType: System.Data
+  fullName: System.Data
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Data
+    name: Data
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Data
+    name: Data
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1228,43 +2076,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1273,87 +2123,361 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.#ctor*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.#ctor
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.CreateAsync*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.CreateAsync
   isExternal: true
-  name: ProviderToReaderWrapper
-  nameWithType: ProviderToReaderWrapper.ProviderToReaderWrapper
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.ProviderToReaderWrapper
-- uid: SuperOffice.CRM.ArchiveLists.IArchiveProvider
-  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProvider
-  parent: SuperOffice.CRM.ArchiveLists
-  isExternal: true
-  name: IArchiveProvider
-  nameWithType: IArchiveProvider
-  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_CreateAsync_SuperOffice_CRM_ArchiveLists_IArchiveProvider_System_String_System_Threading_CancellationToken_
+  name: CreateAsync
+  nameWithType: ProviderToReaderWrapper.CreateAsync
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.CreateAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ProviderToReaderWrapper>
+  nameWithType: Task<ProviderToReaderWrapper>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper>
+  nameWithType.vb: Task(Of ProviderToReaderWrapper)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper)
+  name.vb: Task(Of ProviderToReaderWrapper)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+    name: ProviderToReaderWrapper
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+    name: ProviderToReaderWrapper
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: System.Data.Common.DbDataReader.GetEnumerator
+  commentId: M:System.Data.Common.DbDataReader.GetEnumerator
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getenumerator
+  name: GetEnumerator()
+  nameWithType: DbDataReader.GetEnumerator()
+  fullName: System.Data.Common.DbDataReader.GetEnumerator()
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getenumerator
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetEnumerator*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetEnumerator
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_GetEnumerator
+  name: GetEnumerator
+  nameWithType: ProviderToReaderWrapper.GetEnumerator
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetEnumerator
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerator
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: System.Data.Common.DbDataReader.Close
+  commentId: M:System.Data.Common.DbDataReader.Close
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.close
+  name: Close()
+  nameWithType: DbDataReader.Close()
+  fullName: System.Data.Common.DbDataReader.Close()
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.Close
+    name: Close
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.close
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.Close
+    name: Close
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.close
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Close*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Close
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_Close
   name: Close
   nameWithType: ProviderToReaderWrapper.Close
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Close
+- uid: System.Data.Common.DbDataReader.GetSchemaTable
+  commentId: M:System.Data.Common.DbDataReader.GetSchemaTable
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getschematable
+  name: GetSchemaTable()
+  nameWithType: DbDataReader.GetSchemaTable()
+  fullName: System.Data.Common.DbDataReader.GetSchemaTable()
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetSchemaTable
+    name: GetSchemaTable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getschematable
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetSchemaTable
+    name: GetSchemaTable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getschematable
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetSchemaTable*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetSchemaTable
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_GetSchemaTable
   name: GetSchemaTable
   nameWithType: ProviderToReaderWrapper.GetSchemaTable
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetSchemaTable
 - uid: System.Data.DataTable
+  commentId: T:System.Data.DataTable
+  parent: System.Data
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datatable
   name: DataTable
   nameWithType: DataTable
   fullName: System.Data.DataTable
+- uid: System.Data.Common.DbDataReader.NextResult
+  commentId: M:System.Data.Common.DbDataReader.NextResult
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.nextresult
+  name: NextResult()
+  nameWithType: DbDataReader.NextResult()
+  fullName: System.Data.Common.DbDataReader.NextResult()
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.NextResult
+    name: NextResult
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.nextresult
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.NextResult
+    name: NextResult
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.nextresult
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.NextResult*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.NextResult
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_NextResult
   name: NextResult
   nameWithType: ProviderToReaderWrapper.NextResult
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.NextResult
@@ -1361,24 +2485,191 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Data.Common.DbDataReader.Read
+  commentId: M:System.Data.Common.DbDataReader.Read
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.read
+  name: Read()
+  nameWithType: DbDataReader.Read()
+  fullName: System.Data.Common.DbDataReader.Read()
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.Read
+    name: Read
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.read
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.Read
+    name: Read
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.read
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Read*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Read
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_Read
   name: Read
   nameWithType: ProviderToReaderWrapper.Read
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Read
+- uid: System.Data.Common.DbDataReader.ReadAsync(System.Threading.CancellationToken)
+  commentId: M:System.Data.Common.DbDataReader.ReadAsync(System.Threading.CancellationToken)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.readasync#system-data-common-dbdatareader-readasync(system-threading-cancellationtoken)
+  name: ReadAsync(CancellationToken)
+  nameWithType: DbDataReader.ReadAsync(CancellationToken)
+  fullName: System.Data.Common.DbDataReader.ReadAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.ReadAsync(System.Threading.CancellationToken)
+    name: ReadAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.readasync#system-data-common-dbdatareader-readasync(system-threading-cancellationtoken)
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.ReadAsync(System.Threading.CancellationToken)
+    name: ReadAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.readasync#system-data-common-dbdatareader-readasync(system-threading-cancellationtoken)
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.ReadAsync*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.ReadAsync
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_ReadAsync_System_Threading_CancellationToken_
+  name: ReadAsync
+  nameWithType: ProviderToReaderWrapper.ReadAsync
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.ReadAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Data.Common.DbDataReader.Dispose(System.Boolean)
+  commentId: M:System.Data.Common.DbDataReader.Dispose(System.Boolean)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.dispose#system-data-common-dbdatareader-dispose(system-boolean)
+  name: Dispose(bool)
+  nameWithType: DbDataReader.Dispose(bool)
+  fullName: System.Data.Common.DbDataReader.Dispose(bool)
+  nameWithType.vb: DbDataReader.Dispose(Boolean)
+  fullName.vb: System.Data.Common.DbDataReader.Dispose(Boolean)
+  name.vb: Dispose(Boolean)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.Dispose(System.Boolean)
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.dispose#system-data-common-dbdatareader-dispose(system-boolean)
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.Dispose(System.Boolean)
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.dispose#system-data-common-dbdatareader-dispose(system-boolean)
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Dispose*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Dispose
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_Dispose_System_Boolean_
   name: Dispose
   nameWithType: ProviderToReaderWrapper.Dispose
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Dispose
+- uid: System.Data.Common.DbDataReader.GetBoolean(System.Int32)
+  commentId: M:System.Data.Common.DbDataReader.GetBoolean(System.Int32)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getboolean
+  name: GetBoolean(int)
+  nameWithType: DbDataReader.GetBoolean(int)
+  fullName: System.Data.Common.DbDataReader.GetBoolean(int)
+  nameWithType.vb: DbDataReader.GetBoolean(Integer)
+  fullName.vb: System.Data.Common.DbDataReader.GetBoolean(Integer)
+  name.vb: GetBoolean(Integer)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetBoolean(System.Int32)
+    name: GetBoolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getboolean
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetBoolean(System.Int32)
+    name: GetBoolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getboolean
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBoolean*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBoolean
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_GetBoolean_System_Int32_
   name: GetBoolean
   nameWithType: ProviderToReaderWrapper.GetBoolean
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBoolean
@@ -1386,12 +2677,50 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Data.Common.DbDataReader.GetByte(System.Int32)
+  commentId: M:System.Data.Common.DbDataReader.GetByte(System.Int32)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getbyte
+  name: GetByte(int)
+  nameWithType: DbDataReader.GetByte(int)
+  fullName: System.Data.Common.DbDataReader.GetByte(int)
+  nameWithType.vb: DbDataReader.GetByte(Integer)
+  fullName.vb: System.Data.Common.DbDataReader.GetByte(Integer)
+  name.vb: GetByte(Integer)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetByte(System.Int32)
+    name: GetByte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getbyte
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetByte(System.Int32)
+    name: GetByte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getbyte
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetByte*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetByte
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_GetByte_System_Int32_
   name: GetByte
   nameWithType: ProviderToReaderWrapper.GetByte
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetByte
@@ -1399,12 +2728,102 @@ references:
   commentId: T:System.Byte
   parent: System
   isExternal: true
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: System.Data.Common.DbDataReader.GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)
+  commentId: M:System.Data.Common.DbDataReader.GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getbytes
+  name: GetBytes(int, long, byte[], int, int)
+  nameWithType: DbDataReader.GetBytes(int, long, byte[], int, int)
+  fullName: System.Data.Common.DbDataReader.GetBytes(int, long, byte[], int, int)
+  nameWithType.vb: DbDataReader.GetBytes(Integer, Long, Byte(), Integer, Integer)
+  fullName.vb: System.Data.Common.DbDataReader.GetBytes(Integer, Long, Byte(), Integer, Integer)
+  name.vb: GetBytes(Integer, Long, Byte(), Integer, Integer)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)
+    name: GetBytes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getbytes
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int64
+    name: long
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int64
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)
+    name: GetBytes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getbytes
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int64
+    name: Long
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int64
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBytes*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBytes
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_GetBytes_System_Int32_System_Int64_System_Byte___System_Int32_System_Int32_
   name: GetBytes
   nameWithType: ProviderToReaderWrapper.GetBytes
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBytes
@@ -1412,38 +2831,73 @@ references:
   commentId: T:System.Int64
   parent: System
   isExternal: true
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
 - uid: System.Byte[]
   isExternal: true
-  name: Byte[]
-  nameWithType: Byte[]
-  fullName: System.Byte[]
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
   nameWithType.vb: Byte()
-  fullName.vb: System.Byte()
+  fullName.vb: Byte()
   name.vb: Byte()
   spec.csharp:
   - uid: System.Byte
-    name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
+    name: byte
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Byte
     name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: System.Data.Common.DbDataReader.GetChar(System.Int32)
+  commentId: M:System.Data.Common.DbDataReader.GetChar(System.Int32)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getchar
+  name: GetChar(int)
+  nameWithType: DbDataReader.GetChar(int)
+  fullName: System.Data.Common.DbDataReader.GetChar(int)
+  nameWithType.vb: DbDataReader.GetChar(Integer)
+  fullName.vb: System.Data.Common.DbDataReader.GetChar(Integer)
+  name.vb: GetChar(Integer)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetChar(System.Int32)
+    name: GetChar
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getchar
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetChar(System.Int32)
+    name: GetChar
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getchar
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChar*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChar
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_GetChar_System_Int32_
   name: GetChar
   nameWithType: ProviderToReaderWrapper.GetChar
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChar
@@ -1451,78 +2905,347 @@ references:
   commentId: T:System.Char
   parent: System
   isExternal: true
-  name: Char
-  nameWithType: Char
-  fullName: System.Char
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char
+  nameWithType: char
+  fullName: char
+  nameWithType.vb: Char
+  fullName.vb: Char
+  name.vb: Char
+- uid: System.Data.Common.DbDataReader.GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)
+  commentId: M:System.Data.Common.DbDataReader.GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getchars
+  name: GetChars(int, long, char[], int, int)
+  nameWithType: DbDataReader.GetChars(int, long, char[], int, int)
+  fullName: System.Data.Common.DbDataReader.GetChars(int, long, char[], int, int)
+  nameWithType.vb: DbDataReader.GetChars(Integer, Long, Char(), Integer, Integer)
+  fullName.vb: System.Data.Common.DbDataReader.GetChars(Integer, Long, Char(), Integer, Integer)
+  name.vb: GetChars(Integer, Long, Char(), Integer, Integer)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)
+    name: GetChars
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getchars
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int64
+    name: long
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int64
+  - name: ','
+  - name: " "
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)
+    name: GetChars
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getchars
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int64
+    name: Long
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int64
+  - name: ','
+  - name: " "
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChars*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChars
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_GetChars_System_Int32_System_Int64_System_Char___System_Int32_System_Int32_
   name: GetChars
   nameWithType: ProviderToReaderWrapper.GetChars
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChars
 - uid: System.Char[]
   isExternal: true
-  name: Char[]
-  nameWithType: Char[]
-  fullName: System.Char[]
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char[]
+  nameWithType: char[]
+  fullName: char[]
   nameWithType.vb: Char()
-  fullName.vb: System.Char()
+  fullName.vb: Char()
   name.vb: Char()
   spec.csharp:
   - uid: System.Char
-    name: Char
-    nameWithType: Char
-    fullName: System.Char
+    name: char
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Char
     name: Char
-    nameWithType: Char
-    fullName: System.Char
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetData*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetData
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: (
+  - name: )
+- uid: System.Data.Common.DbDataReader.GetDbDataReader(System.Int32)
+  commentId: M:System.Data.Common.DbDataReader.GetDbDataReader(System.Int32)
+  parent: System.Data.Common.DbDataReader
   isExternal: true
-  name: GetData
-  nameWithType: ProviderToReaderWrapper.GetData
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetData
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getdbdatareader
+  name: GetDbDataReader(int)
+  nameWithType: DbDataReader.GetDbDataReader(int)
+  fullName: System.Data.Common.DbDataReader.GetDbDataReader(int)
+  nameWithType.vb: DbDataReader.GetDbDataReader(Integer)
+  fullName.vb: System.Data.Common.DbDataReader.GetDbDataReader(Integer)
+  name.vb: GetDbDataReader(Integer)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetDbDataReader(System.Int32)
+    name: GetDbDataReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getdbdatareader
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetDbDataReader(System.Int32)
+    name: GetDbDataReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getdbdatareader
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDbDataReader*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDbDataReader
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_GetDbDataReader_System_Int32_
+  name: GetDbDataReader
+  nameWithType: ProviderToReaderWrapper.GetDbDataReader
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDbDataReader
+- uid: System.Data.Common.DbDataReader.GetDataTypeName(System.Int32)
+  commentId: M:System.Data.Common.DbDataReader.GetDataTypeName(System.Int32)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getdatatypename
+  name: GetDataTypeName(int)
+  nameWithType: DbDataReader.GetDataTypeName(int)
+  fullName: System.Data.Common.DbDataReader.GetDataTypeName(int)
+  nameWithType.vb: DbDataReader.GetDataTypeName(Integer)
+  fullName.vb: System.Data.Common.DbDataReader.GetDataTypeName(Integer)
+  name.vb: GetDataTypeName(Integer)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetDataTypeName(System.Int32)
+    name: GetDataTypeName
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getdatatypename
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetDataTypeName(System.Int32)
+    name: GetDataTypeName
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getdatatypename
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDataTypeName*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDataTypeName
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_GetDataTypeName_System_Int32_
   name: GetDataTypeName
   nameWithType: ProviderToReaderWrapper.GetDataTypeName
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDataTypeName
+- uid: System.Data.Common.DbDataReader.GetDateTime(System.Int32)
+  commentId: M:System.Data.Common.DbDataReader.GetDateTime(System.Int32)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getdatetime
+  name: GetDateTime(int)
+  nameWithType: DbDataReader.GetDateTime(int)
+  fullName: System.Data.Common.DbDataReader.GetDateTime(int)
+  nameWithType.vb: DbDataReader.GetDateTime(Integer)
+  fullName.vb: System.Data.Common.DbDataReader.GetDateTime(Integer)
+  name.vb: GetDateTime(Integer)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetDateTime(System.Int32)
+    name: GetDateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getdatetime
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetDateTime(System.Int32)
+    name: GetDateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getdatetime
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDateTime*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDateTime
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_GetDateTime_System_Int32_
   name: GetDateTime
   nameWithType: ProviderToReaderWrapper.GetDateTime
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDateTime
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: System.Data.Common.DbDataReader.GetDecimal(System.Int32)
+  commentId: M:System.Data.Common.DbDataReader.GetDecimal(System.Int32)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getdecimal
+  name: GetDecimal(int)
+  nameWithType: DbDataReader.GetDecimal(int)
+  fullName: System.Data.Common.DbDataReader.GetDecimal(int)
+  nameWithType.vb: DbDataReader.GetDecimal(Integer)
+  fullName.vb: System.Data.Common.DbDataReader.GetDecimal(Integer)
+  name.vb: GetDecimal(Integer)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetDecimal(System.Int32)
+    name: GetDecimal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getdecimal
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetDecimal(System.Int32)
+    name: GetDecimal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getdecimal
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDecimal*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDecimal
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_GetDecimal_System_Int32_
   name: GetDecimal
   nameWithType: ProviderToReaderWrapper.GetDecimal
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDecimal
 - uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
   isExternal: true
-  name: Decimal
-  nameWithType: Decimal
-  fullName: System.Decimal
+  href: https://learn.microsoft.com/dotnet/api/system.decimal
+  name: decimal
+  nameWithType: decimal
+  fullName: decimal
+  nameWithType.vb: Decimal
+  fullName.vb: Decimal
+  name.vb: Decimal
+- uid: System.Data.Common.DbDataReader.GetDouble(System.Int32)
+  commentId: M:System.Data.Common.DbDataReader.GetDouble(System.Int32)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getdouble
+  name: GetDouble(int)
+  nameWithType: DbDataReader.GetDouble(int)
+  fullName: System.Data.Common.DbDataReader.GetDouble(int)
+  nameWithType.vb: DbDataReader.GetDouble(Integer)
+  fullName.vb: System.Data.Common.DbDataReader.GetDouble(Integer)
+  name.vb: GetDouble(Integer)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetDouble(System.Int32)
+    name: GetDouble
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getdouble
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetDouble(System.Int32)
+    name: GetDouble
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getdouble
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDouble*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDouble
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_GetDouble_System_Int32_
   name: GetDouble
   nameWithType: ProviderToReaderWrapper.GetDouble
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDouble
@@ -1530,23 +3253,98 @@ references:
   commentId: T:System.Double
   parent: System
   isExternal: true
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.Data.Common.DbDataReader.GetFieldType(System.Int32)
+  commentId: M:System.Data.Common.DbDataReader.GetFieldType(System.Int32)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getfieldtype
+  name: GetFieldType(int)
+  nameWithType: DbDataReader.GetFieldType(int)
+  fullName: System.Data.Common.DbDataReader.GetFieldType(int)
+  nameWithType.vb: DbDataReader.GetFieldType(Integer)
+  fullName.vb: System.Data.Common.DbDataReader.GetFieldType(Integer)
+  name.vb: GetFieldType(Integer)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetFieldType(System.Int32)
+    name: GetFieldType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getfieldtype
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetFieldType(System.Int32)
+    name: GetFieldType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getfieldtype
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFieldType*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFieldType
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_GetFieldType_System_Int32_
   name: GetFieldType
   nameWithType: ProviderToReaderWrapper.GetFieldType
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFieldType
 - uid: System.Type
+  commentId: T:System.Type
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
   name: Type
   nameWithType: Type
   fullName: System.Type
+- uid: System.Data.Common.DbDataReader.GetFloat(System.Int32)
+  commentId: M:System.Data.Common.DbDataReader.GetFloat(System.Int32)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getfloat
+  name: GetFloat(int)
+  nameWithType: DbDataReader.GetFloat(int)
+  fullName: System.Data.Common.DbDataReader.GetFloat(int)
+  nameWithType.vb: DbDataReader.GetFloat(Integer)
+  fullName.vb: System.Data.Common.DbDataReader.GetFloat(Integer)
+  name.vb: GetFloat(Integer)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetFloat(System.Int32)
+    name: GetFloat
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getfloat
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetFloat(System.Int32)
+    name: GetFloat
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getfloat
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFloat*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFloat
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_GetFloat_System_Int32_
   name: GetFloat
   nameWithType: ProviderToReaderWrapper.GetFloat
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFloat
@@ -1554,23 +3352,98 @@ references:
   commentId: T:System.Single
   parent: System
   isExternal: true
-  name: Single
-  nameWithType: Single
-  fullName: System.Single
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Data.Common.DbDataReader.GetGuid(System.Int32)
+  commentId: M:System.Data.Common.DbDataReader.GetGuid(System.Int32)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getguid
+  name: GetGuid(int)
+  nameWithType: DbDataReader.GetGuid(int)
+  fullName: System.Data.Common.DbDataReader.GetGuid(int)
+  nameWithType.vb: DbDataReader.GetGuid(Integer)
+  fullName.vb: System.Data.Common.DbDataReader.GetGuid(Integer)
+  name.vb: GetGuid(Integer)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetGuid(System.Int32)
+    name: GetGuid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getguid
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetGuid(System.Int32)
+    name: GetGuid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getguid
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetGuid*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetGuid
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_GetGuid_System_Int32_
   name: GetGuid
   nameWithType: ProviderToReaderWrapper.GetGuid
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetGuid
 - uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
   name: Guid
   nameWithType: Guid
   fullName: System.Guid
+- uid: System.Data.Common.DbDataReader.GetInt16(System.Int32)
+  commentId: M:System.Data.Common.DbDataReader.GetInt16(System.Int32)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getint16
+  name: GetInt16(int)
+  nameWithType: DbDataReader.GetInt16(int)
+  fullName: System.Data.Common.DbDataReader.GetInt16(int)
+  nameWithType.vb: DbDataReader.GetInt16(Integer)
+  fullName.vb: System.Data.Common.DbDataReader.GetInt16(Integer)
+  name.vb: GetInt16(Integer)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetInt16(System.Int32)
+    name: GetInt16
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getint16
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetInt16(System.Int32)
+    name: GetInt16
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getint16
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt16*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt16
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_GetInt16_System_Int32_
   name: GetInt16
   nameWithType: ProviderToReaderWrapper.GetInt16
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt16
@@ -1578,110 +3451,502 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: System.Data.Common.DbDataReader.GetInt32(System.Int32)
+  commentId: M:System.Data.Common.DbDataReader.GetInt32(System.Int32)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getint32
+  name: GetInt32(int)
+  nameWithType: DbDataReader.GetInt32(int)
+  fullName: System.Data.Common.DbDataReader.GetInt32(int)
+  nameWithType.vb: DbDataReader.GetInt32(Integer)
+  fullName.vb: System.Data.Common.DbDataReader.GetInt32(Integer)
+  name.vb: GetInt32(Integer)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetInt32(System.Int32)
+    name: GetInt32
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getint32
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetInt32(System.Int32)
+    name: GetInt32
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getint32
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt32*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt32
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_GetInt32_System_Int32_
   name: GetInt32
   nameWithType: ProviderToReaderWrapper.GetInt32
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt32
+- uid: System.Data.Common.DbDataReader.GetInt64(System.Int32)
+  commentId: M:System.Data.Common.DbDataReader.GetInt64(System.Int32)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getint64
+  name: GetInt64(int)
+  nameWithType: DbDataReader.GetInt64(int)
+  fullName: System.Data.Common.DbDataReader.GetInt64(int)
+  nameWithType.vb: DbDataReader.GetInt64(Integer)
+  fullName.vb: System.Data.Common.DbDataReader.GetInt64(Integer)
+  name.vb: GetInt64(Integer)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetInt64(System.Int32)
+    name: GetInt64
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getint64
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetInt64(System.Int32)
+    name: GetInt64
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getint64
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt64*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt64
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_GetInt64_System_Int32_
   name: GetInt64
   nameWithType: ProviderToReaderWrapper.GetInt64
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt64
+- uid: System.Data.Common.DbDataReader.GetName(System.Int32)
+  commentId: M:System.Data.Common.DbDataReader.GetName(System.Int32)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getname
+  name: GetName(int)
+  nameWithType: DbDataReader.GetName(int)
+  fullName: System.Data.Common.DbDataReader.GetName(int)
+  nameWithType.vb: DbDataReader.GetName(Integer)
+  fullName.vb: System.Data.Common.DbDataReader.GetName(Integer)
+  name.vb: GetName(Integer)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetName(System.Int32)
+    name: GetName
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getname
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetName(System.Int32)
+    name: GetName
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getname
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetName*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetName
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_GetName_System_Int32_
   name: GetName
   nameWithType: ProviderToReaderWrapper.GetName
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetName
+- uid: System.Data.Common.DbDataReader.GetOrdinal(System.String)
+  commentId: M:System.Data.Common.DbDataReader.GetOrdinal(System.String)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getordinal
+  name: GetOrdinal(string)
+  nameWithType: DbDataReader.GetOrdinal(string)
+  fullName: System.Data.Common.DbDataReader.GetOrdinal(string)
+  nameWithType.vb: DbDataReader.GetOrdinal(String)
+  fullName.vb: System.Data.Common.DbDataReader.GetOrdinal(String)
+  name.vb: GetOrdinal(String)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetOrdinal(System.String)
+    name: GetOrdinal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getordinal
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetOrdinal(System.String)
+    name: GetOrdinal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getordinal
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetOrdinal*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetOrdinal
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_GetOrdinal_System_String_
   name: GetOrdinal
   nameWithType: ProviderToReaderWrapper.GetOrdinal
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetOrdinal
+- uid: System.Data.Common.DbDataReader.GetString(System.Int32)
+  commentId: M:System.Data.Common.DbDataReader.GetString(System.Int32)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getstring
+  name: GetString(int)
+  nameWithType: DbDataReader.GetString(int)
+  fullName: System.Data.Common.DbDataReader.GetString(int)
+  nameWithType.vb: DbDataReader.GetString(Integer)
+  fullName.vb: System.Data.Common.DbDataReader.GetString(Integer)
+  name.vb: GetString(Integer)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetString(System.Int32)
+    name: GetString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getstring
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetString(System.Int32)
+    name: GetString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getstring
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetString*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetString
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_GetString_System_Int32_
   name: GetString
   nameWithType: ProviderToReaderWrapper.GetString
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetString
+- uid: System.Data.Common.DbDataReader.GetValue(System.Int32)
+  commentId: M:System.Data.Common.DbDataReader.GetValue(System.Int32)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getvalue
+  name: GetValue(int)
+  nameWithType: DbDataReader.GetValue(int)
+  fullName: System.Data.Common.DbDataReader.GetValue(int)
+  nameWithType.vb: DbDataReader.GetValue(Integer)
+  fullName.vb: System.Data.Common.DbDataReader.GetValue(Integer)
+  name.vb: GetValue(Integer)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetValue(System.Int32)
+    name: GetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getvalue
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetValue(System.Int32)
+    name: GetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getvalue
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValue*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValue
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_GetValue_System_Int32_
   name: GetValue
   nameWithType: ProviderToReaderWrapper.GetValue
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValue
+- uid: System.Data.Common.DbDataReader.GetValues(System.Object[])
+  commentId: M:System.Data.Common.DbDataReader.GetValues(System.Object[])
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getvalues
+  name: GetValues(object[])
+  nameWithType: DbDataReader.GetValues(object[])
+  fullName: System.Data.Common.DbDataReader.GetValues(object[])
+  nameWithType.vb: DbDataReader.GetValues(Object())
+  fullName.vb: System.Data.Common.DbDataReader.GetValues(Object())
+  name.vb: GetValues(Object())
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.GetValues(System.Object[])
+    name: GetValues
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getvalues
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.GetValues(System.Object[])
+    name: GetValues
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.getvalues
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValues*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValues
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_GetValues_System_Object___
   name: GetValues
   nameWithType: ProviderToReaderWrapper.GetValues
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValues
 - uid: System.Object[]
   isExternal: true
-  name: Object[]
-  nameWithType: Object[]
-  fullName: System.Object[]
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object[]
+  nameWithType: object[]
+  fullName: object[]
   nameWithType.vb: Object()
-  fullName.vb: System.Object()
+  fullName.vb: Object()
   name.vb: Object()
   spec.csharp:
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+- uid: System.Data.Common.DbDataReader.IsDBNull(System.Int32)
+  commentId: M:System.Data.Common.DbDataReader.IsDBNull(System.Int32)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.isdbnull
+  name: IsDBNull(int)
+  nameWithType: DbDataReader.IsDBNull(int)
+  fullName: System.Data.Common.DbDataReader.IsDBNull(int)
+  nameWithType.vb: DbDataReader.IsDBNull(Integer)
+  fullName.vb: System.Data.Common.DbDataReader.IsDBNull(Integer)
+  name.vb: IsDBNull(Integer)
+  spec.csharp:
+  - uid: System.Data.Common.DbDataReader.IsDBNull(System.Int32)
+    name: IsDBNull
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.isdbnull
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.IsDBNull(System.Int32)
+    name: IsDBNull
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.isdbnull
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsDBNull*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsDBNull
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_IsDBNull_System_Int32_
   name: IsDBNull
   nameWithType: ProviderToReaderWrapper.IsDBNull
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsDBNull
+- uid: System.Data.Common.DbDataReader.HasRows
+  commentId: P:System.Data.Common.DbDataReader.HasRows
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.hasrows
+  name: HasRows
+  nameWithType: DbDataReader.HasRows
+  fullName: System.Data.Common.DbDataReader.HasRows
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.HasRows*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.HasRows
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_HasRows
+  name: HasRows
+  nameWithType: ProviderToReaderWrapper.HasRows
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.HasRows
+- uid: System.Data.Common.DbDataReader.Depth
+  commentId: P:System.Data.Common.DbDataReader.Depth
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.depth
+  name: Depth
+  nameWithType: DbDataReader.Depth
+  fullName: System.Data.Common.DbDataReader.Depth
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Depth*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Depth
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_Depth
   name: Depth
   nameWithType: ProviderToReaderWrapper.Depth
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Depth
+- uid: System.Data.Common.DbDataReader.IsClosed
+  commentId: P:System.Data.Common.DbDataReader.IsClosed
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.isclosed
+  name: IsClosed
+  nameWithType: DbDataReader.IsClosed
+  fullName: System.Data.Common.DbDataReader.IsClosed
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsClosed*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsClosed
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_IsClosed
   name: IsClosed
   nameWithType: ProviderToReaderWrapper.IsClosed
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsClosed
+- uid: System.Data.Common.DbDataReader.RecordsAffected
+  commentId: P:System.Data.Common.DbDataReader.RecordsAffected
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.recordsaffected
+  name: RecordsAffected
+  nameWithType: DbDataReader.RecordsAffected
+  fullName: System.Data.Common.DbDataReader.RecordsAffected
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.RecordsAffected*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.RecordsAffected
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_RecordsAffected
   name: RecordsAffected
   nameWithType: ProviderToReaderWrapper.RecordsAffected
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.RecordsAffected
+- uid: System.Data.Common.DbDataReader.FieldCount
+  commentId: P:System.Data.Common.DbDataReader.FieldCount
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.fieldcount
+  name: FieldCount
+  nameWithType: DbDataReader.FieldCount
+  fullName: System.Data.Common.DbDataReader.FieldCount
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.FieldCount*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.FieldCount
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_FieldCount
   name: FieldCount
   nameWithType: ProviderToReaderWrapper.FieldCount
   fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.FieldCount
+- uid: System.Data.Common.DbDataReader.Item(System.String)
+  commentId: P:System.Data.Common.DbDataReader.Item(System.String)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: this[string]
+  nameWithType: DbDataReader.this[string]
+  fullName: System.Data.Common.DbDataReader.this[string]
+  nameWithType.vb: DbDataReader.this[](String)
+  fullName.vb: System.Data.Common.DbDataReader.this[](String)
+  name.vb: this[](String)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ']'
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.Item(System.String)
+    name: this[]
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.item
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item
   isExternal: true
-  name: Item
-  nameWithType: ProviderToReaderWrapper.Item
-  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item
+  href: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.html#SuperOffice_CRM_ArchiveLists_ProviderToReaderWrapper_Item_System_String_
+  name: this
+  nameWithType: ProviderToReaderWrapper.this
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.this
+  nameWithType.vb: ProviderToReaderWrapper.this[]
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.this[]
+  name.vb: this[]
+- uid: System.Data.Common.DbDataReader.Item(System.Int32)
+  commentId: P:System.Data.Common.DbDataReader.Item(System.Int32)
+  parent: System.Data.Common.DbDataReader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: this[int]
+  nameWithType: DbDataReader.this[int]
+  fullName: System.Data.Common.DbDataReader.this[int]
+  nameWithType.vb: DbDataReader.this[](Integer)
+  fullName.vb: System.Data.Common.DbDataReader.this[](Integer)
+  name.vb: this[](Integer)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ']'
+  spec.vb:
+  - uid: System.Data.Common.DbDataReader.Item(System.Int32)
+    name: this[]
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbdatareader.item
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )

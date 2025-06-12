@@ -88,7 +88,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 197,
-    "Name": "Padberg-Balistreri",
-    "Tooltip": "et",
-    "Rank": 667,
+    "SaleTypeId": 153,
+    "Name": "Harris-Purdy",
+    "Tooltip": "nihil",
+    "Rank": 956,
     "DurationUnit": "Century",
-    "SaleDuration": 365,
-    "SaleTypeCatId": 406,
-    "Deleted": false,
+    "SaleDuration": 105,
+    "SaleTypeCatId": 758,
+    "Deleted": true,
     "HasGuide": false,
     "HasStakeholders": false,
     "IsAutoAdvance": false,
     "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 687,
-    "QuoteLinesTemplate": 607,
-    "ConfirmationLinesTemplate": 713,
+    "DefaultQuoteValidity": 376,
+    "QuoteLinesTemplate": 514,
+    "ConfirmationLinesTemplate": 478,
     "MaxDiscountPercentSet": true,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 862,
-    "MinEarningPercent": 790,
-    "GroupQuoteLinesBy": 393,
-    "SortGroupLinesBy": 990,
+    "MaxDiscountPercent": 93,
+    "MinEarningPercent": 208,
+    "GroupQuoteLinesBy": 188,
+    "SortGroupLinesBy": 683,
     "Stages": [
       {
-        "Id": 907,
-        "Name": "Spencer Group",
-        "ToolTip": "Dignissimos sit dolorem quidem.",
-        "Deleted": true,
-        "Rank": 280,
-        "Type": "rerum",
-        "ColorBlock": 359,
-        "IconHint": "suscipit",
-        "Selected": false,
-        "LastChanged": "2007-11-08T16:32:48.946344+01:00",
+        "Id": 486,
+        "Name": "Mante LLC",
+        "ToolTip": "Suscipit dicta nihil tempora impedit.",
+        "Deleted": false,
+        "Rank": 462,
+        "Type": "aut",
+        "ColorBlock": 162,
+        "IconHint": "non",
+        "Selected": true,
+        "LastChanged": "2019-01-11T17:54:09.1011806+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "facilis",
+        "ExtraInfo": "eius",
+        "StyleHint": "autem",
         "Hidden": true,
-        "FullName": "Mr. Ellis Friedrich Carter PhD",
+        "FullName": "Ariel Sporer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 224
+            "FieldLength": 275
           }
         }
       }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 128
+        "FieldLength": 851
       }
     }
   }
